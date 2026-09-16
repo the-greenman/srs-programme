@@ -10,10 +10,10 @@
     "issue_ref": [
       "srs#580"
     ],
-    "body": "One trap is already known and must not be reproduced: a Blueprint's first rootTypes entry must equal the Protocol's targetType, or the rendered brief carries no protocol section at all. The gallery example gets this wrong."
+    "body": "abandoned 2026-09-16 cleanup: no concrete issue; re-scope from the #580 dispatch list"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "abandoned",
   "createdAt": "2026-09-05T22:09:02.952264169+00:00",
-  "updatedAt": "2026-09-05T22:09:02.952268481+00:00",
+  "updatedAt": "2026-09-16T11:18:30.359067615+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

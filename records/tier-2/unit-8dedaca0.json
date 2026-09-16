@@ -15,8 +15,8 @@
     ],
     "body": "Dispatched from the srs gate:dispatched queue via srs#729 (dispatch comment 5640740450, pooled from srs#580 top-up 5639954352). Classification: Mode clear, Cell Individual x Air (Description), Door 3 (amends Accepted RFC-032's own conformance-rule surface). Charter check found no existing rfc-decision-* ruling on this exact question (RFC-032 [R3] scope, the tier field, or srs#534) — nothing to relitigate. PR: https://github.com/the-greenman/srs/pull/770 (gate:owner-merge — never auto-merged; the agent stops at the PR per the merge-rights contract)."
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-11T22:11:12.339016247+00:00",
-  "updatedAt": "2026-09-11T22:11:12.339026172+00:00",
+  "updatedAt": "2026-09-16T11:17:57.785137384+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

@@ -9,10 +9,11 @@
     "summary": "An agent that knows nothing about SRS is pointed at the programme repository over MCP and has to work out the concepts, the current state and the safe next actions from the records alone. This is the test the claim actually rests on: a specification that reads in layers should make that possible where a document outline does not.",
     "issue_ref": [
       "srs#580"
-    ]
+    ],
+    "body": "abandoned 2026-09-16 cleanup: no concrete issue; re-scope from the #580 dispatch list"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "abandoned",
   "createdAt": "2026-09-05T22:09:03.023128413+00:00",
-  "updatedAt": "2026-09-05T22:09:03.023133299+00:00",
+  "updatedAt": "2026-09-16T11:18:30.226358544+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

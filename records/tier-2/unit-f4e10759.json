@@ -10,10 +10,11 @@
     "issue_ref": [
       "srs#580",
       "srs#556"
-    ]
+    ],
+    "body": "abandoned 2026-09-16 cleanup: no concrete issue; re-scope from the #580 dispatch list"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "abandoned",
   "createdAt": "2026-09-05T22:08:28.827854323+00:00",
-  "updatedAt": "2026-09-05T22:08:28.827857891+00:00",
+  "updatedAt": "2026-09-16T11:18:30.493972897+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

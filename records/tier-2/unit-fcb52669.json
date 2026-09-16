@@ -16,8 +16,8 @@
     ],
     "body": "Dispatched from the srs-rust gate:pool queue via srs#580. Owner ruling on srs-rust#702 (comment 5571808444, pooled at 5584388207): engine bug, not data — skip the warning entirely rather than downgrade. Mode clear, Cell Conformance, Door 1, gate:auto-merge. PR srs-rust#986 opened against master with auto-merge armed; both cargo gates (build, test --workspace, clippy -D warnings) green by exit code, SRS_SPEC_DIR pointed at a fresh origin/master clone of srs for the parity tests."
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-08T13:10:31.997231923+00:00",
-  "updatedAt": "2026-09-08T13:10:38.989865529+00:00",
+  "updatedAt": "2026-09-16T11:18:00.631861384+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

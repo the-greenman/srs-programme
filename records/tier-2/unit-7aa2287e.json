@@ -16,8 +16,8 @@
     ],
     "body": "Dispatched from srs#580 gate:dispatched (coordinator routine, 2026-09-09 tick, comment 5603492684). Claimed 2026-09-09T14:38:01Z. Ground: fresh worktree off origin/master, unshallowed (was shallow, per carried-context-6c231a2a). Classify/Charter: mode complicated, cell Succession, door 1 -- executes RFC-042 Change B and rfc-decision-5f8204bc (deprecate -> remove), as the issue itself states; no new normative meaning. Route: proceeds (agent-workable). Work: found the issue's own precondition ('whose leaves all carry derived-from -> stub') is stricter than 'content is a residual pointer' -- see carried_context (this unit's contains child) for the full accounting that separated 4 ready stubs from 18 blocked ones. Hit a real CLI gap trying to record the drop reason on leaf `meta` (finding, this unit's contains child; filed srs-rust#1014) -- parked per the tool-gap rule, did not hand-edit around it. validate-all, srs repo validate (0 errors), part-container-membership.mjs --check, and publish-spec.mjs (pinned build) all green. Prove: no new check was added by this unit, so the Prove stage's guard-must-go-red requirement does not apply; check-spec-coherence's existing one-home/no-orphan-leaf rule is what would have caught a mis-scoped deletion, and the 18-vs-4 accounting above is what kept it from ever needing to fire."
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-09T15:10:37.307167373+00:00",
-  "updatedAt": "2026-09-09T15:29:19.441420553+00:00",
+  "updatedAt": "2026-09-16T11:17:57.083859864+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }
