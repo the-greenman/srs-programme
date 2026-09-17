@@ -1,0 +1,16 @@
+{
+  "containerId": "b12e33c2-c9ef-4de5-96e8-bb22a373502b",
+  "title": "Wave 5 — Read as a human",
+  "namespace": "com.semanticops.programme",
+  "name": "wave-read",
+  "description": "The readability phase: a read-through of the rendered specification by someone who did not write it, the per-Part rewrites it proposes, cut against the rulings of 2026-09-17, and the proof read-through that closes it.",
+  "containerType": "phase",
+  "identityInstanceId": "9ff0a734-e23b-4c6e-84a5-0b1c110c2728",
+  "anchorInstanceId": "9ff0a734-e23b-4c6e-84a5-0b1c110c2728",
+  "rootInstanceIds": [
+    "9ff0a734-e23b-4c6e-84a5-0b1c110c2728"
+  ],
+  "memberInstanceIds": [
+    "70eb0aa4-11e8-4b18-8bc8-47e83cac44f7"
+  ]
+}
