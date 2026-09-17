@@ -1,0 +1,16 @@
+{
+  "instanceId": "9ff0a734-e23b-4c6e-84a5-0b1c110c2728",
+  "typeId": "127b6706-464f-4fff-9ade-cff47f8745e5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "phase",
+  "fieldValues": {
+    "title": "Read as a human",
+    "summary": "The rendered specification must make sense to a person reading it front to back. Rulings A and B of 2026-09-17 settle where the reading experience is assembled — order and membership at EXPRESSION, concepts describing themselves — and this wave applies them Part by Part. The exit criterion is a read-through by someone who did not write it, not a checker going green.",
+    "wave": "read",
+    "body": "## Why a fifth wave exists\n\nThe first four waves make the specification correct, measured, restructured and proven against a machine reader. None of them asks whether the rendered result reads. A corpus can be a valid concept tree, pass every declared check, and still land on a person as a list of definitions with no thread between them — which is the failure the whole programme was started to fix, arriving from the other side.\n\nThe exit criterion is deliberately not a metric. It is a read-through of the rendered specification, front to back, by someone who did not write it. Nothing in this wave is finished on the strength of a checker passing.\n\n## What governs the rewrites\n\nThe owner rulings of 2026-09-17 (the-greenman/srs#787, comment 5712896993) govern every unit here.\n\nRuling A places order and membership for a story at EXPRESSION: `contains`, `precedes` and `depends-on` stay the one MEANING tree, while context membership and nesting are Containers and context order is the Composition section's `memberOrder`. A narrative is constructed from reusable parts, and the nested rendering path is instrumented from day one so the nesting can be measured and refined rather than guessed at.\n\nRuling B places the prose: concepts describe themselves in human-readable ways. Bridging and introductory text is the concept record's own prose rendered at its heading, and a Part introduction is the Part concept's prose. There is no narrative leaf type and no presentation-only text on the Composition.\n\nTogether they settle what would otherwise be relitigated in every rewrite unit: the reading experience is assembled at the expression layer, out of records that already say what they are.\n\n## The units\n\nPlanning comes first — a read-through of the rendered specification that proposes the rewrite units rather than assuming them. Then nine per-Part rewrites, one Part at a time, each cut against rulings A and B. Then a readability check, so that what the read-through found does not have to be found again by hand. Then the proof: another read-through, by another reader who did not write it."
+  },
+  "createdAt": "2026-09-17T10:39:27.068081595+00:00",
+  "updatedAt": "2026-09-17T10:39:27.068084847+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
