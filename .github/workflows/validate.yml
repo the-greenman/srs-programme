@@ -1,0 +1,50 @@
+name: Validate
+
+# The programme repository's conformance gate, run on every push and pull
+# request to master. `scripts/check-programme-conformance.mjs` is the whole
+# check: the `.srs/` marker resolves as a directory holding a real file, and
+# `srs repo validate` reports zero errors. Diagnostics live in the payload,
+# not the exit code, so the script asserts on `payload.summary.errors` — never
+# on process exit status alone.
+#
+# The `srs` CLI is PINNED. An unpinned download takes whatever `srs-rust` last
+# released, which means the behaviour of a required gate can change with no
+# commit to this repository. SRS_RUST_CLI_TAG below is the single declaration
+# site; `scripts/fetch-pinned-srs.mjs` reads it back out of this file, so a
+# contributor reproducing CI locally cannot drift from it.
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+permissions:
+  contents: read
+
+env:
+  # The pinned `srs-rust` release supplying the `srs` CLI. Declared once, here.
+  # Advance it in its own commit, stating why.
+  SRS_RUST_CLI_TAG: v0.1.0-build.388
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # By exit code, never by output tail — a piped tail eats the status and
+      # turns a red gate green (srs CLAUDE.md, "Gates and choreography").
+      - name: Validate the programme repository with the pinned CLI
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          export $(node scripts/fetch-pinned-srs.mjs)
+          "$SRS_CLI_PATH" repo validate --repo . --pretty
+          node scripts/check-programme-conformance.mjs
