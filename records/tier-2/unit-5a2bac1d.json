@@ -14,10 +14,10 @@
       "srs#787",
       "srs#798"
     ],
-    "body": "Part unit from the read-through (§4, unit P7; findings §2 Part 7). Depends on P4 (for Addressability/Discovery arriving).\n\nApplies ruling R3: the Part holds only the extension model and cross-extension interactions; each extension's own text stays beside the concept it extends. Moves the Conversation boundary concept out of the Part's opening, where it does not belong; rewrites the Part's own prose to describe what it now actually holds.\n\nNot yet started."
+    "body": "Landed by PR https://github.com/the-greenman/srs/pull/847 (merged, all checks green). Rewrote the Part's own prose (concept-159ae3c2) to state what it now holds: how a repository declares which extensions it implements plus cross-extension interaction rules, with Addressability and Discovery documented here in full (no single host concept elsewhere) and every other extension's capability staying beside the concept it extends. Added bridging prose (ruling B) to Extensions overview (the extension model, concept-580cfe0e), Conversation boundary (concept-82e46ffb) and Extension Interactions (concept-4d1fa8d8); trimmed Conversation Layer's near-duplicate opening/closing paragraphs to a one-line bridge instead. Moved Conversation boundary and Conversation Layer out of the Part's opening via ordering.memberOrder on part-extensions (ruling A) once SRS_RUST_CLI_TAG reached build.414 (srs#843) mid-unit -- the same memberOrder-on-Part-anchor fix (srs-rust#1130/#1131) P2/P3/P4 had to defer. New order: Extensions overview -> Extension Interactions -> Addressability -> Discovery -> Conversation boundary -> Conversation Layer. Left concept-785654d0 (\"Extension\", singular) in Part Conformance -- the read-through's own P8 row claims it with a reorder-in-place fix, and moving it would add a new forward reference via its Conformance depends-on 2-cycle; PR body flags this reading for the owner. check-spec-coherence (2/2 allowlisted) and check-spec-readability (50/50 allowlisted) unchanged before/after -- no new forward reference."
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-27T16:27:15.179572216+00:00",
-  "updatedAt": "2026-09-27T16:27:15.179576377+00:00",
+  "updatedAt": "2026-09-27T21:59:22.028709505+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }
