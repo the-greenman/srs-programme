@@ -14,10 +14,10 @@
       "srs#787",
       "srs#798"
     ],
-    "body": "Part unit from the read-through (§4, unit P6; findings §2 Part 6). Depends on X1, X2.\n\nProjection's own prose becomes the Part's opening (ruling B: the concept describes itself, currently 1,380 lines from its title); the three-stage render pipeline (Composition → Presentation → Projection) stated before any shape detail; the fifteen shape leaves grouped under one reference heading (X1's reference-material treatment); field-row templates (from srs#794's Views) moved to reference.\n\nNot yet started."
+    "body": "Landed by PR https://github.com/the-greenman/srs/pull/846 (merged, all checks green). Re-parented the Projection mechanism leaf from sibling of the Projection concept to its child, first among View/Composition/Theme, so its pipeline explanation (View selects the presentation, Composition assembles what gets rendered, Theme supplies the templates) now renders immediately after the concept's own intro rather than 1,280 lines later at the end of the Part. Created one new concept, Presentation shapes (reference), following X1's Foundation Group (Core) precedent; re-parented 19 hand-authored pseudo-IDL shape/union leaves (more than the read-through's stale count of fifteen) from View and Theme under it, correcting one that was mis-parented under View instead of Composition along the way. Moved Normative Field-Row Form (RFC-037), ~130 lines of per-format templates, from View to the same reference heading, leaving its short bridging note in place under Theme. Spliced every precedes chain the moves broke and synced part--presentation container membership (80 members before and after). Left the ~30 generated-type-reference records in Part Extensions untouched -- that is srs#837, open, awaiting an owner ruling. No memberOrder change needed: Presentation Part has only one top-level concept child (Projection), so the build.414 fix P2/P3/P4 needed does not apply here."
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-27T16:27:15.057306079+00:00",
-  "updatedAt": "2026-09-27T16:27:15.057309396+00:00",
+  "updatedAt": "2026-09-27T21:41:21.995642608+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }
