@@ -1,0 +1,22 @@
+{
+  "instanceId": "3117e3a1-0ecc-494a-8ec4-c6208db4563c",
+  "typeId": "91474c82-739a-4730-b25c-caf4ccfea7c3",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "unit",
+  "fieldValues": {
+    "title": "X1 remainder: per-concept type-table placement and pseudo-IDL drop",
+    "summary": "The one clause of srs#787 ruling R1 that X1 (srs#801) could not complete within its Composition/View-only scope: each generated-type-reference's property table cannot be moved under its own type's concept, and the pseudo-IDL duplicate cannot be dropped, without either splitting generated-type-reference's content field (schema/generator change) or minting new per-type concept records to reparent under -- both record-content changes outside X1's file set. Needs an owner decision among the three paths srs#837 lays out before a unit can be shaped.",
+    "decision_mode": "unresolved",
+    "issue_ref": [
+      "srs#837",
+      "srs#801",
+      "srs#787"
+    ],
+    "body": "Filed by X1 (srs#801) as a parked finding rather than hand-hacked. Three paths named in srs#837: (1) split generated-type-reference's content into a table field and a pseudo-IDL field so a View's fieldViews[].visible can suppress the pseudo-IDL half -- Door 2/3, schema/generator work; (2) an owner ruling that the three umbrella Group concepts (Foundation Group (Core), Distribution Group (Core), the Extensions-part equivalent) already ARE each type's 'own concept' for R1's purpose, leaving only the pseudo-IDL drop, which still needs path (1)'s field split; (3) accept the pseudo-IDL block as presentation debt and rescope R1 down to a generator-only change, explicitly not non-normative/auto-mergeable. No P-unit in the Read as a human wave names this as a blocking dependency as written: P2 (Foundations) moved its own reference material (the valueType historical note) under Foundation Group (Core) without needing the table/pseudo-IDL split, and no other P-unit's body cites srs#837. Left with no depends-on edge for that reason; add one if a later P-unit's shaping finds it needs this first."
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-09-27T18:14:33.220588893+00:00",
+  "updatedAt": "2026-09-27T18:14:33.220592054+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
