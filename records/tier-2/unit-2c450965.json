@@ -6,18 +6,19 @@
   "typeName": "unit",
   "fieldValues": {
     "title": "P3: Instances",
-    "summary": "States the tier frame before anything else; deletes the superseded three-tier note (X2 territory); re-parents the Instance mechanism leaf (ruling R4, Door 1); writes or deletes the empty 'Graduation: when and how' leaf; states the two-id-spaces rule once instead of per-occurrence. Concepts getting prose: Semantic maturity tier, Instance, Graduation.",
+    "summary": "States the tier frame before anything else; deletes the superseded three-tier note (X2 territory); re-parents the Instance mechanism leaf (ruling R4, Door 1); writes or deletes the empty 'Graduation: when and how' leaf; states the two-id-spaces rule once instead of per-occurrence; applies ordering.memberOrder to put Semantic maturity tier before Instance once srs-rust#1130/#1131 unblocked it. Concepts getting prose: Semantic maturity tier, Instance, Graduation.",
     "decision_mode": "clear",
     "door": "door-1",
     "issue_ref": [
       "srs#804",
       "srs#787",
-      "srs#798"
+      "srs#798",
+      "srs-rust#1130"
     ],
-    "body": "Part unit from the read-through (§4, unit P3; findings §2 Part 3). Depends on P2.\n\nStates the tier frame before anything else; deletes the superseded three-tier note (cross-referenced to X2); re-parents the Instance mechanism leaf (ruling R4, Door 1); writes or deletes the empty 'Graduation: when and how' leaf found with a heading and no body; states the two-id-spaces rule once instead of per-occurrence.\n\nNot yet started."
+    "body": "Part unit from the read-through (§4, unit P3; findings §2 Part 3). Depends on P2.\n\nLanded via PR #840: bridged the Instances Part concept's own description to name the tier frame; deleted the dangling reference to the superseded three-tier design note; re-parented the stranded Instance mechanism leaf under its concept and trimmed it to the one new detail (ruling R4, Door 1); deleted the empty 'Graduation: when and how' leaf, re-parenting the Graduation-identity-continuity table under Graduation in its place; trimmed the Record tiers reference mechanism to a pointer.\n\n**The headline scope item — reordering Semantic maturity tier before Instance — now landed too, via PR #843.** #840 confirmed the same memberOrder gap P2 hit, filed as srs-rust#1130; srs-rust#1131 fixed it (build.414). PR #843 declared ordering.memberOrder on part-instances in both compositions, putting Semantic maturity tier before Instance — resolving the two prior 'Note/Record before Semantic maturity tier' allowlist entries, replaced by new entries for the forward references the reorder trades in (Graduation depends on Note/Record, both nested under the tier concept that now renders first) — the same irreducible-cycle shape as srs#608, not a defect.\n\nAll scope delivered. Evidence: PR #840, PR #843."
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-27T16:27:14.666179622+00:00",
-  "updatedAt": "2026-09-27T16:27:14.666183788+00:00",
+  "updatedAt": "2026-09-27T21:09:00.622277885+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }
