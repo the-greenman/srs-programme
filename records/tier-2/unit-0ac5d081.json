@@ -14,10 +14,10 @@
       "srs#787",
       "srs#798"
     ],
-    "body": "Part unit from the read-through (§4, unit P4; findings §2 Part 4). Depends on P3.\n\nRelation introduced first in the Part; ext:recommended-relations reduced to one line (compatibility-label-only per its own record); directory-kind-scopes design note moves to rationale; 'When to edit in-place' gets its comparison table back; re-parents the Semantic order mechanism (ruling R4, Door 1).\n\nApplies ruling R2: Blueprint and Protocol move out of this Part to Distribution (package-layer definitions, not instance structure); Addressability and Discovery move to Extensions, each with one home — resolving the read-through's 'ruling on divergence 6'.\n\nNot yet started."
+    "body": "Part unit from the read-through (§4, unit P4; findings §2 Part 4). Depended on P3.\n\nRuling R2: re-parented Blueprint and Protocol from Structure to Distribution; Addressability and Discovery from Structure to Extensions. Ruling R4 (Door 1): re-parented the stranded Semantic order mechanism under its concept. Re-parented the edit-in-place comparison table under its design-note (was a stray leaf in the Foundation Group (Core) reference dump). Reduced ext:recommended-relations to one line.\n\nDid NOT land: Relation first in the Part. Same tool gap as P2/P3 (srs-rust#1130); its fix (srs-rust PR #1131, build.414) shipped just after this unit's non-ordering work was underway. Polled origin/master's pin for 40 minutes (19:07-19:47 UTC) for the expected parallel pin-bump PR; it never landed in that window (pin stayed at build.399). Shipped without the reorder per ruling A (no new precedes edge). A future unit can add ordering.memberOrder to part-structure once the pin advances.\n\nLeft in place, filed the-greenman/srs#841 (sub-issue of #580) instead of a workaround: design-notes/046 (directory-kind-scopes) cannot be excluded from the main narrative while staying in the rationale projection — no such mechanism exists.\n\nNew forward reference (Composition depends-on Discovery) is a direct, foreseen consequence of the R2 move; allowlisted in all three order-check allowlists citing #805.\n\nPR: https://github.com/the-greenman/srs/pull/842 (merged, 2026-09-27T20:00:22Z)."
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-27T16:27:14.797289229+00:00",
-  "updatedAt": "2026-09-27T16:27:14.797293044+00:00",
+  "updatedAt": "2026-09-27T20:02:34.660525181+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

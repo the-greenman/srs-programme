@@ -8,7 +8,7 @@
     "title": "Retire the 15 residual publication-reachability exclusions citing closed #690",
     "summary": "PR #704's concept-level regrouping left three concepts (JSON Store, Import tracking, Registry) reachable via the glossary's flat concept discovery-query but with no contains parent into a Part, so their 15 mechanism children stayed unreachable. Parented each concept under its closest Distribution-Part sibling by subject match (JSON Store under Travelling form, Import tracking under Lineage and provenance, Registry directly under Distribution), resynced Distribution's declared container membership, and removed the 15 now-stale exclusion entries.",
     "decision_mode": "clear",
-    "door": "1",
+    "door": "door-1",
     "issue_ref": [
       "srs#709",
       "srs#580",
@@ -18,6 +18,6 @@
   },
   "lifecycleState": "landed",
   "createdAt": "2026-09-09T20:56:41.005200878+00:00",
-  "updatedAt": "2026-09-27T16:24:53.696724375+00:00",
+  "updatedAt": "2026-09-27T20:03:28.544119027+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

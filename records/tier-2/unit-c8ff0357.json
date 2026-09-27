@@ -8,7 +8,7 @@
     "title": "Declare RFC-038's srs-integration manifest, retire the #297 grandfather",
     "summary": "RFC-038's stub record (rfc-4071ab22.json) sat grandfathered in rfcs/integration-allowlist.json since #591 repointed it off dead #297. Declared the manifest: 5 schema: tokens (verified against current docs/schema/2.0/, not the stale relations-collection.json the issue named -- srs#527 already retired that file), 9 I-<n> invariant tokens, 5 mechanism: tokens, and tooling-only for the enumeration script. Cross-RFC amendment claims (RFC-039/026/013/017) resolved via existing tokens where a fold already exists and documented in-manifest otherwise; RFC-026 [R5]/[R6]/[R13] is a genuine unfolded gap, filed separately as #766 rather than patched here (Door 3, not Door 1). Removed the allowlist grandfather entry and re-rendered docs/spec/rfcs/rfc-catalog.md.",
     "decision_mode": "complicated",
-    "door": "1",
+    "door": "door-1",
     "issue_ref": [
       "srs#633",
       "srs#580",
@@ -18,6 +18,6 @@
   },
   "lifecycleState": "landed",
   "createdAt": "2026-09-11T21:38:45.922462991+00:00",
-  "updatedAt": "2026-09-11T22:34:58.276464896+00:00",
+  "updatedAt": "2026-09-27T20:03:28.383250716+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

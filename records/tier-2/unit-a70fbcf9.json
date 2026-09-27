@@ -8,7 +8,7 @@
     "title": "RFC-034: declared childContainerIds nesting, retire contains-traversal membership",
     "summary": "srs-rust#970 implements accepted RFC-034 (Container Structure and Nesting): Container.childContainerIds, effective(C) as the recursive closure over declared root/member/child edges, and removes the pre-RFC-034 I-66 condition-3 contains-Relation traversal from membership entirely.",
     "decision_mode": "complicated",
-    "door": "1",
+    "door": "door-1",
     "issue_ref": [
       "srs-rust#970",
       "srs-rust#969",
@@ -18,6 +18,6 @@
   },
   "lifecycleState": "landed",
   "createdAt": "2026-09-06T17:32:18.192806619+00:00",
-  "updatedAt": "2026-09-27T16:24:52.735516031+00:00",
+  "updatedAt": "2026-09-27T20:03:28.222362215+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }
