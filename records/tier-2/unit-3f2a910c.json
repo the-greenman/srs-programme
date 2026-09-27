@@ -14,10 +14,10 @@
       "srs#787",
       "srs#798"
     ],
-    "body": "Part unit from the read-through (§4, unit P5; findings §2 Part 5). Depends on X1, P4 (for the incoming Blueprint/Protocol placement).\n\nSplits Repository's ~790 lines into layout, manifest, travelling form and source documents, each with its own bridging prose (ruling B); moves JSON Store and slices to sit behind the travelling-form concept, where they are consumed. Receives Blueprint and Protocol from P4 under ruling R2 once P4 lands.\n\nNot yet started."
+    "body": "Landed by PR https://github.com/the-greenman/srs/pull/845 (auto-merge armed, green on push). Repository split into Layout (existing mechanism, now grouping the root-layout example, File naming and the .srs-marker invariant), a new Manifest mechanism (RepositoryManifest/PackageRef/InstanceIndexEntry/RelationsChecksumEntry/SourceAnchor shapes, Relations storage, Schema conventions), the existing Travelling form concept (receives Archive format, Import/re-import semantics, SourceReference additions alongside its existing JSON Store/ext:slices content), and a new Source documents mechanism (SourceDocument/SourceDocumentIndexEntry shapes, the sidecar example). Local `precedes` chains rebuilt inside each group plus one top-level chain over Repository's seven direct children. Distribution's own Part description rewritten (it named a retired 'Reference' concept and omitted Repository/Blueprint/Protocol/Registry). Blueprint and Protocol (received from P4 under ruling R2) already carried self-describing prose; no change needed. A second commit fixed an RFC-042 [R9] violation caught by render-invariants.mjs: invariants need a concept contains-parent, not a mechanism, so 14 invariants were re-parented to the Repository concept directly. No memberOrder change: the read-through's divergence table names no Distribution-level reorder, and this PR rebased onto the build.414 pin (srs-rust#1131) regardless."
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-27T16:27:14.923588300+00:00",
-  "updatedAt": "2026-09-27T16:27:14.923592254+00:00",
+  "updatedAt": "2026-09-27T21:25:50.455684727+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }
