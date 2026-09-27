@@ -16,8 +16,8 @@
     ],
     "body": "PR https://github.com/the-greenman/srs-rust/pull/965. srs://<repositoryId>/protocol lists every installed Protocol as the service's ProtocolSummary verbatim; srs://<repositoryId>/protocol/{protocolId} serves { protocol, stages } — the stored definition as srs protocol get returns it, plus stages sorted by order as srs protocol stages returns them, so dependsOn resolves forward. Unknown id returns MCP resource-not-found. Concrete resources are enumerated per Protocol, a template advertises the definition URI, and the connect-time instructions mention both. The direct consumer is this programme's own programme-unit-walk Protocol. Gates exit 0: cargo build, test, clippy -D warnings, fmt --check, with a new MCP integration test against a fixture carrying a deliberately out-of-order 2-stage Protocol."
   },
-  "lifecycleState": "in_review",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-06T13:27:05.575932145+00:00",
-  "updatedAt": "2026-09-06T13:27:05.888486320+00:00",
+  "updatedAt": "2026-09-27T16:24:50.398694877+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

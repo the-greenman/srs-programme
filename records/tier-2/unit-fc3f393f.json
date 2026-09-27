@@ -1,0 +1,23 @@
+{
+  "instanceId": "fc3f393f-5236-4d90-bacb-a5777afb2a87",
+  "typeId": "91474c82-739a-4730-b25c-caf4ccfea7c3",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "unit",
+  "fieldValues": {
+    "title": "P9: Governance",
+    "summary": "Cuts the Core Thesis repetition; deletes the duplicated foundational-values paragraph; replaces the raw axis-coordinate notation with the named tensions the Part's own prose calls 'the specification's own reading key'; makes Semantic sovereignty readable from Part 1 forward. Needed only X3; −331 words, headings unchanged (prose pass, not structural). Concepts getting prose: Semantic sovereignty, Foundational tension.",
+    "decision_mode": "clear",
+    "door": "non-normative",
+    "issue_ref": [
+      "srs#810",
+      "srs#787",
+      "srs#798"
+    ],
+    "body": "Part unit from the read-through (§4, unit P9; findings §2 Part 9). Depended on X3.\n\nCut the Core Thesis repetition (stated twice); deleted the duplicated foundational-values paragraph; replaced the raw axis-coordinate notation with the named tensions the Part's own prose already calls 'the specification's own reading key'; made Semantic sovereignty readable from Part 1 forward rather than only landing here. −331 words, headings unchanged (prose pass, not structural).\n\nPR: https://github.com/the-greenman/srs/pull/836 (merged, 2026-09-21)."
+  },
+  "lifecycleState": "landed",
+  "createdAt": "2026-09-27T16:27:15.436509273+00:00",
+  "updatedAt": "2026-09-27T16:27:15.818179445+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

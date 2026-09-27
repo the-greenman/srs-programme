@@ -1,0 +1,22 @@
+{
+  "instanceId": "eb7940f3-20bb-461e-b546-e1a1feee49b8",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The local harvest loop fell 44 units behind: nothing triggers it",
+    "summary": "At the start of this harvest, 43 units sat in_review and 1 in_flight, all with their GitHub issues already closed by a merged PR -- in some cases weeks earlier -- while the programme records still showed them mid-lifecycle. No routine, check or gate re-syncs a unit's SRS lifecycle state against its issue_ref's actual GitHub state; the drift was only caught because srs#786 asked for the local harvest loop to be exercised for the first time. Landing all 44 in one pass, plus modelling wave 5's units (#800-#810) and the wave-2 level-test track (#812/#818/#819/#820), which existed on GitHub but not as programme records, in the same session confirms the gap is structural, not a one-off oversight.",
+    "evidence": [
+      "43 unit records carried lifecycleState in_review and 1 carried in_flight at session start; every one's issue_ref pointed at a CLOSED (or MERGED) GitHub issue/PR, re-verified via `gh issue view --json state` across the 75 distinct issue_ref values touched",
+      "The oldest of the 43 (e.g. 0836c7da 'Protocol resources over MCP', srs-rust#955/PR #965) closed 2026-09-06; this harvest ran 2026-09-27 -- a three-week lag with no intermediate transition",
+      "Wave 5's planning unit (70eb0aa4) sat 'proposed' though its own issue (srs#787 planning, PR #798) merged 2026-09-17, and none of the 11 units it authorised (X1-X3, P2-P9, GitHub issues #800-#810) existed as programme records at all until this session created them",
+      "The wave-2 level-test track (srs#812, #818, #819, #820), first raised on srs#580 2026-09-17 and still tracked there as of the 2026-09-21 queue-review comment, likewise had no programme unit records until this session",
+      "No script in scripts/ (check-programme-conformance.mjs or otherwise) reads issue_ref and compares it against live GitHub state; the CLAUDE.md and Protocol both describe the land stage as something a unit's own working session performs on itself, with no separate reconciliation pass named anywhere"
+    ],
+    "body": "The programme's own lifecycle model (proposed -> ready -> in_flight -> in_review -> landed) assumes the unit that did the work also lands its own record, in the same session that opened the PR. That works only if every unit's walk actually reaches its Harvest stage. When a PR is opened by a routine and merged by the queue's auto-merge machinery -- the common case here, per CLAUDE.md's merge gate -- there is no guarantee the originating session (or any session) ever comes back to call `record transition ... land` on the record. Nothing polls GitHub for issues whose issue_ref'd programme unit is stuck below landed, and check-programme-conformance.mjs validates internal consistency (references resolve, lifecycle transitions are legal) but not freshness against the external state each unit's issue_ref names as its ground truth. A standing check or scheduled routine that diffs unit lifecycleState against issue_ref closure state -- surfacing a unit stuck in_review/in_flight against a closed issue as its own finding -- would have caught this incrementally instead of letting 44 units and 15 unrecorded ones accumulate before the loop was first run."
+  },
+  "createdAt": "2026-09-27T16:29:44.092286513+00:00",
+  "updatedAt": "2026-09-27T16:29:44.092289569+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

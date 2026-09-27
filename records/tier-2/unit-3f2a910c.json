@@ -1,0 +1,23 @@
+{
+  "instanceId": "3f2a910c-8721-4d3a-95e0-bb55acc82b8e",
+  "typeId": "91474c82-739a-4730-b25c-caf4ccfea7c3",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "unit",
+  "fieldValues": {
+    "title": "P5: Distribution",
+    "summary": "Splits Repository's ~790 lines into layout, manifest, travelling form and source documents, each with its own bridging prose (ruling B); moves JSON Store and slices to sit behind the travelling-form concept. Receives Blueprint and Protocol from P4 under ruling R2 once P4 lands. Concepts getting prose: Package, Repository, Travelling form, Lineage and provenance.",
+    "decision_mode": "clear",
+    "door": "non-normative",
+    "issue_ref": [
+      "srs#806",
+      "srs#787",
+      "srs#798"
+    ],
+    "body": "Part unit from the read-through (§4, unit P5; findings §2 Part 5). Depends on X1, P4 (for the incoming Blueprint/Protocol placement).\n\nSplits Repository's ~790 lines into layout, manifest, travelling form and source documents, each with its own bridging prose (ruling B); moves JSON Store and slices to sit behind the travelling-form concept, where they are consumed. Receives Blueprint and Protocol from P4 under ruling R2 once P4 lands.\n\nNot yet started."
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-09-27T16:27:14.923588300+00:00",
+  "updatedAt": "2026-09-27T16:27:14.923592254+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

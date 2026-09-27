@@ -16,8 +16,8 @@
     ],
     "body": "PR https://github.com/the-greenman/srs/pull/764. Neither note's original graduation target exists: 'Taste Made Portable' (7e8d9753) stays pending, re-pointed from the closing #631 to #580 (Wave 2). 'Design Jurisprudence' (ac55018f) partially graduates now via a new derived-from relation to DN-045, which already carries the graduated content in its 'Forward framing' paragraph; its remaining SRS-for-Specs/Epic-13 thread stays pending under #580. Gates: srs repo validate 0 errors, validate-all.mjs and check-release-drift.mjs both green."
   },
-  "lifecycleState": "in_review",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-11T20:57:50.449012181+00:00",
-  "updatedAt": "2026-09-11T20:57:50.449023689+00:00",
+  "updatedAt": "2026-09-27T16:24:51.546950336+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

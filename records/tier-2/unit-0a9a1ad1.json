@@ -1,0 +1,23 @@
+{
+  "instanceId": "0a9a1ad1-56d9-416b-947b-0e74b1c974fb",
+  "typeId": "91474c82-739a-4730-b25c-caf4ccfea7c3",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "unit",
+  "fieldValues": {
+    "title": "X2: terminology normalisation and glossary pass",
+    "summary": "Replaces retired terms with current ones across the rendered spec (SCDS, Typed Record/TypedRecord, TagDefinition, Tier 3, Document View), fixes three dangling §N references, deletes two superseded design notes stranded next to their replacements, and reduces four retired-mechanism sections to one dormancy leaf each citing the record that retired it.",
+    "decision_mode": "clear",
+    "door": "door-1",
+    "issue_ref": [
+      "srs#800",
+      "srs#787",
+      "srs#798"
+    ],
+    "body": "Cross-cutting unit from the readability wave read-through (docs/programme/read-through-2026-09-17.md §4, unit X2). No dependency; ran first per the suggested order (X2, X1, X3, then Parts in order).\n\nReplaced retired terms with current ones wherever they still appeared in prose: SCDS (9 sites), Typed Record/TypedRecord (9), TagDefinition (2), Tier 3 (1), Document View (10, superseded by Composition per rfc-decision-92d2da05). Fixed the three dangling §N references. Deleted the two superseded design notes found stranded next to their replacement and the retired-mechanism sections (ext:changelog, ext:federation, ext:recommended-relations, the pre-RFC-032 valueType map), leaving one dormancy leaf per mechanism citing the record that retired it.\n\nExecutes rfc-decision-92d2da05, rfc-decision-53635966, rfc-decision-2a1e1590, and the federation disposition (rfc-decision-4f1e12e5 lineage).\n\nPR: https://github.com/the-greenman/srs/pull/817 (merged)."
+  },
+  "lifecycleState": "landed",
+  "createdAt": "2026-09-27T16:27:13.475143376+00:00",
+  "updatedAt": "2026-09-27T16:27:13.868443057+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

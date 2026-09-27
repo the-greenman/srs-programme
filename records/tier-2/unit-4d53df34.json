@@ -1,0 +1,23 @@
+{
+  "instanceId": "4d53df34-9a57-40f8-ad5c-4c18d0abd89d",
+  "typeId": "91474c82-739a-4730-b25c-caf4ccfea7c3",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "unit",
+  "fieldValues": {
+    "title": "P8: Conformance",
+    "summary": "Conformance concept and the declaration form stated first, the generated index last (X1's treatment); bridges invariant to validation, found unconnected; writes the missing 'How to decide which extensions to implement' leaf; deletes the empty 'Future Extensions' leaf. Concepts getting prose: Conformance, Invariant, Validation, Extension.",
+    "decision_mode": "clear",
+    "door": "non-normative",
+    "issue_ref": [
+      "srs#809",
+      "srs#787",
+      "srs#798"
+    ],
+    "body": "Part unit from the read-through (§4, unit P8; findings §2 Part 8). Depends on X1, P7.\n\nConformance concept and the declaration form stated first, the generated index last (X1's treatment applied to this Part's own reference material); bridges invariant to validation, which the read-through found unconnected; writes the missing 'How to decide which extensions to implement' leaf (found as a heading with no body); deletes the empty 'Future Extensions' leaf.\n\nNot yet started."
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-09-27T16:27:15.311088897+00:00",
+  "updatedAt": "2026-09-27T16:27:15.311095525+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

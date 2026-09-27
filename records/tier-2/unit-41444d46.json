@@ -1,0 +1,26 @@
+{
+  "instanceId": "41444d46-38a3-4275-bacc-da8c7359d2c3",
+  "typeId": "91474c82-739a-4730-b25c-caf4ccfea7c3",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "unit",
+  "fieldValues": {
+    "title": "Structural authoring rules section in the spec language guide",
+    "summary": "Adds a structural-rules section to docs/style/spec-language-guide.md, extending the existing prose-rule/registry split rather than adding a new document. Each relocated rule (contains single-parent, no forward depends-on, no orphan leaf, part-order, no baked heading, invariant placement, part-container membership, publication reachability) names the check that enforces it or is marked reviewer-enforced. Receives the rules cut by #818.",
+    "decision_mode": "clear",
+    "door": "non-normative",
+    "issue_ref": [
+      "srs#819",
+      "srs#580",
+      "srs#556",
+      "srs#490",
+      "srs#812",
+      "srs#818"
+    ],
+    "body": "Wave 2 unit (meaning-placement sweep). Blocked on #812 — that ruling licenses the relocation. Owner decision: extend docs/style/spec-language-guide.md, do not add a new document; it already pairs with scripts/spec-language-registry.json and already draws the checker-vs-reviewer distinction this needs.\n\nMode clear, non-normative (a style doc, no records touched) — gate:auto-merge on green once #812 has landed; does not merge before the ruling."
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-09-27T16:28:33.134206372+00:00",
+  "updatedAt": "2026-09-27T16:28:33.134210062+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

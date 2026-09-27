@@ -15,8 +15,8 @@
     ],
     "body": "Reproduced the bug live before fixing: with the pre-fix code, inserting one word near the start of 07-7-ext-views-l2.json's content field (before its first RFC-2119 keyword) re-fired 24 keyword-register violations that the edit did not touch. Reverted, applied the paragraph-relative keying fix + --seed, repeated the identical edit: zero re-fires, still 588 grandfathered sites. Confirmed the fix does not blind the rule: a genuinely new MUST in a fresh paragraph still fails the check. Both gates (validate-all.mjs, check-release-drift.mjs) pass by exit code on the final diff. PR #641."
   },
-  "lifecycleState": "in_review",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-06T17:46:04.588174335+00:00",
-  "updatedAt": "2026-09-06T17:46:50.071381818+00:00",
+  "updatedAt": "2026-09-27T16:24:52.492565695+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

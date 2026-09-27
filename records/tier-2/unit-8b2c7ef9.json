@@ -1,0 +1,24 @@
+{
+  "instanceId": "8b2c7ef9-9b75-47c7-8d3a-d9080cd1a24d",
+  "typeId": "91474c82-739a-4730-b25c-caf4ccfea7c3",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "unit",
+  "fieldValues": {
+    "title": "Rule the level test — a spec rule must be declarable and checkable, or it is an authoring rule",
+    "summary": "A successor decision record generalising rfc-decision-1e7c0c8e from one clause to a standing test: a normative statement belongs in the spec only if some repository can declare it through SRS machinery and some implementation can check it; otherwise it is an authoring or governance rule and lives at that level. Adds a third disposition, hold, for a rule kept unenforced only when the machinery that would carry it is named. Blocks #818 and #819.",
+    "decision_mode": "complex",
+    "door": "door-2",
+    "issue_ref": [
+      "srs#812",
+      "srs#580",
+      "srs#556",
+      "srs#490"
+    ],
+    "body": "Wave 2 unit (meaning-placement sweep). The spec asserts rules it cannot enforce and gives users no way to declare (owner's example: contains has exactly one parent — I-148, I-66, RFC-042 [R2] — obeyed perfectly, 542/542 edges, but nothing in SRS makes it so; repo validate has no single-parent/tree-shape/cycle check, the rule is held up entirely by check-spec-coherence.mjs check (2)). Generalises rfc-decision-1e7c0c8e's clause-level ruling ('a generic tool defines what is possible, not what every corpus must do with it') into a standing level test, following the rfc-decision-5f18603e successor precedent. Must answer rfc-decision-43249f53's 'two-tier boundary is itself a drift seam' objection head-on: this is one mechanism and one authoring convention in different repositories' scope, not two tiers of one mechanism.\n\nMode complex, cell Governance, Door 2 (new normative meaning at charter level) — gate:owner-merge. Not yet scheduled by the owner."
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-09-27T16:28:32.999683046+00:00",
+  "updatedAt": "2026-09-27T16:28:32.999692159+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

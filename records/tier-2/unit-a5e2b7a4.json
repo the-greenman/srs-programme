@@ -15,8 +15,8 @@
     ],
     "body": "Dispatched from srs#580's gate:dispatched queue (coordinator tick 2026-09-12T~00:20Z, classification row: clear / Repository / Door 1 / auto-merge). Claimed on srs-rust#988 (gate:dispatched -> gate:working). PR https://github.com/the-greenman/srs-rust/pull/1056 -- doc-only correction plus one new negative test in container_service.rs; no behaviour change, no schema change. Proof stage: temporarily removed \"container\" from catalog::detect_duplicates's checked sets to confirm the new test goes red (it returned Ok(Some(container)) from the file-backed copy -- exactly the old docstring's wrongly-described \"richest source\" behaviour) before reverting and confirming green on unmodified logic. Gates green: cargo build --workspace, cargo test --workspace (0 failures, SRS_SPEC_DIR pointed at a fresh origin/master clone of srs per the stale-sibling guidance), cargo clippy --workspace --all-targets -D warnings. Auto-merge armed (gate:auto-merge on the PR), not hand-merged."
   },
-  "lifecycleState": "in_review",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-12T01:34:08.212523453+00:00",
-  "updatedAt": "2026-09-12T01:34:43.877977818+00:00",
+  "updatedAt": "2026-09-27T16:24:52.654499381+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

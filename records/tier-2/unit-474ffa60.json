@@ -15,8 +15,8 @@
     ],
     "body": "Dispatched from the srs#580 pool, claimed via a timestamped comment on #716 (no earlier claim found). Charter check: cell conformance, mode clear, door non-normative -- the rule to enforce was already fully specified in the issue and the Protocol's own land-stage aiGuidance; the one design choice needing judgment (extending pattern-grid-cells.json with glyphs[] rather than hardcoding a glyph map inside the check) follows this repo's existing one-source-of-truth discipline (srs#462). Proved red-then-green via four new tests/guards/run.mjs cases. Ran the finished check over the last 20 merged srs PR bodies (fetched via the GitHub REST API): 11 of 20 would fail today, none retrofitted -- see the linked finding. PR srs#722 opened with gate:auto-merge armed (mode clear, door non-normative); both required gates (validate-all, check-release-drift) are currently red for a pre-existing, already-documented reason (the stale versioning-cell-allowlist.json entry for srs/package/metamodel/fields/value_range.json) unrelated to this change, independently reproduced by four other sessions today."
   },
-  "lifecycleState": "in_review",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-09T21:56:55.772316757+00:00",
-  "updatedAt": "2026-09-09T21:57:39.760147975+00:00",
+  "updatedAt": "2026-09-27T16:24:51.372405711+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

@@ -14,8 +14,8 @@
     ],
     "body": "Dispatched from #580 pool top-up (2026-09-08). Ground: read #777 body plus its two prior comments (epic-256 narrowing: this issue is a named follow-on, not an epic-closure blocker) and the dispatch comment naming mode/cell/door. Classify: mode complicated, cell Conformance, door 1/non-normative (CI gate, tooling only) - matches the coordinator dispatch, no reason to override. Charter: no existing mechanism does struct-vs-schema property-set comparison; the RFC-031 MAPPING table precedent is retired/empty because its entities are now generated from the same source as the schema, which is NOT true of srs-core's hand-authored structs, so this is a genuine permanent gap, not a tautological duplicate. Route: proceeds (clear/complicated + door 1). Work: implemented in crates/srs-schema/src/conformance.rs, wired into srs-core field.rs and record_type.rs tests; both gates green (cargo build --workspace, cargo test --workspace with SRS_SPEC_DIR pointed at a fresh origin/master worktree, cargo clippy -D warnings). Prove: deliberately dropped fieldType from Field's required list, confirmed the test failed with a property-parity mismatch, reverted, confirmed green. Land: PR the-greenman/srs-rust#996, gate:auto-merge armed."
   },
-  "lifecycleState": "in_review",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-08T17:01:49.781667971+00:00",
-  "updatedAt": "2026-09-08T17:02:10.336919777+00:00",
+  "updatedAt": "2026-09-27T16:24:54.046182402+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

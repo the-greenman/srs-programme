@@ -18,8 +18,8 @@
     ],
     "body": "Dispatched from the srs gate:pool queue via srs#580 tick 2026-09-06T23:xxZ. Both blockers named in the issue (srs-rust#965, #966) were already merged at claim time.\n\nWork: rewrote srs-usage.md's ## 5i MCP Server resource table (map, navigation, tree, tree/{id}, agent-index, record, container, composition, type, protocol, protocol/{id}) against the current srs-rust source (crates/srs-mcp/src/uri.rs, crates/srs-mcp/src/resources.rs, crates/srs-repository/src/{tree_service,agent_index_service,container_view_service}.rs), not from the issue text alone. Also updated section 2's Tool-First Rule resource enumeration and section on Authored lists' resolve-view payload shape, since both described the same surface.\n\nGate note: the local session checkout was shallow (git rev-parse --is-shallow-repository -> true), which made check-versioning-cell.mjs fail locally with a stale-allowlist-entry error unrelated to this docs-only diff -- exactly the failure mode carried-context (worktree-shallow-checkout) already documents. git fetch origin master --unshallow fixed it; both validate-all.mjs and check-release-drift.mjs then passed by exit code with no code change. Recording here only because a prior unit's carried_context didn't stop it from recurring in a fresh session -- the lesson generalizes across sessions, not just within one.\n\nHarvested finding 956ac873-ad97-4f6f-b4a5-acb3562d5c27 for the view->composition doc-drift discovery.\n\nLand: PR srs#664, gate:auto-merge armed. Mode clear, Cell Repository, Door non-normative."
   },
-  "lifecycleState": "in_review",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-06T23:57:47.863923945+00:00",
-  "updatedAt": "2026-09-06T23:58:24.511029237+00:00",
+  "updatedAt": "2026-09-27T16:24:50.651575745+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

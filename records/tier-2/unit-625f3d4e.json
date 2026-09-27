@@ -17,8 +17,8 @@
       "srs#490"
     ]
   },
-  "lifecycleState": "in_review",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-06T18:21:28.108581137+00:00",
-  "updatedAt": "2026-09-06T18:22:11.854646458+00:00",
+  "updatedAt": "2026-09-27T16:24:51.967986722+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

@@ -1,0 +1,23 @@
+{
+  "instanceId": "5a2bac1d-9c24-4c6f-9bf5-8b7ac6522244",
+  "typeId": "91474c82-739a-4730-b25c-caf4ccfea7c3",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "unit",
+  "fieldValues": {
+    "title": "P7: Extensions",
+    "summary": "Applies ruling R3: the Part holds only the extension model and cross-extension interactions; each extension's own text stays beside the concept it extends (Addressability and Discovery arrive from P4 under ruling R2). Moves the Conversation boundary concept out of the Part's opening; rewrites the Part's own prose. Concepts getting prose: Extension, Conversation boundary, Extension interactions.",
+    "decision_mode": "complicated",
+    "door": "door-1",
+    "issue_ref": [
+      "srs#808",
+      "srs#787",
+      "srs#798"
+    ],
+    "body": "Part unit from the read-through (§4, unit P7; findings §2 Part 7). Depends on P4 (for Addressability/Discovery arriving).\n\nApplies ruling R3: the Part holds only the extension model and cross-extension interactions; each extension's own text stays beside the concept it extends. Moves the Conversation boundary concept out of the Part's opening, where it does not belong; rewrites the Part's own prose to describe what it now actually holds.\n\nNot yet started."
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-09-27T16:27:15.179572216+00:00",
+  "updatedAt": "2026-09-27T16:27:15.179576377+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

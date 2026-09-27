@@ -1,0 +1,23 @@
+{
+  "instanceId": "22f04207-9355-489f-b443-6015c96888c0",
+  "typeId": "91474c82-739a-4730-b25c-caf4ccfea7c3",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "unit",
+  "fieldValues": {
+    "title": "P2: Foundations reads in dependency order",
+    "summary": "Applies memberOrder (ruling A) for the three story-vs-tree divergences in Foundations; re-parents the Stable identity mechanism leaf from sibling to child of its concept (ruling R4, Door 1 under RFC-042 Change A); deletes the stale μDemocracy mapping and federation-risk note; moves the valueType migration table to an appendix (X1's treatment). Concepts getting prose: Field, Type, Field assignment, AI guidance, Vocabulary, Stable identity.",
+    "decision_mode": "complicated",
+    "door": "door-1",
+    "issue_ref": [
+      "srs#803",
+      "srs#787",
+      "srs#798"
+    ],
+    "body": "Part unit from the read-through (§4, unit P2; findings §2 Part 2). Depends on X1, X3, and srs#799 (ruling A decision record) merged.\n\nApplies memberOrder (ruling A) for the three story-vs-tree divergences found in this Part; re-parents the Stable identity mechanism leaf from sibling to child of its concept (ruling R4, Door 1 under RFC-042 Change A); deletes the μDemocracy mapping and the federation-risk note (both stale per the federation disposition); moves the valueType migration table to an appendix (X1's reference-material treatment).\n\nNot yet started."
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-09-27T16:27:14.535736709+00:00",
+  "updatedAt": "2026-09-27T16:27:14.535740476+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

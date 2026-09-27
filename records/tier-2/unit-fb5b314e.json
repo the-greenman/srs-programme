@@ -15,8 +15,8 @@
     ],
     "body": "Dispatched from the srs gate:pool queue via srs#580 tick 2026-09-08 ~13:20Z (comment 5585865314). Executes rfc-decision-693b9458 (Door 1). Ground: local checkout was a shallow clone; per carried-context-6c231a2a it was unshallowed (git fetch --unshallow) before trusting check-versioning-cell.mjs/check-repository-cell.mjs, which need full git history -- a shallow checkout made the versioning-cell allowlist entry (value_range.json) look stale when it is not. PR: https://github.com/the-greenman/srs/pull/689 (auto-merge armed, gate:auto-merge)."
   },
-  "lifecycleState": "in_review",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-08T14:13:07.113745618+00:00",
-  "updatedAt": "2026-09-08T14:13:19.249179778+00:00",
+  "updatedAt": "2026-09-27T16:25:04.270633751+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

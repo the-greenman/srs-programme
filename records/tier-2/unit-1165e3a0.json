@@ -16,8 +16,8 @@
     ],
     "body": "PR https://github.com/the-greenman/srs-rust/pull/966. Three resources: srs://<repoId>/tree (tree_service::build_tree with depth and cycle pruning from auto-detected roots), srs://<repoId>/tree/{instanceId} (same service, single root; also a resource template), srs://<repoId>/agent-index (agent_index_service::build_agent_index, AgentIndex verbatim). ResolvedMember gains sectionContainerId, the same key NavigationNode already carries, stamped from the nav service's section_containers_by_root map made pub(crate) rather than duplicated; absent, not null, when a member roots nothing. Serves the zero-context-agent acceptance test in RFC-042 change H. Capability layering per ADR-037: no new semantics, no CLI change, no WASM binding (these are existing services gaining a second adapter, not a new capability). Gates exit 0: cargo build, test, clippy -D warnings, fmt --check, pre-commit hook."
   },
-  "lifecycleState": "in_review",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-06T13:27:04.891363632+00:00",
-  "updatedAt": "2026-09-06T13:27:05.204633941+00:00",
+  "updatedAt": "2026-09-27T16:24:50.572956610+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

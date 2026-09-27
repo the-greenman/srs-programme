@@ -16,8 +16,8 @@
     ],
     "body": "Dispatched via srs#580 gate:dispatched -> gate:working (comment 5604219372, claimed 2026-09-09). Executes the owner ruling on #563 (comment 5586495347, item 3: YES) under RFC-042's succession guidance (derived-from edge to the retired record where an identity-preserving retype tool is unavailable). Fresh worktree from origin/master (9f68693). Gates: srs repo validate 0 errors/12 warnings (unchanged baseline); check-spec-coherence.mjs green (2 allowlisted no-orphan-leaf violations, citing #691); check-publication-reachability.mjs green (7 new permanent exclusions, citing #691); check-spec-language.mjs OK (271-word merged content, em-dash and RFC-2119-casing fixes applied for mechanism normative-site status); validate-all.mjs and check-release-drift.mjs both exit 0 via publish-spec.mjs with the pinned build.360 CLI. Mode: complicated, Cell: Reference, Door: 2 (new normative-adjacent prose), gate:owner-merge -- ends in the owner review the issue itself requires; this unit stops at the PR."
   },
-  "lifecycleState": "in_review",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-09T15:47:49.179306016+00:00",
-  "updatedAt": "2026-09-09T15:48:29.061645034+00:00",
+  "updatedAt": "2026-09-27T16:24:51.096629952+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

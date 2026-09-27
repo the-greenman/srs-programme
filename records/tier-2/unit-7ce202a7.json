@@ -18,8 +18,8 @@
     ],
     "body": "PR https://github.com/the-greenman/srs/pull/620 — RFC-042 Draft Rev 1, open for owner merge (Door 2: new normative meaning, so the thread may not merge it whatever the mode). Executes the owner's 2026-09-05 ruling on #556: the spine needs no new primitives, so the RFC's eight changes (A tree and edges, B leaf Types with mechanism replacing subsection, C example records replacing fenced prose, D Parts as root-container nav sections, E invariants as leaves with applies_to retired, F five coherence checks, G navigation and rendering, H the zero-context-agent acceptance test) all sit inside the existing contains/precedes/depends-on vocabulary. Consumes #608 (the concept graph is not a DAG; the SCC is the unit of layering) and #609. Zero new fields, zero new relation types, no schema change, dataModelRevision unchanged. Five open questions are carried in the RFC with recommendations rather than resolved by the thread. Proof: validate-all exit 0, check-spec-language exit 0 with the registry's 40 patterns run over the RFC text at 0 hits."
   },
-  "lifecycleState": "in_review",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-05T22:09:03.085048277+00:00",
-  "updatedAt": "2026-09-06T13:27:03.464597192+00:00",
+  "updatedAt": "2026-09-27T16:24:52.331564899+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

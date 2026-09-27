@@ -15,8 +15,8 @@
     ],
     "body": "PR https://github.com/the-greenman/srs/pull/622, open for owner merge. The record states Door 1 (execute a recorded ruling, citing its rfc-decision id), Door 2 (new normative meaning via an RFC), Door 3 (amend an accepted RFC's own surface via a revision), and non-normative changes passing through no door; the hard rule that conformance rules and docs/schema/2.0/ never change without one of the three citations; and merge right as decision mode x door. It also carries the external-work clause ruled the same day: a PR depending on an action only the owner can take never self-merges, whatever its mode and door. No new mechanism — check-decision-compass-drift.mjs already binds roster to citing section, so the compass is the guarded home. Gates exit 0: validate-all, release-drift, decision-compass-drift, spec-language."
   },
-  "lifecycleState": "in_review",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-06T13:27:04.460476263+00:00",
-  "updatedAt": "2026-09-06T13:27:04.764292635+00:00",
+  "updatedAt": "2026-09-27T16:24:51.710297614+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }
