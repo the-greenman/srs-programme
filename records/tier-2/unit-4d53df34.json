@@ -14,10 +14,10 @@
       "srs#787",
       "srs#798"
     ],
-    "body": "Part unit from the read-through (§4, unit P8; findings §2 Part 8). Depends on X1, P7.\n\nConformance concept and the declaration form stated first, the generated index last (X1's treatment applied to this Part's own reference material); bridges invariant to validation, which the read-through found unconnected; writes the missing 'How to decide which extensions to implement' leaf (found as a heading with no body); deletes the empty 'Future Extensions' leaf.\n\nNot yet started."
+    "body": "Part unit from the read-through (§4, unit P8; findings §2 Part 8). Depends on X1, P7.\n\nLanded via the-greenman/srs#848 (merged 2026-09-27). Wrote the empty \"How to decide which extensions to implement\" design-note; deleted the empty \"Future Extensions\" leaf (and an orphaned trailing separator left in \"Graceful degradation\" by that deletion, found on read-through); bridged Invariant and Validation in prose both ways; reordered part-conformance via ordering.memberOrder (ruling A) to put Conformance + the declaration form first and Extension after it, fixing the forward reference the read-through named. Invariant was re-parented from the Conformance concept to a direct child of the Part (Door 1, RFC-042 Change A) because check-spec-rendered-order.mjs found it depends on both Extension and Validation (not the reverse), so it renders last, after both. Counts: whole document 7,162 lines, 65,536 -> 65,742 words; Part-conformance container 32 -> 31 members; coherence 2/2, readability 50/50, rendered-order 7/7 allowlisted, all unchanged. All gates green (validate-all x2, check-release-drift, repo validate 0 errors)."
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-27T16:27:15.311088897+00:00",
-  "updatedAt": "2026-09-27T16:27:15.311095525+00:00",
+  "updatedAt": "2026-09-27T23:32:39.412569830+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }
