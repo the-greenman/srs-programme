@@ -15,8 +15,8 @@
     ],
     "body": "The definition layer — types phase, unit, finding and carried_context, the programme_unit lifecycle, and check-programme-conformance.mjs — merged in srs#583. The instance layer is the phases, units, findings, carried context and the contains/precedes/depends-on tree over them, and is what makes the pilot a proof rather than a schema."
   },
-  "lifecycleState": "in_flight",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-05T22:07:51.545110646+00:00",
-  "updatedAt": "2026-09-05T22:09:41.050741746+00:00",
+  "updatedAt": "2026-09-27T16:24:50.917994826+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

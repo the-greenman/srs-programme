@@ -14,8 +14,8 @@
     ],
     "body": "The rewrite units for this wave are not assumed — they come out of a read-through. Read the rendered specification front to back as a person new to it would, note where the thread breaks, where a concept arrives before anything introduces it, and where a Part reads as a list rather than an argument, and propose one rewrite unit per Part from what is actually there.\n\nCut every proposed unit against the rulings of 2026-09-17 (the-greenman/srs#787, comment 5712896993): order and membership for a story live at EXPRESSION — Containers for context membership and nesting, the Composition section's memberOrder for context order, the MEANING tree untouched — and concepts describe themselves, so bridging and introductory prose belongs to the concept record and is rendered at its heading. A proposal that needs a narrative leaf type or presentation-only text on the Composition is a proposal that has not been cut against the rulings.\n\nThe output is the nine per-Part rewrite units, plus the readability check and the proof read-through, recorded here as units under this phase. Nothing else in this wave starts until they exist."
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "landed",
   "createdAt": "2026-09-17T10:39:39.034468665+00:00",
-  "updatedAt": "2026-09-17T10:39:39.034473248+00:00",
+  "updatedAt": "2026-09-27T16:27:20.478290898+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

@@ -1,0 +1,25 @@
+{
+  "instanceId": "3d119672-8db7-420d-9dff-12a9fe6b9827",
+  "typeId": "91474c82-739a-4730-b25c-caf4ccfea7c3",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "unit",
+  "fieldValues": {
+    "title": "Cut the undeclarable rules from the normative surface",
+    "summary": "Applies the level test to the 127 invariant + 161 mechanism records scripts/spec-language-registry.json declares normative (~19 rules, disposition table A-D: relation-shape rules, semantic-judgement invariants, conventions dressed as mechanisms, governance/doctrine mechanisms). Retires in place (record_transition/record_update, never file deletion or renumbering) and relocates to #819's language-guide section or the charter. Re-cuts mechanism-aa154cf4's conformance enumeration in the same PR or the core profile stays unsatisfiable.",
+    "decision_mode": "complex",
+    "door": "door-2",
+    "issue_ref": [
+      "srs#818",
+      "srs#580",
+      "srs#556",
+      "srs#490",
+      "srs#812"
+    ],
+    "body": "Wave 2 unit (meaning-placement sweep). Blocked on #812 — that ruling licenses these cuts. Method: retire in place, never delete files or renumber invariants (I-number uniqueness is a live check, cited externally). All writes through the srs-spec MCP server or the CLI, never raw file edits.\n\nHeld by owner ruling — not cut, carried to #820 instead: mechanism-b3c293f9 (naming grammar) and mechanism-d453219f (.srs/README.md, amended to state its technical reason).\n\nMode complex, Door 2/3 (removes normative meaning; amends accepted RFC surface) — gate:owner-merge. Not yet scheduled."
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-09-27T16:28:33.271113817+00:00",
+  "updatedAt": "2026-09-27T16:28:33.271118065+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

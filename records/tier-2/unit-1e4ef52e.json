@@ -1,0 +1,23 @@
+{
+  "instanceId": "1e4ef52e-cee1-449a-a442-d8ebdd0c4170",
+  "typeId": "91474c82-739a-4730-b25c-caf4ccfea7c3",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "unit",
+  "fieldValues": {
+    "title": "P6: Presentation",
+    "summary": "Projection's own prose becomes the Part's opening (ruling B); the three-stage render pipeline (Composition → Presentation → Projection) stated before any shape detail; the fifteen shape leaves grouped under one reference heading (X1's treatment); field-row templates moved to reference. Concepts getting prose: Projection, View, Composition, Theme.",
+    "decision_mode": "clear",
+    "door": "non-normative",
+    "issue_ref": [
+      "srs#807",
+      "srs#787",
+      "srs#798"
+    ],
+    "body": "Part unit from the read-through (§4, unit P6; findings §2 Part 6). Depends on X1, X2.\n\nProjection's own prose becomes the Part's opening (ruling B: the concept describes itself, currently 1,380 lines from its title); the three-stage render pipeline (Composition → Presentation → Projection) stated before any shape detail; the fifteen shape leaves grouped under one reference heading (X1's reference-material treatment); field-row templates (from srs#794's Views) moved to reference.\n\nNot yet started."
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-09-27T16:27:15.057306079+00:00",
+  "updatedAt": "2026-09-27T16:27:15.057309396+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

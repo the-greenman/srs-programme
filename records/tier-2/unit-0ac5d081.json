@@ -1,0 +1,23 @@
+{
+  "instanceId": "0ac5d081-318e-4c50-9115-89eaa12da49f",
+  "typeId": "91474c82-739a-4730-b25c-caf4ccfea7c3",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "unit",
+  "fieldValues": {
+    "title": "P4: Structure",
+    "summary": "Introduces Relation first in the Part; reduces ext:recommended-relations to one line; moves the directory-kind-scopes design note to rationale; restores the comparison table to 'When to edit in-place'; re-parents Semantic order (ruling R4). Applies ruling R2: Blueprint and Protocol move to Distribution, Addressability and Discovery move to Extensions. Concepts getting prose: Relation, Relation type definition, Semantic order, Semantic succession, Source reference.",
+    "decision_mode": "complicated",
+    "door": "door-1",
+    "issue_ref": [
+      "srs#805",
+      "srs#787",
+      "srs#798"
+    ],
+    "body": "Part unit from the read-through (§4, unit P4; findings §2 Part 4). Depends on P3.\n\nRelation introduced first in the Part; ext:recommended-relations reduced to one line (compatibility-label-only per its own record); directory-kind-scopes design note moves to rationale; 'When to edit in-place' gets its comparison table back; re-parents the Semantic order mechanism (ruling R4, Door 1).\n\nApplies ruling R2: Blueprint and Protocol move out of this Part to Distribution (package-layer definitions, not instance structure); Addressability and Discovery move to Extensions, each with one home — resolving the read-through's 'ruling on divergence 6'.\n\nNot yet started."
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-09-27T16:27:14.797289229+00:00",
+  "updatedAt": "2026-09-27T16:27:14.797293044+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

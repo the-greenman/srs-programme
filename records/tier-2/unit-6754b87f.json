@@ -1,0 +1,23 @@
+{
+  "instanceId": "6754b87f-cb56-4b45-8e51-b22d88d8c8ef",
+  "typeId": "91474c82-739a-4730-b25c-caf4ccfea7c3",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "unit",
+  "fieldValues": {
+    "title": "X3: \"Reading this specification\" becomes the reader's contract",
+    "summary": "Rewrites Part 1's prose (part:reading-this-specification, purpose-and-scope) to name the reader, list the nine Parts in one line each, and state the two governing facts: records are the source, documents are projections. Moves the extension-decision table to the end, near Extensions.",
+    "decision_mode": "clear",
+    "door": "non-normative",
+    "issue_ref": [
+      "srs#802",
+      "srs#787",
+      "srs#798"
+    ],
+    "body": "Cross-cutting unit from the read-through (§4, unit X3). Depended on X2 (terminology current before the contract is written).\n\nRewrote Part 1's prose to name the reader, list the nine Parts in one line each, and state the two governing facts: records are the source, documents are projections. Moved the extension-decision table (previously opening the Part) to the end, near Extensions.\n\nPR: https://github.com/the-greenman/srs/pull/823 (merged)."
+  },
+  "lifecycleState": "landed",
+  "createdAt": "2026-09-27T16:27:14.131775828+00:00",
+  "updatedAt": "2026-09-27T16:27:14.529021552+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

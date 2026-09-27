@@ -1,0 +1,23 @@
+{
+  "instanceId": "6ae1619d-4f94-4c3d-9c97-515431c54f84",
+  "typeId": "91474c82-739a-4730-b25c-caf4ccfea7c3",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "unit",
+  "fieldValues": {
+    "title": "X1: reference material stops being body text",
+    "summary": "Drops the four generated dumps from the reading line (the two generated-type-reference dumps, the second reference dump inside Part Extensions, and the Key Invariants reprint) — about 1,700 lines, 24% of the rendered spec. Each type's property table renders under its own concept; the pseudo-IDL duplicate drops; Key Invariants becomes a generated index at the end, marked as an index. Adds a sixth coherence check: unmet-at-reading-position count over the rendered order.",
+    "decision_mode": "clear",
+    "door": "non-normative",
+    "issue_ref": [
+      "srs#801",
+      "srs#787",
+      "srs#798"
+    ],
+    "body": "Cross-cutting unit from the read-through (§4, unit X1). Composition and View changes only (spec-document-view, unified-document-view, and the four per-type Views delivered by srs#794); no record content changes.\n\nPer ruling R1 (srs#787 comment, 2026-09-17): each type's property table renders under its own concept, the pseudo-IDL block drops entirely, Key Invariants becomes a generated index at the very end, explicitly marked as an index rather than normative prose. Folds in a sixth coherence check: unmet-at-reading-position count over the rendered order (distinct from srs#795's tree-order check).\n\nDependencies met and poolable as of 2026-09-21 (srs#793/#831 pin build.399 PR #833; srs#794 PR #835). Correction carried from #794: there is no Theme — the route was ruled out (fieldRow template label suppression forbidden by [T-3]/[T-6b]/[FR-037-19]); built instead on the four package Views (concept-leaf-view, mechanism-leaf-view, example-leaf-view, invariant-leaf-view) carrying labelMode: none. Hazard carried from #794: scripts/lib/extension-index-region.mjs and scripts/lib/invariant-region.mjs locate their splice point by matching literal rendered text — moving Key Invariants to the end collides with invariant-region.mjs's anchor, expect to change it in the same PR.\n\nDispatched 2026-09-21; in flight now."
+  },
+  "lifecycleState": "in_flight",
+  "createdAt": "2026-09-27T16:27:13.873664744+00:00",
+  "updatedAt": "2026-09-27T16:27:14.125121661+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

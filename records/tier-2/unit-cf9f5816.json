@@ -1,0 +1,26 @@
+{
+  "instanceId": "cf9f5816-636d-43fd-b72f-1a591bf3c851",
+  "typeId": "91474c82-739a-4730-b25c-caf4ccfea7c3",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "unit",
+  "fieldValues": {
+    "title": "RFC candidate: declared structural constraints (acyclicity, cardinality, uniqueness-within-scope)",
+    "summary": "Companion to #812/#818: names the machinery SRS is missing for the rules held rather than cut — relation-graph acyclicity, cardinality (single-parent), endpoint-type restriction (allowedSourceTypes/allowedTargetTypes were retired with no successor), and the naming grammar (a one-line `pattern` addition to field.json). Notes Blueprint's RelationSpec already carries the richest vocabulary (relationType, sourceType/targetType, cardinality, required) but srs-core's blueprint validation never reads cardinality or required — the RFC's first question is whether the constraint surface lands on RelationTypeDefinition, Blueprint, or both, resolving to one home per one-way-per-goal.",
+    "decision_mode": "complex",
+    "door": "door-2",
+    "issue_ref": [
+      "srs#820",
+      "srs#580",
+      "srs#818",
+      "srs#812",
+      "srs-rust#557",
+      "srs-rust#558"
+    ],
+    "body": "RFC candidate, companion to #812. Design-note 046 (f48d489f-2081-441f-ae7b-27e4046227b7) already named the class and recommended one RFC. The held-rule queue this RFC would satisfy: contains one-parent (RFC-042 [R2]), precedes acyclicity, and mechanism-b3c293f9's naming grammar (its version-bump table is not mechanisable and likely splits out when taken up). If declined, the held rules fall back to #818's disposition table.\n\nMode complex, Door 2 (new normative meaning) — gate:owner-merge when written. Not scheduled: this issue holds the question and the queue until the readability wave is done."
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-09-27T16:28:33.396983186+00:00",
+  "updatedAt": "2026-09-27T16:28:33.396987685+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
