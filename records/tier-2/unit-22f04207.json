@@ -6,18 +6,20 @@
   "typeName": "unit",
   "fieldValues": {
     "title": "P2: Foundations reads in dependency order",
-    "summary": "Applies memberOrder (ruling A) for the three story-vs-tree divergences in Foundations; re-parents the Stable identity mechanism leaf from sibling to child of its concept (ruling R4, Door 1 under RFC-042 Change A); deletes the stale μDemocracy mapping and federation-risk note; moves the valueType migration table to an appendix (X1's treatment). Concepts getting prose: Field, Type, Field assignment, AI guidance, Vocabulary, Stable identity.",
+    "summary": "Re-parents the Stable identity mechanism leaf under its own concept (RFC-042 Change A), deletes the stale μDemocracy mapping and semanticObjectType federation-risk design-notes, moves the pre-RFC-032 valueType historical note into the Foundation Group (Core) appendix concept, and adds a forward-pointer bridging clause to Type's own prose. The headline scope item — applying memberOrder for the three story-vs-tree divergences (Type before Field, AI guidance early, Vocabulary placement) — could not land: a confirmed srs-rust tool gap makes memberOrder inert for every Part container's own top-level concepts.",
     "decision_mode": "complicated",
     "door": "door-1",
     "issue_ref": [
       "srs#803",
       "srs#787",
-      "srs#798"
+      "srs#798",
+      "srs#799",
+      "srs-rust#1130"
     ],
-    "body": "Part unit from the read-through (§4, unit P2; findings §2 Part 2). Depends on X1, X3, and srs#799 (ruling A decision record) merged.\n\nApplies memberOrder (ruling A) for the three story-vs-tree divergences found in this Part; re-parents the Stable identity mechanism leaf from sibling to child of its concept (ruling R4, Door 1 under RFC-042 Change A); deletes the μDemocracy mapping and the federation-risk note (both stale per the federation disposition); moves the valueType migration table to an appendix (X1's reference-material treatment).\n\nNot yet started."
+    "body": "Part unit from the read-through (§4, unit P2; findings §2 Part 2). Depended on X1, X3, and srs#799 (ruling A decision record) merged — all three met.\n\nLanded via PR #839: re-parented the Stable identity mechanism leaf from sibling to child of its concept (ruling R4, Door 1 under RFC-042 Change A); deleted the μDemocracy mapping and the federation-risk note (both stale per the federation disposition); moved the valueType migration table into the Foundation Group (Core) appendix concept (X1's reference-material treatment, reused rather than inventing a new home); added a forward-pointer bridging clause to Type's own prose.\n\n**Not landed: ordering.memberOrder for the three story-vs-tree divergences.** Confirmed a tool gap, not a data problem, filed as srs-rust#1130: every Part container's own top-level concepts (Field, Type, AI guidance, Vocabulary, …) render through render_record_at_level's recursive contains-descent from the single Part-anchor record (children_by_relation_type, sorted by precedes/[N+12] only), not through the container-subset section's own direct(C) — which collapses to the single anchor once filter_contains_roots runs, because the anchor is itself a declared member that contains every other member. Declaring ordering.memberOrder on part-foundations produced only \"is not a current container member; skipped\" diagnostics and left the rendered order unchanged; reverted rather than left inert. Per ruling A and srs-usage.md's rule against asserting precedes to force presentational order, did not fall back to a precedes-edge workaround. scripts/spec-rendered-order-allowlist.json's five \"Fold candidate: P2\" entries remain accurate and unchanged (6 unmet-at-reading-position before, 6 after).\n\nRemaining work is blocked on srs-rust#1130 landing."
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "in_flight",
   "createdAt": "2026-09-27T16:27:14.535736709+00:00",
-  "updatedAt": "2026-09-27T16:27:14.535740476+00:00",
+  "updatedAt": "2026-09-27T18:14:13.688846296+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }
