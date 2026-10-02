@@ -7,10 +7,12 @@
   "containerType": "phase",
   "identityInstanceId": "9ff0a734-e23b-4c6e-84a5-0b1c110c2728",
   "anchorInstanceId": "9ff0a734-e23b-4c6e-84a5-0b1c110c2728",
-  "rootInstanceIds": [
-    "9ff0a734-e23b-4c6e-84a5-0b1c110c2728"
-  ],
   "memberInstanceIds": [
-    "70eb0aa4-11e8-4b18-8bc8-47e83cac44f7"
+    {
+      "instanceId": "9ff0a734-e23b-4c6e-84a5-0b1c110c2728"
+    },
+    {
+      "instanceId": "70eb0aa4-11e8-4b18-8bc8-47e83cac44f7"
+    }
   ]
 }
