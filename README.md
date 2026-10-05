@@ -1,5 +1,7 @@
 # srs-programme
 
+SRS (pronounced "source") is an open standard for portable semantic documents that people and AI can both understand and use. See [semanticops.com](https://semanticops.com).
+
 The SRS spec-rework programme repository (`com.semanticops.programme`): phases,
 units, findings, and carried context for the #580 programme, plus the Protocol
 the master thread walks.
