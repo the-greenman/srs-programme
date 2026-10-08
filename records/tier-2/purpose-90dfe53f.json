@@ -1,0 +1,19 @@
+{
+  "instanceId": "90dfe53f-65f2-4278-9ee4-7d1253256f91",
+  "typeId": "3c000001-0000-4000-a000-000000000001",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.core",
+  "typeName": "purpose",
+  "fieldValues": {
+    "statement": "Semantic ops is tooling for meaning. Something humans need to learn as AI and cognition becomes a resource, is how to manage assumptions - deep context. Agents start from scratch. Humans don't. Both of these are different projects. To work together well, humans need to share their assumptions with each other so that they can see where they differ. To work well with AI, humans need to share their assumptions so that the AI knows where to focus. SemanticOps as a project seeks to provide the tooling to address this.",
+    "title": "SemanticOps: tooling for meaning"
+  },
+  "createdAt": "2026-10-08T14:56:05.638089297+00:00",
+  "updatedAt": "2026-10-08T14:56:05.638091147+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:scribe",
+    "name": "Scribe (owner dictation)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

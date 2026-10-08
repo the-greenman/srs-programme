@@ -1,0 +1,26 @@
+{
+  "instanceId": "407eb99e-9766-461a-ad17-77e50620055b",
+  "typeId": "c57aafdd-d002-4ee6-9a2b-ff3805107580",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona",
+  "fieldValues": {
+    "title": "People working together",
+    "summary": "People who rely on each other's understanding: they need to share their assumptions so they can see where they differ.",
+    "jobs": [
+      "Surface their own assumptions",
+      "See where members differ",
+      "Settle or record a difference",
+      "Keep shared meaning as people change"
+    ],
+    "needs": "A shared, inspectable record of what each of them takes for granted."
+  },
+  "createdAt": "2026-10-08T14:56:13.206489465+00:00",
+  "updatedAt": "2026-10-08T14:56:13.206491020+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:persona-scout",
+    "name": "Persona scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

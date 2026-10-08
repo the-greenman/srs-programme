@@ -6,7 +6,7 @@
   "typeName": "persona",
   "fieldValues": {
     "title": "Group / organisation",
-    "summary": "A group or organisation that owns its own meaning and wants it to stay portable.",
+    "summary": "People working together as a group that owns its own meaning (a specific case of \"People working together\") and wants it to stay portable.",
     "jobs": [
       "Record decisions and the reasons for them",
       "Keep a shared vocabulary stable over time",
@@ -17,7 +17,7 @@
     "needs": "An open format, and no lock-in to one app or AI vendor."
   },
   "createdAt": "2026-10-08T10:46:16.329616702+00:00",
-  "updatedAt": "2026-10-08T10:46:16.329621076+00:00",
+  "updatedAt": "2026-10-08T14:56:20.451947373+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:persona-scout",

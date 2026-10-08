@@ -6,7 +6,7 @@
   "typeName": "persona",
   "fieldValues": {
     "title": "Writer / argument builder",
-    "summary": "A person building structured arguments together with agents, who needs the structure to hold as the text changes.",
+    "summary": "A person working with AI on a structured argument (a specific case of \"A person working with AI\"), who needs the structure to hold as the text changes.",
     "jobs": [
       "Lay out a claim with its premises",
       "Attach sources and counter-claims to a claim",
@@ -17,7 +17,7 @@
     "needs": "Structure that survives editing, sources and counter-claims attached, and agents that never write their text."
   },
   "createdAt": "2026-10-08T10:46:16.260894065+00:00",
-  "updatedAt": "2026-10-08T10:46:16.260897514+00:00",
+  "updatedAt": "2026-10-08T14:56:20.293879426+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:persona-scout",
