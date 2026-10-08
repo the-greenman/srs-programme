@@ -56,6 +56,8 @@ Every new SemanticOps issue (the-greenman/semanticops.com or an srs-* repo) stat
 
 Problem scouts run the MCP/CLI `similar` check against existing problems before suggesting a new one. Parked muDemocracy.org issues are sources for problems (`source_ref: muDemocracy.org#N`), never bulk-imported; unparking happens when an affirmed problem is answered by an epic, not by period rank.
 
+`source-documents/archaeology-2026-10-08/` is a scout source: the 2026-10-08 audit of work lost before the reboot (unfinished RFCs, unfollowed decisions, abandoned epics, false closes, broken follow-up promises, spec/implementation drift), each thread classed against the new system. Start at `R-reconciled.md`: ORPHANED rows have no problem yet. Cite a row as `source_ref: srs-programme:source-documents/archaeology-2026-10-08/<file>`.
+
 ## Merge gate
 
 `validate` is required on master, strict, zero reviews. Programme data is
