@@ -1,0 +1,29 @@
+{
+  "instanceId": "7c341448-3064-4471-9b43-6b540f2d7d75",
+  "typeId": "23381f5e-e004-4342-9a2c-381a7e8f868a",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "boundary",
+  "fieldValues": {
+    "title": "F3 Meaning You Can Continue Elsewhere",
+    "strategy_key": "F3",
+    "summary": "A user edits offline, inspects semantic differences and reintegrates without losing identity, relations, provenance or unsupported content.",
+    "body": "## Track\n\nF\n\n## Actor\n\nCollaborator continuing work from a clone or export\n\n## Durable Artifact\n\nReintegrated repository with reviewable semantic diff and preserved unsupported-content diagnostics.\n\n## Entry Criteria\n\n- F2 walkthrough passes\n- Diff and reintegration contracts are accepted\n\n## Included Capabilities\n\n- Preserve Meaning\n- Work With Meaning\n- Move and Reconcile\n- Sustain Trust\n\n## Exclusions\n\n- Container-slice reintegration\n- Hosted VCS\n- Federation negotiation\n\n## Walkthrough\n\nClone or export a repository, make an offline change, inspect the semantic diff, and reintegrate while verifying record identities, relations, provenance and opaque extensions.\n\n## Compatibility Promise\n\nInterchange never silently discards data a conforming reader cannot interpret.\n\n## Stable After\n\nOffline continuation and reintegration form a reliable cross-installation collaboration boundary.",
+    "issue_ref": [
+      "muDemocracy.org#94",
+      "muDemocracy.org#62",
+      "muDemocracy.org#63",
+      "muDemocracy.org#64",
+      "muDemocracy.org#65",
+      "srs#387",
+      "srs#388",
+      "muDemocracy.org#143",
+      "muDemocracy.org#116",
+      "muDemocracy.org#100",
+      "muDemocracy.org#101"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:28.610040340+00:00",
+  "updatedAt": "2026-10-08T10:00:28.610046258+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

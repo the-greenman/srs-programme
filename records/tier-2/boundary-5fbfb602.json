@@ -1,0 +1,28 @@
+{
+  "instanceId": "5fbfb602-2bbe-4c85-bed1-1aa7fb2caffc",
+  "typeId": "23381f5e-e004-4342-9a2c-381a7e8f868a",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "boundary",
+  "fieldValues": {
+    "title": "F2 Meaning You Can Take / SRS 2.0",
+    "strategy_key": "F2",
+    "summary": "A realistic SRS governance repository opens, validates, explains itself and renders offline as a self-contained semantic repository.",
+    "body": "## Track\n\nF\n\n## Actor\n\nIndependent user with no originating-service access\n\n## Durable Artifact\n\nPortable `.srs` export, generic readable fallback and independent conformance proof.\n\n## Entry Criteria\n\n- F1 evidence is green\n- Archive, completeness and version-closure tests are defined\n\n## Included Capabilities\n\n- Define Meaning\n- Preserve Meaning\n- Present Facets\n- Move and Reconcile\n\n## Exclusions\n\n- Editing and reintegration\n- Cryptographic authority profiles\n- Federation negotiation\n\n## Walkthrough\n\nExport an SRS-native governance repository or fixed governance fixture, disconnect from its originating service, then recover definitions, records, relations, provenance and a readable facet while accurately reporting missing evidence or unsupported semantics.\n\n## Compatibility Promise\n\nFrozen publications resolve their declared closure reproducibly and remain independent of live Views.\n\n## Stable After\n\nThe public SRS boundary: Continuity becomes the default.\n\n## Gaps\n\n- SRS-web F2 portable-reader walkthrough: srs#384: Create and make a gate when the SRS-web repository runtime can open a portable archive without service access.",
+    "issue_ref": [
+      "srs#384",
+      "muDemocracy.org#117",
+      "muDemocracy.org#113",
+      "srs#385",
+      "srs#386",
+      "muDemocracy.org#142",
+      "muDemocracy.org#71",
+      "srs#312",
+      "srs#375",
+      "srs#340"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:28.544280412+00:00",
+  "updatedAt": "2026-10-08T10:00:28.544287867+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

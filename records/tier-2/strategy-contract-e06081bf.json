@@ -1,0 +1,17 @@
+{
+  "instanceId": "e06081bf-7be9-4108-959d-e83f472b62d9",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Attribution mechanism (relation provenance)",
+    "strategy_key": "attribution-mechanism",
+    "stability": "deferred",
+    "summary": "When a real consumer needs who/when/why on a relation or assertion, one single-shaped attribution mechanism — one asserter vocabulary, one timestamp convention, one reference-to-source convention — expresses it; attribution is always optional and never overrides the record, and can only be promoted into office by a verification mechanism (a signature, a ratified decision, a verified publisher).",
+    "body": "## Cell\n\nAttribution\n\n## Capabilities\n\n- Sustain Trust\n- Preserve Meaning\n\n## Sources\n\n- srs-record: srs/records/tier-2/rfc-decision-16b20c56.json\n- srs-record: srs/records/tier-2/rfc-decision-4f1e12e5.json\n\n## Not Included\n\n- The removed five-shape provenance machinery (assertedBy, confidence, status, createdBy, validFrom, validUntil on Relation)\n- Attribution as a requirement for validity\n\n## Return Trigger\n\nThe return claimant arrives: travelling packages need trustable publishers, or agent-written content needs marking. The mechanism then designed must satisfy all three clauses."
+  },
+  "createdAt": "2026-10-08T10:00:30.750665472+00:00",
+  "updatedAt": "2026-10-08T10:00:30.750670383+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

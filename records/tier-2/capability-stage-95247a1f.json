@@ -1,0 +1,19 @@
+{
+  "instanceId": "95247a1f-2099-4612-911c-7624962d8c3d",
+  "typeId": "e5c178de-9113-4074-a81f-a112857bfb76",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "capability_stage",
+  "fieldValues": {
+    "title": "G1 Simple decision log",
+    "strategy_key": "G1",
+    "summary": "A group records decisions with the four-field Quick Log blueprint while retaining a capable canonical Decision Record beneath it.",
+    "body": "## Group Need\n\nWe need a small shared form that lets us remember what we decided.\n\n## Semantic Adds\n\n- Decision Record\n- four essential decision fields\n- explicit absent rather than inferred information\n\n## Blueprint Adds\n\n- Quick Log editing form\n- readable decision-log facet\n\n## Does Not Introduce\n\n- sessions or attendance\n- formal roles or authority\n- AI assistance\n\n## Activation Trigger\n\nA group wants to record and read back decisions without adopting a governance process.",
+    "issue_ref": [
+      "muDemocracy.org#36"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:28.880382414+00:00",
+  "updatedAt": "2026-10-08T10:00:28.880388816+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

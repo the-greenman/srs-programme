@@ -1,0 +1,17 @@
+{
+  "instanceId": "fb9d3ec5-87c6-4062-8b4a-e4779b1b8c26",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Portable semantic publication",
+    "strategy_key": "portable-publication",
+    "stability": "settle-before-f2",
+    "summary": "A person can take an SRS repository away from its originating service and still recover its definitions, canonical meaning, provenance and a readable orientation.",
+    "body": "## Capabilities\n\n- Preserve Meaning\n- Present Facets\n- Move and Reconcile\n\n## Sources\n\n- repo-path: docs/spec/srs-unified.md\n\n## Not Included\n\n- Editing, merge, federation or a promise that every attachment is present"
+  },
+  "createdAt": "2026-10-08T10:00:30.075076897+00:00",
+  "updatedAt": "2026-10-08T10:00:30.075083667+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

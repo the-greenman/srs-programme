@@ -1,0 +1,17 @@
+{
+  "instanceId": "f8035744-ce5c-464d-ad59-502c37a3385e",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "ext:repeatable-fields",
+    "strategy_key": "repeatable-fields",
+    "stability": "deferred",
+    "summary": "If a consumer emerges with genuine array-valued Field assignments, repeatable fields return — as a merge with RFC-032 cardinality's existing list semantics, not necessarily a revival of the removed mechanism.",
+    "body": "## Cell\n\nIdentity\n\n## Capabilities\n\n- Define Meaning\n\n## Sources\n\n- srs-record: srs/records/tier-2/rfc-decision-4f1e12e5.json\n\n## Not Included\n\n- The removed ext:repeatable-fields extension outside a stale ancestor tree\n\n## Return Trigger\n\na consumer with genuine array-valued assignments (note: RFC-032 cardinality already carries list semantics - the return may be a merge, not a revival)."
+  },
+  "createdAt": "2026-10-08T10:00:31.019814772+00:00",
+  "updatedAt": "2026-10-08T10:00:31.019821060+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

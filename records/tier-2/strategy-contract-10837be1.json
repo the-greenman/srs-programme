@@ -1,0 +1,17 @@
+{
+  "instanceId": "10837be1-bf07-4277-b48b-9bb59570e373",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Copy identity, semantic diff and merge",
+    "strategy_key": "semantic-diff-and-merge",
+    "stability": "settle-before-f3",
+    "summary": "Independent implementations can compare and reintegrate semantic changes using stable identity and explicit conflict semantics rather than raw-file coincidence.",
+    "body": "## Capabilities\n\n- Move and Reconcile\n- Preserve Meaning\n\n## Sources\n\n- repo-path: rfcs/rfc-010-assisted-three-way-merge.md\n\n## Not Included\n\n- A required storage backend or a guarantee that every conflict is automatically resolved"
+  },
+  "createdAt": "2026-10-08T10:00:30.335293353+00:00",
+  "updatedAt": "2026-10-08T10:00:30.335299749+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

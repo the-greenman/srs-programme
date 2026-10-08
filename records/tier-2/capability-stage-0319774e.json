@@ -1,0 +1,16 @@
+{
+  "instanceId": "0319774e-25cf-4003-b09a-a54dddfb4169",
+  "typeId": "e5c178de-9113-4074-a81f-a112857bfb76",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "capability_stage",
+  "fieldValues": {
+    "title": "G5 Constituted group",
+    "strategy_key": "G5",
+    "summary": "A group maintains purpose and founding documents as governed Records with explicit amendment and special-ratification policy rather than immutable application configuration.",
+    "body": "## Group Need\n\nWe need to maintain our purpose, objectives and foundational rules, including how those rules may change.\n\n## Semantic Adds\n\n- Purpose and founding-document Records\n- ratification-policy definitions\n- amendment and evidencing relations\n\n## Blueprint Adds\n\n- founding-document workspace\n- policy-aware amendment review\n\n## Does Not Introduce\n\n- new SRS root types\n- hard-coded constitutional behaviour in srs-web\n- a universal governance ontology\n\n## Activation Trigger\n\nA group needs a durable shared purpose or a rule for changing its own rules."
+  },
+  "createdAt": "2026-10-08T10:00:29.143529475+00:00",
+  "updatedAt": "2026-10-08T10:00:29.143535927+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

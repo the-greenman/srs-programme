@@ -1,0 +1,21 @@
+{
+  "instanceId": "92fdbe66-006f-4888-ac19-4ba66b9d68f3",
+  "typeId": "83459606-c8a3-46bc-81dd-8d2677fc92d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "assessment",
+  "fieldValues": {
+    "title": "Structured SRS model and schemas",
+    "strategy_key": "f1-model",
+    "reality_state": "partial",
+    "summary": "The specification, record corpus and published JSON schemas are present.",
+    "body": "## Exists\n\nThe specification, record corpus and published JSON schemas are present.\n\n## Missing\n\nThe #256 cutover must establish one authoritative model and migrated first-party corpus.\n\n## Assessed At\n\n2026-08-15\n\n## Review By\n\n2026-11-15",
+    "evidence": [
+      "repo-path: srs/source-documents/spec/srs-spec.md (source)",
+      "repo-path: docs/schema/2.0/ (schema)"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:31.344315390+00:00",
+  "updatedAt": "2026-10-08T10:00:31.344324696+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

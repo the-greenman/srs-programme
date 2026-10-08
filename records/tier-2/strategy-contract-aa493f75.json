@@ -1,0 +1,17 @@
+{
+  "instanceId": "aa493f75-0a6d-43e9-9c92-e47dad5a4b8c",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Integrity profiles and federation",
+    "strategy_key": "integrity-and-federation",
+    "stability": "deferred",
+    "summary": "Cryptographic authority, attestations and cross-community semantic negotiation remain future layers above portable meaning.",
+    "body": "## Capabilities\n\n- Sustain Trust\n- Move and Reconcile\n\n## Sources\n\n- repo-path: docs/spec/srs-unified.md\n\n## Not Included\n\n- A requirement for the F1, F2 or F3 release promises"
+  },
+  "createdAt": "2026-10-08T10:00:30.613430449+00:00",
+  "updatedAt": "2026-10-08T10:00:30.613436154+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

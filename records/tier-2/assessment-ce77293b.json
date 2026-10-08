@@ -1,0 +1,21 @@
+{
+  "instanceId": "ce77293b-f6c0-4100-a5ea-f179e4aef356",
+  "typeId": "83459606-c8a3-46bc-81dd-8d2677fc92d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "assessment",
+  "fieldValues": {
+    "title": "Repository editing on user-controlled storage",
+    "strategy_key": "f3-local-editing",
+    "reality_state": "partial",
+    "summary": "srs-web opens, edits and saves local, cloud and GitHub-backed repositories.",
+    "body": "## Exists\n\nsrs-web opens, edits and saves local, cloud and GitHub-backed repositories.\n\n## Missing\n\nThis is not yet a whole-repository offline continuation and reintegration proof.\n\n## Assessed At\n\n2026-08-15\n\n## Review By\n\n2026-11-15",
+    "evidence": [
+      "repo-path: srs-web/src/App.svelte (source)",
+      "repo-path: srs-web/e2e/cloud-storage.spec.ts (test)"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:31.806696044+00:00",
+  "updatedAt": "2026-10-08T10:00:31.806701236+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

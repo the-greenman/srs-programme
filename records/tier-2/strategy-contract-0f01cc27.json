@@ -1,0 +1,17 @@
+{
+  "instanceId": "0f01cc27-b0bc-4db1-b162-21ca2cb3f650",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Definition closure and completeness",
+    "strategy_key": "closure-and-completeness",
+    "stability": "settle-before-f2",
+    "summary": "A frozen publication declares the exact definitions and versions it needs, and accurately reports evidence or other content that is absent.",
+    "body": "## Capabilities\n\n- Define Meaning\n- Preserve Meaning\n\n## Sources\n\n- repo-path: docs/spec/srs-unified.md\n\n## Not Included\n\n- Silent substitution of live definitions or implied evidence completeness"
+  },
+  "createdAt": "2026-10-08T10:00:30.142406917+00:00",
+  "updatedAt": "2026-10-08T10:00:30.142412546+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

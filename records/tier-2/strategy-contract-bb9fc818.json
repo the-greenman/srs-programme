@@ -1,0 +1,17 @@
+{
+  "instanceId": "bb9fc818-4fc9-41e1-b326-a6f685cfd0df",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Protocol and AI provenance",
+    "strategy_key": "protocol-and-ai-provenance",
+    "stability": "extension",
+    "summary": "A Protocol can guide a human process, while transcript-linked AI proposals carry inspectable provenance and human ratification evidence.",
+    "body": "## Capabilities\n\n- Work With Meaning\n- Collaborate With AI\n- Present Facets\n\n## Sources\n\n- repo-path: docs/spec/srs-unified.md\n- repo-path: rfcs/mudemocracy-rfc-candidates.md\n\n## Not Included\n\n- AI authority to commit canonical meaning"
+  },
+  "createdAt": "2026-10-08T10:00:30.544031152+00:00",
+  "updatedAt": "2026-10-08T10:00:30.544036824+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,17 @@
+{
+  "instanceId": "df6db9d3-9c2a-479a-a8ab-0d7ac6f9e9a3",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Generic orientation and fallback rendering",
+    "strategy_key": "fallback-orientation",
+    "stability": "settle-before-f2",
+    "summary": "A conforming reader can navigate and explain a repository without its preferred application, theme or DocumentView.",
+    "body": "## Capabilities\n\n- Present Facets\n- Preserve Meaning\n\n## Sources\n\n- repo-path: docs/spec/srs-unified.md\n\n## Not Included\n\n- Reproducing a publisher’s exact visual layout"
+  },
+  "createdAt": "2026-10-08T10:00:30.207726635+00:00",
+  "updatedAt": "2026-10-08T10:00:30.207732572+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

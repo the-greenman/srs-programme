@@ -1,0 +1,17 @@
+{
+  "instanceId": "3fa883a9-6beb-4d6f-8fcf-936cfc7ca78e",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "KEYED reference alias resolution",
+    "strategy_key": "reference-aliases",
+    "stability": "deferred",
+    "summary": "Alias resolution returns only with practice-sharing evidence. Until then, KEYED references are key-only (one name over many); renaming a substrate entry is a supersession act through the status vocabulary.",
+    "body": "## Cell\n\nReference\n\n## Capabilities\n\n- Define Meaning\n- Work With Meaning\n\n## Sources\n\n- srs-record: srs/records/tier-2/rfc-decision-c8704763.json\n\n## Not Included\n\n- Alias resolution for KEYED references\n- A second resolution path alongside the declared reference strengths\n\n## Return Trigger\n\nreturns via the roadmap only with practice-sharing evidence."
+  },
+  "createdAt": "2026-10-08T10:00:31.213709646+00:00",
+  "updatedAt": "2026-10-08T10:00:31.213715447+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

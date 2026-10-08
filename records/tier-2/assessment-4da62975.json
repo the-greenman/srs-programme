@@ -1,0 +1,21 @@
+{
+  "instanceId": "4da62975-115e-42f4-bff2-f48a0082dd74",
+  "typeId": "83459606-c8a3-46bc-81dd-8d2677fc92d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "assessment",
+  "fieldValues": {
+    "title": "Offline reintegration without semantic loss",
+    "strategy_key": "f3-reintegration",
+    "reality_state": "planned",
+    "summary": "The target walkthrough and release gate are defined.",
+    "body": "## Exists\n\nThe target walkthrough and release gate are defined.\n\n## Missing\n\nConflict handling, merge semantics and a whole-repository demonstration.\n\n## Assessed At\n\n2026-08-15\n\n## Review By\n\n2026-11-15",
+    "evidence": [
+      "issue: muDemocracy.org#63 (issue)",
+      "issue: muDemocracy.org#65 (issue)"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:31.933717988+00:00",
+  "updatedAt": "2026-10-08T10:00:31.933723023+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

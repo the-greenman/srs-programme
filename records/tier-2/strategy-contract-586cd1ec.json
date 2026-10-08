@@ -1,0 +1,17 @@
+{
+  "instanceId": "586cd1ec-b630-4124-87d0-806ff69b7e6e",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Federation (registry, events, cross-repository relations)",
+    "strategy_key": "federation-redesign",
+    "stability": "deferred",
+    "summary": "Federation is core to SRS and returns as a planned roadmap phase — grounded in the sharing forms that actually emerged (bundles, slices, git-hosted repositories) and the axis 4-10 verification path; the removal is a deliberate reset of a design that predated real practice, not a judgment on the capability. Sits beside the integrity-and-federation contract, which covers the cryptographic-authority and negotiation layer above it.",
+    "body": "## Cell\n\nPortability\n\n## Capabilities\n\n- Sustain Trust\n- Move and Reconcile\n\n## Sources\n\n- srs-record: srs/records/tier-2/rfc-decision-4f1e12e5.json\n\n## Not Included\n\n- The removed federation registry, federation events, and cross-repository relation fields\n- Cryptographic authority or cross-community semantic negotiation (see integrity-and-federation)\n\n## Return Trigger\n\nfederation is core to SRS (owner, 2026-08-22); this removal is a deliberate reset of a design that predates real practice, not a judgment on the capability. The redesign returns as a planned roadmap phase, grounded in the sharing forms that actually emerged (bundles, slices, git-hosted repositories) and the axis 4-10 verification path; the owner schedules it."
+  },
+  "createdAt": "2026-10-08T10:00:30.820872102+00:00",
+  "updatedAt": "2026-10-08T10:00:30.820879550+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,17 @@
+{
+  "instanceId": "3a74dfb7-43ef-48f1-8566-3580ce6fdbae",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Continuation and reconciliation",
+    "strategy_key": "continuation",
+    "stability": "settle-before-f3",
+    "summary": "A repository can be copied, changed elsewhere and reconciled without silently losing semantic identity, relations, provenance or unsupported content.",
+    "body": "## Capabilities\n\n- Move and Reconcile\n- Preserve Meaning\n- Sustain Trust\n\n## Sources\n\n- repo-path: rfcs/rfc-010-assisted-three-way-merge.md\n\n## Not Included\n\n- Hosted VCS, federation negotiation or automatic conflict resolution"
+  },
+  "createdAt": "2026-10-08T10:00:30.268824824+00:00",
+  "updatedAt": "2026-10-08T10:00:30.268831591+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,24 @@
+{
+  "instanceId": "1438e77e-2b92-4732-87b7-95abaa032053",
+  "typeId": "23381f5e-e004-4342-9a2c-381a7e8f868a",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "boundary",
+  "fieldValues": {
+    "title": "P2 Facilitated Decisions",
+    "strategy_key": "P2",
+    "summary": "A group works through a projected semantic Protocol, agrees wording live and ratifies a complete decision.",
+    "body": "## Track\n\nP\n\n## Actor\n\nGroup using the shared-screen facilitation mode of the SRS-web governance workspace\n\n## Durable Artifact\n\nRatified decision produced by a resumable Protocol run and readable as a whole.\n\n## Entry Criteria\n\n- F1 is closed\n- SRS-web can open and edit the governance container workspace\n\n## Included Capabilities\n\n- Work With Meaning\n- Present Facets\n\n## Exclusions\n\n- AI-generated wording\n- Transcript ingestion and TSS emission\n- A separate facilitation-only semantic store\n\n## Walkthrough\n\nIn the same SRS-web repository workspace, project a Protocol, guide the group through each stage, resume after interruption, review the assembled record, ratify it and later read it back.\n\n## Compatibility Promise\n\nThe Protocol presents and guides canonical meaning; it does not own or alter it.\n\n## Stable After\n\nShared-screen manual facilitation is a first-class SRS-web mode, not a separate editor.\n\n## Gaps\n\n- P2/P3 substrate split in existing story bodies: muDemocracy.org#141: Before P2 implementation, move TSS emission and transcript-linked provenance from the manual P2 contract into P3 while retaining Protocol-run attention state in P2.",
+    "issue_ref": [
+      "muDemocracy.org#141",
+      "muDemocracy.org#66",
+      "muDemocracy.org#67",
+      "muDemocracy.org#144",
+      "srs-rust#236",
+      "srs-rust#252"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:28.749453379+00:00",
+  "updatedAt": "2026-10-08T10:00:28.749458438+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

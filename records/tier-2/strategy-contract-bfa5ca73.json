@@ -1,0 +1,17 @@
+{
+  "instanceId": "bfa5ca73-7df7-4458-a6cc-e6dc7d03f019",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Tier 1 (TypedRecord middle rung)",
+    "strategy_key": "typed-record-tier",
+    "stability": "deferred",
+    "summary": "If a real consumer produces semi-structured records — named fields, no Type — that fit neither a Note's free-text sections nor a lightweight Type, the middle tier returns as an evidence-shaped design, not the removed one. Until then the record model stands at two tiers (Note, Record); graduation is expressed as Note-to-Record via derived-from.",
+    "body": "## Cell\n\nIdentity\n\n## Capabilities\n\n- Define Meaning\n- Work With Meaning\n\n## Sources\n\n- srs-record: srs/records/tier-2/rfc-decision-53635966.json\n\n## Not Included\n\n- The removed TypedRecord entity and its graduatedAt timestamp\n- Tier 1 in the discovery Text Projection or the tier taxonomy prose\n\n## Return Trigger\n\nThe roadmap return trigger: a real consumer produces semi-structured records (named fields, no Type) that fit neither Note sections nor a lightweight Type. Until then, the two-tier model stands."
+  },
+  "createdAt": "2026-10-08T10:00:30.953893533+00:00",
+  "updatedAt": "2026-10-08T10:00:30.953900456+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

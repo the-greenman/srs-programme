@@ -1,0 +1,21 @@
+{
+  "instanceId": "1e8806f0-14bf-40f2-9f48-d4fefc8edb83",
+  "typeId": "83459606-c8a3-46bc-81dd-8d2677fc92d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "assessment",
+  "fieldValues": {
+    "title": "Simple governance decision workspace",
+    "strategy_key": "p1-governance-editor",
+    "reality_state": "proven",
+    "summary": "The SRS-web governance editor can create, edit, validate and render decision repositories.",
+    "body": "## Exists\n\nThe SRS-web governance editor can create, edit, validate and render decision repositories.\n\n## Missing\n\nThis proves the starting log, not the full living-decision release.\n\n## Assessed At\n\n2026-08-15\n\n## Review By\n\n2026-11-15",
+    "evidence": [
+      "repo-path: srs-web/e2e/decision-flow.spec.ts (test)",
+      "repo-path: srs-web/e2e/create-document.spec.ts (test)"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:31.999292008+00:00",
+  "updatedAt": "2026-10-08T10:00:31.999298380+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

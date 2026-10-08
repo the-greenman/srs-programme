@@ -1,0 +1,20 @@
+{
+  "instanceId": "d32582d5-4a2f-44b0-bf59-38e6f2ac77c4",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Layered default values",
+    "strategy_key": "layered-defaults",
+    "stability": "deferred",
+    "summary": "When a real authoring surface needs pre-filled values, it can use one versioned layered-default mechanism whose effective value resolves Protocol → Type → Field; a default never satisfies a required Field.",
+    "body": "## Capabilities\n\n- Define Meaning\n- Work With Meaning\n\n## Sources\n\n- issue: srs#431\n\n## Not Included\n\n- A separate default mechanism at each of the Field, Type and Protocol layers\n- Treating a default as satisfying requiredness\n- A current F1, F2, F3 or practice-track release gate",
+    "issue_ref": [
+      "srs#431"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:29.877925234+00:00",
+  "updatedAt": "2026-10-08T10:00:29.877933410+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

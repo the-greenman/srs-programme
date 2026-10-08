@@ -1,0 +1,17 @@
+{
+  "instanceId": "f325be79-ee53-41e8-b723-7774b01c4684",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "View.protection (view-root edit-protection enum)",
+    "strategy_key": "view-protection",
+    "stability": "deferred",
+    "summary": "If a real authoring surface needs edit protection, the missing enforcement half is designed then; a hint without a contract (none/read-only/fill-in with no enforcement semantics defined anywhere) is not restored as-is.",
+    "body": "## Cell\n\nDescription\n\n## Capabilities\n\n- Present Facets\n- Work With Meaning\n\n## Sources\n\n- srs-record: srs/records/tier-2/rfc-decision-4f1e12e5.json\n\n## Not Included\n\n- The removed View.protection enum (corrected attribution: it sat on the View, not on FieldView)\n- FieldView.required, which is unaffected — attested in production use and dispositioned separately\n\n## Return Trigger\n\na real authoring surface needing edit protection, which must design the missing enforcement half."
+  },
+  "createdAt": "2026-10-08T10:00:31.147383425+00:00",
+  "updatedAt": "2026-10-08T10:00:31.147389012+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

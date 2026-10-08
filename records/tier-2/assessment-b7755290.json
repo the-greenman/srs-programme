@@ -1,0 +1,21 @@
+{
+  "instanceId": "b7755290-da91-44bb-91dd-4965f0314704",
+  "typeId": "83459606-c8a3-46bc-81dd-8d2677fc92d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "assessment",
+  "fieldValues": {
+    "title": "Meeting participation and whole-record ratification",
+    "strategy_key": "p2-ratification",
+    "reality_state": "planned",
+    "summary": "The intended semantic additions and release contract are explicit.",
+    "body": "## Exists\n\nThe intended semantic additions and release contract are explicit.\n\n## Missing\n\nSession, participation, ratification and later read-back in a real facilitated walkthrough.\n\n## Assessed At\n\n2026-08-15\n\n## Review By\n\n2026-11-15",
+    "evidence": [
+      "issue: muDemocracy.org#67 (issue)",
+      "issue: srs-rust#236 (issue)"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:32.326169591+00:00",
+  "updatedAt": "2026-10-08T10:00:32.326176691+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

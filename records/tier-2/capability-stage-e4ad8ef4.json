@@ -1,0 +1,20 @@
+{
+  "instanceId": "e4ad8ef4-30dc-40f8-8c08-dcd6a7d46b66",
+  "typeId": "e5c178de-9113-4074-a81f-a112857bfb76",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "capability_stage",
+  "fieldValues": {
+    "title": "D3 Faceted publication",
+    "strategy_key": "D3",
+    "summary": "Authoring, reading, generic fallback and website or print publication are explicit facets over canonical meaning; a publication adapter never becomes the only reader.",
+    "body": "## Group Need\n\nWe need to read, edit, print and publish the same document differently without duplicating or losing its meaning.\n\n## Semantic Adds\n\n- purpose-specific Views\n- DocumentViews\n- generic fallback rendering contract\n\n## Blueprint Adds\n\n- authoring facet\n- reading and publication facets\n\n## Does Not Introduce\n\n- layout as canonical state\n- a single View for editing and publication\n- a required theme or website runtime\n\n## Activation Trigger\n\nA document must serve readers in more than one context while remaining recoverable without its preferred presentation.\n\n## Research\n\n- problem-index/08-rendering-export/default-rendering-baseline.md: A conforming reader needs a normative baseline when no View is available.\n- problem-index/08-rendering-export/deliberation-export-separation.md: Authoring and publication Views have incompatible purposes and must remain separate projections.",
+    "issue_ref": [
+      "muDemocracy.org#95",
+      "srs#385"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:29.474258665+00:00",
+  "updatedAt": "2026-10-08T10:00:29.474264535+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

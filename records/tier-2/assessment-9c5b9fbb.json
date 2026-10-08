@@ -1,0 +1,21 @@
+{
+  "instanceId": "9c5b9fbb-4a57-469d-837b-d428cbe08454",
+  "typeId": "83459606-c8a3-46bc-81dd-8d2677fc92d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "assessment",
+  "fieldValues": {
+    "title": "Semantic diff and repository-copy identity",
+    "strategy_key": "f3-semantic-diff",
+    "reality_state": "planned",
+    "summary": "Git storage integration provides a useful substrate.",
+    "body": "## Exists\n\nGit storage integration provides a useful substrate.\n\n## Missing\n\nCopy identity and semantic-diff RFCs, rather than byte-level assumptions.\n\n## Assessed At\n\n2026-08-15\n\n## Review By\n\n2026-11-15",
+    "evidence": [
+      "issue: muDemocracy.org#62 (issue)",
+      "issue: srs#387 (issue)"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:31.871035838+00:00",
+  "updatedAt": "2026-10-08T10:00:31.871042656+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
