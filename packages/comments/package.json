@@ -1,0 +1,23 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/package-manifest.json",
+  "title": "comments",
+  "description": "",
+  "status": "active",
+  "createdAt": "2026-10-08T15:16:01.299005893+00:00",
+  "fields": [
+    "fields/commenttext-d34c8983.json"
+  ],
+  "types": [
+    "types/comment-11cd0a5f.json"
+  ],
+  "relationTypes": [
+    "relation-types/comsemanticopscommentscomments-on-94dc4240.json"
+  ],
+  "views": [],
+  "compositions": [],
+  "blueprints": [],
+  "id": "9092f84e-fb94-4f81-a523-0f7ef5b02194",
+  "namespace": "com.semanticops.comments",
+  "name": "comments",
+  "version": "1.0.0"
+}

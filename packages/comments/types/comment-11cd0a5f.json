@@ -1,0 +1,21 @@
+{
+  "id": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "namespace": "com.semanticops.comments",
+  "name": "comment",
+  "version": 1,
+  "description": "Feedback on one record.",
+  "fields": [
+    {
+      "fieldId": "d34c8983-3b82-49b0-ac59-acd7ead5180a",
+      "order": 0,
+      "required": true,
+      "displayLabel": "Body"
+    }
+  ],
+  "identityFieldId": "d34c8983-3b82-49b0-ac59-acd7ead5180a",
+  "aiGuidance": {
+    "purpose": "A comment is feedback on exactly one record, linked to it by a com.semanticops.comments/comments-on relation (comment to target). It never edits the target. Create the comment record, then relate it comments-on. Authorship is the engine-stamped createdBy (RFC-046), never a field; thread order is createdAt. Its label is the start of its text."
+  },
+  "createdAt": "2026-10-08T15:16:01.381068924+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json"
+}

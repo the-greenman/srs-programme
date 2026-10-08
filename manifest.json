@@ -34,6 +34,10 @@
   "packageRefs": [
     {
       "mode": "local",
+      "path": "packages/comments"
+    },
+    {
+      "mode": "local",
       "path": "packages/method"
     }
   ],

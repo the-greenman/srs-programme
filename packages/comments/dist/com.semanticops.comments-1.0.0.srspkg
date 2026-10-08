@@ -1,0 +1,79 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/package-bundle.json",
+  "dataModelRevision": 9,
+  "dependencyRefs": [
+    {
+      "definitionType": "field",
+      "id": "d34c8983-3b82-49b0-ac59-acd7ead5180a",
+      "name": "comment_text",
+      "namespace": "com.semanticops.comments",
+      "version": 1
+    }
+  ],
+  "description": "",
+  "fields": [
+    {
+      "aiGuidance": {
+        "purpose": "Plain markdown text of one comment, and the comment identity (its label is the start of this text). Humans and agents may write comments. Create the comment as a record, then relate it comments-on (comment to the record it addresses). A comment never edits its target. Authorship is the engine-stamped createdBy (RFC-046); never write an author here."
+      },
+      "createdAt": "2026-10-08T15:16:01.308941412+00:00",
+      "description": "The text of a comment on a record.",
+      "editorHint": "textarea",
+      "fieldType": {
+        "cardinality": "single",
+        "datatype": "string",
+        "format": "markdown"
+      },
+      "id": "d34c8983-3b82-49b0-ac59-acd7ead5180a",
+      "name": "comment_text",
+      "namespace": "com.semanticops.comments",
+      "version": 1
+    }
+  ],
+  "mode": "bundled",
+  "packageDependencies": [],
+  "packageId": "9092f84e-fb94-4f81-a523-0f7ef5b02194",
+  "packageName": "comments",
+  "packageNamespace": "com.semanticops.comments",
+  "packageVersion": "1.0.0",
+  "publishedAt": "2026-10-08T00:00:00Z",
+  "relationTypes": [
+    {
+      "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+      "canonicalDirection": "Comment comments on Target",
+      "category": "association",
+      "createdAt": "2026-10-08T15:16:01.452332087+00:00",
+      "description": "Comment comments on any record (comment -> target).",
+      "id": "94dc4240-84d2-49c2-863a-6af431cd3fcb",
+      "irreflexive": true,
+      "key": "com.semanticops.comments/comments-on",
+      "label": "comments on",
+      "namespace": "com.semanticops.comments",
+      "version": 1
+    }
+  ],
+  "schemaVersion": "2.0",
+  "types": [
+    {
+      "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+      "aiGuidance": {
+        "purpose": "A comment is feedback on exactly one record, linked to it by a com.semanticops.comments/comments-on relation (comment to target). It never edits the target. Create the comment record, then relate it comments-on. Authorship is the engine-stamped createdBy (RFC-046), never a field; thread order is createdAt. Its label is the start of its text."
+      },
+      "createdAt": "2026-10-08T15:16:01.381068924+00:00",
+      "description": "Feedback on one record.",
+      "fields": [
+        {
+          "displayLabel": "Body",
+          "fieldId": "d34c8983-3b82-49b0-ac59-acd7ead5180a",
+          "order": 0,
+          "required": true
+        }
+      ],
+      "id": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+      "identityFieldId": "d34c8983-3b82-49b0-ac59-acd7ead5180a",
+      "name": "comment",
+      "namespace": "com.semanticops.comments",
+      "version": 1
+    }
+  ]
+}
