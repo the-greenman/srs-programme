@@ -4,7 +4,7 @@
   "namespace": "com.semanticops.programme",
   "name": "period",
   "version": 1,
-  "description": "A dated window with its own ranking of objectives.",
+  "description": "A dated window with its own ranking of objectives; ends_on is optional (open-ended).",
   "fields": [
     {
       "fieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
@@ -19,7 +19,7 @@
     {
       "fieldId": "25edcd17-60e1-4056-82ab-8c1c183166ba",
       "order": 2,
-      "required": true
+      "required": false
     },
     {
       "fieldId": "330bd423-7045-4bd7-8a8c-4d8212383f46",
@@ -34,8 +34,8 @@
   ],
   "identityFieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
   "aiGuidance": {
-    "purpose": "The unit the owner ranks. Exactly one period covers any given day; its objective_rank drives derived priority.",
-    "extraction": "One per quarter the owner has ranked. Do not create a period for a quarter that is not yet ranked.",
+    "purpose": "The unit the owner ranks. Exactly one period is active on any given day (started, not ended); its objective_rank drives derived priority.",
+    "extraction": "One per focus period the owner has ranked. Leave ends_on empty while the period is open; set it before starting the next.",
     "negativeGuidance": "Not the old programme wave (phase)."
   },
   "createdAt": "2026-10-08T09:59:51.787Z"

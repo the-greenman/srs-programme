@@ -28,10 +28,9 @@ export function derive(records, relations, today, affirmed = new Set()) {
   const rows = records.map((r) => ({ id: r.instanceId, type: r.record.typeName, fv: r.record.fieldValues }));
   const byId = new Map(rows.map((r) => [r.id, r]));
   const periods = rows.filter((r) => r.type === "period").sort((a, b) => a.fv.starts_on.localeCompare(b.fv.starts_on));
-  for (let i = 1; i < periods.length; i++)
-    if (periods[i].fv.starts_on <= periods[i - 1].fv.ends_on) throw new Error(`periods overlap: ${periods[i - 1].fv.title} and ${periods[i].fv.title}`);
-  const covering = periods.filter((p) => p.fv.starts_on <= today && today <= p.fv.ends_on);
-  if (covering.length !== 1) throw new Error(`${covering.length} periods cover ${today}; exactly one required`);
+  // Active = started and not ended (ends_on optional). A later-started period requires the earlier one to be closed before it.
+  const covering = periods.filter((p) => p.fv.starts_on <= today && (!p.fv.ends_on || today <= p.fv.ends_on));
+  if (covering.length !== 1) throw new Error(`${covering.length} periods active on ${today}; exactly one required (close an earlier open period with an ends_on)`);
   const period = covering[0];
   const ranking = period.fv.objective_rank ?? [];
   for (const id of ranking)
@@ -59,7 +58,7 @@ export function derive(records, relations, today, affirmed = new Set()) {
       objective: served?.title ?? null, rank: served?.rank ?? null, priority: served?.tier ?? null, parked: !served,
       ...(answers.length ? { answers } : {}) };
   });
-  return { activePeriod: { title: period.fv.title, starts_on: period.fv.starts_on, ends_on: period.fv.ends_on },
+  return { activePeriod: { title: period.fv.title, starts_on: period.fv.starts_on, ends_on: period.fv.ends_on ?? null },
     objectives, epics, parked: epics.filter((e) => e.parked).map((e) => e.ref) };
 }
 

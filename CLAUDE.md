@@ -46,6 +46,12 @@ The pin (`SRS_RUST_CLI_TAG`) is declared once, in
 `.github/workflows/validate.yml`. If the CLI cannot express an operation that is
 a finding: file the srs-rust issue and park, never hand-edit around it.
 
+## Filing issues
+
+Every new SemanticOps issue (the-greenman/semanticops.com or an srs-* repo) states `Answers: SP-nn` or `No affirmed problem yet: <one-line problem>`. Before filing, search semanticops.com, srs, srs-rust, srs-web, srs-vscode, srs-context and muDemocracy.org (including `label:parked`) for an issue answering the same problem (`gh search issues --owner the-greenman "<terms>"`); comment on an existing one instead of filing a near-duplicate.
+
+Problem scouts run the MCP/CLI `similar` check against existing problems before suggesting a new one. Parked muDemocracy.org issues are sources for problems (`source_ref: muDemocracy.org#N`), never bulk-imported; unparking happens when an affirmed problem is answered by an epic, not by period rank.
+
 ## Merge gate
 
 `validate` is required on master, strict, zero reviews. Programme data is

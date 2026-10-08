@@ -17,7 +17,10 @@ assert.equal(p["r#4"], null); // serves an unranked objective -> parked
 assert.deepEqual(r.parked, ["r#4", "r#5"]); // unlinked epic parked too
 assert.equal(derive([...base, q4, period("q1", "2027-01-01", "2027-03-31", ["D"])], links, "2027-02-01").epics[3].priority, "P0"); // date picks period
 assert.throws(() => derive([...base, q4], links, "2027-01-15"), /0 periods/); // no active period
-assert.throws(() => derive([...base, q4, period("x", "2026-12-31", "2027-03-31", [])], links, "2026-10-08"), /overlap/);
+const open1 = period("open1", "2026-10-08", undefined, ["A", "B", "C"]);
+assert.equal(derive([...base, open1], links, "2027-06-01").activePeriod.ends_on, null); // open-ended period is active
+assert.throws(() => derive([...base, open1, period("open2", "2026-12-01", undefined, ["D"])], links, "2027-01-01"), /2 periods active/); // two open periods
+assert.equal(derive([...base, period("old", "2026-10-01", "2026-11-30", ["D"]), period("new", "2026-12-01", undefined, ["A"])], links, "2027-01-01").activePeriod.title, "new"); // closed + open
 assert.throws(() => derive([...base, period("q4", "2026-10-01", "2026-12-31", ["e1"])], links, "2026-10-08"), /not an objective/);
 console.log("roadmap.test: ok");
 
