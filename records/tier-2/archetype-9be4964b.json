@@ -1,0 +1,20 @@
+{
+  "instanceId": "9be4964b-385d-4474-959e-fa8053e5475b",
+  "typeId": "6ce9e193-b51f-4ef0-878f-de02bc8a2418",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "archetype",
+  "fieldValues": {
+    "title": "Synthesizer",
+    "summary": "Brings scattered complexity together into a form others can act on.",
+    "use_when": "The system is overwhelmed or scattered."
+  },
+  "createdAt": "2026-10-08T11:05:55.789805216+00:00",
+  "updatedAt": "2026-10-08T11:05:55.789806809+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

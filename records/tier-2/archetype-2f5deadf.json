@@ -1,0 +1,20 @@
+{
+  "instanceId": "2f5deadf-c9c9-4319-ae45-55d0674fe197",
+  "typeId": "6ce9e193-b51f-4ef0-878f-de02bc8a2418",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "archetype",
+  "fieldValues": {
+    "title": "Watcher",
+    "summary": "Holds the long view and sees patterns across the whole system and over time.",
+    "use_when": "The system needs to remember its deeper purpose or reconnect with what matters."
+  },
+  "createdAt": "2026-10-08T11:05:56.214346585+00:00",
+  "updatedAt": "2026-10-08T11:05:56.214349709+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

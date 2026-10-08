@@ -1,0 +1,19 @@
+{
+  "instanceId": "e1d260d8-1d49-4859-8cc0-73bd30119ce8",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Possession",
+    "looks_like": "What is made works where it lives and is kept there."
+  },
+  "createdAt": "2026-10-08T11:06:00.157259458+00:00",
+  "updatedAt": "2026-10-08T11:06:00.157262692+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

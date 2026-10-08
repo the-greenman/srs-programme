@@ -37,3 +37,19 @@ console.log("roadmap.test: ok");
   assert.equal(derive(data, rels, "2026-10-08", new Set(["pr", "pe", "cl"])).epics[0].priority, "P0"); // ranking unaffected
 }
 console.log("roadmap.test (affirmed layer): ok");
+
+// Method check: tension = 2 poles; principle governs 1 tension and leans toward one of its poles.
+{
+  const { checkMethod } = await import("./check-method.mjs");
+  const M = "com.semanticops.method/";
+  const rl = (t, s, d) => ({ relationType: t === "contains" ? t : M + t, sourceId: s, targetId: d });
+  const data = [rec("t", "tension", { title: "T" }), rec("a", "pole", { title: "A" }), rec("b", "pole", { title: "B" }), rec("c", "pole", { title: "C" }),
+    rec("p", "principle", { statement: "A over B" })];
+  const good = [rl("contains", "t", "a"), rl("contains", "t", "b"), rl("governs", "p", "t"), rl("leans-toward", "p", "a")];
+  assert.deepEqual(checkMethod(data, good), []);
+  assert.match(checkMethod(data, good.slice(1))[0], /1 poles/); // one pole only
+  assert.match(checkMethod(data, [...good, rl("contains", "t", "c")])[0], /3 poles/); // three poles
+  assert.match(checkMethod(data, [...good.slice(0, 3), rl("leans-toward", "p", "c")])[0], /lean toward exactly one pole/); // leans off-tension
+  assert.match(checkMethod(data, good.slice(0, 2).concat(good.slice(3)))[0], /governs 0/); // no governs
+  console.log("check-method.test: ok");
+}

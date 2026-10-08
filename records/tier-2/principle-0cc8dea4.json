@@ -1,0 +1,24 @@
+{
+  "instanceId": "0cc8dea4-aad2-4260-af88-9825ed923194",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Semantic integrity over practical expression",
+    "boundary_clause": "None ratified yet: to be stated",
+    "context": "Applied by default in the Versioning and Reference trade-off of the semantic-records charter.",
+    "source_ref": [
+      "the-greenman/srs: srs/records/tier-2/rfc-decision-cce3c00e.json",
+      "the-greenman/srs: srs/records/tier-2/rfc-decision-c8704763.json"
+    ]
+  },
+  "createdAt": "2026-10-08T11:05:57.122498261+00:00",
+  "updatedAt": "2026-10-08T11:05:57.122499816+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,19 @@
+{
+  "instanceId": "c2c071de-fcf2-43ca-9bd4-de5c12e2eebd",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Description and Governance",
+    "description": "Whether people share one description of the model or each keep their own local way."
+  },
+  "createdAt": "2026-10-08T11:05:57.967890785+00:00",
+  "updatedAt": "2026-10-08T11:05:57.967892661+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

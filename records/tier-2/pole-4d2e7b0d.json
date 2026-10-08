@@ -1,0 +1,19 @@
+{
+  "instanceId": "4d2e7b0d-bf1e-4258-82c6-390f31003a35",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Continuity",
+    "looks_like": "What has been written keeps its meaning and its identity across revisions."
+  },
+  "createdAt": "2026-10-08T11:05:57.619846698+00:00",
+  "updatedAt": "2026-10-08T11:05:57.619848453+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

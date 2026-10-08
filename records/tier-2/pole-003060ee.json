@@ -1,0 +1,19 @@
+{
+  "instanceId": "003060ee-aadd-49d3-bb78-eb549fad186e",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Renewal",
+    "looks_like": "Contracts are replaced when something better is found."
+  },
+  "createdAt": "2026-10-08T11:05:59.511476882+00:00",
+  "updatedAt": "2026-10-08T11:05:59.511478635+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

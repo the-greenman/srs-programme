@@ -1,0 +1,19 @@
+{
+  "instanceId": "d00bc777-d8f1-4adc-928c-179dbc95462d",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Local autonomy",
+    "looks_like": "Each repository or team describes things its own way."
+  },
+  "createdAt": "2026-10-08T11:05:58.251581922+00:00",
+  "updatedAt": "2026-10-08T11:05:58.251585646+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

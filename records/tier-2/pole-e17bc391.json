@@ -1,0 +1,19 @@
+{
+  "instanceId": "e17bc391-07ef-4cc1-a878-664dbbd4203d",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Reliability",
+    "looks_like": "Published contracts keep holding, so others can depend on them."
+  },
+  "createdAt": "2026-10-08T11:05:59.368853876+00:00",
+  "updatedAt": "2026-10-08T11:05:59.368855495+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,19 @@
+{
+  "instanceId": "ce1881b0-d309-4306-9a0d-ebf06c6dbf8b",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Attribution and Repository",
+    "description": "Whether a claim is trusted because of the office behind it or because someone testified to it."
+  },
+  "createdAt": "2026-10-08T11:05:58.600969346+00:00",
+  "updatedAt": "2026-10-08T11:05:58.600970992+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

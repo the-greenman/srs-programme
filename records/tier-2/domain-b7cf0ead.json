@@ -1,0 +1,21 @@
+{
+  "instanceId": "b7cf0ead-2776-4aae-acd7-ae86134200de",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Collaborative writing",
+    "purpose": "Help several people and agents write one document together without losing who wrote what or why.",
+    "in_scope": "Drafting, commenting, revising and agreeing text with shared authorship, including human and agent contributions.",
+    "out_of_scope": "Publishing and distribution of the finished text; individual writing tools."
+  },
+  "createdAt": "2026-10-08T11:06:00.507193482+00:00",
+  "updatedAt": "2026-10-08T11:06:00.507197586+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

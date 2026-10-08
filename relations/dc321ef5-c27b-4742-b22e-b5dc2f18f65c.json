@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "dc321ef5-c27b-4742-b22e-b5dc2f18f65c",
+  "relationType": "com.semanticops.method/governs",
+  "sourceInstanceId": "0cc8dea4-aad2-4260-af88-9825ed923194",
+  "targetInstanceId": "8833f41b-424e-4318-b609-cef73e16eee5",
+  "createdAt": "2026-10-08T11:05:57.134424625+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  }
+}

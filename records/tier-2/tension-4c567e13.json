@@ -1,0 +1,19 @@
+{
+  "instanceId": "4c567e13-8f5f-438a-b4e0-5a5002ac96c7",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Succession and Conformance",
+    "description": "Whether standing contracts stay reliable or are renewed."
+  },
+  "createdAt": "2026-10-08T11:05:59.232502831+00:00",
+  "updatedAt": "2026-10-08T11:05:59.232505986+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

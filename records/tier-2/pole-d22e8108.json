@@ -1,0 +1,19 @@
+{
+  "instanceId": "d22e8108-92eb-41b9-8660-5e949aa619b9",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Practical expression",
+    "looks_like": "Meaning is written in whatever form is most convenient to use."
+  },
+  "createdAt": "2026-10-08T11:05:56.980890332+00:00",
+  "updatedAt": "2026-10-08T11:05:56.980891737+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

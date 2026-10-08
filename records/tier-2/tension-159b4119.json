@@ -1,0 +1,19 @@
+{
+  "instanceId": "159b4119-fe6b-495d-bc26-aa861b49cf27",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Containment and Portability",
+    "description": "Whether a capability can move with the data or lives only where it was made."
+  },
+  "createdAt": "2026-10-08T11:05:59.863718177+00:00",
+  "updatedAt": "2026-10-08T11:05:59.863721577+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

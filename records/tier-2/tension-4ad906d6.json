@@ -1,0 +1,19 @@
+{
+  "instanceId": "4ad906d6-a4f8-416a-97f7-c0991c530e76",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Change",
+    "description": "Whether change comes from testing new approaches or from deepening what already works."
+  },
+  "createdAt": "2026-10-08T11:05:52.399144036+00:00",
+  "updatedAt": "2026-10-08T11:05:52.399147897+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

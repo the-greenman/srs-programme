@@ -1,0 +1,20 @@
+{
+  "instanceId": "efaedb59-a3b8-4009-a6c8-9932a4985a9f",
+  "typeId": "ba97e194-0530-4be3-9fc4-54a9ee81072c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "agent",
+  "fieldValues": {
+    "title": "Builder",
+    "actor_id": "agent:builder",
+    "brief": "Turns agreed practice into durable structure, tools and routines."
+  },
+  "createdAt": "2026-10-08T11:05:54.378255530+00:00",
+  "updatedAt": "2026-10-08T11:05:54.378257500+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

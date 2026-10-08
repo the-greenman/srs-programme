@@ -1,0 +1,19 @@
+{
+  "instanceId": "f487d107-9657-44d6-bcef-d45ee43e4cdb",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Portability",
+    "looks_like": "What is made can be carried to another place and still work."
+  },
+  "createdAt": "2026-10-08T11:06:00.010265990+00:00",
+  "updatedAt": "2026-10-08T11:06:00.010267465+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

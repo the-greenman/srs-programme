@@ -1,0 +1,20 @@
+{
+  "instanceId": "e2c5d2d3-1c35-415a-bdaa-12b8b6249a99",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Zoom out",
+    "looks_like": "Widens attention to the whole system: sees how parts connect, notices emerging patterns and keeps track of many threads over time.",
+    "shadow": "Keeps looking without settling on anything, so nothing gets done."
+  },
+  "createdAt": "2026-10-08T11:05:53.114273795+00:00",
+  "updatedAt": "2026-10-08T11:05:53.114275320+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

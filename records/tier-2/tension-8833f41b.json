@@ -1,0 +1,19 @@
+{
+  "instanceId": "8833f41b-424e-4318-b609-cef73e16eee5",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Versioning and Reference",
+    "description": "Whether a record's meaning is kept exact or its expression is made convenient."
+  },
+  "createdAt": "2026-10-08T11:05:56.703242412+00:00",
+  "updatedAt": "2026-10-08T11:05:56.703244111+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,20 @@
+{
+  "instanceId": "78d1dd2f-c921-43c8-b589-c797c3ceecae",
+  "typeId": "6ce9e193-b51f-4ef0-878f-de02bc8a2418",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "archetype",
+  "fieldValues": {
+    "title": "Analyst",
+    "summary": "Observes precisely, names hidden patterns and finds the root cause.",
+    "use_when": "Confusion reigns and clarity is needed."
+  },
+  "createdAt": "2026-10-08T11:05:54.526699293+00:00",
+  "updatedAt": "2026-10-08T11:05:54.526703522+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
