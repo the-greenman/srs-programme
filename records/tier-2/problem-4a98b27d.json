@@ -1,0 +1,25 @@
+{
+  "instanceId": "4a98b27d-c7b0-430a-95bd-f5180428bb9d",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-25",
+    "title": "A brief can replace reading the source",
+    "statement": "When an agent has a loaded brief it often answers without checking records or code. That is cheap and accurate when the brief holds the answer, and wrong when the answer sits outside it.",
+    "kind": "belief",
+    "source_ref": [
+      "srs-context:With the brief loaded, agents answer from it alone"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-08T14:02:38.395100575+00:00",
+  "updatedAt": "2026-10-08T14:02:38.395102350+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:analyst",
+    "name": "Analyst scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

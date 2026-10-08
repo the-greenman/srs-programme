@@ -1,0 +1,27 @@
+{
+  "instanceId": "f96a2490-3b12-4a5c-9ad4-23a7460f87cb",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-23",
+    "title": "Natural language questions find nothing",
+    "statement": "An agent asks questions in the words it would use to a colleague, but content search needs every term to match, so most questions return no hits. Agents fall back on many keyword queries per question. Ranking also adds little over counting keyword matches, so the repository's structure is not yet helping the agent find the right record first.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-context:find --text ANDs every term: natural-language questions return nothing",
+      "srs-rust#1284",
+      "srs-context:BM25 ranking barely beats naive keyword counting",
+      "srs-rust#1289"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:37.815739800+00:00",
+  "updatedAt": "2026-10-08T14:02:37.815742140+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:analyst",
+    "name": "Analyst scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

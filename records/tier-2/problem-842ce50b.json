@@ -1,0 +1,31 @@
+{
+  "instanceId": "842ce50b-e5ce-468c-8eae-78a264d4e44c",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-24",
+    "title": "What a query or view returns is opaque",
+    "statement": "Discovery, rendering and navigation make implicit choices (auto-expanding children, tie-breaks between views, hidden-state lists, paging gaps), so an agent cannot predict what it will be shown or whether it saw everything.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-rust#1086",
+      "srs-rust#380",
+      "srs-rust#409",
+      "srs-rust#1120",
+      "srs#726",
+      "srs#159",
+      "srs-rust#582"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-08T14:02:38.069569294+00:00",
+  "updatedAt": "2026-10-08T14:02:38.069573286+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:challenger",
+    "name": "Challenger scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

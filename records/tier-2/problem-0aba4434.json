@@ -1,0 +1,24 @@
+{
+  "instanceId": "0aba4434-f619-425d-bb1d-b6e8f9b3bdfd",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-17",
+    "title": "Done is undefined for a document",
+    "statement": "A document has no declared shape, so neither the writer nor an agent can say what it still needs or whether it is finished. Agents guess, and the writer is left to notice gaps alone. The tools meant to describe a bounded piece of work overlap and are mostly unused, so having several has produced no shared notion of done.",
+    "kind": "capability",
+    "source_ref": [
+      "semanticops.com#24"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:36.005695209+00:00",
+  "updatedAt": "2026-10-08T14:02:36.005702165+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:rebel",
+    "name": "Rebel scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,35 @@
+{
+  "instanceId": "c23e1c09-8f4c-4d5c-9672-533dc0861793",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-03",
+    "title": "Implementation work parks as unfinished refactors",
+    "statement": "Large internal migrations (typed persistence, store seams, payload typing, error classification) are started and then left half done, so old and new paths coexist indefinitely and each new change must handle both.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-rust#704",
+      "srs-rust#725",
+      "srs-rust#727",
+      "srs-rust#728",
+      "srs-rust#729",
+      "srs-rust#730",
+      "srs-rust#731",
+      "srs-rust#1343",
+      "srs-rust#1342",
+      "srs-rust#818",
+      "srs-rust#687",
+      "srs-rust#688"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:31.436741718+00:00",
+  "updatedAt": "2026-10-08T14:02:31.436746483+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:challenger",
+    "name": "Challenger scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

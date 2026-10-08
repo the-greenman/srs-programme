@@ -1,0 +1,24 @@
+{
+  "instanceId": "82ea3f28-4079-476e-a83d-705404f3de5b",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-18",
+    "title": "Shared paragraphs blur whose argument it is",
+    "statement": "A copied document shares its paragraphs instead of duplicating them, so a change to one paragraph changes every document that contains it. Writers must notice the badge and decide each time whether a shared element may change under another argument.",
+    "kind": "consequence",
+    "source_ref": [
+      "semanticops.com#18"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:36.251174157+00:00",
+  "updatedAt": "2026-10-08T14:02:36.251178613+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:rebel",
+    "name": "Rebel scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

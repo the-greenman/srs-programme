@@ -1,0 +1,26 @@
+{
+  "instanceId": "b0a06dab-23bc-4af5-8923-839b60cbf7af",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-12",
+    "title": "Agent feedback accumulates faster than it can be read",
+    "statement": "Agents attach counter-claims, citations and comments to every paragraph while the writer is still writing. Nothing says what is worth the writer's attention now, so help can turn into a pile of annotations that is more work than the writing.",
+    "kind": "consequence",
+    "source_ref": [
+      "semanticops.com#16",
+      "semanticops.com#17",
+      "semanticops.com#22"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:34.468513025+00:00",
+  "updatedAt": "2026-10-08T14:02:34.468515392+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:rebel",
+    "name": "Rebel scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

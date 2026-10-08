@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "ff318467-c7ad-4f81-89cf-71b18e2d96f6",
+  "relationType": "contains",
+  "sourceInstanceId": "682d496d-3563-46fb-951d-d35875b164b3",
+  "targetInstanceId": "98cf7c40-835f-44e2-b6b2-65e3978d0baf",
+  "createdAt": "2026-10-08T14:02:45.053027770+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:synthesizer",
+    "name": "Synthesizer"
+  }
+}

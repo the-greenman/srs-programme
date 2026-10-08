@@ -1,0 +1,25 @@
+{
+  "instanceId": "a70fe142-23e8-4c96-9055-d67dbbd72a91",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-37",
+    "title": "Meaning drifts quietly between revisions",
+    "statement": "A definition can be reworded, reused or migrated until it says something slightly different, and no one sees the moment it changed. The records written against it keep their words but lose their original sense.",
+    "kind": "condition",
+    "source_ref": [
+      "semanticops.com:public/agents/principles.md (Fixed meaning, changing state)"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-08T14:02:42.244028142+00:00",
+  "updatedAt": "2026-10-08T14:02:42.244030010+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:watcher",
+    "name": "Watcher scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

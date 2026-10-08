@@ -1,0 +1,19 @@
+{
+  "instanceId": "f3e99a0a-e524-4e84-9dd0-25f80df3b0b4",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Who decides and on what grounds",
+    "description": "Tools impose hierarchy, agent proposals pass for decisions, and stated principles and foundations are neither checked nor traced."
+  },
+  "createdAt": "2026-10-08T14:02:43.363014464+00:00",
+  "updatedAt": "2026-10-08T14:02:43.363021908+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:synthesizer",
+    "name": "Synthesizer"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

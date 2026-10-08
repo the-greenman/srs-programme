@@ -1,0 +1,28 @@
+{
+  "instanceId": "b25a30db-5a23-4463-a58f-2a288345b331",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-40",
+    "title": "Concurrent edits discard one person's work",
+    "statement": "When two people change the same shared record set, the later saver typically has to reload and redo their edits. A group's shared meaning is only as safe as its handling of simultaneous change. Tools designed around one writer and agents may have hidden this gap.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-web#251",
+      "srs-web#249",
+      "muDemocracy.org#65",
+      "muDemocracy.org#42",
+      "semanticops.com#29"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:43.125979183+00:00",
+  "updatedAt": "2026-10-08T14:02:43.125986149+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:steward",
+    "name": "Steward scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

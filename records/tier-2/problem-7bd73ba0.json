@@ -1,0 +1,31 @@
+{
+  "instanceId": "7bd73ba0-aad7-4846-ad22-88b694b6a0a4",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-01",
+    "title": "Spec, schema and tool keep drifting apart",
+    "statement": "The written spec, the published JSON schemas and the reference implementation repeatedly say different things about the same rule, so a reader cannot tell which one is authoritative. The drift is found by accident during unrelated work and then parked.",
+    "kind": "condition",
+    "source_ref": [
+      "srs#287",
+      "srs#372",
+      "srs#383",
+      "srs#264",
+      "srs#246",
+      "srs-rust#1118",
+      "srs-rust#1100",
+      "srs#351"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:30.953918349+00:00",
+  "updatedAt": "2026-10-08T14:02:30.953920021+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:challenger",
+    "name": "Challenger scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
