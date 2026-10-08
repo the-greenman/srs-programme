@@ -8,6 +8,9 @@
         "instanceId": "7a7d8945-df7e-412e-98e0-6462b5394904"
       },
       {
+        "instanceId": "b1795e7f-baef-4a60-9baf-b6ef8bfdec54"
+      },
+      {
         "instanceId": "48478b98-5978-4b30-9bf9-c396c8d73886"
       },
       {
@@ -26,8 +29,14 @@
   },
   "$schema": "https://srs.semanticops.com/schema/2.0/manifest.json",
   "createdAt": "2026-09-05T21:46:21.025288400+00:00",
-  "dataModelRevision": 8,
+  "dataModelRevision": 9,
   "namespace": "com.semanticops.programme",
+  "packageRefs": [
+    {
+      "mode": "local",
+      "path": "packages/method"
+    }
+  ],
   "repositoryId": "fb8429db-ee67-4439-9656-0f36f17ab98b",
   "srsVersion": "2.0-draft",
   "title": "SRS spec-rework programme"

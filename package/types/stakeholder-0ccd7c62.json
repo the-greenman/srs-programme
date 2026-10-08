@@ -1,0 +1,32 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "id": "0ccd7c62-c29a-40d8-9ca0-ae25f579a112",
+  "namespace": "com.semanticops.programme",
+  "name": "stakeholder",
+  "version": 1,
+  "description": "A party whose needs objectives respond to.",
+  "fields": [
+    {
+      "fieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "7f4e152c-be50-4710-acb1-392fd1c20f08",
+      "order": 1,
+      "required": false
+    },
+    {
+      "fieldId": "76b070c9-4918-4645-b73e-329931a58271",
+      "order": 2,
+      "required": false
+    }
+  ],
+  "identityFieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
+  "aiGuidance": {
+    "purpose": "Names who an objective is for, e.g. a funder, so objectives record which need they respond to.",
+    "extraction": "One record per party; link objectives with responds-to.",
+    "negativeGuidance": "Not a person's contact record and not an authority claim."
+  },
+  "createdAt": "2026-10-08T09:59:51.787Z"
+}

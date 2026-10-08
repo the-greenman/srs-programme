@@ -1,0 +1,17 @@
+{
+  "instanceId": "0b59ff0b-ce21-4c92-a685-894692d54f8b",
+  "typeId": "f6635d38-f2f6-4e2a-bcbe-8780d9ee4e0b",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "objective",
+  "fieldValues": {
+    "title": "Agent-supported writing: structured arguments people and AI build together",
+    "summary": "People and AI build structured arguments together in an editor that keeps the structure visible. Draft.",
+    "source_ref": [
+      "muDemocracy.org/plans/roadmap-2026Q4-2027Q3.md"
+    ]
+  },
+  "createdAt": "2026-10-08T10:02:06.852419169+00:00",
+  "updatedAt": "2026-10-08T10:02:06.852425617+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

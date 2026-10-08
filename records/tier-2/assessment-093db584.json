@@ -1,0 +1,20 @@
+{
+  "instanceId": "093db584-66bb-4925-9f30-daf7f08d14d2",
+  "typeId": "83459606-c8a3-46bc-81dd-8d2677fc92d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "assessment",
+  "fieldValues": {
+    "title": "Maintained-practice walkthrough",
+    "strategy_key": "p1-living-walkthrough",
+    "reality_state": "planned",
+    "summary": "The P1 release contract identifies the route.",
+    "body": "## Exists\n\nThe P1 release contract identifies the route.\n\n## Missing\n\nUpgrade, review-due and supersession proof in one user walkthrough.\n\n## Assessed At\n\n2026-08-15\n\n## Review By\n\n2026-11-15",
+    "evidence": [
+      "issue: muDemocracy.org#36 (issue)"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:32.128280637+00:00",
+  "updatedAt": "2026-10-08T10:00:32.128285917+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

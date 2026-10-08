@@ -1,0 +1,18 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "id": "2102f151-26c8-46d4-8a5e-fefd16284d7d",
+  "namespace": "com.semanticops.programme",
+  "name": "starts_on",
+  "version": 1,
+  "description": "First day of a period, inclusive.",
+  "aiGuidance": {
+    "purpose": "With ends_on, defines the window in which a period is the active one; the roadmap derivation picks the period that covers today.",
+    "extraction": "ISO date YYYY-MM-DD.",
+    "negativeGuidance": "Periods must not overlap; do not reuse a boundary day in two periods."
+  },
+  "fieldType": {
+    "datatype": "date",
+    "cardinality": "single"
+  },
+  "createdAt": "2026-10-08T09:59:51.787Z"
+}

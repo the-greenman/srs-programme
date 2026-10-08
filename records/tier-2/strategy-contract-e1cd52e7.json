@@ -1,0 +1,17 @@
+{
+  "instanceId": "e1cd52e7-81d2-43e6-83e2-517ffccb5992",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "SectionSource fixed-instances and relation-query variants",
+    "strategy_key": "section-source-variants",
+    "stability": "deferred",
+    "summary": "If a document composition need arises that neither of the two live SectionSource kinds (container-subset, type-query) expresses, a variant returns designed against that need; one way over many holds until then.",
+    "body": "## Cell\n\nConformance\n\n## Capabilities\n\n- Work With Meaning\n- Present Facets\n\n## Sources\n\n- srs-record: srs/records/tier-2/rfc-decision-4f1e12e5.json\n\n## Not Included\n\n- The removed SectionSource fixed-instances and relation-query variants\n\n## Return Trigger\n\na composition need neither live variant expresses."
+  },
+  "createdAt": "2026-10-08T10:00:31.083044023+00:00",
+  "updatedAt": "2026-10-08T10:00:31.083049115+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,20 @@
+{
+  "instanceId": "fa994ad5-f69a-48cb-a193-37b95ee35740",
+  "typeId": "e5c178de-9113-4074-a81f-a112857bfb76",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "capability_stage",
+  "fieldValues": {
+    "title": "D2 Composed semantic document",
+    "strategy_key": "D2",
+    "summary": "Blueprints, type inheritance, shared Fields and package definitions compose validated multi-record documents without making the editor own the ontology.",
+    "body": "## Group Need\n\nWe need documents with repeatable structure and reusable concepts, rather than one-off forms for every guide or policy.\n\n## Semantic Adds\n\n- Blueprint structure\n- reusable Field and Type definitions\n- package-level document vocabulary\n\n## Blueprint Adds\n\n- guide, policy or specification structure\n- reusable section forms\n\n## Does Not Introduce\n\n- automatic publication\n- cross-installation package discovery\n- application-specific semantics in the core\n\n## Activation Trigger\n\nA group repeats document patterns and wants structure to be reusable, reviewable and independently understandable.\n\n## Research\n\n- problem-index/09-distribution/package-system.md: A reusable document library distributes its definitions, Views, DocumentViews, Protocols and Themes as one explicit package closure.",
+    "issue_ref": [
+      "muDemocracy.org#76",
+      "muDemocracy.org#124"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:29.411267307+00:00",
+  "updatedAt": "2026-10-08T10:00:29.411273406+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

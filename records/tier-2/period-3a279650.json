@@ -1,0 +1,20 @@
+{
+  "instanceId": "3a279650-3a8b-40ca-bae1-371f8177b937",
+  "typeId": "6cdc0cc8-e551-461d-9d49-c32286f00e5c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "period",
+  "fieldValues": {
+    "title": "Focus 1: writing and memory",
+    "starts_on": "2026-10-08",
+    "objective_rank": [
+      "0b59ff0b-ce21-4c92-a685-894692d54f8b",
+      "8e561b4c-bc72-47a2-9a1b-03ea5f94b71b",
+      "3bc6d2e4-7a03-44e1-9cc2-9b205eb4c7d7",
+      "58296c65-4280-4a3d-9db8-1bd9924f5bbd"
+    ]
+  },
+  "createdAt": "2026-10-08T10:02:07.120127296+00:00",
+  "updatedAt": "2026-10-08T10:53:09.745456125+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

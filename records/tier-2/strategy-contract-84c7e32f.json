@@ -1,0 +1,17 @@
+{
+  "instanceId": "84c7e32f-3930-4644-b1ba-ac4ac3e46b83",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Definitions and structural navigation",
+    "strategy_key": "definitions-and-structure",
+    "stability": "lock-before-f1",
+    "summary": "Fields, Types, Records, Relations, Containers and Packages compose inspectable semantic documents with navigable structure.",
+    "body": "## Capabilities\n\n- Define Meaning\n- Work With Meaning\n\n## Sources\n\n- repo-path: docs/spec/srs-unified.md\n\n## Not Included\n\n- Website-specific document or decision schemas"
+  },
+  "createdAt": "2026-10-08T10:00:29.809894942+00:00",
+  "updatedAt": "2026-10-08T10:00:29.809902442+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

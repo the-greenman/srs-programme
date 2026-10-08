@@ -1,0 +1,21 @@
+{
+  "instanceId": "8a1d2ced-5abb-49b9-9d28-cd8664cfbd31",
+  "typeId": "83459606-c8a3-46bc-81dd-8d2677fc92d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "assessment",
+  "fieldValues": {
+    "title": "Lifecycle and supersession fragments",
+    "strategy_key": "p1-lifecycle-history",
+    "reality_state": "partial",
+    "summary": "Lifecycle transitions, decision links and supersession-oriented editor paths exist.",
+    "body": "## Exists\n\nLifecycle transitions, decision links and supersession-oriented editor paths exist.\n\n## Missing\n\nA group-level review, revisit and upgrade walkthrough.\n\n## Assessed At\n\n2026-08-15\n\n## Review By\n\n2026-11-15",
+    "evidence": [
+      "repo-path: srs-web/e2e/lifecycle.spec.ts (test)",
+      "repo-path: srs-web/e2e/decision-link.spec.ts (test)"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:32.062328710+00:00",
+  "updatedAt": "2026-10-08T10:00:32.062333632+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

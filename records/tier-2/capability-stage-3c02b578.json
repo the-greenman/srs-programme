@@ -1,0 +1,21 @@
+{
+  "instanceId": "3c02b578-5502-4b26-b0dc-b50af4dfaf54",
+  "typeId": "e5c178de-9113-4074-a81f-a112857bfb76",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "capability_stage",
+  "fieldValues": {
+    "title": "G2 Living decisions",
+    "strategy_key": "G2",
+    "summary": "A Decision Record has stable identity through drafting, review, revisit and supersession; operational version history may remain in Git until interoperable history exchange is needed.",
+    "body": "## Group Need\n\nWe need to share a draft, return to it, revisit commitments and replace a decision without losing its history.\n\n## Semantic Adds\n\n- draft and ratified lifecycle\n- review/revisit information\n- supersession relation\n\n## Blueprint Adds\n\n- Decision workspace\n- review and supersession facets\n\n## Does Not Introduce\n\n- a meeting-owned decision\n- attendance or authority claims\n- a new semantic Record for every working edit\n\n## Activation Trigger\n\nA group needs decisions to remain useful after the meeting in which they first appeared.",
+    "issue_ref": [
+      "muDemocracy.org#36",
+      "muDemocracy.org#57",
+      "muDemocracy.org#58"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:28.945131902+00:00",
+  "updatedAt": "2026-10-08T10:00:28.945136990+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

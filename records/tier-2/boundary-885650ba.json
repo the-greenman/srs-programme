@@ -1,0 +1,21 @@
+{
+  "instanceId": "885650ba-ea97-4e70-b3ec-b4c8cd2a4fab",
+  "typeId": "23381f5e-e004-4342-9a2c-381a7e8f868a",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "boundary",
+  "fieldValues": {
+    "title": "F1 Coherent Semantic Kernel",
+    "strategy_key": "F1",
+    "summary": "One authoritative semantic model migrates and regenerates without silent meaning loss.",
+    "body": "## Track\n\nF\n\n## Actor\n\nMaintainer of a first-party SRS package\n\n## Durable Artifact\n\nMigrated first-party corpus with generated conformance evidence.\n\n## Entry Criteria\n\n- #256 closure checklist is agreed\n- First-party corpus inventory is known\n\n## Included Capabilities\n\n- Define Meaning\n- Preserve Meaning\n- Present Facets\n\n## Exclusions\n\n- Independent portable archive\n- Offline reintegration\n- Runtime AI ratification\n\n## Walkthrough\n\nRegenerate the first-party corpus from the authoritative model, validate it through independent Node and Rust paths, and inspect canonical state through more than one DocumentView.\n\n## Compatibility Promise\n\nThe migrated kernel has one source of truth and reproducible projections.\n\n## Stable After\n\nCore identity, reference resolution and regeneration invariants are stable enough to build outward.",
+    "issue_ref": [
+      "srs#256",
+      "muDemocracy.org#133",
+      "srs#375"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:28.476590230+00:00",
+  "updatedAt": "2026-10-08T10:00:28.476597226+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,14 @@
+{
+  "instanceId": "8e561b4c-bc72-47a2-9a1b-03ea5f94b71b",
+  "typeId": "f6635d38-f2f6-4e2a-bcbe-8780d9ee4e0b",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "objective",
+  "fieldValues": {
+    "title": "Agent memory: SRS as the context agents work from moment to moment",
+    "summary": "Agents read and write SRS as their working context rather than re-deriving it each session. Draft."
+  },
+  "createdAt": "2026-10-08T10:02:06.922168765+00:00",
+  "updatedAt": "2026-10-08T10:02:06.922177540+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

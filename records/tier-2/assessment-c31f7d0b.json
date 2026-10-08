@@ -1,0 +1,21 @@
+{
+  "instanceId": "c31f7d0b-383c-4981-87f9-592aed935814",
+  "typeId": "83459606-c8a3-46bc-81dd-8d2677fc92d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "assessment",
+  "fieldValues": {
+    "title": "Shared semantic workspace substrate",
+    "strategy_key": "p2-workspace-substrate",
+    "reality_state": "partial",
+    "summary": "SRS-web has a governance workspace and generic guides editor over the WASM engine.",
+    "body": "## Exists\n\nSRS-web has a governance workspace and generic guides editor over the WASM engine.\n\n## Missing\n\nOne converged container-and-blueprint workspace for facilitated work.\n\n## Assessed At\n\n2026-08-15\n\n## Review By\n\n2026-11-15",
+    "evidence": [
+      "repo-path: srs-web/src/lib/governance/GovernanceShell.svelte (source)",
+      "repo-path: srs-web/src/lib/guides/GuidesShell.svelte (source)"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:32.194168749+00:00",
+  "updatedAt": "2026-10-08T10:00:32.194175838+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

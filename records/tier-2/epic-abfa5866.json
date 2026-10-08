@@ -1,0 +1,16 @@
+{
+  "instanceId": "abfa5866-ebb5-4cb8-9d31-0ba31a90561d",
+  "typeId": "c2ec9c8a-b36b-4b19-940f-374b338e30a6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "epic",
+  "fieldValues": {
+    "title": "SRS as an agent-supported editor",
+    "issue_ref": [
+      "semanticops.com#29"
+    ]
+  },
+  "createdAt": "2026-10-08T10:02:07.186142553+00:00",
+  "updatedAt": "2026-10-08T11:00:08.216631088+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

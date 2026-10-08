@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "id": "8d4fc092-1cb5-46f9-9bdb-db4fcefd13a5",
+  "version": 1,
+  "key": "com.semanticops.programme/assesses",
+  "namespace": "com.semanticops.programme",
+  "label": "Assesses",
+  "description": "Source assessment evaluates target boundary, stage or contract.",
+  "category": "evidence",
+  "createdAt": "2026-10-08T09:59:51.787Z",
+  "canonicalDirection": "source is the assessment; target is the thing assessed",
+  "status": "active"
+}

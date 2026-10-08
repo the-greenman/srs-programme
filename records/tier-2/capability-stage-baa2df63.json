@@ -1,0 +1,20 @@
+{
+  "instanceId": "baa2df63-550c-4373-8863-15be412c4f75",
+  "typeId": "e5c178de-9113-4074-a81f-a112857bfb76",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "capability_stage",
+  "fieldValues": {
+    "title": "D4 Living document library",
+    "strategy_key": "D4",
+    "summary": "Document content and definitions evolve through visible revision, migration and compatibility practices; reusable content remains linked to its semantic context.",
+    "body": "## Group Need\n\nWe need to revise content, evolve document definitions and reuse shared pieces without obscuring what changed or breaking existing documents.\n\n## Semantic Adds\n\n- field-level revision and provenance\n- definition migration guidance\n- reusable content and lineage relations\n\n## Blueprint Adds\n\n- revision-aware editing\n- migration and reuse review facets\n\n## Does Not Introduce\n\n- silent type migration\n- immutable website configuration\n- cross-repository merge semantics\n\n## Activation Trigger\n\nA group maintains a document library long enough that shared definitions and previously published content must change safely.\n\n## Research\n\n- problem-index/07-field-records/field-versioning.md: Revision chains make individual semantic changes auditable and safely restorable.",
+    "issue_ref": [
+      "muDemocracy.org#124",
+      "srs#388"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:29.541871787+00:00",
+  "updatedAt": "2026-10-08T10:00:29.541877959+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

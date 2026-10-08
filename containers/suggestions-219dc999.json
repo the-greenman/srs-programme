@@ -1,0 +1,23 @@
+{
+  "containerId": "219dc999-b667-4088-aae6-4c180ad03c90",
+  "title": "Suggestions",
+  "namespace": "com.semanticops.programme",
+  "name": "suggestions",
+  "description": "Agent-written method records (createdBy.kind = ai). Several writers: use container members add, never update.",
+  "identityInstanceId": "7d983e62-8088-4c8e-8b1e-92a6315ce259",
+  "anchorInstanceId": "7d983e62-8088-4c8e-8b1e-92a6315ce259",
+  "memberInstanceIds": [
+    {
+      "instanceId": "7d983e62-8088-4c8e-8b1e-92a6315ce259"
+    },
+    {
+      "instanceId": "c1efab46-8641-4dd5-896d-04bf6319e9c8"
+    },
+    {
+      "instanceId": "f15ba1ea-5e80-4952-95da-e83ed1c0e881"
+    },
+    {
+      "instanceId": "fd22ac94-8705-4119-894a-098a3a83e956"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "instanceId": "89130783-7144-4f70-8005-e465a4d21b7b",
+  "typeId": "83459606-c8a3-46bc-81dd-8d2677fc92d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "assessment",
+  "fieldValues": {
+    "title": "Protocol-contextual AI proposals with provenance",
+    "strategy_key": "p3-ai-protocol",
+    "reality_state": "planned",
+    "summary": "The human–AI constitution and release contract constrain the intended behaviour.",
+    "body": "## Exists\n\nThe human–AI constitution and release contract constrain the intended behaviour.\n\n## Missing\n\nLive/recorded transcript ingestion, stage-specific proposals and inspectable provenance.\n\n## Assessed At\n\n2026-08-15\n\n## Review By\n\n2026-11-15",
+    "evidence": [
+      "issue: muDemocracy.org#60 (issue)",
+      "issue: muDemocracy.org#68 (issue)"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:32.456232332+00:00",
+  "updatedAt": "2026-10-08T10:00:32.456240723+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,20 @@
+{
+  "instanceId": "bdd0d4fb-2c06-41f2-8bf6-6572aa460107",
+  "typeId": "83459606-c8a3-46bc-81dd-8d2677fc92d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "assessment",
+  "fieldValues": {
+    "title": "Human-ratified AI-assisted meeting walkthrough",
+    "strategy_key": "p3-human-ratification",
+    "reality_state": "planned",
+    "summary": "The required end-to-end proof is defined.",
+    "body": "## Exists\n\nThe required end-to-end proof is defined.\n\n## Missing\n\nA runnable meeting in which people review, agree and ratify AI-proposed canonical meaning.\n\n## Assessed At\n\n2026-08-15\n\n## Review By\n\n2026-11-15",
+    "evidence": [
+      "issue: muDemocracy.org#60 (issue)"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:32.520181641+00:00",
+  "updatedAt": "2026-10-08T10:00:32.520190364+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

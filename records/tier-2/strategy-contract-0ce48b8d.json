@@ -1,0 +1,22 @@
+{
+  "instanceId": "0ce48b8d-ad56-4bef-8f4a-5600d623f0c2",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Structured discovery: what the query is",
+    "strategy_key": "structured-discovery",
+    "stability": "deferred",
+    "summary": "A large SRS repository selects records through a portable, deterministic Discovery Contract — implementable identically by every conforming implementation — plus an explicit, declared extension point for implementation-specific selection paths (a vector/similarity query being the named example) that a portable repository never depends on silently. The #525 retirement removed an unplanned query surface, not the need for a planned one.",
+    "body": "## Cell\n\nConformance\n\n## Capabilities\n\n- Work With Meaning\n- Present Facets\n\n## Sources\n\n- issue: srs#726\n- issue: srs#688\n- issue: srs#525\n- repo-path: docs/schema/2.0/discovery.json\n- repo-path: rfcs/rfc-011-documentview-query-extensions.md\n- repo-path: rfcs/rfc-012-discovery-contract-text-projection.md\n\n## Not Included\n\n- A general graph query language\n- SQL or a SQL-shaped query surface\n- Any mechanism that makes a portable repository depend on one implementation's vector/similarity path",
+    "issue_ref": [
+      "srs#726",
+      "srs#688",
+      "srs#525"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:31.276896258+00:00",
+  "updatedAt": "2026-10-08T10:00:31.276903197+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,335 @@
+{
+  "containerId": "9de24607-812e-4ea0-ae52-089931da03ce",
+  "title": "SemanticOps roadmap",
+  "namespace": "com.semanticops.programme",
+  "name": "semanticops-roadmap",
+  "description": "Objectives ranked by period; epic priority follows rank. The v12 strategy records follow as frozen history.",
+  "identityInstanceId": "b1795e7f-baef-4a60-9baf-b6ef8bfdec54",
+  "anchorInstanceId": "b1795e7f-baef-4a60-9baf-b6ef8bfdec54",
+  "memberInstanceIds": [
+    {
+      "instanceId": "b1795e7f-baef-4a60-9baf-b6ef8bfdec54"
+    },
+    {
+      "instanceId": "3a279650-3a8b-40ca-bae1-371f8177b937",
+      "depth": 1
+    },
+    {
+      "instanceId": "0b59ff0b-ce21-4c92-a685-894692d54f8b",
+      "depth": 1
+    },
+    {
+      "instanceId": "8e561b4c-bc72-47a2-9a1b-03ea5f94b71b",
+      "depth": 1
+    },
+    {
+      "instanceId": "3bc6d2e4-7a03-44e1-9cc2-9b205eb4c7d7",
+      "depth": 1
+    },
+    {
+      "instanceId": "58296c65-4280-4a3d-9db8-1bd9924f5bbd",
+      "depth": 1
+    },
+    {
+      "instanceId": "abfa5866-ebb5-4cb8-9d31-0ba31a90561d",
+      "depth": 1
+    },
+    {
+      "instanceId": "a558dd6d-81d8-4c9b-b396-6ce2d5feff50",
+      "depth": 1
+    },
+    {
+      "instanceId": "5746dee3-22bc-45b0-a281-709c75f1cbf5",
+      "depth": 1
+    },
+    {
+      "instanceId": "b348c069-30e9-492b-9c7e-0e69e1f064a1",
+      "depth": 1
+    },
+    {
+      "instanceId": "6c5cbdde-bf74-42bf-9193-b3cba734df0d",
+      "depth": 1
+    },
+    {
+      "instanceId": "08cb3d80-da80-420b-a0b7-9a52a2b2fb51",
+      "depth": 1
+    },
+    {
+      "instanceId": "5add6887-dd02-4855-8b43-1bf4e5f4c566",
+      "depth": 1
+    },
+    {
+      "instanceId": "774ac1d4-f18f-40a2-8bce-98e12072ca92",
+      "depth": 1
+    },
+    {
+      "instanceId": "2a2c4af4-fb39-4bb6-a07f-8b56ea1b9918",
+      "depth": 1
+    },
+    {
+      "instanceId": "ce85e1a6-9278-4929-bf90-63888457a907",
+      "depth": 1
+    },
+    {
+      "instanceId": "7d983e62-8088-4c8e-8b1e-92a6315ce259",
+      "depth": 1
+    },
+    {
+      "instanceId": "44581755-4e02-455f-b234-73b57bd44554",
+      "depth": 1
+    },
+    {
+      "instanceId": "1438e77e-2b92-4732-87b7-95abaa032053",
+      "depth": 1
+    },
+    {
+      "instanceId": "5fbfb602-2bbe-4c85-bed1-1aa7fb2caffc",
+      "depth": 1
+    },
+    {
+      "instanceId": "7c341448-3064-4471-9b43-6b540f2d7d75",
+      "depth": 1
+    },
+    {
+      "instanceId": "885650ba-ea97-4e70-b3ec-b4c8cd2a4fab",
+      "depth": 1
+    },
+    {
+      "instanceId": "c35722c4-d30a-48a7-8aca-d9050ee489ea",
+      "depth": 1
+    },
+    {
+      "instanceId": "eb094182-5417-490b-986a-a7b02b829f45",
+      "depth": 1
+    },
+    {
+      "instanceId": "0319774e-25cf-4003-b09a-a54dddfb4169",
+      "depth": 1
+    },
+    {
+      "instanceId": "071a8af1-e721-49cc-bb72-5bcc2765a630",
+      "depth": 1
+    },
+    {
+      "instanceId": "3c02b578-5502-4b26-b0dc-b50af4dfaf54",
+      "depth": 1
+    },
+    {
+      "instanceId": "523ac6ed-7337-487e-b96e-68c3354a2453",
+      "depth": 1
+    },
+    {
+      "instanceId": "5b7acb85-6f69-4004-8634-bdc605bc582d",
+      "depth": 1
+    },
+    {
+      "instanceId": "95247a1f-2099-4612-911c-7624962d8c3d",
+      "depth": 1
+    },
+    {
+      "instanceId": "9ffe1d2a-edec-4ab3-9758-1cb256dabc0c",
+      "depth": 1
+    },
+    {
+      "instanceId": "ba2fa325-22e8-4276-9cec-2f68da7621ca",
+      "depth": 1
+    },
+    {
+      "instanceId": "baa2df63-550c-4373-8863-15be412c4f75",
+      "depth": 1
+    },
+    {
+      "instanceId": "e4ad8ef4-30dc-40f8-8c08-dcd6a7d46b66",
+      "depth": 1
+    },
+    {
+      "instanceId": "efa36d61-65ed-455f-b74e-faff1962d756",
+      "depth": 1
+    },
+    {
+      "instanceId": "fa994ad5-f69a-48cb-a193-37b95ee35740",
+      "depth": 1
+    },
+    {
+      "instanceId": "0ce48b8d-ad56-4bef-8f4a-5600d623f0c2",
+      "depth": 1
+    },
+    {
+      "instanceId": "0f01cc27-b0bc-4db1-b162-21ca2cb3f650",
+      "depth": 1
+    },
+    {
+      "instanceId": "10837be1-bf07-4277-b48b-9bb59570e373",
+      "depth": 1
+    },
+    {
+      "instanceId": "3a74dfb7-43ef-48f1-8566-3580ce6fdbae",
+      "depth": 1
+    },
+    {
+      "instanceId": "3bc20678-344c-43f0-a27a-6b445a1067b8",
+      "depth": 1
+    },
+    {
+      "instanceId": "3fa883a9-6beb-4d6f-8fcf-936cfc7ca78e",
+      "depth": 1
+    },
+    {
+      "instanceId": "586cd1ec-b630-4124-87d0-806ff69b7e6e",
+      "depth": 1
+    },
+    {
+      "instanceId": "6002ecdc-7cd4-4e03-a00d-ffb4f0926d1f",
+      "depth": 1
+    },
+    {
+      "instanceId": "84c7e32f-3930-4644-b1ba-ac4ac3e46b83",
+      "depth": 1
+    },
+    {
+      "instanceId": "8aaf7014-ef80-44c7-a883-1d147054aa71",
+      "depth": 1
+    },
+    {
+      "instanceId": "9a3f00e8-22c2-4ed7-9c28-1070398a3b76",
+      "depth": 1
+    },
+    {
+      "instanceId": "aa493f75-0a6d-43e9-9c92-e47dad5a4b8c",
+      "depth": 1
+    },
+    {
+      "instanceId": "b210db10-6cc5-41e0-9449-e1d57a95874c",
+      "depth": 1
+    },
+    {
+      "instanceId": "b24bc260-988e-4522-8314-b0edf053966b",
+      "depth": 1
+    },
+    {
+      "instanceId": "bb9fc818-4fc9-41e1-b326-a6f685cfd0df",
+      "depth": 1
+    },
+    {
+      "instanceId": "bfa5ca73-7df7-4458-a6cc-e6dc7d03f019",
+      "depth": 1
+    },
+    {
+      "instanceId": "c702e840-a94b-4f05-93b9-4b4aa7a3ccce",
+      "depth": 1
+    },
+    {
+      "instanceId": "d00429e9-1a57-4b79-9486-ccb4f613feb5",
+      "depth": 1
+    },
+    {
+      "instanceId": "d32582d5-4a2f-44b0-bf59-38e6f2ac77c4",
+      "depth": 1
+    },
+    {
+      "instanceId": "df6db9d3-9c2a-479a-a8ab-0d7ac6f9e9a3",
+      "depth": 1
+    },
+    {
+      "instanceId": "e06081bf-7be9-4108-959d-e83f472b62d9",
+      "depth": 1
+    },
+    {
+      "instanceId": "e1cd52e7-81d2-43e6-83e2-517ffccb5992",
+      "depth": 1
+    },
+    {
+      "instanceId": "f325be79-ee53-41e8-b723-7774b01c4684",
+      "depth": 1
+    },
+    {
+      "instanceId": "f8035744-ce5c-464d-ad59-502c37a3385e",
+      "depth": 1
+    },
+    {
+      "instanceId": "fb9d3ec5-87c6-4062-8b4a-e4779b1b8c26",
+      "depth": 1
+    },
+    {
+      "instanceId": "093db584-66bb-4925-9f30-daf7f08d14d2",
+      "depth": 1
+    },
+    {
+      "instanceId": "1e8806f0-14bf-40f2-9f48-d4fefc8edb83",
+      "depth": 1
+    },
+    {
+      "instanceId": "39537a46-a5fd-41b2-903a-6dbc4ff7bb41",
+      "depth": 1
+    },
+    {
+      "instanceId": "4924d544-3537-4bbb-97db-25cf3369265b",
+      "depth": 1
+    },
+    {
+      "instanceId": "4da62975-115e-42f4-bff2-f48a0082dd74",
+      "depth": 1
+    },
+    {
+      "instanceId": "4ff2f696-0a4e-464a-aa2e-1ede45d6336a",
+      "depth": 1
+    },
+    {
+      "instanceId": "89130783-7144-4f70-8005-e465a4d21b7b",
+      "depth": 1
+    },
+    {
+      "instanceId": "8a1d2ced-5abb-49b9-9d28-cd8664cfbd31",
+      "depth": 1
+    },
+    {
+      "instanceId": "92fdbe66-006f-4888-ac19-4ba66b9d68f3",
+      "depth": 1
+    },
+    {
+      "instanceId": "957299b5-d4e9-47ba-83a4-965b55581430",
+      "depth": 1
+    },
+    {
+      "instanceId": "9c5b9fbb-4a57-469d-837b-d428cbe08454",
+      "depth": 1
+    },
+    {
+      "instanceId": "a97a8586-c999-4c54-a7eb-b61ed9232056",
+      "depth": 1
+    },
+    {
+      "instanceId": "b1aa4c86-9f80-4955-8e60-e7c26797b0aa",
+      "depth": 1
+    },
+    {
+      "instanceId": "b7755290-da91-44bb-91dd-4965f0314704",
+      "depth": 1
+    },
+    {
+      "instanceId": "bdd0d4fb-2c06-41f2-8bf6-6572aa460107",
+      "depth": 1
+    },
+    {
+      "instanceId": "c31f7d0b-383c-4981-87f9-592aed935814",
+      "depth": 1
+    },
+    {
+      "instanceId": "c3d548b5-5b18-471f-a81a-7926ff528023",
+      "depth": 1
+    },
+    {
+      "instanceId": "ce77293b-f6c0-4100-a5ea-f179e4aef356",
+      "depth": 1
+    },
+    {
+      "instanceId": "d36dd1c9-12db-47ce-9d14-c553a0f4cdb9",
+      "depth": 1
+    },
+    {
+      "instanceId": "f743f5cd-905e-44d1-85de-6ff48f4270e4",
+      "depth": 1
+    }
+  ],
+  "createdAt": "2026-10-08T10:02:08.764Z"
+}

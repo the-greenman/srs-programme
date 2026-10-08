@@ -1,0 +1,14 @@
+{
+  "instanceId": "b1795e7f-baef-4a60-9baf-b6ef8bfdec54",
+  "typeId": "3c000001-0000-4000-a000-000000000001",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.core",
+  "typeName": "purpose",
+  "fieldValues": {
+    "statement": "SemanticOps roadmap: objectives ranked by period; priority follows rank",
+    "title": "SemanticOps roadmap"
+  },
+  "createdAt": "2026-10-08T10:02:06.716216708+00:00",
+  "updatedAt": "2026-10-08T10:02:06.716223619+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

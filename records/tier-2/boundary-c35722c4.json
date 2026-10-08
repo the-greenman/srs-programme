@@ -1,0 +1,23 @@
+{
+  "instanceId": "c35722c4-d30a-48a7-8aca-d9050ee489ea",
+  "typeId": "23381f5e-e004-4342-9a2c-381a7e8f868a",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "boundary",
+  "fieldValues": {
+    "title": "P1 Living Decisions",
+    "strategy_key": "P1",
+    "summary": "A group uses the SRS-web governance workspace to review commitments when due and supersede decisions with an accountable history.",
+    "body": "## Track\n\nP\n\n## Actor\n\nGroup returning to its decisions over time\n\n## Durable Artifact\n\nUpgradable decision repository with living-decision history.\n\n## Entry Criteria\n\n- F1 is closed\n- SRS-web safe-to-try governance baseline exists\n\n## Included Capabilities\n\n- Work With Meaning\n- Preserve Meaning\n- Present Facets\n\n## Exclusions\n\n- Projected Protocol facilitation\n- AI-assisted drafting\n\n## Walkthrough\n\nIn srs-web, upgrade a repository, identify a decision due for review, supersede it, and inspect the resulting history.\n\n## Compatibility Promise\n\nPackage upgrades and supersession preserve prior decision meaning and lineage.\n\n## Stable After\n\nThe SRS-web governance workspace supports decisions as a maintained practice, not a one-time log.",
+    "issue_ref": [
+      "muDemocracy.org#36",
+      "muDemocracy.org#56",
+      "muDemocracy.org#57",
+      "muDemocracy.org#58",
+      "muDemocracy.org#59"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:28.677605709+00:00",
+  "updatedAt": "2026-10-08T10:00:28.677613310+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

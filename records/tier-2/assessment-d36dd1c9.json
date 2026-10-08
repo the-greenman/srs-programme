@@ -1,0 +1,20 @@
+{
+  "instanceId": "d36dd1c9-12db-47ce-9d14-c553a0f4cdb9",
+  "typeId": "83459606-c8a3-46bc-81dd-8d2677fc92d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "assessment",
+  "fieldValues": {
+    "title": "Reproducible first-party regeneration",
+    "strategy_key": "f1-regeneration",
+    "reality_state": "partial",
+    "summary": "Release-drift and roadmap conformance gates exist.",
+    "body": "## Exists\n\nRelease-drift and roadmap conformance gates exist.\n\n## Missing\n\nPost-cutover clean regeneration and Node/Rust corpus evidence must close together.\n\n## Assessed At\n\n2026-08-15\n\n## Review By\n\n2026-11-15",
+    "evidence": [
+      "repo-path: .github/workflows/release-drift.yml (automation)"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:31.411184736+00:00",
+  "updatedAt": "2026-10-08T10:00:31.411191304+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

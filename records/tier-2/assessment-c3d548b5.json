@@ -1,0 +1,22 @@
+{
+  "instanceId": "c3d548b5-5b18-471f-a81a-7926ff528023",
+  "typeId": "83459606-c8a3-46bc-81dd-8d2677fc92d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "assessment",
+  "fieldValues": {
+    "title": "μSrs semantic-document corpus",
+    "strategy_key": "f1-musrs-document-corpus",
+    "reality_state": "partial",
+    "summary": "μSrs contains packages, guide Blueprints, typed sections, Containers, DocumentViews, themes and a website publication adapter.",
+    "body": "## Exists\n\nμSrs contains packages, guide Blueprints, typed sections, Containers, DocumentViews, themes and a website publication adapter.\n\n## Missing\n\nIts manifest must migrate to the current carrier contract before it can prove the current engine and portable DocumentView behaviour.\n\n## Assessed At\n\n2026-08-15\n\n## Review By\n\n2026-11-15",
+    "evidence": [
+      "repo-path: muDemocracy.org/muSrs/package/blueprints/guide-7bfa600b.json (source)",
+      "repo-path: muDemocracy.org/muSrs/package/document-views/guide-body-view-2aba4d85.json (source)",
+      "command: srs repo map --repo muDemocracy.org/muSrs: manifest missing instanceIndex (diagnostic)"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:31.547980095+00:00",
+  "updatedAt": "2026-10-08T10:00:31.547989947+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

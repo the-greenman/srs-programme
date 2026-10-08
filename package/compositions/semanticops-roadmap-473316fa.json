@@ -1,0 +1,21 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/composition.json",
+  "id": "473316fa-6b76-4f5c-be1e-45dfd3b39f70",
+  "namespace": "com.semanticops.programme",
+  "name": "semanticops-roadmap",
+  "version": 1,
+  "description": "The SemanticOps roadmap: the container rendered in its own order and depth.",
+  "sections": [
+    {
+      "sectionId": "roadmap",
+      "order": 0,
+      "source": {
+        "type": "container-subset"
+      },
+      "ordering": {
+        "source": "arranged"
+      }
+    }
+  ],
+  "createdAt": "2026-10-08T10:02:19.356Z"
+}

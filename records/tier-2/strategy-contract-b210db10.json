@@ -1,0 +1,17 @@
+{
+  "instanceId": "b210db10-6cc5-41e0-9449-e1d57a95874c",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Canonical meaning and facets",
+    "strategy_key": "projection-boundary",
+    "stability": "lock-before-f1",
+    "summary": "A repository declares one repository-owned set of presentations it commits to render and can produce reproducible, readable projections from canonical meaning; neither the presentations nor their projections becomes an authoritative store.",
+    "body": "## Capabilities\n\n- Present Facets\n- Work With Meaning\n\n## Sources\n\n- repo-path: docs/spec/srs-unified.md\n- repo-path: rfcs/rfc-015-view-owned-ordering-declared-presentations.md\n\n## Not Included\n\n- A single required renderer, theme or layout-preservation promise\n- Byte-identical rendering across independent implementations"
+  },
+  "createdAt": "2026-10-08T10:00:30.011298303+00:00",
+  "updatedAt": "2026-10-08T10:00:30.011306454+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

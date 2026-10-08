@@ -1,0 +1,17 @@
+{
+  "instanceId": "8aaf7014-ef80-44c7-a883-1d147054aa71",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Governance profile",
+    "strategy_key": "governance-profile",
+    "stability": "extension",
+    "summary": "Decision, role, mandate, ratification and founding-document semantics are installable domain definitions, not SRS root types.",
+    "body": "## Capabilities\n\n- Work With Meaning\n- Sustain Trust\n\n## Sources\n\n- repo-path: rfcs/mudemocracy-rfc-candidates.md\n\n## Not Included\n\n- Hard-coded governance behaviour in a generic reader"
+  },
+  "createdAt": "2026-10-08T10:00:30.476706258+00:00",
+  "updatedAt": "2026-10-08T10:00:30.476714092+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

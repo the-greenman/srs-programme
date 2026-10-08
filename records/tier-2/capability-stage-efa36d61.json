@@ -1,0 +1,20 @@
+{
+  "instanceId": "efa36d61-65ed-455f-b74e-faff1962d756",
+  "typeId": "e5c178de-9113-4074-a81f-a112857bfb76",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "capability_stage",
+  "fieldValues": {
+    "title": "G7 AI-assisted practice",
+    "strategy_key": "G7",
+    "summary": "AI works inside a current Protocol or Blueprint context, proposes visibly with provenance, and never commits canonical meaning without human review and ratification.",
+    "body": "## Group Need\n\nWe want AI to propose useful wording and coaching from conversation evidence while people retain judgment and authority.\n\n## Semantic Adds\n\n- TSS and transcript provenance\n- AI proposal provenance\n- human review and ratification evidence\n\n## Blueprint Adds\n\n- stage-specific AI proposal review\n- inspectable source-provenance facet\n\n## Does Not Introduce\n\n- AI authority\n- an AI-specific editor\n- a separate canonical store\n\n## Activation Trigger\n\nA group has a reliable manual Protocol practice and wants assistive coaching or transcript-grounded drafting.",
+    "issue_ref": [
+      "muDemocracy.org#60",
+      "muDemocracy.org#68"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:29.275141057+00:00",
+  "updatedAt": "2026-10-08T10:00:29.275147387+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

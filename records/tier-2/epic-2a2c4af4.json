@@ -1,0 +1,16 @@
+{
+  "instanceId": "2a2c4af4-fb39-4bb6-a07f-8b56ea1b9918",
+  "typeId": "c2ec9c8a-b36b-4b19-940f-374b338e30a6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "epic",
+  "fieldValues": {
+    "title": "Workflow Editor",
+    "issue_ref": [
+      "muDemocracy.org#76"
+    ]
+  },
+  "createdAt": "2026-10-08T10:02:07.717024390+00:00",
+  "updatedAt": "2026-10-08T10:02:07.717029666+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

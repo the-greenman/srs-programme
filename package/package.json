@@ -17,17 +17,40 @@
     "fields/decisionmode-f344857a.json",
     "fields/door-e11a0e2f.json",
     "fields/issueref-f97d5f6f.json",
-    "fields/evidence-c650c570.json"
+    "fields/evidence-c650c570.json",
+    "fields/strategykey-8dff2842.json",
+    "fields/sourceref-76b070c9.json",
+    "fields/startson-2102f151.json",
+    "fields/endson-25edcd17.json",
+    "fields/stability-86b945a9.json",
+    "fields/realitystate-1614494a.json",
+    "fields/objectiverank-330bd423.json"
   ],
   "types": [
     "types/phase-127b6706.json",
     "types/unit-91474c82.json",
     "types/finding-159cd6bd.json",
-    "types/carriedcontext-fa687772.json"
+    "types/carriedcontext-fa687772.json",
+    "types/objective-f6635d38.json",
+    "types/period-6cdc0cc8.json",
+    "types/epic-c2ec9c8a.json",
+    "types/stakeholder-0ccd7c62.json",
+    "types/boundary-23381f5e.json",
+    "types/capabilitystage-e5c178de.json",
+    "types/strategycontract-e020a891.json",
+    "types/assessment-83459606.json"
   ],
-  "relationTypes": [],
+  "relationTypes": [
+    "relation-types/comsemanticopsprogrammeserves-0fd42e96.json",
+    "relation-types/comsemanticopsprogrammeresponds-to-c02856d7.json",
+    "relation-types/comsemanticopsprogrammerequires-contract-0ac79ff2.json",
+    "relation-types/comsemanticopsprogrammeassesses-8d4fc092.json",
+    "relation-types/comsemanticopsprogrammealigns-with-0435e205.json"
+  ],
   "views": [],
-  "compositions": [],
+  "compositions": [
+    "compositions/semanticops-roadmap-473316fa.json"
+  ],
   "blueprints": [
     "blueprints/programme-unit-6f086ee5.json"
   ],
@@ -36,5 +59,16 @@
   ],
   "protocols": [
     "protocols/programme-unit-walk-ffa65e4b.json"
+  ],
+  "vocabularies": [
+    "vocabularies/programme-tags-3ce56e5a.json"
+  ],
+  "packageDependencies": [
+    {
+      "packageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
+      "namespace": "com.semanticops.method",
+      "name": "method",
+      "version": "1.0.0"
+    }
   ]
 }

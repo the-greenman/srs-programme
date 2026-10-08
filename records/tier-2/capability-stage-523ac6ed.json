@@ -1,0 +1,16 @@
+{
+  "instanceId": "523ac6ed-7337-487e-b96e-68c3354a2453",
+  "typeId": "e5c178de-9113-4074-a81f-a112857bfb76",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "capability_stage",
+  "fieldValues": {
+    "title": "G4 Delegated practice",
+    "strategy_key": "G4",
+    "summary": "A group can define roles, working groups and mandates, then connect decisions to the authority under which they were made.",
+    "body": "## Group Need\n\nWe need working groups or roles, and need to make their mandates and authority legible.\n\n## Semantic Adds\n\n- Role Record\n- working-group Record\n- mandate and authority relations\n\n## Blueprint Adds\n\n- role and mandate workspace\n- authority context on decisions\n\n## Does Not Introduce\n\n- a founding constitution\n- global identity or federation\n- automatic enforcement of human authority\n\n## Activation Trigger\n\nA group delegates recurring work or needs to distinguish who may decide what."
+  },
+  "createdAt": "2026-10-08T10:00:29.076384113+00:00",
+  "updatedAt": "2026-10-08T10:00:29.076391991+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

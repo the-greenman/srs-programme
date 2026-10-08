@@ -1,0 +1,24 @@
+{
+  "instanceId": "eb094182-5417-490b-986a-a7b02b829f45",
+  "typeId": "23381f5e-e004-4342-9a2c-381a7e8f868a",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "boundary",
+  "fieldValues": {
+    "title": "P3 AI-Assisted Decisions",
+    "strategy_key": "P3",
+    "summary": "AI reads a live or recorded transcript, proposes stage-appropriate text with provenance, and people edit, agree and ratify it.",
+    "body": "## Track\n\nP\n\n## Actor\n\nGroup using AI inside the current SRS-web Protocol workspace\n\n## Durable Artifact\n\nHuman-ratified decision with transcript-linked AI proposal provenance.\n\n## Entry Criteria\n\n- F2 and P2 walkthroughs pass\n- Addressability and Protocol runs are available\n\n## Included Capabilities\n\n- Collaborate With AI\n- Work With Meaning\n- Preserve Meaning\n\n## Exclusions\n\n- AI authority over commitment\n- Federation\n- A separate AI-specific editor or canonical store\n\n## Walkthrough\n\nIn the same SRS-web Protocol workspace, use a live transcript, request a stage recommendation, edit it with the group, ratify the resulting decision and inspect the source provenance.\n\n## Compatibility Promise\n\nAI assistance never silently commits canonical meaning; attribution and human ratification remain inspectable.\n\n## Stable After\n\nAI may participate as a transparent coach inside a human-owned decision practice.\n\n## Gaps\n\n- TSS schema and transcript-ingestion contract: muDemocracy.org#60: Create concrete stories after P2 establishes the manual Protocol run.\n- AI-assisted meeting walkthrough: muDemocracy.org#60: Create when transcript ingestion and stage recommendations have runnable surfaces.",
+    "issue_ref": [
+      "muDemocracy.org#60",
+      "muDemocracy.org#68",
+      "muDemocracy.org#71",
+      "muDemocracy.org#72",
+      "srs-rust#236",
+      "srs-rust#252"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:28.815658774+00:00",
+  "updatedAt": "2026-10-08T10:00:28.815667708+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

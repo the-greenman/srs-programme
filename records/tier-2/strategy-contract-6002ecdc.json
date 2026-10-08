@@ -1,0 +1,17 @@
+{
+  "instanceId": "6002ecdc-7cd4-4e03-a00d-ffb4f0926d1f",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Practice extensions",
+    "strategy_key": "practice-extensions",
+    "stability": "extension",
+    "summary": "Governance and collaboration practices use the preservation substrate, but do not redefine it.",
+    "body": "## Capabilities\n\n- Work With Meaning\n- Collaborate With AI\n- Sustain Trust\n\n## Sources\n\n- repo-path: rfcs/mudemocracy-rfc-candidates.md\n\n## Not Included\n\n- A universal governance ontology or mandatory AI behaviour"
+  },
+  "createdAt": "2026-10-08T10:00:30.404550177+00:00",
+  "updatedAt": "2026-10-08T10:00:30.404556625+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

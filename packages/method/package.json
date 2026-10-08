@@ -1,0 +1,43 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/package-manifest.json",
+  "title": "method",
+  "description": "",
+  "status": "active",
+  "createdAt": "2026-10-08T10:43:50.708491250+00:00",
+  "fields": [
+    "fields/title-7ccb4e5e.json",
+    "fields/summary-0a273307.json",
+    "fields/description-a03abc28.json",
+    "fields/problemid-db7fa869.json",
+    "fields/statement-159222a6.json",
+    "fields/kind-50b17985.json",
+    "fields/jobs-fced003b.json",
+    "fields/needs-c5106dcb.json",
+    "fields/move-e225fcbe.json",
+    "fields/doesnotfix-9b8c0d2c.json",
+    "fields/falsifier-b8b1f078.json",
+    "fields/sourceref-0c9743ed.json"
+  ],
+  "types": [
+    "types/problem-b7d15218.json",
+    "types/cluster-c6a8eab1.json",
+    "types/persona-c57aafdd.json",
+    "types/remedy-edd84bf8.json"
+  ],
+  "relationTypes": [
+    "relation-types/comsemanticopsmethodheld-by-ec88d284.json",
+    "relation-types/comsemanticopsmethodanswers-459e48ca.json",
+    "relation-types/comsemanticopsmethodaddresses-50e4c271.json",
+    "relation-types/comsemanticopsmethodimplements-b764c252.json"
+  ],
+  "views": [],
+  "compositions": [],
+  "blueprints": [],
+  "id": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
+  "namespace": "com.semanticops.method",
+  "name": "method",
+  "version": "1.0.0",
+  "vocabularies": [
+    "vocabularies/problem-kind-7d21013f.json"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "instanceId": "c702e840-a94b-4f05-93b9-4b4aa7a3ccce",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Addressability and attention state",
+    "strategy_key": "addressability",
+    "stability": "extension",
+    "summary": "Tools can identify semantic locations and preserve a live point of attention.",
+    "body": "## Capabilities\n\n- Work With Meaning\n- Collaborate With AI\n- Preserve Meaning\n\n## Normative Subject\n\n[object Object]\n\n## Sources\n\n- repo-path: docs/spec/srs-spec.md\n- repo-path: rfcs/mudemocracy-rfc-candidates.md\n- srs-record: srs/records/design-notes/025-addressability-as-a-prerequisite-for-live-facilitation.json\n\n## Not Included\n\n- A required Git, database or archive backend\n- AI authority to commit canonical meaning"
+  },
+  "createdAt": "2026-10-08T10:00:30.681513574+00:00",
+  "updatedAt": "2026-10-08T10:00:30.681518602+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

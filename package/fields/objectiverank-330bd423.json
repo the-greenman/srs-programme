@@ -1,0 +1,23 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "id": "330bd423-7045-4bd7-8a8c-4d8212383f46",
+  "namespace": "com.semanticops.programme",
+  "name": "objective_rank",
+  "version": 1,
+  "description": "Objectives of a period, most important first.",
+  "aiGuidance": {
+    "purpose": "The owner's ranking for one period. List position is the rank: first is rank 1 (P0), second rank 2 (P1), the rest P2. Objectives left out are unranked, so their epics are parked.",
+    "extraction": "Reference objective records by instanceId in rank order. Reordering this list is the only way to reprioritise.",
+    "negativeGuidance": "Do not reference any other type, and do not set a Priority on the board by hand."
+  },
+  "fieldType": {
+    "datatype": "ref",
+    "cardinality": "list",
+    "rangeType": {
+      "typeId": "f6635d38-f2f6-4e2a-bcbe-8780d9ee4e0b",
+      "typeVersion": 1
+    },
+    "mode": "reference"
+  },
+  "createdAt": "2026-10-08T09:59:51.787Z"
+}

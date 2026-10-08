@@ -1,0 +1,17 @@
+{
+  "instanceId": "9a3f00e8-22c2-4ed7-9c28-1070398a3b76",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Revisions and Changelog (field-level transition history)",
+    "strategy_key": "transition-history",
+    "stability": "deferred",
+    "summary": "When a consumer needs transition history or field-level audit, a history mechanism is designed against its actual requirements. Record state (lifecycleState, the canonical case) mutates in place under the machine-bound state carve-out; semantic content still changes only by version increment or successor-and-link.",
+    "body": "## Cell\n\nVersioning\n\n## Capabilities\n\n- Preserve Meaning\n- Sustain Trust\n\n## Sources\n\n- srs-record: srs/records/tier-2/rfc-decision-2a1e1590.json\n\n## Not Included\n\n- The removed per-field Revision sidecars (revisions.json) and ChangelogCollection (changelog.json)\n- The revision-dependent clauses of ext:addressability's lifecycle coupling\n\n## Return Trigger\n\nThe roadmap return trigger: a consumer needs transition history or field-level audit - anticipated first claimant is the muDemocracy Decision Log governance audit surface. Also review if a second field class beyond lifecycleState claims the state carve-out; the machine-bound test must hold or the boundary is wrong."
+  },
+  "createdAt": "2026-10-08T10:00:30.885978823+00:00",
+  "updatedAt": "2026-10-08T10:00:30.885984977+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

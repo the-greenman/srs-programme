@@ -1,0 +1,17 @@
+{
+  "instanceId": "b24bc260-988e-4522-8314-b0edf053966b",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Coherent semantic kernel",
+    "strategy_key": "semantic-kernel",
+    "stability": "lock-before-f1",
+    "summary": "Independent implementations resolve the same canonical meaning, validate it consistently, and regenerate reproducible projections.",
+    "body": "## Capabilities\n\n- Define Meaning\n- Preserve Meaning\n- Present Facets\n\n## Sources\n\n- repo-path: docs/spec/srs-unified.md\n\n## Not Included\n\n- A particular editor, database, governance model or preferred layout"
+  },
+  "createdAt": "2026-10-08T10:00:29.677298435+00:00",
+  "updatedAt": "2026-10-08T10:00:29.677304608+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

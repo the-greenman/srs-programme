@@ -1,0 +1,17 @@
+{
+  "instanceId": "ce85e1a6-9278-4929-bf90-63888457a907",
+  "typeId": "0ccd7c62-c29a-40d8-9ca0-ae25f579a112",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "stakeholder",
+  "fieldValues": {
+    "title": "muDemocracy",
+    "summary": "SemanticOps' first funder. It drives the project in practice; its goals are independent of SemanticOps' own.",
+    "source_ref": [
+      "muDemocracy.org/plans/roadmap-2026Q4-2027Q3.md"
+    ]
+  },
+  "createdAt": "2026-10-08T10:02:06.780156067+00:00",
+  "updatedAt": "2026-10-08T10:02:06.780164908+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

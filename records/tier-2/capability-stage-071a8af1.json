@@ -1,0 +1,20 @@
+{
+  "instanceId": "071a8af1-e721-49cc-bb72-5bcc2765a630",
+  "typeId": "e5c178de-9113-4074-a81f-a112857bfb76",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "capability_stage",
+  "fieldValues": {
+    "title": "G3 Accountable decisions",
+    "strategy_key": "G3",
+    "summary": "A decision can be refined across several sessions and linked to declared participation and ratification without making any session the owner of the decision.",
+    "body": "## Group Need\n\nWe need to say when a decision was made, who participated and whether the group actually ratified it.\n\n## Semantic Adds\n\n- Session Record\n- declared participation\n- considered-in and ratified-in relations\n- ratification event or lifecycle transition\n\n## Blueprint Adds\n\n- accountable-decision review\n- session and ratification summary\n\n## Does Not Introduce\n\n- formal roles or mandates\n- a full identity system\n- TSS or transcript ingestion\n- AI assistance\n\n## Activation Trigger\n\nA group needs the participation, timing or authority of a decision to be inspectable.",
+    "issue_ref": [
+      "muDemocracy.org#66",
+      "muDemocracy.org#67"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:29.007523566+00:00",
+  "updatedAt": "2026-10-08T10:00:29.007530594+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,20 @@
+{
+  "instanceId": "b1aa4c86-9f80-4955-8e60-e7c26797b0aa",
+  "typeId": "83459606-c8a3-46bc-81dd-8d2677fc92d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "assessment",
+  "fieldValues": {
+    "title": "Closed semantic-kernel proof",
+    "strategy_key": "f1-kernel-proof",
+    "reality_state": "planned",
+    "summary": "The closure gate and audit structure are defined.",
+    "body": "## Exists\n\nThe closure gate and audit structure are defined.\n\n## Missing\n\nA green #256 closure with migrated-corpus evidence.\n\n## Assessed At\n\n2026-08-15\n\n## Review By\n\n2026-11-15",
+    "evidence": [
+      "issue: srs#256 (issue)"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:31.477045371+00:00",
+  "updatedAt": "2026-10-08T10:00:31.477052680+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

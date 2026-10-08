@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "id": "0fd42e96-17a3-4524-b50c-0b55e2ffefa4",
+  "version": 1,
+  "key": "com.semanticops.programme/serves",
+  "namespace": "com.semanticops.programme",
+  "label": "Serves",
+  "description": "Source epic works toward target objective.",
+  "category": "association",
+  "createdAt": "2026-10-08T09:59:51.787Z",
+  "canonicalDirection": "source is the epic; target is the objective it serves",
+  "status": "active"
+}

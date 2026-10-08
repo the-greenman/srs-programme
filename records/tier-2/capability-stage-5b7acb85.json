@@ -1,0 +1,21 @@
+{
+  "instanceId": "5b7acb85-6f69-4004-8634-bdc605bc582d",
+  "typeId": "e5c178de-9113-4074-a81f-a112857bfb76",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "capability_stage",
+  "fieldValues": {
+    "title": "D5 Portable semantic publication",
+    "strategy_key": "D5",
+    "summary": "A publication carries the definition closure, canonical Records and Relations, provenance/completeness diagnostics and a generic readable facet; a later user can continue it without silent loss.",
+    "body": "## Group Need\n\nWe need another person or tool to take a document, its definitions and its readable meaning elsewhere without depending on our website or editor.\n\n## Semantic Adds\n\n- self-contained definition closure\n- publication completeness declaration\n- portable document lineage\n\n## Blueprint Adds\n\n- offline-reader walkthrough\n- whole-document continuation review\n\n## Does Not Introduce\n\n- a promise that every attachment is included without a declaration\n- federation negotiation\n- a proprietary publication reader\n\n## Activation Trigger\n\nA document must remain usable and explainable after leaving the system that authored or published it.\n\n## Research\n\n- problem-index/09-distribution/repository-slices.md: Portable subsets need explicit identity, closure, provenance-completeness and import semantics rather than a bespoke export format.",
+    "issue_ref": [
+      "muDemocracy.org#117",
+      "srs#384",
+      "srs#386"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:29.606606546+00:00",
+  "updatedAt": "2026-10-08T10:00:29.606612903+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

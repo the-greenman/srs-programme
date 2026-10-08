@@ -1,0 +1,20 @@
+{
+  "instanceId": "ba2fa325-22e8-4276-9cec-2f68da7621ca",
+  "typeId": "e5c178de-9113-4074-a81f-a112857bfb76",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "capability_stage",
+  "fieldValues": {
+    "title": "G6 Facilitated practice",
+    "strategy_key": "G6",
+    "summary": "A shared-screen Protocol guides people through canonical decision state, can resume after interruption, and ends in whole-record review and human ratification.",
+    "body": "## Group Need\n\nWe want to make a decision together in the room or online, one clear step at a time.\n\n## Semantic Adds\n\n- Protocol Run\n- attention state\n- stage approval\n\n## Blueprint Adds\n\n- shared-screen facilitation mode\n- whole-record ratification review\n\n## Does Not Introduce\n\n- transcript capture or TSS emission\n- AI-generated wording\n- a facilitation-only semantic store\n\n## Activation Trigger\n\nA group wants help holding an actual shared decision process, not merely editing a record.",
+    "issue_ref": [
+      "muDemocracy.org#141",
+      "srs-rust#236"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:29.209360438+00:00",
+  "updatedAt": "2026-10-08T10:00:29.209368018+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

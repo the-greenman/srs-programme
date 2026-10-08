@@ -1,0 +1,32 @@
+{
+  "id": "3ce56e5a-9e67-4cc0-82bf-23226f0c1220",
+  "version": 1,
+  "namespace": "com.semanticops.programme",
+  "name": "programme-tags",
+  "mode": "open",
+  "terms": [
+    {
+      "id": "2d1aa619-407a-412f-b62f-8c492ba76650",
+      "version": 1,
+      "namespace": "com.semanticops.programme",
+      "key": "srs710",
+      "label": "srs710"
+    },
+    {
+      "id": "8aace66d-10ac-45b0-8254-a825220bb8d0",
+      "version": 1,
+      "namespace": "com.semanticops.programme",
+      "key": "check-rfc-integration",
+      "label": "check-rfc-integration"
+    },
+    {
+      "id": "dde7aa27-1e90-4218-bf04-fe8ae9a2cb2e",
+      "version": 1,
+      "namespace": "com.semanticops.programme",
+      "key": "ext-token",
+      "label": "ext-token"
+    }
+  ],
+  "description": "Tags carried by frozen spec-rework records; declared so a closed vocabulary elsewhere does not orphan them.",
+  "createdAt": "2026-10-08T10:44:50.418065176+00:00"
+}

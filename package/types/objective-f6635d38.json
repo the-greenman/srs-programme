@@ -1,0 +1,37 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "id": "f6635d38-f2f6-4e2a-bcbe-8780d9ee4e0b",
+  "namespace": "com.semanticops.programme",
+  "name": "objective",
+  "version": 1,
+  "description": "A direction SemanticOps commits to; periods rank objectives and epic priority follows the rank.",
+  "fields": [
+    {
+      "fieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "7f4e152c-be50-4710-acb1-392fd1c20f08",
+      "order": 1,
+      "required": false
+    },
+    {
+      "fieldId": "c510b202-57f6-4be7-9537-44819c7c3aa2",
+      "order": 2,
+      "required": false
+    },
+    {
+      "fieldId": "76b070c9-4918-4645-b73e-329931a58271",
+      "order": 3,
+      "required": false
+    }
+  ],
+  "identityFieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
+  "aiGuidance": {
+    "purpose": "One outcome the project works toward, stated so that an epic can be said to serve it.",
+    "extraction": "Create one per outcome the owner names. Title is the outcome in plain words; summary one sentence; body markdown for the reasoning.",
+    "negativeGuidance": "Not a task or an epic, and carries no rank: rank lives on the period."
+  },
+  "createdAt": "2026-10-08T09:59:51.787Z"
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "id": "23381f5e-e004-4342-9a2c-381a7e8f868a",
+  "namespace": "com.semanticops.programme",
+  "name": "boundary",
+  "version": 1,
+  "description": "A v12 strategy boundary (release line F1-F3, P1-P3).",
+  "fields": [
+    {
+      "fieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "8dff2842-d063-4c52-b095-b133c729978d",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "7f4e152c-be50-4710-acb1-392fd1c20f08",
+      "order": 2,
+      "required": false
+    },
+    {
+      "fieldId": "c510b202-57f6-4be7-9537-44819c7c3aa2",
+      "order": 3,
+      "required": false
+    },
+    {
+      "fieldId": "f97d5f6f-ba89-4daf-8c2d-661cf3553517",
+      "order": 4,
+      "required": false
+    }
+  ],
+  "identityFieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
+  "aiGuidance": {
+    "purpose": "Frozen history from the v12 strategy roadmap: a boundary with its promise and entry criteria.",
+    "extraction": "Summary is the promise; body is markdown for actor, artifact, criteria, exclusions and walkthrough.",
+    "negativeGuidance": "Do not add new boundaries; new work is an epic serving an objective."
+  },
+  "createdAt": "2026-10-08T09:59:51.787Z"
+}

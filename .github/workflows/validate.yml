@@ -25,7 +25,7 @@ permissions:
 env:
   # The pinned `srs-rust` release supplying the `srs` CLI. Declared once, here.
   # Advance it in its own commit, stating why.
-  SRS_RUST_CLI_TAG: v0.1.0-build.426
+  SRS_RUST_CLI_TAG: v0.1.0-build.497
 
 jobs:
   validate:
@@ -48,3 +48,6 @@ jobs:
           export $(node scripts/fetch-pinned-srs.mjs)
           "$SRS_CLI_PATH" repo validate --repo . --pretty
           node scripts/check-programme-conformance.mjs
+          node scripts/roadmap.test.mjs
+          # fails on no active period, overlapping periods, or objective_rank pointing at a non-objective
+          node scripts/roadmap.mjs --json > /dev/null

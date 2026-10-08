@@ -1,0 +1,20 @@
+{
+  "instanceId": "39537a46-a5fd-41b2-903a-6dbc4ff7bb41",
+  "typeId": "83459606-c8a3-46bc-81dd-8d2677fc92d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "assessment",
+  "fieldValues": {
+    "title": "Independent offline reader and fallback",
+    "strategy_key": "f2-offline-reader",
+    "reality_state": "planned",
+    "summary": "DocumentViews and application rendering exist inside the current stack.",
+    "body": "## Exists\n\nDocumentViews and application rendering exist inside the current stack.\n\n## Missing\n\nA generic reader must explain a detached archive without the originating service.\n\n## Assessed At\n\n2026-08-15\n\n## Review By\n\n2026-11-15",
+    "evidence": [
+      "issue: srs#385 (issue)"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:31.675613647+00:00",
+  "updatedAt": "2026-10-08T10:00:31.675619096+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

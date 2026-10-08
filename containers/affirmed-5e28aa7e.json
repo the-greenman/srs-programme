@@ -1,0 +1,14 @@
+{
+  "containerId": "5e28aa7e-4b35-4474-8f62-cf8dcae1e506",
+  "title": "Affirmed",
+  "namespace": "com.semanticops.programme",
+  "name": "affirmed",
+  "description": "The human layer of method records. Roadmap derivation reads only this container. Several writers: use container members add, never update.",
+  "identityInstanceId": "44581755-4e02-455f-b234-73b57bd44554",
+  "anchorInstanceId": "44581755-4e02-455f-b234-73b57bd44554",
+  "memberInstanceIds": [
+    {
+      "instanceId": "44581755-4e02-455f-b234-73b57bd44554"
+    }
+  ]
+}

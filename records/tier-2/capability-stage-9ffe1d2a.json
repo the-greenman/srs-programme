@@ -1,0 +1,19 @@
+{
+  "instanceId": "9ffe1d2a-edec-4ab3-9758-1cb256dabc0c",
+  "typeId": "e5c178de-9113-4074-a81f-a112857bfb76",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "capability_stage",
+  "fieldValues": {
+    "title": "D1 Structured semantic document",
+    "strategy_key": "D1",
+    "summary": "A document is authored as typed Records in a Container, with explicit fields and relations instead of an opaque page blob.",
+    "body": "## Group Need\n\nWe need to write a guide, policy, specification or handbook without separating its content from the structure that makes it understandable.\n\n## Semantic Adds\n\n- document root Record\n- typed content Records\n- Container membership and ordering relations\n\n## Blueprint Adds\n\n- basic document form\n- generic record navigation\n\n## Does Not Introduce\n\n- a website-specific page schema\n- a required bespoke renderer\n- shared reusable definition packages\n\n## Activation Trigger\n\nA group needs a document whose structure and meaning must remain inspectable as it is written.\n\n## Research\n\n- problem-index/07-field-records/README.md: Content is maintained meaning: fields need an inspectable change history, not a monolithic document blob.",
+    "issue_ref": [
+      "muDemocracy.org#83"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:29.342858002+00:00",
+  "updatedAt": "2026-10-08T10:00:29.342864711+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,16 @@
+{
+  "instanceId": "5add6887-dd02-4855-8b43-1bf4e5f4c566",
+  "typeId": "c2ec9c8a-b36b-4b19-940f-374b338e30a6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "epic",
+  "fieldValues": {
+    "title": "Snapshot export",
+    "issue_ref": [
+      "muDemocracy.org#117"
+    ]
+  },
+  "createdAt": "2026-10-08T10:02:07.584339500+00:00",
+  "updatedAt": "2026-10-08T10:02:07.584353249+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

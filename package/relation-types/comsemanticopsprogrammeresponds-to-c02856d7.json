@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "id": "c02856d7-b4be-412f-9ad3-8b4036b2b17b",
+  "version": 1,
+  "key": "com.semanticops.programme/responds-to",
+  "namespace": "com.semanticops.programme",
+  "label": "Responds to",
+  "description": "Source objective responds to a need of target stakeholder.",
+  "category": "association",
+  "createdAt": "2026-10-08T09:59:51.787Z",
+  "canonicalDirection": "source is the objective; target is the stakeholder whose need it answers",
+  "status": "active"
+}

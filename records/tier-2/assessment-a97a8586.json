@@ -1,0 +1,21 @@
+{
+  "instanceId": "a97a8586-c999-4c54-a7eb-b61ed9232056",
+  "typeId": "83459606-c8a3-46bc-81dd-8d2677fc92d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "assessment",
+  "fieldValues": {
+    "title": "Portable archive export",
+    "strategy_key": "f2-archive-export",
+    "reality_state": "partial",
+    "summary": "srs-web can export a repository archive as `.srs`.",
+    "body": "## Exists\n\nsrs-web can export a repository archive as `.srs`.\n\n## Missing\n\nThe export is not yet an independently proven portable semantic publication.\n\n## Assessed At\n\n2026-08-15\n\n## Review By\n\n2026-11-15",
+    "evidence": [
+      "repo-path: srs-web/src/App.svelte (source)",
+      "repo-path: srs-web/e2e/export-import.spec.ts (test)"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:31.612387406+00:00",
+  "updatedAt": "2026-10-08T10:00:31.612392895+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

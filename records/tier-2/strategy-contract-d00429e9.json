@@ -1,0 +1,21 @@
+{
+  "instanceId": "d00429e9-1a57-4b79-9486-ccb4f613feb5",
+  "typeId": "e020a891-668d-41a4-9ee7-a2b8492e29f5",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "strategy_contract",
+  "fieldValues": {
+    "title": "Nested structure and navigation",
+    "strategy_key": "deep-structure",
+    "stability": "settle-before-f2",
+    "summary": "A repository expresses structure more than one level deep, and a conforming reader reaches every node from the root: containers nest by declaration or derivation, and navigation and composition traverse to any depth under one deterministic order.",
+    "body": "## Capabilities\n\n- Work With Meaning\n- Present Facets\n\n## Sources\n\n- repo-path: rfcs/rfc-013-required-root-container.md\n- repo-path: srs/records/notes/design-capture-directory-kind-scopes.json\n- issue: srs#267\n- issue: srs#556\n\n## Not Included\n\n- A navigation taxonomy\n- A second ordering primitive alongside precedes\n- Container-to-container Relations, which core Invariant 20 forbids",
+    "issue_ref": [
+      "srs#267",
+      "srs#556"
+    ]
+  },
+  "createdAt": "2026-10-08T10:00:29.945226010+00:00",
+  "updatedAt": "2026-10-08T10:00:29.945232022+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
