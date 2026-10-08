@@ -1,0 +1,16 @@
+{
+  "instanceId": "a558dd6d-81d8-4c9b-b396-6ce2d5feff50",
+  "typeId": "c2ec9c8a-b36b-4b19-940f-374b338e30a6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "epic",
+  "fieldValues": {
+    "title": "muSrs Generic Semantic Editor",
+    "issue_ref": [
+      "muDemocracy.org#83"
+    ]
+  },
+  "createdAt": "2026-10-08T10:02:07.250684764+00:00",
+  "updatedAt": "2026-10-08T10:02:07.250691354+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,16 @@
+{
+  "instanceId": "08cb3d80-da80-420b-a0b7-9a52a2b2fb51",
+  "typeId": "c2ec9c8a-b36b-4b19-940f-374b338e30a6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "epic",
+  "fieldValues": {
+    "title": "Package distribution",
+    "issue_ref": [
+      "muDemocracy.org#293"
+    ]
+  },
+  "createdAt": "2026-10-08T10:02:07.518678996+00:00",
+  "updatedAt": "2026-10-08T10:02:07.518684071+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

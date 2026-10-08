@@ -1,0 +1,16 @@
+{
+  "instanceId": "5746dee3-22bc-45b0-a281-709c75f1cbf5",
+  "typeId": "c2ec9c8a-b36b-4b19-940f-374b338e30a6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "epic",
+  "fieldValues": {
+    "title": "srs-context: SRS as long-lived agent memory",
+    "issue_ref": [
+      "muDemocracy.org#288"
+    ]
+  },
+  "createdAt": "2026-10-08T10:02:07.316500183+00:00",
+  "updatedAt": "2026-10-08T10:02:07.316505142+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

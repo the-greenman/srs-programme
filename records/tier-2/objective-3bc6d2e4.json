@@ -1,0 +1,17 @@
+{
+  "instanceId": "3bc6d2e4-7a03-44e1-9cc2-9b205eb4c7d7",
+  "typeId": "f6635d38-f2f6-4e2a-bcbe-8780d9ee4e0b",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "objective",
+  "fieldValues": {
+    "title": "A public specification that reads as it describes",
+    "summary": "The specification is published on semanticops.com and is itself structured as the thing it specifies. Draft.",
+    "source_ref": [
+      "srs#580"
+    ]
+  },
+  "createdAt": "2026-10-08T10:02:06.989101569+00:00",
+  "updatedAt": "2026-10-08T10:02:06.989107196+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

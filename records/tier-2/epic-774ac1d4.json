@@ -1,0 +1,16 @@
+{
+  "instanceId": "774ac1d4-f18f-40a2-8bce-98e12072ca92",
+  "typeId": "c2ec9c8a-b36b-4b19-940f-374b338e30a6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "epic",
+  "fieldValues": {
+    "title": "Offline editor",
+    "issue_ref": [
+      "muDemocracy.org#94"
+    ]
+  },
+  "createdAt": "2026-10-08T10:02:07.652259405+00:00",
+  "updatedAt": "2026-10-08T10:02:07.652265266+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

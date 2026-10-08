@@ -1,0 +1,17 @@
+{
+  "instanceId": "b348c069-30e9-492b-9c7e-0e69e1f064a1",
+  "typeId": "c2ec9c8a-b36b-4b19-940f-374b338e30a6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "epic",
+  "fieldValues": {
+    "title": "SRS for Specs: the spec-authoring package",
+    "issue_ref": [
+      "muDemocracy.org#124",
+      "srs#580"
+    ]
+  },
+  "createdAt": "2026-10-08T10:02:07.381852500+00:00",
+  "updatedAt": "2026-10-08T10:02:07.381861133+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

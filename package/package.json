@@ -48,7 +48,9 @@
     "relation-types/comsemanticopsprogrammealigns-with-0435e205.json"
   ],
   "views": [],
-  "compositions": [],
+  "compositions": [
+    "compositions/semanticops-roadmap-473316fa.json"
+  ],
   "blueprints": [
     "blueprints/programme-unit-6f086ee5.json"
   ],

@@ -1,0 +1,16 @@
+{
+  "instanceId": "6c5cbdde-bf74-42bf-9193-b3cba734df0d",
+  "typeId": "c2ec9c8a-b36b-4b19-940f-374b338e30a6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "epic",
+  "fieldValues": {
+    "title": "Reference implementation honours its declared contracts",
+    "issue_ref": [
+      "muDemocracy.org#159"
+    ]
+  },
+  "createdAt": "2026-10-08T10:02:07.454783930+00:00",
+  "updatedAt": "2026-10-08T10:02:07.454790900+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
