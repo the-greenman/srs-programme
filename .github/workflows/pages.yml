@@ -16,10 +16,6 @@ concurrency:
   group: pages
   cancel-in-progress: true
 
-env:
-  # Keep in step with validate.yml (declared there once; advance both together).
-  SRS_RUST_CLI_TAG: v0.1.0-build.497
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
