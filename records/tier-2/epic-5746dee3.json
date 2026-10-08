@@ -7,10 +7,10 @@
   "fieldValues": {
     "title": "srs-context: SRS as long-lived agent memory",
     "issue_ref": [
-      "muDemocracy.org#288"
+      "semanticops.com#28"
     ]
   },
   "createdAt": "2026-10-08T10:02:07.316500183+00:00",
-  "updatedAt": "2026-10-08T10:02:07.316505142+00:00",
+  "updatedAt": "2026-10-08T11:00:08.344715933+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

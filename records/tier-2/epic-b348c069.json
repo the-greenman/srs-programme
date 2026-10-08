@@ -7,11 +7,11 @@
   "fieldValues": {
     "title": "SRS for Specs: the spec-authoring package",
     "issue_ref": [
-      "muDemocracy.org#124",
+      "semanticops.com#27",
       "srs#580"
     ]
   },
   "createdAt": "2026-10-08T10:02:07.381852500+00:00",
-  "updatedAt": "2026-10-08T10:02:07.381861133+00:00",
+  "updatedAt": "2026-10-08T11:00:08.475492558+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

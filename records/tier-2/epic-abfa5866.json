@@ -7,10 +7,10 @@
   "fieldValues": {
     "title": "SRS as an agent-supported editor",
     "issue_ref": [
-      "muDemocracy.org#224"
+      "semanticops.com#29"
     ]
   },
   "createdAt": "2026-10-08T10:02:07.186142553+00:00",
-  "updatedAt": "2026-10-08T10:02:07.186147375+00:00",
+  "updatedAt": "2026-10-08T11:00:08.216631088+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }
