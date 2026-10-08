@@ -48,3 +48,6 @@ jobs:
           export $(node scripts/fetch-pinned-srs.mjs)
           "$SRS_CLI_PATH" repo validate --repo . --pretty
           node scripts/check-programme-conformance.mjs
+          node scripts/roadmap.test.mjs
+          # fails on no active period, overlapping periods, or objective_rank pointing at a non-objective
+          node scripts/roadmap.mjs --json > /dev/null

@@ -2,19 +2,17 @@
 
 ## What this is
 
-`the-greenman/srs-programme` — the SRS spec-rework programme, modelled in SRS
-(`com.semanticops.programme`): phases, units, findings and carried context, plus
-the `programme-unit-walk` Protocol and its Blueprint. Moved out of
-`the-greenman/srs` per owner decision 2026-09-16 (srs#786), history preserved by
-`git subtree split`. The records are the source of truth; a unit's `issue_ref`
-points at the GitHub issues where the work is executed, rather than restating
-them.
+`the-greenman/srs-programme` is the **SemanticOps roadmap** (`com.semanticops.programme`), modelled in
+SRS: periods rank objectives, epics serve objectives, and priority is derived from the rank
+(rank 1 = P0, 2 = P1, 3+ = P2, unranked = parked). The records are the source of truth;
+an epic's `issue_ref` points at the tracker, rather than restating it. Design: srs-programme#15.
 
-## The Protocol is the one process home
-
-`package/protocols/programme-unit-walk-*.json` defines how a unit goes from
-proposed to landed. Do not restate its stages in a document, a script or an
-issue comment — if the walk needs changing, change the Protocol.
+- **To reprioritise, edit the active period's `objective_rank`** (`record update`). Never set board
+  Priority by hand; `node scripts/roadmap.mjs --apply` is the one writer.
+- `node scripts/roadmap.mjs --json | --explain <repo#n> | --apply [--yes]` derives and applies.
+- The spec-rework programme's units, findings, carried context, phases, Protocol and Blueprint
+  are **frozen history**: no further lifecycle sync, no new ones. New lessons go to srs-context.
+- The v12 strategy roadmap (boundaries, stages, contracts, assessments) is kept as frozen records.
 
 ## Writes go through the pinned CLI
 
@@ -24,6 +22,7 @@ Never hand-edit records, relations, containers or the manifest.
 export $(node scripts/fetch-pinned-srs.mjs)
 "$SRS_CLI_PATH" record create --repo . --type com.semanticops.programme/unit
 node scripts/check-programme-conformance.mjs   # what CI runs
+node scripts/roadmap.test.mjs                   # also CI
 ```
 
 The pin (`SRS_RUST_CLI_TAG`) is declared once, in
