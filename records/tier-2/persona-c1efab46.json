@@ -1,0 +1,27 @@
+{
+  "instanceId": "c1efab46-8641-4dd5-896d-04bf6319e9c8",
+  "typeId": "c57aafdd-d002-4ee6-9a2b-ff3805107580",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona",
+  "fieldValues": {
+    "title": "AI agent",
+    "summary": "An AI agent that works from SRS context, moment to moment, to read, reason and write structured records.",
+    "jobs": [
+      "Recall the few records relevant to the task",
+      "Check where a claim came from",
+      "Write records without breaking contracts",
+      "Hand work over to a human or another agent",
+      "Pick up where a previous session left off"
+    ],
+    "needs": "Fast scoped recall, provenance on everything, and write tools that enforce type and relation contracts."
+  },
+  "createdAt": "2026-10-08T10:46:16.191399682+00:00",
+  "updatedAt": "2026-10-08T10:46:16.191401256+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:persona-scout",
+    "name": "Persona scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

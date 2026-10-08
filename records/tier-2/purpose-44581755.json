@@ -1,0 +1,18 @@
+{
+  "instanceId": "44581755-4e02-455f-b234-73b57bd44554",
+  "typeId": "3c000001-0000-4000-a000-000000000001",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.core",
+  "typeName": "purpose",
+  "fieldValues": {
+    "statement": "The human layer: problems, clusters, personas and remedies a person has adopted (by record fork from Suggestions) or written. Roadmap derivation and --explain read only this layer. Agents never write here.",
+    "title": "Affirmed"
+  },
+  "createdAt": "2026-10-08T10:45:43.080745527+00:00",
+  "updatedAt": "2026-10-08T10:45:43.080764055+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

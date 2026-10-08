@@ -1,0 +1,27 @@
+{
+  "instanceId": "f15ba1ea-5e80-4952-95da-e83ed1c0e881",
+  "typeId": "c57aafdd-d002-4ee6-9a2b-ff3805107580",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona",
+  "fieldValues": {
+    "title": "Writer / argument builder",
+    "summary": "A person building structured arguments together with agents, who needs the structure to hold as the text changes.",
+    "jobs": [
+      "Lay out a claim with its premises",
+      "Attach sources and counter-claims to a claim",
+      "Restructure an argument without losing links",
+      "Ask an agent to enrich without rewriting",
+      "Publish the argument in a readable form"
+    ],
+    "needs": "Structure that survives editing, sources and counter-claims attached, and agents that never write their text."
+  },
+  "createdAt": "2026-10-08T10:46:16.260894065+00:00",
+  "updatedAt": "2026-10-08T10:46:16.260897514+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:persona-scout",
+    "name": "Persona scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

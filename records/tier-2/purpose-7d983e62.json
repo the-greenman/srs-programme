@@ -1,0 +1,14 @@
+{
+  "instanceId": "7d983e62-8088-4c8e-8b1e-92a6315ce259",
+  "typeId": "3c000001-0000-4000-a000-000000000001",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.core",
+  "typeName": "purpose",
+  "fieldValues": {
+    "statement": "Problems, clusters, personas and remedies drafted by agents. Each record carries the createdBy actor of the agent that wrote it. Not read by roadmap derivation.",
+    "title": "Suggestions"
+  },
+  "createdAt": "2026-10-08T10:45:28.404525883+00:00",
+  "updatedAt": "2026-10-08T10:45:28.404541453+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

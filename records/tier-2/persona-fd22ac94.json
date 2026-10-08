@@ -1,0 +1,27 @@
+{
+  "instanceId": "fd22ac94-8705-4119-894a-098a3a83e956",
+  "typeId": "c57aafdd-d002-4ee6-9a2b-ff3805107580",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona",
+  "fieldValues": {
+    "title": "Group / organisation",
+    "summary": "A group or organisation that owns its own meaning and wants it to stay portable.",
+    "jobs": [
+      "Record decisions and the reasons for them",
+      "Keep a shared vocabulary stable over time",
+      "Let members and agents contribute with attribution",
+      "Move its records to another tool",
+      "Show outsiders what it has decided"
+    ],
+    "needs": "An open format, and no lock-in to one app or AI vendor."
+  },
+  "createdAt": "2026-10-08T10:46:16.329616702+00:00",
+  "updatedAt": "2026-10-08T10:46:16.329621076+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:persona-scout",
+    "name": "Persona scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
