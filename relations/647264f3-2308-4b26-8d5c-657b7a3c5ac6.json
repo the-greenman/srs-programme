@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "647264f3-2308-4b26-8d5c-657b7a3c5ac6",
+  "relationType": "contains",
+  "sourceInstanceId": "682d496d-3563-46fb-951d-d35875b164b3",
+  "targetInstanceId": "fe7de5b0-fb1e-4428-8bcd-9fcf6fc079bb",
+  "createdAt": "2026-10-08T17:16:01.601+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  }
+}

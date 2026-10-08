@@ -1,0 +1,24 @@
+{
+  "instanceId": "443cc665-b447-4028-9389-20ebedd886d1",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-47",
+    "title": "Group boundaries are fixed by where files sit",
+    "statement": "If what belongs to a topic is inferred from folders or links, redrawing a boundary means moving the records themselves. Groups need to draw the same material into different sets without changing what it says.",
+    "kind": "condition",
+    "source_ref": [
+      "semanticops.com:public/agents/principles.md (Declared, never derived)"
+    ]
+  },
+  "createdAt": "2026-10-08T17:16:09.776+00:00",
+  "updatedAt": "2026-10-08T17:16:09.776+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,18 @@
+{
+  "instanceId": "324d1797-3434-4a47-bd6c-e0e1f18bf49b",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "This rule is too strict. We can explicitly ask for a draft. The tooling probably allows it.  We just want to know who created each paragraph. \nThe model editor has the updated process where an agent writes and then an author forks with an affirmation"
+  },
+  "createdAt": "2026-10-08T17:12:54.630+00:00",
+  "updatedAt": "2026-10-08T17:12:54.630+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

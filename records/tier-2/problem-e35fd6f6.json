@@ -1,0 +1,25 @@
+{
+  "instanceId": "e35fd6f6-cf76-4f8b-9bee-e91a8c8d6d85",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-16",
+    "title": "Agent roles are improvised, not designed",
+    "statement": "Several agents on one document are told what to do in their own separate sessions, and nothing shared says what each is for. The writer cannot see which agent is meant to challenge, support or summarise, so differences in agent behaviour look like noise.",
+    "kind": "condition",
+    "source_ref": [
+      "semanticops.com#14",
+      "semanticops.com#29"
+    ]
+  },
+  "createdAt": "2026-10-08T17:14:07.608+00:00",
+  "updatedAt": "2026-10-08T17:14:07.608+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

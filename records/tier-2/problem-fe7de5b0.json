@@ -1,0 +1,28 @@
+{
+  "instanceId": "fe7de5b0-fb1e-4428-8bcd-9fcf6fc079bb",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-46",
+    "title": "Arrangement changes can alter meaning",
+    "statement": "Reordering and presenting a group's records by hand risks being mistaken for, or silently changing, what they mean. Groups need to arrange their material without altering what it states.",
+    "kind": "belief",
+    "source_ref": [
+      "muDemocracy.org#75",
+      "srs-web#40",
+      "srs-web#122",
+      "srs-vscode#45",
+      "srs-web#219"
+    ]
+  },
+  "createdAt": "2026-10-08T17:16:01.585+00:00",
+  "updatedAt": "2026-10-08T17:16:01.585+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

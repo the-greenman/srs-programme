@@ -1,0 +1,29 @@
+{
+  "instanceId": "32f9342c-bcee-4370-a16f-8fcfc92a517a",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-05",
+    "title": "Group tools reimplement meaning in the client",
+    "statement": "Each tool a group uses computes things like ordering, inheritance and labels for itself, so the same record can mean different things in different tools. Owners cannot be sure the meaning they hold is the meaning they see.",
+    "kind": "consequence",
+    "source_ref": [
+      "srs-web#336",
+      "srs-web#303",
+      "srs-web#280",
+      "srs-web#216",
+      "srs-vscode#45",
+      "muDemocracy.org#159"
+    ]
+  },
+  "createdAt": "2026-10-08T17:19:50.009+00:00",
+  "updatedAt": "2026-10-08T17:19:50.009+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

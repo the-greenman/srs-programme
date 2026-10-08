@@ -1,0 +1,25 @@
+{
+  "instanceId": "0a4c09b9-72dd-4df8-b450-e26d65263a6c",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-42",
+    "title": "Agent proposals blur into group decisions",
+    "statement": "When an agent can write records as easily as a person, its suggestions can be mistaken for what the group decided. The line between proposed and ratified rests on habit rather than on anything readable in the data.",
+    "kind": "condition",
+    "source_ref": [
+      "semanticops.com:public/agents/principles.md (People decide, AI assists)"
+    ],
+    "imbalance": "collapsed"
+  },
+  "createdAt": "2026-10-08T17:16:28.126+00:00",
+  "updatedAt": "2026-10-08T17:16:28.126+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

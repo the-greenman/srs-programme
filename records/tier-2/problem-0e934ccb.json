@@ -1,0 +1,25 @@
+{
+  "instanceId": "0e934ccb-0bfc-4980-9eb3-6a5374100072",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-13",
+    "title": "Agent conversations have no stopping point",
+    "statement": "Agents answer comments and each other on a loop, and the only guard against endless reply chains is a checklist item to check by hand. Nobody can tell when a thread is settled, so threads end by fatigue, not by agreement.",
+    "kind": "condition",
+    "source_ref": [
+      "semanticops.com#14",
+      "semanticops.com#17"
+    ]
+  },
+  "createdAt": "2026-10-08T17:05:15.075+00:00",
+  "updatedAt": "2026-10-08T17:05:15.075+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

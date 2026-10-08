@@ -1,0 +1,26 @@
+{
+  "instanceId": "5bdcfdfc-997a-4d78-a8b2-d5d3f0aac7ad",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-29",
+    "title": "Silent environment effects mislead agents",
+    "statement": "Quiet differences in the agent's environment change results without any error: a shallow clone makes history checks report real commits as absent, and an attribution variable set for memory writes breaks unrelated tests. The agent draws a confident wrong conclusion.",
+    "kind": "consequence",
+    "source_ref": [
+      "srs-context:Shallow clones make git-history checks silently wrong",
+      "srs-context:SRS_ACTOR from the context hook makes srs-rust CLI tests fail",
+      "srs-rust#1322"
+    ]
+  },
+  "createdAt": "2026-10-08T16:54:57.280+00:00",
+  "updatedAt": "2026-10-08T16:54:57.280+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

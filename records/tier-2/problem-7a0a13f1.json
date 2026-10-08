@@ -1,0 +1,25 @@
+{
+  "instanceId": "7a0a13f1-0a90-40eb-ae6b-9e36b8101dd4",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-09",
+    "title": "Knowledge arrives without its meaning attached",
+    "statement": "When knowledge moves between people, tools or agents as a file or message, the receiver gets the words but not the definitions, relations or context that made them mean something. Interpretation is then guesswork.",
+    "kind": "condition",
+    "source_ref": [
+      "semanticops.com:public/agents/principles.md (Transfer knowledge intact)"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-08T17:17:24.659+00:00",
+  "updatedAt": "2026-10-08T17:17:24.659+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

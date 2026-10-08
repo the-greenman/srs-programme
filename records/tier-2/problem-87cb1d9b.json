@@ -1,0 +1,27 @@
+{
+  "instanceId": "87cb1d9b-686c-49c7-b278-8a3a2dfd6d3e",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-21",
+    "title": "Changes to records are hard to review",
+    "statement": "Reviewers cannot see what changed in a record: prose sits in one escaped line, byte forms differ between tools, and generated IDs are not stable. Review of meaning degrades to trust.",
+    "kind": "consequence",
+    "source_ref": [
+      "srs#243",
+      "srs-rust#1172",
+      "srs-rust#1085",
+      "srs-rust#990"
+    ]
+  },
+  "createdAt": "2026-10-08T17:18:41.475+00:00",
+  "updatedAt": "2026-10-08T17:18:41.475+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

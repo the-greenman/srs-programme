@@ -1,0 +1,28 @@
+{
+  "instanceId": "639f8f3d-c051-4170-8c0c-6395c00d7e99",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-35",
+    "title": "Groups cannot hand over parts of their record",
+    "statement": "A group often needs to give a section of its meaning to someone else, or receive one back, as a self-contained unit. Today a slice or bundle is hard to carry out and harder to bring home with its history.",
+    "kind": "capability",
+    "source_ref": [
+      "muDemocracy.org#115",
+      "muDemocracy.org#116",
+      "muDemocracy.org#117",
+      "muDemocracy.org#49",
+      "muDemocracy.org#244"
+    ]
+  },
+  "createdAt": "2026-10-08T17:15:35.301+00:00",
+  "updatedAt": "2026-10-08T17:15:35.301+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

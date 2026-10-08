@@ -1,0 +1,25 @@
+{
+  "instanceId": "cbd4225d-95cf-40e1-8045-9fbcc5c83b0a",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-32",
+    "title": "Groups cannot leave without losing meaning",
+    "statement": "A group whose knowledge is only usable inside one tool does not own it, however much of it exists. Leaving, or letting another tool read it, costs structure that was never exported.",
+    "kind": "consequence",
+    "source_ref": [
+      "semanticops.com:public/agents/principles.md (Data sovereignty; Portability over possession)"
+    ],
+    "imbalance": "held-too-long"
+  },
+  "createdAt": "2026-10-08T17:15:12.530+00:00",
+  "updatedAt": "2026-10-08T17:15:12.530+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

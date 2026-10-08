@@ -1,0 +1,25 @@
+{
+  "instanceId": "810ae682-3169-4549-862e-58ca9d2c4af3",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-07",
+    "title": "Tools drop what they do not understand",
+    "statement": "A tool that meets a field or extension it has never seen may discard it on save. The owner's meaning shrinks to what the least capable tool could read.",
+    "kind": "condition",
+    "source_ref": [
+      "semanticops.com:public/agents/principles.md (Understand what you can, preserve what you cannot; Migration over drift)"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-08T17:17:00.436+00:00",
+  "updatedAt": "2026-10-08T17:17:00.436+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

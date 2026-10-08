@@ -1,0 +1,18 @@
+{
+  "instanceId": "fd9e1b0d-e2e4-495b-b26c-44a4b306f4ed",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "This is an important issue. We need to be able to transform a record safely."
+  },
+  "createdAt": "2026-10-08T17:18:10.943+00:00",
+  "updatedAt": "2026-10-08T17:18:10.943+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

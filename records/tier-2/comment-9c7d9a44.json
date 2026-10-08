@@ -1,0 +1,18 @@
+{
+  "instanceId": "9c7d9a44-547e-4525-a74e-6838b6f12c3e",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "So a document or editor needs to be able to have an agent instruction library. We connect an agent and can assign a persona from a library. Then the agent instructions can provide more guidance."
+  },
+  "createdAt": "2026-10-08T17:14:06.121+00:00",
+  "updatedAt": "2026-10-08T17:14:06.121+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

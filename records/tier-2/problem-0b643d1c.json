@@ -1,0 +1,25 @@
+{
+  "instanceId": "0b643d1c-0470-4c31-81fb-ef4dc946d925",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-37",
+    "title": "Meaning drifts quietly between revisions",
+    "statement": "A definition can be reworded, reused or migrated until it says something slightly different, and no one sees the moment it changed. The records written against it keep their words but lose their original sense.",
+    "kind": "condition",
+    "source_ref": [
+      "semanticops.com:public/agents/principles.md (Fixed meaning, changing state)"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-08T17:14:28.505+00:00",
+  "updatedAt": "2026-10-08T17:14:28.505+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

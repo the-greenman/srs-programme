@@ -1,0 +1,27 @@
+{
+  "instanceId": "ecdb0e63-8f6c-4b5e-90e0-4c7562f5d7ed",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-45",
+    "title": "Members cannot see the group's purpose",
+    "statement": "People who belong to a group often cannot find its purpose, structure and recent decisions in one readable place. Without it, newcomers and absent members cannot trust or take part in what the group holds.",
+    "kind": "condition",
+    "source_ref": [
+      "muDemocracy.org#73",
+      "muDemocracy.org#74",
+      "muDemocracy.org#95",
+      "srs-web#92"
+    ]
+  },
+  "createdAt": "2026-10-08T17:15:51.159+00:00",
+  "updatedAt": "2026-10-08T17:15:51.159+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

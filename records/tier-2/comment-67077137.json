@@ -1,0 +1,18 @@
+{
+  "instanceId": "67077137-3424-4b8d-9f73-26032ba163b5",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "We have a starting purpose. but no end. Both boundaries are important."
+  },
+  "createdAt": "2026-10-08T17:07:43.424+00:00",
+  "updatedAt": "2026-10-08T17:07:43.424+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

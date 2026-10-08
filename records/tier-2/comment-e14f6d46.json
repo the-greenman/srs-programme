@@ -1,0 +1,18 @@
+{
+  "instanceId": "e14f6d46-3b9e-43c1-b721-1a4cc8c4fdc5",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "So I need a way to allow signal that feeback is being looked for - or not"
+  },
+  "createdAt": "2026-10-08T17:04:48.782+00:00",
+  "updatedAt": "2026-10-08T17:04:48.782+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

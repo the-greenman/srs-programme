@@ -1,0 +1,27 @@
+{
+  "instanceId": "1201b618-4453-46e3-8738-1da51a21c6de",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-08",
+    "title": "Agents imitate file shape instead of meaning",
+    "statement": "Agents copy what neighbouring files look like without performing the semantic acts (containment, ordering, declared exclusion), producing records that exist but participate in nothing. Guidance at the point of writing is blocked by rules that treat any stray file as fatal.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-rust#856",
+      "srs#417",
+      "srs#818",
+      "srs#819"
+    ]
+  },
+  "createdAt": "2026-10-08T17:17:15.290+00:00",
+  "updatedAt": "2026-10-08T17:17:15.290+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

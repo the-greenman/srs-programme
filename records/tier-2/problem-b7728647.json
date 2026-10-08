@@ -1,0 +1,36 @@
+{
+  "instanceId": "b7728647-8547-4b39-ad72-280848e4221b",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-34",
+    "title": "Copies cannot be reconciled with their origin",
+    "statement": "A group can take its repository away and keep working, but there is no agreed way to identify a copy, compare it semantically, or merge divergent edits without silent overwrites. Portability stops at export. Work done away from the source is therefore either lost or merged by hand.",
+    "kind": "capability",
+    "source_ref": [
+      "srs#387",
+      "srs#388",
+      "srs#385",
+      "srs#386",
+      "srs#376",
+      "srs-rust#403",
+      "muDemocracy.org#62",
+      "muDemocracy.org#63",
+      "muDemocracy.org#65",
+      "muDemocracy.org#94",
+      "muDemocracy.org#116",
+      "srs-web#251"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-08T17:15:26.712+00:00",
+  "updatedAt": "2026-10-08T17:15:26.712+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

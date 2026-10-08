@@ -1,0 +1,28 @@
+{
+  "instanceId": "bdb572de-98c2-4d8d-accf-29c3750fce57",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-39",
+    "title": "Upgrades risk losing a group's data",
+    "statement": "When the shared definitions a group relies on move on, the group cannot see what has changed or whether an upgrade will keep its earlier records intact. Without that signal a repository silently stays out of date, or is changed in ways its owners did not choose.",
+    "kind": "consequence",
+    "source_ref": [
+      "muDemocracy.org#37",
+      "muDemocracy.org#109",
+      "srs-web#190",
+      "srs-vscode#74",
+      "muDemocracy.org#295"
+    ]
+  },
+  "createdAt": "2026-10-08T17:14:49.403+00:00",
+  "updatedAt": "2026-10-08T17:14:49.403+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

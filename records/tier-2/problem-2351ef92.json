@@ -1,0 +1,35 @@
+{
+  "instanceId": "2351ef92-f212-4d87-98a6-9405af603606",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-43",
+    "title": "Stated principles have no enforcement point",
+    "statement": "A group can state principles and rules in prose that nothing checks, so the rule is asserted rather than held. Owners cannot tell which of their commitments are actually kept over time. Decisions and principles live as loose issues and prose rather than records the group can own and query, yet the tool must not become the decider.",
+    "kind": "condition",
+    "source_ref": [
+      "muDemocracy.org#138",
+      "muDemocracy.org#136",
+      "muDemocracy.org#137",
+      "muDemocracy.org#90",
+      "srs#318",
+      "srs#325",
+      "srs#327",
+      "srs#332",
+      "srs#397",
+      "srs#324",
+      "srs#323",
+      "srs#333"
+    ]
+  },
+  "createdAt": "2026-10-08T17:16:36.298+00:00",
+  "updatedAt": "2026-10-08T17:16:36.298+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,27 @@
+{
+  "instanceId": "9da3e224-6742-4dcc-9b69-762a7e2b895f",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-44",
+    "title": "A group's wording drifts from its foundations",
+    "statement": "Public copy and documents are written separately from the statements a group says it stands for, so nobody can trace a line back to a foundation or notice when they diverge.",
+    "kind": "condition",
+    "source_ref": [
+      "muDemocracy.org#84",
+      "muDemocracy.org#85",
+      "muDemocracy.org#86",
+      "muDemocracy.org#90"
+    ]
+  },
+  "createdAt": "2026-10-08T17:16:43.768+00:00",
+  "updatedAt": "2026-10-08T17:16:43.768+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,26 @@
+{
+  "instanceId": "11cb3832-0f6d-4a62-be6d-c641335f28cd",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-04",
+    "title": "Standards grow faster than they can be held",
+    "statement": "A specification that keeps adding mechanisms for the same goal drifts into parallel ways to do one thing, and its own authors lose track of which is current. Slow, observed stability is traded away for each new capability.",
+    "kind": "shift",
+    "source_ref": [
+      "semanticops.com:public/agents/principles.md (One way over many)",
+      "srs/docs/charter/decision-compass.md"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-08T17:19:33.207+00:00",
+  "updatedAt": "2026-10-08T17:19:33.207+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

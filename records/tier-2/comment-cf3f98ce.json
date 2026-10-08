@@ -1,0 +1,18 @@
+{
+  "instanceId": "cf3f98ce-b9d4-427a-8b9b-c43666dfa7f7",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "We need to make the act of writing to a shared paragraph explicit. And it needs to be very clear when a paragraph is in use anywhere else. \nDo we need to be able to identify the original location of that paragraph - a master location - that only allows it to be edited in that context?"
+  },
+  "createdAt": "2026-10-08T17:09:30.948+00:00",
+  "updatedAt": "2026-10-08T17:09:30.948+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

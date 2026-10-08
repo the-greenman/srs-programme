@@ -1,0 +1,18 @@
+{
+  "instanceId": "3a142640-1dab-4675-b865-b6a446f3cb11",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "This is less important. We can probably refine our audience to a writer who wants to build in this way. This is structured writing where each piece is controlled and evidenced. Our audience is self selecting"
+  },
+  "createdAt": "2026-10-08T17:11:17.695+00:00",
+  "updatedAt": "2026-10-08T17:11:17.695+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

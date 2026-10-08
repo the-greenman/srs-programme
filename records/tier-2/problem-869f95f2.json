@@ -1,0 +1,25 @@
+{
+  "instanceId": "869f95f2-8a46-4637-b30e-83ff60e8dd4b",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-19",
+    "title": "Writers see structure agents need, not their own",
+    "statement": "Paragraphs, arrangement trees, relation types and containers are the model, and the writer is asked to think in drag handles and layers. Whether writers think of an argument as a tree of blocks is assumed, not observed.",
+    "kind": "belief",
+    "source_ref": [
+      "semanticops.com#15",
+      "semanticops.com#29"
+    ]
+  },
+  "createdAt": "2026-10-08T17:11:19.887+00:00",
+  "updatedAt": "2026-10-08T17:11:19.887+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

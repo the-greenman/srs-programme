@@ -1,0 +1,25 @@
+{
+  "instanceId": "7d094006-5380-4ff3-9f6e-4d64333b107c",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-15",
+    "title": "Writers cannot trust agent help without authoring",
+    "statement": "A rule that agents never write the text keeps the writer in charge, but it also assumes the writer wants comments rather than drafts. Some writers will want an agent to draft, rewrite or merge, and a tool that only permits commentary pushes that work back into copy and paste outside the record.",
+    "kind": "belief",
+    "source_ref": [
+      "semanticops.com#29",
+      "semanticops.com#16"
+    ]
+  },
+  "createdAt": "2026-10-08T17:12:57.259+00:00",
+  "updatedAt": "2026-10-08T17:12:57.259+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

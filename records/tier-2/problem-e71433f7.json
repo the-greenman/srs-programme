@@ -1,0 +1,25 @@
+{
+  "instanceId": "e71433f7-7d5b-4dd6-9217-913952b0e035",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-10",
+    "title": "Unattributed claims are taken as fact",
+    "statement": "A statement with no stated origin is read as if it were settled, or assumed to come from someone it did not. Readers, human or AI, cannot weigh a claim they cannot trace.",
+    "kind": "condition",
+    "source_ref": [
+      "semanticops.com:public/agents/principles.md (Stated over assumed)"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-08T17:17:29.015+00:00",
+  "updatedAt": "2026-10-08T17:17:29.015+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "local:c6694a24-2abb-4e6d-813a-907bc2644c2d",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
