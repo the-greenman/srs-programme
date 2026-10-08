@@ -8,7 +8,8 @@ SRS: periods rank objectives, epics serve objectives, and priority is derived fr
 an epic's `issue_ref` points at the tracker, rather than restating it. Design: srs-programme#15.
 
 - **To reprioritise, edit the active period's `objective_rank`** (`record update`). Never set board
-  Priority by hand; `node scripts/roadmap.mjs --apply` is the one writer.
+  Priority by hand; `node scripts/roadmap.mjs --apply` is the one writer, run by
+  `.github/workflows/derive-priority.yml` on every push to master and daily (`BOARD_TOKEN` secret).
 - `node scripts/roadmap.mjs --json | --explain <repo#n> | --apply [--yes]` derives and applies.
 - The spec-rework programme's units, findings, carried context, phases, Protocol and Blueprint
   are **frozen history**: no further lifecycle sync, no new ones. New lessons go to srs-context.
@@ -65,5 +66,6 @@ never merges. Mode chaotic stops.
 
 All commits are SSH-signed — `ssh-add -l | grep -q
 "SHA256:vHuO6si5w3RLL4IJZofWbyvEi42WA2fYX7bM"` before committing, plain `git
-commit`, never `--no-gpg-sign`. the-greenman/srs#580 is the queue and the
-rulings not to relitigate: read it before starting any unit.
+commit`, never `--no-gpg-sign`. The queue is this roadmap (`scripts/roadmap.mjs --json`,
+https://the-greenman.github.io/srs-programme/); spec work is epic semanticops.com#27 with
+the-greenman/srs#580 as its queue.
