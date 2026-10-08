@@ -1,0 +1,28 @@
+{
+  "instanceId": "d199abac-12b5-41c9-84cd-3ca1b9b485cb",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-22",
+    "title": "Orientation cost crowds out the work",
+    "statement": "An agent starting cold spends a large share of its budget just learning what constrains its change: a fixed tool-list cost, then heavy reads of well-connected records. When orientation costs this much, the agent skips it or works from a partial picture. The deeper gap may be that context is not shaped for a newcomer.",
+    "kind": "consequence",
+    "source_ref": [
+      "semanticops.com#25",
+      "srs-context:MCP tools/list is ~10.5k tokens (33 tools)",
+      "srs-context:context read inlines whole neighbour records: ~6.5k (CLI) / ~9k (MCP) tokens",
+      "srs-context:An MCP find page of 10 hits costs ~2.4k tokens",
+      "semanticops.com#20"
+    ]
+  },
+  "createdAt": "2026-10-08T16:27:21.422+00:00",
+  "updatedAt": "2026-10-08T16:27:21.422+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

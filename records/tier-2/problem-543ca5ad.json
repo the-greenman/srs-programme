@@ -1,0 +1,28 @@
+{
+  "instanceId": "543ca5ad-3cea-4c3e-9ebb-01b4e537c68a",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-31",
+    "title": "Agents lack a group's rules of engagement",
+    "statement": "An AI agent given a group's records cannot tell from the records alone what it may read or change, or carry that context to another project. Groups cannot show what their agents know.",
+    "kind": "condition",
+    "source_ref": [
+      "muDemocracy.org#72",
+      "muDemocracy.org#71",
+      "muDemocracy.org#291",
+      "muDemocracy.org#292",
+      "muDemocracy.org#128"
+    ]
+  },
+  "createdAt": "2026-10-08T16:29:19.532+00:00",
+  "updatedAt": "2026-10-08T16:29:19.532+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

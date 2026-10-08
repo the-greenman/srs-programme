@@ -1,0 +1,24 @@
+{
+  "instanceId": "6acab58a-2413-4901-a073-697c9ec2d2ca",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-30",
+    "title": "Several writers can overwrite each other",
+    "statement": "A writer that knows only its own part of a shared grouping can replace the rest wholesale while validation stays green. Agent memory shared by more than one writer loses entries without any signal.",
+    "kind": "consequence",
+    "source_ref": [
+      "srs-context:container update replaces membership wholesale"
+    ]
+  },
+  "createdAt": "2026-10-08T16:29:07.644+00:00",
+  "updatedAt": "2026-10-08T16:29:07.644+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

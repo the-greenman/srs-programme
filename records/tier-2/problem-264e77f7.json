@@ -1,0 +1,26 @@
+{
+  "instanceId": "264e77f7-a9a0-4c40-bd5f-e89e72eeab4f",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-27",
+    "title": "Errors point agents the wrong way",
+    "statement": "When a create call fails, the message can describe a cause that is not the real one, leaving the agent unable to tell what input is allowed. Inconsistent create contracts across entity kinds add to the guessing.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-context:record create: misleading error when instanceId is supplied",
+      "srs-context:view/composition create require $schema; field/type create do not",
+      "srs-rust#1292"
+    ]
+  },
+  "createdAt": "2026-10-08T16:29:42.643+00:00",
+  "updatedAt": "2026-10-08T16:29:42.643+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
