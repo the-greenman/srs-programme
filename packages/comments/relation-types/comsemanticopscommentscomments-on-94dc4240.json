@@ -1,0 +1,13 @@
+{
+  "id": "94dc4240-84d2-49c2-863a-6af431cd3fcb",
+  "version": 1,
+  "key": "com.semanticops.comments/comments-on",
+  "namespace": "com.semanticops.comments",
+  "label": "comments on",
+  "description": "Comment comments on any record (comment -> target).",
+  "category": "association",
+  "createdAt": "2026-10-08T15:16:01.452332087+00:00",
+  "canonicalDirection": "Comment comments on Target",
+  "irreflexive": true,
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json"
+}

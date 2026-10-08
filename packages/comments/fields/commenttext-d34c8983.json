@@ -1,0 +1,17 @@
+{
+  "id": "d34c8983-3b82-49b0-ac59-acd7ead5180a",
+  "namespace": "com.semanticops.comments",
+  "name": "comment_text",
+  "version": 1,
+  "description": "The text of a comment on a record.",
+  "aiGuidance": {
+    "purpose": "Plain markdown text of one comment, and the comment identity (its label is the start of this text). Humans and agents may write comments. Create the comment as a record, then relate it comments-on (comment to the record it addresses). A comment never edits its target. Authorship is the engine-stamped createdBy (RFC-046); never write an author here."
+  },
+  "fieldType": {
+    "datatype": "string",
+    "cardinality": "single",
+    "format": "markdown"
+  },
+  "editorHint": "textarea",
+  "createdAt": "2026-10-08T15:16:01.308941412+00:00"
+}

@@ -15,6 +15,8 @@ an epic's `issue_ref` points at the tracker, rather than restating it. Design: s
   are **frozen history**: no further lifecycle sync, no new ones. New lessons go to srs-context.
 - The v12 strategy roadmap (boundaries, stages, contracts, assessments) is kept as frozen records.
 
+Comments use `com.semanticops.comments` (`packages/comments`, export in `packages/comments/dist`): agents comment on records (`record create` comment + relation `com.semanticops.comments/comments-on`) and never edit records in Affirmed.
+
 ## Suggestions and the human layer
 
 The `com.semanticops.method` package (problems, clusters, personas, remedies; own package under
