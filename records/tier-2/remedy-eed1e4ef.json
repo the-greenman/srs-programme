@@ -1,0 +1,26 @@
+{
+  "instanceId": "eed1e4ef-798b-4968-b346-f28dfa9388c7",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Execute each ruling in every layer it names",
+    "move": "When a ruling is ratified, file one tracked issue per layer it changes (spec, schema, Rust, each client) and keep the ruling open until each is merged or explicitly waived.",
+    "does_not_fix": "Rulings that are themselves wrong; deciding which rulings to make.",
+    "falsifier": "A ratified ruling older than 30 days with a named layer that has neither a merged change nor an open tracked issue.",
+    "source_ref": [
+      "srs-programme:source-documents/archaeology-2026-10-08/B-decisions.md",
+      "srs-programme:source-documents/archaeology-2026-10-08/R-reconciled.md"
+    ],
+    "return_when": "At the next archaeology pass, or when a ruling is found executed in only some layers."
+  },
+  "createdAt": "2026-10-08T22:00:45.036078098+00:00",
+  "updatedAt": "2026-10-08T22:00:45.036079624+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Pete"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
