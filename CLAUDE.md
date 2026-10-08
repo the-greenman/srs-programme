@@ -30,6 +30,7 @@ The `com.semanticops.method` package (problems, clusters, personas, remedies; ow
   `createdBy` the human; the agent's original stays as testimony. Agents never write into Affirmed.
 - Consumers (`roadmap.mjs` derivation and `--explain`, any Direction page) read **Affirmed only**.
 - Dialogue between a human and an agent about a problem definition happens in comments.
+- **Set aside** is the owner's reversible no: moving a suggestion there declines it; Restore moves it back. Agents never write into Affirmed or Set aside.
 - Both containers have several writers: `container members add/remove`, never `container update`.
 
 Precedence is repository governance (this file and `roadmap.mjs`), not a tool rule.

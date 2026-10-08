@@ -1,0 +1,14 @@
+{
+  "containerId": "17006e00-6a2c-44ff-8565-047b57fb00da",
+  "title": "Set aside",
+  "namespace": "com.semanticops.programme",
+  "name": "set-aside",
+  "description": "Suggestions the owner has declined for now; reversible (Restore moves one back). Agents never write here. Several writers: use container members add, never update.",
+  "identityInstanceId": "4f6efcb4-a01f-44f0-b9c4-f89f66354bd6",
+  "anchorInstanceId": "4f6efcb4-a01f-44f0-b9c4-f89f66354bd6",
+  "memberInstanceIds": [
+    {
+      "instanceId": "4f6efcb4-a01f-44f0-b9c4-f89f66354bd6"
+    }
+  ]
+}
