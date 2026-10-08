@@ -1,0 +1,45 @@
+name: Pages
+
+# Publishes the roadmap visualiser. roadmap.json is generated here from the
+# SRS records with the same pinned CLI as validate.yml; it is never committed.
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+env:
+  # Keep in step with validate.yml (declared there once; advance both together).
+  SRS_RUST_CLI_TAG: v0.1.0-build.497
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build roadmap.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          export $(node scripts/fetch-pinned-srs.mjs)
+          node scripts/roadmap.mjs --json > roadmap/roadmap.json
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: roadmap
+      - id: deployment
+        uses: actions/deploy-pages@v4
