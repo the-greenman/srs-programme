@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "174a9901-6ba4-4c19-8d50-26f610d00d9c",
+  "relationType": "com.semanticops.method/answers",
+  "sourceInstanceId": "8cbb562f-86ef-41e0-a0bd-8bd40b2e1cf9",
+  "targetInstanceId": "832ffb96-2c99-41f3-a9d6-d4a9cfc30b71",
+  "createdAt": "2026-10-08T20:42:59.459373865+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:linker",
+    "name": "Linker"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "instanceId": "8cbb562f-86ef-41e0-a0bd-8bd40b2e1cf9",
+  "typeId": "c2ec9c8a-b36b-4b19-940f-374b338e30a6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "epic",
+  "fieldValues": {
+    "title": "Third-party ready: the reference implementation honours its rulings and its spec",
+    "summary": "Unattended lane: fixes where the implementation contradicts a ruling or the spec. Pilot of the problem → work pipeline.",
+    "issue_ref": [
+      "semanticops.com#31"
+    ]
+  },
+  "createdAt": "2026-10-08T20:42:54.115348802+00:00",
+  "updatedAt": "2026-10-08T20:42:54.115352860+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:linker",
+    "name": "Linker"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
