@@ -1,0 +1,18 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "id": "25edcd17-60e1-4056-82ab-8c1c183166ba",
+  "namespace": "com.semanticops.programme",
+  "name": "ends_on",
+  "version": 1,
+  "description": "Last day of a period, inclusive.",
+  "aiGuidance": {
+    "purpose": "Closes the window opened by starts_on.",
+    "extraction": "ISO date YYYY-MM-DD, on or after starts_on.",
+    "negativeGuidance": "Not an exclusive bound: the period still covers this day."
+  },
+  "fieldType": {
+    "datatype": "date",
+    "cardinality": "single"
+  },
+  "createdAt": "2026-10-08T09:59:51.787Z"
+}

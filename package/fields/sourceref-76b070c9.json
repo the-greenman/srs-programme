@@ -1,0 +1,20 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "id": "76b070c9-4918-4645-b73e-329931a58271",
+  "namespace": "com.semanticops.programme",
+  "name": "source_ref",
+  "version": 1,
+  "description": "Where this record's wording or evidence comes from.",
+  "aiGuidance": {
+    "purpose": "Points an objective or stakeholder back to the plan, file or issue that states it, so the record is a reader's index and not a second copy.",
+    "extraction": "One entry per source: a repo-relative path with its repo (muDemocracy.org/plans/roadmap-2026Q4-2027Q3.md) or an issue in repo#number form.",
+    "negativeGuidance": "Do not paste the source's text here; summary and body carry prose."
+  },
+  "fieldType": {
+    "datatype": "string",
+    "cardinality": "list",
+    "format": "plain"
+  },
+  "editorHint": "singleline",
+  "createdAt": "2026-10-08T09:59:51.787Z"
+}

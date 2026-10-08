@@ -1,0 +1,42 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "id": "e5c178de-9113-4074-a81f-a112857bfb76",
+  "namespace": "com.semanticops.programme",
+  "name": "capability_stage",
+  "version": 1,
+  "description": "A v12 capability-pipeline stage (for example G1 Simple decision log).",
+  "fields": [
+    {
+      "fieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "8dff2842-d063-4c52-b095-b133c729978d",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "7f4e152c-be50-4710-acb1-392fd1c20f08",
+      "order": 2,
+      "required": false
+    },
+    {
+      "fieldId": "c510b202-57f6-4be7-9537-44819c7c3aa2",
+      "order": 3,
+      "required": false
+    },
+    {
+      "fieldId": "f97d5f6f-ba89-4daf-8c2d-661cf3553517",
+      "order": 4,
+      "required": false
+    }
+  ],
+  "identityFieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
+  "aiGuidance": {
+    "purpose": "Frozen history from the v12 strategy roadmap: one stage of a capability path.",
+    "extraction": "Summary is the promise; body is markdown for group need, additions, exclusions and trigger; issue_ref holds the execution anchors.",
+    "negativeGuidance": "Not a release plan or an issue hierarchy."
+  },
+  "createdAt": "2026-10-08T09:59:51.787Z"
+}

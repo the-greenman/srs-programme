@@ -1,0 +1,26 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "id": "1614494a-db1f-41cd-8930-512b3f2cdbe3",
+  "namespace": "com.semanticops.programme",
+  "name": "reality_state",
+  "version": 1,
+  "description": "How much of an assessed capability exists today.",
+  "aiGuidance": {
+    "purpose": "States, as at the assessment date, whether the thing assessed is proven, partly built, only planned or a prototype.",
+    "extraction": "Choose from the evidence cited in the body; when unsure take the weaker state.",
+    "negativeGuidance": "Not a forecast and not a priority."
+  },
+  "fieldType": {
+    "datatype": "string",
+    "cardinality": "single",
+    "valueDomain": "closed",
+    "allowedValues": [
+      "proven",
+      "partial",
+      "planned",
+      "prototype"
+    ]
+  },
+  "editorHint": "dropdown",
+  "createdAt": "2026-10-08T09:59:51.787Z"
+}

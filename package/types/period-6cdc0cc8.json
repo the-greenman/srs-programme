@@ -1,0 +1,42 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "id": "6cdc0cc8-e551-461d-9d49-c32286f00e5c",
+  "namespace": "com.semanticops.programme",
+  "name": "period",
+  "version": 1,
+  "description": "A dated window with its own ranking of objectives.",
+  "fields": [
+    {
+      "fieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "2102f151-26c8-46d4-8a5e-fefd16284d7d",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "25edcd17-60e1-4056-82ab-8c1c183166ba",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "330bd423-7045-4bd7-8a8c-4d8212383f46",
+      "order": 3,
+      "required": false
+    },
+    {
+      "fieldId": "7f4e152c-be50-4710-acb1-392fd1c20f08",
+      "order": 4,
+      "required": false
+    }
+  ],
+  "identityFieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
+  "aiGuidance": {
+    "purpose": "The unit the owner ranks. Exactly one period covers any given day; its objective_rank drives derived priority.",
+    "extraction": "One per quarter the owner has ranked. Do not create a period for a quarter that is not yet ranked.",
+    "negativeGuidance": "Not the old programme wave (phase)."
+  },
+  "createdAt": "2026-10-08T09:59:51.787Z"
+}

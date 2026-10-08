@@ -1,0 +1,47 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "id": "83459606-c8a3-46bc-81dd-8d2677fc92d6",
+  "namespace": "com.semanticops.programme",
+  "name": "assessment",
+  "version": 1,
+  "description": "A v12 dated assessment of a boundary, stage or contract.",
+  "fields": [
+    {
+      "fieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "8dff2842-d063-4c52-b095-b133c729978d",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "1614494a-db1f-41cd-8930-512b3f2cdbe3",
+      "order": 2,
+      "required": false
+    },
+    {
+      "fieldId": "7f4e152c-be50-4710-acb1-392fd1c20f08",
+      "order": 3,
+      "required": false
+    },
+    {
+      "fieldId": "c510b202-57f6-4be7-9537-44819c7c3aa2",
+      "order": 4,
+      "required": false
+    },
+    {
+      "fieldId": "c650c570-c08d-4be6-9903-883e77e0fe2c",
+      "order": 5,
+      "required": false
+    }
+  ],
+  "identityFieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
+  "aiGuidance": {
+    "purpose": "Frozen history from the v12 strategy roadmap: what existed and what was missing at the assessment date.",
+    "extraction": "Body is markdown stating what exists, what is missing, and the assessed and review-by dates; evidence lists one citation per entry.",
+    "negativeGuidance": "Not a current status; it is a dated snapshot."
+  },
+  "createdAt": "2026-10-08T09:59:51.787Z"
+}

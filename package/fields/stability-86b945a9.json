@@ -1,0 +1,27 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "id": "86b945a9-8287-4d53-ba51-8af4ce40eabb",
+  "namespace": "com.semanticops.programme",
+  "name": "stability",
+  "version": 1,
+  "description": "How settled a strategy contract must be and when.",
+  "aiGuidance": {
+    "purpose": "Orders the v12 contracts by when they must stop moving relative to the F1-F3 boundaries.",
+    "extraction": "Pick the value the v12 source states; use deferred when no boundary needs the contract yet.",
+    "negativeGuidance": "Not a lifecycle state and not a priority; priority derives from objective rank."
+  },
+  "fieldType": {
+    "datatype": "string",
+    "cardinality": "single",
+    "valueDomain": "closed",
+    "allowedValues": [
+      "lock-before-f1",
+      "settle-before-f2",
+      "settle-before-f3",
+      "extension",
+      "deferred"
+    ]
+  },
+  "editorHint": "dropdown",
+  "createdAt": "2026-10-08T09:59:51.787Z"
+}

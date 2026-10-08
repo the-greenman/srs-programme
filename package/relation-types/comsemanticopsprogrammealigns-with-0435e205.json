@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "id": "0435e205-bae4-458b-945b-72796fad04ab",
+  "version": 1,
+  "key": "com.semanticops.programme/aligns-with",
+  "namespace": "com.semanticops.programme",
+  "label": "Aligns with",
+  "description": "Source stage aligns with target boundary.",
+  "category": "association",
+  "createdAt": "2026-10-08T09:59:51.787Z",
+  "canonicalDirection": "source is the capability stage; target is the boundary it aligns with",
+  "status": "active"
+}

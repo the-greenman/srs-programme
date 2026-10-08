@@ -1,0 +1,20 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "id": "8dff2842-d063-4c52-b095-b133c729978d",
+  "namespace": "com.semanticops.programme",
+  "name": "strategy_key",
+  "version": 1,
+  "description": "Stable readable key a record carried in the frozen v12 strategy roadmap.",
+  "aiGuidance": {
+    "purpose": "Keeps the v12 roadmap's readable keys (F1, G3, semantic-kernel, f1-model) findable after migration, since record create mints new instanceIds.",
+    "extraction": "Copy the key verbatim from the v12 source (the `id` property). Never invent one for new records.",
+    "negativeGuidance": "Not an identity: the instanceId is. Do not put a title or sentence here."
+  },
+  "fieldType": {
+    "datatype": "string",
+    "cardinality": "single",
+    "format": "plain"
+  },
+  "editorHint": "singleline",
+  "createdAt": "2026-10-08T09:59:51.787Z"
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "id": "0ac79ff2-90e3-4bfb-b9f8-0e7737fe8e77",
+  "version": 1,
+  "key": "com.semanticops.programme/requires-contract",
+  "namespace": "com.semanticops.programme",
+  "label": "Requires contract",
+  "description": "Source boundary or stage relies on target strategy contract.",
+  "category": "dependency",
+  "createdAt": "2026-10-08T09:59:51.787Z",
+  "canonicalDirection": "source is the boundary or stage; target is the contract it requires",
+  "status": "active"
+}
