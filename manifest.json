@@ -29,7 +29,7 @@
   },
   "$schema": "https://srs.semanticops.com/schema/2.0/manifest.json",
   "createdAt": "2026-09-05T21:46:21.025288400+00:00",
-  "dataModelRevision": 8,
+  "dataModelRevision": 9,
   "namespace": "com.semanticops.programme",
   "repositoryId": "fb8429db-ee67-4439-9656-0f36f17ab98b",
   "srsVersion": "2.0-draft",
