@@ -1,0 +1,18 @@
+{
+  "instanceId": "4f6efcb4-a01f-44f0-b9c4-f89f66354bd6",
+  "typeId": "3c000001-0000-4000-a000-000000000001",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.core",
+  "typeName": "purpose",
+  "fieldValues": {
+    "statement": "Set aside: suggestions the owner has declined for now; reversible. Moving a suggestion here declines it; Restore moves it back. Agents never write here.",
+    "title": "Set aside"
+  },
+  "createdAt": "2026-10-08T15:38:43.258158149+00:00",
+  "updatedAt": "2026-10-08T15:38:43.258165565+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
