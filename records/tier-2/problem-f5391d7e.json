@@ -1,0 +1,30 @@
+{
+  "instanceId": "f5391d7e-58b1-409b-9041-c72a7dc58687",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-33",
+    "title": "A group's meaning depends on one host",
+    "statement": "Where a group keeps its records is often tied to a single hosting provider or sign-in, and sign-ins lapse mid-work. A group that wants to choose, or move between, hosts cannot rely on its meaning staying reachable.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-web#153",
+      "srs-web#247",
+      "srs-web#254",
+      "srs-web#342",
+      "muDemocracy.org#103",
+      "muDemocracy.org#104",
+      "muDemocracy.org#100"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:41.051687956+00:00",
+  "updatedAt": "2026-10-08T14:02:41.051689511+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:steward",
+    "name": "Steward scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

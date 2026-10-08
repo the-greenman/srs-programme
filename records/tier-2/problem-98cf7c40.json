@@ -1,0 +1,28 @@
+{
+  "instanceId": "98cf7c40-835f-44e2-b6b2-65e3978d0baf",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-46",
+    "title": "Arrangement changes can alter meaning",
+    "statement": "Reordering and presenting a group's records by hand risks being mistaken for, or silently changing, what they mean. Groups need to arrange their material without altering what it states.",
+    "kind": "belief",
+    "source_ref": [
+      "muDemocracy.org#75",
+      "srs-web#40",
+      "srs-web#122",
+      "srs-vscode#45",
+      "srs-web#219"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:45.032116778+00:00",
+  "updatedAt": "2026-10-08T14:02:45.032118588+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:steward",
+    "name": "Steward scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

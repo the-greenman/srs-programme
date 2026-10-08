@@ -1,0 +1,26 @@
+{
+  "instanceId": "bf1a0ad4-6aa5-4be2-aea2-76a82b7591bd",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-28",
+    "title": "Agents cannot tell which build they use",
+    "statement": "Every build reports the same version, a mounted server keeps an old build until the session restarts, and stale sibling checkouts pass locally then fail in CI. The agent's picture of what the tools can do silently disagrees with the tools.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-context:`srs --version` cannot identify the build",
+      "srs-context:A mounted MCP server keeps the old srs binary until the session restarts",
+      "srs-context:Stale sibling checkouts give false greens"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:39.370184184+00:00",
+  "updatedAt": "2026-10-08T14:02:39.370186151+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:analyst",
+    "name": "Analyst scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

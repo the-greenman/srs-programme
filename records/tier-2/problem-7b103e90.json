@@ -1,0 +1,38 @@
+{
+  "instanceId": "7b103e90-dbf8-4812-8527-da6ac39f47c6",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-36",
+    "title": "Shared definitions cannot be published and installed",
+    "statement": "A group that builds useful definitions has no settled way to publish them for others, and another group has no safe way to install, upgrade or depend on them. Reuse between groups relies on copying. Where definitions do travel, it is unclear what a bundle must carry or declare, so an install can succeed while required definitions are missing.",
+    "kind": "capability",
+    "source_ref": [
+      "muDemocracy.org#293",
+      "muDemocracy.org#294",
+      "muDemocracy.org#296",
+      "muDemocracy.org#243",
+      "muDemocracy.org#114",
+      "srs-web#355",
+      "srs#875",
+      "srs#876",
+      "srs#871",
+      "srs#373",
+      "srs#374",
+      "srs-rust#1111",
+      "srs-rust#1207",
+      "srs-rust#1173",
+      "srs-rust#1209"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:41.837791524+00:00",
+  "updatedAt": "2026-10-08T14:02:41.837799714+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:steward",
+    "name": "Steward scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,19 @@
+{
+  "instanceId": "682d496d-3563-46fb-951d-d35875b164b3",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Seeing and arranging the group's meaning",
+    "description": "Members cannot find the group's purpose in one place, and arranging or grouping material risks changing what it says."
+  },
+  "createdAt": "2026-10-08T14:02:44.630994327+00:00",
+  "updatedAt": "2026-10-08T14:02:44.630996193+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:synthesizer",
+    "name": "Synthesizer"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,25 @@
+{
+  "instanceId": "047e7796-9848-4439-aedb-8c916de499f4",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-14",
+    "title": "Agents do not know where the writer is looking",
+    "statement": "The writer works on one paragraph while an agent reads another, and an agent can only learn the writer's focus by polling a session. Help arrives about the wrong thing at the wrong time.",
+    "kind": "capability",
+    "source_ref": [
+      "semanticops.com#24",
+      "semanticops.com#16"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:34.952031782+00:00",
+  "updatedAt": "2026-10-08T14:02:34.952035567+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:rebel",
+    "name": "Rebel scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,25 @@
+{
+  "instanceId": "7e2d5842-c839-4ec7-b691-b08b6ae6282d",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-16",
+    "title": "Agent roles are improvised, not designed",
+    "statement": "Several agents on one document are told what to do in their own separate sessions, and nothing shared says what each is for. The writer cannot see which agent is meant to challenge, support or summarise, so differences in agent behaviour look like noise.",
+    "kind": "condition",
+    "source_ref": [
+      "semanticops.com#14",
+      "semanticops.com#29"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:35.597278250+00:00",
+  "updatedAt": "2026-10-08T14:02:35.597286531+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:rebel",
+    "name": "Rebel scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

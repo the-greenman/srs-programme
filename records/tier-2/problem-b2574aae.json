@@ -1,0 +1,35 @@
+{
+  "instanceId": "b2574aae-28ab-4ab2-9366-87edbf48e0c3",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-26",
+    "title": "Tool surfaces are uneven across CLI, MCP and WASM",
+    "statement": "A capability that exists in one surface (CLI, MCP, WASM bindings) is often missing in another, forcing agents and clients to fall back or reimplement it. Names for the same concept also differ between surfaces.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-rust#994",
+      "srs-rust#992",
+      "srs-rust#1153",
+      "srs-rust#1307",
+      "srs-rust#1084",
+      "srs-rust#1148",
+      "srs-rust#345",
+      "srs-rust#1147",
+      "srs-rust#1291",
+      "srs-context:MCP surface lacks note update/list/delete and record delete",
+      "srs-context:Same find axis, different names: CLI --text vs MCP contentMatch",
+      "srs-rust#1308"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:38.876674561+00:00",
+  "updatedAt": "2026-10-08T14:02:38.876678722+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:challenger",
+    "name": "Challenger scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

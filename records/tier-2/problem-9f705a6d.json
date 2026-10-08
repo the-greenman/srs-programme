@@ -1,0 +1,27 @@
+{
+  "instanceId": "9f705a6d-7a24-44ed-bdf8-c335b9075b02",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-11",
+    "title": "A record's type cannot change without losing identity",
+    "statement": "What a record is can only change by creating a successor with a new id, and there is no supported way to do it. People who realise mid-life that a record was the wrong kind must either live with it or break references.",
+    "kind": "capability",
+    "source_ref": [
+      "srs#322",
+      "srs#178",
+      "srs-rust#1115",
+      "srs-rust#990"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:34.058759783+00:00",
+  "updatedAt": "2026-10-08T14:02:34.058761291+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:challenger",
+    "name": "Challenger scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

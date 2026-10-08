@@ -1,0 +1,28 @@
+{
+  "instanceId": "24fffa39-60ad-4ee6-a431-6a293bd7a13d",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-31",
+    "title": "Agents lack a group's rules of engagement",
+    "statement": "An AI agent given a group's records cannot tell from the records alone what it may read or change, or carry that context to another project. Groups cannot show what their agents know.",
+    "kind": "condition",
+    "source_ref": [
+      "muDemocracy.org#72",
+      "muDemocracy.org#71",
+      "muDemocracy.org#291",
+      "muDemocracy.org#292",
+      "muDemocracy.org#128"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:40.295339786+00:00",
+  "updatedAt": "2026-10-08T14:02:40.295341438+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:steward",
+    "name": "Steward scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

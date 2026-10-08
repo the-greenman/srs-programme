@@ -1,0 +1,31 @@
+{
+  "instanceId": "d2c8e6ad-e1dc-410b-b8bb-362a245914f0",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-38",
+    "title": "Replaced decisions leave no readable history",
+    "statement": "When a belief is edited in place, the group loses what it used to think and why it changed. A later reader cannot tell a correction from a reversal.",
+    "kind": "consequence",
+    "source_ref": [
+      "semanticops.com:public/agents/principles.md (Successor over overwrite; Increment over edit)",
+      "muDemocracy.org#58",
+      "muDemocracy.org#57",
+      "muDemocracy.org#67",
+      "srs-web#407",
+      "srs-web#167",
+      "srs-web#95"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-08T14:02:42.566299634+00:00",
+  "updatedAt": "2026-10-08T14:02:42.566301110+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:watcher",
+    "name": "Watcher scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

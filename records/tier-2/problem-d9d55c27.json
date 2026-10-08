@@ -1,0 +1,33 @@
+{
+  "instanceId": "d9d55c27-2272-4aa3-9836-ca87c1d839a7",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-06",
+    "title": "Destructive and partial writes succeed silently",
+    "statement": "Several operations report success while leaving the repository broken or half changed: deleting an in-use definition, an aborted migration leaving partial output, a declared-but-unknown extension loading without comment, a record update that replaces values it was not asked to touch. Agents following one tool's input shape on another get a success result while part of the write is ignored.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-rust#1345",
+      "srs-rust#813",
+      "srs#312",
+      "srs-rust#847",
+      "srs-rust#1111",
+      "srs-rust#482",
+      "srs-rust#483",
+      "semanticops.com#26",
+      "srs-context:CLI note create silently ignores a containerId in the payload",
+      "srs-rust#1293"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:32.409808299+00:00",
+  "updatedAt": "2026-10-08T14:02:32.409813120+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:challenger",
+    "name": "Challenger scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

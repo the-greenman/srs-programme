@@ -1,0 +1,25 @@
+{
+  "instanceId": "05acb55f-f8cf-4529-a660-3cb48d8700a4",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-20",
+    "title": "A document cannot leave the editor and return",
+    "statement": "Export gives the writer markdown, a Google Doc and a snapshot, but import, merge and reintegration are explicitly out of scope. Work edited elsewhere cannot come back, so leaving the editor is a one way door and the record stops being the single source.",
+    "kind": "condition",
+    "source_ref": [
+      "semanticops.com#21",
+      "semanticops.com#29"
+    ]
+  },
+  "createdAt": "2026-10-08T14:02:36.907013068+00:00",
+  "updatedAt": "2026-10-08T14:02:36.907017132+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:rebel",
+    "name": "Rebel scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

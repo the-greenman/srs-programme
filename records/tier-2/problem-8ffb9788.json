@@ -1,0 +1,25 @@
+{
+  "instanceId": "8ffb9788-2d8a-4570-8a66-b2931572717a",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-41",
+    "title": "Tools quietly impose a chain of command",
+    "statement": "Collaboration software tends to encode a particular organisation's roles and approvals into its structure. A group with a different way of deciding finds the tool deciding for it.",
+    "kind": "condition",
+    "source_ref": [
+      "semanticops.com:public/agents/principles.md (No engineered control hierarchy; Decision sovereignty)"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-08T14:02:43.518022888+00:00",
+  "updatedAt": "2026-10-08T14:02:43.518027913+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:watcher",
+    "name": "Watcher scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

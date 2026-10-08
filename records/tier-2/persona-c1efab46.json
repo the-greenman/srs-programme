@@ -6,7 +6,7 @@
   "typeName": "persona",
   "fieldValues": {
     "title": "AI agent",
-    "summary": "An AI agent that works from SRS context, moment to moment, to read, reason and write structured records.",
+    "summary": "An AI agent that starts from scratch every session and depends on the assumptions humans share to know where to focus, reading SRS context to reason and write structured records.",
     "jobs": [
       "Recall the few records relevant to the task",
       "Check where a claim came from",
@@ -17,7 +17,7 @@
     "needs": "Fast scoped recall, provenance on everything, and write tools that enforce type and relation contracts."
   },
   "createdAt": "2026-10-08T10:46:16.191399682+00:00",
-  "updatedAt": "2026-10-08T10:46:16.191401256+00:00",
+  "updatedAt": "2026-10-08T14:56:20.145870845+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:persona-scout",
