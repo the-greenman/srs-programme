@@ -17,6 +17,8 @@ context, the unit-walk Protocol) is frozen history; new lessons go to srs-contex
 It moved out of `the-greenman/srs` per owner decision 2026-09-16 (srs#786), history
 preserved via `git subtree split`.
 
+Visualiser: `node scripts/roadmap.mjs --json > roadmap/roadmap.json && python3 -m http.server -d roadmap`, or https://the-greenman.github.io/srs-programme/ (built by `.github/workflows/pages.yml`).
+
 See `CLAUDE.md` for the working rules (Protocol, pinned-CLI writes, merge gate).
 
 ## Validate

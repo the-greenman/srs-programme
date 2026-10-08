@@ -58,7 +58,19 @@ export function derive(records, relations, today, affirmed = new Set()) {
       objective: served?.title ?? null, rank: served?.rank ?? null, priority: served?.tier ?? null, parked: !served,
       ...(answers.length ? { answers } : {}) };
   });
-  return { activePeriod: { title: period.fv.title, starts_on: period.fv.starts_on, ends_on: period.fv.ends_on ?? null },
+  // Parked snapshot (v12): boundaries, stages, contracts, assessments keyed by strategy_key, with their outgoing relations among themselves.
+  const SNAP = { boundary: "boundaries", capability_stage: "stages", strategy_contract: "contracts", assessment: "assessments" };
+  const snapshot = Object.fromEntries(Object.values(SNAP).map((k) => [k, []]));
+  const snapRows = rows.filter((r) => SNAP[r.type]);
+  const snapIds = new Map(snapRows.map((r) => [r.id, r]));
+  for (const r of snapRows) {
+    const { title, strategy_key, summary, body, ...rest } = r.fv;
+    const links = relations.filter((l) => l.sourceId === r.id && snapIds.has(l.targetId))
+      .map((l) => ({ type: l.relationType.split("/").at(-1), to: snapIds.get(l.targetId).fv.strategy_key }));
+    snapshot[SNAP[r.type]].push({ key: strategy_key, title, summary, body, ...rest, links });
+  }
+  for (const list of Object.values(snapshot)) list.sort((a, b) => a.key.localeCompare(b.key, undefined, { numeric: true }));
+  return { snapshot, activePeriod: { title: period.fv.title, starts_on: period.fv.starts_on, ends_on: period.fv.ends_on ?? null },
     objectives, epics, parked: epics.filter((e) => e.parked).map((e) => e.ref) };
 }
 
