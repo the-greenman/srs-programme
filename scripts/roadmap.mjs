@@ -17,8 +17,14 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const NS = "com.semanticops.programme";
 const OWNER = "the-greenman";
 
-/** records: `srs record list` entries; relations: `srs relation list` entries. Throws on a broken ranking. */
-export function derive(records, relations, today) {
+const MNS = "com.semanticops.method";
+
+/**
+ * records: `srs record list` entries; relations: `srs relation list` entries. Throws on a broken ranking.
+ * affirmed: instance ids in the Affirmed container. Problems, clusters and personas are read from that
+ * layer only; agent Suggestions are never consulted.
+ */
+export function derive(records, relations, today, affirmed = new Set()) {
   const rows = records.map((r) => ({ id: r.instanceId, type: r.record.typeName, fv: r.record.fieldValues }));
   const byId = new Map(rows.map((r) => [r.id, r]));
   const periods = rows.filter((r) => r.type === "period").sort((a, b) => a.fv.starts_on.localeCompare(b.fv.starts_on));
@@ -39,10 +45,19 @@ export function derive(records, relations, today) {
     const served = relations.filter((l) => l.relationType === `${NS}/serves` && l.sourceId === e.id)
       .map((l) => objectives.find((o) => o.id === l.targetId)).filter((o) => o?.rank != null)
       .sort((a, b) => a.rank - b.rank)[0];
+    const rel = (type, from, to) => relations.filter((l) => l.relationType === `${MNS}/${type}` && (from ? l.sourceId === from : l.targetId === to));
+    const aff = (id, type) => (affirmed.has(id) && byId.get(id)?.type === type ? byId.get(id) : null);
+    const answers = rel("answers", e.id).map((l) => aff(l.targetId, "problem")).filter(Boolean).map((pr) => {
+      const persona = rel("held-by", pr.id).map((l) => aff(l.targetId, "persona")).find(Boolean);
+      const cluster = relations.filter((l) => l.relationType === "contains" && l.targetId === pr.id).map((l) => aff(l.sourceId, "cluster")).find(Boolean);
+      const objective = cluster && rel("addresses", null, cluster.id).map((l) => objectives.find((o) => o.id === l.sourceId)).find(Boolean);
+      return { problem: pr.fv.problem_id ?? pr.fv.title, persona: persona?.fv.title ?? null, cluster: cluster?.fv.title ?? null, objective: objective?.title ?? null };
+    });
     const [ref] = e.fv.issue_ref;
     const [repo, number] = ref.split("#");
     return { ref, refs: e.fv.issue_ref, repo, number: Number(number), title: e.fv.title,
-      objective: served?.title ?? null, rank: served?.rank ?? null, priority: served?.tier ?? null, parked: !served };
+      objective: served?.title ?? null, rank: served?.rank ?? null, priority: served?.tier ?? null, parked: !served,
+      ...(answers.length ? { answers } : {}) };
   });
   return { activePeriod: { title: period.fv.title, starts_on: period.fv.starts_on, ends_on: period.fv.ends_on },
     objectives, epics, parked: epics.filter((e) => e.parked).map((e) => e.ref) };
@@ -51,13 +66,17 @@ export function derive(records, relations, today) {
 function load() {
   const cli = process.env.SRS_CLI_PATH?.trim() || "srs";
   const run = (args) => JSON.parse(execFileSync(cli, [...args, "--repo", ROOT], { encoding: "utf8", maxBuffer: 1 << 28 })).payload;
-  return [run(["record", "list"]).records, run(["relation", "list"]).relations];
+  const listed = run(["container", "list"]).containers.find((x) => x.title === "Affirmed");
+  const c = listed && run(["container", "get", listed.containerId]).container;
+  const affirmed = new Set(c ? c.memberInstanceIds.map((m) => m.instanceId) : []); // the human layer
+  return [run(["record", "list"]).records, run(["relation", "list"]).relations, affirmed];
 }
 
 function main(argv) {
   const arg = (k) => (argv.includes(k) ? argv[argv.indexOf(k) + 1] : undefined);
   const today = arg("--today") ?? new Date().toISOString().slice(0, 10);
-  const result = derive(...load(), today);
+  const [records, relations, affirmed] = load();
+  const result = derive(records, relations, today, affirmed);
   if (argv.includes("--explain")) {
     const ref = arg("--explain");
     const e = result.epics.find((x) => x.refs.includes(ref));
@@ -65,6 +84,8 @@ function main(argv) {
     console.log(e.parked
       ? `${ref} -> ${e.title} -> no ranked objective in ${result.activePeriod.title} -> parked`
       : `${ref} -> ${e.title} -> ${e.objective} -> rank ${e.rank} in ${result.activePeriod.title} -> ${e.priority}`);
+    for (const a of e.answers ?? [])
+      console.log(`  answers ${a.problem} (held by ${a.persona ?? "?"}) -> ${a.cluster ?? "no cluster"} -> ${a.objective ?? "no objective"}`);
   } else if (argv.includes("--apply")) {
     const live = argv.includes("--yes") && !argv.includes("--dry-run");
     const ghp = process.env.GHP_SCRIPT;

@@ -14,6 +14,23 @@ an epic's `issue_ref` points at the tracker, rather than restating it. Design: s
   are **frozen history**: no further lifecycle sync, no new ones. New lessons go to srs-context.
 - The v12 strategy roadmap (boundaries, stages, contracts, assessments) is kept as frozen records.
 
+## Suggestions and the human layer
+
+The `com.semanticops.method` package (problems, clusters, personas, remedies; own package under
+`packages/method`) is written in two layers, both ordinary containers:
+
+- **Suggestions** is where agents write. Every agent runs with its own session actor
+  (`SRS_ACTOR='{"kind":"ai","id":"agent:<role>","name":"..."}'`, id stable per role) so `createdBy`
+  says who suggested what. Create with `record create --container <Suggestions id>`.
+- **Affirmed** is the human layer and has priority. A human adopts a suggestion with
+  `record fork` (global `--container <Affirmed id>`): a new record, `derived-from` the suggestion,
+  `createdBy` the human; the agent's original stays as testimony. Agents never write into Affirmed.
+- Consumers (`roadmap.mjs` derivation and `--explain`, any Direction page) read **Affirmed only**.
+- Dialogue between a human and an agent about a problem definition happens in comments.
+- Both containers have several writers: `container members add/remove`, never `container update`.
+
+Precedence is repository governance (this file and `roadmap.mjs`), not a tool rule.
+
 ## Writes go through the pinned CLI
 
 Never hand-edit records, relations, containers or the manifest.

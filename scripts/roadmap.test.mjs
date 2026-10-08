@@ -20,3 +20,17 @@ assert.throws(() => derive([...base, q4], links, "2027-01-15"), /0 periods/); //
 assert.throws(() => derive([...base, q4, period("x", "2026-12-31", "2027-03-31", [])], links, "2026-10-08"), /overlap/);
 assert.throws(() => derive([...base, period("q4", "2026-10-01", "2026-12-31", ["e1"])], links, "2026-10-08"), /not an objective/);
 console.log("roadmap.test: ok");
+
+// Affirmed layer: an epic answering an affirmed problem shows the chain; a suggestion-only problem is ignored.
+{
+  const MNS = "com.semanticops.method";
+  const rl = (t, s, d) => ({ relationType: t.includes("/") || t === "contains" ? t : `${MNS}/${t}`, sourceId: s, targetId: d });
+  const data = [...base, q4, rec("pr", "problem", { problem_id: "SP-01", title: "pr" }), rec("ps", "problem", { problem_id: "SP-02", title: "ps" }),
+    rec("pe", "persona", { title: "Writer" }), rec("cl", "cluster", { title: "Cluster X" })];
+  const rels = [...links, rl("answers", "e1", "pr"), rl("answers", "e1", "ps"), rl("held-by", "pr", "pe"), rl("contains", "cl", "pr"), rl("addresses", "A", "cl")];
+  const [e1] = derive(data, rels, "2026-10-08", new Set(["pr", "pe", "cl"])).epics;
+  assert.deepEqual(e1.answers, [{ problem: "SP-01", persona: "Writer", cluster: "Cluster X", objective: "A" }]); // SP-02 is a suggestion only
+  assert.equal(derive(data, rels, "2026-10-08").epics[0].answers, undefined); // empty Affirmed layer: unchanged output
+  assert.equal(derive(data, rels, "2026-10-08", new Set(["pr", "pe", "cl"])).epics[0].priority, "P0"); // ranking unaffected
+}
+console.log("roadmap.test (affirmed layer): ok");
