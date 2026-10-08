@@ -1,0 +1,19 @@
+{
+  "instanceId": "28f7fd09-eba1-41f2-8f41-7fae5ed77caf",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Identity and Assertion",
+    "description": "Whether the specification is free to change or must stay continuous for the records already written."
+  },
+  "createdAt": "2026-10-08T11:05:57.336974632+00:00",
+  "updatedAt": "2026-10-08T11:05:57.336976612+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

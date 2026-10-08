@@ -1,0 +1,20 @@
+{
+  "instanceId": "47a48f32-745c-4db3-b979-a493dc530105",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Stabilise",
+    "looks_like": "Creates reliability by deepening existing practice, refining proven methods and building mastery through repetition.",
+    "shadow": "Becomes rigid and over-controlled, preferring comfort to progress and stifling new ideas."
+  },
+  "createdAt": "2026-10-08T11:05:52.685411449+00:00",
+  "updatedAt": "2026-10-08T11:05:52.685415025+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

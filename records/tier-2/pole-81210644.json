@@ -1,0 +1,20 @@
+{
+  "instanceId": "81210644-1f8b-45ee-8ead-bbd4895a2353",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Disrupt",
+    "looks_like": "Creates change by testing new approaches, challenging current practice and offering alternatives to existing methods.",
+    "shadow": "Changes things without care for what works, so trust erodes and people feel attacked."
+  },
+  "createdAt": "2026-10-08T11:05:52.545715523+00:00",
+  "updatedAt": "2026-10-08T11:05:52.545719250+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

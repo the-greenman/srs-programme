@@ -1,0 +1,24 @@
+{
+  "instanceId": "b6acc84a-8265-4d0a-92d5-333f3db82555",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Shared coherence over local autonomy",
+    "boundary_clause": "None ratified yet: to be stated",
+    "context": "Applied by default in the Description and Governance trade-off of the semantic-records charter.",
+    "source_ref": [
+      "the-greenman/srs: srs/records/tier-2/rfc-decision-cce3c00e.json",
+      "the-greenman/srs: srs/records/tier-2/rfc-decision-628cf6c4.json"
+    ]
+  },
+  "createdAt": "2026-10-08T11:05:58.391746319+00:00",
+  "updatedAt": "2026-10-08T11:05:58.391749658+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

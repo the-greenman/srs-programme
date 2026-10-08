@@ -1,4 +1,5 @@
 {
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
   "id": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
   "namespace": "com.semanticops.method",
   "name": "remedy",
@@ -29,6 +30,11 @@
       "fieldId": "0c9743ed-1d05-4b07-86c9-9bd89e0d60d1",
       "order": 4,
       "required": false
+    },
+    {
+      "fieldId": "e7197a59-e74b-45a5-9062-82f7ac9f23a4",
+      "order": 5,
+      "required": false
     }
   ],
   "identityFieldId": "7ccb4e5e-8e02-49d3-b51c-3bf3280616e0",
@@ -36,6 +42,5 @@
     "purpose": "One remedy: a single move, with an honest statement of what it does not fix and what would show it does not work. Linked to problems with answers; epics implement it.",
     "extraction": "Always state does_not_fix and falsifier where known."
   },
-  "createdAt": "2026-10-08T10:44:32.479635160+00:00",
-  "$schema": "https://srs.semanticops.com/schema/2.0/type.json"
+  "createdAt": "2026-10-08T10:44:32.479635160+00:00"
 }

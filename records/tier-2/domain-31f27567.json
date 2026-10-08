@@ -1,0 +1,21 @@
+{
+  "instanceId": "31f27567-25aa-47a9-8a9b-f436df8a6c33",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Stance",
+    "purpose": "How a person or agent shows up when working on shared records: where energy, change and attention go.",
+    "in_scope": "The three trade-offs that shape a working stance (action, change, perspective) and the eight stances they make.",
+    "out_of_scope": "What to build or decide; those belong to the domain of the work itself."
+  },
+  "createdAt": "2026-10-08T11:05:51.897293407+00:00",
+  "updatedAt": "2026-10-08T11:05:51.897296837+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

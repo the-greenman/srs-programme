@@ -1,0 +1,20 @@
+{
+  "instanceId": "424bd9c4-5b01-49d2-9abf-92c966a58a7f",
+  "typeId": "6ce9e193-b51f-4ef0-878f-de02bc8a2418",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "archetype",
+  "fieldValues": {
+    "title": "Initiator",
+    "summary": "Sparks movement by acting boldly and directly on one target.",
+    "use_when": "The system is stalled and momentum has to be created."
+  },
+  "createdAt": "2026-10-08T11:05:53.671975276+00:00",
+  "updatedAt": "2026-10-08T11:05:53.671976753+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

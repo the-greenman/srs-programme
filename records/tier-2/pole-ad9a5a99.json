@@ -1,0 +1,19 @@
+{
+  "instanceId": "ad9a5a99-bbaa-480f-a0c0-3b52a8ba0520",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Semantic integrity",
+    "looks_like": "A definition says exactly one thing and changes preserve what it meant."
+  },
+  "createdAt": "2026-10-08T11:05:56.841842139+00:00",
+  "updatedAt": "2026-10-08T11:05:56.841846066+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

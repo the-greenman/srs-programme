@@ -1,0 +1,19 @@
+{
+  "instanceId": "53b3fcb5-6521-485a-93fb-ef51da8c8e2d",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Shared coherence",
+    "looks_like": "Everyone uses one shared description of the model, with one name for each thing."
+  },
+  "createdAt": "2026-10-08T11:05:58.110117492+00:00",
+  "updatedAt": "2026-10-08T11:05:58.110119062+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

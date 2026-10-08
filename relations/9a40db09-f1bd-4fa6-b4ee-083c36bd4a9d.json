@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "9a40db09-f1bd-4fa6-b4ee-083c36bd4a9d",
+  "relationType": "com.semanticops.method/instantiates",
+  "sourceInstanceId": "ac6ab9e7-3ce2-47e6-932b-cc166beaf413",
+  "targetInstanceId": "424bd9c4-5b01-49d2-9abf-92c966a58a7f",
+  "createdAt": "2026-10-08T11:05:53.966547110+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  }
+}

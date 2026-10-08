@@ -1,0 +1,20 @@
+{
+  "instanceId": "419d0a25-b53a-47d0-962e-eb1103e1b364",
+  "typeId": "6ce9e193-b51f-4ef0-878f-de02bc8a2418",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "archetype",
+  "fieldValues": {
+    "title": "Challenger",
+    "summary": "Names what is broken, clearly and broadly, to provoke realignment.",
+    "use_when": "Things are accepted as given and nobody says what is not working."
+  },
+  "createdAt": "2026-10-08T11:05:53.254797782+00:00",
+  "updatedAt": "2026-10-08T11:05:53.254802318+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

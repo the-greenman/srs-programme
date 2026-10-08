@@ -1,0 +1,21 @@
+{
+  "instanceId": "5f433971-f956-400c-b73c-571ed69edf8f",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Semantic records",
+    "purpose": "Keep meaning in structured records exact, attributable and portable while the specification keeps evolving.",
+    "in_scope": "The SRS specification and its reference implementation: how records, definitions, relations and repositories are versioned, referenced, governed and moved.",
+    "out_of_scope": "What any one repository's records say; the content of a corpus is its own domain."
+  },
+  "createdAt": "2026-10-08T11:05:56.635230830+00:00",
+  "updatedAt": "2026-10-08T11:05:56.635235334+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

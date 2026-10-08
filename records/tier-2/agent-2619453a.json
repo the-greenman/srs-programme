@@ -1,0 +1,20 @@
+{
+  "instanceId": "2619453a-51aa-4e43-9807-72ba036c6d23",
+  "typeId": "ba97e194-0530-4be3-9fc4-54a9ee81072c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "agent",
+  "fieldValues": {
+    "title": "Synthesizer",
+    "actor_id": "agent:synthesizer",
+    "brief": "Pulls scattered ideas together into a coherent form others can act on."
+  },
+  "createdAt": "2026-10-08T11:05:56.071244696+00:00",
+  "updatedAt": "2026-10-08T11:05:56.071249245+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

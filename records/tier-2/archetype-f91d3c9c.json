@@ -1,0 +1,20 @@
+{
+  "instanceId": "f91d3c9c-c8e1-4d8a-80d9-f49ad8e7d539",
+  "typeId": "6ce9e193-b51f-4ef0-878f-de02bc8a2418",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "archetype",
+  "fieldValues": {
+    "title": "Rebel",
+    "summary": "Questions the whole frame of action to release new possibility.",
+    "use_when": "The system is stuck in a harmful or outdated way of working."
+  },
+  "createdAt": "2026-10-08T11:05:55.365817131+00:00",
+  "updatedAt": "2026-10-08T11:05:55.365820964+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

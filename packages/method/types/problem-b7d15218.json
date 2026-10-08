@@ -1,4 +1,5 @@
 {
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
   "id": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
   "namespace": "com.semanticops.method",
   "name": "problem",
@@ -29,6 +30,11 @@
       "fieldId": "0c9743ed-1d05-4b07-86c9-9bd89e0d60d1",
       "order": 4,
       "required": false
+    },
+    {
+      "fieldId": "191eb505-cdb3-4b09-ae2b-30585713c0fd",
+      "order": 5,
+      "required": false
     }
   ],
   "identityFieldId": "7ccb4e5e-8e02-49d3-b51c-3bf3280616e0",
@@ -36,6 +42,5 @@
     "purpose": "One problem in the SemanticOps method: a claim about what is wrong or missing, held by one or more personas (held-by), grouped into clusters (contains) and answered by remedies or epics (answers).",
     "extraction": "Suggestions are drafted by agents; the human layer adopts by record fork. Link the holding persona with held-by; never write a persona name into the statement."
   },
-  "createdAt": "2026-10-08T10:44:32.283626893+00:00",
-  "$schema": "https://srs.semanticops.com/schema/2.0/type.json"
+  "createdAt": "2026-10-08T10:44:32.283626893+00:00"
 }

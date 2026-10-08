@@ -1,0 +1,21 @@
+{
+  "instanceId": "2d20b9a6-364a-482a-96ba-22e6191371f6",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Agent memory",
+    "purpose": "Give an AI agent the few records it needs for the task at hand, with where each came from, across sessions.",
+    "in_scope": "Recall, provenance and handover of structured records for an agent between and within sessions.",
+    "out_of_scope": "How the agent reasons or which model it runs on."
+  },
+  "createdAt": "2026-10-08T11:06:00.580279476+00:00",
+  "updatedAt": "2026-10-08T11:06:00.580281128+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

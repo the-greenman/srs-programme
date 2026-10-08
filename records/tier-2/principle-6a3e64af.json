@@ -1,0 +1,24 @@
+{
+  "instanceId": "6a3e64af-25de-4eb0-9baa-1a610921ad19",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Portability over possession",
+    "boundary_clause": "A capability that exists only in place is captivity; the exception delegates to axis 3-9's explicit-local boundary",
+    "context": "Applied by default in the Containment and Portability trade-off of the semantic-records charter.",
+    "source_ref": [
+      "the-greenman/srs: srs/records/tier-2/rfc-decision-cce3c00e.json",
+      "the-greenman/srs: srs/records/tier-2/rfc-decision-8948e43f.json"
+    ]
+  },
+  "createdAt": "2026-10-08T11:06:00.299570215+00:00",
+  "updatedAt": "2026-10-08T11:06:00.299571698+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

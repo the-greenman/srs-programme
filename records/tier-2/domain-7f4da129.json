@@ -1,0 +1,21 @@
+{
+  "instanceId": "7f4da129-492a-4d56-a039-d86e80bf0303",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Group meaning ownership",
+    "purpose": "Let a group hold and change shared meanings together, so no single member silently redefines them.",
+    "in_scope": "How a group agrees, owns and revises the definitions and decisions its members rely on.",
+    "out_of_scope": "Individual opinion and private notes; legal ownership of data."
+  },
+  "createdAt": "2026-10-08T11:06:00.653777543+00:00",
+  "updatedAt": "2026-10-08T11:06:00.653781262+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

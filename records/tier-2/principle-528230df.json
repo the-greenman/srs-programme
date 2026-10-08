@@ -1,0 +1,25 @@
+{
+  "instanceId": "528230df-215f-4345-b027-23bafe69a559",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Evolution over Continuity",
+    "boundary_clause": "Phase-bound: precommitted to flip to Continuity at the first full public release",
+    "context": "Applied by default in the Identity and Assertion trade-off of the semantic-records charter.",
+    "source_ref": [
+      "the-greenman/srs: srs/records/tier-2/rfc-decision-cce3c00e.json",
+      "the-greenman/srs: srs/records/tier-2/rfc-decision-2a1e1590.json",
+      "the-greenman/srs: srs/records/tier-2/rfc-decision-53635966.json"
+    ]
+  },
+  "createdAt": "2026-10-08T11:05:57.756014889+00:00",
+  "updatedAt": "2026-10-08T11:05:57.756017147+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

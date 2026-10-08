@@ -1,0 +1,20 @@
+{
+  "instanceId": "ac6ab9e7-3ce2-47e6-932b-cc166beaf413",
+  "typeId": "ba97e194-0530-4be3-9fc4-54a9ee81072c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "agent",
+  "fieldValues": {
+    "title": "Initiator",
+    "actor_id": "agent:initiator",
+    "brief": "Starts things: makes the first decisive move when work is stalled."
+  },
+  "createdAt": "2026-10-08T11:05:53.954117548+00:00",
+  "updatedAt": "2026-10-08T11:05:53.954119340+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

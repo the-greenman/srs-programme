@@ -1,0 +1,20 @@
+{
+  "instanceId": "fe286160-282d-49c3-be91-e73c4e313c9b",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Observe",
+    "looks_like": "Directs energy inward: builds internal capacity, strengthens relationships and develops shared understanding among participants.",
+    "shadow": "Reflects without end and withdraws from people who need support."
+  },
+  "createdAt": "2026-10-08T11:05:52.259645161+00:00",
+  "updatedAt": "2026-10-08T11:05:52.259646655+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

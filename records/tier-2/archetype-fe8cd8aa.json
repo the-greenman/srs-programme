@@ -1,0 +1,20 @@
+{
+  "instanceId": "fe8cd8aa-334b-41d6-9b42-238a2e43e2d5",
+  "typeId": "6ce9e193-b51f-4ef0-878f-de02bc8a2418",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "archetype",
+  "fieldValues": {
+    "title": "Builder",
+    "summary": "Turns energy into durable structure: systems, tools and routines that last.",
+    "use_when": "The system is unstable and needs grounding."
+  },
+  "createdAt": "2026-10-08T11:05:54.101002252+00:00",
+  "updatedAt": "2026-10-08T11:05:54.101003811+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

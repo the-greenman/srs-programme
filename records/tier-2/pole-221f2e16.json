@@ -1,0 +1,19 @@
+{
+  "instanceId": "221f2e16-eca1-4176-b320-f7b0d2b640f3",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Office",
+    "looks_like": "A claim carries weight from the role or authority it comes from."
+  },
+  "createdAt": "2026-10-08T11:05:58.740872923+00:00",
+  "updatedAt": "2026-10-08T11:05:58.740874781+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,19 @@
+{
+  "instanceId": "e26e391c-3ef7-4c2c-89e8-07eba9bf8b22",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Action",
+    "description": "Whether energy goes outward into visible work or inward into capacity and shared understanding."
+  },
+  "createdAt": "2026-10-08T11:05:51.974298655+00:00",
+  "updatedAt": "2026-10-08T11:05:51.974300261+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

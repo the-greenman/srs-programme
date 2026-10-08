@@ -1,0 +1,20 @@
+{
+  "instanceId": "c027efe9-2fe4-493f-8bee-e713dae70508",
+  "typeId": "6ce9e193-b51f-4ef0-878f-de02bc8a2418",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "archetype",
+  "fieldValues": {
+    "title": "Steward",
+    "summary": "Maintains the conditions that sustain the whole: sustainable rhythms, boundaries and care.",
+    "use_when": "The system needs deeper roots, a sustainable pace or people need to feel held and resourced."
+  },
+  "createdAt": "2026-10-08T11:05:54.947455744+00:00",
+  "updatedAt": "2026-10-08T11:05:54.947457939+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

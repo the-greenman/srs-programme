@@ -1,0 +1,20 @@
+{
+  "instanceId": "65d0aa6f-ea60-4704-9bfb-f24a6261d6ad",
+  "typeId": "ba97e194-0530-4be3-9fc4-54a9ee81072c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "agent",
+  "fieldValues": {
+    "title": "Steward",
+    "actor_id": "agent:steward",
+    "brief": "Tends the conditions that keep the work sustainable and cared for."
+  },
+  "createdAt": "2026-10-08T11:05:55.225968817+00:00",
+  "updatedAt": "2026-10-08T11:05:55.225973004+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

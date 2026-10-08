@@ -1,0 +1,20 @@
+{
+  "instanceId": "1797738f-df84-4464-ba88-9ab7e241d80f",
+  "typeId": "ba97e194-0530-4be3-9fc4-54a9ee81072c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "agent",
+  "fieldValues": {
+    "title": "Challenger",
+    "actor_id": "agent:challenger",
+    "brief": "Names what is not working and raises the questions others avoid."
+  },
+  "createdAt": "2026-10-08T11:05:53.534295905+00:00",
+  "updatedAt": "2026-10-08T11:05:53.534299008+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

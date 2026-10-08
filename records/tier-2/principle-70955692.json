@@ -1,0 +1,25 @@
+{
+  "instanceId": "70955692-f0a6-485b-9f20-6f863cf65779",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Reliability over renewal",
+    "boundary_clause": "Standing contracts hold; renewal only as explicit supersession at a declared boundary",
+    "context": "Applied by default in the Succession and Conformance trade-off of the semantic-records charter.",
+    "source_ref": [
+      "the-greenman/srs: srs/records/tier-2/rfc-decision-cce3c00e.json",
+      "the-greenman/srs: srs/records/tier-2/rfc-decision-5f8204bc.json",
+      "the-greenman/srs: srs/records/tier-2/rfc-decision-1e7c0c8e.json"
+    ]
+  },
+  "createdAt": "2026-10-08T11:05:59.651064220+00:00",
+  "updatedAt": "2026-10-08T11:05:59.651065935+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

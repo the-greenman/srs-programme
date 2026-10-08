@@ -3,9 +3,9 @@
   "namespace": "com.semanticops.method",
   "name": "statement",
   "version": 1,
-  "description": "The claim a problem makes.",
+  "description": "The claim a record makes: a problem's claim or a principle's default.",
   "aiGuidance": {
-    "purpose": "The problem itself: one sentence or a short paragraph stating what is wrong or missing, from the point of view of the persona who holds it.",
+    "purpose": "For a problem: the claim itself, one sentence or short paragraph, from the persona's point of view. For a principle: the default in 'X over Y' form (public word: default).",
     "extraction": "State the problem, not the fix. Keep it falsifiable and specific to who is affected.",
     "negativeGuidance": "Do not include the remedy, facet labels or a persona name as prose; the persona is a held-by relation."
   },
