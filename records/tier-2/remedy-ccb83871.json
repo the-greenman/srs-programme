@@ -1,0 +1,26 @@
+{
+  "instanceId": "ccb83871-5793-42e8-b629-07b6876dad38",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Converge the implementation on the spec, one tracked fix per divergence",
+    "move": "Every divergence between spec, schema and an implementation becomes one issue answering SP-01 in the unattended lane, fixed on the implementation side unless a ruling says the spec is wrong.",
+    "does_not_fix": "The root causes of drift (multiple definitions, missing CI gates); those need their own remedy.",
+    "falsifier": "A divergence found by an agent or user that has no issue, or an SP-01 issue left untouched for 30 days in the unattended lane.",
+    "source_ref": [
+      "srs-programme:source-documents/archaeology-2026-10-08/F-drift.md",
+      "srs-programme:source-documents/archaeology-2026-10-08/R-reconciled.md"
+    ],
+    "return_when": "When the unattended lane has run for two weeks, or when a new divergence class appears."
+  },
+  "createdAt": "2026-10-08T20:42:32.991769150+00:00",
+  "updatedAt": "2026-10-08T20:42:32.991770613+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:remedy-scout",
+    "name": "Remedy scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
