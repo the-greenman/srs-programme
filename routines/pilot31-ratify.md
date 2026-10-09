@@ -2,7 +2,7 @@
 
 Owner-run. Agents never run these: the Owner role, the ratifying decision and the `delegates` edge are the
 owner's act (plan decision D15). Run from the root of a fresh srs-programme worktree that contains the U4 and U5
-records, with the pinned CLI.
+records, with the pinned CLI. Run the blocks in **bash** (`bash` first if your shell is fish).
 
 ## 1. Setup
 
@@ -16,19 +16,20 @@ GROUP_ROLE=834b61fd-6385-4e7e-8c5f-8fe65718f65c        # governance/role "WG Thi
 ## 2. Create the Owner role, in Affirmed
 
 ```bash
-echo '{"fieldValues":{"title":"Owner","role_holder":"<your name>","authority":"Delegates the WG Third-party ready mandate and ratifies or amends its charter.","boundary":"The whole SemanticOps programme.","source_of_authority":"Project owner","status":"active"}}' \
- | "$SRS_CLI_PATH" record create --repo . --container $AFFIRMED --type governance/role
-# note the returned instanceId as OWNER_ROLE
+OWNER_ROLE=$(echo '{"fieldValues":{"title":"Owner","role_holder":"<your name>","authority":"Delegates the WG Third-party ready mandate and ratifies or amends its charter.","boundary":"The whole SemanticOps programme.","source_of_authority":"Project owner","status":"active"}}' \
+ | "$SRS_CLI_PATH" record create --repo . --container $AFFIRMED --type governance/role | jq -r '.payload.instanceId // .payload.record.instanceId')
+echo "OWNER_ROLE=$OWNER_ROLE"
 ```
 
 ## 3. Create the ratifying decision, in Affirmed
 
 ```bash
-echo '{"fieldValues":{"title":"Charter: WG Third-party ready","decision_question":"Does the owner delegate the WG Third-party ready mandate on the terms in the group role and its four standing orders?","decision_statement":"Ratified: the group role 834b61fd and its standing orders (membership and quorum, cycle and report, budget, reporting and minutes) are the mandate of the Third-party ready working group, under the SRS implementation compass. Amendments need a new owner decision.","rationale":"semanticops.com#31; compass boundaries B0-B3 from srs-programme PR pilot31-u4-compass.","owner":"<your name>","status":"active"}}' \
- | "$SRS_CLI_PATH" record create --repo . --container $AFFIRMED --type governance/decision
-# note the returned instanceId as DECISION; then move it to ratified:
-"$SRS_CLI_PATH" record allowed-transitions --repo . --id $DECISION
-"$SRS_CLI_PATH" record transition --repo . --id $DECISION --help    # use the target-state flag shown, to: ratified
+DECISION=$(echo '{"fieldValues":{"title":"Charter: WG Third-party ready","decision_question":"Does the owner delegate the WG Third-party ready mandate on the terms in the group role and its four standing orders?","decision_statement":"Ratified: the group role 834b61fd and its standing orders (membership and quorum, cycle and report, budget, reporting and minutes) are the mandate of the Third-party ready working group, under the SRS implementation compass. Amendments need a new owner decision.","rationale":"semanticops.com#31; compass boundaries B0-B3 from srs-programme PR pilot31-u4-compass.","owner":"<your name>","status":"active"}}' \
+ | "$SRS_CLI_PATH" record create --repo . --container $AFFIRMED --type governance/decision | jq -r '.payload.instanceId // .payload.record.instanceId')
+echo "DECISION=$DECISION"
+"$SRS_CLI_PATH" record allowed-transitions --repo . --id $DECISION --pretty   # draft: next is 'proposed'
+echo '{"to":"proposed"}' | "$SRS_CLI_PATH" record transition --repo . --id $DECISION --pretty   # draft -> proposed
+echo '{"to":"ratified"}' | "$SRS_CLI_PATH" record transition --repo . --id $DECISION --pretty   # proposed -> ratified
 ```
 
 ## 4. The delegates edge (Owner role delegates to the group role)
