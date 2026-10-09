@@ -6,14 +6,14 @@
   "typeName": "standing-job",
   "fieldValues": {
     "title": "Close the cycle and report",
-    "description": "Gather the cycle (Monday 00:00 to Sunday 18:00 UTC), escalate stops and over-budget items as proposed decisions, write the run-report and post it on semanticops.com#31.",
-    "done_when": "A run-report record exists for the cycle and the same report is a comment on semanticops.com#31 dated before Monday.",
-    "trigger": "Sunday 18:00 UTC",
+    "description": "Gather the cycle (previous close to this close, daily at 11:30 UTC at the current rhythm), escalate stops and over-budget items as proposed decisions, write the run-report and post it on semanticops.com#31 with the wg-report marker line.",
+    "done_when": "A run-report record exists for the cycle and the same report is a comment on semanticops.com#31 starting with the wg-report marker line.",
+    "trigger": "Daily 11:30 UTC (the cycle close; the owner can amend the rhythm)",
     "size": "1 run-report plus escalations"
   },
   "lifecycleState": "draft",
   "createdAt": "2026-10-09T18:48:21.832554461+00:00",
-  "updatedAt": "2026-10-09T18:48:21.832558632+00:00",
+  "updatedAt": "2026-10-09T20:27:25.720650994+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",

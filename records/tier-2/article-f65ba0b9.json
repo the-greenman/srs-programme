@@ -6,15 +6,15 @@
   "typeName": "article",
   "fieldValues": {
     "title": "Cycle and report",
-    "article_text": "The cycle runs Monday 00:00 UTC to Sunday 18:00 UTC. The nightly lane runs do the building and reviewing. On Sunday the Steward closes the cycle and posts the report on semanticops.com#31 before the owner's Monday review. The report uses the standard run-report headings plus figures: PRs merged with their quorum line, PRs open, stops, red gates, budget used, and the open-divergence count.",
-    "rationale": "The owner reviews on Monday; the report must be there first.",
+    "article_text": "The cycle is a rhythm set here, not a fixed week. Current rhythm: daily; the cycle closes at 11:30 UTC (London lunchtime). The owner can amend the rhythm: a busy group might use every few hours, a quiet one weekly. The nightly lane runs do the building and reviewing. At each close the Steward closes the cycle and posts a short report on semanticops.com#31, a comment whose first line is `<!-- wg-report cycle=<YYYY-MM-DD> -->`. The report uses the standard run-report headings plus figures: PRs merged with their quorum line, PRs open, stops, red gates, budget used, pause state, and the open-divergence count. The owner acknowledges a report with a thumbs-up (+1) reaction from the owner account on the report comment. The group keeps going, but pauses after N=2 consecutive unacknowledged cycle reports. While paused, pr-upkeep merges no group PRs and its digest says \"paused: N reports unacknowledged\"; the Builder opens nothing new; reviews and escalations continue. A thumbs-up on a report lifts the pause.",
+    "rationale": "The owner sets the rhythm so each report stays one cycle and short; the pause stops delegated work piling up unread.",
     "amendment_rule": "Owner only: an amendment needs a new owner-ratified decision.",
     "protected_status": "Agent testimony until the owner ratifies the charter decision.",
     "status": "proposed"
   },
   "lifecycleState": "draft",
   "createdAt": "2026-10-09T18:48:19.281555302+00:00",
-  "updatedAt": "2026-10-09T18:48:19.281560112+00:00",
+  "updatedAt": "2026-10-09T20:27:25.426833814+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",
