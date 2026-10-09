@@ -1,0 +1,18 @@
+{
+  "instanceId": "1de15957-981e-4ed1-8680-aac97267fb04",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Evidence from building the srs-web lenses proof of concept (2026-10-09, srs-programme:source-documents/srs-web-lenses-2026-10-09/assessment.md#engine-gaps). Six things had to be computed in the client because the core does not serve them: a whole Composition with its sections; per-record ids in rendered output (so a view cannot highlight the selection); relation usage counts per type; reading a note through the record binding; a type filter on neighbours; and a composition title. Each is a place where a second client would compute the same thing again. They belong as srs-rust issues answering SP-05 (and SP-24 for the first two)."
+  },
+  "createdAt": "2026-10-09T08:59:39.919871718+00:00",
+  "updatedAt": "2026-10-09T08:59:39.919879052+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:analyst",
+    "name": "Analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

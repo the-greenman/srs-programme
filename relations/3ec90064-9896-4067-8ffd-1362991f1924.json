@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "3ec90064-9896-4067-8ffd-1362991f1924",
+  "relationType": "com.semanticops.method/answers",
+  "sourceInstanceId": "6b0d881d-1698-42eb-8be1-13f66761613b",
+  "targetInstanceId": "869f95f2-8a46-4637-b30e-83ff60e8dd4b",
+  "createdAt": "2026-10-09T08:59:39.401934294+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:remedy-scout",
+    "name": "Remedy scout"
+  }
+}

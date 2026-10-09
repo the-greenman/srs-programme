@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "979bd1c2-f58d-4bb2-bd1a-4e17493cc49d",
+  "relationType": "com.semanticops.comments/comments-on",
+  "sourceInstanceId": "92ebaeaf-bf8f-4296-b4ba-45a8112baac8",
+  "targetInstanceId": "869f95f2-8a46-4637-b30e-83ff60e8dd4b",
+  "createdAt": "2026-10-09T08:59:39.697617355+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:analyst",
+    "name": "Analyst"
+  }
+}

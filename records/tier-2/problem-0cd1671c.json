@@ -1,0 +1,29 @@
+{
+  "instanceId": "0cd1671c-6dd8-41cc-abe4-f04bbc41c5ed",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-48",
+    "title": "Every repository opens as the same engine view",
+    "statement": "Whatever a repository holds, an argument, a specification, a roadmap or a website, the editor opens it in one explorer of the engine's parts: compositions, containers, types and a map. Editors shaped to the work are hard to reach and one-way to leave, links between records are hidden, and the same record looks and edits differently in each editor. People see the tool's model instead of the shape of their own work, and keep looking without settling.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme:source-documents/srs-web-lenses-2026-10-09/assessment.md#causes",
+      "srs-programme:source-documents/srs-web-lenses-2026-10-09/assessment.md#evidence",
+      "srs-web#137",
+      "srs-web#425",
+      "srs-web#426"
+    ],
+    "imbalance": "held-too-long"
+  },
+  "createdAt": "2026-10-09T08:59:38.782623670+00:00",
+  "updatedAt": "2026-10-09T08:59:38.782626958+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:analyst",
+    "name": "Analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
