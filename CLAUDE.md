@@ -67,6 +67,21 @@ repository depends on it — so a PR states its Mode/Door, carries
 not merge. Mode complex, or Door 2/3, carries `gate:owner-merge` and the agent
 never merges. Mode chaotic stops.
 
+## Gates and choreography
+
+Run each gate by its exit code, never through a piped `tail` (a pipe eats the status and turns red green). These are exactly what `.github/workflows/validate.yml` runs:
+
+```bash
+export $(node scripts/fetch-pinned-srs.mjs)
+"$SRS_CLI_PATH" repo validate --repo . --pretty
+node scripts/check-programme-conformance.mjs
+node scripts/roadmap.test.mjs
+node scripts/check-method.mjs
+node scripts/roadmap.mjs --json > /dev/null
+```
+
+Work in a fresh worktree off `origin/master` (`scripts/wt new`). A red gate you cannot fix within scope means stop and report; never weaken a check to pass. Cloud routine sessions (`routines/unattended-worker.md`) have no `ssh-add`: they skip the signing-key check below and commit with the environment's configured signing; local sessions keep the check.
+
 ## Signing and queue
 
 All commits are SSH-signed — `ssh-add -l | grep -q
