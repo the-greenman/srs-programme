@@ -52,3 +52,12 @@ jobs:
           fi
           export $(node scripts/fetch-pinned-srs.mjs)
           node scripts/roadmap.mjs --apply --yes
+
+      # Daily only (not on push): reopens false closes and nags missing `Answers:` lines
+      # across the six SemanticOps repos (srs-programme#37). Needs BOARD_TOKEN to write
+      # issues in those repos, not just the board.
+      - name: Steward check
+        if: github.event_name != 'push'
+        env:
+          GH_TOKEN: ${{ secrets.BOARD_TOKEN }}
+        run: node scripts/steward-check.mjs --fix
