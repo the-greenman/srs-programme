@@ -1,0 +1,23 @@
+{
+  "instanceId": "b3bcd516-35bf-4ea8-b264-9e61ad6b3b17",
+  "typeId": "5091e5a0-4fa5-4b7b-9108-6d59765ce68d",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.argument",
+  "typeName": "boundary",
+  "fieldValues": {
+    "title": "SRS implementation",
+    "purpose": "One implementation of every capability, in the core service, exposed through CLI, WASM and MCP, that a third party can trust to behave as the spec says.",
+    "inside": "srs-rust: srs-core, srs-repository and the adapters (CLI, bindings, MCP), and the mirror syncs that follow a spec release.",
+    "outside": "Making spec rulings, presentation (clients).",
+    "authority_basis": "ADR-048 (implementation decision rules), capability-layering.md, and the SRS standard's compass, which it inherits on the OPERATION plane.",
+    "revision_condition": "ADR-048 is amended, or the SRS standard changes a ruling the implementation executes."
+  },
+  "createdAt": "2026-10-09T18:32:32.760705947+00:00",
+  "updatedAt": "2026-10-09T18:32:32.760707401+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

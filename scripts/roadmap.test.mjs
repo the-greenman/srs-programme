@@ -27,6 +27,9 @@ assert.throws(() => derive([...base, period("q4", "2026-10-01", "2026-12-31", ["
     [...links, { relationType: "com.semanticops.programme/assesses", sourceId: "a1", targetId: "b1" }, { relationType: "contains", sourceId: "a1", targetId: "e1" }], "2026-10-08").snapshot;
   assert.deepEqual(snap.assessments[0].links, [{ type: "assesses", to: "P1" }]);
   assert.equal(snap.boundaries[0].key, "P1");
+  // an argument/boundary (same type name, other namespace) stays out of the snapshot
+  const argB = { instanceId: "ab", record: { typeName: "boundary", typeNamespace: "com.mudemocracy.argument", fieldValues: { title: "AB" } } };
+  assert.equal(derive([...base, q4, argB], links, "2026-10-08").snapshot.boundaries.length, 0);
 }
 console.log("roadmap.test: ok");
 

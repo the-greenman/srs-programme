@@ -1,0 +1,24 @@
+{
+  "instanceId": "62620321-88a8-4e68-a65f-fefb0d503ecf",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "title": "Layers: SemanticOps",
+    "article_text": "Layers that stay apart: purpose and governance (why, who decides); the standard (srs); the implementation (srs-rust); the surfaces (srs-web, srs-vscode, semanticops.com). Across all of them the human layer is separate from the agent layer. Rule: rulings flow down, never up. A lower layer stands alone; an upper layer cites the one below and never restates it.",
+    "rationale": "Generalises compass rules 2 and 5 and ADR-048 rule 1.",
+    "amendment_rule": "Owner only.",
+    "protected_status": "Agent suggestion until the owner affirms it.",
+    "status": "proposed"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-09T18:32:41.061819343+00:00",
+  "updatedAt": "2026-10-09T18:32:41.061820977+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,20 @@
+{
+  "instanceId": "03e48700-dafc-4b5d-b96d-647e2a975248",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Checked",
+    "looks_like": "Every write is validated and an invalid corpus is refused.",
+    "shadow": "An incoherent repository that cannot be fixed."
+  },
+  "createdAt": "2026-10-09T18:32:38.971250187+00:00",
+  "updatedAt": "2026-10-09T18:32:38.971254762+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

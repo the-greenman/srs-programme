@@ -1,0 +1,19 @@
+{
+  "instanceId": "aeea06c1-9572-4c18-b7fa-7f78b09d58fe",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Mechanism and policy",
+    "description": "Whether the tool builds a rule in or leaves each governed corpus to adopt its own."
+  },
+  "createdAt": "2026-10-09T18:32:34.874755523+00:00",
+  "updatedAt": "2026-10-09T18:32:34.874756846+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

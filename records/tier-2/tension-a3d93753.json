@@ -1,0 +1,19 @@
+{
+  "instanceId": "a3d93753-bfe4-418b-a8f4-b05a30eeef6a",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "One mechanism and compatibility",
+    "description": "Whether the old way is carried alongside the new one or collapsed to one."
+  },
+  "createdAt": "2026-10-09T18:32:37.303674341+00:00",
+  "updatedAt": "2026-10-09T18:32:37.303675929+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

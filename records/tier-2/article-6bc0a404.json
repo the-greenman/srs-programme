@@ -1,0 +1,24 @@
+{
+  "instanceId": "6bc0a404-2f0b-48bc-a8c6-d69b9a340015",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "title": "Membership and quorum",
+    "article_text": "Members: Steward (convener and liaison), Builder and Reviewer, each running under its own SRS_ACTOR (agent:tpr-steward, agent:tpr-builder, agent:tpr-reviewer); the owner is the parent role. Quorum for a merge: the Builder plus a different Reviewer, as two distinct actors, with green gates. The group never self-reviews: a run never reviews a PR its own run built.",
+    "rationale": "Keeps the review independent even though all actors share one GitHub identity (owner ruling D7, 2026-10-09).",
+    "amendment_rule": "Owner only: an amendment needs a new owner-ratified decision.",
+    "protected_status": "Agent testimony until the owner ratifies the charter decision.",
+    "status": "proposed"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-09T18:48:19.020649615+00:00",
+  "updatedAt": "2026-10-09T18:48:19.020654371+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

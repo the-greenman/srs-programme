@@ -1,0 +1,23 @@
+{
+  "instanceId": "fe501405-fc57-4fcf-bf40-51cded41bc49",
+  "typeId": "5091e5a0-4fa5-4b7b-9108-6d59765ce68d",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.argument",
+  "typeName": "boundary",
+  "fieldValues": {
+    "title": "SemanticOps",
+    "purpose": "Tooling for meaning: helping people share their assumptions with each other, and with AI, so they can see where they differ and where to focus. SRS is the means.",
+    "inside": "Everything SemanticOps builds or governs: the SRS standard, its implementation, the editors and the public site, and the programme that runs the work.",
+    "outside": "Deciding for anyone, workflow or permission engines, hosting people's data (the SRS charter's out-of-scope list). muDemocracy is a sibling with its own goals, not a child.",
+    "authority_basis": "The owner's purpose record (90dfe53f, 2026-10-08) and the SRS purpose charter. A rule holds at the boundary that made it (owner meta-ruling, 2026-10-09).",
+    "revision_condition": "The owner restates the purpose, or a child boundary needs a rule that cannot be stated without contradicting a root leaning."
+  },
+  "createdAt": "2026-10-09T18:32:32.591076677+00:00",
+  "updatedAt": "2026-10-09T18:32:32.591079983+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,20 @@
+{
+  "instanceId": "42f3ad1f-459d-4be8-ace1-c796267462b3",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Adapter convenience",
+    "looks_like": "An adapter implements what its client needs now.",
+    "shadow": "Duplicated logic that disagrees between CLI, WASM and MCP."
+  },
+  "createdAt": "2026-10-09T18:32:38.280381337+00:00",
+  "updatedAt": "2026-10-09T18:32:38.280382765+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
