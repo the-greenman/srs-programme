@@ -51,5 +51,6 @@ jobs:
           node scripts/roadmap.test.mjs
           node scripts/check-method.mjs
           node scripts/steward-check.test.mjs
+          node scripts/check-method.test.mjs
           # fails on no active period, overlapping periods, or objective_rank pointing at a non-objective
           node scripts/roadmap.mjs --json > /dev/null
