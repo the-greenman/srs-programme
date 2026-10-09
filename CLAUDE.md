@@ -80,6 +80,7 @@ node scripts/check-method.mjs
 node scripts/steward-check.test.mjs
 node scripts/check-method.test.mjs
 node scripts/roadmap.mjs --json > /dev/null
+bash scripts/pr-upkeep.test.sh
 ```
 
 Work in a fresh worktree off `origin/master` (`scripts/wt new`). A red gate you cannot fix within scope means stop and report; never weaken a check to pass. Cloud routine sessions (`routines/unattended-worker.md`) have no `ssh-add`: they skip the signing-key check below and commit with the environment's configured signing; local sessions keep the check.
