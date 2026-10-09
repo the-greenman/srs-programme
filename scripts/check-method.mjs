@@ -8,9 +8,13 @@ import { fileURLToPath } from "url";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const MNS = "com.semanticops.method";
+const ANS = "com.mudemocracy.argument";
+// Boundary rules (pilot semanticops.com#31, D6) bind only records created on/after this day: the 6 older principles have no
+// boundary and are not retro-fitted. Creation date, not layer, so agent suggestions are held to it too.
+export const BOUNDARY_RULES_FROM = "2026-10-09";
 
 /** records: `srs record list` entries; relations: `srs relation list` entries. Returns error strings. */
-export function checkMethod(records, relations) {
+export function checkMethod(records, relations, since = BOUNDARY_RULES_FROM) {
   const type = (n) => records.filter((r) => r.record.typeName === n);
   const label = (r) => `${r.record.typeName} ${r.record.fieldValues.title ?? r.record.fieldValues.statement} (${r.instanceId.slice(0, 8)})`;
   const out = (id, t) => relations.filter((x) => x.sourceId === id && x.relationType === t).map((x) => x.targetId);
@@ -25,6 +29,17 @@ export function checkMethod(records, relations) {
     const poles = out(gov[0], "contains");
     const leans = out(p.instanceId, `${MNS}/leans-toward`);
     if (leans.length !== 1 || !poles.includes(leans[0])) errors.push(`${label(p)} must lean toward exactly one pole of its tension`);
+  }
+  // Boundary rules; the argument package may be absent, then there are no boundaries and nothing to check.
+  const isBoundary = (r) => r.record.typeName === "boundary" && r.record.typeNamespace === ANS;
+  const isNew = (r) => String(r.record.createdAt ?? "").slice(0, 10) >= since;
+  for (const b of records.filter((r) => isBoundary(r) && isNew(r))) {
+    const n = new Set(out(b.instanceId, `${ANS}/holds-tension`)).size;
+    if (n < 3) errors.push(`${label(b)} holds ${n} tensions, expected at least 3`);
+  }
+  for (const p of type("principle").filter(isNew)) {
+    const bs = new Set(out(p.instanceId, `${ANS}/within-boundary`).filter((id) => records.some((r) => r.instanceId === id && isBoundary(r))));
+    if (bs.size !== 1) errors.push(`${label(p)} is within-boundary of ${bs.size} boundaries, expected exactly 1`);
   }
   return errors;
 }
