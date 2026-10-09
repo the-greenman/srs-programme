@@ -44,6 +44,25 @@ console.log("roadmap.test: ok");
 }
 console.log("roadmap.test (affirmed layer): ok");
 
+// Remedies via implements; structure (cluster/persona) may be a suggestion, claims may not.
+{
+  const MNS = "com.semanticops.method";
+  const rl = (t, s, d) => ({ relationType: t === "contains" ? t : `${MNS}/${t}`, sourceId: s, targetId: d });
+  const data = [...base, q4, rec("pr", "problem", { problem_id: "SP-01", title: "pr" }), rec("rm", "remedy", { title: "Rem", move: "m".repeat(80) }),
+    rec("pe", "persona", { title: "Writer" }), rec("cl", "cluster", { title: "Cluster X" })];
+  const rels = [...links, rl("implements", "e1", "rm"), rl("answers", "rm", "pr"), rl("held-by", "pr", "pe"), rl("contains", "cl", "pr"), rl("addresses", "A", "cl")];
+  const get = (aff) => derive(data, rels, "2026-10-08", new Set(aff)).epics[0];
+  const full = get(["pr", "rm", "pe", "cl"]);
+  assert.deepEqual(full.remedies.map(({ id, title, answers }) => ({ id, title, answers })), [{ id: "rm", title: "Rem", answers: ["SP-01"] }]); // remedy via implements
+  assert.deepEqual(full.answers, [{ problem: "SP-01", persona: "Writer", cluster: "Cluster X", objective: "A" }]); // no suggested flags when affirmed
+  assert.equal(get(["pr", "pe", "cl"]).remedies, undefined); // non-affirmed remedy ignored
+  assert.equal(get(["pr", "rm"]).answers[0].suggested, true); // suggested cluster, addresses still reaches objective
+  assert.equal(get(["pr", "rm"]).answers[0].objective, "A");
+  assert.equal(get(["pr", "rm"]).answers[0].personaSuggested, true); // suggested persona
+  assert.equal(get(["rm", "pe", "cl"]).answers, undefined); // problem must still be affirmed
+  console.log("roadmap.test (remedies): ok");
+}
+
 // Method check: tension = 2 poles; principle governs 1 tension and leans toward one of its poles.
 {
   const { checkMethod } = await import("./check-method.mjs");
