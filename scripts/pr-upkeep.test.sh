@@ -6,7 +6,7 @@ FAIL=0
 t() { local want=$1 got; shift; got=$(wg_verdict "$@"); [ "$got" = "$want" ] && echo "ok   $want" || { echo "FAIL want '$want' got '$got'"; FAIL=1; }; }
 
 line='<!-- wg-quorum --> builder=agent:tpr-builder reviewer=%s gates=green@abc123 mandate=srs-rust#1 verdict=%s'
-c() { jq -n --arg b "$(printf "$line\nfindings: none" "$1" "$2")" --arg at "$3" '[{body:$b,created_at:$at}]'; }
+c() { jq -n --arg b "$(printf "$line\nfindings: none" "$1" "$2")" --arg at "$3" '[{body:$b,created_at:$at,author_association:"OWNER"}]'; }
 COMMIT=2026-10-12T10:00:00Z; AFTER=2026-10-12T11:00:00Z; BEFORE=2026-10-12T09:00:00Z
 
 t ok                                                    1 "$(c agent:tpr-reviewer approve $AFTER)" $COMMIT 3
@@ -15,5 +15,6 @@ t "quorum comment older than the last commit"           1 "$(c agent:tpr-reviewe
 t "over budget (10 of 10 merged this cycle)"            1 "$(c agent:tpr-reviewer approve $AFTER)" $COMMIT 10
 t "verdict reject"                                      1 "$(c agent:tpr-reviewer reject $AFTER)" $COMMIT 3
 t "no quorum comment"                                   1 '[{"body":"lgtm","created_at":"2026-10-12T11:00:00Z"}]' $COMMIT 3
+t "no quorum comment"                                   1 "$(c agent:tpr-reviewer approve $AFTER | jq '.[0].author_association="NONE"')" $COMMIT 3   # stranger's comment ignored
 t n/a                                                   0 '[]' $COMMIT 99   # non-group PR: neither quorum nor budget applies
 exit $FAIL

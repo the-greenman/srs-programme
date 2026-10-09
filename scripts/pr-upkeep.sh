@@ -19,7 +19,8 @@ wg_verdict() {
   [ "$1" = 1 ] || { echo n/a; return; }
   local q
   q=$(jq -r --arg t "$3" '
-    [.[] | select(.body|startswith("<!-- wg-quorum -->"))
+    [.[] | select(.author_association == "OWNER")  # public repos: anyone can comment; only the owner account (routines run as it) counts
+         | select(.body|startswith("<!-- wg-quorum -->"))
          | (.body|split("\n")[0]) as $l
          | ($l|capture("^<!-- wg-quorum --> builder=(?<b>agent:\\S+) reviewer=(?<r>agent:\\S+) gates=\\S+ mandate=\\S+ verdict=(?<v>\\S+)")? // {b:"",r:"",v:"malformed"})
          + {at:.created_at}] | sort_by(.at) | last
@@ -65,7 +66,7 @@ for r in $REPOS; do
       if [[ "$gate" == *gate:auto-merge* ]]; then
         sha=$(gh api "repos/the-greenman/$r/pulls/$n" --jq .head.sha 2>/dev/null)
         last=$(gh api "repos/the-greenman/$r/commits/$sha" --jq .commit.committer.date 2>/dev/null)
-        cm=$(gh api "repos/the-greenman/$r/issues/$n/comments" --paginate --jq '.[]|{body,created_at}' 2>/dev/null | jq -s . 2>/dev/null)
+        cm=$(gh api "repos/the-greenman/$r/issues/$n/comments" --paginate --jq '.[]|{body,created_at,author_association}' 2>/dev/null | jq -s . 2>/dev/null)
         if [ -z "$last" ] || [ -z "$cm" ]; then why="could not read commits or comments"
         else why=$(wg_verdict 1 "$cm" "$last" "$WG_MERGED"); fi
       fi
