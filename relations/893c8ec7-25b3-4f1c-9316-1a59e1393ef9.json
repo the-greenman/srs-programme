@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "893c8ec7-25b3-4f1c-9316-1a59e1393ef9",
+  "relationType": "com.semanticops.method/implements",
+  "sourceInstanceId": "8cbb562f-86ef-41e0-a0bd-8bd40b2e1cf9",
+  "targetInstanceId": "eed1e4ef-798b-4968-b346-f28dfa9388c7",
+  "createdAt": "2026-10-09T09:40:06.922214844+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:linker",
+    "name": "Linker"
+  }
+}
