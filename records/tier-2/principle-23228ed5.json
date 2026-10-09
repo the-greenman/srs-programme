@@ -1,0 +1,24 @@
+{
+  "instanceId": "23228ed5-6a95-41a4-ab63-9a66b0f4c43c",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Spec first over shipping ahead",
+    "boundary_clause": "None: spec first always (owner ruling on C5, 2026-10-09).",
+    "context": "Applies in the SRS implementation boundary. Rule evidenced by ADR-048 rule 1; the always clause is the owner's ruling on C5.",
+    "source_ref": [
+      "source-documents/boundaries-2026-10-09/proposal.md (section 3.3)",
+      "source-documents/boundaries-2026-10-09/proposal.md (section 4, owner ruling C5)"
+    ]
+  },
+  "createdAt": "2026-10-09T18:32:36.901504990+00:00",
+  "updatedAt": "2026-10-09T18:32:36.901508700+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

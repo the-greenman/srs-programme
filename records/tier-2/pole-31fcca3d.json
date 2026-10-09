@@ -1,0 +1,20 @@
+{
+  "instanceId": "31fcca3d-e18d-4403-b8f0-7ac5b2be2040",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Layered depth",
+    "looks_like": "A short top layer states the claim; detail sits one step down and is reached on purpose.",
+    "shadow": "Too thin a top layer: the reader cannot tell what is below it."
+  },
+  "createdAt": "2026-10-09T18:32:33.384307503+00:00",
+  "updatedAt": "2026-10-09T18:32:33.384308913+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

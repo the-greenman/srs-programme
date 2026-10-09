@@ -1,0 +1,20 @@
+{
+  "instanceId": "b7bb2eff-a493-4995-8d66-874117833d24",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Mechanism",
+    "looks_like": "The tool is honest about each operation; a governed corpus adopts policy in its own records.",
+    "shadow": "A tool that cannot enforce anything a corpus needs."
+  },
+  "createdAt": "2026-10-09T18:32:34.956631385+00:00",
+  "updatedAt": "2026-10-09T18:32:34.956635164+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

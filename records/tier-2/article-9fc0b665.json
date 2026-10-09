@@ -1,0 +1,24 @@
+{
+  "instanceId": "9fc0b665-d479-4cea-b374-ee561a9f558c",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "title": "Layers: SRS implementation",
+    "article_text": "Layers that stay apart: srs-core (no I/O), then srs-repository (all logic), then adapters (CLI, bindings, mcp-core, mcp), then clients. Rule: semantics live once, in srs-repository. ADR-048 rule 6 (identifier over label) specialises the Identity cell.",
+    "rationale": "ADR-048 and capability-layering.md.",
+    "amendment_rule": "Owner only.",
+    "protected_status": "Agent suggestion until the owner affirms it.",
+    "status": "proposed"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-09T18:32:41.371675645+00:00",
+  "updatedAt": "2026-10-09T18:32:41.371677066+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

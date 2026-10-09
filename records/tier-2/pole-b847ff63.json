@@ -1,0 +1,20 @@
+{
+  "instanceId": "b847ff63-3232-4a2d-8f37-06cc7203e2ba",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Human layer",
+    "looks_like": "The Affirmed layer wins; an agent only suggests.",
+    "shadow": "A queue only the owner can drain (the owner-merge PR flood, 2026-10-09)."
+  },
+  "createdAt": "2026-10-09T18:32:34.168163667+00:00",
+  "updatedAt": "2026-10-09T18:32:34.168165411+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

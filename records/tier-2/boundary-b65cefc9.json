@@ -1,0 +1,23 @@
+{
+  "instanceId": "b65cefc9-a149-4449-98c7-44c26be15a4d",
+  "typeId": "5091e5a0-4fa5-4b7b-9108-6d59765ce68d",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.argument",
+  "typeName": "boundary",
+  "fieldValues": {
+    "title": "SRS standard",
+    "purpose": "Transfer a complex unit of knowledge with its meaning intact, layered and drillable, without encoding who is in charge.",
+    "inside": "The SRS specification, its schemas and its decision charter (srs/docs/charter/decision-compass.md).",
+    "outside": "Org charts, workflow, UI, storage, transport, making decisions (SRS charter section 6).",
+    "authority_basis": "The decision charter and the ratified rfc-decision records in the srs repository. Its compass is the nine tensions and six principles already recorded.",
+    "revision_condition": "The decision charter is amended, or a blank unless clause (semantic integrity, shared coherence) is ratified."
+  },
+  "createdAt": "2026-10-09T18:32:32.673600778+00:00",
+  "updatedAt": "2026-10-09T18:32:32.673602671+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -25,7 +25,7 @@ const MNS = "com.semanticops.method";
  * layer only (so are remedies); cluster and persona labels may also come from Suggestions, flagged suggested.
  */
 export function derive(records, relations, today, affirmed = new Set()) {
-  const rows = records.map((r) => ({ id: r.instanceId, type: r.record.typeName, fv: r.record.fieldValues }));
+  const rows = records.map((r) => ({ id: r.instanceId, type: r.record.typeName, ns: r.record.typeNamespace, fv: r.record.fieldValues }));
   const byId = new Map(rows.map((r) => [r.id, r]));
   const periods = rows.filter((r) => r.type === "period").sort((a, b) => a.fv.starts_on.localeCompare(b.fv.starts_on));
   // Active = started and not ended (ends_on optional). A later-started period requires the earlier one to be closed before it.
@@ -70,7 +70,8 @@ export function derive(records, relations, today, affirmed = new Set()) {
   // Parked snapshot (v12): boundaries, stages, contracts, assessments keyed by strategy_key, with their outgoing relations among themselves.
   const SNAP = { boundary: "boundaries", capability_stage: "stages", strategy_contract: "contracts", assessment: "assessments" };
   const snapshot = Object.fromEntries(Object.values(SNAP).map((k) => [k, []]));
-  const snapRows = rows.filter((r) => SNAP[r.type]);
+  // Programme types only: argument/boundary shares the type name "boundary" (pilot semanticops.com#31).
+  const snapRows = rows.filter((r) => SNAP[r.type] && (r.ns ?? NS) === NS);
   const snapIds = new Map(snapRows.map((r) => [r.id, r]));
   for (const r of snapRows) {
     const { title, strategy_key, summary, body, ...rest } = r.fv;

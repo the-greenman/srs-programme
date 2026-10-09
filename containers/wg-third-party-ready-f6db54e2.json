@@ -1,0 +1,50 @@
+{
+  "containerId": "f6db54e2-f554-4bd2-b985-e000a54542f4",
+  "title": "WG Third-party ready",
+  "namespace": "com.semanticops.programme",
+  "name": "wg-third-party-ready",
+  "description": "Charter records of the Third-party ready working group (semanticops.com#31): role, standing orders, agents, standing jobs and the decision log.",
+  "identityInstanceId": "88c32389-a3d4-4b45-b7ad-ffd619f55f7a",
+  "anchorInstanceId": "88c32389-a3d4-4b45-b7ad-ffd619f55f7a",
+  "memberInstanceIds": [
+    {
+      "instanceId": "88c32389-a3d4-4b45-b7ad-ffd619f55f7a"
+    },
+    {
+      "instanceId": "834b61fd-6385-4e7e-8c5f-8fe65718f65c"
+    },
+    {
+      "instanceId": "6bc0a404-2f0b-48bc-a8c6-d69b9a340015"
+    },
+    {
+      "instanceId": "f65ba0b9-8c5b-4312-9567-7e1b9470264d"
+    },
+    {
+      "instanceId": "c5a8c529-578a-4a34-bee3-3ed073305cee"
+    },
+    {
+      "instanceId": "07d1594d-9f68-4b8c-b773-2a68174606e4"
+    },
+    {
+      "instanceId": "7f34b620-88e7-4981-a937-6a44f47f9096"
+    },
+    {
+      "instanceId": "dd4177ef-29d3-4913-8f36-7cfbf6bafbf8"
+    },
+    {
+      "instanceId": "6e255308-8b50-4932-9ad1-ebfb42c7a474"
+    },
+    {
+      "instanceId": "49d82dc1-0655-414d-a214-461dc52da8ef"
+    },
+    {
+      "instanceId": "63def3a3-56f7-481d-957c-425734a9ea56"
+    },
+    {
+      "instanceId": "53ba8d1b-7388-4920-8861-7263725b7f04"
+    },
+    {
+      "instanceId": "2c00d88f-607e-4c0d-a23f-445901651398"
+    }
+  ]
+}

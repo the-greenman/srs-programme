@@ -1,0 +1,23 @@
+{
+  "instanceId": "53ba8d1b-7388-4920-8861-7263725b7f04",
+  "typeId": "58f0ee7b-8063-4fc7-9b39-af918962c91f",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "standing-job",
+  "fieldValues": {
+    "title": "Close the cycle and report",
+    "description": "Gather the cycle (Monday 00:00 to Sunday 18:00 UTC), escalate stops and over-budget items as proposed decisions, write the run-report and post it on semanticops.com#31.",
+    "done_when": "A run-report record exists for the cycle and the same report is a comment on semanticops.com#31 dated before Monday.",
+    "trigger": "Sunday 18:00 UTC",
+    "size": "1 run-report plus escalations"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-09T18:48:21.832554461+00:00",
+  "updatedAt": "2026-10-09T18:48:21.832558632+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

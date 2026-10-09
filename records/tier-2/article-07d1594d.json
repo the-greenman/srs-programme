@@ -1,0 +1,24 @@
+{
+  "instanceId": "07d1594d-9f68-4b8c-b773-2a68174606e4",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "title": "Reporting and minutes",
+    "article_text": "The group keeps its minutes in its decision log (container WG Third-party ready). A task gets no decision record; close an issue only with a merged PR. A within-mandate decision that closes options is created proposed by the Builder, then ratified by the Reviewer with a comment under its own actor. Every escalation is a proposed decision created by the Steward, opening with the problem statement; only the owner moves it to ratified. The Steward is the only member who opens escalations.",
+    "rationale": "Minutes are the audit trail for a mandate that rests on testimony, since one GitHub identity does every merge.",
+    "amendment_rule": "Owner only: an amendment needs a new owner-ratified decision.",
+    "protected_status": "Agent testimony until the owner ratifies the charter decision.",
+    "status": "proposed"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-09T18:48:19.788587405+00:00",
+  "updatedAt": "2026-10-09T18:48:19.788594736+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
