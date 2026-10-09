@@ -1,0 +1,23 @@
+{
+  "instanceId": "2c00d88f-607e-4c0d-a23f-445901651398",
+  "typeId": "58f0ee7b-8063-4fc7-9b39-af918962c91f",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "standing-job",
+  "fieldValues": {
+    "title": "Divergence diff and triage",
+    "description": "Re-run the divergence diff, triage new divergences from the archaeology (B-decisions, F-drift) into problem-statement issues, and report the count.",
+    "done_when": "The divergence count is in the cycle report, and each new divergence has a problem-statement issue.",
+    "trigger": "weekly",
+    "size": "Open issues, no records"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-09T18:48:22.101778189+00:00",
+  "updatedAt": "2026-10-09T18:48:22.101780634+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
