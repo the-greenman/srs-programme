@@ -1,0 +1,19 @@
+{
+  "instanceId": "88c32389-a3d4-4b45-b7ad-ffd619f55f7a",
+  "typeId": "5a061505-dd0e-4c8d-9e20-fa28a3c42b68",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision_log",
+  "fieldValues": {
+    "title": "WG Third-party ready: decisions"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-09T18:48:18.713152653+00:00",
+  "updatedAt": "2026-10-09T18:48:18.713158388+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

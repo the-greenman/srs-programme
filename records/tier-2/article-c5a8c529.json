@@ -1,0 +1,24 @@
+{
+  "instanceId": "c5a8c529-578a-4a34-bee3-3ed073305cee",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "title": "Budget",
+    "article_text": "At most 10 PRs merged per cycle. The Builder also stops when merged plus open group PRs reach 10 and labels the issue needs-input. Going over budget is an escalation.",
+    "rationale": "A cap keeps the output reviewable (reviewable units over throughput).",
+    "amendment_rule": "Owner only: an amendment needs a new owner-ratified decision.",
+    "protected_status": "Agent testimony until the owner ratifies the charter decision.",
+    "status": "proposed"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-09T18:48:19.541627123+00:00",
+  "updatedAt": "2026-10-09T18:48:19.541630447+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
