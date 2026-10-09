@@ -1,13 +1,13 @@
 name: PR upkeep
 
-# Hourly: merge green `gate:auto-merge` PRs and keep gated PRs up to date with
-# their base across the estate. Daily at 07:20 UTC it also posts the owner's
+# Every 15 minutes: merge green `gate:auto-merge` PRs and keep gated PRs up to date with
+# their base across the estate. Once a day (first run after 07:00 UTC) it also posts the owner's
 # review digest on semanticops.com#33. See scripts/pr-upkeep.sh (srs-programme#39).
 # Needs BOARD_TOKEN (repo scope on every listed repo).
 
 on:
   schedule:
-    - cron: "20 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
       apply:
@@ -40,5 +40,5 @@ jobs:
         run: |
           args=()
           if [ "$IS_SCHEDULE" = true ] || [ "$APPLY" = true ]; then args+=(--apply); fi
-          if { [ "$IS_SCHEDULE" = true ] && [ "$(date -u +%H)" = 07 ]; } || [ "$DIGEST" = true ]; then args+=(--digest); fi
+          if { [ "$IS_SCHEDULE" = true ] && [ "$(date -u +%H)" = 07 ] && [ "$(date -u +%M)" -lt 15 ]; } || [ "$DIGEST" = true ]; then args+=(--digest); fi
           bash scripts/pr-upkeep.sh "${args[@]}"

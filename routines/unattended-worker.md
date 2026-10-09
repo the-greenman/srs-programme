@@ -23,32 +23,24 @@ You are a cloud routine. You take issues labelled `lane:unattended` and ship eac
 3. PLAN, THEN IMPLEMENT in that issue's repo, on a branch off `origin/<default>`. Keep the diff to what "Done when" requires: no drive-by refactors, no new abstractions.
 4. GATES BY EXIT CODE, as listed in that repo's CLAUDE.md "Gates and choreography" section, never a piped tail. A red gate you cannot fix within scope means stop and report; never weaken a test to pass. If a red gate was already red on the last green default-branch commit, say so with evidence rather than fixing it.
 5. REVIEW BEFORE PR. Spawn a reviewer subagent with the issue text and `git diff origin/<default>...HEAD`. It checks correctness, completeness against "Done when", anything missed (other callers, payload goldens, bindings, docs) and over-engineering. Fix what it finds, re-run the gates.
-6. PR. Body has: the classification line the repo's CLAUDE.md prescribes (Mode, Cell, Door), `Closes <repo>#n`, `Answers: SP-nn` (or the issue's stated problem), `Part of <epic>`, gate results (command and exit code), reviewer findings and what you did about them. Classify by that repo's own merge rules (CLAUDE.md "Gates and choreography" / merge gate): mode clear or complicated AND Door 1 (cites the ruling) or non-normative (docs, tooling, checks, tests, dead-code removal, implementation with no spec/schema/payload change) → `gate:auto-merge`; the hourly PR-upkeep job merges it on green. Everything else (mode complex, Door 2/3, a new dependency, a user-visible product change, anything you are unsure of) → `gate:owner-merge`, and say in the body which decision the owner is being asked to make. Owner-merge is for real decisions only (owner, 2026-10-09). Never merge yourself. End the body with "🤖 Generated with [Claude Code](https://claude.com/claude-code)". End commit messages with "Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>".
+6. PR. Body has: the classification line the repo's CLAUDE.md prescribes (Mode, Cell, Door), `Closes <repo>#n`, `Answers: SP-nn` (or the issue's stated problem), `Part of <epic>`, gate results (command and exit code), reviewer findings and what you did about them. Classify by that repo's own merge rules (CLAUDE.md "Gates and choreography" / merge gate): mode clear or complicated AND Door 1 (cites the ruling) or non-normative (docs, tooling, checks, tests, dead-code removal, implementation with no spec/schema/payload change) → `gate:auto-merge`; the PR-upkeep job (every 15 minutes) merges it on green. Everything else (mode complex, Door 2/3, a new dependency, a user-visible product change, anything you are unsure of) → `gate:owner-merge`, and say in the body which decision the owner is being asked to make. Owner-merge is for real decisions only (owner, 2026-10-09). Never merge yourself. End the body with "🤖 Generated with [Claude Code](https://claude.com/claude-code)". End commit messages with "Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>".
 7. RUN REPORT as a comment on the issue:
    - chose: what you did and key decisions
    - figures: gate results, files changed, +/- lines
    - landed_as: PR URL, or "nothing: needs owner — <question>"
    - friction: what slowed you or was missing. This line matters most.
 
-## Working groups
+## Working groups (fallback sweep only)
 
-Group: WG Third-party ready (semanticops.com#31), charter in the group container "WG Third-party ready" (role 834b61fd, standing orders Membership and quorum, Cycle and report, Budget c5a8c529, Reporting and minutes). Its PRs carry the label `wg:third-party-ready`.
+Group: WG Third-party ready (semanticops.com#31), PRs and issues labelled `wg:third-party-ready`. The group is EVENT-DRIVEN: `routines/wg-reviewer.md` (PR events) and `routines/wg-builder.md` (issue and merge events) do the work, and `scripts/pr-upkeep.sh` merges. Read those briefs for the rules; they are not restated here. This lane only catches missed events.
 
 **Not in force until `RATIFYING_DECISION_ID` is set.** Defined here once: `RATIFYING_DECISION_ID = <unset: the owner's "Charter: WG Third-party ready" decision id, created in U6>`. While it is unset, skip this whole section and run the lane as above.
 
-Each run does two stages, in this order. The cycle is a rhythm set in the Cycle and report standing order: it closes daily at 11:30 UTC and the budget resets at each close. Check the pause first: `source scripts/pr-upkeep.sh; wg_pause_check` prints `ok` or `paused: ...` (the group pauses after 2 consecutive cycle reports on #31 without the owner's 👍; unreadable counts as paused). While paused, stage 2 opens nothing new; stage 1 and escalations continue.
+Each run, after the general queue:
 
-1. REVIEW as `SRS_ACTOR agent:tpr-reviewer`. For each open `wg:third-party-ready` PR built by an EARLIER run (never one from this run), in a fresh context:
-   - If it is BEHIND, update the branch first (a later commit voids any earlier quorum), then run the repo's gates yourself and review the diff against the issue and the ruling it names.
-   - List findings; an empty list is stated as "findings: none".
-   - Approve: post ONE comment whose first line is exactly `<!-- wg-quorum --> builder=agent:tpr-builder reviewer=agent:tpr-reviewer gates=<green|red>@<sha> mandate=<ruling, no spaces> verdict=<approve|reject>` and whose later lines are the findings. `pr-upkeep.sh` parses that line; the comment must be newer than the last commit and the two actors must differ. Only after posting an `approve`, add `gate:auto-merge`. On `reject`, post the comment and add nothing.
-   - A within-mandate decision the Builder created `proposed`: move it to `ratified` and add a comment record under your actor.
-2. BUILD as `SRS_ACTOR agent:tpr-builder`, up to the usual 3. Take only issues labelled `wg:third-party-ready` that are children of #31 and name the recorded ruling, RFC or invariant they execute (or are non-normative). Scope: srs-rust, srs-vscode, srs docs and mirror syncs, non-UI srs-web.
-   - If `wg_pause_check` is not `ok`, build nothing.
-   - Budget: delegated merges in this cycle plus open delegated group PRs must be under 10. Merged: `gh api -X GET search/issues -f q="$(wg_budget_query "$(wg_cycle_start)")" --jq .total_count` (excludes `gate:owner-merge` PRs); open: `gh pr list --label wg:third-party-ready --state open` in the estate repos, minus those labelled `gate:owner-merge`. At 10, stop, label the issue `needs-input`, and do not build.
-   - Open the PR WITHOUT a `gate:` label, with the label `wg:third-party-ready` and body lines `Builder: agent:tpr-builder` and `Mandate: <RATIFYING_DECISION_ID>`, plus `Ruling: <the ruling executed>`. A decision that closes options is created `proposed` through the CLI; a plain task gets no decision record.
-
-**Boundary.** Anything in the role's `boundary` field (a change that makes or changes a ruling, Door 2 or 3, complex mode, a breaking CLI or payload change, a pin bump in another repo, anything touching gates or merge rules, going over budget) is never built. Escalate it as ONE `proposed` governance/decision in the group container, through the CLI, as `SRS_ACTOR agent:tpr-steward`, opening with the problem statement; label the issue `needs-input`.
+1. `source scripts/pr-upkeep.sh; wg_pause_check`. Not `ok` means build nothing here; reviews still run.
+2. REVIEW sweep: for each open `wg:third-party-ready` PR (not `gate:owner-merge`) in srs-rust, srs, srs-vscode, srs-web with no valid owner-account quorum comment newer than its head commit, follow `routines/wg-reviewer.md` as `agent:tpr-reviewer`.
+3. BUILD sweep: if the budget allows (per `wg-builder.md`), build at most ONE `ready` + `wg:third-party-ready` issue by `routines/wg-builder.md`, as `agent:tpr-builder`. This counts toward the run's 3 issues.
 
 ## On a stop
 
