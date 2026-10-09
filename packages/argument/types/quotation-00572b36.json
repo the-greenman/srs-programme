@@ -1,0 +1,45 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "purpose": "A passage someone actually read, recorded so a claim can cite words rather than a title. Attach it to the work it came from with derived-from, and to each claim it supports with evidences. Its checked-to level is the level of THIS reading, not of the claim: a passage copied out of a secondary summary is secondary even when the claim it supports is strong. Do not create one from memory or from a search snippet — the wording must be in front of you, because the whole point of a quotation is that a reader can go and check it. Prefer the shortest passage that carries the point; a quotation is evidence, not a substitute for the argument."
+  },
+  "createdAt": "2026-09-21T16:42:38Z",
+  "description": "One passage quoted from a source, with where it was found and how far it was checked. The level between a work and a wording: a source record says which book, a quotation says which words and where.",
+  "fields": [
+    {
+      "displayLabel": "Label",
+      "fieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+      "order": 0,
+      "required": true
+    },
+    {
+      "displayLabel": "Quote",
+      "fieldId": "44163212-578e-4840-881a-25cde9cde4b0",
+      "order": 1,
+      "required": true
+    },
+    {
+      "displayLabel": "Where",
+      "fieldId": "daa5c5c6-4967-4752-bb3e-fd915c9ccb6d",
+      "order": 2,
+      "required": true
+    },
+    {
+      "displayLabel": "Checked to",
+      "fieldId": "ea742151-a85e-42a7-b6e2-38e293716407",
+      "order": 3,
+      "required": true
+    },
+    {
+      "displayLabel": "Why it bears",
+      "fieldId": "e7c60942-7cdf-407e-be1f-bf5f4a648285",
+      "order": 4,
+      "required": false
+    }
+  ],
+  "id": "00572b36-7e4f-4cc2-9de1-9eab16a496ef",
+  "identityFieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+  "name": "quotation",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

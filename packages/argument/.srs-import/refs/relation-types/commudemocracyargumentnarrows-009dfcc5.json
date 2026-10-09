@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Child Boundary narrows parent Boundary",
+  "category": "refinement",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Child Boundary narrows parent Boundary",
+  "id": "009dfcc5-5962-485f-accc-05f8993a9614",
+  "irreflexive": true,
+  "key": "com.mudemocracy.argument/narrows",
+  "label": "narrows",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

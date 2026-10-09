@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Stable citation id for a reusable option."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Stable citation id for a reusable option.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "308b638b-e0d6-4500-9533-a21f1d205306",
+  "name": "option_id",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

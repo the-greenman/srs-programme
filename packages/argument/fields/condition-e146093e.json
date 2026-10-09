@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Observable condition the test investigates."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Observable condition the test investigates.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "e146093e-6214-4ab8-98e2-043d5436030c",
+  "name": "condition",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

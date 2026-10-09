@@ -1,0 +1,38 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/view.json",
+  "createdAt": "2026-09-20T19:51:45.320308973+00:00",
+  "description": "One step on a rendered argument path: its title (if any), then the statement, purpose or description it carries. Used by path compositions with fixed-instances sections.",
+  "exportConfig": {
+    "format": "markdown"
+  },
+  "fieldViews": [
+    {
+      "displayLabel": "Title",
+      "fieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+      "order": 0,
+      "visible": true
+    },
+    {
+      "displayLabel": "Statement",
+      "fieldId": "2d065342-ff8f-4eeb-a6b5-ed200f286fab",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "displayLabel": "Purpose",
+      "fieldId": "d2ea6442-6e0e-4456-902b-f40ec679162d",
+      "order": 2,
+      "visible": true
+    },
+    {
+      "displayLabel": "Description",
+      "fieldId": "e7c60942-7cdf-407e-be1f-bf5f4a648285",
+      "order": 3,
+      "visible": true
+    }
+  ],
+  "id": "7a0d5b2e-3c41-4f9a-9e8b-1d2c3b4a5f60",
+  "name": "path-step-view",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

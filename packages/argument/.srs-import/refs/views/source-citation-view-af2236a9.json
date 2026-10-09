@@ -1,0 +1,32 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/view.json",
+  "createdAt": "2026-09-21T15:33:49Z",
+  "description": "One bibliography entry: the citation as checked, the location if the work is online, and what the source says. The title is supplied by the section's titleFieldId.",
+  "exportConfig": {
+    "format": "markdown"
+  },
+  "fieldViews": [
+    {
+      "displayLabel": "Citation",
+      "fieldId": "80b74312-3416-4c0c-bdb2-c1306b21e1a0",
+      "order": 0,
+      "visible": true
+    },
+    {
+      "displayLabel": "URL",
+      "fieldId": "beccc3c8-0ce0-479e-b901-346e01d14768",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "displayLabel": "What it says",
+      "fieldId": "e7c60942-7cdf-407e-be1f-bf5f4a648285",
+      "order": 2,
+      "visible": true
+    }
+  ],
+  "id": "af2236a9-2ea1-41b1-a7ab-080785da7936",
+  "name": "source-citation-view",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

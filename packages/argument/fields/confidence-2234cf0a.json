@@ -1,0 +1,17 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Confidence in this observation."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Confidence in this observation.",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "closed",
+    "vocabularyRef": "42bb66db-f89b-4caa-adb5-c7eb3f3431fb"
+  },
+  "id": "2234cf0a-ffd5-4df8-abab-a4c9463a5e7d",
+  "name": "confidence",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

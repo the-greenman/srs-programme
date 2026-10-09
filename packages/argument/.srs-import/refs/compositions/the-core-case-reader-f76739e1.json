@@ -1,0 +1,29 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/composition.json",
+  "createdAt": "2026-09-21T15:33:49Z",
+  "description": "The core case: every claim the project asserts, with the refusals held out. Generated — edit the records and the container, not this file.",
+  "exportConfig": {
+    "format": "markdown",
+    "preamble": "<!-- rendered from muSrs; do not edit -->\n# The core case"
+  },
+  "id": "f76739e1-9c22-4126-a8a3-cc3efdf6989b",
+  "name": "the-core-case-reader",
+  "namespace": "com.mudemocracy.argument",
+  "sections": [
+    {
+      "emptyBehavior": "hide",
+      "order": 0,
+      "renderViewId": "7a0d5b2e-3c41-4f9a-9e8b-1d2c3b4a5f60",
+      "sectionId": "claims",
+      "source": {
+        "containerId": "603caaf3-7368-43f4-91a1-b82570527aba",
+        "type": "container-subset"
+      },
+      "titleFieldId": "3ab45ec6-50d5-43dc-a5bb-f68d13b33a91"
+    }
+  ],
+  "tags": [
+    "generated-doc"
+  ],
+  "version": 1
+}

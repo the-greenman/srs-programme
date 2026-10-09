@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "How the condition will be observed."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "How the condition will be observed.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "d00fcd53-2fb8-4da6-a3c6-0f3d69e6272a",
+  "name": "observation_method",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

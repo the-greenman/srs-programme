@@ -1,0 +1,17 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Current epistemic posture of this record."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Current epistemic posture of this record.",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "closed",
+    "vocabularyRef": "c927e712-42bb-4c10-99de-49c6c5d81871"
+  },
+  "id": "7c40ce42-df1f-4730-af64-480524971404",
+  "name": "epistemic_posture",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

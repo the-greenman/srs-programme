@@ -1,0 +1,15 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Date and time of review."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Date and time of review.",
+  "fieldType": {
+    "datatype": "date-time"
+  },
+  "id": "65d13a2d-cc6f-46f0-b987-283436470579",
+  "name": "reviewed_at",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

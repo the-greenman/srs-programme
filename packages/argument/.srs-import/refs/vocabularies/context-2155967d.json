@@ -1,0 +1,27 @@
+{
+  "createdAt": "2026-09-08T14:36:22Z",
+  "description": "Maturity of the group. Marked only where it discriminates; a statement with no context applies to both founding and established groups.",
+  "id": "2155967d-db81-490e-b717-dc69d0564a51",
+  "mode": "closed",
+  "name": "context",
+  "namespace": "com.mudemocracy.argument",
+  "terms": [
+    {
+      "description": "A group in its founding period.",
+      "id": "77d0b9bd-f71e-421a-92cd-3f1473fb2cb2",
+      "key": "founding",
+      "label": "Founding",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "A group that is already established.",
+      "id": "30f3cb6b-3586-49d1-978d-99746caaeb50",
+      "key": "established",
+      "label": "Established",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

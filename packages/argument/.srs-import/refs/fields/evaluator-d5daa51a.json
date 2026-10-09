@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Person, role, or method that evaluated the observation."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Person, role, or method that evaluated the observation.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "d5daa51a-d05f-422f-b3d7-98891c2db23c",
+  "name": "evaluator",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

@@ -1,0 +1,17 @@
+{
+  "aiGuidance": {
+    "purpose": "The grid's element axis: fire, earth, air, or water."
+  },
+  "createdAt": "2026-09-08T14:37:19Z",
+  "description": "The grid's element axis.",
+  "editorHint": "dropdown",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "closed",
+    "vocabularyRef": "a8d761c3-371e-4fd9-85e8-85284bd25209"
+  },
+  "id": "e452f17b-4166-43fd-ba8b-9333709f60ac",
+  "name": "element",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

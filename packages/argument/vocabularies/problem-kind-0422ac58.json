@@ -1,0 +1,51 @@
+{
+  "createdAt": "2026-09-08T14:36:22Z",
+  "description": "What sort of thing a problem statement is: a belief people hold, a capability that is missing, a condition of the world, a consequence that follows, or a shift already underway.",
+  "id": "0422ac58-71d1-4308-9a07-5448806e098b",
+  "mode": "closed",
+  "name": "problem-kind",
+  "namespace": "com.mudemocracy.argument",
+  "terms": [
+    {
+      "description": "A belief people hold, e.g. that democracy means voting.",
+      "id": "88d92dbd-363f-4001-a409-c45f30991118",
+      "key": "belief",
+      "label": "Belief",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "A capability that is missing or undeveloped.",
+      "id": "92d84e42-1157-466c-8f7f-ebd78e0494c2",
+      "key": "capability",
+      "label": "Capability",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "A condition of the world, not an experience anyone has directly.",
+      "id": "5c9ef07a-c048-431b-af77-65bcb4d29e7b",
+      "key": "condition",
+      "label": "Condition",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "A consequence that follows from some other condition or belief.",
+      "id": "8eeb60ca-52d1-406e-81d2-f257f3c6ba15",
+      "key": "consequence",
+      "label": "Consequence",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "A shift already underway that changes the terrain.",
+      "id": "cc038a63-1224-4220-91ec-88c1e51666f6",
+      "key": "shift",
+      "label": "Shift",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

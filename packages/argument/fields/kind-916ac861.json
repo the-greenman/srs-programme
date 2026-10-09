@@ -1,0 +1,17 @@
+{
+  "aiGuidance": {
+    "purpose": "What sort of thing the problem statement is: belief, capability, condition, consequence, or shift."
+  },
+  "createdAt": "2026-09-08T14:37:19Z",
+  "description": "What sort of thing a problem statement is.",
+  "editorHint": "dropdown",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "closed",
+    "vocabularyRef": "0422ac58-71d1-4308-9a07-5448806e098b"
+  },
+  "id": "916ac861-c5bd-4391-ba4e-22a06136a831",
+  "name": "kind",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

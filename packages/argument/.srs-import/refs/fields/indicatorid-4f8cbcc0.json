@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Stable citation id for an indicator."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Stable citation id for an indicator.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "4f8cbcc0-623c-4cf9-bd93-ed2d05c4ddea",
+  "name": "indicator_id",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

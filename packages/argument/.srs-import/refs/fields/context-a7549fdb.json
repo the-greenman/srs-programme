@@ -1,0 +1,17 @@
+{
+  "aiGuidance": {
+    "purpose": "Maturity of the group the problem applies to; marked only where it discriminates — founding or established."
+  },
+  "createdAt": "2026-09-08T14:37:19Z",
+  "description": "Maturity of the group a problem applies to.",
+  "editorHint": "dropdown",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "closed",
+    "vocabularyRef": "2155967d-db81-490e-b717-dc69d0564a51"
+  },
+  "id": "a7549fdb-b15e-4fb0-8d0b-c6e0add37a68",
+  "name": "context",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

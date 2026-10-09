@@ -1,0 +1,14 @@
+{
+  "aiGuidance": {
+    "purpose": "When the source was produced."
+  },
+  "createdAt": "2026-09-08T14:37:19Z",
+  "description": "When the source was produced.",
+  "fieldType": {
+    "datatype": "date"
+  },
+  "id": "42655c33-8d74-4421-b2a6-389b3b2c54a3",
+  "name": "source_date",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

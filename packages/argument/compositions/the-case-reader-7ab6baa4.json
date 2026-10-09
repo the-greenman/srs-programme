@@ -1,0 +1,29 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/composition.json",
+  "createdAt": "2026-09-21T08:30:55Z",
+  "description": "The case, rendered from its container: the argument in short, then every claim it holds, in precedes order. Generated — edit the records, not this file.",
+  "exportConfig": {
+    "format": "markdown",
+    "preamble": "<!-- rendered from muSrs; do not edit -->\n# The case"
+  },
+  "id": "7ab6baa4-c15a-4bca-8aba-152dbc35a9ac",
+  "name": "the-case-reader",
+  "namespace": "com.mudemocracy.argument",
+  "sections": [
+    {
+      "emptyBehavior": "hide",
+      "order": 0,
+      "renderViewId": "7a0d5b2e-3c41-4f9a-9e8b-1d2c3b4a5f60",
+      "sectionId": "members",
+      "source": {
+        "containerId": "4fd725af-72f2-45d8-8a95-14f0d22af181",
+        "type": "container-subset"
+      },
+      "titleFieldId": "3ab45ec6-50d5-43dc-a5bb-f68d13b33a91"
+    }
+  ],
+  "tags": [
+    "generated-doc"
+  ],
+  "version": 1
+}

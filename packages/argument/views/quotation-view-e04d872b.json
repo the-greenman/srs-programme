@@ -1,0 +1,38 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/view.json",
+  "createdAt": "2026-09-21T16:45:25Z",
+  "description": "One entry on the quote sheet: the passage, where it is, how far it was checked, and what it is doing there.",
+  "exportConfig": {
+    "format": "markdown"
+  },
+  "fieldViews": [
+    {
+      "displayLabel": "Quote",
+      "fieldId": "44163212-578e-4840-881a-25cde9cde4b0",
+      "order": 0,
+      "visible": true
+    },
+    {
+      "displayLabel": "Where",
+      "fieldId": "daa5c5c6-4967-4752-bb3e-fd915c9ccb6d",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "displayLabel": "Checked to",
+      "fieldId": "ea742151-a85e-42a7-b6e2-38e293716407",
+      "order": 2,
+      "visible": true
+    },
+    {
+      "displayLabel": "Why it bears",
+      "fieldId": "e7c60942-7cdf-407e-be1f-bf5f4a648285",
+      "order": 3,
+      "visible": true
+    }
+  ],
+  "id": "e04d872b-b9e1-4681-a4ac-b0fc8502ea2c",
+  "name": "quotation-view",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

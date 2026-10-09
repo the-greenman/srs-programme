@@ -1,0 +1,17 @@
+{
+  "aiGuidance": {
+    "purpose": "The grid's level axis: person, group, or world."
+  },
+  "createdAt": "2026-09-08T14:37:19Z",
+  "description": "The grid's level axis.",
+  "editorHint": "dropdown",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "closed",
+    "vocabularyRef": "28e52983-f464-4a92-a0b4-2954de8b9945"
+  },
+  "id": "4c66f820-fa8e-4c6e-8db2-cf34f6007510",
+  "name": "level",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

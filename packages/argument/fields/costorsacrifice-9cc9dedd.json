@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Cost, loss, or sacrifice accepted in this context."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Cost, loss, or sacrifice accepted in this context.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "9cc9dedd-341c-42cd-a2eb-65263d0c87e7",
+  "name": "cost_or_sacrifice",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

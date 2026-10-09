@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-09-13T10:20:39.298Z",
+  "description": "Expected time horizon of an outcome.",
+  "id": "0c215850-473f-4326-b206-7407c786934b",
+  "mode": "closed",
+  "name": "outcome-horizon",
+  "namespace": "com.mudemocracy.argument",
+  "terms": [
+    {
+      "description": "Near-term change from activity and mechanism.",
+      "id": "27920bfb-43df-4705-8000-61f4d1c8279b",
+      "key": "short",
+      "label": "Short term",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Change expected after repeated practice.",
+      "id": "e41e722b-36f8-44d8-8d2a-08d40b224c05",
+      "key": "medium",
+      "label": "Medium term",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Longer-running change within the theory boundary.",
+      "id": "240eb382-4f39-48ea-90f6-101fcc06b43b",
+      "key": "long",
+      "label": "Long term",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

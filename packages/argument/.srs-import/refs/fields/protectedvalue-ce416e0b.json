@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Value this option protects."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Value this option protects.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "ce416e0b-1a64-4648-96ea-061c94f516c8",
+  "name": "protected_value",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "The claim's citation id. Public copy and internal material cite it, so that what a sentence asserts can be traced to a claim we actually hold."
+  },
+  "createdAt": "2026-09-11T12:47:41.164106384+00:00",
+  "description": "Stable citation id for a claim, e.g. C-01.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "3ab45ec6-50d5-43dc-a5bb-f68d13b33a91",
+  "name": "claim_id",
+  "namespace": "com.mudemocracy",
+  "version": 1
+}

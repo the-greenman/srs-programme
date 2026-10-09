@@ -1,0 +1,91 @@
+{
+  "createdAt": "2026-09-22T00:51:28Z",
+  "description": "Independent adoption lifecycle for argument chains over the shared pool.",
+  "id": "7ce3076d-617c-4593-98bb-12a263fe480a",
+  "initialState": "draft",
+  "name": "chain_lifecycle",
+  "namespace": "com.mudemocracy.argument",
+  "states": [
+    {
+      "description": "Being assembled; steps and order not yet settled.",
+      "id": "3d3f8550-78fd-41db-b3c2-ae1137c0c608",
+      "isInitial": true,
+      "key": "draft",
+      "label": "Draft",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Put forward for adoption into the argument.",
+      "id": "80b31a24-8315-48d0-ac41-1bc657d3b6ed",
+      "key": "proposed",
+      "label": "Proposed",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Renders into the argument.",
+      "id": "2721420a-9706-471b-8f75-7cf505b770d2",
+      "key": "adopted",
+      "label": "Adopted",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Not adopted; does not render into the argument.",
+      "id": "c8da482e-504d-4652-9d52-ab5527607734",
+      "isFinal": true,
+      "key": "declined",
+      "label": "Declined",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Replaced by a ratified successor chain.",
+      "id": "7cb5a0eb-2d3a-45a1-be9a-24cb5d658dcb",
+      "isFinal": true,
+      "key": "superseded",
+      "label": "Superseded",
+      "namespace": "com.mudemocracy.argument",
+      "requiresRelation": {
+        "direction": "incoming",
+        "enforcement": "hard",
+        "relationType": [
+          "supersedes"
+        ]
+      },
+      "version": 1
+    }
+  ],
+  "transitions": [
+    {
+      "description": "Put the chain forward for adoption. Actor: any author.",
+      "from": "draft",
+      "id": "739b6fff-f52d-4175-9bcc-b57d8fcd25bb",
+      "name": "propose",
+      "to": "proposed"
+    },
+    {
+      "description": "Actor: THE OWNER ONLY. Adopting a chain into the argument is the act that cannot be delegated; an agent may propose, never adopt.",
+      "from": "proposed",
+      "id": "5862d8d4-8149-467b-ae2c-dda3ff219a46",
+      "name": "adopt",
+      "to": "adopted"
+    },
+    {
+      "description": "Actor: THE OWNER ONLY. Declining a chain is the same non-delegable act as adopting it, in the other direction.",
+      "from": "proposed",
+      "id": "906110fe-fcc7-4dae-88d6-47da79ce82f3",
+      "name": "decline",
+      "to": "declined"
+    },
+    {
+      "description": "Replace with a successor chain; requires an incoming supersedes relation. Actor: any author.",
+      "from": "adopted",
+      "id": "74971c7d-8785-4f96-958a-0bc7b4f36bd0",
+      "name": "supersede",
+      "to": "superseded"
+    }
+  ],
+  "version": 2
+}

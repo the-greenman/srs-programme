@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Display title for a set / topic / source / grid cell."
+  },
+  "createdAt": "2026-09-08T14:37:19Z",
+  "description": "Display title for a set, topic, source, or grid cell.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+  "name": "title",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

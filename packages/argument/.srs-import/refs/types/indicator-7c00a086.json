@@ -1,0 +1,36 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "extraction": "Title: the field `title` is this type's label in lists and outlines (the type's identity). Set it on every indicator: a short human-readable noun phrase naming the record, distinct from siblings. The code or key field stays as the stable id and is not the label.",
+    "negativeGuidance": "The title must not be the code or key, or strengthen or soften what the record says. Never overwrite a title a person has set."
+  },
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "A definition of how an outcome will be measured.",
+  "fields": [
+    {
+      "fieldId": "4f8cbcc0-623c-4cf9-bd93-ed2d05c4ddea",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "d7e82557-9045-5e92-a494-d99112bbec4a",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "5e81f73e-1ac4-4da8-93ec-2b24a1a669fe",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "ca750540-0b0a-41af-97b4-deaec1b50075",
+      "order": 3,
+      "required": true
+    }
+  ],
+  "id": "7c00a086-3840-4cba-b771-b01e2dad719b",
+  "identityFieldId": "d7e82557-9045-5e92-a494-d99112bbec4a",
+  "name": "indicator",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

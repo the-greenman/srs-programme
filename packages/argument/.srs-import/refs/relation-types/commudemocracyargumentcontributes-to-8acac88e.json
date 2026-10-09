@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Outcome contributes to Impact",
+  "category": "dependency",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Outcome contributes to Impact",
+  "id": "8acac88e-8a2b-4bb5-91d9-b73cc7360866",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/contributes-to",
+  "label": "contributes to",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

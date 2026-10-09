@@ -1,0 +1,52 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "extraction": "Title: give every argument-review a title, a short noun phrase of about 3 to 9 words naming what it asserts or does, so a human scanning a list or outline can tell it from its neighbours. Derive it from the record's own statement. Distinct from sibling titles. Keep any hedge the statement carries (untested, may, assumed, must not be published). The causal id (for example CP-MECH-01) is a code, not a title; the title does not replace it. For a review, the title names the question reviewed, not its verdict; the disposition lives in its own field and can change.",
+    "negativeGuidance": "Title must not be the code, a truncated or reworded-in-full statement, its first words, or a generic phrase. It must not strengthen or soften what the record says; a flat title for a hedged or withdrawn record is wrong. Never overwrite a title a person has set."
+  },
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "An accountable review responding to results or challenges.",
+  "fields": [
+    {
+      "fieldId": "72d2a7b8-711e-42df-b5f9-70d2ae920ad8",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "726cfb5d-65e0-4386-901e-dafc03fd1967",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "621a8faf-e67c-4815-b5e2-23fcbdc5f261",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "3340532b-d845-5e54-92b3-819ed05365c5",
+      "order": 3,
+      "required": true
+    },
+    {
+      "fieldId": "52ff03ef-9d22-4ecc-984e-c6c2e731cddf",
+      "order": 4,
+      "required": true
+    },
+    {
+      "fieldId": "65d13a2d-cc6f-46f0-b987-283436470579",
+      "order": 5,
+      "required": true
+    },
+    {
+      "displayLabel": "Title",
+      "fieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+      "order": 6,
+      "required": false
+    }
+  ],
+  "id": "afc77073-2835-43e8-84b3-237325db59bf",
+  "identityFieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+  "name": "argument-review",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

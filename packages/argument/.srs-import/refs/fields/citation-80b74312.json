@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Author, work, edition and location — enough for a reader to find the passage. Cite only at the level actually checked; do not invent page, chapter or paragraph numbers."
+  },
+  "createdAt": "2026-09-11T12:19:57.731777013+00:00",
+  "description": "Bibliographic citation for a source that is not reached by URL.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "80b74312-3416-4c0c-bdb2-c1306b21e1a0",
+  "name": "citation",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

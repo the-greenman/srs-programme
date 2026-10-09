@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Test or causal record challenges Argument or causal record",
+  "category": "evidence",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Test or causal record challenges Argument or causal record",
+  "id": "f7df1859-6494-412b-8df2-3cad877811e2",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/challenges",
+  "label": "challenges",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

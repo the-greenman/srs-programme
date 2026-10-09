@@ -1,0 +1,47 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "extraction": "Title: give every option-consideration a title, a short noun phrase of about 3 to 9 words naming what it asserts or does, so a human scanning a list or outline can tell it from its neighbours. Derive it from the record's own statement. Distinct from sibling titles. Keep any hedge the statement carries (untested, may, assumed, must not be published). The causal id (for example CP-MECH-01) is a code, not a title; the title does not replace it. For a consideration, the title reads \"<argument title>: <option title in lower case>\", so the pair is recognisable without the code.",
+    "negativeGuidance": "Title must not be the code, a truncated or reworded-in-full statement, its first words, or a generic phrase. It must not strengthen or soften what the record says; a flat title for a hedged or withdrawn record is wrong. Never overwrite a title a person has set."
+  },
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "One option considered within one argument and decision version.",
+  "fields": [
+    {
+      "fieldId": "e5b5852d-e91d-49c4-b773-72e252a1e6b8",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "2525d1bf-44ae-40f8-b199-405b46b41c3d",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "3340532b-d845-5e54-92b3-819ed05365c5",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "9cc9dedd-341c-42cd-a2eb-65263d0c87e7",
+      "order": 3,
+      "required": true
+    },
+    {
+      "fieldId": "55014fc3-b853-4e32-bd4d-e180aa407513",
+      "order": 4,
+      "required": true
+    },
+    {
+      "displayLabel": "Title",
+      "fieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+      "order": 5,
+      "required": false
+    }
+  ],
+  "id": "6fd688c5-986a-4850-8355-288bb3b556b5",
+  "identityFieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+  "name": "option-consideration",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

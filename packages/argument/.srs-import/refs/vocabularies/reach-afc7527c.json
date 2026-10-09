@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-09-08T14:36:22Z",
+  "description": "The grid cell's reach mark, re-marked each cycle: inside, shared, beyond.",
+  "id": "afc7527c-2a32-4053-996e-7b6ca9980a51",
+  "mode": "closed",
+  "name": "reach",
+  "namespace": "com.mudemocracy.argument",
+  "terms": [
+    {
+      "description": "Reach stays inside the group.",
+      "id": "c27e29fd-49b8-4c98-acb7-21a6bdfd8adb",
+      "key": "inside",
+      "label": "Inside",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Reach is shared with adjacent groups.",
+      "id": "5079b6b2-369e-444e-ba46-9c0580184049",
+      "key": "shared",
+      "label": "Shared",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Reach extends beyond the group and its neighbours.",
+      "id": "8eef5260-6b46-45f7-a7a1-bc338a8a977e",
+      "key": "beyond",
+      "label": "Beyond",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

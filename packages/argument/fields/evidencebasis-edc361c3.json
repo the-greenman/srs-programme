@@ -1,0 +1,17 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Basis on which this current position is held."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Basis on which this current position is held.",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "closed",
+    "vocabularyRef": "abaf05a2-dab9-4ee9-8020-bc0b320550f8"
+  },
+  "id": "edc361c3-0ecf-49a9-b245-59d76244ef3e",
+  "name": "evidence_basis",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

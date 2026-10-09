@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Stable citation id for a causal assertion."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Stable citation id for a causal assertion.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "12d921dd-f1d8-4999-ba3d-a68d253ba1ba",
+  "name": "causal_id",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

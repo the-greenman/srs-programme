@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Mechanism or Activity produces Outcome",
+  "category": "dependency",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Mechanism or Activity produces Outcome",
+  "id": "620ac791-6473-4ba3-8541-a3a11813279f",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/produces",
+  "label": "produces",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

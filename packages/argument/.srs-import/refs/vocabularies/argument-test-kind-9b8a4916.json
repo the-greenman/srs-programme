@@ -1,0 +1,43 @@
+{
+  "createdAt": "2026-09-13T10:20:39.298Z",
+  "description": "The category of incorrectness a prospective test investigates.",
+  "id": "9b8a4916-825e-4fde-a8f0-f4aa337c93cd",
+  "mode": "closed",
+  "name": "argument-test-kind",
+  "namespace": "com.mudemocracy.argument",
+  "terms": [
+    {
+      "description": "Evidence contradicts the causal claim.",
+      "id": "109a2db1-0cf7-43f7-92a0-bce7b999b410",
+      "key": "evidential-causal",
+      "label": "Evidential / causal",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "The argument is used beyond its valid remit.",
+      "id": "9c338830-ec6e-498d-85df-10c56dd37a2b",
+      "key": "boundary-scope",
+      "label": "Boundary / scope",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "A material option, tension, party, or trade-off was omitted.",
+      "id": "063965cf-46db-4b50-8c25-537042f9ce23",
+      "key": "deliberative",
+      "label": "Deliberative",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "The chosen path causes or legitimises excluded harm.",
+      "id": "9632d904-d3c7-453a-919d-500b9e7c53a6",
+      "key": "legitimacy-harm",
+      "label": "Legitimacy / harm",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

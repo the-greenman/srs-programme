@@ -1,0 +1,17 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Disposition of an option in one argument."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Disposition of an option in one argument.",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "closed",
+    "vocabularyRef": "a29ba2c3-95cc-45b0-9979-9464bd54ce7b"
+  },
+  "id": "2525d1bf-44ae-40f8-b199-405b46b41c3d",
+  "name": "disposition",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

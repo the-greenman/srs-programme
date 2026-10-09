@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-09-08T14:36:22Z",
+  "description": "The grid's level axis: person, group, world.",
+  "id": "28e52983-f464-4a92-a0b4-2954de8b9945",
+  "mode": "closed",
+  "name": "level",
+  "namespace": "com.mudemocracy.argument",
+  "terms": [
+    {
+      "description": "The level of the individual person.",
+      "id": "213e3b40-e7a2-46a2-8939-694f67633902",
+      "key": "person",
+      "label": "Person",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "The level of the group.",
+      "id": "2fb822ff-5173-4479-b7b8-11bfe54630e6",
+      "key": "group",
+      "label": "Group",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "The level of the world at large.",
+      "id": "0a63c718-97ce-4c9a-8d34-a162002d26ce",
+      "key": "world",
+      "label": "World",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

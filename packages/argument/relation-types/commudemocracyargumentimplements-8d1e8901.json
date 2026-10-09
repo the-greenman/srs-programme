@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Activity or Project implements Mechanism",
+  "category": "dependency",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Activity or Project implements Mechanism",
+  "id": "8d1e8901-8ed0-4673-aeab-d96cd8f53c53",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/implements",
+  "label": "implements",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

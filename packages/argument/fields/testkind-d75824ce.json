@@ -1,0 +1,17 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Category of incorrectness this test investigates."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Category of incorrectness this test investigates.",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "closed",
+    "vocabularyRef": "9b8a4916-825e-4fde-a8f0-f4aa337c93cd"
+  },
+  "id": "d75824ce-c726-4e80-8694-ce9b52ddbce2",
+  "name": "test_kind",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

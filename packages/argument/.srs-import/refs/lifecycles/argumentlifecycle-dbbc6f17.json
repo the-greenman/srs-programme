@@ -1,0 +1,95 @@
+{
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Independent adoption lifecycle for arguments.",
+  "id": "dbbc6f17-bfe7-41a7-afd6-dcea84a312b2",
+  "initialState": "draft",
+  "name": "argument_lifecycle",
+  "namespace": "com.mudemocracy.argument",
+  "states": [
+    {
+      "description": "Being assembled; not yet put forward.",
+      "id": "6943da58-0e2f-4048-aa1e-23be2c0f0195",
+      "isInitial": true,
+      "key": "draft",
+      "label": "Draft"
+    },
+    {
+      "description": "Put forward for accountable adoption.",
+      "id": "9ffdf9dc-69ca-4d7c-8092-a0f7ba71472b",
+      "key": "proposed",
+      "label": "Proposed"
+    },
+    {
+      "description": "Adopted as the current project position.",
+      "id": "43313258-334a-465a-983e-202c7fda43c0",
+      "key": "ratified",
+      "label": "Ratified"
+    },
+    {
+      "description": "No longer adopted and has no successor.",
+      "id": "36e93740-5112-45fb-9e7a-40e554d25d18",
+      "isFinal": true,
+      "key": "withdrawn",
+      "label": "Withdrawn"
+    },
+    {
+      "description": "Replaced by a ratified successor.",
+      "id": "37f75274-760a-4837-b5b2-138b0b3ecdfd",
+      "isFinal": true,
+      "key": "superseded",
+      "label": "Superseded",
+      "requiresRelation": {
+        "direction": "incoming",
+        "enforcement": "hard",
+        "relationType": [
+          "supersedes"
+        ]
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "description": "Put the argument forward.",
+      "from": "draft",
+      "id": "db5b2ee2-449c-4e24-885f-97c01cd1356e",
+      "name": "propose",
+      "to": "proposed"
+    },
+    {
+      "description": "Return for further work.",
+      "from": "proposed",
+      "id": "feeaf58e-f921-42e0-9a80-9ced5558bb26",
+      "name": "revise",
+      "to": "draft"
+    },
+    {
+      "description": "Adopt as current position.",
+      "from": "proposed",
+      "id": "5ea9d0e7-aa1b-4fdb-9eec-24b16e2df849",
+      "name": "ratify",
+      "to": "ratified"
+    },
+    {
+      "description": "Withdraw without successor.",
+      "from": "ratified",
+      "id": "4facfed7-5bc3-4953-992d-f57fd9e321e4",
+      "name": "withdraw",
+      "to": "withdrawn"
+    },
+    {
+      "description": "Withdraw a draft.",
+      "from": "draft",
+      "id": "8b327998-8cbf-461e-91bf-ca7eaebb4601",
+      "name": "withdraw-draft",
+      "to": "withdrawn"
+    },
+    {
+      "description": "Replace with successor.",
+      "from": "ratified",
+      "id": "9b77b0a4-d3a9-4dc0-87bc-a0891cffbb59",
+      "name": "supersede",
+      "to": "superseded"
+    }
+  ],
+  "version": 1
+}

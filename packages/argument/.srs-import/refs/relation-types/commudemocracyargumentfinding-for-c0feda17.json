@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Test Result is finding for Argument",
+  "category": "evidence",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Test Result is finding for Argument",
+  "id": "c0feda17-bf9a-4ab2-815a-dcc9b4fa4700",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/finding-for",
+  "label": "finding for",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

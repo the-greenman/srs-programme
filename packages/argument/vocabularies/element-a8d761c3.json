@@ -1,0 +1,43 @@
+{
+  "createdAt": "2026-09-08T14:36:22Z",
+  "description": "The grid's element axis: fire, earth, air, water.",
+  "id": "a8d761c3-371e-4fd9-85e8-85284bd25209",
+  "mode": "closed",
+  "name": "element",
+  "namespace": "com.mudemocracy.argument",
+  "terms": [
+    {
+      "description": "The fire element of the grid.",
+      "id": "05381c99-ff52-44e9-a03e-51fb7f2b9074",
+      "key": "fire",
+      "label": "Fire",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "The earth element of the grid.",
+      "id": "5dd4cb81-1b33-4829-94c1-25ce52508a33",
+      "key": "earth",
+      "label": "Earth",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "The air element of the grid.",
+      "id": "c42d9f98-7676-4b75-bb98-ea190e583dba",
+      "key": "air",
+      "label": "Air",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "The water element of the grid.",
+      "id": "781ba3c4-38a2-4c1c-bd5d-7a5e2116fc34",
+      "key": "water",
+      "label": "Water",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

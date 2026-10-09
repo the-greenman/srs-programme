@@ -1,0 +1,27 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "purpose": "A topic groups problem statements by subject; sections are topical rather than by kind."
+  },
+  "createdAt": "2026-09-08T14:38:02Z",
+  "description": "A topical grouping of problems, nestable under a problem-set or another topic.",
+  "fields": [
+    {
+      "displayLabel": "Title",
+      "fieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+      "order": 0,
+      "required": true
+    },
+    {
+      "displayLabel": "Description",
+      "fieldId": "e7c60942-7cdf-407e-be1f-bf5f4a648285",
+      "order": 1,
+      "required": false
+    }
+  ],
+  "id": "07fad324-4003-4eae-b6f7-a87bcdd9dd75",
+  "identityFieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+  "name": "topic",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

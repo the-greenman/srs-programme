@@ -1,0 +1,16 @@
+{
+  "aiGuidance": {
+    "purpose": "Group size the problem depends on; marked only where size is the variable — a practice adequate for six people fails at twenty and nothing signals the transition."
+  },
+  "createdAt": "2026-09-08T14:37:19Z",
+  "description": "Group size a problem depends on.",
+  "editorHint": "dropdown",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "open"
+  },
+  "id": "abeefbe0-4add-48f7-8d53-3f5f72e34afd",
+  "name": "size",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

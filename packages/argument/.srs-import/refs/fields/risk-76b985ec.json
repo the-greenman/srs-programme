@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Material risk of this option."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Material risk of this option.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "76b985ec-644e-4154-b4b1-ca82514d7788",
+  "name": "risk",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

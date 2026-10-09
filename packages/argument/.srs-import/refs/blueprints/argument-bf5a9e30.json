@@ -1,0 +1,160 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/blueprint.json",
+  "aiGuidance": {
+    "purpose": "Create a bounded argument decision. Keep navigation separate: contains is never causal decomposition; requires-argument is used only where a selected option requires a narrower argument.\n\n## Name the primary audience\nEvery argument must name the one primary person who needs to understand, use, challenge or carry this decision. Use a concrete role and context. Do not confuse this with the owner, formal authority, affected people or a marketing segment.\n\n## Give each record a title\nEvery option-consideration, argument-test and argument-review record, and every causal record (observation, diagnosis, premise, hypothesis, mechanism, condition, activity, project, outcome, impact) the argument produces, carries a `title`: a short noun phrase naming it, distinct from its siblings, keeping any hedge the record carries. Options, arguments and indicators already label by their own title; their code stays the stable id. See each type's aiGuidance."
+  },
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "A bounded argument-decision bundle: argument, its contextual decision records, and its causal learning path.",
+  "id": "bf5a9e30-6dfb-48be-9485-72ba17b71228",
+  "name": "argument",
+  "namespace": "com.mudemocracy.argument",
+  "requiredTypes": [
+    {
+      "typeId": "5091e5a0-4fa5-4b7b-9108-6d59765ce68d",
+      "typeVersion": 1
+    },
+    {
+      "typeId": "3a8b4980-ba76-49ab-bd57-7e085e31f4e0",
+      "typeVersion": 1
+    },
+    {
+      "typeId": "9a185027-e7bb-4d01-a669-2fe02f0b41df",
+      "typeVersion": 1
+    },
+    {
+      "typeId": "6fd688c5-986a-4850-8355-288bb3b556b5",
+      "typeVersion": 1
+    },
+    {
+      "typeId": "3221f17d-d148-4627-b1fc-cd258df748e7",
+      "typeVersion": 1
+    }
+  ],
+  "rootTypes": [
+    {
+      "typeId": "1bb66a61-9220-402f-8b8f-6676f6adeae6",
+      "typeVersion": 1
+    }
+  ],
+  "structure": [
+    {
+      "cardinality": "one-to-one",
+      "relationType": "com.mudemocracy.argument/within-boundary",
+      "required": true,
+      "sourceType": {
+        "typeId": "1bb66a61-9220-402f-8b8f-6676f6adeae6",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "5091e5a0-4fa5-4b7b-9108-6d59765ce68d",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "one-to-many",
+      "relationType": "com.mudemocracy.argument/acknowledges-tension",
+      "required": true,
+      "sourceType": {
+        "typeId": "1bb66a61-9220-402f-8b8f-6676f6adeae6",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "3a8b4980-ba76-49ab-bd57-7e085e31f4e0",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "one-to-many",
+      "relationType": "com.mudemocracy.argument/has-consideration",
+      "required": true,
+      "sourceType": {
+        "typeId": "1bb66a61-9220-402f-8b8f-6676f6adeae6",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "6fd688c5-986a-4850-8355-288bb3b556b5",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "many-to-one",
+      "relationType": "com.mudemocracy.argument/for-argument",
+      "required": true,
+      "sourceType": {
+        "typeId": "6fd688c5-986a-4850-8355-288bb3b556b5",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "1bb66a61-9220-402f-8b8f-6676f6adeae6",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "many-to-one",
+      "relationType": "com.mudemocracy.argument/considers-option",
+      "required": true,
+      "sourceType": {
+        "typeId": "6fd688c5-986a-4850-8355-288bb3b556b5",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "9a185027-e7bb-4d01-a669-2fe02f0b41df",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "one-to-many",
+      "relationType": "com.mudemocracy.argument/has-test",
+      "required": true,
+      "sourceType": {
+        "typeId": "1bb66a61-9220-402f-8b8f-6676f6adeae6",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "3221f17d-d148-4627-b1fc-cd258df748e7",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "many-to-one",
+      "relationType": "com.mudemocracy.argument/result-of",
+      "sourceType": {
+        "typeId": "af7330fe-8fac-4189-94dd-8ba92c4ec7c3",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "3221f17d-d148-4627-b1fc-cd258df748e7",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "many-to-one",
+      "relationType": "com.mudemocracy.argument/review-of",
+      "sourceType": {
+        "typeId": "afc77073-2835-43e8-84b3-237325db59bf",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "1bb66a61-9220-402f-8b8f-6676f6adeae6",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "one-to-many",
+      "relationType": "com.mudemocracy.argument/requires-argument",
+      "sourceType": {
+        "typeId": "6fd688c5-986a-4850-8355-288bb3b556b5",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "1bb66a61-9220-402f-8b8f-6676f6adeae6",
+        "typeVersion": 1
+      }
+    }
+  ],
+  "tags": [
+    "argument",
+    "theory-of-change"
+  ],
+  "version": 1
+}

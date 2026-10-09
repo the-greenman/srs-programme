@@ -1,0 +1,67 @@
+{
+  "createdAt": "2026-09-21T15:55:28Z",
+  "description": "At what level the support recorded in a claim's warrant was actually reached. The maintainer's rule is that the warrant says what supports the claim AND how far that support was checked; this makes that second part selectable rather than a word buried in prose. It is a statement about the CHECKING, not about how strong the claim is.",
+  "id": "cf5ca321-e084-406e-851e-2f76809825f3",
+  "mode": "closed",
+  "name": "warrant-level",
+  "namespace": "com.mudemocracy",
+  "terms": [
+    {
+      "description": "Checked against the source at the level the warrant states. This is the strongest level the corpus claims and it does not imply the primary full text was reached unless the warrant says so.",
+      "id": "18e06e00-25d2-45c4-a52d-3d3a0553cbcc",
+      "key": "verified",
+      "label": "Verified",
+      "namespace": "com.mudemocracy",
+      "version": 1
+    },
+    {
+      "description": "Checked, but at abstract, review or secondary level. The primary text was not reached, so wording and figures carry the secondary source's authority rather than the original's.",
+      "id": "0e6ffd0b-ea49-48c5-b989-87239dadd6f9",
+      "key": "secondary",
+      "label": "Secondary",
+      "namespace": "com.mudemocracy",
+      "version": 1
+    },
+    {
+      "description": "Description of a present practice that anyone could confirm by watching. Admissible without literature, because a practice a few years old has none. It licenses no claim about what the practice CAUSES: that is a prediction and needs its own warrant.",
+      "id": "0ba5ea2d-5c35-4929-aec8-ea75938612e1",
+      "key": "observed",
+      "label": "Observed",
+      "namespace": "com.mudemocracy",
+      "version": 1
+    },
+    {
+      "description": "A source is named and cited but its text was not reached. Page, wording and figures are unconfirmed. A load-bearing claim at this level is a retrieval job, not a finished claim.",
+      "id": "7f9f9451-90b6-41b9-bf61-33c98b3bad3a",
+      "key": "not-read",
+      "label": "Not read",
+      "namespace": "com.mudemocracy",
+      "version": 1
+    },
+    {
+      "description": "Stated from general knowledge and not checked against anything on the record. The weakest level that still asserts something about the world.",
+      "id": "246606fc-9481-449f-bdb0-fd51d04b371c",
+      "key": "recalled",
+      "label": "Recalled",
+      "namespace": "com.mudemocracy",
+      "version": 1
+    },
+    {
+      "description": "No evidence is offered and none is claimed. Saying so plainly is what makes the claim admissible; a claim that reads confidently and cites nothing is the failure mode this register exists to prevent.",
+      "id": "feadbf72-04bd-4547-9faa-16d4725c115d",
+      "key": "unevidenced",
+      "label": "Unevidenced",
+      "namespace": "com.mudemocracy",
+      "version": 1
+    },
+    {
+      "description": "The kind carries no evidential obligation. Constitutive claims and scope denials are not supported by evidence and are not weakened by its absence.",
+      "id": "45c4be68-5058-4bf7-a2c4-cb2a4f3c4bf4",
+      "key": "none-required",
+      "label": "None required",
+      "namespace": "com.mudemocracy",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

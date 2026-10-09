@@ -1,0 +1,28 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "createdAt": "2026-09-22T00:51:41Z",
+  "description": "An ordered path of steps over the shared pool of claims, with one author. Several chains may draw on the same claims and order them differently. Only chains the owner authored or adopted render into the argument.",
+  "fields": [
+    {
+      "fieldId": "d7e82557-9045-5e92-a494-d99112bbec4a",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "49bd3c8d-0f7d-4182-ae8b-133cbdfc82c0",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "36f28abe-9c95-4953-8d8b-ef3dbf2b2b43",
+      "order": 2,
+      "required": true
+    }
+  ],
+  "id": "de2d95cf-a77a-4be4-8216-8e0c27a70d68",
+  "identityFieldId": "d7e82557-9045-5e92-a494-d99112bbec4a",
+  "lifecycleRef": "7ce3076d-617c-4593-98bb-12a263fe480a",
+  "name": "chain",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

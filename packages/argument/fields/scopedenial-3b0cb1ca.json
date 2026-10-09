@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Stronger claim or scope this assertion refuses."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Stronger claim or scope this assertion refuses.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "3b0cb1ca-adc8-4f1b-9970-38ac6543e0c9",
+  "name": "scope_denial",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

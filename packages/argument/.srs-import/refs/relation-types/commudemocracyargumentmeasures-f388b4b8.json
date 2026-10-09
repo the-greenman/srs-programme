@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Indicator measures Outcome",
+  "category": "evidence",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Indicator measures Outcome",
+  "id": "f388b4b8-673b-4044-855a-fe7043764438",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/measures",
+  "label": "measures",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

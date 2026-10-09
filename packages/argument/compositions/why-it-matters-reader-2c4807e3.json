@@ -1,0 +1,29 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/composition.json",
+  "createdAt": "2026-09-21T08:30:55Z",
+  "description": "Why it matters — concentration and return, rendered from its container: the argument in order, then every claim it holds. Generated — edit the records, not this file.",
+  "exportConfig": {
+    "format": "markdown",
+    "preamble": "<!-- rendered from muSrs; do not edit -->\n# Why it matters — concentration and return"
+  },
+  "id": "2c4807e3-dc45-4201-8ef1-a9441f139098",
+  "name": "why-it-matters-reader",
+  "namespace": "com.mudemocracy.argument",
+  "sections": [
+    {
+      "emptyBehavior": "hide",
+      "order": 0,
+      "renderViewId": "7a0d5b2e-3c41-4f9a-9e8b-1d2c3b4a5f60",
+      "sectionId": "members",
+      "source": {
+        "containerId": "b1f29850-22f6-4819-8abe-7f9a9d0ec52a",
+        "type": "container-subset"
+      },
+      "titleFieldId": "3ab45ec6-50d5-43dc-a5bb-f68d13b33a91"
+    }
+  ],
+  "tags": [
+    "generated-doc"
+  ],
+  "version": 1
+}

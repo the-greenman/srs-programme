@@ -1,0 +1,17 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Expected time horizon of an outcome."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Expected time horizon of an outcome.",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "closed",
+    "vocabularyRef": "0c215850-473f-4326-b206-7407c786934b"
+  },
+  "id": "bf379795-d8c4-4fab-911a-59c6631cfe15",
+  "name": "outcome_horizon",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

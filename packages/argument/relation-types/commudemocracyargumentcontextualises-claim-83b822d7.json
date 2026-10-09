@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Boundary contextualises Claim",
+  "category": "association",
+  "createdAt": "2026-09-13T17:19:38.480305147+00:00",
+  "description": "Boundary contextualises Claim: the claim is relevant evidence, mechanism or constraint in this decision domain without being exclusive to it.",
+  "id": "83b822d7-6352-48cc-b3db-ba8b45173d7b",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/contextualises-claim",
+  "label": "contextualises claim",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

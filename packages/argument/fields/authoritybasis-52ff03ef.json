@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Authority this boundary or review may claim."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Authority this boundary or review may claim.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "52ff03ef-9d22-4ecc-984e-c6c2e731cddf",
+  "name": "authority_basis",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

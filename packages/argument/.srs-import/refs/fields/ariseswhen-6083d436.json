@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Circumstances in which this tension arises."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Circumstances in which this tension arises.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "6083d436-5703-4c37-a583-c41427915d24",
+  "name": "arises_when",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

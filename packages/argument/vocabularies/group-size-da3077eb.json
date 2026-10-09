@@ -1,0 +1,27 @@
+{
+  "createdAt": "2026-09-08T14:36:22Z",
+  "description": "Group size the problem depends on. Marked only where size is the variable: several statements say a practice adequate for six people fails at twenty and nothing signals the transition. Open because the sizes that matter are discovered by use, not fixed in advance.",
+  "id": "da3077eb-8fe9-454e-9ed5-16fda8739763",
+  "mode": "open",
+  "name": "group-size",
+  "namespace": "com.mudemocracy.argument",
+  "terms": [
+    {
+      "description": "A small group, roughly single digits to a dozen.",
+      "id": "0952a8f5-0291-4ad3-ae86-595acfb289aa",
+      "key": "small",
+      "label": "Small",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "The range where a practice adequate for a small group starts to fail, roughly a dozen to a few dozen.",
+      "id": "e3d27dda-f379-4d66-bafc-15fe70d9c78d",
+      "key": "small-to-mid",
+      "label": "Small to mid-sized",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

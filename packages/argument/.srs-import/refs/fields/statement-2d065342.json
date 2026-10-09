@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "The claim itself — one sentence or a short paragraph, no facet prose."
+  },
+  "createdAt": "2026-09-08T14:37:19Z",
+  "description": "The claim a problem statement makes.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "2d065342-ff8f-4eeb-a6b5-ed200f286fab",
+  "name": "statement",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

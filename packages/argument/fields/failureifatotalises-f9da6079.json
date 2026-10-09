@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Harm caused if the first pole is totalised."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Harm caused if the first pole is totalised.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "f9da6079-23f7-469a-8b93-a0dbfb56fe5c",
+  "name": "failure_if_a_totalises",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

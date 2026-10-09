@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-09-13T10:20:39.298Z",
+  "description": "Confidence in an observation.",
+  "id": "42bb66db-f89b-4caa-adb5-c7eb3f3431fb",
+  "mode": "closed",
+  "name": "observation-confidence",
+  "namespace": "com.mudemocracy.argument",
+  "terms": [
+    {
+      "description": "Limited or uncertain observation basis.",
+      "id": "0e357fd8-21a1-452f-999b-f231830c4907",
+      "key": "low",
+      "label": "Low",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Reasonable but incomplete basis.",
+      "id": "0f2e9a7e-ce24-4145-9a0d-8b1a689405be",
+      "key": "medium",
+      "label": "Medium",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Strong, corroborated basis.",
+      "id": "a565f6fb-e3bf-446d-8d22-9111249561d4",
+      "key": "high",
+      "label": "High",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

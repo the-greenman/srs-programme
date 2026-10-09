@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Purpose of this boundary or intervention."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Purpose of this boundary or intervention.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "d2ea6442-6e0e-4456-902b-f40ec679162d",
+  "name": "purpose",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

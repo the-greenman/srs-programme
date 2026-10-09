@@ -1,0 +1,86 @@
+{
+  "createdAt": "2026-09-08T14:36:22Z",
+  "description": "What kind of source material a problem statement or evidence record was drawn from. Open because new kinds of source material will keep turning up.",
+  "id": "62de1a6e-3524-449a-ae9c-399768a598cb",
+  "mode": "closed",
+  "name": "source-kind",
+  "namespace": "com.mudemocracy.argument",
+  "terms": [
+    {
+      "description": "Handwritten cards, photographed.",
+      "id": "51dcef81-ceb2-44b9-9045-bc367978adbd",
+      "key": "cards",
+      "label": "Cards",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "A dictated account.",
+      "id": "e2281c3c-ab99-4a7d-aa10-fcb45865d5d1",
+      "key": "dictation",
+      "label": "Dictation",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "A recorded conversation.",
+      "id": "59d4689a-2d02-4762-8368-cab776a224d6",
+      "key": "conversation",
+      "label": "Conversation",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "A written essay or article.",
+      "id": "ff06e6b1-9899-41eb-a4b1-42700bca7f67",
+      "key": "essay",
+      "label": "Essay",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "A research or reference document.",
+      "id": "4d2518b1-6449-4459-a7d0-f5055940fc96",
+      "key": "document",
+      "label": "Document",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "A transcript of spoken material.",
+      "id": "069fe35d-6883-489a-a9ff-c29135a7244c",
+      "key": "transcript",
+      "label": "Transcript",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "createdAt": "2026-09-11T12:19:32.117285433+00:00",
+      "description": "An account from someone practising a remedy in a real group. The channel through which remedies are evidenced or challenged.",
+      "id": "8dbfa8e5-6b2e-4a5b-a631-3a31b6ce8fb3",
+      "key": "report",
+      "label": "Report from use",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "createdAt": "2026-09-11T12:19:32.127139145+00:00",
+      "description": "A published book or standing body of written practice.",
+      "id": "02038dc0-9b7e-4eeb-8f32-c8ffccaf1f1c",
+      "key": "book",
+      "label": "Book",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "createdAt": "2026-09-11T12:19:32.137915419+00:00",
+      "description": "A page or document published online and cited by URL.",
+      "id": "da99c49a-f16f-4002-885a-9e38cc3d0d68",
+      "key": "web",
+      "label": "Web",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    }
+  ],
+  "version": 1
+}
