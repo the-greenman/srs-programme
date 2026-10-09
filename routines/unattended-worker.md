@@ -36,7 +36,7 @@ Group: WG Third-party ready (semanticops.com#31), charter in the group container
 
 **Not in force until `RATIFYING_DECISION_ID` is set.** Defined here once: `RATIFYING_DECISION_ID = <unset: the owner's "Charter: WG Third-party ready" decision id, created in U6>`. While it is unset, skip this whole section and run the lane as above.
 
-Each run does two stages, in this order. Cycle = Monday 00:00 to Sunday 18:00 UTC.
+Each run does two stages, in this order. The cycle is a rhythm set in the Cycle and report standing order: it closes daily at 11:30 UTC and the budget resets at each close. Check the pause first: `source scripts/pr-upkeep.sh; wg_pause_check` prints `ok` or `paused: ...` (the group pauses after 2 consecutive cycle reports on #31 without the owner's 👍; unreadable counts as paused). While paused, stage 2 opens nothing new; stage 1 and escalations continue.
 
 1. REVIEW as `SRS_ACTOR agent:tpr-reviewer`. For each open `wg:third-party-ready` PR built by an EARLIER run (never one from this run), in a fresh context:
    - If it is BEHIND, update the branch first (a later commit voids any earlier quorum), then run the repo's gates yourself and review the diff against the issue and the ruling it names.
@@ -44,7 +44,8 @@ Each run does two stages, in this order. Cycle = Monday 00:00 to Sunday 18:00 UT
    - Approve: post ONE comment whose first line is exactly `<!-- wg-quorum --> builder=agent:tpr-builder reviewer=agent:tpr-reviewer gates=<green|red>@<sha> mandate=<ruling, no spaces> verdict=<approve|reject>` and whose later lines are the findings. `pr-upkeep.sh` parses that line; the comment must be newer than the last commit and the two actors must differ. Only after posting an `approve`, add `gate:auto-merge`. On `reject`, post the comment and add nothing.
    - A within-mandate decision the Builder created `proposed`: move it to `ratified` and add a comment record under your actor.
 2. BUILD as `SRS_ACTOR agent:tpr-builder`, up to the usual 3. Take only issues labelled `wg:third-party-ready` that are children of #31 and name the recorded ruling, RFC or invariant they execute (or are non-normative). Scope: srs-rust, srs-vscode, srs docs and mirror syncs, non-UI srs-web.
-   - Budget: PRs merged plus open with the label in this cycle must be under 10 (`gh api -X GET search/issues -f q='user:the-greenman is:pr label:"wg:third-party-ready" created:>=<Monday>'` counts both for PRs created this cycle; add open older ones). At 10, stop, label the issue `needs-input`, and do not build.
+   - If `wg_pause_check` is not `ok`, build nothing.
+   - Budget: delegated merges in this cycle plus open delegated group PRs must be under 10. Merged: `gh api -X GET search/issues -f q="$(wg_budget_query "$(wg_cycle_start)")" --jq .total_count` (excludes `gate:owner-merge` PRs); open: `gh pr list --label wg:third-party-ready --state open` in the estate repos, minus those labelled `gate:owner-merge`. At 10, stop, label the issue `needs-input`, and do not build.
    - Open the PR WITHOUT a `gate:` label, with the label `wg:third-party-ready` and body lines `Builder: agent:tpr-builder` and `Mandate: <RATIFYING_DECISION_ID>`, plus `Ruling: <the ruling executed>`. A decision that closes options is created `proposed` through the CLI; a plain task gets no decision record.
 
 **Boundary.** Anything in the role's `boundary` field (a change that makes or changes a ruling, Door 2 or 3, complex mode, a breaking CLI or payload change, a pin bump in another repo, anything touching gates or merge rules, going over budget) is never built. Escalate it as ONE `proposed` governance/decision in the group container, through the CLI, as `SRS_ACTOR agent:tpr-steward`, opening with the problem statement; label the issue `needs-input`.

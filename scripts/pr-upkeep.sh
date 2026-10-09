@@ -9,8 +9,45 @@
 set -uo pipefail
 
 # ponytail: one working group, hard-coded; read from records when a second is chartered (D18).
-# 10 = Budget article c5a8c529-578a-4a34-bee3-3ed073305cee (WG Third-party ready), PRs merged per cycle.
-WG_LABEL="wg:third-party-ready"; WG_BUDGET=10
+# Budget article c5a8c529-578a-4a34-bee3-3ed073305cee: 10 delegated merges per cycle.
+# Cycle article f65ba0b9-8c5b-4312-9567-7e1b9470264d: close at 11:30 UTC, pause after 2 unacknowledged reports.
+WG_LABEL="wg:third-party-ready"; WG_BUDGET=10; WG_CYCLE_CLOSE="11:30"; WG_MAX_UNACKED=2
+WG_REPORT_ISSUE="the-greenman/semanticops.com/issues/31"
+
+# wg_cycle_start [now]: the most recent 11:30 UTC at or before now, as ISO (default now).
+wg_cycle_start() {
+  local now c; now=$(date -u -d "${1:-now}" +%s)
+  c=$(date -u -d "$(date -u -d "@$now" +%F) $WG_CYCLE_CLOSE UTC" +%s)
+  [ "$now" -lt "$c" ] && c=$((c-86400))
+  date -u -d "@$c" +%FT%TZ
+}
+
+# wg_budget_query <cycle_start_iso>: delegated merges only; a gate:owner-merge PR was merged by the owner and does not count.
+wg_budget_query() { echo "user:the-greenman is:pr is:merged label:\"$WG_LABEL\" -label:\"gate:owner-merge\" merged:>=$1"; }
+
+# wg_reactions <comment_id>: reactions JSON array of a report comment (tests override this).
+wg_reactions() { gh api "repos/${WG_REPORT_ISSUE%/issues/*}/issues/comments/$1/reactions" --paginate 2>/dev/null | jq -s 'add // []' 2>/dev/null; }
+
+# wg_paused <issue_comments_json>: ok, or "paused: ..." (fail closed on anything unreadable).
+# Reports = owner comments starting <!-- wg-report cycle=YYYY-MM-DD -->. Acknowledged = a +1 from the owner on the report.
+# Paused when the latest WG_MAX_UNACKED reports all lack it; fewer reports than that never pause.
+wg_paused() {
+  local ids id r n=0 un=0
+  ids=$(jq -r --argjson k "$WG_MAX_UNACKED" '[.[]|select(.author_association=="OWNER" and (.body|test("^<!-- wg-report cycle=[0-9-]+ -->")))]
+    | sort_by(.created_at) | .[-$k:] | .[].id' <<<"$1" 2>/dev/null) || { echo "paused: reports unreadable"; return; }
+  for id in $ids; do
+    n=$((n+1))
+    r=$(wg_reactions "$id") && [ -n "$r" ] || { echo "paused: reactions unreadable"; return; }
+    jq -e 'any(.[]; .content=="+1" and .user.login=="the-greenman")' <<<"$r" >/dev/null 2>&1 || un=$((un+1))
+  done
+  if [ "$n" -ge "$WG_MAX_UNACKED" ] && [ "$un" -ge "$WG_MAX_UNACKED" ]; then echo "paused: $un reports unacknowledged"; else echo ok; fi
+}
+
+# wg_pause_check: fetch the report issue's comments and run wg_paused.
+wg_pause_check() {
+  local cm; cm=$(gh api "repos/$WG_REPORT_ISSUE/comments" --paginate --jq '.[]|{id,body,created_at,author_association}' 2>/dev/null | jq -s . 2>/dev/null)
+  if [ -z "$cm" ]; then echo "paused: reports unreadable"; else wg_paused "$cm"; fi
+}
 
 # wg_verdict <is_wg 0|1> <comments_json> <last_commit_iso> <merged_this_cycle>
 # Prints n/a (not a group PR), ok, or the reason the PR must wait. The latest quorum comment decides.
@@ -47,10 +84,11 @@ act() { # description, command...
 }
 
 FAILS=0; READY=""; CONFLICT=""; UNGATED=""; WGWAIT=""
-# Cycle = Monday 00:00 UTC onward. Fail closed: an unreadable count blocks group merges.
-MONDAY=$(date -u -d "-$(( $(date -u +%u) - 1 )) days" +%F)
-WG_MERGED=$(gh api -X GET search/issues -f q="user:the-greenman is:pr is:merged label:\"$WG_LABEL\" merged:>=$MONDAY" --jq .total_count 2>/dev/null) \
+# Fail closed: an unreadable count or unreadable reports block group merges.
+WG_MERGED=$(gh api -X GET search/issues -f q="$(wg_budget_query "$(wg_cycle_start)")" --jq .total_count 2>/dev/null) \
   || { echo "FAIL  group budget count"; FAILS=$((FAILS+1)); WG_MERGED=$WG_BUDGET; }
+WG_PAUSE=$(wg_pause_check)
+case $WG_PAUSE in *unreadable*) echo "FAIL  group pause check"; FAILS=$((FAILS+1)) ;; esac
 for r in $REPOS; do
   # mergeStateStatus is computed lazily; UNKNOWN just waits for the next run.
   rows=$(gh pr list -R "the-greenman/$r" --state open -L 100 \
@@ -70,6 +108,7 @@ for r in $REPOS; do
         if [ -z "$last" ] || [ -z "$cm" ]; then why="could not read commits or comments"
         else why=$(wg_verdict 1 "$cm" "$last" "$WG_MERGED"); fi
       fi
+      [ "$why" = ok ] && [ "$WG_PAUSE" != ok ] && why="$WG_PAUSE"
       if [ "$why" = ok ] && [ "$state" = CLEAN ]; then
         act "merge $pr (group quorum ok, $WG_MERGED of $WG_BUDGET merged this cycle)" gh pr merge "$n" -R "the-greenman/$r" --merge
         WG_MERGED=$((WG_MERGED+1))
@@ -104,7 +143,7 @@ ${CONFLICT:-- none
 No gate label (classify as \`gate:auto-merge\` or \`gate:owner-merge\`):
 ${UNGATED:-- none
 }
-Working group: waiting (\`$WG_LABEL\`, $WG_MERGED of $WG_BUDGET merged this cycle):
+Working group: $([ "$WG_PAUSE" = ok ] && echo running || echo "$WG_PAUSE") - waiting (\`$WG_LABEL\`, $WG_MERGED of $WG_BUDGET merged this cycle):
 ${WGWAIT:-- none
 }"
   if [ $APPLY = 1 ]; then
