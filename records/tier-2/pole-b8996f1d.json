@@ -1,0 +1,20 @@
+{
+  "instanceId": "b8996f1d-9c30-4405-80ca-a8277f90614a",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Built-in policy",
+    "looks_like": "The tool carries the rule itself.",
+    "shadow": "A repo retirement policy read as a tool rule (#710)."
+  },
+  "createdAt": "2026-10-09T18:32:35.041450969+00:00",
+  "updatedAt": "2026-10-09T18:32:35.041452658+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

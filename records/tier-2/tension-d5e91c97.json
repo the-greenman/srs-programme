@@ -1,0 +1,19 @@
+{
+  "instanceId": "d5e91c97-b266-4c86-bd04-0e96edd88d8d",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Core once and adapter convenience",
+    "description": "Whether semantics live once in the core or each adapter adds what is handy."
+  },
+  "createdAt": "2026-10-09T18:32:38.104564806+00:00",
+  "updatedAt": "2026-10-09T18:32:38.104568734+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

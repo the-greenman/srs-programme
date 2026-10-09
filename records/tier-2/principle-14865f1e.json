@@ -1,0 +1,23 @@
+{
+  "instanceId": "14865f1e-a08e-4a32-9028-c584d37e105b",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Human layer over agent suggestion",
+    "boundary_clause": "Unless the work is inside a delegated mandate: then agents act and merge.",
+    "context": "Applies in the SemanticOps boundary. Proposed leaning; evidenced by srs-programme CLAUDE.md (Affirmed has priority), 'AI never decides or ratifies' and the owner on mandates, 2026-10-09.",
+    "source_ref": [
+      "source-documents/boundaries-2026-10-09/proposal.md (section 3.1)"
+    ]
+  },
+  "createdAt": "2026-10-09T18:32:34.495335301+00:00",
+  "updatedAt": "2026-10-09T18:32:34.495338822+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,20 @@
+{
+  "instanceId": "ad5a7a3e-1ce2-478c-a6a3-1351022488fb",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "One way",
+    "looks_like": "A single mechanism per goal; the old one is removed.",
+    "shadow": "A breaking change for anyone still on the old way."
+  },
+  "createdAt": "2026-10-09T18:32:37.382953795+00:00",
+  "updatedAt": "2026-10-09T18:32:37.382955424+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

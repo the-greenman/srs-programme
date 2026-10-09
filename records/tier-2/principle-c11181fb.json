@@ -1,0 +1,23 @@
+{
+  "instanceId": "c11181fb-765c-480c-b7d1-9491773e8f9f",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Core service over adapter logic",
+    "boundary_clause": "None stated in the evidence (capability-layering.md, ADR-010, ADR-037); the owner may add one.",
+    "context": "Applies in the SRS implementation boundary. Evidenced: capability-layering.md, ADR-010, ADR-037; srs-bindings 'no duplicated logic'.",
+    "source_ref": [
+      "source-documents/boundaries-2026-10-09/proposal.md (section 3.3)"
+    ]
+  },
+  "createdAt": "2026-10-09T18:32:38.510494457+00:00",
+  "updatedAt": "2026-10-09T18:32:38.510498030+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

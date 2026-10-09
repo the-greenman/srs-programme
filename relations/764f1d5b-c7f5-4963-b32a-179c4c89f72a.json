@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "764f1d5b-c7f5-4963-b32a-179c4c89f72a",
+  "relationType": "com.mudemocracy.argument/within-boundary",
+  "sourceInstanceId": "b6acc84a-8265-4d0a-92d5-333f3db82555",
+  "targetInstanceId": "b65cefc9-a149-4449-98c7-44c26be15a4d",
+  "createdAt": "2026-10-09T18:32:40.691646403+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  }
+}
