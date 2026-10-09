@@ -1,0 +1,47 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "extraction": "Title: give every argument-test a title, a short noun phrase of about 3 to 9 words naming what it asserts or does, so a human scanning a list or outline can tell it from its neighbours. Derive it from the record's own statement. Distinct from sibling titles. Keep any hedge the statement carries (untested, may, assumed, must not be published). The causal id (for example CP-MECH-01) is a code, not a title; the title does not replace it. For a test, the title names the condition under test (for example \"Return conditions help groups reopen decisions\"). A question or noun phrase of about 4 to 9 words.",
+    "negativeGuidance": "Title must not be the code, a truncated or reworded-in-full statement, its first words, or a generic phrase. It must not strengthen or soften what the record says; a flat title for a hedged or withdrawn record is wrong. Never overwrite a title a person has set."
+  },
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "A prospective operational test that could challenge an argument.",
+  "fields": [
+    {
+      "fieldId": "f4f20e30-72bb-4066-97e1-226f3a4220f1",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "d75824ce-c726-4e80-8694-ce9b52ddbce2",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "e146093e-6214-4ab8-98e2-043d5436030c",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "d00fcd53-2fb8-4da6-a3c6-0f3d69e6272a",
+      "order": 3,
+      "required": true
+    },
+    {
+      "fieldId": "58e0decf-804c-496d-97ab-b4db1eed5716",
+      "order": 4,
+      "required": true
+    },
+    {
+      "displayLabel": "Title",
+      "fieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+      "order": 5,
+      "required": false
+    }
+  ],
+  "id": "3221f17d-d148-4627-b1fc-cd258df748e7",
+  "identityFieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+  "name": "argument-test",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Stable citation id, P-nn or P-nna; never reused."
+  },
+  "createdAt": "2026-09-08T14:37:19Z",
+  "description": "Stable citation id for a problem statement.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "0fc34da3-141c-4829-bcc9-dd53abe7b54a",
+  "name": "problem_id",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

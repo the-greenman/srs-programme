@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Question this review answers."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Question this review answers.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "726cfb5d-65e0-4386-901e-dafc03fd1967",
+  "name": "review_question",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

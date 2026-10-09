@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Stable citation id for this contextual option consideration."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Stable citation id for this contextual option consideration.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "e5b5852d-e91d-49c4-b773-72e252a1e6b8",
+  "name": "consideration_id",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "What counts as failure for this test."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "What counts as failure for this test.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "58e0decf-804c-496d-97ab-b4db1eed5716",
+  "name": "failure_threshold",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

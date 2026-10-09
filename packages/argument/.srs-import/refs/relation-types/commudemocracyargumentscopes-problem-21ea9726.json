@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Boundary scopes Problem",
+  "category": "association",
+  "createdAt": "2026-09-13T17:19:38.478020765+00:00",
+  "description": "Boundary scopes Problem: the problem is part of the decision domain addressed within this boundary.",
+  "id": "21ea9726-f8c8-44e4-8322-e13fe7044f01",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/scopes-problem",
+  "label": "scopes problem",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

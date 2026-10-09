@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "What this chain argues from and to, in one sentence."
+  },
+  "createdAt": "2026-09-22T00:50:50Z",
+  "description": "What this chain argues from and to, in one sentence.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "49bd3c8d-0f7d-4182-ae8b-133cbdfc82c0",
+  "name": "chain_question",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

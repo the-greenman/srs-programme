@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "The grounds: evidence, precedent, reasoning, or an explicit statement that none is needed because the claim is definitional or a refusal. Say plainly where the claim is reasoned rather than evidenced — that is not a weakness, but pretending otherwise is."
+  },
+  "createdAt": "2026-09-11T12:47:41.289604618+00:00",
+  "description": "What entitles us to make this claim.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "cc46971a-0411-4a2e-92a0-8b6f87bd2840",
+  "name": "warrant",
+  "namespace": "com.mudemocracy",
+  "version": 1
+}

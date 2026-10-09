@@ -1,0 +1,52 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "extraction": "Title: give every premise a title, a short noun phrase of about 3 to 9 words naming what it asserts or does, so a human scanning a list or outline can tell it from its neighbours. Derive it from the record's own statement. Distinct from sibling titles. Keep any hedge the statement carries (untested, may, assumed, must not be published). The causal id (for example CP-MECH-01) is a code, not a title; the title does not replace it.",
+    "negativeGuidance": "Title must not be the code, a truncated or reworded-in-full statement, its first words, or a generic phrase. It must not strengthen or soften what the record says; a flat title for a hedged or withdrawn record is wrong. Never overwrite a title a person has set."
+  },
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "A proposition on which an argument depends.",
+  "fields": [
+    {
+      "fieldId": "12d921dd-f1d8-4999-ba3d-a68d253ba1ba",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "2d065342-ff8f-4eeb-a6b5-ed200f286fab",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "edc361c3-0ecf-49a9-b245-59d76244ef3e",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "7c40ce42-df1f-4730-af64-480524971404",
+      "order": 3,
+      "required": true
+    },
+    {
+      "fieldId": "3b0cb1ca-adc8-4f1b-9970-38ac6543e0c9",
+      "order": 4,
+      "required": true
+    },
+    {
+      "fieldId": "31eb3a0d-4dd2-4254-bd61-625dbb1119e6",
+      "order": 5,
+      "required": true
+    },
+    {
+      "displayLabel": "Title",
+      "fieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+      "order": 6,
+      "required": false
+    }
+  ],
+  "id": "5d3e50f8-8180-4a40-a341-0ff0f79ebeb0",
+  "identityFieldId": "12d921dd-f1d8-4999-ba3d-a68d253ba1ba",
+  "name": "premise",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

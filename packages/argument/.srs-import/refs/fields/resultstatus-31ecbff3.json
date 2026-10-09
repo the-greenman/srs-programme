@@ -1,0 +1,17 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Pass, fail, or inconclusive assessment."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Pass, fail, or inconclusive assessment.",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "closed",
+    "vocabularyRef": "6667323e-1124-47c1-ab71-95b519df94db"
+  },
+  "id": "31ecbff3-a558-47bd-951a-74f9bb612635",
+  "name": "result_status",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

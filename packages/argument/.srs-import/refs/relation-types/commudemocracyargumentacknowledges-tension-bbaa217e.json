@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Argument acknowledges Tension",
+  "category": "association",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Argument acknowledges Tension",
+  "id": "bbaa217e-908b-40d6-92e1-ebfd2eb46a0f",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/acknowledges-tension",
+  "label": "acknowledges tension",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

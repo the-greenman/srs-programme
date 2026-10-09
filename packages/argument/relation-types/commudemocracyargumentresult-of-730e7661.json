@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Test Result is result of Argument Test",
+  "category": "evidence",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Test Result is result of Argument Test",
+  "id": "730e7661-f11d-4600-9341-b389e012b29f",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/result-of",
+  "label": "result of",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

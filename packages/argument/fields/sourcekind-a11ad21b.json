@@ -1,0 +1,17 @@
+{
+  "aiGuidance": {
+    "purpose": "What kind of source material a record was drawn from: cards, dictation, conversation, essay, document, or transcript."
+  },
+  "createdAt": "2026-09-08T14:37:19Z",
+  "description": "What kind of source material.",
+  "editorHint": "dropdown",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "closed",
+    "vocabularyRef": "62de1a6e-3524-449a-ae9c-399768a598cb"
+  },
+  "id": "a11ad21b-8076-41b0-a474-1458b9bd0144",
+  "name": "source_kind",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

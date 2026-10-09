@@ -1,0 +1,82 @@
+{
+  "createdAt": "2026-09-08T14:37:57Z",
+  "description": "Lifecycle for problem statements: drafted, made active, and either withdrawn or superseded by a successor record.",
+  "id": "27d82637-05a2-4a69-9fec-1e33baf36ebc",
+  "initialState": "draft",
+  "name": "problem_lifecycle",
+  "namespace": "com.mudemocracy.argument",
+  "states": [
+    {
+      "description": "Being drafted; not yet active.",
+      "id": "f44082d7-5071-42c5-b252-8cec506a8584",
+      "isInitial": true,
+      "key": "draft",
+      "label": "Draft"
+    },
+    {
+      "description": "In force as a current problem statement.",
+      "id": "37053373-d4f3-49ff-be14-3bb91fef8a43",
+      "key": "active",
+      "label": "Active"
+    },
+    {
+      "description": "Withdrawn; no longer asserted.",
+      "id": "adb71c2c-f5c7-445a-9902-e31d205e1bf7",
+      "isFinal": true,
+      "key": "withdrawn",
+      "label": "Withdrawn"
+    },
+    {
+      "description": "Replaced by a successor record.",
+      "id": "1bb78fb9-089b-4123-b8cc-81503a8b8529",
+      "isFinal": true,
+      "key": "superseded",
+      "label": "Superseded",
+      "requiresRelation": {
+        "direction": "incoming",
+        "enforcement": "hard",
+        "relationType": [
+          "supersedes"
+        ]
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "description": "Affirm a draft as active.",
+      "from": "draft",
+      "id": "ea65c798-4c25-494d-8dc1-9b3b3733bb2e",
+      "name": "affirm",
+      "to": "active"
+    },
+    {
+      "description": "Reopen an active statement for further drafting.",
+      "from": "active",
+      "id": "3d6cd04d-c175-4799-a303-09237aa4b453",
+      "name": "reopen",
+      "to": "draft"
+    },
+    {
+      "description": "Withdraw an active statement.",
+      "from": "active",
+      "id": "42c69219-d807-46bc-a01c-4e0c9f6c71e4",
+      "name": "withdraw",
+      "to": "withdrawn"
+    },
+    {
+      "description": "Withdraw a draft statement.",
+      "from": "draft",
+      "id": "69840a2d-e519-42e5-85c9-cdb2bf66d2aa",
+      "name": "withdraw-draft",
+      "to": "withdrawn"
+    },
+    {
+      "description": "Replace with a successor record.",
+      "from": "active",
+      "id": "8421ebbf-b4df-4794-bc76-5c615b1f7130",
+      "name": "supersede",
+      "to": "superseded"
+    }
+  ],
+  "version": 1
+}

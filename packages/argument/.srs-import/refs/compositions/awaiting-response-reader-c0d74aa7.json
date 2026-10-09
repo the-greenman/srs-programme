@@ -1,0 +1,65 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/composition.json",
+  "createdAt": "2026-09-22T02:00:00Z",
+  "description": "The one surface for agent work the owner has not yet ruled on: chains proposed for adoption, findings awaiting a response, and declined chains kept for the record. Generated — edit the records, not this file.",
+  "exportConfig": {
+    "format": "markdown",
+    "preamble": "<!-- rendered from muSrs; do not edit -->\n# Awaiting response\n\nThe one surface for agent-authored work the owner has not yet ruled on. Nothing on this page is part of the argument. Owner-authored pool records that agent commits modified since the last argument-review are listed separately at `content/review/agent-amendments.md`.\n\nRespond with /review. Nothing here is part of the argument until you do."
+  },
+  "id": "c0d74aa7-8133-45d5-800d-01cba54e2415",
+  "name": "awaiting-response-reader",
+  "namespace": "com.mudemocracy.argument",
+  "sections": [
+    {
+      "emptyBehavior": "hide",
+      "order": 0,
+      "renderViewId": "bfada9e5-ed85-4752-9e62-c26786a6eb95",
+      "sectionId": "proposed-chains",
+      "source": {
+        "query": {
+          "lifecycleState": "proposed",
+          "typeName": "chain",
+          "typeNamespace": "com.mudemocracy.argument"
+        },
+        "type": "discovery-query"
+      },
+      "title": "Chains proposed for adoption",
+      "titleFieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1"
+    },
+    {
+      "emptyBehavior": "hide",
+      "order": 1,
+      "renderViewId": "7a0d5b2e-3c41-4f9a-9e8b-1d2c3b4a5f60",
+      "sectionId": "findings",
+      "source": {
+        "containerId": "ea8df0e7-a3ef-4feb-aaad-72d0079d1377",
+        "type": "container-subset",
+        "typeFilter": [
+          "com.mudemocracy.argument/observation"
+        ]
+      },
+      "title": "Findings awaiting your response",
+      "titleFieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1"
+    },
+    {
+      "emptyBehavior": "hide",
+      "order": 2,
+      "renderViewId": "bfada9e5-ed85-4752-9e62-c26786a6eb95",
+      "sectionId": "declined-chains",
+      "source": {
+        "query": {
+          "lifecycleState": "declined",
+          "typeName": "chain",
+          "typeNamespace": "com.mudemocracy.argument"
+        },
+        "type": "discovery-query"
+      },
+      "title": "Declined, for the record",
+      "titleFieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1"
+    }
+  ],
+  "tags": [
+    "generated-doc"
+  ],
+  "version": 1
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Argument has Argument Test",
+  "category": "association",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Argument has Argument Test",
+  "id": "2c837d18-1429-41cd-a9f4-803cf42812b0",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/has-test",
+  "label": "has test",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

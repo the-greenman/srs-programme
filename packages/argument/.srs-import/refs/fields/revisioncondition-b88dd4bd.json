@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "What would require revising this boundary."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "What would require revising this boundary.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "b88dd4bd-75c5-4c32-971d-d8ba934d7af7",
+  "name": "revision_condition",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

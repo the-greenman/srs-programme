@@ -1,0 +1,59 @@
+{
+  "createdAt": "2026-09-13T10:20:39.298Z",
+  "description": "The basis on which a current argument is held.",
+  "id": "abaf05a2-dab9-4ee9-8020-bc0b320550f8",
+  "mode": "closed",
+  "name": "evidence-basis",
+  "namespace": "com.mudemocracy.argument",
+  "terms": [
+    {
+      "description": "A project definition or choice of object.",
+      "id": "37f3c8b5-75d1-4ece-a5f0-354b1cdfdb32",
+      "key": "constitutive",
+      "label": "Constitutive",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "An argued inference.",
+      "id": "c0f5edd8-f006-450c-bf14-eac3df2c68b5",
+      "key": "reasoned",
+      "label": "Reasoned",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Historical, practical, or comparative grounding.",
+      "id": "806f63ba-5a94-4dae-898d-aa1282b6adf5",
+      "key": "precedent",
+      "label": "Precedent",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Direct supporting evidence.",
+      "id": "bc5412a5-746e-461e-8c79-73a61ae7c74e",
+      "key": "sourced",
+      "label": "Sourced",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Several bases together.",
+      "id": "3d0186c7-c4ce-438c-8dbb-1aec4f8269f6",
+      "key": "mixed",
+      "label": "Mixed",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Held provisionally while evidence is sought.",
+      "id": "54d0d7ff-0d7f-4214-a691-d58c5612a5d1",
+      "key": "evidence-gap",
+      "label": "Evidence gap",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

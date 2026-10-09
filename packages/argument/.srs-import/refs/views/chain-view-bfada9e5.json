@@ -1,0 +1,26 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/view.json",
+  "createdAt": "2026-09-22T02:00:00Z",
+  "description": "One chain: the question it argues from and to, and what it concludes.",
+  "exportConfig": {
+    "format": "markdown"
+  },
+  "fieldViews": [
+    {
+      "displayLabel": "Question",
+      "fieldId": "49bd3c8d-0f7d-4182-ae8b-133cbdfc82c0",
+      "order": 0,
+      "visible": true
+    },
+    {
+      "displayLabel": "Conclusion",
+      "fieldId": "36f28abe-9c95-4953-8d8b-ef3dbf2b2b43",
+      "order": 1,
+      "visible": true
+    }
+  ],
+  "id": "bfada9e5-ed85-4752-9e62-c26786a6eb95",
+  "name": "chain-view",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

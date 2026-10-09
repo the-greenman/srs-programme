@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "What is inside the boundary."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "What is inside the boundary.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "cd7e1a1f-e31b-4730-9dbf-623ac4a13149",
+  "name": "inside",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

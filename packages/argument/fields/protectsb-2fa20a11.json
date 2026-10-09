@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "What the second pole protects."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "What the second pole protects.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "2fa20a11-05b1-4608-845c-a1d337796fdd",
+  "name": "protects_b",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

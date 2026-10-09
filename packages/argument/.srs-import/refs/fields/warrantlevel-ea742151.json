@@ -1,0 +1,16 @@
+{
+  "aiGuidance": {
+    "purpose": "verified, secondary, observed, not-read, recalled, unevidenced or none-required. Record the level actually reached, never the level you wish you had reached — understating costs nothing and overstating is the failure this register exists to catch. Constitutive claims and scope denials take none-required. A claim may not be affirmed until this is set."
+  },
+  "createdAt": "2026-09-21T15:55:28Z",
+  "description": "How far the claim's support was actually checked.",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "closed",
+    "vocabularyRef": "cf5ca321-e084-406e-851e-2f76809825f3"
+  },
+  "id": "ea742151-a85e-42a7-b6e2-38e293716407",
+  "name": "warrant_level",
+  "namespace": "com.mudemocracy",
+  "version": 1
+}

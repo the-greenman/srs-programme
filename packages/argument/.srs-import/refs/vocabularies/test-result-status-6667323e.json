@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-09-13T10:20:39.298Z",
+  "description": "Assessment of a performed operational test.",
+  "id": "6667323e-1124-47c1-ab71-95b519df94db",
+  "mode": "closed",
+  "name": "test-result-status",
+  "namespace": "com.mudemocracy.argument",
+  "terms": [
+    {
+      "description": "The result does not meet the failure threshold.",
+      "id": "1cb5e1fd-e969-4a8d-8cfb-57b35788960e",
+      "key": "pass",
+      "label": "Pass",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "The result meets the failure threshold.",
+      "id": "959d2539-f97d-4484-9c37-c908c1db32ac",
+      "key": "fail",
+      "label": "Fail",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "The observation cannot yet support a determination.",
+      "id": "c0dc83bf-39f9-433d-9c43-ca30b20a9bca",
+      "key": "inconclusive",
+      "label": "Inconclusive",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Second protected pole of a contextual tension."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Second protected pole of a contextual tension.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "878da1fe-3fa5-4f1a-820a-b9a15b62ebaf",
+  "name": "pole_b",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

@@ -1,0 +1,27 @@
+{
+  "createdAt": "2026-09-08T14:36:22Z",
+  "description": "Where the problem lives: added because persona would not fill for statements whose subject is a condition of the world rather than an experience someone has, e.g. nobody in a housing co-operative meets concentration of the AI stack; they live inside its consequences.",
+  "id": "201bb8fb-ed4f-4753-808e-974fe08a2aab",
+  "mode": "closed",
+  "name": "scale",
+  "namespace": "com.mudemocracy.argument",
+  "terms": [
+    {
+      "description": "The problem lives at the scale of a single group (default, usually unstated).",
+      "id": "876bb1d8-bf71-4d4d-a4e7-18b128b6fade",
+      "key": "group",
+      "label": "Group",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "The problem lives at the scale of society at large.",
+      "id": "2e0ecd48-c31c-4ec1-985f-bb2e0076fa19",
+      "key": "society",
+      "label": "Society",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

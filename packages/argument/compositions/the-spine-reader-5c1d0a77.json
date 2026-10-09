@@ -1,0 +1,222 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/composition.json",
+  "createdAt": "2026-09-21T16:21:26Z",
+  "description": "The theory of change in six slots: problem, diagnosis, offer, mechanism, outcome, honesty. Thirty claims selected as load-bearing, each with its warrant, how far it was checked, and what evidences or challenges it. Generated — edit the slot containers, not this file.",
+  "exportConfig": {
+    "format": "markdown",
+    "preamble": "<!-- rendered from muSrs; do not edit -->\n# The spine\n\nThe theory of change reduced to the claims it cannot do without. Each claim shows how far its support was actually checked: that is the `Checked to` line, and it is a statement about the checking, not about how strong the claim is."
+  },
+  "id": "5c1d0a77-6e3b-4a91-b2f4-7d8e9c0a1b23",
+  "name": "the-spine-reader",
+  "namespace": "com.mudemocracy.argument",
+  "sections": [
+    {
+      "emptyBehavior": "hide",
+      "order": 0,
+      "ordering": {
+        "source": "arranged"
+      },
+      "relationsPresentation": {
+        "include": [
+          {
+            "directions": "inverse",
+            "inverseLabel": "Evidence",
+            "relationType": "evidences"
+          },
+          {
+            "directions": "forward",
+            "forwardLabel": "Drawn from",
+            "relationType": "derived-from"
+          },
+          {
+            "directions": "inverse",
+            "inverseLabel": "Challenged by",
+            "relationType": "challenges"
+          }
+        ]
+      },
+      "renderViewId": "c68673c1-7d32-44d7-bf34-f31e345a6fec",
+      "sectionId": "problem",
+      "source": {
+        "containerId": "b23bb4fd-bc1d-4fd4-aefb-01690024b8d0",
+        "type": "container-subset"
+      },
+      "title": "1. The problem",
+      "titleFieldId": "3ab45ec6-50d5-43dc-a5bb-f68d13b33a91"
+    },
+    {
+      "emptyBehavior": "hide",
+      "order": 1,
+      "ordering": {
+        "source": "arranged"
+      },
+      "relationsPresentation": {
+        "include": [
+          {
+            "directions": "inverse",
+            "inverseLabel": "Evidence",
+            "relationType": "evidences"
+          },
+          {
+            "directions": "forward",
+            "forwardLabel": "Drawn from",
+            "relationType": "derived-from"
+          },
+          {
+            "directions": "inverse",
+            "inverseLabel": "Challenged by",
+            "relationType": "challenges"
+          }
+        ]
+      },
+      "renderViewId": "c68673c1-7d32-44d7-bf34-f31e345a6fec",
+      "sectionId": "diagnosis",
+      "source": {
+        "containerId": "d5c6d40d-c8df-4adc-93b0-beb20e78ecd3",
+        "type": "container-subset"
+      },
+      "title": "2. Why it happens",
+      "titleFieldId": "3ab45ec6-50d5-43dc-a5bb-f68d13b33a91"
+    },
+    {
+      "emptyBehavior": "hide",
+      "order": 2,
+      "ordering": {
+        "source": "arranged"
+      },
+      "relationsPresentation": {
+        "include": [
+          {
+            "directions": "inverse",
+            "inverseLabel": "Evidence",
+            "relationType": "evidences"
+          },
+          {
+            "directions": "forward",
+            "forwardLabel": "Drawn from",
+            "relationType": "derived-from"
+          },
+          {
+            "directions": "inverse",
+            "inverseLabel": "Challenged by",
+            "relationType": "challenges"
+          }
+        ]
+      },
+      "renderViewId": "c68673c1-7d32-44d7-bf34-f31e345a6fec",
+      "sectionId": "offer",
+      "source": {
+        "containerId": "3acd207c-aee0-419e-a3ee-b3acceaed128",
+        "type": "container-subset"
+      },
+      "title": "3. What we offer",
+      "titleFieldId": "3ab45ec6-50d5-43dc-a5bb-f68d13b33a91"
+    },
+    {
+      "emptyBehavior": "hide",
+      "order": 3,
+      "ordering": {
+        "source": "arranged"
+      },
+      "relationsPresentation": {
+        "include": [
+          {
+            "directions": "inverse",
+            "inverseLabel": "Evidence",
+            "relationType": "evidences"
+          },
+          {
+            "directions": "forward",
+            "forwardLabel": "Drawn from",
+            "relationType": "derived-from"
+          },
+          {
+            "directions": "inverse",
+            "inverseLabel": "Challenged by",
+            "relationType": "challenges"
+          }
+        ]
+      },
+      "renderViewId": "c68673c1-7d32-44d7-bf34-f31e345a6fec",
+      "sectionId": "mechanism",
+      "source": {
+        "containerId": "2bdafb01-2fa9-44af-9baa-b078b9e504e7",
+        "type": "container-subset"
+      },
+      "title": "4. Why it works",
+      "titleFieldId": "3ab45ec6-50d5-43dc-a5bb-f68d13b33a91"
+    },
+    {
+      "emptyBehavior": "hide",
+      "order": 4,
+      "ordering": {
+        "source": "arranged"
+      },
+      "relationsPresentation": {
+        "include": [
+          {
+            "directions": "inverse",
+            "inverseLabel": "Evidence",
+            "relationType": "evidences"
+          },
+          {
+            "directions": "forward",
+            "forwardLabel": "Drawn from",
+            "relationType": "derived-from"
+          },
+          {
+            "directions": "inverse",
+            "inverseLabel": "Challenged by",
+            "relationType": "challenges"
+          }
+        ]
+      },
+      "renderViewId": "c68673c1-7d32-44d7-bf34-f31e345a6fec",
+      "sectionId": "outcome",
+      "source": {
+        "containerId": "f5cb7bde-dae8-4b9f-83b7-a5dcb60cd8fb",
+        "type": "container-subset"
+      },
+      "title": "5. What changes",
+      "titleFieldId": "3ab45ec6-50d5-43dc-a5bb-f68d13b33a91"
+    },
+    {
+      "emptyBehavior": "hide",
+      "order": 5,
+      "ordering": {
+        "source": "arranged"
+      },
+      "relationsPresentation": {
+        "include": [
+          {
+            "directions": "inverse",
+            "inverseLabel": "Evidence",
+            "relationType": "evidences"
+          },
+          {
+            "directions": "forward",
+            "forwardLabel": "Drawn from",
+            "relationType": "derived-from"
+          },
+          {
+            "directions": "inverse",
+            "inverseLabel": "Challenged by",
+            "relationType": "challenges"
+          }
+        ]
+      },
+      "renderViewId": "c68673c1-7d32-44d7-bf34-f31e345a6fec",
+      "sectionId": "honesty",
+      "source": {
+        "containerId": "011b9d38-8f8a-4be0-b197-9f5529533eb8",
+        "type": "container-subset"
+      },
+      "title": "6. What we do not claim",
+      "titleFieldId": "3ab45ec6-50d5-43dc-a5bb-f68d13b33a91"
+    }
+  ],
+  "tags": [
+    "generated-doc"
+  ],
+  "version": 1
+}

@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "The grid cell's defining question."
+  },
+  "createdAt": "2026-09-08T14:37:19Z",
+  "description": "The grid cell's defining question.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "223adb3e-3072-4a50-b8b6-2f4deb7cc8ef",
+  "name": "question",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/composition.json",
+  "createdAt": "2026-09-13T00:00:00Z",
+  "description": "Repository-scoped compact entry point for active argument decisions. This is intentionally a card index: it renders the argument decision only and relies on explicit semantic relations for context-aware retrieval of its boundary, tensions, option considerations, tests, child arguments, and evidence.",
+  "exportConfig": {
+    "format": "markdown"
+  },
+  "id": "23c4fe6e-bb49-450d-9027-f887db95f00c",
+  "name": "argument-card",
+  "namespace": "com.mudemocracy.argument",
+  "sections": [
+    {
+      "emptyBehavior": "hide",
+      "order": 0,
+      "renderViewId": "1c6681c1-42d7-4e0d-9462-303bd90696b5",
+      "sectionId": "arguments",
+      "source": {
+        "containerScope": "repository",
+        "query": {
+          "excludeLifecycleStates": [
+            "withdrawn",
+            "superseded"
+          ],
+          "typeName": "argument",
+          "typeNamespace": "com.mudemocracy.argument"
+        },
+        "type": "discovery-query"
+      },
+      "title": "Arguments",
+      "titleFieldId": "d7e82557-9045-5e92-a494-d99112bbec4a"
+    }
+  ],
+  "version": 1
+}

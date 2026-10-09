@@ -1,0 +1,51 @@
+{
+  "createdAt": "2026-09-08T14:36:22Z",
+  "description": "Where a problem manifests, in muDemocracy's own persona set. This term set is muDemocracy's, not a general taxonomy; an installer adopting this package elsewhere is expected to redefine it via vocabulary term-create, or mark these terms status: deprecated and add their own.",
+  "id": "fce7c0a8-e85f-4be0-b7c5-5f16d8fddca3",
+  "mode": "closed",
+  "name": "persona",
+  "namespace": "com.mudemocracy.argument",
+  "terms": [
+    {
+      "description": "The person who keeps the record.",
+      "id": "d20aa1a5-91ca-47e3-af0e-5c43c7b905ca",
+      "key": "clerk",
+      "label": "Clerk",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "A member taking part in the process.",
+      "id": "bf8b81ba-aaed-442b-bdb8-79538c459c82",
+      "key": "participant",
+      "label": "Participant",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "A founding member shaping the group at its start.",
+      "id": "3287ecce-e5ec-41f4-beb4-c8ee96b93fc6",
+      "key": "founder",
+      "label": "Founder",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "A property of the collective that no single member encounters alone; not 'unclassified'.",
+      "id": "ffc65580-6050-4f80-b573-1f301bee58b1",
+      "key": "group",
+      "label": "Group",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "A member of the wider constituency the group answers to.",
+      "id": "2bb479b0-1d73-4b00-88ff-d4afc48f77ef",
+      "key": "constituent",
+      "label": "Constituent",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

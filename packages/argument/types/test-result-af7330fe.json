@@ -1,0 +1,42 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "A dated result from performing an argument test.",
+  "fields": [
+    {
+      "fieldId": "397cde4e-63b2-4881-88f2-bb7bfcf76c7a",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "c238d8cf-8782-4d40-ad71-d422eaf177b8",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "4e01841a-83ab-4505-847c-d13981a30721",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "d5daa51a-d05f-422f-b3d7-98891c2db23c",
+      "order": 3,
+      "required": true
+    },
+    {
+      "fieldId": "fd8f5fcf-7419-4b95-ba81-fd0683c83d29",
+      "order": 4,
+      "required": true
+    },
+    {
+      "fieldId": "31ecbff3-a558-47bd-951a-74f9bb612635",
+      "order": 5,
+      "required": true
+    }
+  ],
+  "id": "af7330fe-8fac-4189-94dd-8ba92c4ec7c3",
+  "identityFieldId": "397cde4e-63b2-4881-88f2-bb7bfcf76c7a",
+  "name": "test-result",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

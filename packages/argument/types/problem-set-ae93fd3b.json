@@ -1,0 +1,27 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "purpose": "The root record of a problem dataset — the whole set of problem statements gathered under one title."
+  },
+  "createdAt": "2026-09-08T14:38:02Z",
+  "description": "A named collection of problems, grouping topics.",
+  "fields": [
+    {
+      "displayLabel": "Title",
+      "fieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+      "order": 0,
+      "required": true
+    },
+    {
+      "displayLabel": "Description",
+      "fieldId": "e7c60942-7cdf-407e-be1f-bf5f4a648285",
+      "order": 1,
+      "required": false
+    }
+  ],
+  "id": "ae93fd3b-bdaa-4992-ab18-e0921ec12689",
+  "identityFieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+  "name": "problem-set",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

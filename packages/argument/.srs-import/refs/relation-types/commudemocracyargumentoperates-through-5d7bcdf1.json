@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Hypothesis operates through Mechanism",
+  "category": "dependency",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Hypothesis operates through Mechanism",
+  "id": "5d7bcdf1-c973-4691-bc71-8901788ef234",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/operates-through",
+  "label": "operates through",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

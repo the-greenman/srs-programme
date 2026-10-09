@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "How this boundary holds the tension in practice."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "How this boundary holds the tension in practice.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "ff3521c2-28d2-472c-b825-18e5483b7da1",
+  "name": "holding_practice",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

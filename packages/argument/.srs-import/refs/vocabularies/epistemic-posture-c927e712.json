@@ -1,0 +1,43 @@
+{
+  "createdAt": "2026-09-13T10:20:39.298Z",
+  "description": "How strongly an argument or causal assertion is currently warranted.",
+  "id": "c927e712-42bb-4c10-99de-49c6c5d81871",
+  "mode": "closed",
+  "name": "epistemic-posture",
+  "namespace": "com.mudemocracy.argument",
+  "terms": [
+    {
+      "description": "A current reasoned position awaiting operational learning.",
+      "id": "c511f920-24af-4d23-bb50-4a957f734dfd",
+      "key": "provisional",
+      "label": "Provisional",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Supported by an explicit warrant and available evidence.",
+      "id": "feec01d3-fb20-4730-9287-fd74649b0c8f",
+      "key": "warranted",
+      "label": "Warranted",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Material uncertainty remains.",
+      "id": "c5028b77-ca4f-420a-af13-d053959d78c3",
+      "key": "uncertain",
+      "label": "Uncertain",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "A credible challenge or failed test requires review.",
+      "id": "b78973ca-4343-475f-aec7-e3aad917ddf6",
+      "key": "challenged",
+      "label": "Challenged",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,62 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "A boundary-dependent pair of protected goods that must be held in practice.",
+  "fields": [
+    {
+      "fieldId": "d7e82557-9045-5e92-a494-d99112bbec4a",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "bbaa809c-644e-4065-b675-59dab39e5992",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "878da1fe-3fa5-4f1a-820a-b9a15b62ebaf",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "2421c55f-237e-49c4-aa48-48707d87a4d9",
+      "order": 3,
+      "required": true
+    },
+    {
+      "fieldId": "2fa20a11-05b1-4608-845c-a1d337796fdd",
+      "order": 4,
+      "required": true
+    },
+    {
+      "fieldId": "f9da6079-23f7-469a-8b93-a0dbfb56fe5c",
+      "order": 5,
+      "required": true
+    },
+    {
+      "fieldId": "6b61b5a7-e6e2-490f-a27f-01a7a7a39418",
+      "order": 6,
+      "required": true
+    },
+    {
+      "fieldId": "ff3521c2-28d2-472c-b825-18e5483b7da1",
+      "order": 7,
+      "required": true
+    },
+    {
+      "fieldId": "6083d436-5703-4c37-a583-c41427915d24",
+      "order": 8,
+      "required": true
+    },
+    {
+      "fieldId": "232cb70e-949d-49e5-940a-dc06a4db1d27",
+      "order": 9,
+      "required": true
+    }
+  ],
+  "id": "3a8b4980-ba76-49ab-bd57-7e085e31f4e0",
+  "identityFieldId": "d7e82557-9045-5e92-a494-d99112bbec4a",
+  "name": "tension",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "How this indicator is measured."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "How this indicator is measured.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "5e81f73e-1ac4-4da8-93ec-2b24a1a669fe",
+  "name": "measurement_method",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

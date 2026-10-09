@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "What the chain concludes, stated so it could be wrong."
+  },
+  "createdAt": "2026-09-22T00:51:03Z",
+  "description": "What the chain concludes, stated so it could be wrong.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "36f28abe-9c95-4953-8d8b-ef3dbf2b2b43",
+  "name": "chain_conclusion",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

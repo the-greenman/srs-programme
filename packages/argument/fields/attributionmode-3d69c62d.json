@@ -1,0 +1,19 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "How impact is framed."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "How impact is framed.",
+  "fieldType": {
+    "allowedValues": [
+      "contribution"
+    ],
+    "datatype": "string",
+    "valueDomain": "closed"
+  },
+  "id": "3d69c62d-462f-46d7-ab2e-6e6610d81e8c",
+  "name": "attribution_mode",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

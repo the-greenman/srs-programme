@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "The canonical URL for a source that is published elsewhere rather than held in this repository. Use it for third-party works that cannot be attached; material attached under source-documents/ keeps its attachment instead."
+  },
+  "createdAt": "2026-09-11T12:19:57.664279417+00:00",
+  "description": "Where the source can be reached online.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "uri"
+  },
+  "id": "beccc3c8-0ce0-479e-b901-346e01d14768",
+  "name": "source_url",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Hypothesis or Activity responds to Diagnosis or Problem",
+  "category": "dependency",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Hypothesis or Activity responds to Diagnosis or Problem",
+  "id": "c3dab1b8-0f56-4e84-af08-ddffe7b77dbf",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/responds-to",
+  "label": "responds to",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

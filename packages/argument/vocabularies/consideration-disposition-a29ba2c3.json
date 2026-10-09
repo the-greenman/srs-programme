@@ -1,0 +1,43 @@
+{
+  "createdAt": "2026-09-13T10:20:39.298Z",
+  "description": "The disposition of an option within one argument.",
+  "id": "a29ba2c3-95cc-45b0-9979-9464bd54ce7b",
+  "mode": "closed",
+  "name": "consideration-disposition",
+  "namespace": "com.mudemocracy.argument",
+  "terms": [
+    {
+      "description": "Considered without a settled rejection.",
+      "id": "137376e5-2d07-42a2-89c6-f7abfe4c6599",
+      "key": "considered",
+      "label": "Considered",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "The path chosen in this argument version.",
+      "id": "758387a4-4d6e-4f50-a080-604d06fb4165",
+      "key": "selected",
+      "label": "Selected",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Not selected, with rationale retained.",
+      "id": "3754b99f-6d2f-4332-b47c-3abdf50db733",
+      "key": "rejected",
+      "label": "Rejected",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "No longer a viable consideration in this context.",
+      "id": "2b039d66-b3e2-43bc-8dc6-cf1eafecfa05",
+      "key": "retired",
+      "label": "Retired",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

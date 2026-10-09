@@ -1,0 +1,16 @@
+{
+  "aiGuidance": {
+    "purpose": "Name one primary human reader in plain language. This is not a marketing segment, decision owner, authority-holder or list of people affected. State the role and decision context, for example: a volunteer clerk introducing a first practice in their group."
+  },
+  "createdAt": "2026-09-14T10:20:00Z",
+  "description": "The primary person who needs to understand, use, challenge or carry this argument-decision.",
+  "editorHint": "textarea",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "open"
+  },
+  "id": "ee6c5e3b-ae59-4a56-b474-a82e8e54c1cb",
+  "name": "audience_persona",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

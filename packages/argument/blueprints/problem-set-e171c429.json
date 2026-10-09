@@ -1,0 +1,142 @@
+{
+  "aiGuidance": {
+    "extraction": "Extraction is deliberately narrower than the source prose. Considered and left out of the problem statement itself: severity, tractability, whether muDemocracy addresses it, evidence status — evidence is added only when statements are projected downstream, because the research documents mostly evidence existing statements rather than adding to them, and 'those evidence links are not recorded here, because the spec requires them at projection.' Relations carry structural links only (rests-on -> depends-on, restates -> refines, root-of -> a root problem with no incoming rests-on/restates); causal argument still belongs downstream. Each problem record also carries a title: a short noun phrase of about 3 to 8 words naming the problem's core, distinct from its siblings (see the problem type's aiGuidance).",
+    "purpose": "A problem dataset: one Record per problem statement, grouped by topic in a contains tree, ordered by precedes among siblings, with depends-on for rests-on, refines for restates, supersedes for replacement, and derived-from/evidences back to source records."
+  },
+  "createdAt": "2026-09-08T14:38:06Z",
+  "description": "A problem dataset: one Record per problem statement, grouped by topic in a contains tree, ordered by precedes among siblings, with depends-on for rests-on, refines for restates, supersedes for replacement, and derived-from/evidences back to source records.",
+  "id": "e171c429-4ed2-4a80-bcb3-6daee4e3983a",
+  "name": "problem-set",
+  "namespace": "com.mudemocracy.argument",
+  "requiredTypes": [
+    {
+      "typeId": "07fad324-4003-4eae-b6f7-a87bcdd9dd75",
+      "typeVersion": 1
+    },
+    {
+      "typeId": "6e955608-b469-4b8e-8855-5dccdb73fe11",
+      "typeVersion": 1
+    }
+  ],
+  "rootTypes": [
+    {
+      "typeId": "ae93fd3b-bdaa-4992-ab18-e0921ec12689",
+      "typeVersion": 1
+    }
+  ],
+  "structure": [
+    {
+      "cardinality": "one-to-many",
+      "relationType": "contains",
+      "sourceType": {
+        "typeId": "ae93fd3b-bdaa-4992-ab18-e0921ec12689",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "07fad324-4003-4eae-b6f7-a87bcdd9dd75",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "one-to-many",
+      "relationType": "contains",
+      "sourceType": {
+        "typeId": "07fad324-4003-4eae-b6f7-a87bcdd9dd75",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "07fad324-4003-4eae-b6f7-a87bcdd9dd75",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "one-to-many",
+      "relationType": "contains",
+      "sourceType": {
+        "typeId": "07fad324-4003-4eae-b6f7-a87bcdd9dd75",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "6e955608-b469-4b8e-8855-5dccdb73fe11",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "many-to-many",
+      "relationType": "depends-on",
+      "sourceType": {
+        "typeId": "6e955608-b469-4b8e-8855-5dccdb73fe11",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "6e955608-b469-4b8e-8855-5dccdb73fe11",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "many-to-one",
+      "relationType": "refines",
+      "sourceType": {
+        "typeId": "6e955608-b469-4b8e-8855-5dccdb73fe11",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "6e955608-b469-4b8e-8855-5dccdb73fe11",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "one-to-one",
+      "relationType": "supersedes",
+      "sourceType": {
+        "typeId": "6e955608-b469-4b8e-8855-5dccdb73fe11",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "6e955608-b469-4b8e-8855-5dccdb73fe11",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "many-to-many",
+      "relationType": "evidences",
+      "sourceType": {
+        "typeId": "36e85cff-989b-4c6d-9361-3c8906cff87b",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "6e955608-b469-4b8e-8855-5dccdb73fe11",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "many-to-many",
+      "relationType": "derived-from",
+      "sourceType": {
+        "typeId": "6e955608-b469-4b8e-8855-5dccdb73fe11",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "36e85cff-989b-4c6d-9361-3c8906cff87b",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "one-to-one",
+      "relationType": "precedes",
+      "sourceType": {
+        "typeId": "6e955608-b469-4b8e-8855-5dccdb73fe11",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "6e955608-b469-4b8e-8855-5dccdb73fe11",
+        "typeVersion": 1
+      }
+    }
+  ],
+  "tags": [
+    "argument",
+    "problem-set"
+  ],
+  "version": 1
+}

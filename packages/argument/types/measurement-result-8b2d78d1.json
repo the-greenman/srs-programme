@@ -1,0 +1,32 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "A dated observation from applying an indicator.",
+  "fields": [
+    {
+      "fieldId": "397cde4e-63b2-4881-88f2-bb7bfcf76c7a",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "c238d8cf-8782-4d40-ad71-d422eaf177b8",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "4e01841a-83ab-4505-847c-d13981a30721",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "d5daa51a-d05f-422f-b3d7-98891c2db23c",
+      "order": 3,
+      "required": true
+    }
+  ],
+  "id": "8b2d78d1-51ba-4e3d-8638-9ce1fc9595a0",
+  "identityFieldId": "397cde4e-63b2-4881-88f2-bb7bfcf76c7a",
+  "name": "measurement-result",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

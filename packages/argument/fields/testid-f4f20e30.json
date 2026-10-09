@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Stable citation id for an argument test."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Stable citation id for an argument test.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "f4f20e30-72bb-4066-97e1-226f3a4220f1",
+  "name": "test_id",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

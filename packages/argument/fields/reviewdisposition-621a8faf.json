@@ -1,0 +1,17 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Accountable disposition resulting from review."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Accountable disposition resulting from review.",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "closed",
+    "vocabularyRef": "97824fc7-a87d-4949-a266-08084c257a55"
+  },
+  "id": "621a8faf-e67c-4815-b5e2-23fcbdc5f261",
+  "name": "review_disposition",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

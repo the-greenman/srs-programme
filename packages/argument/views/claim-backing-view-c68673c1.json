@@ -1,0 +1,32 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/view.json",
+  "createdAt": "2026-09-21T15:33:49Z",
+  "description": "A claim with its grounds: the statement, then the warrant that supports it. Used by the backing document, where the section adds the claim's evidence and challenge relations beneath.",
+  "exportConfig": {
+    "format": "markdown"
+  },
+  "fieldViews": [
+    {
+      "displayLabel": "Statement",
+      "fieldId": "2d065342-ff8f-4eeb-a6b5-ed200f286fab",
+      "order": 0,
+      "visible": true
+    },
+    {
+      "displayLabel": "Warrant",
+      "fieldId": "cc46971a-0411-4a2e-92a0-8b6f87bd2840",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "displayLabel": "Checked to",
+      "fieldId": "ea742151-a85e-42a7-b6e2-38e293716407",
+      "order": 2,
+      "visible": true
+    }
+  ],
+  "id": "c68673c1-7d32-44d7-bf34-f31e345a6fec",
+  "name": "claim-backing-view",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

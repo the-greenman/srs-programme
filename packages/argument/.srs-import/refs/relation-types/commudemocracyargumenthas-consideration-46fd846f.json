@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Argument has Option Consideration",
+  "category": "association",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Argument has Option Consideration",
+  "id": "46fd846f-b493-4b36-80fa-53e2efc89372",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/has-consideration",
+  "label": "has consideration",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

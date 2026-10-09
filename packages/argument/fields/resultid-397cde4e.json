@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Stable citation id for a result or measurement."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Stable citation id for a result or measurement.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "397cde4e-63b2-4881-88f2-bb7bfcf76c7a",
+  "name": "result_id",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

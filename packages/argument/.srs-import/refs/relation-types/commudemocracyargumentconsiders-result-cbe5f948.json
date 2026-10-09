@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Argument Review considers Test Result",
+  "category": "governance",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Argument Review considers Test Result",
+  "id": "cbe5f948-8e62-4ed9-a609-a7dceac7bc7e",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/considers-result",
+  "label": "considers result",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

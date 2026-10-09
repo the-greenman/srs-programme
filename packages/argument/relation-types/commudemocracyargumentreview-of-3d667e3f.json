@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Argument Review reviews Argument",
+  "category": "governance",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Argument Review reviews Argument",
+  "id": "3d667e3f-9a27-45f3-8554-446692b2bba9",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/review-of",
+  "label": "review of",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

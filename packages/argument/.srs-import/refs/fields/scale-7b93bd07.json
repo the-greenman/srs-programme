@@ -1,0 +1,17 @@
+{
+  "aiGuidance": {
+    "purpose": "Where the problem lives: group (default, usually unstated) or society."
+  },
+  "createdAt": "2026-09-08T14:37:19Z",
+  "description": "Where a problem lives.",
+  "editorHint": "dropdown",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "closed",
+    "vocabularyRef": "201bb8fb-ed4f-4753-808e-974fe08a2aab"
+  },
+  "id": "7b93bd07-5cda-4fa0-b64e-21f9bccfb9a2",
+  "name": "scale",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

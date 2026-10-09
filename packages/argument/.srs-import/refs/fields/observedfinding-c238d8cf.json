@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "What was observed in the test or measurement."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "What was observed in the test or measurement.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "c238d8cf-8782-4d40-ad71-d422eaf177b8",
+  "name": "observed_finding",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

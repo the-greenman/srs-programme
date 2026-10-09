@@ -1,0 +1,49 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/composition.json",
+  "createdAt": "2026-09-21T16:45:25Z",
+  "description": "Every passage quoted from a source, with where it came from and which claims it supports. Generated — edit the quotation records, not this file.",
+  "exportConfig": {
+    "format": "markdown",
+    "preamble": "<!-- rendered from muSrs; do not edit -->\n# Quotes\n\nPassages from sources, each with a locator and the level at which it was checked. `Checked to` describes this reading, not the strength of the claim it supports: a passage copied from a secondary summary is `secondary` however good the argument resting on it. Every quotation whose source text is reachable is verified word for word by `scripts/check-quote-fidelity.mjs`."
+  },
+  "id": "031a47b5-a34a-46b8-be1e-021c264ccd8a",
+  "name": "the-quotes-reader",
+  "namespace": "com.mudemocracy.argument",
+  "sections": [
+    {
+      "emptyBehavior": "hide",
+      "order": 0,
+      "ordering": {
+        "fieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1"
+      },
+      "relationsPresentation": {
+        "include": [
+          {
+            "directions": "forward",
+            "forwardLabel": "From",
+            "relationType": "derived-from"
+          },
+          {
+            "directions": "forward",
+            "forwardLabel": "Supports",
+            "relationType": "evidences"
+          }
+        ]
+      },
+      "renderViewId": "e04d872b-b9e1-4681-a4ac-b0fc8502ea2c",
+      "sectionId": "quotes",
+      "source": {
+        "query": {
+          "typeName": "quotation",
+          "typeNamespace": "com.mudemocracy.argument"
+        },
+        "type": "discovery-query"
+      },
+      "titleFieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1"
+    }
+  ],
+  "tags": [
+    "generated-doc"
+  ],
+  "version": 1
+}

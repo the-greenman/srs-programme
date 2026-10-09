@@ -34,11 +34,23 @@
   "packageRefs": [
     {
       "mode": "local",
+      "path": "packages/argument"
+    },
+    {
+      "mode": "local",
       "path": "packages/comments"
     },
     {
       "mode": "local",
+      "path": "packages/governance"
+    },
+    {
+      "mode": "local",
       "path": "packages/method"
+    },
+    {
+      "mode": "local",
+      "path": "packages/stewardship"
     }
   ],
   "repositoryId": "fb8429db-ee67-4439-9656-0f36f17ab98b",

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Option consideration belongs to Argument",
+  "category": "association",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Option consideration belongs to Argument",
+  "id": "487cd74c-2fae-4110-ac3f-2d5de661de00",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/for-argument",
+  "label": "for argument",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

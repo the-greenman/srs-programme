@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Page, chapter, section, paragraph or timestamp — enough for a reader to turn to it. Give it only at the level actually checked and do not invent page, chapter or paragraph numbers; 'ch. 2' from a reflowable ebook with no page anchors is honest, an invented 'p. 47' is not. Where an edition matters to the number, name the edition here too."
+  },
+  "createdAt": "2026-09-21T16:42:31Z",
+  "description": "Where in the source the passage is found.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "daa5c5c6-4967-4752-bb3e-fd915c9ccb6d",
+  "name": "locator",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Known baseline or explicit unknown state."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Known baseline or explicit unknown state.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "ca750540-0b0a-41af-97b4-deaec1b50075",
+  "name": "baseline_state",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "The passage exactly as the source has it — no tidying, no paraphrase, no ellipsis that changes the sense. Mark any omission with an ellipsis and any insertion with square brackets. If you cannot copy it from the text in front of you, you do not have a quotation: record what you have as prose in the claim's warrant instead. A quotation whose wording cannot be matched against the source is worse than no quotation, because it reads as checkable and is not."
+  },
+  "createdAt": "2026-09-21T16:42:31Z",
+  "description": "The passage, word for word as it appears in the source.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "44163212-578e-4840-881a-25cde9cde4b0",
+  "name": "quote_text",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

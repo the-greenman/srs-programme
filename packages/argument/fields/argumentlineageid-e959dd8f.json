@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Stable human-readable identity shared across revisions."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Stable human-readable identity shared across revisions.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "e959dd8f-be09-4c30-a222-09f0d0c5d1c3",
+  "name": "argument_lineage_id",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

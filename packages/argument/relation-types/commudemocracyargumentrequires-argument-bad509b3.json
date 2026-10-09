@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Selected option consideration requires child Argument",
+  "category": "dependency",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Selected option consideration requires child Argument",
+  "id": "bad509b3-c23e-40bd-8d59-678f5ce72691",
+  "irreflexive": true,
+  "key": "com.mudemocracy.argument/requires-argument",
+  "label": "requires argument",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

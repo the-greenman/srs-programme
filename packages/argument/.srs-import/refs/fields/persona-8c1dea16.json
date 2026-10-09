@@ -1,0 +1,17 @@
+{
+  "aiGuidance": {
+    "purpose": "Where the problem manifests: clerk, participant, founder, group, or constituent."
+  },
+  "createdAt": "2026-09-08T14:37:19Z",
+  "description": "Where a problem manifests.",
+  "editorHint": "dropdown",
+  "fieldType": {
+    "datatype": "string",
+    "valueDomain": "closed",
+    "vocabularyRef": "fce7c0a8-e85f-4be0-b7c5-5f16d8fddca3"
+  },
+  "id": "8c1dea16-0ed4-4658-a1df-7039355823ff",
+  "name": "persona",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

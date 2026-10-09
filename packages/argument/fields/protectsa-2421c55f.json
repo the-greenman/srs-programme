@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "What the first pole protects."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "What the first pole protects.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "2421c55f-237e-49c4-aa48-48707d87a4d9",
+  "name": "protects_a",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

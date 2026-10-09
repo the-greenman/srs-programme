@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "Argument version in which this consideration was made."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "Argument version in which this consideration was made.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "55014fc3-b853-4e32-bd4d-e180aa407513",
+  "name": "decision_version",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

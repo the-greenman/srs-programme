@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/field.json",
+  "aiGuidance": {
+    "purpose": "What observation would materially challenge this assertion."
+  },
+  "createdAt": "2026-09-13T10:21:05.126Z",
+  "description": "What observation would materially challenge this assertion.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "31eb3a0d-4dd2-4254-bd61-625dbb1119e6",
+  "name": "falsifier",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

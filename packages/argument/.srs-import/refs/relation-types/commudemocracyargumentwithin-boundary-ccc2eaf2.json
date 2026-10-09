@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Argument is valid within Boundary",
+  "category": "association",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Argument is valid within Boundary",
+  "id": "ccc2eaf2-5ddd-4df4-95d1-ad1fac249f0d",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/within-boundary",
+  "label": "within boundary",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "extraction": "Title: give every problem a title, a short noun phrase of about 3 to 8 words naming the problem's core, so a human scanning a list or outline can tell it from its neighbours. Derive it from the record's own statement. Distinct from sibling titles. Examples of the style: \"Training data omits unwritten knowledge\", \"Decisions lost between meetings\". The problem id is a code, not a title; the title does not replace it.",
+    "negativeGuidance": "Title must not be the problem id, a truncated or reworded-in-full statement, its first words, or a generic phrase such as \"A problem about decisions\". It must not strengthen or soften what the statement says. Never overwrite a title a person has set.",
+    "purpose": "One problem statement extracted from the source material — a claim with its citation id and classifying facets."
+  },
+  "createdAt": "2026-09-08T14:38:02Z",
+  "description": "A single problem statement: a claim, tagged by kind, persona, scale, context and size.",
+  "fields": [
+    {
+      "displayLabel": "Problem ID",
+      "fieldId": "0fc34da3-141c-4829-bcc9-dd53abe7b54a",
+      "order": 0,
+      "required": true
+    },
+    {
+      "displayLabel": "Statement",
+      "fieldId": "2d065342-ff8f-4eeb-a6b5-ed200f286fab",
+      "order": 1,
+      "required": true
+    },
+    {
+      "displayLabel": "Kind",
+      "fieldId": "916ac861-c5bd-4391-ba4e-22a06136a831",
+      "order": 2,
+      "required": true
+    },
+    {
+      "displayLabel": "Persona",
+      "fieldId": "8c1dea16-0ed4-4658-a1df-7039355823ff",
+      "order": 3,
+      "required": true
+    },
+    {
+      "displayLabel": "Scale",
+      "fieldId": "7b93bd07-5cda-4fa0-b64e-21f9bccfb9a2",
+      "order": 4,
+      "required": true
+    },
+    {
+      "displayLabel": "Context",
+      "fieldId": "a7549fdb-b15e-4fb0-8d0b-c6e0add37a68",
+      "order": 5,
+      "required": false
+    },
+    {
+      "displayLabel": "Size",
+      "fieldId": "abeefbe0-4add-48f7-8d53-3f5f72e34afd",
+      "order": 6,
+      "required": false
+    },
+    {
+      "displayLabel": "Title",
+      "fieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+      "order": 7,
+      "required": false
+    }
+  ],
+  "id": "6e955608-b469-4b8e-8855-5dccdb73fe11",
+  "identityFieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+  "lifecycleRef": "27d82637-05a2-4a69-9fec-1e33baf36ebc",
+  "name": "problem",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

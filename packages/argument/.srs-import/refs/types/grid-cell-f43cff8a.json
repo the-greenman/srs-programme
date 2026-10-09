@@ -1,0 +1,45 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "purpose": "A cell in the element-by-level grid used to check the problem set's coverage."
+  },
+  "createdAt": "2026-09-08T14:38:02Z",
+  "description": "One cell of the element/level grid, carrying its defining question and current reach.",
+  "fields": [
+    {
+      "displayLabel": "Title",
+      "fieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+      "order": 0,
+      "required": true
+    },
+    {
+      "displayLabel": "Element",
+      "fieldId": "e452f17b-4166-43fd-ba8b-9333709f60ac",
+      "order": 1,
+      "required": true
+    },
+    {
+      "displayLabel": "Level",
+      "fieldId": "4c66f820-fa8e-4c6e-8db2-cf34f6007510",
+      "order": 2,
+      "required": true
+    },
+    {
+      "displayLabel": "Question",
+      "fieldId": "223adb3e-3072-4a50-b8b6-2f4deb7cc8ef",
+      "order": 3,
+      "required": true
+    },
+    {
+      "displayLabel": "Reach",
+      "fieldId": "e53db800-2290-4a44-b3f3-d260f09ab8bf",
+      "order": 4,
+      "required": false
+    }
+  ],
+  "id": "f43cff8a-1083-4285-8fc6-e5d9d89a4080",
+  "identityFieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+  "name": "grid-cell",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

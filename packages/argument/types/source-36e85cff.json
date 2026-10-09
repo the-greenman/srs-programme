@@ -1,0 +1,51 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "purpose": "A piece of source material a problem statement is derived from or evidenced by."
+  },
+  "createdAt": "2026-09-08T14:38:02Z",
+  "description": "A source of evidence for problem statements: cards, dictation, conversation, essay, document, or transcript.",
+  "fields": [
+    {
+      "displayLabel": "Title",
+      "fieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+      "order": 0,
+      "required": true
+    },
+    {
+      "displayLabel": "Source Kind",
+      "fieldId": "a11ad21b-8076-41b0-a474-1458b9bd0144",
+      "order": 1,
+      "required": true
+    },
+    {
+      "displayLabel": "Source Date",
+      "fieldId": "42655c33-8d74-4421-b2a6-389b3b2c54a3",
+      "order": 2,
+      "required": false
+    },
+    {
+      "displayLabel": "Description",
+      "fieldId": "e7c60942-7cdf-407e-be1f-bf5f4a648285",
+      "order": 3,
+      "required": false
+    },
+    {
+      "displayLabel": "URL",
+      "fieldId": "beccc3c8-0ce0-479e-b901-346e01d14768",
+      "order": 4,
+      "required": false
+    },
+    {
+      "displayLabel": "Citation",
+      "fieldId": "80b74312-3416-4c0c-bdb2-c1306b21e1a0",
+      "order": 5,
+      "required": false
+    }
+  ],
+  "id": "36e85cff-989b-4c6d-9361-3c8906cff87b",
+  "identityFieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1",
+  "name": "source",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

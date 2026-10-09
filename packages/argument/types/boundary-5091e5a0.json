@@ -1,0 +1,42 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "The context-specific remit in which an argument is valid.",
+  "fields": [
+    {
+      "fieldId": "d7e82557-9045-5e92-a494-d99112bbec4a",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "d2ea6442-6e0e-4456-902b-f40ec679162d",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "cd7e1a1f-e31b-4730-9dbf-623ac4a13149",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "ae2badb5-969c-4535-b800-7181c5d2ee28",
+      "order": 3,
+      "required": true
+    },
+    {
+      "fieldId": "52ff03ef-9d22-4ecc-984e-c6c2e731cddf",
+      "order": 4,
+      "required": true
+    },
+    {
+      "fieldId": "b88dd4bd-75c5-4c32-971d-d8ba934d7af7",
+      "order": 5,
+      "required": true
+    }
+  ],
+  "id": "5091e5a0-4fa5-4b7b-9108-6d59765ce68d",
+  "identityFieldId": "d7e82557-9045-5e92-a494-d99112bbec4a",
+  "name": "boundary",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

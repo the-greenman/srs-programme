@@ -1,0 +1,67 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/composition.json",
+  "createdAt": "2026-09-21T15:33:49Z",
+  "description": "The core case with its backing: each claim, the warrant that supports it, and the sources that evidence or challenge it, followed by the bibliography. The file to write the theory of change from. Generated — edit the records, not this file.",
+  "exportConfig": {
+    "format": "markdown",
+    "preamble": "<!-- rendered from muSrs; do not edit -->\n# The core case, with its backing"
+  },
+  "id": "f7199352-1ac3-4c38-b160-ee254d5b2365",
+  "name": "the-core-case-backing-reader",
+  "namespace": "com.mudemocracy.argument",
+  "sections": [
+    {
+      "emptyBehavior": "hide",
+      "order": 0,
+      "relationsPresentation": {
+        "include": [
+          {
+            "directions": "inverse",
+            "inverseLabel": "Evidence",
+            "relationType": "evidences"
+          },
+          {
+            "directions": "forward",
+            "forwardLabel": "Drawn from",
+            "relationType": "derived-from"
+          },
+          {
+            "directions": "inverse",
+            "inverseLabel": "Challenged by",
+            "relationType": "challenges"
+          }
+        ]
+      },
+      "renderViewId": "c68673c1-7d32-44d7-bf34-f31e345a6fec",
+      "sectionId": "claims",
+      "source": {
+        "containerId": "603caaf3-7368-43f4-91a1-b82570527aba",
+        "type": "container-subset"
+      },
+      "title": "Claims",
+      "titleFieldId": "3ab45ec6-50d5-43dc-a5bb-f68d13b33a91"
+    },
+    {
+      "emptyBehavior": "hide",
+      "order": 1,
+      "ordering": {
+        "fieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1"
+      },
+      "renderViewId": "af2236a9-2ea1-41b1-a7ab-080785da7936",
+      "sectionId": "sources",
+      "source": {
+        "query": {
+          "typeName": "source",
+          "typeNamespace": "com.mudemocracy.argument"
+        },
+        "type": "discovery-query"
+      },
+      "title": "Sources",
+      "titleFieldId": "db580a8d-7662-48ce-bc7f-e50e4a7cccd1"
+    }
+  ],
+  "tags": [
+    "generated-doc"
+  ],
+  "version": 1
+}

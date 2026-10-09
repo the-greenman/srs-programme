@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "Boundary holds Tension",
+  "category": "association",
+  "createdAt": "2026-09-13T10:23:40.913Z",
+  "description": "Boundary holds Tension",
+  "id": "06aa9f24-60ab-4585-bd4d-b6258ac9f343",
+  "irreflexive": false,
+  "key": "com.mudemocracy.argument/holds-tension",
+  "label": "holds tension",
+  "namespace": "com.mudemocracy.argument",
+  "version": 1
+}

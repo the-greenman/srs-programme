@@ -1,0 +1,43 @@
+{
+  "createdAt": "2026-09-13T10:20:39.298Z",
+  "description": "Accountable response to review.",
+  "id": "97824fc7-a87d-4949-a266-08084c257a55",
+  "mode": "closed",
+  "name": "review-disposition",
+  "namespace": "com.mudemocracy.argument",
+  "terms": [
+    {
+      "description": "Keep the current ratified argument with recorded rationale.",
+      "id": "16f0f2d2-4265-429f-ad02-562e855da23c",
+      "key": "retain",
+      "label": "Retain",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Create a revised draft in the same lineage.",
+      "id": "dc281a4e-55db-45da-b6f4-60f2c88ee5f4",
+      "key": "refine",
+      "label": "Refine",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Ratify a successor and replace this version.",
+      "id": "4136b94e-b64d-44b2-a4e8-8ef260203b80",
+      "key": "supersede",
+      "label": "Supersede",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    },
+    {
+      "description": "Withdraw without a successor.",
+      "id": "899e0d29-fbfc-4365-b1ed-ff1c85801274",
+      "key": "withdraw",
+      "label": "Withdraw",
+      "namespace": "com.mudemocracy.argument",
+      "version": 1
+    }
+  ],
+  "version": 1
+}
