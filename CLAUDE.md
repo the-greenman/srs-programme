@@ -77,6 +77,8 @@ export $(node scripts/fetch-pinned-srs.mjs)
 node scripts/check-programme-conformance.mjs
 node scripts/roadmap.test.mjs
 node scripts/check-method.mjs
+node scripts/steward-check.test.mjs
+node scripts/check-method.test.mjs
 node scripts/roadmap.mjs --json > /dev/null
 ```
 
