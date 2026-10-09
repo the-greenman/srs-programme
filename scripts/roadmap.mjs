@@ -22,7 +22,7 @@ const MNS = "com.semanticops.method";
 /**
  * records: `srs record list` entries; relations: `srs relation list` entries. Throws on a broken ranking.
  * affirmed: instance ids in the Affirmed container. Problems, clusters and personas are read from that
- * layer only; agent Suggestions are never consulted.
+ * layer only (so are remedies); cluster and persona labels may also come from Suggestions, flagged suggested.
  */
 export function derive(records, relations, today, affirmed = new Set()) {
   const rows = records.map((r) => ({ id: r.instanceId, type: r.record.typeName, fv: r.record.fieldValues }));
@@ -46,16 +46,25 @@ export function derive(records, relations, today, affirmed = new Set()) {
       .sort((a, b) => a.rank - b.rank)[0];
     const rel = (type, from, to) => relations.filter((l) => l.relationType === `${MNS}/${type}` && (from ? l.sourceId === from : l.targetId === to));
     const aff = (id, type) => (affirmed.has(id) && byId.get(id)?.type === type ? byId.get(id) : null);
-    const answers = rel("answers", e.id).map((l) => aff(l.targetId, "problem")).filter(Boolean).map((pr) => {
-      const persona = rel("held-by", pr.id).map((l) => aff(l.targetId, "persona")).find(Boolean);
-      const cluster = relations.filter((l) => l.relationType === "contains" && l.targetId === pr.id).map((l) => aff(l.sourceId, "cluster")).find(Boolean);
-      const objective = cluster && rel("addresses", null, cluster.id).map((l) => objectives.find((o) => o.id === l.sourceId)).find(Boolean);
-      return { problem: pr.fv.problem_id ?? pr.fv.title, persona: persona?.fv.title ?? null, cluster: cluster?.fv.title ?? null, objective: objective?.title ?? null };
+    // Cluster and persona are structure: resolved from Affirmed or Suggestions, marked suggested when only the latter.
+    const any = (id, type) => (byId.get(id)?.type === type ? byId.get(id) : null);
+    const lab = (r) => (r ? { label: r.fv.title, ...(affirmed.has(r.id) ? {} : { suggested: true }) } : null);
+    const remedies = rel("implements", e.id).map((l) => aff(l.targetId, "remedy")).filter(Boolean).map((rm) =>
+      ({ rm, problems: rel("answers", rm.id).map((l) => aff(l.targetId, "problem")).filter(Boolean) }));
+    const problems = [...new Set([...rel("answers", e.id).map((l) => aff(l.targetId, "problem")).filter(Boolean), ...remedies.flatMap((x) => x.problems)])];
+    const answers = problems.map((pr) => {
+      const persona = lab(rel("held-by", pr.id).map((l) => any(l.targetId, "persona")).find(Boolean));
+      const cl = relations.filter((l) => l.relationType === "contains" && l.targetId === pr.id).map((l) => any(l.sourceId, "cluster")).find(Boolean);
+      const cluster = lab(cl);
+      const objective = cl && rel("addresses", null, cl.id).map((l) => objectives.find((o) => o.id === l.sourceId)).find(Boolean);
+      return { problem: pr.fv.problem_id ?? pr.fv.title, persona: persona?.label ?? null, ...(persona?.suggested ? { personaSuggested: true } : {}),
+        cluster: cluster?.label ?? null, ...(cluster?.suggested ? { suggested: true } : {}), objective: objective?.title ?? null };
     });
     const [ref] = e.fv.issue_ref;
     const [repo, number] = ref.split("#");
     return { ref, refs: e.fv.issue_ref, repo, number: Number(number), title: e.fv.title,
       objective: served?.title ?? null, rank: served?.rank ?? null, priority: served?.tier ?? null, parked: !served,
+      ...(remedies.length ? { remedies: remedies.map(({ rm, problems: ps }) => ({ id: rm.id, title: rm.fv.title, move: rm.fv.move, answers: ps.map((p) => p.fv.problem_id ?? p.fv.title) })) } : {}),
       ...(answers.length ? { answers } : {}) };
   });
   // Parked snapshot (v12): boundaries, stages, contracts, assessments keyed by strategy_key, with their outgoing relations among themselves.
@@ -95,8 +104,9 @@ function main(argv) {
     console.log(e.parked
       ? `${ref} -> ${e.title} -> no ranked objective in ${result.activePeriod.title} -> parked`
       : `${ref} -> ${e.title} -> ${e.objective} -> rank ${e.rank} in ${result.activePeriod.title} -> ${e.priority}`);
+    for (const r of e.remedies ?? []) console.log(`  implements "${r.title}" (move: ${r.move.slice(0, 60)}) -> answers ${r.answers.join(", ") || "no problem"}`);
     for (const a of e.answers ?? [])
-      console.log(`  answers ${a.problem} (held by ${a.persona ?? "?"}) -> ${a.cluster ?? "no cluster"} -> ${a.objective ?? "no objective"}`);
+      console.log(`  answers ${a.problem} (held by ${a.persona ?? "?"}${a.personaSuggested ? " (suggested)" : ""}) -> ${a.cluster ?? "no cluster"}${a.suggested ? " (suggested)" : ""} -> ${a.objective ?? "no objective"}`);
   } else if (argv.includes("--apply")) {
     const live = argv.includes("--yes") && !argv.includes("--dry-run");
     const ghp = process.env.GHP_SCRIPT;
