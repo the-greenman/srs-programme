@@ -1,0 +1,18 @@
+{
+  "instanceId": "92ebaeaf-bf8f-4296-b4ba-45a8112baac8",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Evidence from the srs-web lenses assessment (2026-10-09, srs-programme:source-documents/srs-web-lenses-2026-10-09/assessment.md#evidence). A cold reviewer of the proof of concept found that showing a record as its schema form (labels, required markers, field guidance, an Edit button) left them unable to tell \"whether you are reading or administering\", and that a lens named \"The case\" showed twenty claim forms rather than an argument. This supports the belief in SP-19 from the interface side: the record shape the tool needs is not the shape the reader holds. The suggested lens remedy makes the centre pane depend on the lens: reading, a rendered document, or a writing surface."
+  },
+  "createdAt": "2026-10-09T08:59:39.625766084+00:00",
+  "updatedAt": "2026-10-09T08:59:39.625773078+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:analyst",
+    "name": "Analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

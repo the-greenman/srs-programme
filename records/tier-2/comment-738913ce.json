@@ -1,0 +1,18 @@
+{
+  "instanceId": "738913ce-9609-4238-8c5f-85ab115ff2e7",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Evidence from the srs-web lenses assessment (2026-10-09, srs-programme:source-documents/srs-web-lenses-2026-10-09/assessment.md#model). The owner described the working pattern this problem asks for: \"draw a boundary, create distinctions, then see relationships. A boundary defines the set I want to see. A distinction defines what I want to tell apart: sometimes all fields are just fields, sometimes types of fields; sometimes types of containers, sometimes just nesting.\" A working proof of concept drew the same records into different sets (a container outline, a composition's sections, every record of a type) without moving them, and kept the selected record across sets. Not yet built: an ad hoc selection saved as a set, and the \"tell apart by\" control. Suggested remedy: open every repository through lenses (Suggestions, Remedy scout)."
+  },
+  "createdAt": "2026-10-09T08:59:39.475353632+00:00",
+  "updatedAt": "2026-10-09T08:59:39.475358092+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:analyst",
+    "name": "Analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

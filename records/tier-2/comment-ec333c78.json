@@ -1,0 +1,18 @@
+{
+  "instanceId": "ec333c78-f271-456f-bf6a-46b5964705df",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Partial answer from the srs-web lenses proof of concept (2026-10-09, srs-programme:source-documents/srs-web-lenses-2026-10-09/assessment.md#model): the selection is one address in the page (lens and record id), which survives switching view and which an agent connected to the browser session can read or set. That is the same mechanism srs-web#426 asks for. It tells an agent which record the person has open, not which paragraph inside it they are editing."
+  },
+  "createdAt": "2026-10-09T08:59:39.774469023+00:00",
+  "updatedAt": "2026-10-09T08:59:39.774476345+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:analyst",
+    "name": "Analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

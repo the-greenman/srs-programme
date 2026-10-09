@@ -1,0 +1,28 @@
+{
+  "instanceId": "6b0d881d-1698-42eb-8be1-13f66761613b",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Open every repository through lenses: a set, one thing, and what links to it",
+    "move": "srs-web gets one shell of three panes, each built once: the set being worked through, the one thing in focus, and its links grouped by meaning. A lens decides how each pane is filled and named. Derived lenses come from navigation, compositions and types with no setup; curated lenses name the links in the domain's words; switching lens keeps the selected record at one address. Today's editors become curated lenses of the same shell, and every pane gets a \"tell apart by\" control in which \"nothing\" is a first-class choice.",
+    "does_not_fix": "The engine gaps that force client-side workarounds (a whole Composition with its sections, per-record ids in rendered output, typed neighbours, note reads), and where lens definitions live long term, which needs an RFC for a package-level presentation object.",
+    "falsifier": "A person new to srs-web, given the spec, muSrs, srs-programme and the semanticops.com source, cannot within five minutes on each find a record, follow two of its links and get back without help; or a curated lens needs code outside the shared panes.",
+    "source_ref": [
+      "srs-programme:source-documents/srs-web-lenses-2026-10-09/assessment.md#model",
+      "srs-programme:source-documents/srs-web-lenses-2026-10-09/assessment.md#evidence",
+      "srs-programme:source-documents/srs-web-lenses-2026-10-09/assessment.md#recommendation",
+      "srs-web:poc/ux-lenses (local branch, commits 733f724 and 4c68181)"
+    ],
+    "return_when": "When the Focus pane is lens-driven (reading, document, writing surface) and the four-corpus walkthrough has been run with the owner."
+  },
+  "createdAt": "2026-10-09T08:59:39.236620360+00:00",
+  "updatedAt": "2026-10-09T08:59:39.236621995+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:remedy-scout",
+    "name": "Remedy scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
