@@ -1,0 +1,23 @@
+{
+  "instanceId": "628161be-16ba-4d48-abc9-2da1b2790bcc",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Checked over permissive",
+    "boundary_clause": "Unless an explicit repair operation uses the unchecked catalog.",
+    "context": "Applies in the SRS implementation boundary. Evidenced by ADR-045 and ADR-047: incoherent repos could not be fixed.",
+    "source_ref": [
+      "source-documents/boundaries-2026-10-09/proposal.md (section 3.3)"
+    ]
+  },
+  "createdAt": "2026-10-09T18:32:39.283107815+00:00",
+  "updatedAt": "2026-10-09T18:32:39.283109239+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

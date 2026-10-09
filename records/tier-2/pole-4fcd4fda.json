@@ -1,0 +1,20 @@
+{
+  "instanceId": "4fcd4fda-b973-447b-afd0-b1250b90f779",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Spec first",
+    "looks_like": "A ruling or accepted RFC exists before the implementation ships it.",
+    "shadow": "Slow: a gap waits for the spec."
+  },
+  "createdAt": "2026-10-09T18:32:36.571348865+00:00",
+  "updatedAt": "2026-10-09T18:32:36.571352385+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

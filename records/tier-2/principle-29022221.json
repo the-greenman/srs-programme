@@ -1,0 +1,23 @@
+{
+  "instanceId": "29022221-5193-447d-90b0-99d3ad1e68ce",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Mechanism over policy",
+    "boundary_clause": "Unless the rule can be declared and checked by any implementation (the level test): then it is standard.",
+    "context": "Applies in the SemanticOps boundary. Proposed leaning; evidenced by rfc-decision-1e7c0c8e and c20fcff8, and the owner's 'two levels of rules', 2026-09-10.",
+    "source_ref": [
+      "source-documents/boundaries-2026-10-09/proposal.md (section 3.1)"
+    ]
+  },
+  "createdAt": "2026-10-09T18:32:35.287267148+00:00",
+  "updatedAt": "2026-10-09T18:32:35.287268824+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

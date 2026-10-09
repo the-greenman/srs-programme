@@ -1,0 +1,24 @@
+{
+  "instanceId": "e8683740-5514-4a2c-b8ec-5414e0e957bc",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "title": "Layers: SRS standard",
+    "article_text": "The SRS standard's layers are MEANING, EXPRESSION and OPERATION, with the six layer rules, stated in rfc-decision-9ee14517 (refined by 0118e938) and srs/docs/charter/decision-compass.md. This article points there and does not restate them.",
+    "rationale": "One way per goal: the layer model is stated once, in the srs repository.",
+    "amendment_rule": "Owner only.",
+    "protected_status": "Agent suggestion until the owner affirms it.",
+    "status": "proposed"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-09T18:32:41.216943938+00:00",
+  "updatedAt": "2026-10-09T18:32:41.216947452+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,20 @@
+{
+  "instanceId": "bd776929-d7b1-4c01-9010-137287ced0f7",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Core once",
+    "looks_like": "Semantics live once, in srs-repository; adapters add presentation only.",
+    "shadow": "A capability waits for the core before a client can use it."
+  },
+  "createdAt": "2026-10-09T18:32:38.190539948+00:00",
+  "updatedAt": "2026-10-09T18:32:38.190541590+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

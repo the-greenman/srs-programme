@@ -1,0 +1,20 @@
+{
+  "instanceId": "fe398f1e-5735-48c6-9880-849a1595818f",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Shipping ahead",
+    "looks_like": "The implementation ships and the spec catches up.",
+    "shadow": "srs-rust#1210 shipped package export before RFC-003 was accepted (#1212 conforms it); coordination was lost."
+  },
+  "createdAt": "2026-10-09T18:32:36.653183749+00:00",
+  "updatedAt": "2026-10-09T18:32:36.653185311+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,24 @@
+{
+  "instanceId": "f65ba0b9-8c5b-4312-9567-7e1b9470264d",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "title": "Cycle and report",
+    "article_text": "The cycle runs Monday 00:00 UTC to Sunday 18:00 UTC. The nightly lane runs do the building and reviewing. On Sunday the Steward closes the cycle and posts the report on semanticops.com#31 before the owner's Monday review. The report uses the standard run-report headings plus figures: PRs merged with their quorum line, PRs open, stops, red gates, budget used, and the open-divergence count.",
+    "rationale": "The owner reviews on Monday; the report must be there first.",
+    "amendment_rule": "Owner only: an amendment needs a new owner-ratified decision.",
+    "protected_status": "Agent testimony until the owner ratifies the charter decision.",
+    "status": "proposed"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-09T18:48:19.281555302+00:00",
+  "updatedAt": "2026-10-09T18:48:19.281560112+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

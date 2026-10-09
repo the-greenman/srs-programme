@@ -1,0 +1,19 @@
+{
+  "instanceId": "8fe88031-cc6a-4f91-91d1-ff2fb9254011",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Human judgement and agent throughput",
+    "description": "Whether a human decides each item or agents act and merge on their own."
+  },
+  "createdAt": "2026-10-09T18:32:34.081392240+00:00",
+  "updatedAt": "2026-10-09T18:32:34.081395972+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

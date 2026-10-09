@@ -1,0 +1,19 @@
+{
+  "instanceId": "72f9bb21-11ed-4cfc-9bb5-1a1028a0af6b",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Reviewable and fast",
+    "description": "Whether each unit is small enough for a person to review or the flow is as quick as possible."
+  },
+  "createdAt": "2026-10-09T18:32:35.680040267+00:00",
+  "updatedAt": "2026-10-09T18:32:35.680041916+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

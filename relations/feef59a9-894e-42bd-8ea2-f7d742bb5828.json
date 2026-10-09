@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "feef59a9-894e-42bd-8ea2-f7d742bb5828",
+  "relationType": "com.semanticops.method/governs",
+  "sourceInstanceId": "14865f1e-a08e-4a32-9028-c584d37e105b",
+  "targetInstanceId": "8fe88031-cc6a-4f91-91d1-ff2fb9254011",
+  "createdAt": "2026-10-09T18:32:34.511762995+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  }
+}

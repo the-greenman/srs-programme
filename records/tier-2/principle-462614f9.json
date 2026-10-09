@@ -1,0 +1,23 @@
+{
+  "instanceId": "462614f9-b13a-43f3-bd35-0fdf5290be79",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Reviewable units over throughput",
+    "boundary_clause": "Unless a compass already settles the decision: then it flows without per-item review.",
+    "context": "Applies in the SemanticOps boundary. Proposed leaning; evidenced by the owner on 2026-10-09: 'cannot approve PRs I cannot test or understand'.",
+    "source_ref": [
+      "source-documents/boundaries-2026-10-09/proposal.md (section 3.1)"
+    ]
+  },
+  "createdAt": "2026-10-09T18:32:36.086010755+00:00",
+  "updatedAt": "2026-10-09T18:32:36.086012537+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,23 @@
+{
+  "instanceId": "841b9c0f-b1c7-4bbc-b6e3-83e51235a43c",
+  "typeId": "5091e5a0-4fa5-4b7b-9108-6d59765ce68d",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.argument",
+  "typeName": "boundary",
+  "fieldValues": {
+    "title": "WG Third-party ready",
+    "purpose": "A third party who reads the SRS spec gets a tool that behaves as written. The group closes recorded gaps between rulings, schema and the reference implementation.",
+    "inside": "srs-rust and srs-vscode, srs docs and mirrors, and non-UI srs-web changes that execute an existing ruling.",
+    "outside": "New rulings, RFCs, client UX.",
+    "authority_basis": "The owner's delegation, once ratified (semanticops.com#31). It inherits the SRS implementation compass, and through it the SRS standard.",
+    "revision_condition": "No open divergence in the divergence diff for two cycles, or the owner changes the mandate."
+  },
+  "createdAt": "2026-10-09T18:32:32.847894630+00:00",
+  "updatedAt": "2026-10-09T18:32:32.847896169+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

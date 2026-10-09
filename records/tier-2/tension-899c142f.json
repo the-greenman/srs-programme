@@ -1,0 +1,19 @@
+{
+  "instanceId": "899c142f-8e05-40cc-9807-ccd16b962b9e",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Strict and repairable",
+    "description": "Whether invalid data is refused outright or can be fixed through a deliberate path."
+  },
+  "createdAt": "2026-10-09T18:32:38.886914764+00:00",
+  "updatedAt": "2026-10-09T18:32:38.886918791+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:compass-scout",
+    "name": "Compass scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
