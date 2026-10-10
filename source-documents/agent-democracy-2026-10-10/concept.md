@@ -159,7 +159,9 @@ flowchart LR
 ```
 *Rulings become precedents, precedents become principles, and the mandate grows with them.*
 
-New norms grow the same way, by **convention before enforcement**. When we see a better way of doing something, we first set it out as a convention: a stated preferred route that new work follows, checked gently if at all, with nothing old rewritten. The convention is a test, and it states up front what would show that it works. Only when it has proven itself does a separate decision enforce it across the board. Rules arrive already tried.
+New norms grow the same way, by **convention before enforcement**. When we see a better way of doing something, we first set it out as a convention: a stated preferred route that new work follows, checked gently if at all, with nothing old rewritten. The convention is a test. Its decision carries a review clause: when it will be reviewed, and what would show that it works (it is consistently used, and it adds value). Only when it has proven itself does a separate decision enforce it across the board; if it hasn't, it is withdrawn. Rules arrive already tried.
+
+The aim, here as everywhere, is signal. Too much information is the same as noise, whether it is a flood of decisions for a person or a wall of warnings from a check.
 
 The same loop runs between this document and the groups. This document is the theory, and the groups' logs and reports are the practice. Each feeds the other.
 
