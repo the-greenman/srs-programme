@@ -1,0 +1,13 @@
+{
+  "id": "f46990f2-da0f-42f6-95d0-09cf5d3cdcc1",
+  "version": 1,
+  "key": "com.semanticops.programme/receives",
+  "namespace": "com.semanticops.programme",
+  "label": "Receives",
+  "description": "Source session received the target working-group report (a stewardship run-report record). Noting the report for the parent context; it does not ratify anything.",
+  "category": "association",
+  "createdAt": "2026-10-10T13:26:29.024275322+00:00",
+  "canonicalDirection": "source is the session; target is the run-report record it received",
+  "status": "active",
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json"
+}
