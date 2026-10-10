@@ -104,7 +104,11 @@ A group does not take authority; it is given it. The parent (today, the project 
 2. **The limits are written down.** The mandate says which repositories, which kinds of change, and how much in one cycle.
 3. **A standing rule changes only through a recorded decision.** Nobody quietly edits the rules, people and agents alike.
 
-**Sessions, and decisions between them.** Ratification happens at a session. A session may be planned or called on the spot; either way it has a date and a time and a record of who attended, and it is recorded like everything else. Between sessions, work goes on: a decision made on the fly is written into the log straight away, with an honest note of who recorded it, and it can be acted on at once if it falls within the group's remit. At the next session the body that holds the authority reviews what was decided in between and ratifies or sets aside each one, like approving the minutes. Anything outside the remit waits for a session. Nothing goes unrecorded, and the record catches up with the work.
+**Sessions, and decisions between them.** Decisions are worked on and ratified in sessions. A session is sometimes a meeting, but not always: it can be a working session, a review at a desk, or the close of an agent group's cycle, planned or called on the spot. Every session has a date, a time and a record of who took part.
+
+A decision can travel. It may be drafted and redrafted within one session; those drafts are edits in place, and the history is kept in version control rather than as separate records. It may pass as a proposal through several sessions, especially when it needs input from different people, and each session that takes it up records that it did. In the end it is **ratified in exactly one session**, of the right level (the body that owns the decision) and with its quorum present. That session's attendees are the record of who was involved.
+
+Between sessions, work goes on. A decision made on the fly is written into the log straight away, with an honest note of who recorded it, and it can be acted on at once if it falls within the group's remit. Anything outside the remit waits for a session at the right level.
 
 ```mermaid
 flowchart LR
