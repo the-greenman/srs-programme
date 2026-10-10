@@ -1,0 +1,19 @@
+{
+  "instanceId": "84be7e34-29b6-402d-b080-73fa39c23176",
+  "typeId": "5a061505-dd0e-4c8d-9e20-fa28a3c42b68",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision_log",
+  "fieldValues": {
+    "title": "SemanticOps decision log"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-10T10:41:19.123368541+00:00",
+  "updatedAt": "2026-10-10T10:41:19.123375722+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
