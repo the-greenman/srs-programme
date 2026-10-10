@@ -2,7 +2,9 @@
 
 A working group is an epic run like a co-op subcommittee. The owner delegates a mandate to the group, and the group decides and merges inside it. Anything outside the mandate comes back to the owner as one decision. The first group is **WG Third-party ready** (semanticops.com#31).
 
-The rules live in the group's charter records in this repository: the group role (what it decides, what it escalates) and four standing orders (Membership and quorum, Cycle and report, Budget, Reporting and minutes). The briefs that agents follow are `wg-builder.md`, `wg-reviewer.md`, `wg-steward.md` and `unattended-worker.md` (fallback sweep). The merge check is `scripts/pr-upkeep.sh`. If this page and those disagree, the records and the script win.
+The rules live in the group's charter records in this repository: the group role (what it decides, what it escalates) and four standing orders (Membership and quorum, Cycle and report, Budget, Reporting and minutes). The briefs that agents follow are `wg-builder.md`, `wg-reviewer.md`, `wg-steward.md`, `wg-analyst.md` and `unattended-worker.md` (fallback sweep). The merge check is `scripts/pr-upkeep.sh`. If this page and those disagree, the records and the script win.
+
+The group has four members: Steward, Builder, Reviewer and the Analyst (scout), whose standing job is to keep the queue fed. It acts only when the latest cycle report forecasts "Queue running dry", finds ruling-backed work in conformance gaps and unimplemented rulings, and files it as ready issues for the Builder. It never builds, reviews, merges or sets a priority; anything needing a new ruling becomes an exercise, not work.
 
 Current settings: cycle closes daily at 11:30 UTC · budget 10 delegated merges per cycle · pause after 2 unacknowledged reports.
 
@@ -19,6 +21,7 @@ flowchart LR
     C1["Daily 11:30 UTC"]
     C2["Every 15 minutes"]
     C3["Nightly 00:00 UTC"]
+    C4["Daily 12:00 UTC check:<br/>'Queue running dry'?"]
   end
   E1 --> B["Builder<br/>agent:tpr-builder"]
   E3 --> B
@@ -26,6 +29,8 @@ flowchart LR
   C1 --> S["Steward<br/>agent:tpr-steward"]
   C2 --> U["pr-upkeep<br/>(script, no AI)"]
   C3 --> N["Nightly lane<br/>fallback sweep"]
+  C4 --> AN["Analyst (scout)<br/>agent:tpr-analyst"]
+  AN -->|files ready issues| E1
   B -->|opens PR| R
   R -->|quorum comment| U
   U -->|merges| E3
