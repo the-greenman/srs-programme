@@ -1,0 +1,24 @@
+{
+  "instanceId": "00567bf1-4938-4a36-bda1-771990e80903",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Charter: WG Third-party ready",
+    "decision_question": "Does the owner delegate the WG Third-party ready mandate on the terms in the group role and its four standing orders?",
+    "decision_statement": "Ratified: the group role 834b61fd and its standing orders (membership and quorum, cycle and report, budget, reporting and minutes) are the mandate of the Third-party ready working group, under the SRS implementation compass. Amendments need a new owner decision.",
+    "rationale": "semanticops.com#31; compass boundaries B0-B3 from srs-programme PR #51.",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-09T20:54:42.439918584+00:00",
+  "updatedAt": "2026-10-09T20:54:42.593454381+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
