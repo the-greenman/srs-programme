@@ -119,7 +119,15 @@ flowchart LR
 ```
 *How authority flows: down by a signed decision, back up by reports and escalations.*
 
-## 5. Tasks and decisions
+## 5. Three kinds of minute
+
+Borrowing from Quaker practice, a group records three kinds of minute:
+
+- **A report** says what the group did. It goes to the body above at its next session, which receives it, asks about it, and notes what the group decided under its own powers. Every report also looks ahead: what work comes next, and whether there is enough of it, so nobody has to guess whether the queue is fed.
+- **An exercise** is an open discussion with no decision attached. A group looking ahead at something that might arise can ask for input before anyone has to decide: what it has thought so far, the tensions it sees, the questions it cannot yet answer, what is blocking it. The minute of exercise keeps that discussion in the record so it can feed into proposals later. An exercise is never ratified.
+- **A decision** settles something, and is ratified in exactly one session.
+
+## 6. Tasks and decisions
 
 Not every act is a decision. The difference matters, because it decides who acts.
 
@@ -138,7 +146,7 @@ flowchart TD
 ```
 *Task or decision? A group acts on its own only for tasks and for decisions inside its mandate.*
 
-## 6. Rhythm and reports
+## 7. Rhythm and reports
 
 Each group sets its own rhythm in its standing orders. A busy group might report every few hours, a quiet one weekly. The first group reports once a day, at lunchtime.
 
@@ -154,7 +162,7 @@ flowchart LR
 
 Each report is short and always has the same parts: the decisions waiting for the owner, each written at the owner's level as fact, why it matters, the real options and their consequences, a recommendation, and urgency. Technical detail stays one link away, never in the question itself. Then come what was decided within the mandate, what was done, what got stuck, the budget used, what comes next, and what we learned.
 
-## 7. Theory and practice: how policy grows
+## 8. Theory and practice: how policy grows
 
 We do not try to write every rule in advance. We write the essential charter, start the first group, and learn by doing.
 
@@ -176,7 +184,7 @@ The aim, here as everywhere, is signal. Too much information is the same as nois
 
 The same loop runs between this document and the groups. This document is the theory, and the groups' logs and reports are the practice. Each feeds the other.
 
-## 8. Where this is heading
+## 9. Where this is heading
 
 These are the next steps the theory names. Each is built when the practice reaches it, not before.
 
@@ -184,7 +192,7 @@ These are the next steps the theory names. Each is built when the practice reach
 2. **The clerk.** In a human group the secretary keeps the procedure: counts the quorum, records the minutes, never decides the meaning. ("Wording is the secretary's; meaning is the group's.") We will build a small clerk program that does the same for agent groups. It will have its own identity, be the only thing that records governance acts, start the agents in turn, and enforce quorum, budget and pause from the charter. Rules that agents are only trusted to remember are not really enforced. *Built before any group is given more than the repository's own merge rules allow, or when a second group starts.*
 3. **Fractal and shared.** muDemocracy's own agents already keep run reports and work under authority roles. They will run on the same pattern and the same clerk. A group may hand part of its work to a sub-group, but only by a recorded decision, and the same shape repeats at every scale.
 
-## 9. Where we are now
+## 10. Where we are now
 
 The first group, **WG Third-party ready**, exists to make the reference implementation honour its rulings and its specification. It has a charter, a compass, a mandate and a decision log, and the owner ratified it on 2026-10-09. It reports daily on its epic (semanticops.com#31). The detailed operating flowcharts are in `routines/working-groups.md`.
 
