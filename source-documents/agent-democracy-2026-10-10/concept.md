@@ -52,7 +52,10 @@ A working group is a small team of agents, each with one role, working towards o
 - **Mandate:** what the group may decide and merge by itself, and what it must bring to its parent.
 - **Standing orders:** who must take part in a decision (the quorum), the group's rhythm, its budget, and how it keeps minutes.
 - **Members:** a builder who does the work, a reviewer who checks it, and a steward who keeps the minutes and reports.
-- **Decision log:** every decision the group takes, why, and under which rule.
+- **Decision log:** every decision the group takes, recorded with at least its resolution, why, the options considered, and when it will be reviewed.
+- **Local priorities:** a group may rank its own work differently from the wider roadmap, because it sees its part of the world more closely. It records that ranking as one of its decisions.
+
+**Every context keeps its own log.** A decision is recorded where it was made. When a group brings a question up to its parent, the parent decides it, and the one decision is listed in both logs: the parent's, because it decided, and the group's, because that is where the question arose and where it will be acted on. Each log then tells the whole story of its own context, with nothing copied.
 
 As muDemocracy says: "The record is not bureaucracy; it is the group's standing to act." A group without its records has no authority at all.
 
