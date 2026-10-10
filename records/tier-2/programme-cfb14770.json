@@ -1,0 +1,34 @@
+{
+  "instanceId": "cfb14770-053e-4fe7-9a84-ef3b3a07735c",
+  "typeId": "b34ef0e7-6f33-4c43-85b8-7a2772f456ef",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "programme",
+  "fieldValues": {
+    "programme_title": "SemanticOps programme",
+    "github_owner": "the-greenman",
+    "governed_repos": [
+      "semanticops.com",
+      "srs",
+      "srs-rust",
+      "srs-web",
+      "srs-vscode",
+      "srs-programme",
+      "srs-context",
+      "muDemocracy.org"
+    ],
+    "report_issue": "semanticops.com#31",
+    "digest_issue": "semanticops.com#33",
+    "board_project": 6,
+    "board_story_repo": "semanticops.com",
+    "owner_actor": "human:the-greenman"
+  },
+  "createdAt": "2026-10-10T19:50:08.193885219+00:00",
+  "updatedAt": "2026-10-10T19:50:08.193904909+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
