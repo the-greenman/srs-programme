@@ -24,7 +24,8 @@
     "fields/endson-25edcd17.json",
     "fields/stability-86b945a9.json",
     "fields/realitystate-1614494a.json",
-    "fields/objectiverank-330bd423.json"
+    "fields/objectiverank-330bd423.json",
+    "fields/sessiondate-85b9bd26.json"
   ],
   "types": [
     "types/phase-127b6706.json",
@@ -38,14 +39,17 @@
     "types/boundary-23381f5e.json",
     "types/capabilitystage-e5c178de.json",
     "types/strategycontract-e020a891.json",
-    "types/assessment-83459606.json"
+    "types/assessment-83459606.json",
+    "types/ratification-session-e77d27e3.json"
   ],
   "relationTypes": [
     "relation-types/comsemanticopsprogrammeserves-0fd42e96.json",
     "relation-types/comsemanticopsprogrammeresponds-to-c02856d7.json",
     "relation-types/comsemanticopsprogrammerequires-contract-0ac79ff2.json",
     "relation-types/comsemanticopsprogrammeassesses-8d4fc092.json",
-    "relation-types/comsemanticopsprogrammealigns-with-0435e205.json"
+    "relation-types/comsemanticopsprogrammealigns-with-0435e205.json",
+    "relation-types/comsemanticopsprogrammeratifies-fd2f78b4.json",
+    "relation-types/comsemanticopsprogrammesets-aside-36020a91.json"
   ],
   "views": [],
   "compositions": [
