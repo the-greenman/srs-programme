@@ -1,0 +1,28 @@
+{
+  "instanceId": "a06ce32d-110c-473f-a070-f508efd1d02a",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-51",
+    "title": "A citation cannot point at the passage it rests on",
+    "statement": "A source reference names a document or a transcript piece, but has no structured way to say which passage inside it. Someone checking a claim must reread the whole source, and tools cannot show or verify the exact words relied on. Different clients invent their own notes, so the pointers cannot be shared.",
+    "kind": "capability",
+    "source_ref": [
+      "problem-index:01-evidence/source-anchoring.md",
+      "problem-index:01-evidence/transcript-as-evidence.md",
+      "srs-web#525",
+      "muDemocracy.org#304"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-10T21:08:08.130711467+00:00",
+  "updatedAt": "2026-10-10T21:08:08.130713574+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:analyst",
+    "name": "Analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

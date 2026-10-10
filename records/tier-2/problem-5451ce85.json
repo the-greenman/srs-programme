@@ -1,0 +1,27 @@
+{
+  "instanceId": "5451ce85-49bb-41a9-ad5d-a5dffef718e9",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-50",
+    "title": "A group cannot limit what a member or agent may change",
+    "statement": "Anyone or any agent with access to a repository can read and write every record in it. A group that wants some records settled by named parties, or an agent held to reading only, has nothing in the tools to say so. The group must rely on trust and habit, which breaks when many agents work at once.",
+    "kind": "capability",
+    "source_ref": [
+      "problem-index:11-access-control/roles-permissions.md",
+      "problem-index:11-access-control/agent-authorization.md",
+      "muDemocracy-decisions#29"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-10T21:08:08.037534757+00:00",
+  "updatedAt": "2026-10-10T21:08:08.037538497+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:analyst",
+    "name": "Analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
