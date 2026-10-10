@@ -1,14 +1,5 @@
 name: Derive priority
 
-# Applies the roadmap's derived epic priorities to the SemanticOps board
-# (Project #6): `scripts/roadmap.mjs --apply --yes` ranks each epic by its
-# objective's place in the active focus period and writes it through
-# srs-rust's gh-project.mjs, the only board-priority writer. Runs on every
-# push to master (a ranking edit takes effect at once) and daily, so a new
-# focus period starting is picked up without a push.
-#
-# Needs the BOARD_TOKEN secret: a token with `repo` and `project` scope.
-
 on:
   push:
     branches: [master]
@@ -25,39 +16,7 @@ concurrency:
 
 jobs:
   apply:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Fetch gh-project.mjs from srs-rust
-        uses: actions/checkout@v4
-        with:
-          repository: the-greenman/srs-rust
-          path: srs-rust
-          sparse-checkout: scripts/gh-project.mjs
-          sparse-checkout-cone-mode: false
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "22"
-
-      - name: Apply derived priorities
-        env:
-          GH_TOKEN: ${{ secrets.BOARD_TOKEN }}
-          GHP_SCRIPT: ${{ github.workspace }}/srs-rust/scripts/gh-project.mjs
-        run: |
-          if [ -z "${GH_TOKEN}" ]; then
-            echo "::error::BOARD_TOKEN secret is not set"
-            exit 1
-          fi
-          export $(node scripts/fetch-pinned-srs.mjs)
-          node scripts/roadmap.mjs --apply --yes
-
-      # Daily only (not on push): reopens false closes and nags missing `Answers:` lines
-      # across the six SemanticOps repos (srs-programme#37). Needs BOARD_TOKEN to write
-      # issues in those repos, not just the board.
-      - name: Steward check
-        if: github.event_name != 'push'
-        env:
-          GH_TOKEN: ${{ secrets.BOARD_TOKEN }}
-        run: node scripts/steward-check.mjs --fix
+    uses: the-greenman/clerk/.github/workflows/programme-derive-priority.yml@2d9a6e5c430632bf56939b718b2b4cbf714c61e2
+    with:
+      clerk-ref: 2d9a6e5c430632bf56939b718b2b4cbf714c61e2
+    secrets: inherit
