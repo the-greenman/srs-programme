@@ -1,0 +1,26 @@
+{
+  "instanceId": "62899c66-f22d-42f8-811f-15b34d146082",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-52",
+    "title": "Agents cannot ask what changed since they last looked",
+    "statement": "An agent or editor that returns to a repository has no way to ask for only what is new or altered since its last visit. It rereads everything or keeps its own fragile notes about its position, which are lost between sessions. Work is repeated, and changes by others are missed.",
+    "kind": "capability",
+    "source_ref": [
+      "problem-index:09-distribution/monitoring-cursor.md",
+      "problem-index:06-live-facilitation/attention-management.md"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-10T21:08:08.221166451+00:00",
+  "updatedAt": "2026-10-10T21:08:08.221168107+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:analyst",
+    "name": "Analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
