@@ -1,0 +1,13 @@
+{
+  "id": "5ffbc59f-2490-44e1-8eea-a041b683405f",
+  "version": 1,
+  "key": "com.semanticops.programme/considers",
+  "namespace": "com.semanticops.programme",
+  "label": "Considers",
+  "description": "Source session took the target governance decision up without ratifying or setting it aside: it was discussed, revised in place, or held for more input. A decision may have many considers and exactly one ratifies or sets-aside.",
+  "category": "association",
+  "createdAt": "2026-10-10T11:09:11.809049418+00:00",
+  "canonicalDirection": "source is the session; target is the decision it took up",
+  "status": "active",
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json"
+}

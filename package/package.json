@@ -52,7 +52,8 @@
     "relation-types/comsemanticopsprogrammealigns-with-0435e205.json",
     "relation-types/comsemanticopsprogrammeratifies-fd2f78b4.json",
     "relation-types/comsemanticopsprogrammesets-aside-36020a91.json",
-    "relation-types/comsemanticopsprogrammeattended-by-13e1abbe.json"
+    "relation-types/comsemanticopsprogrammeattended-by-13e1abbe.json",
+    "relation-types/comsemanticopsprogrammeconsiders-5ffbc59f.json"
   ],
   "views": [],
   "compositions": [
