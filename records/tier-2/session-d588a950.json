@@ -1,0 +1,22 @@
+{
+  "instanceId": "d588a950-8422-4aa6-987e-d5568bcd5bd2",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-10 13:14 UTC: SemanticOps",
+    "held_at": "2026-10-10T13:14:02Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-10 13:14 UTC: SemanticOps\nAttendees: Owner\n- Ratified: Package checks: flexible now, strict later [1bc2aae1]\n- Ratified: Advisory diagnostics, as a convention first [649139e1]\n- Ratified: Rendered order is controlled; restore it [84830ba8]\n- Ratified: Convention before enforcement [e337703b]"
+  },
+  "createdAt": "2026-10-10T13:16:32.778372688+00:00",
+  "updatedAt": "2026-10-10T13:16:32.778374547+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
