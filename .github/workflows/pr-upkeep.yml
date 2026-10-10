@@ -9,6 +9,14 @@ on:
   schedule:
     - cron: "*/15 * * * *"
     - cron: "20 7 * * *"   # the daily digest run, matched by name below (scheduled runs can start late, so no clock arithmetic)
+  # Events as well as the clock: GitHub delays or skips scheduled runs under load, and in this strict
+  # (up-to-date) repo every merge leaves the next PR behind. Running on each master push and each finished
+  # Validate run moves a chain of srs-programme merges along in minutes instead of hours.
+  push:
+    branches: [master]
+  workflow_run:
+    workflows: [Validate]
+    types: [completed]
   workflow_dispatch:
     inputs:
       apply:
@@ -35,12 +43,12 @@ jobs:
       - name: Upkeep
         env:
           GH_TOKEN: ${{ secrets.BOARD_TOKEN }}
-          IS_SCHEDULE: ${{ github.event_name == 'schedule' }}
+          IS_AUTO: ${{ github.event_name != 'workflow_dispatch' }}
           APPLY: ${{ inputs.apply }}
           DIGEST: ${{ inputs.digest }}
           SCHEDULE: ${{ github.event.schedule }}
         run: |
           args=()
-          if [ "$IS_SCHEDULE" = true ] || [ "$APPLY" = true ]; then args+=(--apply); fi
+          if [ "$IS_AUTO" = true ] || [ "$APPLY" = true ]; then args+=(--apply); fi
           if [ "$SCHEDULE" = "20 7 * * *" ] || [ "$DIGEST" = true ]; then args+=(--digest); fi
           bash scripts/pr-upkeep.sh "${args[@]}"
