@@ -1,0 +1,24 @@
+{
+  "instanceId": "599b24c6-1418-48f4-9314-710834877bfc",
+  "typeId": "e53dce11-6b83-5714-a8fe-f730edb500fa",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "role",
+  "fieldValues": {
+    "title": "Owner",
+    "role_holder": "Peter Brownell",
+    "authority": "Delegates the WG Third-party ready mandate and ratifies or amends its charter.",
+    "boundary": "The whole SemanticOps programme.",
+    "source_of_authority": "Project owner",
+    "status": "active"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-09T20:54:42.355056407+00:00",
+  "updatedAt": "2026-10-09T20:54:42.355059771+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
