@@ -1,0 +1,28 @@
+{
+  "instanceId": "e337703b-5087-49b6-97d2-eeafab4c7d5b",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Convention before enforcement",
+    "decision_question": "How do we adopt a new preferred practice, such as one filename scheme for definitions?",
+    "context": "Relayed from the owner's working session on 2026-10-10 (the owner was away from a computer); awaiting the owner's ratification. srs-rust#1209: two filename slug schemes exist for definitions. One way per goal says pick one, but forcing it everywhere at once means churn and may be wrong.",
+    "alternatives_considered": "Enforce one scheme everywhere now; keep both schemes indefinitely; convention first, then enforce once proven. Chosen: convention first.",
+    "decision_statement": "A new norm starts as a convention: a stated preferred route that new work follows, used as a test, with a review clause. When it has proven itself (consistently used, adds value), a separate decision enforces it across the board; otherwise it is withdrawn.",
+    "rationale": "Rules should arrive already tried. Enforcing an unproven rule everywhere costs churn and may enforce the wrong thing.",
+    "revisit_when": "When the first conventions adopted under this principle reach their review (srs-rust#700 after four weeks): did the convention route work?",
+    "next_steps": "WG Third-party ready proposes one slug scheme as a convention, with proving criteria, no renames: https://github.com/the-greenman/srs-rust/issues/1209",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-10T10:41:19.801243420+00:00",
+  "updatedAt": "2026-10-10T10:41:19.887363877+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

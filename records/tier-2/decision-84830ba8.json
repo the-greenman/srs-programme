@@ -1,0 +1,28 @@
+{
+  "instanceId": "84830ba8-1e05-4409-8cf8-6448460e2d8e",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Rendered order is controlled; restore it",
+    "decision_question": "Is a change in rendered order that nobody chose a bug, or the new correct order?",
+    "context": "Relayed from the owner's working session on 2026-10-10 (the owner was away from a computer); awaiting the owner's ratification. Since srs-rust build 414, sections with no declared ordering render their children in a different sequence (Field now before Type). The spec reads differently depending on the build.",
+    "alternatives_considered": "A: restore the earlier meaningful order (a bug fix). B: accept the new order as correct under \"order is data\", which makes it a ruling and a corpus change. Chosen: A.",
+    "decision_statement": "Rendered output order must be controllable; unpredictable output is a bug. Restore a meaningful order (previously driven by precedes).",
+    "rationale": "We need to be able to control the order of our rendered output. Accepting an order nobody chose would turn an accident into policy.",
+    "revisit_when": "When revision-8 container ordering (RFC-043) declares the order of these sections, so no fallback order is needed.",
+    "next_steps": "WG Third-party ready fixes it: https://github.com/the-greenman/srs-rust/issues/1132",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-10T10:41:19.331190962+00:00",
+  "updatedAt": "2026-10-10T10:41:19.415054985+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

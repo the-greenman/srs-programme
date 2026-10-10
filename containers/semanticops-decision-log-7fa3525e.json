@@ -1,0 +1,23 @@
+{
+  "containerId": "7fa3525e-f1dd-45e5-ad83-660c04e0a1f3",
+  "title": "SemanticOps decision log",
+  "identityInstanceId": "84be7e34-29b6-402d-b080-73fa39c23176",
+  "anchorInstanceId": "84be7e34-29b6-402d-b080-73fa39c23176",
+  "memberInstanceIds": [
+    {
+      "instanceId": "84be7e34-29b6-402d-b080-73fa39c23176"
+    },
+    {
+      "instanceId": "84830ba8-1e05-4409-8cf8-6448460e2d8e"
+    },
+    {
+      "instanceId": "1bc2aae1-bc52-4273-a0ab-552fe18be699"
+    },
+    {
+      "instanceId": "e337703b-5087-49b6-97d2-eeafab4c7d5b"
+    },
+    {
+      "instanceId": "649139e1-2db7-4f8f-824a-54307e948da4"
+    }
+  ]
+}

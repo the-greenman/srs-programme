@@ -1,0 +1,28 @@
+{
+  "instanceId": "649139e1-2db7-4f8f-824a-54307e948da4",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Advisory diagnostics, as a convention first",
+    "decision_question": "How should repo validate tell advice apart from real problems?",
+    "context": "Relayed from the owner's working session on 2026-10-10 (the owner was away from a computer); awaiting the owner's ratification. Advice-only (SHOULD-level) checks are reported as warnings, so warning counts stop meaning anything: the spec repo once showed 46 warnings with about one real; srs-programme shows 22 harmless ones on every run.",
+    "alternatives_considered": "A: a real advisory severity (contract change, RFC). B: group the summary only. C: leave it. Chosen: A, introduced as a convention.",
+    "decision_statement": "Introduce an advisory level below warning, first as a convention: advice-only checks are marked advisory in an additive way and counted separately, with no breaking change. It becomes a standard only after review.",
+    "rationale": "Too much information is the same as noise; we want the signal. A warning must mean act on this.",
+    "revisit_when": "After at least four weeks in use across the repos that validate in CI (srs, srs-programme, muDemocracy.org): are warnings acted on and advisories still read? If yes, standardise via an RFC; if not, withdraw.",
+    "next_steps": "WG Third-party ready builds the simple version: https://github.com/the-greenman/srs-rust/issues/700",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-10T10:41:20.034490264+00:00",
+  "updatedAt": "2026-10-10T10:41:20.118228779+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
