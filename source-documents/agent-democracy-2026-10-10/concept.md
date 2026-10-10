@@ -41,6 +41,8 @@ A person's role is to think deeply and to hold the full diversity of what is at 
 
 The same holds in every direction. Each mind in the system, human or artificial, needs the information that fits how it thinks and what it is responsible for. Not more, not less, and in a form it can use. An agent needs exact rules and the precise state of the code. A person needs the meaning, the stakes and the choices. Getting this right is a large part of governance.
 
+**The same rules for every member.** The rules in this document are about roles, not about what kind of mind fills them. A working group's members may be agents, people, or both. Whoever holds a role acts within that role's limits, attends the group's meetings, and is bound by the same record. So the tools we build for governance are for both: the same clerk that keeps an agent group's minutes keeps a human group's, and a person ratifying at a desk uses the same acts an agent uses in a routine.
+
 So the authority we give agents is the authority to **carry out** decisions people have already made. An agent working group may fix a bug the specification already rules on, or bring code in line with a recorded decision, and merge that work by itself. It may not make a new ruling. Anything that would close a door that people have not already closed comes back to a person, written up so they can decide quickly.
 
 ## 3. What a working group is
@@ -102,7 +104,7 @@ A group does not take authority; it is given it. The parent (today, the project 
 2. **The limits are written down.** The mandate says which repositories, which kinds of change, and how much in one cycle.
 3. **A standing rule changes only through a recorded decision.** Nobody quietly edits the rules, people and agents alike.
 
-**Decisions on the fly, ratified later.** As in a good meeting, not every decision waits for a formal session. A decision made on the fly, in conversation or in the middle of the work, is written into the log straight away, marked as awaiting ratification, with an honest note of who recorded it. At the next ratification session the decision-maker reviews the batch and ratifies or sets aside each one, like approving the minutes. Work can move on in the meantime; the record catches up, and nothing goes unrecorded.
+**Meetings, and decisions between them.** Ratification happens at a meeting. A meeting has a date and a time and a record of who attended, and it is recorded like everything else. Between meetings, work goes on: a decision made on the fly is written into the log straight away, with an honest note of who recorded it, and it can be acted on at once if it falls within the group's remit. At the next meeting the body that holds the authority reviews what was decided in between and ratifies or sets aside each one, like approving the minutes. Anything outside the remit waits for the meeting. Nothing goes unrecorded, and the record catches up with the work.
 
 ```mermaid
 flowchart LR
