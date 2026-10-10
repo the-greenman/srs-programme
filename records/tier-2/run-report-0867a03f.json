@@ -1,0 +1,23 @@
+{
+  "instanceId": "0867a03f-5543-45c1-9192-c2b8e9716e9d",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Third-party ready: cycle close 2026-10-10",
+    "run_date": "2026-10-10",
+    "chose": "WG Third-party ready: cycle 2026-10-09 11:30 to 2026-10-10 11:30 UTC\n\n1. Decisions for you: None. No run stopped outside the mandate or budget this cycle.\n\n2. Decided within mandate: nothing ratified by the Reviewer. Owner rulings from your 2026-10-10 session, relayed as `proposed` by agent:orchestrator at 10:41 and ratified after this close (13:14 UTC, srs-programme PR #69), each now in both the group log and the SemanticOps decision log:\n- Package checks: flexible now, strict later (why: strictness would flag valid repositories until packages can be distributed; review: when RFC-047 distribution exists) executes the owner ruling, record 1bc2aae1; work is srs-rust#1173.\n- Advisory diagnostics, as a convention first (record 649139e1).\n- Rendered order is controlled; restore it (record 84830ba8).\n- Convention before enforcement (record e337703b).\n\n3. Done: 0 group PRs merged by the group this cycle (no quorum lines to show). Pilot PRs srs-rust#1362 and #1363 were owner-merge and predate the group's label.\n\n4. Stuck or lost: srs-vscode#135 (stop sending and reading rootInstanceIds, #134) is open, `gate:owner-merge`, waiting on you. Its red payload gates look like the known mirror drift srs-vscode#133. No needs-input issues. The steward's first close at 11:30 did not run because the ratifying decision was misread as unset (comment on #31); this run corrects that.\n\n5. Budget: 0 of 10 delegated merges this cycle; 1 open. Pause state: running (fewer than 2 reports so far).\n5b. Awaiting ratification: none.\n\n6. Next cycle (next close 11:30 UTC tomorrow): the Builder takes the top of the lane (srs-rust#1173, advisory package check). Waiting on you: merge or decline srs-vscode#135. No local priorities set.\n\n7. What we learned: the daily close depends on one environment-level value the routine could not see; the id lives in `routines/unattended-worker.md`, and reading it from the file works. Build trigger: about 5 ratified decisions across both logs, below 10, so srs-web#560 stays parked.\n",
+    "rationale": "No escalations were raised: nothing stopped outside the boundary or budget. srs-vscode#135 waits on a normal owner merge.",
+    "figures": "merged by group 0/10; open 1; ratified decisions across both logs: 5; paused: no",
+    "landed_as": "pending"
+  },
+  "createdAt": "2026-10-10T13:28:11.732579855+00:00",
+  "updatedAt": "2026-10-10T13:28:11.732584615+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
