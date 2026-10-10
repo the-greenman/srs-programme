@@ -1,0 +1,13 @@
+{
+  "id": "36020a91-53ac-4846-8834-89bf579cf9d0",
+  "version": 1,
+  "key": "com.semanticops.programme/sets-aside",
+  "namespace": "com.semanticops.programme",
+  "label": "Sets aside",
+  "description": "Source ratification session set aside the target governance decision (proposed to abandoned).",
+  "category": "association",
+  "createdAt": "2026-10-10T10:49:50.805251430+00:00",
+  "canonicalDirection": "source is the ratification session; target is the decision it set aside",
+  "status": "active",
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json"
+}

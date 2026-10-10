@@ -1,0 +1,32 @@
+{
+  "id": "e77d27e3-27ff-4abc-b73b-fda43fa2dd97",
+  "namespace": "com.semanticops.programme",
+  "name": "ratification-session",
+  "version": 1,
+  "description": "A ratification session: the owner reviews decisions recorded as proposed and ratifies or sets each aside, like approving the minutes.",
+  "fields": [
+    {
+      "fieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "85b9bd26-efbc-4030-b177-5fcaa072a52a",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "7f4e152c-be50-4710-acb1-392fd1c20f08",
+      "order": 2,
+      "required": false
+    }
+  ],
+  "identityFieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
+  "aiGuidance": {
+    "purpose": "Makes ratification a real, attributed act: one record per session, created as the human who ratified, linked by ratifies / sets-aside relations to each decision it acted on.",
+    "extraction": "One per session. Title 'Ratification session YYYY-MM-DD'; summary lists what was ratified and set aside.",
+    "negativeGuidance": "Never created by an agent: ratification is not an agent act. Not a decision itself."
+  },
+  "createdAt": "2026-10-10T10:49:47.282561399+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json"
+}

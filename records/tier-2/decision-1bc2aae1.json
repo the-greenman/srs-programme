@@ -1,0 +1,28 @@
+{
+  "instanceId": "1bc2aae1-bc52-4273-a0ab-552fe18be699",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Package checks: flexible now, strict later",
+    "decision_question": "How strictly should the Inv 43 check require declared package dependencies?",
+    "context": "Relayed from the owner's working session on 2026-10-10 (the owner was away from a computer); awaiting the owner's ratification. The check reads packageDependencies by namespace label rather than by package id (RFC-044 [R7]/[R10]). Cross-package base-type resolution and a package distribution process do not exist yet.",
+    "alternatives_considered": "A: flexible now. B: strict now (may flag valid repositories). Chosen: A now, then B when possible.",
+    "decision_statement": "Be flexible now: the check reports nothing (or advisory only) until base types can be resolved across packages; then move to the strict check that requires a dependency on the base type owning package.",
+    "rationale": "We move towards stricter package resolution and management, but until there is a proper package distribution process, strictness would flag valid repositories.",
+    "revisit_when": "When a package distribution process exists (RFC-047) and base types resolve across packages.",
+    "next_steps": "WG Third-party ready does A: https://github.com/the-greenman/srs-rust/issues/1173 . B is filed as a follow-up blocked on package distribution.",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-10T10:41:19.564571598+00:00",
+  "updatedAt": "2026-10-10T10:41:19.654463392+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
