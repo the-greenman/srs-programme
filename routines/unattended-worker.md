@@ -34,7 +34,7 @@ You are a cloud routine. You take issues labelled `lane:unattended` and ship eac
 
 Group: WG Third-party ready (semanticops.com#31), PRs and issues labelled `wg:third-party-ready`. The group is EVENT-DRIVEN: `routines/wg-reviewer.md` (PR events) and `routines/wg-builder.md` (issue and merge events) do the work, and `scripts/pr-upkeep.sh` merges. Read those briefs for the rules; they are not restated here. This lane only catches missed events.
 
-**Not in force until `RATIFYING_DECISION_ID` is set.** Defined here once: `RATIFYING_DECISION_ID = <unset: the owner's "Charter: WG Third-party ready" decision id, created in U6>`. While it is unset, skip this whole section and run the lane as above.
+**In force since 2026-10-09.** Defined here once: `RATIFYING_DECISION_ID = 00567bf1-4938-4a36-bda1-771990e80903` (the owner's "Charter: WG Third-party ready" decision, ratified in srs-programme PR #55). If this line ever reads unset, skip this whole section and run the lane as above.
 
 Each run, after the general queue:
 
