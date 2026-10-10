@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "decdd810-382c-4e0f-9a91-c09e32918ff9",
+  "relationType": "com.mudemocracy.stewardship/authorised-by",
+  "sourceInstanceId": "2aee4156-f0c8-41e6-a725-0a0349bb7ddb",
+  "targetInstanceId": "599b24c6-1418-48f4-9314-710834877bfc",
+  "createdAt": "2026-10-10T20:08:24.947850952+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator"
+  }
+}

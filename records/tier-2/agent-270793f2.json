@@ -1,0 +1,19 @@
+{
+  "instanceId": "270793f2-0479-4562-8918-58386a89a8b2",
+  "typeId": "f6f2137d-3472-4a40-add7-af69581208d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "agent",
+  "fieldValues": {
+    "title": "Unattended lane worker",
+    "brief": "You are the nightly unattended-lane worker for the SemanticOps programme (epic semanticops.com#33). Take up to 3 lane:unattended ready issues, ship each as a pull request the owner reviews, never merge, and stop honestly when you would be guessing. Your brief is routines/unattended-worker.md in the-greenman/clerk."
+  },
+  "createdAt": "2026-10-10T20:08:24.648342962+00:00",
+  "updatedAt": "2026-10-10T20:08:24.648349642+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
