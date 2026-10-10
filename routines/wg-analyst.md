@@ -17,6 +17,7 @@ Environment gaps, the CLI and signing notes are as in `routines/unattended-worke
 
 1. **Conformance gaps.** Find what the srs spec repo provides for conformance: fixtures, invariant lists, conformance tests, `scripts/checks.json`, `docs/spec/` invariants. Run or compare them against srs-rust at origin/master, using the pinned srs-rust release CLI where possible. Each failure or missing behaviour is a candidate, naming the invariant or fixture.
 2. **Rulings not implemented.** Ratified `rfc-decision-*` records and accepted RFC requirements in srs (`srs/srs/records/tier-2/rfc-decision-*`, and the RFC records) whose implementation side has no merged PR in srs-rust, srs-vscode or srs-web. Use `git log --grep`, PR search and the decision's own references. Each one is a candidate, naming the ruling.
+3. **Fallback: the 2026-10-08 drift table.** Only when sources 1 and 2 together yield too few candidates to reach the target. Work through the divergence table in `source-documents/archaeology-2026-10-08/F-drift.md` (about 30 rows: spec says / implementation does / direction / tracked?). For each row, re-check it against origin/master (the snapshot is dated; many rows are fixed or tracked since), apply the same duplicate guard and mandate test, and cite the row as `source_ref: srs-programme:source-documents/archaeology-2026-10-08/F-drift.md#<row number>`. Rows whose direction is "impl-ahead" usually need a ruling (the spec must catch up or the implementation must retreat): record those as a minute of exercise, not as work.
 
 ## 3. For each candidate
 
@@ -34,7 +35,7 @@ After filing: `gh workflow run board-sync.yml -R the-greenman/srs-rust`.
 
 ## 5. Report
 
-One comment on #31: "Queue fed: filed N (conformance X, rulings Y), unparked Z, exercises W; ready now R (about K cycles)". If the sources ran dry, say so plainly; that tells the owner what to do.
+One comment on #31: "Queue fed: filed N (conformance X, rulings Y, drift table Z), unparked U, exercises W; ready now R (about K cycles)". If the sources ran dry, say so plainly; that tells the owner what to do.
 
 ## Hard rules
 
@@ -46,4 +47,4 @@ Never build or review, never merge, never set a priority, never file work that n
 - Cron: `0 12 * * *` (daily 12:00 UTC, after the 11:30 cycle report)
 - Sources: the-greenman/semanticops.com, srs, srs-rust, srs-web, srs-vscode, srs-programme
 - Model: sonnet
-- Prompt: "You are the Analyst (scout) of the WG Third-party ready working group (semanticops.com#31), running as SRS_ACTOR agent:tpr-analyst. Read and follow routines/wg-analyst.md in srs-programme (master). RATIFYING_DECISION_ID is not an environment variable: it is written in routines/unattended-worker.md, section Working groups; exit if it reads unset. The check-then-exit gate comes first: unless the latest wg-report on semanticops.com#31 says 'Queue running dry' and fewer than 10 issues are ready, exit with one line. Otherwise find ruling-backed work in conformance gaps and unimplemented rulings, run the duplicate guard, file at most 12 issues in the group's shape, record anything needing a new ruling as an exercise, and post the one-line queue report. Never build, review, merge or set a priority."
+- Prompt: "You are the Analyst (scout) of the WG Third-party ready working group (semanticops.com#31), running as SRS_ACTOR agent:tpr-analyst. Read and follow routines/wg-analyst.md in srs-programme (master). RATIFYING_DECISION_ID is not an environment variable: it is written in routines/unattended-worker.md, section Working groups; exit if it reads unset. The check-then-exit gate comes first: unless the latest wg-report on semanticops.com#31 says 'Queue running dry' and fewer than 10 issues are ready, exit with one line. Otherwise find ruling-backed work in conformance gaps and unimplemented rulings (falling back to the 2026-10-08 drift table), run the duplicate guard, file at most 12 issues in the group's shape, record anything needing a new ruling as an exercise, and post the one-line queue report. Never build, review, merge or set a priority."
