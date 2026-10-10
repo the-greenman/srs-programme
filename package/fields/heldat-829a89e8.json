@@ -1,0 +1,17 @@
+{
+  "id": "829a89e8-3688-48f6-ace0-73d261587fc3",
+  "namespace": "com.semanticops.programme",
+  "name": "held_at",
+  "version": 1,
+  "description": "The date and time (UTC) a session actually took place.",
+  "aiGuidance": {
+    "purpose": "Dates the session whose decisions were ratified or set aside; a session has a date and a time, scheduled or not.",
+    "extraction": "RFC 3339 UTC instant of the session start, e.g. 2026-10-10T14:30:00Z.",
+    "negativeGuidance": "Not the decisions' own creation times: those were made between sessions."
+  },
+  "fieldType": {
+    "datatype": "date-time",
+    "cardinality": "single"
+  },
+  "createdAt": "2026-10-10T11:04:52.485429303+00:00"
+}

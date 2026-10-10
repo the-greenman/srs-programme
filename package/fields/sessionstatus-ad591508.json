@@ -1,0 +1,24 @@
+{
+  "id": "ad591508-1e87-44c7-b8e8-3b470d964550",
+  "namespace": "com.semanticops.programme",
+  "name": "session_status",
+  "version": 1,
+  "description": "Where a session is: proposed, in session or ended.",
+  "aiGuidance": {
+    "purpose": "Mirrors the decision-logger Meeting status (proposed, in_session, ended) so the two models can converge.",
+    "extraction": "proposed before it opens, in_session while held, ended once the record of it is made.",
+    "negativeGuidance": "Not a decision lifecycle."
+  },
+  "fieldType": {
+    "datatype": "string",
+    "cardinality": "single",
+    "valueDomain": "closed",
+    "allowedValues": [
+      "proposed",
+      "in_session",
+      "ended"
+    ]
+  },
+  "editorHint": "dropdown",
+  "createdAt": "2026-10-10T11:04:52.549576022+00:00"
+}

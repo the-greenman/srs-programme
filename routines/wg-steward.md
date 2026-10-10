@@ -36,7 +36,7 @@ WG Third-party ready: cycle <prev close date> 11:30 to <close date> 11:30 UTC
 3. Done: PRs merged (count; each with its quorum line "builder / reviewer / mandate"), tasks closed.
 4. Stuck or lost: stops (needs-input), red gates, claims released, open PRs and why.
 5. Budget: <merged> of 10 delegated merges this cycle; <open> open. Pause state (`running` or `paused: N reports unacknowledged`).
-5b. Awaiting ratification: decisions taken on the fly (relayed owner rulings, escalations the owner answered informally) that are recorded as `proposed` in the SemanticOps or group log, one line each with its age. When any are pending, end the line with: "Ratification session: `bash scripts/ratification-session.sh` (owner, at a desk)."
+5b. Awaiting ratification: decisions taken on the fly (relayed owner rulings, escalations the owner answered informally) that are recorded as `proposed` in the SemanticOps or group log, one line each with its age. When any are pending, end the line with: "Session to ratify: `clerk session --as owner --repo <srs-programme> --ratify all` (the-greenman/clerk; the TUI is `clerk --as owner`)."
 6. Next cycle (the next close is 11:30 UTC tomorrow): what the Builder will take (top of the lane), and what waits on the owner.
 7. What we learned: one or two lines. Which part of the concept held, which did not, what surprised us. If an owner ruling repeats an earlier one, name the pattern and propose it as a principle or standing-order amendment.
 ```

@@ -1,0 +1,42 @@
+{
+  "id": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "namespace": "com.semanticops.programme",
+  "name": "session",
+  "version": 1,
+  "description": "A session: attendees convene (often ad hoc) and ratify or set aside decisions made since the last one, like approving the minutes.",
+  "fields": [
+    {
+      "fieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
+      "order": 0,
+      "required": true
+    },
+    {
+      "fieldId": "829a89e8-3688-48f6-ace0-73d261587fc3",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "68f77b11-fb14-4f30-9a7e-628ad4e64c7a",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "ad591508-1e87-44c7-b8e8-3b470d964550",
+      "order": 3,
+      "required": true
+    },
+    {
+      "fieldId": "7f4e152c-be50-4710-acb1-392fd1c20f08",
+      "order": 4,
+      "required": false
+    }
+  ],
+  "identityFieldId": "c42d4a91-dbd9-480a-b612-e31b5a77d9bf",
+  "aiGuidance": {
+    "purpose": "Makes ratification a real, attributed act: one record per session, with attendees (attended-by) and the decisions it ratified or set aside. Decisions made between sessions are acted on within the group's remit and ratified here. Humans and AI agents both hold sessions, by role.",
+    "extraction": "Title 'Session YYYY-MM-DD HH:MM UTC: <context>'; held_at the instant it took place; summary lists what was ratified and set aside.",
+    "negativeGuidance": "Not a decision itself. Not a scheduled meeting unless convened says so."
+  },
+  "createdAt": "2026-10-10T11:04:59.806427589+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json"
+}
