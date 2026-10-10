@@ -6,7 +6,7 @@
   "typeName": "article",
   "fieldValues": {
     "title": "Budget",
-    "article_text": "At most 10 PRs merged per cycle. The Builder also stops when merged plus open group PRs reach 10 and labels the issue needs-input. Going over budget is an escalation.",
+    "article_text": "At most 10 delegated merges per cycle. The count resets at each cycle close (11:30 UTC at the current rhythm), not on a calendar week. Only the group's own delegated merges count: a group PR carrying gate:owner-merge (escalated, merged by the owner) does not count. The Builder also stops when delegated merges in the current cycle plus open delegated group PRs reach 10, and labels the issue needs-input. Going over budget is an escalation.",
     "rationale": "A cap keeps the output reviewable (reviewable units over throughput).",
     "amendment_rule": "Owner only: an amendment needs a new owner-ratified decision.",
     "protected_status": "Agent testimony until the owner ratifies the charter decision.",
@@ -14,7 +14,7 @@
   },
   "lifecycleState": "draft",
   "createdAt": "2026-10-09T18:48:19.541627123+00:00",
-  "updatedAt": "2026-10-09T18:48:19.541630447+00:00",
+  "updatedAt": "2026-10-09T20:27:25.499026150+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",
