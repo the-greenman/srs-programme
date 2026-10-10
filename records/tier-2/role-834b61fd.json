@@ -7,7 +7,7 @@
   "fieldValues": {
     "title": "WG Third-party ready",
     "role_holder": "Steward (agent:tpr-steward), convener and liaison; Builder (agent:tpr-builder) and Reviewer (agent:tpr-reviewer) act within the group",
-    "authority": "Decides itself and auto-merges any change that executes a recorded ruling, RFC or invariant and names it; in mode clear or complicated; within srs-rust, srs-vscode, srs docs and mirror syncs, and non-UI srs-web; with green gates; at most 10 PRs per cycle.",
+    "authority": "Decides itself and auto-merges any change that executes a recorded ruling, RFC or invariant and names it; in mode clear or complicated; within srs-rust, srs-vscode, srs docs and mirror syncs, and non-UI srs-web; with green gates; at most 10 delegated merges per cycle, and only while the group is not paused (2 consecutive unacknowledged cycle reports).",
     "boundary": "Escalates, one proposed decision each: any change that would make or change a ruling; Door 2 or Door 3; complex mode; a breaking CLI or payload change; a pin bump in another repo; anything that touches gates or merge rules; going over budget. Outside: new rulings, RFCs, client UX.",
     "source_of_authority": "Owner (delegation, once ratified by the owner's charter decision)",
     "revisit_when": "No open divergence in the divergence diff for two cycles, or the owner changes the mandate.",
@@ -15,7 +15,7 @@
   },
   "lifecycleState": "draft",
   "createdAt": "2026-10-09T18:48:18.836908447+00:00",
-  "updatedAt": "2026-10-09T18:48:18.836912675+00:00",
+  "updatedAt": "2026-10-09T20:27:25.575662086+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",
