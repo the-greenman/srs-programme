@@ -416,22 +416,35 @@
       "sourcePackageName": "com.mudemocracy.stewardship",
       "sourcePackageVersion": "0.1.0",
       "conflictState": "clean"
-    }
-  ],
-  "types": [
+    },
     {
-      "definitionId": "58f0ee7b-8063-4fc7-9b39-af918962c91f",
-      "definitionType": "type",
+      "definitionId": "64ad68fd-5ea8-40ad-9d88-346991c1f6c1",
+      "definitionType": "field",
       "namespace": "com.mudemocracy.stewardship",
-      "name": "standing-job",
+      "name": "brief_path",
       "version": 1,
       "mode": "upstream-tracked",
-      "importedAt": "2026-10-09T18:16:46.768887012+00:00",
+      "importedAt": "2026-10-10T20:07:34.620264948+00:00",
       "sourcePackageId": "b64c147f-37c4-414b-8aac-b84202e5d63e",
       "sourcePackageName": "com.mudemocracy.stewardship",
       "sourcePackageVersion": "0.1.0",
       "conflictState": "clean"
     },
+    {
+      "definitionId": "7ae7b17d-9ec5-45ac-b336-909779884a72",
+      "definitionType": "field",
+      "namespace": "com.mudemocracy.stewardship",
+      "name": "routine_id",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-10T20:07:34.620264948+00:00",
+      "sourcePackageId": "b64c147f-37c4-414b-8aac-b84202e5d63e",
+      "sourcePackageName": "com.mudemocracy.stewardship",
+      "sourcePackageVersion": "0.1.0",
+      "conflictState": "clean"
+    }
+  ],
+  "types": [
     {
       "definitionId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
       "definitionType": "type",
@@ -450,6 +463,19 @@
       "definitionType": "type",
       "namespace": "com.mudemocracy.stewardship",
       "name": "agent",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-09T18:16:46.768887012+00:00",
+      "sourcePackageId": "b64c147f-37c4-414b-8aac-b84202e5d63e",
+      "sourcePackageName": "com.mudemocracy.stewardship",
+      "sourcePackageVersion": "0.1.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "58f0ee7b-8063-4fc7-9b39-af918962c91f",
+      "definitionType": "type",
+      "namespace": "com.mudemocracy.stewardship",
+      "name": "standing-job",
       "version": 1,
       "mode": "upstream-tracked",
       "importedAt": "2026-10-09T18:16:46.768887012+00:00",

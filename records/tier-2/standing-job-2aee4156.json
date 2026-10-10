@@ -1,0 +1,25 @@
+{
+  "instanceId": "2aee4156-f0c8-41e6-a725-0a0349bb7ddb",
+  "typeId": "58f0ee7b-8063-4fc7-9b39-af918962c91f",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "standing-job",
+  "fieldValues": {
+    "title": "Nightly unattended lane",
+    "description": "Take open issues labelled lane:unattended and ready, up to 3 per run, and ship each as a pull request that the owner reviews: claim, guard, implement, gates by exit code, reviewer subagent, PR, run report. Never merges.",
+    "done_when": "Each issue taken has a PR with gate results and a run report comment, or a needs-input stop with the exact question; the summary comment is on semanticops.com#33. An empty queue is reported there.",
+    "trigger": "nightly 00:00 UTC",
+    "size": "Up to 3 issues per run",
+    "routine_id": "trig_01GcbJwYyVfVTAekgYkAxFpJ",
+    "brief_path": "routines/unattended-worker.md"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-10T20:08:24.723881916+00:00",
+  "updatedAt": "2026-10-10T20:08:24.723886505+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

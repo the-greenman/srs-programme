@@ -9,11 +9,12 @@
     "description": "Execute lane issues labelled wg:third-party-ready that cite the ruling they execute, in scope, within budget.",
     "done_when": "At most 3 PRs opened this run; delegated merges this cycle plus open delegated group PRs is under 10; nothing is opened while the group is paused.",
     "trigger": "nightly",
-    "size": "At most 3 PRs per run"
+    "size": "At most 3 PRs per run",
+    "brief_path": "routines/wg-builder.md"
   },
   "lifecycleState": "draft",
   "createdAt": "2026-10-09T18:48:21.582120125+00:00",
-  "updatedAt": "2026-10-09T20:27:25.790036446+00:00",
+  "updatedAt": "2026-10-10T20:08:16.207365076+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",

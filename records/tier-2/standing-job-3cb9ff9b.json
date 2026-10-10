@@ -9,11 +9,13 @@
     "description": "Find ruling-backed work in conformance gaps and in rulings not yet implemented, and file it as ready wg:third-party-ready issues, without needing a new ruling.",
     "done_when": "The ready group queue holds at least one to two cycles of ruling-backed work, or the sources are exhausted and that is reported",
     "trigger": "Daily 12:00 UTC check; acts only when the latest cycle report forecasts 'Queue running dry'",
-    "size": "At most 12 new issues per run"
+    "size": "At most 12 new issues per run",
+    "routine_id": "trig_01M6mtE5wZJg2FeXFFnZjCSk",
+    "brief_path": "routines/wg-analyst.md"
   },
   "lifecycleState": "draft",
   "createdAt": "2026-10-10T13:40:59.908979360+00:00",
-  "updatedAt": "2026-10-10T13:40:59.908980788+00:00",
+  "updatedAt": "2026-10-10T20:08:15.908520264+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",
