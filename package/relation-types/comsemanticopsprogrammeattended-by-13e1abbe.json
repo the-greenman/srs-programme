@@ -1,0 +1,13 @@
+{
+  "id": "13e1abbe-a5ff-4d18-a9ea-8aff9d6da0c6",
+  "version": 1,
+  "key": "com.semanticops.programme/attended-by",
+  "namespace": "com.semanticops.programme",
+  "label": "Attended by",
+  "description": "Source session was attended by the target: a governance role record or a stewardship agent record.",
+  "category": "association",
+  "createdAt": "2026-10-10T11:05:04.820969434+00:00",
+  "canonicalDirection": "source is the session; target is the role or agent that attended",
+  "status": "active",
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json"
+}

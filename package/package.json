@@ -25,7 +25,9 @@
     "fields/stability-86b945a9.json",
     "fields/realitystate-1614494a.json",
     "fields/objectiverank-330bd423.json",
-    "fields/sessiondate-85b9bd26.json"
+    "fields/heldat-829a89e8.json",
+    "fields/sessionstatus-ad591508.json",
+    "fields/convened-68f77b11.json"
   ],
   "types": [
     "types/phase-127b6706.json",
@@ -40,7 +42,7 @@
     "types/capabilitystage-e5c178de.json",
     "types/strategycontract-e020a891.json",
     "types/assessment-83459606.json",
-    "types/ratification-session-e77d27e3.json"
+    "types/session-6f46d6ff.json"
   ],
   "relationTypes": [
     "relation-types/comsemanticopsprogrammeserves-0fd42e96.json",
@@ -49,7 +51,8 @@
     "relation-types/comsemanticopsprogrammeassesses-8d4fc092.json",
     "relation-types/comsemanticopsprogrammealigns-with-0435e205.json",
     "relation-types/comsemanticopsprogrammeratifies-fd2f78b4.json",
-    "relation-types/comsemanticopsprogrammesets-aside-36020a91.json"
+    "relation-types/comsemanticopsprogrammesets-aside-36020a91.json",
+    "relation-types/comsemanticopsprogrammeattended-by-13e1abbe.json"
   ],
   "views": [],
   "compositions": [

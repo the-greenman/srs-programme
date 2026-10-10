@@ -1,0 +1,23 @@
+{
+  "id": "68f77b11-fb14-4f30-9a7e-628ad4e64c7a",
+  "namespace": "com.semanticops.programme",
+  "name": "convened",
+  "version": 1,
+  "description": "Whether a session was scheduled ahead or convened on the spot.",
+  "aiGuidance": {
+    "purpose": "Sessions are sometimes ad hoc; this says so without implying a schedule exists.",
+    "extraction": "ad-hoc unless it was arranged beforehand.",
+    "negativeGuidance": "Not a measure of importance."
+  },
+  "fieldType": {
+    "datatype": "string",
+    "cardinality": "single",
+    "valueDomain": "closed",
+    "allowedValues": [
+      "scheduled",
+      "ad-hoc"
+    ]
+  },
+  "editorHint": "dropdown",
+  "createdAt": "2026-10-10T11:04:52.609992143+00:00"
+}
