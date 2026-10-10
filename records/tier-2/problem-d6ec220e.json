@@ -1,0 +1,27 @@
+{
+  "instanceId": "d6ec220e-5d85-4163-a179-21a19ce9837a",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-53",
+    "title": "Nobody can tell which agents give suggestions worth keeping",
+    "statement": "Agents file suggestions, and people accept, change or dismiss them, but nothing totals what happened by agent. Whoever tunes agent roles cannot see which ones help and which add noise. Poor agents keep running and good ones are not recognised.",
+    "kind": "capability",
+    "source_ref": [
+      "problem-index:05-expert-coordination/agent-quality-tracking.md",
+      "problem-index:05-expert-coordination/feedback-conflicts.md",
+      "semanticops.com#16"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-10T21:08:08.310976103+00:00",
+  "updatedAt": "2026-10-10T21:08:08.310977697+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:analyst",
+    "name": "Analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
