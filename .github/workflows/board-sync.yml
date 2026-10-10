@@ -1,0 +1,19 @@
+name: Board sync
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    - cron: "0 * * * *"   # hourly: promote intents and reconcile (UTC)
+  workflow_dispatch:
+
+concurrency:
+  group: board-sync
+  cancel-in-progress: false
+
+jobs:
+  board-sync:
+    uses: the-greenman/clerk/.github/workflows/programme-board-sync.yml@4172a194c0229bfa4a4f76091a7180a252ca5fa0
+    with:
+      clerk-ref: 4172a194c0229bfa4a4f76091a7180a252ca5fa0
+    secrets: inherit

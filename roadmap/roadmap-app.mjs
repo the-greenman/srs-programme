@@ -1,4 +1,4 @@
-// Reads ./roadmap.json (output of `node scripts/roadmap.mjs --json`). All semantics are derived there; this file only presents.
+// Reads ./roadmap.json (output of `clerk roadmap --repo . --json`). All semantics are derived there; this file only presents.
 export const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 export const issueUrl = (ref) => { const [repo, n] = ref.split("#"); return `https://github.com/the-greenman/${repo}/issues/${n}`; };
 const epicLink = (e) => `<li><a href="${esc(issueUrl(e.ref))}" target="_blank" rel="noreferrer">${esc(e.title)}</a> <span class="muted">${esc(e.ref)}</span></li>`;
@@ -46,6 +46,6 @@ if (typeof document !== "undefined") {
     addEventListener("hashchange", draw);
     draw();
   } catch (err) {
-    app.innerHTML = `<h1>Roadmap data could not load</h1><p>${esc(err.message)}. Generate it with <code>node scripts/roadmap.mjs --json &gt; roadmap/roadmap.json</code> and serve the roadmap directory over HTTP.</p>`;
+    app.innerHTML = `<h1>Roadmap data could not load</h1><p>${esc(err.message)}. Generate it with <code>clerk roadmap --repo . --json &gt; roadmap/roadmap.json</code> and serve the roadmap directory over HTTP.</p>`;
   }
 }

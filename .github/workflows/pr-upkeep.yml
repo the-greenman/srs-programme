@@ -1,17 +1,9 @@
 name: PR upkeep
 
-# Every 15 minutes: merge green `gate:auto-merge` PRs and keep gated PRs up to date with
-# their base across the estate. Once a day (first run after 07:00 UTC) it also posts the owner's
-# review digest on semanticops.com#33. See scripts/pr-upkeep.sh (srs-programme#39).
-# Needs BOARD_TOKEN (repo scope on every listed repo).
-
 on:
   schedule:
     - cron: "*/15 * * * *"
-    - cron: "20 7 * * *"   # the daily digest run, matched by name below (scheduled runs can start late, so no clock arithmetic)
-  # Events as well as the clock: GitHub delays or skips scheduled runs under load, and in this strict
-  # (up-to-date) repo every merge leaves the next PR behind. Running on each master push and each finished
-  # Validate run moves a chain of srs-programme merges along in minutes instead of hours.
+    - cron: "20 7 * * *"   # the daily digest run; must equal digest-cron below
   push:
     branches: [master]
   workflow_run:
@@ -37,18 +29,10 @@ concurrency:
 
 jobs:
   upkeep:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Upkeep
-        env:
-          GH_TOKEN: ${{ secrets.BOARD_TOKEN }}
-          IS_AUTO: ${{ github.event_name != 'workflow_dispatch' }}
-          APPLY: ${{ inputs.apply }}
-          DIGEST: ${{ inputs.digest }}
-          SCHEDULE: ${{ github.event.schedule }}
-        run: |
-          args=()
-          if [ "$IS_AUTO" = true ] || [ "$APPLY" = true ]; then args+=(--apply); fi
-          if [ "$SCHEDULE" = "20 7 * * *" ] || [ "$DIGEST" = true ]; then args+=(--digest); fi
-          bash scripts/pr-upkeep.sh "${args[@]}"
+    uses: the-greenman/clerk/.github/workflows/programme-pr-upkeep.yml@4172a194c0229bfa4a4f76091a7180a252ca5fa0
+    with:
+      clerk-ref: 4172a194c0229bfa4a4f76091a7180a252ca5fa0
+      apply: ${{ inputs.apply == true }}
+      digest: ${{ inputs.digest == true }}
+      digest-cron: "20 7 * * *"
+    secrets: inherit
