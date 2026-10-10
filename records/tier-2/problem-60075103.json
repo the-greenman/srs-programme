@@ -1,0 +1,28 @@
+{
+  "instanceId": "60075103-f6e8-481d-96e2-348fd1397995",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-49",
+    "title": "Programme code is scattered and bound to one programme",
+    "statement": "The code that runs the programme lives in five places: the programme's own repository, the Rust engine repository, an unversioned parent folder, the clerk, and a second governance tool in the engine. Each piece hard-codes SemanticOps values such as repository lists, report issues, the board number and the owner. Agents cannot find a tool before they rebuild it, the documentation describes a board process that has moved on, and no second programme or governance editor can reuse the practice without copying code.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme:routines/unattended-worker.md",
+      "srs-rust:scripts/gh-project.mjs",
+      "srs-rust:crates/srs-gov",
+      "the-greenman/clerk"
+    ],
+    "imbalance": "held-too-long"
+  },
+  "createdAt": "2026-10-10T19:34:33.889167200+00:00",
+  "updatedAt": "2026-10-10T19:34:33.889168708+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
