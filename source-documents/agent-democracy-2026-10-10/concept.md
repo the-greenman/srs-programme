@@ -102,6 +102,8 @@ A group does not take authority; it is given it. The parent (today, the project 
 2. **The limits are written down.** The mandate says which repositories, which kinds of change, and how much in one cycle.
 3. **A standing rule changes only through a recorded decision.** Nobody quietly edits the rules, people and agents alike.
 
+**Decisions on the fly, ratified later.** As in a good meeting, not every decision waits for a formal session. A decision made on the fly, in conversation or in the middle of the work, is written into the log straight away, marked as awaiting ratification, with an honest note of who recorded it. At the next ratification session the decision-maker reviews the batch and ratifies or sets aside each one, like approving the minutes. Work can move on in the meantime; the record catches up, and nothing goes unrecorded.
+
 ```mermaid
 flowchart LR
   P["Parent<br/>(the owner)"] -->|signs a decision that delegates| G["Working group<br/>charter and mandate"]
