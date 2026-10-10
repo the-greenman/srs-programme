@@ -24,6 +24,9 @@
       },
       {
         "instanceId": "9ff0a734-e23b-4c6e-84a5-0b1c110c2728"
+      },
+      {
+        "instanceId": "cfb14770-053e-4fe7-9a84-ef3b3a07735c"
       }
     ]
   },
@@ -47,6 +50,10 @@
     {
       "mode": "local",
       "path": "packages/method"
+    },
+    {
+      "mode": "local",
+      "path": "packages/methodology"
     },
     {
       "mode": "local",
