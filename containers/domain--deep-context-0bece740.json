@@ -1,0 +1,17 @@
+{
+  "containerId": "0bece740-6393-4360-b79f-91cdfe25aecd",
+  "title": "Domain: Deep context",
+  "containerType": "domain",
+  "identityInstanceId": "190d27ae-8c31-4ff4-9191-594932a40ab8",
+  "anchorInstanceId": "190d27ae-8c31-4ff4-9191-594932a40ab8",
+  "memberInstanceIds": [
+    {
+      "instanceId": "190d27ae-8c31-4ff4-9191-594932a40ab8"
+    }
+  ],
+  "childContainerIds": [
+    "7467d521-9a21-4631-8c23-dbc564d78f5c",
+    "dd8c9856-002a-43ac-89b5-76d592bcb0c9",
+    "fff4d57d-0b2d-421c-a232-a52e781daae2"
+  ]
+}

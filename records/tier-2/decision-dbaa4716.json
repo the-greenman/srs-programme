@@ -1,0 +1,26 @@
+{
+  "instanceId": "dbaa4716-7e61-46be-9732-6213973724d0",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Domains nest: Deep context holds the narrower domains, by perspective",
+    "decision_question": "Can domains be nested, and where does the need to hold deep context sit?",
+    "context": "Relayed from the owner's local planning session on 2026-10-11 (srs-programme#95); awaiting the owner's ratification in a clerk session.",
+    "alternatives_considered": "Parent: broaden the Semantic records domain instead of a new one. Mechanism: a new method relation between domain records instead of container nesting. Children: also nest Evidence-backed writing (not chosen now).",
+    "decision_statement": "Domains can be nested. A new domain, Deep context, is the bigger need to hold meaning and provenance over time. Agent memory (the srs-context domain, holding agent context), Semantic records and Group meaning ownership nest within it for now. Nesting uses the existing container mechanism (childContainerIds, RFC-034), so a parent's effective membership includes its children's members and no core or package change is needed. Hierarchy can be a matter of perspective, not absolute: a domain may sit under more than one parent, and no single-parent or strict-tree rule is added. Time will tell.",
+    "next_steps": "See srs-programme#95.",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T10:13:33.913309894+00:00",
+  "updatedAt": "2026-10-11T10:13:37.215735466+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

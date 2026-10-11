@@ -1,0 +1,131 @@
+{
+  "containerId": "7467d521-9a21-4631-8c23-dbc564d78f5c",
+  "title": "Domain: Semantic records",
+  "containerType": "domain",
+  "identityInstanceId": "5f433971-f956-400c-b73c-571ed69edf8f",
+  "anchorInstanceId": "5f433971-f956-400c-b73c-571ed69edf8f",
+  "memberInstanceIds": [
+    {
+      "instanceId": "5f433971-f956-400c-b73c-571ed69edf8f"
+    },
+    {
+      "instanceId": "ce1881b0-d309-4306-9a0d-ebf06c6dbf8b"
+    },
+    {
+      "instanceId": "221f2e16-eca1-4176-b320-f7b0d2b640f3",
+      "depth": 1
+    },
+    {
+      "instanceId": "f583182e-1455-4007-bdb3-902484c109e6",
+      "depth": 1
+    },
+    {
+      "instanceId": "159b4119-fe6b-495d-bc26-aa861b49cf27"
+    },
+    {
+      "instanceId": "f487d107-9657-44d6-bcef-d45ee43e4cdb",
+      "depth": 1
+    },
+    {
+      "instanceId": "e1d260d8-1d49-4859-8cc0-73bd30119ce8",
+      "depth": 1
+    },
+    {
+      "instanceId": "c2c071de-fcf2-43ca-9bd4-de5c12e2eebd"
+    },
+    {
+      "instanceId": "d00bc777-d8f1-4adc-928c-179dbc95462d",
+      "depth": 1
+    },
+    {
+      "instanceId": "53b3fcb5-6521-485a-93fb-ef51da8c8e2d",
+      "depth": 1
+    },
+    {
+      "instanceId": "28f7fd09-eba1-41f2-8f41-7fae5ed77caf"
+    },
+    {
+      "instanceId": "4d2e7b0d-bf1e-4258-82c6-390f31003a35",
+      "depth": 1
+    },
+    {
+      "instanceId": "80a1bd7d-aaa9-41b1-abec-5edde5c372f6",
+      "depth": 1
+    },
+    {
+      "instanceId": "116a1d4a-de70-4bb6-980d-da385b1653a2"
+    },
+    {
+      "instanceId": "f8c14c62-a430-405c-8621-61f285321d9c",
+      "depth": 1
+    },
+    {
+      "instanceId": "d9d55c27-2272-4aa3-9836-ca87c1d839a7",
+      "depth": 1
+    },
+    {
+      "instanceId": "53af1766-f4a0-42e3-b2e6-778331a031a0",
+      "depth": 1
+    },
+    {
+      "instanceId": "c138c0ec-27ee-4c9b-8ab2-820a414c59ea"
+    },
+    {
+      "instanceId": "9f705a6d-7a24-44ed-bdf8-c335b9075b02",
+      "depth": 1
+    },
+    {
+      "instanceId": "51243c3b-5700-4b45-b469-6cffd4e4e3a6",
+      "depth": 1
+    },
+    {
+      "instanceId": "4de10ccc-9c27-4987-8727-11f937156adb",
+      "depth": 1
+    },
+    {
+      "instanceId": "eb474aee-cf10-4db4-bc04-a37519fc7dd8"
+    },
+    {
+      "instanceId": "71d0f49d-2389-4286-a628-2a178fcbfd21",
+      "depth": 1
+    },
+    {
+      "instanceId": "c23e1c09-8f4c-4d5c-9672-533dc0861793",
+      "depth": 1
+    },
+    {
+      "instanceId": "8ae0cfad-45a4-4764-9361-3af2c259dcf7",
+      "depth": 1
+    },
+    {
+      "instanceId": "7bd73ba0-aad7-4846-ad22-88b694b6a0a4",
+      "depth": 1
+    },
+    {
+      "instanceId": "696b39f9-f54c-4e58-aab1-f36cc850f978",
+      "depth": 1
+    },
+    {
+      "instanceId": "4c567e13-8f5f-438a-b4e0-5a5002ac96c7"
+    },
+    {
+      "instanceId": "e17bc391-07ef-4cc1-a878-664dbbd4203d",
+      "depth": 1
+    },
+    {
+      "instanceId": "003060ee-aadd-49d3-bb78-eb549fad186e",
+      "depth": 1
+    },
+    {
+      "instanceId": "8833f41b-424e-4318-b609-cef73e16eee5"
+    },
+    {
+      "instanceId": "d22e8108-92eb-41b9-8660-5e949aa619b9",
+      "depth": 1
+    },
+    {
+      "instanceId": "ad9a5a99-bbaa-480f-a0c0-3b52a8ba0520",
+      "depth": 1
+    }
+  ]
+}
