@@ -38,7 +38,8 @@
     "fields/quorumseats-9f97e8a5.json",
     "fields/quorumminmembers-ae4b957e.json",
     "fields/governedrepos-b94a6e01.json",
-    "fields/budgetpercycle-bb3dc168.json"
+    "fields/budgetpercycle-bb3dc168.json",
+    "fields/decisionkind-de3046c2.json"
   ],
   "types": [
     "types/decision-1fcad6a2.json",

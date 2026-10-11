@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "2129ad9d-1280-4af5-a35e-5f924b4bf950",
+  "relationType": "com.mudemocracy.argument/within-boundary",
+  "sourceInstanceId": "4162fe1f-d1f4-401e-bc4d-4ca0d10f7228",
+  "targetInstanceId": "fe501405-fc57-4fcf-bf40-51cded41bc49",
+  "createdAt": "2026-10-11T16:42:35.884512489+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  }
+}

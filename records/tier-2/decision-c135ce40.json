@@ -1,0 +1,27 @@
+{
+  "instanceId": "c135ce40-4327-481c-ae34-466b66df35db",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Seven decision kinds, adopted to test",
+    "decision_question": "Which kinds of decision does the log distinguish?",
+    "context": "Relayed from the owner's walk of 2026-10-11 after session srs-programme#100; awaiting ratification.",
+    "decision_statement": "Decisions are one of seven kinds: purpose, boundary, premise, preference, policy, design and mandate; a preference ratifies a method principle record rather than restating it, and a belief is recorded as a premise.",
+    "rationale": "Each kind is a different promise about the future and needs a different frame and review. Cites the principle One way over carrying the old one: a preference lives once, as a principle record, and the decision ratifies it.",
+    "revisit_when": "A kind is kept only if it is a difference that makes a difference; kinds that show no distinction in practice are merged.",
+    "owner": "Peter Brownell",
+    "status": "active",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T16:41:49.550299126+00:00",
+  "updatedAt": "2026-10-11T16:42:27.831026199+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

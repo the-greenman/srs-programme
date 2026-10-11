@@ -1,0 +1,27 @@
+{
+  "instanceId": "8fdcc082-eb6b-46b2-9f7b-507fff2d2547",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A short daily review and a weekly session",
+    "decision_question": "How often does the owner review the work, and for what?",
+    "context": "Relayed from the owner's walk of 2026-10-11 after session srs-programme#100; awaiting ratification.",
+    "decision_statement": "The owner holds a short daily review of the work in flight and a weekly session to ratify, affirm and rank.",
+    "rationale": "A daily review keeps work moving; the weekly session is where judgement is spent. Cadence is a rule; what each review decides is recorded elsewhere.",
+    "revisit_when": "When a review or session is skipped or runs long three cycles running, or proposed decisions wait unratified for more than a week.",
+    "owner": "Peter Brownell",
+    "status": "active",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T16:42:06.404186249+00:00",
+  "updatedAt": "2026-10-11T16:42:28.125316630+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
