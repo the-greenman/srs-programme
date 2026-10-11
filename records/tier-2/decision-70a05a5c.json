@@ -1,0 +1,29 @@
+{
+  "instanceId": "70a05a5c-6784-42a8-8d7e-e704293c9c5f",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A group's session ratifies its builders' decisions, not the reviewer",
+    "decision_question": "When a builder records an in-mandate decision as proposed and the reviewer approves the PR, who ratifies that decision?",
+    "context": "Relayed from the owner's working session on 2026-10-11 (Claude Code conversation); awaiting the owner's ratification. Found by the handbook contradictions batch (the-greenman/clerk#26, item 1): routines/wg-reviewer.md step 10 moves a builder's proposed decision straight to ratified, outside any session, against handbook principle 6.",
+    "friction": "A reviewer ratifying on its own makes a decision binding with no recorded session, attendees or quorum, so the decision log cannot show who agreed to it.",
+    "alternatives_considered": "The group's next session ratifies (chosen). Treat each builder plus reviewer quorum on a PR as a minimal session that ratifies. Amend principle 6 so an approved quorum PR counts as ratification under the charter.",
+    "decision_statement": "The reviewer no longer ratifies. It leaves a builder's in-mandate decision proposed and names it in its quorum comment. The steward lists every such decision at the group's next session (the daily cycle close), which ratifies or sets it aside with the group's quorum. The quorum comment still authorises the merge, so merges are not delayed.",
+    "rationale": "Principle 6: a decision is ratified in exactly one session, at its own level and with that level's quorum. Keeping ratification a session act keeps attendees and quorum on record, at the cost of a decision staying proposed for up to one cycle.",
+    "revisit_when": "After three cycle closes: were the listed decisions ratified at the next session, and did any wait longer than one cycle?",
+    "next_steps": "routines/wg-reviewer.md step 10 and routines/wg-steward.md updated in the clerk; handbook stage 13 gap closed; process test stage 13 assertion.",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T08:17:50.553935534+00:00",
+  "updatedAt": "2026-10-11T08:17:50.641542278+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
