@@ -1,0 +1,16 @@
+{
+  "aiGuidance": {
+    "purpose": "Optional, groups only. Only the group's own delegated merges count; an escalated gate:owner-merge PR does not."
+  },
+  "createdAt": "2026-10-11T00:00:00Z",
+  "description": "Delegated merges the group may make per cycle.",
+  "editorHint": "singleline",
+  "fieldType": {
+    "cardinality": "single",
+    "datatype": "number"
+  },
+  "id": "bb3dc168-cff6-4196-9824-8c1124037210",
+  "name": "budget_per_cycle",
+  "namespace": "com.mudemocracy.governance",
+  "version": 1
+}

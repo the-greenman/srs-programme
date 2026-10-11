@@ -1,0 +1,17 @@
+{
+  "aiGuidance": {
+    "purpose": "Optional, groups only. One seat name per entry, matching the agent records' seat (e.g. steward, builder, reviewer). A member whose seat is not listed attends but does not count."
+  },
+  "createdAt": "2026-10-11T00:00:00Z",
+  "description": "The member seats that count toward quorum.",
+  "editorHint": "singleline",
+  "fieldType": {
+    "cardinality": "list",
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "9f97e8a5-5f55-4448-9cf5-cc095e3c5f2b",
+  "name": "quorum_seats",
+  "namespace": "com.mudemocracy.governance",
+  "version": 1
+}

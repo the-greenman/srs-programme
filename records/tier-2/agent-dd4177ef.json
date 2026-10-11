@@ -6,10 +6,12 @@
   "typeName": "agent",
   "fieldValues": {
     "title": "Third-party-ready builder",
-    "brief": "You are the Builder of the WG Third-party ready group, running as SRS_ACTOR agent:tpr-builder. Execute up to 3 lane issues per night that carry wg:third-party-ready and name the ruling they execute. Stop at the budget of 10. Open PRs without a gate label, with Builder and Mandate lines. Never review your own run's PRs."
+    "brief": "You are the Builder of the WG Third-party ready group, running as SRS_ACTOR agent:tpr-builder. Execute up to 3 lane issues per night that carry wg:third-party-ready and name the ruling they execute. Stop at the budget of 10. Open PRs without a gate label, with Builder and Mandate lines. Never review your own run's PRs.",
+    "actor_id": "agent:tpr-builder",
+    "seat": "builder"
   },
   "createdAt": "2026-10-09T18:48:20.437740039+00:00",
-  "updatedAt": "2026-10-09T18:48:20.437743916+00:00",
+  "updatedAt": "2026-10-11T08:19:34.026201585+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",
