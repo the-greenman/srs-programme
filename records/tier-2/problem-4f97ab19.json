@@ -1,0 +1,24 @@
+{
+  "instanceId": "4f97ab19-465b-4bb0-9b95-416abdf8d79e",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-57",
+    "title": "Outside material cannot become quotable evidence",
+    "statement": "A news article I am answering, or the transcript of a long conversation, cannot be brought in as a source whose passages I can quote and build claims from.",
+    "kind": "capability",
+    "source_ref": [
+      "Owner, live planning session 2026-10-11 (srs-programme#89)"
+    ]
+  },
+  "createdAt": "2026-10-11T09:35:03.709249405+00:00",
+  "updatedAt": "2026-10-11T09:35:03.709251298+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,79 @@
+{
+  "containerId": "142e7221-6779-481c-9a50-cc95b773d95d",
+  "title": "Domain: Evidence-backed writing",
+  "containerType": "com.semanticops.method/domain",
+  "identityInstanceId": "b7cf0ead-2776-4aae-acd7-ae86134200de",
+  "anchorInstanceId": "b7cf0ead-2776-4aae-acd7-ae86134200de",
+  "memberInstanceIds": [
+    {
+      "instanceId": "b7cf0ead-2776-4aae-acd7-ae86134200de"
+    },
+    {
+      "instanceId": "52bf3e08-0c08-422b-be9c-918810d6fef8"
+    },
+    {
+      "instanceId": "25d7188d-8f75-4ba8-902d-bb2145599103",
+      "depth": 1
+    },
+    {
+      "instanceId": "7e2d5842-c839-4ec7-b691-b08b6ae6282d",
+      "depth": 1
+    },
+    {
+      "instanceId": "e167e0a4-83a6-4349-b637-6bee6c8637f5"
+    },
+    {
+      "instanceId": "b72300dd-657b-4e9b-9662-9d1791ec78c6",
+      "depth": 1
+    },
+    {
+      "instanceId": "82ea3f28-4079-476e-a83d-705404f3de5b",
+      "depth": 1
+    },
+    {
+      "instanceId": "0aba4434-f619-425d-bb1d-b6e8f9b3bdfd",
+      "depth": 1
+    },
+    {
+      "instanceId": "29c8badb-f9d2-4a76-9691-34d1d67de65c"
+    },
+    {
+      "instanceId": "b09ab0ee-9dca-4953-9dd0-2541a8c89f13",
+      "depth": 1
+    },
+    {
+      "instanceId": "05acb55f-f8cf-4529-a660-3cb48d8700a4",
+      "depth": 1
+    },
+    {
+      "instanceId": "074800d9-5655-4c82-bd41-0499a8e2bd09"
+    },
+    {
+      "instanceId": "b0a06dab-23bc-4af5-8923-839b60cbf7af",
+      "depth": 1
+    },
+    {
+      "instanceId": "c140f256-b760-4402-b3d7-53dc62e9e298",
+      "depth": 1
+    },
+    {
+      "instanceId": "047e7796-9848-4439-aedb-8c916de499f4",
+      "depth": 1
+    },
+    {
+      "instanceId": "62b9290b-bb30-4be6-a0fe-862aa676bf61"
+    },
+    {
+      "instanceId": "9089b7fb-3d68-4b79-9800-2915b6fbd5b7"
+    },
+    {
+      "instanceId": "b26a2038-982a-487f-b83e-46bcd5b9a634"
+    },
+    {
+      "instanceId": "4f97ab19-465b-4bb0-9b95-416abdf8d79e"
+    },
+    {
+      "instanceId": "1653a2fc-7ded-4093-85d8-0347237f92ff"
+    }
+  ]
+}

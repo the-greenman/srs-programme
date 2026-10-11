@@ -1,0 +1,26 @@
+{
+  "instanceId": "b97795ae-da00-453c-a4db-46f5dcb7f224",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Writing domain: one writer, evidence-backed, muDemocracy first",
+    "decision_question": "What is the Collaborative writing domain, and for whom?",
+    "context": "Relayed from the owner's local planning session on 2026-10-11 (srs-programme#89); awaiting the owner's ratification in a clerk session.",
+    "alternatives_considered": "A new domain beside Collaborative writing; keeping several authors in scope.",
+    "decision_statement": "The Collaborative writing domain is rewritten in place as Evidence-backed writing: one writer building a carefully structured, evidence-based text that withstands critical argument; agents respond (link claims, problems, quotes; red team; blue team) and never write. Start from the owner's muDemocracy case and generalise over time. Problems are thrown in as a brainstorm and refined and synthesised later as an ongoing understanding process. SP-20 and SP-21 (save and reintegrate) stay and will also belong to a separate technical domain.",
+    "next_steps": "See srs-programme#89.",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T09:35:17.064431007+00:00",
+  "updatedAt": "2026-10-11T09:35:27.489267388+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
