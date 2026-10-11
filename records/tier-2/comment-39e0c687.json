@@ -1,0 +1,18 @@
+{
+  "instanceId": "39e0c687-ddbc-4bb1-b1c2-6e832241aaa4",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "This is not a good representative decision. It is a temorary technical choice. It is a specific choice for a moment in time - this is far more a task. A decision worthy of recording would describe a choice that could move towards a policy that would estabish a way of meaurement that could be reused."
+  },
+  "createdAt": "2026-10-11T16:12:07.661797700+00:00",
+  "updatedAt": "2026-10-11T16:12:07.661804450+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

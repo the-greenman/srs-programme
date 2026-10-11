@@ -10,13 +10,14 @@
     "context": "Relayed from the owner's local planning session on 2026-10-11 (srs-programme#89), while rewriting the writing domain; awaiting the owner's ratification in a clerk session. Owner's words: \"This process is fundamental to the reason SRS exists. The goal of SRS is to be able to provide deep context for action. Any task should be something that is understood within the whole picture. An SRS writing editor may create a single document output, but the SRS doc has all the context and provenance. The same applies to the programme for SRS and our tools. The writer example is building on the same domains and problems system that we are building now.\"",
     "alternatives_considered": "Treat the writing editor as a separate product with its own model of claims, review and provenance; or treat the programme method (domains, personas, problems, affirm) as internal tooling only.",
     "decision_statement": "The goal of SRS is to provide deep context for action: any task is understood within the whole picture of domain, persona, problem and evidence. A document, a roadmap or an issue is one output, a projection; the SRS holds all the context and provenance behind it. The programme for SRS and the tools built on SRS, starting with the writing editor, run on the same domains, personas and problems system. One mechanism serves both (affirm, domain containers, persona-in-domain, provenance), and walking the writing domain is both a product case and the programme testing itself.",
+    "revisit_when": "Each new epic within a project is tested against a purpose/boundary statement. If we find that we are undertaking work that does not align with the stated purpose, then we need to review whether the purpose is correct, or the work is not appropriate.",
     "next_steps": "Ratify in a clerk session; if ratified, add it as a principle in the clerk handbook. See srs-programme#89.",
     "owner": "Peter Brownell",
     "status": "active"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-11T09:38:50.531342545+00:00",
-  "updatedAt": "2026-10-11T09:38:50.618820416+00:00",
+  "updatedAt": "2026-10-11T16:12:12.009155616+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

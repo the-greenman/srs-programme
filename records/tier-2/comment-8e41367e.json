@@ -1,0 +1,18 @@
+{
+  "instanceId": "8e41367e-1f13-4054-abf5-aa999a9dba5e",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "another decision that is more of a task choice."
+  },
+  "createdAt": "2026-10-11T16:12:09.193424781+00:00",
+  "updatedAt": "2026-10-11T16:12:09.193430636+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

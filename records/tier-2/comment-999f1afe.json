@@ -1,0 +1,18 @@
+{
+  "instanceId": "999f1afe-188e-411c-8d38-d50172c2e76a",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "A real decision record should be one thing. A decision should specify a pattern for going forward that holds consistency over time. The decision we ar looking for is a test of a priority order, the reason we ordered things this way, rather than the result of applying the priorities which is a set of tasks"
+  },
+  "createdAt": "2026-10-11T16:12:09.654310180+00:00",
+  "updatedAt": "2026-10-11T16:12:09.654316794+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

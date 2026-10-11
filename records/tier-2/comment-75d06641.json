@@ -1,0 +1,18 @@
+{
+  "instanceId": "75d06641-e668-4c14-8f40-057a13fe3c9e",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "This is a design decision. It has long term consequences and influences future options. But we are mixing the actual decision \"declaring clearly that domains are nestable. But not necessarily a hierarchy\" with a task: to create a new domain."
+  },
+  "createdAt": "2026-10-11T16:12:10.732374618+00:00",
+  "updatedAt": "2026-10-11T16:12:10.732380977+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
