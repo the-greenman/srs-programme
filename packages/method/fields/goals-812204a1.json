@@ -1,0 +1,19 @@
+{
+  "aiGuidance": {
+    "extraction": "Three to five short phrases in the persona's own terms, one per entry.",
+    "negativeGuidance": "Do not list features, products or solutions.",
+    "purpose": "The outcomes this persona wants in this domain, as short phrases. Jobs are the tasks done to reach them; goals are why. Problems are held when goals are blocked."
+  },
+  "createdAt": "2026-10-11T18:00:00+00:00",
+  "description": "What a persona, in one domain, is trying to achieve.",
+  "editorHint": "singleline",
+  "fieldType": {
+    "cardinality": "list",
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "812204a1-484b-4120-bad0-a4503dab8a8a",
+  "name": "goals",
+  "namespace": "com.semanticops.method",
+  "version": 1
+}

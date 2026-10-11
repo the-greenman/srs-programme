@@ -1,0 +1,18 @@
+{
+  "aiGuidance": {
+    "extraction": "Name the residual problem plainly.",
+    "negativeGuidance": "Do not leave empty to look stronger, or restate the move.",
+    "purpose": "The honest limit of a remedy: problems it does not touch or may worsen. Aligned with muSrs remedy."
+  },
+  "createdAt": "2026-10-08T10:44:21.519955113+00:00",
+  "description": "What a remedy leaves unsolved.",
+  "fieldType": {
+    "cardinality": "single",
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "9b8c0d2c-e688-4b01-a18d-5ca110ecb62b",
+  "name": "does_not_fix",
+  "namespace": "com.semanticops.method",
+  "version": 1
+}

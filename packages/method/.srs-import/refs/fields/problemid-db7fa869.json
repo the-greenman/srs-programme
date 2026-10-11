@@ -1,0 +1,19 @@
+{
+  "aiGuidance": {
+    "extraction": "Format SP-nn (SP-01, SP-02, ...). Take the next unused number after searching existing problems.",
+    "negativeGuidance": "Never reuse or renumber an id, even for a withdrawn or superseded problem.",
+    "purpose": "Stable id by which a problem is cited in issues, plans and conversation. Aligned with muSrs argument/problem_id."
+  },
+  "createdAt": "2026-10-08T10:44:21.153050285+00:00",
+  "description": "Stable citation id for a problem, SP-nn.",
+  "editorHint": "singleline",
+  "fieldType": {
+    "cardinality": "single",
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "db7fa869-1023-462b-8d64-acc149e67e45",
+  "name": "problem_id",
+  "namespace": "com.semanticops.method",
+  "version": 1
+}

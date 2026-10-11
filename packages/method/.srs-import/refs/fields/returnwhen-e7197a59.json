@@ -1,0 +1,19 @@
+{
+  "aiGuidance": {
+    "extraction": "One short observable condition.",
+    "negativeGuidance": "Not a deadline.",
+    "purpose": "The signal that a remedy restoring one side has done its job and the trade-off should swing back."
+  },
+  "createdAt": "2026-10-08T11:04:37.251Z",
+  "description": "When a remedy hands back to the other side.",
+  "editorHint": "textarea",
+  "fieldType": {
+    "cardinality": "single",
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "e7197a59-e74b-45a5-9062-82f7ac9f23a4",
+  "name": "return_when",
+  "namespace": "com.semanticops.method",
+  "version": 1
+}

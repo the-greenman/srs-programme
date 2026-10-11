@@ -1,0 +1,51 @@
+{
+  "createdAt": "2026-10-08T10:44:04.513482434+00:00",
+  "description": "What sort of thing a problem statement is.",
+  "id": "7d21013f-bcc7-41e1-b929-774c7b632319",
+  "mode": "closed",
+  "name": "problem-kind",
+  "namespace": "com.semanticops.method",
+  "terms": [
+    {
+      "description": "A held belief that stands in the way.",
+      "id": "d18fd3f9-a072-4344-ba1c-42464ada9b4d",
+      "key": "belief",
+      "label": "Belief",
+      "namespace": "com.semanticops.method",
+      "version": 1
+    },
+    {
+      "description": "Something people cannot yet do.",
+      "id": "04a96cf2-7f23-45e2-bbcc-9aec4f49fea7",
+      "key": "capability",
+      "label": "Capability",
+      "namespace": "com.semanticops.method",
+      "version": 1
+    },
+    {
+      "description": "A state of affairs that makes the work hard.",
+      "id": "eee81832-e5ac-46e5-9b53-1b054e4f0e47",
+      "key": "condition",
+      "label": "Condition",
+      "namespace": "com.semanticops.method",
+      "version": 1
+    },
+    {
+      "description": "A harm that follows from other problems.",
+      "id": "27614d5e-6732-41f1-89e0-05da1a322937",
+      "key": "consequence",
+      "label": "Consequence",
+      "namespace": "com.semanticops.method",
+      "version": 1
+    },
+    {
+      "description": "A change in the world that creates the problem.",
+      "id": "3a8b941e-0187-4379-b292-23ec59df305d",
+      "key": "shift",
+      "label": "Shift",
+      "namespace": "com.semanticops.method",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

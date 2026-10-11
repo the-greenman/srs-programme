@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "source is the principle; target is the tension it governs (exactly one)",
+  "category": "association",
+  "createdAt": "2026-10-08T11:04:58.304Z",
+  "description": "Principle governs tension. Endpoints: principle -> tension.",
+  "id": "853aaad5-57a3-47c3-b0b0-3eef1240f18e",
+  "key": "com.semanticops.method/governs",
+  "label": "Governs",
+  "namespace": "com.semanticops.method",
+  "status": "active",
+  "version": 1
+}
