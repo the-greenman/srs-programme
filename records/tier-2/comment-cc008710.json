@@ -1,0 +1,18 @@
+{
+  "instanceId": "cc008710-9a92-4c71-97db-255f6321d6a2",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "again very mixed set of things in the decision. And an application of the general decision that has been made over and over in this session. This sets a threshold. and it also makes a technical choice as to how to apply the decision. When making technical decisions, we need to apply technical design principles.   Simply stating that we use a function \"cannon\" without inderstanding the principle behind it, and how we apply technical design principles consistently does not help our architecture and design maintain quality over time."
+  },
+  "createdAt": "2026-10-11T16:12:11.034577978+00:00",
+  "updatedAt": "2026-10-11T16:12:11.034585103+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

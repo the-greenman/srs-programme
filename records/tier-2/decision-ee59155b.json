@@ -1,0 +1,27 @@
+{
+  "instanceId": "ee59155b-23d4-42f5-82d2-16022f4810df",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "An affirmed problem is grounded in an affirmed domain",
+    "decision_question": "What must an affirmed problem satisfy before it counts?",
+    "context": "Relayed from the owner's walk of 2026-10-11 after session srs-programme#100; awaiting ratification.",
+    "decision_statement": "An affirmed problem is grounded in an affirmed domain.",
+    "rationale": "Applies the standing preference Convention before enforcement: the check warns first and becomes an error only after the walk has finished. Severity is the application, recorded elsewhere.",
+    "revisit_when": "When personas weight priority, or when the warnings stop appearing on the problems of the walked domains and the rule can be enforced.",
+    "owner": "Peter Brownell",
+    "status": "active",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T16:42:12.419997138+00:00",
+  "updatedAt": "2026-10-11T16:42:28.416678720+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

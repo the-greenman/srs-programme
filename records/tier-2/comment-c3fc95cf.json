@@ -1,0 +1,18 @@
+{
+  "instanceId": "c3fc95cf-f004-4fa8-9cbc-5340551bf115",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "this is a principle that we assume to be true enough to offer value. We work with it to guide our practice. The decision is to keep maintaining our theory of boundaries and tensions."
+  },
+  "createdAt": "2026-10-11T16:12:08.882439937+00:00",
+  "updatedAt": "2026-10-11T16:12:08.882448213+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

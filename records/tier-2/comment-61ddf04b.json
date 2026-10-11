@@ -1,0 +1,18 @@
+{
+  "instanceId": "61ddf04b-0264-4140-ae7b-0c43b7a9313b",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "decision records should not really be citing moments in time and specific issues. This is a preferance decision. We favour initial probe and experiment to learn. Initial experiments and non-conformity is allowed until we have a standard practice, after which we enforce conforming."
+  },
+  "createdAt": "2026-10-11T16:12:08.116188354+00:00",
+  "updatedAt": "2026-10-11T16:12:08.116192816+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,27 @@
+{
+  "instanceId": "6d73686e-34cf-44e4-9b2f-dbae4fd0d4f7",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Affirm meaning over arrangement",
+    "decision_question": "Do we fix an arrangement first, or affirm meaning first?",
+    "context": "Relayed from the owner's walk of 2026-10-11 after session srs-programme#100; awaiting ratification.",
+    "decision_statement": "Affirmed meaning is preferred over fixed arrangement, unless the order is itself the meaning.",
+    "rationale": "Ratifies the method principle Affirmed meaning over fixed arrangement rather than restating it; the principle is the standing record and is held in the Suggestions layer until the owner affirms it.",
+    "revisit_when": "When the unless-case fires repeatedly, or an arrangement is fixed with no named meaning behind it.",
+    "owner": "Peter Brownell",
+    "status": "active",
+    "decision_kind": "preference"
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-11T16:42:21.370435960+00:00",
+  "updatedAt": "2026-10-11T17:22:45.294072253+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

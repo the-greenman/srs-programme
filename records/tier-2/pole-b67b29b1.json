@@ -1,0 +1,20 @@
+{
+  "instanceId": "b67b29b1-633b-4e5f-a36c-e7ef789f8ffd",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Affirmed meaning",
+    "looks_like": "Meaning is named and affirmed first; the arrangement (grouping, order, nesting) is derived from it and can change.",
+    "shadow": "Arrangement drifts and nobody can say which grouping is current."
+  },
+  "createdAt": "2026-10-11T16:42:20.776921466+00:00",
+  "updatedAt": "2026-10-11T16:42:20.776925325+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

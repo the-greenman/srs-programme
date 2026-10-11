@@ -1,0 +1,18 @@
+{
+  "instanceId": "08e0493a-d520-4ac3-8dd8-905826c1e124",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "this is another work small before committing example. The actual decision is the same as each of the others. We start with a sample, learn, then commit"
+  },
+  "createdAt": "2026-10-11T16:12:08.422122867+00:00",
+  "updatedAt": "2026-10-11T16:12:08.422130286+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

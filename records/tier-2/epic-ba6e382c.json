@@ -1,0 +1,21 @@
+{
+  "instanceId": "ba6e382c-9a63-4744-921c-28a09949d17a",
+  "typeId": "c2ec9c8a-b36b-4b19-940f-374b338e30a6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "epic",
+  "fieldValues": {
+    "title": "Roadmap work through committees, a documented and tested process",
+    "issue_ref": [
+      "clerk#19"
+    ]
+  },
+  "createdAt": "2026-10-11T16:42:57.231944537+00:00",
+  "updatedAt": "2026-10-11T16:42:57.231948606+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

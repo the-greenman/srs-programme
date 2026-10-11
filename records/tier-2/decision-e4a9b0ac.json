@@ -11,13 +11,14 @@
     "alternatives_considered": "(a) keep held-by to the shared persona; (b) held-by to persona-in-domain.",
     "decision_statement": "Take (b): held-by points to persona-in-domain. A problem's domain is derived through held-by then in-domain. Domain container membership is arrangement only. Unwalked domains keep held-by to the shared persona, reported as a warning.",
     "rationale": "The domain follows from the persona in that domain, so membership of a container carries no meaning.",
+    "revisit_when": "When we find another context where we need to work out a domain, we will review whether it follows this same pattern. Our goal is a consistent mechanism to discern domain membership.",
     "next_steps": "See clerk plans/two-domains-end-to-end.md (clerk#32).",
     "owner": "Peter Brownell",
     "status": "active"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-11T08:51:14.626495390+00:00",
-  "updatedAt": "2026-10-11T08:51:29.574149731+00:00",
+  "updatedAt": "2026-10-11T16:12:11.707545557+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

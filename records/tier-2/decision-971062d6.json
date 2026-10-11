@@ -1,0 +1,27 @@
+{
+  "instanceId": "971062d6-938c-4448-b51a-b7a8f9fe3b0e",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A decision record is one standing choice",
+    "decision_question": "What qualifies as a decision record?",
+    "context": "Relayed from the owner's walk of 2026-10-11 after session srs-programme#100; awaiting ratification.",
+    "decision_statement": "A decision record is one standing choice that governs future choices, stated so that it reads true later and says when it is reviewed; tasks, applications, plans and bundles are recorded elsewhere and linked to it.",
+    "rationale": "A log of tasks and applications hides the few choices that govern the rest, and the owner cannot judge a flood of mixed records.",
+    "revisit_when": "When a record accepted under this rule proves to be a task, an application or a bundle, or when a standing choice cannot be recorded under it.",
+    "owner": "Peter Brownell",
+    "status": "active",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-11T16:41:49.462930192+00:00",
+  "updatedAt": "2026-10-11T17:22:45.589945451+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
