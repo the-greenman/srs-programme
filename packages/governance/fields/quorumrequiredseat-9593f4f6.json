@@ -1,0 +1,17 @@
+{
+  "aiGuidance": {
+    "purpose": "Optional, groups only. e.g. reviewer."
+  },
+  "createdAt": "2026-10-11T00:00:00Z",
+  "description": "The seat that must attend for quorum to be met.",
+  "editorHint": "singleline",
+  "fieldType": {
+    "cardinality": "single",
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "9593f4f6-f282-4360-9294-984891b8fd46",
+  "name": "quorum_required_seat",
+  "namespace": "com.mudemocracy.governance",
+  "version": 1
+}

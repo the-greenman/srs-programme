@@ -11,11 +11,28 @@
     "boundary": "Escalates, one proposed decision each: any change that would make or change a ruling; Door 2 or Door 3; complex mode; a breaking CLI or payload change; a pin bump in another repo; anything that touches gates or merge rules; going over budget. Outside: new rulings, RFCs, client UX.",
     "source_of_authority": "Owner (delegation, once ratified by the owner's charter decision)",
     "revisit_when": "No open divergence in the divergence diff for two cycles, or the owner changes the mandate.",
-    "status": "proposed"
+    "status": "proposed",
+    "group_label": "wg:third-party-ready",
+    "quorum_min_members": 2,
+    "quorum_seats": [
+      "steward",
+      "builder",
+      "reviewer"
+    ],
+    "quorum_required_seat": "reviewer",
+    "budget_per_cycle": 10,
+    "cycle_close_utc": "11:30",
+    "max_unacked_reports": 2,
+    "governed_repos": [
+      "srs-rust",
+      "srs",
+      "srs-vscode",
+      "srs-web"
+    ]
   },
   "lifecycleState": "draft",
   "createdAt": "2026-10-09T18:48:18.836908447+00:00",
-  "updatedAt": "2026-10-09T20:27:25.575662086+00:00",
+  "updatedAt": "2026-10-11T08:19:33.738578842+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",

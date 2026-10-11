@@ -1,0 +1,16 @@
+{
+  "aiGuidance": {
+    "purpose": "Optional, groups only. Counted among the members whose seat is in quorum_seats."
+  },
+  "createdAt": "2026-10-11T00:00:00Z",
+  "description": "How many distinct members must attend for the group to ratify or set aside.",
+  "editorHint": "singleline",
+  "fieldType": {
+    "cardinality": "single",
+    "datatype": "number"
+  },
+  "id": "ae4b957e-f3d7-4d8f-897e-885667718d60",
+  "name": "quorum_min_members",
+  "namespace": "com.mudemocracy.governance",
+  "version": 1
+}

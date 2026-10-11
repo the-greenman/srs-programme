@@ -2,19 +2,6 @@
   "generatedAt": "2026-10-09T18:16:46.768887012+00:00",
   "fields": [
     {
-      "definitionId": "0004d14d-d8e1-47f1-87a5-0c6b6509a34d",
-      "definitionType": "field",
-      "namespace": "com.mudemocracy.stewardship",
-      "name": "figures",
-      "version": 1,
-      "mode": "upstream-tracked",
-      "importedAt": "2026-10-09T18:16:46.768887012+00:00",
-      "sourcePackageId": "b64c147f-37c4-414b-8aac-b84202e5d63e",
-      "sourcePackageName": "com.mudemocracy.stewardship",
-      "sourcePackageVersion": "0.1.0",
-      "conflictState": "clean"
-    },
-    {
       "definitionId": "069611a9-5ad1-42cd-b27d-66ba0d494c79",
       "definitionType": "field",
       "namespace": "com.thesystem",
@@ -442,6 +429,45 @@
       "sourcePackageName": "com.mudemocracy.stewardship",
       "sourcePackageVersion": "0.1.0",
       "conflictState": "clean"
+    },
+    {
+      "definitionId": "0004d14d-d8e1-47f1-87a5-0c6b6509a34d",
+      "definitionType": "field",
+      "namespace": "com.mudemocracy.stewardship",
+      "name": "figures",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-09T18:16:46.768887012+00:00",
+      "sourcePackageId": "b64c147f-37c4-414b-8aac-b84202e5d63e",
+      "sourcePackageName": "com.mudemocracy.stewardship",
+      "sourcePackageVersion": "0.1.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "1a28d1d4-8a28-4e07-bc08-2790b5777710",
+      "definitionType": "field",
+      "namespace": "com.mudemocracy.stewardship",
+      "name": "actor_id",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-11T08:19:21.176181274+00:00",
+      "sourcePackageId": "b64c147f-37c4-414b-8aac-b84202e5d63e",
+      "sourcePackageName": "com.mudemocracy.stewardship",
+      "sourcePackageVersion": "0.1.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "b0f8ef66-ab6e-4940-b7c9-b05be021da7d",
+      "definitionType": "field",
+      "namespace": "com.mudemocracy.stewardship",
+      "name": "seat",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-11T08:19:21.176181274+00:00",
+      "sourcePackageId": "b64c147f-37c4-414b-8aac-b84202e5d63e",
+      "sourcePackageName": "com.mudemocracy.stewardship",
+      "sourcePackageVersion": "0.1.0",
+      "conflictState": "clean"
     }
   ],
   "types": [
@@ -459,10 +485,10 @@
       "conflictState": "clean"
     },
     {
-      "definitionId": "f6f2137d-3472-4a40-add7-af69581208d6",
+      "definitionId": "58f0ee7b-8063-4fc7-9b39-af918962c91f",
       "definitionType": "type",
       "namespace": "com.mudemocracy.stewardship",
-      "name": "agent",
+      "name": "standing-job",
       "version": 1,
       "mode": "upstream-tracked",
       "importedAt": "2026-10-09T18:16:46.768887012+00:00",
@@ -472,10 +498,10 @@
       "conflictState": "clean"
     },
     {
-      "definitionId": "58f0ee7b-8063-4fc7-9b39-af918962c91f",
+      "definitionId": "f6f2137d-3472-4a40-add7-af69581208d6",
       "definitionType": "type",
       "namespace": "com.mudemocracy.stewardship",
-      "name": "standing-job",
+      "name": "agent",
       "version": 1,
       "mode": "upstream-tracked",
       "importedAt": "2026-10-09T18:16:46.768887012+00:00",

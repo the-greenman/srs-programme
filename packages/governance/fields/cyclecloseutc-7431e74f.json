@@ -1,0 +1,17 @@
+{
+  "aiGuidance": {
+    "purpose": "Optional, groups only. The cycle budget resets here, e.g. 11:30."
+  },
+  "createdAt": "2026-10-11T00:00:00Z",
+  "description": "The time of day (HH:MM, UTC) a cycle closes.",
+  "editorHint": "singleline",
+  "fieldType": {
+    "cardinality": "single",
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "7431e74f-55ef-4a2c-8bf2-525f028d1c7e",
+  "name": "cycle_close_utc",
+  "namespace": "com.mudemocracy.governance",
+  "version": 1
+}

@@ -1,0 +1,17 @@
+{
+  "aiGuidance": {
+    "purpose": "Optional. The id the agent acts under; clerk derives the role name (--as) and quorum comment authors from it."
+  },
+  "createdAt": "2026-10-11T00:00:00Z",
+  "description": "The SRS_ACTOR id this agent runs as, e.g. agent:tpr-reviewer.",
+  "editorHint": "singleline",
+  "fieldType": {
+    "cardinality": "single",
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "1a28d1d4-8a28-4e07-bc08-2790b5777710",
+  "name": "actor_id",
+  "namespace": "com.mudemocracy.stewardship",
+  "version": 1
+}
