@@ -1,0 +1,22 @@
+{
+  "instanceId": "dd802a61-0aef-4df2-a7a0-91741c2505fd",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-11 17:18 UTC: SemanticOps",
+    "held_at": "2026-10-11T17:18:05Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-11 17:18 UTC: SemanticOps\nAttendees: Owner\n- Ratified: Affirm meaning over arrangement [6d73686e]\n- Ratified: Work is ordered by dependency [73cd1ad7]\n- Ratified: A decision record is one standing choice [971062d6]\n- Ratified: Seven decision kinds, adopted to test [c135ce40]\n- Ratified: Tasks live as issues [da1a4063]\n- Ratified: Decision framing rules apply as a convention first [e56d6893]\n- Ratified: Every governing decision names an indicator [f6175b4a]"
+  },
+  "createdAt": "2026-10-11T17:22:45.051843210+00:00",
+  "updatedAt": "2026-10-11T17:22:45.051844760+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

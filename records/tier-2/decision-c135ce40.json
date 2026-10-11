@@ -15,9 +15,9 @@
     "status": "active",
     "decision_kind": "design"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-11T16:41:49.550299126+00:00",
-  "updatedAt": "2026-10-11T16:42:27.831026199+00:00",
+  "updatedAt": "2026-10-11T17:22:45.738426473+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",
