@@ -15,7 +15,8 @@
       "srs-vscode",
       "srs-programme",
       "srs-context",
-      "muDemocracy.org"
+      "muDemocracy.org",
+      "clerk"
     ],
     "report_issue": "semanticops.com#31",
     "digest_issue": "semanticops.com#33",
@@ -24,7 +25,7 @@
     "owner_actor": "human:the-greenman"
   },
   "createdAt": "2026-10-10T19:50:08.193885219+00:00",
-  "updatedAt": "2026-10-10T19:50:08.193904909+00:00",
+  "updatedAt": "2026-10-11T16:25:19.908074243+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",
