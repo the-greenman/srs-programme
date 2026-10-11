@@ -1,0 +1,26 @@
+{
+  "instanceId": "da7877f3-2b08-4f2f-95df-922c2e1e3f27",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Programme coordination: a domain for running the programmes, iterative by nature",
+    "decision_question": "Which domain holds the work of running the SemanticOps and muDemocracy programmes through the clerk?",
+    "context": "Relayed from the owner's local planning session on 2026-10-11 (srs-programme#93); awaiting the owner's ratification in a clerk session. The owner asked: how do we finish workstreams, stay consistent, manage quality and manage decision overload across many repositories?",
+    "alternatives_considered": "Fold the work into Group meaning ownership; or keep programme management outside the domain and problem system.",
+    "decision_statement": "A new domain, Programme coordination, holds the work of running the programmes across repositories: finishing workstreams, consistency, quality and decision load. Existing problems that also belong here join its container (problems span domains), and eight brainstorm problems from the owner's questions are added for later synthesis. The work is iterative and rarely reaches a stable, locked state, so the domain and its problems are expected to keep changing. The domain for SRS itself, the need to hold deep context, is being defined in the same way as we go.",
+    "next_steps": "See srs-programme#93. Later: the Programme owner persona-in-domain (after clerk#34), cluster synthesis, and how the agent roles manifest here.",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T10:03:26.173452277+00:00",
+  "updatedAt": "2026-10-11T10:03:26.253287650+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
