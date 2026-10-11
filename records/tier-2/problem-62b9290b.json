@@ -1,0 +1,24 @@
+{
+  "instanceId": "62b9290b-bb30-4be6-a0fe-862aa676bf61",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-54",
+    "title": "A claim's validity cannot be checked against the evidence",
+    "statement": "When I make a claim I cannot see whether the claims, problems and quotes in the research base support or contradict it, so I cannot know that each claim I make is valid.",
+    "kind": "capability",
+    "source_ref": [
+      "Owner, live planning session 2026-10-11 (srs-programme#89)"
+    ]
+  },
+  "createdAt": "2026-10-11T09:35:03.226432095+00:00",
+  "updatedAt": "2026-10-11T09:35:03.226433332+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

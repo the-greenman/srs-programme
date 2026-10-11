@@ -1,0 +1,26 @@
+{
+  "instanceId": "7841bb87-49a9-4743-a8ac-e530b5aea6a3",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Stance agents are universal; their expression is per domain",
+    "decision_question": "Are the stance agents universal or defined per domain?",
+    "context": "Relayed from the owner's local planning session on 2026-10-11 (srs-programme#89); awaiting the owner's ratification in a clerk session.",
+    "alternatives_considered": "Domain-specific agent personas defined independently of the stance agents.",
+    "decision_statement": "The agents built on the three axes are universal. How the axes are expressed depends on the domain context, so the domain is made clear first and how an agent manifests in it is worked out after.",
+    "next_steps": "See srs-programme#89.",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T09:35:27.580521455+00:00",
+  "updatedAt": "2026-10-11T09:35:27.662875268+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
