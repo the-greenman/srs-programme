@@ -1,0 +1,24 @@
+{
+  "instanceId": "0263de26-76b6-48d3-a9ff-d46e5901c8e9",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "title": "Cycle and report",
+    "article_text": "The cycle is a rhythm set here, not a fixed week. Current rhythm: daily; the cycle closes at 11:30 UTC. The owner can amend the rhythm. At each close the steward closes the cycle and posts a short report on the programme's report issue (setting report_issue), a comment whose first line is `<!-- wg-report cycle=<YYYY-MM-DD> -->`. The report uses the standard run-report headings plus figures: PRs merged with their quorum line, PRs open, stops, red gates, budget used and pause state. The owner acknowledges a report with a thumbs-up (+1) reaction from the owner account on the report comment. The group pauses after N=2 consecutive unacknowledged cycle reports. While paused, pr-upkeep merges no group PRs, the builder opens nothing new, and reviews and escalations continue. A thumbs-up on a report lifts the pause.",
+    "rationale": "The owner sets the rhythm so each report stays one cycle and short; the pause stops delegated work piling up unread.",
+    "amendment_rule": "Owner only: an amendment needs a new owner-ratified decision.",
+    "protected_status": "Agent testimony until the owner ratifies the charter decision.",
+    "status": "proposed"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-11T08:30:28.725044869+00:00",
+  "updatedAt": "2026-10-11T08:30:28.725048949+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (drafting a charter for owner ratification)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

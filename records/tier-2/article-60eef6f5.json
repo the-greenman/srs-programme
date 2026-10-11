@@ -1,0 +1,24 @@
+{
+  "instanceId": "60eef6f5-4456-4604-9e2f-96728bd75ec5",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "title": "Budget",
+    "article_text": "At most 10 delegated merges per cycle. The count resets at each cycle close (11:30 UTC at the current rhythm). Only the group's own delegated merges count: a group PR carrying gate:owner-merge does not. The builder also stops when delegated merges in the current cycle plus open delegated group PRs reach 10, and labels the issue needs-input. Going over budget is an escalation.",
+    "rationale": "A cap keeps the output reviewable (reviewable units over throughput).",
+    "amendment_rule": "Owner only: an amendment needs a new owner-ratified decision.",
+    "protected_status": "Agent testimony until the owner ratifies the charter decision.",
+    "status": "proposed"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-11T08:30:28.807924059+00:00",
+  "updatedAt": "2026-10-11T08:30:28.807927303+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (drafting a charter for owner ratification)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

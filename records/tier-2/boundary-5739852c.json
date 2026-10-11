@@ -1,0 +1,23 @@
+{
+  "instanceId": "5739852c-f138-4152-954b-29b5a5c8b647",
+  "typeId": "5091e5a0-4fa5-4b7b-9108-6d59765ce68d",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.argument",
+  "typeName": "boundary",
+  "fieldValues": {
+    "title": "WG Agent-supported editor",
+    "purpose": "The group answers epic semanticops.com#29 and closes the gaps it names.",
+    "inside": "srs-web, srs-rust, srs, semanticops.com: changes that execute an existing ruling.",
+    "outside": "New rulings and RFCs.",
+    "authority_basis": "The owner's delegation, once ratified (semanticops.com#29). It inherits the compass of the boundary it narrows.",
+    "revision_condition": "The epic semanticops.com#29 closes, or the owner changes the mandate."
+  },
+  "createdAt": "2026-10-11T08:30:29.246740990+00:00",
+  "updatedAt": "2026-10-11T08:30:29.246742405+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (drafting a charter for owner ratification)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

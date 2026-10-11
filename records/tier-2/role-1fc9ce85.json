@@ -1,0 +1,42 @@
+{
+  "instanceId": "1fc9ce85-e959-4296-b730-f4610aa05858",
+  "typeId": "e53dce11-6b83-5714-a8fe-f730edb500fa",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "role",
+  "fieldValues": {
+    "title": "WG Agent-supported editor",
+    "role_holder": "Builder (agent:editor-builder), Reviewer (agent:editor-reviewer), Steward (agent:editor-steward); the owner is the parent role",
+    "authority": "Decides itself and auto-merges any change that executes a recorded ruling, RFC or invariant and names it; in mode clear or complicated; within srs-web, srs-rust, srs, semanticops.com; with green gates; at most 10 delegated merges per cycle, and only while the group is not paused (2 consecutive unacknowledged cycle reports). Epic semanticops.com#29 (the epic record and this role are not related by any relation type: semanticops.com#29 is named here).",
+    "boundary": "Escalates, one proposed decision each: any change that would make or change a ruling; Door 2 or Door 3; complex mode; a breaking CLI or payload change; a pin bump in another repo; anything that touches gates or merge rules; going over budget. Outside: new rulings and RFCs.",
+    "source_of_authority": "Owner (delegation, once ratified by the owner's charter decision)",
+    "revisit_when": "The epic semanticops.com#29 closes, or the owner changes the mandate.",
+    "status": "proposed",
+    "group_label": "wg:agent-editor",
+    "quorum_min_members": 2,
+    "quorum_seats": [
+      "builder",
+      "reviewer",
+      "steward"
+    ],
+    "quorum_required_seat": "reviewer",
+    "budget_per_cycle": 10,
+    "cycle_close_utc": "11:30",
+    "max_unacked_reports": 2,
+    "governed_repos": [
+      "srs-web",
+      "srs-rust",
+      "srs",
+      "semanticops.com"
+    ]
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-11T08:30:28.559374397+00:00",
+  "updatedAt": "2026-10-11T08:30:28.559376063+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (drafting a charter for owner ratification)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
