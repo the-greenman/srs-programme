@@ -1,0 +1,25 @@
+{
+  "instanceId": "09f9838e-b7f0-4f06-9472-9f66c931ada6",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "The handbook is a projection of records, kept true by a weekly watcher",
+    "move": "The handbook becomes an SRS repository in the clerk; the markdown is its rendered Composition with a drift check in CI. A narrative part tells the whole process with diagrams; each stage records theory, practice, gaps and tests. A weekly Watcher routine re-reads code, data and boards, updates the records and opens one PR, and files what it cannot fix as issues.",
+    "does_not_fix": "Briefs and docs outside the handbook still restate rules (SP-65); the watcher only reports those. Facts are checked by an agent reading, not by code, except the drift between records and markdown.",
+    "falsifier": "After four weekly runs, a handbook claim contradicted by code or data is found by someone other than the watcher, or a new participant still has to ask in a session how work is driven.",
+    "source_ref": [
+      "clerk#50"
+    ],
+    "return_when": "After the fourth weekly run, or when the watcher's PR goes unmerged two weeks running."
+  },
+  "createdAt": "2026-10-11T18:35:37.545955802+00:00",
+  "updatedAt": "2026-10-11T18:35:37.545960924+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

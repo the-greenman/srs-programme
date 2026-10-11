@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "9ecab0dd-62cb-4854-b003-33404b6a222f",
+  "relationType": "com.semanticops.method/answers",
+  "sourceInstanceId": "09f9838e-b7f0-4f06-9472-9f66c931ada6",
+  "targetInstanceId": "dea995a7-e080-43c1-b2fc-7b2783342c11",
+  "createdAt": "2026-10-11T18:35:37.781060467+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator"
+  }
+}

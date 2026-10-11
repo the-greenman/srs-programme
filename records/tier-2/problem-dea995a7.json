@@ -1,0 +1,24 @@
+{
+  "instanceId": "dea995a7-e080-43c1-b2fc-7b2783342c11",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-68",
+    "title": "No one place tells how work is driven",
+    "statement": "Someone joining the programme, human or agent, cannot learn how domains, personas and problems become work, who may decide what, and how routines move and report it, without reading many briefs, docs and records that each tell part of the story.",
+    "kind": "condition",
+    "source_ref": [
+      "clerk#50 (2026-10-11): owner asked for one handbook that explains the whole process in clear words with diagrams"
+    ]
+  },
+  "createdAt": "2026-10-11T18:35:37.087503942+00:00",
+  "updatedAt": "2026-10-11T18:35:37.087509395+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
