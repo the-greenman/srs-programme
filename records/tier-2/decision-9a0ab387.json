@@ -1,0 +1,28 @@
+{
+  "instanceId": "9a0ab387-7702-41c1-b9c2-1dad3f30603b",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Build order for the two-domain walk; srs-rust#1377 proceeds",
+    "decision_question": "In what order do we build and walk the two domains?",
+    "context": "Relayed from the owner's local planning session on 2026-10-11 (clerk#32), walked one decision at a time; awaiting the owner's ratification in a clerk session.",
+    "alternatives_considered": "The order chosen below, with srs-rust#1377 either folded in or held back.",
+    "decision_statement": "srs-rust#1377 proceeds (ruled 2026-10-09, a generic fork fix, not a process change). Order: (1) clerk method package v1 additions (persona-in-domain, goals, in-domain, held-by description) and the srs-programme upgrade; (2) clerk check-method gate (warn), and roadmap.mjs reading outline clusters and held-by persona-in-domain; (3) srs-web: rebase, review and land #548, add domain and persona-in-domain affirm, buildBoard reads the domain outline, no membership UI; (4) agent data per domain: container and outline, suggested persona-in-domain, re-pointed suggested held-by, then delete contains after readers switch; (5) the owner affirms the domain, then persona-in-domain, and with #1377 all repairs carry the affirmed problems' held-by; (6) the owner removes the old affirmed problem held-by edges to the shared persona. There is no clerk affirm path: the srs-web Method editor is the one affirm UI, with CLI as fallback.",
+    "rationale": "Each step only depends on earlier ones, and readers switch before any edge is deleted.",
+    "revisit_when": "Membership UI: when the owner wants to regroup in the editor.",
+    "next_steps": "See clerk plans/two-domains-end-to-end.md (clerk#32).",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T08:51:14.794633324+00:00",
+  "updatedAt": "2026-10-11T08:51:29.724951949+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

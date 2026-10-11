@@ -1,0 +1,27 @@
+{
+  "instanceId": "bf8016da-0e5e-4d9d-906c-87a459af342b",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Persona-in-domain: a new method type linked to the domain by a package relation",
+    "decision_question": "How is a persona placed in a domain without changing core?",
+    "context": "Relayed from the owner's local planning session on 2026-10-11 (clerk#32), walked one decision at a time; awaiting the owner's ratification in a clerk session.",
+    "alternatives_considered": "A new method type persona-in-domain, a package relation in-domain, versus changes to the shared persona or to core.",
+    "decision_statement": "Add method type persona-in-domain v1 (title, goals as a new list field, jobs, needs reused). It refines the shared persona (core relation) and is affirmed as a definition. Its domain is given by a NEW method relation com.semanticops.method/in-domain from persona-in-domain to the domain record, and clerk check-method checks exactly one in-domain edge (precedent: within-boundary).",
+    "rationale": "It stays inside the method package, needs no core change, and keeps the shared persona reusable across domains.",
+    "next_steps": "See clerk plans/two-domains-end-to-end.md (clerk#32).",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T08:51:14.450051703+00:00",
+  "updatedAt": "2026-10-11T08:51:29.429112143+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
