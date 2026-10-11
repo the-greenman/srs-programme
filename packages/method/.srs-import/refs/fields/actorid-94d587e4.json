@@ -1,0 +1,19 @@
+{
+  "aiGuidance": {
+    "extraction": "Exactly the id string, 'agent:<name>'.",
+    "negativeGuidance": "No spaces; do not reuse another agent's id.",
+    "purpose": "The stable SRS_ACTOR id (for example agent:watcher) so a suggestion's createdBy traces to this agent record."
+  },
+  "createdAt": "2026-10-08T11:04:37.313Z",
+  "description": "The session actor id an agent runs with.",
+  "editorHint": "singleline",
+  "fieldType": {
+    "cardinality": "single",
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "94d587e4-7f40-478b-af61-691fd5221882",
+  "name": "actor_id",
+  "namespace": "com.semanticops.method",
+  "version": 1
+}

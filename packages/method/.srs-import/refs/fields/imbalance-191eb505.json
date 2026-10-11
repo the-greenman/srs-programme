@@ -1,0 +1,20 @@
+{
+  "aiGuidance": {
+    "extraction": "Pick the one term that describes the imbalance against the concerned side.",
+    "negativeGuidance": "Do not invent values.",
+    "purpose": "Closed: held-too-long, missing, collapsed. Used on a problem that concerns a pole (public word: side)."
+  },
+  "createdAt": "2026-10-08T11:04:37.191Z",
+  "description": "How a tension has gone out of balance in a problem.",
+  "editorHint": "dropdown",
+  "fieldType": {
+    "cardinality": "single",
+    "datatype": "string",
+    "valueDomain": "closed",
+    "vocabularyRef": "cc6ffec6-3648-4cbf-8d68-21e6e9acd053"
+  },
+  "id": "191eb505-cdb3-4b09-ae2b-30585713c0fd",
+  "name": "imbalance",
+  "namespace": "com.semanticops.method",
+  "version": 1
+}

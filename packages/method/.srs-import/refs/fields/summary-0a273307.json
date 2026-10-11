@@ -1,0 +1,18 @@
+{
+  "aiGuidance": {
+    "extraction": "One or two plain sentences drawn from the record's own content.",
+    "negativeGuidance": "Do not restate the title or add claims the source does not make.",
+    "purpose": "A short orientation for a reader who will not open the record: what this is and why it matters."
+  },
+  "createdAt": "2026-10-08T10:44:21.034106286+00:00",
+  "description": "One or two sentences saying who or what this is.",
+  "fieldType": {
+    "cardinality": "single",
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "0a273307-bfcf-4007-a4fc-dc6fe61e1e01",
+  "name": "summary",
+  "namespace": "com.semanticops.method",
+  "version": 1
+}

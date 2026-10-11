@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "source is the problem; target is the persona-in-domain that holds it",
+  "category": "association",
+  "createdAt": "2026-10-08T10:44:32.544031810+00:00",
+  "description": "Problem is held by a persona-in-domain. Endpoints: problem -> persona-in-domain. The problem's domain is derived through held-by then in-domain. Unwalked domains may still point at the shared persona (warning).",
+  "id": "ec88d284-c63c-41af-9331-893a587edb5a",
+  "key": "com.semanticops.method/held-by",
+  "label": "Held by",
+  "namespace": "com.semanticops.method",
+  "status": "active",
+  "version": 1
+}

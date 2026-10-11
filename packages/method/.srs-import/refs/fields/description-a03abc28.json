@@ -1,0 +1,18 @@
+{
+  "aiGuidance": {
+    "extraction": "One short paragraph naming the common thread.",
+    "negativeGuidance": "Do not list the member problems; they are linked by contains relations.",
+    "purpose": "Names the theme that binds a cluster's problems, so a reader can judge membership."
+  },
+  "createdAt": "2026-10-08T10:44:21.093394498+00:00",
+  "description": "What a cluster groups and why those problems belong together.",
+  "fieldType": {
+    "cardinality": "single",
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "a03abc28-2b14-4690-a498-f2c7cb697c5f",
+  "name": "description",
+  "namespace": "com.semanticops.method",
+  "version": 1
+}

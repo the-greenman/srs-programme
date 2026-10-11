@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "0ce0a248-062e-4685-bf6d-db14f4151944",
+  "relationType": "refines",
+  "sourceInstanceId": "ded0071c-d992-4453-a200-e094f160184b",
+  "targetInstanceId": "f15ba1ea-5e80-4952-95da-e83ed1c0e881",
+  "createdAt": "2026-10-11T18:28:49.292813425+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "instanceId": "ec15f08c-9cd6-4d3a-bc2a-a22a97bb02e4",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "A person working with AI in Evidence-backed writing",
+    "summary": "The writer as the director of agents: they must share their assumptions and boundaries so agents respond usefully and never take over the writing.",
+    "goals": [
+      "Agents respond where the writer is working and never write the text",
+      "Agent feedback stays readable and has a stopping point",
+      "Easy AI drafting does not pull the writer away from writing"
+    ],
+    "jobs": [
+      "Say which stance and role each agent plays",
+      "Scope what an agent may look at and respond to",
+      "Check an agent's response against intent",
+      "Keep an abandoned framing an agent cannot re-derive"
+    ],
+    "needs": "Agent roles declared once and read by every agent, feedback that does not outrun reading, and a clear line between the writer's words and agent responses."
+  },
+  "createdAt": "2026-10-11T18:28:40.234057784+00:00",
+  "updatedAt": "2026-10-11T18:28:40.234059176+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

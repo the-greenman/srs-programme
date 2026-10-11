@@ -1,0 +1,19 @@
+{
+  "aiGuidance": {
+    "extraction": "Compress the record's own subject; drop leading articles and verbs of intent. Distinct from sibling titles.",
+    "negativeGuidance": "Never a truncated statement, an id such as SP-12, or a generic phrase. Never overwrite a title a person set.",
+    "purpose": "The 3-8 word noun phrase a reader scans in a list to tell this record from its siblings."
+  },
+  "createdAt": "2026-10-08T10:44:20.972763554+00:00",
+  "description": "Short label naming a method record.",
+  "editorHint": "singleline",
+  "fieldType": {
+    "cardinality": "single",
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "7ccb4e5e-8e02-49d3-b51c-3bf3280616e0",
+  "name": "title",
+  "namespace": "com.semanticops.method",
+  "version": 1
+}

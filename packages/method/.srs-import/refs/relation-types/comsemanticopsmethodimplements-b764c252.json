@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "canonicalDirection": "source is the epic; target is the remedy it implements",
+  "category": "association",
+  "createdAt": "2026-10-08T10:44:32.728886029+00:00",
+  "description": "Epic implements remedy.",
+  "id": "b764c252-23c2-4096-abd2-d03c2df3b1bf",
+  "key": "com.semanticops.method/implements",
+  "label": "Implements",
+  "namespace": "com.semanticops.method",
+  "status": "active",
+  "version": 1
+}
