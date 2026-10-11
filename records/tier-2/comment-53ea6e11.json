@@ -1,0 +1,18 @@
+{
+  "instanceId": "53ea6e11-08ef-49d6-808e-3b9bb4fc4ef1",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "The actual decision here is that we are working to have a consistent way of working. Local work should follow the same patterns as everything else. We may find that this is unnecessary or irritating later, but initially we want to try to find a consistent model."
+  },
+  "createdAt": "2026-10-11T16:12:12.096919529+00:00",
+  "updatedAt": "2026-10-11T16:12:12.096924877+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

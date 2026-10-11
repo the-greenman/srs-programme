@@ -1,0 +1,18 @@
+{
+  "instanceId": "6c4f57be-0d14-4b36-a6d3-f9aa176f9bf5",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "This is a design decision that we will use for now, and review when we find that the pattern is not consistent with other decisions. Any first design desicion should be given a clear review."
+  },
+  "createdAt": "2026-10-11T16:12:11.490806642+00:00",
+  "updatedAt": "2026-10-11T16:12:11.490812829+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

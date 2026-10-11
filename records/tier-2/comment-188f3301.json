@@ -1,0 +1,18 @@
+{
+  "instanceId": "188f3301-2fc9-43d1-a61b-33f6e757f1a6",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "When we are recording tasks, we generally just need a resolution. But we also find that tasks need to know who will do them, and how they fit into a project. For a meeting a task allocation has a person and some kind of due date."
+  },
+  "createdAt": "2026-10-11T16:12:10.418076595+00:00",
+  "updatedAt": "2026-10-11T16:12:10.418084460+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,22 @@
+{
+  "instanceId": "d4c96839-099a-425b-ab60-ea7bd23e66c5",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-11 14:12 UTC: SemanticOps",
+    "held_at": "2026-10-11T14:12:57Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-11 14:12 UTC: SemanticOps\nAttendees: Owner\n- Ratified: No core changes until the process is refined [071eadb2]\n- Ratified: Measures I1 to I4 as indicator records and per-cycle measurement results [24d985d1]\n- Commented: Measures I1 to I4 as indicator records and per-cycle measurement results [24d985d1] (1)\n- Ratified: Charter: WG Agent-supported editor [384a704a]\n- Ratified: Driving work: terminal loop first, coordination ranked first, daily review and weekly session [3c8b94d1]\n- Commented: Driving work: terminal loop first, coordination ranked first, daily review and weekly session [3c8b94d1] (1)\n- Ratified: Two domains walked end to end: collaborative writing and agent memory [633d5a52]\n- Commented: Two domains walked end to end: collaborative writing and agent memory [633d5a52] (1)\n- Ratified: A group's session ratifies its builders' decisions, not the reviewer [70a05a5c]\n- Ratified: Stance agents are universal; their expression is per domain [7841bb87]\n- Commented: Stance agents are universal; their expression is per domain [7841bb87] (1)\n- Ratified: Build order for the two-domain walk; srs-rust#1377 proceeds [9a0ab387]\n- Commented: Build order for the two-domain walk; srs-rust#1377 proceeds [9a0ab387] (1)\n- Ratified: Objectives address clusters; cluster affirm kept; epics stay plain; walk and remedies [a5012fe0]\n- Ratified: Domain container: identity is the domain record, clusters as outline [a6280447]\n- Commented: Domain container: identity is the domain record, clusters as outline [a6280447] (1)\n- Ratified: Add an Analyst (scout) to WG Third-party ready to keep its queue fed [b447e8ea]\n- Ratified: Writing domain: one writer, evidence-backed, muDemocracy first [b97795ae]\n- Ratified: Persona-in-domain: a new method type linked to the domain by a package relation [bf8016da]\n- Ratified: Programme coordination: a domain for running the programmes, iterative by nature [da7877f3]\n- Commented: Programme coordination: a domain for running the programmes, iterative by nature [da7877f3] (1)\n- Ratified: Domains nest: Deep context holds the narrower domains, by perspective [dbaa4716]\n- Commented: Domains nest: Deep context holds the narrower domains, by perspective [dbaa4716] (1)\n- Ratified: Gate: an affirmed problem must be grounded in an affirmed domain [e3ed9e54]\n- Commented: Gate: an affirmed problem must be grounded in an affirmed domain [e3ed9e54] (1)\n- Ratified: Problem held-by points to persona-in-domain [e4a9b0ac]\n- Edited: Problem held-by points to persona-in-domain [e4a9b0ac] (review)\n- Commented: Problem held-by points to persona-in-domain [e4a9b0ac] (1)\n- Ratified: Deep context for action: outputs are projections, one system for the programme and the writer [f5b4656a]\n- Edited: Deep context for action: outputs are projections, one system for the programme and the writer [f5b4656a] (review)\n- Ratified: Local sessions act as working-group members [f799b6bc]\n- Commented: Local sessions act as working-group members [f799b6bc] (1)\n- Received: WG Agent-supported editor report 2026-10-11 (comment only)"
+  },
+  "createdAt": "2026-10-11T16:12:07.331634540+00:00",
+  "updatedAt": "2026-10-11T16:12:07.331636456+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
