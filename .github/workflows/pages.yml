@@ -17,6 +17,6 @@ concurrency:
 
 jobs:
   deploy:
-    uses: the-greenman/clerk/.github/workflows/programme-pages.yml@4172a194c0229bfa4a4f76091a7180a252ca5fa0
+    uses: the-greenman/clerk/.github/workflows/programme-pages.yml@906295f5e1e1f4d8f4ca4a97c6bd77f990376595
     with:
-      clerk-ref: 4172a194c0229bfa4a4f76091a7180a252ca5fa0
+      clerk-ref: 906295f5e1e1f4d8f4ca4a97c6bd77f990376595
