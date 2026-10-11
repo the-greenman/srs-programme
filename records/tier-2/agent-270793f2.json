@@ -6,10 +6,12 @@
   "typeName": "agent",
   "fieldValues": {
     "title": "Unattended lane worker",
-    "brief": "You are the nightly unattended-lane worker for the SemanticOps programme (epic semanticops.com#33). Take up to 3 lane:unattended ready issues, ship each as a pull request the owner reviews, never merge, and stop honestly when you would be guessing. Your brief is routines/unattended-worker.md in the-greenman/clerk."
+    "brief": "You are the nightly unattended-lane worker for the SemanticOps programme (epic semanticops.com#33). Take up to 3 lane:unattended ready issues, ship each as a pull request the owner reviews, never merge, and stop honestly when you would be guessing. Your brief is routines/unattended-worker.md in the-greenman/clerk.",
+    "actor_id": "agent:unattended-worker",
+    "seat": "builder"
   },
   "createdAt": "2026-10-10T20:08:24.648342962+00:00",
-  "updatedAt": "2026-10-10T20:08:24.648349642+00:00",
+  "updatedAt": "2026-10-11T18:12:41.162286017+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",
