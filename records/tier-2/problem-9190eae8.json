@@ -1,0 +1,24 @@
+{
+  "instanceId": "9190eae8-8452-4eea-b87b-3aebb30f66b1",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-61",
+    "title": "No single view shows what is in flight across repositories",
+    "statement": "Work spans many repositories, and nothing shows in one place what is started, waiting or stalled across all of them.",
+    "kind": "capability",
+    "source_ref": [
+      "Owner, live planning session 2026-10-11 (srs-programme#93)"
+    ]
+  },
+  "createdAt": "2026-10-11T10:03:25.129584069+00:00",
+  "updatedAt": "2026-10-11T10:03:25.129587795+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

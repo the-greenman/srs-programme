@@ -1,0 +1,24 @@
+{
+  "instanceId": "c4ca6a8b-f559-4656-8685-11bba92b62bf",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-65",
+    "title": "The same rule is restated in many places and drifts apart",
+    "statement": "A rule is written in several instruction files, briefs and notes, and the copies drift until they contradict each other.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, live planning session 2026-10-11 (srs-programme#93)"
+    ]
+  },
+  "createdAt": "2026-10-11T10:03:25.783290931+00:00",
+  "updatedAt": "2026-10-11T10:03:25.783292422+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
