@@ -1,0 +1,29 @@
+{
+  "instanceId": "f799b6bc-56ba-498f-a942-7a979790c39f",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Local sessions act as working-group members",
+    "decision_question": "How do local Claude Code sessions, which ship most of the work, relate to the working groups that are meant to manage roadmap work?",
+    "context": "Relayed from the owner's working session on 2026-10-11 (Claude Code conversation); awaiting the owner's ratification. A survey of the 430 PRs merged 2026-09-27 to 2026-10-11 found about 80% came from local interactive sessions, about 5% were pulled from the ready queue, and the one chartered group (WG Third-party ready) merged 0 PRs. The first working-group test (2026-10-10) was positive; the owner wants a clear, documented, tested process that manages work from the roadmap through the committees.",
+    "friction": "Committees govern almost none of the real work, so their reports, budgets and indicators describe a small side channel, and the roadmap cannot show what is being done or why.",
+    "alternatives_considered": "Sessions act as members under the same rules as routines (chosen). The owner's sessions sit above the groups, claiming and recording but needing no quorum. Only queued work is governed and interactive sessions stay outside the process.",
+    "decision_statement": "A local session works as a member of the working group that owns the epic. It claims its issue through the clerk as builder or reviewer, under the same rules as a routine: the issue names the problem it answers (Answers:) and sits under the epic, the PR carries the group's label, and a different member (agent or human) gives the quorum review before merge. Routines become extra capacity in the same groups.",
+    "rationale": "Authority comes from the role, not the kind of mind (handbook principle 4), so the same rules apply to humans and agents. Routing the main flow of work through the groups is the only way their reports, budgets and indicators describe the real work.",
+    "revisit_when": "After two cycles with sessions as members: did merge speed stay acceptable, did the share of grounded work (indicator I1) rise, and did quorum reviews find anything?",
+    "next_steps": "clerk claim command; group label and Answers check on PRs; charters read from records; end-to-end process test in the clerk; handbook stages 10 to 13 updated. Tracked under a clerk epic answering SP-31.",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T08:11:27.423457140+00:00",
+  "updatedAt": "2026-10-11T08:11:35.427984658+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
