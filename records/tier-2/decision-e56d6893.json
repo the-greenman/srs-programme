@@ -1,0 +1,27 @@
+{
+  "instanceId": "e56d6893-1e60-42e0-8b99-8f8a69ac8b68",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Decision framing rules apply as a convention first",
+    "decision_question": "How are the framing rules for decisions introduced?",
+    "context": "Relayed from the owner's walk of 2026-10-11 after session srs-programme#100; awaiting ratification.",
+    "decision_statement": "Decision records follow four framing rules: one thing per record, a timeless statement, a review condition that can be observed, and, for design decisions, a cited design principle or a named exception; the rules apply as a convention first, and the session recorder warns without blocking.",
+    "rationale": "Applies the standing preference Convention before enforcement: a rule that arrives already tried is cheaper than one enforced and wrong.",
+    "revisit_when": "After the warnings have run over several sessions: are they acted on? If they are, a later decision enforces the rules.",
+    "owner": "Peter Brownell",
+    "status": "active",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T16:41:49.719090305+00:00",
+  "updatedAt": "2026-10-11T16:42:27.976318816+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

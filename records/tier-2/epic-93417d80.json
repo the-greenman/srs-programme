@@ -1,0 +1,21 @@
+{
+  "instanceId": "93417d80-3d2d-4925-8ee4-8c93320c5c8f",
+  "typeId": "c2ec9c8a-b36b-4b19-940f-374b338e30a6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "epic",
+  "fieldValues": {
+    "title": "Work is never lost: ledger, gates, audit",
+    "issue_ref": [
+      "semanticops.com#33"
+    ]
+  },
+  "createdAt": "2026-10-11T16:42:57.320273732+00:00",
+  "updatedAt": "2026-10-11T16:42:57.320275369+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

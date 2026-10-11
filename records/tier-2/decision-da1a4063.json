@@ -1,0 +1,27 @@
+{
+  "instanceId": "da1a4063-9309-4d5b-897f-654a40157555",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Tasks live as issues",
+    "decision_question": "Where do tasks live?",
+    "context": "Relayed from the owner's walk of 2026-10-11 after session srs-programme#100; awaiting ratification.",
+    "decision_statement": "Tasks are recorded as issues carrying a resolution, an owner, a due date and a project; a task record type is added only when meeting minutes need to record a task allocation as data.",
+    "rationale": "Issues already carry what a task needs. Cites the principle One way over carrying the old one: no parallel task record until a case requires it.",
+    "revisit_when": "When a session or the decision logger needs to record a task allocation as data.",
+    "owner": "Peter Brownell",
+    "status": "active",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T16:41:49.635365287+00:00",
+  "updatedAt": "2026-10-11T16:42:27.902849873+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

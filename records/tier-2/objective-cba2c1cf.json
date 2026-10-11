@@ -1,0 +1,22 @@
+{
+  "instanceId": "cba2c1cf-4520-4626-b660-e16424bc93a0",
+  "typeId": "f6635d38-f2f6-4e2a-bcbe-8780d9ee4e0b",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "objective",
+  "fieldValues": {
+    "title": "Keep work moving to done",
+    "summary": "Work in flight across the repositories is finished, consistent and visible, and decisions do not pile up unratified. Enables every other objective, so it is ranked first (decision 3c8b94d1). Draft.",
+    "source_ref": [
+      "the-greenman/srs-programme#97"
+    ]
+  },
+  "createdAt": "2026-10-11T16:42:57.144471339+00:00",
+  "updatedAt": "2026-10-11T16:42:57.144472740+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

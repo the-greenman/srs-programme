@@ -1,0 +1,27 @@
+{
+  "instanceId": "5f2530ca-ccdc-40ec-b433-604c2f0df3d3",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Enablers rank before the work they enable",
+    "decision_question": "In what order do we rank objectives and work?",
+    "context": "Relayed from the owner's walk of 2026-10-11 after session srs-programme#100; awaiting ratification.",
+    "decision_statement": "Work that enables other work is ranked before the work it enables.",
+    "rationale": "Ordering is a rule; the ranked list it produces is a plan and is not recorded here.",
+    "revisit_when": "When a ranked list shows an enabler below the work that depends on it, or when ranking an enabler first delays visible work for a whole cycle.",
+    "owner": "Peter Brownell",
+    "status": "active",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T16:41:54.695284521+00:00",
+  "updatedAt": "2026-10-11T16:42:28.053703444+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

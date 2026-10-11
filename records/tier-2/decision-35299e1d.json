@@ -1,0 +1,27 @@
+{
+  "instanceId": "35299e1d-1d3a-44ea-a6a1-6302f106b056",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Id canonicalisation is written once in the clerk",
+    "decision_question": "Where does the id-canonicalisation function used by the grounding check live?",
+    "context": "Relayed from the owner's walk of 2026-10-11 after session srs-programme#100; awaiting ratification.",
+    "decision_statement": "The id-canonicalisation function is written once in the clerk and reused by every programme check; a copy of the srs-web function is a stated exception to Core service over adapter logic until it moves into core.",
+    "rationale": "Cites the principle Core service over adapter logic: shared logic belongs at the lowest shared layer. A JavaScript copy is an exception to it under the decision No core changes until the process is refined, and is named here so it is not forgotten.",
+    "revisit_when": "When the process has settled and the copy is ready to move into core, or when the two copies disagree on an id.",
+    "owner": "Peter Brownell",
+    "status": "active",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T16:42:12.517495190+00:00",
+  "updatedAt": "2026-10-11T16:42:28.487956307+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

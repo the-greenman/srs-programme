@@ -1,0 +1,20 @@
+{
+  "instanceId": "e5300417-f7f5-45d9-a45a-605db5f7b943",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Fixed arrangement",
+    "looks_like": "A fixed structure (a hierarchy, a list, a layout) is decided first and meaning is placed into it.",
+    "shadow": "Meaning is bent to fit a structure that was chosen before it was understood."
+  },
+  "createdAt": "2026-10-11T16:42:20.864828442+00:00",
+  "updatedAt": "2026-10-11T16:42:20.864831917+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

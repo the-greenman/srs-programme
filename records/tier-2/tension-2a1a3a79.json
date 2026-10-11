@@ -1,0 +1,19 @@
+{
+  "instanceId": "2a1a3a79-1c8b-434e-a0b1-49ae06a9007f",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Meaning and arrangement",
+    "description": "Whether a thing is first given its named meaning and arranged from that, or first placed in a fixed arrangement and given meaning there."
+  },
+  "createdAt": "2026-10-11T16:42:20.685483557+00:00",
+  "updatedAt": "2026-10-11T16:42:20.685485013+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
