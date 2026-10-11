@@ -1,0 +1,25 @@
+{
+  "instanceId": "a8aabd01-5f21-47dc-96d1-c8f7b082035d",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A problem may have no cluster, or a cluster of its own",
+    "decision_question": "Must every problem sit in a cluster?",
+    "context": "Relayed from the owner on 2026-10-11, after the Writing domain container left five suggested problems unclustered (srs-programme#105); awaiting ratification.",
+    "decision_statement": "A problem may sit in a domain with no cluster. Where a cluster is required, a cluster holding a single problem is valid. Clusters are provisional groupings: problems move between them as understanding of the domain changes.",
+    "rationale": "Early in a domain we are not aware of all its parts; forcing a grouping before it is understood fixes a premature arrangement. Clusters are named meaning that evolves (affirm meaning over arrangement).",
+    "revisit_when": "When the share of unclustered problems in a walked domain stays high across several synthesiser runs, or an objective cannot address work because its problems are unclustered.",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T18:36:32.541107604+00:00",
+  "updatedAt": "2026-10-11T18:36:32.636929154+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

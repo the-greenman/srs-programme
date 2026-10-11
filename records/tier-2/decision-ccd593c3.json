@@ -1,0 +1,25 @@
+{
+  "instanceId": "ccd593c3-8038-4150-882d-904c801141a3",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Working on a group's work means joining that group",
+    "decision_question": "How does someone outside a working group help with its work?",
+    "context": "Relayed from the owner on 2026-10-11, while unblocking general-lane work that no working group could claim (clerk#46, clerk#47); awaiting ratification.",
+    "decision_statement": "Anyone may join a working group to accelerate its work, and while doing so works within that group's jurisdiction and practices. A delegated group's authority is never overridden.",
+    "rationale": "Delegation means little if a faster actor can bypass it; joining keeps one consistent way of working.",
+    "revisit_when": "When joining a group to accelerate it is routinely slower than the group's own members, or a group's practices block urgent work.",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T18:36:50.525607835+00:00",
+  "updatedAt": "2026-10-11T18:36:50.613011725+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
