@@ -1,0 +1,21 @@
+{
+  "instanceId": "190d27ae-8c31-4ff4-9191-594932a40ab8",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Deep context",
+    "purpose": "Hold meaning and provenance over time, so that any action can be understood within the whole picture: what it serves, where each piece came from, and who decided what.",
+    "in_scope": "Keeping meaning, origin and decisions in structured records across time, people, agents and tools. The narrower domains nested within it, for now Agent memory (holding agent context across sessions), Semantic records and Group meaning ownership.",
+    "out_of_scope": "What any one repository's records say. Any one tool's interface. Which domains are nested is a matter of perspective and may change; it is not a fixed hierarchy."
+  },
+  "createdAt": "2026-10-11T10:13:22.197232254+00:00",
+  "updatedAt": "2026-10-11T10:13:22.197233695+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
