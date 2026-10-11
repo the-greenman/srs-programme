@@ -1,0 +1,28 @@
+{
+  "instanceId": "e3ed9e54-2f60-463f-811a-e9539819eb1d",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Gate: an affirmed problem must be grounded in an affirmed domain",
+    "decision_question": "What must an affirmed problem satisfy, and how strict is the check?",
+    "context": "Relayed from the owner's local planning session on 2026-10-11 (clerk#32), walked one decision at a time; awaiting the owner's ratification in a clerk session.",
+    "alternatives_considered": "Severity: (a) warn now, then error for problems affirmed on or after the gate's merge date (the BOUNDARY_RULES_FROM pattern); (b) warn everywhere until both domains are walked, then error everywhere; (c) error now, which fails all 47 affirmed problems. Shared persona: required to be affirmed, or not required now.",
+    "decision_statement": "Clerk check-method requires an affirmed problem to be held-by at least one affirmed persona-in-domain whose in-domain edge (exactly one) reaches an affirmed domain record. Ends resolve via derived-from using JS canon(), a duplicate of srs-web canon that moves to core when the process settles. Severity (b): warn everywhere until both domains are walked, then error everywhere. The shared persona need not be affirmed. Open item: before the flip the other 27 affirmed problems (the other 3 domains) must be grounded or set aside, or the flip is scoped.",
+    "rationale": "Warning first lets the walk finish without blocking the other domains.",
+    "revisit_when": "When personas weight priority (the shared persona may then need to be affirmed); and before the flip to error.",
+    "next_steps": "See clerk plans/two-domains-end-to-end.md (clerk#32).",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T08:51:14.710924526+00:00",
+  "updatedAt": "2026-10-11T08:52:37.670158063+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

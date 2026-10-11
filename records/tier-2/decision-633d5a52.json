@@ -1,0 +1,27 @@
+{
+  "instanceId": "633d5a52-a04e-4327-9087-ae17c1929c2c",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Two domains walked end to end: collaborative writing and agent memory",
+    "decision_question": "Which two domains do we walk end to end first?",
+    "context": "Relayed from the owner's local planning session on 2026-10-11 (clerk#32), walked one decision at a time; awaiting the owner's ratification in a clerk session.",
+    "alternatives_considered": "Option A: Collaborative writing (b7cf0ead) and Agent memory (2d20b9a6). Other pairings from the four domains were considered but not chosen.",
+    "decision_statement": "Walk Collaborative writing (b7cf0ead) and Agent memory (2d20b9a6) first. Leanings confirmed, not reopened: a domain is a container whose identity is the domain record; a problem in several domains is a member of several containers; clusters are outline entries (depth 0 clusters, depth 1 problems) replacing the domain contains cluster edges; we affirm meaning, not arrangement; one domain container holds both layers and readers resolve through derived-from (canon()).",
+    "rationale": "These two domains give the clearest test of the method end to end, and the leanings keep one way per goal.",
+    "next_steps": "See clerk plans/two-domains-end-to-end.md (clerk#32).",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T08:51:08.751928376+00:00",
+  "updatedAt": "2026-10-11T08:51:29.280458704+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

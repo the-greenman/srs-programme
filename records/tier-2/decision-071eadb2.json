@@ -1,0 +1,28 @@
+{
+  "instanceId": "071eadb2-fd98-4bc7-b809-fa68b1866ffe",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "No core changes until the process is refined",
+    "decision_question": "May this work change srs-rust or the spec while the process is still being refined?",
+    "context": "Relayed from the owner's local planning session on 2026-10-11 (clerk#32), walked one decision at a time; awaiting the owner's ratification in a clerk session.",
+    "alternatives_considered": "Allow core changes where they help; or hold core still and extend through package relations.",
+    "decision_statement": "Standing rule: no core (srs-rust or spec) changes until the process is refined. Extend through package relations. check-method is clerk general method and governance code, not core.",
+    "rationale": "The process is still moving. Changing core first would fix the wrong shape in place.",
+    "revisit_when": "When the process has settled and a duplicate such as canon() is ready to move into core.",
+    "next_steps": "See clerk plans/two-domains-end-to-end.md (clerk#32).",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T08:51:14.539994484+00:00",
+  "updatedAt": "2026-10-11T08:51:29.502615933+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
