@@ -30,7 +30,7 @@ The `com.semanticops.method` package (problems, clusters, personas, remedies; ow
 - **Affirmed** is the human layer and has priority. A human adopts a suggestion with
   `record fork` (global `--container <Affirmed id>`): a new record, `derived-from` the suggestion,
   `createdBy` the human; the agent's original stays as testimony. Agents never write into Affirmed.
-- Consumers (`roadmap.mjs` derivation and `--explain`, any Direction page) read **Affirmed only**.
+- Consumers (`roadmap.mjs` derivation and `--explain`, any Direction page) read **Affirmed only** for priority and ranking (problems, remedies); `roadmap.mjs` also reads clusters and personas from Suggestions as grouping labels, marked "suggested", with no priority weight.
 - Dialogue between a human and an agent about a problem definition happens in comments.
 - **Set aside** is the owner's reversible no: moving a suggestion there declines it; Restore moves it back. Agents never write into Affirmed or Set aside.
 - Both containers have several writers: `container members add/remove`, never `container update`.
