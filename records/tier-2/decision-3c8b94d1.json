@@ -1,0 +1,26 @@
+{
+  "instanceId": "3c8b94d1-56fb-42b2-8ced-88eb6c76c83c",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Driving work: terminal loop first, coordination ranked first, daily review and weekly session",
+    "decision_question": "How does the owner start driving work across the repositories, and what comes first?",
+    "context": "Relayed from the owner's local planning session on 2026-10-11 (plan: driving work, the tools and the loop; srs-programme#97, clerk#38, clerk#39); awaiting the owner's ratification in a clerk session.",
+    "alternatives_considered": "Surface: the srs-web editor first. Objective: rank 3, or no objective until the problems are synthesised. Cadence: weekly only, or on demand.",
+    "decision_statement": "Drive the work from the terminal clerk session first, using what exists (the clerk agenda, /session, roadmap, queue and claim). The srs-web owner slices (#548, #562, #544, #560) replace it piece by piece. A Programme coordination objective, Keep work moving to done, is ranked 1 in Focus 1, because it enables everything else; writing moves to rank 2 and memory to rank 3. The owner runs a daily review of about ten minutes and a weekly session to ratify, affirm, rank and read the indicators. New tools: a stalled-work section in the daily agenda and a synthesiser standing job.",
+    "next_steps": "srs-programme#97 (objective), clerk#38 (stalled work), clerk#39 (synthesiser), clerk#35, clerk#25.",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T10:37:59.432124856+00:00",
+  "updatedAt": "2026-10-11T10:37:59.521605144+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
