@@ -1,0 +1,24 @@
+{
+  "instanceId": "384a704a-f72a-4234-ab23-fe0186b74bb4",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Charter: WG Agent-supported editor",
+    "decision_question": "Does the owner delegate the WG Agent-supported editor mandate on the terms in the group role and its four standing orders?",
+    "decision_statement": "Ratify: the group role and its standing orders (membership and quorum, cycle and report, budget, reporting and minutes) are the mandate of the WG Agent-supported editor working group (semanticops.com#29). Ratifying also asserts the delegates relation from the Owner role. Amendments need a new owner decision.",
+    "rationale": "semanticops.com#29; drafted by the clerk charter command as the acting actor, for an owner session to ratify.",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T08:30:29.338121919+00:00",
+  "updatedAt": "2026-10-11T08:30:29.422293855+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (drafting a charter for owner ratification)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,19 @@
+{
+  "instanceId": "e509eb61-17fe-4ee1-b6be-8e46dead24a2",
+  "typeId": "5a061505-dd0e-4c8d-9e20-fa28a3c42b68",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision_log",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: decisions"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-11T08:30:28.339185408+00:00",
+  "updatedAt": "2026-10-11T08:30:28.339192223+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (drafting a charter for owner ratification)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

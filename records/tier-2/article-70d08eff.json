@@ -1,0 +1,24 @@
+{
+  "instanceId": "70d08eff-0de6-433c-a823-897cd5c5d958",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "title": "Reporting and minutes",
+    "article_text": "The group keeps its minutes in its decision log (container WG Agent-supported editor). A task gets no decision record; close an issue only with a merged PR. A within-mandate decision that closes options is created proposed by the builder, then ratified in a group session by the reviewer under its own actor. Every escalation is a proposed decision created by the steward, opening with the problem statement; only the owner moves it to ratified. The steward is the only member who opens escalations.",
+    "rationale": "Minutes are the audit trail for a mandate that rests on testimony, since one GitHub identity does every merge.",
+    "amendment_rule": "Owner only: an amendment needs a new owner-ratified decision.",
+    "protected_status": "Agent testimony until the owner ratifies the charter decision.",
+    "status": "proposed"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-11T08:30:28.892400047+00:00",
+  "updatedAt": "2026-10-11T08:30:28.892403570+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (drafting a charter for owner ratification)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

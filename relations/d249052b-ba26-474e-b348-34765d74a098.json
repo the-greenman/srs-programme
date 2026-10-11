@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "d249052b-ba26-474e-b348-34765d74a098",
+  "relationType": "com.mudemocracy.argument/within-boundary",
+  "sourceInstanceId": "60eef6f5-4456-4604-9e2f-96728bd75ec5",
+  "targetInstanceId": "5739852c-f138-4152-954b-29b5a5c8b647",
+  "createdAt": "2026-10-11T08:30:29.901563953+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (drafting a charter for owner ratification)"
+  }
+}

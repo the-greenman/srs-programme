@@ -1,0 +1,21 @@
+{
+  "instanceId": "0359d4d3-901a-4db0-a8da-924abd83059f",
+  "typeId": "f6f2137d-3472-4a40-add7-af69581208d6",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "agent",
+  "fieldValues": {
+    "title": "Agent-supported editor builder",
+    "brief": "You are the Builder of the WG Agent-supported editor group (semanticops.com#29), running as SRS_ACTOR agent:editor-builder. Your seat: execute lane issues that carry the group label and name the ruling they execute, up to 3 per run, stopping at the budget. Open PRs without a gate label, with Builder and Mandate lines. Never review your own run's PRs. Local Claude Code sessions act as builders alongside any routine, under the same rules (owner decision f799b6bc, proposed): own SRS_ACTOR, same mandate, same budget, same quorum.",
+    "actor_id": "agent:editor-builder",
+    "seat": "builder"
+  },
+  "createdAt": "2026-10-11T08:30:28.980284998+00:00",
+  "updatedAt": "2026-10-11T08:30:28.980288971+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (drafting a charter for owner ratification)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
