@@ -5,7 +5,7 @@
   "typeNamespace": "com.semanticops.method",
   "typeName": "problem",
   "fieldValues": {
-    "problem_id": "SP-67",
+    "problem_id": "SP-69",
     "title": "A ruling's context is not recorded",
     "statement": "A decision does not say which group, domain or repository it was made for. Six decisions sit in both a group log and the central log, four sit in no log, and a governance record has no scope field, so a ruling made as a working choice for the spec can be read and cited as precedent in another repository or domain.",
     "kind": "condition",
@@ -15,7 +15,7 @@
     ]
   },
   "createdAt": "2026-10-12T17:33:39.207602246+00:00",
-  "updatedAt": "2026-10-12T17:33:39.207604028+00:00",
+  "updatedAt": "2026-10-12T17:34:49.551263406+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:method-scout",

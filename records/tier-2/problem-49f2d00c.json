@@ -5,7 +5,7 @@
   "typeNamespace": "com.semanticops.method",
   "typeName": "problem",
   "fieldValues": {
-    "problem_id": "SP-70",
+    "problem_id": "SP-72",
     "title": "A group has no affirmed compass of its own",
     "statement": "A working group's compass is a copy of a boundary and tensions that are all still unaffirmed suggestions, so there is no affirmed chain for a decision to rest on. Neither the group nor an agent can tell whether a choice is covered by precedent or goes against a policy, and the owner is asked either way.",
     "kind": "condition",
@@ -15,7 +15,7 @@
     ]
   },
   "createdAt": "2026-10-12T17:33:39.982139237+00:00",
-  "updatedAt": "2026-10-12T17:33:39.982143088+00:00",
+  "updatedAt": "2026-10-12T17:34:49.816704693+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:method-scout",
