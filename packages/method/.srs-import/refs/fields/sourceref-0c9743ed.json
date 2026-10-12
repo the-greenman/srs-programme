@@ -1,0 +1,19 @@
+{
+  "aiGuidance": {
+    "extraction": "One entry per source: repo-relative path with its repo, or an issue in repo#number form.",
+    "negativeGuidance": "Do not paste the source's text here.",
+    "purpose": "Points a record back to the plan, file, issue or conversation that states it, so the record is an index not a second copy. Defined in the method package so it stays self-contained."
+  },
+  "createdAt": "2026-10-08T10:44:21.641791065+00:00",
+  "description": "Where this record's wording or evidence comes from.",
+  "editorHint": "singleline",
+  "fieldType": {
+    "cardinality": "list",
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "0c9743ed-1d05-4b07-86c9-9bd89e0d60d1",
+  "name": "source_ref",
+  "namespace": "com.semanticops.method",
+  "version": 1
+}

@@ -1,0 +1,19 @@
+{
+  "aiGuidance": {
+    "extraction": "One line, role only.",
+    "negativeGuidance": "No private content, no run rules.",
+    "purpose": "The agent's role in one line."
+  },
+  "createdAt": "2026-10-08T11:04:37.433Z",
+  "description": "One-line description of an agent's job.",
+  "editorHint": "textarea",
+  "fieldType": {
+    "cardinality": "single",
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "274fc803-3c56-432b-b061-bf24e93fca8c",
+  "name": "brief",
+  "namespace": "com.semanticops.method",
+  "version": 1
+}

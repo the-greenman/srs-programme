@@ -1,0 +1,25 @@
+{
+  "instanceId": "9a45c0a1-5297-483f-b0c1-548015cf080c",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A working group needs a domain and standing orders",
+    "decision_question": "When may a working group be chartered?",
+    "context": "Relayed from the owner on 2026-10-11, while unblocking general-lane work that no working group could claim (clerk#46, clerk#47); awaiting ratification.",
+    "decision_statement": "A working group is chartered only when there is a known domain, a problem set and claims to work from, and it is given standing orders.",
+    "rationale": "A group with no domain has no boundary to its mandate, and a group with no standing orders has no practice to join.",
+    "revisit_when": "When a chartered group's domain or problem set proves too vague to settle what is inside its mandate.",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-11T18:36:50.685437311+00:00",
+  "updatedAt": "2026-10-11T18:36:50.773559888+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

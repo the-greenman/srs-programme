@@ -1,0 +1,19 @@
+{
+  "aiGuidance": {
+    "extraction": "Start with the condition ('Unless ...' reading), verbatim from the ratifying source where one exists.",
+    "negativeGuidance": "If no source has ratified a boundary, write exactly 'None ratified yet: to be stated' and let a human fill it; never invent one.",
+    "purpose": "Public word: unless. Names when the opposite side wins over the principle's default. Required: a default without it is the bare 'A over B' slogan, not a principle."
+  },
+  "createdAt": "2026-10-08T11:04:37.066Z",
+  "description": "The condition under which the other side governs instead.",
+  "editorHint": "textarea",
+  "fieldType": {
+    "cardinality": "single",
+    "datatype": "string",
+    "format": "markdown"
+  },
+  "id": "b681e85e-567c-4309-8b46-16b1dba8cd93",
+  "name": "boundary_clause",
+  "namespace": "com.semanticops.method",
+  "version": 1
+}
