@@ -13,9 +13,9 @@
     "revisit_when": "When the share of unclustered problems in a walked domain stays high across several synthesiser runs, or an objective cannot address work because its problems are unclustered.",
     "decision_kind": "design"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-11T18:36:32.541107604+00:00",
-  "updatedAt": "2026-10-11T18:36:32.636929154+00:00",
+  "updatedAt": "2026-10-12T16:58:06.403112332+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",
