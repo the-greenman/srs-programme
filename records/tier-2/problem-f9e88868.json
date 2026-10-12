@@ -1,0 +1,25 @@
+{
+  "instanceId": "f9e88868-5e4f-49e9-ab1e-2c9ddf99e334",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-68",
+    "title": "Cited mandates are never checked",
+    "statement": "A builder or reviewer cites the ruling it acts under (mandate= in a quorum comment, Mandate: in a PR body), but nothing resolves the citation against the group's own log or boundary chain, so any group can cite any ruling and nobody can tell whether it applies to the work.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-12: decision clarity brief",
+      "clerk:scripts/pr-upkeep.sh:65-80"
+    ]
+  },
+  "createdAt": "2026-10-12T17:33:39.403881512+00:00",
+  "updatedAt": "2026-10-12T17:33:39.403883071+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

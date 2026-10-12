@@ -1,0 +1,25 @@
+{
+  "instanceId": "e2a232fd-9534-4fa3-8e46-b807af911cd0",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-67",
+    "title": "A ruling's context is not recorded",
+    "statement": "A decision does not say which group, domain or repository it was made for. Six decisions sit in both a group log and the central log, four sit in no log, and a governance record has no scope field, so a ruling made as a working choice for the spec can be read and cited as precedent in another repository or domain.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-12: decision clarity brief",
+      "srs-programme:records governance/decision (no scope field)"
+    ]
+  },
+  "createdAt": "2026-10-12T17:33:39.207602246+00:00",
+  "updatedAt": "2026-10-12T17:33:39.207604028+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:method-scout",
+    "name": "Method scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
