@@ -13,9 +13,9 @@
     "revisit_when": "When a second domain's body, such as muDemocracy, has its own queue and the boundary between the two must be drawn.",
     "decision_kind": "mandate"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-11T18:36:50.194303172+00:00",
-  "updatedAt": "2026-10-11T18:36:50.282419886+00:00",
+  "updatedAt": "2026-10-12T16:58:04.469362028+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",
