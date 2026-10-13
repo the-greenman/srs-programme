@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "aa865911-8704-4108-a7f9-9ee0ed3c2cb6",
+  "relationType": "refines",
+  "sourceInstanceId": "162fbaf0-579c-491d-b9ea-2480a158e8c4",
+  "targetInstanceId": "af81a9fa-abcd-4229-a14a-26a80155220a",
+  "createdAt": "2026-10-13T00:03:29.799107109+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:unattended-worker",
+    "name": "Unattended lane worker"
+  }
+}
