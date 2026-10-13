@@ -1,0 +1,32 @@
+{
+  "instanceId": "0d0aa208-07f7-47b7-b9ea-9e1b69a3807d",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "AI agent in Agent memory",
+    "summary": "An agent that starts every session from scratch and relies on recalling the few records that matter, with where each came from, to continue earlier work.",
+    "goals": [
+      "Recall only the records the task needs",
+      "Know where every recalled record came from",
+      "Pick up where an earlier session or agent left off"
+    ],
+    "jobs": [
+      "Recall the few records relevant to the task",
+      "Check where a claim came from",
+      "Know which build and environment it is acting through",
+      "Write records without breaking contracts or overwriting another writer",
+      "Hand work over to a human or another agent"
+    ],
+    "needs": "Fast scoped recall that answers plain questions, provenance on everything, honest errors, and write tools that enforce type and relation contracts."
+  },
+  "createdAt": "2026-10-13T00:03:21.111294829+00:00",
+  "updatedAt": "2026-10-13T00:03:21.111303488+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:unattended-worker",
+    "name": "Unattended lane worker"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

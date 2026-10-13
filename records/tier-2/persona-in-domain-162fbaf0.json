@@ -1,0 +1,31 @@
+{
+  "instanceId": "162fbaf0-579c-491d-b9ea-2480a158e8c4",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "A person working with AI in Agent memory",
+    "summary": "Someone directing agents that forget between sessions: they must hand over the context that matters and trust that agents recall it with its source.",
+    "goals": [
+      "State assumptions once and have every agent read them",
+      "See where an agent got what it claims",
+      "Keep decisions an agent cannot re-derive"
+    ],
+    "jobs": [
+      "Hand over the context that matters",
+      "Replace re-reading sources with a brief an agent can trust",
+      "Check an agent's recall against its provenance",
+      "Keep decisions an agent cannot re-derive"
+    ],
+    "needs": "A way to state assumptions once that every agent recalls with provenance, and briefs that stand in for the source."
+  },
+  "createdAt": "2026-10-13T00:03:21.350132767+00:00",
+  "updatedAt": "2026-10-13T00:03:21.350140281+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:unattended-worker",
+    "name": "Unattended lane worker"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
