@@ -1,0 +1,26 @@
+{
+  "instanceId": "856afe73-5aa8-43e6-9dd6-7189121521d9",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Every claim shows what in the research base backs it or contradicts it",
+    "move": "Each claim in a text carries a visible evidence line built from links to claims, problems and quotes in the research base: backed, contradicted, or unlinked. Outside material, such as a news article being answered or a conversation transcript, is brought in as a source whose passages become quotable records the writer can cite. The writer sees the gaps and decides what to do about them; agents propose links, the writer accepts them.",
+    "does_not_fix": "Keeping abandoned framings as attempts to review later (SP-56), and whether the evidence base itself is sound. How a stance chooses to attack or support a claim, which is the stance remedy.",
+    "falsifier": "A writer asked, for any claim in a finished piece, what backs it and what contradicts it cannot answer from the evidence line without searching the research base by hand, or a source brought in cannot have a passage quoted from it.",
+    "source_ref": [
+      "srs-programme:records/tier-2/domain-b7cf0ead.json",
+      "semanticops.com#29"
+    ],
+    "return_when": "When one real piece, answering a news article, has been written with evidence lines and the owner has said whether every claim could be checked."
+  },
+  "createdAt": "2026-10-14T00:03:00.562694623+00:00",
+  "updatedAt": "2026-10-14T00:03:00.562698947+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:unattended-worker",
+    "name": "Unattended lane worker"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

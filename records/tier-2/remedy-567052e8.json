@@ -1,0 +1,26 @@
+{
+  "instanceId": "567052e8-b7bf-4c80-8b48-1e850324cf58",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Each agent answers in a declared stance, and only responds",
+    "move": "Every agent on a text is given a named stance the writer can see: red team (attacks a claim), blue team (finds evidence for it), summariser, or checker. Each response is labelled with its stance and carries no draft text, only links to claims, problems and quotes in the evidence base. The stances live as shared records the writer chooses from, replacing per-session prompts, so differences between agents read as design, not noise, and the writer can ask for the one they want.",
+    "does_not_fix": "Whether some writers will want an agent to draft or rewrite (SP-15 is an owner scope question, and this remedy takes the domain rule that agents never write the text as given). Pacing and stopping of agent replies, which is the next remedy.",
+    "falsifier": "A writer given the same paragraph reviewed by a red and a blue agent cannot say which stance each response came from, or an agent response in a declared stance still hands the writer replacement prose.",
+    "source_ref": [
+      "srs-programme:records/tier-2/domain-b7cf0ead.json",
+      "semanticops.com#29"
+    ],
+    "return_when": "When two stances (red and blue) run on a real piece against the muSrs research base and the owner has said which responses they could tell apart."
+  },
+  "createdAt": "2026-10-14T00:02:37.241549042+00:00",
+  "updatedAt": "2026-10-14T00:02:37.241554862+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:unattended-worker",
+    "name": "Unattended lane worker"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
