@@ -1,6 +1,6 @@
 name: Validate
 
-# Thin caller. The gate lives in the clerk. Bump a733ff161aa2bd161fbee4988d5a871339e4753c in every programme workflow together
+# Thin caller. The gate lives in the clerk. Bump 0d71f66cec6a72b8a8a8167ce26a2e39b2f4bfb6 in every programme workflow together
 # (it appears twice per file: in uses: and in clerk-ref).
 on:
   push:
@@ -18,6 +18,6 @@ env:
 
 jobs:
   validate:
-    uses: the-greenman/clerk/.github/workflows/programme-validate.yml@a733ff161aa2bd161fbee4988d5a871339e4753c
+    uses: the-greenman/clerk/.github/workflows/programme-validate.yml@0d71f66cec6a72b8a8a8167ce26a2e39b2f4bfb6
     with:
-      clerk-ref: a733ff161aa2bd161fbee4988d5a871339e4753c
+      clerk-ref: 0d71f66cec6a72b8a8a8167ce26a2e39b2f4bfb6
