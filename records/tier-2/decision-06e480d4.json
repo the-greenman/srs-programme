@@ -1,0 +1,25 @@
+{
+  "instanceId": "06e480d4-eb59-4580-9992-01b436bfaa71",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Every kind of meeting is one session record with a kind",
+    "decision_question": "How are the different kinds of meeting recorded?",
+    "context": "Relayed from the owner on 2026-10-15, in a clerked session; proposed in clerk#57 (plans/wg-srs-operations.md). The owner instructed: record and hold.",
+    "decision_statement": "Every kind of meeting is recorded as one session record with a kind.",
+    "rationale": "One way per goal: one session record and one clerk, never a tool per meeting.",
+    "revisit_when": "When a kind of meeting needs a field the session record cannot hold.",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-15T11:39:55.649319088+00:00",
+  "updatedAt": "2026-10-15T11:39:55.734438427+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
