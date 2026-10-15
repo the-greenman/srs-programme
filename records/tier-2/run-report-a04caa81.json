@@ -1,0 +1,23 @@
+{
+  "instanceId": "a04caa81-3917-4a66-88b7-7d02fb857be3",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Third-party ready: cycle close 2026-10-11",
+    "run_date": "2026-10-11",
+    "chose": "WG Third-party ready: cycle 2026-10-10 11:30 to 2026-10-11 11:30 UTC\n\n1. Decisions for you: None. No run stopped outside the mandate or budget this cycle.\n\n2. Decided within mandate: nothing. The group merged no PRs this cycle, so no decision was ready for the group session and none was ratified. No owner rulings were relayed into the group log this cycle beyond those in the previous report.\n\n3. Done: 0 group PRs merged (no quorum lines to show), no tasks closed.\n\n4. Stuck or lost: srs-vscode#135 (stop sending and reading rootInstanceIds, #134) is still open, `gate:owner-merge`, waiting on you to merge or decline. Its red payload gates are the known mirror drift (srs-vscode#133, itself ready and unclaimed). No needs-input issues, no red gates reported by runs, no claims to release.\n\n5. Budget: 0 of 10 delegated merges this cycle; 1 open. Pause state: running (the 2026-10-10 report carries your 👍).\n5b. Awaiting ratification: \"Add an Analyst (scout) to WG Third-party ready to keep its queue fed\" (record b447e8ea), proposed 2026-10-10 13:40 UTC by the orchestrator, about 21 hours old. Session to ratify: `clerk session --as owner --repo <srs-programme> --ratify all` (the-greenman/clerk; the TUI is `clerk --as owner`).\n\n6. Next: the queue is fed. Open issues labelled `ready` + `wg:third-party-ready`: 7 in srs-rust, 2 in srs-vscode, 0 in srs, 0 in srs-web (9 in all). Top 3 in the Builder's order (no local priorities set; all are priority P2, oldest first): srs-rust#559 (enforce canonicalDirection/inverseType), srs-rust#566 (RFC-022 Rev 4 enforcement: hard|advisory), srs-rust#700 (advisory tier for I-82). Group PRs in flight: srs-vscode#135 (owner-merge). Budget left: 10. Queue fed for about 1 cycle at the full budget, though in practice the Builder has taken about one item a cycle; no feeding needed yet. Waiting on you: srs-vscode#135, and the Analyst proposal. Fed by the analyst: not needed (the Analyst is not yet ratified).\n\n6b. Exercises: none open.\n\n7. What we learned: a quiet cycle is still a cycle: with the builder idle and one owner-merge PR waiting, the group produced no decisions, so the mandate's budget is not the limit, review attention is. Build trigger: ratified decisions across both logs are below 10, so srs-web#560 stays parked.\n",
+    "rationale": "No escalations were raised: nothing stopped outside the boundary or budget. srs-vscode#135 waits on a normal owner merge; the Analyst proposal waits on ratification.",
+    "figures": "merged by group 0/10; open 1; ready queue 9; ratified decisions across both logs: below 10; paused: no",
+    "landed_as": "pending"
+  },
+  "createdAt": "2026-10-11T11:42:10.964429350+00:00",
+  "updatedAt": "2026-10-11T11:42:10.964437210+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
