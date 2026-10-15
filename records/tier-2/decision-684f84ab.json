@@ -13,9 +13,9 @@
     "revisit_when": "When proposals regularly wait longer than two sessions without being taken up.",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-15T11:42:22.065848499+00:00",
-  "updatedAt": "2026-10-15T11:42:22.170699359+00:00",
+  "updatedAt": "2026-10-15T11:43:17.095329542+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",
