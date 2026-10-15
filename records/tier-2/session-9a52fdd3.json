@@ -1,0 +1,22 @@
+{
+  "instanceId": "9a52fdd3-0ae4-4127-bb45-7af3b59faf7f",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-15 11:43 UTC: SemanticOps",
+    "held_at": "2026-10-15T11:43:15Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-15 11:43 UTC: SemanticOps\nAttendees: Owner\n- Ratified: A decision that cannot be made now is recorded at once as a proposal [684f84ab]\n- Ratified: The decision log holds only choices that govern later choices [a5c769be]\n- Considered: A meeting's kind sets its agenda [bd852068]\n- Considered: Every kind of meeting is one session record with a kind [06e480d4]\nClerked by: Claude Code, on the owner's live instruction in a /session conversation"
+  },
+  "createdAt": "2026-10-15T11:43:16.832730038+00:00",
+  "updatedAt": "2026-10-15T11:43:16.832731554+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
