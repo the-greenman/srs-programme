@@ -1,0 +1,23 @@
+{
+  "instanceId": "44a0205a-3671-4b6c-ba25-9f9c88813e7e",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Third-party ready: cycle close 2026-10-14",
+    "run_date": "2026-10-14",
+    "chose": "WG Third-party ready: cycle 2026-10-13 11:30 to 2026-10-14 11:30 UTC\n\n1. Decisions for you: None. No run stopped outside the mandate or budget this cycle.\n\n2. Decided within mandate: nothing. The group merged no PRs this cycle, so no decision was ready for the group session and none was ratified. No owner rulings were made on the group's escalations this cycle.\n\n3. Done: 0 group PRs merged (no quorum lines to show), no tasks closed.\n\n4. Stuck or lost: srs-vscode#135 (stop sending and reading rootInstanceIds, #134) is still open, `gate:owner-merge`, waiting on you to merge or decline; its payload gates are red from the known mirror drift (srs-vscode#133, ready and unclaimed). The three earlier steward report PRs, srs-programme#99 (2026-10-11), #115 (2026-10-12) and #119 (2026-10-13), are still open, so those run-reports are not yet in the group log; the steward does not merge or update them. No needs-input issues on the group's work, no red gates reported by runs, no claims to release.\n\n5. Budget: 0 of 10 delegated merges this cycle; 1 open. Pause state: running (the 2026-10-10, 2026-10-11 and 2026-10-12 reports carry your 👍; the 2026-10-13 report is under a day old).\n5b. Awaiting ratification: none.\n\n6. Next: the queue is fed. Open issues labelled `ready` + `wg:third-party-ready`: 7 in srs-rust, 2 in srs-vscode, 0 in srs, 0 in srs-web (9 in all). Top 3 in the Builder's order (no local priorities set; all P2, oldest first): srs-rust#559 (enforce canonicalDirection/inverseType), srs-rust#566 (RFC-022 Rev 4 enforcement: hard|advisory), srs-rust#700 (advisory tier for I-82). Group PRs in flight: srs-vscode#135 (owner-merge). Budget left: 10. Queue fed for about 1 cycle at the full budget; no feeding needed yet. Waiting on you: srs-vscode#135. Fed by the analyst: not needed.\n\n6b. Exercises: none open.\n\n7. What we learned: four quiet cycles in a row. The Builder has opened no PR in four cycles with 9 ready issues and a full budget, so the limit is neither the queue nor the budget; it is what triggers the Builder (a ready-label event or a group PR merge, neither of which happened). This repeats the last two reports: the Builder likely needs a clock fallback trigger, worth a routine amendment for you to decide. Second pattern: steward report PRs sit open (three now), so the group log lags the reports on #31. Build trigger: ratified decisions across both logs are about 5, below 10, so srs-web#560 stays parked.\n",
+    "rationale": "No escalations were raised: nothing stopped outside the boundary or budget. srs-vscode#135 waits on a normal owner merge.",
+    "figures": "merged by group 0/10; open 1; ratified decisions across both logs: about 5; paused: no",
+    "landed_as": "pending"
+  },
+  "createdAt": "2026-10-14T11:42:25.600785455+00:00",
+  "updatedAt": "2026-10-14T11:42:25.600791783+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
