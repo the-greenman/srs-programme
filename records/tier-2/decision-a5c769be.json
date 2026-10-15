@@ -13,9 +13,9 @@
     "revisit_when": "When the desk regularly shows the same one-off call twice without it becoming a decision, or a group escalation that sets a rule is answered only on its item.",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-15T11:37:22.219312028+00:00",
-  "updatedAt": "2026-10-15T11:37:22.305743963+00:00",
+  "updatedAt": "2026-10-15T11:43:17.260785034+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",
