@@ -1,0 +1,22 @@
+{
+  "instanceId": "3edf83f6-570c-444c-a787-374b9cd1d567",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-15 10:09 UTC: SemanticOps",
+    "held_at": "2026-10-15T10:09:49Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-15 10:09 UTC: SemanticOps\nAttendees: Owner\n- Received: WG Agent-supported editor report 2026-10-13 (comment only)\n- Received: WG Agent-supported editor report 2026-10-14 (comment only)"
+  },
+  "createdAt": "2026-10-15T10:14:16.387105043+00:00",
+  "updatedAt": "2026-10-15T10:14:16.387106550+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
