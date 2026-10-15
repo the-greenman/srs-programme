@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "04ead445-3d78-49b7-8f43-191853d27527",
+  "relationType": "com.mudemocracy.stewardship/authored-by",
+  "sourceInstanceId": "625b3739-b44a-45f8-b868-14163728243e",
+  "targetInstanceId": "7f34b620-88e7-4981-a937-6a44f47f9096",
+  "createdAt": "2026-10-13T11:43:02.598663771+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  }
+}
