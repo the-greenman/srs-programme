@@ -8,14 +8,14 @@
     "title": "Working on a group's work means joining that group",
     "decision_question": "How does someone outside a working group help with its work?",
     "context": "Relayed from the owner on 2026-10-11, while unblocking general-lane work that no working group could claim (clerk#46, clerk#47); awaiting ratification.",
-    "decision_statement": "Anyone may join a working group to accelerate its work, and while doing so works within that group's jurisdiction and practices. A delegated group's authority is never overridden.",
+    "decision_statement": "Anyone may join a working group to accelerate its work, and while doing so works within that group's jurisdiction and practices. A delegated group's authority is never arbitrarily overridden.",
     "rationale": "Delegation means little if a faster actor can bypass it; joining keeps one consistent way of working.",
     "revisit_when": "When joining a group to accelerate it is routinely slower than the group's own members, or a group's practices block urgent work.",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-11T18:36:50.525607835+00:00",
-  "updatedAt": "2026-10-11T18:36:50.613011725+00:00",
+  "updatedAt": "2026-10-12T16:58:07.115177492+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

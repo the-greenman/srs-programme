@@ -1,0 +1,22 @@
+{
+  "instanceId": "51e9c4c5-37e8-4035-a681-88c919a7cce4",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-12 16:49 UTC: SemanticOps",
+    "held_at": "2026-10-12T16:49:34Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-12 16:49 UTC: SemanticOps\nAttendees: Owner\n- Ratified: SemanticOps is the root decision-making authority [31e40305]\n- Commented: SemanticOps is the root decision-making authority [31e40305] (1)\n- Ratified: The central group undertakes all undelegated work [4fca091f]\n- Ratified: A working group needs a domain and standing orders [9a45c0a1]\n- Commented: A working group needs a domain and standing orders [9a45c0a1] (1)\n- Ratified: A problem may have no cluster, or a cluster of its own [a8aabd01]\n- Ratified: Working on a group's work means joining that group [ccd593c3]\n- Edited: Working on a group's work means joining that group [ccd593c3] (resolution)\n- Commented: Working on a group's work means joining that group [ccd593c3] (1)\n- Received: WG Agent-supported editor report 2026-10-12 (comment only)"
+  },
+  "createdAt": "2026-10-12T16:58:03.196463510+00:00",
+  "updatedAt": "2026-10-12T16:58:03.196468469+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
