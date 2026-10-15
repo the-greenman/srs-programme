@@ -1,0 +1,18 @@
+{
+  "instanceId": "2a620fef-8f18-45f6-b7e6-4b5db176162c",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "authority may be overrideen by a higher group, but this should not be done arbitrarily. If a decision is overridden, reasons should be provided."
+  },
+  "createdAt": "2026-10-12T16:58:06.689780045+00:00",
+  "updatedAt": "2026-10-12T16:58:06.689787859+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
