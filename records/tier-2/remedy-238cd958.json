@@ -1,0 +1,26 @@
+{
+  "instanceId": "238cd958-6764-4f33-95c7-31798a45e3a7",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Agent help is paced to where the writer is, and each thread can end",
+    "move": "The editor publishes the writer's current focus (the paragraph or claim being worked on) as a record agents read, so help lands on that part of the text and not another. Agent responses queue against the focus and are shown a few at a time at the writer's pace, not as annotations on every paragraph. Every thread has a declared end: it is settled when the stance has answered once and the writer marks it read, resolved or set aside, and agents may not reply to each other past that point.",
+    "does_not_fix": "What the writer is shown about document shape or when a document is done (SP-17, SP-18, SP-19). The choice of stance behind each response, which is the stance remedy.",
+    "falsifier": "During a one-hour writing session the writer still has more unread agent responses than they began with, or a thread between agents runs past its declared end without the writer closing it.",
+    "source_ref": [
+      "srs-programme:records/tier-2/domain-b7cf0ead.json",
+      "semanticops.com#29"
+    ],
+    "return_when": "When a writer has worked a full session with focus-scoped, paced help and the owner has said whether the queue kept up with the writing."
+  },
+  "createdAt": "2026-10-14T00:03:00.371816806+00:00",
+  "updatedAt": "2026-10-14T00:03:00.371821009+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:unattended-worker",
+    "name": "Unattended lane worker"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
