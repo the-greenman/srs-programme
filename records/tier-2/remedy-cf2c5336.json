@@ -1,0 +1,25 @@
+{
+  "instanceId": "cf2c5336-c1f4-42b2-8972-ccaf48f21fa9",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Ctrl-Z undoes and Ctrl-Shift-Z redoes the writer's essay edits",
+    "move": "The essay editor keeps an undo history of the writer's edits for the browser session (text, moves, hide and bin, adds and deletes) and Ctrl-Z / Ctrl-Shift-Z (Cmd on a Mac) step through it, writing each step back to the records as a normal edit. Agent edits are not undone by the writer's Ctrl-Z.",
+    "does_not_fix": "Version history across sessions or between writers; that is SRS revision history, not the editor.",
+    "falsifier": "The writer presses Ctrl-Z after an edit in the essay and the edit stays, or an undo leaves the records different from before the edit.",
+    "source_ref": [
+      "Owner, 2026-10-16"
+    ],
+    "return_when": "After two weeks of writing with undo, or the first time an undo loses work."
+  },
+  "createdAt": "2026-10-16T16:38:54.309742536+00:00",
+  "updatedAt": "2026-10-16T16:38:54.309744429+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
