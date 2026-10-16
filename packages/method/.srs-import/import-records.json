@@ -631,6 +631,19 @@
       "sourcePackageName": "com.semanticops.method",
       "sourcePackageVersion": "1.0.0",
       "conflictState": "clean"
+    },
+    {
+      "definitionId": "1eaee316-0a6c-4bf7-a171-942ab7e30d66",
+      "definitionType": "relation-type",
+      "namespace": "com.semanticops.method",
+      "name": "com.semanticops.method/holds-domain",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
+      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
+      "sourcePackageName": "com.semanticops.method",
+      "sourcePackageVersion": "1.0.0",
+      "conflictState": "clean"
     }
   ],
   "skippedDefinitions": [
