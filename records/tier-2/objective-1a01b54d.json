@@ -1,0 +1,22 @@
+{
+  "instanceId": "1a01b54d-2827-4594-9214-1177bee00e25",
+  "typeId": "f6635d38-f2f6-4e2a-bcbe-8780d9ee4e0b",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "objective",
+  "fieldValues": {
+    "title": "A funding application foundation, written on our research dataset",
+    "summary": "The owner writes the foundation of a funding application in the essay editor, built on the muSrs research dataset (its problems, claims and sources), with the application call in the essay's context and Claude Code, claude.ai and ChatGPT working on it together, each with its own brief. The first concrete objective for the editor: it scopes and orders the editor's work. Draft.",
+    "source_ref": [
+      "Owner, 2026-10-16"
+    ]
+  },
+  "createdAt": "2026-10-16T16:31:13.486468760+00:00",
+  "updatedAt": "2026-10-16T16:31:13.486470287+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
