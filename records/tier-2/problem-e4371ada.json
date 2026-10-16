@@ -1,0 +1,24 @@
+{
+  "instanceId": "e4371ada-2346-4771-b33f-e11e9c244cc6",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-85",
+    "title": "An essay cannot show the domain, problems, claims and remedies it speaks about",
+    "statement": "An essay builds on the same chain of meaning the research base holds: it speaks about a domain, the problems personas face in their experience of that domain, the claims it makes and the remedies it suggests. It may not start in a domain, but it comes to fit one. As I write I want to link to each of these elements, and see which the essay covers; today a paragraph can only point at a problem, and the essay as a whole says nothing about its domain, personas or remedies.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-16: essays fit into a domain and link to its problems, claims and remedies as they are written"
+    ]
+  },
+  "createdAt": "2026-10-16T16:16:11.580154366+00:00",
+  "updatedAt": "2026-10-16T16:16:11.580156473+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
