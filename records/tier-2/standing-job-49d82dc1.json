@@ -10,12 +10,12 @@
     "done_when": "Every open group PR built by an earlier run has a quorum comment or a findings comment (gh search: no open wg:third-party-ready PR without either).",
     "trigger": "nightly, before the Build job",
     "size": "Up to 3 PRs per run",
-    "routine_id": "trig_01TsYgXRoe78FFtsa7wfzc4c",
+    "routine_id": "trig_017sfYgXA1PXoZRmHDzG69Jz",
     "brief_path": "routines/wg-reviewer.md"
   },
   "lifecycleState": "draft",
   "createdAt": "2026-10-09T18:48:21.280444711+00:00",
-  "updatedAt": "2026-10-10T20:08:16.061811249+00:00",
+  "updatedAt": "2026-10-16T11:21:57.625303357+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",
