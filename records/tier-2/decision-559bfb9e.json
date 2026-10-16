@@ -14,9 +14,9 @@
     "revisit_when": "Practice shows two models answering the same question the same way for the same people, or the owner ends the experimental phase.",
     "decision_kind": "premise"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-16T16:19:42.535847437+00:00",
-  "updatedAt": "2026-10-16T16:22:09.769381428+00:00",
+  "updatedAt": "2026-10-16T17:17:22.090101722+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

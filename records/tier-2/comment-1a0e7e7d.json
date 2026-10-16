@@ -1,0 +1,18 @@
+{
+  "instanceId": "1a0e7e7d-3cba-4cd7-83ad-7c281858893d",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "1. A remedy does need to point to who it is a remedy for. (One man's poison...) 2. We should investigate the pros and cons. We can do both. COntainers are useful to show groups of things. Relations show other things. We need to pick an appropriate tool for the purposes of our programme and task management first. 3. We can clone proble,ms, as long as we keep a link between them. 4. An epic should be undertaken with a clear primary authority. It may exist in multiple domains, but we should not end up with two working groups fighting over it. So a working group may be responsible for multiple domains. However, it is possible that a complex epic will need cross group effort. We should flag work that needs different teams to coordinate in order to complete it"
+  },
+  "createdAt": "2026-10-16T17:17:22.641197196+00:00",
+  "updatedAt": "2026-10-16T17:17:22.641203806+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
