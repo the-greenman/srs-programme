@@ -1,0 +1,26 @@
+{
+  "instanceId": "6f7fd1df-2554-40d4-8445-0b9b9de4c787",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-78",
+    "title": "Tools slow down as a repository grows",
+    "statement": "Every CLI call rebuilds and revalidates the whole corpus, and even shallow reads parse every record, so the tools a third party relies on get slower with every record added.",
+    "kind": "condition",
+    "source_ref": [
+      "the-greenman/srs-rust#1198 (issue sweep 2026-10-16)",
+      "the-greenman/srs-rust#1193 (issue sweep 2026-10-16)",
+      "the-greenman/srs-rust#1120 (issue sweep 2026-10-16)"
+    ]
+  },
+  "createdAt": "2026-10-16T16:45:23.318401596+00:00",
+  "updatedAt": "2026-10-16T16:45:23.318404041+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,24 @@
+{
+  "instanceId": "f060152e-7371-41a9-9524-628190323446",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-83",
+    "title": "Navigation becomes unusable in a large repository",
+    "statement": "The navigation tree shows everything at once with no way to collapse or filter it, so a group with a large repository cannot find its way around its own records.",
+    "kind": "condition",
+    "source_ref": [
+      "the-greenman/srs-web#425 (issue sweep 2026-10-16)"
+    ]
+  },
+  "createdAt": "2026-10-16T16:45:23.917699718+00:00",
+  "updatedAt": "2026-10-16T16:45:23.917702602+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
