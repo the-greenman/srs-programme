@@ -1,0 +1,25 @@
+{
+  "instanceId": "2800bea0-2b50-42a4-a5e8-ebc63b5029d3",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Affirmed clusters are the owner's; suggested clusters are the synthesiser's",
+    "decision_question": "What may an agent do to clusters?",
+    "context": "Stated by the owner on 2026-10-16 after affirming the Agent memory clusters, together with problem SP-73 (clusters cannot be compared side by side). Applies to the synthesiser standing job (clerk#39).",
+    "decision_statement": "The synthesiser may add, merge, reshape and rename the clusters it suggested. An affirmed cluster belongs to the owner: no agent removes it or rewrites its name or description, but an agent may add problems to it.",
+    "rationale": "The synthesiser does valid work and should keep refining its suggestions; a cluster's name is the claim the owner affirms, so it stays the owner's, while its membership is a working view that may grow.",
+    "revisit_when": "Problems added by agents change what an affirmed cluster means, or an affirmed cluster needs a change only an agent has seen.",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-16T12:09:42.716800724+00:00",
+  "updatedAt": "2026-10-16T12:09:42.868645558+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
