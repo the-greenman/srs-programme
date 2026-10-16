@@ -7,16 +7,16 @@
   "fieldValues": {
     "title": "Experiment now, unify later",
     "decision_question": "How do we treat overlapping models of meaning (boundaries, tensions, archetypes; domains, personas, problems, claims, remedies) during this phase?",
-    "context": "Owner, 2026-10-16: all of this work is experiments towards related goals; the owner is developing a practice. Boundaries, tensions, archetypes; problems, claims, remedies: all of it will need to be unified as it is practised. Everything now is dogfooding.",
-    "alternatives_considered": "Converge now under one way per goal (fast, but locks in a guess). Pick one model and retire the others (loses what each one teaches). Do nothing (agents keep proposing convergence case by case).",
-    "decision_statement": "We work as if every model of meaning in use now is an experiment: overlapping models are practised side by side, and agents resist collapsing them into one before practice shows how they should unify. One way per goal applies to tools and mechanisms, not yet to these models.",
+    "context": "Owner, 2026-10-16: all of this work is experiments towards related goals; the owner is developing a practice. Boundaries, tensions, archetypes; problems, claims, remedies: all of it will need to be unified as it is practised. Everything now is dogfooding. Owner, same day: one way per goal is specific to the SRS spec and is a general principle for srs-rust and any code implementation; it cannot hold in the repositories themselves.",
+    "alternatives_considered": "Converge the models now under one way per goal (fast, but locks in a guess, and applies a spec and code principle to data where it cannot hold). Pick one model and retire the others (loses what each one teaches). Do nothing (agents keep proposing convergence case by case).",
+    "decision_statement": "We work as if every model of meaning in use now is an experiment: overlapping models are practised side by side, and agents resist collapsing them into one before practice shows how. One way per goal is a principle of the SRS specification and of every code implementation (srs-rust and any other code: the SRS charter's Charter Check, srs-rust ADR-048 rule 3); it cannot hold in the repositories themselves, whose records are where these models are practised.",
     "rationale": "Unifying too soon fixes a design before real use has tested it, as the federation reset showed; keeping the models apart while practising them produces the evidence the unification will need.",
     "revisit_when": "Practice shows two models answering the same question the same way for the same people, or the owner ends the experimental phase.",
     "decision_kind": "premise"
   },
   "lifecycleState": "proposed",
   "createdAt": "2026-10-16T16:19:42.535847437+00:00",
-  "updatedAt": "2026-10-16T16:19:42.690768799+00:00",
+  "updatedAt": "2026-10-16T16:22:09.769381428+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",
