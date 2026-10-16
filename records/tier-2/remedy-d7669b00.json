@@ -1,0 +1,27 @@
+{
+  "instanceId": "d7669b00-b718-4f5d-a816-d907cc8afeb0",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A shared paragraph has a home essay; editing it elsewhere is a deliberate choice",
+    "move": "When an essay is copied, each shared paragraph keeps the essay it came from as its home, recorded once as a relation in the essay package; the writer can move the home by hand. The Also-in badge lists the other essays that hold the paragraph and jumps to it in each. Editing a shared paragraph anywhere but its home asks first: change it in every essay, or make a local copy (the existing make-local-copy action).",
+    "does_not_fix": "Which version of a diverged copy is right, and merging copies back together. Paragraphs shared between repositories.",
+    "falsifier": "The writer changes a paragraph in one essay and later finds another essay changed without having chosen it, or cannot tell from a paragraph which essays hold it and which is its home.",
+    "source_ref": [
+      "Owner, 2026-10-16: shared paragraphs need a master; see the state and jump between them",
+      "srs-web:src/lib/essay/essay-document.ts loadSharedIn, copyEssay, makeLocalCopy",
+      "srs-web#514 (AttentionState)"
+    ],
+    "return_when": "After the owner has worked across several essays that share paragraphs for two weeks, or when a second writer shares paragraphs with the owner."
+  },
+  "createdAt": "2026-10-16T15:20:49.714339778+00:00",
+  "updatedAt": "2026-10-16T15:20:49.714341279+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
