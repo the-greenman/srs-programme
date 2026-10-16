@@ -1,0 +1,23 @@
+{
+  "instanceId": "c2ff8f3e-18a2-4efc-9c79-59d5300e22f2",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Third-party ready: cycle close 2026-10-16",
+    "run_date": "2026-10-16",
+    "chose": "WG Third-party ready: cycle 2026-10-15 11:30 to 2026-10-16 11:30 UTC\n\n1. Decisions for you: None. No run stopped outside the mandate or budget this cycle.\n\n2. Decided within mandate: nothing. The group merged no PRs, so no decision was ready for the group session and none was ratified. Owner ruling made this cycle (from the log): \"The decision log holds only choices that govern later choices\" is now ratified (record a5c769be); \"A decision that cannot be made now is recorded at once as a proposal\" is ratified too (684f84ab).\n\n3. Done: 0 group PRs merged (no quorum lines to show), no tasks closed.\n\n4. Stuck or lost: srs-vscode#135 (stop sending and reading rootInstanceIds, #134) is still open, `gate:owner-merge`, waiting on you to merge or decline. srs-programme#115 (the 2026-10-12 steward report) is still open with a merge conflict; the steward does not update it. No needs-input issues inside the group, no red gates reported by runs, no claims to release.\n\n5. Budget: 0 of 10 delegated merges this cycle; 1 open. Pause state: running (the 2026-10-15 report has no thumbs-up yet, the 2026-10-14 one does; two in a row would pause the group).\n5b. Awaiting ratification: 13 decisions recorded as `proposed`. Two from 2026-10-15 (about 1 day old): \"A meeting's kind sets its agenda\" (bd852068) and \"Every kind of meeting is one session record with a kind\" (06e480d4). Eleven from 2026-10-16, relayed this morning (under a day old): group charter names its domains, input queue is wg label plus intake, a level escalates and never decides for the level above, a member's stance comes from an archetype, a stance is read relative to its boundary, an accepted domain estimate is a suggested problem, every level runs the same intake cycle, every request is placed in a domain first, groups sit beside each other, requests reach a group only through its input queue, SRS operations covers using, running and repairing SRS. Four older ones from 2026-10-11 are also still proposed (a short daily review and a weekly session; an affirmed problem is grounded in an affirmed domain; enablers rank before the work they enable; id canonicalisation is written once in the clerk). Session to ratify: `clerk session --as owner --repo <srs-programme> --ratify all` (the-greenman/clerk; the TUI is `clerk --as owner`).\n\n6. Next: the queue is fed. Open issues labelled `ready` + `wg:third-party-ready`: 7 in srs-rust, 2 in srs-vscode (one of them, #134, already has PR #135), 0 in srs, 0 in srs-web (9 in all). Top 3 in the Builder's order (no local priorities set; all P2, oldest first): srs-rust#559 (enforce canonicalDirection/inverseType), srs-rust#566 (RFC-022 Rev 4 enforcement: hard|advisory), srs-rust#700 (advisory tier for I-82). Group PRs in flight: srs-vscode#135 (owner-merge). Budget left: 10. Queue fed for about 1 cycle at the full budget; no feeding needed yet. Waiting on you: srs-vscode#135. Fed by the analyst: not needed.\n\n6b. Exercises: none open.\n\n7. What we learned: another cycle with no group PR although 9 issues are ready and the budget is full. The limit is the trigger, not the queue or the budget; the programme's standing jobs now record hourly builder and reviewer triggers (srs-programme#131), so the next cycle should show whether the hourly clock fixes it. Build trigger: ratified decisions across both logs are about 7, below 10, so srs-web#560 stays parked.\n",
+    "rationale": "No escalations were raised: nothing stopped outside the boundary or budget. srs-vscode#135 waits on a normal owner merge.",
+    "figures": "merged by group 0/10; open 1; ready issues 9; proposed decisions pending 13; paused: no",
+    "landed_as": "pending"
+  },
+  "createdAt": "2026-10-16T11:43:17.551020480+00:00",
+  "updatedAt": "2026-10-16T11:43:17.551026082+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
