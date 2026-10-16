@@ -1,0 +1,24 @@
+{
+  "instanceId": "be32ab7c-4c23-49fd-a338-f6ee1d5b8122",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-90",
+    "title": "A short response to the news has to be posted to each channel by hand",
+    "statement": "Besides longer essays I want to write short responses to the news, a few times a week, and post each one on the muDemocracy website blog, on Medium, on Substack and on LinkedIn, and possibly as a snapshot on Instagram. Each channel has its own form and length, so one response becomes several hand-made copies, and at that pace the posting takes over from the writing.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-16: the next type of essay responds to news"
+    ]
+  },
+  "createdAt": "2026-10-16T16:51:41.440911929+00:00",
+  "updatedAt": "2026-10-16T16:51:41.440913401+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
