@@ -5,8 +5,8 @@
   "typeNamespace": "com.semanticops.method",
   "typeName": "persona-in-domain",
   "fieldValues": {
-    "title": "A person working with AI in Semantic records",
-    "summary": "Someone who relies on the spec, its schemas and its tools agreeing, and on rulings reaching every layer.",
+    "title": "Spec maintainer in Semantic records",
+    "summary": "One version of a person working with AI in this domain (others may follow): someone who maintains the specification and relies on spec, schemas and tools agreeing, and on rulings reaching every layer.",
     "goals": [
       "Trust that spec, schema and tool say the same thing",
       "See rulings executed, not parked",
@@ -20,7 +20,7 @@
     "needs": "One source of meaning, rulings carried into every layer, and change that keeps identity."
   },
   "createdAt": "2026-10-16T12:25:13.601043119+00:00",
-  "updatedAt": "2026-10-16T12:25:13.601044572+00:00",
+  "updatedAt": "2026-10-16T13:00:19.843606592+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

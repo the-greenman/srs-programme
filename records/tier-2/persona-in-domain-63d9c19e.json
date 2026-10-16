@@ -6,18 +6,20 @@
   "typeName": "persona-in-domain",
   "fieldValues": {
     "title": "A person working with AI in Group meaning ownership",
-    "summary": "Someone directing AI within a group's shared records, who needs the group's purpose and view to be clear to them and to the agent.",
+    "summary": "Someone in a group who directs AI within the group's shared records. Without the group's own tools, the AI's output becomes the group's meaning by default; they need the group to stay the author of what it means.",
     "goals": [
-      "Work in the group's own view",
-      "Keep the group's purpose in sight"
+      "Keep the group the author of its meaning, with AI as a helper",
+      "Work in the group's own view, with its purpose in sight"
     ],
     "jobs": [
+      "Direct an agent on the group's records",
+      "Tell an agent's proposal from what the group decided",
       "Open a group's repository with an agent"
     ],
-    "needs": "Each repository opening in a view that shows the group's purpose."
+    "needs": "Tools the group owns that keep its meaning in its hands: AI proposes, the group decides, and the record shows which is which."
   },
   "createdAt": "2026-10-16T12:25:15.497353825+00:00",
-  "updatedAt": "2026-10-16T12:25:15.497356648+00:00",
+  "updatedAt": "2026-10-16T13:00:20.148450608+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

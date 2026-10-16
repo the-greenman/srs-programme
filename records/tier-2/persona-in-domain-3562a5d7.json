@@ -1,0 +1,31 @@
+{
+  "instanceId": "3562a5d7-4338-4ed2-ba68-ce98afa51244",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Group / organisation in Programme coordination",
+    "summary": "A working group or programme that delegates work and must keep its decisions, mandates and compass its own.",
+    "goals": [
+      "Keep authority where it was delegated",
+      "Know the context each ruling was made for",
+      "Hold its own compass"
+    ],
+    "jobs": [
+      "Charter a working group with a mandate",
+      "Record decisions with their scope",
+      "Check mandates that work cites",
+      "Limit what a member or agent may change"
+    ],
+    "needs": "Decisions recorded as records with their scope, enforced mandates, and no authority carried in by a pull request."
+  },
+  "createdAt": "2026-10-16T13:00:19.664301555+00:00",
+  "updatedAt": "2026-10-16T13:00:19.664303663+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,31 @@
+{
+  "instanceId": "9065ddf5-4ea8-4bce-931b-2c1985ad449a",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Programme owner in Programme coordination",
+    "summary": "The programme owner (today the owner of SemanticOps and muDemocracy), steering many agents across many repositories, who must judge what matters without reading everything.",
+    "goals": [
+      "See what is in flight and what is stuck at a glance",
+      "Receive only the decisions they can judge, framed at their level",
+      "Know that closed work really landed"
+    ],
+    "jobs": [
+      "Rank objectives and affirm problems",
+      "Ratify or set aside decisions in a session",
+      "Delegate work to groups and receive their reports",
+      "Notice work that bypasses the agreed process"
+    ],
+    "needs": "One honest picture of the flow, decisions sized to their judgement, and rules stated once and enforced."
+  },
+  "createdAt": "2026-10-16T13:00:19.172855148+00:00",
+  "updatedAt": "2026-10-16T13:00:19.172857093+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
