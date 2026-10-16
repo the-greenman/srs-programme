@@ -1,0 +1,24 @@
+{
+  "instanceId": "3fc2e422-854f-47ee-a42f-aa4bf0eacb9f",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-75",
+    "title": "Finished essays cannot be published from where they are written",
+    "statement": "I need to publish an essay when it is done, from the place I wrote it. Today a finished piece has to leave the editor by export, so publishing is a separate job outside the work.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-16: the writer persona, in a clerked session"
+    ]
+  },
+  "createdAt": "2026-10-16T12:51:01.475647645+00:00",
+  "updatedAt": "2026-10-16T12:51:01.475650430+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

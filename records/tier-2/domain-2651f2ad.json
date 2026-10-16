@@ -7,11 +7,11 @@
   "fieldValues": {
     "title": "Evidence-backed writing",
     "purpose": "Help one writer build a carefully structured text, in their own words, where every claim is valid and can stand up to critical argument. Agents respond to the writing; they never write it. The first case is the owner writing pieces for muDemocracy against the muSrs research base of problems and claims.",
-    "in_scope": "The writer drafts; agents respond by linking the text to claims, problems and quotes in muSrs. Red-team agents challenge claims; blue-team agents find evidence that backs them. Checking each claim against the evidence base. Keeping abandoned framings as attempts to review later. Starting from a blank page, from a news article being answered, or from a recorded conversation's transcript.",
-    "out_of_scope": "Agents drafting or rewriting the writer's text. Several authors on one text (a later generalisation). Academic citation formats. Publishing and distribution. Saving work outside the editor and reintegrating it, as a technical concern (it also belongs to a separate, technical domain)."
+    "in_scope": "The writer drafts; agents respond by linking the text to claims, problems and quotes in muSrs. Red-team agents challenge claims; blue-team agents find evidence that backs them. Checking each claim against the evidence base. Keeping abandoned framings as attempts to review later. Starting from a blank page, from a news article being answered, or from a recorded conversation's transcript. Managing several essays at once (a landing page, folders, a bin) and publishing them.",
+    "out_of_scope": "Agents drafting or rewriting the writer's text. Several authors on one text (a later generalisation). Academic citation formats. Distribution beyond publishing the writer's own essays. Saving work outside the editor and reintegrating it, as a technical concern (it also belongs to a separate, technical domain)."
   },
   "createdAt": "2026-10-16T12:19:40.468175906+00:00",
-  "updatedAt": "2026-10-16T12:19:40.468177449+00:00",
+  "updatedAt": "2026-10-16T12:51:00.623051835+00:00",
   "createdBy": {
     "kind": "human",
     "id": "human:the-greenman",

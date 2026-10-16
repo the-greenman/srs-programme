@@ -1,0 +1,24 @@
+{
+  "instanceId": "87c2a1f9-3ed9-42ae-8e74-9cb29236b909",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-74",
+    "title": "Essays cannot be organised like files",
+    "statement": "I work on several essays at once, and they are like files: I need a landing page that shows them well, folders I create, essays I can move between folders, and a bin I can clear. Today each document is opened on its own, with nowhere to see or arrange them together.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-16: the writer persona, in a clerked session"
+    ]
+  },
+  "createdAt": "2026-10-16T12:51:00.802504628+00:00",
+  "updatedAt": "2026-10-16T12:51:00.802506635+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
