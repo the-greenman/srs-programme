@@ -1,0 +1,24 @@
+{
+  "instanceId": "aed50714-3967-40b3-a7a6-e5880b75de77",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-61",
+    "title": "No single view shows what is in flight across repositories",
+    "statement": "Work spans many repositories, and nothing shows in one place what is started, waiting or stalled across all of them.",
+    "kind": "capability",
+    "source_ref": [
+      "Owner, live planning session 2026-10-11 (srs-programme#93)"
+    ]
+  },
+  "createdAt": "2026-10-16T12:00:50.007+00:00",
+  "updatedAt": "2026-10-16T12:00:50.007+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

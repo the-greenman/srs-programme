@@ -1,0 +1,24 @@
+{
+  "instanceId": "668c6c31-aab4-402a-93d4-0e87042259a6",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-60",
+    "title": "A closed issue does not mean the work landed",
+    "statement": "Issues are closed as complete while the fix sits on a branch that never merged, so the record says done when it is not.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, live planning session 2026-10-11 (srs-programme#93)"
+    ]
+  },
+  "createdAt": "2026-10-16T12:00:46.122+00:00",
+  "updatedAt": "2026-10-16T12:00:46.122+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

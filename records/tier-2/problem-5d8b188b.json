@@ -1,0 +1,24 @@
+{
+  "instanceId": "5d8b188b-6d1e-4a01-8660-9b52a4a0cf18",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-54",
+    "title": "A claim's validity cannot be checked against the evidence",
+    "statement": "When I make a claim I cannot see whether the claims, problems and quotes in the research base support or contradict it, so I cannot know that each claim I make is valid.",
+    "kind": "capability",
+    "source_ref": [
+      "Owner, live planning session 2026-10-11 (srs-programme#89)"
+    ]
+  },
+  "createdAt": "2026-10-16T11:59:29.195+00:00",
+  "updatedAt": "2026-10-16T11:59:29.195+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

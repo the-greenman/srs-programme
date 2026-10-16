@@ -1,0 +1,24 @@
+{
+  "instanceId": "ea45489c-c3a0-4c60-b67a-bf7eb66028d6",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-55",
+    "title": "Agent responses have no declared stance",
+    "statement": "Agents give generic feedback. I cannot ask for a red team that attacks my claims, or for a blue team that finds evidence to back them, and know which one I am hearing.",
+    "kind": "capability",
+    "source_ref": [
+      "Owner, live planning session 2026-10-11 (srs-programme#89)"
+    ]
+  },
+  "createdAt": "2026-10-16T11:59:37.899+00:00",
+  "updatedAt": "2026-10-16T11:59:37.899+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
