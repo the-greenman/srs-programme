@@ -1,0 +1,28 @@
+{
+  "instanceId": "c659a9a6-6db8-43fa-80fd-7108a274eaa0",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Group / organisation in Semantic records",
+    "summary": "A group whose records must keep their meaning exactly, whatever tool or client reads them.",
+    "goals": [
+      "Keep meaning in the records, not in a client",
+      "Keep what a tool does not understand"
+    ],
+    "jobs": [
+      "Choose tools that preserve its records",
+      "Move records between tools"
+    ],
+    "needs": "Meaning defined once in the records and every tool round-tripping what it does not understand."
+  },
+  "createdAt": "2026-10-16T12:25:14.140711685+00:00",
+  "updatedAt": "2026-10-16T12:25:14.140714545+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

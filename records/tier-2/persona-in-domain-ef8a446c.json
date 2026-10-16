@@ -1,0 +1,28 @@
+{
+  "instanceId": "ef8a446c-1288-457f-a763-552c2c8e951e",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "People working together in Semantic records",
+    "summary": "People who exchange knowledge as records and need its meaning and its source to travel with it.",
+    "goals": [
+      "Receive knowledge with its meaning attached",
+      "Know who claimed what"
+    ],
+    "jobs": [
+      "Share records with others",
+      "Weigh a claim by its source"
+    ],
+    "needs": "Records that carry their definitions and attribution with them."
+  },
+  "createdAt": "2026-10-16T12:25:14.406933478+00:00",
+  "updatedAt": "2026-10-16T12:25:14.406934949+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

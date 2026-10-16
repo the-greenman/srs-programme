@@ -1,0 +1,23 @@
+{
+  "instanceId": "da4b2b6a-cf8b-4d9a-a5d7-3dbe038d2df0",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "How a remedy differs by domain and persona",
+    "thinking_reached": "A problem can occur in several domains and be held by many personas (decision 708c9373, proposed). A remedy, however, may be different in different domains for different people. Today a remedy only answers a problem; nothing records which domain or persona it is for.",
+    "tensions": "Meaning that must stay stable belongs in relations, not container membership (two-domain plan, what we learned); the owner also suggested building these maps with containers. Cloning a problem per domain keeps remedies simple but splits one claim into drifting copies.",
+    "unresolved_questions": "1. Does a remedy name who it is for, e.g. a relation remedy for persona-in-domain? 2. Or does a domain container place its remedies in its outline, under the problems they answer? 3. Or is a problem cloned per domain when its remedies diverge? 4. Must an epic then serve one domain, or may it implement remedies from several?",
+    "blocking": "Nothing yet: today's remedies each sit in one domain. It blocks once a remedy is suggested for a problem held in two domains.",
+    "next_action": "Recommendation for the owner's next session: option 1 (a relation from remedy to the persona-in-domain it serves), because it states meaning as a relation and needs no clones; the domain container may show it as arrangement. Needs one method package relation type."
+  },
+  "createdAt": "2026-10-16T12:25:46.771049726+00:00",
+  "updatedAt": "2026-10-16T12:25:46.771051267+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
