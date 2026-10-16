@@ -6,7 +6,7 @@
   "typeName": "remedy",
   "fieldValues": {
     "title": "A writer's essays live in a library: a landing page, folders and a bin",
-    "move": "The editor opens on a library: every essay with its purpose, state and last change, so several essays can be seen and picked at once. Folders are containers that hold essay containers (RFC-034 childContainerIds), so they are arrangement in the records and travel with the repository to any SRS tool; moving an essay moves it between folders. A repository-level bin holds discarded essays until the writer clears it, and clearing never deletes a paragraph another essay still holds (the guard the per-paragraph bin already uses).",
+    "move": "The editor opens on a library: every essay with its purpose, state and last change, so several essays can be seen and picked at once. Folders are containers that hold essay containers (RFC-034 childContainerIds), so they are arrangement in the records and travel with the repository to any SRS tool; moving an essay moves it between folders. A repository-level bin holds discarded essays until the writer clears it, and clearing never deletes a paragraph another essay still holds (the guard the per-paragraph bin already uses). It works in any SRS repository that holds essays; muSrs is the first.",
     "does_not_fix": "Shared paragraphs between essays (SP-18, its own remedy) and publishing (SP-75). Search across essays, and nesting deeper than folders of essays.",
     "falsifier": "With ten or more essays in use, the writer still opens essays from a dropdown or by repository, or cannot say which essays are in which folder without opening them.",
     "source_ref": [
@@ -17,7 +17,7 @@
     "return_when": "When the owner has kept at least ten essays in folders for two weeks and said whether the library is how they find their work."
   },
   "createdAt": "2026-10-16T15:20:49.357303526+00:00",
-  "updatedAt": "2026-10-16T15:20:49.357304895+00:00",
+  "updatedAt": "2026-10-16T16:16:11.407789962+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",
