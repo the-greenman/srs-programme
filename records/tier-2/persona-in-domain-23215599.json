@@ -1,0 +1,30 @@
+{
+  "instanceId": "23215599-6f24-43d2-9792-2d070ee49290",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Implementor in Semantic records",
+    "summary": "Someone who implements the SRS specification (the reference implementation or another; the spec maintainer is one version of this person). They rely on the spec, its schemas and its tools agreeing, and on rulings reaching every layer.",
+    "goals": [
+      "Trust that spec, schema and tool say the same thing",
+      "See rulings executed in every layer, not parked",
+      "Change a record's type without losing its identity"
+    ],
+    "jobs": [
+      "Implement the spec and its rulings",
+      "Keep the implementation conformant as the spec evolves",
+      "Keep standards to a size that can be held"
+    ],
+    "needs": "One source of meaning, rulings carried into every layer, conformance that can be checked, and change that keeps identity."
+  },
+  "createdAt": "2026-10-16T13:17:55.097613219+00:00",
+  "updatedAt": "2026-10-16T13:17:55.097616367+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
