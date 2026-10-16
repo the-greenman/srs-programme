@@ -1,0 +1,24 @@
+{
+  "instanceId": "c8f4810a-009f-497f-9bd6-491507962734",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-76",
+    "title": "Without its own tools, a group hands its meaning to AI",
+    "statement": "A group can only own its meaning if it has the tools to hold, change and decide it. Without them it gives that ability up, and AI takes over: what the agents produce becomes what the group means, by default rather than by decision. This is the foundation problem of the domain; the others are ways it shows.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-16: reviewing the Group meaning ownership personas"
+    ]
+  },
+  "createdAt": "2026-10-16T13:00:20.594439104+00:00",
+  "updatedAt": "2026-10-16T13:00:20.594440580+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

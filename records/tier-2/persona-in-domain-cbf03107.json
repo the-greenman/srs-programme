@@ -5,8 +5,8 @@
   "typeNamespace": "com.semanticops.method",
   "typeName": "persona-in-domain",
   "fieldValues": {
-    "title": "A person working with AI in Programme coordination",
-    "summary": "The owner, or any human, steering many agents across many repositories, who must judge what matters without reading everything.",
+    "title": "Programme owner in Programme coordination",
+    "summary": "The programme owner (today the owner of SemanticOps and muDemocracy), steering many agents across many repositories, who must judge what matters without reading everything.",
     "goals": [
       "See what is in flight and what is stuck at a glance",
       "Receive only the decisions they can judge, framed at their level",
@@ -21,7 +21,7 @@
     "needs": "One honest picture of the flow, decisions sized to their judgement, and rules stated once and enforced."
   },
   "createdAt": "2026-10-16T12:25:12.768411087+00:00",
-  "updatedAt": "2026-10-16T12:25:12.768412558+00:00",
+  "updatedAt": "2026-10-16T13:00:18.948060205+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",
