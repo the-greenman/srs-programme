@@ -13,9 +13,9 @@
     "revisit_when": "The same agent's stance needs to be fixed across groups.",
     "decision_kind": "premise"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-16T11:19:21.488344993+00:00",
-  "updatedAt": "2026-10-16T11:19:49.361202662+00:00",
+  "updatedAt": "2026-10-16T11:50:02.983978008+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

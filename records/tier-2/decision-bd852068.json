@@ -13,9 +13,9 @@
     "revisit_when": "When a meeting is held that fits no kind.",
     "decision_kind": "premise"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-15T11:39:55.475842984+00:00",
-  "updatedAt": "2026-10-15T11:39:55.565883900+00:00",
+  "updatedAt": "2026-10-16T11:50:02.650243823+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

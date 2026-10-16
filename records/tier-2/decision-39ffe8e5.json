@@ -13,9 +13,9 @@
     "revisit_when": "A request is placed in it that its scope cannot judge.",
     "decision_kind": "boundary"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-16T11:19:20.806865358+00:00",
-  "updatedAt": "2026-10-16T11:19:48.714454367+00:00",
+  "updatedAt": "2026-10-16T11:50:01.321381939+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

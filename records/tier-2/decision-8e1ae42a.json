@@ -13,9 +13,9 @@
     "revisit_when": "Two cycles after a second group shares repos with another.",
     "decision_kind": "preference"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-16T11:19:21.574909297+00:00",
-  "updatedAt": "2026-10-16T11:19:49.440161715+00:00",
+  "updatedAt": "2026-10-16T11:50:01.823076360+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

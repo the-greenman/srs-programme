@@ -13,9 +13,9 @@
     "revisit_when": "A level needs a step the others do not.",
     "decision_kind": "premise"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-16T11:19:20.890660818+00:00",
-  "updatedAt": "2026-10-16T11:19:48.795596683+00:00",
+  "updatedAt": "2026-10-16T11:50:00.985807486+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

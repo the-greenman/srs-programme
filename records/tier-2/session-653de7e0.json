@@ -1,0 +1,22 @@
+{
+  "instanceId": "653de7e0-3074-4ab4-b823-c4b81f7df2ea",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-16 11:45 UTC: SemanticOps",
+    "held_at": "2026-10-16T11:45:59Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-16 11:45 UTC: SemanticOps\nAttendees: Owner\n- Ratified: Every kind of meeting is one session record with a kind [06e480d4]\n- Ratified: Requests reach a group only through its input queue [09ea5368]\n- Ratified: A group's charter names the domains it holds [0a87ebf6]\n- Ratified: Every request is placed in a domain first [2550585a]\n- Ratified: Every level runs the same intake cycle [31961020]\n- Ratified: Id canonicalisation is written once in the clerk [35299e1d]\n- Ratified: SRS operations covers using, running and repairing SRS [39ffe8e5]\n- Ratified: Enablers rank before the work they enable [5f2530ca]\n- Ratified: A member's stance comes from an archetype [6494df0f]\n- Ratified: Groups sit beside each other, not nested [8e1ae42a]\n- Ratified: A short daily review and a weekly session [8fdcc082]\n- Ratified: A group's input queue is its wg label plus intake [a47964f9]\n- Ratified: A level escalates, never decides for the level above [acf486d8]\n- Ratified: An accepted domain estimate is a suggested problem [aeb9c0a2]\n- Ratified: A meeting's kind sets its agenda [bd852068]\n- Ratified: An affirmed problem is grounded in an affirmed domain [ee59155b]\n- Ratified: A stance is read relative to its boundary [ee95817b]\n- Received: WG Agent-supported editor report 2026-10-15 (comment only)\n- Received: WG Agent-supported editor report 2026-10-16 (comment only)\n- Received: WG Third-party ready report 2026-10-11\n- Received: WG Third-party ready report 2026-10-13\n- Received: WG Third-party ready report 2026-10-14\n- Received: WG Third-party ready report 2026-10-15\n- Received: WG Third-party ready report 2026-10-16"
+  },
+  "createdAt": "2026-10-16T11:50:00.050192024+00:00",
+  "updatedAt": "2026-10-16T11:50:00.050194351+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
