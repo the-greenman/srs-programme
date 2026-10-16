@@ -1,0 +1,25 @@
+{
+  "instanceId": "39ffe8e5-108e-4df0-bf4e-60c58f0f6461",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "SRS operations covers using, running and repairing SRS",
+    "decision_question": "What does the SRS operations domain cover?",
+    "context": "D1 of clerk#57 (plans/wg-srs-operations.md, section 8), asked of the owner since 2026-10-12. Recorded as a proposed decision on 2026-10-16 so a session can take it: until now it existed only as PR text, which no session agenda reads.",
+    "decision_statement": "SRS operations covers how we use, run and repair SRS in our own work, not what the spec should mean.",
+    "rationale": "Friction found while using the tools has no home: Semantic records covers what the spec means, and Programme coordination excludes the products (proposal sections 1 and 2).",
+    "revisit_when": "A request is placed in it that its scope cannot judge.",
+    "decision_kind": "boundary"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-16T11:19:20.806865358+00:00",
+  "updatedAt": "2026-10-16T11:19:48.714454367+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

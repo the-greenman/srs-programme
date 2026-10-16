@@ -1,0 +1,25 @@
+{
+  "instanceId": "31961020-6015-43f3-8161-3c488dcba00e",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Every level runs the same intake cycle",
+    "decision_question": "Do the programme, groups and sub-groups handle requests the same way?",
+    "context": "D2 of clerk#57 (plans/wg-srs-operations.md, section 8), asked of the owner since 2026-10-12. Recorded as a proposed decision on 2026-10-16 so a session can take it: until now it existed only as PR text, which no session agenda reads.",
+    "decision_statement": "We work as if every level (programme, group, sub-group) runs the same intake cycle: receive, place, assess, propose, decide, report.",
+    "rationale": "One shape at every level lets each level reuse the same tools and agenda; only what it looks across changes (proposal section 3).",
+    "revisit_when": "A level needs a step the others do not.",
+    "decision_kind": "premise"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-16T11:19:20.890660818+00:00",
+  "updatedAt": "2026-10-16T11:19:48.795596683+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

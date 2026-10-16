@@ -1,0 +1,25 @@
+{
+  "instanceId": "0a87ebf6-8acb-4bd4-844f-f04a470dd0ba",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A group's charter names the domains it holds",
+    "decision_question": "How is a request routed to the right working group?",
+    "context": "Raised 2026-10-16 in the owner's flow review (why nothing is moving): issues are parked until domains, problems and personas are established, and there was no rule for which group a grounded issue goes to. Complements D4 to D6 of clerk#57.",
+    "decision_statement": "We model a group's boundary as the domains its charter names; a request placed in a domain goes to the input queue of the group that holds that domain, and a domain no group holds goes to the central group.",
+    "rationale": "D4 places every request in a domain first and D5 routes it through a group's input queue; naming domains in the charter is the one link that makes the route mechanical. Answers the handbook open question whether a group's boundary maps to a domain.",
+    "revisit_when": "A domain is held by two groups, or a group's work fits none of its named domains.",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-16T11:19:21.660477889+00:00",
+  "updatedAt": "2026-10-16T11:19:49.519230527+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
