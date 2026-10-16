@@ -5,20 +5,23 @@
   "typeNamespace": "com.semanticops.method",
   "typeName": "persona-in-domain",
   "fieldValues": {
-    "title": "Group / organisation in Semantic records",
-    "summary": "A group whose records must keep their meaning exactly, whatever tool or client reads them.",
+    "title": "Third party using SRS in Semantic records",
+    "summary": "A group outside the programme that uses the SRS specification and its tools for its own records, and needs those records to keep their meaning exactly, whatever tool or client reads them.",
     "goals": [
-      "Keep meaning in the records, not in a client",
+      "Build on the spec and its tools without depending on our internals",
+      "Keep meaning in its records, not in a client",
       "Keep what a tool does not understand"
     ],
     "jobs": [
+      "Adopt the spec and its tools",
       "Choose tools that preserve its records",
-      "Move records between tools"
+      "Move records between tools",
+      "Rely on conformance when a tool changes"
     ],
-    "needs": "Meaning defined once in the records and every tool round-tripping what it does not understand."
+    "needs": "A spec and tools that honour their contracts, meaning defined once in the records, and every tool round-tripping what it does not understand."
   },
   "createdAt": "2026-10-16T12:25:14.140711685+00:00",
-  "updatedAt": "2026-10-16T12:25:14.140714545+00:00",
+  "updatedAt": "2026-10-16T13:16:13.611057250+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",
