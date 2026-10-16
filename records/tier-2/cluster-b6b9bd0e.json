@@ -1,0 +1,19 @@
+{
+  "instanceId": "b6b9bd0e-964d-49a3-839b-4ca508c36ae3",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Costly and incomplete orientation",
+    "description": "Getting the right context is expensive, misses natural questions, hides what was left out, and tempts the agent to rely on a brief alone."
+  },
+  "createdAt": "2026-10-16T12:03:05.764+00:00",
+  "updatedAt": "2026-10-16T12:03:05.764+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

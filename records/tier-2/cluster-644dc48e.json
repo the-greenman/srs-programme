@@ -1,0 +1,19 @@
+{
+  "instanceId": "644dc48e-fee9-47ad-baa4-a41409fdfa45",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Agent help that overwhelms the writer",
+    "description": "Agent feedback arrives faster than it can be read, does not settle, and lands on the wrong part of the document."
+  },
+  "createdAt": "2026-10-16T12:03:55.238+00:00",
+  "updatedAt": "2026-10-16T12:03:55.238+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
