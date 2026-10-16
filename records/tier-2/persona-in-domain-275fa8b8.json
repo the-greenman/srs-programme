@@ -1,0 +1,34 @@
+{
+  "instanceId": "275fa8b8-f64e-4c2d-98ed-3f019e63be9a",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Writer in Evidence-backed writing",
+    "summary": "The one writer building a carefully structured, evidence-based text in their own words, who needs every claim to stand up to critical argument while agents respond and never write.",
+    "goals": [
+      "Every claim is valid and can withstand critical argument",
+      "The text stays in the writer's own words, with no agent drafting",
+      "Abandoned framings are kept as attempts to review later",
+      "Start from a blank page, an article being answered or a transcript"
+    ],
+    "jobs": [
+      "Lay out a claim with its premises",
+      "Link claims to problems, quotes and evidence in the research base",
+      "Check each claim against the evidence",
+      "Hear the red team challenge a claim and the blue team back it",
+      "Turn a news article or a transcript into quotable evidence",
+      "Restructure an argument without losing links or abandoned framings"
+    ],
+    "needs": "Structure that survives editing, claims checkable against evidence, agent responses that never write the text, and abandoned framings kept rather than lost."
+  },
+  "createdAt": "2026-10-16T12:19:40.639076523+00:00",
+  "updatedAt": "2026-10-16T12:19:40.639077949+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
