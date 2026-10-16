@@ -1,0 +1,25 @@
+{
+  "instanceId": "a12f5821-3e22-42df-a022-73e8ac1b7c3a",
+  "typeId": "58f0ee7b-8063-4fc7-9b39-af918962c91f",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "standing-job",
+  "fieldValues": {
+    "title": "Build editor group issues",
+    "description": "Execute lane issues labelled wg:third-party-ready that cite the ruling they execute, in scope, within budget.",
+    "done_when": "At most 3 PRs opened this run; delegated merges this cycle plus open delegated group PRs is under 10; nothing is opened while the group is paused.",
+    "trigger": "nightly",
+    "size": "At most 3 PRs per run",
+    "routine_id": "trig_012AfuCV7TWkDpw7mHpCE2w5",
+    "brief_path": "routines/wg-builder.md"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-16T16:41:46.772643691+00:00",
+  "updatedAt": "2026-10-16T16:41:46.772645605+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
