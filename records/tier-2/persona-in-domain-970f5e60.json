@@ -1,0 +1,28 @@
+{
+  "instanceId": "970f5e60-a401-443b-b70a-8186334b08b5",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "People working together in Group meaning ownership",
+    "summary": "Members who change shared meaning together and need to see drift and keep each other's work.",
+    "goals": [
+      "See meaning change before it drifts",
+      "Never lose a member's edit"
+    ],
+    "jobs": [
+      "Edit shared records at the same time",
+      "Review what changed between revisions"
+    ],
+    "needs": "Visible change and edits that merge rather than overwrite."
+  },
+  "createdAt": "2026-10-16T12:25:14.942492549+00:00",
+  "updatedAt": "2026-10-16T12:25:14.942494187+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

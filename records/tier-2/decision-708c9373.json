@@ -1,0 +1,25 @@
+{
+  "instanceId": "708c9373-29c9-46c7-a15e-fbb782eb100d",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A problem may occur in several domains",
+    "decision_question": "Can one problem belong to more than one domain, and be held by more than one persona?",
+    "context": "Stated by the owner on 2026-10-16 while fixing personas: ten affirmed problems sit in two domain outlines (SP-01 to SP-04, SP-08, SP-28, SP-30, SP-31, SP-42, SP-43). The in-domain rule stays: each persona-in-domain is in exactly one domain.",
+    "decision_statement": "We model a problem that occurs in several domains as one problem held by one persona-in-domain in each domain where it occurs, because held-by already allows several holders and a problem's domains are derived from its holders, never stored.",
+    "rationale": "The same problem is experienced in different domains by different personas; cloning it would split one claim into copies that drift apart.",
+    "revisit_when": "A problem means something different in one of its domains, so that one statement no longer fits both.",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-16T12:25:46.513372210+00:00",
+  "updatedAt": "2026-10-16T12:25:46.677442+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

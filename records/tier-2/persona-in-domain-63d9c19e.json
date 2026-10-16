@@ -1,0 +1,27 @@
+{
+  "instanceId": "63d9c19e-e813-49a9-a1e2-083d43fbcead",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "A person working with AI in Group meaning ownership",
+    "summary": "Someone directing AI within a group's shared records, who needs the group's purpose and view to be clear to them and to the agent.",
+    "goals": [
+      "Work in the group's own view",
+      "Keep the group's purpose in sight"
+    ],
+    "jobs": [
+      "Open a group's repository with an agent"
+    ],
+    "needs": "Each repository opening in a view that shows the group's purpose."
+  },
+  "createdAt": "2026-10-16T12:25:15.497353825+00:00",
+  "updatedAt": "2026-10-16T12:25:15.497356648+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

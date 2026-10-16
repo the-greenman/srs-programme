@@ -1,0 +1,26 @@
+{
+  "instanceId": "e09c6a67-3bbe-4c23-b3c2-6b19757ed755",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Writer / argument builder in Group meaning ownership",
+    "summary": "A writer whose group's records should open in a view that fits the work, not one engine view for every repository.",
+    "goals": [
+      "Work in a view made for the group's purpose"
+    ],
+    "jobs": [
+      "Open a group's repository and write in it"
+    ],
+    "needs": "Each repository opening in the view its purpose calls for."
+  },
+  "createdAt": "2026-10-16T12:25:15.211384787+00:00",
+  "updatedAt": "2026-10-16T12:25:15.211386111+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
