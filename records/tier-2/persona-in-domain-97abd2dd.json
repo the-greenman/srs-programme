@@ -1,0 +1,32 @@
+{
+  "instanceId": "97abd2dd-08b8-4255-a2db-2dbda7ab3df5",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "AI agent in Evidence-backed writing",
+    "summary": "An agent that responds to one writer's text from a stance, by linking it to claims, problems and quotes, without ever writing it.",
+    "goals": [
+      "Respond to the writer's text without writing any of it",
+      "Make its stance (red team or blue team) clear in every response",
+      "Stay within what the writer asked it to look at"
+    ],
+    "jobs": [
+      "Link a claim to the problems, claims and quotes that bear on it",
+      "Challenge a claim as the red team",
+      "Find evidence that backs a claim as the blue team",
+      "Give a response the writer can read, accept or ignore",
+      "Pick up the writer's current focus without being re-briefed"
+    ],
+    "needs": "A declared stance and role, the writer's current focus, provenance for every link it makes, and write tools that stop it editing the writer's text."
+  },
+  "createdAt": "2026-10-16T12:19:40.890837055+00:00",
+  "updatedAt": "2026-10-16T12:19:40.890838632+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
