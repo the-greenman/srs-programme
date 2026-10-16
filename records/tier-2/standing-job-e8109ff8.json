@@ -1,0 +1,24 @@
+{
+  "instanceId": "e8109ff8-9d09-425b-a247-0b2e03a4a9cc",
+  "typeId": "58f0ee7b-8063-4fc7-9b39-af918962c91f",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "standing-job",
+  "fieldValues": {
+    "title": "Keep the handbook true",
+    "description": "Weekly: compare every handbook stage, chapter and element with the clerk code, tests, programme records and boards since the last run; correct the handbook records through the srs CLI and render; open one clerk PR; file issues for drift outside the handbook; write a run report.",
+    "done_when": "One clerk PR (or a no-change report) whose render check passes, every changed claim cites its evidence, issues filed for what the handbook cannot fix, and a run report with What we learned.",
+    "trigger": "weekly, Monday 06:00 UTC",
+    "size": "One PR per run",
+    "brief_path": "routines/handbook-watcher.md"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-16T13:24:04.042706837+00:00",
+  "updatedAt": "2026-10-16T13:24:04.042708938+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

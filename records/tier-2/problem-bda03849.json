@@ -1,0 +1,24 @@
+{
+  "instanceId": "bda03849-9def-4541-bf7a-f9c1938f667d",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-67",
+    "title": "The handbook says things that are no longer true",
+    "statement": "The one document that says how the programme runs is written by hand beside code and records that change daily, so within a day it describes practice that no longer exists and people and agents act on a stale picture.",
+    "kind": "condition",
+    "source_ref": [
+      "clerk#50 (2026-10-11): the handbook was edited eight times on 2026-10-11 and was stale by evening"
+    ]
+  },
+  "createdAt": "2026-10-16T13:24:03.501912352+00:00",
+  "updatedAt": "2026-10-16T13:24:03.501913785+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
