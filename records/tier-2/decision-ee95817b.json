@@ -1,0 +1,25 @@
+{
+  "instanceId": "ee95817b-ca0f-4981-a8e2-6cb8082b41db",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A stance is read relative to its boundary",
+    "decision_question": "Is a stance fixed, or read relative to where the agent acts?",
+    "context": "D9 of clerk#57 (plans/wg-srs-operations.md, section 8), asked of the owner since 2026-10-12. Recorded as a proposed decision on 2026-10-16 so a session can take it: until now it existed only as PR text, which no session agenda reads.",
+    "decision_statement": "We work as if a stance is read relative to the boundary it acts in.",
+    "rationale": "The same agent can take different stances in different groups (proposal section 4).",
+    "revisit_when": "The same agent's stance needs to be fixed across groups.",
+    "decision_kind": "premise"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-16T11:19:21.488344993+00:00",
+  "updatedAt": "2026-10-16T11:19:49.361202662+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
