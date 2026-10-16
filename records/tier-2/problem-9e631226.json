@@ -1,0 +1,24 @@
+{
+  "instanceId": "9e631226-b348-43f1-ba89-b04622675d6b",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-81",
+    "title": "Records cannot be selected by what their fields say",
+    "statement": "Discovery can filter by type, tag, container and lifecycle but not by a field's value, so groupings fall back on duplicate tags or containers that drift from the data.",
+    "kind": "condition",
+    "source_ref": [
+      "the-greenman/srs#902 (issue sweep 2026-10-16)"
+    ]
+  },
+  "createdAt": "2026-10-16T13:36:33.433297436+00:00",
+  "updatedAt": "2026-10-16T13:36:33.433298834+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

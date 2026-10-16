@@ -1,0 +1,24 @@
+{
+  "instanceId": "82e173db-44c3-4b3b-8c72-d0fd673d3937",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-77",
+    "title": "Upstream dependency changes break the build without warning",
+    "statement": "A crate the build depends on can be withdrawn upstream at any time. With nothing pinning what was last built, the next build or CI run fails before any of our code compiles, and every agent and pull request stops until someone notices and repairs it.",
+    "kind": "condition",
+    "source_ref": [
+      "the-greenman/srs-rust#1400 (issue sweep 2026-10-16)"
+    ]
+  },
+  "createdAt": "2026-10-16T13:36:32.368848530+00:00",
+  "updatedAt": "2026-10-16T13:36:32.368850960+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
