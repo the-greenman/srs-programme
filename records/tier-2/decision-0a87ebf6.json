@@ -13,9 +13,9 @@
     "revisit_when": "A domain is held by two groups, or a group's work fits none of its named domains.",
     "decision_kind": "design"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-16T11:19:21.660477889+00:00",
-  "updatedAt": "2026-10-16T11:19:49.519230527+00:00",
+  "updatedAt": "2026-10-16T11:50:00.645515447+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

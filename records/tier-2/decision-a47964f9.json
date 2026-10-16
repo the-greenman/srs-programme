@@ -13,9 +13,9 @@
     "revisit_when": "Intake exceeds about ten items a week.",
     "decision_kind": "design"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-16T11:19:21.235649771+00:00",
-  "updatedAt": "2026-10-16T11:19:49.116710078+00:00",
+  "updatedAt": "2026-10-16T11:50:02.148575513+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

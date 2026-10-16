@@ -13,9 +13,9 @@
     "revisit_when": "I5's returned share stays high for two cycles.",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-16T11:19:21.066081742+00:00",
-  "updatedAt": "2026-10-16T11:19:48.956091037+00:00",
+  "updatedAt": "2026-10-16T11:50:00.818871181+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

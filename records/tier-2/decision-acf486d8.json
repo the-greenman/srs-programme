@@ -13,9 +13,9 @@
     "revisit_when": "An escalation is overturned as within the lower level's mandate.",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-16T11:19:20.978512073+00:00",
-  "updatedAt": "2026-10-16T11:19:48.875991550+00:00",
+  "updatedAt": "2026-10-16T11:50:02.316691580+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

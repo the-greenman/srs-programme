@@ -13,9 +13,9 @@
     "revisit_when": "When a kind of meeting needs a field the session record cannot hold.",
     "decision_kind": "design"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-15T11:39:55.649319088+00:00",
-  "updatedAt": "2026-10-15T11:39:55.734438427+00:00",
+  "updatedAt": "2026-10-16T11:50:00.314343953+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

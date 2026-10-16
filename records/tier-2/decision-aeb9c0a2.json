@@ -13,9 +13,9 @@
     "revisit_when": "A request is accepted that no persona holds.",
     "decision_kind": "design"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-16T11:19:21.320862162+00:00",
-  "updatedAt": "2026-10-16T11:19:49.199779833+00:00",
+  "updatedAt": "2026-10-16T11:50:02.488832257+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

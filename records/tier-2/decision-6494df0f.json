@@ -13,9 +13,9 @@
     "revisit_when": "A seat fits no archetype.",
     "decision_kind": "design"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-16T11:19:21.406925760+00:00",
-  "updatedAt": "2026-10-16T11:19:49.282195133+00:00",
+  "updatedAt": "2026-10-16T11:50:01.654207807+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",
