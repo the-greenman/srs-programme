@@ -13,9 +13,9 @@
     "revisit_when": "A problem means something different in one of its domains, so that one statement no longer fits both.",
     "decision_kind": "design"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-16T12:25:46.513372210+00:00",
-  "updatedAt": "2026-10-16T12:25:46.677442+00:00",
+  "updatedAt": "2026-10-16T17:17:22.262416674+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

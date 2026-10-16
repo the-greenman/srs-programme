@@ -1,0 +1,18 @@
+{
+  "instanceId": "931a1b2c-13ce-4984-a426-abbe424a517c",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "boundaries and domains are the same thing. The arguments and remedies are probably unformed. The argument structure we attempted seemed to complex, we never finished it. We should research structured forms for this that could be adopted. 3. Musrs definately has it's own personas. The programme personas are different though. The musrs domain is not the same as the programme. Musrs is mudemocracy. We may find that we need to reference across domains. (which may require mirroring, caching?) 4. We should investigate. I dont have a clear idea of the different elements. We have too much complexity added too quickly. Simplification is probably a good idea."
+  },
+  "createdAt": "2026-10-16T17:17:22.370130117+00:00",
+  "updatedAt": "2026-10-16T17:17:22.370135531+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

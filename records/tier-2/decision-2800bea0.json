@@ -13,9 +13,9 @@
     "revisit_when": "Problems added by agents change what an affirmed cluster means, or an affirmed cluster needs a change only an agent has seen.",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-16T12:09:42.716800724+00:00",
-  "updatedAt": "2026-10-16T12:09:42.868645558+00:00",
+  "updatedAt": "2026-10-16T17:17:21.734086410+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

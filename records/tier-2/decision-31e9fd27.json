@@ -14,9 +14,9 @@
     "revisit_when": "RFC-049 is rejected or reworked, or essays stop needing records outside their own repository.",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-16T16:19:19.962627829+00:00",
-  "updatedAt": "2026-10-16T16:19:20.145369925+00:00",
+  "updatedAt": "2026-10-16T17:17:21.914396940+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",
