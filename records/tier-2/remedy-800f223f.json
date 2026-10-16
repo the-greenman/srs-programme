@@ -6,7 +6,7 @@
   "typeName": "remedy",
   "fieldValues": {
     "title": "Agent help is paced to where the writer is, and each thread can end",
-    "move": "The editor publishes the writer's current focus (the paragraph or claim being worked on) as a record agents read, so help lands on that part of the text and not another. Agent responses queue against the focus and are shown a few at a time at the writer's pace, not as annotations on every paragraph. Every thread has a declared end: it is settled when the stance has answered once and the writer marks it read, resolved or set aside, and agents may not reply to each other past that point. The writer flags when they are seeking input and when they are not; agents respond only when asked. When the writer directs agents themselves (claude.ai, ChatGPT), the editor makes it easy to hand those agents the current context and focus.",
+    "move": "The editor publishes the writer's current focus (the paragraph or claim being worked on) as a record agents read, so help lands on that part of the text and not another. Agent responses queue against the focus and are shown a few at a time at the writer's pace, not as annotations on every paragraph. Every thread has a declared end: it is settled when the stance has answered once and the writer marks it read, resolved or set aside, and agents may not reply to each other past that point. The writer flags when they are seeking input and when they are not; agents respond only when asked. When the writer directs agents themselves (claude.ai, ChatGPT), the editor makes it easy to hand those agents the current context and focus. Per paragraph, the writer marks feedback wanted, a flag distinct from hidden: hidden paragraphs never get feedback, flagged ones invite it. Agents give the writer's active focus first, then the flagged paragraphs, and leave the rest alone unless asked.",
     "does_not_fix": "What the writer is shown about document shape or when a document is done (SP-17, SP-18, SP-19). The choice of stance behind each response, which is the stance remedy.",
     "falsifier": "During a one-hour writing session the writer still has more unread agent responses than they began with, or a thread between agents runs past its declared end without the writer closing it.",
     "source_ref": [
@@ -16,7 +16,7 @@
     "return_when": "When a writer has worked a full session with focus-scoped, paced help and the owner has said whether the queue kept up with the writing."
   },
   "createdAt": "2026-10-16T12:51:01.592873007+00:00",
-  "updatedAt": "2026-10-16T12:51:01.727980226+00:00",
+  "updatedAt": "2026-10-16T16:38:53.720022035+00:00",
   "createdBy": {
     "kind": "human",
     "id": "human:the-greenman",
