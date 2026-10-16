@@ -1,0 +1,30 @@
+{
+  "instanceId": "474b4b69-9cd5-4b13-bdb8-1de4659e471b",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "An agent checks its own environment before it trusts a result",
+    "move": "Every agent session opens with one preflight that prints what the agent would otherwise assume: the identity of the srs build in use (not the version string), whether the clone is shallow, whether sibling checkouts match origin, and which attribution variables are set. A result that depends on one of these is not reported as evidence until the preflight is clean, and a failed create call names the real cause and the allowed input.",
+    "does_not_fix": "Making the builds themselves self-identifying (a tool change), or the inconsistent create contracts across entity kinds (SP-26); the preflight only makes the disagreement visible.",
+    "falsifier": "An agent reports a false green or a wrong history conclusion that a preflight run in that session would have flagged, or a preflight fails to flag a stale build, a shallow clone or a stale sibling that the session then hit.",
+    "source_ref": [
+      "srs-context:`srs --version` cannot identify the build",
+      "srs-context:Shallow clones make git-history checks silently wrong",
+      "srs-context:SRS_ACTOR from the context hook makes srs-rust CLI tests fail",
+      "srs-context:Stale sibling checkouts give false greens",
+      "srs-rust#1292",
+      "srs-rust#1322"
+    ],
+    "return_when": "When agent sessions have run for two weeks with the preflight and the owner has said whether any false green or wrong conclusion slipped past it."
+  },
+  "createdAt": "2026-10-16T00:04:38.639271773+00:00",
+  "updatedAt": "2026-10-16T00:04:38.639275577+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:unattended-worker",
+    "name": "Unattended lane worker"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
