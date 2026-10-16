@@ -1,0 +1,24 @@
+{
+  "instanceId": "0d4e465e-864b-48c6-8ee4-6d054d7ae2d8",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-67",
+    "title": "The handbook says things that are no longer true",
+    "statement": "The one document that says how the programme runs is written by hand beside code and records that change daily, so within a day it describes practice that no longer exists and people and agents act on a stale picture.",
+    "kind": "condition",
+    "source_ref": [
+      "clerk#50 (2026-10-11): the handbook was edited eight times on 2026-10-11 and was stale by evening"
+    ]
+  },
+  "createdAt": "2026-10-16T16:45:22.924814237+00:00",
+  "updatedAt": "2026-10-16T16:45:22.924816100+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

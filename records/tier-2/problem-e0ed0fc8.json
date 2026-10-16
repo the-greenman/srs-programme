@@ -1,0 +1,26 @@
+{
+  "instanceId": "e0ed0fc8-594f-4466-b967-08ab894f7a75",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-80",
+    "title": "The rendered specification cannot be followed by a human reading it front to back",
+    "statement": "The specification is rendered from records in an order and shape that suit the records, not a reader: type tables, design notes and narrative are interleaved, so a person reading it linearly cannot follow it.",
+    "kind": "condition",
+    "source_ref": [
+      "the-greenman/srs#787 (issue sweep 2026-10-16)",
+      "the-greenman/srs#837 (issue sweep 2026-10-16)",
+      "the-greenman/srs#841 (issue sweep 2026-10-16)"
+    ]
+  },
+  "createdAt": "2026-10-16T16:45:23.558066635+00:00",
+  "updatedAt": "2026-10-16T16:45:23.558068231+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

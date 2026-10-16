@@ -1,0 +1,24 @@
+{
+  "instanceId": "b582ef39-7f41-4e0f-a2c1-641e70270fd3",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-82",
+    "title": "Rendered documents cannot keep a continuous heading outline",
+    "statement": "A composition cannot let its first section heading follow the title directly, so rendered documents jump heading levels, which breaks accessibility and agents that navigate by heading.",
+    "kind": "condition",
+    "source_ref": [
+      "the-greenman/srs#911 (issue sweep 2026-10-16)"
+    ]
+  },
+  "createdAt": "2026-10-16T16:45:23.796295164+00:00",
+  "updatedAt": "2026-10-16T16:45:23.796297068+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
