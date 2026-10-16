@@ -1,0 +1,30 @@
+{
+  "instanceId": "5d5feb79-afe9-42fb-8b8c-a662c143f3ca",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Where an essay keeps each agent's brief (srs-web#567, Funding 2)",
+    "decision_question": "Where does an essay store each connected agent's brief so it persists in the essay's records and opens on another device?",
+    "context": "Problem: Funding 2 (srs-web#567) needs a brief per connected agent, plus a shared 'how to work on this essay', kept WITH the essay, not in localStorage. The essay package (com.mudemocracy.essay 1.7.0) has no field or type that can hold it: the document-state record carries only hidden ids and container ids, and srs-web has no client call for free-text notes. Why it matters: the writer pastes these briefs to start and restart several agents; if they live in one browser they are lost on another device, which is exactly what the issue forbids. Options and consequences: (A) add a text field or a new 'agent-brief' type to the essay package (source in muDemocracy.org muSrs), release it, bump the pin in srs-web; the cleanest data, one more package version for every existing essay to upgrade. (B) store briefs as Tier-0 notes in a new per-essay container, needing a new notes client in srs-web and a WASM check; no package release, but notes are untyped, so the engine cannot validate or guard them. (C) keep briefs in localStorage; rejected by the issue. Recommendation: A, as a package change owned by the essay package's group, then Funding 2 is built against 1.8.0. Action needed: owner or the essay package owner confirms A (or picks B). Urgency: blocks Funding 2 only; Funding 3 and 4 also want stored fields, so decide once for all three.",
+    "friction": "The builder's mandate stops at srs-web; a package change and a pin bump in another repo is a boundary, and nothing in the repo can persist the brief today.",
+    "alternatives_considered": "A: new field or type in the essay package (typed, validated, needs a release and pin bump). B: Tier-0 notes in a per-essay container (no release, untyped, new client code). C: localStorage (rejected, fails the issue). D: do nothing (Funding 2 stays blocked).",
+    "key_requirements": "Briefs persist in the essay's records and survive reload and another device; editing one agent's rules leaves the others unchanged; the shared part is edited once; agents cannot rewrite the writer's briefs.",
+    "decision_statement": "Add the brief to the essay package as typed data (option A), released as a new essay package version that srs-web then pins. Funding 3 (context documents) and Funding 4 (feedback flag) use the same release.",
+    "rationale": "One way per goal: the essay's state already lives in typed package records, the engine validates and guards them, and a brief is data the writer owns. Notes would add an untyped second store.",
+    "revisit_when": "The essay package owner prefers notes, or a package release for these three issues is judged too heavy.",
+    "next_steps": "1. Confirm A or B. 2. If A: file the package change against muDemocracy.org (brief, context-document marker, feedback flag fields). 3. Release, bump packages.lock.json in srs-web, then build Funding 2 to 4.",
+    "owner": "Peter Brownell",
+    "status": "proposed"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-16T19:22:09.941297289+00:00",
+  "updatedAt": "2026-10-16T19:22:09.941314798+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "WG Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
