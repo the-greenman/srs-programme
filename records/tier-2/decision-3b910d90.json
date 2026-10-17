@@ -1,0 +1,26 @@
+{
+  "instanceId": "3b910d90-5525-4898-a925-74537357df03",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A working group operates independently only in a mature domain",
+    "decision_question": "Must a domain name its tensions, and what may a working group do in a domain that names fewer than three?",
+    "context": "2026-10-17: SP-94 (srs-programme#158). Only Semantic records (12 tensions) and Stance (3) of the seven domains name any trade-offs. Working groups hold domains (holds-domain, D4/D5/D15 ratified 2026-10-16), so a group can be chartered on a domain with nothing to test its decisions against.",
+    "alternatives_considered": "Require three tensions before a domain is defined or affirmed (blocks early domains, when we do not yet know their trade-offs). Refuse to charter a group on an immature domain (the group best placed to find the tensions cannot be set up to find them). Never require tensions (decisions in a domain have no default measure for their bias).",
+    "decision_statement": "Domains mature. A domain may be defined and affirmed without tensions; it is mature when it names at least three tensions (axes). A working group may be set up in an immature domain, but it must establish a mature domain before it can operate independently. Until then it works under the owner: no delegated merges, every PR owner-merged.",
+    "rationale": "Every solution trades one side of a paradox against the other. The tensions a domain names are its default measurement system: they let a decision say which trade-offs it took and let the group test its bias. A group without them has nothing to judge its own decisions against, so it should not decide alone; but it is often the group that can find them, so it may be set up to do that first.",
+    "revisit_when": "A group needs independence before three tensions can honestly be named, or three proves the wrong threshold.",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-17T12:14:41.140659044+00:00",
+  "updatedAt": "2026-10-17T12:14:41.233717053+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
