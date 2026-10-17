@@ -1,0 +1,26 @@
+{
+  "instanceId": "5267aa56-c9f9-4393-86f2-064836337fda",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-92",
+    "title": "A bundle of ideas is presented as one decision",
+    "statement": "Almost every decision is several decisions at different layers: a principle, a mechanism, a name, a migration, a rollout. Presented together and undifferentiated, the owner can only accept or reject the whole, and agreeing to one thread carries the others in with it. A decision needs to be split by layer and shown in a coherent form, so each part can be decided on its own and in order.",
+    "kind": "condition",
+    "source_ref": [
+      "semanticops.com#36",
+      "semanticops.com#37",
+      "clerk#57"
+    ]
+  },
+  "createdAt": "2026-10-17T09:58:24.586681043+00:00",
+  "updatedAt": "2026-10-17T09:58:24.586684928+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:problem-scout",
+    "name": "Problem scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
