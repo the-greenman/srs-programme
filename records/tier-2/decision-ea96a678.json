@@ -1,0 +1,25 @@
+{
+  "instanceId": "ea96a678-4b90-4bf6-82ea-40160b0eadc9",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "The owner may request a further agent review",
+    "decision_question": "How does the owner ask an agent to review a PR again, or from another stance?",
+    "context": "Proposed by agent:claude-code from the srs-lab control room (clerk#77). Prototyped against the live PRs on 2026-10-17: clerk#57 asked for thirteen decisions already ratified; srs-programme#154 and #155 proposed decisions only inside their diffs, in state draft; clerk#75 stated a constraining design principle in prose.",
+    "decision_statement": "The owner requests a further review with the review:requested label and an srs:review-request comment naming seat, stance and focus; the group reviewer reviews once more and removes the label.",
+    "rationale": "The reviewer exits once a quorum newer than the head exists, so today a second look needs a new commit or a human review.",
+    "revisit_when": "After the first five requests.",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-17T12:30:29.097979770+00:00",
+  "updatedAt": "2026-10-17T12:30:29.209632554+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (control-room prototype)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

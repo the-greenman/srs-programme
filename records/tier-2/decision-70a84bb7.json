@@ -1,0 +1,25 @@
+{
+  "instanceId": "70a84bb7-4b71-4120-ac6d-364f9733679c",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A choice follows the group lean, or it is asked",
+    "decision_question": "When may an agent take a choice that sits on one of the group tension axes without asking?",
+    "context": "Proposed by agent:claude-code from the srs-lab control room (clerk#77). Prototyped against the live PRs on 2026-10-17: clerk#57 asked for thirteen decisions already ratified; srs-programme#154 and #155 proposed decisions only inside their diffs, in state draft; clerk#75 stated a constraining design principle in prose.",
+    "decision_statement": "A choice that follows the group lean on one of its axes is taken and cites the lean or principle; a choice against the lean is asked of the group or its parent; on an axis with no lean it is a ruling.",
+    "rationale": "Principles and the group trigram make most choices automatic; asking only where the compass is silent or crossed keeps human attention for real tradeoffs.",
+    "revisit_when": "When groups have affirmed trigrams and asks against the lean are still frequent, or never happen.",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-17T12:30:28.657164712+00:00",
+  "updatedAt": "2026-10-17T12:30:28.773258901+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (control-room prototype)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
