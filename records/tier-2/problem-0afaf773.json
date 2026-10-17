@@ -1,0 +1,25 @@
+{
+  "instanceId": "0afaf773-b545-4a07-92f4-6b0ad5e1dfed",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-93",
+    "title": "The decisions under a decision are hard to see, and are not tested later",
+    "statement": "Decisions taken one at a time hide their foundations; the threads beneath one only show with time and in context. Nothing brings a decision and its consequences back for review in context, so incoherence between decisions is found late, if at all. Judging a decision now and testing its coherence later are different acts, and the second has no place in how a group works.",
+    "kind": "condition",
+    "source_ref": [
+      "semanticops.com#36",
+      "semanticops.com#37"
+    ]
+  },
+  "createdAt": "2026-10-17T09:58:24.756202948+00:00",
+  "updatedAt": "2026-10-17T09:58:24.756210358+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:problem-scout",
+    "name": "Problem scout"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
