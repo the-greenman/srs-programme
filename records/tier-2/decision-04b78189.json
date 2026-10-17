@@ -1,0 +1,30 @@
+{
+  "instanceId": "04b78189-dfb0-4361-b216-a5d71f0ecc07",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Convention: one filename slug scheme for new package definition files (srs-rust#1209)",
+    "decision_question": "Which slug scheme should new definition files use, so lifecycle and vocabulary stop diverging from every other definition kind?",
+    "context": "Problem: srs-rust writes definition files under two slug schemes. Eight definition kinds use package_service::definition_rel_path (non-alphanumerics dropped, spaces to '-'); lifecycle and vocabulary used their own (every non-alphanumeric to '-'), so the same name gives different filenames depending on kind. Why it matters: one way per goal; a reader cannot predict a filename, and tools that derive paths drift. Options and consequences: (A) adopt the shared scheme for new files as a convention, rename nothing, test it in use; (B) enforce at once and rename existing files, which churns every corpus; (C) leave both. Recommendation: A, per the owner's 2026-10-10 principle (a convention is a test until proven, then enforced). Action needed: none now; ratify to keep the convention, or reject to revert PR. Urgency: low.",
+    "friction": "Two schemes for one job; the question was left open since #1209 was found during #663.",
+    "alternatives_considered": "A. Shared scheme as convention for new files, nothing renamed (chosen). B. Enforce now and rename existing files (rejected: churn, and the owner ruled enforcement comes only after proof). C. Do nothing (rejected: the divergence persists and one-way-per-goal is breached).",
+    "key_requirements": "New lifecycle and vocabulary files use definition_rel_path. Existing files are found by their index and are never renamed. No enforcement or warning check yet.",
+    "decision_statement": "New definition files of every kind, lifecycle and vocabulary included, are named by package_service::definition_rel_path. This is a convention, used as a test until proven; enforcement across the board needs a separate later decision.",
+    "rationale": "Eight of ten kinds already use the shared helper, so converging the two outliers is the smallest change that gives one scheme. The owner's ruling on srs-rust#1209 (2026-10-10) asks for a convention first, proven before it is enforced.",
+    "revisit_when": "Proving criteria: after 10 new lifecycle or vocabulary files, or 30 days from merge (whichever is later), with zero path-derivation bugs and no request to restore the old slug; then propose enforcement (a warning-level check for the other scheme) as its own decision.",
+    "next_steps": "Merge the srs-rust change. Count new lifecycle and vocabulary files from the merge. Steward reviews at the revisit date and proposes enforcement or retirement.",
+    "owner": "human:the-greenman",
+    "status": "proposed"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-16T17:21:02.368573397+00:00",
+  "updatedAt": "2026-10-16T17:21:02.368579639+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "WG Third-party ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
