@@ -1,0 +1,24 @@
+{
+  "instanceId": "0e366cfd-3e64-4eea-ae84-7a7538e545c8",
+  "typeId": "58f0ee7b-8063-4fc7-9b39-af918962c91f",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "standing-job",
+  "fieldValues": {
+    "title": "Name the clusters",
+    "description": "Weekly: read each domain container with unclustered depth-0 problems, suggest named clusters with descriptions in Suggestions under agent:synthesizer, and propose the outline move (clusters at depth 0, problems at depth 1). May add, merge, reshape and rename its own suggested clusters; never touches an affirmed cluster beyond adding problems to it; never affirms.",
+    "done_when": "Each domain read has its unclustered problems grouped under suggested clusters that differ clearly from their neighbours (or is reported as needing none), one programme PR and a run report say how each new or changed cluster differs, and the digest issue lists what the owner is asked to affirm.",
+    "trigger": "weekly, Tuesday 06:00 UTC",
+    "size": "Up to 3 domains per run",
+    "brief_path": "routines/synthesiser.md"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-18T00:10:06.391470484+00:00",
+  "updatedAt": "2026-10-18T00:10:06.391485496+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:unattended-worker",
+    "name": "Unattended lane worker"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
