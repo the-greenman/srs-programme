@@ -1,0 +1,26 @@
+{
+  "instanceId": "b9ca3e0a-7995-4265-8fd4-36110b3d147e",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Editing an agent's words makes them the writer's own record, and the page shows how much is the writer's",
+    "move": "When the writer edits a block an agent wrote, the editor first forks it into a record the writer created, derived from the agent's, with its evidence carried over, and keeps the agent's version as an alternative. A meter shows the share of the page's words in records the writer created, so ownership grows visibly as the writer rewrites.",
+    "does_not_fix": "How much of a block was rewritten: one changed comma makes the block the writer's. Shared group ownership of words, where several humans write.",
+    "falsifier": "The owner rewrites agent copy and the page still shows it as the agent's, or the share of the owner's words does not rise as the owner rewrites, or an agent's earlier version cannot be found after the owner's edit.",
+    "source_ref": [
+      "muDemocracy.org#350",
+      "muDemocracy.org:site-editor/DECISIONS.md#d6"
+    ],
+    "return_when": "When the owner has rewritten a page that started from agent drafts and has said whether the meter matched their sense of whose words the page is in."
+  },
+  "createdAt": "2026-10-19T10:14:20.153189062+00:00",
+  "updatedAt": "2026-10-19T10:14:20.153190463+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:site-editor-builder",
+    "name": "Site editor builder (Claude Code)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,32 @@
+{
+  "instanceId": "fe77c238-ce4c-4f72-81e6-b2524a14f24a",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Site author in Evidence-backed writing",
+    "summary": "The owner writing a public website, where every statement must be backed by evidence and agents may draft copy freely. The owner owns the words over time: agent drafts reach the page only when the owner swaps them in, and editing makes them the owner's. Distinct from the essay writer, who wants no agent drafting.",
+    "goals": [
+      "Every statement on the site can be backed by a claim, a source or our own content",
+      "Agents draft freely, but nothing reaches the page unseen",
+      "The page's words become the owner's own over time",
+      "Start from what is live, not from a blank page or placeholders"
+    ],
+    "jobs": [
+      "Build and rearrange a page from the site's blocks",
+      "Back each sentence with a claim and see the claim's warrant and overstatement",
+      "Compare an agent's alternative with the current block and swap one in",
+      "Hand an agent the page and its unbacked sentences"
+    ],
+    "needs": "Sentence-level evidence on the page itself, alternatives kept beside each block, and a visible record of whose words are on the page."
+  },
+  "createdAt": "2026-10-19T10:14:20.377178354+00:00",
+  "updatedAt": "2026-10-19T10:14:20.377179806+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:site-editor-builder",
+    "name": "Site editor builder (Claude Code)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
