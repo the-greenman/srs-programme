@@ -13,9 +13,9 @@
     "revisit_when": "When a decision is found in a merged PR that its block does not name, or the block is routinely left empty.",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-17T12:30:28.216965210+00:00",
-  "updatedAt": "2026-10-17T12:30:28.341793257+00:00",
+  "updatedAt": "2026-10-19T17:21:55.144819398+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

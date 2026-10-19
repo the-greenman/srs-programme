@@ -13,9 +13,9 @@
     "revisit_when": "When a choice is later found to settle another choice, or a group log fills with rulings no later work cites.",
     "decision_kind": "design"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-17T12:30:28.445064025+00:00",
-  "updatedAt": "2026-10-17T12:30:28.560116386+00:00",
+  "updatedAt": "2026-10-19T17:21:55.314996346+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

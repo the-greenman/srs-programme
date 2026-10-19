@@ -13,9 +13,9 @@
     "revisit_when": "When agents post under their own GitHub identities.",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-17T12:30:28.879257610+00:00",
-  "updatedAt": "2026-10-17T12:30:28.997470999+00:00",
+  "updatedAt": "2026-10-19T17:21:54.469939127+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",
