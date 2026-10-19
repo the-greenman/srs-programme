@@ -13,9 +13,9 @@
     "revisit_when": "After the first five requests.",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-17T12:30:29.097979770+00:00",
-  "updatedAt": "2026-10-17T12:30:29.209632554+00:00",
+  "updatedAt": "2026-10-19T17:21:55.481977461+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",
