@@ -13,9 +13,9 @@
     "revisit_when": "When groups have affirmed trigrams and asks against the lean are still frequent, or never happen.",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-17T12:30:28.657164712+00:00",
-  "updatedAt": "2026-10-17T12:30:28.773258901+00:00",
+  "updatedAt": "2026-10-19T17:21:54.969946776+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

@@ -1,0 +1,18 @@
+{
+  "instanceId": "fe225d2e-54a9-4197-a3a6-f8a69a693ecf",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "this is a mixed set of decsions on one. We could probably simplify it into smaller decisions. Only mature domains can operate independently. Until a domain meets all criteria, PRs are owner merged."
+  },
+  "createdAt": "2026-10-19T17:21:54.567399737+00:00",
+  "updatedAt": "2026-10-19T17:21:54.567405330+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

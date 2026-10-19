@@ -1,0 +1,18 @@
+{
+  "instanceId": "c35ab9db-d2f6-44dc-bd4d-d92f9f695072",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "We found a 3rd version of this which has now been removed. The MuSrs home page had connections to problems via a projects relationship. We also established documentation on the agent based argument structure in muSrs. We should make sure that we we buildoing an understanding of what it is we are actually tryin to do. We have many versions of this wheel."
+  },
+  "createdAt": "2026-10-19T17:21:55.836011125+00:00",
+  "updatedAt": "2026-10-19T17:21:55.836016211+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
