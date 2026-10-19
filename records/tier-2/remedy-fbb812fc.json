@@ -1,0 +1,26 @@
+{
+  "instanceId": "fbb812fc-5e21-45a9-b187-26d9a607152d",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A replaced version is never deleted: it waits beside the block as an alternative",
+    "move": "Replacing a block, by swapping in an alternative or by editing someone else's words, moves the old version to the document's drafts instead of deleting it, linked to the block it was. The block lists its alternatives, so an abandoned framing can be compared and swapped back in one step.",
+    "does_not_fix": "Clearing out drafts that are no longer wanted (a bin or pruning). Versions of a single record's text over time, which is undo (SP-89).",
+    "falsifier": "The writer wants back a framing they replaced earlier and cannot find it among the block's alternatives, or swapping it back loses its evidence.",
+    "source_ref": [
+      "muDemocracy.org#350",
+      "muDemocracy.org:site-editor/DECISIONS.md#d7"
+    ],
+    "return_when": "When drafts on a real page hold more alternatives than the writer can scan, or the writer has swapped back an abandoned framing at least once."
+  },
+  "createdAt": "2026-10-19T10:14:20.264084445+00:00",
+  "updatedAt": "2026-10-19T10:14:20.264085863+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:site-editor-builder",
+    "name": "Site editor builder (Claude Code)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
