@@ -1,0 +1,23 @@
+{
+  "instanceId": "70397be1-998b-44a5-8a72-b38957f1456d",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Third-party ready: cycle close 2026-10-19",
+    "run_date": "2026-10-19",
+    "chose": "Paused: 2 reports unacknowledged. React 👍 to resume.\n\nWG Third-party ready: cycle 2026-10-18 11:30 to 2026-10-19 11:30 UTC\n\n1. Decisions for you: one, unchanged (no new escalation this cycle).\n- Fact: the standard says Field and Type names are snake_case, but all 151 Type, View, Composition, Blueprint and Vocabulary names in use are kebab-case (srs#236, P0, blocks the gate).\n- Why it matters: whichever you pick becomes what third parties are told to follow; changing the written standard is yours, not the group's.\n- Options and consequences: (1) rename all 151: text stays true, but it reaches the generator, every rendered page and every by-name reference. (2) keep Field names snake_case, document Type and Vocabulary names as kebab-case, split the shared `name` Field: matches practice, small change. (3) grandfather the 151, enforce only for new names: no rewrite, rule stays half-enforced.\n- Recommendation: option 2. Action needed: decide. Urgency: medium (srs#236 stays blocked until you do).\n- Record: proposed decision b80d2d1e. Detail: https://github.com/the-greenman/srs/issues/236\nStill waiting on you: srs-vscode#135 (owner-merge, open since 10-12, unstable); srs-rust#861 (doctor over MCP, split not yet filed); srs-rust#683 (parked behind ratified decision 31e9fd27, RFC next).\n\n2. Decided within mandate: no decision ready to ratify, so no group session was held. Decision 04b78189 (one definition filename scheme, srs-rust#1209) has the reviewer's assent and its PR merged (srs-rust#1405), but its record is on srs-programme#154, still open and conflicted with master, so it stays proposed (about 2.5 days). No owner ruling for this group was found in the group log this cycle.\n\n3. Done: 0 group PRs merged this cycle (the last merges were 10-17: srs#938, srs-rust#1410).\n\n4. Stuck or lost: the group is paused, so upkeep merges nothing and the Builder opens nothing new. Open group PRs: srs-vscode#135 only (owner-merge). srs-programme#154 (decision 04b78189) is conflicted; srs-programme#115 (steward report 2026-10-12) is conflicted and stale, safe to close. needs-input: srs-rust#861, #683, #1198, srs#236. No red gates reported by runs, no claims to release.\n\n5. Budget: 0 of 10 delegated merges this cycle; 0 open delegated. Pause state: paused: 2 reports unacknowledged (10-17 and 10-18 lack a thumbs-up; 10-12 to 10-16 have one).\n5b. Awaiting ratification: decision 04b78189 (proposed, about 2.5 days, waiting on its PR) and escalation b80d2d1e (proposed, 2 days, waiting on your ruling). Session to ratify: `clerk session --as owner --repo <srs-programme> --ratify all` (the-greenman/clerk; the TUI is `clerk --as owner`).\n\n6. Next: ready issues in the four code repos: srs-rust 5 (3 stopped on needs-input: #861, #683, #1198), srs-vscode 2 (one already PR #135), srs 0, srs-web 0. Workable: srs-rust#1132 (P2), srs-vscode#133 (P2). No local priorities set. Open group PRs in flight: 0 delegated. Budget left: 10, but paused. Queue running dry: 2 workable ready, budget 10. Needs feeding (the pause blocks the Builder either way). What waits on the owner: the decision above, srs-vscode#135, and the 👍 on the reports. Fed by the analyst: 2026-10-18 run filed 0, ready now 2; nothing new since.\n\n6b. Exercises: none open in the group log.\n\n7. What we learned: the pause rule did what it is for: two silent days and the group stopped taking merges, so a quiet owner now costs throughput within a day. It also shows the reports are read as a heartbeat, not only as content; a one-line \"nothing for you today\" form may be enough to acknowledge. Build trigger: ratified decisions across both logs are well over 10, so srs-web#560 (decision-log lens) stays ready to unpark; flagged again for you.\n",
+    "rationale": "No new escalation was raised: the only item outside the boundary, srs#236, is already open as proposed decision b80d2d1e, so no second record was filed.",
+    "figures": "merged by group 0/10; open 0 delegated; ready issues 7 (2 workable); proposed decisions pending 2; paused: yes (2 unacknowledged)",
+    "landed_as": "pending"
+  },
+  "createdAt": "2026-10-19T11:34:45.074369998+00:00",
+  "updatedAt": "2026-10-19T11:34:45.074376865+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
