@@ -1,0 +1,20 @@
+{
+  "instanceId": "a6684910-fd10-4554-93e3-359860792d48",
+  "typeId": "c2ec9c8a-b36b-4b19-940f-374b338e30a6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "epic",
+  "fieldValues": {
+    "title": "One always-on owner desk: clerk serve, with the control room as its client",
+    "issue_ref": [
+      "semanticops.com#38"
+    ]
+  },
+  "createdAt": "2026-10-20T15:24:24.022338065+00:00",
+  "updatedAt": "2026-10-20T15:24:24.022352902+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
