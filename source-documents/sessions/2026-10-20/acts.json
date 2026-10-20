@@ -1,0 +1,98 @@
+{
+  "session": "95999e65-f8cf-40e1-96e7-54b04ee29207",
+  "acts": [
+    {
+      "at": "2026-10-20T13:48:16.680Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 2,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-10-20T13:20:15.951834629+00:00",
+      "kind": "comment",
+      "id": "926c059f-9122-4b0b-9991-b5d891d485e0",
+      "title": "Rules for adding to the clerk"
+    },
+    {
+      "at": "2026-10-20T13:48:18.405Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 2,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-10-20T13:20:15.951834629+00:00",
+      "kind": "ratify",
+      "id": "926c059f-9122-4b0b-9991-b5d891d485e0",
+      "title": "Rules for adding to the clerk"
+    },
+    {
+      "at": "2026-10-20T13:50:15.499Z",
+      "section": "Decisions since the last session",
+      "position": 2,
+      "of": 2,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-10-20T13:20:15.768693116+00:00",
+      "kind": "ratify",
+      "id": "a8bc55ef-76ac-4cca-8330-7471c92eaad5",
+      "title": "Who governs the clerk long term"
+    },
+    {
+      "at": "2026-10-20T13:50:30.806Z",
+      "section": "Reports",
+      "position": 1,
+      "of": 3,
+      "seen": [],
+      "kind": "receive",
+      "id": "5a2685f9-046a-499b-97ca-ace29728b5c8",
+      "title": "WG Agent-supported editor report 2026-10-20"
+    },
+    {
+      "at": "2026-10-20T13:50:46.874Z",
+      "section": "Reports",
+      "position": 2,
+      "of": 3,
+      "seen": [],
+      "kind": "receive",
+      "id": "9d0972f4-cdc8-4103-8372-8f3bc5f32775",
+      "title": "WG Third-party ready report 2026-10-12"
+    },
+    {
+      "at": "2026-10-20T13:50:49.453Z",
+      "section": "Reports",
+      "position": 3,
+      "of": 3,
+      "seen": [],
+      "kind": "receive",
+      "id": "053edd3e-a774-484d-a687-434b7ecc613d",
+      "title": "WG Third-party ready report 2026-10-20"
+    },
+    {
+      "at": "2026-10-20T13:52:23.855Z",
+      "section": "Decisions for this session",
+      "position": 1,
+      "of": 2,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-10-20T11:36:27.365387475+00:00",
+      "kind": "accept",
+      "id": "04b78189-dfb0-4361-b216-a5d71f0ecc07",
+      "title": "Convention: one filename slug scheme for new package definition files (srs-rust#1209)"
+    },
+    {
+      "at": "2026-10-20T13:54:14.984Z",
+      "section": "Decisions for this session",
+      "position": 2,
+      "of": 2,
+      "seen": [],
+      "updatedAt": "2026-10-20T11:36:27.589364978+00:00",
+      "kind": "other",
+      "id": "b80d2d1e-627e-4181-9cef-81c1499feaf4",
+      "title": "Escalation: what naming rule do Type and Vocabulary names follow? (srs#236)"
+    }
+  ]
+}
