@@ -1,0 +1,25 @@
+{
+  "instanceId": "2993dd83-d99a-479d-9ca8-b57b13f0debf",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Carry origin and identity through every change",
+    "move": "Implement the accepted RFC-046 createdBy actor, so every record and relation says who asserted it, and give a change of type its own ruled operation (a retype that keeps identity through a lineage relation; srs#322, srs#178), so no record is deleted and recreated to change its type.",
+    "does_not_fix": "Whether an attributed claim is true; provenance of knowledge that never enters SRS.",
+    "falsifier": "A record created after RFC-046 lands with no createdBy, or a record whose type changed by delete and recreate.",
+    "source_ref": [
+      "srs-programme: domain health walk of Semantic records, 2026-10-20"
+    ],
+    "return_when": "When srs-rust#1171 merges, or when the retype ruling is made."
+  },
+  "createdAt": "2026-10-20T15:47:55.474685573+00:00",
+  "updatedAt": "2026-10-20T15:47:55.474687371+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
