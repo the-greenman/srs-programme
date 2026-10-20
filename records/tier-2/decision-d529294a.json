@@ -1,0 +1,28 @@
+{
+  "instanceId": "d529294a-dccf-48e2-9271-a8d76efbd365",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Pin bumps are automatable PRs",
+    "decision_question": "Which merge gate does a PR take when it only bumps a pin?",
+    "context": "Problem: pin bumps have been owner merges. The two group charters escalate 'a pin bump in another repo' (boundary on roles 834b61fd and 1fc9ce85), and central-group pin bumps were labelled gate:owner-merge. Yet a pin only deploys code that was already reviewed and merged at its source. srs-programme#173, which deploys the upkeep from clerk#90, waited on the owner after the owner had already merged clerk#90 and a dry run had passed.\nWhy it matters: owner reviews of pin bumps re-judge work already judged, adding to the decision load the programme is trying to cut (SP-63, suggested).\nOptions and consequences: (a) a pin-only PR is gate:auto-merge; (b) the same, but only with a green dry run or CI evidence of the new version; (c) do nothing.\nRecommendation: (a), as the owner instructed (2026-10-20).\nAction needed: ratify in a session; on ratification, remove 'a pin bump in another repo' from both group charters' boundary, and from routines/wg-builder.md and wg-reviewer.md.\nUrgency: low. The owner's instruction already applies to central-group PRs (srs-programme#173 relabelled).",
+    "friction": "srs-programme#173 deployed code the owner had already merged, and still queued for the owner.",
+    "alternatives_considered": "(a) A PR whose diff only changes pinned versions, tags or commit SHAs of something already merged or released at its source is gate:auto-merge, and merges when clean like any other. A pin bump that also changes code is classed by that code. Leads to deploys landing without a second owner review; the review happened at the source. Leans to throughput on 'Human judgement and agent throughput'.\n(b) The same, but auto-merge only with a green dry run or CI run that exercises the new version. Leads to one more gate, which most pins already get from CI.\n(c) Do nothing: pin bumps stay owner merges, and groups keep escalating them. Leads to the owner re-reviewing work already reviewed at its source.",
+    "key_requirements": "The pinned target must already be merged on its source's default branch or published as a release. The PR's diff must change nothing but pin values. CI must be green.",
+    "decision_statement": "A PR that only bumps a pin to something already merged or released at its source is gate:auto-merge, for the central group and for every working group.",
+    "rationale": "Review belongs at the source, where the code changes. A pin only chooses when reviewed code is deployed.",
+    "revisit_when": "When a pin bump that merged automatically breaks a consumer and the source review could not have caught it.",
+    "owner": "Owner role (SemanticOps)",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-20T14:09:45.954655781+00:00",
+  "updatedAt": "2026-10-20T14:09:46.053913724+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
