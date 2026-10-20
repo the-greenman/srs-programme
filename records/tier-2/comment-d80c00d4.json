@@ -1,0 +1,18 @@
+{
+  "instanceId": "d80c00d4-4c05-4be0-8721-8691d30999e8",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: This is our starting point. An AI age where we need to understand what the difference between human and AI roles are. Decision making can sometimes be delegated, but never without care"
+  },
+  "createdAt": "2026-10-20T12:14:06.956950417+00:00",
+  "updatedAt": "2026-10-20T12:14:06.956954511+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

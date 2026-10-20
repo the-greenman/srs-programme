@@ -1,0 +1,23 @@
+{
+  "instanceId": "e78b0f66-0022-408a-8930-7bd0e76bfa5e",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Core service over adapter logic",
+    "boundary_clause": "When multiple adapters need the same logic, it must be core. Adapters can innovate, but should record their decisions. ",
+    "context": "Applies in the SRS implementation boundary. Evidenced: capability-layering.md, ADR-010, ADR-037; srs-bindings 'no duplicated logic'.",
+    "source_ref": [
+      "source-documents/boundaries-2026-10-09/proposal.md (section 3.3)"
+    ]
+  },
+  "createdAt": "2026-10-20T11:57:05.027579192+00:00",
+  "updatedAt": "2026-10-20T11:57:05.257224721+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,26 @@
+{
+  "instanceId": "f3decaee-1023-411c-ae31-7ca9e33880a5",
+  "typeId": "c57aafdd-d002-4ee6-9a2b-ff3805107580",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona",
+  "fieldValues": {
+    "title": "A person working with AI",
+    "summary": "Someone directing AI agents whose deep context the agents lack: they need to share their assumptions so the AI knows where to focus.",
+    "jobs": [
+      "Hand over the context that matters",
+      "Scope what an agent should and should not touch",
+      "Check an agent's work against intent",
+      "Keep decisions an agent cannot re-derive"
+    ],
+    "needs": "A way to state assumptions once that every agent reads, with provenance."
+  },
+  "createdAt": "2026-10-20T12:14:06.629914797+00:00",
+  "updatedAt": "2026-10-20T12:14:06.629916366+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

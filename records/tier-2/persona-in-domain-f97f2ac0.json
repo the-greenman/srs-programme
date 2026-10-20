@@ -1,0 +1,26 @@
+{
+  "instanceId": "f97f2ac0-aed8-4a2e-af44-fc60d15a660a",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Writer / argument builder in Group meaning ownership",
+    "summary": "A writer whose group's records should open in a view that fits the work, not one engine view for every repository.",
+    "goals": [
+      "Work in a view made for the group's purpose"
+    ],
+    "jobs": [
+      "Open a group's repository and write in it"
+    ],
+    "needs": "Each repository opening in the view its purpose calls for."
+  },
+  "createdAt": "2026-10-20T11:51:18.070934434+00:00",
+  "updatedAt": "2026-10-20T11:51:18.070938348+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

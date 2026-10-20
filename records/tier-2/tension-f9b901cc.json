@@ -1,0 +1,19 @@
+{
+  "instanceId": "f9b901cc-cb78-49c5-9028-77ccfcdee633",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Spec-led and implementation-led",
+    "description": "Whether the specification is settled before code ships or code may run ahead of it."
+  },
+  "createdAt": "2026-10-20T11:54:13.607603216+00:00",
+  "updatedAt": "2026-10-20T11:54:13.607605794+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

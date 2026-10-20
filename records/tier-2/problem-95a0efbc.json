@@ -1,0 +1,25 @@
+{
+  "instanceId": "95a0efbc-07de-4c72-aa1f-0150a445fcbc",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-94",
+    "title": "Domains do not name the trade-offs that test their decisions",
+    "statement": "Every domain has foundational paradoxes that apply to it, such as movement and stillness, or openness and focus. Every solution trades one side against the other: what feeds one person poisons another. A domain that names none of its tensions gives a decision nothing to test its bias against, so nobody can tell whether the problem was seen from enough angles to judge it. Only two of the seven domains name any trade-offs today. Without at least three tensions, a domain has no default measure for weighing a remedy, and a decision cannot say which trade-offs it took.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-17: a domain is not fully defined until it names at least three axes and tensions",
+      "srs-web#562"
+    ]
+  },
+  "createdAt": "2026-10-20T11:52:07.634253476+00:00",
+  "updatedAt": "2026-10-20T11:52:07.634255162+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

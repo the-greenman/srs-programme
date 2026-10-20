@@ -1,0 +1,20 @@
+{
+  "instanceId": "8e34d136-05a5-4539-95b2-1a2083304185",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Affirmed meaning over fixed arrangement",
+    "boundary_clause": "Unless the order is itself the meaning (a sequence or a ranking): then the arrangement is stated.",
+    "context": "Relayed from the owner's walk of 2026-10-11 after session srs-programme#100; suggested for affirmation. Applied when objectives address named clusters rather than fixed domains or single problems."
+  },
+  "createdAt": "2026-10-20T11:54:55.592847247+00:00",
+  "updatedAt": "2026-10-20T11:54:55.592849064+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

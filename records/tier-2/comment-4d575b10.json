@@ -1,0 +1,18 @@
+{
+  "instanceId": "4d575b10-b93d-4002-bceb-8d322c3a47e3",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Held for review"
+  },
+  "createdAt": "2026-10-20T12:28:48.430014241+00:00",
+  "updatedAt": "2026-10-20T12:28:48.430018156+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

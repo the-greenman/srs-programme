@@ -1,0 +1,19 @@
+{
+  "instanceId": "5f1d2247-d394-49cc-94fd-614c5e650242",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "One mechanism and compatibility",
+    "description": "Whether the old way is carried alongside the new one or collapsed to one."
+  },
+  "createdAt": "2026-10-20T11:53:50.234286132+00:00",
+  "updatedAt": "2026-10-20T11:53:50.234289328+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

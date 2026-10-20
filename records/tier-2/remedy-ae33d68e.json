@@ -1,0 +1,28 @@
+{
+  "instanceId": "ae33d68e-c529-4c79-9550-590011eef4d1",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A newcomer is oriented by a question-shaped, bounded read",
+    "move": "Orientation becomes one bounded read: an agent asks in plain words and gets a short ranked set of records, each with a line on why it matched and a statement of what the read left out. A brief names the records it was built from and says outright that it is a pointer, never the answer, so an agent checks the source before claiming anything the brief does not hold.",
+    "does_not_fix": "The cost of the tool list itself, which needs its own change on the tool surface (SP-26); and what a view hides by default (SP-24), beyond the read stating what it left out.",
+    "falsifier": "A cold agent given a task still spends more than a fifth of its budget on orientation, or still answers from the brief alone on a question whose answer sits outside it, in three of five trial tasks.",
+    "source_ref": [
+      "semanticops.com#25",
+      "srs-rust#1284",
+      "srs-rust#1289",
+      "srs-context:With the brief loaded, agents answer from it alone"
+    ],
+    "return_when": "When five cold-start tasks have been run with the bounded read and the owner has seen the orientation cost and the brief-only answers for each."
+  },
+  "createdAt": "2026-10-20T11:27:36.602231784+00:00",
+  "updatedAt": "2026-10-20T11:27:36.602234868+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

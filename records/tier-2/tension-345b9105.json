@@ -1,0 +1,19 @@
+{
+  "instanceId": "345b9105-982d-4f9e-a1e5-72b6575c2520",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Change",
+    "description": "Whether change comes from testing new approaches or from deepening what already works."
+  },
+  "createdAt": "2026-10-20T11:24:12.678683165+00:00",
+  "updatedAt": "2026-10-20T11:24:12.678684781+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,19 @@
+{
+  "instanceId": "7ac28da0-1aa0-4c4b-863b-c7b62d930555",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Containment and Portability",
+    "description": "Whether a capability can move with the data or lives only where it was made."
+  },
+  "createdAt": "2026-10-20T11:24:27.417013633+00:00",
+  "updatedAt": "2026-10-20T11:24:27.417016513+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

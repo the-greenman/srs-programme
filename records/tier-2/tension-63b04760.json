@@ -1,0 +1,19 @@
+{
+  "instanceId": "63b04760-4464-4f50-a5a0-2ff6c9f68671",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Perspective",
+    "description": "Whether attention narrows onto a specific target or widens to the system as a whole."
+  },
+  "createdAt": "2026-10-20T11:25:46.621563311+00:00",
+  "updatedAt": "2026-10-20T11:25:46.621564867+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,26 @@
+{
+  "instanceId": "9ce3dedc-e0f5-4fbb-bede-d09614864cc7",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Editing an agent's words makes them the writer's own record, and the page shows how much is the writer's",
+    "move": "When the writer edits a block an agent wrote, the editor first forks it into a record the writer created, derived from the agent's, with its evidence carried over, and keeps the agent's version as an alternative. A meter shows the share of the page's words in records the writer created, so ownership grows visibly as the writer rewrites.",
+    "does_not_fix": "How much of a block was rewritten: one changed comma makes the block the writer's. Shared group ownership of words, where several humans write.",
+    "falsifier": "If we see, over time, that human edits cease to offer any meaningful changes to what the agent produced we have actually removed human agency. We should not pretend that human agency is present when it is not. ",
+    "source_ref": [
+      "muDemocracy.org#350",
+      "muDemocracy.org:site-editor/DECISIONS.md#d6"
+    ],
+    "return_when": "When the owner has rewritten a page that started from agent drafts and has said whether the meter matched their sense of whose words the page is in."
+  },
+  "createdAt": "2026-10-20T11:29:57.380512330+00:00",
+  "updatedAt": "2026-10-20T11:29:57.602506752+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

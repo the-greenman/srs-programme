@@ -1,0 +1,27 @@
+{
+  "instanceId": "20662d07-99c4-4a0f-8090-bcdf7e87570f",
+  "typeId": "c57aafdd-d002-4ee6-9a2b-ff3805107580",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona",
+  "fieldValues": {
+    "title": "Writer / argument builder",
+    "summary": "A person working with AI on a structured argument (a specific case of \"A person working with AI\"), who needs the structure to hold as the text changes.",
+    "jobs": [
+      "Lay out a claim with its premises",
+      "Attach sources and counter-claims to a claim",
+      "Restructure an argument without losing links",
+      "Ask an agent to enrich without rewriting",
+      "Publish the argument in a readable form"
+    ],
+    "needs": "Structure that survives editing, sources and counter-claims attached, and agents that never write their text."
+  },
+  "createdAt": "2026-10-20T12:29:00.355801699+00:00",
+  "updatedAt": "2026-10-20T12:29:00.355803810+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

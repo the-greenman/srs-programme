@@ -1,0 +1,19 @@
+{
+  "instanceId": "185810b0-45a5-40b1-bf3b-ad49503ac344",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Attribution and Repository",
+    "description": "Whether a claim is trusted because of the office behind it or because someone testified to it."
+  },
+  "createdAt": "2026-10-20T11:24:01.318714252+00:00",
+  "updatedAt": "2026-10-20T11:24:01.318715695+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
