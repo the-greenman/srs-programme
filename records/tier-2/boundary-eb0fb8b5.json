@@ -1,0 +1,22 @@
+{
+  "instanceId": "eb0fb8b5-687e-44fd-80e5-1fcb0a49478c",
+  "typeId": "5091e5a0-4fa5-4b7b-9108-6d59765ce68d",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.argument",
+  "typeName": "boundary",
+  "fieldValues": {
+    "title": "The clerk: wire formats",
+    "purpose": "The text contracts agents and code exchange, so a rule written once is read the same everywhere.",
+    "inside": "Comment markers (<!-- wg-quorum -->, <!-- wg-report -->, <!-- srs:answer -->, <!-- actor: -->), gate and group labels, the srs-decisions block, the quorum line.",
+    "outside": "What a well-formed value means for a decision (the rules layer); how it is fetched (reads and writes).",
+    "authority_basis": "Programme coordination (346e323e, affirmed); a8bc55ef and 926c059f (ratified 2026-10-20). Held by the central group until a group for Programme coordination is chartered.",
+    "revision_condition": "When a rule cannot be placed in exactly one layer, or two principles on one tension collide inside this layer."
+  },
+  "createdAt": "2026-10-20T14:14:01.787363141+00:00",
+  "updatedAt": "2026-10-20T14:14:01.787364994+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

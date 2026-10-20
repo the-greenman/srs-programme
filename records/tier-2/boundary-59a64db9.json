@@ -1,0 +1,22 @@
+{
+  "instanceId": "59a64db9-96db-41a1-b972-0145e4c8f26b",
+  "typeId": "5091e5a0-4fa5-4b7b-9108-6d59765ce68d",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.argument",
+  "typeName": "boundary",
+  "fieldValues": {
+    "title": "The clerk: reads and writes",
+    "purpose": "Getting facts in and acts out, with nothing decided on the way.",
+    "inside": "lib/adapters: GitHub REST, the pinned srs CLI, the programme settings and charters.",
+    "outside": "Judgement of any kind; the shape of a command.",
+    "authority_basis": "Programme coordination (346e323e, affirmed); a8bc55ef and 926c059f (ratified 2026-10-20). Held by the central group until a group for Programme coordination is chartered.",
+    "revision_condition": "When a rule cannot be placed in exactly one layer, or two principles on one tension collide inside this layer."
+  },
+  "createdAt": "2026-10-20T14:14:02.722045929+00:00",
+  "updatedAt": "2026-10-20T14:14:02.722050943+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

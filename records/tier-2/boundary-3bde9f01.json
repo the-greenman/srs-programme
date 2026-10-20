@@ -1,0 +1,22 @@
+{
+  "instanceId": "3bde9f01-8300-4c82-9e77-d81c2c94a1db",
+  "typeId": "5091e5a0-4fa5-4b7b-9108-6d59765ce68d",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.argument",
+  "typeName": "boundary",
+  "fieldValues": {
+    "title": "The clerk: rules",
+    "purpose": "The governance decisions themselves: who may merge, claim, ratify or pause, and why not.",
+    "inside": "lib/practice: pure functions over parsed data (upkeep, claim, session, pr-decisions, groups, desk, agenda).",
+    "outside": "Any I/O, clock or process state; presentation.",
+    "authority_basis": "Programme coordination (346e323e, affirmed); a8bc55ef and 926c059f (ratified 2026-10-20). Held by the central group until a group for Programme coordination is chartered.",
+    "revision_condition": "When a rule cannot be placed in exactly one layer, or two principles on one tension collide inside this layer."
+  },
+  "createdAt": "2026-10-20T14:14:02.262856125+00:00",
+  "updatedAt": "2026-10-20T14:14:02.262857702+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

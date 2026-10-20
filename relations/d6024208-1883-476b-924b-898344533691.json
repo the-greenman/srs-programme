@@ -1,0 +1,12 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "d6024208-1883-476b-924b-898344533691",
+  "relationType": "refines",
+  "sourceInstanceId": "faadcffa-ddd4-44bb-bc57-2e6e963b9c76",
+  "targetInstanceId": "926c059f-9122-4b0b-9991-b5d891d485e0",
+  "createdAt": "2026-10-20T14:14:04.874075855+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code"
+  }
+}

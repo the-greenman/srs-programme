@@ -1,0 +1,22 @@
+{
+  "instanceId": "be4958ca-d134-445c-acc5-99b4b80f1503",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "The owner keeps the clerk's authority rules over delegating them with its code",
+    "boundary_clause": "unless the owner delegates a named authority rule explicitly, in a ratified decision.",
+    "context": "Changes to gates, merge rules, quorum, budget, pause or the authority signal go to the owner, even after a group holds the clerk (a8bc55ef). A group may maintain the machinery that grants it authority, but may not change the grant.",
+    "source_ref": [
+      "the-greenman/clerk#94; clerk review 2026-10-20; decisions a8bc55ef, 926c059f, d529294a"
+    ]
+  },
+  "createdAt": "2026-10-20T14:14:08.267534470+00:00",
+  "updatedAt": "2026-10-20T14:14:08.267537920+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

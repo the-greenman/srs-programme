@@ -1,0 +1,22 @@
+{
+  "instanceId": "cae34581-7ae8-4e7c-aecb-e97841f06a8f",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Rules read the charter's numbers over constants in code",
+    "boundary_clause": "unless the value is part of a wire format's grammar, such as a marker's spelling.",
+    "context": "Budgets, quorum seats, cycle close, pause limits, governed repos and labels come from records (clerk groups, settings). \"Nothing is hard-coded\" (handbook, working groups).",
+    "source_ref": [
+      "the-greenman/clerk#94; clerk review 2026-10-20; decisions a8bc55ef, 926c059f, d529294a"
+    ]
+  },
+  "createdAt": "2026-10-20T14:14:05.946354379+00:00",
+  "updatedAt": "2026-10-20T14:14:05.946359148+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

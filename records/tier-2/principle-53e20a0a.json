@@ -1,0 +1,22 @@
+{
+  "instanceId": "53e20a0a-b6fe-4cbd-bd97-06823f06354a",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Review at the source over review at deployment",
+    "boundary_clause": "unless the deployment also changes code or configuration: then that change is reviewed where it is made.",
+    "context": "A pin bump that only selects an already-merged or released commit merges on green checks (d529294a, proposed). The opposite pole from the commands layer on the same tension: the two layers differ, so this is a boundary, not a conflict.",
+    "source_ref": [
+      "the-greenman/clerk#94; clerk review 2026-10-20; decisions a8bc55ef, 926c059f, d529294a"
+    ]
+  },
+  "createdAt": "2026-10-20T14:14:07.808107084+00:00",
+  "updatedAt": "2026-10-20T14:14:07.808110982+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

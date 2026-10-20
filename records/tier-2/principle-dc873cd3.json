@@ -1,0 +1,22 @@
+{
+  "instanceId": "dc873cd3-3d68-4d86-b116-f8be9c43f1f0",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Fail closed over carry on",
+    "boundary_clause": "unless the act is reversible and reported, such as a branch update or a digest line; a merge, a claim or a ratification never is.",
+    "context": "A rule whose input is missing, unreadable or malformed: it answers no. Evidence: upkeep merged on an empty budget and an unreadable count before clerk#90. The same lean as 85dc8672 (Checked over permissive), which holds only within SRS implementation.",
+    "source_ref": [
+      "the-greenman/clerk#94; clerk review 2026-10-20; decisions a8bc55ef, 926c059f, d529294a"
+    ]
+  },
+  "createdAt": "2026-10-20T14:14:05.490845840+00:00",
+  "updatedAt": "2026-10-20T14:14:05.490847381+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
