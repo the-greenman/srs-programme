@@ -1,0 +1,23 @@
+{
+  "instanceId": "2ac083c0-f1b6-47ae-8f12-337cb2cca8f4",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "One unknown key makes a whole repository unloadable: RFC-038 [R7]+[R24] against rfc-decision-2e0cd70a",
+    "thinking_reached": "Probed with the pinned CLI (build.502) on a copy of srs-programme, 2026-10-20. Adding one unrecognised top-level key to a single Record, Note or Relation file makes every command fail: `repo validate`, `record list`, `record get` all return ok:false with 'catalog load failed: 1 fatal diagnostic(s)' (SRS038-R7-SCHEMA-VALIDATION for Record and Note, SRS038-R9-CANDIDATE-MALFORMED for Relation). The engine does what RFC-038 says: [R7] makes the schema failure an error and [R24] makes any error under a reserved location fatal to the load. rfc-decision-2e0cd70a ('Carry meaning you do not recognise') and mechanism f92f27a0 say the opposite for the instance layer: unknown instance content is detected, never fails a load, and is preserved or loudly refused on write; 'the validation complaint IS the louder diagnostic'. `meta` content is carried correctly, so the sanctioned carrier works; only out-of-contract keys hit the conflict. In srs-core, Relation is `deny_unknown_fields` and Note has no extras map (it would drop unknown keys silently on write if loading were relaxed), while Record carries a flatten `extra` (drift table row 19).",
+    "tensions": "Two recorded rulings disagree, so the group cannot file the fix as work. Fail-closed [R24] protects the catalog from partial loads (Reliability); 2e0cd70a protects meaning written by another tool from being lost or from bricking the repository (Portability, SP-07). Today a third-party tool that adds one key to one file takes the whole repository down, which is the opposite of third-party ready.",
+    "unresolved_questions": "1. Should an out-of-contract top-level key on a Record, Note or Relation be a non-fatal diagnostic (a warning, or an error carved out of [R24]), so the instance loads and is carried? 2. Or is fail-closed right, and 2e0cd70a's LOAD verb narrowed to `meta` only? 3. If the instance loads, must every write carry the key (Note and Relation grow an extras map, as Record has), or refuse loudly?",
+    "blocking": "Blocks filing srs-rust work for SP-07 (Tools drop what they do not understand) under the affirmed remedy 'Every write refuses loudly what it cannot carry' (89d74184). Nothing else waits on it.",
+    "next_action": "Owner: rule which wins. Recommendation: option 1, a Door 3 revision of RFC-038 that classes an unknown instance-layer key as a non-fatal warning with a stable code, and requires Record, Note and Relation to carry such keys on write; that executes 2e0cd70a as recorded. The group then files the srs-rust implementation (Relation drops deny_unknown_fields, Note gains an extras map, the catalog keeps the instance). Source: srs-programme:source-documents/archaeology-2026-10-08/F-drift.md#19."
+  },
+  "createdAt": "2026-10-20T19:19:45.062200750+00:00",
+  "updatedAt": "2026-10-20T19:19:45.062208059+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-analyst",
+    "name": "Third-party-ready analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
