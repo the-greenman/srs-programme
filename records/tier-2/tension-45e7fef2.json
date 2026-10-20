@@ -1,0 +1,19 @@
+{
+  "instanceId": "45e7fef2-8406-41ac-ac55-a73847f6754a",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Description and Governance",
+    "description": "Whether people share one description of the model or each keep their own local way."
+  },
+  "createdAt": "2026-10-20T12:33:27.832990856+00:00",
+  "updatedAt": "2026-10-20T12:33:27.832992547+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
