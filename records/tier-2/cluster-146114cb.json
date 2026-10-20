@@ -1,0 +1,19 @@
+{
+  "instanceId": "146114cb-a05b-49af-830b-7456cd7b0a65",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "The engine does not scale or embed for third parties",
+    "description": "A third party who wants to build on SRS meets an engine that slows as the repository grows, cannot be installed as a library, and cannot select records by what their fields say."
+  },
+  "createdAt": "2026-10-20T18:09:32.433414152+00:00",
+  "updatedAt": "2026-10-20T18:09:32.433416429+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

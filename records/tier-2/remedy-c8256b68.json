@@ -1,0 +1,25 @@
+{
+  "instanceId": "c8256b68-504b-49ee-9322-971a46bebdf4",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "One always-on owner desk: clerk serve keeps the programme current, and the owner judges in rounds",
+    "move": "clerk serve, a small local service on the owner's machine, keeps the programme's state current without a dev server and carries the owner's judgements through affirmation rounds: start a fresh worktree, act with each judgement shown in its context and weight, publish through the CI gates, merge, finish. The srs-lab control room is its client. Capabilities graduate into the clerk only after real use, CLI first and led by an OpenAPI 3.1 spec.",
+    "does_not_fix": "A shared or team view: the desk is the owner's own, and local. Badly formed asks from agents, which clerk pr-check holds. Hosting and deployment.",
+    "falsifier": "After four weeks of use, the owner still goes to GitHub or the terminal to find what waits, or foundational affirmations are made without reasons or in bulk.",
+    "source_ref": [
+      "semanticops.com#38"
+    ],
+    "return_when": "After three real affirmation rounds, or four weeks from the first."
+  },
+  "createdAt": "2026-10-20T18:08:26.244279739+00:00",
+  "updatedAt": "2026-10-20T18:08:26.244282890+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

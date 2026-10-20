@@ -1,0 +1,25 @@
+{
+  "instanceId": "89d74184-5424-4b66-8d57-f4feac921b9e",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Every write refuses loudly what it cannot carry",
+    "move": "Every write path (CLI, MCP, WASM) checks the type and relation contracts and either writes all of a request or none of it. It returns a coded error for anything it cannot preserve: an unknown field, a partial batch, a shape it does not understand. A conformance fixture proves each refusal.",
+    "does_not_fix": "Agents that bypass the tools and write files by hand; meaning that is valid but wrong.",
+    "falsifier": "A conformance or regression test in which a write path reports success while dropping, truncating or only partly writing what it was given.",
+    "source_ref": [
+      "srs-programme: domain health walk of Semantic records, 2026-10-20"
+    ],
+    "return_when": "When a silent loss is reported from any client, or at the next conformance pass."
+  },
+  "createdAt": "2026-10-20T18:11:43.782014805+00:00",
+  "updatedAt": "2026-10-20T18:11:43.782016845+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

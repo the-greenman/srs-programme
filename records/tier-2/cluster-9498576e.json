@@ -1,0 +1,19 @@
+{
+  "instanceId": "9498576e-c564-41bf-85ac-b071d2678ddf",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Rendered documents a human cannot follow",
+    "description": "The rendered specification and other rendered documents lose the reading order and heading outline a person needs to follow them front to back."
+  },
+  "createdAt": "2026-10-20T18:09:20.578739298+00:00",
+  "updatedAt": "2026-10-20T18:09:20.578741137+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
