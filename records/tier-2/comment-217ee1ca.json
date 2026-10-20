@@ -1,0 +1,18 @@
+{
+  "instanceId": "217ee1ca-0840-4d22-8e12-d80c2b3bd0d9",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "This is a long term principle. But it may actually need to swing the other way for a little. Our final push to get to 3rd party usable will require some breaking changes. While we have minimal users, breaking changes are cheap. \n\nThis is linked to an existing milestone flip."
+  },
+  "createdAt": "2026-10-20T12:20:58.726036628+00:00",
+  "updatedAt": "2026-10-20T12:20:58.726039897+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

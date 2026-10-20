@@ -1,0 +1,18 @@
+{
+  "instanceId": "827a2b00-d85c-4df7-9f4f-a067e8e0a570",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: Any human organisation needs to build shared meaning. AI changes group dynamics. We need to understand how we need to change and rebuild our collective agency."
+  },
+  "createdAt": "2026-10-20T12:18:28.992466311+00:00",
+  "updatedAt": "2026-10-20T12:18:28.992470540+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,18 @@
+{
+  "instanceId": "e0d3365e-5415-46a8-aa4c-d3172cf08895",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: Working with AI agents in a way that provides them what they need to understand our intentions and assumptions is vital to their wise use. It's the act of partnership and care for our own human agency."
+  },
+  "createdAt": "2026-10-20T12:15:19.468517112+00:00",
+  "updatedAt": "2026-10-20T12:15:19.468521137+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
