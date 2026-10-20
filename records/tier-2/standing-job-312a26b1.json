@@ -1,0 +1,24 @@
+{
+  "instanceId": "312a26b1-3b0b-423e-acfd-d3217bc9c683",
+  "typeId": "58f0ee7b-8063-4fc7-9b39-af918962c91f",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "standing-job",
+  "fieldValues": {
+    "title": "Close the editor cycle and report",
+    "description": "Gather the WG Agent-supported editor cycle (previous close to this close, daily at 11:30 UTC at the current rhythm), ratify the group's ready decisions in one group session, escalate stops and over-budget items as proposed decisions, write the run-report and post it on semanticops.com#31 with the group-tagged wg-report marker line.",
+    "done_when": "A run-report record exists for the cycle and the same report is a comment on semanticops.com#31 whose first line is <!-- wg-report cycle=<date> group=wg:agent-editor -->.",
+    "trigger": "Daily 11:30 UTC (the cycle close; the owner can amend the rhythm)",
+    "size": "1 run-report plus escalations",
+    "routine_id": "trig_015Yt9omLyQ4nXXxCRD1pPxe",
+    "brief_path": "routines/wg-steward.md"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-19T17:14:50.903757629+00:00",
+  "updatedAt": "2026-10-19T17:14:50.903763308+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

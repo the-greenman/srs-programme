@@ -1,0 +1,22 @@
+{
+  "instanceId": "21104e81-8af0-4867-b26b-3cb3038eebdf",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-19 17:06 UTC: SemanticOps",
+    "held_at": "2026-10-19T17:06:16Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-19 17:06 UTC: SemanticOps\nAttendees: Owner\n- Ratified: Every agent comment names its actor [21ee9352]\n- Ratified: A working group operates independently only in a mature domain [3b910d90]\n- Commented: A working group operates independently only in a mature domain [3b910d90] (1)\n- Ratified: A choice follows the group lean, or it is asked [70a84bb7]\n- Ratified: A PR carries its decisions in one srs-decisions block [bbb23e36]\n- Ratified: A PR decision is a choice, a ruling or an escalation [e3505ded]\n- Ratified: The owner may request a further agent review [ea96a678]\n- Received: WG Agent-supported editor report 2026-10-17 (comment only)\n- Received: WG Agent-supported editor report 2026-10-18 (comment only)\n- Received: WG Agent-supported editor report 2026-10-19 (comment only)\n- Received: WG Third-party ready report 2026-10-17\n- Received: WG Third-party ready report 2026-10-18\n- Received: WG Third-party ready report 2026-10-19\n- Exercise: One chain of meaning for essays and the programme: input given"
+  },
+  "createdAt": "2026-10-19T17:21:54.204828497+00:00",
+  "updatedAt": "2026-10-19T17:21:54.204830226+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
