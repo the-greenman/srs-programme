@@ -17,9 +17,9 @@
     "owner": "Owner role (SemanticOps), passing to the group that holds Programme coordination once chartered",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-20T13:20:15.855707510+00:00",
-  "updatedAt": "2026-10-20T13:20:15.951834629+00:00",
+  "updatedAt": "2026-10-20T13:54:37.898141833+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code"

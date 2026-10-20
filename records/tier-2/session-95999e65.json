@@ -1,0 +1,29 @@
+{
+  "instanceId": "95999e65-f8cf-40e1-96e7-54b04ee29207",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-20 13:43 UTC: SemanticOps",
+    "held_at": "2026-10-20T13:43:01Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-20 13:43 UTC: SemanticOps\nAttendees: Owner\n- Ratified: Rules for adding to the clerk [926c059f]\n- Commented: Rules for adding to the clerk [926c059f] (1)\n- Ratified: Who governs the clerk long term [a8bc55ef]\n- Received: WG Agent-supported editor report 2026-10-20\n- Received: WG Third-party ready report 2026-10-12\n- Received: WG Third-party ready report 2026-10-20\n- Ratified (escalation accepted): Convention: one filename slug scheme for new package definition files (srs-rust#1209) [04b78189]\n- Ratified (escalation, owner chose other): Escalation: what naming rule do Type and Vocabulary names follow? (srs#236) [b80d2d1e]\nActs in the order taken (UTC):\n- 13:48:16Z comment: Rules for adding to the clerk [926c059f] (Decisions since the last session 1 of 2, saw full record, record updated 2026-10-20T13:20:15.951834629+00:00)\n- 13:48:18Z ratify: Rules for adding to the clerk [926c059f] (Decisions since the last session 1 of 2, saw full record, record updated 2026-10-20T13:20:15.951834629+00:00)\n- 13:50:15Z ratify: Who governs the clerk long term [a8bc55ef] (Decisions since the last session 2 of 2, saw full record, record updated 2026-10-20T13:20:15.768693116+00:00)\n- 13:50:30Z receive: WG Agent-supported editor report 2026-10-20 [5a2685f9] (Reports 1 of 3)\n- 13:50:46Z receive: WG Third-party ready report 2026-10-12 [9d0972f4] (Reports 2 of 3)\n- 13:50:49Z receive: WG Third-party ready report 2026-10-20 [053edd3e] (Reports 3 of 3)\n- 13:52:23Z accept: Convention: one filename slug scheme for new package definition files (srs-rust#1209) [04b78189] (Decisions for this session 1 of 2, saw full record, record updated 2026-10-20T11:36:27.365387475+00:00)\n- 13:54:14Z other: Escalation: what naming rule do Type and Vocabulary names follow? (srs#236) [b80d2d1e] (Decisions for this session 2 of 2, record updated 2026-10-20T11:36:27.589364978+00:00)"
+  },
+  "createdAt": "2026-10-20T13:54:37.275296828+00:00",
+  "updatedAt": "2026-10-20T13:54:37.275300593+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "da9b3aa9-67dc-4978-81a5-86db6278867e",
+      "sourceRole": "attaches"
+    }
+  ]
+}

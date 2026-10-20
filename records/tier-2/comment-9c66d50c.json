@@ -1,0 +1,18 @@
+{
+  "instanceId": "9c66d50c-cf2b-47da-ae00-7af5abd5375f",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "I will ratify this as a single decsion to keep things moving. But this decision does not really follow our good decsion framing guidelines. However, sometimes we need to accept an initial ruling, and then build a more refined policy later. These rules are expressions of lower level principles. We should review decisions across the clerk's implementation and recognise what layers need to be identified, and what principles apply at each layer."
+  },
+  "createdAt": "2026-10-20T13:54:37.649142620+00:00",
+  "updatedAt": "2026-10-20T13:54:37.649148752+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -17,9 +17,9 @@
     "owner": "Owner role (SemanticOps)",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-20T13:20:15.668944373+00:00",
-  "updatedAt": "2026-10-20T13:20:15.768693116+00:00",
+  "updatedAt": "2026-10-20T13:54:38.072800239+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code"
