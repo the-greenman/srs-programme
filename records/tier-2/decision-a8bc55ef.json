@@ -1,0 +1,28 @@
+{
+  "instanceId": "a8bc55ef-76ac-4cca-8330-7471c92eaad5",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Who governs the clerk long term",
+    "decision_question": "Which group holds authority over the clerk's code and rules once its initial hardening is done?",
+    "context": "Problem: the clerk has outgrown its experiment. It now merges PRs for every group (pr-upkeep), claims work, records sessions and builds the desk. A review on 2026-10-20 found its merge path fails open in four ways and its rules live in bash. No group holds the Programme coordination domain (346e323e, affirmed), whose scope names the clerk, so every clerk PR is an owner merge: 17 in the two weeks to 2026-10-20.\nWhy it matters: the code that enforces delegation is itself governed by no delegation. Every change waits for the owner, and the owner cannot judge most of them.\nOptions and consequences: (a) charter a working group for Programme coordination that governs the clerk repo, with gate and merge-authority changes kept with the owner; (b) widen the proposed WG SRS operations to include the clerk; (c) do nothing: the central group (the owner) keeps it.\nRecommendation: (a), after the initial hardening by the central group.\nAction needed: ratify, amend or set aside in a session.\nUrgency: low now; the hardening comes first and is under way.",
+    "friction": "Clerk changes queue for the owner's review, and the owner gets stuck trying to judge diffs. The clerk's merge rules have no owner other than the owner.",
+    "alternatives_considered": "(a) Charter 'WG Programme practice' holding Programme coordination and governing the clerk repo. Its mandate: clerk code within the clerk rules (decision on rules for adding to the clerk). Its boundary: any change to gates, merge rules, quorum, budget, pause or the authority signal escalates to the owner. Leads to most clerk PRs merging on a group quorum, while the rules that grant authority stay with the owner. Leans to throughput on the 'Human judgement and agent throughput' tension.\n(b) Widen the proposed WG SRS operations (clerk#56) to include the clerk. Leads to one group with fewer seats. But that proposal lists the clerk as out of scope, and it mixes product reliability (MEANING and OPERATION of SRS) with governance machinery: two layers in one mandate.\n(c) Do nothing: the central group holds the clerk. Leads to every clerk PR staying an owner merge, and the owner remaining the bottleneck and the only check on the merge machinery.",
+    "key_requirements": "The rules that grant authority (who may merge, on what quorum) must never be changeable by the group they authorise: a layer boundary between maintaining the machinery and setting its authority. The domain is already affirmed. A charter needs the trigger the handbook names: a steady ready queue that needs delegated merges.",
+    "decision_statement": "Charter a working group for the Programme coordination domain to govern the clerk repository once the central group's hardening lands, with every change to gates, merge rules, quorum, budget, pause or the authority signal kept with the owner.",
+    "rationale": "The domain exists and is affirmed, and the clerk is squarely in its scope. Delegation is how the programme scales the owner's judgement. Keeping authority-granting rules with the owner prevents a group from widening its own power.",
+    "revisit_when": "When the clerk rules are enforced by npm test and the upkeep port has merged, chartering is due. Revisit the boundary if escalations from the group exceed about a third of its PRs in a cycle.",
+    "owner": "Owner role (SemanticOps)",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-20T13:20:15.668944373+00:00",
+  "updatedAt": "2026-10-20T13:20:15.768693116+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
