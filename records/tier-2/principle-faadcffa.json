@@ -1,0 +1,22 @@
+{
+  "instanceId": "faadcffa-ddd4-44bb-bc57-2e6e963b9c76",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "One definition per wire format over a parser in each consumer",
+    "boundary_clause": "unless a format is being migrated: then the old and new readers coexist for one release, with the old one marked for removal.",
+    "context": "A marker, label or block that more than one file reads. Its constant and parser live in lib/practice; everything else imports them. Enforces 926c059f rule 6. Evidence: the quorum line was parsed three times (bash, desk, control room) and the copies disagreed.",
+    "source_ref": [
+      "the-greenman/clerk#94; clerk review 2026-10-20; decisions a8bc55ef, 926c059f, d529294a"
+    ]
+  },
+  "createdAt": "2026-10-20T14:14:04.580657366+00:00",
+  "updatedAt": "2026-10-20T14:14:04.580661577+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

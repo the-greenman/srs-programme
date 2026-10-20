@@ -1,0 +1,22 @@
+{
+  "instanceId": "366a3b6c-794c-4c77-8a61-8c6cf95d2770",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Every write can be seen before it happens over acting at once",
+    "boundary_clause": "unless the command is the scheduled run of a write a person already reviewed in its dry-run form.",
+    "context": "Every write command is dry by default with one --apply flag, and prints what it would do. Enforces 926c059f rule 7. Evidence: five different write verbs today, and a dry-run dispatch that still posted the desk (clerk#93).",
+    "source_ref": [
+      "the-greenman/clerk#94; clerk review 2026-10-20; decisions a8bc55ef, 926c059f, d529294a"
+    ]
+  },
+  "createdAt": "2026-10-20T14:14:06.881914482+00:00",
+  "updatedAt": "2026-10-20T14:14:06.881916659+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

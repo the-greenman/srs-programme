@@ -1,0 +1,22 @@
+{
+  "instanceId": "2612cb3c-61bc-4ef0-889a-8508febaed03",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "A failed read becomes an unknown over a default",
+    "boundary_clause": "unless the read is advisory and the caller says so, such as the desk skipping an unreadable repo with a warning.",
+    "context": "lib/adapters return null or \"unknown\" when a read fails, never 0 or an empty list, so the rules can refuse. Evidence: a failed gh call counted as 0 merges in the bash budget.",
+    "source_ref": [
+      "the-greenman/clerk#94; clerk review 2026-10-20; decisions a8bc55ef, 926c059f, d529294a"
+    ]
+  },
+  "createdAt": "2026-10-20T14:14:06.426884150+00:00",
+  "updatedAt": "2026-10-20T14:14:06.426885641+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

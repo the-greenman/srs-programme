@@ -1,0 +1,12 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "22777401-670c-47cd-a6a2-239a5f5f3076",
+  "relationType": "com.mudemocracy.argument/holds-tension",
+  "sourceInstanceId": "59a64db9-96db-41a1-b972-0145e4c8f26b",
+  "targetInstanceId": "5f1d2247-d394-49cc-94fd-614c5e650242",
+  "createdAt": "2026-10-20T14:14:03.013124962+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code"
+  }
+}

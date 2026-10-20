@@ -1,0 +1,22 @@
+{
+  "instanceId": "3a552a56-cb89-441b-a024-19a626f89bbb",
+  "typeId": "5091e5a0-4fa5-4b7b-9108-6d59765ce68d",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.argument",
+  "typeName": "boundary",
+  "fieldValues": {
+    "title": "The clerk: commands",
+    "purpose": "The contract every caller uses: one command per act, the same flags and exit codes.",
+    "inside": "bin/clerk.mjs and scripts/: dry run by default, --apply to act, --json to read, exit 0 clean, 1 findings or failures, 2 usage.",
+    "outside": "The rules a command applies (rules); who calls it (briefs, workflows).",
+    "authority_basis": "Programme coordination (346e323e, affirmed); a8bc55ef and 926c059f (ratified 2026-10-20). Held by the central group until a group for Programme coordination is chartered.",
+    "revision_condition": "When a rule cannot be placed in exactly one layer, or two principles on one tension collide inside this layer."
+  },
+  "createdAt": "2026-10-20T14:14:03.173614126+00:00",
+  "updatedAt": "2026-10-20T14:14:03.173616026+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

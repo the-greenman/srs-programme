@@ -1,0 +1,22 @@
+{
+  "instanceId": "354b1b59-085b-44d3-ab04-1b2bc1afbb30",
+  "typeId": "5091e5a0-4fa5-4b7b-9108-6d59765ce68d",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.argument",
+  "typeName": "boundary",
+  "fieldValues": {
+    "title": "The clerk",
+    "purpose": "The programme's internal decision-making machinery: the code, wire formats, briefs and deployments that put the handbook's practices to work for people and agents.",
+    "inside": "the-greenman/clerk: lib/, bin/, scripts/, routines/, .claude/commands/, its workflows, and the pins that deploy them into a programme repo.",
+    "outside": "Programme data and settings (srs-programme records); what the products do (SRS standard, SRS implementation); who may change the clerk's authority rules (gates, merge rules, quorum, budget, pause, the authority signal): the owner keeps those (a8bc55ef).",
+    "authority_basis": "Programme coordination (346e323e, affirmed); a8bc55ef and 926c059f (ratified 2026-10-20). Held by the central group until a group for Programme coordination is chartered.",
+    "revision_condition": "When the group for Programme coordination is chartered, or when a layer below cannot be stated without crossing into another."
+  },
+  "createdAt": "2026-10-20T14:14:01.298158819+00:00",
+  "updatedAt": "2026-10-20T14:14:01.298162469+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

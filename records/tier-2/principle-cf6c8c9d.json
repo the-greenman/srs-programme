@@ -1,0 +1,22 @@
+{
+  "instanceId": "cf6c8c9d-b934-4329-b09c-30f58011da3b",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "A brief calls a command over deciding in prose",
+    "boundary_clause": "unless no command exists yet: then the brief names the issue that will add it, and the step stays manual.",
+    "context": "routines and .claude/commands run `clerk <cmd>` and act on its output. Evidence: six briefs sourced pr-upkeep.sh to compute pause and budget themselves, until clerk group-state (clerk#90).",
+    "source_ref": [
+      "the-greenman/clerk#94; clerk review 2026-10-20; decisions a8bc55ef, 926c059f, d529294a"
+    ]
+  },
+  "createdAt": "2026-10-20T14:14:07.345875270+00:00",
+  "updatedAt": "2026-10-20T14:14:07.345876921+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
