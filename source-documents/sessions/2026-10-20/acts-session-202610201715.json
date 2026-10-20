@@ -1,0 +1,38 @@
+{
+  "session": "7cb089ee-f8fd-47f4-b312-55de02af80a4",
+  "acts": [
+    {
+      "at": "2026-10-20T17:19:40.221Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 3,
+      "seen": [],
+      "updatedAt": "2026-10-20T15:50:55.081204160+00:00",
+      "kind": "ratify",
+      "id": "0b1c25b1-3f6b-4348-81d5-047e091d6f4d",
+      "title": "What counts as a recorded ruling for a group's mandate"
+    },
+    {
+      "at": "2026-10-20T17:19:40.763Z",
+      "section": "Decisions since the last session",
+      "position": 2,
+      "of": 3,
+      "seen": [],
+      "updatedAt": "2026-10-20T15:46:51.915138552+00:00",
+      "kind": "ratify",
+      "id": "7270e772-957b-4a67-91b5-51bfee5522a4",
+      "title": "WG Third-party ready leans Initiator on its domain's three axes"
+    },
+    {
+      "at": "2026-10-20T17:19:41.147Z",
+      "section": "Decisions since the last session",
+      "position": 3,
+      "of": 3,
+      "seen": [],
+      "updatedAt": "2026-10-20T14:09:46.053913724+00:00",
+      "kind": "ratify",
+      "id": "d529294a-dccf-48e2-9271-a8d76efbd365",
+      "title": "Pin bumps are automatable PRs"
+    }
+  ]
+}

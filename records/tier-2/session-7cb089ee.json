@@ -1,0 +1,29 @@
+{
+  "instanceId": "7cb089ee-f8fd-47f4-b312-55de02af80a4",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-20 17:15 UTC: SemanticOps",
+    "held_at": "2026-10-20T17:15:48Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-20 17:15 UTC: SemanticOps\nAttendees: Owner\n- Ratified: What counts as a recorded ruling for a group's mandate [0b1c25b1]\n- Ratified: WG Third-party ready leans Initiator on its domain's three axes [7270e772]\n- Ratified: Pin bumps are automatable PRs [d529294a]\nActs in the order taken (UTC):\n- 17:19:40Z ratify: What counts as a recorded ruling for a group's mandate [0b1c25b1] (Decisions since the last session 1 of 3, record updated 2026-10-20T15:50:55.081204160+00:00)\n- 17:19:40Z ratify: WG Third-party ready leans Initiator on its domain's three axes [7270e772] (Decisions since the last session 2 of 3, record updated 2026-10-20T15:46:51.915138552+00:00)\n- 17:19:41Z ratify: Pin bumps are automatable PRs [d529294a] (Decisions since the last session 3 of 3, record updated 2026-10-20T14:09:46.053913724+00:00)"
+  },
+  "createdAt": "2026-10-20T17:19:43.892448470+00:00",
+  "updatedAt": "2026-10-20T17:19:43.892452153+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "cdb9d0f7-43c2-434b-b1af-72b8f7607f48",
+      "sourceRole": "attaches"
+    }
+  ]
+}
