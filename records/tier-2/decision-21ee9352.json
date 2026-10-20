@@ -1,0 +1,25 @@
+{
+  "instanceId": "21ee9352-b8f8-4f65-933a-85bd029e8c2f",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Every agent comment names its actor",
+    "decision_question": "How is an agent comment told apart from the owner, when agents post with the owner token?",
+    "context": "Proposed by agent:claude-code from the srs-lab control room (clerk#77). Prototyped against the live PRs on 2026-10-17: clerk#57 asked for thirteen decisions already ratified; srs-programme#154 and #155 proposed decisions only inside their diffs, in state draft; clerk#75 stated a constraining design principle in prose.",
+    "decision_statement": "Every comment an agent posts carries its actor on its own line, as <!-- actor: agent:<id> -->.",
+    "rationale": "Agents post through the owner token, so the author field cannot tell them apart; quorum comments already name their reviewer.",
+    "revisit_when": "When agents post under their own GitHub identities.",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-17T12:30:28.879257610+00:00",
+  "updatedAt": "2026-10-19T17:21:54.469939127+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (control-room prototype)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

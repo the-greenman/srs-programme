@@ -1,0 +1,19 @@
+{
+  "instanceId": "d6988b3c-adfe-4af3-bd7c-15d7f8b11077",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Seeing and arranging the group's meaning",
+    "description": "Members cannot find the group's purpose in one place, and arranging or grouping material risks changing what it says."
+  },
+  "createdAt": "2026-10-16T12:05:15.145+00:00",
+  "updatedAt": "2026-10-16T12:05:15.145+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

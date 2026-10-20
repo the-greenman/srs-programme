@@ -1,0 +1,24 @@
+{
+  "instanceId": "584099ff-3ff8-4ada-8e6f-5944cb52132f",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-87",
+    "title": "An agent can work in only one repository at a time",
+    "statement": "The MCP server serves exactly one repository per process, so an agent working on an essay in one repository cannot read or address the records it links to in another without a second server and its own bookkeeping. Serving several repositories needs to be specified, tested and managed, not improvised per session.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-16: essays in their own repository linking to muSrs and other repositories within a federation"
+    ]
+  },
+  "createdAt": "2026-10-16T16:19:19.650800075+00:00",
+  "updatedAt": "2026-10-16T16:19:19.650801543+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

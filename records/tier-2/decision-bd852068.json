@@ -1,0 +1,25 @@
+{
+  "instanceId": "bd852068-9646-4584-86fb-7fe8608af3f4",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A meeting's kind sets its agenda",
+    "decision_question": "Should every meeting take the same agenda, or should a meeting's kind decide what it handles?",
+    "context": "Relayed from the owner on 2026-10-15, in a clerked session; proposed in clerk#57 (plans/wg-srs-operations.md). The owner instructed: record and hold.",
+    "decision_statement": "A meeting's kind sets its agenda: decision, affirmation review, unblock, intake triage or retrospective.",
+    "rationale": "Different questions need different meetings; when every kind of question arrives in one stream the owner loses the thread. The desk already serves as the unblock list.",
+    "revisit_when": "When a meeting is held that fits no kind.",
+    "decision_kind": "premise"
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-15T11:39:55.475842984+00:00",
+  "updatedAt": "2026-10-16T11:50:02.650243823+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

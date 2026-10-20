@@ -1,0 +1,25 @@
+{
+  "instanceId": "09ea5368-74ce-4f10-b354-66cff4de6586",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Requests reach a group only through its input queue",
+    "decision_question": "How does a request reach a working group?",
+    "context": "D5 of clerk#57 (plans/wg-srs-operations.md, section 8), asked of the owner since 2026-10-12. Recorded as a proposed decision on 2026-10-16 so a session can take it: until now it existed only as PR text, which no session agenda reads.",
+    "decision_statement": "A request reaches a group only through that group's input queue, never filed straight as ready work.",
+    "rationale": "A group assesses against its queue, budget and local priorities only at its input queue (proposal section 3).",
+    "revisit_when": "The falsifier in proposal section 7 fires.",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-16T11:19:21.149638207+00:00",
+  "updatedAt": "2026-10-16T11:50:00.480879284+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

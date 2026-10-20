@@ -1,0 +1,24 @@
+{
+  "instanceId": "7ae5e4c6-2140-4307-9e94-340f78019e52",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-73",
+    "title": "Clusters cannot be compared side by side",
+    "statement": "A cluster only means something next to the other clusters of its domain: clusters are relative. Too many clusters, or clusters that overlap, become meaningless, and nobody can tell that from one cluster at a time. The owner cannot see a domain's clusters together with the problems inside each, so cannot judge how they differ before affirming or reshaping them.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-16: affirming the Agent memory clusters in the Method editor"
+    ]
+  },
+  "createdAt": "2026-10-16T12:09:42.428746670+00:00",
+  "updatedAt": "2026-10-16T12:09:42.428748419+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

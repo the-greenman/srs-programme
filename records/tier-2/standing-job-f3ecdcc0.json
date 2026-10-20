@@ -1,0 +1,25 @@
+{
+  "instanceId": "f3ecdcc0-9d12-449a-a73a-841d946fa679",
+  "typeId": "58f0ee7b-8063-4fc7-9b39-af918962c91f",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "standing-job",
+  "fieldValues": {
+    "title": "Review editor group PRs",
+    "description": "Review open wg:third-party-ready PRs built by an earlier run: run the gates, list findings, post the quorum comment, then add gate:auto-merge.",
+    "done_when": "Every open group PR built by an earlier run has a quorum comment or a findings comment (gh search: no open wg:third-party-ready PR without either).",
+    "trigger": "nightly, before the Build job",
+    "size": "Up to 3 PRs per run",
+    "routine_id": "trig_01PXzB2iQdtnXZGYL6HgkLPJ",
+    "brief_path": "routines/wg-reviewer.md"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-16T16:41:47.052146251+00:00",
+  "updatedAt": "2026-10-16T16:41:47.052149318+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

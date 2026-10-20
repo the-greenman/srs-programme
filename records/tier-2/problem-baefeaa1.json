@@ -1,0 +1,24 @@
+{
+  "instanceId": "baefeaa1-3f88-4017-928a-03b803ea8e65",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-88",
+    "title": "Several agents cannot be connected to one essay and instructed together",
+    "statement": "I want Claude Code, claude.ai and ChatGPT connected to the same essay at the same time, each given instructions. For each agent I need to share, easily, how to work on the essay, and to edit rules specific to that agent, so that I can cut and paste them into a chat to restart it. Today each agent is told what to do in its own session, and nothing keeps its instructions with the essay.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-16: the funding application objective"
+    ]
+  },
+  "createdAt": "2026-10-16T16:31:14.321684490+00:00",
+  "updatedAt": "2026-10-16T16:31:14.321686519+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

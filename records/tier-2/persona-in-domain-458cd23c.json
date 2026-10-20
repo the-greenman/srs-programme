@@ -1,0 +1,31 @@
+{
+  "instanceId": "458cd23c-0961-4dc2-b246-f5c0515f7f56",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Third party using SRS in Semantic records",
+    "summary": "A group outside the programme that uses the SRS specification and its tools for its own records, and needs those records to keep their meaning exactly, whatever tool or client reads them.",
+    "goals": [
+      "Build on the spec and its tools without depending on our internals",
+      "Keep meaning in its records, not in a client",
+      "Keep what a tool does not understand"
+    ],
+    "jobs": [
+      "Adopt the spec and its tools",
+      "Choose tools that preserve its records",
+      "Move records between tools",
+      "Rely on conformance when a tool changes"
+    ],
+    "needs": "A spec and tools that honour their contracts, meaning defined once in the records, and every tool round-tripping what it does not understand."
+  },
+  "createdAt": "2026-10-16T13:17:55.294957903+00:00",
+  "updatedAt": "2026-10-16T13:17:55.294961331+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

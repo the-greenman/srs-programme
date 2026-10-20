@@ -1,0 +1,30 @@
+{
+  "instanceId": "c9f28c87-a812-4387-9e94-d54d30134b84",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Implementor in Semantic records",
+    "summary": "Someone who implements the SRS specification (the reference implementation or another; the spec maintainer is one version of this person). They rely on the spec, its schemas and its tools agreeing, and on rulings reaching every layer.",
+    "goals": [
+      "Trust that spec, schema and tool say the same thing",
+      "See rulings executed in every layer, not parked",
+      "Change a record's type without losing its identity"
+    ],
+    "jobs": [
+      "Implement the spec and its rulings",
+      "Keep the implementation conformant as the spec evolves",
+      "Keep standards to a size that can be held"
+    ],
+    "needs": "One source of meaning, rulings carried into every layer, conformance that can be checked, and change that keeps identity."
+  },
+  "createdAt": "2026-10-16T12:25:13.601043119+00:00",
+  "updatedAt": "2026-10-16T13:16:13.520972951+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

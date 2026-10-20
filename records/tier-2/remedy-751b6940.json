@@ -1,0 +1,27 @@
+{
+  "instanceId": "751b6940-c6a1-4f7d-afaf-afae77e3e26c",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "An essay carries the documents it answers, and every connected agent reads them",
+    "move": "The writer adds the documents an essay answers (a funding call, an article being answered, a transcript) to the essay's context, by URL, file or pasted text. They are held as source records in the essay's references, marked as context, and their text is readable by every connected agent (attached text needs srs-rust#1333). Each agent's brief and restart prompt names them, so an agent starts from what the essay is answering.",
+    "does_not_fix": "Checking each claim against the evidence base (SP-54). Quoting a passage of a context document precisely (a later step of SP-57).",
+    "falsifier": "An agent connected to the funding application answers without knowing what the call asks for, or the writer has to paste the call into each chat by hand.",
+    "source_ref": [
+      "Owner, 2026-10-16: add the application proposal to the essay context",
+      "srs-web:src/lib/essay/essay-document.ts addReferences (URLs and files today)",
+      "srs-rust#1333 (attached text readable)"
+    ],
+    "return_when": "When the funding application has been drafted with its call in context and the owner has said whether every agent worked from it."
+  },
+  "createdAt": "2026-10-16T16:38:53.604657761+00:00",
+  "updatedAt": "2026-10-16T16:38:53.604659211+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

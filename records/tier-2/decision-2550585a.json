@@ -1,0 +1,25 @@
+{
+  "instanceId": "2550585a-a60f-4a06-8160-1e2f67bcc020",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Every request is placed in a domain first",
+    "decision_question": "When is a request placed in a domain?",
+    "context": "D4 of clerk#57 (plans/wg-srs-operations.md, section 8), asked of the owner since 2026-10-12. Recorded as a proposed decision on 2026-10-16 so a session can take it: until now it existed only as PR text, which no session agenda reads.",
+    "decision_statement": "Every request is placed in a domain before any group assesses it.",
+    "rationale": "Without placing first, a request lands on the owner or is filed straight as work, with no assessment against a group's priorities (proposal section 1).",
+    "revisit_when": "I5's returned share stays high for two cycles.",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-16T11:19:21.066081742+00:00",
+  "updatedAt": "2026-10-16T11:50:00.818871181+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

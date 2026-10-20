@@ -1,0 +1,25 @@
+{
+  "instanceId": "1a01b54d-2827-4594-9214-1177bee00e25",
+  "typeId": "f6635d38-f2f6-4e2a-bcbe-8780d9ee4e0b",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "objective",
+  "fieldValues": {
+    "title": "A funding application foundation, written on our research dataset",
+    "summary": "The owner writes the foundation of two funding applications in the essay editor, built on the muSrs research dataset (its problems, claims and sources), with each call in the essay's context and Claude Code, claude.ai and ChatGPT working on it together, each with its own brief. First calls: the Joseph Rowntree Reform Trust (round 1: outline proposal by Monday 2 November 2026 10am, final application Monday 9 November 2026; small grants up to £10,000 at any time) and the Unitarian Innovation Fund (expression of interest by Monday 9 November 2026). The first concrete objective for the editor: it scopes and orders the editor's work. Draft.",
+    "source_ref": [
+      "Owner, 2026-10-16",
+      "https://www.jrrt.org.uk/apply-for-a-grant/",
+      "https://www.jrrt.org.uk/important-dates/",
+      "https://www.unitarian.org.uk/unitarian-innovation-fund/"
+    ]
+  },
+  "createdAt": "2026-10-16T16:31:13.486468760+00:00",
+  "updatedAt": "2026-10-16T16:51:41.081938783+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

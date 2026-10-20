@@ -1,0 +1,25 @@
+{
+  "instanceId": "684f84ab-31b2-4da5-9e18-a87a46ae333d",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A decision that cannot be made now is recorded at once as a proposal",
+    "decision_question": "What happens to a decision that cannot be made in the moment?",
+    "context": "Relayed from the owner on 2026-10-15, in a clerked session. Proposed in clerk#57 as parking a decision as an exercise; the owner corrected it: an exercise records a discussion working towards shared understanding and is not a decision. A decision starts as a proposal, is held and may move through many sessions.",
+    "decision_statement": "A decision that cannot be made in the moment is recorded at once as a proposal in the log of the level that owns it.",
+    "rationale": "A decision held only in someone's head is lost when the working window closes, and the work stalls. Recorded as a proposal, it is held and appears on that level's agenda until a session ratifies it or sets it aside; discussion that builds understanding around it is recorded as exercises and comments.",
+    "revisit_when": "When proposals regularly wait longer than two sessions without being taken up.",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-15T11:42:22.065848499+00:00",
+  "updatedAt": "2026-10-15T11:43:17.095329542+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

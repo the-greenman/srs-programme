@@ -1,0 +1,27 @@
+{
+  "instanceId": "bd83b70a-cdaf-4f3a-ac54-902eba528983",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A writer's essays live in a library: a landing page, folders and a bin",
+    "move": "The editor opens on a library: every essay with its purpose, state and last change, so several essays can be seen and picked at once. Folders are containers that hold essay containers (RFC-034 childContainerIds), so they are arrangement in the records and travel with the repository to any SRS tool; moving an essay moves it between folders. A repository-level bin holds discarded essays until the writer clears it, and clearing never deletes a paragraph another essay still holds (the guard the per-paragraph bin already uses). It works in any SRS repository that holds essays; muSrs is the first.",
+    "does_not_fix": "Shared paragraphs between essays (SP-18, its own remedy) and publishing (SP-75). Search across essays, and nesting deeper than folders of essays.",
+    "falsifier": "With ten or more essays in use, the writer still opens essays from a dropdown or by repository, or cannot say which essays are in which folder without opening them.",
+    "source_ref": [
+      "Owner, 2026-10-16: essays are like files (folders, move, a bin that can be cleared)",
+      "srs-web:src/lib/essay/essay-document.ts listEssays, binParagraph, deleteForever",
+      "srs:rfcs/rfc-034-structural-container-composition.md (childContainerIds, folder-like scopes)"
+    ],
+    "return_when": "When the owner has kept at least ten essays in folders for two weeks and said whether the library is how they find their work."
+  },
+  "createdAt": "2026-10-16T16:45:24.302248329+00:00",
+  "updatedAt": "2026-10-16T16:45:24.302250176+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

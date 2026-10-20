@@ -1,0 +1,27 @@
+{
+  "instanceId": "5f200696-e163-4084-8d83-4a85d7f5e63a",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "An essay is placed in a domain, and its paragraphs link to the problems, claims and remedies they speak about",
+    "move": "An essay can name the domain it speaks about, at any point while it is written, not only at the start. Its paragraphs link to the problems, personas, claims and remedies of the research base as the writer works, using the links the essay package already has (a paragraph bears on a problem; a source or claim counters a paragraph) and the ones it lacks. Beside the text the editor shows the essay's map: its domain, the personas and problems it addresses, the claims it makes and the remedies it suggests, and which of the domain's problems it leaves untouched. It works in any repository whose packages carry these types; muSrs is the first. At first the writer relies on agents to attach references and links; later the writer browses the dataset from the editor and attaches the relevant records directly, and linking the essay to a domain filters that view to the domain's problems, claims and remedies.",
+    "does_not_fix": "Whether essays and the programme use one model of this chain or two (muSrs: argument boundary, problem, claim, option; the programme: method domain, persona, problem, remedy); see the exercise recorded with this remedy. Checking whether a claim holds (SP-54, the evidence-line remedy).",
+    "falsifier": "After writing an essay, the owner cannot say from the editor which domain it speaks about and which problems and remedies it covers, or linking a passage to one of them takes a step outside the editor.",
+    "source_ref": [
+      "Owner, 2026-10-16",
+      "muDemocracy.org:muSrs/packages/essay/relation-types (bears-on, counters)",
+      "muDemocracy.org:muSrs/packages/argument (boundary, problem, claim, option)"
+    ],
+    "return_when": "When the owner has written two essays with their maps and said whether the map changed what they wrote."
+  },
+  "createdAt": "2026-10-16T16:16:11.979853811+00:00",
+  "updatedAt": "2026-10-16T16:38:53.825038175+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

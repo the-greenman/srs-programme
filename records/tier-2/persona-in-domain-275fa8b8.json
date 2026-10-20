@@ -1,0 +1,40 @@
+{
+  "instanceId": "275fa8b8-f64e-4c2d-98ed-3f019e63be9a",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Writer in Evidence-backed writing",
+    "summary": "The one writer building carefully argued essays in their own words, where every claim can stand up to critical argument, directing a few agents that respond and never write. The first case is the owner, writing essays about muDemocracy with a reference library already built; in another context a writer must build that library too.",
+    "goals": [
+      "Every claim is valid and can withstand critical argument",
+      "The text stays in the writer's own words, with no agent drafting",
+      "Abandoned framings are kept as attempts to review later",
+      "Start from a blank page, an article being answered or a transcript",
+      "Work on several essays at once, see their state and publish them",
+      "Hold a manageable conversation with agents: ask for input when wanted, and not otherwise"
+    ],
+    "jobs": [
+      "Lay out a claim with its premises",
+      "Link claims to problems, quotes and evidence in the research base",
+      "Check each claim against the evidence",
+      "Hear the red team challenge a claim and the blue team back it",
+      "Turn a news article or a transcript into quotable evidence",
+      "Restructure an argument without losing links or abandoned framings",
+      "Organise essays like files: folders, moving essays, a bin that can be cleared",
+      "See which essays share a paragraph, and edit it without changing another essay by accident",
+      "Tell the agents they direct (claude.ai, ChatGPT or a defined agent) their context and focus",
+      "Keep a set of agent briefs with a document as standard instructions"
+    ],
+    "needs": "Structure that survives editing, claims checkable against evidence, agent responses that never write the text, and abandoned framings kept rather than lost."
+  },
+  "createdAt": "2026-10-16T12:19:40.639076523+00:00",
+  "updatedAt": "2026-10-16T12:51:00.712373879+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

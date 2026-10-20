@@ -1,0 +1,31 @@
+{
+  "instanceId": "21a1a3fd-4b24-44ef-b652-c93d59096921",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Group / organisation in Programme coordination",
+    "summary": "A working group or programme that delegates work and must keep its decisions, mandates and compass its own.",
+    "goals": [
+      "Keep authority where it was delegated",
+      "Know the context each ruling was made for",
+      "Hold its own compass"
+    ],
+    "jobs": [
+      "Charter a working group with a mandate",
+      "Record decisions with their scope",
+      "Check mandates that work cites",
+      "Limit what a member or agent may change"
+    ],
+    "needs": "Decisions recorded as records with their scope, enforced mandates, and no authority carried in by a pull request."
+  },
+  "createdAt": "2026-10-16T12:25:13.319631817+00:00",
+  "updatedAt": "2026-10-16T12:25:13.319633371+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,19 @@
+{
+  "instanceId": "3edd69b7-49ed-4b26-8635-4a2c6feca7b1",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Unclear roles of writer and agents",
+    "description": "Who may author text and what each agent is for are fixed by habit and session prompts rather than by anything shared."
+  },
+  "createdAt": "2026-10-16T12:04:23.373+00:00",
+  "updatedAt": "2026-10-16T12:04:23.373+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

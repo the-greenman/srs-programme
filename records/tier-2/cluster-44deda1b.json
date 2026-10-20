@@ -1,0 +1,19 @@
+{
+  "instanceId": "44deda1b-623a-495e-ada5-a858c74de03b",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Document shape the writer cannot see",
+    "description": "What a document needs, whose paragraphs it holds and how its structure is shown are defined for the model rather than for the writer."
+  },
+  "createdAt": "2026-10-16T12:04:11.549+00:00",
+  "updatedAt": "2026-10-16T12:04:11.549+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

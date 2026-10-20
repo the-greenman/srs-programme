@@ -1,0 +1,24 @@
+{
+  "instanceId": "aa55b934-f5dc-4919-8a3a-c75e7dcc6356",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-63",
+    "title": "The owner receives more decisions than they can judge",
+    "statement": "Decisions arrive in floods, or as technical questions without stakes, options and a recommendation, so the owner cannot judge them well.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, live planning session 2026-10-11 (srs-programme#93)"
+    ]
+  },
+  "createdAt": "2026-10-16T12:00:58.805+00:00",
+  "updatedAt": "2026-10-16T12:00:58.805+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

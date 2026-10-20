@@ -1,0 +1,24 @@
+{
+  "instanceId": "2be11fd1-ed09-46e6-8a76-31f59ab89b4f",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-68",
+    "title": "No one place tells how work is driven",
+    "statement": "Someone joining the programme, human or agent, cannot learn how domains, personas and problems become work, who may decide what, and how routines move and report it, without reading many briefs, docs and records that each tell part of the story.",
+    "kind": "condition",
+    "source_ref": [
+      "clerk#50 (2026-10-11): owner asked for one handbook that explains the whole process in clear words with diagrams"
+    ]
+  },
+  "createdAt": "2026-10-16T16:45:23.054888308+00:00",
+  "updatedAt": "2026-10-16T16:45:23.054889807+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

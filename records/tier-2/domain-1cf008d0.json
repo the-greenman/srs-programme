@@ -1,0 +1,21 @@
+{
+  "instanceId": "1cf008d0-da07-40e0-a323-54f07e0e7b66",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Semantic records",
+    "purpose": "The technical domain of SRS itself: keep meaning in structured records exact, attributable and portable while the specification keeps evolving, for the people who implement the spec and the third parties who build on it and its tools.",
+    "in_scope": "The SRS specification and its reference implementation: how records, definitions, relations and repositories are versioned, referenced, governed and moved. The tools third parties use to work with SRS (CLI, MCP server, WASM bindings) and the conformance that lets them rely on them.",
+    "out_of_scope": "What any one repository's records say; the content of a corpus is its own domain."
+  },
+  "createdAt": "2026-10-16T13:17:54.819715762+00:00",
+  "updatedAt": "2026-10-16T13:17:54.819717552+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

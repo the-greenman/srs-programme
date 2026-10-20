@@ -1,0 +1,25 @@
+{
+  "instanceId": "6494df0f-56db-43bf-b1c0-cc484fab83c7",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A member's stance comes from an archetype",
+    "decision_question": "How is a group member's stance modelled?",
+    "context": "D8 of clerk#57 (plans/wg-srs-operations.md, section 8), asked of the owner since 2026-10-12. Recorded as a proposed decision on 2026-10-16 so a session can take it: until now it existed only as PR text, which no session agenda reads.",
+    "decision_statement": "We model a member's stance as its seat-holder `derived-from` a stance agent that `instantiates` an archetype, because those types and relations already exist.",
+    "rationale": "Those types and relations already exist.",
+    "revisit_when": "A seat fits no archetype.",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-16T11:19:21.406925760+00:00",
+  "updatedAt": "2026-10-16T11:50:01.654207807+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

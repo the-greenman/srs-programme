@@ -1,0 +1,25 @@
+{
+  "instanceId": "8e1ae42a-9d56-46c9-a30e-eee3cb31d049",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Groups sit beside each other, not nested",
+    "decision_question": "Are working groups nested or side by side?",
+    "context": "D10 of clerk#57 (plans/wg-srs-operations.md, section 8), asked of the owner since 2026-10-12. Recorded as a proposed decision on 2026-10-16 so a session can take it: until now it existed only as PR text, which no session agenda reads.",
+    "decision_statement": "Groups sit beside each other rather than nested, unless an observed overlap is recorded in a decision that nests them.",
+    "rationale": "Nesting adds structure before any overlap has been observed (proposal sections 4 to 6).",
+    "revisit_when": "Two cycles after a second group shares repos with another.",
+    "decision_kind": "preference"
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-16T11:19:21.574909297+00:00",
+  "updatedAt": "2026-10-16T11:50:01.823076360+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

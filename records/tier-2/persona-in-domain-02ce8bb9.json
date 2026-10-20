@@ -1,0 +1,32 @@
+{
+  "instanceId": "02ce8bb9-a47a-4d1f-816f-2fb7c66254c7",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Group / organisation in Group meaning ownership",
+    "summary": "A group that owns its shared meanings and decisions and must keep them portable, attributable and its own.",
+    "goals": [
+      "Own its meaning whatever the host",
+      "Keep decisions and their history readable",
+      "Govern change by its own rules"
+    ],
+    "jobs": [
+      "Publish and install shared definitions",
+      "Reconcile copies with their origin",
+      "Hand over part of its record",
+      "Upgrade without losing data",
+      "Keep agent proposals apart from group decisions"
+    ],
+    "needs": "Portable records with history, its own governance enforced by the tools, and no lock-in to one host."
+  },
+  "createdAt": "2026-10-16T12:25:14.674829394+00:00",
+  "updatedAt": "2026-10-16T12:25:14.674830849+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

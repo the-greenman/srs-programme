@@ -1,0 +1,26 @@
+{
+  "instanceId": "2637af0a-b734-448c-ba6b-45a8211be06b",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "An affirmed remedy is a recorded ruling for a group's mandate",
+    "decision_question": "May a working group auto-merge work that executes an affirmed remedy rather than a spec ruling, RFC or invariant?",
+    "context": "2026-10-16: WG Agent-supported editor's charter (384a704a) lets it auto-merge work that executes a recorded ruling, RFC or invariant. Its first issues (srs-web#566 to #572, the funding application objective) execute remedies the owner affirmed, which are client features with no spec ruling. Until this is decided the editor reviewer marks approved PRs gate:owner-merge.",
+    "alternatives_considered": "Keep owner merge for all remedy work (safe, but every editor PR waits on the owner). Amend each charter to list the remedies it may execute (precise, but a charter edit per remedy). Do nothing (the editor group cannot auto-merge anything it is asked to build).",
+    "decision_statement": "A remedy the owner has affirmed counts as a recorded ruling for a working group's mandate: a group may build and, with a valid quorum, auto-merge work that executes an affirmed remedy named in the issue and the PR, within its repositories and budget. Anything that changes a spec ruling, a public contract or a gate still escalates.",
+    "rationale": "An affirmed remedy is the owner's recorded choice of a move, with a falsifier and a return condition; it is a ruling about what to build, made at the owner's level. Treating it as one lets groups act on the owner's priorities without a merge queue on the owner.",
+    "revisit_when": "An auto-merged PR executing an affirmed remedy is reverted, or a remedy turns out to need a spec change.",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-16T16:41:47.319451991+00:00",
+  "updatedAt": "2026-10-16T17:17:21.561796695+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

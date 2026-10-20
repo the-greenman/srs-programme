@@ -1,0 +1,19 @@
+{
+  "instanceId": "c2c27020-ded0-40ce-b5b5-8fda46beb6a8",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Meaning lost on write",
+    "description": "Tools report success while meaning is dropped, broken or only imitated in shape."
+  },
+  "createdAt": "2026-10-16T12:05:33.645+00:00",
+  "updatedAt": "2026-10-16T12:05:33.645+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

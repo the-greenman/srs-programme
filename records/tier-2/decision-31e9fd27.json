@@ -1,0 +1,26 @@
+{
+  "instanceId": "31e9fd27-61bf-4967-8636-cab31a843a0b",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Federation returns, starting with cross-repository addressing",
+    "decision_question": "Is federation's committed return (decision 4f1e12e5) scheduled now, and in what order?",
+    "context": "Owner, 2026-10-16: essays will live in their own repository and link into muSrs and other repositories within a federation; the MCP server should address several repositories, tested and managed. This is the trigger 4f1e12e5 first named (a second real repository needing live cross-repository assertions); its return is committed and the owner schedules it. RFC-049 (Draft Rev 3, srs#913) already specifies addressing (Address.repositoryId, a boundary directory, read-only resolution) and states that accepting it is the scheduling act. Problems SP-86 and SP-87 recorded the same day.",
+    "alternatives_considered": "Keep essays in muSrs and defer federation (no spec change; muSrs keeps growing). Copy linked records into each essay repository (duplicates that drift; SP-34). Implement multi-repo MCP ahead of the spec (an implementation leading the spec, against the charter).",
+    "decision_statement": "Federation's return is scheduled now, in three steps: (1) take RFC-049 through review to acceptance (cross-repository addressing and read-only resolution); (2) a follow-up RFC for cross-repository relations, so a record in one repository can link to a record in another; (3) multi-repository MCP serving (srs-rust#683) implementing (1), with conformance tests. Until (2) lands, essays stay in muSrs.",
+    "rationale": "The need is real and named by the owner, the design is half written (RFC-049), and the charter requires the spec to lead the implementation; addressing first keeps each step small and reversible.",
+    "revisit_when": "RFC-049 is rejected or reworked, or essays stop needing records outside their own repository.",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-16T16:19:19.962627829+00:00",
+  "updatedAt": "2026-10-16T17:17:21.914396940+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

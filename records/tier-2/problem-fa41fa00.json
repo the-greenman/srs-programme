@@ -1,0 +1,24 @@
+{
+  "instanceId": "fa41fa00-7119-483c-979c-8862e699d8a1",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-58",
+    "title": "Easy AI drafting pulls the writer away from writing",
+    "statement": "When an agent can draft for me I am tempted to let it, and the text stops being my argument. I want help that responds to my writing, not help that replaces it.",
+    "kind": "belief",
+    "source_ref": [
+      "Owner, live planning session 2026-10-11 (srs-programme#89)"
+    ]
+  },
+  "createdAt": "2026-10-16T12:00:10.332+00:00",
+  "updatedAt": "2026-10-16T12:00:10.332+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

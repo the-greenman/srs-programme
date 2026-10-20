@@ -1,0 +1,19 @@
+{
+  "instanceId": "3f10db87-8526-4091-b712-b0aa6fd1bfb7",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Spec and implementation drift apart",
+    "description": "The written spec, schemas, reference implementation and clients diverge, and rulings or migrations are left half done, so no single source is current."
+  },
+  "createdAt": "2026-10-16T12:05:52.211+00:00",
+  "updatedAt": "2026-10-16T12:05:52.211+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

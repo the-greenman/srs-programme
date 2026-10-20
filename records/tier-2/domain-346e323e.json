@@ -1,0 +1,21 @@
+{
+  "instanceId": "346e323e-16fe-4217-a00f-987ed1c04aa2",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Programme coordination",
+    "purpose": "Keep the work of the SemanticOps and muDemocracy programmes moving to done across many repositories, with every piece of work understood within the whole picture (domain, problem, objective, decision), quality and consistency held, and decisions reaching the owner at a level they can judge. The clerk puts muDemocracy's own practices to work for the humans and agents doing it. The work is iterative and rarely reaches a stable, locked state.",
+    "in_scope": "Work that spans repositories (srs, srs-rust, srs-web, srs-vscode, clerk, srs-programme, semanticops.com, muDemocracy.org). The queue, claiming and handing over work. Finishing workstreams so nothing is left half done. Consistency: rulings executed in every layer, one way per goal, docs that match the code. Quality: review, gates and dogfooding. Decision load: escalation, sessions, ratification and delegation to working groups. Measuring whether the process is worth it.",
+    "out_of_scope": "What the products do (spec, editor features), held by other domains. Hosting and deployment. How outside groups govern themselves (Group meaning ownership)."
+  },
+  "createdAt": "2026-10-16T13:00:19.034532738+00:00",
+  "updatedAt": "2026-10-16T13:00:19.034534395+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,25 @@
+{
+  "instanceId": "a5c769be-dd7b-486b-9694-0ab74341be88",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "The decision log holds only choices that govern later choices",
+    "decision_question": "Which of the owner's acts go into the decision log as proposed and ratified decisions?",
+    "context": "Relayed from the owner on 2026-10-15, in a clerked session, once the desk (semanticops.com#35, clerk#64) began listing everything that waits on the owner. Most of what reaches the owner (merges, task triage, affirmations, report receipts, answers) is not a governing choice. Awaiting ratification.",
+    "decision_statement": "The decision log holds only choices that govern later choices. Every other act is taken where its item lives and is listed on the desk.",
+    "rationale": "A log of one-off acts buries the rules that settle later choices, and puts acts that need no ratification through the session. The desk already lists every waiting act, so each act can live in its natural home: a merge on its PR, a triage on its issue, an affirmation as a fork, a parked question as an exercise. A one-off call made twice is the signal to write a decision (the reuse test).",
+    "revisit_when": "When the desk regularly shows the same one-off call twice without it becoming a decision, or a group escalation that sets a rule is answered only on its item.",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-15T11:37:22.219312028+00:00",
+  "updatedAt": "2026-10-15T11:43:17.260785034+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

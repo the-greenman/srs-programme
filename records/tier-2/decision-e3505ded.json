@@ -1,0 +1,25 @@
+{
+  "instanceId": "e3505ded-9a18-471d-8991-22a57e5aa973",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A PR decision is a choice, a ruling or an escalation",
+    "decision_question": "Which decisions made in a PR go to a decision log?",
+    "context": "Proposed by agent:claude-code from the srs-lab control room (clerk#77). Prototyped against the live PRs on 2026-10-17: clerk#57 asked for thirteen decisions already ratified; srs-programme#154 and #155 proposed decisions only inside their diffs, in state draft; clerk#75 stated a constraining design principle in prose.",
+    "decision_statement": "A choice fails the Reuse test and stays in the PR block; a ruling passes the four tests inside the group mandate and is proposed in the group own log; an escalation is outside the mandate and is proposed in the parent log, with an ask in the PR.",
+    "rationale": "Logs hold only what governs later choices (the four tests); choices are still structured, so nothing is lost, without filling logs or sessions.",
+    "revisit_when": "When a choice is later found to settle another choice, or a group log fills with rulings no later work cites.",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-17T12:30:28.445064025+00:00",
+  "updatedAt": "2026-10-19T17:21:55.314996346+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (control-room prototype)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

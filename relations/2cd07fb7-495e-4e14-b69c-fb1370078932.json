@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "2cd07fb7-495e-4e14-b69c-fb1370078932",
+  "relationType": "delegates",
+  "sourceInstanceId": "599b24c6-1418-48f4-9314-710834877bfc",
+  "targetInstanceId": "1fc9ce85-e959-4296-b730-f4610aa05858",
+  "createdAt": "2026-10-19T17:14:50.818186178+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman"
+  },
+  "notes": "Executes the ratified charter decision 384a704a (session 2026-10-11), which asserts this relation; it was not written at ratification (srs-programme#165)."
+}

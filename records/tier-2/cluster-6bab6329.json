@@ -1,0 +1,19 @@
+{
+  "instanceId": "6bab6329-ee42-40d7-a0e3-85e8873a6905",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Who decides and on what grounds",
+    "description": "Tools impose hierarchy, agent proposals pass for decisions, and stated principles and foundations are neither checked nor traced."
+  },
+  "createdAt": "2026-10-16T12:05:23.666+00:00",
+  "updatedAt": "2026-10-16T12:05:23.666+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

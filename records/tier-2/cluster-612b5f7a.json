@@ -1,0 +1,19 @@
+{
+  "instanceId": "612b5f7a-185e-4763-bec4-70cdf98c9a00",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Records lose context, origin or identity",
+    "description": "A record can arrive without its definitions, a claim without its origin, and a record cannot change kind without breaking its identity."
+  },
+  "createdAt": "2026-10-16T12:05:42.329+00:00",
+  "updatedAt": "2026-10-16T12:05:42.329+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

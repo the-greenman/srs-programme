@@ -1,0 +1,22 @@
+{
+  "instanceId": "196c882e-a1eb-43bc-a506-bebe211e6fb6",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-16 17:16 UTC: SemanticOps",
+    "held_at": "2026-10-16T17:16:58Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-16 17:16 UTC: SemanticOps\nAttendees: Owner\n- Ratified: An affirmed remedy is a recorded ruling for a group's mandate [2637af0a]\n- Ratified: Affirmed clusters are the owner's; suggested clusters are the synthesiser's [2800bea0]\n- Ratified: Federation returns, starting with cross-repository addressing [31e9fd27]\n- Ratified: Experiment now, unify later [559bfb9e]\n- Ratified: A problem may occur in several domains [708c9373]\n- Exercise: One chain of meaning for essays and the programme: input given\n- Exercise: How a remedy differs by domain and persona: input given\nClerked by: Claude Code, from the owner's session transcript of 2026-10-16 17:00 UTC (the owner's input was lost at the end prompt, then by an endSession bug fixed in clerk#74)"
+  },
+  "createdAt": "2026-10-16T17:17:21.281234582+00:00",
+  "updatedAt": "2026-10-16T17:17:21.281236025+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

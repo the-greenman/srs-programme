@@ -1,0 +1,26 @@
+{
+  "instanceId": "d75c226e-b837-42a8-9b37-bd50bec19c2a",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-71",
+    "title": "A pull request can carry an authority decision",
+    "statement": "A pull request can bring in a decision record with authorised-by or a ratified state from an AI actor, or choose its own gate label, without the owner having made that act. The owner-merge agenda shows the PR without the decision context, so the owner cannot tell what merging it would settle.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-12: decision clarity brief",
+      "srs-programme#114",
+      "srs-programme:SP-42"
+    ]
+  },
+  "createdAt": "2026-10-16T12:01:27.198+00:00",
+  "updatedAt": "2026-10-16T12:01:27.198+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

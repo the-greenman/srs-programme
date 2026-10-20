@@ -1,0 +1,24 @@
+{
+  "instanceId": "24ff6921-84d4-4059-aa33-2730015dbea6",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-84",
+    "title": "Concepts cannot be explained with video, text and diagrams that stay in step",
+    "statement": "A group explaining what it means has video, text and diagrams as separate pieces that drift apart, with no way to keep them on one timeline the reader can move back and forth through.",
+    "kind": "condition",
+    "source_ref": [
+      "the-greenman/semanticops.com#30 (issue sweep 2026-10-16)"
+    ]
+  },
+  "createdAt": "2026-10-16T13:36:34.232466337+00:00",
+  "updatedAt": "2026-10-16T13:36:34.232467674+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

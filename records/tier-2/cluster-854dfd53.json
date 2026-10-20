@@ -1,0 +1,19 @@
+{
+  "instanceId": "854dfd53-6062-4d9f-b4c6-790e680f0237",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Change that erodes what the group holds",
+    "description": "Definitions drift, past decisions are overwritten, upgrades are opaque and simultaneous edits discard work."
+  },
+  "createdAt": "2026-10-16T12:04:47.962+00:00",
+  "updatedAt": "2026-10-16T12:04:47.962+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

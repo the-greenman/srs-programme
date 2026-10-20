@@ -1,0 +1,19 @@
+{
+  "instanceId": "4a2eb1a2-092f-47f6-8273-47533edf4012",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Tools and environment mislead agents",
+    "description": "Uneven surfaces, misleading errors, unknown builds and silent environment effects give the agent a wrong picture of what its tools do."
+  },
+  "createdAt": "2026-10-16T12:03:46.105+00:00",
+  "updatedAt": "2026-10-16T12:03:46.105+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

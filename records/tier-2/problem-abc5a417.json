@@ -1,0 +1,27 @@
+{
+  "instanceId": "abc5a417-a6eb-477e-84fb-b9c3e6707765",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-50",
+    "title": "A group cannot limit what a member or agent may change",
+    "statement": "Anyone or any agent with access to a repository can read and write every record in it. A group that wants some records settled by named parties, or an agent held to reading only, has nothing in the tools to say so. The group must rely on trust and habit, which breaks when many agents work at once.",
+    "kind": "capability",
+    "source_ref": [
+      "problem-index:11-access-control/roles-permissions.md",
+      "problem-index:11-access-control/agent-authorization.md",
+      "muDemocracy-decisions#29"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-16T11:58:39.045+00:00",
+  "updatedAt": "2026-10-16T11:58:39.045+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

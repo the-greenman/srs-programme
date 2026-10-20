@@ -1,0 +1,27 @@
+{
+  "instanceId": "a27ed282-66fc-4b6f-bb13-3c2b111af495",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "The muDemocracy site publishes essays from their records",
+    "move": "The site, not the editor, publishes: muSrs is where the first essays live, and the site's build (publish-musrs.mjs, which already renders problems and routines from muSrs records) renders each essay marked for publishing into a page. The records stay the single source and the page is a projection; the editor only writes the records and needs no publishing feature of its own. Lower priority than writing the essays themselves (owner, 2026-10-16).",
+    "does_not_fix": "Distribution beyond the site, scheduling, and publishing essays that live in repositories other than muSrs.",
+    "falsifier": "A published essay on the site differs from its record after the next build, or publishing an essay needs a step outside marking it and the normal site build.",
+    "source_ref": [
+      "Owner, 2026-10-16: publish essays from where they are written",
+      "muDemocracy.org:scripts/publish-musrs.mjs; muDemocracy.org#89",
+      "srs-web:src/lib/essay/essay-document.ts essayMarkdown"
+    ],
+    "return_when": "When the first essay has gone from the editor to the site this way and the owner has said whether publishing felt like one act."
+  },
+  "createdAt": "2026-10-16T15:20:49.536586341+00:00",
+  "updatedAt": "2026-10-16T16:16:11.491093099+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

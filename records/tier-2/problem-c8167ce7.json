@@ -1,0 +1,24 @@
+{
+  "instanceId": "c8167ce7-9fbd-4891-b09a-721e33d20398",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-86",
+    "title": "A record cannot link to a record in another repository",
+    "statement": "A repository grows large (muSrs is big), so I want to keep essays in their own repository and link from them to problems, claims and sources in muSrs and other repositories, within a federation of repositories. Today a relation or reference must resolve inside its own repository, so linking across repositories means copying records into one large repository.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-16: essays in their own repository linking to muSrs and other repositories within a federation"
+    ]
+  },
+  "createdAt": "2026-10-16T16:19:19.528687449+00:00",
+  "updatedAt": "2026-10-16T16:19:19.528689506+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

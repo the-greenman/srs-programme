@@ -1,0 +1,31 @@
+{
+  "instanceId": "827de6f2-e25a-4c12-bb5e-2d78f6a02eea",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "AI agent in Programme coordination",
+    "summary": "An agent claiming, building, reviewing or reporting programme work within a group's mandate, starting each run from scratch.",
+    "goals": [
+      "Take only work that is grounded and within its mandate",
+      "Leave work finished or cleanly handed over",
+      "Escalate what is outside its authority"
+    ],
+    "jobs": [
+      "Claim an issue and build it",
+      "Review another member's work and post a quorum",
+      "Report a cycle",
+      "Find out what changed since it last looked"
+    ],
+    "needs": "A clear queue, the group's rules of engagement in the records, and tools that tell it which build and state it is acting on."
+  },
+  "createdAt": "2026-10-16T13:00:19.481606267+00:00",
+  "updatedAt": "2026-10-16T13:00:19.481608051+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

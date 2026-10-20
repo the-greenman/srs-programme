@@ -1,0 +1,23 @@
+{
+  "instanceId": "451a23ba-7028-462f-a65c-fa2126c77488",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "One chain of meaning for essays and the programme",
+    "thinking_reached": "The owner, 2026-10-16: an essay speaks about a domain, the problems personas face there, claims and remedies, the same chain the programme has learned to walk (domain, persona-in-domain, problem, cluster, remedy). The writing tools should link to that chain as the essay is written.",
+    "tensions": "Two models already describe it. muSrs uses the argument package: boundary (with scopes-problem), problem, claim, option. The programme uses the method package: domain, persona, persona-in-domain, problem, cluster, remedy. Alongside them sit boundaries, tensions and archetypes. One way per goal would push to converge now; the owner's method for this phase is the opposite: practise them side by side and resist collapsing them too soon. The editor must work in any repository, whichever packages it carries.",
+    "unresolved_questions": "1. Is a muSrs boundary the same thing as a method domain? 2. Is an argument option a remedy? 3. Do personas enter muSrs, or stay in the programme? 4. Does the essay package link to the method types, the argument types, or a shared core both map onto?",
+    "blocking": "Nothing yet: the essay map can start with the links muSrs already has. It blocks once an essay needs to link a remedy or a persona.",
+    "next_action": "Hold both models while they are practised; do not converge yet. Record where an essay or the programme strains against one model or the other, as evidence. Bring a side-by-side to a session only when that evidence shows which way to unify."
+  },
+  "createdAt": "2026-10-16T16:16:12.190918278+00:00",
+  "updatedAt": "2026-10-16T16:19:42.523442989+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

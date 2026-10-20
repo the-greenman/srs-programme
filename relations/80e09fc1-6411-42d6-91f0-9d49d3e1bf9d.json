@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "80e09fc1-6411-42d6-91f0-9d49d3e1bf9d",
+  "relationType": "derived-from",
+  "sourceInstanceId": "b6b9bd0e-964d-49a3-839b-4ca508c36ae3",
+  "targetInstanceId": "7f66efec-8a28-4680-8093-7cbadac97862",
+  "createdAt": "2026-10-16T12:03:05.764+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  }
+}

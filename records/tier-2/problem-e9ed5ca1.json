@@ -1,0 +1,25 @@
+{
+  "instanceId": "e9ed5ca1-3711-4e74-9f3e-2396dbe1b794",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-72",
+    "title": "A group has no affirmed compass of its own",
+    "statement": "A working group's compass is a copy of a boundary and tensions that are all still unaffirmed suggestions, so there is no affirmed chain for a decision to rest on. Neither the group nor an agent can tell whether a choice is covered by precedent or goes against a policy, and the owner is asked either way.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-12: decision clarity brief",
+      "clerk:lib/practice/charter.mjs:70-81"
+    ]
+  },
+  "createdAt": "2026-10-16T12:01:29.077+00:00",
+  "updatedAt": "2026-10-16T12:01:29.077+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

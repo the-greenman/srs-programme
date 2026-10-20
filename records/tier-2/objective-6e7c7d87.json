@@ -1,0 +1,22 @@
+{
+  "instanceId": "6e7c7d87-4f9d-40c1-af72-aacde472d622",
+  "typeId": "f6635d38-f2f6-4e2a-bcbe-8780d9ee4e0b",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "objective",
+  "fieldValues": {
+    "title": "Short responses to the news, posted a few times a week",
+    "summary": "The second kind of essay after the funding applications: short pieces responding to news, written a few times a week in the essay editor on the research dataset, and posted on the muDemocracy blog, Medium, Substack and LinkedIn, possibly with an Instagram snapshot. Draft.",
+    "source_ref": [
+      "Owner, 2026-10-16"
+    ]
+  },
+  "createdAt": "2026-10-16T16:51:41.481639069+00:00",
+  "updatedAt": "2026-10-16T16:51:41.481641118+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

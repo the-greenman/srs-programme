@@ -1,0 +1,19 @@
+{
+  "instanceId": "07ea1697-3e41-4815-9ec2-028ebec8c7b7",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Work that cannot leave and return",
+    "description": "Writing leaves the editor one way, and changes to records are hard to review when they come back."
+  },
+  "createdAt": "2026-10-16T12:04:39.351+00:00",
+  "updatedAt": "2026-10-16T12:04:39.351+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

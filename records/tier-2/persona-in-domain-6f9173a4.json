@@ -1,0 +1,28 @@
+{
+  "instanceId": "6f9173a4-0753-4589-ba96-921c15cca03c",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "AI agent in Semantic records",
+    "summary": "An agent that reads and writes SRS records and must perform the semantic acts, not imitate the file shapes.",
+    "goals": [
+      "Write meaning, not look-alike files",
+      "Never lose data silently"
+    ],
+    "jobs": [
+      "Write records through the tools",
+      "Recover from a refused or partial write"
+    ],
+    "needs": "Tools that enforce contracts and refuse loudly, and errors it can branch on."
+  },
+  "createdAt": "2026-10-16T12:25:13.872909736+00:00",
+  "updatedAt": "2026-10-16T12:25:13.872911169+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
