@@ -1,0 +1,19 @@
+{
+  "instanceId": "2ceae69b-19d2-464d-8b9d-90db5e0f3b82",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Human judgement and agent throughput",
+    "description": "Whether a human decides each item or agents act and merge on their own."
+  },
+  "createdAt": "2026-10-20T11:53:13.330807522+00:00",
+  "updatedAt": "2026-10-20T11:53:13.330810069+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

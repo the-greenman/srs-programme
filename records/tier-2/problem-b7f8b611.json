@@ -1,0 +1,26 @@
+{
+  "instanceId": "b7f8b611-43d7-46dc-9d00-58e80fd1e918",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-91",
+    "title": "A decision is asked for without what it takes to judge it",
+    "statement": "A decision can only be taken when the person deciding has what they need to judge it: the question, the stakes, the real options including doing nothing, and what each leads to. Without that, or when the presentation leaves only one plausible answer, approving is not a decision. When AI prepares most of what reaches the owner, a polished presentation can stand in for a choice, and authority over the group's meaning passes to whoever framed the question.",
+    "kind": "condition",
+    "source_ref": [
+      "semanticops.com#36",
+      "semanticops.com#37",
+      "srs-programme#155"
+    ]
+  },
+  "createdAt": "2026-10-20T11:51:41.334016565+00:00",
+  "updatedAt": "2026-10-20T11:51:41.334018598+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

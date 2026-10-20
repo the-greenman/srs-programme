@@ -1,0 +1,21 @@
+{
+  "instanceId": "75cd5e78-bfd2-4e2a-bd49-bcdd20829714",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Group meaning ownership",
+    "purpose": "Let a group hold and change shared meanings together, so no single member silently redefines them.",
+    "in_scope": "How a group agrees, owns and revises the definitions and decisions its members rely on.",
+    "out_of_scope": "Individual opinion and private notes; legal ownership of data."
+  },
+  "createdAt": "2026-10-20T11:22:13.533016863+00:00",
+  "updatedAt": "2026-10-20T11:22:13.533018606+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

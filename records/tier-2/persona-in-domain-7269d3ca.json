@@ -1,0 +1,32 @@
+{
+  "instanceId": "7269d3ca-5bda-466f-a717-17565de77886",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Group / organisation in Group meaning ownership",
+    "summary": "A group that owns its shared meanings and decisions and must keep them portable, attributable and its own.",
+    "goals": [
+      "Own its meaning whatever the host",
+      "Keep decisions and their history readable",
+      "Govern change by its own rules"
+    ],
+    "jobs": [
+      "Publish and install shared definitions",
+      "Reconcile copies with their origin",
+      "Hand over part of its record",
+      "Upgrade without losing data",
+      "Keep agent proposals apart from group decisions"
+    ],
+    "needs": "Portable records with history, its own governance enforced by the tools, and no lock-in to one host."
+  },
+  "createdAt": "2026-10-20T11:49:54.230541194+00:00",
+  "updatedAt": "2026-10-20T11:49:54.230545698+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

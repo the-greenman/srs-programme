@@ -1,0 +1,19 @@
+{
+  "instanceId": "c6b6834f-5380-4c06-b2a5-903528e3f6bb",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Versioning and Reference",
+    "description": "Whether a record's meaning is kept exact or its expression is made convenient."
+  },
+  "createdAt": "2026-10-20T11:26:10.169669628+00:00",
+  "updatedAt": "2026-10-20T11:26:10.169671098+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

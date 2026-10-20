@@ -1,0 +1,19 @@
+{
+  "instanceId": "763f5b93-bbf8-42b6-9a85-2c92cd4e88d5",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Mechanism and policy",
+    "description": "Whether the tool builds a rule in or leaves each governed corpus to adopt its own."
+  },
+  "createdAt": "2026-10-20T11:53:41.848933273+00:00",
+  "updatedAt": "2026-10-20T11:53:41.848935092+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

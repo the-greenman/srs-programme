@@ -1,0 +1,19 @@
+{
+  "instanceId": "50b668a3-79a3-41ad-ac7a-0a7b4e2d36c2",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Core once and adapter convenience",
+    "description": "Whether semantics live once in the core or each adapter adds what is handy."
+  },
+  "createdAt": "2026-10-20T11:52:56.717304805+00:00",
+  "updatedAt": "2026-10-20T11:52:56.717307421+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

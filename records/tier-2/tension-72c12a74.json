@@ -1,0 +1,19 @@
+{
+  "instanceId": "72c12a74-2b03-4a3e-86dd-dfe3f8fcec0f",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Strict and repairable",
+    "description": "Whether invalid data is refused outright or can be fixed through a deliberate path."
+  },
+  "createdAt": "2026-10-20T11:54:22.425409783+00:00",
+  "updatedAt": "2026-10-20T11:54:22.425411598+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

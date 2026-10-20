@@ -1,0 +1,19 @@
+{
+  "instanceId": "4d1653b8-4bdb-4616-a268-78926cde8631",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Succession and Conformance",
+    "description": "Whether standing contracts stay reliable or are renewed."
+  },
+  "createdAt": "2026-10-20T11:25:58.907733962+00:00",
+  "updatedAt": "2026-10-20T11:25:58.907735529+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

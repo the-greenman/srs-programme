@@ -1,0 +1,19 @@
+{
+  "instanceId": "fcc85f1d-c83c-4d20-8aa5-d455087325be",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Action",
+    "description": "Whether energy goes outward into visible work or inward into capacity and shared understanding."
+  },
+  "createdAt": "2026-10-20T11:23:38.382415229+00:00",
+  "updatedAt": "2026-10-20T11:23:38.382419797+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

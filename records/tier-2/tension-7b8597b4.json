@@ -1,0 +1,19 @@
+{
+  "instanceId": "7b8597b4-96c5-4ada-811d-d91d13cc7f48",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Depth and overload",
+    "description": "Whether a reader gets everything at once or is led down through layers they can drill into."
+  },
+  "createdAt": "2026-10-20T11:53:04.755475447+00:00",
+  "updatedAt": "2026-10-20T11:53:04.755476987+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,24 @@
+{
+  "instanceId": "6c887321-fc6c-4956-8e25-974b3763323b",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Office over testimony",
+    "boundary_clause": "Testimony fills gaps, never contradicts authority, and is promoted into office only by verification",
+    "context": "Applied by default in the Attribution and Repository trade-off of the semantic-records charter.",
+    "source_ref": [
+      "the-greenman/srs: srs/records/tier-2/rfc-decision-cce3c00e.json",
+      "the-greenman/srs: srs/records/tier-2/rfc-decision-16b20c56.json"
+    ]
+  },
+  "createdAt": "2026-10-20T11:26:37.568096423+00:00",
+  "updatedAt": "2026-10-20T11:26:37.568097929+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
