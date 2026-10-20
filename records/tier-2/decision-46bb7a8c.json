@@ -1,0 +1,26 @@
+{
+  "instanceId": "46bb7a8c-a361-4193-aae8-362148e9fb86",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "The clerk's HTTP contract is one OpenAPI 3.1 document that routes, validation and client types derive from",
+    "decision_question": "How is the contract between clerk serve and its clients kept from drifting?",
+    "context": "Proposed from /ship clerk#96. In srs-rust, interface drift got through three gaps: embedded types emitted as {} (srs-rust#818, #1258), client types written by hand and checked only against fixtures (ADR-011), and cross-repo checks that skip when the repos are not side by side.",
+    "alternatives_considered": "Protobuf. Schemas generated from code with golden files, as srs-rust does. Client types written by hand. Do nothing.",
+    "decision_statement": "clerk/api/openapi.json (OpenAPI 3.1) is the single source of the service contract. The server's routes and request validation derive from it; clients generate their types from it; clerk --json outputs share its schemas. No schema is opaque ({}): SRS data refers to the canonical entity schemas. Conformance is checked against live responses, not fixtures. A breaking change needs a major version.",
+    "rationale": "It closes each gap through which the Rust interface drifted. OpenAPI 3.1 is JSON Schema 2020-12, the dialect every SRS schema already uses, and JSON is native to the browser client; protobuf would add a second schema language.",
+    "revisit_when": "When a client breaks on a service change that passed the gates, or a second transport (MCP) needs a contract the document cannot express.",
+    "next_steps": "clerk#97 writes the spec first; srs-lab#7 generates the client types.",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-20T18:19:39.094838534+00:00",
+  "updatedAt": "2026-10-20T18:19:47.902304532+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

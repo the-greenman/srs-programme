@@ -1,0 +1,26 @@
+{
+  "instanceId": "a1b06725-89d6-42ea-a90e-2577da694f8b",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A capability enters clerk serve only after it is a clerk command, used for real, and tested",
+    "decision_question": "When does a capability prototyped in the srs-lab control room move into the clerk and its local service?",
+    "context": "Proposed from /ship clerk#96 (semanticops.com#38, remedy 6858b178, affirmed 2026-10-20). The control room's dev-server middleware already carries load-bearing parts (live sync, owner acts, affirmation rounds) beside experiments. The owner asked for a core kept small and grown only with stable elements.",
+    "alternatives_considered": "Move all of the control room's server code into the clerk now. Build the service in srs-lab and lift it later. Do nothing: the lab's dev server stays the only server.",
+    "decision_statement": "A capability enters clerk serve only after it is a clerk command with --json output, has been used for real (for affirmation rounds, two or more real rounds), has gone a cycle unchanged, and has tests at every layer it touches. Until then it stays in srs-lab.",
+    "rationale": "It keeps the core small and grows it only with what has proved stable. Command first keeps one implementation for the terminal, the routines and the service. Experiments stay cheap to change and to drop.",
+    "revisit_when": "When a capability waits in the lab for more than two cycles despite real use, or a graduated capability changes shape within a cycle of graduating.",
+    "next_steps": "clerk#97 graduates the reads and the sync job; clerk#98 rounds; clerk#99 method acts.",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-20T18:19:38.892788526+00:00",
+  "updatedAt": "2026-10-20T18:19:47.815011224+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
