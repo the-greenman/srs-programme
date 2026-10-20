@@ -1,0 +1,19 @@
+{
+  "instanceId": "da0c0028-5b4f-4f80-9a44-81b960e7a4df",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Meaning stops at the repository boundary",
+    "description": "A record cannot point at a record in another repository, and an agent can work in only one repository at a time, so meaning that spans repositories is held outside SRS."
+  },
+  "createdAt": "2026-10-20T18:09:00.276709169+00:00",
+  "updatedAt": "2026-10-20T18:09:00.276713801+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

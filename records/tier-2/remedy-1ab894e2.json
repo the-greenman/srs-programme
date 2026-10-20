@@ -1,0 +1,26 @@
+{
+  "instanceId": "1ab894e2-7539-425d-937f-e53121248b02",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "An agent's words reach a page only when the writer swaps them in",
+    "move": "Agents may draft any copy for a page, but only as alternatives in the page's drafts, each derived from the block it would replace. The writer sees every alternative beside the block and swaps one in, and a swapped-in block stays marked as the agent's until the writer edits it. The page records who wrote each block, so drafting help never arrives unseen.",
+    "does_not_fix": "Whether the words are true, which is the evidence remedy (856afe73). Essays, where the affirmed writer persona wants no agent drafting at all (SP-58 for essays stays answered by d1e2248f).",
+    "falsifier": "After the homepage has been rewritten with agent drafts available, the owner finds a block on the page whose author they cannot tell from the page, or agent copy reached the page without the owner swapping it in.",
+    "source_ref": [
+      "muDemocracy.org#350",
+      "muDemocracy.org:site-editor/DECISIONS.md#d8"
+    ],
+    "return_when": "When the homepage has been rewritten in the site editor and the owner has said whether agent drafts helped or pulled them away from writing."
+  },
+  "createdAt": "2026-10-20T18:11:38.176393247+00:00",
+  "updatedAt": "2026-10-20T18:11:38.176394893+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
