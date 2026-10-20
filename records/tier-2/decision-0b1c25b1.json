@@ -1,0 +1,29 @@
+{
+  "instanceId": "0b1c25b1-3f6b-4348-81d5-047e091d6f4d",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "What counts as a recorded ruling for a group's mandate",
+    "decision_question": "Which records count as a recorded ruling when WG Third-party ready decides an issue is inside its mandate ('executes a recorded ruling, RFC or invariant and names it')?",
+    "context": "Problem: the 2026-10-20 triage of the group's 63 parked issues found the same question deciding about one in six of them. The group's analyst may unpark only ruling-backed work, but the authority behind much of the backlog is not an rfc-decision record:\n- the relation principles R1-R11 live in design-note 044, ratified 2026-07-14 through the srs#171 epic, with no rfc-decision record (srs-rust#557, srs-vscode#45, srs#180, srs#181);\n- the capability-layering rules R5 and R6 are stated as ratified in srs-rust/docs/architecture/capability-layering.md only (srs-web#407, #216, #167);\n- the implementation ADRs (ADR-041, ADR-042, ADR-048, ADR-053, ADR-011) name deferred work exactly (srs-rust#704, #725-#731, #1147, #1342, #1343, #601);\n- some owner rulings exist only in issue threads (srs#883, srs-rust#813, #688).\nThe triage counted ADR-011 and ADR-053 (they name the exact work) and nothing else, so 20 issues stay KEEP.\nWhy it matters: answers SP-02 (rulings are made but never executed). A ruling that the group cannot cite cannot be executed by it, and the backlog stays parked while the queue runs dry (3 ready against a budget of 10).\nOptions and consequences: (a) only rfc-decision records, accepted RFC requirements and spec invariants count; design-note 044, R5/R6 and thread rulings are first promoted into rfc-decision records (a spec act, through the RFC process); ADRs never count. (b) As (a) for spec-side work, plus accepted srs-rust ADRs count for implementation-side work in srs-rust that changes no CLI or payload contract; thread rulings are recorded as decisions first (D11). (c) Anything the owner has ruled, wherever it is written, counts. (d) Do nothing: the analyst stays conservative and these issues stay parked.\nRecommendation: (b), with design-note 044 R1-R11 and R5/R6 promoted into rfc-decision records as the first spec work it creates.\nAction needed: ratify in a session; then the analyst re-runs the triage against the ratified rule and updates routines/wg-analyst.md section 3 ('Mandate').\nUrgency: medium. It decides the group's next queue.",
+    "friction": "Three triage agents independently flagged the same question in srs, srs-rust and the clients on 2026-10-20.",
+    "alternatives_considered": "(a) Spec records only. Leads to one source of authority and a short spec workload before about ten issues can move. Leans to Office over Testimony.\n(b) Spec records for the spec; accepted ADRs for implementation-internal work. Leads to the storage-refactor family and #1147 moving at once, while contract changes still need the spec. Follows the layer rule: implementation decisions live in srs-rust ADRs (ADR-048).\n(c) Any owner ruling. Leads to the most work moving, with authority that cannot be traced to a record.\n(d) Do nothing. Leads to the queue staying dry and the backlog parked.",
+    "key_requirements": "Whatever counts must be citable by id in the issue's Ruling line, and traceable to a ratified record. No rule may let an agent widen its own mandate.",
+    "decision_statement": "For WG Third-party ready, a recorded ruling is an rfc-decision record, an accepted RFC requirement or a spec invariant; for implementation-internal work in srs-rust that changes no CLI, payload or WASM contract, an accepted srs-rust ADR also counts. An owner ruling written anywhere else is recorded as a decision before it is cited.",
+    "rationale": "Authority should be traceable to a record at the layer it governs: spec rulings in the spec, implementation rulings in the implementation's ADRs. Promoting R1-R11 and R5/R6 closes the gap where both sides already cite them as ratified.",
+    "revisit_when": "The next triage of the group's parked issues, or when an ADR-backed change is found to have altered a contract a third party relies on.",
+    "owner": "Owner role (SemanticOps)",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-20T15:50:54.985664096+00:00",
+  "updatedAt": "2026-10-20T15:50:55.081204160+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
