@@ -1,0 +1,18 @@
+{
+  "instanceId": "e6c42825-9c2d-422c-8a5e-7e27f0cbf0ed",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Correction to the context, not the decision (the statement and the three leans stand as ratified). The context names the lines with T3 labels, and those labels are swapped. By the charter binary (rfc-decision-b9d7096e; line order confirmed by the owner 2026-10-20), Attribution and Repository is line 1 (Action), Identity and Assertion is line 2 (Form), and Containment and Portability is line 3 (Time). The axes pair by line: {3-9, 4-10}, {2-8, 5-11}, {1-7, 6-12}. Office, Evolution and Portability are the yang poles, so the lean is still the Initiator (yang on all three lines). The group pulls against the yin halves of lines 2 and 3 (Reliability on 5-11, Semantic integrity on 1-7). Polarity is now recorded as refines from each pole to its Stance pole (srs-programme#178)."
+  },
+  "createdAt": "2026-10-20T17:54:40.196575290+00:00",
+  "updatedAt": "2026-10-20T17:54:40.196585632+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
