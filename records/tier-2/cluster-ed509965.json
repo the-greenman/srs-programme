@@ -1,0 +1,19 @@
+{
+  "instanceId": "ed509965-6140-4071-9308-628d4f9b78d6",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "The engine does not scale or embed for third parties",
+    "description": "A third party who wants to build on SRS meets an engine that slows as the repository grows, cannot be installed as a library, and cannot select records by what their fields say."
+  },
+  "createdAt": "2026-10-20T15:47:52.382859122+00:00",
+  "updatedAt": "2026-10-20T15:47:52.382860631+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

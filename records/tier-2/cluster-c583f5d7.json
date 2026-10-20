@@ -1,0 +1,19 @@
+{
+  "instanceId": "c583f5d7-4aa4-4861-840c-c60b471a18a4",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Meaning stops at the repository boundary",
+    "description": "A record cannot point at a record in another repository, and an agent can work in only one repository at a time, so meaning that spans repositories is held outside SRS."
+  },
+  "createdAt": "2026-10-20T15:47:53.455246216+00:00",
+  "updatedAt": "2026-10-20T15:47:53.455248667+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
