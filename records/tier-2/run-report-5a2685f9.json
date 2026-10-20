@@ -1,0 +1,23 @@
+{
+  "instanceId": "5a2685f9-046a-499b-97ca-ace29728b5c8",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle 2026-10-19 to 2026-10-20",
+    "run_date": "2026-10-20",
+    "chose": "Closed the cycle. Nothing to ratify (no builder decision awaits assent). One escalation still waits for the owner: 5d5feb79 (where an essay keeps each agent's brief); srs-web#571 and #567 are blocked on the same missing essay package field. One owner-merge PR landed (srs-web#579). The group's queue is dry.",
+    "rationale": "No new escalation raised: the open ones (5d5feb79, covering #567, #571) already name the package-field question; filing a second record would duplicate it.",
+    "figures": "Delegated merges this cycle: 0 of 10 (srs-web#579 was gate:owner-merge, not counted). Open group PRs: 0. needs-input: srs-web#567, #571. Pause state: running.",
+    "landed_as": "pending: srs-programme PR for wg-report-2026-10-20-editor"
+  },
+  "createdAt": "2026-10-20T11:32:55.658123218+00:00",
+  "updatedAt": "2026-10-20T11:32:55.658130276+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
