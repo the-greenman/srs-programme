@@ -1,0 +1,29 @@
+{
+  "instanceId": "05c3ddcb-8425-435a-b3b9-bb720e846bec",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Work is held as holons: revived units, one GitHub tree, ranked in the period",
+    "decision_question": "How is a connected whole of work (an accepted RFC with its implementation, release, spec fold, pin advances and migrations across repos) held, prioritised and seen, so that it is implemented and not lost after acceptance?",
+    "context": "RFC-051 and RFC-052 were accepted on 2026-10-20 and work stopped: the /rfc pipeline closed the RFC issues at acceptance; srs-rust#1417 inherited P2 from epic semanticops.com#28 and sat 10th in the queue behind July P2s although the owner asked for it 'soon, and not lost'; the pin advances and corpus migrations in five repos were checkboxes in srs#948, not issues; srs#948/949 carried a hand-set blocked label with no edge, which reconcile never clears. Nothing answered 'is RFC-052 done?'. Phase A of the plan (clerk#111) already repaired that chain as data: RFC issues reopened as wholes, 16 part issues filed with blocked-by edges. The owner chose this model on 2026-10-21 (SRS record plus GitHub tree; revive unit; rank in the period) and accepted the defaults below.",
+    "friction": "Without a whole, priority comes from whichever epic a part happened to be filed under, cross-repo parts are invisible to routing, and handovers between groups are seen by nobody.",
+    "alternatives_considered": "GitHub only: a labelled tracking issue with no record, cheapest but carries no link to an objective or ruling. SRS outline authoritative: a container outline lists the parts and issues mirror it, richest but two trees to keep in sync. A new type beside the frozen unit (kept unit frozen). Expedite flag or display-only priority instead of ranking.",
+    "decision_statement": "1. The frozen com.semanticops.programme/unit type is revived as the holon: a connected whole of work. Its record holds the meaning (summary, serves an objective, a 'Done when:' section in body); issue_ref[0] names its tracking issue. 2. The GitHub sub-issue tree is the one authority for a holon's parts and their order, and native blocked-by edges for what must precede; units do not also record parts as relations (landed units keep theirs as history). 3. The active period ranks holons in a new unit_rank field: rank 1 gives P0, any other ranked holon P1, unranked no override; the holon's tier replaces the epic cap for its parts in both directions; the issue's own parked label, the bug floor and bump labels still apply. 4. A handover is a blocked-by edge across lanes (a wg: label, else the central group); a handed-over edge that crosses groups or lands in the central group goes to the owner's Needs you. 5. A unit lands only in a session, after its parts have closed; drift is flagged meanwhile. 6. An accepted RFC is decomposed into a unit on acceptance (/rfc Stage 8) and its issue stays open until the unit lands.",
+    "rationale": "One authority per fact: meaning in records, parts and order in the tree GitHub already gives us and the board already reads. Reusing unit keeps one way per goal (it already had issue_ref[], decision_mode, door and a lifecycle). Ranking wholes puts the owner's priority where the owner thinks, on connected changes, not individual issues.",
+    "revisit_when": "When phase D (control-room holon view) has run for two cycles: are ranked holons landing, does any part still sit unrouted, and do handovers reach the central group?",
+    "next_steps": "Record the unfreeze in srs-programme CLAUDE.md; create units for RFC-052 (srs#941) and RFC-051 (srs#940) serving objective 1; phases B to E: srs-programme#185, clerk#112, srs-lab#13, srs#951 under clerk#111.",
+    "owner": "Peter Brownell",
+    "status": "active"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-21T09:57:09.731430931+00:00",
+  "updatedAt": "2026-10-21T10:00:09.914114196+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (relaying the owner request, 2026-10-21)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
