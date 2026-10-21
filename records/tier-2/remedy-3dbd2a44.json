@@ -1,0 +1,25 @@
+{
+  "instanceId": "3dbd2a44-b4c4-4203-81d1-ffce3b645ac9",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A prerequisite is a recorded edge, and ranked work pulls its blockers out of parking",
+    "move": "When work depends on another issue it records a GitHub blocked-by edge, not only prose; clerk steward flags issues that name a prerequisite in text (\"Blocked by:\", \"once X lands\") with no edge. clerk board rollup gives a blocker at least the priority of the ranked work it blocks. A parked blocker of ranked work appears on the owner's desk under Needs you, with the work it holds up, so it is re-grounded to that work's problem.",
+    "does_not_fix": "Dependencies nobody has written down anywhere. Choosing which problem a blocker should answer: that stays a human call on the desk.",
+    "falsifier": "Ranked work waits a full cycle on a parked issue and the desk never shows it.",
+    "source_ref": [
+      "Owner, 2026-10-21"
+    ],
+    "return_when": "After two cycles of the desk listing blockers, or the next time a parked blocker is found by hand."
+  },
+  "createdAt": "2026-10-21T11:53:47.141169267+00:00",
+  "updatedAt": "2026-10-21T11:53:47.141176367+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
