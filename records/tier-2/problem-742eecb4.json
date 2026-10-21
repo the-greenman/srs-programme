@@ -1,0 +1,24 @@
+{
+  "instanceId": "742eecb4-b833-4b8b-9708-d95022554c2d",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-96",
+    "title": "I cannot tell an agent directly whether its comment helped",
+    "statement": "When an agent's comment is useful or off the mark, I have no quick way to say so. I have to write a reply, and the agent cannot tell my verdict from the rest of the thread. I want to give a comment a thumbs up or down, so the agent learns what I want from it, and so over time I can see which agents help.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-21"
+    ]
+  },
+  "createdAt": "2026-10-21T11:04:23.047255331+00:00",
+  "updatedAt": "2026-10-21T11:04:23.047274633+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
