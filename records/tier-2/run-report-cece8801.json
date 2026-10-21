@@ -1,0 +1,22 @@
+{
+  "instanceId": "cece8801-115e-47b0-b6df-f4afb178a001",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle 2026-10-20 to 2026-10-21",
+    "run_date": "2026-10-21",
+    "chose": "Closed the cycle. Nothing to ratify: no group PR merged and no builder decision awaits assent. One owner-merge PR is open (srs-web#586, Ctrl-Enter splits an essay paragraph). Escalation 5d5feb79 (where an essay keeps each agent's brief) still waits for the owner; it was left in draft, so this run moved it to proposed so the session agenda shows it. The group's queue is dry.",
+    "rationale": "No new escalation raised: 5d5feb79 already covers the stopped issues srs-web#567 and #571; a second record would duplicate it.",
+    "figures": "Delegated merges this cycle: 0 of 10. Open delegated group PRs: 0. Open owner-merge: srs-web#586. needs-input: srs-web#567, #571. Pause state: running."
+  },
+  "createdAt": "2026-10-21T11:37:55.703478484+00:00",
+  "updatedAt": "2026-10-21T11:37:55.703484739+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
