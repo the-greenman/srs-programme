@@ -1,0 +1,25 @@
+{
+  "instanceId": "7f697a33-214a-4292-9ec6-e03e0b335178",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "The writer gives a comment a thumbs up or down; the agent reads it, and totals show which agents help",
+    "move": "The writer sets a verdict on any comment: up, down or none, with one click, and can change it. The verdict is recorded with the comment, so the agent that wrote it reads it with the thread and adjusts; agent briefs tell agents to read verdicts. Verdicts total per agent in the Agents panel, so the writer, and whoever tunes the agents, can see which agents help and which add noise.",
+    "does_not_fix": "Verdicts from several people on one comment (an essay has one writer today). Rating anything other than comments.",
+    "falsifier": "An agent keeps making the kind of comment the writer gave a thumbs down, or the totals never change how agents are briefed or chosen.",
+    "source_ref": [
+      "Owner, 2026-10-21"
+    ],
+    "return_when": "After two weeks of verdicts, or when a second person writes on the same essay."
+  },
+  "createdAt": "2026-10-21T11:04:24.546136663+00:00",
+  "updatedAt": "2026-10-21T11:04:24.546138325+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
