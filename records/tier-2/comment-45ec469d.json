@@ -1,0 +1,18 @@
+{
+  "instanceId": "45ec469d-f926-4f47-9e0b-2bf3ff42ac95",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "this is a specific UX decision for the agent assisted editor at this moment in time. It should not be judged as a strict rule. And only applies within it's context"
+  },
+  "createdAt": "2026-10-22T09:46:15.850873376+00:00",
+  "updatedAt": "2026-10-22T09:46:15.850878738+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

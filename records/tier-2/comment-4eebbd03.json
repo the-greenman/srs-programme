@@ -1,0 +1,18 @@
+{
+  "instanceId": "4eebbd03-eebf-4708-bdb6-9828bd5920db",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Execution priority can be overridden by a higher group in the domain. We should always maintain the semantic understanding of a task, but semantics can be provided at the same time."
+  },
+  "createdAt": "2026-10-22T09:46:14.777883758+00:00",
+  "updatedAt": "2026-10-22T09:46:14.777892664+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

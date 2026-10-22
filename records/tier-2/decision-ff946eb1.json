@@ -17,9 +17,9 @@
     "owner": "Owner role (SemanticOps)",
     "decision_kind": "design"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-21T11:11:35.506525211+00:00",
-  "updatedAt": "2026-10-21T11:11:35.752197152+00:00",
+  "updatedAt": "2026-10-22T09:46:16.107068620+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

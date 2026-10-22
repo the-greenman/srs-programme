@@ -15,9 +15,9 @@
     "next_steps": "clerk#97 binds clerk serve to loopback and tests the refusals.",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-20T18:19:39.276536911+00:00",
-  "updatedAt": "2026-10-20T18:23:01.648843197+00:00",
+  "updatedAt": "2026-10-22T09:46:15.747307481+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"
