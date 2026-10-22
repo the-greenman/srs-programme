@@ -1,0 +1,20 @@
+{
+  "instanceId": "49360976-161d-4e71-9bb3-41e026064934",
+  "typeId": "88d9b5da-418b-4bf1-a3e3-97bd14a52a9c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "axis-in-domain",
+  "fieldValues": {
+    "title": "Action in Stance",
+    "line": 1,
+    "summary": "Suggested from the line pairing fixed 2026-10-20 (srs-context cc05d4c9); yang from the Initiator's lean. For the owner to judge in relation."
+  },
+  "createdAt": "2026-10-22T11:28:44.452805897+00:00",
+  "updatedAt": "2026-10-22T11:28:44.452810505+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

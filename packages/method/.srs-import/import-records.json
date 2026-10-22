@@ -11,7 +11,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -24,7 +24,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -37,7 +37,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -50,7 +50,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -63,7 +63,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -76,7 +76,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -89,7 +89,20 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "481bf75b-0e08-4687-babb-2f55f12890a0",
+      "definitionType": "field",
+      "namespace": "com.semanticops.method",
+      "name": "line",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-22T11:28:41.228177449+00:00",
+      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
+      "sourcePackageName": "com.semanticops.method",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -102,7 +115,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -115,7 +128,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -128,7 +141,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -141,7 +154,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -154,7 +167,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -167,7 +180,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -180,7 +193,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -193,7 +206,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -206,7 +219,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -219,7 +232,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -232,7 +245,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -245,7 +258,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -258,7 +271,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -271,7 +284,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -284,7 +297,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -297,7 +310,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -310,7 +323,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -323,7 +336,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     }
   ],
@@ -338,7 +351,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -351,7 +364,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -364,7 +377,20 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "88d9b5da-418b-4bf1-a3e3-97bd14a52a9c",
+      "definitionType": "type",
+      "namespace": "com.semanticops.method",
+      "name": "axis-in-domain",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-22T11:28:41.228177449+00:00",
+      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
+      "sourcePackageName": "com.semanticops.method",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -377,7 +403,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -390,7 +416,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -403,7 +429,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -416,7 +442,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -429,7 +455,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -442,7 +468,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -455,7 +481,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -468,7 +494,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     }
   ],
@@ -486,150 +512,7 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
-      "conflictState": "clean"
-    },
-    {
-      "definitionId": "2c3c4467-20b8-40fe-91d8-9f4cf4ec976a",
-      "definitionType": "relation-type",
-      "namespace": "com.semanticops.method",
-      "name": "com.semanticops.method/leans-toward",
-      "version": 1,
-      "mode": "upstream-tracked",
-      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
-      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
-      "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
-      "conflictState": "clean"
-    },
-    {
-      "definitionId": "459e48ca-4d70-418e-9517-f8dd2200ec8d",
-      "definitionType": "relation-type",
-      "namespace": "com.semanticops.method",
-      "name": "com.semanticops.method/answers",
-      "version": 1,
-      "mode": "upstream-tracked",
-      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
-      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
-      "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
-      "conflictState": "clean"
-    },
-    {
-      "definitionId": "488e264d-2b3f-489f-b625-7d48f31bcf6b",
-      "definitionType": "relation-type",
-      "namespace": "com.semanticops.method",
-      "name": "com.semanticops.method/in-domain",
-      "version": 1,
-      "mode": "upstream-tracked",
-      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
-      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
-      "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
-      "conflictState": "clean"
-    },
-    {
-      "definitionId": "50e4c271-95a0-432f-bc22-d7dff638f0c3",
-      "definitionType": "relation-type",
-      "namespace": "com.semanticops.method",
-      "name": "com.semanticops.method/addresses",
-      "version": 1,
-      "mode": "upstream-tracked",
-      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
-      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
-      "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
-      "conflictState": "clean"
-    },
-    {
-      "definitionId": "5e582fc5-6ca9-44b2-8d3b-33d0ac37797a",
-      "definitionType": "relation-type",
-      "namespace": "com.semanticops.method",
-      "name": "com.semanticops.method/restores",
-      "version": 1,
-      "mode": "upstream-tracked",
-      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
-      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
-      "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
-      "conflictState": "clean"
-    },
-    {
-      "definitionId": "5f121def-cc5e-4d68-9804-621716ef10be",
-      "definitionType": "relation-type",
-      "namespace": "com.semanticops.method",
-      "name": "com.semanticops.method/instantiates",
-      "version": 1,
-      "mode": "upstream-tracked",
-      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
-      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
-      "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
-      "conflictState": "clean"
-    },
-    {
-      "definitionId": "853aaad5-57a3-47c3-b0b0-3eef1240f18e",
-      "definitionType": "relation-type",
-      "namespace": "com.semanticops.method",
-      "name": "com.semanticops.method/governs",
-      "version": 1,
-      "mode": "upstream-tracked",
-      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
-      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
-      "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
-      "conflictState": "clean"
-    },
-    {
-      "definitionId": "a5b70fbb-c8ef-4248-a990-908ad19a0acd",
-      "definitionType": "relation-type",
-      "namespace": "com.semanticops.method",
-      "name": "com.semanticops.method/role-requires",
-      "version": 1,
-      "mode": "upstream-tracked",
-      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
-      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
-      "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
-      "conflictState": "clean"
-    },
-    {
-      "definitionId": "b764c252-23c2-4096-abd2-d03c2df3b1bf",
-      "definitionType": "relation-type",
-      "namespace": "com.semanticops.method",
-      "name": "com.semanticops.method/implements",
-      "version": 1,
-      "mode": "upstream-tracked",
-      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
-      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
-      "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
-      "conflictState": "clean"
-    },
-    {
-      "definitionId": "e1d12490-53ee-4e58-84ba-b1fef3c7d9c9",
-      "definitionType": "relation-type",
-      "namespace": "com.semanticops.method",
-      "name": "com.semanticops.method/concerns",
-      "version": 1,
-      "mode": "upstream-tracked",
-      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
-      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
-      "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
-      "conflictState": "clean"
-    },
-    {
-      "definitionId": "ec88d284-c63c-41af-9331-893a587edb5a",
-      "definitionType": "relation-type",
-      "namespace": "com.semanticops.method",
-      "name": "com.semanticops.method/held-by",
-      "version": 1,
-      "mode": "upstream-tracked",
-      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
-      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
-      "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     },
     {
@@ -642,7 +525,163 @@
       "importedAt": "2026-10-11T18:28:03.466664309+00:00",
       "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
       "sourcePackageName": "com.semanticops.method",
-      "sourcePackageVersion": "1.0.0",
+      "sourcePackageVersion": "1.1.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "2c3c4467-20b8-40fe-91d8-9f4cf4ec976a",
+      "definitionType": "relation-type",
+      "namespace": "com.semanticops.method",
+      "name": "com.semanticops.method/leans-toward",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
+      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
+      "sourcePackageName": "com.semanticops.method",
+      "sourcePackageVersion": "1.1.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "2ffbeb2e-efd1-4185-9a63-fc971a180571",
+      "definitionType": "relation-type",
+      "namespace": "com.semanticops.method",
+      "name": "com.semanticops.method/yang-pole",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-22T11:28:41.228177449+00:00",
+      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
+      "sourcePackageName": "com.semanticops.method",
+      "sourcePackageVersion": "1.1.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "459e48ca-4d70-418e-9517-f8dd2200ec8d",
+      "definitionType": "relation-type",
+      "namespace": "com.semanticops.method",
+      "name": "com.semanticops.method/answers",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
+      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
+      "sourcePackageName": "com.semanticops.method",
+      "sourcePackageVersion": "1.1.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "488e264d-2b3f-489f-b625-7d48f31bcf6b",
+      "definitionType": "relation-type",
+      "namespace": "com.semanticops.method",
+      "name": "com.semanticops.method/in-domain",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
+      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
+      "sourcePackageName": "com.semanticops.method",
+      "sourcePackageVersion": "1.1.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "50e4c271-95a0-432f-bc22-d7dff638f0c3",
+      "definitionType": "relation-type",
+      "namespace": "com.semanticops.method",
+      "name": "com.semanticops.method/addresses",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
+      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
+      "sourcePackageName": "com.semanticops.method",
+      "sourcePackageVersion": "1.1.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "5e582fc5-6ca9-44b2-8d3b-33d0ac37797a",
+      "definitionType": "relation-type",
+      "namespace": "com.semanticops.method",
+      "name": "com.semanticops.method/restores",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
+      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
+      "sourcePackageName": "com.semanticops.method",
+      "sourcePackageVersion": "1.1.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "5f121def-cc5e-4d68-9804-621716ef10be",
+      "definitionType": "relation-type",
+      "namespace": "com.semanticops.method",
+      "name": "com.semanticops.method/instantiates",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
+      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
+      "sourcePackageName": "com.semanticops.method",
+      "sourcePackageVersion": "1.1.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "853aaad5-57a3-47c3-b0b0-3eef1240f18e",
+      "definitionType": "relation-type",
+      "namespace": "com.semanticops.method",
+      "name": "com.semanticops.method/governs",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
+      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
+      "sourcePackageName": "com.semanticops.method",
+      "sourcePackageVersion": "1.1.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "a5b70fbb-c8ef-4248-a990-908ad19a0acd",
+      "definitionType": "relation-type",
+      "namespace": "com.semanticops.method",
+      "name": "com.semanticops.method/role-requires",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
+      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
+      "sourcePackageName": "com.semanticops.method",
+      "sourcePackageVersion": "1.1.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "b764c252-23c2-4096-abd2-d03c2df3b1bf",
+      "definitionType": "relation-type",
+      "namespace": "com.semanticops.method",
+      "name": "com.semanticops.method/implements",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
+      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
+      "sourcePackageName": "com.semanticops.method",
+      "sourcePackageVersion": "1.1.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "e1d12490-53ee-4e58-84ba-b1fef3c7d9c9",
+      "definitionType": "relation-type",
+      "namespace": "com.semanticops.method",
+      "name": "com.semanticops.method/concerns",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
+      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
+      "sourcePackageName": "com.semanticops.method",
+      "sourcePackageVersion": "1.1.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "ec88d284-c63c-41af-9331-893a587edb5a",
+      "definitionType": "relation-type",
+      "namespace": "com.semanticops.method",
+      "name": "com.semanticops.method/held-by",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-11T18:28:03.466664309+00:00",
+      "sourcePackageId": "45c51908-183a-4cc5-a2b5-a0beb58bb366",
+      "sourcePackageName": "com.semanticops.method",
+      "sourcePackageVersion": "1.1.0",
       "conflictState": "clean"
     }
   ],
