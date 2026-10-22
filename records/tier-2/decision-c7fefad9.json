@@ -1,0 +1,28 @@
+{
+  "instanceId": "c7fefad9-79d1-48cc-938b-72b7e4458aa1",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Diagnostics shape before srs-rust#1339",
+    "decision_question": "Should the builder convert the remaining string-list payloads (srs-rust#1339) before the shared Diagnostic type from srs-rust#1264 exists?",
+    "context": "Problem: srs-rust#1339 gives structured {severity, code, message, instanceId?} diagnostics to the payloads that srs-rust#1264 leaves out, but it reuses the type and codes that #1264 introduces. #1264 is still open and no ruling or ADR fixes that shape (ADR-048 rule 6 is on an unmerged branch). Why it matters: building #1339 first would make the builder invent the shared diagnostic shape and change public CLI payloads and WASM bindings, which is a ruling, outside the builder mandate (breaking payload change). It would also fix the contract that srs-web#441 will consume. Options and consequences: (A) land #1264 first, then build #1339 mechanically: slower, but one shape, set once; (B) let the builder define the type inside #1339: unblocks now, but a second PR must reconcile with #1264 and risks two shapes; (C) do nothing: string diagnostics stay and clients keep parsing text. Recommendation: A. Mark #1264 ready for the group (or ratify its shape), and the builder takes #1339 afterwards. Action needed: decide. Urgency: low; the queue has no other buildable issue this cycle (srs-rust#1132 lacks an Answers: SP-nn line, so claim refuses it; the rest carry needs-input or parked). Answers: SP-03",
+    "friction": "The builder queue is empty of claimable work: #1339 is gated on an unlanded shape, #1132 has no Answers line, and the other ready issues are needs-input or parked.",
+    "alternatives_considered": "A) Land srs-rust#1264 first, then build #1339. B) Builder defines the Diagnostic type within #1339. C) Do nothing.",
+    "key_requirements": "One Diagnostic shape across CLI payloads and WASM bindings; kebab-case codes; payload goldens regenerated; no client parsing (srs-web#441).",
+    "decision_statement": "Build srs-rust#1264 (or ratify its Diagnostic shape) first; srs-rust#1339 follows as a mechanical conversion. The builder does not define the shared type.",
+    "rationale": "One way per goal: the shape is set once. A public payload contract is a ruling, not a builder choice.",
+    "revisit_when": "When srs-rust#1264 merges, or if the group has no other buildable issue for two cycles.",
+    "next_steps": "Owner decides; if A, label srs-rust#1264 ready and wg:third-party-ready. Separately, add 'Answers: SP-03' to srs-rust#1132 so it can be claimed."
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-22T18:14:02.550361009+00:00",
+  "updatedAt": "2026-10-22T18:14:16.795185761+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
