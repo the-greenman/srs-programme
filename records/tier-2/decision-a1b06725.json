@@ -15,9 +15,9 @@
     "next_steps": "Applied by clerk#97 (reads and the sync job), clerk#98 (affirmation rounds, after a second real round) and clerk#99 (method acts).",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-20T18:19:38.892788526+00:00",
-  "updatedAt": "2026-10-20T18:23:01.284967339+00:00",
+  "updatedAt": "2026-10-22T09:46:15.389930265+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"

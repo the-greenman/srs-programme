@@ -15,9 +15,9 @@
     "next_steps": "clerk#97 writes the spec first and its tests enforce it; srs-lab#7 generates the client types.",
     "decision_kind": "design"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-20T18:19:39.094838534+00:00",
-  "updatedAt": "2026-10-20T18:23:01.466608870+00:00",
+  "updatedAt": "2026-10-22T09:46:14.672102736+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"

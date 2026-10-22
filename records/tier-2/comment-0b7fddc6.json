@@ -1,0 +1,18 @@
+{
+  "instanceId": "0b7fddc6-20b9-425f-8ea1-552e74a011b0",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "This class of decision is a snapshot in time. While this is valid, it does not set full prescident because it is too broad. We should return to this as a set of deeper decisions when we need to build on it."
+  },
+  "createdAt": "2026-10-22T09:46:14.059774350+00:00",
+  "updatedAt": "2026-10-22T09:46:14.059782959+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
