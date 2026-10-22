@@ -1,0 +1,26 @@
+{
+  "instanceId": "c04d8164-2564-4732-be3a-d1d8dba6970a",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "The clerk's runtime imports nothing outside Node's standard library",
+    "decision_question": "May the clerk's runtime code depend on npm packages?",
+    "context": "Proposed from /ship clerk#97 (clerk serve). The plan for clerk serve named ajv as its one runtime dependency, to validate requests against api/openapi.json. srs-programme's workflows (programme-validate, upkeep, board sync, roadmap) and the cloud routines run `node bin/clerk.mjs` from a bare checkout with no npm install. A runtime dependency would break every one of them, silently until it ran. It follows the clerk's existing practice: every clerk command already runs from a bare checkout, and lib/practice is kept pure for srs-web (clerk/CLAUDE.md).",
+    "alternatives_considered": "Allow runtime dependencies and add `npm ci` to every workflow and routine: every caller gains an install step and a network fetch, and a missed one breaks only when it runs. Scope the rule to the code the workflows and routines run, and let clerk serve (on the owner's desktop, where `npm ci` is cheap) have dependencies: clerk serve imports the same lib/adapters and lib/practice the workflows run, so a dependency added for it would creep into shared modules, and the line between the two would need a guard of its own. Vendor the dependencies into the repository: copied code to keep current. Do nothing: nothing stops the next change from adding one, and the break shows first in a scheduled job.",
+    "decision_statement": "The clerk's runtime (bin, lib and scripts) imports only Node built-ins and its own modules. npm packages are devDependencies, used by tests only.",
+    "rationale": "Every caller of the clerk runs it from a bare checkout, and should be able to keep doing so. Where a package would help at runtime, the clerk derives what it needs from its own sources instead: clerk serve checks query parameters from the spec, and refuses at startup any rule it cannot enforce. The tests use ajv to validate every response against the full spec.",
+    "revisit_when": "When a runtime need cannot be met from the standard library at reasonable cost, or the workflows and routines gain a shared install step.",
+    "next_steps": "Enforced by test/runtime-imports.test.mjs in the clerk (clerk#97).",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-22T11:11:35.819441723+00:00",
+  "updatedAt": "2026-10-22T11:30:54.619583335+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
