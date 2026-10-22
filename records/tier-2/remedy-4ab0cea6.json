@@ -1,0 +1,25 @@
+{
+  "instanceId": "4ab0cea6-8cd7-4189-926d-8321e642e898",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Ctrl-Enter splits a paragraph at the caret, and Ctrl-Z joins it again",
+    "move": "While editing a paragraph in the essay editor, Ctrl-Enter (Cmd-Enter on a Mac) keeps the text before the caret and moves the rest into a new paragraph directly after it, with the caret at its start. The split is one step in the writer's undo history (SP-89), so Ctrl-Z joins the paragraph again. At the end of a paragraph Ctrl-Enter still adds an empty paragraph.",
+    "does_not_fix": "Splitting a pasted draft automatically at its blank lines, or importing a document file. The paragraph's title, comments and attachments stay with the first half.",
+    "falsifier": "The writer splits a pasted draft and text is lost or reordered, or Ctrl-Z after a split does not restore the paragraph as it was.",
+    "source_ref": [
+      "Owner, 2026-10-21"
+    ],
+    "return_when": "After the first essay drafted elsewhere has been pasted in and split, or the first time a split loses text."
+  },
+  "createdAt": "2026-10-21T10:17:25.978267535+00:00",
+  "updatedAt": "2026-10-21T10:17:25.978271629+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

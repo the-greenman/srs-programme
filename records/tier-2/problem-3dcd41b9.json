@@ -1,0 +1,24 @@
+{
+  "instanceId": "3dcd41b9-bcd6-4d37-a365-6674a614f070",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-95",
+    "title": "Text written elsewhere arrives as one paragraph and cannot be split",
+    "statement": "I often draft somewhere else and paste the draft into the essay. It arrives as one paragraph, and I cannot break it where I want the breaks: I have to cut each part out and paste it into a new paragraph by hand. I need to put a break where my caret is, as Enter does in any other editor, and take it back if I put it in the wrong place.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-21"
+    ]
+  },
+  "createdAt": "2026-10-21T10:17:18.889805248+00:00",
+  "updatedAt": "2026-10-21T10:17:18.889816437+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

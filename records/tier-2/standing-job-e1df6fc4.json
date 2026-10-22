@@ -1,0 +1,24 @@
+{
+  "instanceId": "e1df6fc4-5039-426e-a5ae-901f5fcbb957",
+  "typeId": "58f0ee7b-8063-4fc7-9b39-af918962c91f",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "standing-job",
+  "fieldValues": {
+    "title": "Clerk canary",
+    "description": "Daily: run clerk doctor in a cloud session with every governed repo attached and post its clerk-doctor marker on the digest issue, ok or fail; also run clerk routines --check when a trigger-listing tool is available. Changes nothing else.",
+    "done_when": "One clerk-doctor marker comment from this run is on semanticops.com#33. The desk flags a failing marker, or no cloud marker for 26 hours.",
+    "trigger": "daily 06:15 UTC",
+    "size": "One comment per run",
+    "routine_id": "trig_01KCJSD2RV6yC3DB3VaNa4NQ",
+    "brief_path": "routines/canary.md"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-21T22:45:47.638408698+00:00",
+  "updatedAt": "2026-10-21T22:46:30.357536071+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
