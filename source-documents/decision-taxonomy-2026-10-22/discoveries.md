@@ -102,6 +102,8 @@ Detail: `clusters-2026-10-22.md` and `reread-2026-10-22.md` beside this page.
 
 ### 5. T3 clustering: each decision placed on the three stance axes (2026-10-22)
 
+> **Superseded in part** by discoveries 7 and 8, which re-rate lines 1 and 2 on the owner's definitions. Line 3 and the method stand; the line 1 findings below (Action unreadable for data shape) were an artefact of the first rubric.
+
 **Method.** Each of the 101 decisions was given one pole on each T3 stance axis, read within its own boundary (the axes are boundary-relative: concept 04839eed, decision ee95817b):
 
 | Line | Axis | Yang (1) | Yin (0) | T3 core name |
@@ -159,13 +161,84 @@ Full table: `t3-assignments.tsv` beside this page.
 
 **Line 3 has two readings.** The stance set reads it as attention (Focus / Zoom out); T3's core reads it as structure (Concentrate / Distribute: centralised and bounded against decentralised and networked). For authority decisions these may come apart: "a level never decides for the level above" (p:acf486d8, OSZ) distributes authority while widening attention. A later pass could rate line 3 both ways.
 
+### 6. The owner's theory of the three axes (2026-10-22)
+
+In the owner's words:
+
+> We can judge a decision on the three axes. But each is independent. The archetypes are just those that prioritise a specific type of decision. These will not define anything about the domain, but the classification may overlap with the others, and the synthetic process makes it mappable.
+
+> Line 1, the bottom line of the trigram. Every decision has a choice to act, to apply energy outward, apply will on the world, or to allow energy inward, to change the inner reality or system itself.
+
+What follows from it:
+
+- **Three independent judgements, not one type.** A decision is judged on each line separately. The three-letter code is the combination, not a kind.
+- **An archetype is a stance that favours a code**, not a decision type. An Initiator (ADF) prioritises decisions that act outward, disrupt and focus; it does not mean the decision is "an Initiator decision". This is why the archetype names should not be used as decision kinds.
+- **The T3 code does not define the domain.** A domain's own axes and leans (cdd272a3, 7270e772) are a separate matter. A decision's code may sit with or against its domain's lean; that difference is information, not an error.
+- **The classifications overlap and are mapped, not merged.** T3 is one classification beside the object, form, time, lineage and scope clusterings. The synthetic process (as in the Pattern Grid's autoclassification, srs b9d7096e) maps one onto another rather than collapsing them into one taxonomy.
+- **Line 1 is about where the change lands, not about activity.** Observe is not passive or "waiting": it is energy let in to change the system itself. A sweeping rewrite of the standard's own model is inward. The first pass used a different rubric (Observe as recording, reviewing, holding), and that is the likely reason line 1 had the weakest agreement (kappa 0.64) and could not be read for decisions about data shape. Line 1 is being re-rated on the owner's definition (discovery 7).
+
+### 7. Line 1 on the owner's definition: where the change lands (2026-10-22)
+
+**Definition (owner).** "Every decision has a choice to act, to apply energy outward, apply will on the world, or to allow energy inward, to change the inner reality or system itself." Rated by two new blind raters, boundary first, then: is the effect aimed outside the boundary (A) or at the system itself (O)?
+
+**Agreement.** 98 / 101, kappa 0.90 (first rubric: 84 / 101, kappa 0.64). All 63 cases where both raters were confident agree. Line 1 is now as readable as lines 2 and 3.
+
+**Findings.**
+
+1. **All 17 decisions that the first rubric could not read are inward.** Renames, removals and relocations in the standard's own model change its inner reality. The definition, not the decisions, was the problem.
+2. **Inward is the norm for a decision log.** 82 of 101 are O. A log mostly records how a system changes itself.
+3. **Act is coherent: the decisions whose effect crosses the boundary.** The 16 A decisions are releases and migrations reaching users' data (s:86f49083, p:a8e833f1), travelling forms and exports (s:8948e43f, s:a8dcbfe5), federation (s:5f18603e, p:31e9fd27), machine-facing outputs and foreign content (s:b2ff7c91, s:2e0cd70a, s:dd0a33fc, s:2f048790), the clerk's contract with its clients (p:46bb7a8c), exposing the desk (p:e745e9b2), and one-off landings (p:bbb03bff, p:bf4a5af5, p:5d5feb79, s:e5828aa8). These are the decisions third parties feel.
+4. **Authority decisions are inward.** 14 decisions moved from A to O, most of them about who may act or how work flows (p:2637af0a, p:0b1c25b1, p:9e2c2950, p:70a84bb7, p:d529294a, p:a8bc55ef). They enable work, but what they change is the programme's own way of working. The first rubric mistook enabling for acting.
+5. **The owner's "moment in time" decisions over-represent Act.** 6 of the 12 flagged or non-decisions are A, against 16 of 101 overall. A case applies will outward on one thing; the principle under it is usually an inward change to how the system works.
+
+**Still split (3):** s:aee09992, p:21ee9352, s:1967b8eb: each defines something inside the system whose purpose is how it reads to outsiders.
+
+### 8. Line 2 on the owner's definition: adding energy, or letting it settle (2026-10-22)
+
+**Definition (owner).** "Is the option we are selecting moving the system towards a transformative energy state, are we adding energy to change states, or are we allowing the system to stabilise?"
+
+**Agreement.** 93 / 101, kappa 0.84 (first rubric 0.86). All 36 cases where both raters were confident agree.
+
+**Findings.**
+
+1. **The pole belongs to the selected option, not the topic.** Decisions about change that select the safe way to land it read Stabilise: p:a8e833f1 (a revision lands with its migration), p:bbb03bff, p:bf4a5af5 (structured diagnostics beside the text list). Their alternatives (dual read, release before migration, replace the text lists) would have read Disrupt. So each alternative has its own pole, and a decision is the choice between poles. This matches the PR-decision rule that each option names its `pole` (clerk `docs/pr-decisions.md`).
+2. **Founding a frame and holding a frame split on line 2.** New instruments read ODZ: the Pattern Grid, the reference strengths, the decision modes, the grid operations (s:cce3c00e, s:c8704763, s:7caca3a1, s:8f5aca2c, s:b9d7096e). Rules that hold a frame read OSZ: the layer rules, retirement per layer, a rename is a migration, the level test, the doors (s:9ee14517, s:5f8204bc, s:628cf6c4, s:c20fcff8, s:e99a9437).
+3. **Magnitude is unsettled.** The 8 splits are small new conventions: an actor marker, a re-review label, a slug convention, a classification of PR decisions (p:21ee9352, p:ea96a678, p:04b78189, p:e3505ded). One rater counts any new mechanism as added energy; the other counts a small convention as settling. Open: does line 2 read the direction only, or does a threshold of energy apply (T3's continuous state and metastable band suggest the latter)?
+
+### 9. The combined picture (version 2 codes, 2026-10-22)
+
+> **Line 3 is provisional here.** It still uses the first rubric (breadth of subject). The owner has since defined line 3 (below); version 3 codes replace this table once line 3 is re-rated.
+
+**Line 3, the owner's definition (2026-10-22):** "Are we focusing our energy ... concentrating on a specific plan ... Is the direction of the system we are focusing on under our will or control? Or are we opening the boundary to align with the energy state outside? Are we executing a project plan, or are we sensing and responding?" So line 3 is control against responsiveness: Focus holds the direction under our will and executes a plan; Zoom out opens the boundary and senses and responds. It is neither breadth of attention nor reach, the two readings of the first pass.
+
+Line 1 and 2 from discoveries 7 and 8; line 3 from discovery 5. `~` is metastable. Full table: `t3-assignments-v2.tsv`.
+
+| Code | Favoured by | n | srs | programme | What the members share |
+|---|---|---|---|---|---|
+| ODF | Analyst | 25 | 17 | 8 | a targeted change to the system's own model or practice |
+| OSF | Steward | 23 | 7 | 16 | a targeted rule that lets one part of the system settle |
+| ODZ | Rebel | 14 | 11 | 3 | a new frame for the whole system |
+| OSZ | Watcher | 14 | 7 | 7 | a rule that holds the whole system's frame |
+| ADF | Initiator | 6 | 3 | 3 | one change pushed out to others |
+| ASZ | Builder | 4 | 3 | 1 | a standing guarantee to everyone outside |
+| ASF | Synthesizer | 3 | 0 | 3 | one landing that keeps others working |
+| ADZ | Challenger | 2 | 2 | 0 | a change everyone outside must absorb |
+| metastable | | 10 | 5 | 5 | |
+
+- **Each log has its own centre.** srs: Analyst (ODF, 17 of 54), targeted change to its own model, as a standard in formation. Programme: Steward (OSF, 16 of 47), targeted settling of its own practice.
+- **The archetypes describe whom a decision suits, not what it is.** An Analyst favours the ODF decisions; that is a statement about stance, and the kinds remain to be found from the other clusterings (owner's theory, discovery 6).
+- **The same-question pairs now differ on one line each.** p:2637af0a (editor group) ODF against p:0b1c25b1 (Third-party ready) O~F: line 2. s:86f49083 (one landing, ADZ) against p:a8e833f1 (the rule, ASZ): line 2, the rule is the stabilising way to land the change. s:5f18603e and p:31e9fd27 (federation's commitment and its schedule) are both ADF.
+- **The flagged cases are Focus** (10 of 12). The move to the principle underneath is on line 3, and often on line 1 too (from outward on a case to inward on the system).
+
 ## Open questions
 
 1. Does Authority replace Mandate, or widen it? Are Gate and Lean kinds, or attributes?
 2. Does a decision pass down into narrower domains until one holds its own (as axes do in cdd272a3)?
 3. Which programme decisions are meant to hold for the whole of SemanticOps (d529294a, f58db200)?
 4. Do the non-decisions leave the log, or stay as history linked to the decision they apply?
-5. Can T3 line 1 be read for representation decisions, and how?
+5. Line 1: resolved by the owner's definition (discovery 7).
+7. Line 2: does magnitude matter, or only direction (discovery 8)?
+8. Line 3: defined by the owner as control against sense-and-respond (discovery 9); being re-rated.
 6. Is the T3 code a property every decision should carry (as srs carries `governing_values` and its cell)?
 
 ## Next passes
