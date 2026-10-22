@@ -273,6 +273,23 @@ Line 1 and 2 from discoveries 7 and 8; line 3 from discovery 5. `~` is metastabl
 
 **Still split (5):** p:2637af0a, p:a8bc55ef (delegation: distributing authority, read as both a planned charter and an opening); s:7caca3a1, s:b9d7096e (instruments that look for emergence); p:684f84ab (a decision held open, or captured to a fixed procedure).
 
+### 11. Vertices, spans and hexagrams: a working model (2026-10-22, hypothesis)
+
+**The owner's questions.** "These 8 different types should become stable definitions of the forms decisions can take. Not every decision can have options at all vertices. So, we can map the final decision to a vertex... But can decision types exist as decisions that present specific types of options? Full yang decisions focus on action, movement, and specific goals. Or is trying to collapse to just 8 types like this missing dimensions? The I Ching uses two sets of trigrams: the context and the action. So there may need to be different classifications working in parallel."
+
+**Working model (Claude's proposal, untested).**
+
+1. **A vertex is the orientation of the chosen option.** On the owner's three definitions the eight vertices are stable and can be applied consistently (discoveries 7, 8, 10). Full yang, ADF: act outward, add energy, by our will: action, movement, a specific goal. Full yin, OSZ: turn inward, let it settle, open the boundary and sense.
+2. **A decision type is defined by its span: the lines on which its real options differ.**
+   - One line (an edge of the cube): a single trade-off. p:a8e833f1 spans line 2 (land with the migration, S, or dual read and release later, D). s:5f18603e spans line 3 (committed, or evidence-gated).
+   - Two or three lines (a face, or the whole cube): a fork in direction. p:559bfb9e spans lines 2 and 3 (experiment side by side, or unify now).
+   - No line: every option sits on one vertex. p:46bb7a8c (OpenAPI, protobuf, schemas from code, hand-written types: all closed, inward design choices) is the example, and the owner flagged it as not a real decision. The decision under it ("APIs from spec") does span a line.
+   - **Hypothesis:** a governing decision spans at least one line; a choice whose options share a vertex is an implementation or task choice. The well-formed-ask rule (each option names its `pole` on a `tension`, clerk `docs/pr-decisions.md`) already points this way.
+3. **A decision is read as a hexagram: context trigram × action trigram.** The context trigram is the stance of the domain or group the decision is made in (recorded for WG Third-party ready, ADF, p:7270e772). The action trigram is the chosen option (its ruling p:0b1c25b1 reads A~F). srs's compass is already two trigrams, inner and outer, over its six axes (srs-context cc05d4c9). This fits the scope ruling: the same choice reads differently in two domains because the context trigram differs.
+4. **The other classifications run in parallel.** T3 places orientation only. Object, form, time, lineage, scope and parts (discovery 3) are independent of it; T3 does not see the object (authority decisions span seven codes). A kind is a recurring combination across the parallel classifications, mapped by the synthetic process, not one of eight boxes.
+
+**Test to run next.** For decisions that list their alternatives: rate each option's vertex on all three lines; compute each decision's span; check whether flagged non-decisions have empty spans; and, where the domain's lean is recorded, compare context and action trigrams.
+
 ## Open questions
 
 1. Does Authority replace Mandate, or widen it? Are Gate and Lean kinds, or attributes?
@@ -286,6 +303,8 @@ Line 1 and 2 from discoveries 7 and 8; line 3 from discovery 5. `~` is metastabl
 6. Is the T3 code a property every decision should carry (as srs carries `governing_values` and its cell)?
 
 ## Next passes
+
+- Option-level rating and spans (discovery 11's test).
 
 - Add the 40 earlier programme decisions and the srs-context decisions.
 - A property matrix (all ten properties per decision) so clusterings can be recomputed as decisions arrive.
