@@ -29,9 +29,9 @@ concurrency:
 
 jobs:
   upkeep:
-    uses: the-greenman/clerk/.github/workflows/programme-pr-upkeep.yml@05cbf8f77bde825bc3c3ce254dd240a97d122fcf
+    uses: the-greenman/clerk/.github/workflows/programme-pr-upkeep.yml@9400818a053e9da057ca0ca3874efc581c87b9eb
     with:
-      clerk-ref: 05cbf8f77bde825bc3c3ce254dd240a97d122fcf
+      clerk-ref: 9400818a053e9da057ca0ca3874efc581c87b9eb
       apply: ${{ inputs.apply == true }}
       digest: ${{ inputs.digest == true }}
       digest-cron: "20 7 * * *"
