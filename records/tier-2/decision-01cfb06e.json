@@ -1,0 +1,29 @@
+{
+  "instanceId": "01cfb06e-475f-4092-b93a-e32a6e7a2cb4",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Typed per-code details for ErrorReport (srs-rust#1342)",
+    "decision_question": "Should ErrorReport.details move from an open object to a typed union per error code, which amends ADR-053 section 4 and ADR-011 (no schemars in library crates), or stay open?",
+    "context": "Problem: ADR-053 ships ErrorReport.details as an untyped object and names a per-code typed union as a deferred follow-up (srs-rust#1342). Clients (srs-web, srs-vscode) cannot get typed error fields without hand-written types. Why it matters: it serves SP-03 (work parked as unfinished refactors) and the identifier-over-label rule, but every way of doing it either changes a recorded ruling or adds a hand-kept mirror of about 97 error variants. Options and consequences: (a) leave details open: nothing changes, clients keep hand types. (b) feature-gated schemars derive on RepositoryError in srs-repository: one source of truth, but reverses the ADR-011 rule that schemars stays out of library crates. (c) a hand-written mirror enum in srs-cli with a drift test: keeps ADR-011, adds about 97 structs to maintain. (d) a generator over code(): least drift, new tooling. Recommendation: (b) behind an optional feature (the crate already has one for MCP schemas), recorded as an amendment to ADR-053 section 4. Action needed: decide. Urgency: low, no consumer is blocked. Also found: srs-rust#1339 (structured diagnostics on remaining Vec<String> payloads) is a breaking payload change that waits on srs-rust#1264 landing the Diagnostic type, so the builder did not take it either. Answers: SP-03. Issue: https://github.com/the-greenman/srs-rust/issues/1342",
+    "friction": "The builder's mandate excludes making or changing a ruling and breaking payload changes. Both ready P2 issues in srs-rust need one of those, so the queue has nothing the builder may take.",
+    "alternatives_considered": "Do nothing (details stays open). Feature-gated schemars derive on RepositoryError. Hand mirror in srs-cli with a drift test. Generator over code().",
+    "key_requirements": "Wire-compatible with the current ErrorReport envelope; no drift between code() and the schema; ADR-011 layering respected or explicitly amended; golden payload schema regenerated.",
+    "decision_statement": "Type ErrorReport.details per code using a schemars derive on RepositoryError behind an optional feature, amend ADR-053 section 4 and ADR-011 accordingly, and regenerate the error-report golden.",
+    "rationale": "One source of truth means new variants cannot forget their schema; the crate already carries an optional schemars feature for MCP; the wire does not change, only the published schema narrows.",
+    "revisit_when": "If the schemars derive cannot express the untagged per-variant shapes, or a consumer needs the union before the owner has ruled.",
+    "next_steps": "Owner rules; if (b), amend ADR-053 and ADR-011 in an owner-merge PR, then relabel srs-rust#1342 ready for the builder. Keep srs-rust#1339 parked until srs-rust#1264 lands.",
+    "status": "proposed"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-22T17:13:43.032070407+00:00",
+  "updatedAt": "2026-10-22T17:13:43.032079334+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
