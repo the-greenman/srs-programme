@@ -1,18 +1,18 @@
 {
-  "id": "07ee0281-2747-4cce-a33f-ab41d210a034",
-  "namespace": "com.semanticops.programme",
-  "name": "github_owner",
-  "version": 1,
-  "description": "GitHub user or organisation that owns the programme's repositories.",
   "aiGuidance": {
-    "purpose": "Default owner for every gh call, board lookup and repo slug the clerk derives.",
-    "extraction": "Write the login only, e.g. the-greenman. No URL, no leading @."
+    "extraction": "Write the login only, e.g. the-greenman. No URL, no leading @.",
+    "purpose": "Default owner for every gh call, board lookup and repo slug the clerk derives."
   },
+  "createdAt": "2026-10-10T00:00:00Z",
+  "description": "GitHub user or organisation that owns the programme's repositories.",
+  "editorHint": "singleline",
   "fieldType": {
-    "datatype": "string",
     "cardinality": "single",
+    "datatype": "string",
     "format": "plain"
   },
-  "editorHint": "singleline",
-  "createdAt": "2026-10-10T00:00:00Z"
+  "id": "07ee0281-2747-4cce-a33f-ab41d210a034",
+  "name": "github_owner",
+  "namespace": "com.semanticops.programme",
+  "version": 1
 }

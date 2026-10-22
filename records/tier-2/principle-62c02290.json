@@ -1,0 +1,24 @@
+{
+  "instanceId": "62c02290-6fc7-4172-a8c0-0110565cd2d3",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Meaning in the definition over meaning in the surface",
+    "boundary_clause": "A concept the practice relies on (a status, a hold, a gate, a lane) means what its SRS definition says. Labels, board columns, brief text and code constants are surfaces: a programme binds them to the definition as its own data, and they are checked against it. Unless the surface is the only reader and nothing else acts on it; then it may stand alone until a second reader appears.",
+    "context": "Suggested from the owner session of 2026-10-22 (clerk#121), after srs-web#595 was built three times because two components read a label differently. Extends Semantic integrity over practical expression (b3ac3391, SRS standard) to the practice; asks the SemanticOps boundary to hold the Versioning and Reference tension. Evidence: srs rulings 43249f53, 19997e24, 9ee14517 rule 4, f5b4656a; ADR-048(a); the owner's 2026-09-11 evaluation (4e83f879) that a record without an enforcement point loses to labels.",
+    "source_ref": [
+      "the-greenman/clerk#121",
+      "the-greenman/srs-web#595"
+    ]
+  },
+  "createdAt": "2026-10-22T10:24:55.797621071+00:00",
+  "updatedAt": "2026-10-22T10:24:55.797623996+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code",
+    "name": "Claude Code (owner session, clerk#121)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
