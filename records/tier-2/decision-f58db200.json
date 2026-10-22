@@ -1,0 +1,29 @@
+{
+  "instanceId": "f58db200-36ef-4aac-80da-5aa8610747f0",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Meaning in the definition over meaning in the surface",
+    "decision_question": "Where does the meaning of a concept the practice relies on live, and what are its labels and board columns?",
+    "context": "Problem: what a status, hold or gate means is restated in code constants, brief text and each repository's label descriptions, and the copies disagree. On 2026-10-21 one component cleared a label another relied on, and the same bug was built three times (srs-web#595).\nWhy it matters: members, human or AI, act on these values; drifted meaning duplicates or loses work, and a group cannot own a meaning its tools hold for it (SP-65, SP-05, SP-76).\nCompass: the Versioning and Reference tension (exact meaning or convenient expression). Semantic integrity (b3ac3391) already leans this way for the SRS standard; this extends it to the practice at the SemanticOps boundary, which asks the root to hold that tension. Mode: complex (it touches several compass cells: one way, one name, identifier over label, declaration over location). Door 2.\nRecommendation: affirm the principle as suggested.\nAction needed: affirm the principle and ratify this preference in a session.",
+    "friction": "Every new practice vocabulary (statuses now; decision modes, doors and marker kinds next) would otherwise pick its own home.",
+    "alternatives_considered": "(a) Do nothing: meaning stays wherever each tool put it; the srs-web#595 failure repeats whenever two readers differ.\n(b) Code constants in the clerk: code agrees with itself, but records and briefs cannot read the meaning and the group does not hold it as data (SP-76); against the direction that all meaning is in SRS (srs 19997e24).\n(c) SRS definitions that also carry the display strings (meta on each state): one home, but presentation inside the meaning layer is a layer crossing (srs 9ee14517 rule 4) and load-bearing data in an unvalidated bag (ADR-048 a).\n(d) SRS definitions hold the meaning; each programme binds its surfaces to them as typed records (chosen): meaning reusable across programmes, surfaces owned by the programme, checked against the definition.",
+    "key_requirements": "One meaning per concept, read by every component. Code branches on a definition's identifier, never on a label. A surface is checked against its definition, or the definition is the less-read copy (4e83f879).",
+    "decision_statement": "Meaning in the definition is preferred over meaning in the surface, unless the surface is the only reader and nothing else acts on it.",
+    "rationale": "Ratifies the method principle Meaning in the definition over meaning in the surface rather than restating it; the principle is the standing record and is held in Suggestions until the owner affirms it. It applies Semantic integrity over practical expression (b3ac3391), Core service over adapter logic (e78b0f66) and Checked over permissive (85dc8672) to the practice, and outputs are projections (f5b4656a).",
+    "revisit_when": "A surface needs a meaning its definition cannot state, or a programme cannot bind a surface without changing the canonical definition.",
+    "next_steps": "On ratification: affirm the principle (human fork) and record that the SemanticOps boundary holds the Versioning and Reference tension. The first application is the work-status set in the clerk's programme package and the programme's label bindings (clerk#121).",
+    "owner": "Owner role (SemanticOps)",
+    "decision_kind": "preference"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-22T10:24:56.230998569+00:00",
+  "updatedAt": "2026-10-22T10:24:56.338453176+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

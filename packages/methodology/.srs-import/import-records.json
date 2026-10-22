@@ -2,16 +2,16 @@
   "generatedAt": "2026-10-10T19:50:04.789876668+00:00",
   "fields": [
     {
-      "definitionId": "f37bceb4-568b-457c-9d3f-31c7e65d88a7",
+      "definitionId": "05e8d8e5-4b0c-4918-bcdd-75e8d0cdccb0",
       "definitionType": "field",
       "namespace": "com.semanticops.programme",
-      "name": "programme_title",
+      "name": "report_issue",
       "version": 1,
       "mode": "upstream-tracked",
       "importedAt": "2026-10-10T19:50:04.789876668+00:00",
       "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
       "sourcePackageName": "com.semanticops.programme",
-      "sourcePackageVersion": "0.1.0",
+      "sourcePackageVersion": "0.2.0",
       "conflictState": "clean"
     },
     {
@@ -24,59 +24,7 @@
       "importedAt": "2026-10-10T19:50:04.789876668+00:00",
       "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
       "sourcePackageName": "com.semanticops.programme",
-      "sourcePackageVersion": "0.1.0",
-      "conflictState": "clean"
-    },
-    {
-      "definitionId": "65ff71e2-902f-4e40-88fc-3022d45f7541",
-      "definitionType": "field",
-      "namespace": "com.semanticops.programme",
-      "name": "governed_repos",
-      "version": 1,
-      "mode": "upstream-tracked",
-      "importedAt": "2026-10-10T19:50:04.789876668+00:00",
-      "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
-      "sourcePackageName": "com.semanticops.programme",
-      "sourcePackageVersion": "0.1.0",
-      "conflictState": "clean"
-    },
-    {
-      "definitionId": "05e8d8e5-4b0c-4918-bcdd-75e8d0cdccb0",
-      "definitionType": "field",
-      "namespace": "com.semanticops.programme",
-      "name": "report_issue",
-      "version": 1,
-      "mode": "upstream-tracked",
-      "importedAt": "2026-10-10T19:50:04.789876668+00:00",
-      "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
-      "sourcePackageName": "com.semanticops.programme",
-      "sourcePackageVersion": "0.1.0",
-      "conflictState": "clean"
-    },
-    {
-      "definitionId": "bb3caa33-3ae0-4b53-9bc7-d7b5556c00af",
-      "definitionType": "field",
-      "namespace": "com.semanticops.programme",
-      "name": "digest_issue",
-      "version": 1,
-      "mode": "upstream-tracked",
-      "importedAt": "2026-10-10T19:50:04.789876668+00:00",
-      "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
-      "sourcePackageName": "com.semanticops.programme",
-      "sourcePackageVersion": "0.1.0",
-      "conflictState": "clean"
-    },
-    {
-      "definitionId": "851f95cc-a496-433b-811a-c151c33453eb",
-      "definitionType": "field",
-      "namespace": "com.semanticops.programme",
-      "name": "board_project",
-      "version": 1,
-      "mode": "upstream-tracked",
-      "importedAt": "2026-10-10T19:50:04.789876668+00:00",
-      "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
-      "sourcePackageName": "com.semanticops.programme",
-      "sourcePackageVersion": "0.1.0",
+      "sourcePackageVersion": "0.2.0",
       "conflictState": "clean"
     },
     {
@@ -89,7 +37,20 @@
       "importedAt": "2026-10-10T19:50:04.789876668+00:00",
       "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
       "sourcePackageName": "com.semanticops.programme",
-      "sourcePackageVersion": "0.1.0",
+      "sourcePackageVersion": "0.2.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "1ac3e920-9628-4e0a-b8b3-2ac8eeeac5ce",
+      "definitionType": "field",
+      "namespace": "com.semanticops.programme",
+      "name": "github_label",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-22T10:28:56.149969354+00:00",
+      "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
+      "sourcePackageName": "com.semanticops.programme",
+      "sourcePackageVersion": "0.2.0",
       "conflictState": "clean"
     },
     {
@@ -102,11 +63,115 @@
       "importedAt": "2026-10-10T19:50:04.789876668+00:00",
       "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
       "sourcePackageName": "com.semanticops.programme",
-      "sourcePackageVersion": "0.1.0",
+      "sourcePackageVersion": "0.2.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "65ff71e2-902f-4e40-88fc-3022d45f7541",
+      "definitionType": "field",
+      "namespace": "com.semanticops.programme",
+      "name": "governed_repos",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-10T19:50:04.789876668+00:00",
+      "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
+      "sourcePackageName": "com.semanticops.programme",
+      "sourcePackageVersion": "0.2.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "851f95cc-a496-433b-811a-c151c33453eb",
+      "definitionType": "field",
+      "namespace": "com.semanticops.programme",
+      "name": "board_project",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-10T19:50:04.789876668+00:00",
+      "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
+      "sourcePackageName": "com.semanticops.programme",
+      "sourcePackageVersion": "0.2.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "bb3caa33-3ae0-4b53-9bc7-d7b5556c00af",
+      "definitionType": "field",
+      "namespace": "com.semanticops.programme",
+      "name": "digest_issue",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-10T19:50:04.789876668+00:00",
+      "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
+      "sourcePackageName": "com.semanticops.programme",
+      "sourcePackageVersion": "0.2.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "c54d2057-e1d3-4b73-b718-91d8ff9521df",
+      "definitionType": "field",
+      "namespace": "com.semanticops.programme",
+      "name": "binding_status",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-22T10:28:56.149969354+00:00",
+      "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
+      "sourcePackageName": "com.semanticops.programme",
+      "sourcePackageVersion": "0.2.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "e3747f9d-72f6-42ec-9ae5-671f7e673b87",
+      "definitionType": "field",
+      "namespace": "com.semanticops.programme",
+      "name": "board_status",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-22T10:28:56.149969354+00:00",
+      "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
+      "sourcePackageName": "com.semanticops.programme",
+      "sourcePackageVersion": "0.2.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "f37bceb4-568b-457c-9d3f-31c7e65d88a7",
+      "definitionType": "field",
+      "namespace": "com.semanticops.programme",
+      "name": "programme_title",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-10T19:50:04.789876668+00:00",
+      "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
+      "sourcePackageName": "com.semanticops.programme",
+      "sourcePackageVersion": "0.2.0",
+      "conflictState": "clean"
+    },
+    {
+      "definitionId": "fe186145-c604-4aac-baa5-486a2fd93b9c",
+      "definitionType": "field",
+      "namespace": "com.semanticops.programme",
+      "name": "binds",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-22T10:28:56.149969354+00:00",
+      "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
+      "sourcePackageName": "com.semanticops.programme",
+      "sourcePackageVersion": "0.2.0",
       "conflictState": "clean"
     }
   ],
   "types": [
+    {
+      "definitionId": "1814db47-e095-44c1-9d91-3f4c8a932b9e",
+      "definitionType": "type",
+      "namespace": "com.semanticops.programme",
+      "name": "label-binding",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-22T10:28:56.149969354+00:00",
+      "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
+      "sourcePackageName": "com.semanticops.programme",
+      "sourcePackageVersion": "0.2.0",
+      "conflictState": "clean"
+    },
     {
       "definitionId": "b34ef0e7-6f33-4c43-85b8-7a2772f456ef",
       "definitionType": "type",
@@ -117,12 +182,32 @@
       "importedAt": "2026-10-10T19:50:04.789876668+00:00",
       "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
       "sourcePackageName": "com.semanticops.programme",
-      "sourcePackageVersion": "0.1.0",
+      "sourcePackageVersion": "0.2.0",
       "conflictState": "clean"
     }
   ],
   "views": [],
   "blueprints": [],
   "protocols": [],
-  "relationTypes": []
+  "relationTypes": [
+    {
+      "definitionId": "23a14f00-88d4-4ad3-ab95-c9a67e35d11b",
+      "definitionType": "relation-type",
+      "namespace": "com.semanticops.programme",
+      "name": "com.semanticops.programme/set-against",
+      "version": 1,
+      "mode": "upstream-tracked",
+      "importedAt": "2026-10-22T10:28:56.149969354+00:00",
+      "sourcePackageId": "a71f013f-0207-439f-8e52-2982baa68e86",
+      "sourcePackageName": "com.semanticops.programme",
+      "sourcePackageVersion": "0.2.0",
+      "conflictState": "clean"
+    }
+  ],
+  "skippedDefinitions": [
+    "lifecycles/workitem-e71e57d2.json",
+    "vocabularies/worklabel-183a8ca6.json",
+    "vocabularies/mergegate-36b3c787.json",
+    "vocabularies/workhold-dcf0ee69.json"
+  ]
 }

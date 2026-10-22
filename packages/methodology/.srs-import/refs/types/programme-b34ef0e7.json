@@ -1,9 +1,11 @@
 {
   "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
-  "id": "b34ef0e7-6f33-4c43-85b8-7a2772f456ef",
-  "namespace": "com.semanticops.programme",
-  "name": "programme",
-  "version": 1,
+  "aiGuidance": {
+    "extraction": "Exactly one record per programme repository. Change a value here, not in code.",
+    "negativeGuidance": "Do not store working-group settings or secrets here.",
+    "purpose": "The single settings record the clerk reads instead of hard-coded values."
+  },
+  "createdAt": "2026-10-10T00:00:00Z",
   "description": "Settings of one programme: whose it is, which repositories it governs, where it reports.",
   "fields": [
     {
@@ -47,11 +49,9 @@
       "required": false
     }
   ],
+  "id": "b34ef0e7-6f33-4c43-85b8-7a2772f456ef",
   "identityFieldId": "f37bceb4-568b-457c-9d3f-31c7e65d88a7",
-  "aiGuidance": {
-    "purpose": "The single settings record the clerk reads instead of hard-coded values.",
-    "extraction": "Exactly one record per programme repository. Change a value here, not in code.",
-    "negativeGuidance": "Do not store working-group settings or secrets here."
-  },
-  "createdAt": "2026-10-10T00:00:00Z"
+  "name": "programme",
+  "namespace": "com.semanticops.programme",
+  "version": 1
 }

@@ -1,0 +1,29 @@
+{
+  "instanceId": "7ee8fa01-3cab-4ba4-98f0-008f51719c8d",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A decision is shown with its compass",
+    "decision_question": "How does a decision record show the compass it was weighed on?",
+    "context": "Owner, 2026-10-22: decisions should always be set against the principles and the compass; avoid seeing decisions without their context and compass. Where the principles give the answer and nothing argues against it, record the choice inline and proceed.\nCompass: the Reviewable and fast tension held at SemanticOps. Mode: clear; it extends ratified 70a84bb7 and e56d6893.",
+    "friction": "Decisions reach the owner as bundles without the principles they rest on, so a ratification cannot be judged against the compass (SP-92, SP-93), and choices the principles already answer are filed as decisions.",
+    "alternatives_considered": "(a) Do nothing: a decision record need not show what it was weighed against; a reader judges it without its compass.\n(b) The compass in prose only: readable, but nothing can check it or bring a decision back with its principles.\n(c) A set-against link from the decision to each principle or standing decision it rests on, with the rationale saying applies or departs (chosen).",
+    "key_requirements": "A reader sees each decision with the principles it applies or departs from, and a tool can list them.",
+    "decision_statement": "Every decision record is set against the principles and standing decisions it rests on, and its rationale says whether it applies or departs from each.",
+    "rationale": "Extends e56d6893 (a design decision cites its principle) to every decision kind and makes the citation a checkable link, so the compass travels with the decision (SP-93). Choices an affirmed principle or the group lean already answers stay out of the record and cite the principle inline, as 70a84bb7 already rules.",
+    "revisit_when": "Records are set against principles by rote, or inline choices hide a departure from a lean.",
+    "next_steps": "pr-check and the session recorder warn when a proposed decision has no set-against link (convention first, e337703b).",
+    "owner": "Owner role (SemanticOps)",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-22T10:24:56.915888618+00:00",
+  "updatedAt": "2026-10-22T10:28:39.437471373+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
