@@ -143,7 +143,7 @@ Full table: `t3-assignments.tsv` beside this page.
 
 **Findings.**
 
-1. **Perspective separates the case from the frame.** Of the 12 decisions the owner flagged as "moment in time" or that the re-read found not to be decisions (applications, choices, plans), 11 read Focus. The decisions that found an instrument read Zoom out (7 of 9; the two exceptions are the two decision-log boundaries, read as about one log). The owner's instruction "find the principle underneath" is a move on line 3 from Focus to Zoom out, keeping lines 1 and 2. Example: p:46bb7a8c (the clerk's OpenAPI document) is ASF; the principle under it, "we build APIs from the spec", is the same decision read Zoom out.
+1. **Breadth of subject separates the case from the frame** (first rubric; this is the scope property, not T3 line 3 as the owner defines it, see discovery 10). Of the 12 decisions the owner flagged as "moment in time" or that the re-read found not to be decisions (applications, choices, plans), 11 read Focus. The decisions that found an instrument read Zoom out (7 of 9; the two exceptions are the two decision-log boundaries, read as about one log). The owner's instruction "find the principle underneath" is a move on line 3 from Focus to Zoom out, keeping lines 1 and 2. Example: p:46bb7a8c (the clerk's OpenAPI document) is ASF; the principle under it, "we build APIs from the spec", is the same decision read Zoom out.
 2. **Change separates the two logs.** srs leans Disrupt (33 D to 21 S, after resolution): it is in its formation phase, removing and reshaping (axis 2-8, Evolution). The programme leans Stabilise (31 S to 16 D). The programme's governance log is Steward-shaped: Observe, Stabilise, Focus (17 of 47). srs's modal code is Watcher, Observe, Stabilise, Zoom out (10 of 54), and srs spreads more evenly across the eight.
 3. **Action cannot be read for decisions about what a thing is.** 15 of 54 srs decisions are metastable on Action; 2 of 47 programme decisions. The metastable ones are representation decisions: renames, removals, relocations (`~DF`). Action reads well for decisions about practice (who does what) and poorly for decisions about data shape. Open: whether T3's core reading of Energy as the direction of information flow (does the decision change what goes out to consumers, or what is taken in and held?) would make line 1 readable for them.
 4. **Same question, different domains, different pole.** p:2637af0a (editor group: an affirmed remedy counts as a ruling) is ADF; p:0b1c25b1 (Third-party ready: only spec records count) is ASF. They differ on one line: Change. T3 gives a vocabulary for how two domains differ on one question: which line, which way. By contrast s:1e5df0d9 and p:a5c769be (what goes in a decision log) are both OSF: the same orientation, decided twice without either citing the other.
@@ -207,7 +207,7 @@ What follows from it:
 
 ### 9. The combined picture (version 2 codes, 2026-10-22)
 
-> **Line 3 is provisional here.** It still uses the first rubric (breadth of subject). The owner has since defined line 3 (below); version 3 codes replace this table once line 3 is re-rated.
+> **Line 3 here is the first rubric (breadth of subject).** The owner's definition is below; discovery 10 re-rates line 3 on it and gives the version 3 codes, which replace this table.
 
 **Line 3, the owner's definition (2026-10-22):** "Are we focusing our energy ... concentrating on a specific plan ... Is the direction of the system we are focusing on under our will or control? Or are we opening the boundary to align with the energy state outside? Are we executing a project plan, or are we sensing and responding?" So line 3 is control against responsiveness: Focus holds the direction under our will and executes a plan; Zoom out opens the boundary and senses and responds. It is neither breadth of attention nor reach, the two readings of the first pass. The owner added: "Focus is a closed boundary, focusing on our will. Opening up, zooming out, is sensing."
 
@@ -232,6 +232,47 @@ Line 1 and 2 from discoveries 7 and 8; line 3 from discovery 5. `~` is metastabl
 - **The same-question pairs now differ on one line each.** p:2637af0a (editor group) ODF against p:0b1c25b1 (Third-party ready) O~F: line 2. s:86f49083 (one landing, ADZ) against p:a8e833f1 (the rule, ASZ): line 2, the rule is the stabilising way to land the change. s:5f18603e and p:31e9fd27 (federation's commitment and its schedule) are both ADF.
 - **The flagged cases are Focus** (10 of 12). The move to the principle underneath is on line 3, and often on line 1 too (from outward on a case to inward on the system).
 
+### 10. Line 3 on the owner's definition: a closed boundary or an open one (version 3 codes, 2026-10-22)
+
+**Definition (owner).** Focus: the direction is under our will; a closed boundary; executing a plan. Zoom out: opening the boundary to align with the energy outside; sensing and responding. Rated by two new blind raters, explicitly not by breadth of subject.
+
+**Agreement.** 96 / 101, kappa 0.81. All 48 cases where both raters were confident agree. The split is lopsided (about 85 F to 14 Z), which keeps kappa lower than raw agreement.
+
+**Findings.**
+
+1. **Line 3 is not breadth.** Only 62 of 101 keep their first-rubric pole. 27 moved from Z to F: the system-wide frames (the grid's founding, the layer rules, the reference strengths, the doors) are closed. We impose them. Breadth of subject belongs to the scope property.
+2. **Decisions are almost always closed.** 85 of 101 hold the direction under our will. The 13 that both raters read as open share one property: **the selected option lets something outside decide.**
+   - evidence of use decides what is removed: s:4f1e12e5, s:53635966, s:2a1e1590;
+   - real use decides what graduates: p:a1b06725;
+   - practice decides how models unify: p:559bfb9e;
+   - an observed overlap decides nesting: p:8e1ae42a;
+   - the boundary decides a stance: p:ee95817b;
+   - a test decides whether a convention is enforced: p:04b78189;
+   - the tool carries what it does not recognise, and each corpus decides its own practice: s:2e0cd70a, s:1e7c0c8e;
+   - counterparties are sought out: s:8f5aca2c;
+   - a retirement is left open for later: p:bf4a5af5;
+   - history is investigated before deciding: p:b80d2d1e.
+3. **Every decision has a sensor, but most do not sense in the choice.** Each record carries a review trigger (`revisit_when`, `review_trigger`): an open boundary, attached afterwards. A Focus decision is a closed choice plus an open sensor. A Zoom out decision puts the sensing into the choice itself.
+4. **"Committed, not evidence-gated" is a line 3 flip.** The attested removals (s:4f1e12e5, ODZ) wait on evidence for each return. Federation's return (s:5f18603e, ADF) was taken out of that by the owner: committed, scheduled, under our will. The one ruling is named by its pole.
+5. **The owner's practice is open; the log is mostly closed.** The owner's comments keep naming open principles: "we start with a sample, learn, then commit", "initial experiments and non-conformity is allowed until we have a standard practice", "a design decision that we will use for now, and review". Few decisions encode that in the choice itself. Most encode it only in their review trigger, if at all.
+6. **Health (T3).** Decision-making concentrates in O·F: ODF 31 and OSF 31, 62 of 101. Neither log reaches every orientation. ADZ (Challenger: outward, transforming, open) never occurs. srs never reaches OSZ; the programme never reaches ODZ. T3's health matrix reads 6 of 8 as a warning, not a fixation.
+
+**Version 3 distribution** (line 1 from discovery 7, line 2 from 8, line 3 from this pass; `~` metastable). Full table: `t3-assignments-v3.tsv`.
+
+| Code | Favoured by | n | srs | programme |
+|---|---|---|---|---|
+| ODF | Analyst | 31 | 22 | 9 |
+| OSF | Steward | 31 | 14 | 17 |
+| ADF | Initiator | 8 | 5 | 3 |
+| ASF | Synthesizer | 5 | 2 | 3 |
+| OSZ | Watcher | 5 | 0 | 5 |
+| ODZ | Rebel | 4 | 4 | 0 |
+| ASZ | Builder | 2 | 1 | 1 |
+| ADZ | Challenger | 0 | 0 | 0 |
+| metastable | | 15 | 6 | 9 |
+
+**Still split (5):** p:2637af0a, p:a8bc55ef (delegation: distributing authority, read as both a planned charter and an opening); s:7caca3a1, s:b9d7096e (instruments that look for emergence); p:684f84ab (a decision held open, or captured to a fixed procedure).
+
 ## Open questions
 
 1. Does Authority replace Mandate, or widen it? Are Gate and Lean kinds, or attributes?
@@ -240,7 +281,8 @@ Line 1 and 2 from discoveries 7 and 8; line 3 from discovery 5. `~` is metastabl
 4. Do the non-decisions leave the log, or stay as history linked to the decision they apply?
 5. Line 1: resolved by the owner's definition (discovery 7).
 7. Line 2: does magnitude matter, or only direction (discovery 8)?
-8. Line 3: defined by the owner as control against sense-and-respond (discovery 9); being re-rated.
+8. Line 3: re-rated on the owner's definition (discovery 10). Is delegation (handing authority to a group) a closed plan or an opening?
+9. Should a decision's sense-and-respond part sit in the choice, or is the review trigger enough? (discovery 10.3)
 6. Is the T3 code a property every decision should carry (as srs carries `governing_values` and its cell)?
 
 ## Next passes
