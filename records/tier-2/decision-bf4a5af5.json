@@ -1,0 +1,30 @@
+{
+  "instanceId": "bf4a5af5-727f-4da4-af51-72b421a47b78",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Escalation: how do structured diagnostics reach the existing text lists? (srs-rust#1264)",
+    "decision_question": "May the diagnostics lists on about 16 command results change from plain text to structured objects (breaking existing readers), or must the structured form arrive beside the text list?",
+    "context": "Problem: The owner ruled on srs-rust#1264 (2026-10-08) that stable diagnostic codes are adopted. Today most commands report problems as plain text lines (`diagnostics: string[]`). Carrying a code and severity means each of about 16 command results changes those lines into small objects, and the ruling's scope also renames every legacy code scheme once with no aliases and rewrites about 235 test assertions. The ruling calls the message change additive, but it does not say whether changing the shape of existing text lists is allowed. Why it matters: anything that reads those lists today (srs-web, srs-vscode, scripts, the MCP clients) breaks the day the new build is pinned, with no change on their side to point to. That is the same failure that srs-rust#1132 showed, a silent change on a routine pin bump, and it touches the one-way-per-goal and identifier-over-label rulings (rfc-decision-b2ff7c91). Options and consequences: (A) Replace the text lists with objects everywhere, in one release: one spelling, matches the ruling literally, but breaks every current reader at once and needs coordinated client changes. (B) Add a parallel structured list beside the existing text list (text list kept, with the code prefix kept inside it until clients move), then retire the text list in a later decision: nothing breaks, but there are two lists for one goal for a while. (C) Do the field on validation results only (an optional `code`, as scope item 1 of the ruling), and land the other surfaces afterwards in separate issues once clients are ready: smallest and safest, delays the render/find consumers. (D) Do nothing: srs-web keeps grouping on message text and repeats that differ by instance id never collapse. Recommendation: C first, then B for the remaining surfaces; keep the legacy renames in their own issue. Action needed: decide. Urgency: medium; srs-web#441 waits on it, nothing is broken meanwhile. Answers: SP-03. Detail: https://github.com/the-greenman/srs-rust/issues/1264",
+    "friction": "The owner's ruling adopts stable codes but is silent on the shape of the existing text lists. A builder cannot choose between a breaking payload change and a parallel list without deciding something the standard's consumers will live with, and the brief puts breaking payload changes outside the group's mandate.",
+    "alternatives_considered": "A. Replace text lists with objects on every surface in one release. B. Add a structured list beside the text list, retire the text later. C. Add the optional code to validation results only now, other surfaces in later issues (recommended first step). D. Do nothing.",
+    "key_requirements": "No silent break for current readers on a pin bump. One spelling for codes (kebab-case, RFC-named where one exists). Payload schemas regenerated. srs-web and srs-vscode follow-ups filed and linked.",
+    "decision_statement": "Land the optional `code` on validation diagnostics first (ruling scope item 1), additive and without a revision bump; deliver structured diagnostics on the other surfaces as a parallel list beside the existing text list, and decide separately when to retire the text list. Legacy code renames go in their own issue.",
+    "rationale": "It honours the ruling's direction (stable codes, one spelling) without breaking readers on a routine pin bump, and keeps each change reviewable. The scale (about 16 payloads, the legacy renames, about 235 test assertions) is too large for one safe change.",
+    "revisit_when": "When srs-web#441 groups on `code` and a client reports it no longer needs the text list, or one release after the parallel list ships.",
+    "next_steps": "Owner picks A, B, C or D on this record. If C then B: the builder takes the validation `code` field as srs-rust#1264 part 1, then files the remaining surfaces and the legacy renames as separate issues under SP-03.",
+    "owner": "human:the-greenman",
+    "status": "proposed"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-22T00:14:05.211516691+00:00",
+  "updatedAt": "2026-10-22T00:14:05.211521539+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
