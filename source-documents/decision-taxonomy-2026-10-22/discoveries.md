@@ -209,7 +209,9 @@ What follows from it:
 
 > **Line 3 is provisional here.** It still uses the first rubric (breadth of subject). The owner has since defined line 3 (below); version 3 codes replace this table once line 3 is re-rated.
 
-**Line 3, the owner's definition (2026-10-22):** "Are we focusing our energy ... concentrating on a specific plan ... Is the direction of the system we are focusing on under our will or control? Or are we opening the boundary to align with the energy state outside? Are we executing a project plan, or are we sensing and responding?" So line 3 is control against responsiveness: Focus holds the direction under our will and executes a plan; Zoom out opens the boundary and senses and responds. It is neither breadth of attention nor reach, the two readings of the first pass.
+**Line 3, the owner's definition (2026-10-22):** "Are we focusing our energy ... concentrating on a specific plan ... Is the direction of the system we are focusing on under our will or control? Or are we opening the boundary to align with the energy state outside? Are we executing a project plan, or are we sensing and responding?" So line 3 is control against responsiveness: Focus holds the direction under our will and executes a plan; Zoom out opens the boundary and senses and responds. It is neither breadth of attention nor reach, the two readings of the first pass. The owner added: "Focus is a closed boundary, focusing on our will. Opening up, zooming out, is sensing."
+
+**How lines 1 and 3 differ.** Both speak of the boundary, in different ways. Line 1 is the direction energy flows across it: outward onto the world, or inward to change the system. Line 3 is the state of the boundary itself: closed and steered by our will, or open and sensing. So an inward decision can still be open (the system changes itself in response to what it senses: p:559bfb9e "experiment now, unify later"), and an outward one can still be closed (a release imposed to a fixed plan).
 
 Line 1 and 2 from discoveries 7 and 8; line 3 from discovery 5. `~` is metastable. Full table: `t3-assignments-v2.tsv`.
 
