@@ -1,0 +1,28 @@
+{
+  "instanceId": "58f5ff8b-60f4-4ddc-aa1a-78e0180ae39b",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-98",
+    "title": "Poles are put up for affirmation one at a time, with no test that a domain's tensions are orthogonal",
+    "statement": "A pole only means something against its partner, inside the domain it belongs to, and alongside the other tensions of that domain. The affirm path offers each pole, tension and principle as a separate record, so the owner is asked to affirm a half of a pair with none of that context and cannot honestly do it. Nothing tests whether a domain's tensions are orthogonal: whether one can move without dragging another. So tensions accumulate that are the same axis in different words, principles lean on poles nobody has judged, and the compass grows larger while saying less. A sound domain needs few tensions, perhaps three, each independent of the others.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-22: I cannot affirm a pole on its own; each pole must exist within its domain and be compared with the other pole; poles should be orthogonal, so very few are valid",
+      "greenmans_creation:obsidian-vault/2-Synthetic-Practice/Foundational-Synthesis.md",
+      "greenmans_creation:workspace/the-system/t3_axis_generation_agent.md (orthogonality test)",
+      "srs-programme: 17 tensions affirmed, 0 of 36 poles affirmed (2026-10-22)",
+      "SP-94",
+      "SP-72"
+    ]
+  },
+  "createdAt": "2026-10-22T09:00:07.069311281+00:00",
+  "updatedAt": "2026-10-22T09:00:07.069315626+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
