@@ -11,14 +11,14 @@
     "friction": "The builder claimed srs-rust#1417 as the next ready P1 issue, found that its stated PR split cannot be shipped alone without breaking every existing repository, and stopped rather than choose a transitional design that RFC-052 [R5] argues against.",
     "alternatives_considered": "1. One PR: loader plus 9 to 10 migration together. 2. Two PRs with a temporary dual-read loader. 3. Two PRs as written, PR 1 merged but unreleased until PR 2 lands. 4. Do nothing.",
     "key_requirements": "Binary loads revision 10 and, through the registry migration, revisions 9 and below. Gate: navigation, identity and every render byte-identical before and after. All-or-nothing migration with alreadyApplied on re-run. Existing corpora and fixtures stay readable at every merge to master. No transitional second encoding left behind.",
-    "decision_statement": "Land RFC-052 in srs-rust as a single change: manifest rootContainerId, loader, container-root-delete, and the rfc052-root-container migration with its pre-load transformer and byte-identical gate, then release for step 2 of the choreography.",
+    "decision_statement": "answered by a8e833f1: a new data-model revision lands in one change with its migration. It is then ratified as a one-line case of the practice, and leaves your agenda.",
     "rationale": "A split where PR 1 cannot merge without breaking master is not two shippable units. One change keeps the corpus gate meaningful and avoids a dual-read path that RFC-052 [R5] forbids.",
     "revisit_when": "The migration proves too large to review as one change, or the owner prefers a dual-read interim to keep PRs small.",
     "next_steps": "Owner picks an option. Then the Builder (or the owner's session) re-takes srs-rust#1417 under that shape; the label needs-input is removed."
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-21T21:45:20.822063043+00:00",
-  "updatedAt": "2026-10-21T21:45:39.180320427+00:00",
+  "updatedAt": "2026-10-22T10:31:04.615766458+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",

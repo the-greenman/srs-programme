@@ -1,0 +1,27 @@
+{
+  "session": "6bed3eeb-b5e2-4190-a4f6-3e1c3994fafb",
+  "acts": [
+    {
+      "at": "2026-10-22T10:28:30.508Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 1,
+      "seen": [],
+      "updatedAt": "2026-10-22T10:11:30.338620108+00:00",
+      "kind": "ratify",
+      "id": "a8e833f1-de8f-4684-b3f6-2c90eab4ff27",
+      "title": "Every release can open every repository that exists"
+    },
+    {
+      "at": "2026-10-22T10:30:59.433Z",
+      "section": "Decisions for this session",
+      "position": 1,
+      "of": 1,
+      "seen": [],
+      "updatedAt": "2026-10-21T21:45:39.180320427+00:00",
+      "kind": "other",
+      "id": "bbb03bff-16ad-4d2e-876a-a3c2cc4a6439",
+      "title": "srs-rust#1417 (RFC-052): how to land the root-container move, since PR 1 alone would refuse every existing repository"
+    }
+  ]
+}
