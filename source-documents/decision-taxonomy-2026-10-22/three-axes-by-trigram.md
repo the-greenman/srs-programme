@@ -79,12 +79,12 @@ These triads are real, but they are not the trigram's line triad. Do not use the
    - It now presents the two maps as above.
    - Programme coordination's axes are on trigram lines (line 2 Compatibility ↔ One way; line 3 Core once ↔ Adapter convenience).
    - It gives the compass only as a translation.
-   - It leaves two polarities open for the owner: line 1 (who moves against who holds authority) and line 3 (the trigram reading marks Core once yang).
+   - The owner ruled both open polarities the same day (3ea2928). Line 1 is Refine ↔ Deliver, with Deliver yang, and Human layer ↔ Agent throughput moves to prose under it. Line 3 is Adapter convenience ↔ Core once, with Core once yang: direction from the centre, not from outside.
 
 ## Using it
 
 - **Placing a decision:** rate each line in its own question (the stance column), with the boundary stated first. The code is the three letters in line order: line 1, then line 2, then line 3.
-- **Placing a domain's three axes:** use the trigram, and give each axis the line whose Three Powers question it answers. Then translate onto the compass to look for gaps. Line 1: who acts, and whether energy goes out or in. Line 2: whether to keep or transform. Line 3: whether to hold the boundary or open it. Then test the pairs and the cube (clerk#159, steps 3 and 4).
+- **Placing a domain's three axes:** use the trigram, and give each axis the line whose Three Powers question it answers. Then translate onto the compass to look for gaps. Line 1: where the change lands, on the world or on the system itself. Line 2: whether to keep or transform. Line 3: whether to hold the boundary or open it. Then test the pairs and the cube (clerk#159, steps 3 and 4).
 - **Reading a decision against its domain (context × action):** pair line k with line k. Both now use the same line order, so line k means the same Three Powers position in each.
 
 Sources: greenmans_creation `I-Ching-Zodiac-Isomorphism.md`, `Leadership-Archetypes.md`, `Three-Axes.md`, `systemic-data-ethics.md`; srs `docs/charter/decision-compass.md`; srs-context cc05d4c9; clerk#159; srs-programme exercise b430b7e0, discoveries 7 to 12.
