@@ -1,0 +1,29 @@
+{
+  "instanceId": "4a44396a-1c59-48c2-a85e-86ceda7f9bcc",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "The bug fixer holds a builder seat in every group",
+    "decision_question": "Who fixes bugs, and under whose rules?",
+    "context": "Problem: bugs ride their own queue (never the Ready feed), and their only consumer was a cloud routine whose rules lived in its own trigger prompt, outside the clerk. It claimed by adding a label, ran feature pipelines, and on 2026-10-21/22 built srs-web#595 three times and overwrote its description.\nWhy it matters: work outside the agreed process is work the process cannot see or govern (SP-62); a bug fix in a group's repos should get that group's review and count against its budget like any other group PR.\nCompass: Human layer over agent suggestion, within a delegated mandate (the seat is the mandate); Reviewable units over throughput (one bug per run, quorum review). Mode: clear. Door: non-normative.\nRecommendation: ratify; the owner already asked for it (2026-10-22: a separate routine, managed by the clerk, with a seat in each group).\nAction needed: ratify in a session.",
+    "friction": "Without a seat the bug fixer either bypasses clerk claim (and the srs-web#595 duplicates come back) or cannot claim group bugs at all.",
+    "alternatives_considered": "(a) Do nothing: the old routine stays paused and bugs wait for whoever notices them.\n(b) Each group's own builder takes its bugs first: one fewer routine, but bugs compete with the group's ranked work, which the bug track (#717) exists to avoid.\n(c) A separate bug fixer with the builder seat in every group and in the central group, following routines/bug-fixer.md (chosen): one consumer of the bug queue, every fix claimed, reviewed and budgeted by the group it belongs to.",
+    "key_requirements": "Bugs never compete with the Ready feed. Every bug fix is claimed through the clerk and reviewed by the group whose label it carries. The bug fixer never merges.",
+    "decision_statement": "The bug fixer (agent:bug-fixer) holds the builder seat in every working group and in the central group, and works only the bug queue, by its brief in the clerk.",
+    "rationale": "A seat is how the practice gives an agent a mandate: clerk claim checks it, the group's reviewer reviews its PRs and its merges count against the group's budget. Placing the bug fixer in every group keeps the bug track separate (#717) without taking it outside the groups' rules (f799b6bc: members act under the same rules; 4fca091f: the central group takes undelegated work).",
+    "revisit_when": "A group's budget is regularly spent on bug fixes, or a bug needs a ruling more often than a fix.",
+    "next_steps": "On ratification nothing further is needed: the seat is already recorded (agent record and its authorised-by links). The trigger runs routines/bug-fixer.md (clerk#151).",
+    "owner": "Owner role (SemanticOps)",
+    "decision_kind": "mandate"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-22T14:06:25.184386002+00:00",
+  "updatedAt": "2026-10-22T14:06:25.311422971+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
