@@ -1,0 +1,29 @@
+{
+  "instanceId": "9e2c2950-b58b-482a-bfd7-a33b995c1e22",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "The owner can drive a feature idea directly, through the chain",
+    "decision_question": "When the owner brings a feature idea and wants to drive it now, which steps of the chain may the owner session take on the spot, and which may never be skipped?",
+    "context": "Problem: on 2026-10-21 the owner asked for a feature in the essay editor (Ctrl-Enter splits a paragraph, with undo). A Claude Code session built it at once, before any issue existed, any problem or remedy was affirmed, or anything was claimed: the chain was skipped. The owner wants to push feature ideas in and sometimes drive them directly, but not skip the rest of the process. The handbook already asks who acts as the programme router before a routine exists (Intake, open question); Intake itself is proposed, not in force (clerk#56).\nWhat happened next is the shape proposed here: the session stopped, the owner affirmed a new problem (SP-95) and remedy as worded, clerked in the same conversation, and the issue was filed under epic #29, routed to wg:agent-editor and taken through /ship.",
+    "friction": "Grounding took several manual srs CLI calls (suggestion, affirmed copy, derived-from, held-by, answers, implements) with no one-step command.",
+    "alternatives_considered": "(a) Do nothing: an owner idea goes through Intake once it is in force; until then each session improvises, and work is built ungrounded, as here.\n(b) Owner ideas skip the chain: fastest, but the work answers no recorded problem, I1 falls, and groups cannot see or ratify it.\n(c) This policy: an owner session grounds the idea on the spot (suggest, affirm, file, route, claim) and only the waiting is removed; nothing in build, review or merge is skipped.",
+    "key_requirements": "The idea is grounded before anything is pushed: an affirmed problem and remedy, the issue filed under its epic with an Answers line, routed to its group and claimed with clerk claim. The owner affirms on explicit live instruction; the agent never affirms. Review stays independent and the group's merge rules apply.",
+    "decision_statement": "An owner feature idea may be grounded on the spot in an owner session (/session or a clerked conversation): a problem and a remedy are suggested, the owner affirms them as worded, and the issue is filed under its epic with Answers:, routed to its group and claimed. Building, the independent review and the merge rules are never skipped. Code built before grounding stays unpushed until the issue is claimed.",
+    "rationale": "The chain exists so that work answers a recorded need and stays visible to the group that holds it. The cost the owner feels is waiting, not the steps; doing the steps at once in the owner's presence keeps the record and removes the wait.",
+    "revisit_when": "Intake is ratified (clerk#56 D2-D7), or I1 shows owner-driven PRs grounding less often than others.",
+    "owner": "Owner role (SemanticOps)",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-21T10:17:26.158465660+00:00",
+  "updatedAt": "2026-10-22T09:46:15.028394427+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

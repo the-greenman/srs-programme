@@ -1,0 +1,29 @@
+{
+  "instanceId": "e0e67bf2-4173-4bbe-895b-76ad54c8ebad",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-22 09:30 UTC: SemanticOps",
+    "held_at": "2026-10-22T09:30:03Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-22 09:30 UTC: SemanticOps\nAttendees: Owner\n- Ratified: Work is held as holons: revived units, one GitHub tree, ranked in the period [05c3ddcb]\n- Commented: Work is held as holons: revived units, one GitHub tree, ranked in the period [05c3ddcb] (1)\n- Ratified: The clerk's HTTP contract is one OpenAPI 3.1 document that routes, validation and client types derive from [46bb7a8c]\n- Commented: The clerk's HTTP contract is one OpenAPI 3.1 document that routes, validation and client types derive from [46bb7a8c] (1)\n- Ratified: The owner can drive a feature idea directly, through the chain [9e2c2950]\n- Commented: The owner can drive a feature idea directly, through the chain [9e2c2950] (1)\n- Ratified: A capability enters clerk serve only after it is a clerk command, used for real, unchanged since the last session, and tested [a1b06725]\n- Commented: A capability enters clerk serve only after it is a clerk command, used for real, unchanged since the last session, and tested [a1b06725] (1)\n- Ratified: The owner's desk is reachable only from loopback and the owner's private ZeroTier network [e745e9b2]\n- Commented: The owner's desk is reachable only from loopback and the owner's private ZeroTier network [e745e9b2] (1)\n- Ratified: A response to a comment is a typed comment on it; conversation stays flat [ff946eb1]\n- Commented: A response to a comment is a typed comment on it; conversation stays flat [ff946eb1] (1)\n- Received: WG Agent-supported editor report 2026-10-21\n- Received: WG Third-party ready report 2026-10-21\n- Exercise: One unknown key makes a whole repository unloadable: RFC-038 [R7]+[R24] against rfc-decision-2e0cd70a: input given\nActs in the order taken (UTC):\n- 09:34:03Z comment: Work is held as holons: revived units, one GitHub tree, ranked in the period [05c3ddcb] (Decisions since the last session 1 of 6, saw full record, record updated 2026-10-21T10:00:09.914114196+00:00)\n- 09:34:05Z ratify: Work is held as holons: revived units, one GitHub tree, ranked in the period [05c3ddcb] (Decisions since the last session 1 of 6, saw full record, record updated 2026-10-21T10:00:09.914114196+00:00)\n- 09:35:14Z comment: The clerk's HTTP contract is one OpenAPI 3.1 document that routes, validation and client types derive from [46bb7a8c] (Decisions since the last session 2 of 6, record updated 2026-10-20T18:23:01.466608870+00:00)\n- 09:35:17Z ratify: The clerk's HTTP contract is one OpenAPI 3.1 document that routes, validation and client types derive from [46bb7a8c] (Decisions since the last session 2 of 6, record updated 2026-10-20T18:23:01.466608870+00:00)\n- 09:37:51Z comment: The owner can drive a feature idea directly, through the chain [9e2c2950] (Decisions since the last session 3 of 6, record updated 2026-10-21T10:17:26.397910562+00:00)\n- 09:37:52Z ratify: The owner can drive a feature idea directly, through the chain [9e2c2950] (Decisions since the last session 3 of 6, record updated 2026-10-21T10:17:26.397910562+00:00)\n- 09:39:40Z comment: A capability enters clerk serve only after it is a clerk command, used for real, unchanged since the last session, and tested [a1b06725] (Decisions since the last session 4 of 6, record updated 2026-10-20T18:23:01.284967339+00:00)\n- 09:39:41Z ratify: A capability enters clerk serve only after it is a clerk command, used for real, unchanged since the last session, and tested [a1b06725] (Decisions since the last session 4 of 6, record updated 2026-10-20T18:23:01.284967339+00:00)\n- 09:41:28Z comment: The owner's desk is reachable only from loopback and the owner's private ZeroTier network [e745e9b2] (Decisions since the last session 5 of 6, record updated 2026-10-20T18:23:01.648843197+00:00)\n- 09:41:29Z ratify: The owner's desk is reachable only from loopback and the owner's private ZeroTier network [e745e9b2] (Decisions since the last session 5 of 6, record updated 2026-10-20T18:23:01.648843197+00:00)\n- 09:43:04Z comment: A response to a comment is a typed comment on it; conversation stays flat [ff946eb1] (Decisions since the last session 6 of 6, saw full record, record updated 2026-10-21T11:11:35.752197152+00:00)\n- 09:43:05Z ratify: A response to a comment is a typed comment on it; conversation stays flat [ff946eb1] (Decisions since the last session 6 of 6, saw full record, record updated 2026-10-21T11:11:35.752197152+00:00)\n- 09:43:24Z receive: WG Agent-supported editor report 2026-10-21 [cece8801] (Reports 1 of 2)\n- 09:43:31Z receive: WG Third-party ready report 2026-10-21 [f1c112fb] (Reports 2 of 2)\n- 09:45:17Z comment: One unknown key makes a whole repository unloadable: RFC-038 [R7]+[R24] against rfc-decision-2e0cd70a [2ac083c0] (Exercises 1 of 3, record updated 2026-10-20T19:19:45.062208059+00:00)"
+  },
+  "createdAt": "2026-10-22T09:46:13.668543841+00:00",
+  "updatedAt": "2026-10-22T09:46:13.668545435+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "b24b7ba8-71d8-4f73-a27a-da27be0e2f17",
+      "sourceRole": "attaches"
+    }
+  ]
+}

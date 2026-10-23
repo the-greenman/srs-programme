@@ -1,0 +1,26 @@
+{
+  "instanceId": "e745e9b2-77f2-423d-98d8-23580c2f672a",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "The owner's desk is reachable only from loopback and the owner's private ZeroTier network",
+    "decision_question": "Who may reach the control room and clerk serve, given that both act with the owner's authority?",
+    "context": "Escalated to the owner and answered by the owner on 2026-10-20 (from /ship clerk#96). The desk runs on the main desktop and is viewed from another machine's browser over ZeroTier. It is published as control.semanticops.com through the desktop's Caddy, which drops any source outside ZeroTier or loopback. The service signs commits and uses the owner's GitHub token, so access to it is access to the owner's authority: an owner-level decision, recorded here for the session to ratify.",
+    "alternatives_considered": "The plain LAN with bearer tokens. The LAN with TLS and tokens. A hosted service acting as a bot identity. Do nothing: the dev server on localhost only.",
+    "decision_statement": "clerk serve binds to loopback only. The control room is published only to loopback and the owner's private ZeroTier network, and requests from other sources are dropped. Membership of that network, which the owner authorises, is the access control.",
+    "rationale": "Reaching the desk is reaching the owner's authority. ZeroTier encrypts and admits only authorised members; tokens would add machinery while there is one client.",
+    "revisit_when": "When a second machine or client needs its own app (then scoped tokens), when a device that is not the owner's joins the ZeroTier network, or when a hop leaves the overlay.",
+    "next_steps": "clerk#97 binds clerk serve to loopback and tests the refusals.",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-20T18:19:39.276536911+00:00",
+  "updatedAt": "2026-10-22T09:46:15.747307481+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,28 @@
+{
+  "instanceId": "bbb03bff-16ad-4d2e-876a-a3c2cc4a6439",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "srs-rust#1417 (RFC-052): how to land the root-container move, since PR 1 alone would refuse every existing repository",
+    "decision_question": "RFC-052 moves the root container out of manifest.json. The issue says its two PRs are each shippable alone, but the first one would make the binary refuse every repository we have until the second lands. In what shape should the work go in?",
+    "context": "Problem: srs-rust#1417 asks for PR 1 (manifest names the root by rootContainerId; loader resolves it from the container set) and PR 2 (the 9 to 10 migration), each shippable alone. RFC-052 [R7] says a revision-10 binary must refuse revision-9 data and point to the migration. So after PR 1 alone, every first-party repository (srs-programme, srs, srs-context, muSrs, all test fixtures) is unreadable until PR 2 exists. The change also reaches about 30 files that read the embedded root today (container_service, navigation, portability, archive, migrate-identity, fork, doctor) and most test fixtures.\nWhy it matters: this is the repository's storage model and the first step of the revision-bump choreography that srs-rust#1414, srs#948 and five pin issues wait on. Landing it in a shape that breaks the build or the corpora, or hurrying it, puts the whole chain at risk. The owner said it must happen soon and not be lost.\nOptions and consequences: (1) One PR with loader and migration together: one atomic, gated change, and the corpus gate can pass; larger to review. (2) Two PRs, but PR 1 reads both forms (embedded root and rootContainerId) until PR 2 lands: each PR is shippable, but it adds a temporary second code path that RFC-052 [R5] says should not exist. (3) Two PRs as written, with PR 1 held unreleased until PR 2 merges: keeps small diffs, but the first merge leaves master unable to read its own fixtures. (4) Do nothing: the choreography and srs-rust#1414 stay blocked.\nRecommendation: option 1, and have the work done as an owner-directed session or a single dedicated run, since it is a data-model migration with a byte-identical render gate. Mode: complicated. Door 3 on the spec side, executes RFC-052.\nAction needed: decide.\nUrgency: soon; srs-rust#1414 and srs#948 are blocked on it.\nAnswers: SP-30",
+    "friction": "The builder claimed srs-rust#1417 as the next ready P1 issue, found that its stated PR split cannot be shipped alone without breaking every existing repository, and stopped rather than choose a transitional design that RFC-052 [R5] argues against.",
+    "alternatives_considered": "1. One PR: loader plus 9 to 10 migration together. 2. Two PRs with a temporary dual-read loader. 3. Two PRs as written, PR 1 merged but unreleased until PR 2 lands. 4. Do nothing.",
+    "key_requirements": "Binary loads revision 10 and, through the registry migration, revisions 9 and below. Gate: navigation, identity and every render byte-identical before and after. All-or-nothing migration with alreadyApplied on re-run. Existing corpora and fixtures stay readable at every merge to master. No transitional second encoding left behind.",
+    "decision_statement": "answered by a8e833f1: a new data-model revision lands in one change with its migration. It is then ratified as a one-line case of the practice, and leaves your agenda.",
+    "rationale": "A split where PR 1 cannot merge without breaking master is not two shippable units. One change keeps the corpus gate meaningful and avoids a dual-read path that RFC-052 [R5] forbids.",
+    "revisit_when": "The migration proves too large to review as one change, or the owner prefers a dual-read interim to keep PRs small.",
+    "next_steps": "Owner picks an option. Then the Builder (or the owner's session) re-takes srs-rust#1417 under that shape; the label needs-input is removed."
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-21T21:45:20.822063043+00:00",
+  "updatedAt": "2026-10-22T10:31:04.615766458+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "WG Third-party ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

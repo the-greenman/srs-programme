@@ -1,0 +1,20 @@
+{
+  "instanceId": "2abdfe93-716c-43e9-a9e5-e53f14518ce1",
+  "typeId": "1814db47-e095-44c1-9d91-3f4c8a932b9e",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "label-binding",
+  "fieldValues": {
+    "binds": "1eb4f6f0-191c-406f-b560-67d936f1fefc",
+    "binding_status": "active",
+    "github_label": "size: xl"
+  },
+  "createdAt": "2026-10-22T10:24:53.301818386+00:00",
+  "updatedAt": "2026-10-22T10:24:53.301821900+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code",
+    "name": "Claude Code (owner session, clerk#121)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

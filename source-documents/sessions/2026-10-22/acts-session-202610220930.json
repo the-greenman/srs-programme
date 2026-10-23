@@ -1,0 +1,176 @@
+{
+  "session": "e0e67bf2-4173-4bbe-895b-76ad54c8ebad",
+  "acts": [
+    {
+      "at": "2026-10-22T09:34:03.481Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 6,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-10-21T10:00:09.914114196+00:00",
+      "kind": "comment",
+      "id": "05c3ddcb-8425-435a-b3b9-bb720e846bec",
+      "title": "Work is held as holons: revived units, one GitHub tree, ranked in the period"
+    },
+    {
+      "at": "2026-10-22T09:34:05.189Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 6,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-10-21T10:00:09.914114196+00:00",
+      "kind": "ratify",
+      "id": "05c3ddcb-8425-435a-b3b9-bb720e846bec",
+      "title": "Work is held as holons: revived units, one GitHub tree, ranked in the period"
+    },
+    {
+      "at": "2026-10-22T09:35:14.628Z",
+      "section": "Decisions since the last session",
+      "position": 2,
+      "of": 6,
+      "seen": [],
+      "updatedAt": "2026-10-20T18:23:01.466608870+00:00",
+      "kind": "comment",
+      "id": "46bb7a8c-a361-4193-aae8-362148e9fb86",
+      "title": "The clerk's HTTP contract is one OpenAPI 3.1 document that routes, validation and client types derive from"
+    },
+    {
+      "at": "2026-10-22T09:35:17.443Z",
+      "section": "Decisions since the last session",
+      "position": 2,
+      "of": 6,
+      "seen": [],
+      "updatedAt": "2026-10-20T18:23:01.466608870+00:00",
+      "kind": "ratify",
+      "id": "46bb7a8c-a361-4193-aae8-362148e9fb86",
+      "title": "The clerk's HTTP contract is one OpenAPI 3.1 document that routes, validation and client types derive from"
+    },
+    {
+      "at": "2026-10-22T09:37:51.569Z",
+      "section": "Decisions since the last session",
+      "position": 3,
+      "of": 6,
+      "seen": [],
+      "updatedAt": "2026-10-21T10:17:26.397910562+00:00",
+      "kind": "comment",
+      "id": "9e2c2950-b58b-482a-bfd7-a33b995c1e22",
+      "title": "The owner can drive a feature idea directly, through the chain"
+    },
+    {
+      "at": "2026-10-22T09:37:52.404Z",
+      "section": "Decisions since the last session",
+      "position": 3,
+      "of": 6,
+      "seen": [],
+      "updatedAt": "2026-10-21T10:17:26.397910562+00:00",
+      "kind": "ratify",
+      "id": "9e2c2950-b58b-482a-bfd7-a33b995c1e22",
+      "title": "The owner can drive a feature idea directly, through the chain"
+    },
+    {
+      "at": "2026-10-22T09:39:40.676Z",
+      "section": "Decisions since the last session",
+      "position": 4,
+      "of": 6,
+      "seen": [],
+      "updatedAt": "2026-10-20T18:23:01.284967339+00:00",
+      "kind": "comment",
+      "id": "a1b06725-89d6-42ea-a90e-2577da694f8b",
+      "title": "A capability enters clerk serve only after it is a clerk command, used for real, unchanged since the last session, and tested"
+    },
+    {
+      "at": "2026-10-22T09:39:41.864Z",
+      "section": "Decisions since the last session",
+      "position": 4,
+      "of": 6,
+      "seen": [],
+      "updatedAt": "2026-10-20T18:23:01.284967339+00:00",
+      "kind": "ratify",
+      "id": "a1b06725-89d6-42ea-a90e-2577da694f8b",
+      "title": "A capability enters clerk serve only after it is a clerk command, used for real, unchanged since the last session, and tested"
+    },
+    {
+      "at": "2026-10-22T09:41:28.835Z",
+      "section": "Decisions since the last session",
+      "position": 5,
+      "of": 6,
+      "seen": [],
+      "updatedAt": "2026-10-20T18:23:01.648843197+00:00",
+      "kind": "comment",
+      "id": "e745e9b2-77f2-423d-98d8-23580c2f672a",
+      "title": "The owner's desk is reachable only from loopback and the owner's private ZeroTier network"
+    },
+    {
+      "at": "2026-10-22T09:41:29.714Z",
+      "section": "Decisions since the last session",
+      "position": 5,
+      "of": 6,
+      "seen": [],
+      "updatedAt": "2026-10-20T18:23:01.648843197+00:00",
+      "kind": "ratify",
+      "id": "e745e9b2-77f2-423d-98d8-23580c2f672a",
+      "title": "The owner's desk is reachable only from loopback and the owner's private ZeroTier network"
+    },
+    {
+      "at": "2026-10-22T09:43:04.400Z",
+      "section": "Decisions since the last session",
+      "position": 6,
+      "of": 6,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-10-21T11:11:35.752197152+00:00",
+      "kind": "comment",
+      "id": "ff946eb1-6ab4-4910-a39e-30691e798dc1",
+      "title": "A response to a comment is a typed comment on it; conversation stays flat"
+    },
+    {
+      "at": "2026-10-22T09:43:05.153Z",
+      "section": "Decisions since the last session",
+      "position": 6,
+      "of": 6,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-10-21T11:11:35.752197152+00:00",
+      "kind": "ratify",
+      "id": "ff946eb1-6ab4-4910-a39e-30691e798dc1",
+      "title": "A response to a comment is a typed comment on it; conversation stays flat"
+    },
+    {
+      "at": "2026-10-22T09:43:24.195Z",
+      "section": "Reports",
+      "position": 1,
+      "of": 2,
+      "seen": [],
+      "kind": "receive",
+      "id": "cece8801-115e-47b0-b6df-f4afb178a001",
+      "title": "WG Agent-supported editor report 2026-10-21"
+    },
+    {
+      "at": "2026-10-22T09:43:31.990Z",
+      "section": "Reports",
+      "position": 2,
+      "of": 2,
+      "seen": [],
+      "kind": "receive",
+      "id": "f1c112fb-b5e5-44c6-bb29-f2ec166104e0",
+      "title": "WG Third-party ready report 2026-10-21"
+    },
+    {
+      "at": "2026-10-22T09:45:17.228Z",
+      "section": "Exercises",
+      "position": 1,
+      "of": 3,
+      "seen": [],
+      "updatedAt": "2026-10-20T19:19:45.062208059+00:00",
+      "kind": "comment",
+      "id": "2ac083c0-f1b6-47ae-8f12-337cb2cca8f4",
+      "title": "One unknown key makes a whole repository unloadable: RFC-038 [R7]+[R24] against rfc-decision-2e0cd70a"
+    }
+  ]
+}

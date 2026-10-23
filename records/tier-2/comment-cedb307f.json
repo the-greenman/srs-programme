@@ -1,0 +1,18 @@
+{
+  "instanceId": "cedb307f-70cb-4718-888d-c99a92e913b1",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "The underlying principle: Pay attention to security implications. Don't expose critical functionality in the open. The Clerk is operational tooling, it needs to be security aware."
+  },
+  "createdAt": "2026-10-22T09:46:15.494175234+00:00",
+  "updatedAt": "2026-10-22T09:46:15.494180449+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

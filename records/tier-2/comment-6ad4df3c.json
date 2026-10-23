@@ -1,0 +1,18 @@
+{
+  "instanceId": "6ad4df3c-e728-4698-a950-27be9df1af2c",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed with both poles: base t3 domain"
+  },
+  "createdAt": "2026-10-22T12:02:44.304501215+00:00",
+  "updatedAt": "2026-10-22T12:02:44.304512991+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,301 @@
+id	option	chosen	label	line1	line2	line3	conf
+s:0118e938	1	y	Tighten rule 4: crossing only for a stated goal	O	D	F	2
+s:0118e938	2	n	Leave rule 4; review judges 'legitimately'	O	S	Z	1
+s:0118e938	3	n	Forbid crossings, retire Invariant 28 hints	A	D	F	1
+s:0118e938	4	n	Tighten in the Container decision alone	O	D	F	1
+s:0225099b	1	y	Remove both defaultValue sites; one future mechanism	A	D	F	1
+s:0225099b	2	n	Define the layered defaults rule now	A	D	F	1
+s:0225099b	3	n	Keep FieldAssignment.defaultValue, remove Field site	A	D	F	1
+s:0225099b	4	n	Remove without recording intent	A	D	F	1
+s:0750c62f	1	y	Container on expression plane; membership declared	O	D	F	1
+s:0750c62f	2	n	Container on meaning plane; keep I-66	O	S	F	1
+s:0750c62f	3	n	Two constructs, migrate every container	A	D	F	1
+s:0750c62f	4	n	Defer for more evidence	O	S	Z	2
+s:0c403e15	1	y	Concept record carries its own bridging prose	O	S	F	1
+s:0c403e15	2	n	Add a narrative leaf type	O	D	F	1
+s:0c403e15	3	n	Presentation-only text on Composition sections	A	D	F	1
+s:0df19d60	1	y	Ordered depth outline on Container; retire memberOrder	A	D	F	2
+s:0df19d60	2	n	Keep memberOrder, add depth in Composition	A	D	F	1
+s:0df19d60	3	n	Order and nesting as per-document edges	A	D	F	1
+s:0df19d60	4	n	Separate arrangement record per Container	A	D	F	1
+s:0df19d60	5	n	Recursive node tree in member list	A	D	F	1
+s:16b20c56	1	y	Rule attribution constraints now; shape at return	O	S	Z	1
+s:16b20c56	2	n	Unify the five attribution shapes now	A	D	F	1
+s:16b20c56	3	n	Mandatory attribution for AI-asserted writes	A	D	F	1
+s:1967b8eb	1	y	Ratify directory marker; non-emptiness SHOULD; file unnamed	O	S	F	2
+s:1967b8eb	2	n	Migrate to a marker file	A	D	F	2
+s:1967b8eb	3	n	Make non-emptiness a MUST	A	D	F	1
+s:1967b8eb	4	n	Name .gitkeep as satisfying file	A	S	F	1
+s:1967b8eb	5	n	Name .srs/README.md in the spec	A	D	F	1
+s:19997e24	1	y	Single check registry with membership guard	O	D	F	2
+s:19997e24	2	n	Keep hand-wired checks	O	S	F	1
+s:19997e24	3	n	Checks as records now	O	D	F	2
+s:19997e24	4	n	Adopt a test-framework dependency	O	D	F	1
+s:1e5df0d9	1	y	Curated log of consequential judgment only	O	D	F	1
+s:1e5df0d9	2	n	Backfill every research card	O	D	F	1
+s:1e5df0d9	3	n	Tactical work suffices to record	O	D	F	1
+s:1e5df0d9	4	n	Record only RFC lifecycle outcomes	O	D	F	1
+s:1e5df0d9	5	n	Leave the boundary implicit	O	S	Z	1
+s:1e7c0c8e	1	y	Two-level retirement; delete instances after provenance	O	D	F	1
+s:1e7c0c8e	2	n	Never delete retired instances	O	S	F	2
+s:1e7c0c8e	3	n	Correct 5f8204bc in place	O	D	F	1
+s:2a1e1590	1	y	Rule state carve-out; remove revisions and changelog	A	D	F	2
+s:2a1e1590	2	n	Keep minimal changelog of transitions	A	S	F	1
+s:2a1e1590	3	n	Remove machinery without ruling carve-out	A	D	F	1
+s:2a1e1590	4	n	Make lifecycleState successor-based	A	D	F	2
+s:2e0cd70a	1	y	Detect, load, preserve-or-refuse contract for unknowns	A	D	Z	1
+s:2e0cd70a	2	n	Strictly closed everywhere	A	D	F	2
+s:2e0cd70a	3	n	Open everywhere, full passthrough	A	D	Z	1
+s:2e0cd70a	4	n	Refuse-only on write	A	D	F	1
+s:2f048790	1	y	Generate reference tables and schema from records	O	D	F	1
+s:2f048790	2	n	Keep comparing hand-authored pseudo-IDL	O	S	F	2
+s:2f048790	3	n	Generate prose from canonical JSON Schema	O	D	F	1
+s:2f048790	4	n	Embed raw JSON Schema as reference	O	D	F	1
+s:2fb87c1e	1	y	Authoritative store defines repository content	A	D	F	2
+s:2fb87c1e	2	n	Keep manifest indexes authoritative	A	S	F	2
+s:2fb87c1e	3	n	Each implementation chooses authority	A	S	Z	1
+s:4269c744	1	y	Renderer dispatch in view layer	A	D	F	1
+s:4269c744	2	n	Keep compositeRenderer on FieldGroup/Type	A	S	F	1
+s:4269c744	3	n	Renderer selection per instance	A	D	F	1
+s:4269c744	4	n	Repository-wide renderer only	A	D	F	1
+s:43249f53	1	y	Workflow state is a Lifecycle; migrate rfc_status	O	D	F	1
+s:43249f53	2	n	Sanction bare enum and Lifecycle tiers	O	S	Z	1
+s:4431046e	1	y	Corrections in place with marker; refinements succeed	O	D	F	1
+s:4431046e	2	n	No exception; successor for everything	O	S	F	1
+s:4431046e	3	n	Accept the in-place edit, rule forward	O	S	Z	1
+s:4431046e	4	n	Make decision records mutable	O	D	F	2
+s:4f1e12e5	1	y	Remove unexercised constructs with return triggers	A	D	Z	1
+s:4f1e12e5	2	n	Keep machinery marked experimental	A	S	Z	1
+s:4f1e12e5	3	n	Also remove the supersedes family	A	D	F	1
+s:4f1e12e5	4	n	Delete protocols wholesale	A	D	F	1
+s:53635966	1	y	Remove Tier 1 TypedRecord	A	D	F	1
+s:53635966	2	n	Keep Tier 1 as specified	A	S	F	2
+s:53635966	3	n	Keep Tier 1 marked experimental	A	S	Z	1
+s:53635966	4	n	Remove Note instead	A	D	F	2
+s:5c1e3068	1	y	Target-neutral IR before emitters	A	D	F	1
+s:5c1e3068	2	n	Each target interprets independently	A	S	Z	1
+s:5f18603e	1	y	Successor record: federation return committed	O	D	F	1
+s:5f18603e	2	n	Leave amendment, record nothing	O	S	F	1
+s:5f18603e	3	n	Supersede 4f1e12e5 entirely	O	D	F	2
+s:5f18603e	4	n	Reconstruct whole amendment as successor	O	D	F	1
+s:5f8204bc	1	y	One retirement mechanism per layer	A	S	F	1
+s:5f8204bc	2	n	Single cross-layer deprecation status	A	D	F	2
+s:5f8204bc	3	n	No expiry rule for exceptions	A	S	F	1
+s:628cf6c4	1	y	Every rename ships as a migration	O	S	F	1
+s:628cf6c4	2	n	Alias-based grace periods	A	S	Z	1
+s:628cf6c4	3	n	Exempt prose-only renames	O	S	F	0
+s:6523cf5e	1	y	Keep presentation hints out of fieldType	A	S	F	1
+s:6523cf5e	2	n	Make widgets/renderers semantic facets	A	D	F	2
+s:693b9458	1	y	Pin one named CLI release	O	S	F	2
+s:693b9458	2	n	Always use latest CLI release	O	D	Z	2
+s:6fc7e142	1	y	Rename properties to meta as own unit	A	D	F	2
+s:6fc7e142	2	n	Keep both names with distinction	A	S	F	2
+s:6fc7e142	3	n	Fold rename into #273 train	A	D	F	2
+s:7255aecc	1	y	KEYED typeKey replaces semanticObjectType	A	D	F	2
+s:7255aecc	2	n	Keep semanticObjectType permanently	A	S	F	2
+s:7255aecc	3	n	PINNED typeId/typeVersion dispatch	A	D	F	2
+s:7255aecc	4	n	Invent a fifth reference strength	A	D	F	1
+s:7bd99afd	1	y	Metamodel expresses full surface; no overlay	O	D	F	1
+s:7bd99afd	2	n	Smaller core plus remainder overlay	O	S	F	1
+s:7caca3a1	1	y	Every decision names its mode; mode picks machinery	O	D	Z	1
+s:7caca3a1	2	n	Decision mode as optional field	O	D	Z	1
+s:7caca3a1	3	n	Charter adjudication plus review for complex	O	D	F	1
+s:7caca3a1	4	n	Charter break-glass process for chaos	O	D	F	1
+s:7d3dda60	1	y	fieldValues keyed by Field.name	A	D	F	2
+s:7d3dda60	2	n	Keep UUID-keyed FieldValue array	A	S	F	2
+s:7d3dda60	3	n	Key object by field UUID	A	D	F	2
+s:7d3dda60	4	n	Transform names to lowerCamelCase	A	D	F	2
+s:7d3dda60	5	n	Separate fieldId map per Type	A	D	F	1
+s:86f49083	1	y	Carrier and storage land as one generation	A	D	F	2
+s:86f49083	2	n	Ship carrier before storage change	A	D	F	1
+s:86f49083	3	n	Support an intermediate generation	A	D	F	1
+s:86f49083	4	n	Defer one first-party population	A	D	Z	0
+s:8948e43f	1	y	Travel mandate: bundle carries every held kind	A	D	F	2
+s:8948e43f	2	n	Treat as ordinary gap on demand	A	S	Z	2
+s:8948e43f	3	n	Full parity including runtime state	A	D	F	2
+s:8aed3412	1	y	Tellings at expression; meaning tree unchanged	O	S	F	1
+s:8aed3412	2	n	Context-scoped relations	A	D	F	2
+s:8aed3412	3	n	Duplicate content per context	A	S	Z	0
+s:8f5aca2c	1	y	Adopt reach, sequence, balance operations	O	D	Z	1
+s:8f5aca2c	2	n	Adopt sibling's full apparatus	O	D	Z	1
+s:8f5aca2c	3	n	Leave operations informal	O	S	Z	1
+s:92d2da05	1	y	Rename DocumentView to Composition	A	D	F	2
+s:92d2da05	2	n	Keep DocumentView	A	S	F	2
+s:92d2da05	3	n	Another name (Arrangement, Edition...)	A	D	F	2
+s:92d2da05	4	n	Rename in vocabulary only	O	D	F	1
+s:991c062f	1	y	Exclude metamodel from immutability check	O	S	Z	1
+s:991c062f	2	n	Per-field version override, bump value_range	O	D	F	2
+s:9ee14517	1	y	Separate layer-rules register	O	D	F	1
+s:9ee14517	2	n	Fold layers into cell preferences	O	D	F	1
+s:9ee14517	3	n	Leave as accumulated precedent	O	S	Z	1
+s:a270e98a	1	y	Unprefixed Protocol identity; structured aiGuidance	A	D	F	2
+s:a270e98a	2	n	Keep prefixed shape, rewrite prose	A	S	F	1
+s:a270e98a	3	n	Keep aiGuidance string-or-object	A	S	F	1
+s:a8dcbfe5	1	y	Declare core in dependencyRefs, do not carry	A	D	F	2
+s:a8dcbfe5	2	n	Carry core like any definition	A	S	F	1
+s:a8dcbfe5	3	n	Omit core with empty dependencyRefs	A	S	Z	1
+s:a8dcbfe5	4	n	Exporter chooses per call	A	D	Z	1
+s:aee09992	1	y	Key dependency by packageId with SemVer band	A	D	F	2
+s:aee09992	2	n	Keep ns/name key, optional packageId	A	S	F	1
+s:aee09992	3	n	Version range grammar	A	D	F	2
+s:aee09992	4	n	No special 0.x treatment	A	D	F	1
+s:b2ff7c91	1	y	Identifier over label reaches machine outputs	O	D	F	1
+s:b2ff7c91	2	n	A thirteenth cell preference	O	D	F	2
+s:b2ff7c91	3	n	Leave it in ADR-048 alone	O	S	F	1
+s:b9d7096e	1	y	LLM autoclassification as suggestion; adopt stances	O	D	Z	1
+s:b9d7096e	2	n	Classifier placement authoritative	O	D	F	1
+s:b9d7096e	3	n	Invent fresh stance names	O	D	F	1
+s:b9d7096e	4	n	Wait for #273 self-hosting	O	S	Z	2
+s:be253dd6	1	y	Container as directory of one-line entry files	A	D	F	2
+s:be253dd6	2	n	Merge driver as tooling only	A	D	Z	1
+s:be253dd6	3	n	Per-entry files keeping depth	A	D	F	2
+s:be253dd6	4	n	Order kept in the head	A	D	F	2
+s:be253dd6	5	n	Records declare their containers	A	D	F	2
+s:be253dd6	6	n	Shard the member array	A	D	F	2
+s:be253dd6	7	n	git merge=union	A	D	F	1
+s:be253dd6	8	n	Sequence CRDT (LSEQ/Logoot)	A	D	F	2
+s:be253dd6	9	n	Detached entries as fatal errors	A	D	F	1
+s:be253dd6	10	n	Tombstones for removed entries	A	D	F	1
+s:be253dd6	11	n	Writer-chosen keys	A	D	F	1
+s:bed7a41a	1	y	Root container in container set; manifest names id	A	D	F	2
+s:bed7a41a	2	n	Keep root inline in manifest	A	S	F	2
+s:bed7a41a	3	n	Keep 'container' name holding only id	A	D	F	2
+s:bed7a41a	4	n	Compose with RFC-051 at one revision	A	D	F	2
+s:c20fcff8	1	y	Level test: declarable and checkable, else authoring	O	D	F	1
+s:c20fcff8	2	n	Keep 1e7c0c8e clause-scoped, ad hoc	O	S	Z	1
+s:c20fcff8	3	n	Two dispositions only: relocate or retire	O	D	F	1
+s:c20fcff8	4	n	Make the test a mechanical check	O	D	F	2
+s:c20fcff8	5	n	Correct 1e7c0c8e in place	O	D	F	1
+s:c4fffe93	1	y	Orthogonal fieldType facets replace valueType	A	D	F	2
+s:c4fffe93	2	n	Add composite as ninth valueType	A	D	F	1
+s:c4fffe93	3	n	Keep separate patch mechanisms	A	S	F	2
+s:c8704763	1	y	Four reference strengths, one form each	A	D	F	1
+s:c8704763	2	n	Object form everywhere	A	D	F	2
+s:c8704763	3	n	Keep ns/name@version stored form	A	S	F	1
+s:c8704763	4	n	Implement aliases	A	D	F	1
+s:cce3c00e	1	y	Adopt the Pattern Grid with axis preferences	O	D	F	2
+s:cce3c00e	2	n	Case-at-a-time with values checklist	O	S	Z	1
+s:cce3c00e	3	n	Flat principle list per concern	O	D	F	1
+s:cce3c00e	4	n	A different lens set	O	D	F	1
+s:cd27c096	1	y	Ordered depth outline; remove rootInstanceIds	A	D	F	2
+s:cd27c096	2	n	Keep rootInstanceIds beside ordered members	A	S	F	1
+s:cd27c096	3	n	Keep Rule N+12 navigation, order documents only	A	S	F	1
+s:cd27c096	4	n	Add per-entry fold/visibility flag	A	D	F	2
+s:d5524758	1	y	Optional createdBy Actor stamped from session	A	D	F	2
+s:d5524758	2	n	Author field on Types needing it	A	D	F	1
+s:d5524758	3	n	createdBy plus updatedBy	A	D	F	2
+s:d5524758	4	n	Actors as records	A	D	F	2
+s:d5524758	5	n	Restore full provenance set	A	D	F	2
+s:d5524758	6	n	Privileged caller may supply createdBy	A	D	Z	1
+s:d5524758	7	n	No revision bump	A	D	F	1
+s:d67e3d76	1	y	Metamodel authored in its own Field/Type language	O	D	F	2
+s:d67e3d76	2	n	Keep RFC-004 second source language	O	S	F	2
+s:d67e3d76	3	n	Hand-authored JSON Schema only	O	D	F	1
+s:dd0a33fc	1	y	Per-emitter fidelity contract	A	D	F	1
+s:dd0a33fc	2	n	Describe generation as lossless	A	S	F	1
+s:dd0a33fc	3	n	Silently omit unrepresentable constructs	A	S	Z	1
+s:e5828aa8	1	y	Overwrite clean same-version until public release	A	D	Z	1
+s:e5828aa8	2	n	Refuse every same-version difference now	A	S	F	1
+s:e5828aa8	3	n	Always overwrite, local edits too	A	D	F	2
+s:e5828aa8	4	n	Always keep the local copy	A	S	Z	1
+s:e99a9437	1	y	Three doors as a recorded ruling	O	D	F	2
+s:e99a9437	2	n	Leave doors in CLAUDE.md prose	O	S	F	1
+s:e99a9437	3	n	Fold doors into decision-modes record	O	D	F	1
+s:e99a9437	4	n	Checker reading door labels off PRs	O	D	F	2
+p:04b78189	1	y	Shared slug scheme for new files, convention only	A	S	Z	1
+p:04b78189	2	n	Enforce now and rename existing files	A	D	F	2
+p:04b78189	3	n	Do nothing	A	S	Z	1
+p:05c3ddcb	1	y	Revive unit as holon; GitHub tree; period rank	O	D	F	2
+p:05c3ddcb	2	n	GitHub-only labelled tracking issue	O	D	F	1
+p:05c3ddcb	3	n	SRS outline authoritative, issues mirror	O	D	F	1
+p:05c3ddcb	4	n	New type beside frozen unit	O	D	F	1
+p:05c3ddcb	5	n	Expedite flag or display-only priority	O	D	F	1
+p:0b1c25b1	1	y	Spec records plus ADRs for internal work	O	D	F	1
+p:0b1c25b1	2	n	Spec records only	O	S	F	1
+p:0b1c25b1	3	n	Any owner ruling counts	O	D	Z	1
+p:0b1c25b1	4	n	Do nothing	O	S	Z	1
+p:2637af0a	1	y	Affirmed remedy counts as recorded ruling	O	D	F	1
+p:2637af0a	2	n	Keep owner merge for remedy work	O	S	F	2
+p:2637af0a	3	n	Amend each charter per remedy	O	D	F	1
+p:31e9fd27	1	y	Schedule federation return via RFC-049 first	A	D	F	2
+p:31e9fd27	2	n	Keep essays in muSrs, defer federation	A	S	Z	1
+p:31e9fd27	3	n	Copy linked records per essay repo	A	D	F	1
+p:31e9fd27	4	n	Multi-repo MCP ahead of spec	A	D	F	1
+p:3b910d90	1	y	Groups independent only in mature domain	O	D	Z	1
+p:3b910d90	2	n	Require three tensions before defining domain	O	D	F	1
+p:3b910d90	3	n	Refuse to charter on immature domain	O	S	F	1
+p:3b910d90	4	n	Never require tensions	O	S	Z	1
+p:46bb7a8c	1	y	One OpenAPI 3.1 document as clerk contract	O	D	F	2
+p:46bb7a8c	2	n	Protobuf schema	O	D	F	2
+p:46bb7a8c	3	n	Generate schemas from code with goldens	O	D	F	1
+p:46bb7a8c	4	n	Hand-written client types	O	D	F	1
+p:46bb7a8c	5	n	Do nothing	O	S	Z	1
+p:559bfb9e	1	y	Practise overlapping models; unify later	O	S	Z	2
+p:559bfb9e	2	n	Converge models now	O	D	F	2
+p:559bfb9e	3	n	Pick one model, retire others	O	D	F	2
+p:559bfb9e	4	n	Do nothing	O	S	Z	1
+p:5d5feb79	1	y	Brief as typed data in essay package	A	D	F	2
+p:5d5feb79	2	n	Tier-0 notes in per-essay container	A	D	Z	1
+p:5d5feb79	3	n	localStorage	A	D	F	1
+p:5d5feb79	4	n	Do nothing	A	S	Z	1
+p:7270e772	1	y	Lean Initiator on three axes	O	D	F	1
+p:7270e772	2	n	Steward-like stance	O	S	Z	1
+p:7270e772	3	n	Do nothing	O	S	Z	1
+p:7ee8fa01	1	y	Set-against links with applies/departs	O	D	F	2
+p:7ee8fa01	2	n	Do nothing	O	S	Z	1
+p:7ee8fa01	3	n	Compass in prose only	O	D	F	1
+p:926c059f	1	y	Ten clerk rules enforced in npm test	O	D	F	2
+p:926c059f	2	n	Same rules as prose, checked by review	O	S	F	1
+p:926c059f	3	n	Do nothing	O	S	Z	1
+p:9e2c2950	1	y	Owner session grounds idea on the spot	O	D	F	1
+p:9e2c2950	2	n	Do nothing	O	S	Z	1
+p:9e2c2950	3	n	Owner ideas skip the chain	O	D	F	1
+p:a1b06725	1	y	Enter clerk serve only after proven use	O	S	Z	2
+p:a1b06725	2	n	Move all control-room server code now	O	D	F	2
+p:a1b06725	3	n	Build in srs-lab, lift later	O	D	Z	1
+p:a1b06725	4	n	Do nothing	O	S	Z	1
+p:a8bc55ef	1	y	Charter WG Programme practice for clerk	O	D	F	1
+p:a8bc55ef	2	n	Widen WG SRS operations to clerk	O	D	F	1
+p:a8bc55ef	3	n	Do nothing	O	S	F	1
+p:a8e833f1	1	y	Revision lands with its migration in one change	A	S	F	1
+p:a8e833f1	2	n	Dual read first, migration later	A	S	F	0
+p:a8e833f1	3	n	Release only after migration lands	A	S	F	1
+p:a8e833f1	4	n	Do nothing	A	S	Z	1
+p:b80d2d1e	1	y	Investigate the history before ruling	O	S	Z	2
+p:b80d2d1e	2	n	Rename all 151 names to snake_case	A	D	F	2
+p:b80d2d1e	3	n	Split convention by kind	A	S	F	1
+p:b80d2d1e	4	n	Grandfather existing, enforce new	A	S	Z	1
+p:bbb03bff	1	y	One PR: loader plus migration	A	D	F	2
+p:bbb03bff	2	n	Two PRs with dual-read loader	A	D	F	1
+p:bbb03bff	3	n	PR 1 merged unreleased until PR 2	A	D	F	1
+p:bbb03bff	4	n	Do nothing	A	S	Z	1
+p:bf4a5af5	1	y	Optional code first; parallel list; retire later	A	D	Z	1
+p:bf4a5af5	2	n	Replace text lists everywhere in one release	A	D	F	2
+p:bf4a5af5	3	n	Do nothing	A	S	Z	1
+p:c04d8164	1	y	Runtime imports Node built-ins only	O	S	F	2
+p:c04d8164	2	n	Allow runtime deps plus npm ci	O	D	F	1
+p:c04d8164	3	n	Scope rule; clerk serve may have deps	O	D	Z	1
+p:c04d8164	4	n	Vendor dependencies	O	D	F	1
+p:c04d8164	5	n	Do nothing	O	S	Z	1
+p:c7fefad9	1	y	Land #1264 first, #1339 follows	O	S	F	1
+p:c7fefad9	2	n	Builder defines type in #1339	O	D	F	1
+p:c7fefad9	3	n	Do nothing	O	S	Z	1
+p:cdd272a3	1	y	Axis-in-domain record per domain	O	D	F	2
+p:cdd272a3	2	n	yang-in relation only	O	D	F	2
+p:cdd272a3	3	n	Keep global polarity	O	S	F	2
+p:d529294a	1	y	Pin-bump PRs auto-merge	O	D	Z	1
+p:d529294a	2	n	Auto-merge only with green run	O	D	F	1
+p:d529294a	3	n	Do nothing	O	S	F	1
+p:e745e9b2	1	y	Loopback plus private ZeroTier only	O	D	F	1
+p:e745e9b2	2	n	Plain LAN with bearer tokens	O	D	F	1
+p:e745e9b2	3	n	LAN with TLS and tokens	O	D	F	1
+p:e745e9b2	4	n	Hosted service as bot identity	A	D	F	1
+p:e745e9b2	5	n	Do nothing	O	S	F	2
+p:f58db200	1	y	Definitions hold meaning; surfaces bound as records	O	D	F	1
+p:f58db200	2	n	Do nothing	O	S	Z	1
+p:f58db200	3	n	Code constants in the clerk	O	D	F	1
+p:f58db200	4	n	Display strings in definition meta	O	D	F	1
+p:ff946eb1	1	y	Typed response comments only	A	D	F	1
+p:ff946eb1	2	n	Fields on the comment	A	D	F	1
+p:ff946eb1	3	n	Any comment replies to any	A	D	F	1
+p:ff946eb1	4	n	Do nothing	A	S	Z	1

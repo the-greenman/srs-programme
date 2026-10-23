@@ -1,0 +1,29 @@
+{
+  "instanceId": "6bed3eeb-b5e2-4190-a4f6-3e1c3994fafb",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-22 10:26 UTC: SemanticOps",
+    "held_at": "2026-10-22T10:26:23Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-22 10:26 UTC: SemanticOps\nAttendees: Owner\n- Ratified: Every release can open every repository that exists [a8e833f1]\n- Ratified (escalation, owner chose other): srs-rust#1417 (RFC-052): how to land the root-container move, since PR 1 alone would refuse every existing repository [bbb03bff]\nActs in the order taken (UTC):\n- 10:28:30Z ratify: Every release can open every repository that exists [a8e833f1] (Decisions since the last session 1 of 1, record updated 2026-10-22T10:11:30.338620108+00:00)\n- 10:30:59Z other: srs-rust#1417 (RFC-052): how to land the root-container move, since PR 1 alone would refuse every existing repository [bbb03bff] (Decisions for this session 1 of 1, record updated 2026-10-21T21:45:39.180320427+00:00)"
+  },
+  "createdAt": "2026-10-22T10:31:03.711144298+00:00",
+  "updatedAt": "2026-10-22T10:31:03.711148280+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "f8bfd604-3a7f-4216-9221-cd459e06345a",
+      "sourceRole": "attaches"
+    }
+  ]
+}

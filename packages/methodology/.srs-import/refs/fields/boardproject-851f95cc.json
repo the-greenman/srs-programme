@@ -1,17 +1,17 @@
 {
-  "id": "851f95cc-a496-433b-811a-c151c33453eb",
-  "namespace": "com.semanticops.programme",
-  "name": "board_project",
-  "version": 1,
-  "description": "Number of the GitHub Project (v2) board that carries programme priority.",
   "aiGuidance": {
-    "purpose": "Board that gh-project reads and writes.",
-    "extraction": "The integer in the project URL, e.g. 6."
+    "extraction": "The integer in the project URL, e.g. 6.",
+    "purpose": "Board that gh-project reads and writes."
   },
-  "fieldType": {
-    "datatype": "number",
-    "cardinality": "single"
-  },
+  "createdAt": "2026-10-10T00:00:00Z",
+  "description": "Number of the GitHub Project (v2) board that carries programme priority.",
   "editorHint": "singleline",
-  "createdAt": "2026-10-10T00:00:00Z"
+  "fieldType": {
+    "cardinality": "single",
+    "datatype": "number"
+  },
+  "id": "851f95cc-a496-433b-811a-c151c33453eb",
+  "name": "board_project",
+  "namespace": "com.semanticops.programme",
+  "version": 1
 }

@@ -1,0 +1,18 @@
+{
+  "instanceId": "a938094c-eb41-46c0-b3fa-2aacbd905d98",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "This is a general experiment first rule. However, the layer rules should be strict. When we have begun to find drift, we must move business logic into the clerk and maintain it's handbook."
+  },
+  "createdAt": "2026-10-22T09:46:15.136820352+00:00",
+  "updatedAt": "2026-10-22T09:46:15.136839512+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

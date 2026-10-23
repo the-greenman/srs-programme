@@ -14,10 +14,10 @@ permissions:
 env:
   # The pinned srs-rust release supplying the srs CLI. Declared once, here; `clerk fetch-srs` reads it.
   # Advance it in its own commit, stating why.
-  SRS_RUST_CLI_TAG: v0.1.0-build.502
+  SRS_RUST_CLI_TAG: v0.1.0-build.545
 
 jobs:
   validate:
-    uses: the-greenman/clerk/.github/workflows/programme-validate.yml@0d71f66cec6a72b8a8a8167ce26a2e39b2f4bfb6
+    uses: the-greenman/clerk/.github/workflows/programme-validate.yml@9400818a053e9da057ca0ca3874efc581c87b9eb
     with:
-      clerk-ref: 0d71f66cec6a72b8a8a8167ce26a2e39b2f4bfb6
+      clerk-ref: 9400818a053e9da057ca0ca3874efc581c87b9eb

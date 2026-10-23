@@ -1,0 +1,30 @@
+{
+  "instanceId": "a8e833f1-de8f-4684-b3f6-2c90eab4ff27",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Every release can open every repository that exists",
+    "decision_question": "When the stored form of SRS data changes (a new data-model revision), in what order do the reader of the new form and the migration from the old form land?",
+    "context": "A stored-form change is already ruled to be a migration (srs rfc-decision-628cf6c4, 'A rename is a migration': a deterministic migration plus a generation stamp). What was never ruled is when the migration ships relative to the code that reads the new form. The srs CLAUDE.md revision-bump choreography assumes 'the binary loads old AND new revisions', but as a convention, not a decision. The gap stopped srs-rust#1417 (RFC-052, revision 10): its plan split the loader from the migration, and by RFC-052 [R7] the loader alone would refuse every existing repository. The builder escalated it as bbb03bff, a question about that one issue. The owner asked (session 2026-10-22) that decisions be framed as the lasting practice rather than the task, so this decision states the practice and bbb03bff is answered by it. Applications: RFC-052 (srs-rust#1417, revision 10), RFC-051 (srs-rust#1414, revision 11). Refines srs rfc-decision-628cf6c4.",
+    "friction": "A binary that reads only the new form makes every existing repository unreadable until the migration follows; holding the release instead blocks every unrelated fix behind it.",
+    "alternatives_considered": "1. One change: the reader of a new revision lands together with the migration from older repositories; preparation that alters no behaviour may land ahead. Leads to: master is always releasable; one larger review per revision.\n2. Dual read: each revision first ships a reader of both forms, then the migration in a later change. Leads to: smaller reviews, plus interim code to carry and remove every time.\n3. Release after the migration: the reader merges first and releases wait until the migration lands. Leads to: every unrelated fix is held up behind the revision.\n4. Do nothing: each revision chooses its own order. Leads to: the question is argued again every time, and a reader landed alone can leave every repository unreadable.",
+    "decision_statement": "A new data-model revision lands in one change together with the migration that brings older repositories to it, so every release can open every repository that exists. Preparation that alters no behaviour may land ahead of it.",
+    "rationale": "Repositories are held by many tools and people at once; a release that cannot open them breaks all of them at the same moment. The revision-8 change (srs-rust#1144) already landed this way, and the release corpus gate (migration pending on a refused corpus) presumes it.",
+    "revisit_when": "When a revision's migration cannot be written in the same change as its reader (for example, it needs data only a later tool can supply).",
+    "next_steps": "Set aside bbb03bff as answered by this decision. srs-rust#1417 lands as a behaviour-neutral prep PR, then revision 10 with its migration in one PR. Cite this decision in srs CLAUDE.md's revision-bump choreography.",
+    "owner": "Peter Brownell",
+    "status": "active",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "createdAt": "2026-10-22T10:04:14.160128789+00:00",
+  "updatedAt": "2026-10-22T10:31:04.178475726+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (relaying the owner request, 2026-10-22)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

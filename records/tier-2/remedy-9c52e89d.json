@@ -1,0 +1,25 @@
+{
+  "instanceId": "9c52e89d-c1f0-4da2-858f-56eae137cb46",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Every comment says what kind it is, and a task comment can be ticked off or rejected",
+    "move": "A comment carries a kind: question, objection, evidence, suggestion or task. The editor shows the kind on each comment and lets the writer filter a paragraph's comments by kind. A task comment proposes one thing to do and carries a state: open, done or rejected, which the writer sets with one click, with an optional reason when rejecting. Agents read the state and do not propose a rejected task again. The kinds live in the shared comments package, so every package that uses comments reads the same list.",
+    "does_not_fix": "Threading or replies: a reply is still a later comment (semanticops.com#17). Which comments are shown when: that is pacing (remedy 800f223f). Writer-defined kinds.",
+    "falsifier": "After a week of agent comments, the writer still reads every comment to know what it asks, or an agent proposes a task the writer rejected again.",
+    "source_ref": [
+      "Owner, 2026-10-21"
+    ],
+    "return_when": "After a week of writing with typed comments, or when a kind is needed that the list lacks."
+  },
+  "createdAt": "2026-10-21T11:04:23.576387134+00:00",
+  "updatedAt": "2026-10-21T11:04:23.576396149+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

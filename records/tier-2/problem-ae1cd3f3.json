@@ -1,0 +1,25 @@
+{
+  "instanceId": "ae1cd3f3-eb7c-42ba-a035-1233b0026c23",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-97",
+    "title": "Work a ranked remedy depends on can sit parked where nobody sees it",
+    "statement": "An issue stays parked when its own problem serves no ranked objective, even when an affirmed remedy on a ranked epic cannot land without it. Nothing links the two: the blocked work shows no blocker, and the parked issue shows no reason to move. srs-rust#1333 sat parked under SP-26 while it blocked remedy 751b6940 on epic #29; it was found only because the editor's own note named it.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-21",
+      "srs-rust#1333"
+    ]
+  },
+  "createdAt": "2026-10-21T11:53:46.656529758+00:00",
+  "updatedAt": "2026-10-21T11:53:46.656537827+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
