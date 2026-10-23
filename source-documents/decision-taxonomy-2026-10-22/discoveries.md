@@ -337,6 +337,17 @@ In the owner's words: "Our current work has been stuck at line 1 for a week or t
 
 **What follows.** The way out is not a better rule for when to act; that would be another inward step. It is a line 1 flip: apply energy outward by shipping the work already defined. A taxonomy of decisions should be judged by whether it helps work move, not by its completeness.
 
+### 14. The three-axis structure is trigram based (owner, 2026-10-23)
+
+The owner ruled that the three-axis structure follows the trigram. Line 1 is Earth (Cardinal, Aries ↔ Libra), line 2 is Human (Fixed, Taurus ↔ Scorpio), line 3 is Heaven (Mutable, Gemini ↔ Sagittarius), and lines 4 to 6 repeat them in the upper trigram. Systemic Data Ethics and the zodiac's Individual, Relational and Systemic levels fit the same twelve positions but are built from a different rubric, so they do not number the lines.
+
+The local reference is `three-axes-by-trigram.md` beside this page. It names three places that currently disagree:
+- the SRS compass's inner trigram, which by trigram reads 011, not 110;
+- clerk#159's Programme coordination axes, whose lines 2 and 3 swap;
+- clerk#159's lens paragraph.
+
+The decision ratings (discoveries 7 to 12) already use the trigram order.
+
 ## Open questions
 
 1. Does Authority replace Mandate, or widen it? Are Gate and Lean kinds, or attributes?
