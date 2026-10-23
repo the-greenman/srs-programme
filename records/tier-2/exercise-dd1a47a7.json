@@ -1,0 +1,23 @@
+{
+  "instanceId": "dd1a47a7-9f71-4bf8-b6a7-aa2a6894aa58",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Relation reads hide who asserted a link: should relation list and context reads carry createdBy, notes and meta (srs-rust#1411)",
+    "thinking_reached": "Checked with release v0.1.0-build.545 (srs-rust master 7081df28) on a copy of srs-programme, 2026-10-23. `relation get <id>` returns the whole stored relation, createdBy included. `relation list` (and the WASM `list_relations`, and the relations inside `context_record`) return only relationId, relationType, sourceId, targetId and two labels. So an agent's proposed link and the owner's confirmed one look the same in every list read, and muDemocracy.org#350 parses relations/*.json from export_tree() to get meta.anchor. That is a client reimplementing a read the core owns (SP-05), and it only works for tree-backed repositories. RFC-046 (rfc-decision-d5524758) rules how createdBy is stamped and preserved, but no rule says which reads must show it. Adding fields to the list payloads changes the CLI, MCP and WASM contracts. Under decision 0b1c25b1 that needs a recorded ruling, and an srs-rust ADR is not enough, so the group cannot file it as work. Answers SP-10 (unattributed claims are taken as fact), affirmed remedy f37a6c3a (carry origin and identity through every change).",
+    "tensions": "Attribution and Repository (Office and Testimony): createdBy is testimony, never authority. Showing it in every list makes it easy to read as authority, but hiding it makes testimony invisible, and the domain's lean is Office. One way per goal: one full read (relation get) against a summary list that grows field by field. Payload weight: a list of 3,000 relations with notes and meta is heavier, and a createdBy.kind filter is a new discovery predicate.",
+    "unresolved_questions": "1. Should the relation list reads (CLI `relation list`, WASM `list_relations`, MCP, `context_record` relations) carry createdBy, notes and meta when present, as an additive payload change? 2. Or should clients call `relation get` per relation, so the list stays a summary? 3. Is a `createdBy.kind` filter on relation list wanted now (\"show me what agents proposed\"), or later?",
+    "blocking": "srs-rust#1411 (asked by the muDemocracy site editor, muDemocracy.org#350) cannot be filed as group work. srs-web#578 (now nominated) adds createdBy to the typed client but has nothing to read it from in list calls.",
+    "next_action": "Owner: rule on question 1. Recommendation: yes, additive: carry createdBy, notes and meta on every relation read when present, defer the kind filter. The ruling needs a decision record (a Door 1 fixup under RFC-046, or a short decision), then srs-rust#1411 becomes ready work for the group."
+  },
+  "createdAt": "2026-10-23T12:14:09.452345508+00:00",
+  "updatedAt": "2026-10-23T12:14:09.452349500+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-analyst",
+    "name": "Third-party-ready analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
