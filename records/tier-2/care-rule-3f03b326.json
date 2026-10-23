@@ -1,0 +1,24 @@
+{
+  "instanceId": "3f03b326-9e9c-4d4e-adb5-7fb35bd4f0c7",
+  "typeId": "03dd0239-e160-494b-8728-da36edf25f16",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "care-rule",
+  "fieldValues": {
+    "policy_title": "Rule 4: grounded, planned work without a technical plan is careful",
+    "policy_order": 4,
+    "rule_all_of": [
+      "placement>=medium",
+      "mandate>=medium"
+    ],
+    "policy_explanation": "The work belongs in the plan and its problem has a conversation behind it, but the how is open: take the smallest reversible step and ask."
+  },
+  "createdAt": "2026-10-23T09:26:05.361188499+00:00",
+  "updatedAt": "2026-10-23T09:26:05.361206770+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, relaying the owner's rulings of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

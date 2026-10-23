@@ -1,0 +1,27 @@
+{
+  "instanceId": "4161fb9d-9d9e-40cb-a67b-1f9a31119e59",
+  "typeId": "4a6abffb-618f-4ed9-8009-c5ce1318961d",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "care-mode",
+  "fieldValues": {
+    "policy_title": "Care mode: Careful",
+    "policy_key": "careful",
+    "policy_explanation": "Do the work, but the smallest reversible version of it, and say what you assumed. Never stop to wait for an answer: ask it in the PR, and let the merge wait instead.",
+    "care_must": [
+      "build the smallest reversible slice",
+      "write an assumptions block in the PR",
+      "put open questions as blocks: merge asks",
+      "label the PR gate:owner-merge"
+    ],
+    "merge_gate": "owner-merge"
+  },
+  "createdAt": "2026-10-23T09:26:02.445778277+00:00",
+  "updatedAt": "2026-10-23T09:26:02.445787803+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, relaying the owner's rulings of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

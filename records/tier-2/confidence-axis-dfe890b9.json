@@ -1,0 +1,21 @@
+{
+  "instanceId": "dfe890b9-ab7c-4e9e-a5e0-a52a078a0ce7",
+  "typeId": "4d24c966-edab-4926-bd92-16e1f81a62ae",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "confidence-axis",
+  "fieldValues": {
+    "policy_title": "Mandate: is it planned and decided?",
+    "policy_key": "mandate",
+    "policy_explanation": "Is the work part of the plan, and has anyone decided how it should go? The roadmap already ranks objectives and epics; this axis credits that planning even where the theory is thin.",
+    "policy_order": 2
+  },
+  "createdAt": "2026-10-23T09:25:58.160514501+00:00",
+  "updatedAt": "2026-10-23T09:25:58.160523551+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, relaying the owner's rulings of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

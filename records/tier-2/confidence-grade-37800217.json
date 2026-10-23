@@ -1,0 +1,24 @@
+{
+  "instanceId": "37800217-ecee-4162-bafe-e126dd98e614",
+  "typeId": "f8f7cddf-7b5f-4db9-ab04-b075e5be0b41",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "confidence-grade",
+  "fieldValues": {
+    "policy_title": "High: a written plan, or the owner directing",
+    "confidence_level": "high",
+    "policy_explanation": "The item carries a \"## Technical plan\" section saying what changes, where, and how it is tested; or the owner is driving the work directly in a session.",
+    "signal_keys": [
+      "plan.section",
+      "owner.directed"
+    ]
+  },
+  "createdAt": "2026-10-23T09:26:01.270726518+00:00",
+  "updatedAt": "2026-10-23T09:26:01.270734441+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, relaying the owner's rulings of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,68 @@
+{
+  "containerId": "461d1a6f-e96d-49b6-bb4a-d2076764fcc1",
+  "title": "Confidence and care policy",
+  "description": "The owner's policy for how confident the programme is in a work item and how careful the work must be at that confidence. The outline is the rendered document: each axis with its grades, then the care modes, then the rules in order. Owner-maintained: agents propose changes as comments on a record, with evidence.",
+  "memberInstanceIds": [
+    {
+      "instanceId": "35ba8b42-f889-4a88-8a86-b30ac1f64b36"
+    },
+    {
+      "instanceId": "56a540b9-96db-4b72-be02-41053825f108",
+      "depth": 1
+    },
+    {
+      "instanceId": "9756ef4c-fca4-4430-90e7-f31ef35eb995",
+      "depth": 1
+    },
+    {
+      "instanceId": "2cee7116-b582-4785-920c-84e13862e7e8",
+      "depth": 1
+    },
+    {
+      "instanceId": "dfe890b9-ab7c-4e9e-a5e0-a52a078a0ce7"
+    },
+    {
+      "instanceId": "26f446ac-8404-4510-84c0-024a4e7abfca",
+      "depth": 1
+    },
+    {
+      "instanceId": "d606d921-d8fc-4831-9669-655299701629",
+      "depth": 1
+    },
+    {
+      "instanceId": "4ed4f4c4-a19c-4752-9037-453556dc747b",
+      "depth": 1
+    },
+    {
+      "instanceId": "4226d9e7-d340-43b8-8d89-6700e2264c28"
+    },
+    {
+      "instanceId": "37800217-ecee-4162-bafe-e126dd98e614",
+      "depth": 1
+    },
+    {
+      "instanceId": "b329984b-0ca4-4ab1-b026-38dcc898e474"
+    },
+    {
+      "instanceId": "4161fb9d-9d9e-40cb-a67b-1f9a31119e59"
+    },
+    {
+      "instanceId": "e061aae3-9d4b-4988-8cc3-d8e38072dcc9"
+    },
+    {
+      "instanceId": "03747a4a-a53b-4f72-b5bb-96de4c5305a0"
+    },
+    {
+      "instanceId": "6cb48391-83ce-41e2-a18f-4cdd14727de9"
+    },
+    {
+      "instanceId": "2e0594d1-b3de-4fbf-ac44-60e27b2b15b9"
+    },
+    {
+      "instanceId": "3f03b326-9e9c-4d4e-adb5-7fb35bd4f0c7"
+    },
+    {
+      "instanceId": "46b4a54e-b5ba-438b-8db6-a28e35ddfd6a"
+    }
+  ]
+}
