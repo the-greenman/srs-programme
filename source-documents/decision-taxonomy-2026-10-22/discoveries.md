@@ -290,6 +290,28 @@ Line 1 and 2 from discoveries 7 and 8; line 3 from discovery 5. `~` is metastabl
 
 **Test to run next.** For decisions that list their alternatives: rate each option's vertex on all three lines; compute each decision's span; check whether flagged non-decisions have empty spans; and, where the domain's lean is recorded, compare context and action trigrams.
 
+### 12. The option test: spans, the status quo, and which lines are chosen (2026-10-23)
+
+**Method.** The 80 decisions that record alternatives (all 54 srs; 26 of the programme's) were rated option by option: every distinct course of action, the chosen one included, placed on all three lines in the owner's definitions. Two blind raters, about 300 options each. A decision's **span** is the set of lines on which its options differ. The other 22 programme decisions record no alternatives at all: by the owner's rule ("a decision with no options is not a decision") they are not yet well-formed decisions.
+
+**Agreement.** On span, line by line: 65, 70 and 69 of 80. The chosen option's code agrees with the decision-level code (discovery 10) on line 3 for 88% of ratings, line 2 for 79%, line 1 for 62%.
+
+**Findings.**
+
+1. **Line 1 is given, not chosen.** Options within one decision almost never differ on line 1: 5 of 80 once "do nothing" is set aside (6 with it). The direction of energy is fixed by what the decision is about and its boundary. The choice is made on line 2 (53 of 80 span it, excluding do nothing) and line 3 (33 of 80). Line 1 behaves like context, which fits the owner's two-trigram reading (discovery 11): part of what looks like the decision's orientation is really its situation.
+2. **"Do nothing" is the yin vertex.** Of the recorded do-nothing options, rater J placed 29 of 34 at OSZ and rater I 16 of 30 (the rest mostly OSF or ASZ). The status quo lets the system settle and keeps it open. So the rule that every decision names a do-nothing option guarantees that a yin course is always on the table. Chosen options lean slightly more yang than rejected ones (2.05 against 1.92 yang lines for rater I; 2.08 against 1.84 for rater J).
+3. **"Do nothing" inflates the span.** With it included, nearly every decision spans lines 2 and 3, flagged non-decisions too. The test has to set it aside.
+4. **The span hypothesis has weak support at best.** With do nothing set aside, the owner's flagged non-decisions span fewer lines (0.83 on average against 1.19) and are empty three times as often (3 of 12 against 6 of 68). But an empty span also occurs on sound governing decisions (the layer rules s:9ee14517, p:f58db200, p:7ee8fa01): their recorded alternatives are variants at the same vertex, differing in technique, not stance. **So an empty span does not identify a non-decision. It shows that the alternatives considered were not real alternatives in orientation:** a quality signal about how the options were framed.
+5. **Line 1 is fragile at option level.** Both raters tended to rate schema options in the spec as Act ("the standard faces its consumers"), against the decision-level consensus (Observe: the standard changing its own model). Line 1 needs its boundary stated explicitly every time it is applied, or the reading drifts outward.
+
+**What this suggests for forming decisions (for the owner to judge).**
+
+- Name at least one real alternative that differs from the chosen option on a line other than line 1, as well as "do nothing". If every option sits on the chosen vertex, the decision is still a technique choice, and the governing choice is one level up.
+- Read line 1 as part of the context: state the boundary, and expect the options to share it.
+- Treat "do nothing" as the yin reference point the other options are read against.
+
+Data: `options-rater-i.tsv`, `options-rater-j.tsv`, `spans.tsv` (all options) and `spans-excl-donothing.tsv`.
+
 ## Open questions
 
 1. Does Authority replace Mandate, or widen it? Are Gate and Lean kinds, or attributes?
@@ -300,11 +322,13 @@ Line 1 and 2 from discoveries 7 and 8; line 3 from discovery 5. `~` is metastabl
 7. Line 2: does magnitude matter, or only direction (discovery 8)?
 8. Line 3: re-rated on the owner's definition (discovery 10). Is delegation (handing authority to a group) a closed plan or an opening?
 9. Should a decision's sense-and-respond part sit in the choice, or is the review trigger enough? (discovery 10.3)
+10. Is line 1 part of the context trigram rather than the action (discovery 12.1)?
+11. Should every decision name an alternative that differs on line 2 or 3, besides do nothing (discovery 12)?
 6. Is the T3 code a property every decision should carry (as srs carries `governing_values` and its cell)?
 
 ## Next passes
 
-- Option-level rating and spans (discovery 11's test).
+- Option-level rating and spans: done (discovery 12). Next: rate options against a stated boundary to steady line 1; test the context trigram (domain lean) against line 1.
 
 - Add the 40 earlier programme decisions and the srs-context decisions.
 - A property matrix (all ten properties per decision) so clusterings can be recomputed as decisions arrive.

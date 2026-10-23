@@ -1,0 +1,305 @@
+id	option	chosen	label	line1	line2	line3	conf
+p:ff946eb1	1	y	Typed response comments; conversation stays flat	A	D	F	1
+p:ff946eb1	2	n	Verdict and task fields on the comment	A	D	F	1
+p:ff946eb1	3	n	Any comment may reply to any comment	A	D	F	1
+p:ff946eb1	4	n	Do nothing: comments stay text only	O	S	Z	1
+p:f58db200	1	y	Definitions hold meaning; surfaces bound as typed records	O	D	F	1
+p:f58db200	2	n	Do nothing: meaning stays where each tool put it	O	S	Z	1
+p:f58db200	3	n	Code constants in the clerk	O	D	F	1
+p:f58db200	4	n	SRS definitions also carry display strings in meta	O	D	F	1
+p:e745e9b2	1	y	Loopback plus owner's private ZeroTier network only	A	D	F	1
+p:e745e9b2	2	n	Plain LAN with bearer tokens	A	D	F	1
+p:e745e9b2	3	n	LAN with TLS and tokens	A	D	F	1
+p:e745e9b2	4	n	Hosted service acting as a bot identity	A	D	Z	1
+p:e745e9b2	5	n	Do nothing: dev server on localhost only	O	S	F	1
+p:d529294a	1	y	Pin-only PRs are gate:auto-merge	O	D	F	1
+p:d529294a	2	n	Auto-merge pins only with green dry run or CI	O	D	F	1
+p:d529294a	3	n	Do nothing: pin bumps stay owner merges	O	S	F	1
+p:cdd272a3	1	y	Axis-in-domain record type per domain	O	D	F	1
+p:cdd272a3	2	n	Yang-in relation only, pole to domain	O	D	F	1
+p:cdd272a3	3	n	Keep global polarity, mark unrecorded tensions	O	S	F	1
+p:c7fefad9	1	y	Land #1264 Diagnostic shape first, then #1339	O	S	F	1
+p:c7fefad9	2	n	Builder defines Diagnostic type within #1339	A	D	F	1
+p:c7fefad9	3	n	Do nothing	O	S	Z	1
+p:c04d8164	1	y	Runtime imports only Node built-ins	O	S	F	1
+p:c04d8164	2	n	Allow runtime deps, npm ci in every workflow	O	D	Z	1
+p:c04d8164	3	n	Allow dependencies only in clerk serve	O	D	Z	1
+p:c04d8164	4	n	Vendor dependencies into the repository	O	D	F	1
+p:c04d8164	5	n	Do nothing: no rule against dependencies	O	S	Z	1
+p:bf4a5af5	1	y	Code on validation first; parallel lists; retire text later	A	D	Z	1
+p:bf4a5af5	2	n	Replace text lists with objects in one release	A	D	F	2
+p:bf4a5af5	3	n	Structured list beside text list, retire later	A	D	Z	1
+p:bf4a5af5	4	n	Optional code on validation only, other surfaces later	A	D	Z	1
+p:bf4a5af5	5	n	Do nothing	O	S	Z	1
+p:bbb03bff	1	y	One PR: loader plus migration together	A	D	F	1
+p:bbb03bff	2	n	Two PRs with temporary dual-read loader	A	D	F	1
+p:bbb03bff	3	n	Two PRs, first held unreleased until second	A	D	F	1
+p:bbb03bff	4	n	Do nothing	O	S	Z	1
+p:b80d2d1e	1	y	Investigate the naming history before ruling	O	S	Z	2
+p:b80d2d1e	2	n	Rename all 151 names to snake_case	A	D	F	1
+p:b80d2d1e	3	n	Split by kind: Fields snake, Types kebab	O	S	F	1
+p:b80d2d1e	4	n	Grandfather existing names, enforce for new	O	S	F	1
+p:a8e833f1	1	y	New revision lands with its migration in one change	O	S	F	1
+p:a8e833f1	2	n	Dual read first, migration in a later change	O	D	F	1
+p:a8e833f1	3	n	Reader merges first, releases wait for migration	O	S	F	1
+p:a8e833f1	4	n	Do nothing: each revision chooses its order	O	S	Z	1
+p:a8bc55ef	1	y	Charter WG Programme practice to govern the clerk	O	D	F	1
+p:a8bc55ef	2	n	Widen WG SRS operations to include the clerk	O	D	F	1
+p:a8bc55ef	3	n	Do nothing: central group holds the clerk	O	S	F	1
+p:a1b06725	1	y	Enter clerk serve only after proven use; else srs-lab	O	S	Z	2
+p:a1b06725	2	n	Move all control-room server code into clerk now	O	D	F	1
+p:a1b06725	3	n	Build service in srs-lab, lift later	O	D	Z	1
+p:a1b06725	4	n	Do nothing: lab dev server stays only server	O	S	Z	1
+p:9e2c2950	1	y	Owner session grounds idea on the spot, chain kept	O	D	F	1
+p:9e2c2950	2	n	Do nothing: wait for Intake, sessions improvise	O	S	Z	1
+p:9e2c2950	3	n	Owner ideas skip the chain	O	D	F	1
+p:926c059f	1	y	Ten clerk rules enforced in npm test	O	D	F	2
+p:926c059f	2	n	Same rules as prose in CLAUDE.md, review-checked	O	S	F	1
+p:926c059f	3	n	Do nothing: today's CLAUDE.md rules	O	S	Z	1
+p:7ee8fa01	1	y	Set-against links with applies/departs rationale	O	D	F	2
+p:7ee8fa01	2	n	Do nothing: records need not show their compass	O	S	Z	1
+p:7ee8fa01	3	n	Compass in prose only	O	D	F	1
+p:7270e772	1	y	Initiator stance with paired stabilising defaults	O	D	F	1
+p:7270e772	2	n	Steward-like stance (Continuity)	O	S	F	1
+p:7270e772	3	n	Do nothing: Seed gate stays open	O	S	Z	1
+p:5d5feb79	1	y	Typed brief in essay package, new release pinned	A	D	F	1
+p:5d5feb79	2	n	Tier-0 notes in a per-essay container	A	D	F	1
+p:5d5feb79	3	n	localStorage	A	D	F	1
+p:5d5feb79	4	n	Do nothing: Funding 2 stays blocked	O	S	Z	1
+p:559bfb9e	1	y	Practise overlapping models side by side, unify later	O	S	Z	2
+p:559bfb9e	2	n	Converge models now under one way per goal	O	D	F	2
+p:559bfb9e	3	n	Pick one model, retire the others	O	D	F	2
+p:559bfb9e	4	n	Do nothing: convergence argued case by case	O	S	Z	1
+p:46bb7a8c	1	y	One OpenAPI 3.1 document as clerk contract	A	D	F	1
+p:46bb7a8c	2	n	Protobuf schema	A	D	F	1
+p:46bb7a8c	3	n	Schemas generated from code with golden files	A	D	F	1
+p:46bb7a8c	4	n	Client types written by hand	A	S	Z	1
+p:46bb7a8c	5	n	Do nothing: agreement by convention	O	S	Z	1
+p:3b910d90	1	y	Independence only after domain names three tensions	O	S	Z	1
+p:3b910d90	2	n	Require three tensions before defining a domain	O	S	F	1
+p:3b910d90	3	n	Refuse to charter groups on immature domains	O	S	F	1
+p:3b910d90	4	n	Never require tensions	O	S	Z	1
+p:31e9fd27	1	y	Three-step federation return: addressing, relations, MCP	A	D	F	2
+p:31e9fd27	2	n	Keep essays in muSrs, defer federation	O	S	Z	1
+p:31e9fd27	3	n	Copy linked records into each essay repository	A	D	F	1
+p:31e9fd27	4	n	Implement multi-repo MCP ahead of the spec	A	D	F	1
+p:2637af0a	1	y	Affirmed remedy counts as ruling; group may auto-merge	O	D	F	1
+p:2637af0a	2	n	Keep owner merge for all remedy work	O	S	F	1
+p:2637af0a	3	n	Amend each charter to list its remedies	O	D	F	1
+p:2637af0a	4	n	Do nothing: editor group cannot auto-merge	O	S	Z	1
+p:0b1c25b1	1	y	Spec records, plus ADRs for implementation-internal work	O	D	F	1
+p:0b1c25b1	2	n	Spec records only	O	S	F	1
+p:0b1c25b1	3	n	Any owner ruling counts	O	D	F	1
+p:0b1c25b1	4	n	Do nothing: queue stays dry	O	S	Z	1
+p:05c3ddcb	1	y	Revive unit as holon; GitHub tree; unit_rank	O	D	F	1
+p:05c3ddcb	2	n	GitHub only: labelled tracking issue, no record	O	D	F	1
+p:05c3ddcb	3	n	SRS container outline authoritative for parts	O	D	F	1
+p:05c3ddcb	4	n	New type beside the frozen unit	O	D	F	1
+p:05c3ddcb	5	n	Expedite flag or display-only priority	O	S	F	1
+p:04b78189	1	y	Shared slug scheme as convention for new files	O	S	Z	1
+p:04b78189	2	n	Enforce now and rename existing files	O	D	F	1
+p:04b78189	3	n	Do nothing: divergence persists	O	S	Z	1
+s:e99a9437	1	y	Three doors recorded as a decision record	O	S	F	1
+s:e99a9437	2	n	Leave the doors in CLAUDE.md prose	O	S	Z	1
+s:e99a9437	3	n	Fold doors into decision-modes successor record	O	D	F	1
+s:e99a9437	4	n	Checker reading door labels off PR bodies	O	D	F	1
+s:e5828aa8	1	y	Overwrite clean same-version now; refuse from public release	A	D	Z	1
+s:e5828aa8	2	n	Refuse every same-version difference now	A	S	F	1
+s:e5828aa8	3	n	Always overwrite, including local edits	A	D	F	1
+s:e5828aa8	4	n	Always keep the local copy	A	S	F	1
+s:dd0a33fc	1	y	Per-emitter fidelity contract: authoritative or approximated	A	D	F	1
+s:dd0a33fc	2	n	Describe generation as lossless despite gaps	A	S	F	1
+s:dd0a33fc	3	n	Silently omit unrepresentable constructs	A	S	Z	1
+s:d67e3d76	1	y	Author the metamodel as SRS definitions	O	D	F	2
+s:d67e3d76	2	n	Keep RFC-004 schema-definition source language	O	S	F	1
+s:d67e3d76	3	n	Hand-authored JSON Schema only	O	D	F	1
+s:d5524758	1	y	Optional createdBy stamped from session actor, revision 9	A	D	F	2
+s:d5524758	2	n	Author field on the Types that need it	A	D	F	1
+s:d5524758	3	n	createdBy plus updatedBy	A	D	F	1
+s:d5524758	4	n	Actors as records, createdBy holds instance id	A	D	F	1
+s:d5524758	5	n	Restore the full removed provenance set	A	D	F	1
+s:d5524758	6	n	Privileged caller may supply createdBy	A	D	F	1
+s:d5524758	7	n	createdBy without a revision bump	A	D	Z	1
+s:cd27c096	1	y	Ordered depth outline; membership is entry ids	A	D	F	2
+s:cd27c096	2	n	Keep rootInstanceIds beside ordered members	A	D	F	1
+s:cd27c096	3	n	Keep Rule [N+12] navigation, order only documents	A	D	F	1
+s:cd27c096	4	n	Per-entry fold or visibility flag	A	D	F	1
+s:cce3c00e	1	y	Adopt the Pattern Grid with axis preferences	O	D	F	2
+s:cce3c00e	2	n	Continue case-at-a-time with four values	O	S	Z	1
+s:cce3c00e	3	n	Flat principle list per audit concern	O	D	F	1
+s:cce3c00e	4	n	Different lens set (T3 cube, 2x2, per-entity)	O	D	F	1
+s:c8704763	1	y	Four reference strengths, one form each	A	D	F	2
+s:c8704763	2	n	Object form everywhere	A	D	F	2
+s:c8704763	3	n	Keep ns/name@version as a stored form	A	S	F	1
+s:c8704763	4	n	Implement aliases	A	D	F	1
+s:c4fffe93	1	y	Orthogonal fieldType facets replace valueType	A	D	F	2
+s:c4fffe93	2	n	Keep valueType, add composite as ninth value	A	S	F	1
+s:c4fffe93	3	n	Keep separate format, values, rule, repeatable mechanisms	A	S	F	1
+s:c20fcff8	1	y	Standing level test: declarable and checkable	O	D	F	1
+s:c20fcff8	2	n	Leave clause-scoped, apply ad hoc	O	S	Z	1
+s:c20fcff8	3	n	Two dispositions only: relocate or retire	O	D	F	1
+s:c20fcff8	4	n	Make the test a mechanical check	O	D	F	1
+s:c20fcff8	5	n	Treat as correction to 1e7c0c8e, not successor	O	S	F	1
+s:be253dd6	1	y	Container as directory of one-line entry files	A	D	F	1
+s:be253dd6	2	n	Merge driver as tooling only	A	S	Z	1
+s:be253dd6	3	n	Per-entry files keeping depth	A	D	F	1
+s:be253dd6	4	n	Order kept in the head file	A	D	F	1
+s:be253dd6	5	n	Records declare their containers	A	D	F	1
+s:be253dd6	6	n	Shard the member array	A	D	F	1
+s:be253dd6	7	n	git merge=union	A	S	Z	1
+s:be253dd6	8	n	Sequence CRDT or LSEQ/Logoot	A	D	F	1
+s:be253dd6	9	n	Detached entries as fatal errors	A	D	F	1
+s:be253dd6	10	n	Tombstones for removed entries	A	D	F	1
+s:be253dd6	11	n	Writer-chosen keys	A	D	F	1
+s:bed7a41a	1	y	Root container in container set; manifest names it	A	D	F	2
+s:bed7a41a	2	n	Keep the root inline in manifest.json	A	S	F	1
+s:bed7a41a	3	n	Keep property name container holding only an id	A	D	F	1
+s:bed7a41a	4	n	Compose with RFC-051 at one revision	A	D	F	1
+s:b9d7096e	1	y	Autoclassification as suggestion plus sibling stance vocabulary	O	D	Z	1
+s:b9d7096e	2	n	Autoclassification as authoritative placement	O	D	F	1
+s:b9d7096e	3	n	Invent fresh stance names	O	D	F	1
+s:b9d7096e	4	n	Wait for #273 self-hosting	O	S	Z	1
+s:b2ff7c91	1	y	Identifier over label extends to machine-facing outputs	A	S	F	1
+s:b2ff7c91	2	n	A thirteenth cell preference for outputs	O	D	F	1
+s:b2ff7c91	3	n	Leave as implementation practice in ADR-048	O	S	Z	1
+s:aee09992	1	y	Dependency keyed by packageId with SemVer band	A	D	F	2
+s:aee09992	2	n	Keep namespace/name key, add optional packageId	A	S	F	1
+s:aee09992	3	n	Version range grammar	A	D	F	1
+s:aee09992	4	n	No special treatment of 0.x	A	D	F	1
+s:a8dcbfe5	1	y	Declare core in dependencyRefs, do not carry it	A	D	F	2
+s:a8dcbfe5	2	n	Carry core definitions like any other	A	S	F	1
+s:a8dcbfe5	3	n	Omit core, dependencyRefs empty (as merged)	A	S	F	1
+s:a8dcbfe5	4	n	Exporter chooses per call	A	D	Z	1
+s:a270e98a	1	y	Unprefixed Protocol identity; structured aiGuidance	A	D	F	2
+s:a270e98a	2	n	Keep prefixed shape, rewrite prose to match	A	S	F	1
+s:a270e98a	3	n	Leave aiGuidance as string-or-object	A	S	Z	1
+s:9ee14517	1	y	Layer rules as a register beside the grid	O	D	F	2
+s:9ee14517	2	n	Fold layer discipline into cell preferences	O	D	F	1
+s:9ee14517	3	n	Leave it as accumulated precedent	O	S	Z	1
+s:991c062f	1	y	Exempt generated metamodel package from immutability rule	O	S	Z	1
+s:991c062f	2	n	Per-field version override; bump value_range	O	D	F	1
+s:92d2da05	1	y	Rename DocumentView to Composition	A	D	F	2
+s:92d2da05	2	n	Keep DocumentView	A	S	F	1
+s:92d2da05	3	n	Another name: Arrangement, Edition, Outline, Assembly	A	D	F	1
+s:92d2da05	4	n	Rename in vocabulary only, keep schema name	A	D	F	1
+s:8f5aca2c	1	y	Grid gains reach, sequence and balance operations	O	D	Z	1
+s:8f5aca2c	2	n	Adopt the sibling's full apparatus	O	D	Z	1
+s:8f5aca2c	3	n	Leave the operations informal	O	S	Z	1
+s:8aed3412	1	y	Containers carry context membership; Composition carries order	A	D	F	1
+s:8aed3412	2	n	Context-scoped relations	A	D	F	1
+s:8aed3412	3	n	Duplicate content per context	A	S	Z	1
+s:8948e43f	1	y	Travel mandate: bundle carries every holdable construct	A	D	F	2
+s:8948e43f	2	n	Treat #390 as an ordinary gap on demand	A	S	Z	1
+s:8948e43f	3	n	Full parity including runtime state	A	D	F	1
+s:86f49083	1	y	Carrier and storage land as one generation	A	D	F	2
+s:86f49083	2	n	Ship carrier change before repository-authority change	A	D	F	1
+s:86f49083	3	n	Support an intermediate generation	A	D	F	1
+s:86f49083	4	n	Defer one first-party population to later release	A	S	Z	1
+s:7d3dda60	1	y	fieldValues keyed by authored Field.name	A	D	F	2
+s:7d3dda60	2	n	Keep the UUID-keyed FieldValue array	A	S	F	1
+s:7d3dda60	3	n	Key the object by field UUID	A	D	F	1
+s:7d3dda60	4	n	Transform names to lowerCamelCase	A	D	F	1
+s:7d3dda60	5	n	Separate fieldId map on each Type	A	D	F	1
+s:7caca3a1	1	y	Decision mode names its machinery; geometry for complex	O	D	Z	1
+s:7caca3a1	2	n	decision_mode as an optional field	O	D	F	1
+s:7caca3a1	3	n	Charter adjudication with extra review for complex	O	S	F	1
+s:7caca3a1	4	n	Charter jurisdiction over chaos (break-glass)	O	D	F	1
+s:7bd99afd	1	y	Close definition gaps in the model itself	O	D	F	1
+s:7bd99afd	2	n	Smaller core plus hand-maintained remainder overlay	O	S	F	1
+s:7255aecc	1	y	Type-keyed typeKey replaces semanticObjectType	A	D	F	2
+s:7255aecc	2	n	Keep semanticObjectType as permanent key	A	S	F	1
+s:7255aecc	3	n	PINNED typeId/typeVersion dispatch	A	D	F	1
+s:7255aecc	4	n	A fifth reference strength for this case	A	D	F	1
+s:6fc7e142	1	y	Rename substrate properties to meta	A	D	F	2
+s:6fc7e142	2	n	Keep both names with stated distinction	A	S	F	1
+s:6fc7e142	3	n	Fold the rename into the #273 train	A	D	F	1
+s:693b9458	1	y	Pin one named CLI release for drift gate	O	S	F	2
+s:693b9458	2	n	Always download the latest CLI release	O	D	Z	1
+s:693b9458	3	n	Accept check changes without a repo commit	O	S	Z	1
+s:6523cf5e	1	y	Presentation hints stay out of fieldType	A	S	F	1
+s:6523cf5e	2	n	Widgets and renderers as semantic type facets	A	D	F	1
+s:628cf6c4	1	y	A rename ships as a migration, no alias	O	S	F	1
+s:628cf6c4	2	n	Alias-based grace periods	A	S	Z	1
+s:628cf6c4	3	n	Exempt prose-only renames	O	D	F	1
+s:5f8204bc	1	y	One retirement mechanism per layer	A	S	F	1
+s:5f8204bc	2	n	Single cross-layer deprecation status	A	D	F	1
+s:5f8204bc	3	n	No expiry rule for exceptions	O	S	Z	1
+s:5f18603e	1	y	Committed return recorded as a successor entry	O	D	F	1
+s:5f18603e	2	n	Leave amended position, record nothing	O	S	Z	1
+s:5f18603e	3	n	Supersede 4f1e12e5 entirely with fresh record	O	D	F	1
+s:5f18603e	4	n	Reconstruct whole amendment, corrections included	O	D	F	1
+s:5c1e3068	1	y	Target-neutral IR between records and emitters	O	D	F	1
+s:5c1e3068	2	n	Each target defines its own interpretation	A	S	Z	1
+s:53635966	1	y	Remove Tier 1 TypedRecord	A	D	F	2
+s:53635966	2	n	Keep Tier 1 as specified	A	S	F	1
+s:53635966	3	n	Keep Tier 1 marked experimental	A	S	Z	1
+s:53635966	4	n	Remove Note instead	A	D	F	2
+s:4f1e12e5	1	y	Remove dormant constructs, return triggers on roadmap	A	D	F	1
+s:4f1e12e5	2	n	Keep machinery marked experimental	A	S	Z	1
+s:4f1e12e5	3	n	Also remove the supersedes family	A	D	F	1
+s:4f1e12e5	4	n	Delete protocols wholesale	A	D	F	1
+s:4431046e	1	y	Corrections in place with marker; refinements as successors	O	D	F	1
+s:4431046e	2	n	No exception: reconstruct as successor	O	S	F	1
+s:4431046e	3	n	Accept in-place edit, rule forward only	O	S	Z	1
+s:4431046e	4	n	Make decision records mutable	O	D	F	2
+s:43249f53	1	y	Workflow status is a Lifecycle; migrate rfc_status	A	D	F	2
+s:43249f53	2	n	Sanction two tiers: bare enum and Lifecycle	A	S	Z	1
+s:4269c744	1	y	Renderer dispatch owned by the view layer	A	D	F	1
+s:4269c744	2	n	Keep compositeRenderer on FieldGroup or Type	A	S	F	1
+s:4269c744	3	n	Renderer selection on each instance	A	D	F	1
+s:4269c744	4	n	Repository-wide renderer choice only	A	D	F	1
+s:2fb87c1e	1	y	Authoritative store defines repository content	A	D	F	2
+s:2fb87c1e	2	n	Keep manifest indexes authoritative	A	S	F	1
+s:2fb87c1e	3	n	Each implementation chooses index or tree	A	D	Z	1
+s:2f048790	1	y	Generate reference projections from semantic records	O	D	F	1
+s:2f048790	2	n	Keep comparing hand-authored pseudo-IDL	O	S	F	1
+s:2f048790	3	n	Generate prose from JSON Schema; schema canonical	O	D	F	1
+s:2f048790	4	n	Embed raw JSON Schema as main reference	O	D	F	1
+s:2e0cd70a	1	y	Detect, load, preserve-or-refuse for unknown content	A	S	Z	1
+s:2e0cd70a	2	n	Strictly closed everywhere	A	D	F	1
+s:2e0cd70a	3	n	Open everywhere, full passthrough	A	D	Z	1
+s:2e0cd70a	4	n	Refuse-only on write	A	S	F	1
+s:2a1e1590	1	y	State carve-out; remove Revisions and Changelog	A	D	F	2
+s:2a1e1590	2	n	Keep a minimal changelog of transitions	A	S	F	1
+s:2a1e1590	3	n	Remove machinery without ruling the carve-out	A	D	F	1
+s:2a1e1590	4	n	Make lifecycleState successor-based	A	D	F	1
+s:1e7c0c8e	1	y	Two-level retirement; delete retired instances after provenance	A	D	Z	1
+s:1e7c0c8e	2	n	Never delete a retired instance	A	S	F	1
+s:1e7c0c8e	3	n	Treat as correction to 5f8204bc	O	S	F	1
+s:1e5df0d9	1	y	Curated decision log of consequential judgement	O	S	F	1
+s:1e5df0d9	2	n	Backfill every atomic research card	O	D	F	1
+s:1e5df0d9	3	n	Tactical work suffices to record a decision	O	D	F	1
+s:1e5df0d9	4	n	Record only RFC lifecycle outcomes	O	S	F	1
+s:1e5df0d9	5	n	Leave the boundary implicit	O	S	Z	1
+s:19997e24	1	y	One checks registry with membership guard	O	D	F	2
+s:19997e24	2	n	Status quo hand-wiring	O	S	Z	1
+s:19997e24	3	n	Checks as records now	O	D	F	2
+s:19997e24	4	n	Adopt a test-framework dependency	O	D	Z	1
+s:1967b8eb	1	y	Marker is a directory; non-emptiness SHOULD; file implementation-owned	A	S	Z	1
+s:1967b8eb	2	n	Migrate to a marker file	A	D	F	2
+s:1967b8eb	3	n	Make non-emptiness a MUST	A	D	F	1
+s:1967b8eb	4	n	Name .gitkeep as the satisfying file	A	S	F	1
+s:1967b8eb	5	n	Name .srs/README.md in the spec	A	D	F	1
+s:16b20c56	1	y	Attribution optional, single-shaped, never authority; shape deferred	O	S	Z	1
+s:16b20c56	2	n	Unify the five shapes now	A	D	F	2
+s:16b20c56	3	n	Mandatory attribution for AI-asserted writes	A	D	F	1
+s:0df19d60	1	y	Order and depth on Container; Composition names source	A	D	F	2
+s:0df19d60	2	n	Keep memberOrder, add depth in Composition	A	D	F	1
+s:0df19d60	3	n	Order and nesting as per-document edges	A	D	F	1
+s:0df19d60	4	n	Separate arrangement record referenced by Container	A	D	F	1
+s:0df19d60	5	n	Recursive tree of nodes in member list	A	D	F	1
+s:0c403e15	1	y	Concept records carry their own bridging prose	A	S	F	1
+s:0c403e15	2	n	Narrative leaf type for bridging prose	A	D	F	1
+s:0c403e15	3	n	Presentation-only text on Composition sections	A	D	F	1
+s:0750c62f	1	y	Container is a declared selection on expression plane	A	D	F	2
+s:0750c62f	2	n	Container on meaning plane; keep I-66	A	S	F	1
+s:0750c62f	3	n	Two constructs: semantic grouping and scope	A	D	F	2
+s:0750c62f	4	n	Defer for more evidence	O	S	Z	2
+s:0225099b	1	y	Remove both defaultValue sites; one mechanism later	A	D	F	1
+s:0225099b	2	n	Define the consistent defaults rule now	A	D	F	1
+s:0225099b	3	n	Keep FieldAssignment.defaultValue	A	S	F	1
+s:0225099b	4	n	Remove without recording intent	A	D	F	1
+s:0118e938	1	y	One layer per construct; crossing needs stated goal	O	D	F	1
+s:0118e938	2	n	Leave rule 4; review judges case by case	O	S	Z	1
+s:0118e938	3	n	Forbid crossings; retire Invariant 28 hints	A	D	F	1
+s:0118e938	4	n	Tighten in the Container decision alone	O	D	F	1
