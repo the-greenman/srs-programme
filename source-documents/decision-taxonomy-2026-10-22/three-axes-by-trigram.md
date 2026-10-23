@@ -1,6 +1,6 @@
 # The three axes, by trigram
 
-SemanticOps' local reference for how a three-axis structure is laid out. **The three-axis structure is trigram based** (owner, 2026-10-23). It applies to the T3 stance lines, a domain's three axes, the SRS compass read as a hexagram, and decisions placed on any of them.
+SemanticOps' local reference for how a three-axis structure is laid out. **The three-axis structure is trigram based** (owner, 2026-10-23). It applies to the T3 stance lines, a domain's three axes, and decisions placed on them. The SRS compass is zodiac based (owner, 2026-10-23); it is placed on these lines only through the alignment below, as a translation.
 
 This is a local version of greenmans_creation `obsidian-vault/1-Systems-and-Topology/I-Ching-Zodiac-Isomorphism.md`, aligned to the trigrams. The original is unchanged. Where this page and another instrument disagree, the disagreement is listed under "Where instruments differ" and waits for a ruling. Nothing here changes a ratified record by itself.
 
@@ -17,7 +17,7 @@ This is a local version of greenmans_creation `obsidian-vault/1-Systems-and-Topo
 
 ## The lines
 
-| Line | Three Powers | Modality | Zodiac axis | SRS grid cells (compass axis) | Compass default | T3 stance line | Its question |
+| Line | Three Powers | Modality | Zodiac axis | SRS grid cells (compass axis, by the alignment) | Compass default | T3 stance line | Its question |
 |---|---|---|---|---|---|---|---|
 | 1 | Earth | Cardinal | Aries ↔ Libra | Versioning ↔ Reference (1-7) | Semantic Integrity over Practical Expression | **Act ↔ Observe** | Does the energy go out onto the world, or in to change the system itself? |
 | 2 | Human | Fixed | Taurus ↔ Scorpio | Identity ↔ Assertion (2-8) | Evolution over Continuity (phase-bound) | **Disrupt ↔ Stabilise** | Do we add energy to change state, or let the system settle? |
@@ -50,11 +50,12 @@ These triads are real, but they are not the trigram's line triad. Do not use the
 
 ## Where instruments differ (open for a ruling)
 
-1. **The SRS compass's inner trigram** (rfc-decision-b9d7096e, line order fixed 2026-10-20; srs-context concept cc05d4c9).
-   - The compass puts 3-9 on inner line 1 and 1-7 on inner line 3, and pairs lines by Systemic Data Ethics movement.
-   - By trigram, inner line 1 is 1-7 and line 3 is 3-9. The outer trigram (4-10, 5-11, 6-12) already agrees.
-   - With the compass's current yang assignments, the inner defaults read 011 by trigram, not 110 (Engagement). The outer trigram reads 101 either way.
-   - The compass is ratified charter. Changing it needs a decision in the srs repository.
+1. **The SRS compass is zodiac based, not trigram based** (owner, 2026-10-23).
+   - It is built from the Pattern Grid: elements × levels, with six opposite-cell axes.
+   - Its own grouping of the axes into three pairs follows Systemic Data Ethics' movements: {3-9, 4-10}, {2-8, 5-11}, {1-7, 6-12} (rfc-decision-b9d7096e; concept cc05d4c9). That is the compass's rubric, not an error, and nothing here proposes to change it.
+   - The table above places compass axes on trigram lines through the I Ching ↔ zodiac alignment (axis k on line k). That is a translation for comparing instruments.
+   - Two translations give different trigrams for the same compass defaults. By the compass's movement grouping, the inner trigram reads 110 (Engagement). By the alignment it reads 011. The outer trigram reads 101 both ways.
+   - When the compass is read as a trigram (b9d7096e's stance vocabulary), say which translation is meant.
 2. **A domain's axes in clerk#159** (Programme coordination, first pass).
    - The chapter places Core once ↔ Adapter convenience on line 2 and Compatibility ↔ One way on line 3, by Action, Form, Time.
    - By trigram, line 2 (Human, Fixed, foundation ↔ transformation) is the keep-or-transform axis, Compatibility ↔ One way. Line 3 (Heaven, Mutable, local ↔ expansive) is the concentrate-or-distribute axis, Core once ↔ Adapter convenience.
