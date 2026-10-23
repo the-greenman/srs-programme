@@ -7,13 +7,13 @@
   "fieldValues": {
     "policy_title": "High: a written technical plan",
     "confidence_level": "high",
-    "policy_explanation": "The item carries a technical plan: a \"## Technical plan\" section, or at least three concrete steps (a checklist or numbered list) with code references or acceptance criteria. Issues already written with detailed steps carry their plan without the heading. The owner directing the work does not earn this grade on its own: agents run as the owner's actor, so the session actor cannot prove the owner is present (clerk#157 review, B1).",
+    "policy_explanation": "The item's body carries a \"## Technical plan\" section with content: a plan written as one, on purpose. Detailed steps without the heading earn Medium, not this grade, and neither does the owner directing the work: agents run as the owner's actor and write issues in that shape too, so only the heading is taken as a written plan (clerk#157 review, B1 and B3).",
     "signal_keys": [
       "plan.section"
     ]
   },
   "createdAt": "2026-10-23T09:26:01.270726518+00:00",
-  "updatedAt": "2026-10-23T11:42:46.645275017+00:00",
+  "updatedAt": "2026-10-23T16:37:34.051546250+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

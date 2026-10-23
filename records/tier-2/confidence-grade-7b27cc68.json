@@ -5,15 +5,16 @@
   "typeNamespace": "com.semanticops.programme",
   "typeName": "confidence-grade",
   "fieldValues": {
-    "policy_title": "Medium: the owner is directing",
+    "policy_title": "Medium: the owner is directing, or the steps are written out",
     "confidence_level": "medium",
-    "policy_explanation": "The session actor is the owner's (owner.directed), as in a command-line session. It counts for something, but not for a plan: agent sessions also run as the owner's actor, so it can raise care from Probe only together with other signals, and never reaches Build without a written technical plan.",
+    "policy_explanation": "The session actor is the owner's (owner.directed), as in a command-line session; or the body lists at least three steps with code references or acceptance criteria, without a \"## Technical plan\" heading (plan.steps). Each counts for something, but not for a plan: agent sessions run as the owner's actor and agents write issues in that shape too, so neither reaches Build without a written technical plan (clerk#157 review, B1 and B3).",
     "signal_keys": [
-      "owner.directed"
+      "owner.directed",
+      "plan.steps"
     ]
   },
   "createdAt": "2026-10-23T11:33:14.999060789+00:00",
-  "updatedAt": "2026-10-23T11:33:14.999066059+00:00",
+  "updatedAt": "2026-10-23T16:37:33.969120263+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code",
