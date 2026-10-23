@@ -190,6 +190,43 @@ The session actor is the owner's (owner.directed), as in a command-line session.
 **Earned by any of**:
 - owner.directed
 
+
+### Domain: do we know where it belongs?
+
+How sure the programme is of the domain the item belongs to, and so of the group that holds it. Domain confidence does not select a care mode in this seed; it ranks strong items for pulling forward and tells routing how sure the placement is. A rule may name it, as domain>=<level>, once practice shows it should.
+
+
+### High: the domain comes from affirmed theory
+
+**Level**: high
+
+The item answers an affirmed problem held by a persona in a domain.
+
+**Earned by any of**:
+- domain.affirmed-problem
+
+
+### Medium: placed with a group, or theory not yet affirmed
+
+**Level**: medium
+
+The item carries the wg: label of a group that holds a domain, or answers a suggested problem held by a persona in a domain.
+
+**Earned by any of**:
+- domain.group-label
+- domain.suggested-problem
+
+
+### Low: inferred from the repository
+
+**Level**: low
+
+The repository is governed by a group that holds a domain. When more than one group governs it, the repository suggests a domain but cannot say which; both count as low.
+
+**Earned by any of**:
+- domain.repo-one-group
+- domain.repo-shared
+
 ### Signal catalogue
 
 The signals a grade or rule may name. Their meaning is the clerk's code (lib/practice/care-policy.mjs); which grade or rule they feed is the records above. A record naming a signal not listed here stops the clerk.
@@ -199,6 +236,11 @@ The signals a grade or rule may name. Their meaning is the clerk's code (lib/pra
 - `problem.suggested.synthesised`: The item answers a suggested problem that only an agent produced (a synthesiser or analyst, no conversation basis).
 - `answers.none-yet`: The item says "No affirmed problem yet: <problem>": it names its problem in words, with no record yet.
 - `answers.stated` (not used by this policy): The item has an Answers: or "No affirmed problem yet:" line at all.
+- `domain.affirmed-problem`: The item answers an affirmed problem held by a persona in a domain: the domain comes from affirmed theory.
+- `domain.suggested-problem`: The item answers a suggested problem held by a persona in a domain: the domain comes from theory not yet affirmed.
+- `domain.group-label`: The item carries the wg: label of a working group that holds a domain: someone has placed it with that group.
+- `domain.repo-one-group`: The item's repository is governed by exactly one working group that holds a domain: the domain is inferred from where the item lives.
+- `domain.repo-shared`: The item's repository is governed by more than one working group that holds a domain: the repository suggests a domain but cannot say which.
 - `epic.ranked`: The item sits under an epic that serves an objective the active period ranks.
 - `epic.any`: The item sits under a roadmap epic, ranked or not.
 - `ruling.names-fix`: The item cites a recorded ruling (a "Ruling:" line naming a decision record id) and says what that ruling has it build (a "Fix:" line).
