@@ -82,15 +82,14 @@ The item sits under a roadmap epic whose objective is not ranked this period.
 Is it clear what changes, where, and how it will be tested? A concrete technical plan lets work go ahead before the domain and theory are affirmed, which is how a technical requirement fed in from the command line fits the flow.
 
 
-#### High: a written plan, or the owner directing
+#### High: a written technical plan
 
 **Level**: high
 
-The item carries a "## Technical plan" section saying what changes, where, and how it is tested; or the owner is driving the work directly in a session.
+The item carries a "## Technical plan" section saying what changes, where, and how it is tested. The owner directing the work does not earn this grade on its own: agents run as the owner's actor, so the session actor cannot prove the owner is present (clerk#157 review, B1).
 
 **Earned by any of**:
 - plan.section
-- owner.directed
 
 
 ### Care mode: Build
@@ -181,6 +180,16 @@ No item is refused for lack of confidence. When nothing above holds, the work is
 
 **Selects**: Care mode: Probe
 
+
+### Medium: the owner is directing
+
+**Level**: medium
+
+The session actor is the owner's (owner.directed), as in a command-line session. It counts for something, but not for a plan: agent sessions also run as the owner's actor, so it can raise care from Probe only together with other signals, and never reaches Build without a written technical plan.
+
+**Earned by any of**:
+- owner.directed
+
 ### Signal catalogue
 
 The signals a grade or rule may name. Their meaning is the clerk's code (lib/practice/care-policy.mjs); which grade or rule they feed is the records above. A record naming a signal not listed here stops the clerk.
@@ -192,10 +201,10 @@ The signals a grade or rule may name. Their meaning is the clerk's code (lib/pra
 - `answers.stated` (not used by this policy): The item has an Answers: or "No affirmed problem yet:" line at all.
 - `epic.ranked`: The item sits under an epic that serves an objective the active period ranks.
 - `epic.any`: The item sits under a roadmap epic, ranked or not.
-- `ruling.names-fix`: A recorded ruling the item cites names the fix to build, not only that a fix is wanted.
+- `ruling.names-fix`: The item cites a recorded ruling (a "Ruling:" line naming a decision record id) and says what that ruling has it build (a "Fix:" line).
 - `plan.section`: The item carries a "## Technical plan" section with content: what changes, where, and how it is tested.
 - `owner.directed`: The owner is driving this work directly: the session actor (SRS_ACTOR) is the settings owner_actor, as in a command-line session.
 
 ### Changing the policy
 
-The owner changes the records, with the pinned srs CLI, the MCP server or the editor; a change that alters how workers behave is recorded as a decision in a session. Agents never edit these records: they propose a change as a comment on the record (com.semanticops.comments, comments-on), with the evidence, such as which items a rule sent to which mode and how they went. Then run `node scripts/render-policy.mjs --repo <programme>` from the clerk and commit the records and this file together.
+The owner changes the records, with the pinned srs CLI, the MCP server or the editor; a change that alters how workers behave is recorded as a decision in a session. Agents never edit these records: they propose a change as a comment on the record (com.semanticops.comments, comments-on), with the evidence, such as which items a rule sent to which mode and how they went. Then run `clerk render-policy --repo <programme>` and commit the records and this file together.

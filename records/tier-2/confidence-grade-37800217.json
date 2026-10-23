@@ -5,16 +5,15 @@
   "typeNamespace": "com.semanticops.programme",
   "typeName": "confidence-grade",
   "fieldValues": {
-    "policy_title": "High: a written plan, or the owner directing",
+    "policy_title": "High: a written technical plan",
     "confidence_level": "high",
-    "policy_explanation": "The item carries a \"## Technical plan\" section saying what changes, where, and how it is tested; or the owner is driving the work directly in a session.",
+    "policy_explanation": "The item carries a \"## Technical plan\" section saying what changes, where, and how it is tested. The owner directing the work does not earn this grade on its own: agents run as the owner's actor, so the session actor cannot prove the owner is present (clerk#157 review, B1).",
     "signal_keys": [
-      "plan.section",
-      "owner.directed"
+      "plan.section"
     ]
   },
   "createdAt": "2026-10-23T09:26:01.270726518+00:00",
-  "updatedAt": "2026-10-23T09:26:01.270734441+00:00",
+  "updatedAt": "2026-10-23T11:33:27.859355332+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",
