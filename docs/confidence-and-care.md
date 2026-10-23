@@ -86,7 +86,7 @@ Is it clear what changes, where, and how it will be tested? A concrete technical
 
 **Level**: high
 
-The item carries a "## Technical plan" section saying what changes, where, and how it is tested. The owner directing the work does not earn this grade on its own: agents run as the owner's actor, so the session actor cannot prove the owner is present (clerk#157 review, B1).
+The item carries a technical plan: a "## Technical plan" section, or at least three concrete steps (a checklist or numbered list) with code references or acceptance criteria. Issues already written with detailed steps carry their plan without the heading. The owner directing the work does not earn this grade on its own: agents run as the owner's actor, so the session actor cannot prove the owner is present (clerk#157 review, B1).
 
 **Earned by any of**:
 - plan.section
@@ -202,7 +202,7 @@ The signals a grade or rule may name. Their meaning is the clerk's code (lib/pra
 - `epic.ranked`: The item sits under an epic that serves an objective the active period ranks.
 - `epic.any`: The item sits under a roadmap epic, ranked or not.
 - `ruling.names-fix`: The item cites a recorded ruling (a "Ruling:" line naming a decision record id) and says what that ruling has it build (a "Fix:" line).
-- `plan.section`: The item carries a "## Technical plan" section with content: what changes, where, and how it is tested.
+- `plan.section`: The item carries a technical plan: a "## Technical plan" section with content, or at least three steps (a checklist or numbered list) with code references or acceptance criteria.
 - `owner.directed`: The owner is driving this work directly: the session actor (SRS_ACTOR) is the settings owner_actor, as in a command-line session.
 
 ### Changing the policy
