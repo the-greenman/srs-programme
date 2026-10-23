@@ -1,0 +1,50 @@
+{
+  "instanceId": "b430b7e0-dd4b-4180-a1b1-38c9081abdb1",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Forming decisions: a taxonomy by practice",
+    "thinking_reached": "A decision must be recognised for the kind of decision it makes, then formed to fit it; the kinds are found by clustering practice before naming them. The current seven kinds are not working as a taxonomy (policy is a catch-all; the kind is assigned after writing; the closed enum loses misfits). Scope is a property of every decision: a decision holds in the domain it was made in. Ten independent properties describe a decision (object, form, time, lineage, scope, grounding, review shape, discretion, parts, layer). On the owner's definitions, every decision can be judged reliably on the three T3 lines (kappa 0.81 to 0.90): line 1 where the change lands (outward on the world, or inward on the system), line 2 adding energy or letting it settle, line 3 a closed boundary under our will or an open one that senses. The eight vertices describe orientations, and an archetype is the stance that favours one; they are not decision types. Options matter more than the vertex: line 1 is given by the decision's boundary, and the choice is made on lines 2 and 3; 'do nothing' is the yin vertex. Classifications run in parallel and are mapped, possibly as context trigram x action trigram.",
+    "tensions": "Eight stable vertices against the missing dimensions (object, scope, time) that T3 cannot see. One taxonomy against parallel classifications. A closed enum of kinds against a taxonomy that grows from recorded misfits. The owner's open, sense-and-respond practice against a decision log that is 85% closed. Decisions answered once and cited everywhere against decisions answered per domain.",
+    "unresolved_questions": "Does Authority replace or widen Mandate; are Gate and Lean kinds or attributes? Does a decision pass down into narrower domains? Is line 1 part of the context trigram? Does magnitude matter on line 2? Is delegation a closed plan or an opening? Should every decision name an alternative that differs on line 2 or 3? Where should kinds live: records, or the decision_kind enum?",
+    "blocking": "Nothing blocks the exercise. Proposals wait on the owner choosing which findings to turn into decisions.",
+    "next_action": "Cross the T3 codes with the object and time clusterings to find recurring combinations (candidate kinds); rate options against a stated boundary; test the context trigram against the domain's recorded lean. The living record is source-documents/decision-taxonomy-2026-10-22/discoveries.md."
+  },
+  "createdAt": "2026-10-23T10:38:06.549149515+00:00",
+  "updatedAt": "2026-10-23T10:38:06.549151042+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code",
+    "name": "Claude Code, for the owner"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "da3c1ff1-6481-4a30-9489-32f50da45c33",
+      "sourceRole": "attaches"
+    },
+    {
+      "sourceType": "repository-document",
+      "sourceId": "956e5203-7661-464d-9164-cc8f27f495fa",
+      "sourceRole": "attaches"
+    },
+    {
+      "sourceType": "repository-document",
+      "sourceId": "243e1181-ac6a-4e11-8941-80fcc707fd2d",
+      "sourceRole": "attaches"
+    },
+    {
+      "sourceType": "repository-document",
+      "sourceId": "97a4c614-9707-453f-86ae-2273d43f4c44",
+      "sourceRole": "attaches"
+    },
+    {
+      "sourceType": "repository-document",
+      "sourceId": "595d0f6c-0989-43e3-b514-4b402dac44b3",
+      "sourceRole": "attaches"
+    }
+  ]
+}
