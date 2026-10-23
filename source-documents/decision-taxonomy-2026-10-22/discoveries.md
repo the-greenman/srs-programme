@@ -312,6 +312,31 @@ Line 1 and 2 from discoveries 7 and 8; line 3 from discovery 5. `~` is metastabl
 
 Data: `options-rater-i.tsv`, `options-rater-j.tsv`, `spans.tsv` (all options) and `spans-excl-donothing.tsv`.
 
+### 13. The programme itself is stuck on line 1 (owner, 2026-10-23)
+
+In the owner's words: "Our current work has been stuck at line 1 for a week or two. We cannot act because we have not judged our ability to act as sufficient. We have established many different rules for how we should act, but are ignoring hundreds of carefully defined issues that are immediately actable."
+
+**The evidence agrees.**
+
+- 82 of 101 decisions are inward (discovery 7).
+- The programme's centre is OSF: inward, settling, closed (discovery 10).
+- ADZ (outward, transforming, open) never occurs.
+- On 2026-10-23 the eight repositories held 396 open issues, of which 200 are parked and 25 are ready:
+
+  | Repository | Open | Parked | Ready |
+  |---|---|---|---|
+  | srs | 91 | 60 | 4 |
+  | srs-rust | 135 | 92 | 12 |
+  | srs-web | 72 | 35 | 6 |
+  | srs-vscode | 16 | 13 | 0 |
+  | the rest | 82 | 0 | 3 |
+
+- Most are parked by the readiness rules themselves: an issue is not work until it is grounded in an affirmed problem and routed (handbook, decisions D4, D5 and D15).
+
+**Reading.** The rules about acting have absorbed the energy that acting needs. In T3 terms this is a fixation on line 1's yin. Energy turns inward to judge and refine the system's own readiness, and none goes outward onto the world. This exercise is itself an instance: two days of inward work.
+
+**What follows.** The way out is not a better rule for when to act; that would be another inward step. It is a line 1 flip: apply energy outward by shipping the work already defined. A taxonomy of decisions should be judged by whether it helps work move, not by its completeness.
+
 ## Open questions
 
 1. Does Authority replace Mandate, or widen it? Are Gate and Lean kinds, or attributes?
