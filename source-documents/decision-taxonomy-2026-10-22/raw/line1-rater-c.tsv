@@ -1,0 +1,102 @@
+id	boundary	line1	conf	reason
+s:0118e938	the SRS standard	O	2	Tightens the standard's own layer rule for its constructs.
+s:0225099b	the SRS standard	O	2	Removes defaults from the standard's own definition model.
+s:0750c62f	the SRS standard	O	2	Reassigns Container's plane inside the standard's model.
+s:0c403e15	the SRS standard	O	1	Places bridging prose in the standard's own concept records.
+s:0df19d60	the SRS standard	O	2	Relocates context order within the standard's model.
+s:16b20c56	the SRS standard	O	1	Sets the standard's own attribution principle; enables internal removal.
+s:1967b8eb	the SRS standard	A	1	Marker and orientation file serve readers landing cold in any repository.
+s:19997e24	the SRS standard	O	2	Restructures the spec repo's own conformance gates.
+s:1e5df0d9	the SRS standard	O	2	Defines what the standard's own decision log holds.
+s:1e7c0c8e	the SRS standard	O	1	Reclassifies own clause as governance; stops binding other corpora.
+s:2a1e1590	the SRS standard	O	2	Carves state from semantics, removes internal revision machinery.
+s:2e0cd70a	the SRS standard	A	1	Binds readers and writers handling others' unknown content.
+s:2f048790	the SRS standard	A	1	Publishes generated reference projections for readers.
+s:2fb87c1e	the SRS standard	O	2	Redefines where the standard locates repository content.
+s:4269c744	the SRS standard	O	1	Places renderer dispatch in the standard's view layer.
+s:43249f53	the SRS standard	O	2	Unifies state mechanism; dogfoods Lifecycle in own corpus.
+s:4431046e	the SRS standard	O	2	Rules how the standard's own decision records change.
+s:4f1e12e5	the SRS standard	O	2	Prunes dormant machinery from the standard itself.
+s:53635966	the SRS standard	O	2	Removes Tier 1 from the standard's record model.
+s:5c1e3068	the SRS standard	O	1	Internal projection architecture: IR before emitters.
+s:5f18603e	the SRS standard	A	1	Commits federation: reaching across repositories to others.
+s:5f8204bc	the SRS standard	O	2	Sets one retirement mechanism per layer of own model.
+s:628cf6c4	the SRS standard	O	1	Disciplines the standard's own renames as migrations.
+s:6523cf5e	the SRS standard	O	2	Keeps presentation hints out of own type model.
+s:693b9458	the SRS standard	O	1	Pins the CLI for the spec repo's own gate.
+s:6fc7e142	the SRS standard	O	2	Unifies escape-bag name inside the standard.
+s:7255aecc	the SRS standard	O	2	Redesigns own type-query selection key.
+s:7bd99afd	the SRS standard	O	1	Closes gaps in the standard's self-hosted metamodel.
+s:7caca3a1	the SRS standard	O	2	Adds decision modes to the standard's own governance.
+s:7d3dda60	the SRS standard	O	2	Changes the standard's own record value carrier.
+s:86f49083	the SRS standard	A	1	Ships carrier and storage as one release to users.
+s:8948e43f	the SRS standard	A	2	Mandates travelling forms so constructs reach others.
+s:8aed3412	the SRS standard	O	1	Locates arrangement at expression within own model.
+s:8f5aca2c	the SRS standard	O	1	Extends the standard's own decision grid operations.
+s:92d2da05	the SRS standard	O	2	Renames own entity and vocabulary.
+s:991c062f	the SRS standard	O	2	Narrows own versioning check's walk.
+s:9ee14517	the SRS standard	O	2	Sets the standard's own layer rules.
+s:a270e98a	the SRS standard	O	2	Reshapes own Protocol schema property names.
+s:a8dcbfe5	the SRS standard	A	1	Shapes export bundles that consumers install.
+s:aee09992	the SRS standard	A	1	Governs satisfaction against other installed packages.
+s:b2ff7c91	the SRS standard	A	2	Machine-facing outputs carry identifiers for consuming clients.
+s:b9d7096e	the SRS standard	O	1	Grid gains self-classification of the standard's corpus.
+s:be253dd6	the SRS standard	O	2	Changes how containers are stored and merged internally.
+s:bed7a41a	the SRS standard	O	2	Moves root container into own container set.
+s:c20fcff8	the SRS standard	O	2	Placement test for the standard's own normative statements.
+s:c4fffe93	the SRS standard	O	2	Remodels Field into fieldType facets.
+s:c8704763	the SRS standard	O	2	Taxonomy of reference strengths within own model.
+s:cce3c00e	the SRS standard	O	2	Adopts the standard's own decision framework.
+s:cd27c096	the SRS standard	O	2	Redefines Container membership and order in own model.
+s:d5524758	the SRS standard	O	1	Adds createdBy to own data model; revision bump.
+s:d67e3d76	the SRS standard	O	2	Metamodel expressed in the standard's own language.
+s:dd0a33fc	the SRS standard	A	1	Fidelity contract for what emitters deliver to consumers.
+s:e5828aa8	the SRS standard	A	1	Package upgrade behaviour on installers' repositories.
+s:e99a9437	the SRS standard	O	2	Merge doors for changes to own spec surface.
+p:04b78189	srs-rust	O	2	Internal filename convention for definition files.
+p:05c3ddcb	the programme	O	2	How the programme holds and ranks its own work.
+p:06e480d4	the programme	O	2	Internal recording of meetings.
+p:09ea5368	the programme	O	2	Internal routing of requests to groups.
+p:0a87ebf6	the programme	O	2	Internal group boundaries and routing.
+p:0b1c25b1	WG Third-party ready	O	2	Defines what counts as ruling inside group mandate.
+p:21ee9352	the programme	A	1	Comments visible to readers on GitHub name their actor.
+p:2550585a	the programme	O	2	Internal intake step ordering.
+p:2637af0a	the programme	O	1	Expands groups' internal mandate to affirmed remedies.
+p:2800bea0	the programme	O	2	Who may change clusters inside the programme.
+p:31961020	the programme	O	2	Same intake cycle across own levels.
+p:31e9fd27	the programme	A	1	Schedules federation: cross-repository links and serving.
+p:39ffe8e5	the programme	O	2	Defines own operations domain scope.
+p:3b910d90	the programme	O	2	Internal maturity rule for group autonomy.
+p:46bb7a8c	the clerk tool	A	1	Contract that clients generate types from.
+p:559bfb9e	the programme	O	2	Own stance toward overlapping models of meaning.
+p:5d5feb79	the essay editor	A	1	Releases a package version srs-web pins for writers.
+p:6494df0f	the programme	O	2	Models members' stance internally.
+p:684f84ab	the programme	O	2	Internal handling of deferred decisions.
+p:708c9373	the programme	O	2	Internal problem-domain modelling.
+p:70a84bb7	the programme	O	2	Internal rule for agent choices against lean.
+p:7270e772	WG Third-party ready	O	2	Sets the group's own lean on its axes.
+p:7ee8fa01	the programme	O	2	How own decision records show their compass.
+p:8e1ae42a	the programme	O	2	Internal arrangement of groups.
+p:926c059f	the clerk tool	O	2	Internal code rules for the clerk.
+p:9e2c2950	the programme	O	1	Owner ideas routed through own chain.
+p:a1b06725	the clerk tool	O	2	Gate for growing clerk's own core.
+p:a47964f9	the programme	O	2	Models group input queues internally.
+p:a5c769be	the programme	O	2	What the own decision log holds.
+p:a8bc55ef	the programme	O	2	Internal governance of the clerk.
+p:a8e833f1	the programme	A	2	Every release opens every repository users hold.
+p:acf486d8	the programme	O	2	Internal escalation between levels.
+p:aeb9c0a2	the programme	O	2	Internal modelling of domain estimates.
+p:b80d2d1e	the programme	O	2	Asks to investigate history: inward understanding.
+p:bbb03bff	the programme	A	1	Landing shape so releases do not refuse existing repositories.
+p:bbb23e36	the programme	O	1	Where PRs record decisions, internal practice.
+p:bd852068	the programme	O	2	Internal meeting agendas by kind.
+p:bf4a5af5	the programme	A	2	Avoids breaking existing readers of command output.
+p:c04d8164	the clerk tool	O	1	Internal dependency rule for clerk runtime.
+p:cdd272a3	the programme	O	2	Remodels polarity in own method types.
+p:d529294a	the programme	O	1	Internal merge gate for pin bumps.
+p:e3505ded	the programme	O	2	Classifies own PR decisions internally.
+p:e745e9b2	the clerk tool	A	1	Access control keeps outside sources from the desk.
+p:ea96a678	the programme	O	2	Internal review-request mechanism.
+p:ee95817b	the programme	O	2	Own reading of stance.
+p:f58db200	the programme	O	2	Where own concepts' meaning lives.
+p:ff946eb1	the essay editor	O	1	Models comment responses inside the essay package.

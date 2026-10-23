@@ -1,0 +1,20 @@
+{
+  "instanceId": "a411972f-97e5-4c80-95b9-5d81f50e361d",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Disrupt",
+    "looks_like": "Creates change by testing new approaches, challenging current practice and offering alternatives to existing methods.",
+    "shadow": "Changes things without care for what works, so trust erodes and people feel attacked."
+  },
+  "createdAt": "2026-10-22T12:02:44.121673948+00:00",
+  "updatedAt": "2026-10-22T12:02:44.121675805+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,102 @@
+id	title	rater_a	rater_b	resolved	stance_archetype
+p:ff946eb1	A response to a comment is a typed comment on it; conversation stays flat	OSF	ADF	~DF	(metastable on Action)
+s:0df19d60	Context order is declared on the Container as an ordered outline of entries; the Composition declares only where its order comes from	ADF	ODF	~DF	(metastable on Action)
+s:1e7c0c8e	Retirement rules speak at two levels; a Type elimination deletes retired instances once provenance is recorded	ADF	ODF	~DF	(metastable on Action)
+s:2a1e1590	State is mutable, semantics are not: the Fire carve-out, and Revisions and Changelog are removed	ADF	ODF	~DF	(metastable on Action)
+s:53635966	Tier 1 was a theory: TypedRecord is removed	ADF	ODF	~DF	(metastable on Action)
+s:6fc7e142	One escape bag, one name: meta	ADF	ODF	~DF	(metastable on Action)
+s:7d3dda60	Use authored Field names as Record value keys	ADF	ODF	~DF	(metastable on Action)
+s:92d2da05	Rename DocumentView to Composition	ADF	ODF	~DF	(metastable on Action)
+s:a270e98a	Protocol shape: unprefixed identity wins, aiGuidance is structured-only (srs#379)	ADF	OSF	~DF	(metastable on Action)
+s:bed7a41a	The root container is stored in the container set; the manifest names it and holds no content	ADF	ODF	~DF	(metastable on Action)
+s:cd27c096	A Container is a declared selection that may be an ordered, depth-annotated outline; membership is the entry ids	ADF	ODF	~DF	(metastable on Action)
+s:d5524758	Attribution returns as one optional createdBy Actor on Record, Note and Relation, stamped by the implementation from the session actor	ODF	ADF	~DF	(metastable on Action)
+s:d67e3d76	Express the definition-layer metamodel in its own Field and Type language	ADF	ODF	~DF	(metastable on Action)
+s:43249f53	One state mechanism: workflow status is a Lifecycle	ADZ	OSZ	~DZ	(metastable on Action)
+s:4f1e12e5	The attested removals: pruning the dormant machinery	ADZ	ODZ	~DZ	(metastable on Action)
+p:04b78189	Convention: one filename slug scheme for new package definition files (srs-rust#1209)	ASF	OSF	~SF	(metastable on Action)
+s:7bd99afd	Close definition-layer gaps in the model rather than a remainder overlay	ASF	OSF	~SF	(metastable on Action)
+p:2637af0a	An affirmed remedy is a recorded ruling for a group's mandate	ADF	ADF	ADF	Initiator
+p:31e9fd27	Federation returns, starting with cross-repository addressing	ADF	ADZ	ADF	Initiator
+p:5d5feb79	Where an essay keeps each agent's brief (srs-web#567, Funding 2)	ADF	ADF	ADF	Initiator
+p:7270e772	WG Third-party ready leans Initiator on its domain's three axes	ADF	ADF	ADF	Initiator
+p:a8bc55ef	Who governs the clerk long term	ADF	ADF	ADF	Initiator
+p:d529294a	Pin bumps are automatable PRs	ADF	ADF	ADF	Initiator
+s:2f048790	Generate structural reference projections from semantic records	ADF	ADF	ADF	Initiator
+s:5f18603e	Federation's return is committed, not evidence-gated	ADF	ADF	ADF	Initiator
+s:a8dcbfe5	A whole-package export declares the embedded core package in dependencyRefs instead of carrying it	ASF	ADF	ADF	Initiator
+s:aee09992	A package requirement is keyed by the required package's id, with a SemVer compatibility constraint	ADF	ASF	ADF	Initiator
+s:be253dd6	A Container is stored as a directory of one-line entry files, so concurrent membership edits merge per entry	ADF	ADF	ADF	Initiator
+s:c4fffe93	Replace valueType with orthogonal fieldType facets	ADF	ADF	ADF	Initiator
+s:e5828aa8	Package upgrade overwrites a clean same-version definition before publication, and refuses it from the first public release	ADF	ADF	ADF	Initiator
+p:05c3ddcb	Work is held as holons: revived units, one GitHub tree, ranked in the period	ADZ	ADZ	ADZ	Challenger
+p:0a87ebf6	A group's charter names the domains it holds	ADZ	ADZ	ADZ	Challenger
+s:5c1e3068	Put a deterministic target-neutral IR between records and emitters	ADZ	ADZ	ADZ	Challenger
+s:86f49083	Land carrier and storage changes as one final generation	ADZ	ASZ	ADZ	Challenger
+s:8948e43f	What a container can hold, a bundle can carry	ADZ	ADZ	ADZ	Challenger
+p:0b1c25b1	What counts as a recorded ruling for a group's mandate	ASF	ASF	ASF	Synthesizer
+p:46bb7a8c	The clerk's HTTP contract is one OpenAPI 3.1 document that routes, validation and client types derive from	ASF	ASF	ASF	Synthesizer
+p:9e2c2950	The owner can drive a feature idea directly, through the chain	ASF	ASF	ASF	Synthesizer
+p:bbb03bff	srs-rust#1417 (RFC-052): how to land the root-container move, since PR 1 alone would refuse every existing repository	ASF	ASF	ASF	Synthesizer
+p:bf4a5af5	Escalation: how do structured diagnostics reach the existing text lists? (srs-rust#1264)	ASF	ASF	ASF	Synthesizer
+s:4269c744	Place composite-renderer dispatch in the view layer	ASF	ASF	ASF	Synthesizer
+p:70a84bb7	A choice follows the group lean, or it is asked	ASZ	ASZ	ASZ	Builder
+p:a8e833f1	Every release can open every repository that exists	ASZ	ASZ	ASZ	Builder
+s:8aed3412	A story is built at EXPRESSION from reusable parts: containers carry context membership and nesting, the Composition carries context order	ASZ	ASZ	ASZ	Builder
+s:b2ff7c91	Identifier over label governs machine-facing outputs	ASZ	ASZ	ASZ	Builder
+p:21ee9352	Every agent comment names its actor	ODF	ODF	ODF	Analyst
+p:bbb23e36	A PR carries its decisions in one srs-decisions block	ODF	ODF	ODF	Analyst
+p:bd852068	A meeting's kind sets its agenda	ODF	ODF	ODF	Analyst
+p:cdd272a3	Polarity is assigned per domain and per axis: an axis-in-domain record	ODF	ODF	ODF	Analyst
+p:ea96a678	The owner may request a further agent review	ODF	ODF	ODF	Analyst
+s:0225099b	Defaults arrive later, as one mechanism	ODF	ODF	ODF	Analyst
+s:0750c62f	A Container is a declared selection: it lives on the expression plane	ODF	ODF	ODF	Analyst
+s:7255aecc	Type-keyed `type-query`: KEYED namespace/name replaces semanticObjectType dispatch	ODF	ODF	ODF	Analyst
+p:e3505ded	A PR decision is a choice, a ruling or an escalation	ODZ	ODZ	ODZ	Rebel
+p:ee95817b	A stance is read relative to its boundary	ODZ	ODZ	ODZ	Rebel
+s:19997e24	Conformance checks are declared in one registry	ODZ	OSZ	ODZ	Rebel
+s:2fb87c1e	Make the authoritative store, not the manifest, define repository content	ODZ	ODZ	ODZ	Rebel
+s:7caca3a1	Decision modes: rules for the clear, geometry for the complex, a boundary against chaos	ODZ	ODZ	ODZ	Rebel
+s:8f5aca2c	The grid grows three operations: reach, sequence, balance	ODZ	ODZ	ODZ	Rebel
+s:b9d7096e	The grid learns to read: autoclassification and the stance vocabulary	ODZ	ODZ	ODZ	Rebel
+s:cce3c00e	The Pattern Grid: the preference layer for spec decisions	ODZ	ODZ	ODZ	Rebel
+p:06e480d4	Every kind of meeting is one session record with a kind	OSF	OSF	OSF	Steward
+p:09ea5368	Requests reach a group only through its input queue	OSF	OSF	OSF	Steward
+p:2550585a	Every request is placed in a domain first	OSF	OSF	OSF	Steward
+p:2800bea0	Affirmed clusters are the owner's; suggested clusters are the synthesiser's	OSF	OSF	OSF	Steward
+p:39ffe8e5	SRS operations covers using, running and repairing SRS	OSF	OSF	OSF	Steward
+p:3b910d90	A working group operates independently only in a mature domain	OSF	OSZ	OSF	Steward
+p:6494df0f	A member's stance comes from an archetype	OSF	OSF	OSF	Steward
+p:684f84ab	A decision that cannot be made now is recorded at once as a proposal	OSF	OSZ	OSF	Steward
+p:708c9373	A problem may occur in several domains	OSF	OSF	OSF	Steward
+p:926c059f	Rules for adding to the clerk	OSF	OSF	OSF	Steward
+p:a1b06725	A capability enters clerk serve only after it is a clerk command, used for real, unchanged since the last session, and tested	OSF	OSF	OSF	Steward
+p:a47964f9	A group's input queue is its wg label plus intake	OSF	OSF	OSF	Steward
+p:a5c769be	The decision log holds only choices that govern later choices	OSF	OSF	OSF	Steward
+p:aeb9c0a2	An accepted domain estimate is a suggested problem	OSF	OSF	OSF	Steward
+p:b80d2d1e	Escalation: what naming rule do Type and Vocabulary names follow? (srs#236)	OSF	OSF	OSF	Steward
+p:c04d8164	The clerk's runtime imports nothing outside Node's standard library	OSF	OSF	OSF	Steward
+p:e745e9b2	The owner's desk is reachable only from loopback and the owner's private ZeroTier network	OSF	OSF	OSF	Steward
+s:0c403e15	Concepts describe themselves: bridging and introductory prose is the concept record's own prose	OSF	OSF	OSF	Steward
+s:1967b8eb	The .srs repository marker is a directory; its non-emptiness convention is spec, the satisfying file is implementation-owned	OSF	OSF	OSF	Steward
+s:1e5df0d9	Define the SRS decision-log inclusion boundary	OSF	OSF	OSF	Steward
+s:4431046e	A correction is not a refinement: how a decision record may change	OSF	OSF	OSF	Steward
+s:6523cf5e	Keep presentation hints outside the semantic type model	OSF	OSF	OSF	Steward
+s:693b9458	Pin the CLI that defines a required semantic drift gate	OSF	OSF	OSF	Steward
+s:991c062f	Versioning cell's Field-immutability rule does not reach the generated metamodel package	OSF	OSF	OSF	Steward
+p:31961020	Every level runs the same intake cycle	OSZ	OSZ	OSZ	Watcher
+p:559bfb9e	Experiment now, unify later	OSZ	OSZ	OSZ	Watcher
+p:7ee8fa01	A decision is shown with its compass	OSZ	OSZ	OSZ	Watcher
+p:8e1ae42a	Groups sit beside each other, not nested	OSZ	OSZ	OSZ	Watcher
+p:acf486d8	A level escalates, never decides for the level above	OSZ	OSZ	OSZ	Watcher
+p:f58db200	Meaning in the definition over meaning in the surface	OSZ	OSZ	OSZ	Watcher
+s:0118e938	A construct has one layer: a crossing is a stated goal, never a design option	OSZ	OSZ	OSZ	Watcher
+s:16b20c56	Attribution is optional, single-shaped, and never authority	OSZ	OSZ	OSZ	Watcher
+s:2e0cd70a	Carry meaning you do not recognise	OSZ	OSZ	OSZ	Watcher
+s:5f8204bc	Retirement has one way per layer	OSZ	OSZ	OSZ	Watcher
+s:628cf6c4	A rename is a migration	OSZ	OSZ	OSZ	Watcher
+s:9ee14517	Layers stay separate: the layer rules	OSZ	OSZ	OSZ	Watcher
+s:c20fcff8	The level test: a spec rule must be declarable and checkable, or it is an authoring rule	OSZ	OSZ	OSZ	Watcher
+s:c8704763	Every reference names its strength: the Reference taxonomy	OSZ	OSZ	OSZ	Watcher
+s:dd0a33fc	Make projection loss explicit in a per-emitter fidelity contract	OSZ	OSF	OSZ	Watcher
+s:e99a9437	The three doors: which change to the spec surface may merge, and by whom	OSZ	OSZ	OSZ	Watcher
