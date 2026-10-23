@@ -1,0 +1,30 @@
+{
+  "instanceId": "949ae72d-378a-4b18-b022-119b7b4b1c65",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Agent merge rights follow decision mode and door, the same in every governed repository",
+    "decision_question": "When may an agent merge its own pull request, and does that rule differ between the repositories the programme governs?",
+    "context": "srs states the rule in its CLAUDE.md 'Gates and choreography': a PR states its decision mode and door; an agent may label it gate:auto-merge only when the mode is clear or complicated AND the change is Door 1 (executes a recorded ruling) or non-normative (tooling, checks, docs); complex mode, Door 2 or Door 3 carries gate:owner-merge; chaotic stops. srs-rust consumes that rule by pointer. srs-web states no rule, so on 2026-10-23 a one-line .mcp.json change there (srs-web#608) had to wait for the owner while the identical change in srs and srs-rust merged itself. The owner asked to adopt the rule everywhere (2026-10-23).",
+    "friction": "A repository without the rule sends every agent PR, however trivial, to the owner; each session rediscovers the gap and guesses which label to use.",
+    "alternatives_considered": "1. One rule everywhere (recommended): agent merge rights follow decision mode and door in every governed repository; the rule is stated once and each repository's CLAUDE.md points to it. Leads to: trivial, non-normative or already-ruled PRs stop queueing for the owner, while new meaning, user-visible behaviour, pins and format changes stay the owner's.\n2. Owner-merge only where no rule is stated: repositories without the rule keep every agent PR for the owner. Leads to: maximum control there, and the owner's time spent on trivial PRs.\n3. Do nothing: the gap stays unstated. Leads to: each session guesses, and labels differ between repositories for the same kind of change.",
+    "decision_statement": "In every repository the programme governs, an agent may merge its own pull request only when the change's decision mode is clear or complicated and it either executes a recorded ruling (Door 1) or is non-normative (tooling, checks, docs); such a PR carries gate:auto-merge. Complex mode, a new ruling (Door 2) or an amendment to an accepted ruling's surface (Door 3), a change to user-visible behaviour, a pin advance or a format change carries gate:owner-merge, and the agent never merges it. Chaotic mode stops. The rule is stated once and each repository points to it rather than restating it.",
+    "rationale": "One way over many: the same kind of change gets the same label everywhere, and a rule stated once cannot drift between copies. It keeps the owner's attention on the changes that carry meaning.",
+    "revisit_when": "When an auto-merged change in any repository has to be reverted because it altered behaviour users rely on.",
+    "next_steps": "Point srs-web's CLAUDE.md (and any governed repository without the rule) at the canonical statement; choose its single home (the srs CLAUDE.md section today, or the clerk handbook) and make every other copy a pointer.",
+    "owner": "Peter Brownell",
+    "status": "active",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-23T13:59:41.470945774+00:00",
+  "updatedAt": "2026-10-23T13:59:41.634998164+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (relaying the owner request, 2026-10-23)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
