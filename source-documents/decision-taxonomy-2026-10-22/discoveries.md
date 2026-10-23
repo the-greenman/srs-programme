@@ -341,8 +341,7 @@ In the owner's words: "Our current work has been stuck at line 1 for a week or t
 
 The owner ruled that the three-axis structure follows the trigram. Line 1 is Earth (Cardinal, Aries ↔ Libra), line 2 is Human (Fixed, Taurus ↔ Scorpio), line 3 is Heaven (Mutable, Gemini ↔ Sagittarius), and lines 4 to 6 repeat them in the upper trigram. Systemic Data Ethics and the zodiac's Individual, Relational and Systemic levels fit the same twelve positions but are built from a different rubric, so they do not number the lines.
 
-The local reference is `three-axes-by-trigram.md` beside this page. It names three places that currently disagree:
-- the SRS compass's inner trigram, which by trigram reads 011, not 110;
+The local reference is `three-axes-by-trigram.md` beside this page. The SRS compass is zodiac based (owner, same day): its own grouping of the axes is its rubric, not an error. Reading it on trigram lines is a translation, and the two translations give different inner trigrams (110 by movement, 011 by the alignment). Two places still disagree with the trigram order:
 - clerk#159's Programme coordination axes, whose lines 2 and 3 swap;
 - clerk#159's lens paragraph.
 
