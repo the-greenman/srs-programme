@@ -1,0 +1,102 @@
+id	system	line2	conf	reason
+p:ff946eb1	essay comment model	S	1	Reuses existing comments-on; conversation stays flat, no threading introduced.
+p:f58db200	the programme	D	1	Pushes meaning out of labels into definitions; consolidation work follows.
+p:ee95817b	the programme stance model	S	1	Work-as-if reading; adds no mechanism, interprets existing stances.
+p:ea96a678	the programme review process	D	1	Adds a new label-and-comment re-review mechanism.
+p:e745e9b2	the clerk desk	S	2	Locks access down to loopback and ZeroTier; protective.
+p:e3505ded	the programme	D	1	Introduces a new three-way classification of PR decisions.
+p:d529294a	the programme merge gates	D	2	Moves pin bumps from owner-merge to auto-merge.
+p:cdd272a3	the programme method model	D	2	New axis-in-domain type, new relation, retires outline rule, supersedes polarity.
+p:c04d8164	the clerk tool	S	2	Holds runtime to stdlib to keep bare-checkout workflows working.
+p:bf4a5af5	the srs-rust CLI contract	S	2	Additive beside text list; retiring the old contract deferred.
+p:bd852068	the programme meetings	D	1	Meetings split into five kinds, each with its own agenda.
+p:bbb23e36	the programme	D	1	New required srs-decisions block in every PR.
+p:bbb03bff	srs-rust release	S	1	Lands move with migration so every repository stays readable.
+p:b80d2d1e	the SRS naming rule	S	2	Defers ruling to investigate history; no change chosen.
+p:aeb9c0a2	the programme intake model	S	1	Models estimate with existing types; domain stays derived.
+p:acf486d8	the programme levels	S	2	Protects hierarchy: escalate rather than decide upward.
+p:a8e833f1	the release practice	S	2	Every release opens every repository; continuity protected.
+p:a8bc55ef	the clerk governance	D	2	Charters a new working group to take over the clerk.
+p:a5c769be	the decision log	S	1	Narrows log to governing choices; keeps it steady.
+p:a47964f9	the programme intake model	S	1	Uses existing labels already read by every routine.
+p:a1b06725	the clerk tool	S	2	Admits only stable, tested capabilities; keeps core small.
+p:9e2c2950	the programme chain	S	1	Owner may ground fast, but chain steps are never skipped.
+p:926c059f	the clerk tool	D	2	Adopts ten rules with checks; restructures logic out of bash.
+p:8e1ae42a	the programme groups	S	1	Default flat, no nesting unless observed overlap recorded.
+p:7ee8fa01	the programme decision records	S	1	Extends ratified practice; deepens existing compass discipline.
+p:7270e772	WG Third-party ready	D	1	Picks Initiator poles (Evolution, Portability) as the group's lean.
+p:70a84bb7	the programme groups	S	1	Choices follow established lean; departures are asked.
+p:6494df0f	the programme stance model	S	1	Models stance with types and relations that already exist.
+p:684f84ab	the decision log	S	2	Undecidable decisions are held as proposals.
+p:708c9373	the programme problem model	S	2	Existing held-by covers it; nothing new stored.
+p:5d5feb79	the essay package	D	2	Adds brief type, new package version, srs-web re-pins.
+p:559bfb9e	the programme models of meaning	S	2	Lets overlapping models coexist; defers unification.
+p:46bb7a8c	the clerk HTTP contract	D	2	Restructures routes and clients to derive from one OpenAPI document.
+p:3b910d90	the programme groups	S	2	Restrains groups in immature domains under owner merge.
+p:39ffe8e5	the SRS operations domain	S	1	Defines and bounds an existing domain's scope.
+p:31e9fd27	the SRS ecosystem	D	2	Schedules federation's return now, in three steps.
+p:31961020	the programme levels	S	1	One uniform intake cycle at every level; consolidates practice.
+p:2800bea0	the programme clusters	S	2	Protects owner-affirmed clusters from agent rewrites.
+p:2637af0a	the programme merge mandate	D	1	Widens group auto-merge to affirmed remedies.
+p:2550585a	the programme intake	S	1	Adds ordering gate; placement before assessment.
+p:21ee9352	the programme comments	D	1	Introduces actor marker on every agent comment.
+p:0b1c25b1	WG Third-party ready mandate	D	1	Widens ruling set to ADRs; unparks backlog.
+p:0a87ebf6	the programme routing	D	1	New routing rule where none existed, to unblock flow.
+p:09ea5368	the programme intake	S	1	Gates requests through queue; no direct ready work.
+p:06e480d4	the programme meetings	S	1	Consolidates meetings into one record shape; record and hold.
+p:05c3ddcb	the programme work model	D	2	Revives unit type, adds rank field, changes priority rules.
+p:04b78189	srs-rust definition file naming	D	1	Switches lifecycle and vocabulary to the shared slug scheme.
+s:e99a9437	the SRS standard governance	S	1	Gates every normative change through three doors.
+s:e5828aa8	the package upgrade behaviour	D	1	Selects overwrite (renewal) now; refusal only later.
+s:dd0a33fc	the SRS projection	S	1	Contract protecting authoritative meaning from silent loss.
+s:d67e3d76	the SRS metamodel	D	2	Replaces RFC-004 vocabulary with self-hosted Field/Type definitions.
+s:d5524758	the SRS standard	D	2	Adds createdBy, bumps to revision 9.
+s:cd27c096	the SRS standard	D	2	Removes rootInstanceIds; Container becomes ordered outline.
+s:cce3c00e	the SRS standard governance	D	2	Introduces a new decision framework for all spec decisions.
+s:c8704763	the SRS standard	D	2	Reference taxonomy with schema edits and data migrations.
+s:c4fffe93	the SRS standard	D	2	Replaces valueType with fieldType facets.
+s:c20fcff8	the SRS standard governance	S	1	Placement test generalising an existing ruling; guards the surface.
+s:bed7a41a	the SRS standard	D	2	Moves root container out of manifest; new rootContainerId.
+s:be253dd6	the SRS standard	D	2	Container storage becomes directory of entries, revision 11.
+s:b9d7096e	the SRS standard governance	D	1	Adds autoclassification and stance vocabulary to the grid.
+s:b2ff7c91	the SRS standard	S	1	Clarifies existing Identity preference; no new preference.
+s:aee09992	the SRS standard	D	1	Re-keys dependency by packageId, superseding a sentence.
+s:a8dcbfe5	the package export	D	1	Stops carrying core definitions; lists them instead.
+s:a270e98a	the SRS standard	D	2	Renames Protocol properties; retires string aiGuidance.
+s:9ee14517	the SRS standard governance	S	1	Layer rules keep layers separate; govern stacking.
+s:991c062f	the spec versioning check	S	2	Excludes frozen metamodel package; keeps it as is.
+s:92d2da05	the SRS standard	D	2	Renames DocumentView to Composition.
+s:8f5aca2c	the SRS standard governance	D	1	Grid gains three new standing operations.
+s:8aed3412	the SRS standard	S	1	Meaning tree untouched; uses existing Containers and memberOrder.
+s:8948e43f	the SRS standard	D	2	Bundle must grow to carry all ten kinds.
+s:86f49083	the SRS release train	D	1	One composed migration to revision 2, no intermediate.
+s:7d3dda60	the SRS standard	D	2	Record carrier rekeyed by Field.name.
+s:7caca3a1	the SRS standard governance	D	1	Adds required decision_mode and map method.
+s:7bd99afd	the SRS metamodel	D	1	Model must grow to carry the whole surface; overlay dropped.
+s:7255aecc	the SRS standard	D	1	typeKey replaces semanticObjectType in type-query.
+s:6fc7e142	the SRS standard	D	2	Renames properties to meta with migration.
+s:693b9458	the spec drift gate	S	2	Pins one CLI release; changes only by commit.
+s:6523cf5e	the SRS standard	S	2	Keeps semantic model free of presentation hints.
+s:628cf6c4	the SRS standard	S	1	Names are contracts; rename made costly and disciplined.
+s:5f8204bc	the SRS standard	S	1	Reliability over Renewal; one retirement way per layer.
+s:5f18603e	the SRS standard	D	1	Commits federation return; supersedes evidence gate.
+s:5c1e3068	the SRS projection	D	1	Introduces an intermediate representation layer.
+s:53635966	the SRS standard	D	2	Removes Tier 1 TypedRecord.
+s:4f1e12e5	the SRS standard	D	2	Removes dormant provenance, federation and small surfaces.
+s:4431046e	the SRS decision log	S	1	Records preserved; refinements succeed, corrections marked.
+s:43249f53	the SRS standard	D	2	Retires status enums; migrates rfc_status to a Lifecycle.
+s:4269c744	the SRS standard	S	1	Places dispatch in views; semantic model untouched.
+s:2fb87c1e	the SRS standard	D	1	Moves content authority from manifest to store.
+s:2f048790	the SRS spec publication	D	1	Reference becomes generated from records.
+s:2e0cd70a	the SRS standard	S	2	Preserve unknown content; never break or discard.
+s:2a1e1590	the SRS standard	D	2	Removes revisions and changelog.
+s:1e7c0c8e	the SRS standard governance	D	1	Narrows retirement rule; type elimination may delete instances.
+s:1e5df0d9	the SRS decision log	S	1	Bounds log to consequential judgment; curation.
+s:19997e24	the spec conformance checks	D	2	Rewires validate-all into a guarded registry.
+s:1967b8eb	the SRS standard	S	2	Ratifies existing directory marker retroactively.
+s:16b20c56	the SRS standard	D	1	Principle ruled to enable removal of provenance machinery.
+s:0df19d60	the SRS standard	D	2	Moves order to Container; retires memberOrder.
+s:0c403e15	the spec authoring package	S	2	No new type; concepts carry their own prose.
+s:0750c62f	the SRS standard	D	1	Membership becomes declared; traversal branch superseded.
+s:0225099b	the SRS standard	D	2	Removes both defaultValue sites now.
+s:0118e938	the SRS standard governance	S	1	Withdraws permission clause; tightens one-layer rule.
