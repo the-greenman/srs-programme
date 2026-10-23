@@ -1,0 +1,102 @@
+id	system	line3	conf	reason
+s:0118e938	SRS layer rules	F	2	Withdraws standing permission; one layer per construct, fixed by our rule.
+s:0225099b	SRS definition-layer defaults	F	1	Removes now; future return pre-shaped as one designed mechanism.
+s:0750c62f	SRS Container construct	F	2	Assigns Container a plane and fixes declared membership.
+s:0c403e15	SRS spec authoring package	F	2	Fixes where bridging prose lives; no new types.
+s:0df19d60	SRS document ordering	F	2	Declares order on Container; retires memberOrder by design.
+s:16b20c56	SRS attribution cell	F	1	Fixes constraints in advance; machinery shape awaits return.
+s:1967b8eb	SRS repository marker	F	1	Ratifies directory marker; delegates default file to implementation.
+s:19997e24	SRS conformance checks	F	2	Single registry with membership guard, planned end state.
+s:1e5df0d9	SRS decision log	F	2	Sets a curated inclusion boundary by our rule.
+s:1e7c0c8e	SRS retirement rules	Z	1	Tool offers mechanisms; each corpus decides its own retirement practice.
+s:2a1e1590	SRS versioning cell	Z	1	Removes unexercised history machinery; return gated on real consumer.
+s:2e0cd70a	SRS instance-layer reading	Z	2	Carries unknown outside content rather than rejecting it.
+s:2f048790	SRS reference publication	F	2	Fixes records as source, generates projections.
+s:2fb87c1e	SRS repository content	F	2	Fixes store as content authority.
+s:4269c744	SRS composite rendering	F	1	Places dispatch in view layer by design.
+s:43249f53	SRS workflow state	F	2	One mechanism, migration planned and executed.
+s:4431046e	SRS decision record changes	F	1	Fixes two change kinds; informed by reading practice.
+s:4f1e12e5	SRS dormant machinery	Z	2	Prunes what usage evidence shows unused; returns evidence-triggered.
+s:53635966	SRS record tiers	Z	1	Removes tier lacking evidence; design follows practice.
+s:5c1e3068	SRS projection architecture	F	2	Fixes an IR between records and emitters.
+s:5f18603e	SRS federation	F	2	Return committed and owner-scheduled, not evidence-gated.
+s:5f8204bc	SRS retirement	F	2	One fixed retirement mechanism per layer.
+s:628cf6c4	SRS naming	F	2	Every rename ships as a disciplined migration.
+s:6523cf5e	SRS semantic/render boundary	F	2	Fixes hints outside the type model.
+s:693b9458	SRS drift gate	F	2	Pins CLI so behaviour changes only by our commit.
+s:6fc7e142	SRS escape bag	F	2	Unifies the name; executed as planned unit.
+s:7255aecc	SRS type-query	F	2	Fixes selection key design for #272.
+s:7bd99afd	SRS metamodel	F	2	Model must carry full surface; no overlay.
+s:7caca3a1	SRS governance	Z	1	Complex cases mapped for emergence, not resolved by rule.
+s:7d3dda60	SRS record carrier	F	2	Fixes field-name keyed values.
+s:86f49083	SRS migration train	F	2	One composed release train, no intermediate generation.
+s:8948e43f	SRS portability	F	2	Mandates travelling forms for every held construct.
+s:8aed3412	SRS expression arrangements	F	2	Fixes where context membership and order live.
+s:8f5aca2c	SRS grid operations	Z	1	Reach marks name counterparties; seek conversation over solo work.
+s:92d2da05	SRS rendering vocabulary	F	2	Renames entity by decision.
+s:991c062f	SRS versioning check	F	2	Narrows a check's walk by name.
+s:9ee14517	SRS layer stacking	F	2	Imposes six layer rules on all designs.
+s:a270e98a	SRS protocol schema	F	2	Fixes Protocol property shape.
+s:a8dcbfe5	SRS package export	F	2	Fixes what export carries versus references.
+s:aee09992	SRS package dependencies	F	1	Fixes key and version rule; tolerates compatible versions.
+s:b2ff7c91	SRS machine-facing outputs	F	2	Extends identifier preference to outputs by rule.
+s:b9d7096e	SRS grid operations	Z	1	Reads external frameworks and corpus into the grid.
+s:be253dd6	SRS container storage	F	1	Fixed storage design accommodating concurrent writers.
+s:bed7a41a	SRS root container	F	2	Moves root container into store by design.
+s:c20fcff8	SRS normative surface	F	2	Placement test applied to every statement.
+s:c4fffe93	SRS field model	F	2	Replaces valueType with designed facets.
+s:c8704763	SRS references	F	2	Four fixed reference strengths, one form each.
+s:cce3c00e	SRS governance	F	2	Adopts a decision framework steering all decisions.
+s:cd27c096	SRS Container	F	2	Fixes ordered outline and navigation rule.
+s:d5524758	SRS attribution	F	2	Specifies createdBy shape and stamping precisely.
+s:d67e3d76	SRS metamodel	F	2	Authors metamodel in own language.
+s:dd0a33fc	SRS emitters	F	2	Per-emitter fidelity contract fixed.
+s:e5828aa8	SRS package upgrade	F	1	Phase-bound rule with precommitted sunset.
+s:e99a9437	SRS change process	F	2	Three doors govern every merge.
+p:04b78189	srs-rust definition filenames	Z	1	Convention used as a test until proven; enforcement deferred.
+p:05c3ddcb	programme work tracking	F	2	Fixes how holons are held and ranked.
+p:06e480d4	programme meetings	F	2	One session record type for all meetings.
+p:09ea5368	working group intake	F	2	Fixes single entry route for requests.
+p:0a87ebf6	working group routing	F	2	Routes by charter domains, fixed rule.
+p:0b1c25b1	WG Third-party ready mandate	F	2	Defines exactly which records count.
+p:21ee9352	agent comments	F	2	Fixed actor marker on every comment.
+p:2550585a	request intake	F	2	Fixed placement step first.
+p:2637af0a	working group mandate	F	1	Widens group autonomy within owner-affirmed remedies.
+p:2800bea0	cluster synthesis	F	1	Fixes ownership boundary between owner and agent.
+p:31961020	programme intake levels	F	1	Same cycle everywhere, held as working hypothesis.
+p:31e9fd27	federation return	F	2	Schedules a three-step plan now.
+p:39ffe8e5	SRS operations domain	F	2	Fixes domain scope.
+p:3b910d90	working groups	F	2	Owner keeps control until domain is mature.
+p:46bb7a8c	clerk HTTP contract	F	2	Single source contract all derive from.
+p:559bfb9e	programme meaning models	Z	2	Experiment side by side; practice shows how to unify.
+p:5d5feb79	essay agent briefs	F	2	Chooses option A, typed data, release planned.
+p:6494df0f	member stance model	F	1	Fixed model, built from existing types.
+p:684f84ab	decision log	Z	1	Unready decisions held open as proposals across sessions.
+p:708c9373	problem modelling	F	1	Fixed model; domains derived from holders.
+p:70a84bb7	agent choices	F	1	Follow lean, else ask; control retained.
+p:7270e772	WG Third-party ready	F	2	Fixes the group's leans.
+p:7ee8fa01	decision records	F	2	Every decision set against compass.
+p:8e1ae42a	working group structure	Z	1	Nesting only when observed overlap shows it.
+p:926c059f	clerk code	F	2	Ten rules enforced by checks.
+p:9e2c2950	owner feature flow	F	1	Owner may drive on spot; chain still enforced.
+p:a1b06725	clerk serve	Z	2	Enters only after real use shows it stable.
+p:a47964f9	group input queue	F	1	Models queue on existing labels.
+p:a5c769be	decision log	F	2	Fixes log scope.
+p:a8bc55ef	clerk governance	Z	1	Distributes clerk governance to a group; owner keeps gates.
+p:a8e833f1	data-model revisions	F	2	Fixed landing order: revision with migration.
+p:acf486d8	programme levels	F	2	Escalation rule fixed.
+p:aeb9c0a2	domain estimates	F	1	Fixed modelling choice.
+p:b80d2d1e	SRS naming rule	Z	2	Investigate history before deciding.
+p:bbb03bff	srs-rust#1417 landing	F	2	Applies ruled landing shape.
+p:bbb23e36	PR decisions	F	2	One fixed block for PR decisions.
+p:bd852068	meetings	F	2	Kind sets agenda, fixed set.
+p:bf4a5af5	srs-rust diagnostics	Z	1	Additive parallel list; retirement left open to decide later.
+p:c04d8164	clerk runtime	F	2	Fixed no-runtime-dependency rule.
+p:cdd272a3	method axes	F	1	Owner-chosen model; polarity relative per domain.
+p:d529294a	pin bump PRs	F	1	Fixed gate rule; delegates merges.
+p:e3505ded	PR decisions	F	2	Fixed three-way classification.
+p:e745e9b2	owner's desk access	F	2	Closes boundary to loopback and ZeroTier.
+p:ea96a678	agent reviews	F	2	Fixed request mechanism.
+p:ee95817b	stance reading	Z	1	Stance responds to the boundary it acts in.
+p:f58db200	practice meanings	F	2	Meaning fixed in definition over surfaces.
+p:ff946eb1	editor comments	F	2	Fixed response model, flat conversation.
