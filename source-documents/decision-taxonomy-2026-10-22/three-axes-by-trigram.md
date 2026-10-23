@@ -4,6 +4,14 @@ SemanticOps' local reference for how a three-axis structure is laid out. **The t
 
 This is a local version of greenmans_creation `obsidian-vault/1-Systems-and-Topology/I-Ching-Zodiac-Isomorphism.md`, aligned to the trigrams. The original is unchanged. Where this page and another instrument disagree, the disagreement is listed under "Where instruments differ" and waits for a ruling. Nothing here changes a ratified record by itself.
 
+## Two synthetic systems, two maps
+
+The trigram and the zodiac are **different synthetic systems that map the same space** (owner, 2026-10-23). They are related, but they are different maps, built from different rubrics.
+
+- **The trigram (three axes) is the default for a domain.** It is built directly from tensions, one per line.
+- **The zodiac (the SRS compass) makes gaps easier to find.** It has twelve cells and six axes on a fixed grid, so an empty cell or axis is a question the domain has not asked.
+- **Moving between them is a translation.** It goes through the alignment below, and is stated whenever it is used.
+
 ## The rule
 
 1. **A trigram is three lines, read from the bottom.**
@@ -56,16 +64,16 @@ These triads are real, but they are not the trigram's line triad. Do not use the
    - The table above places compass axes on trigram lines through the I Ching ↔ zodiac alignment (axis k on line k). That is a translation for comparing instruments.
    - Two translations give different trigrams for the same compass defaults. By the compass's movement grouping, the inner trigram reads 110 (Engagement). By the alignment it reads 011. The outer trigram reads 101 both ways.
    - When the compass is read as a trigram (b9d7096e's stance vocabulary), say which translation is meant.
-2. **A domain's axes in clerk#159** (Programme coordination, first pass).
-   - The chapter places Core once ↔ Adapter convenience on line 2 and Compatibility ↔ One way on line 3, by Action, Form, Time.
-   - By trigram, line 2 (Human, Fixed, foundation ↔ transformation) is the keep-or-transform axis, Compatibility ↔ One way. Line 3 (Heaven, Mutable, local ↔ expansive) is the concentrate-or-distribute axis, Core once ↔ Adapter convenience.
-   - So lines 2 and 3 swap. Line 1 (Human layer ↔ Agent throughput, who acts) is unchanged.
-3. **clerk#159's lens paragraph** offers "Action, Form, Time" and "Energy, Scope, Time" as interchangeable generators, and says the stance is built on the second. The stance is built on Act, Disrupt, Focus in that line order. The two lists are different triads (see the table above), not alternative names for the same slots.
+2. **clerk#159** (the handbook chapter on a domain's axes): resolved in 4dd09b9.
+   - It now presents the two maps as above.
+   - Programme coordination's axes are on trigram lines (line 2 Compatibility ↔ One way; line 3 Core once ↔ Adapter convenience).
+   - It gives the compass only as a translation.
+   - It leaves two polarities open for the owner: line 1 (who moves against who holds authority) and line 3 (the trigram reading marks Core once yang).
 
 ## Using it
 
 - **Placing a decision:** rate each line in its own question (the stance column), with the boundary stated first. The code is the three letters in line order: line 1, then line 2, then line 3.
-- **Placing a domain's three axes:** give each axis the line whose Three Powers question it answers. Line 1: who acts, and whether energy goes out or in. Line 2: whether to keep or transform. Line 3: whether to hold the boundary or open it. Then test the pairs and the cube (clerk#159, steps 3 and 4).
+- **Placing a domain's three axes:** use the trigram, and give each axis the line whose Three Powers question it answers. Then translate onto the compass to look for gaps. Line 1: who acts, and whether energy goes out or in. Line 2: whether to keep or transform. Line 3: whether to hold the boundary or open it. Then test the pairs and the cube (clerk#159, steps 3 and 4).
 - **Reading a decision against its domain (context × action):** pair line k with line k. Both now use the same line order, so line k means the same Three Powers position in each.
 
 Sources: greenmans_creation `I-Ching-Zodiac-Isomorphism.md`, `Leadership-Archetypes.md`, `Three-Axes.md`, `systemic-data-ethics.md`; srs `docs/charter/decision-compass.md`; srs-context cc05d4c9; clerk#159; srs-programme exercise b430b7e0, discoveries 7 to 12.
