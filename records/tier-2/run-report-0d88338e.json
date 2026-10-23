@@ -1,0 +1,22 @@
+{
+  "instanceId": "0d88338e-a866-42fc-b9b4-eae774b2bc8f",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle 2026-10-21 to 2026-10-23",
+    "run_date": "2026-10-23",
+    "chose": "Closed the cycle, covering 2026-10-21 11:30 to 2026-10-23 11:30 UTC because the 2026-10-22 close could not run (the shared GitHub API quota was exhausted). Nothing to ratify: no builder decision awaits assent. Merged in the window: owner-merge srs-web#586, srs-web#597 and srs-rust#1424; srs-web#594 (agents read attached file text) carries no gate label, and the group-state count for the window now reads 0 delegated. Escalation 5d5feb79 (where an essay keeps each agent brief) is still waiting for the owner. The queue is nearly dry: one ready issue, semanticops.com#14, which the owner runs.",
+    "rationale": "No new escalation raised: 5d5feb79 already covers the stopped issues srs-web#567 and #571.",
+    "figures": "Delegated merges (group-state, current cycle): 0 of 10; srs-web#594 unlabelled merge 2026-10-21 12:27. Open delegated group PRs: 0. Open owner-merge: none. needs-input: srs-web#567, #571. Pause state: running."
+  },
+  "createdAt": "2026-10-23T11:39:27.421912227+00:00",
+  "updatedAt": "2026-10-23T11:39:39.598010294+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
