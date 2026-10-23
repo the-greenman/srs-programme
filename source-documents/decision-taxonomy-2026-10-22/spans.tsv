@@ -1,0 +1,81 @@
+id	title	span_i	span_j	span_consensus	chosen_i	chosen_j	decision_v3	options_i	options_j
+s:0118e938	A construct has one layer: a crossing is a stated goal, never a design option	111	111	111	ODF	ODF	OSF	4	4
+s:0225099b	Defaults arrive later, as one mechanism	000	010	0~0	ADF	ADF	ODF	4	4
+s:0750c62f	A Container is a declared selection: it lives on the expression plane	111	111	111	ODF	ADF	ODF	4	4
+s:0c403e15	Concepts describe themselves: bridging and introductory prose is the concept record's own prose	110	010	~10	OSF	ASF	OSF	3	3
+s:0df19d60	Context order is declared on the Container as an ordered outline of entries; the Composition declares only where its order comes from	000	000	000	ADF	ADF	ODF	5	5
+s:16b20c56	Attribution is optional, single-shaped, and never authority	111	111	111	OSZ	OSZ	ODF	3	3
+s:1967b8eb	The .srs repository marker is a directory; its non-emptiness convention is spec, the satisfying file is implementation-owned	110	011	~1~	OSF	ASZ	~SF	5	5
+s:19997e24	Conformance checks are declared in one registry	010	011	01~	ODF	ODF	ODF	4	4
+s:1e5df0d9	Define the SRS decision-log inclusion boundary	011	011	011	ODF	OSF	OSF	5	5
+s:1e7c0c8e	Retirement rules speak at two levels; a Type elimination deletes retired instances once provenance is recorded	010	111	~1~	ODF	ADZ	O~Z	3	3
+s:2a1e1590	State is mutable, semantics are not: the Fire carve-out, and Revisions and Changelog are removed	010	010	010	ADF	ADF	ODZ	4	4
+s:2e0cd70a	Carry meaning you do not recognise	001	011	0~1	ADZ	ASZ	ASZ	4	4
+s:2f048790	Generate structural reference projections from semantic records	010	010	010	ODF	ODF	ADF	4	4
+s:2fb87c1e	Make the authoritative store, not the manifest, define repository content	011	011	011	ADF	ADF	ODF	3	3
+s:4269c744	Place composite-renderer dispatch in the view layer	010	010	010	ADF	ADF	OSF	4	4
+s:43249f53	One state mechanism: workflow status is a Lifecycle	011	011	011	ODF	ADF	ODF	2	2
+s:4431046e	A correction is not a refinement: how a decision record may change	011	011	011	ODF	ODF	OSF	4	4
+s:4f1e12e5	The attested removals: pruning the dormant machinery	011	011	011	ADZ	ADF	ODZ	4	4
+s:53635966	Tier 1 was a theory: TypedRecord is removed	011	011	011	ADF	ADF	ODZ	4	4
+s:5c1e3068	Put a deterministic target-neutral IR between records and emitters	011	111	~11	ADF	ODF	ODF	2	2
+s:5f18603e	Federation's return is committed, not evidence-gated	010	011	01~	ODF	ODF	ADF	4	4
+s:5f8204bc	Retirement has one way per layer	010	111	~1~	ASF	ASF	OSF	3	3
+s:628cf6c4	A rename is a migration	101	111	1~1	OSF	OSF	OSF	3	3
+s:6523cf5e	Keep presentation hints outside the semantic type model	010	010	010	ASF	ASF	OSF	2	2
+s:693b9458	Pin the CLI that defines a required semantic drift gate	011	011	011	OSF	OSF	OSF	2	3
+s:6fc7e142	One escape bag, one name: meta	010	010	010	ADF	ADF	ODF	3	3
+s:7255aecc	Type-keyed `type-query`: KEYED namespace/name replaces semanticObjectType dispatch	010	010	010	ADF	ADF	ODF	4	4
+s:7bd99afd	Close definition-layer gaps in the model rather than a remainder overlay	010	010	010	ODF	ODF	ODF	2	2
+s:7caca3a1	Decision modes: rules for the clear, geometry for the complex, a boundary against chaos	001	011	0~1	ODZ	ODZ	OD~	4	4
+s:7d3dda60	Use authored Field names as Record value keys	010	010	010	ADF	ADF	ODF	5	5
+s:86f49083	Land carrier and storage changes as one final generation	001	011	0~1	ADF	ADF	ADF	4	4
+s:8948e43f	What a container can hold, a bundle can carry	011	011	011	ADF	ADF	ADF	3	3
+s:8aed3412	A story is built at EXPRESSION from reusable parts: containers carry context membership and nesting, the Composition carries context order	111	011	~11	OSF	ADF	OSF	3	3
+s:8f5aca2c	The grid grows three operations: reach, sequence, balance	010	010	010	ODZ	ODZ	ODZ	3	3
+s:92d2da05	Rename DocumentView to Composition	110	010	~10	ADF	ADF	ODF	4	4
+s:991c062f	Versioning cell's Field-immutability rule does not reach the generated metamodel package	011	011	011	OSZ	OSZ	OSF	2	2
+s:9ee14517	Layers stay separate: the layer rules	011	011	011	ODF	ODF	OSF	3	3
+s:a270e98a	Protocol shape: unprefixed identity wins, aiGuidance is structured-only (srs#379)	010	011	01~	ADF	ADF	ODF	3	3
+s:a8dcbfe5	A whole-package export declares the embedded core package in dependencyRefs instead of carrying it	011	011	011	ADF	ADF	ADF	4	4
+s:aee09992	A package requirement is keyed by the required package's id, with a SemVer compatibility constraint	010	010	010	ADF	ADF	~DF	4	4
+s:b2ff7c91	Identifier over label governs machine-facing outputs	010	111	~1~	ODF	ASF	ASF	3	3
+s:b9d7096e	The grid learns to read: autoclassification and the stance vocabulary	011	011	011	ODZ	ODZ	OD~	4	4
+s:be253dd6	A Container is stored as a directory of one-line entry files, so concurrent membership edits merge per entry	001	011	0~1	ADF	ADF	ODF	11	11
+s:bed7a41a	The root container is stored in the container set; the manifest names it and holds no content	010	010	010	ADF	ADF	ODF	4	4
+s:c20fcff8	The level test: a spec rule must be declarable and checkable, or it is an authoring rule	011	011	011	ODF	ODF	OSF	5	5
+s:c4fffe93	Replace valueType with orthogonal fieldType facets	010	010	010	ADF	ADF	ODF	3	3
+s:c8704763	Every reference names its strength: the Reference taxonomy	010	010	010	ADF	ADF	ODF	4	4
+s:cce3c00e	The Pattern Grid: the preference layer for spec decisions	011	011	011	ODF	ODF	ODF	4	4
+s:cd27c096	A Container is a declared selection that may be an ordered, depth-annotated outline; membership is the entry ids	010	000	0~0	ADF	ADF	ODF	4	4
+s:d5524758	Attribution returns as one optional createdBy Actor on Record, Note and Relation, stamped by the implementation from the session actor	001	001	001	ADF	ADF	ODF	7	7
+s:d67e3d76	Express the definition-layer metamodel in its own Field and Type language	010	010	010	ODF	ODF	ODF	3	3
+s:dd0a33fc	Make projection loss explicit in a per-emitter fidelity contract	011	011	011	ADF	ADF	ASF	3	3
+s:e5828aa8	Package upgrade overwrites a clean same-version definition before publication, and refuses it from the first public release	011	011	011	ADZ	ADZ	A~F	4	4
+s:e99a9437	The three doors: which change to the spec surface may merge, and by whom	010	011	01~	ODF	OSF	OSF	4	4
+p:04b78189	Convention: one filename slug scheme for new package definition files (srs-rust#1209)	011	011	011	ASZ	OSZ	O~Z	3	3
+p:05c3ddcb	Work is held as holons: revived units, one GitHub tree, ranked in the period	000	010	0~0	ODF	ODF	ODF	5	5
+p:0b1c25b1	What counts as a recorded ruling for a group's mandate	011	011	011	ODF	ODF	O~F	4	4
+p:2637af0a	An affirmed remedy is a recorded ruling for a group's mandate	010	011	01~	ODF	ODF	OD~	3	4
+p:31e9fd27	Federation returns, starting with cross-repository addressing	011	111	~11	ADF	ADF	ADF	4	4
+p:3b910d90	A working group operates independently only in a mature domain	011	001	0~1	ODZ	OSZ	OSF	4	4
+p:46bb7a8c	The clerk's HTTP contract is one OpenAPI 3.1 document that routes, validation and client types derive from	011	111	~11	ODF	ADF	ADF	5	5
+p:559bfb9e	Experiment now, unify later	011	011	011	OSZ	OSZ	OSZ	4	4
+p:5d5feb79	Where an essay keeps each agent's brief (srs-web#567, Funding 2)	011	111	~11	ADF	ADF	ADF	4	4
+p:7270e772	WG Third-party ready leans Initiator on its domain's three axes	011	011	011	ODF	ODF	ODF	3	3
+p:7ee8fa01	A decision is shown with its compass	011	011	011	ODF	ODF	OSF	3	3
+p:926c059f	Rules for adding to the clerk	011	011	011	ODF	ODF	ODF	3	3
+p:9e2c2950	The owner can drive a feature idea directly, through the chain	011	011	011	ODF	ODF	O~F	3	3
+p:a1b06725	A capability enters clerk serve only after it is a clerk command, used for real, unchanged since the last session, and tested	011	011	011	OSZ	OSZ	OSZ	4	4
+p:a8bc55ef	Who governs the clerk long term	010	010	010	ODF	ODF	OD~	3	3
+p:a8e833f1	Every release can open every repository that exists	001	011	0~1	ASF	OSF	ASF	4	4
+p:b80d2d1e	Escalation: what naming rule do Type and Vocabulary names follow? (srs#236)	111	111	111	OSZ	OSZ	OSZ	4	4
+p:bbb03bff	srs-rust#1417 (RFC-052): how to land the root-container move, since PR 1 alone would refuse every existing repository	011	111	~11	ADF	ADF	ASF	4	4
+p:bf4a5af5	Escalation: how do structured diagnostics reach the existing text lists? (srs-rust#1264)	011	111	~11	ADZ	ADZ	ASZ	3	5
+p:c04d8164	The clerk's runtime imports nothing outside Node's standard library	011	011	011	OSF	OSF	OSF	5	5
+p:c7fefad9		011	111	~11	OSF	OSF		3	3
+p:cdd272a3	Polarity is assigned per domain and per axis: an axis-in-domain record	010	010	010	ODF	ODF	ODF	3	3
+p:d529294a	Pin bumps are automatable PRs	011	010	01~	ODZ	ODF	ODF	3	3
+p:e745e9b2	The owner's desk is reachable only from loopback and the owner's private ZeroTier network	110	111	11~	ODF	ADF	ASF	5	5
+p:f58db200	Meaning in the definition over meaning in the surface	011	011	011	ODF	ODF	ODF	4	4
+p:ff946eb1	A response to a comment is a typed comment on it; conversation stays flat	011	111	~11	ADF	ADF	OSF	4	4

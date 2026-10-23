@@ -1,0 +1,102 @@
+id	system	line3	conf	reason
+p:ff946eb1	essay comment model	F	2	Fixes response-as-typed-comment design and flat conversation shape.
+p:f58db200	practice concept definitions	F	2	Fixes where meaning lives; surfaces must follow the definition.
+p:ee95817b	agent stance model	Z	1	Stance read from surrounding boundary, not fixed in advance.
+p:ea96a678	PR review process	F	2	Owner-triggered review procedure with fixed label and comment.
+p:e745e9b2	owner desk access	F	2	Closes the boundary; owner-controlled network is sole access.
+p:e3505ded	PR decision routing	F	2	Fixed three-way classification and routing for every PR decision.
+p:d529294a	merge gates	F	1	Sets a standing gate rule for pin-bump PRs.
+p:cdd272a3	domain axis polarity model	F	1	Designs a new type fixing polarity per domain axis.
+p:c04d8164	clerk runtime dependencies	F	2	Closes runtime to stdlib only; hard dependency rule.
+p:bf4a5af5	CLI diagnostics surfaces	Z	1	Additive parallel list protects readers; retirement decided later.
+p:bbb23e36	PR decision recording	F	2	Mandates one structured block in every PR.
+p:bd852068	meeting agendas	F	1	Fixed set of meeting kinds dictates agenda.
+p:bbb03bff	RFC-052 delivery shape	F	1	Applies standing rule: revision lands together with migration.
+p:b80d2d1e	naming-rule escalation	Z	2	No ruling; investigate history and evidence before choosing.
+p:aeb9c0a2	intake domain estimate	F	1	Fixes modelling of estimate as suggested problem.
+p:acf486d8	governance levels	F	1	Fixed hierarchy rule: escalate, never decide upward.
+p:a8e833f1	data-model revision landing	F	1	Fixed landing order; every release opens all repositories.
+p:a8bc55ef	clerk governance	F	0	Planned delegation to a group, owner keeps key controls.
+p:a5c769be	decision log scope	F	1	Fixes what enters the log; rest handled elsewhere.
+p:a47964f9	group input queue	F	1	Fixed queue model reusing existing label surface.
+p:a1b06725	clerk serve core	Z	1	Core grows only from capabilities proven stable in real use.
+p:9e2c2950	feature intake chain	F	2	Owner drives ideas through a fixed, non-skippable chain.
+p:926c059f	clerk code rules	F	2	Ten rules enforced by checks, allowlist shrinking to zero.
+p:8e1ae42a	working group structure	Z	1	Nesting only when an observed overlap shows the need.
+p:7ee8fa01	decision records	F	1	Every record must cite its compass; fixed requirement.
+p:7270e772	WG Third-party ready lean	F	2	Sets the group's lean on all three axes.
+p:70a84bb7	agent choice authority	F	1	Choices steered by declared lean; deviations asked.
+p:708c9373	problem-domain model	F	1	Fixes modelling; domains derived from holders.
+p:684f84ab	deferred decisions	F	0	Captures undecided choice at once; holds it open.
+p:6494df0f	member stance model	F	1	Fixes stance modelling using existing types.
+p:5d5feb79	essay agent brief storage	F	2	Chooses typed package data and a planned release.
+p:559bfb9e	models of meaning	Z	2	Experiment side by side; practice decides unification.
+p:46bb7a8c	clerk HTTP contract	F	2	One source document all routes and types derive from.
+p:3b910d90	working group autonomy	F	1	Owner keeps control until domain matures to three axes.
+p:39ffe8e5	SRS operations domain	F	1	Fixes domain scope by owner definition.
+p:31e9fd27	federation roadmap	F	2	Owner schedules a three-step plan now.
+p:31961020	intake cycle	F	1	One fixed cycle imposed on every level.
+p:2800bea0	cluster ownership	F	1	Owner control over affirmed clusters fixed.
+p:2637af0a	group mandate	Z	0	Widens what groups may act on and merge themselves.
+p:2550585a	request placement	F	1	Fixed first step for every request.
+p:21ee9352	agent comment attribution	F	2	Fixed actor marker on every agent comment.
+p:0b1c25b1	group mandate rulings	F	1	Fixes the list of what counts as ruling.
+p:0a87ebf6	request routing	F	1	Fixed routing rule via charter domains.
+p:09ea5368	group intake	F	1	Single fixed entry path for requests.
+p:06e480d4	meeting records	F	1	One record shape for all meetings.
+p:05c3ddcb	work holding and priority	F	2	Fixed holon structure and ranking to keep plan executing.
+p:04b78189	definition file naming	Z	1	Convention trialled as test; enforcement awaits proof.
+s:e99a9437	spec change merge rights	F	2	Fixed three doors governing every spec change.
+s:e5828aa8	package upgrade behaviour	F	1	Fixed phase-bound rule with planned sunset.
+s:dd0a33fc	metamodel emitters	F	2	Fixed fidelity contract for every emitter.
+s:d67e3d76	definition metamodel	F	2	Self-hosting the metamodel in own language by design.
+s:d5524758	attribution property	F	1	Fixes createdBy shape and stamping rules.
+s:cd27c096	container model	F	2	Fixes container as ordered outline; root order is navigation.
+s:cce3c00e	spec decision framework	F	2	Adopts a fixed grid and default poles for decisions.
+s:c8704763	reference model	F	2	Four strengths, one form each, governing all references.
+s:c4fffe93	field model	F	2	Redesigns field typing into orthogonal facets.
+s:c20fcff8	spec normative placement	F	1	Fixed placement test for every normative statement.
+s:bed7a41a	repository storage	F	2	Moves root container into container set by design.
+s:be253dd6	container storage	F	1	Fixed storage design accommodating concurrent writers.
+s:b9d7096e	grid operations	F	1	Adds our classification instrument over corpora.
+s:b2ff7c91	machine-facing outputs	F	2	Typed identifiers mandated on every output.
+s:aee09992	package dependencies	F	1	Fixes key and compatibility rule; accepts version band.
+s:a8dcbfe5	package export	F	1	Fixes what bundles carry versus reference.
+s:a270e98a	protocol schema	F	2	Fixes protocol property shape.
+s:9ee14517	spec layering	F	2	Six fixed layer rules govern all design.
+s:991c062f	versioning check scope	F	1	Carves exclusion by name from our rule.
+s:92d2da05	rendering vocabulary	F	2	Rename decided and imposed.
+s:8f5aca2c	grid operations	Z	1	Reach marks name outside counterparts; re-marked each cycle.
+s:8aed3412	expression arrangement	F	1	Fixes where membership and order live.
+s:8948e43f	portability mandate	F	2	Mandates bundles carry every construct, now and future.
+s:86f49083	migration release	F	2	One composed release train, no intermediate generation.
+s:7d3dda60	record carrier	F	2	Fixes carrier keying by field name.
+s:7caca3a1	decision modes	F	1	Fixes mode machinery, though complex mode probes emergence.
+s:7bd99afd	metamodel completeness	F	2	Records must carry all meaning; no overlay.
+s:7255aecc	section source query	F	2	Fixes keyed design and fail-closed posture.
+s:6fc7e142	escape bag naming	F	2	One name imposed everywhere.
+s:693b9458	drift gate	F	2	Pins CLI so behaviour changes only by our commit.
+s:6523cf5e	type model boundary	F	1	Keeps presentation out of semantic model.
+s:628cf6c4	renaming discipline	F	2	Every rename ships as a full migration.
+s:5f8204bc	retirement mechanisms	F	2	One fixed retirement mechanism per layer.
+s:5f18603e	federation return	F	2	Return committed by will, explicitly not evidence-gated.
+s:5c1e3068	projection architecture	F	2	Fixes IR between records and emitters.
+s:53635966	record tiers	Z	1	Removed unused theory; practice evidence decided the model.
+s:4f1e12e5	dormant machinery	Z	2	Prunes what practice never used; returns await triggers.
+s:4431046e	decision record changes	F	1	Fixed test separating correction from refinement.
+s:43249f53	workflow state	F	2	One state mechanism imposed; migration scheduled.
+s:4269c744	composite rendering	F	1	Places dispatch in view layer by design.
+s:2fb87c1e	content authority	F	1	Fixes authoritative store as content source.
+s:2f048790	reference publication	F	2	Generate projections from records; fixed pipeline.
+s:2e0cd70a	unknown content handling	Z	2	Tolerates and preserves content it does not control.
+s:2a1e1590	versioning and history	Z	0	Removes unused history machinery; return awaits a consumer.
+s:1e7c0c8e	instance retirement	Z	1	Tool enables; corpora choose their own retirement policy.
+s:1e5df0d9	decision log	F	1	Fixed inclusion boundary for the log.
+s:19997e24	conformance checks	F	2	One registry with guard; planned end state.
+s:1967b8eb	repository marker	F	1	Fixes marker kind; member choice delegated to implementation.
+s:16b20c56	attribution principle	F	1	Fixes constraints in advance; mechanism waits for return.
+s:0df19d60	context order	F	2	Fixes where order is declared.
+s:0c403e15	spec prose placement	F	2	Fixes prose ownership; no new types.
+s:0750c62f	container plane	F	2	Fixes container's plane and meaning.
+s:0225099b	defaults	F	1	Removes now; future shape fixed in advance.
+s:0118e938	layer rule	F	2	Tightens rule; crossings only for stated goals.

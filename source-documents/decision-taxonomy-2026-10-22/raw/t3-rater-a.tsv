@@ -1,0 +1,102 @@
+id	boundary	action	action_conf	action_reason	change	change_conf	change_reason	perspective	perspective_conf	perspective_reason	code
+s:0118e938	spec layer rules	O	1	Withdraws a design permission; tests proposals before acceptance	S	1	Constrains crossings; ruling clause stands, permission withdrawn	Z	2	Binds every construct schema and every proposal's layer test	OSZ
+s:0225099b	spec definition layer	O	1	Holds defaults back until designed whole in own RFC	D	2	Removes both defaultValue sites, supersedes ledger row	F	2	One construct: definition-layer defaults	ODF
+s:0750c62f	Container construct	O	1	Defines what a Container means; plane assignment, not shipping	D	1	Supersedes I-66 traversal membership; stabilises one-tree reading	F	1	One construct, though every consumer re-reads it	ODF
+s:0c403e15	spec authoring package	O	1	Locates prose in the concept; adds nothing outward	S	2	No Type added, removed or changed	F	1	Where one kind of prose lives	OSF
+s:0df19d60	Container and Composition order	A	1	Enables declared document sequence on the Container	D	2	Retires memberOrder, relocates context order	F	2	One property: memberInstanceIds entries	ADF
+s:16b20c56	spec attribution cell	O	2	Testimony never authority; fixes constraints before machinery returns	S	1	Constrains future mechanism; also enables machinery removal	Z	1	One shape for attribution across the standard	OSZ
+s:1967b8eb	.srs repository marker	O	1	Retroactively ratifies an existing ruling	S	2	Confirms directory form; keeps convention, not MUST	F	2	One marker construct	OSF
+s:19997e24	spec conformance gates	O	2	Checks and guard sense conformance; names deferred checks	D	1	Replaces hand-wiring with registry; also stabilises gate surface	Z	2	One registry for every conformance check	ODZ
+s:1e5df0d9	SRS decision log	O	2	Curates the record of consequential judgment	S	1	Bounds what enters the log	F	1	One artifact: the decision log	OSF
+s:1e7c0c8e	retirement rules in standard	A	1	Permits deleting retired instances; tool defines possible	D	1	Re-reads 5f8204bc instance clause as policy	F	1	Scope is one clause of one record	ADF
+s:2a1e1590	spec versioning cell	A	1	Lets state mutate in place; removes machinery	D	2	Removes revisions.json and changelog.json	F	1	One carve-out: machine-bound state fields	ADF
+s:2e0cd70a	instance-layer data handling	O	1	Detect and preserve unknown content; protective contract	S	2	Writers preserve; silent discard forbidden	Z	1	Reader, writer and emitted schema together	OSZ
+s:2f048790	spec reference publication	A	2	Generates published projections from records	D	1	Introduces generated references in place of hand prose	F	1	Structural reference projections only	ADF
+s:2fb87c1e	repository content authority	O	0	Defines where authority lies; little outward motion	D	1	Manifest stops being content authority	Z	1	Spans all content sets	ODZ
+s:4269c744	spec view layer	A	1	Different views may present same records differently	S	1	Keeps semantics out of Field and Type	F	2	One mechanism: composite-renderer dispatch	ASF
+s:43249f53	spec workflow state	A	1	Migrates rfc_status; dogfoods Lifecycle	D	1	Retires parallel status enums; serves one-way stabilisation	Z	1	All future package authoring guidance	ADZ
+s:4431046e	decision record changes	O	2	How records are recorded and corrected	S	2	Keeps succession rule; refines with correction path	F	1	Decision records only	OSF
+s:4f1e12e5	standard's dormant constructs	A	1	Executes pruning units across repos	D	2	Removes unused constructs from the standard	Z	1	Many constructs across cells	ADZ
+s:53635966	spec record model	A	1	Executes breaking removal unit	D	2	Removes Tier 1 TypedRecord	F	2	One tier, one entity	ADF
+s:5c1e3068	schema projection architecture	A	1	Enables any target back end to render	D	1	Introduces an IR stage	Z	1	Connects records to every emitter	ADZ
+s:5f18603e	federation in roadmap	A	2	Commits federation's return outward	D	1	Reverses the evidence gate of 4f1e12e5	F	1	One capability: federation	ADF
+s:5f8204bc	retirement across layers	O	1	Constrains how things retire	S	2	Standing contracts hold; one way per layer	Z	2	Every layer's retirement mechanism	OSZ
+s:628cf6c4	names in the standard	O	1	Gates renames behind migration	S	2	Constrains change; rename needs full migration	Z	1	Every future rename everywhere	OSZ
+s:6523cf5e	semantic/rendering boundary	O	1	Keeps hints out of the semantic model	S	2	Protects type model from presentation facets	F	1	Editor and renderer hints	OSF
+s:693b9458	release-drift gate	O	2	Gate senses drift against pinned release	S	2	Behaviour changes only by reviewed commit	F	2	One gate, one release	OSF
+s:6fc7e142	escape-bag naming	A	1	Ships as its own breaking unit	D	2	Renames properties to meta; unifies name	F	2	One name for one bag	ADF
+s:7255aecc	SectionSource type-query	O	1	Design record only; no schema change now	D	2	Retires semanticObjectType key	F	2	One selection key	ODF
+s:7bd99afd	definition-layer metamodel	A	1	Emit the complete artifact	S	0	Deepens records-as-source; rejects overlay alternative	F	1	Definition-layer self-hosting	ASF
+s:7caca3a1	spec governance	O	2	Mapping and judgment before deciding	D	1	New machinery for complex decisions	Z	2	Every charter-checked decision; geometry of grid	ODZ
+s:7d3dda60	Record value carrier	A	1	New carrier shape for written records	D	2	Changes fieldValues keying	F	2	One carrier property	ADF
+s:86f49083	RFC-038/039 release	A	2	Lands a composed release train	D	1	Migration generation; also forbids intermediate states	Z	1	Composes two designs into one generation	ADZ
+s:8948e43f	standard's travelling forms	A	2	Everything held must travel outward	D	1	Bundle grows; new standing RFC rule	Z	2	Every construct and future RFC	ADZ
+s:8aed3412	expression of tellings	A	1	Enables reusable alternate arrangements	S	1	Meaning tree unchanged; arrangement at expression	Z	1	Connects containers, compositions, relations	ASZ
+s:8f5aca2c	Pattern Grid instrument	O	2	Reach, sequence, balance assess the standard	D	1	Adds new standing operations	Z	2	Instrument across all cells	ODZ
+s:92d2da05	rendering-chain vocabulary	A	1	Renames entity for chain vocabulary	D	2	DocumentView and Export retire	F	2	One entity name	ADF
+s:991c062f	versioning-cell check	O	1	Narrows a check's walk	S	1	Excludes generated package; rule unchanged elsewhere	F	2	One package, one check	OSF
+s:9ee14517	spec layer stack	O	2	Register governing reviews and designs	S	1	Constrains what may know about what	Z	2	Three planes across the whole stack	OSZ
+s:a270e98a	ext:protocol schema	A	1	Moves schema and prose to new shape	D	2	Renames properties; retires string aiGuidance	F	2	Protocol and ProtocolStage only	ADF
+s:a8dcbfe5	package export	A	2	Shapes what an export carries out	S	1	Closure rule unchanged; only carriage differs	F	2	One export clause	ASF
+s:aee09992	package dependencies	A	1	Lets consumers decide satisfaction by id	D	1	Supersedes one sentence; other rulings stand	F	2	DependencyRef key and version rule	ADF
+s:b2ff7c91	operation plane outputs	A	1	Consumers act on typed identifiers	S	2	Clarifies existing preference; no new one	Z	2	Every machine-facing output and client	ASZ
+s:b9d7096e	Pattern Grid instrument	O	2	Classifies and senses corpus balance	D	1	Adds autoclassification operation	Z	2	Whole normative corpus and external frameworks	ODZ
+s:be253dd6	Container storage	A	1	Lets concurrent edits merge per entry	D	2	Changes storage to directory of entries	F	2	One construct's storage	ADF
+s:bed7a41a	root container storage	A	0	Relocation; little outward motion	D	2	Withdraws manifest inline root exception	F	2	One container's storage location	ADF
+s:c20fcff8	spec normative surface	O	2	Placement test at review time	S	1	Constrains what enters the spec	Z	2	Every normative statement	OSZ
+s:c4fffe93	Field semantic model	A	1	Enables expressing facets independently	D	2	Replaces valueType enum	F	2	One construct: Field	ADF
+s:c8704763	references in the standard	O	1	Names strength; declares rather than ships	S	1	One form per strength; some migrations	Z	2	Every reference in the standard	OSZ
+s:cce3c00e	spec governance	O	2	Decision framework for review	D	1	Adopts a new framework	Z	2	Governs all future decisions	ODZ
+s:cd27c096	Container schema	A	1	Enables ordered navigation outline	D	2	Removes rootInstanceIds	F	2	One construct's membership property	ADF
+s:d5524758	instance attribution	O	1	Records who created; testimony only	D	1	Returns attribution; revision 9	F	2	One property on three entities	ODF
+s:d67e3d76	definition-layer metamodel	A	1	Authors metamodel as SRS definitions	D	2	Replaces RFC-004 vocabulary	F	1	One package	ADF
+s:dd0a33fc	metamodel projection	O	1	Classifies features; protects meaning from loss	S	1	Authoritative meaning cannot be dropped	Z	1	Every feature per every emitter	OSZ
+s:e5828aa8	package upgrade command	A	2	Lets upgrade overwrite and proceed	D	1	Allows overwrite now; sunset to refusal	F	2	One command case	ADF
+s:e99a9437	spec change gating	O	1	Gates which change may merge	S	2	Hard rule: no schema change without door	Z	1	Every PR on normative surface	OSZ
+p:04b78189	srs-rust definition files	A	1	Names new files one way	S	1	Converges outliers to existing scheme	F	2	One filename slug helper	ASF
+p:05c3ddcb	whole programme work	A	2	Work implemented, not lost after acceptance	D	2	Revives unit type, new rank field	Z	2	Connected wholes across repos	ADZ
+p:06e480d4	programme meetings	O	2	How meetings are recorded	S	1	One record shape for all meetings	F	1	One record type	OSF
+p:09ea5368	working group intake	O	1	Holds requests at queue before work	S	1	Constrains entry path	F	1	One entry path to groups	OSF
+p:0a87ebf6	programme routing	A	1	Routes requests to groups	D	1	New routing rule by domain	Z	1	Connects domains, groups, central group	ADZ
+p:0b1c25b1	WG Third-party ready mandate	A	1	Lets analyst unpark ruling-backed work	S	1	Clarifies what counts; rulings recorded first	F	2	One group's mandate	ASF
+p:21ee9352	agent comments	O	2	Records actor for telling apart	D	1	New marker practice	F	2	One line per comment	ODF
+p:2550585a	programme intake	O	2	Place before assessing	S	1	Fixes order of intake	F	1	One intake step	OSF
+p:2637af0a	working group mandates	A	2	Groups build and auto-merge	D	1	Extends mandate to affirmed remedies	F	1	One class of authority	ADF
+p:2800bea0	cluster synthesis	O	1	Protects owner-affirmed clusters	S	2	Agents may not rewrite affirmed clusters	F	2	Clusters only	OSF
+p:31961020	programme levels	O	1	Common intake cycle for handling requests	S	1	One cycle across levels	Z	2	Every level runs it	OSZ
+p:31e9fd27	federation roadmap	A	2	Schedules federation now	D	1	Starts return of removed capability	F	1	Federation's three steps	ADF
+p:39ffe8e5	SRS operations domain	O	0	Defines a domain's scope	S	1	Separates use from spec meaning	F	2	One domain	OSF
+p:3b910d90	working group autonomy	O	2	Holds autonomy until domain matures	S	2	Constrains delegation; owner-merged meanwhile	F	1	Group-in-domain maturity	OSF
+p:46bb7a8c	clerk HTTP contract	A	1	Contract clients generate from	S	2	Single source stops drift	F	2	One OpenAPI document	ASF
+p:559bfb9e	programme models of meaning	O	2	Waits for practice before unifying	S	1	Keeps overlapping models; resists collapse	Z	2	All models of meaning in use	OSZ
+p:5d5feb79	essay package	A	2	Releases new package version for srs-web	D	1	Adds typed brief data	F	2	One feature's storage	ADF
+p:6494df0f	group member stance	O	1	Models stance via existing types	S	2	Reuses existing types and relations	F	2	One modelling choice	OSF
+p:684f84ab	programme decision log	O	2	Records pending decisions at once	S	1	Keeps decisions from being lost	F	1	Undecided decisions only	OSF
+p:708c9373	problem modelling	O	1	Models multi-domain problems	S	2	Existing held-by suffices; domains derived	F	1	One modelling case	OSF
+p:70a84bb7	agent choices in groups	A	1	Lets agents take lean-following choices	S	1	Choices follow the lean	Z	1	Every axis of every group	ASZ
+p:7270e772	WG Third-party ready compass	A	1	Initiator lean: evolution, portability	D	0	Records new lean; restraints still bind	F	2	One group's three axes	ADF
+p:7ee8fa01	programme decision records	O	2	Weighs decisions against compass	S	1	Ties decisions to standing principles	Z	1	Every decision record and its context	OSZ
+p:8e1ae42a	working group structure	O	0	Structural default, little motion	S	2	No nesting unless recorded	Z	1	Shape of all groups	OSZ
+p:926c059f	clerk codebase	O	1	Checks guard code quality	S	2	Shrinking allowlist; enforce rules	F	2	Clerk only	OSF
+p:9e2c2950	owner feature path	A	2	Owner drives features now	S	1	Building, review, merge never skipped	F	1	Owner feature ideas	ASF
+p:a1b06725	clerk serve growth	O	2	Waits for real use and stability	S	2	Core grown only with stable elements	F	2	One service's admission rule	OSF
+p:a47964f9	group input queue	O	1	Models queue on labels	S	2	Reuses existing labels	F	2	One modelling choice	OSF
+p:a5c769be	programme decision log	O	1	What gets recorded	S	1	Bounds the log	F	1	One log	OSF
+p:a8bc55ef	clerk governance	A	1	Delegates clerk to a working group	D	1	New group; owner keeps gates	F	2	One repository	ADF
+p:a8e833f1	data-model revisions	A	1	Every release opens every repository	S	2	Keeps repositories readable across changes	Z	1	Reader, migration, every repository	ASZ
+p:acf486d8	programme levels	O	1	Escalate instead of deciding	S	2	Holds authority at right level	Z	1	Relation between all levels	OSZ
+p:aeb9c0a2	domain estimates	O	1	Models estimate as suggestion	S	2	Reuses existing problem type	F	2	One modelling choice	OSF
+p:b80d2d1e	Type naming rule	O	2	Asks to investigate history first	S	0	No change decided yet	F	2	One naming rule	OSF
+p:bbb03bff	srs-rust#1417 landing	A	1	Lands work in one shippable change	S	1	Avoids refusing existing repositories	F	2	One issue	ASF
+p:bbb23e36	PR decision recording	O	2	Records decisions in a block	D	1	New PR practice	F	1	One block per PR	ODF
+p:bd852068	programme meetings	O	1	Agenda shapes what meeting handles	D	1	Agenda varies by kind	F	1	Meeting agendas	ODF
+p:bf4a5af5	CLI diagnostics surfaces	A	1	Delivers structured diagnostics now	S	2	Additive; text list kept	F	2	Diagnostics lists	ASF
+p:c04d8164	clerk runtime	O	1	Protects bare-checkout workflows	S	2	No runtime dependencies	F	2	Clerk runtime only	OSF
+p:cdd272a3	method domains and axes	O	1	Models where polarity lives	D	2	Supersedes global polarity; new type	F	1	One construct: axis-in-domain	ODF
+p:d529294a	pin bump merges	A	2	Pin bumps auto-merge	D	1	Was owner merge	F	2	One PR class	ADF
+p:e3505ded	PR decision routing	O	1	Classifies decisions to logs	D	1	New classification of PR decisions	Z	1	Connects PR, group and parent logs	ODZ
+p:e745e9b2	owner's desk access	O	2	Protects owner authority	S	2	Restricts reach to loopback, ZeroTier	F	2	One service's network exposure	OSF
+p:ea96a678	PR review requests	O	2	Further review on request	D	1	New label and comment mechanism	F	2	One review request path	ODF
+p:ee95817b	stance reading	O	2	How a stance is read	D	0	Stance not fixed; new reading	Z	1	Relative to any boundary	ODZ
+p:f58db200	programme concept meaning	O	1	Keeps meaning in definitions	S	2	Stops drift among copies	Z	2	Labels, code, boards across repos	OSZ
+p:ff946eb1	essay comment responses	O	1	Records writer judgement with provenance	S	1	Conversation stays flat; ruling stands	F	2	One comment response kind	OSF
