@@ -345,6 +345,12 @@ The local reference is `three-axes-by-trigram.md` beside this page. The SRS comp
 
 The decision ratings (discoveries 7 to 12) already use the trigram order.
 
+### 15. On the zodiac, polarity is derived by rule; the mapping is the judgement (owner, 2026-10-23)
+
+The owner's rule is that yin and yang alternate around the signs from Aries, except at 6/7 and 12/1. The yang signs are therefore Aries, Gemini, Leo, Scorpio, Capricorn and Pisces, and the ratified SRS compass matches on all twelve. "Everything about this structure is rule based. The synthetic practice maps the domain first." Two balances follow from applying the rule correctly: each element splits 2–1, and each level splits 2–2. They are cross-checks on the mapping, not separate rules to satisfy. In the first pass, Shared coherence was put on ♐ Governance, which gave Fire 3–0. Read with the signs, it sits on ♊ Description. The owner's readings, Aries (new versions, action) ↔ Libra (reference, stability) and Leo (forward from the centre, bound) ↔ Aquarius (wider, open, with the group), agree with the rule. See `three-axes-by-trigram.md` (Polarity) and clerk#159.
+
+Same day, on the trigram, for Programme coordination: line 3 is where direction comes from, a goal we have chosen (yang) or alignment with other actors (yin). Core once is control from the centre and adapters take direction from outside, so Core once is yang. Line 1 is Refine ↔ Deliver, with Deliver yang (owner).
+
 ## Open questions
 
 1. Does Authority replace Mandate, or widen it? Are Gate and Lean kinds, or attributes?

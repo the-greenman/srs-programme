@@ -38,10 +38,21 @@ The stance questions are the owner's definitions of 2026-10-22, the ones the dec
 
 ## Polarity
 
-- **Odd lines are yang positions, even lines are yin positions.** The zodiac agrees: the axes on lines 1, 3 and 5 join Fire and Air signs (yang elements), and the axes on lines 2, 4 and 6 join Earth and Water signs (yin elements). Opposite signs always share an element polarity, so element polarity classifies the line, not the pole within it.
-- **Which pole of a line is yang is a separate assignment, made per domain.**
+- **Odd lines are yang positions, even lines are yin positions.** Classic element polarity agrees: the axes on lines 1, 3 and 5 join Fire and Air signs (yang elements), and the axes on lines 2, 4 and 6 join Earth and Water signs (yin elements). Opposite signs always share an element polarity, so element polarity classifies the line, not the pole within it. This system does not use element polarity for the signs themselves (next point).
+- **On the zodiac, each sign's polarity is set by rule** (owner, 2026-10-23). Yin and yang alternate around the signs, starting with Aries as yang, except at 6/7 (Virgo → Libra) and 12/1 (Pisces → Aries), where they do not alternate.
+
+  | ♈ | ♉ | ♊ | ♋ | ♌ | ♍ | ♎ | ♏ | ♐ | ♑ | ♒ | ♓ |
+  |---|---|---|---|---|---|---|---|---|---|---|---|
+  | yang | yin | yang | yin | yang | yin | yin | yang | yin | yang | yin | yang |
+
+  - So the yang pole is the first sign on axes 1-7, 3-9 and 5-11, and the second sign on 2-8, 4-10 and 6-12.
+  - The ratified SRS compass matches on all twelve signs: Practical expression (♈), Evolution (♏), Shared coherence (♊), Office (♑), Renewal (♌), Portability (♓).
+  - The synthetic practice maps the domain first: which concept sits in which cell. Polarity then follows from the rule.
+  - Two cross-checks follow from applying the rule correctly. Every element holds both poles, split 2–1. Every level (Individual, Relational, Systemic) splits 2–2. A failure means a concept is on the wrong cell. On 2026-10-23, Shared coherence was first put on ♐ Governance, which gave Fire 3–0. It belongs on ♊ Description ("one name over many").
+- **On the trigram, which pole of a line is yang is assigned per domain.**
   - A narrower domain may flip it (decision cdd272a3).
-  - The original note's yang column takes the first sign of each axis (Aries, Taurus, Gemini, Cancer, Leo, Virgo), but that is a convention, not something it derives. This page does not use it.
+  - The original note's yang column takes the first sign of each axis (Aries, Taurus, Gemini, Cancer, Leo, Virgo). That is not this system's rule: see the zodiac rule above.
+  - A compass pole translated onto a trigram line can read differently, because they are two maps. Portability (♓) is yang by the zodiac rule, but on trigram line 3 a capability that travels aligns with other actors, which reads as yin.
   - Use the owner's yang attributes instead (clerk#159): thing over relation, movement over stillness, outward over inward, assertive over reflective, forward looking over retrospective.
 - **Yang is not the preferred pole.** Preference is a lean, recorded separately.
 
