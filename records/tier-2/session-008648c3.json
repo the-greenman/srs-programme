@@ -1,0 +1,29 @@
+{
+  "instanceId": "008648c3-1dd3-47d8-a36f-3b71251c0fc0",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-24 16:34 UTC: SemanticOps",
+    "held_at": "2026-10-24T16:34:24Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-24 16:34 UTC: SemanticOps\nAttendees: Owner\n- Ratified: A decision already taken is cited, never asked again [4445b9cf]\n- Edited: A decision already taken is cited, never asked again [4445b9cf] (resolution)\n- Ratified: Confidence grades care, it does not gate work [9d50126b]\n- Received: WG Agent-supported editor report 2026-10-24\n- Received: WG Third-party ready report 2026-10-24\nActs in the order taken (UTC):\n- 16:35:07Z edit: A decision already taken is cited, never asked again [4445b9cf] (Decisions since the last session 1 of 2, record updated 2026-10-24T11:40:47.436296384+00:00)\n- 16:35:08Z ratify: A decision already taken is cited, never asked again [4445b9cf] (Decisions since the last session 1 of 2, record updated 2026-10-24T11:40:47.436296384+00:00)\n- 16:35:22Z ratify: Confidence grades care, it does not gate work [9d50126b] (Decisions since the last session 2 of 2, record updated 2026-10-24T16:12:04.900823894+00:00)\n- 16:35:31Z receive: WG Agent-supported editor report 2026-10-24 [7b3f8131] (Reports 1 of 2)\n- 16:35:38Z receive: WG Third-party ready report 2026-10-24 [4765f64b] (Reports 2 of 2)"
+  },
+  "createdAt": "2026-10-24T16:35:45.428451119+00:00",
+  "updatedAt": "2026-10-24T16:35:45.428452833+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "48243b25-b12c-421b-a8b3-b6c29c8022d8",
+      "sourceRole": "attaches"
+    }
+  ]
+}
