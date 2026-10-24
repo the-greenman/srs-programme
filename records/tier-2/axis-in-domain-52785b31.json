@@ -1,0 +1,20 @@
+{
+  "instanceId": "52785b31-95e3-4e9a-9b8b-9bc8b8234ac8",
+  "typeId": "88d9b5da-418b-4bf1-a3e3-97bd14a52a9c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "axis-in-domain",
+  "fieldValues": {
+    "title": "Containment and Portability in Semantic records",
+    "line": 3,
+    "summary": "Suggested from the line pairing fixed 2026-10-20 (srs-context cc05d4c9); yang from the Initiator's lean. For the owner to judge in relation."
+  },
+  "createdAt": "2026-10-22T11:28:46.555701988+00:00",
+  "updatedAt": "2026-10-22T11:28:46.555704405+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

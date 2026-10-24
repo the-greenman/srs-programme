@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "60d73525-3442-4596-9137-5b0853fb4b61",
+  "relationType": "com.semanticops.method/yang-pole",
+  "sourceInstanceId": "9678d3f1-69ec-459f-a525-9fcf1691e140",
+  "targetInstanceId": "0b91590b-0768-43b5-b445-6e051cab3bd7",
+  "createdAt": "2026-10-22T11:28:45.570328948+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Orchestrator (relaying owner rulings)"
+  }
+}
