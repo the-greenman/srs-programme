@@ -1,0 +1,26 @@
+{
+  "instanceId": "f15bd5f6-0958-4863-910d-026c5689da3e",
+  "title": "Vignettes, spirals and the paradox of boundaries (2026-10-24)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "this kind of exploration will tend to be groups of type0 notes. I will need to be able to keep these in their own container, this is a top level kind of content to arrange for navigation and explorations.\n\nI'd need to be able to see previous narrative explorations. We dont need for form one big whole, these are interconnected vignettes. We will cluster and synthesise them, and buld up meaning in cyles and spirals.\n\nContradictions are fine. They will real the paradox that will help us explore our domain.\n\nThe domains will also emerge and be refined. We will often need to explore for a while before we can see the domain clearly. But, all of this will tend to fit into a base domain for the whole project - since we are workign wihin it.\n\nThe process of drawing nested and overlapping boudaries and then seing how they give rise to paradox is going to happen everywhere. This is the Tao, it's cybernetics and systems science"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-24; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's narrative verbatim, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

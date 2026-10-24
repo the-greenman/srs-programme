@@ -1,0 +1,22 @@
+{
+  "containerId": "80b283ef-9af2-4504-a2aa-3b8721a9ba40",
+  "title": "Narrative explorations",
+  "namespace": "com.semanticops.programme",
+  "name": "narrative-explorations",
+  "description": "The owner's narrative vignettes (Tier 0 notes), kept as the human source that records are derived from.",
+  "identityInstanceId": "8f9a7da4-b533-4bc0-b3f0-576e1932a47f",
+  "anchorInstanceId": "8f9a7da4-b533-4bc0-b3f0-576e1932a47f",
+  "memberInstanceIds": [
+    {
+      "instanceId": "8f9a7da4-b533-4bc0-b3f0-576e1932a47f"
+    },
+    {
+      "instanceId": "bbd0b6e3-249a-4dd6-9819-5493c9d823dc",
+      "depth": 1
+    },
+    {
+      "instanceId": "f15bd5f6-0958-4863-910d-026c5689da3e",
+      "depth": 1
+    }
+  ]
+}
