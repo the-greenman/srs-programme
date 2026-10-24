@@ -5,10 +5,10 @@
   "typeNamespace": "com.semanticops.core",
   "typeName": "purpose",
   "fieldValues": {
-    "statement": "The programme that reworks the SRS specification so it reads in layers, held as SRS records rather than as issue prose. Two claims are being tested at once: that a specification is better as a navigable semantic dataset than as a document outline, and that the programme doing the reworking can itself be run from records. This repository is also the pilot — the concept-tree pattern is proven here, on small and reversible content, before it touches the 433 records of the specification corpus.",
+    "statement": "How we apply semantic engineering in practice: the semantic operations (SemanticOps) that let humans and AI make decisions well together. AI works at speed but lacks the bigger context, so work moves fast while it is experimental and stalls, stops and starts, and loses its connective tissue as it is woven into stable tools. The programme builds the layers of meaning, the SRS tools and the practice that let agents work inside that context, starting small and improving the clarity of the context with practice. It is run from its own records, and everything it does sits within one base domain, Semantic engineering in practice.",
     "title": "SemanticOps programme"
   },
   "createdAt": "2026-09-05T21:46:21.025527299+00:00",
-  "updatedAt": "2026-10-08T15:39:30.677093314+00:00",
+  "updatedAt": "2026-10-24T13:21:40.575729476+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }
