@@ -1,0 +1,28 @@
+{
+  "instanceId": "e574dc7b-a1db-4f61-af4a-f7eb6b6ac46a",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Escalation: how should find return field values in hits (srs-rust#1380)?",
+    "decision_question": "Should `find` gain a `fields` list that adds named field values to each hit (an additive option beside `projection`), or should a client keep reading records one by one, or should the values arrive some other way?",
+    "context": "Problem: A client that shows or groups search results by field values (srs-web Lenses, srs-web#547) cannot get them from `find`. It calls `get_record` once per hit, up to a page, then groups in TypeScript. Why it matters: it is N round trips for data the engine already holds, and it pulls grouping meaning into a client, which the capability-layering guide says to avoid. The change widens the public `find` surface in the CLI payload and the WASM binding, and amends ADR-019's #1286 hit-projection amendment, which no recorded ruling covers; the issue says 'e.g.' for the option name, so the shape is open. Options and consequences: (A) Add an optional `fields: [Field name]` find option that adds those values to each hit (under any projection), in one service, CLI payload and WASM: additive, one call replaces N, but it extends ADR-019 and needs payload schemas regenerated and a spelling fixed for missing or multi-valued fields. (B) Add a fourth projection value that returns all field values: simpler to ask for, but returns every field per hit (heavy) and mixes 'how much' with 'which'. (C) Do nothing: no change, clients keep N round trips. Recommendation: A, additive only, no revision bump, no change to match set, order, total or facets (same rule as projection). Action needed: decide A, B or C, and say whether this is a Door 3 amendment of ADR-019. Urgency: low (P2); srs-web works today, only slowly. Answers: SP-05. Detail: https://github.com/the-greenman/srs-rust/issues/1380",
+    "friction": "The issue names no ruling, RFC or invariant it executes, and it widens a public payload and binding. The brief limits the builder to executing a named ruling, so the builder cannot pick the option shape itself.",
+    "alternatives_considered": "A. Optional `fields` list on find, additive. B. A fourth projection value returning all fields. C. Do nothing; clients keep one record read per hit.",
+    "key_requirements": "Additive only: match set, order, total and facets unchanged. One service in srs-repository, exposed through both the CLI payload and the WASM find, no client semantics. Payload JSON Schema golden files regenerated. Behaviour defined for an unknown field name, an absent value and a multi-valued field.",
+    "decision_statement": "Add an optional `fields` list to `find` that returns the named Field values on each hit, applied after paging like projection, as one service shared by the CLI and WASM; record it as an amendment to ADR-019.",
+    "rationale": "One call replaces N round trips, keeps grouping data in the engine, and follows the same additive shape as the #1286 projection amendment. Capability-layering: build once in srs-repository, expose twice.",
+    "revisit_when": "A second consumer needs a different value shape (rendered text rather than raw values), or payload size per page becomes a problem.",
+    "next_steps": "If ratified: builder implements in srs-rust with a cross-store roundtrip test, regenerates schemas, files an srs-web follow-up to use it in Lenses."
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-24T17:13:26.421926287+00:00",
+  "updatedAt": "2026-10-24T17:13:26.421931832+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
