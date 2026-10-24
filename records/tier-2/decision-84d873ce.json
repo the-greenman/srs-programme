@@ -1,0 +1,30 @@
+{
+  "instanceId": "84d873ce-93a9-4a0d-a9aa-0f9e3b187ce7",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Stuck implementation work follows the reviewed ADRs",
+    "decision_question": "When an agent is stuck on an implementation choice, what does it consult before escalating, and when may it depart from what it finds?",
+    "context": "Owner's words (2026-10-24, live in a working session on srs-rust#1342): \"ADRs are a rust level record of specific implementation decisions. When we are stuck, our agents should review past ADRs and keep work aligned - unless the original ADRs fail a review test.\"\nWorked case: srs-rust#1342. The builder escalated typed ErrorReport details as a change to ADR-011. Reading ADR-011's reasoning showed its library-crate rule had already been amended by ADR-037 (#1157), and ADR-053 showed the recommended option could not work. The escalation was framed against the wrong ADR, and the owner had to do the review.\nDecision 0b1c25b1 already counts an accepted srs-rust ADR as a recorded ruling for implementation-internal work. This decision says how agents use those rulings when they are stuck.",
+    "friction": "Agents escalate implementation choices to the owner, or frame them as rule reversals, without first reading what the ADRs decided, why, and whether it still holds. The owner ends up doing the review, and a stale ADR line can be treated as binding.",
+    "alternatives_considered": "(a) Escalate every stuck implementation choice to the owner, as now: owner load, and escalations framed without the ADR record.\n(b) Treat every ADR as binding as written: stale lines and side-effect rules become dogma.\n(c) Let agents choose freely: drift between agents and repos, and a second way for a goal that has one (ADR-048 rule 3).\n(d) Follow the ADRs unless one fails a stated review test, and propose the amendment when it fails (chosen).",
+    "key_requirements": "The ADR review test. An ADR fails, for the case at hand, if any of these hold:\n1. Reason: its stated reason (Context, rationale, Consequences, not only the rule line) does not apply to this case.\n2. Already changed: a later ADR, amendment or recorded ruling has changed it in practice, so the text is stale.\n3. Outranked: it conflicts with a higher ruling (the spec charter or an rfc-decision, ADR-048, a ratified programme decision).\n4. Defeats its aim: following it would bring back the problem it was written to solve, or block the problem the work answers.\nAn ADR that passes is followed and cited by number in the issue or PR. An ADR that fails is never quietly worked around: the agent names the failed test and its evidence, and proposes the amendment (an ADR amendment PR, which is owner-merge, or a parked decision, template T8). Only a still-open choice that no passing ADR settles is escalated, with the ADRs reviewed listed in the escalation.",
+    "decision_statement": "An agent stuck on an implementation choice follows the ADRs that govern it, and departs from one only by proposing its amendment after it fails the ADR review test.",
+    "rationale": "ADRs hold the reasoning behind each implementation ruling, so reading them settles most stuck points without the owner and keeps many agents aligned. The review test stops a stale or side-effect rule from becoming dogma, and the amendment route keeps the record true instead of letting practice and text drift apart.",
+    "revisit_when": "When a reviewer disputes an ADR pass or fail verdict in a quorum review, or when a cycle's escalations still include implementation questions that a passing ADR already settles.",
+    "owner": "Owner role",
+    "status": "proposed",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-24T19:43:15.640962303+00:00",
+  "updatedAt": "2026-10-24T19:43:15.640965506+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "11de8489-b6fa-4b50-87e4-78c49d65ff2c",
+  "relationType": "refines",
+  "sourceInstanceId": "84d873ce-93a9-4a0d-a9aa-0f9e3b187ce7",
+  "targetInstanceId": "0b1c25b1-3f6b-4348-81d5-047e091d6f4d",
+  "createdAt": "2026-10-24T19:43:23.152697282+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "Says how agents use the ADR rulings that 0b1c25b1 counts as recorded rulings: follow them when stuck, unless one fails the ADR review test."
+}
