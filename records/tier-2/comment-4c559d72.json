@@ -1,0 +1,18 @@
+{
+  "instanceId": "4c559d72-916b-45dd-af76-2534cc0283e3",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "This is a moment-in-time statement of what is probably a deeper principle. The principle should be uncovered."
+  },
+  "createdAt": "2026-10-24T11:03:47.063189004+00:00",
+  "updatedAt": "2026-10-24T11:03:47.063196368+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

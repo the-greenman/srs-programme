@@ -1,7 +1,7 @@
 {
   "instanceId": "cfb14770-053e-4fe7-9a84-ef3b3a07735c",
   "typeId": "b34ef0e7-6f33-4c43-85b8-7a2772f456ef",
-  "typeVersion": 1,
+  "typeVersion": 2,
   "typeNamespace": "com.semanticops.programme",
   "typeName": "programme",
   "fieldValues": {
@@ -22,10 +22,11 @@
     "digest_issue": "semanticops.com#33",
     "board_project": 6,
     "board_story_repo": "semanticops.com",
-    "owner_actor": "human:the-greenman"
+    "owner_actor": "human:the-greenman",
+    "care_policy_container": "461d1a6f-e96d-49b6-bb4a-d2076764fcc1"
   },
   "createdAt": "2026-10-10T19:50:08.193885219+00:00",
-  "updatedAt": "2026-10-11T16:25:19.908074243+00:00",
+  "updatedAt": "2026-10-23T09:26:07.078384342+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

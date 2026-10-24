@@ -1,0 +1,23 @@
+{
+  "instanceId": "4ed4f4c4-a19c-4752-9037-453556dc747b",
+  "typeId": "f8f7cddf-7b5f-4db9-ab04-b075e5be0b41",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "confidence-grade",
+  "fieldValues": {
+    "policy_title": "Low: under an epic, not ranked",
+    "confidence_level": "low",
+    "policy_explanation": "The item sits under a roadmap epic whose objective is not ranked this period.",
+    "signal_keys": [
+      "epic.any"
+    ]
+  },
+  "createdAt": "2026-10-23T09:26:00.089931480+00:00",
+  "updatedAt": "2026-10-23T09:26:00.089936898+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, relaying the owner's rulings of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

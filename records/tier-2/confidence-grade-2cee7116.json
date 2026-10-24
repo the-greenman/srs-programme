@@ -1,0 +1,24 @@
+{
+  "instanceId": "2cee7116-b582-4785-920c-84e13862e7e8",
+  "typeId": "f8f7cddf-7b5f-4db9-ab04-b075e5be0b41",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "confidence-grade",
+  "fieldValues": {
+    "policy_title": "Low: an agent's suggestion, or a problem named in words",
+    "confidence_level": "low",
+    "policy_explanation": "Only an agent produced the problem (a synthesiser or analyst pass), or the item names its problem in words with \"No affirmed problem yet:\". Less confidence, not none.",
+    "signal_keys": [
+      "problem.suggested.synthesised",
+      "answers.none-yet"
+    ]
+  },
+  "createdAt": "2026-10-23T09:25:57.419090623+00:00",
+  "updatedAt": "2026-10-23T09:25:57.419100249+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, relaying the owner's rulings of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

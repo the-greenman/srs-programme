@@ -1,0 +1,20 @@
+{
+  "instanceId": "8f9a7da4-b533-4bc0-b3f0-576e1932a47f",
+  "title": "Narrative explorations",
+  "tags": [
+    "narrative"
+  ],
+  "sections": [
+    {
+      "name": "purpose",
+      "label": "Purpose",
+      "content": "Interconnected vignettes in the owner's own words: how the work feels, what keeps going wrong, what we think is going on. They are not one whole. They are clustered and synthesised in cycles and spirals, and records are derived from them and point back with derived-from. Contradictions between vignettes, and between a vignette and the records, are kept: they show the paradoxes that help us explore the domain. Domains emerge from them and are refined; all of it sits within one base domain for the whole project."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's narrative verbatim, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

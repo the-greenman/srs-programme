@@ -1,0 +1,23 @@
+{
+  "instanceId": "37800217-ecee-4162-bafe-e126dd98e614",
+  "typeId": "f8f7cddf-7b5f-4db9-ab04-b075e5be0b41",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "confidence-grade",
+  "fieldValues": {
+    "policy_title": "High: a written technical plan",
+    "confidence_level": "high",
+    "policy_explanation": "The item's body carries a \"## Technical plan\" section with content: a plan written as one, on purpose. Detailed steps without the heading earn Medium, not this grade, and neither does the owner directing the work: agents run as the owner's actor and write issues in that shape too, so only the heading is taken as a written plan (clerk#157 review, B1 and B3).",
+    "signal_keys": [
+      "plan.section"
+    ]
+  },
+  "createdAt": "2026-10-23T09:26:01.270726518+00:00",
+  "updatedAt": "2026-10-23T16:37:34.051546250+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, relaying the owner's rulings of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

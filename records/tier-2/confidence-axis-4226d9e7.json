@@ -1,0 +1,21 @@
+{
+  "instanceId": "4226d9e7-d340-43b8-8d89-6700e2264c28",
+  "typeId": "4d24c966-edab-4926-bd92-16e1f81a62ae",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "confidence-axis",
+  "fieldValues": {
+    "policy_title": "Technical plan: is the how concrete?",
+    "policy_key": "technical_plan",
+    "policy_explanation": "Is it clear what changes, where, and how it will be tested? A concrete technical plan lets work go ahead before the domain and theory are affirmed, which is how a technical requirement fed in from the command line fits the flow.",
+    "policy_order": 3
+  },
+  "createdAt": "2026-10-23T09:26:00.815163125+00:00",
+  "updatedAt": "2026-10-23T09:26:00.815169939+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, relaying the owner's rulings of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

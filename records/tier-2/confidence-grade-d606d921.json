@@ -1,0 +1,23 @@
+{
+  "instanceId": "d606d921-d8fc-4831-9669-655299701629",
+  "typeId": "f8f7cddf-7b5f-4db9-ab04-b075e5be0b41",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "confidence-grade",
+  "fieldValues": {
+    "policy_title": "Medium: under a ranked epic",
+    "confidence_level": "medium",
+    "policy_explanation": "The item sits under an epic that serves an objective the active period ranks.",
+    "signal_keys": [
+      "epic.ranked"
+    ]
+  },
+  "createdAt": "2026-10-23T09:25:59.374017976+00:00",
+  "updatedAt": "2026-10-23T09:25:59.374025466+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, relaying the owner's rulings of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

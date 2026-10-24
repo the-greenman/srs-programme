@@ -1,0 +1,26 @@
+{
+  "instanceId": "bbd0b6e3-249a-4dd6-9819-5493c9d823dc",
+  "title": "The core working problem: speed without the bigger context (2026-10-24)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "For me this is our core working problem - semantic engineering and the semantic operations (semanticops) the allow for effective decision making with human - ai working together.\n\nAI works at speed. But it also lacks the bigger context. So work seems to happen quickly, and when it is free to be experimental, agent development is very fast. But as we start to weave our work into more stable tools we get stuck. Work sops and starts. SO many things happen at once and much gets lost. After a while if feels like it would have just been easier to have not used agents at all, we've just gone round and round.\n\nIn a (possibly) simpler context of writing text, agents tend to very quickly make texts too long and too generic. An agent will quickly just render the original work unintelligible. It all reads fine on the surfce, but the connective tissue of the underlying context gets lost.\n\nThis is part of what SRS was invented to address. But I think we need to teach agents to build usng layers of meaning, so that we can use srs properly."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-24; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's narrative verbatim, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

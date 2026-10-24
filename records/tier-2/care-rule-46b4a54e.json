@@ -1,0 +1,20 @@
+{
+  "instanceId": "46b4a54e-b5ba-438b-8db6-a28e35ddfd6a",
+  "typeId": "03dd0239-e160-494b-8728-da36edf25f16",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "care-rule",
+  "fieldValues": {
+    "policy_title": "Rule 7: everything else is a probe",
+    "policy_order": 7,
+    "policy_explanation": "No item is refused for lack of confidence. When nothing above holds, the work is to find out."
+  },
+  "createdAt": "2026-10-23T09:26:06.093090337+00:00",
+  "updatedAt": "2026-10-24T10:20:56.343998729+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, relaying the owner's rulings of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

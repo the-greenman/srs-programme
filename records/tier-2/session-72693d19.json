@@ -1,0 +1,29 @@
+{
+  "instanceId": "72693d19-3d49-42b4-bbbb-63cb86128c90",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-24 11:03 UTC: SemanticOps",
+    "held_at": "2026-10-24T11:03:42Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-24 11:03 UTC: SemanticOps\nAttendees: Owner\n- Ratified: The bug fixer holds a builder seat in every group [4a44396a]\n- Ratified: Agent merge rights follow decision mode and door, the same in every governed repository [949ae72d]\n- Commented: Agent merge rights follow decision mode and door, the same in every governed repository [949ae72d] (1)\n- Ratified: The clerk's runtime imports nothing outside Node's standard library [c04d8164]\n- Commented: The clerk's runtime imports nothing outside Node's standard library [c04d8164] (1)\n- Ratified: Polarity is assigned per domain and per axis: an axis-in-domain record [cdd272a3]\n- Commented: Polarity is assigned per domain and per axis: an axis-in-domain record [cdd272a3] (1)\n- Received: WG Agent-supported editor report 2026-10-23\n- Received: WG Third-party ready report 2026-10-22\n- Received: WG Third-party ready report 2026-10-23\n- Ratified (escalation accepted): Where an essay keeps each agent's brief (srs-web#567, Funding 2) [5d5feb79]\n- Commented: Where an essay keeps each agent's brief (srs-web#567, Funding 2) [5d5feb79] (1)\n- Ratified (escalation accepted): Diagnostics shape before srs-rust#1339 [c7fefad9]\n- Commented: Diagnostics shape before srs-rust#1339 [c7fefad9] (1)\nActs in the order taken (UTC):\n- 11:03:44Z ratify: The bug fixer holds a builder seat in every group [4a44396a] (Decisions since the last session 1 of 4, record updated 2026-10-22T14:06:25.311422971+00:00)\n- 11:03:44Z comment: Agent merge rights follow decision mode and door, the same in every governed repository [949ae72d] (Decisions since the last session 2 of 4, record updated 2026-10-23T13:59:41.634998164+00:00)\n- 11:03:44Z ratify: Agent merge rights follow decision mode and door, the same in every governed repository [949ae72d] (Decisions since the last session 2 of 4, record updated 2026-10-23T13:59:41.634998164+00:00)\n- 11:03:44Z comment: The clerk's runtime imports nothing outside Node's standard library [c04d8164] (Decisions since the last session 3 of 4, record updated 2026-10-22T11:30:54.619583335+00:00)\n- 11:03:44Z ratify: The clerk's runtime imports nothing outside Node's standard library [c04d8164] (Decisions since the last session 3 of 4, record updated 2026-10-22T11:30:54.619583335+00:00)\n- 11:03:44Z comment: Polarity is assigned per domain and per axis: an axis-in-domain record [cdd272a3] (Decisions since the last session 4 of 4, record updated 2026-10-22T11:53:07.740678089+00:00)\n- 11:03:44Z ratify: Polarity is assigned per domain and per axis: an axis-in-domain record [cdd272a3] (Decisions since the last session 4 of 4, record updated 2026-10-22T11:53:07.740678089+00:00)\n- 11:03:44Z receive: WG Agent-supported editor report 2026-10-23 [0d88338e] (Reports 1 of 3)\n- 11:03:44Z receive: WG Third-party ready report 2026-10-22 [cf3a0157] (Reports 2 of 3)\n- 11:03:45Z receive: WG Third-party ready report 2026-10-23 [7bd4fcf6] (Reports 3 of 3)\n- 11:03:45Z comment: Where an essay keeps each agent's brief (srs-web#567, Funding 2) [5d5feb79] (Decisions for this session 1 of 2, record updated 2026-10-21T11:37:59.086460865+00:00)\n- 11:03:45Z accept: Where an essay keeps each agent's brief (srs-web#567, Funding 2) [5d5feb79] (Decisions for this session 1 of 2, record updated 2026-10-21T11:37:59.086460865+00:00)\n- 11:03:45Z comment: Diagnostics shape before srs-rust#1339 [c7fefad9] (Decisions for this session 2 of 2, record updated 2026-10-22T18:14:16.795185761+00:00)\n- 11:03:45Z accept: Diagnostics shape before srs-rust#1339 [c7fefad9] (Decisions for this session 2 of 2, record updated 2026-10-22T18:14:16.795185761+00:00)\nClerked by: Claude Code, on the owner's live instruction in a /session conversation"
+  },
+  "createdAt": "2026-10-24T11:03:46.161038614+00:00",
+  "updatedAt": "2026-10-24T11:03:46.161040813+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "dcc8b2f3-924b-4cb8-b4eb-13172f4f92f2",
+      "sourceRole": "attaches"
+    }
+  ]
+}

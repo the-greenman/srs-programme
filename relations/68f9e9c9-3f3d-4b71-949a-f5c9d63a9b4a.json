@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "68f9e9c9-3f3d-4b71-949a-f5c9d63a9b4a",
+  "relationType": "com.semanticops.programme/selects",
+  "sourceInstanceId": "03747a4a-a53b-4f72-b5bb-96de4c5305a0",
+  "targetInstanceId": "b329984b-0ca4-4ab1-b026-38dcc898e474",
+  "createdAt": "2026-10-23T09:26:03.743516749+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, relaying the owner's rulings of 2026-10-23"
+  }
+}
