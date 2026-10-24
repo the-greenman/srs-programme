@@ -1,0 +1,24 @@
+{
+  "instanceId": "b7640456-45b9-45b5-b3c6-9ff784ef87bb",
+  "typeId": "58f0ee7b-8063-4fc7-9b39-af918962c91f",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "standing-job",
+  "fieldValues": {
+    "title": "Fix the bugs",
+    "description": "Take the first workable bug from clerk queue --bugs, in its group's lane or the central one: check the dots (clerk flow --chain), claim as the bug fixer, reproduce on the default branch, fix with the smallest change plus a regression test, gates by exit code, PR, run report. Never runs a feature pipeline; never merges.",
+    "done_when": "Each bug taken has a PR with its reproduction as a regression test and a run report, or a needs-input stop with the exact question.",
+    "trigger": "not yet set up (the seat is ratified, 4a44396a)",
+    "size": "One bug per run",
+    "brief_path": "routines/bug-fixer.md"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-24T16:20:17.611348171+00:00",
+  "updatedAt": "2026-10-24T16:20:17.611353016+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (on the owner's instruction, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
