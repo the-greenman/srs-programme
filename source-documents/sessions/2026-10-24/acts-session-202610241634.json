@@ -1,0 +1,58 @@
+{
+  "session": "008648c3-1dd3-47d8-a36f-3b71251c0fc0",
+  "acts": [
+    {
+      "at": "2026-10-24T16:35:07.161Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 2,
+      "seen": [],
+      "updatedAt": "2026-10-24T11:40:47.436296384+00:00",
+      "kind": "edit",
+      "id": "4445b9cf-c7b8-4a8a-88bb-392f06078bce",
+      "title": "A decision already taken is cited, never asked again"
+    },
+    {
+      "at": "2026-10-24T16:35:08.501Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 2,
+      "seen": [],
+      "updatedAt": "2026-10-24T11:40:47.436296384+00:00",
+      "kind": "ratify",
+      "id": "4445b9cf-c7b8-4a8a-88bb-392f06078bce",
+      "title": "A decision already taken is cited, never asked again"
+    },
+    {
+      "at": "2026-10-24T16:35:22.088Z",
+      "section": "Decisions since the last session",
+      "position": 2,
+      "of": 2,
+      "seen": [],
+      "updatedAt": "2026-10-24T16:12:04.900823894+00:00",
+      "kind": "ratify",
+      "id": "9d50126b-e05e-44ae-8d24-bc8e18df88ab",
+      "title": "Confidence grades care, it does not gate work"
+    },
+    {
+      "at": "2026-10-24T16:35:31.554Z",
+      "section": "Reports",
+      "position": 1,
+      "of": 2,
+      "seen": [],
+      "kind": "receive",
+      "id": "7b3f8131-d671-4e64-860c-c80e567acb05",
+      "title": "WG Agent-supported editor report 2026-10-24"
+    },
+    {
+      "at": "2026-10-24T16:35:38.085Z",
+      "section": "Reports",
+      "position": 2,
+      "of": 2,
+      "seen": [],
+      "kind": "receive",
+      "id": "4765f64b-4cba-4f29-bf94-b26bc5b4f0dc",
+      "title": "WG Third-party ready report 2026-10-24"
+    }
+  ]
+}
