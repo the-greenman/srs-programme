@@ -1,0 +1,39 @@
+{
+  "session": "1a1b8e5f-c406-4cf0-833e-0848bf0d0d8e",
+  "acts": [
+    {
+      "at": "2026-10-24T19:10:49.001Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 2,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-10-24T16:47:30.862164766+00:00",
+      "kind": "ratify",
+      "id": "5f7ec370-02db-4d63-88c4-38bd432294c2",
+      "title": "An exercise explores an idea: agents comment on it, and it may lead to many elements"
+    },
+    {
+      "at": "2026-10-24T19:10:52.776Z",
+      "section": "Decisions since the last session",
+      "position": 2,
+      "of": 2,
+      "seen": [],
+      "updatedAt": "2026-10-24T19:07:58.910382722+00:00",
+      "kind": "ratify",
+      "id": "c373c2c1-7671-46cd-a0ea-0cd1561313ca",
+      "title": "The programme repository is a shared database: its changes auto-merge"
+    },
+    {
+      "at": "2026-10-24T19:11:01.094Z",
+      "section": "Reports",
+      "position": 1,
+      "of": 1,
+      "seen": [],
+      "kind": "receive",
+      "id": "ca76b1fc-eec5-4f04-b1ed-f84a49fcf6ad",
+      "title": "WG Agent-supported editor report 2026-10-21"
+    }
+  ]
+}
