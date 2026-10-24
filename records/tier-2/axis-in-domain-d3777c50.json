@@ -1,0 +1,20 @@
+{
+  "instanceId": "d3777c50-3907-4e31-90e5-b008dd297e9d",
+  "typeId": "88d9b5da-418b-4bf1-a3e3-97bd14a52a9c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "axis-in-domain",
+  "fieldValues": {
+    "title": "Perspective in Evidence-backed writing",
+    "line": 3,
+    "summary": "Focus or zoom out for the editor: our own editor plan (Focus) vs staying open to practice from outside, real use and the site editor (Zoom out). The default classic axis, refined in this domain (the owner, 2026-10-24: adopt the default axes and poles, then explore how they are refined locally)."
+  },
+  "createdAt": "2026-10-24T18:00:29.576886351+00:00",
+  "updatedAt": "2026-10-24T18:00:29.576891482+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's stance for the editor group, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

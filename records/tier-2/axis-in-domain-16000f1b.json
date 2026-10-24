@@ -1,0 +1,20 @@
+{
+  "instanceId": "16000f1b-9186-4d67-a4b7-0a72732953df",
+  "typeId": "88d9b5da-418b-4bf1-a3e3-97bd14a52a9c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "axis-in-domain",
+  "fieldValues": {
+    "title": "Change in Evidence-backed writing",
+    "line": 2,
+    "summary": "Change or stability in the editor: bringing in new features (Disrupt) vs stabilising what writers already use (Stabilise). The default classic axis, refined in this domain (the owner, 2026-10-24: adopt the default axes and poles, then explore how they are refined locally)."
+  },
+  "createdAt": "2026-10-24T18:00:28.574725876+00:00",
+  "updatedAt": "2026-10-24T18:00:28.574728881+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's stance for the editor group, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

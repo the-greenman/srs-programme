@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "e8a6495b-5757-4a31-bd1c-c96b46305c79",
+  "relationType": "com.semanticops.method/in-domain",
+  "sourceInstanceId": "16000f1b-9186-4d67-a4b7-0a72732953df",
+  "targetInstanceId": "2651f2ad-a0ca-45fe-88dd-8271f4c81084",
+  "createdAt": "2026-10-24T18:00:28.827996890+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's stance for the editor group, 2026-10-24)"
+  }
+}
