@@ -1,0 +1,26 @@
+{
+  "instanceId": "3f2db6bb-91f2-4c44-8a81-2d50f489f9a9",
+  "title": "Evolving the axes: localised versions of the classic (2026-10-24)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Lets now think about the way we evolve the axes.\n\nAnd these will probably be localised versions of the classic.\n\n1. Energy dirction:   Getting things done vs developing how we get things done. (The current battle)\n2. Change vs stabilty:   Should we integrate new ideas or keep refining the what we are doing now\n3. Focus or Zoom out:  Defining our own plan or integrating practice from outside"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-24; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's axes, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

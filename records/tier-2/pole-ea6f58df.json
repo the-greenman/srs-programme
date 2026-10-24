@@ -1,0 +1,19 @@
+{
+  "instanceId": "ea6f58df-8dbc-4ab3-b666-c5713fb46e74",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Refine what we are doing now",
+    "looks_like": "What we are doing now is kept and refined."
+  },
+  "createdAt": "2026-10-24T13:29:42.347592417+00:00",
+  "updatedAt": "2026-10-24T13:29:42.347596020+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's axes, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

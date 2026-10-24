@@ -1,0 +1,19 @@
+{
+  "instanceId": "303dce90-ddfd-47e9-a6bf-c300eec06f2a",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Our own plan and practice from outside",
+    "description": "Focus or zoom out: whether we define our own plan, or integrate practice from outside."
+  },
+  "createdAt": "2026-10-24T13:29:42.710810401+00:00",
+  "updatedAt": "2026-10-24T13:29:42.710813247+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's axes, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

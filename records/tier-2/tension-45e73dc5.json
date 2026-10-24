@@ -1,0 +1,19 @@
+{
+  "instanceId": "45e73dc5-6cb8-4c0c-a76f-ce51e89a6a86",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Getting things done and developing how we get things done",
+    "description": "Energy direction: whether energy goes into getting the work done, or into developing how we get it done. The current battle."
+  },
+  "createdAt": "2026-10-24T13:29:40.521360971+00:00",
+  "updatedAt": "2026-10-24T13:29:40.521363838+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's axes, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
