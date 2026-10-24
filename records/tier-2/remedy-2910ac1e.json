@@ -1,0 +1,25 @@
+{
+  "instanceId": "2910ac1e-c11b-4ca2-9d07-561cf38668ce",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Affirm in context: the owner's words beside the elements they became, with the issues and the group they lead to",
+    "move": "In the editor, a narrative passage sits beside every element derived from it: the domain, persona, problem, tension, remedy or decision an agent proposes, each linked to the sentence it came from, as the muDemocracy site editor already links to sentences. The owner affirms, corrects or rejects an element there, with the passage in view, never at a distance in a list. The same view shows what follows: the open issues that would route to those problems through their domain (clerk#124), and the working group that holds the domain, its stance read from the domain's axes and poles, the default axes until the domain refines them. Comments carry their kind and responses are marked (0aa77274, ff946eb1), so an agent's proposal, the owner's answer and the action it leads to stay together in one thread.",
+    "does_not_fix": "The editing features already remedied: swapping an agent's words in (1ab894e2), owning edited words (9ce3dedc), placing an essay in a domain and linking its paragraphs (dddaa2e3). The routing rule itself (clerk#124). Whether a conversation may thread: decision ff946eb1 says it stays flat, and the owner's correction to it (commit 9d0d116) has not landed.",
+    "falsifier": "Once the view exists, the owner still affirms derived records from a list without seeing the passage they came from, or cannot say which issues and which group a newly described problem would reach.",
+    "source_ref": [
+      "Owner, 2026-10-24 (vignette 'Seeing my words become elements'): \"I want to be able to see my words next to the agents words. Otherwise the distance means that I just approve a connection without being able to see it in context.\""
+    ],
+    "return_when": "After the first narrative passage has been affirmed in this view, or when the essay editor can link a derived record to a sentence."
+  },
+  "createdAt": "2026-10-24T14:36:21.826485170+00:00",
+  "updatedAt": "2026-10-24T14:36:21.826489242+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (on the owner's instruction, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

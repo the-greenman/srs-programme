@@ -1,0 +1,24 @@
+{
+  "instanceId": "77c1aa6a-bfa1-42a3-a6d3-380423636791",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-105",
+    "title": "Agents create new records where existing ones already hold the meaning",
+    "statement": "Asked to record meaning, an agent reaches for create: it writes a new tension, pole or problem without finding the one that already exists. On 2026-10-24 an agent recreated, thinner, the six poles I had affirmed two days before. Nothing guides where a piece of meaning belongs, in which layer, as which type, and which existing record it should link to or refine, so the repository fills with near-duplicates and what we already know cannot be found.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-24: \"We also need to be able to work out how to structure this information in a way that will let it be found. This is the problem of agents not knowing how to create structured information for srs\" (vignette 'Structure that can be found')"
+    ]
+  },
+  "createdAt": "2026-10-24T13:37:59.130586905+00:00",
+  "updatedAt": "2026-10-24T13:37:59.130594208+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's narrative verbatim, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

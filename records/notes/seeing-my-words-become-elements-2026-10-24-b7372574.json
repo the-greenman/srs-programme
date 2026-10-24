@@ -1,0 +1,26 @@
+{
+  "instanceId": "b7372574-e3a0-43e8-ac16-33af23a3cfb6",
+  "title": "Seeing my words become elements (2026-10-24)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "So this process was good. it feels more natural.\nbut I need to be able o see how my text gets turned into different elements.\nWe are going to need to build the tools for this. The essay editor is very close alredy. The mudemocracy webiste editor too - that already links to specific scentences.\n\nWe also have an update that is proposed but not yet done that allows for threads and types of comments so taht we can show actions and mark responses to comments.\n\nI want to be able to see my words next to the agents words. Otherwise the distance means that I just approve a connection without beign able to see it in context.\n\nThen, we should also be able to see how issues would get assigned to domains in that context too. As we explain the domain, problems and remedies. I want to be able to see how we would see issues assigned to them.\n\nThen a working group is attached to a domain, with it's stance tuned via axes and poles if they exist. By default we can adopt the default axes and poles - and then explore how they get refined int the local context"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-24; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (on the owner's instruction, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
