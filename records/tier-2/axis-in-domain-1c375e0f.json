@@ -1,0 +1,20 @@
+{
+  "instanceId": "1c375e0f-cf93-41d8-98f6-928d2267b9ba",
+  "typeId": "88d9b5da-418b-4bf1-a3e3-97bd14a52a9c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "axis-in-domain",
+  "fieldValues": {
+    "title": "Change in Semantic engineering in practice",
+    "line": 2,
+    "summary": "Change or stability: integrating new ideas (Disrupt) vs refining what we are doing now (Stabilise). The owner's localisation of the classic axis (vignette 'Evolving the axes', 2026-10-24). The poles are the classic poles, which the owner affirmed on 2026-10-22; yang is the classic yang. For the owner to judge in relation."
+  },
+  "createdAt": "2026-10-24T13:37:19.142991420+00:00",
+  "updatedAt": "2026-10-24T13:37:19.142996056+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (on the owner's instruction, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

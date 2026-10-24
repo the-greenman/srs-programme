@@ -1,0 +1,20 @@
+{
+  "instanceId": "0f2ed0fa-2272-41b3-8cea-7645817ea4d2",
+  "typeId": "88d9b5da-418b-4bf1-a3e3-97bd14a52a9c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "axis-in-domain",
+  "fieldValues": {
+    "title": "Action in Semantic engineering in practice",
+    "line": 1,
+    "summary": "Energy direction: getting things done (Act) vs developing how we get things done (Observe). The current battle. The owner's localisation of the classic axis (vignette 'Evolving the axes', 2026-10-24). The poles are the classic poles, which the owner affirmed on 2026-10-22; yang is the classic yang. For the owner to judge in relation."
+  },
+  "createdAt": "2026-10-24T13:37:18.674362271+00:00",
+  "updatedAt": "2026-10-24T13:37:18.674369074+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (on the owner's instruction, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "1dba13fb-6575-4a76-b096-7b091e6673ea",
+  "relationType": "com.semanticops.method/yang-pole",
+  "sourceInstanceId": "1c375e0f-cf93-41d8-98f6-928d2267b9ba",
+  "targetInstanceId": "81210644-1f8b-45ee-8ead-bbd4895a2353",
+  "createdAt": "2026-10-24T13:37:19.514461271+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (on the owner's instruction, 2026-10-24)"
+  }
+}
