@@ -1,0 +1,22 @@
+{
+  "instanceId": "ca76b1fc-eec5-4f04-b1ed-f84a49fcf6ad",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "Real use: the first essay, a client contract (2026-10-21)",
+    "run_date": "2026-10-21",
+    "chose": "The owner built a client contract as an essay: the source documents went in first, then a structured, cross-referenced text was written against them. What worked: an attached source per document and evidences links from sources to paragraphs, the backbone a stable shared package should keep. What broke: the editor recorded no author for the owner's own text (srs-web#618); agents wrote more than the text, which the owner manages by editing and re-editing toward human text without bloat; the conversation with Claude and ChatGPT happened in their own chats, so the essay holds none of it; and the argument package carries more than the essay used, so simplifying it is valuable. A structural copy of the essay, every value replaced and leak-checked, is kept outside the repositories until the owner chooses where it lives.",
+    "rationale": "Remedy c21da256: a real user's session is an occasion; it is reported, its findings enter intake, and its file is kept.",
+    "figures": "20 paragraphs (1,600 words, median 75; 19 edited after creation), 8 sources each with one attached document, 20 evidences links (source to paragraph, all by one agent), 29 comments (2,790 words) from three agents, 0 responses, 0 links to problems, claims or remedies; written in about five hours. Authorship: 14 paragraphs with no createdBy and 6 under an anonymous local actor, all written by the owner."
+  },
+  "createdAt": "2026-10-24T17:30:02.848299388+00:00",
+  "updatedAt": "2026-10-24T17:30:02.848302737+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (relaying the owner, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

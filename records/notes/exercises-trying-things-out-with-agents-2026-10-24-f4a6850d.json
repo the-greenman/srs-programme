@@ -1,0 +1,26 @@
+{
+  "instanceId": "f4a6850d-35ad-4ebe-ac38-34ed2884d7c7",
+  "title": "Exercises: trying things out, with agents (2026-10-24)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "lets now look at the exercies, and what we have recently described for our narrative based work on problems and remedies. \n\nAn exercise is a way to explore an idea. Exercises should also be passed back to agents for comment. These are ways to try things out.  An exercise may lead to many different elements and not just to a single decision."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-24; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's words, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

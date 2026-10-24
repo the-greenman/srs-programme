@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "ba324d0b-66a2-4ea2-928c-6dbb62f8079f",
+  "relationType": "com.semanticops.comments/comments-on",
+  "sourceInstanceId": "634db938-8bf9-40df-accc-6d29a533b841",
+  "targetInstanceId": "451a23ba-7028-462f-a65c-fa2126c77488",
+  "createdAt": "2026-10-24T16:52:03.819223633+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:challenger",
+    "name": "Challenger (red team), commenting on an exercise (2026-10-24)"
+  }
+}

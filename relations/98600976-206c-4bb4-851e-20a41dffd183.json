@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "98600976-206c-4bb4-851e-20a41dffd183",
+  "relationType": "com.semanticops.comments/comments-on",
+  "sourceInstanceId": "3f3053f3-2ca1-474a-b59f-74ec3573cce8",
+  "targetInstanceId": "451a23ba-7028-462f-a65c-fa2126c77488",
+  "createdAt": "2026-10-24T16:52:04.201512198+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:synthesiser",
+    "name": "Synthesiser, commenting on an exercise (2026-10-24)"
+  }
+}

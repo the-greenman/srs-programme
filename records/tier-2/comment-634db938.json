@@ -1,0 +1,18 @@
+{
+  "instanceId": "634db938-8bf9-40df-accc-6d29a533b841",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Challenger: The framing says there are \"two models\", but there are more like five copies, and they have already drifted apart. srs-programme installs both method and argument. Its argument package has the same IDs as muSrs's, yet its blueprints and compositions differ. /home/greenman/dev/semanticops/clerk/packages/method is a second copy of method whose types and relations differ from srs-programme's, for example persona-in-domain and holds-domain. So \"practise side by side\" is not a controlled experiment. It is uncontrolled forking, and the owner's own comment, \"many versions of this wheel\", says as much. Question 4 also assumes the essay package has some linking to decide. It barely has any: /home/greenman/dev/muDemocracy.org/muSrs/packages/essay/relation-types holds three relations (bears-on, counters, comments-on), and only bears-on targets a chain type: paragraph to argument problem. Problem is the only type both chains share, and the owner calls everything after it \"unformed\". Choosing between method, argument or a shared core now would build on that unformed part. The 24 October domain ratification also forbids treating a muSrs problem as a programme problem. Owner: should the next action be one essay, in one repository, that links its paragraphs only to problems, and nothing past problem until that hurts?"
+  },
+  "createdAt": "2026-10-24T16:52:03.729835473+00:00",
+  "updatedAt": "2026-10-24T16:52:03.729838533+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:challenger",
+    "name": "Challenger (red team), commenting on an exercise (2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

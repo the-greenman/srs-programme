@@ -1,0 +1,26 @@
+{
+  "instanceId": "15ff2b99-2c37-42f5-9d85-2442e550a46a",
+  "title": "The first real essay: human text without bloat (2026-10-24)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "4. So all of this text was written by me, so there is a bug in the editor not recording the author\n2. We will probably always be the case, but it needs to be managed. I will edit and reedit the paragraphs. The point if this is human text without bloat\n3. I generally conversed with the claude and chatgpt in their own chats, I didn't set up any loop to hold all the conversation in the essay\n5. Yes, we probably have too much in our argumen package, we simplification is valuable."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-24, answering the structural reading of the first real essay (a client contract, 2026-10-21); recorded verbatim. The numbers answer the agent's findings: 2 agents wrote more than the text, 3 the conversation went one way, 4 provenance broke, 5 evidence but no argument."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (relaying the owner, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

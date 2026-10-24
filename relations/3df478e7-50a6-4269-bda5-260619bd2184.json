@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "3df478e7-50a6-4269-bda5-260619bd2184",
+  "relationType": "com.semanticops.comments/comments-on",
+  "sourceInstanceId": "7872aeb8-0d47-4a1c-88c7-42e4e51a0803",
+  "targetInstanceId": "451a23ba-7028-462f-a65c-fa2126c77488",
+  "createdAt": "2026-10-24T16:52:04.006634381+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:evidence",
+    "name": "Evidence (blue team), commenting on an exercise (2026-10-24)"
+  }
+}
