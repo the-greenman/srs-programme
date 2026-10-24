@@ -1,0 +1,30 @@
+{
+  "instanceId": "9d50126b-e05e-44ae-8d24-bc8e18df88ab",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Confidence grades care, it does not gate work",
+    "decision_question": "Must an issue answer an affirmed problem, in an affirmed domain, before any work on it may start?",
+    "context": "Rulings D4, D5 and D15 (2026-10-16, handbook 'How an issue reaches a group') and the claim rule of f799b6bc say an issue is not work until it is grounded in an affirmed problem and routed. Since clerk#162 (merged 2026-10-23) clerk claim instead grades the work with the Confidence and care policy and refuses nothing for lack of confidence; /ship still stops at an unaffirmed problem. The owner, clerk#156 (2026-10-23): \"Waiting for affirmations and theory should not stop all work. This is a matter of confidence: we can work, but need more care when we have less confidence. Problems and domains that are not affirmed are still valid, especially ones defined in conversation.\" And on 2026-10-24, reviewing the flow map: \"no work can get done if this is a linear process\" (SP-104 records the contradiction).",
+    "friction": "Work waits for affirmations that are harder to give than the work is to do (SP-102); the ratified rule and the running practice say opposite things (SP-104).",
+    "alternatives_considered": "1. Confidence grades care (recommended): an issue needs a problem it names (suggested or affirmed, never unknown or set aside); how sure the grounding is sets the care mode (Build, Careful, Careful group-reviewed, Probe) through the programme's Confidence and care policy. Collisions and holds still stop work. Leads to: work flows on suggested meaning, carefully, and affirmation raises confidence instead of unlocking it.\n2. Affirmation gates work (D4, D5, D15 as written): no work until the problem, persona and domain are affirmed. Leads to: the stop-start the audit of 2026-10-23 found, and the owner's affirmation queue as the bottleneck.\n3. Do nothing: the ratified rule and the code keep disagreeing. Leads to: /ship stops where the routines build, and every reader must guess which holds.",
+    "decision_statement": "An issue may be worked once it names the problem it answers, suggested or affirmed, never unknown or set aside. Affirmation is not a gate: how sure the grounding, mandate and plan are sets the care mode the programme's Confidence and care policy gives it, and work proceeds in that mode. Collisions (already claimed, an open PR) and holds (needs-input, parked, blocked) still stop work. Every command and brief that admits work reads the same dots (clerk flow) and the same mode (clerk care). This revises the grounding requirement of D4, D5 and D15 and the claim rule of f799b6bc; routing by domain stands.",
+    "rationale": "Shared understanding grows with practice; a gate on it stops the practice that would grow it. Grading care keeps the risk visible without stopping the work.",
+    "revisit_when": "When a change built on suggested meaning has to be reverted because the meaning was wrong, more often than the care modes predict.",
+    "next_steps": "Ratify in a session. Then the handbook's 'How an issue reaches a group' and /ship stage 1 read the care mode instead of stopping (clerk PR for /ship), and clerk#156 closes its ruling step.",
+    "owner": "Peter Brownell",
+    "status": "active",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-24T16:12:04.742466921+00:00",
+  "updatedAt": "2026-10-24T16:12:04.900823894+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner ruling, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
