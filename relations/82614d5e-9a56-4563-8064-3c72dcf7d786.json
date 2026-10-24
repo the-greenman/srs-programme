@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "82614d5e-9a56-4563-8064-3c72dcf7d786",
+  "relationType": "com.mudemocracy.argument/within-boundary",
+  "sourceInstanceId": "f93a7b24-3232-4d5c-bdd7-1bc672069463",
+  "targetInstanceId": "5739852c-f138-4152-954b-29b5a5c8b647",
+  "createdAt": "2026-10-24T18:00:56.343728628+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's stance for the editor group, 2026-10-24)"
+  }
+}

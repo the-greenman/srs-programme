@@ -1,0 +1,26 @@
+{
+  "instanceId": "f71456d5-aa77-4b4c-954a-ba3f95bf12e1",
+  "title": "The editor group's stance for the next cycle: Thunder (2026-10-24)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The next cycle has a lean towards action.\n1. We need to get the tools to a usable state and actually produce the funding essays now.\n2. We are going to try to stabilise what we have\n3. Open\n\nWind\n\n[asked whether Act, Stabilise and Zoom out is Thunder, as the programme reads the lines from the bottom]\n\ntunder is rught"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-24; recorded verbatim (the bracketed line is the question the owner answered)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's stance for the editor group, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

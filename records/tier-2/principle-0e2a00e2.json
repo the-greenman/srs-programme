@@ -1,0 +1,23 @@
+{
+  "instanceId": "0e2a00e2-13c0-4f9c-aa8e-f5d5c4776636",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Stabilising what we have over bringing in new features, this cycle",
+    "boundary_clause": "A new feature comes in only when a funding essay cannot be written without it (the owner: \"we are going to try to stabilise what we have\").",
+    "context": "WG Agent-supported editor, the cycle from 2026-10-24 (the owner: \"The next cycle has a lean towards action\"); stance Thunder, Act, Stabilise, Zoom out.",
+    "source_ref": [
+      "Owner, 2026-10-24 (vignette 'The editor group's stance for the next cycle: Thunder')"
+    ]
+  },
+  "createdAt": "2026-10-24T18:00:29.027837500+00:00",
+  "updatedAt": "2026-10-24T18:00:29.027842511+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's stance for the editor group, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
