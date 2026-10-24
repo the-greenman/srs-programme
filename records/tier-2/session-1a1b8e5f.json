@@ -1,0 +1,29 @@
+{
+  "instanceId": "1a1b8e5f-c406-4cf0-833e-0848bf0d0d8e",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-24 19:10 UTC: SemanticOps",
+    "held_at": "2026-10-24T19:10:15Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-24 19:10 UTC: SemanticOps\nAttendees: Owner\n- Ratified: An exercise explores an idea: agents comment on it, and it may lead to many elements [5f7ec370]\n- Ratified: The programme repository is a shared database: its changes auto-merge [c373c2c1]\n- Received: WG Agent-supported editor report 2026-10-21\nActs in the order taken (UTC):\n- 19:10:49Z ratify: An exercise explores an idea: agents comment on it, and it may lead to many elements [5f7ec370] (Decisions since the last session 1 of 2, saw full record, record updated 2026-10-24T16:47:30.862164766+00:00)\n- 19:10:52Z ratify: The programme repository is a shared database: its changes auto-merge [c373c2c1] (Decisions since the last session 2 of 2, record updated 2026-10-24T19:07:58.910382722+00:00)\n- 19:11:01Z receive: WG Agent-supported editor report 2026-10-21 [ca76b1fc] (Reports 1 of 1)"
+  },
+  "createdAt": "2026-10-24T19:11:07.938460656+00:00",
+  "updatedAt": "2026-10-24T19:11:07.938462323+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "991cb088-249a-485a-a81b-d1d0e98bf5f4",
+      "sourceRole": "attaches"
+    }
+  ]
+}
