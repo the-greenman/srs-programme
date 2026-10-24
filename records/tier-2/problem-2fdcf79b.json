@@ -1,0 +1,24 @@
+{
+  "instanceId": "2fdcf79b-e75e-4bf7-b4d2-9b20aa7028b2",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-103",
+    "title": "My understanding has no place to grow as a story",
+    "statement": "I understand the programme as a narrative, but the only way to put that understanding in is record by record. There is nowhere to tell the story, come back to it, refine it over time, and see how each version becomes records. So context does not improve with practice; it is re-argued in fragments.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-24, reviewing the flow map (clerk#180): \"I need to be able to tell a story and then see how these get transformed into records. ... I should be able to return to my descriptions, evolve them and refine them over time.\""
+    ]
+  },
+  "createdAt": "2026-10-24T13:00:16.703717942+00:00",
+  "updatedAt": "2026-10-24T13:00:16.703721207+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's words, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
