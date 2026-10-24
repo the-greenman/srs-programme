@@ -1,0 +1,22 @@
+{
+  "instanceId": "7b3f8131-d671-4e64-860c-c80e567acb05",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle 2026-10-24",
+    "run_date": "2026-10-24",
+    "chose": "Closed the cycle 2026-10-23 11:30 to 2026-10-24 11:30 UTC. A quiet cycle: no group PR merged, none open, nothing stopped, no escalation raised. The owner ruled on decision 5d5feb79 at the 11:03 session today (option A: the brief becomes typed data in the essay package), so the group's critical path is now a package release in muDemocracy.org, not an open question. Four new essay issues (srs-web#587 to #590) were filed on 2026-10-23. Pause state: ok. No decision awaited assent, so no group session was held.",
+    "rationale": "No new escalation. 5d5feb79 was the only open one and the owner has ruled on it. Its step 2 (file the package change in muDemocracy.org for the brief, the context-document marker and the feedback flag) is not filed yet; that is a Builder or owner task, not a Steward one.",
+    "figures": "Delegated merges (group-state): 0 of 10; 0 open. Ready + wg:agent-editor issues: 1 (semanticops.com#14, the owner's dogfood run). Needs-input: srs-web#567, #571. Blocked: srs-web#591, #592, #514, #426. Ratified decisions across the programme: about 89, so the srs-web#560 build trigger (about 10) is reached."
+  },
+  "createdAt": "2026-10-24T11:38:35.912174468+00:00",
+  "updatedAt": "2026-10-24T11:38:35.912178734+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
