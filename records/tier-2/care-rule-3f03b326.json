@@ -5,8 +5,8 @@
   "typeNamespace": "com.semanticops.programme",
   "typeName": "care-rule",
   "fieldValues": {
-    "policy_title": "Rule 4: grounded, planned work without a technical plan is careful",
-    "policy_order": 4,
+    "policy_title": "Rule 6: grounded, planned work without a technical plan is careful",
+    "policy_order": 6,
     "rule_all_of": [
       "placement>=medium",
       "mandate>=medium"
@@ -14,7 +14,7 @@
     "policy_explanation": "The work belongs in the plan and its problem has a conversation behind it, but the how is open: take the smallest reversible step and ask."
   },
   "createdAt": "2026-10-23T09:26:05.361188499+00:00",
-  "updatedAt": "2026-10-23T09:26:05.361206770+00:00",
+  "updatedAt": "2026-10-24T10:20:56.165158734+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

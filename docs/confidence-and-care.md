@@ -92,6 +92,54 @@ The item's body carries a "## Technical plan" section with content: a plan writt
 - plan.section
 
 
+#### Medium: the owner is directing, or the steps are written out
+
+**Level**: medium
+
+The session actor is the owner's (owner.directed), as in a command-line session; or the body lists at least three steps with code references or acceptance criteria, without a "## Technical plan" heading (plan.steps). Each counts for something, but not for a plan: agent sessions run as the owner's actor and agents write issues in that shape too, so neither reaches Build without a written technical plan (clerk#157 review, B1 and B3).
+
+**Earned by any of**:
+- owner.directed
+- plan.steps
+
+
+### Domain: do we know where it belongs?
+
+How sure the programme is of the domain the item belongs to, and so of the group that holds it. Domain confidence does not select a care mode in this seed; it ranks strong items for pulling forward and tells routing how sure the placement is. A rule may name it, as domain>=<level>, once practice shows it should.
+
+
+#### High: the domain comes from affirmed theory
+
+**Level**: high
+
+The item answers an affirmed problem held by a persona in a domain.
+
+**Earned by any of**:
+- domain.affirmed-problem
+
+
+#### Medium: placed with a group, or theory not yet affirmed
+
+**Level**: medium
+
+The item carries the wg: label of a group that holds a domain, or answers a suggested problem held by a persona in a domain.
+
+**Earned by any of**:
+- domain.group-label
+- domain.suggested-problem
+
+
+#### Low: inferred from the repository
+
+**Level**: low
+
+The repository is governed by a group that holds a domain. When more than one group governs it, the repository suggests a domain but cannot say which; both count as low.
+
+**Earned by any of**:
+- domain.repo-one-group
+- domain.repo-shared
+
+
 ### Care mode: Build
 
 Work as normal: claim, build, pass every gate. Merge follows the PR's own decision mode and door.
@@ -114,6 +162,19 @@ Do the work, but the smallest reversible version of it, and say what you assumed
 - label the PR gate:owner-merge
 
 **Merge gate at least**: owner-merge
+
+
+### Care mode: Careful, group-reviewed
+
+Careful work inside a working group: the smallest reversible version, with its assumptions written down, reviewed by the group instead of the owner. The group's reviewer judges the assumptions; anything outside the group's mandate still escalates to the owner as a proposed decision.
+
+**Must**:
+- build the smallest reversible slice
+- write an assumptions block in the PR
+- put open questions as blocks: merge asks
+- leave the gate to the group's reviewer: no gate: label at opening
+
+**Merge gate at least**: auto-merge
 
 
 ### Care mode: Probe
@@ -153,7 +214,22 @@ Nothing is left to guess: the problem is affirmed and the fix is decided.
 **Selects**: Care mode: Build
 
 
-### Rule 3: a clear plan on thin theory is careful
+### Rule 3: affirmed, planned work with its steps written out builds
+
+**When all of**:
+- placement>=high
+- mandate>=medium
+
+**And at least one of**:
+- signal:plan.steps
+- technical_plan>=high
+
+The owner has affirmed the problem, the work sits under a ranked epic, and the issue spells out its steps. That is enough to build as normal. Ungrounded work never reaches this rule, so a checklist alone still builds nothing (clerk#157 review, B3).
+
+**Selects**: Care mode: Build
+
+
+### Rule 4: a clear plan on thin theory is careful
 
 **When all of**:
 - technical_plan>=high
@@ -163,7 +239,19 @@ The how is clear but the why rests on an agent's suggestion alone: build it reve
 **Selects**: Care mode: Careful
 
 
-### Rule 4: grounded, planned work without a technical plan is careful
+### Rule 5: grounded, planned group work without a technical plan is careful, reviewed by its group
+
+**When all of**:
+- placement>=medium
+- mandate>=medium
+- signal:domain.group-label
+
+The work belongs in the plan, its problem has a conversation behind it, and a working group holds it, but the how is open: take the smallest reversible step, write down the assumptions, and let the group's reviewer judge them. The owner sees it only if it leaves the group's mandate.
+
+**Selects**: Care mode: Careful, group-reviewed
+
+
+### Rule 6: grounded, planned work without a technical plan is careful
 
 **When all of**:
 - placement>=medium
@@ -174,59 +262,11 @@ The work belongs in the plan and its problem has a conversation behind it, but t
 **Selects**: Care mode: Careful
 
 
-### Rule 5: everything else is a probe
+### Rule 7: everything else is a probe
 
 No item is refused for lack of confidence. When nothing above holds, the work is to find out.
 
 **Selects**: Care mode: Probe
-
-
-### Medium: the owner is directing, or the steps are written out
-
-**Level**: medium
-
-The session actor is the owner's (owner.directed), as in a command-line session; or the body lists at least three steps with code references or acceptance criteria, without a "## Technical plan" heading (plan.steps). Each counts for something, but not for a plan: agent sessions run as the owner's actor and agents write issues in that shape too, so neither reaches Build without a written technical plan (clerk#157 review, B1 and B3).
-
-**Earned by any of**:
-- owner.directed
-- plan.steps
-
-
-### Domain: do we know where it belongs?
-
-How sure the programme is of the domain the item belongs to, and so of the group that holds it. Domain confidence does not select a care mode in this seed; it ranks strong items for pulling forward and tells routing how sure the placement is. A rule may name it, as domain>=<level>, once practice shows it should.
-
-
-### High: the domain comes from affirmed theory
-
-**Level**: high
-
-The item answers an affirmed problem held by a persona in a domain.
-
-**Earned by any of**:
-- domain.affirmed-problem
-
-
-### Medium: placed with a group, or theory not yet affirmed
-
-**Level**: medium
-
-The item carries the wg: label of a group that holds a domain, or answers a suggested problem held by a persona in a domain.
-
-**Earned by any of**:
-- domain.group-label
-- domain.suggested-problem
-
-
-### Low: inferred from the repository
-
-**Level**: low
-
-The repository is governed by a group that holds a domain. When more than one group governs it, the repository suggests a domain but cannot say which; both count as low.
-
-**Earned by any of**:
-- domain.repo-one-group
-- domain.repo-shared
 
 ### Signal catalogue
 

@@ -1,0 +1,27 @@
+{
+  "instanceId": "53a8b390-aad1-4146-af30-7850fd4e6b48",
+  "typeId": "4a6abffb-618f-4ed9-8009-c5ce1318961d",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "care-mode",
+  "fieldValues": {
+    "policy_title": "Care mode: Careful, group-reviewed",
+    "policy_key": "careful-group",
+    "policy_explanation": "Careful work inside a working group: the smallest reversible version, with its assumptions written down, reviewed by the group instead of the owner. The group's reviewer judges the assumptions; anything outside the group's mandate still escalates to the owner as a proposed decision.",
+    "care_must": [
+      "build the smallest reversible slice",
+      "write an assumptions block in the PR",
+      "put open questions as blocks: merge asks",
+      "leave the gate to the group's reviewer: no gate: label at opening"
+    ],
+    "merge_gate": "auto-merge"
+  },
+  "createdAt": "2026-10-24T10:20:48.839894149+00:00",
+  "updatedAt": "2026-10-24T10:20:48.839899992+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
