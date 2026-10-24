@@ -1,0 +1,26 @@
+{
+  "instanceId": "209e10fb-e787-47b4-816c-5102a1110a83",
+  "title": "The programme is a database (2026-10-24)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "ok lets set a general keep work moving rule.  Generally, programme changes can auto merge.\nManual programm merges mean that work gets lost too easily.\nA programme is a shared state. if I have made my ratifications - I have already done it.\n\nLets just imagine that srs-programme is just a databse"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-24; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner ruling, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

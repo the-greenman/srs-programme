@@ -53,12 +53,15 @@ Problem scouts run the MCP/CLI `similar` check against existing problems before 
 
 ## Merge gate
 
-`validate` is required on master, strict, zero reviews. Programme data is
-**non-normative** under srs#580's autonomy contract, nothing outside this
-repository depends on it, so a PR states its Mode/Door, carries
-`gate:auto-merge` and merges itself on green (`gh pr merge --auto`); red does
-not merge. Mode complex, or Door 2/3, carries `gate:owner-merge` and the agent
-never merges. Mode chaotic stops.
+`validate` is required on master, strict, zero reviews. **This repository is a
+shared database: every PR carries `gate:auto-merge` and merges itself on green**
+(`gh pr merge --auto`); red does not merge. That covers records, relations,
+containers, source documents, settings and the clerk pin the workflows run
+(decision c373c2c1, 2026-10-24; it revises 949ae72d here). A PR only records
+state: the owner's acts are made in a session, the control room or a recorded
+ruling. A PR that ratifies, affirms, authorises or sets aside on the owner's
+behalf without that session record or the owner's actor is refused (SP-71).
+Mode chaotic stops.
 
 ## Gates and choreography
 
