@@ -1,0 +1,26 @@
+{
+  "instanceId": "32683192-c5fe-4b36-8d21-c0435baf9370",
+  "title": "Structure that can be found (2026-10-24)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "These poles shgould be completely defined ? \nI ratified them all yesterday?\n\n[...]\n\nWe also need to be able to work out how to structure this information in a way that will let it be found. This is the problem of agents not knowing how to create structured information for srs"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-24; recorded verbatim. Said when the agent had created six new poles instead of finding the classic poles the owner affirmed on 2026-10-22."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's narrative verbatim, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
