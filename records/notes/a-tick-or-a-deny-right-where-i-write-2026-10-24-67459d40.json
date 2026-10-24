@@ -1,0 +1,26 @@
+{
+  "instanceId": "67459d40-04b6-456c-8796-dec4deeed74d",
+  "title": "A tick or a deny, right where I write (2026-10-24)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "We are currently managing affirmations different elements in the method editor. This should be using the same tooling as method and essay to create a way to manage things inline.\n\nIt's method editor based rather than the essay, but we should use generic code.\n\nI need to be able to affirm or deny a structured record created from my text - or linked by an agent right next to where I write. just a tick or a deny. With some detailed guidance in comments on the link from the paragraph.  We could probably allow a link to a problem or remedy to also be linked to a comment. So a comment can say what link it added cleanly - then I can thumb up or down on the comment."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-24; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (on the owner's instruction, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
