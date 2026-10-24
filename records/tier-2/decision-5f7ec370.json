@@ -1,0 +1,30 @@
+{
+  "instanceId": "5f7ec370-02db-4d63-88c4-38bd432294c2",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "An exercise explores an idea: agents comment on it, and it may lead to many elements",
+    "decision_question": "What is an exercise for, who takes part in it, and what can come out of it?",
+    "context": "The handbook ('Three kinds of minute') defines an exercise as an open discussion that feeds proposals and is never ratified, and the session tool can only draft decisions from one ([p]ropose). Nothing passes an exercise to agents, so five exercises sit with their questions open: 0 of 5 have closed into anything. The owner, 2026-10-24 (vignette 'Exercises: trying things out, with agents'): \"An exercise is a way to explore an idea. Exercises should also be passed back to agents for comment. These are ways to try things out. An exercise may lead to many different elements and not just to a single decision.\"",
+    "friction": "An exercise that can only end in one decision waits for the owner to form that decision alone; nothing helps it along, and what it taught is lost if no decision comes.",
+    "alternatives_considered": "1. An exercise explores (recommended): it is passed to agents, who comment on it in declared stances; it is never ratified; what it leads to is recorded as separate elements of any kind, each derived-from it, suggested until affirmed. Leads to: exercises move and teach even when no decision comes.\n2. An exercise feeds proposals (as the handbook has it): it ends in decisions only, drafted by the owner in a session. Leads to: open exercises that wait on the owner, as today.\n3. Do nothing: exercises stay as they are. Leads to: the five open exercises keep waiting.",
+    "decision_statement": "An exercise is a way to explore an idea and try things out. It is passed to agents for comment, each answering in a declared stance and only responding (remedy d1e2248f), and the owner's responses mark which comments helped (decision ff946eb1). It is never ratified. What it leads to may be many elements of any kind, problems, remedies, tensions, domains, decisions, issues or further exercises, each recorded on its own, derived-from the exercise and suggested until affirmed, and shown beside it (remedy 2910ac1e). This revises the handbook's 'an exercise feeds proposals'.",
+    "rationale": "Exploring is how shared understanding grows; it needs other minds on it and freedom to produce whatever it finds, not one decision at the end.",
+    "revisit_when": "When agent comments on exercises are mostly ignored, or when exercises produce suggestions faster than the owner can look at them.",
+    "next_steps": "Ratify in a session. Then: agents comment on open exercises (a brief, building on d1e2248f); the session tool can draft any element from an exercise, not only a decision; the handbook's 'Three kinds of minute' follows.",
+    "owner": "Peter Brownell",
+    "status": "active",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-24T16:47:30.692887373+00:00",
+  "updatedAt": "2026-10-24T16:47:30.862164766+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's words, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

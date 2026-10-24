@@ -1,0 +1,26 @@
+{
+  "instanceId": "5547800a-d8b6-4bb7-b0c0-114f35183c27",
+  "title": "Layers in the editor: functionality apart from the look (2026-10-24)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "So, when we are working in the editor, we need to be able to identify the layers. \nThe actual UI should be separate from the functionality which is not business logic. The Method affirmation editor should generally be using the same code as the essay editor but they may look different"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-24; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's words, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

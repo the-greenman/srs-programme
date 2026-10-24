@@ -1,0 +1,18 @@
+{
+  "instanceId": "3f3053f3-2ca1-474a-b59f-74ec3573cce8",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Synthesiser: Three of the owner's statements already settle questions and could be recorded instead of asked again. Boundaries and domains are one thing, so the muSrs boundary maps onto the programme domain. The domain \"Semantic engineering in practice\" (a376d00c) is the parent. A decision holds only in its own domain and that domain's parents. The repo also shows the \"many versions of this wheel\" problem: every domain has two records (for example 346e323e and 3576be41), and the essay remedy exists twice (5f200696 and dddaa2e3). Elements this exercise could lead to: (1) Decision: boundary means domain. It sits under a376d00c and would rename the \"boundary\" wording in ee95817b. (2) Problem: the same chain was modelled several times. Link SP-65 and SP-105, not a new record. (3) Issue: merge the duplicate domains and the duplicate essay remedies, leaving one remedy that answers SP-85. (4) Tension: simplify now or keep the structure. Arguments stay unformed until SP-85's remedy is tried. (5) Exercise: referencing muSrs's own domain and personas from another domain, by mirroring or by reference. This links to SP-86, SP-34 and decision 31e9fd27 (cross-repository addressing)."
+  },
+  "createdAt": "2026-10-24T16:52:04.115839257+00:00",
+  "updatedAt": "2026-10-24T16:52:04.115842233+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:synthesiser",
+    "name": "Synthesiser, commenting on an exercise (2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

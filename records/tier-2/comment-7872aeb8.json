@@ -1,0 +1,18 @@
+{
+  "instanceId": "7872aeb8-0d47-4a1c-88c7-42e4e51a0803",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Evidence: (Q1) The two types are close but have different fields. muSrs boundary (muSrs/packages/argument/types/boundary-5091e5a0.json) has title, purpose, inside, outside, authority_basis and revision_condition, and no aiGuidance. Method domain (srs-programme/packages/method/types/domain-6e4d0e77.json) has title, purpose, in_scope and out_of_scope, and its aiGuidance says it \"draws the boundary\". srs-programme already holds 12 argument/boundary records alongside its 15 domains. muSrs has 7 boundaries, linked by 46 scopes-problem relations. (Q2) Option fields are statement, expected_benefit, protected_value and risk. Remedy fields are move, does_not_fix, falsifier and return_when. Counts: 13 options in muSrs, 56 remedies in the programme. (Q3) muSrs has no persona type. Its \"persona\" is a vocabulary (clerk, participant, founder, group, constituent: argument/vocabularies/persona-fce7c0a8.json) used as a field on problem. The programme has 10 persona and 36 persona-in-domain records. (Q4) essay/package.json has empty packageDependencies. Its relation types (bears-on, counters, comments-on) do not limit which record types they connect. srs-web/src/lib/essay names only com.mudemocracy.argument/source, plus \"problem\" and \"claim\" in prompt text, and neither package defines a claim type. Neither repo has any essay records. The agent documentation is muSrs/records/notes/maintaining-this-argument-repository-what-an-agent-needs-to-know-75814f46.json, which muDemocracy.org/AGENTS.md points to."
+  },
+  "createdAt": "2026-10-24T16:52:03.920311880+00:00",
+  "updatedAt": "2026-10-24T16:52:03.920314830+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:evidence",
+    "name": "Evidence (blue team), commenting on an exercise (2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
