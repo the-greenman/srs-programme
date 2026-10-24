@@ -1,0 +1,28 @@
+{
+  "instanceId": "6b5e2810-04f3-46d0-b193-3e47fb68302b",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Escalation: may an RFC reopen RFC-039's retired field-id bridge? (srs#931)",
+    "decision_question": "May the group's queue carry srs#931, which needs a new RFC amending RFC-039's retirement of the field-id keyword, and who authors it?",
+    "context": "Problem: Clients that work from a type schema or from find facets cannot name a field by its id; RFC-039 retired the bridge keyword and no binding resolves it. srs-web#547 (durable Lenses addresses) and board columns need a stable field identity. Why it matters: a name is not a stable identity, since two Types can share a Field.name and facets merge them; the fix amends accepted normative meaning (Door 2), which the builder mandate excludes, and touches one-way-per-goal. Options and consequences: (A) Expose fieldId beside name in type_schema properties and find facets: one call for clients, but reopens a retired keyword. (B) Add a separate resolution read (typeId, typeVersion, name) to fieldId: projection stays clean, clients pay one more call. (C) Do nothing: srs-web keeps addressing by name and collides on shared names. Recommendation: authorise an RFC that weighs A against B (Charter Check first); no implementation issue until accepted. Action needed: decide whether the RFC is authorised and by whom. Urgency: low; srs-web#547 can ship by name meanwhile. Answers: SP-05. Detail: https://github.com/the-greenman/srs/issues/931",
+    "friction": "The issue is labelled ready but its own Acceptance says no implementation is filed until an RFC is accepted. A builder cannot execute it: it is new normative meaning (Door 2), outside the group's mandate.",
+    "alternatives_considered": "A. RFC exposing fieldId in type_schema and find facets. B. RFC for a separate resolution read. C. Do nothing.",
+    "key_requirements": "Charter Check and decision mode named; cell stated; amends RFC-039 Rev 6 explicitly; CLI payload and WASM binding alike; no client-side semantics.",
+    "decision_statement": "Authorise an RFC for srs#931 weighing A and B, drafted through the rfc workflow; the builder takes no implementation until it is accepted.",
+    "rationale": "New normative meaning needs an RFC (Door 2, rfc-decision-e99a9437); a name is not a stable identity.",
+    "revisit_when": "The RFC is accepted or srs-web#547 needs the id before then.",
+    "next_steps": "Owner authorises the RFC; srs#931 loses ready until an implementation issue exists."
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-24T19:13:04.898836943+00:00",
+  "updatedAt": "2026-10-24T19:13:04.898848590+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
