@@ -1,0 +1,28 @@
+{
+  "instanceId": "4b7f06ac-8758-4426-b68a-565d4d1d60a4",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Escalation: does Composition get a display title, or do clients humanise its name? (srs#928)",
+    "decision_question": "Should the Composition schema gain an optional display `title` beside its machine `name`, or should the standard rule that clients humanise `name`?",
+    "context": "Problem: Composition has `name` (machine kebab-case) and `description` but no display title, so clients have nothing to show a person as the composition's name. srs-web Lenses invents text by humanising `name` (\"renders-spec\" shown as \"Renders spec\"), and different clients will differ. Why it matters: it is a claim about what the standard says (SP-05, no client invents semantics); a title is presentation, so RFC-015's test applies. Options and consequences: (A) add an optional `title` to Composition by RFC: additive, clients stop guessing, one new schema property; (B) rule that clients humanise `name`: no schema change, but display text stays client-invented and inconsistent; (C) do nothing: today's divergence continues. Recommendation: A, as an additive optional property, with `name` unchanged. Action needed: owner decides, then an RFC (Door 2, spec change) is opened; no implementation until it is accepted. Urgency: low, P2; srs-web#547 works today with humanising. Not group work: the group's mandate excludes Door 2 and new normative meaning.",
+    "friction": "srs#928 is labelled ready and wg:third-party-ready, so the builder queue keeps surfacing it, but it asks for an RFC (new normative meaning, Door 2) and says no implementation issue follows until acceptance. The builder cannot execute it.",
+    "alternatives_considered": "A: optional Composition `title` via RFC. B: ruling that clients humanise `name`. C: do nothing.",
+    "key_requirements": "Additive and optional; `name` stays the machine identifier; presentation stays view-owned (RFC-015 test); relation to Type/Field display labels stated; one way per goal.",
+    "decision_statement": "Open an RFC proposing an optional display `title` on Composition (option A); name stays machine-readable.",
+    "rationale": "Clients should not invent display text (SP-05); an optional additive property is the smallest change that gives every client the same label.",
+    "revisit_when": "The RFC is drafted, or srs-web finds a second place needing a Composition label that humanising cannot serve.",
+    "next_steps": "Owner rules A, B or C. On A: open the RFC via .claude/commands/rfc.md (Charter Check first), then file the implementation issues. On B: record the ruling and close srs#928. Issue labelled needs-input."
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-24T18:12:39.306490979+00:00",
+  "updatedAt": "2026-10-24T18:12:39.306503314+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
