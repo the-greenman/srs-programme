@@ -1,0 +1,30 @@
+{
+  "instanceId": "4445b9cf-c7b8-4a8a-88bb-392f06078bce",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A decision already taken is cited, never asked again",
+    "decision_question": "When a change applies a decision the programme has already taken, should the owner be asked it again?",
+    "context": "Since clerk#165 every gate:owner-merge PR must ask the owner a question. A PR that only applies a decision already taken had to invent one: clerk#174 re-asked e745e9b2 (the desk's reach, ratified) as its A1, and srs-lab#25 re-asked the owner's own instruction to build the Merge button. The owner, 2026-10-24: \"We don't want decision loops. If we have already made the decision, we need it recorded, but asking it again just repeats a process and adds noise.\" clerk#178 changes the gate to match. This records, as a decision, the owner's earlier ruling of 2026-10-09 (restated 2026-10-12, prose on boundary fe501405, clerk#63): a rule holds at the boundary that made it, agents decide within the framework, and only no-precedent or against-policy decisions reach the owner. That ruling was never a decision record, so it could not be cited; 0b1c25b1 already requires an owner ruling written elsewhere to be recorded as a decision before it is cited. Exercise b430b7e0 holds the open tension between decisions answered once and cited everywhere and decisions answered per domain: this decision takes the per-boundary side (a citation counts only within the boundary that made the decision) and leaves the taxonomy to the exercise.",
+    "friction": "Re-asking settled decisions fills Needs you with questions whose answer is already in the log, trains the owner to click through asks, and lets the same decision be answered twice, possibly differently.",
+    "alternatives_considered": "1. Cite, never re-ask (recommended): a decision already taken is recorded once and cited by every change that applies it; an owner-merge PR asks only what is new, or names in its srs-decisions block the recorded decision it applies (made, with its id). Leads to: the owner sees only open decisions; a PR that only applies a ruling is reviewed against it.\n2. Ask every time: every owner-merge PR carries a question, as clerk#165 had it. Leads to: decision loops and noise; settled decisions reopen by accident.\n3. Do nothing: the gate keeps demanding a question. Leads to: agents keep inventing asks for settled decisions.",
+    "decision_statement": "A decision already taken is recorded once and cited, never asked again. Before putting a question to the owner, an agent searches the decision logs; when a recorded decision settles it and holds where the change lands (in the log of the change's own group or of a boundary that group narrows from, clerk#63), the change cites that decision (in a PR, a made entry with its id) and does not ask. An owner-merge PR asks only a decision not yet taken, or names the recorded decisions it applies, and the owner reviews it against them. A ruling given only in conversation or prose is recorded as a decision before it is relied on. An exception to a ratified ruling, or a case no recorded decision covers in its scope, is a new decision and is asked.",
+    "rationale": "One decision, one record: asking it again repeats a process, adds noise and invites two answers to one question. The owner's attention goes to what is still open.",
+    "revisit_when": "When a cited decision turns out not to have covered the case it was cited for, or when owner-merge PRs that only cite decisions start merging changes the owner would have stopped.",
+    "next_steps": "Land clerk#178 (the gate accepts a cited decision; an ask re-asking an applied decision is an error). Define how a new ask is checked against the decision logs for duplicates, within scope (clerk#179, for suggested problem SP-99, with clerk#63's precedent chain). Point the handbook's PR and session rules at this decision.",
+    "owner": "Peter Brownell",
+    "status": "active",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-24T11:36:35.570552663+00:00",
+  "updatedAt": "2026-10-24T11:40:47.436296384+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (relaying the owner ruling, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

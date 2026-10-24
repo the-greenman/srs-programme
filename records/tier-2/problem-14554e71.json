@@ -1,0 +1,24 @@
+{
+  "instanceId": "14554e71-e7d0-4b6c-9485-aaf5cde5de3b",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-99",
+    "title": "A decision already taken is asked again",
+    "statement": "Nothing checks a new question against the decisions already taken, so a settled decision comes back to the owner as a fresh ask: a gate that demands a question gets one invented, and an agent that did not find the ruling asks it again. The owner answers the same thing twice, possibly differently, and the asks that are genuinely open drown among those that are not.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-24: \"We don't want decision loops. If we have already made the decision, we need it recorded, but asking it again just repeats a process and adds noise\" (clerk#174 re-asked e745e9b2; decision 4445b9cf)"
+    ]
+  },
+  "createdAt": "2026-10-24T11:38:50.698397980+00:00",
+  "updatedAt": "2026-10-24T11:38:50.698401086+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (relaying the owner, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
