@@ -1,0 +1,18 @@
+{
+  "instanceId": "45aceb51-524e-46bb-af3e-269fb9412067",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "This is actually a core decision on a policy, and then implementation specifics."
+  },
+  "createdAt": "2026-10-24T11:03:46.712965879+00:00",
+  "updatedAt": "2026-10-24T11:03:46.712969091+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

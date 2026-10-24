@@ -18,9 +18,9 @@
     "owner": "Owner role (SemanticOps)",
     "decision_kind": "mandate"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-22T14:06:25.184386002+00:00",
-  "updatedAt": "2026-10-22T14:06:25.311422971+00:00",
+  "updatedAt": "2026-10-24T11:03:46.604290135+00:00",
   "createdBy": {
     "kind": "human",
     "id": "human:the-greenman"

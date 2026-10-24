@@ -1,0 +1,18 @@
+{
+  "instanceId": "a009b49d-3768-49b8-b322-e2653e10a947",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "This is a theory application decision. The real formal theory side is a statement that any boundary creates its own poles, and that the process is fractal."
+  },
+  "createdAt": "2026-10-24T11:03:47.424275061+00:00",
+  "updatedAt": "2026-10-24T11:03:47.424278066+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

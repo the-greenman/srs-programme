@@ -15,9 +15,9 @@
     "next_steps": "Enforced by test/runtime-imports.test.mjs in the clerk (clerk#97).",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-22T11:11:35.819441723+00:00",
-  "updatedAt": "2026-10-22T11:30:54.619583335+00:00",
+  "updatedAt": "2026-10-24T11:03:47.320612778+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"
