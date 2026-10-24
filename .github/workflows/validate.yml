@@ -18,6 +18,6 @@ env:
 
 jobs:
   validate:
-    uses: the-greenman/clerk/.github/workflows/programme-validate.yml@9400818a053e9da057ca0ca3874efc581c87b9eb
+    uses: the-greenman/clerk/.github/workflows/programme-validate.yml@09fbbc1abfbe6b5411905328dba6b4d3cd098824
     with:
-      clerk-ref: 9400818a053e9da057ca0ca3874efc581c87b9eb
+      clerk-ref: 09fbbc1abfbe6b5411905328dba6b4d3cd098824
