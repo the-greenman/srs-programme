@@ -1,0 +1,30 @@
+{
+  "instanceId": "c373c2c1-7671-46cd-a0ea-0cd1561313ca",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "The programme repository is a shared database: its changes auto-merge",
+    "decision_question": "Which changes to the programme repository wait for the owner to merge them?",
+    "context": "srs-programme holds the programme's shared state: records, relations, containers, source documents, its settings and the clerk pin its workflows run. Under 949ae72d a change of mode complex, Door 2 or 3, or a pin advance carries gate:owner-merge, so programme PRs wait for a manual merge and work is lost or stalls: on 2026-10-24 the clerk pin bump (srs-programme#249) held the board's topup fix back. The owner, 2026-10-24: \"Generally, programme changes can auto merge. Manual programme merges mean that work gets lost too easily. A programme is a shared state. If I have made my ratifications, I have already done it. Let's just imagine that srs-programme is just a database.\"",
+    "friction": "A manual merge on programme state is a second act for something the owner already did elsewhere; when it waits, the state everyone reads is stale.",
+    "alternatives_considered": "1. The programme is a database (recommended): every srs-programme change auto-merges on green; the owner's acts happen where they are made and the PR only records them; an act on the owner's behalf with no session record or owner actor is refused. Leads to: shared state is current, and nothing waits on a merge that decides nothing.\n2. Merge rights by mode and door (949ae72d as it stands): complex, Door 2/3 and pin advances wait for the owner. Leads to: programme PRs queue for a second, empty act.\n3. Do nothing. Leads to: the same.",
+    "decision_statement": "Every change to the programme repository auto-merges on green (gate:auto-merge): records, relations, containers, source documents, its settings and the clerk pin its workflows run. The repository is a shared database, and a PR to it only records state. The owner's acts are made where they are made: ratifying, setting aside and receiving in a session, affirming in the control room, ruling in conversation recorded as a decision. What stays the owner's is the act itself: a change that ratifies, affirms, authorises or sets aside on the owner's behalf, without the session record or the owner's actor that makes it, is refused (SP-71). This revises 949ae72d for this repository; elsewhere 949ae72d stands.",
+    "rationale": "State that waits for a merge is stale for everyone who reads it; the owner's judgement is in the act, not in the merge that records it.",
+    "revisit_when": "When an auto-merged programme change has to be reverted because it recorded an act the owner did not make.",
+    "next_steps": "Ratify in a session. The programme's CLAUDE.md merge gate states the rule (this PR). A check that refuses an authority act without its session record or owner actor (SP-71) is the guard to build.",
+    "owner": "Peter Brownell",
+    "status": "active",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-24T19:07:58.737912148+00:00",
+  "updatedAt": "2026-10-24T19:07:58.910382722+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner ruling, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
