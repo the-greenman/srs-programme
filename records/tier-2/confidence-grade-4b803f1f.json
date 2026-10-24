@@ -1,0 +1,24 @@
+{
+  "instanceId": "4b803f1f-f6f7-47d4-821b-6e2b1406f761",
+  "typeId": "f8f7cddf-7b5f-4db9-ab04-b075e5be0b41",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "confidence-grade",
+  "fieldValues": {
+    "policy_title": "Low: inferred from the repository",
+    "confidence_level": "low",
+    "policy_explanation": "The repository is governed by a group that holds a domain. When more than one group governs it, the repository suggests a domain but cannot say which; both count as low.",
+    "signal_keys": [
+      "domain.repo-one-group",
+      "domain.repo-shared"
+    ]
+  },
+  "createdAt": "2026-10-23T11:48:33.878172634+00:00",
+  "updatedAt": "2026-10-23T11:48:33.878181233+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code",
+    "name": "Claude Code, on the owner's instruction of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

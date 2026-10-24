@@ -1,0 +1,21 @@
+{
+  "instanceId": "ba32b0f4-a672-492d-b790-c7066101633e",
+  "typeId": "4d24c966-edab-4926-bd92-16e1f81a62ae",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "confidence-axis",
+  "fieldValues": {
+    "policy_title": "Domain: do we know where it belongs?",
+    "policy_key": "domain",
+    "policy_explanation": "How sure the programme is of the domain the item belongs to, and so of the group that holds it. Domain confidence does not select a care mode in this seed; it ranks strong items for pulling forward and tells routing how sure the placement is. A rule may name it, as domain>=<level>, once practice shows it should.",
+    "policy_order": 4
+  },
+  "createdAt": "2026-10-23T11:48:32.872347863+00:00",
+  "updatedAt": "2026-10-23T11:48:32.872356633+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code",
+    "name": "Claude Code, on the owner's instruction of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

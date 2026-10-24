@@ -1,0 +1,25 @@
+{
+  "instanceId": "b329984b-0ca4-4ab1-b026-38dcc898e474",
+  "typeId": "4a6abffb-618f-4ed9-8009-c5ce1318961d",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "care-mode",
+  "fieldValues": {
+    "policy_title": "Care mode: Build",
+    "policy_key": "build",
+    "policy_explanation": "Work as normal: claim, build, pass every gate. Merge follows the PR's own decision mode and door.",
+    "care_must": [
+      "pass every gate by exit code",
+      "state the placement basis in the PR"
+    ],
+    "merge_gate": "auto-merge"
+  },
+  "createdAt": "2026-10-23T09:26:01.957560015+00:00",
+  "updatedAt": "2026-10-23T09:26:01.957567606+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, relaying the owner's rulings of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
