@@ -1,0 +1,21 @@
+{
+  "instanceId": "8181bc74-727b-446e-8e7e-0a7812b26944",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Semantic engineering in practice",
+    "purpose": "Apply semantic engineering in practice, so that humans and AI can make decisions well together: meaning held in layers that agents can work within, kept and refined as the work goes on.",
+    "in_scope": "Everything this project does, because we work within it: the SRS specification and tools, the clerk and its practice, the editors, and the programme itself. The narrower domains nested within it, for now Deep context (with Agent memory, Semantic records and Group meaning ownership), Programme coordination, Evidence-backed writing and Stance. Drawing nested and overlapping boundaries, and the paradoxes they give rise to.",
+    "out_of_scope": "Which domains are nested within it is a matter of perspective and changes as the domains emerge from exploration; it is not a fixed hierarchy. Semantic engineering outside this project's practice."
+  },
+  "createdAt": "2026-10-24T18:43:23.417760582+00:00",
+  "updatedAt": "2026-10-24T18:43:23.417764107+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

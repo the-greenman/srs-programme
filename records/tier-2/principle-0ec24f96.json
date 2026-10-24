@@ -1,0 +1,23 @@
+{
+  "instanceId": "0ec24f96-b1fa-4d61-a193-5c7fa0116da9",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Stabilising what we have over bringing in new features, this cycle",
+    "boundary_clause": "A new feature comes in only when a funding essay cannot be written without it (the owner: \"we are going to try to stabilise what we have\").",
+    "context": "WG Agent-supported editor, the cycle from 2026-10-24 (the owner: \"The next cycle has a lean towards action\"); stance Thunder, Act, Stabilise, Zoom out.",
+    "source_ref": [
+      "Owner, 2026-10-24 (vignette 'The editor group's stance for the next cycle: Thunder')"
+    ]
+  },
+  "createdAt": "2026-10-24T18:39:06.670028902+00:00",
+  "updatedAt": "2026-10-24T18:39:06.670032469+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

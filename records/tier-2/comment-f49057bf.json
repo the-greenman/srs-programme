@@ -1,0 +1,18 @@
+{
+  "instanceId": "f49057bf-a279-4c03-9e32-b2a7401fe64a",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: We are working now to apply what we have built to produce something real. Our work will focus on refining over reinventing."
+  },
+  "createdAt": "2026-10-24T18:38:37.241495016+00:00",
+  "updatedAt": "2026-10-24T18:38:37.241500314+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
