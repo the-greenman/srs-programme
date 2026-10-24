@@ -1,0 +1,25 @@
+{
+  "instanceId": "74a2cbd2-3242-4ce2-bb33-5d69697da92b",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Start small and grow the context by telling it: the owner's narrative is written, refined and transformed into records that are checked for contradictions",
+    "move": "Context grows with practice, not before it. The owner writes the programme as a narrative, regularly, in the editor: what we are doing, why, and what we have learned. The narrative is the human's source; agents transform it into records (domains, problems, tensions, decisions), each traced to the passage it came from. The owner returns to the narrative to evolve and refine it, and the records follow. Affirmation is affirming the story, not each record: a record derived from a passage the owner wrote carries the owner's confidence. The records are checked continually against each other and against running practice, and a contradiction comes back to the narrative as a question. Decisions that flow from the narrative appear in the same flow, in a chain, while a low-level technical choice keeps its own context, the boundary it was made in, even as part of the grand chain (SP-69).",
+    "does_not_fix": "The editor's own writing features (undo, split, paste: srs-web). How agents pace their help in an essay (remedy 800f223f). Ratifying the gate change itself: whether D4, D5 and D15 are superseded is a decision for a session.",
+    "falsifier": "After four weeks of regular narrative writing, the owner still affirms meaning record by record, or a contradiction between two records, or between a record and practice, is found by hand rather than by the check.",
+    "source_ref": [
+      "Owner, 2026-10-24, reviewing the flow map (clerk#180): \"the remedy is that we need to start small and know that we will gradually improve the clarity of our context with practice. This should be done regularly in some kind of narrative form. ... This is an evolution of the editor tooling. Human writing being transformed into structured data. ... Then we transform this into records and keep checking our records for contradictions.\""
+    ],
+    "return_when": "After the first narrative has been transformed into records and checked, or when the editor can trace a record to the passage it came from."
+  },
+  "createdAt": "2026-10-24T13:00:17.337528814+00:00",
+  "updatedAt": "2026-10-24T13:00:17.337534514+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's words, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
