@@ -1,0 +1,26 @@
+{
+  "instanceId": "5a6cda0f-5f36-4412-a3d6-29f62026b24d",
+  "title": "Who holds which layer: agents at implementation, together at principles (2026-10-24)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "propose that remedy. agents should be able to manage the implementation level proposals. Humans and agents work togetehr on principles and standards. Our code moves faster than humans can review. We have multiple agents cross checking, tests and then design principles. Code should not be duplicated, code needs to live at the corret crchitecture layer. Architecture boundaries and layers need to be identified and held. SRS and SRS rust have a lot of practice around this"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-24; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (on the owner's instruction, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
