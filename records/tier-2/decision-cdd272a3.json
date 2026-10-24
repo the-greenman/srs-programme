@@ -16,9 +16,9 @@
     "owner": "human:the-greenman",
     "status": "proposed"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-22T11:21:06.469616864+00:00",
-  "updatedAt": "2026-10-22T11:53:07.740678089+00:00",
+  "updatedAt": "2026-10-24T11:03:47.671039378+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

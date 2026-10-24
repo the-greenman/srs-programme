@@ -1,0 +1,156 @@
+{
+  "session": "72693d19-3d49-42b4-bbbb-63cb86128c90",
+  "acts": [
+    {
+      "at": "2026-10-24T11:03:44.569Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 4,
+      "seen": [],
+      "updatedAt": "2026-10-22T14:06:25.311422971+00:00",
+      "kind": "ratify",
+      "id": "4a44396a-1c59-48c2-a85e-86ceda7f9bcc",
+      "title": "The bug fixer holds a builder seat in every group"
+    },
+    {
+      "at": "2026-10-24T11:03:44.570Z",
+      "section": "Decisions since the last session",
+      "position": 2,
+      "of": 4,
+      "seen": [],
+      "updatedAt": "2026-10-23T13:59:41.634998164+00:00",
+      "kind": "comment",
+      "id": "949ae72d-378a-4b18-b022-119b7b4b1c65",
+      "title": "Agent merge rights follow decision mode and door, the same in every governed repository"
+    },
+    {
+      "at": "2026-10-24T11:03:44.570Z",
+      "section": "Decisions since the last session",
+      "position": 2,
+      "of": 4,
+      "seen": [],
+      "updatedAt": "2026-10-23T13:59:41.634998164+00:00",
+      "kind": "ratify",
+      "id": "949ae72d-378a-4b18-b022-119b7b4b1c65",
+      "title": "Agent merge rights follow decision mode and door, the same in every governed repository"
+    },
+    {
+      "at": "2026-10-24T11:03:44.570Z",
+      "section": "Decisions since the last session",
+      "position": 3,
+      "of": 4,
+      "seen": [],
+      "updatedAt": "2026-10-22T11:30:54.619583335+00:00",
+      "kind": "comment",
+      "id": "c04d8164-2564-4732-be3a-d1d8dba6970a",
+      "title": "The clerk's runtime imports nothing outside Node's standard library"
+    },
+    {
+      "at": "2026-10-24T11:03:44.570Z",
+      "section": "Decisions since the last session",
+      "position": 3,
+      "of": 4,
+      "seen": [],
+      "updatedAt": "2026-10-22T11:30:54.619583335+00:00",
+      "kind": "ratify",
+      "id": "c04d8164-2564-4732-be3a-d1d8dba6970a",
+      "title": "The clerk's runtime imports nothing outside Node's standard library"
+    },
+    {
+      "at": "2026-10-24T11:03:44.570Z",
+      "section": "Decisions since the last session",
+      "position": 4,
+      "of": 4,
+      "seen": [],
+      "updatedAt": "2026-10-22T11:53:07.740678089+00:00",
+      "kind": "comment",
+      "id": "cdd272a3-4007-480c-9167-24db2d876768",
+      "title": "Polarity is assigned per domain and per axis: an axis-in-domain record"
+    },
+    {
+      "at": "2026-10-24T11:03:44.570Z",
+      "section": "Decisions since the last session",
+      "position": 4,
+      "of": 4,
+      "seen": [],
+      "updatedAt": "2026-10-22T11:53:07.740678089+00:00",
+      "kind": "ratify",
+      "id": "cdd272a3-4007-480c-9167-24db2d876768",
+      "title": "Polarity is assigned per domain and per axis: an axis-in-domain record"
+    },
+    {
+      "at": "2026-10-24T11:03:44.571Z",
+      "section": "Reports",
+      "position": 1,
+      "of": 3,
+      "seen": [],
+      "kind": "receive",
+      "id": "0d88338e-a866-42fc-b9b4-eae774b2bc8f",
+      "title": "WG Agent-supported editor report 2026-10-23"
+    },
+    {
+      "at": "2026-10-24T11:03:44.907Z",
+      "section": "Reports",
+      "position": 2,
+      "of": 3,
+      "seen": [],
+      "kind": "receive",
+      "id": "cf3a0157-b2d7-4d0b-82aa-8803b1a79343",
+      "title": "WG Third-party ready report 2026-10-22"
+    },
+    {
+      "at": "2026-10-24T11:03:45.254Z",
+      "section": "Reports",
+      "position": 3,
+      "of": 3,
+      "seen": [],
+      "kind": "receive",
+      "id": "7bd4fcf6-8749-4a6a-b8ab-a022f3783c4e",
+      "title": "WG Third-party ready report 2026-10-23"
+    },
+    {
+      "at": "2026-10-24T11:03:45.664Z",
+      "section": "Decisions for this session",
+      "position": 1,
+      "of": 2,
+      "seen": [],
+      "updatedAt": "2026-10-21T11:37:59.086460865+00:00",
+      "kind": "comment",
+      "id": "5d5feb79-afe9-42fb-8b8c-a662c143f3ca",
+      "title": "Where an essay keeps each agent's brief (srs-web#567, Funding 2)"
+    },
+    {
+      "at": "2026-10-24T11:03:45.664Z",
+      "section": "Decisions for this session",
+      "position": 1,
+      "of": 2,
+      "seen": [],
+      "updatedAt": "2026-10-21T11:37:59.086460865+00:00",
+      "kind": "accept",
+      "id": "5d5feb79-afe9-42fb-8b8c-a662c143f3ca",
+      "title": "Where an essay keeps each agent's brief (srs-web#567, Funding 2)"
+    },
+    {
+      "at": "2026-10-24T11:03:45.664Z",
+      "section": "Decisions for this session",
+      "position": 2,
+      "of": 2,
+      "seen": [],
+      "updatedAt": "2026-10-22T18:14:16.795185761+00:00",
+      "kind": "comment",
+      "id": "c7fefad9-79d1-48cc-938b-72b7e4458aa1",
+      "title": "Diagnostics shape before srs-rust#1339"
+    },
+    {
+      "at": "2026-10-24T11:03:45.665Z",
+      "section": "Decisions for this session",
+      "position": 2,
+      "of": 2,
+      "seen": [],
+      "updatedAt": "2026-10-22T18:14:16.795185761+00:00",
+      "kind": "accept",
+      "id": "c7fefad9-79d1-48cc-938b-72b7e4458aa1",
+      "title": "Diagnostics shape before srs-rust#1339"
+    }
+  ]
+}

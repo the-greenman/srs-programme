@@ -16,9 +16,9 @@
     "revisit_when": "When srs-rust#1264 merges, or if the group has no other buildable issue for two cycles.",
     "next_steps": "Owner decides; if A, label srs-rust#1264 ready and wg:third-party-ready. Separately, add 'Answers: SP-03' to srs-rust#1132 so it can be claimed."
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-22T18:14:02.550361009+00:00",
-  "updatedAt": "2026-10-22T18:14:16.795185761+00:00",
+  "updatedAt": "2026-10-24T11:03:48.836892581+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",
