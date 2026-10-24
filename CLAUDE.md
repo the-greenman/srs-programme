@@ -37,6 +37,14 @@ The `com.semanticops.method` package (problems, clusters, personas, remedies; ow
 
 Precedence is repository governance (this file and `roadmap.mjs`), not a tool rule.
 
+## Narrative explorations
+
+The owner's understanding of the work enters as **Tier-0 vignettes** in the **Narrative explorations**
+container (`80b283ef`): when the owner explains the work, record their words verbatim as a note
+(`note create`, then `container members add 80b283ef <id>`; sections `narrative` and `source`) before
+acting on it. Records derived from a vignette go to Suggestions with `derived-from` to it. The practice
+is the clerk handbook chapter "Narrative explorations: how meaning grows" (decision 77e04b19).
+
 ## Writes go through the pinned CLI
 
 Never hand-edit records, relations, containers or the manifest. Use the srs MCP server where mounted, else the pinned CLI (`clerk fetch-srs --repo .` prints `SRS_CLI_PATH=`). If the CLI cannot express an operation that is a finding: file the srs-rust issue and park, never hand-edit around it.

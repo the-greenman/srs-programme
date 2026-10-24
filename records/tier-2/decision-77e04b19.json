@@ -1,0 +1,30 @@
+{
+  "instanceId": "77e04b19-61e7-4c45-88fd-d7e34421a246",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Tier-0 vignettes are how our semantics grow: the owner's words first, records derived from them",
+    "decision_question": "How does the owner's understanding of the work enter the programme's semantics, and how does every agent know to do it?",
+    "context": "On 2026-10-24 the owner began telling the work as Tier-0 vignettes in srs-programme's Narrative explorations container (80b283ef): 13 in a day, with problems, remedies, decisions, a base domain and the cycle stance derived from them by derived-from. It answered SP-101, SP-102 and SP-103: a method designed before its tools, affirming agents' structure record by record, and no place for understanding to grow as a story. The owner, 2026-10-24: \"I want this process to become standard. It needs to be something any agent will discover. It needs to be in the handbook, in context and anywhere else relevant. This is the foundation of active development of our semantics.\"",
+    "friction": "The practice is known only to agents that were in the conversation that began it; every other agent still creates meaning record by record.",
+    "alternatives_considered": "1. Vignettes are the standard, stated once in the clerk handbook and pointed at from every agent's entry point (recommended). Leads to: any agent captures the owner's words and derives from them.\n2. Leave it to the conversations that use it. Leads to: the practice fades with the session that began it.\n3. Design the semantics first and affirm them record by record. Leads to: SP-102 again.",
+    "decision_statement": "The owner's understanding of the work enters as Tier-0 vignettes, recorded verbatim in the programme's Narrative explorations container. Records are derived from them as suggestions, each with derived-from to the vignette it came from; a record that already holds the meaning is related to, not duplicated. Contradictions between vignettes, records and practice are kept and recorded, not resolved silently. Vignettes are revisited, clustered and refined in cycles; domains emerge from them within the base domain Semantic engineering in practice; the owner affirms the story, and work does not wait on it. Every agent that hears the owner explain the work captures a vignette before acting on it. The clerk handbook chapter \"Narrative explorations: how meaning grows\" is the one statement of the practice; srs-context and the CLAUDE.md files point at it.",
+    "rationale": "Meaning grows with practice, from the owner's own words; records traced to the words they came from can be affirmed in context instead of one by one.",
+    "revisit_when": "When, after four weeks, the owner still affirms meaning record by record, or derived records are found with no vignette behind them.",
+    "next_steps": "Ratify in a session. clerk#189 writes the handbook chapter, the srs-context convention and the pointers.",
+    "owner": "Peter Brownell",
+    "status": "active",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-24T19:39:24.743271735+00:00",
+  "updatedAt": "2026-10-24T19:39:44.996002325+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner narrative verbatim, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
