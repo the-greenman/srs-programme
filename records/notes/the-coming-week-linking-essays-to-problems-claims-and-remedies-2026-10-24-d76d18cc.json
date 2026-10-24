@@ -1,0 +1,26 @@
+{
+  "instanceId": "d76d18cc-2740-4c2d-83b7-7f7732b8f8bf",
+  "title": "The coming week: linking essays to problems, claims and remedies (2026-10-24)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The links to problems, claims and remedies are the real work for the coming week. They are the mudemocracy fundraising work.\nThey are also valid in the mudemocracy site editor, which should feed it's learning into the main editor.\nWe only have no complted essays in mudemocracy becuase we have not had the functionality yet.\nalso, mudemocracy is starting to hit another issue - the repo will hit its 5mb limit, so we may need to bring back federation to allow for essays to live in a different repo to the main evidence"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-24; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner's narrative verbatim, 2026-10-24)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
