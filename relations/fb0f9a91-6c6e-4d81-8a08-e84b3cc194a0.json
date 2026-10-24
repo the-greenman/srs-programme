@@ -1,10 +1,10 @@
 {
   "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
-  "relationId": "6eba6236-a595-4190-a564-8a4caa4fd201",
+  "relationId": "fb0f9a91-6c6e-4d81-8a08-e84b3cc194a0",
   "relationType": "contains",
   "sourceInstanceId": "63b04760-4464-4f50-a5a0-2ff6c9f68671",
-  "targetInstanceId": "0b91590b-0768-43b5-b445-6e051cab3bd7",
-  "createdAt": "2026-10-20T11:25:46.642991301+00:00",
+  "targetInstanceId": "bde3ebdf-3034-4450-a207-b23376f1c3de",
+  "createdAt": "2026-10-24T18:51:04.641Z",
   "createdBy": {
     "kind": "human",
     "id": "human:the-greenman",

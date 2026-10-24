@@ -1,0 +1,18 @@
+{
+  "instanceId": "739a9acb-9ecf-4208-bd0c-ca08462d2a22",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "The comments here are still valid. We have not yet flipped. We are tending towards reliability, but still will pick replacing systems with better ones at this stage."
+  },
+  "createdAt": "2026-10-24T18:37:19.594360008+00:00",
+  "updatedAt": "2026-10-24T18:37:19.594364793+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

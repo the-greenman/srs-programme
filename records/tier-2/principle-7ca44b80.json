@@ -1,0 +1,23 @@
+{
+  "instanceId": "7ca44b80-f445-4518-b6f7-0283392dec22",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Staying open over holding to our own plan, this cycle",
+    "boundary_clause": "The plan stays open to what real use and the muDemocracy site editor show (the owner: \"Open\").",
+    "context": "WG Agent-supported editor, the cycle from 2026-10-24 (the owner: \"The next cycle has a lean towards action\"); stance Thunder, Act, Stabilise, Zoom out.",
+    "source_ref": [
+      "Owner, 2026-10-24 (vignette 'The editor group's stance for the next cycle: Thunder')"
+    ]
+  },
+  "createdAt": "2026-10-24T18:39:57.818738924+00:00",
+  "updatedAt": "2026-10-24T18:39:57.818740541+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

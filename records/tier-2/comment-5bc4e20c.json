@@ -1,0 +1,18 @@
+{
+  "instanceId": "5bc4e20c-0e02-40e3-8f7c-0d4030c9f06f",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: The srs spec is governed to be compatible. It's application and use is experimental."
+  },
+  "createdAt": "2026-10-24T18:42:05.598726439+00:00",
+  "updatedAt": "2026-10-24T18:42:05.598730725+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

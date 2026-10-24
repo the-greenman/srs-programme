@@ -1,0 +1,23 @@
+{
+  "instanceId": "b01c49ef-a37a-47f8-91cb-8688cda19a7d",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Getting the funding essays written over developing the editor, this cycle",
+    "boundary_clause": "The editor is developed only as far as the funding essays need it to be usable (the owner: \"get the tools to a usable state and actually produce the funding essays now\").",
+    "context": "WG Agent-supported editor, the cycle from 2026-10-24 (the owner: \"The next cycle has a lean towards action\"); stance Thunder, Act, Stabilise, Zoom out.",
+    "source_ref": [
+      "Owner, 2026-10-24 (vignette 'The editor group's stance for the next cycle: Thunder')"
+    ]
+  },
+  "createdAt": "2026-10-24T18:38:37.140550113+00:00",
+  "updatedAt": "2026-10-24T18:38:37.140552459+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
