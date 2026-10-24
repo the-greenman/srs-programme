@@ -1,0 +1,23 @@
+{
+  "instanceId": "2e0594d1-b3de-4fbf-ac44-60e27b2b15b9",
+  "typeId": "03dd0239-e160-494b-8728-da36edf25f16",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "care-rule",
+  "fieldValues": {
+    "policy_title": "Rule 4: a clear plan on thin theory is careful",
+    "policy_order": 4,
+    "rule_all_of": [
+      "technical_plan>=high"
+    ],
+    "policy_explanation": "The how is clear but the why rests on an agent's suggestion alone: build it reversibly and let the owner merge."
+  },
+  "createdAt": "2026-10-23T09:26:04.650559814+00:00",
+  "updatedAt": "2026-10-24T10:20:55.999911549+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, relaying the owner's rulings of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

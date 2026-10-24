@@ -1,0 +1,23 @@
+{
+  "instanceId": "56a540b9-96db-4b72-be02-41053825f108",
+  "typeId": "f8f7cddf-7b5f-4db9-ab04-b075e5be0b41",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "confidence-grade",
+  "fieldValues": {
+    "policy_title": "High: the problem is affirmed",
+    "confidence_level": "high",
+    "policy_explanation": "The owner has affirmed the problem the work answers: a human fork of it sits in Affirmed.",
+    "signal_keys": [
+      "problem.affirmed"
+    ]
+  },
+  "createdAt": "2026-10-23T09:25:56.031287251+00:00",
+  "updatedAt": "2026-10-23T09:25:56.031302434+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, relaying the owner's rulings of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

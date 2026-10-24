@@ -1,0 +1,26 @@
+{
+  "instanceId": "e061aae3-9d4b-4988-8cc3-d8e38072dcc9",
+  "typeId": "4a6abffb-618f-4ed9-8009-c5ce1318961d",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "care-mode",
+  "fieldValues": {
+    "policy_title": "Care mode: Probe",
+    "policy_key": "probe",
+    "policy_explanation": "Find out before changing behaviour: reproduce the problem, write a failing test, spike it, or write the missing technical plan or placement as a proposal. A probe is real work; it is how the next run reaches a higher mode.",
+    "care_must": [
+      "change no behaviour that merges without the owner",
+      "leave a written result: a reproduction, test, spike or proposal",
+      "suggest a placement or technical plan for the item"
+    ],
+    "merge_gate": "owner-merge"
+  },
+  "createdAt": "2026-10-23T09:26:02.908504063+00:00",
+  "updatedAt": "2026-10-23T09:26:02.908510114+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, relaying the owner's rulings of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

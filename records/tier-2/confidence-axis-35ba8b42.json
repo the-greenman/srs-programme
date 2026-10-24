@@ -1,0 +1,21 @@
+{
+  "instanceId": "35ba8b42-f889-4a88-8a86-b30ac1f64b36",
+  "typeId": "4d24c966-edab-4926-bd92-16e1f81a62ae",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "confidence-axis",
+  "fieldValues": {
+    "policy_title": "Placement: is the theory grounded?",
+    "policy_key": "placement",
+    "policy_explanation": "Does the work answer a problem the programme has named, and how firmly? A problem need not be affirmed to count: one defined in conversation with the owner is real, and one only a synthesiser produced still counts for something. What placement never does is stop work; it sets how much care the work needs.",
+    "policy_order": 1
+  },
+  "createdAt": "2026-10-23T09:25:55.597548617+00:00",
+  "updatedAt": "2026-10-23T09:25:55.597562152+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, relaying the owner's rulings of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

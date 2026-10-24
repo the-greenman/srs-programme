@@ -1,0 +1,23 @@
+{
+  "instanceId": "26f446ac-8404-4510-84c0-024a4e7abfca",
+  "typeId": "f8f7cddf-7b5f-4db9-ab04-b075e5be0b41",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "confidence-grade",
+  "fieldValues": {
+    "policy_title": "High: a ruling names the fix",
+    "confidence_level": "high",
+    "policy_explanation": "A recorded ruling the item cites says what to build, not only that something should be built.",
+    "signal_keys": [
+      "ruling.names-fix"
+    ]
+  },
+  "createdAt": "2026-10-23T09:25:58.659836309+00:00",
+  "updatedAt": "2026-10-23T09:25:58.659846086+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:orchestrator",
+    "name": "Claude Code, relaying the owner's rulings of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

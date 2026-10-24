@@ -1,0 +1,23 @@
+{
+  "instanceId": "4dd054ad-030a-431e-ae8a-4158e1b89134",
+  "typeId": "f8f7cddf-7b5f-4db9-ab04-b075e5be0b41",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "confidence-grade",
+  "fieldValues": {
+    "policy_title": "High: the domain comes from affirmed theory",
+    "confidence_level": "high",
+    "policy_explanation": "The item answers an affirmed problem held by a persona in a domain.",
+    "signal_keys": [
+      "domain.affirmed-problem"
+    ]
+  },
+  "createdAt": "2026-10-23T11:48:33.102806363+00:00",
+  "updatedAt": "2026-10-23T11:48:33.102811727+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code",
+    "name": "Claude Code, on the owner's instruction of 2026-10-23"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
