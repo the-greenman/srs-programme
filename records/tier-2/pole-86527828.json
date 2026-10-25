@@ -1,0 +1,20 @@
+{
+  "instanceId": "86527828-3dc2-4568-952c-09b930909f7a",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Attend to what matters",
+    "looks_like": "Only what bears on the next decision is surfaced and read.",
+    "shadow": "What was not attended to is lost, and is found again later at a cost."
+  },
+  "createdAt": "2026-10-25T20:39:10.740743022+00:00",
+  "updatedAt": "2026-10-25T20:39:10.740746276+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (applying trade-off fixes, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

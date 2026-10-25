@@ -1,0 +1,20 @@
+{
+  "instanceId": "3d6d05e5-b037-4857-9c93-aafc607ca303",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Change it from each lesson",
+    "looks_like": "Each finding changes a rule, a check or a tool.",
+    "shadow": "The process is re-founded before anyone has learnt it, and each version leaves its copies behind."
+  },
+  "createdAt": "2026-10-25T20:39:13.357873192+00:00",
+  "updatedAt": "2026-10-25T20:39:13.357876201+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (applying trade-off fixes, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

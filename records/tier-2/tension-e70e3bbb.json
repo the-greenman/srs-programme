@@ -1,0 +1,19 @@
+{
+  "instanceId": "e70e3bbb-a8ee-4822-9f65-488c3c6cec01",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Keep the practice stable and change it from each lesson",
+    "description": "Line 2 in the stage Learn and remember, refining the Programme coordination line 'One mechanism and compatibility'. Whether the practice is held steady so it can be learnt, or changed with each lesson so it improves. The constraint is people's capacity to absorb a changed process."
+  },
+  "createdAt": "2026-10-25T20:39:12.532419678+00:00",
+  "updatedAt": "2026-10-25T20:39:12.532423585+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (applying trade-off fixes, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

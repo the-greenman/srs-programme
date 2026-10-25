@@ -7,12 +7,12 @@
   "fieldValues": {
     "title": "9. Learn and remember: what we tried and where we went too far",
     "thinking_reached": "The ideal: What happened is reported, measured and ratified, and the practice and its one statement change because of it, so the next session starts from it.\n\nWhat we have tried: Run reports and session reports; srs-context and the dream cycle; the handbook as records with a watcher; indicators (I1 grounding); retrospectives, the archaeology and the work-flow audit; CLAUDE.md pointers in every repository.\n\nProblems recorded here: SP-65, SP-67, SP-68, SP-43, SP-69, SP-53, SP-104.",
-    "tensions": "- Line 1, Record what happened and change the practice: too far toward Record. Stated principles have no enforcement point (SP-43); a ratified rule and the practice running today say opposite things (SP-104).\n- Model B: process against product merges, week of 10-12 66 to 26, week of 10-19 197 to 83; I2 to I4 never computed; falsifiers never evaluated; 14 of 20 run reports say landed_as pending; no retrospective.\n- The stage's other two tensions stay as records under its domain, out of this map (one trade-off per stage, owner, 2026-10-25).",
+    "tensions": "- Line 2, Keep the practice stable and change it from each lesson (reframed 2026-10-25: 'Record and change the practice' failed the coupled-cost test): too far toward both, by turns. Day to day lessons are recorded and not applied (I2 to I4 never computed, falsifiers never evaluated); every few weeks the process is replaced whole (SP-114).\n- Model B: process against product merges, week of 10-12 66 to 26, week of 10-19 197 to 83; I2 to I4 never computed; falsifiers never evaluated; 14 of 20 run reports say landed_as pending; no retrospective.\n- The stage's other two tensions stay as records under its domain, out of this map (one trade-off per stage, owner, 2026-10-25).",
     "unresolved_questions": "- The trade-off is untested: its four 2×2 cases are not filled yet.\n- Does model B name it better? (B's name for this stage's trade-off is in exercise B8.)",
     "next_action": "Fill the 2×2 cases from the stage's own history; then name the remedy that moves us back out of each shadow."
   },
   "createdAt": "2026-10-25T19:31:33.555101240+00:00",
-  "updatedAt": "2026-10-25T19:59:59.816833865+00:00",
+  "updatedAt": "2026-10-25T20:39:14.128588005+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

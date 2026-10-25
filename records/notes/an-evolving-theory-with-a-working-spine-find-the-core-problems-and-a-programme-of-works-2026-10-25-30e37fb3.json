@@ -1,0 +1,28 @@
+{
+  "instanceId": "30e37fb3-97f1-4685-af23-3b3e4583eb59",
+  "title": "An evolving theory: with a working spine, find the core problems and a programme of works (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:process",
+    "topic:tensions",
+    "topic:programme-coordination"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Apply he fixes and record our definition. \n\nThis is an evolving theory. There is no truth. We watch and learn. If we have a working spine that holds the process, we want to now find ways to move through this, identifying the core problems and then creating a programme of works to address the issues we know how to fix"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
