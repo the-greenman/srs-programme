@@ -351,6 +351,27 @@ The owner's rule is that yin and yang alternate around the signs from Aries, exc
 
 Same day, on the trigram, for Programme coordination: line 3 is where direction comes from, a goal we have chosen (yang) or alignment with other actors (yin). Core once is control from the centre and adapters take direction from outside, so Core once is yang. Line 1 is Refine ↔ Deliver, with Deliver yang (owner).
 
+### 16. Finding active work was missing from the plan (2026-10-25)
+
+The standard-flow plan (clerk#197) assumed the desk was where a new session would find active work, and never tested it. The owner asked how a chat starts at the desk, and the live desk (`clerk desk`, run on 2026-10-25) answered:
+
+| Question | Answered by the desk? |
+|---|---|
+| What needs the owner? | yes ("Needs you", including issues assigned to the owner) |
+| What are the groups doing? | yes ("Threads", "Running fine") |
+| Which open PRs belong to no epic? | yes ("Unthreaded") |
+| Which sequences are in progress, and what is next? | **no.** clerk#19, which holds clerk#197 and the Ready tasks #203, #199 and #200, shows "idle · No open PR", because an epic's state is read from its open PRs alone |
+| What will the central lane take next? | **no.** Only `clerk queue` shows it |
+| What is claimed but has no PR yet? | **no** |
+| Is it current? | **no.** The pinned desk is posted only on the daily digest run, which GitHub fires late or not at all (once at 12:02 on 2026-10-24; the 15-minute cron fires about 7 times a day). clerk#203 |
+| Does a new chat know to start there? | only once srs-context#77 (a brief entry) merges |
+
+**What changed.**
+- clerk#204 now covers sequences, the central lane and claims without a PR.
+- clerk#127 gains step 0, **Find**.
+
+**The owner's rule for finishing this:** dogfood until work that follows the process is not lost, and any new agent finds the process. A stop for an approval before the goal is a failure, so approvals are taken up front.
+
 ## Open questions
 
 1. Does Authority replace Mandate, or widen it? Are Gate and Lean kinds, or attributes?
