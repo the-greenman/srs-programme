@@ -1,0 +1,22 @@
+{
+  "instanceId": "068a0a8b-2d34-4d70-a242-442b0bb4f13c",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "A programme of works on the spine",
+    "thinking_reached": "The spine holds (model A, one trade-off per stage, tested against the definition). The programme already has a home for this work: its rank-1 objective, 'Keep work moving to done' (P0), with three epics: clerk#19 (roadmap work through committees, a documented and tested process), semanticops.com#33 (work is never lost) and semanticops.com#38 (one always-on owner desk). So the programme of works extends those epics; it does not found a new process (SP-114).\n\nCore problems we know how to fix, with where each fix is tracked (state on 2026-10-25):\n\n1. The owner's attention is the single sink (SP-113, SP-112, SP-63). Review and land and Decide sit in the shadow of 'review each change' and 'case by case'.\n   - Done: pr-check fails an owner-merge PR with no asks (clerk#165); programme PRs merge on green (clerk#208); clerk's CLAUDE.md points to decision 949ae72d (clerk#227).\n   - Open, under semanticops.com#38: an owner's answer finishes the PR (clerk#164); session acts and merges in one place (clerk#166); the pause rule reads receives, not thumbs-up (clerk#167, linked today).\n2. Work enters off-shape (SP-62, SP-109, SP-108, SP-110, SP-111). Shape the work sits in the shadow of 'plan in full' without help at the moment of filing.\n   - Done: retired gate labels deleted, effort labels collapsed, epic-256:owner-merge renamed (2026-10-25); the handbook's filing rule rewritten (clerk#221).\n   - Open, under clerk#19: issue and PR templates generated from the handbook (clerk#224, PR template added today); bugs need no problem (clerk#223); route from meaning (clerk#124); propose a placement for any item (clerk#200, in sequence clerk#197).\n3. Work in flight is lost between stages (SP-59, SP-61; audit rule H4). Allocate and Build.\n   - Open, under semanticops.com#33 and #38: one wt that sees every worktree (clerk#168, linked today); routines remove the worktrees they create (clerk#169, linked today); a Loose ends lane on the desk (clerk#170); wt prune removes a fresh worktree (clerk#148).\n4. Stale environments mislead agents (finding 9cd7e06c). Build.\n   - Rule recorded in srs-context (2026-10-25); the fix in tooling is clerk#168's one wt off a fresh origin.\n5. Parked blockers stall ranked work (SP-97). Allocate.\n   - Open: blocks-ranked (clerk#155).\n\nCore problems we do not yet know how to fix (keep exploring, do not file work yet):\n- Decision records are formed weakly, and rulings are not executed (SP-115, SP-02). The decision-taxonomy exercise is still clustering.\n- Affirming meaning one record at a time (SP-102). The affirmation editor (srs-web#617) is its first part; its shape is still forming.\n- The practice is re-founded instead of evolved (SP-114). Only a practice of changing it by decision, a step at a time, is known so far.\n- Make meaning and Choose a response share one trade-off (explore or weigh against commit); whether they are one stage is open.",
+    "tensions": "- Many of the known fixes move the owner's act rather than remove it (model B); each should be checked against SP-113 before it is built.\n- The fixes sit in three epics and a sequence; the order between them is set by the epics' rank, not by this map.",
+    "unresolved_questions": "- Which of the open fixes come first? The owner-sink fixes (clerk#164, #166, #167) unblock the most.\n- Is the C1 canary (every routine stopped behind it, audit 2026-10-23) fixed? No issue was found for it.",
+    "next_action": "Owner: confirm the order; then the flow takes the open issues through claim, build and review as normal."
+  },
+  "createdAt": "2026-10-25T20:47:29.846265711+00:00",
+  "updatedAt": "2026-10-25T20:47:29.846270136+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (programme of works, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
