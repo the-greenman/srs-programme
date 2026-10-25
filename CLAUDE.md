@@ -53,7 +53,15 @@ The pin (`SRS_RUST_CLI_TAG`) is declared once, in `.github/workflows/validate.ym
 
 ## Filing issues
 
-Every new SemanticOps issue (the-greenman/semanticops.com or an srs-* repo) states `Answers: SP-nn` or `No affirmed problem yet: <one-line problem>`. Before filing, search semanticops.com, srs, srs-rust, srs-web, srs-vscode, srs-context and muDemocracy.org (including `label:parked`) for an issue answering the same problem (`gh search issues --owner the-greenman "<terms>"`); comment on an existing one instead of filing a near-duplicate.
+Every new SemanticOps issue (the-greenman/semanticops.com or an srs-* repo) is filed in the shape of the clerk handbook's *How an issue reaches a group*, and is checked with `clerk flow --chain <repo#n>` straight after: fix every ✗ it prints.
+
+1. First line `Answers: SP-nn "<title>"`, naming a suggested or affirmed problem. `No affirmed problem yet` is not a way to file: suggest the problem first (look with `srs find --type com.semanticops.method/problem`, create the suggestion in the Suggestions container, held-by a persona-in-domain, `derived-from` the vignette), then name it.
+2. `Part of <epic or story>`, and link the issue as its sub-issue.
+3. `Remedy: <id8> *<title>*` where one fits, and `Ruling:` (a decision id, or `none` with why).
+4. Sections `## Problem`, `## Technical plan` and `## Acceptance`.
+5. The lane label the flow names (`wg:...` or `lane:unattended`).
+
+Before filing, search semanticops.com, srs, srs-rust, srs-web, srs-vscode, srs-context and muDemocracy.org (including `label:parked`) for an issue answering the same problem (`gh search issues --owner the-greenman "<terms>"`); comment on an existing one instead of filing a near-duplicate.
 
 Problem scouts run the MCP/CLI `similar` check against existing problems before suggesting a new one. Parked muDemocracy.org issues are sources for problems (`source_ref: muDemocracy.org#N`), never bulk-imported; unparking happens when an affirmed problem is answered by an epic, not by period rank.
 
