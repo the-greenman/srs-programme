@@ -7,16 +7,17 @@
   "fieldValues": {
     "title": "A decision is recorded as a hypothesis in its boundary",
     "move": "Every decision is written as an experiment, not a certainty. It names the boundary where it removes future options (the domain it is in-domain to: a choice that changes nothing at one level belongs to a tighter domain, and an ADR significant in code may be invisible at product level). It states the answer chosen as good enough for now (decision_statement) and why (rationale). It says what would make us reconsider (revisit_when), and what understeer and oversteer look like: the shadows of the poles it leans toward. A session comes back to it when a signal appears, when it does not achieve its goal, or when it stops working.",
-    "does_not_fix": "Checking the signals: revisit_when is displayed but never checked today (handbook, Measurement and retrospective). Naming the decision's kind (the decision-taxonomy exercise).",
+    "does_not_fix": "Checking the signals: revisit_when is displayed but never checked today (handbook, Measurement and retrospective). Naming the decision's kind (the decision-taxonomy exercise). How a boundary is drawn: muDemocracy has laid out the decision record but not yet its boundary rules, and the boundary is still being learnt in this practice (owner, 2026-10-25); until then a decision names its domain as best it can, and the naming is itself part of the experiment.",
     "falsifier": "Decisions recorded this way are still not revisited when their signal appears, or still cannot say which boundary they hold in.",
     "source_ref": [
       "Owner, 2026-10-25: vignette 075bac20",
       "muDemocracy manifesto v8: 'only good enough for now, with enough honesty to know when you were wrong' (greenmans_creation/workspace/muDemocracy/mozilla-application/manifesto-v8-extracted.md, line 54)",
-      "srs-programme decision-taxonomy-2026-10-22/discoveries.md: a decision is scoped to a context"
+      "srs-programme decision-taxonomy-2026-10-22/discoveries.md: a decision is scoped to a context",
+      "Owner, 2026-10-25: vignette c22983fd"
     ]
   },
   "createdAt": "2026-10-25T23:08:02.053972154+00:00",
-  "updatedAt": "2026-10-25T23:08:02.053973924+00:00",
+  "updatedAt": "2026-10-25T23:09:15.290785002+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

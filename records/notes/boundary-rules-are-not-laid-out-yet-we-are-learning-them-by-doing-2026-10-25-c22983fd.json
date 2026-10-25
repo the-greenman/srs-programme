@@ -1,0 +1,27 @@
+{
+  "instanceId": "c22983fd-f80e-41e1-966f-5e723af0ec12",
+  "title": "Boundary rules are not laid out yet; we are learning them by doing (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:boundaries",
+    "topic:decisions"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "muDemocracy has not yet laid out the boundary rules... We have only started at the decision record. Boundary is still being leant...which is what we are doing"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
