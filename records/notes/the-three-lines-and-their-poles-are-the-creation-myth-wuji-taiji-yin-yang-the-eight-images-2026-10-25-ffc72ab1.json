@@ -1,0 +1,29 @@
+{
+  "instanceId": "ffc72ab1-31eb-4936-b26c-c9e480a0af79",
+  "title": "The three lines and their poles are the creation myth: Wuji, Taiji, Yin/Yang, the eight images (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:trigram",
+    "topic:tensions",
+    "topic:method",
+    "topic:boundaries"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's build a cannonical definition of our three axes. We will keep refining it. But the three lines and their poles are our core practice. They are the creation myth. \n\nWuji \nTaiji\nYin/Yang\nAnd the 8 images. \n\nThis is the systems science \nIt's the cybernetics\n\nOur whole boundary and tension practice is applied everywhere from the same rules"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
