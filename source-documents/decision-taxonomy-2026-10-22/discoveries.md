@@ -372,6 +372,23 @@ The standard-flow plan (clerk#197) assumed the desk was where a new session woul
 
 **The owner's rule for finishing this:** dogfood until work that follows the process is not lost, and any new agent finds the process. A stop for an approval before the goal is a failure, so approvals are taken up front.
 
+### 17. Dogfooding the flow to the goal: what held, and what a new session still does (2026-10-25)
+
+The owner pre-approved the whole sequence, W1 to W7 (decision 51054b3c, ratified in srs-programme#262), so no merge stopped for the owner. By 13:30 UTC every task had been through the flow (claim, worktree, gates by exit code, independent review, PR, run report on clerk#197); the last, clerk#220, waited only on CI.
+
+| Goal | Result |
+|---|---|
+| G2. The pinned desk is current and shows all active work | **Met.** It is rewritten on every upkeep run (clerk#205; 10:22 and 12:48 UTC). It shows each ranked epic's sequences with the next task free to take, the central lane counted by the queue's own rule, and claims with no PR (clerk#206, #213). |
+| G3. No owner stop | **Met for merges.** Every merge in the sequence was made under 51054b3c, and the squash merges cite it in their commit (clerk#206's merge commit and the two pin bumps do not). The permission layer refused one merge over a red required check, rightly: a gate passes in CI or not at all. |
+| G1. A fresh headless session finds the process and the next task, and never asks to affirm | **Partly.** Run 1 took an item from the owner's Needs you list. The brief was then sharpened (srs-context#78): Needs you is the owner's queue, and an agent resumes the first sequence showing `next:`. Run 2 left the owner's queue alone and listed clerk#8 (the next task of the first sequence row on the desk, clerk#1) among the session items it would not take. It then chose a cross-cutting blocker, the failing integration check on three clerk PRs (already filed as clerk#218), and never named the next sequence row. It also said the fix's PR "needs a gate label", which is the habit lesson 2 replaced. Neither run asked for affirmation. |
+
+**What the dogfood taught.**
+1. **The process caught its own defects only when it was run.** The first flow-keeper sweep would have labelled six epics and the tracker for the unattended lane (clerk#216). `refersTo` matched `srs-lab#25` as `clerk#25`, which falsely refused claims and hid a stale claim (clerk#213). Neither showed up in the tests.
+2. **Review before label.** clerk#206 was labelled `gate:auto-merge` at opening and merged before its review, which then found three blocking defects. From then on every PR opened as a draft with no gate label until its review passed.
+3. **Records through the CLI, every time.** Two early handbook edits were made as JSON. The content was right, but the act was the mimicry the rules forbid.
+4. **API cost is a constraint of the flow itself.** One desk run costs about 190 REST requests, and one integration run about 1,360. The sequence exhausted the owner's 5,000-an-hour quota once, and the CI installation token several times, so PRs failed on rate limits, not on their changes (clerk#215, #218).
+5. **A new session reads the desk as addressed to it.** "Everything that needs you" is the owner's queue, but a session told only "continue the work" took it as its own. The rule is now in the brief (srs-context#78) and, with clerk#220, the handbook's Find step. The desk itself still speaks only to the owner, so a line on the desk for agents is the next lever if sessions keep missing the sequence rows.
+
 ## Open questions
 
 1. Does Authority replace Mandate, or widen it? Are Gate and Lean kinds, or attributes?
