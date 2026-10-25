@@ -1,0 +1,25 @@
+{
+  "instanceId": "3b8da50b-8cc0-4397-9c8f-23262fa2f557",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-115",
+    "title": "Decision records are formed weakly",
+    "statement": "Decisions are recorded quickly but thinly: 'policy' is a catch-all for 24 of 47 programme decisions, none is scoped to a domain, and 22 record no alternatives. A later choice cannot tell what a decision weighed, where it holds, or when it should be revisited.",
+    "kind": "condition",
+    "source_ref": [
+      "Flow model B, stage Rule (container b9c5106b)",
+      "srs-programme source-documents/decision-taxonomy-2026-10-22/discoveries.md, sections 1, 2 and 12"
+    ]
+  },
+  "createdAt": "2026-10-25T19:59:51.185073360+00:00",
+  "updatedAt": "2026-10-25T19:59:51.185075004+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (integrating flow models, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

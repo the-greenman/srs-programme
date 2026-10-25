@@ -7,12 +7,12 @@
   "fieldValues": {
     "title": "9. Learn and remember: what we tried and where we went too far",
     "thinking_reached": "The ideal: What happened is reported, measured and ratified, and the practice and its one statement change because of it, so the next session starts from it.\n\nWhat we have tried: Run reports and session reports; srs-context and the dream cycle; the handbook as records with a watcher; indicators (I1 grounding); retrospectives, the archaeology and the work-flow audit; CLAUDE.md pointers in every repository.\n\nProblems recorded here: SP-65, SP-67, SP-68, SP-43, SP-69, SP-53, SP-104.",
-    "tensions": "- Line 1, Record what happened and change the practice: too far toward Record. Stated principles have no enforcement point (SP-43); a ratified rule and the practice running today say opposite things (SP-104).\n- Line 2, Restate where needed and one home: too far toward both restate where needed and one home, by turns. The same rule restated drifts (SP-65) and the handbook said things no longer true (SP-67); on 2026-10-25 the issue flow was missed because the pointer was one line and the home 1,900 lines.\n- Line 3, Each agent's memory and shared memory: too far toward Each agent's memory. No one place tells how work is driven (SP-68); process facts kept in agent memories went stale within a day (srs-context convention 3ad2bf3a).",
-    "unresolved_questions": "- The three tensions are a first pass: none has its four 2×2 cases or the cube filled yet (handbook, A domain's axes, steps 3 and 4).\n- Is each tension orthogonal to the other two in this stage, and which pole is yang here: does it flip from the parent domain?",
+    "tensions": "- Line 1, Record what happened and change the practice: too far toward Record. Stated principles have no enforcement point (SP-43); a ratified rule and the practice running today say opposite things (SP-104).\n- Model B: process against product merges, week of 10-12 66 to 26, week of 10-19 197 to 83; I2 to I4 never computed; falsifiers never evaluated; 14 of 20 run reports say landed_as pending; no retrospective.\n- The stage's other two tensions stay as records under its domain, out of this map (one trade-off per stage, owner, 2026-10-25).",
+    "unresolved_questions": "- The trade-off is untested: its four 2×2 cases are not filled yet.\n- Does model B name it better? (B's name for this stage's trade-off is in exercise B8.)",
     "next_action": "Fill the 2×2 cases from the stage's own history; then name the remedy that moves us back out of each shadow."
   },
   "createdAt": "2026-10-25T19:31:33.555101240+00:00",
-  "updatedAt": "2026-10-25T19:31:33.555107345+00:00",
+  "updatedAt": "2026-10-25T19:59:59.816833865+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

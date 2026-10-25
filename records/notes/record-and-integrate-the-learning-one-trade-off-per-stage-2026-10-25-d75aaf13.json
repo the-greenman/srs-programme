@@ -1,0 +1,27 @@
+{
+  "instanceId": "d75aaf13-4a64-440f-8ccd-8f157c50aa9b",
+  "title": "Record and integrate the learning; one trade-off per stage (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:process",
+    "topic:tensions"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's record our learning and the problems.\nIntegrate the learning.\nLet's start with a single tradeoff. We have enough complexity"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

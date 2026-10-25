@@ -1,0 +1,26 @@
+{
+  "instanceId": "31c11d12-c3b9-4957-8e56-514b3dd70a4a",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-113",
+    "title": "The owner's attention is the single sink",
+    "statement": "Affirming meaning, ruling, merging and receiving reports each end in an act only I can do, so the whole flow waits on my attention. Each fix so far moves the act to a new place (a desk, a control room, a session) instead of removing it, and the work I have already judged still waits.",
+    "kind": "condition",
+    "source_ref": [
+      "Flow model B, across the stages (container b9c5106b)",
+      "Work-flow audit 2026-10-23: all 254 merges through the owner",
+      "Owner, 2026-10-25: vignette d75aaf13"
+    ]
+  },
+  "createdAt": "2026-10-25T19:59:50.474182868+00:00",
+  "updatedAt": "2026-10-25T19:59:50.474184707+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (integrating flow models, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

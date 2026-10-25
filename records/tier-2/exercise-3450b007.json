@@ -7,12 +7,12 @@
   "fieldValues": {
     "title": "7. Review and land: what we tried and where we went too far",
     "thinking_reached": "The ideal: Each change arrives as a pull request someone can judge, is checked and reviewed by someone else, and lands safely; closed means landed.\n\nWhat we have tried: Gates by exit code; the srs Mode, Cell and Door check; gate:auto-merge and gate:owner-merge; merge rights by mode and door (decision 949ae72d); quorum review by another member; five PR templates; clerk ground and the steward's false-close guard; muDemocracy.org's provenance check.\n\nProblems recorded here: SP-71, SP-110, SP-112, SP-60, SP-63.",
-    "tensions": "- Line 1, Review each change and merge on green: too far toward Review each change. Every one of 254 merges in the week to 2026-10-23 went through the owner (audit); srs#962 merged while its challenger verdict was reject.\n- Line 2, Repository checks and one definition of a good PR: too far toward Repository checks. 11 of the last 20 merged srs PR bodies would fail the classification check (finding 157dc2a3); a four-line doc PR was blocked on 2026-10-25 (srs#975).\n- Line 3, A reviewer's judgement and encoded gates: too far toward both a reviewer's judgement and encoded gates, by turns. A PR can carry an authority decision unnoticed (SP-71); a closed issue does not mean the work landed (SP-60).",
-    "unresolved_questions": "- The three tensions are a first pass: none has its four 2×2 cases or the cube filled yet (handbook, A domain's axes, steps 3 and 4).\n- Is each tension orthogonal to the other two in this stage, and which pole is yang here: does it flip from the parent domain?",
+    "tensions": "- Line 1, Review each change and merge on green: too far toward Review each change. Every one of 254 merges in the week to 2026-10-23 went through the owner (audit); srs#962 merged while its challenger verdict was reject.\n- Model B: the owner the recorded merger of all 254 PRs in the week to 10-23; clerk 10-09 to 10-24: 41 owner-merge PRs, 40 without a gate label; srs#962 merged over a reject verdict; false closes (srs-rust#131, srs-web#173). Rulings now lean the other way: srs-programme 156 auto-merges to 23 owner merges.\n- The stage's other two tensions stay as records under its domain, out of this map (one trade-off per stage, owner, 2026-10-25).",
+    "unresolved_questions": "- The trade-off is untested: its four 2×2 cases are not filled yet.\n- Does model B name it better? (B's name for this stage's trade-off is in exercise B6.)",
     "next_action": "Fill the 2×2 cases from the stage's own history; then name the remedy that moves us back out of each shadow."
   },
   "createdAt": "2026-10-25T19:31:25.534123888+00:00",
-  "updatedAt": "2026-10-25T19:31:25.534127650+00:00",
+  "updatedAt": "2026-10-25T19:59:58.143173977+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

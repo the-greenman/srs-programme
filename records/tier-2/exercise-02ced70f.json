@@ -7,12 +7,12 @@
   "fieldValues": {
     "title": "1. Sense: what we tried and where we went too far",
     "thinking_reached": "The ideal: Nothing that matters goes unnoticed: the owner's experience is captured as it was said, and every session knows where things stand before it acts.\n\nWhat we have tried: Narrative explorations and vignettes (decision 77e04b19); the clerk desk and its pinned issue; the srs-context brief and dream cycle; intake (clerk#56); the work-flow audit and the archaeology; run reports.\n\nProblems recorded here: SP-103, SP-66, SP-61, SP-52, SP-59.",
-    "tensions": "- Line 1, Listen and act on what is heard: too far toward Act on it. Before 2026-10-24 agents acted on what the owner said in chat and kept only their own reading (SP-103; decision 77e04b19 corrects it).\n- Line 2, Keep everything and one current picture: too far toward Keep everything. The week to 2026-10-23: 176 of 254 merged PRs were process and memory, not product (work-flow audit).\n- Line 3, Many feeds and one desk: too far toward Many feeds. Five boards, nine repositories and several chats, with no single view (SP-61); sessions start without the last one's state (SP-66).",
-    "unresolved_questions": "- The three tensions are a first pass: none has its four 2×2 cases or the cube filled yet (handbook, A domain's axes, steps 3 and 4).\n- Is each tension orthogonal to the other two in this stage, and which pole is yang here: does it flip from the parent domain?",
+    "tensions": "- Line 2, Keep everything and one current picture: too far toward Keep everything. The week to 2026-10-23: 176 of 254 merged PRs were process and memory, not product (work-flow audit).\n- Model B: 202 problem records for 105 SP ids; about 15 merged PRs promised follow-ups never filed (archaeology 1.4); the first real-use session left no record (audit).\n- The stage's other two tensions stay as records under its domain, out of this map (one trade-off per stage, owner, 2026-10-25).",
+    "unresolved_questions": "- The trade-off is untested: its four 2×2 cases are not filled yet.\n- Does model B name it better? (B's name for this stage's trade-off is in exercise B1.)",
     "next_action": "Fill the 2×2 cases from the stage's own history; then name the remedy that moves us back out of each shadow."
   },
   "createdAt": "2026-10-25T19:31:02.254275550+00:00",
-  "updatedAt": "2026-10-25T19:31:02.254278777+00:00",
+  "updatedAt": "2026-10-25T19:59:53.155251966+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",
