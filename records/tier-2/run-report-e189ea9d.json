@@ -1,0 +1,23 @@
+{
+  "instanceId": "e189ea9d-3d87-4ce1-87a7-9a9cf290b3f4",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle 2026-10-25",
+    "run_date": "2026-10-25",
+    "chose": "Closed the cycle 2026-10-24 11:30 to 2026-10-25 11:30 UTC. One group PR merged, srs#971 (docs: srs-usage lists the attachment resource), carrying a quorum comment (builder editor-builder, reviewer editor-reviewer, mandate remedy 751b6940); it was owner-merge, so it uses no delegated budget. Three group PRs are open: srs-web#620 (essay names its domain and maps it) and srs-web#621 (essay read-only until the writer gives a name), both green with approving quorum comments and waiting for your merge; srs-rust#1472 (session AttentionState) is blocked on three red checks (Schema Drift, CI, Schema Drift) on its latest commit. No decision awaited assent, so no group session was held. No escalation raised. Pause state: ok.",
+    "rationale": "No new escalation. Nothing outside the role's boundary was stopped on: the two srs-web PRs wait on the owner's merge, and the red checks on srs-rust#1472 are the Builder's to fix. The earlier open item (who files the essay package change in muDemocracy.org after the 5d5feb79 ruling) is still unclaimed and is repeated in the report as inform.",
+    "figures": "Delegated merges (group-state): 0 of 10; 1 open. Merged this cycle: 1 (srs#971, owner-merge). Open: srs-web#620, srs-web#621, srs-rust#1472. Ready + wg:agent-editor issues: 2 (semanticops.com#14, srs-web#525). Needs-input: srs-web#567. Ratified decisions across the programme: about 89 or more, so the srs-web#560 build trigger is reached.",
+    "landed_as": "https://github.com/the-greenman/srs-programme/pull/267"
+  },
+  "createdAt": "2026-10-25T11:38:40.752520311+00:00",
+  "updatedAt": "2026-10-25T11:38:40.752527032+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
