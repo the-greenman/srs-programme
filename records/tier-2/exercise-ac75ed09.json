@@ -1,0 +1,22 @@
+{
+  "instanceId": "ac75ed09-5be4-4416-9ce8-db842c46db2c",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "7. Implementation decisions: ADRs",
+    "thinking_reached": "srs-rust/docs/adr holds 52 files (the latest, ADR-051, plus the template). Each has a Status, Date, Supersedes and Superseded-by. ADR-048 gives the implementation layer's five rules, consuming the spec charter by link: spec-first, the layer test, and three more. Other repos record implementation decisions as srs-context decisions or in their CLAUDE.md files.",
+    "tensions": "- Three stores for decisions with separate lifecycles: srs rfc-decision records, srs-programme decision records (proposed, ratified) and srs-rust ADRs (accepted), plus srs-context decision records.\n- ADRs have no mode, door or cell of their own; ADR-048 says it follows the compass by link.",
+    "unresolved_questions": "- Should an ADR carry a decision mode, and should it be a programme decision record?",
+    "next_action": "Decide the home of an implementation decision (planning)."
+  },
+  "createdAt": "2026-10-25T18:35:37.946239667+00:00",
+  "updatedAt": "2026-10-25T18:35:37.946243806+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (process inventory, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

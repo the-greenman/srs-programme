@@ -58,7 +58,8 @@
   ],
   "views": [],
   "compositions": [
-    "compositions/semanticops-roadmap-473316fa.json"
+    "compositions/semanticops-roadmap-473316fa.json",
+    "compositions/process-inventory-5106de3d.json"
   ],
   "blueprints": [
     "blueprints/programme-unit-6f086ee5.json"

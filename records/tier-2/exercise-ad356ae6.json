@@ -1,0 +1,22 @@
+{
+  "instanceId": "ad356ae6-4251-426e-bf68-0ac731308c84",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "4. Effort: size and complexity",
+    "thinking_reached": "size: small, medium, large, xl, and size:XS (no space). complexity: simple, medium, complex, and also low, small, high. Present in srs-rust in full and as subsets elsewhere. clerk board size sets small, medium, large or xl.",
+    "tensions": "- Six complexity labels for three levels (simple, low, small; medium; complex, high).\n- 'small' appears in both size and complexity.\n- size:XS follows a different spelling from the other sizes.",
+    "unresolved_questions": "- Is complexity used for anything the derived priority or queue reads?",
+    "next_action": "Collapse to one size scale and one complexity scale (quick win, proposed)."
+  },
+  "createdAt": "2026-10-25T18:35:37.646424128+00:00",
+  "updatedAt": "2026-10-25T18:35:37.646427376+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (process inventory, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
