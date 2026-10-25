@@ -1,0 +1,24 @@
+{
+  "instanceId": "a962a4cc-02d7-4f75-8594-d8c55eeb8951",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-109",
+    "title": "An issue is filed without the shape the flow needs",
+    "statement": "When I file an issue I am not shown what the flow needs: the problem line, the parent, the remedy, the ruling, the plan and acceptance sections, the lane. The shape is checked only after filing, by a command I have to remember, so issues are filed free-form and rewritten.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-25: vignettes 0f09de6b, cac6e918 (srs-programme, Narrative explorations)"
+    ]
+  },
+  "createdAt": "2026-10-25T17:51:56.645375093+00:00",
+  "updatedAt": "2026-10-25T17:51:56.645376593+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (deriving from the owner vignettes, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

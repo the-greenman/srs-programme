@@ -1,0 +1,27 @@
+{
+  "instanceId": "cac6e918-31db-49d1-9324-6f5c38701727",
+  "title": "Log the bug-about-bugs as a bug; templates as their own issue (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:issue-flow",
+    "topic:bugs"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's log a bug for the clerk... about bugs. \n\nWe can add another clerk issue for templates."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
