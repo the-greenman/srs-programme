@@ -1,0 +1,20 @@
+{
+  "instanceId": "e46f8152-c1f9-4932-9117-b2586f0d3c44",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Encoded gates",
+    "looks_like": "CI checks, labels and classification lines decide.",
+    "shadow": "Gates that are satisfied by form: a classification line written to pass."
+  },
+  "createdAt": "2026-10-25T19:31:24.932629528+00:00",
+  "updatedAt": "2026-10-25T19:31:24.932630868+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

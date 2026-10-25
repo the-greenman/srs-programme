@@ -1,0 +1,20 @@
+{
+  "instanceId": "5654e0d5-e7fa-4ad3-8b4e-a2f647911853",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Many lanes",
+    "looks_like": "Each group, routine and local session takes its own work.",
+    "shadow": "Most work goes through lanes the process cannot see."
+  },
+  "createdAt": "2026-10-25T19:31:16.189935875+00:00",
+  "updatedAt": "2026-10-25T19:31:16.189937597+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

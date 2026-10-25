@@ -1,0 +1,20 @@
+{
+  "instanceId": "471aaebf-4717-4ee0-a6e0-76d787075f99",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Change the practice",
+    "looks_like": "A lesson becomes a rule, a check or a tool.",
+    "shadow": "Practice changes with no record of why (SP-69)."
+  },
+  "createdAt": "2026-10-25T19:31:30.769197702+00:00",
+  "updatedAt": "2026-10-25T19:31:30.769199393+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

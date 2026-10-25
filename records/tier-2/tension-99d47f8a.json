@@ -1,0 +1,19 @@
+{
+  "instanceId": "99d47f8a-88a5-448c-b4a7-60b9a87c99f9",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Listen and act on what is heard",
+    "description": "Line 1 in the stage Sense, refining the Programme coordination line 'Deliver and refine'. Whether what the owner says is taken in and kept before acting, or acted on at once."
+  },
+  "createdAt": "2026-10-25T19:30:59.165085451+00:00",
+  "updatedAt": "2026-10-25T19:30:59.165087117+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

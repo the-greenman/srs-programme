@@ -1,0 +1,20 @@
+{
+  "instanceId": "1d8935a9-c9b9-4f10-afcf-f9f18568fcde",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Commit to a statement",
+    "looks_like": "A numbered problem with one statement, held by a persona.",
+    "shadow": "Premature form: the method's shapes are filled before anyone has lived the problem."
+  },
+  "createdAt": "2026-10-25T19:31:03.573837351+00:00",
+  "updatedAt": "2026-10-25T19:31:03.573839295+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

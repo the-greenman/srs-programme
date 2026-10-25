@@ -1,0 +1,20 @@
+{
+  "instanceId": "917e0fd8-701b-4292-b95c-03b5d1f089fa",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Deliberate",
+    "looks_like": "Proposals are recorded at once and weighed in sessions.",
+    "shadow": "Proposed decisions pile up unratified, and the same one is asked again."
+  },
+  "createdAt": "2026-10-25T19:31:26.646025671+00:00",
+  "updatedAt": "2026-10-25T19:31:26.646027362+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

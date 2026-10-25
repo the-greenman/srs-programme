@@ -1,0 +1,19 @@
+{
+  "instanceId": "60d192f7-a498-4cd3-9257-cac4f221908e",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Many readings and one definition",
+    "description": "Line 2 in the stage Make meaning, refining the Programme coordination line 'One mechanism and compatibility'. Whether each reading is kept as its own record, or collapsed to one definition."
+  },
+  "createdAt": "2026-10-25T19:31:04.015776252+00:00",
+  "updatedAt": "2026-10-25T19:31:04.015780139+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

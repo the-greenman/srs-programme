@@ -1,0 +1,21 @@
+{
+  "instanceId": "b073f0b8-ef5f-4ba1-9843-0761bfcd7cd2",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Review and land: a good pull request, safely merged",
+    "purpose": "Each change arrives as a pull request someone can judge, is checked and reviewed by someone else, and lands safely; closed means landed.",
+    "in_scope": "PR shape and classification, gates by exit code, quorum review, merge rights, merge labels, provenance and grounding checks.",
+    "out_of_scope": "Choices that govern later work (Decide)."
+  },
+  "createdAt": "2026-10-25T19:31:21.851108902+00:00",
+  "updatedAt": "2026-10-25T19:31:21.851110626+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,19 @@
+{
+  "instanceId": "f36123e9-7440-477b-b884-656afb246032",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Each agent's memory and shared memory",
+    "description": "Line 3 in the stage Learn and remember, refining the Programme coordination line 'Core once and adapter convenience'. Whether what is learnt is kept by each agent or repo, or in one shared memory."
+  },
+  "createdAt": "2026-10-25T19:31:32.614777183+00:00",
+  "updatedAt": "2026-10-25T19:31:32.614780607+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

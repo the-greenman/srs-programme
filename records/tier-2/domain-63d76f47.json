@@ -1,0 +1,21 @@
+{
+  "instanceId": "63d76f47-0f7b-4539-8c8b-e3bb17e26ef6",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Learn and remember: what happened changes what we do",
+    "purpose": "What happened is reported, measured and ratified, and the practice and its one statement change because of it, so the next session starts from it.",
+    "in_scope": "Run reports, sessions, retrospectives, indicators, the handbook, srs-context, CLAUDE.md files, the dream cycle.",
+    "out_of_scope": "Sensing what to do next (Sense), which this stage feeds."
+  },
+  "createdAt": "2026-10-25T19:31:29.743339122+00:00",
+  "updatedAt": "2026-10-25T19:31:29.743340931+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

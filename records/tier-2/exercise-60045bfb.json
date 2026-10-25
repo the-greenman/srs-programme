@@ -1,0 +1,22 @@
+{
+  "instanceId": "60045bfb-deb4-47a6-ad6d-d7a267e5e9f8",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "4. Shape the work: what we tried and where we went too far",
+    "thinking_reached": "The ideal: A remedy becomes issues that anyone can pick up: grounded in a problem (a bug needs none), placed under its parent, small, planned and checkable.\n\nWhat we have tried: The Answers line and grounding checks; Part of and sub-issues; Technical plan and Acceptance; size and complexity labels; clerk flow --chain and care; the steward's comments; issue templates proposed (clerk#224); the bug ruling (clerk#223).\n\nProblems recorded here: SP-109, SP-108, SP-111, SP-62.",
+    "tensions": "- Line 1, Plan in full and file and start: too far toward both plan in full and file and start, by turns. 42% of 430 merged PRs had no issue (decision f799b6bc); on 2026-10-25 six issues were filed free-form and rewritten, and bugs were held to the problem gate (SP-108).\n- Line 2, Local conventions and one shape: too far toward Local conventions. Up to six complexity labels for three levels, retired gate labels still in place, three words for who may merge (SP-111; cleaned up 2026-10-25).\n- Line 3, Labels and text and linked records: too far toward Labels and text. The handbook: the link to the problem is a line of text, not a record; eleven gate labels were created and nine later retired.",
+    "unresolved_questions": "- The three tensions are a first pass: none has its four 2×2 cases or the cube filled yet (handbook, A domain's axes, steps 3 and 4).\n- Is each tension orthogonal to the other two in this stage, and which pole is yang here: does it flip from the parent domain?",
+    "next_action": "Fill the 2×2 cases from the stage's own history; then name the remedy that moves us back out of each shadow."
+  },
+  "createdAt": "2026-10-25T19:31:14.079461055+00:00",
+  "updatedAt": "2026-10-25T19:31:14.079464889+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

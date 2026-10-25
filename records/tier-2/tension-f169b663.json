@@ -1,0 +1,19 @@
+{
+  "instanceId": "f169b663-1ecc-4e09-812a-20607c4391f7",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Plan in full and file and start",
+    "description": "Line 1 in the stage Shape the work, refining the Programme coordination line 'Deliver and refine'. Whether an issue is fully planned before it is filed, or filed light and shaped later."
+  },
+  "createdAt": "2026-10-25T19:31:10.522631114+00:00",
+  "updatedAt": "2026-10-25T19:31:10.522634979+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

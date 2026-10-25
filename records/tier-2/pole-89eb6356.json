@@ -1,0 +1,20 @@
+{
+  "instanceId": "89eb6356-d80c-4c53-b6d2-95886967b3fd",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Derived from purpose",
+    "looks_like": "Period ranks objectives; priority is computed downward.",
+    "shadow": "A blank becomes invisible, and rules multiply (bumps, floors, bands) until nobody can explain a rank."
+  },
+  "createdAt": "2026-10-25T19:31:09.510577634+00:00",
+  "updatedAt": "2026-10-25T19:31:09.510580840+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

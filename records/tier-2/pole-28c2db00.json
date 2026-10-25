@@ -1,0 +1,20 @@
+{
+  "instanceId": "28c2db00-72f5-4ab4-856c-8bfdab16458f",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Compatibility",
+    "looks_like": "Shims, mirrors and staged migrations keep consumers working.",
+    "shadow": "Drift: copies and shims diverge from the source."
+  },
+  "createdAt": "2026-10-25T19:31:19.912505313+00:00",
+  "updatedAt": "2026-10-25T19:31:19.912507149+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

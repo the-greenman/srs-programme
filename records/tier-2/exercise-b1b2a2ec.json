@@ -1,0 +1,22 @@
+{
+  "instanceId": "b1b2a2ec-d1eb-439e-9fa6-f8394001d4df",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "8. Decide: what we tried and where we went too far",
+    "thinking_reached": "The ideal: Choices that govern later choices are made at the right level by the right owner, in a form they can judge, recorded once and cited, never asked again.\n\nWhat we have tried: The decision log and its four tests; the seven decision kinds; decision modes, Doors and the Pattern Grid (srs); ADRs and ADR-048 (srs-rust); sessions, quorum and ratification; the owner desk; the affirmation layer (srs-web#617); the decision-taxonomy exercise (2026-10-22).\n\nProblems recorded here: SP-42, SP-63, SP-64, SP-69, SP-91, SP-92, SP-93, SP-99, SP-100, SP-104.",
+    "tensions": "- Line 1, Deliberate and settle: too far toward Deliberate. Proposed decisions pile up unratified (SP-64); a decision already taken is asked again (SP-99).\n- Line 2, Case by case and a standing rule: too far toward Case by case. The owner receives more decisions than they can judge (SP-63); the owner cannot tell what is asked of them (SP-100).\n- Line 3, Local ways of deciding and one shared classification: too far toward Local ways. Modes, cells, layers and seven kinds classify decisions in parallel; the Pattern Grid has no Process cell and briefs named one anyway (finding 3807ea6d).",
+    "unresolved_questions": "- The three tensions are a first pass: none has its four 2×2 cases or the cube filled yet (handbook, A domain's axes, steps 3 and 4).\n- Is each tension orthogonal to the other two in this stage, and which pole is yang here: does it flip from the parent domain?",
+    "next_action": "Fill the 2×2 cases from the stage's own history; then name the remedy that moves us back out of each shadow."
+  },
+  "createdAt": "2026-10-25T19:31:29.434906573+00:00",
+  "updatedAt": "2026-10-25T19:31:29.434910119+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

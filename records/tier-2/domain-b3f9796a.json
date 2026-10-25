@@ -1,0 +1,21 @@
+{
+  "instanceId": "b3f9796a-359f-45e0-a793-bd5c4736e59f",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Allocate: the right hands pick up ready work",
+    "purpose": "Ready work reaches the right hands, human or agent, at the right time, and nothing is claimed twice or dropped.",
+    "in_scope": "Routing by domain to a group, the ready queue, claims, holds, working groups, routines and local sessions.",
+    "out_of_scope": "How the work is built once claimed (Build)."
+  },
+  "createdAt": "2026-10-25T19:31:14.381869845+00:00",
+  "updatedAt": "2026-10-25T19:31:14.381872156+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

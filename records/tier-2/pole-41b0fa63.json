@@ -1,0 +1,20 @@
+{
+  "instanceId": "41b0fa63-1a22-447e-94e4-58ea9516b648",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Repository checks",
+    "looks_like": "Each repo's CI and template asks for its own lines.",
+    "shadow": "A PR fails a check it could not have known about."
+  },
+  "createdAt": "2026-10-25T19:31:23.665527085+00:00",
+  "updatedAt": "2026-10-25T19:31:23.665529444+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

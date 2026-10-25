@@ -1,0 +1,20 @@
+{
+  "instanceId": "423835cb-4a5b-444f-a521-d1a1d1c9dfed",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Shared memory",
+    "looks_like": "srs-context, the handbook and programme records.",
+    "shadow": "Shared memory without rules: entries lost or overwritten."
+  },
+  "createdAt": "2026-10-25T19:31:33.296203910+00:00",
+  "updatedAt": "2026-10-25T19:31:33.296205565+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

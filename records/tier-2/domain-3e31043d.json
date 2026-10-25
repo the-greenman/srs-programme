@@ -1,0 +1,21 @@
+{
+  "instanceId": "3e31043d-80ac-4850-9d15-ec0842b96000",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Decide: the right owner settles what governs later work",
+    "purpose": "Choices that govern later choices are made at the right level by the right owner, in a form they can judge, recorded once and cited, never asked again.",
+    "in_scope": "Decisions and their kinds, modes, doors and cells; proposals, sessions and ratification; the affirmation layer; ADRs.",
+    "out_of_scope": "The work the decisions govern; recording what happened (Learn and remember)."
+  },
+  "createdAt": "2026-10-25T19:31:25.846316509+00:00",
+  "updatedAt": "2026-10-25T19:31:25.846318321+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

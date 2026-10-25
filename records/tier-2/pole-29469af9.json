@@ -1,0 +1,20 @@
+{
+  "instanceId": "29469af9-7e9c-4533-8a08-3b365e756642",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "A reviewer's judgement",
+    "looks_like": "A member reads the change and its verdict.",
+    "shadow": "Judgement that misses the verdict comment and counts approvals instead."
+  },
+  "createdAt": "2026-10-25T19:31:24.705618292+00:00",
+  "updatedAt": "2026-10-25T19:31:24.705620565+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

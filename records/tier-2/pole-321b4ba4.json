@@ -1,0 +1,20 @@
+{
+  "instanceId": "321b4ba4-17e0-4e31-88e5-63b1e18dc9c6",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "One current picture",
+    "looks_like": "A desk and a brief say what is true now.",
+    "shadow": "What falls out of the picture is lost."
+  },
+  "createdAt": "2026-10-25T19:31:00.869551486+00:00",
+  "updatedAt": "2026-10-25T19:31:00.869553043+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

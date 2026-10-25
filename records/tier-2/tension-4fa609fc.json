@@ -1,0 +1,19 @@
+{
+  "instanceId": "4fa609fc-9e92-4613-bd96-25cdba27cb97",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Restate where needed and one home",
+    "description": "Line 2 in the stage Learn and remember, refining the Programme coordination line 'One mechanism and compatibility'. Whether a rule is restated where it is used, or kept in one home and pointed at."
+  },
+  "createdAt": "2026-10-25T19:31:31.230061301+00:00",
+  "updatedAt": "2026-10-25T19:31:31.230064558+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

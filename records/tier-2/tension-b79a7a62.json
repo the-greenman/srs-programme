@@ -1,0 +1,19 @@
+{
+  "instanceId": "b79a7a62-d0ab-43de-bb54-30617d8b6cb7",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Review each change and merge on green",
+    "description": "Line 1 in the stage Review and land, refining the Programme coordination line 'Deliver and refine'. Whether each change waits for review, or merges when its checks pass."
+  },
+  "createdAt": "2026-10-25T19:31:22.183797622+00:00",
+  "updatedAt": "2026-10-25T19:31:22.183799461+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

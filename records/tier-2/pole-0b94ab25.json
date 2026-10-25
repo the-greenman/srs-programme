@@ -1,0 +1,20 @@
+{
+  "instanceId": "0b94ab25-2659-4224-a94c-c0d53569661f",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Case by case",
+    "looks_like": "The owner judges each item.",
+    "shadow": "The owner receives more decisions than they can judge."
+  },
+  "createdAt": "2026-10-25T19:31:27.787568240+00:00",
+  "updatedAt": "2026-10-25T19:31:27.787569685+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

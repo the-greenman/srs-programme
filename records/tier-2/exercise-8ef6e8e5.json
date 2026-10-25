@@ -1,0 +1,22 @@
+{
+  "instanceId": "8ef6e8e5-de40-4591-8604-be629e8abb1d",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "6. Build: what we tried and where we went too far",
+    "thinking_reached": "The ideal: The change is made once, in the layer that owns it, in a clean workspace against the right build, and is not lost.\n\nWhat we have tried: scripts/wt worktrees; pinned CLI builds and srs-pinned; the stale-sibling rule (srs-rust#874); capability layering and ADR-048; the revision-bump choreography; the MCP tool-first rule against mimicry; the release-plan practice from the RFC-051/052 retrospective.\n\nProblems recorded here: SP-08, SP-28, SP-77, SP-30, SP-01, SP-49.",
+    "tensions": "- Line 1, Prepare the workspace and ship the change: too far toward Ship the change. About 115 stale worktrees of 140 (work-flow audit); on 2026-10-25 a report was built from a local srs-rust 240 commits behind master.\n- Line 2, Compatibility and a clean cut: too far toward both compatibility and clean cut, by turns. RFC-051 and RFC-052 took 45 PRs, 9 repositories and 9 releases over 2 days 21 hours (retrospective); hand-written client types drift (programme cube, corner deliver, compatibility, adapter).\n- Line 3, Fix it where you are and fix it once in the core: too far toward Fix where you are. Programme code is scattered and bound to one programme (SP-49); the site and essay editors wrote each document operation twice (srs-web#601).",
+    "unresolved_questions": "- The three tensions are a first pass: none has its four 2×2 cases or the cube filled yet (handbook, A domain's axes, steps 3 and 4).\n- Is each tension orthogonal to the other two in this stage, and which pole is yang here: does it flip from the parent domain?",
+    "next_action": "Fill the 2×2 cases from the stage's own history; then name the remedy that moves us back out of each shadow."
+  },
+  "createdAt": "2026-10-25T19:31:21.535336930+00:00",
+  "updatedAt": "2026-10-25T19:31:21.535341840+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

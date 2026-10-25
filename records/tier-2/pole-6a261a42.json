@@ -1,0 +1,20 @@
+{
+  "instanceId": "6a261a42-3677-48fc-9ba0-4a519133e3a6",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Review each change",
+    "looks_like": "A person reviews and merges every change.",
+    "shadow": "Every merge waits for the owner, away from where they judge."
+  },
+  "createdAt": "2026-10-25T19:31:22.645986662+00:00",
+  "updatedAt": "2026-10-25T19:31:22.645988348+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

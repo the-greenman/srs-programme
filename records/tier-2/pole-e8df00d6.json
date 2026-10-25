@@ -1,0 +1,20 @@
+{
+  "instanceId": "e8df00d6-e2b9-41aa-aae4-d18d4d026b80",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Let it flow",
+    "looks_like": "A ready queue is topped up and claimed.",
+    "shadow": "Routines re-pick work already in review; claims go stale."
+  },
+  "createdAt": "2026-10-25T19:31:15.397272568+00:00",
+  "updatedAt": "2026-10-25T19:31:15.397274005+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

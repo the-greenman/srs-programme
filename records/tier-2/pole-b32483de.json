@@ -1,0 +1,20 @@
+{
+  "instanceId": "b32483de-db92-4f3d-8264-681fff0eea40",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "A standing rule",
+    "looks_like": "A policy settles every case of its kind.",
+    "shadow": "The rule and the practice drift apart and nothing notices."
+  },
+  "createdAt": "2026-10-25T19:31:28.014140392+00:00",
+  "updatedAt": "2026-10-25T19:31:28.014142353+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

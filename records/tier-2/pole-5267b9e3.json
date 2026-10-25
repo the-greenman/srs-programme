@@ -1,0 +1,20 @@
+{
+  "instanceId": "5267b9e3-21ba-4b63-8633-5e6d1e114586",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "One desk",
+    "looks_like": "One computed desk lists what needs whom.",
+    "shadow": "The desk lags the world it summarises, and everything waits on it."
+  },
+  "createdAt": "2026-10-25T19:31:01.882298150+00:00",
+  "updatedAt": "2026-10-25T19:31:01.882299582+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

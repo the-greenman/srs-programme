@@ -1,0 +1,19 @@
+{
+  "instanceId": "a73cffe1-f8d5-459e-9101-3acc568cfc0f",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Local ways of deciding and one shared classification",
+    "description": "Line 3 in the stage Decide, refining the Programme coordination line 'Core once and adapter convenience'. Whether each repository classifies and records its decisions its own way, or one compass classifies them all."
+  },
+  "createdAt": "2026-10-25T19:31:28.477622506+00:00",
+  "updatedAt": "2026-10-25T19:31:28.477623978+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

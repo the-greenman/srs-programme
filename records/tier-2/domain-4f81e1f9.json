@@ -1,0 +1,21 @@
+{
+  "instanceId": "4f81e1f9-0ba7-4ad5-be38-49477b352f30",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Build: make the change once, in the right place",
+    "purpose": "The change is made once, in the layer that owns it, in a clean workspace against the right build, and is not lost.",
+    "in_scope": "Worktrees, the pinned CLI, capability layering, implementation rules (ADR-048), breaking-change choreography.",
+    "out_of_scope": "Judging and landing the change (Review and land)."
+  },
+  "createdAt": "2026-10-25T19:31:18.107647846+00:00",
+  "updatedAt": "2026-10-25T19:31:18.107649235+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

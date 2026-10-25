@@ -1,0 +1,19 @@
+{
+  "instanceId": "ac4a3188-0d6a-4d46-b41e-29714b84992b",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Hold until ready and let it flow",
+    "description": "Line 1 in the stage Allocate, refining the Programme coordination line 'Deliver and refine'. Whether work waits until it is fully ready, or flows to whoever can take it."
+  },
+  "createdAt": "2026-10-25T19:31:14.720422051+00:00",
+  "updatedAt": "2026-10-25T19:31:14.720426375+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
