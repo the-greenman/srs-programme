@@ -9,10 +9,10 @@
     "thinking_reached": "Decision 949ae72d: agent merge rights follow decision mode and door, the same in every governed repo; agents merge only clear or complicated Door 1 or non-normative work (srs-context convention 0ad939b7). Labels: gate:auto-merge and gate:owner-merge in every repo. muDemocracy.org's AGENTS.md uses its own words: MECHANICAL (gate:auto-merge, only while the MECHANICAL role is ratified; it is draft, so no auto-merge), JUDGEMENT (the label epic-256:owner-merge) and OWNER (open an issue only). srs-programme and practice data auto-merge.",
     "tensions": "- Three vocabularies for one rule: mode × door, gate labels, and MECHANICAL / JUDGEMENT / OWNER.\n- epic-256:owner-merge belongs to a retired epic but is still in four repos' label sets and in muDemocracy.org's AGENTS.md.\n- The srs required checks (validate-all, check-release-drift) did not run on a CLAUDE.md-only PR, so GitHub blocked its merge.\n- muDemocracy.org's AGENTS.md contradicts itself: line 6 says agent PRs auto-merge on green with gate:auto-merge and that JUDGEMENT no longer means the owner merges (ruled 2026-09-22); lines 41 to 43 say MECHANICAL is draft so there is no auto-merge, and JUDGEMENT is owner-merged.",
     "unresolved_questions": "- Does a path filter on required checks belong in the process, or only in srs's CI?",
-    "next_action": "Retire epic-256:owner-merge and the MECHANICAL / JUDGEMENT / OWNER wording (quick win, proposed)."
+    "next_action": "Done 2026-10-25: epic-256:owner-merge renamed to gate:owner-merge in muDemocracy.org (agent briefs, routines, AGENTS.md, review command; PR muDemocracy.org#393) and deleted from srs-web, srs-vscode and semanticops.com. Open for the owner: muDemocracy.org AGENTS.md line 6 and its Stewardship section still disagree on auto-merge and JUDGEMENT."
   },
   "createdAt": "2026-10-25T18:35:38.046899057+00:00",
-  "updatedAt": "2026-10-25T19:04:42.965001119+00:00",
+  "updatedAt": "2026-10-25T19:13:34.372015165+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

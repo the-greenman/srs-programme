@@ -9,10 +9,10 @@
     "thinking_reached": "The GitHub Project Status field plus label mirrors: 'status: in progress', 'status: in review', 'status: done', ready, promote:ready, blocked, needs-input, parked; wg:* (the working group that holds the problem's domain) and lane:unattended; and eleven gate:* labels in srs and srs-rust (other repos carry only gate:auto-merge and gate:owner-merge). The programme binds the label text to its meaning through label-binding records; the work-status set is clerk#121, the first application of decision f58db200 ('Meaning in the definition over meaning in the surface').",
     "tensions": "- Nine gate:* labels (dispatched, blocked-owner, in-review, working, external-work, pool, session-unit, queued, needs-input) are retired in their label bindings and read by no code, but still exist as labels in srs and srs-rust.\n- Only gate:auto-merge and gate:owner-merge are live; they are merge authority, not state (system 8).",
     "unresolved_questions": "- Delete the nine retired gate labels, or keep them for history on closed issues?",
-    "next_action": "Delete the nine retired gate:* labels from srs and srs-rust (quick win, proposed)."
+    "next_action": "Done 2026-10-25: the nine retired gate:* labels were deleted from srs and srs-rust; the four open issues that carried them (srs#566, #580, #818, srs-rust#813) got a comment naming the replacement or saying there is none."
   },
   "createdAt": "2026-10-25T18:35:37.544548963+00:00",
-  "updatedAt": "2026-10-25T19:04:42.570020145+00:00",
+  "updatedAt": "2026-10-25T19:13:34.174629273+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",
