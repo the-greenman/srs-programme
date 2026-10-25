@@ -1,0 +1,28 @@
+{
+  "instanceId": "075bac20-065f-4b9b-882e-6aebc894e6b6",
+  "title": "Every decision is an experiment: good enough for now, why, and what would make us reconsider (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:decisions",
+    "topic:tensions",
+    "topic:boundaries"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Here's something worth noting. \n\nEvery decision is an experiment.\nThere is no such thing a certainty.\nWe want to be know that within our given boundary, we have enough to continue.\n\nLine 3 sets the scale of the boundary. A small boundary is looking at a smaller set of options - generally internal. An open boundary has a wide set of options to consider, lots of them external. \n\nThen line 3 lets us look at evolving and adding new things. Or simplifying and refining what is already present.\n\nLine 1 is a decision to take action now.... Outward. Or gather more information and refine our self.\n\nmuDemocracy decision rules say that we need to then pick an answer that if good enough for now. Explain why. \n\nAnd then describe what would cause us to reconsider. This is what turns a decision into a hypothesis. We know what under and oversteer look like.  \n\nIf we define a decision in this way, then we can come back to it when it does not achieve our goal, or stops working and needs to take a different path. \n\nA decision removes future options. This is another boundary question. If a decision seems like just a technical choice and does not change our options at one level, it is relevant in a tighter domain. \n\nA technical implementation decision that does change choices at a strategic level may very well do so at a lower technical level. An adr may be very significant in code... invisible at a product level."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
