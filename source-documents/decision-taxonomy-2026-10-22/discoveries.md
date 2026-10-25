@@ -374,7 +374,7 @@ The standard-flow plan (clerk#197) assumed the desk was where a new session woul
 
 ### 17. Dogfooding the flow to the goal: what held, and what a new session still does (2026-10-25)
 
-The owner pre-approved the whole sequence, W1 to W7 (decision 51054b3c, ratified in srs-programme#262), so no merge stopped for the owner. By 13:30 UTC every task had landed through the flow: claim, worktree, gates by exit code, independent review, PR, run report on clerk#197.
+The owner pre-approved the whole sequence, W1 to W7 (decision 51054b3c, ratified in srs-programme#262), so no merge stopped for the owner. By 13:30 UTC every task had been through the flow (claim, worktree, gates by exit code, independent review, PR, run report on clerk#197); the last, clerk#220, waited only on CI.
 
 | Goal | Result |
 |---|---|
