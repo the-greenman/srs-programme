@@ -1,0 +1,27 @@
+{
+  "instanceId": "2d25d1f8-8342-4830-a6bd-1baba7581a8d",
+  "title": "Define a trade-off and its properties, then test ours against it (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:tensions",
+    "topic:method"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's take a moment to get a definition  of what a tradeoff is, and what it's properties are. \n\nAsk three agents to produce a definition and 3 properties separately.\n\nThen let's synthsize and see if our trade-offs actually meet the definition"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

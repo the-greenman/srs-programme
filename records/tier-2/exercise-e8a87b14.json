@@ -1,0 +1,20 @@
+{
+  "instanceId": "e8a87b14-8dc1-405a-93cd-46ef8965d235",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "What a trade-off is",
+    "thinking_reached": "Definition (synthesised from three agents asked separately, 2026-10-25, with no access to the project's notes): a trade-off is a standing tension between two goods that compete for the same constraint, so getting more of one costs some of the other. The right position depends on context and is reset over time; it is managed, never solved once.\n\nThree properties, each with a yes-or-no test:\n1. Two goods. Each pole is something a capable team would sometimes rightly choose, not a virtue set against a failing. Test: can you name what is lost if the domain gives up each pole entirely? Yes for both.\n2. Coupled cost. The poles draw on one constraint (time, attention, risk budget, the same people, one setting), so moving toward one costs the other, through a cause you can name. Test: with the constraint held fixed, does more of one cost some of the other, even after obvious waste is removed? If a better method gives more of both at no cost, it was an inefficiency, a problem to fix.\n3. Context-dependent and recurring. No setting is right everywhere; the right point moves with stakes, maturity, risk or time, and overdoing either pole fails in a recognisable way that sends you back. Test: can you name a condition that moves the right point toward each pole, and the failure of each extreme? Yes to both.\n\nLook-alikes it rules out: a scale with one good end ('Tested ↔ Untested'; the real trade-off is test depth ↔ release cadence) fails 1; a problem ('reviews are slow') fails 1 and 2; two things that merely sound opposed ('Clear ownership ↔ Collaboration'; nothing limited is shared) fail 2; a one-off choice between options ('track work in GitHub or a wiki') fails 3; a preference ('small PRs') has one pole.\n\nAll three agents agreed on these three properties; they drew on polarity management (Barry Johnson: interdependent pairs managed, not solved, each pole with an upside and a downside), opportunity cost and the Pareto frontier. The method's poles already carry property 3's failure as their 'shadow'. These tests judge one tension; the handbook's 2×2 and cube tests judge whether several tensions are independent of each other, which is a separate question.",
+    "unresolved_questions": "- Should the method record a tension's constraint (property 2) as its own field? Today it lives in the description, if at all."
+  },
+  "createdAt": "2026-10-25T20:25:10.055510467+00:00",
+  "updatedAt": "2026-10-25T20:25:10.055513924+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (defining a trade-off, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

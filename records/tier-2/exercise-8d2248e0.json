@@ -1,0 +1,21 @@
+{
+  "instanceId": "8d2248e0-0dd0-46cb-8d8a-f7f78c1beb2e",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Do our stage trade-offs meet the definition?",
+    "thinking_reached": "Each stage trade-off in model A (container 165f3a6e) against the three properties: two goods, coupled cost, context-dependent.\n\nPass (6):\n- Make meaning, Explore ↔ commit to a statement: both goods; constraint is when meaning is fixed (committing closes exploring); a new domain explores, a mature one commits.\n- Choose a response, Weigh options ↔ commit to one: passes, on time and attention; it is the same line-1 trade-off as Make meaning met at a later stage.\n- Shape the work, Plan in full ↔ file and start: both goods; constraint is the filer's time against grounding; a bug files light, an epic task plans.\n- Allocate, Hold until ready ↔ let it flow: both goods; constraint is capacity and work in progress; high-risk work holds, routine work flows.\n- Review and land, Review each change ↔ merge on green: all three agents used it as their passing example; constraint is reviewer attention and lead time.\n- Decide, Case by case ↔ a standing rule: both goods; constraint is the owner's attention; novel cases want judgement, recurring ones a rule.\n\nPartial (1):\n- Sense, Keep everything ↔ one current picture: both goods, but the cost is weak; an archive and a desk can coexist. The real constraint is attention: what is recorded must be read. Reframe as 'Capture everything ↔ attend to what matters'.\n\nFail (2):\n- Build, Prepare the workspace ↔ ship the change: fails property 2. A fresh worktree and a pinned build cost little when the tool makes them; stale checkouts are a problem to fix (finding 9cd7e06c), not a pole. The stage's real trade-off is already recorded among its set-aside tensions: Compatibility ↔ clean cut (both goods; constraint is consumers' ability to absorb change; RFC-051/052 evidence).\n- Learn and remember, Record what happened ↔ change the practice: fails property 2; recording does not cost changing, and we want both. The trade-off underneath is 'Keep the practice stable ↔ change it from each lesson': both goods (a stable practice can be learnt; a changing one improves), constraint is people's capacity to absorb a changed process, and overdoing change is SP-114 (the process re-founded instead of evolved).",
+    "tensions": "- Two of the nine failed and one was weak: the first pass named some pairs that only sound opposed.\n- Make meaning and Choose a response carry the same trade-off; that is expected where both refine line 1, but it may mean the two stages are one at this resolution.",
+    "next_action": "With the owner's agreement: swap Build to Compatibility ↔ clean cut, reframe Sense and Learn and remember, then fill the four cases for Review and land."
+  },
+  "createdAt": "2026-10-25T20:25:10.161417771+00:00",
+  "updatedAt": "2026-10-25T20:25:10.161421205+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (defining a trade-off, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
