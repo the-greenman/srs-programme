@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   board-sync:
-    uses: the-greenman/clerk/.github/workflows/programme-board-sync.yml@46ddc9f669bedc61092da86f545af698f55f9fa0
+    uses: the-greenman/clerk/.github/workflows/programme-board-sync.yml@4df53e17923390fae3da1d6dbd2ae90262a78ace
     with:
-      clerk-ref: 46ddc9f669bedc61092da86f545af698f55f9fa0
+      clerk-ref: 4df53e17923390fae3da1d6dbd2ae90262a78ace
     secrets: inherit
