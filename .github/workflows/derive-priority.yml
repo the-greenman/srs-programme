@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   apply:
-    uses: the-greenman/clerk/.github/workflows/programme-derive-priority.yml@89fdcd9be3141d35ada06f7dc9bbe5ef202c133b
+    uses: the-greenman/clerk/.github/workflows/programme-derive-priority.yml@46ddc9f669bedc61092da86f545af698f55f9fa0
     with:
-      clerk-ref: 89fdcd9be3141d35ada06f7dc9bbe5ef202c133b
+      clerk-ref: 46ddc9f669bedc61092da86f545af698f55f9fa0
     secrets: inherit
