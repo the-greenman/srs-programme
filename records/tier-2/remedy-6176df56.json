@@ -1,0 +1,25 @@
+{
+  "instanceId": "6176df56-08d4-4c9c-8420-5d189623958f",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Essays are browsed by domain and family, newest first, with shared paragraphs shown",
+    "move": "A landing view lists essays by the domain each names, walking from a domain into its sub-domains, newest first. Within a domain it shows each essay's family (a copy is derived-from its original) and highlights shared paragraphs as the strongest link between two essays.",
+    "does_not_fix": "Naming the domain itself (the essay map, SP-85's remedy) and folders or a bin (SP-74).",
+    "falsifier": "The owner opens a domain and cannot tell which essays descend from which, or which share paragraphs.",
+    "source_ref": [
+      "Owner, 2026-10-25: vignette 69b6ad45",
+      "srs-web#623"
+    ]
+  },
+  "createdAt": "2026-10-25T17:16:12.060276383+00:00",
+  "updatedAt": "2026-10-25T17:16:12.060278149+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (deriving from the owner vignettes, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

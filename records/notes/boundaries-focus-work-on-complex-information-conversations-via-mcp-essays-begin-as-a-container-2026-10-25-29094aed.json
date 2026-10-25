@@ -1,0 +1,29 @@
+{
+  "instanceId": "29094aed-c1ba-4561-9b36-ed2fcd117634",
+  "title": "Boundaries focus work on complex information; conversations via MCP; essays begin as a container (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:boundaries",
+    "topic:conversation-containers",
+    "topic:essays",
+    "topic:search"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's file the search issue. \n\nThe ideas od working with boundaries is a fundamental practice of working with complex information. We create a boundary around what we are working with, around the concepts and actions. \n\nSo an srs repo like muSrs will contain all sorts of different parts. When I'm working on a specific aspect of the problem, it should be natural to be able to create a boundary that allows me to focus searches. \n\n\nWe will probably have to watch the efficiency of a big boundary. We should be able to notice when we need to optimise any process of creating and working with a boundary. \n\n\nThe mcp conversation angle is going to be something we need to look at. We already have ways to share an agent brief in our web editor and the website editor in muDemocracy uses a similar process.\n\nThis vignette process is actually linked to the essays. When I'm working on an essay, I wil begin by creating the bigger container."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

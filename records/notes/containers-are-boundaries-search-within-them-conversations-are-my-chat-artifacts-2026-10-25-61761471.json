@@ -1,0 +1,28 @@
+{
+  "instanceId": "61761471-2b82-4d34-8d31-5f0906d2becd",
+  "title": "Containers are boundaries: search within them; conversations are my chat artifacts (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:conversation-containers",
+    "topic:boundaries",
+    "topic:search"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The container search is important. We need to be able to search within the boundary of a container.\n\nContainers are an implementation of a boundary system. We don't currently allow relations to be container specific, but we should be able to limit a search only to items within a boundary. \n\nAt the moment let's just establish a convention for names of the conversation containers (date first yyyy-mm-dd  as you have ). Because a container will be a single conversation we can just establish a convention to update the summary now and then ) \n\n\nAlso know that these conversations will be created by Mcp when I chat with any other AI. They are my own chat artifacts. \n\nTagging on the identity is fine for now, we can review that later if needed. That is what the identity record has been designed for."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

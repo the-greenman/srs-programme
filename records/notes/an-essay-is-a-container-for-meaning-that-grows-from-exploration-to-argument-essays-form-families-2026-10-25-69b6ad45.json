@@ -1,0 +1,29 @@
+{
+  "instanceId": "69b6ad45-a3fe-48c2-acb7-c117905aeb6e",
+  "title": "An essay is a container for meaning that grows from exploration to argument; essays form families (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essays",
+    "topic:boundaries",
+    "topic:domains",
+    "topic:stories"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's file these. \n\nWe are aiming to support the growth of meaning from a general exploration to specific argument we are collecting the various parts in a way that allows us to build semantic construsts ... Which we currently call essays.\n\n\nWhen I create a new essay, I'm creating a container for meaning. This contains all the different elements relevant. I'll connect in an agent chat via mcp or cli and begin to collect ideas. \n\nI'll add in source materials. Pull out quotes. Work with agents to test ideas. All these are relevant. But by bit we connect the dots, and achieve our goals.\n\nSometimes a goal is a specific research argument that needs careful backup and evidence.\n\nIf the essay is a narrative, I may want to be collecting ideas on timelines and characters and events, recording themes and layers of ideas. \n\nI then begin to write. Agents add their comments and I refine the text. Some bits of text work, some don't. I move fragments in and out of drafts. I'll duplicate a paragraph and work with multiple versions of it, changing order to see what works. \n\nThen I'll clone the whole essay and try it from a different angle. I may continue to have conversations in an web AI chat, and it can feed in vignettes, and then add records to link to paragraphs.\n\nI may set up an agebt loop that will keep checking my facts and doing web research dropping in potential references. \n\nI should be able to browse these essays by family. Domain level browsing will probably be the initial useful view, so we should try to link essays to domains as early as possible. Domains, in practice are fractal. We move through domains and then into more specialised aspects of that domain. Then the essays within a domain should be visible with an indication of how the essays themselves are related. We may want to see the essay families... Probably generally most recent first. Essays will have a family tree. Shared paragraphs are going to be particularly interesting to highlight"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
