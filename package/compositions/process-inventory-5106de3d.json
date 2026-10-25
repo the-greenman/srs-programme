@@ -1,0 +1,27 @@
+{
+  "id": "5106de3d-9785-453e-bbf5-959996d06bfb",
+  "namespace": "com.semanticops.programme",
+  "name": "process-inventory",
+  "version": 1,
+  "description": "The process inventory: the container rendered in its own order and depth, every field of each exercise.",
+  "sections": [
+    {
+      "sectionId": "inventory",
+      "title": "Process inventory",
+      "order": 0,
+      "source": {
+        "type": "container-subset"
+      },
+      "titleFieldId": "d7e82557-9045-5e92-a494-d99112bbec4a",
+      "ordering": {
+        "source": "arranged"
+      },
+      "emptyBehavior": "hide"
+    }
+  ],
+  "exportConfig": {
+    "format": "markdown"
+  },
+  "createdAt": "2026-10-25T18:35:41.212153521+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/composition.json"
+}

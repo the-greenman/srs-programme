@@ -1,0 +1,22 @@
+{
+  "instanceId": "34c19641-a135-435b-a426-f63db7696827",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "9. The boards",
+    "thinking_reached": "Five GitHub Projects: #5 'SRS' (1,347 items), #6 'SemanticOps' (552), #4 'MuDemocracy' (37), #3 'mu democracy roadmap' (38) and #2 'SemOps Agent Workflow' (0). The handbook says clerk board sync writes #6 hourly and that only this tool writes Projects v2 fields. srs-rust documents a gh-project tool for #5. Stories and epics live in semanticops.com; implementation issues in any governed repo.",
+    "tensions": "- Two projects are each described as 'the board'.\n- #2 is empty; #3 and #4 are small and may be unused.",
+    "unresolved_questions": "- Which projects can be archived without losing anything an agent reads?",
+    "next_action": "Choose the one board; archive the rest (planning)."
+  },
+  "createdAt": "2026-10-25T18:35:38.146327053+00:00",
+  "updatedAt": "2026-10-25T18:35:38.146330854+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (process inventory, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

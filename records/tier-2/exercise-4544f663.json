@@ -1,0 +1,22 @@
+{
+  "instanceId": "4544f663-8f4f-43e8-a65e-ff2a37bc1fc9",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "1. The handbook flow",
+    "thinking_reached": "Where: clerk docs/handbook.md, written as SRS records in clerk/handbook. What it classifies: the stage of a piece of work (domain, persona, problem, remedy, objective and period, epic, work item, priority and queue, working group, claim, execution, review and merge, report, measurement) and, by the problem's domain, the group that takes it. Tools: clerk flow --chain, clerk care, clerk claim, clerk ground, clerk steward.",
+    "tensions": "- The handbook's Work item theory and the bug template offered 'No affirmed problem yet' as an equal alternative to Answers (fixed in clerk#221, 2026-10-25).\n- The tools still treat a missing Answers line as a gap for bugs, against the owner's ruling that bugs need no problem (clerk#223).\n- Its seven decision kinds overlap srs's decision modes and Pattern Grid cells (system 6).\n- It barely mentions Doors (system 5) or ADRs (system 7).",
+    "unresolved_questions": "- Is the handbook the one framework, with srs and srs-rust as local variants, or is it the clerk's own process?",
+    "next_action": "Keep as the spine (proposed)."
+  },
+  "createdAt": "2026-10-25T18:35:37.344395561+00:00",
+  "updatedAt": "2026-10-25T18:35:37.344398893+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (process inventory, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

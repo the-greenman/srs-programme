@@ -1,0 +1,21 @@
+{
+  "instanceId": "39ab8c0c-3da1-466b-a3ee-b6924e12a41a",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "11. Mapping the systems onto the handbook",
+    "thinking_reached": "Handbook stage → system that classifies it:\n- Domain, persona, problem, remedy: system 1 only.\n- Intake: system 1 (kind: bug, friction or feature; proposed in clerk#56).\n- Objective and period, epic: system 2 (epic Priority from the period rank).\n- Work item: systems 1, 2, 3 and 4 (kind by label; priority; status; size and complexity).\n- Priority and queue: systems 2 and 3.\n- Working groups, assignment and claim: system 3 (wg, lane, ready, claim).\n- Execution: systems 5 and 7 where the work is a decision (Doors in srs, ADRs in srs-rust).\n- Review and merge: system 8 (mode × door; gate labels).\n- Report, session and ratification: systems 1 and 6 (decision lifecycle, modes, kinds).\n- Measurement: system 1 (indicators); nothing else.",
+    "tensions": "- Systems 5, 6 and 7 classify decisions and spec changes and enter the work flow only at execution and review.",
+    "unresolved_questions": "- Is a spec change a kind of work item (so Doors are a classification) or a kind of decision (so Doors belong with system 6)?"
+  },
+  "createdAt": "2026-10-25T18:35:38.349249215+00:00",
+  "updatedAt": "2026-10-25T18:35:38.349253285+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (process inventory, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

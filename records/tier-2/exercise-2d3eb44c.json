@@ -1,0 +1,22 @@
+{
+  "instanceId": "2d3eb44c-8d66-4931-98c5-e7d486e02bed",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "5. Spec change: the doors",
+    "thinking_reached": "Door 1 executes a recorded ruling; Door 2 is new normative meaning (an RFC, with a Charter Check); Door 3 amends an Accepted RFC's own surface (a revision). The PR classification check also accepts 'non-normative'. Defined in srs CLAUDE.md (ruled by rfc-decision-e99a9437); every srs PR body states 'Mode · Cell · Door' and the CI check pr-classification (srs#716) reads it. Parallel issue labels in the code repos: spec change, requires-spec-rfc, rfc.",
+    "tensions": "- Finding 716c8ce1: the doors record was called Door 2 by its issue and Door 3 by its brief.\n- Finding 157dc2a3: 11 of the last 20 merged srs PR bodies would fail the classification check.\n- The check blocked a four-line CLAUDE.md PR on 2026-10-25 until a classification line was added.\n- Doors classify a change to the spec, not work in general; the handbook has no stage for them.",
+    "unresolved_questions": "- Where do Doors sit in the handbook flow: a kind of work item, or a gate on review and merge?",
+    "next_action": "Name the Doors in the framework as srs's local form of 'decide' (proposed)."
+  },
+  "createdAt": "2026-10-25T18:35:37.744960616+00:00",
+  "updatedAt": "2026-10-25T18:35:37.744963566+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (process inventory, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

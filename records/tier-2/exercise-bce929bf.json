@@ -1,0 +1,22 @@
+{
+  "instanceId": "bce929bf-4dfb-4559-a688-5d571772c0e0",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "8. Merge authority",
+    "thinking_reached": "Decision 949ae72d: agent merge rights follow decision mode and door, the same in every governed repo; agents merge only clear or complicated Door 1 or non-normative work (srs-context convention 0ad939b7). Labels: gate:auto-merge and gate:owner-merge in every repo. muDemocracy.org's AGENTS.md uses its own words: MECHANICAL (gate:auto-merge, only while the MECHANICAL role is ratified; it is draft, so no auto-merge), JUDGEMENT (the label epic-256:owner-merge) and OWNER (open an issue only). srs-programme and practice data auto-merge.",
+    "tensions": "- Three vocabularies for one rule: mode × door, gate labels, and MECHANICAL / JUDGEMENT / OWNER.\n- epic-256:owner-merge belongs to a retired epic but is still in four repos' label sets and in muDemocracy.org's AGENTS.md.\n- The srs required checks (validate-all, check-release-drift) did not run on a CLAUDE.md-only PR, so GitHub blocked its merge.",
+    "unresolved_questions": "- Does a path filter on required checks belong in the process, or only in srs's CI?",
+    "next_action": "Retire epic-256:owner-merge and the MECHANICAL / JUDGEMENT / OWNER wording (quick win, proposed)."
+  },
+  "createdAt": "2026-10-25T18:35:38.046899057+00:00",
+  "updatedAt": "2026-10-25T18:35:38.046902580+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (process inventory, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

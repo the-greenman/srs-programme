@@ -1,0 +1,22 @@
+{
+  "instanceId": "05adcf22-beac-419e-b788-6b51f0438839",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "2. The board model: value and order",
+    "thinking_reached": "Epic Priority P0 to P2 (rank 1 = P0, 2 = P1, 3+ = P2, unranked = parked), story MoSCoW (Must, Should, Could, Won't) set by a human, a derived 'priority: Pn' label on implementation issues, bump labels (critical-path, blocks-gate, regression), a bug floor of P1, and milestone labels (eight milestone:* labels in semanticops.com and muDemocracy.org). An epic is a release. Defined twice: clerk docs/board.md (Project #6 'SemanticOps') and srs-rust docs/project-management.md (Project #5 'SRS'; says it is canonical).",
+    "tensions": "- Two canonical copies. srs-rust's says an epic's Priority is hand-set, its one board input. The clerk's and the handbook's say it is derived from the period ranking by clerk roadmap and 'never set by hand'.\n- Two projects carry the same model: #5 has 1,347 items, #6 has 552.\n- srs-programme's CLAUDE.md says to reprioritise by editing the period's objective_rank, a third statement of the same rule.",
+    "unresolved_questions": "- Which project does clerk board sync write, and does anything still write #5?\n- Do milestone:* labels (release names) duplicate epics-as-releases?",
+    "next_action": "Delete one copy of the board process; make the other the only statement (proposed)."
+  },
+  "createdAt": "2026-10-25T18:35:37.444725928+00:00",
+  "updatedAt": "2026-10-25T18:35:37.444730438+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (process inventory, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

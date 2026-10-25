@@ -1,0 +1,22 @@
+{
+  "instanceId": "7804d45f-0d05-4697-8ed8-6835732a80b9",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "3. Status, holds and routing",
+    "thinking_reached": "The GitHub Project Status field plus label mirrors: 'status: in progress', 'status: in review', ready, promote:ready, blocked, needs-input, parked; eleven gate:* labels (dispatched, blocked-owner, in-review, working, auto-merge, owner-merge, external-work, pool, session-unit, queued, needs-input); wg:* (the working group that holds the problem's domain) and lane:unattended (central lane). The programme binds a work-status set to label text through label-binding records (decision f58db200).",
+    "tensions": "- gate:* mixes three things: workflow state (working, in-review, queued, dispatched), holds (needs-input, blocked-owner, external-work) and merge authority (auto-merge, owner-merge).\n- 'in review' and 'needs-input' exist both as status/hold labels and as gate labels.\n- Not re-verified in this pass: what each gate:* label means today and who writes it.",
+    "unresolved_questions": "- Which of the eleven gate labels are still read by any tool?",
+    "next_action": "Audit the gate:* labels against label-binding records and the tools that read them."
+  },
+  "createdAt": "2026-10-25T18:35:37.544548963+00:00",
+  "updatedAt": "2026-10-25T18:35:37.544553316+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (process inventory, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
