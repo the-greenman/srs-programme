@@ -1,0 +1,29 @@
+{
+  "instanceId": "51054b3c-c25d-4385-bd56-9bd2512282df",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "The clerk#197 dogfood sequence merges on green without owner stops",
+    "decision_question": "Who merges the PRs of the clerk#197 dogfood sequence (W1 to W7), so the owner's goal is reached without stopping for an approval: work that follows the defined process is never lost, and any new agent finds the process?",
+    "context": "Owner, 2026-10-25: \"every time you stop for a pr that I have to approve before we reach the goal, we have failed\" and \"plan, review and preapprove and then dogfood\". The owner chose \"Yes, all of W1–W7\" when asked (vignette 5b9949e4). The scope W1 to W7 is the plan on clerk#197: W1 srs-context#77 (brief entry), W2 clerk#203 (keep the desk current) and the clerk pin bump, W3 clerk#204 (the desk shows all active work), W4 clerk#198 (land clerk#180), W5 clerk#127 (the standard flow in the handbook records), W6 clerk#202 (never ask for affirmation in chat), W7 clerk#201 (the flow keeper, run once, then its trigger). Placed in Programme coordination; held by the central group.",
+    "alternatives_considered": "(a) Yes, all of W1 to W7 (chosen): the sequence reaches the goal without stopping; each PR cites this decision. (b) Yes, but not the trigger: one stop, the owner creates the flow keeper trigger. (c) Yes, but the owner merges clerk#203: one planned stop for the workflow change. (d) Do nothing (\"Not yet\"): every owner-merge PR waits for the owner, and the sequence stops at each.",
+    "decision_statement": "Within the clerk#197 dogfood sequence (W1 to W7), the clerking session merges a PR once its gates pass by exit code and an independent review finds nothing blocking, including PRs labelled gate:owner-merge, the takeover of the owner's clerk#180 branch (by merge, never rebase) and the creation of the flow keeper's cloud trigger. Anything outside W1 to W7, or a blocking finding that cannot be fixed within the issue's scope, comes back to the owner as one question.",
+    "rationale": "A stop for approval before the goal leaves work half-done, which is the failure the sequence exists to remove (SP-59). Gates by exit code and an independent review keep the quality check; the owner's act is this ratification, recorded in a session, not an answer forged in a PR.",
+    "revisit_when": "When the sequence reaches its goal (the fresh-session test T2 passes and clerk#197 is closed), when a PR merged under this decision is reverted, or when work outside W1 to W7 is merged citing it.",
+    "next_steps": "Ratify in a session with the owner attending; cite this decision in each W1 to W7 PR.",
+    "owner": "human:the-greenman",
+    "status": "proposed",
+    "decision_kind": "mandate"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-25T10:03:42.773965824+00:00",
+  "updatedAt": "2026-10-25T10:04:13.721532759+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code, for the owner (clerk#197)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

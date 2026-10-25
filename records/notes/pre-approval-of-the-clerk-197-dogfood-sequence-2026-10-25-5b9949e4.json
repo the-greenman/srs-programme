@@ -1,0 +1,29 @@
+{
+  "instanceId": "5b9949e4-853f-4ccb-af62-72a3cdf92f2b",
+  "title": "Pre-approval of the clerk#197 dogfood sequence (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:flow",
+    "topic:dogfood",
+    "topic:authority"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Yes, all of W1–W7 (Recommended)"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25, choosing this option in answer to the question: \"Do you pre-approve the clerk#197 dogfood sequence (W1–W7)? If yes, I record your answer as a decision ratified in a session, cite it in every PR, and merge each PR once its gates pass by exit code and an independent review finds nothing blocking. That covers #203 (the desk posts on every run), taking over your #180 branch (merge, not rebase), and creating the flow keeper's cloud trigger. Anything outside W1–W7, or a blocking finding I can't fix in scope, still stops and comes to you.\" The other options offered were: \"Yes, but not the trigger\", \"Yes, but I merge #203\", \"Not yet\". Recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code, for the owner (clerk#197)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
