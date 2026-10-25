@@ -53,7 +53,7 @@ The pin (`SRS_RUST_CLI_TAG`) is declared once, in `.github/workflows/validate.ym
 
 ## Filing issues
 
-Every new SemanticOps issue (the-greenman/semanticops.com or an srs-* repo) is filed in the shape of the clerk handbook's *How an issue reaches a group*, and is checked with `clerk flow --chain <repo#n>` straight after: fix every ✗ it prints.
+A bug is filed as a bug (found while, steps, expected, actual, severity) and needs no problem: bugs are bugs (owner, 2026-10-25). Every other new SemanticOps issue (the-greenman/semanticops.com or an srs-* repo) is filed in the shape of the clerk handbook's *How an issue reaches a group*, and is checked with `clerk flow --chain <repo#n>` straight after: fix every ✗ it prints.
 
 1. First line `Answers: SP-nn "<title>"`, naming a suggested or affirmed problem. `No affirmed problem yet` is not a way to file: suggest the problem first (look with `srs find --type com.semanticops.method/problem`, create the suggestion in the Suggestions container, held-by a persona-in-domain, `derived-from` the vignette), then name it.
 2. `Part of <epic or story>`, and link the issue as its sub-issue.

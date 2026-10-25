@@ -1,0 +1,27 @@
+{
+  "instanceId": "d7a4db67-2696-4958-a1aa-a63d5b878750",
+  "title": "Bugs do not need problems (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:issue-flow",
+    "topic:bugs"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Ok. Bugs don't need problems . Bugs are bugs"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
