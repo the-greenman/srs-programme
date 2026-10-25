@@ -1,0 +1,26 @@
+{
+  "instanceId": "f7b9b8fb-1460-4d6a-81fd-4fe11e2d573a",
+  "title": "Conversation 2026-10-24: narrative explorations begin",
+  "tags": [
+    "narrative",
+    "conversation"
+  ],
+  "sections": [
+    {
+      "name": "context",
+      "label": "Context",
+      "content": "Agent framing, not the owner's words: the Claude Code conversation of 2026-10-24 in which the owner began recording Tier-0 vignettes, ruled the programme a database, set the editor group's stance and asked that the practice become standard (clerk#189, srs-programme#253). Grouped here on 2026-10-25 (clerk#197) so the conversation reads together; the vignettes are unchanged and keep their order."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-24; the vignettes are recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code, for the owner (clerk#197 step 2)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
