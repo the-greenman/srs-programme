@@ -1,0 +1,20 @@
+{
+  "instanceId": "60bffbe6-5ef1-46d7-8281-e64f64045d72",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "B9. Across the stages",
+    "thinking_reached": "Concerns that sit in no single stage.",
+    "tensions": "- The owner's attention is the single sink: stages 2, 3, 6 and 7 each end in an owner act (affirm, rule, merge, receive), and fixes keep moving the act rather than removing it.\n- One fact in many places: labels and records as two state systems, handbook text drifting from records (SP-67), copies of wt and session drifting, stale CLAUDE.md files (SP-65).\n- In-flight work is not visible between stages (SP-59, SP-61).\n- The process is repeatedly re-founded: the epic-worker skills (retired in August, srs#451), the unit walk (September), the reboot from Project #5 to #6 (10-08), units frozen then revived as holons (10-21).\n- The pattern is older than SRS: the 2025 products vault ran domain, problem, persona, product, stories with human guidance fed to AI; semops2's TODO says planning complete, no implementation.\n- A rule holds at the boundary that made it (boundaries ruling, 10-09); rules lifted out of their boundary cause most recorded contradictions."
+  },
+  "createdAt": "2026-10-25T19:45:09.107314602+00:00",
+  "updatedAt": "2026-10-25T19:45:09.107317389+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (flow model B, independent agent, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

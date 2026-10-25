@@ -1,0 +1,21 @@
+{
+  "instanceId": "241d5778-9f0d-47c5-899c-3f1bf9eee4e3",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Comparing the flow models",
+    "thinking_reached": "Five models of the flow now exist: the handbook's flow (16 steps, Find to Report), the September unit walk (Ground, Classify, Check charter, Route, Work, Prove, Land, Harvest), the 2025 products vault (domain, problem, persona, product, stories), model A (nine stages, container 165f3a6e) and model B (eight stages, container b9c5106b). A and B were made apart; B saw nothing of A.\n\nWhere they agree:\n- The same spine: notice, make meaning, decide, admit and place work, build, review and land, learn. A's Sense, Make meaning, Build, Review and land, and Learn match B's Notice, Make sense, Build, Review and land, and Learn.\n- Line 1 leans inward: both find the programme refining itself more than delivering (B: process against product merges 66 to 26, then 197 to 83).\n- Owner merge: both find every merge going through the owner, and the ruling (949ae72d) not yet practised.\n- Duplication: both find one fact kept in many places (A's line 2 'keep everything side by side'; B's 'one fact in many places').\n\nWhere they differ:\n- Where deciding sits. B puts Rule third, straight after Make sense; A puts Decide eighth, after Review and land. The handbook runs a separate decision flow beside the work flow, which suggests deciding is a parallel spine rather than a stage.\n- Granularity. B's 'Admit, route, rank' is A's Choose a response, Shape the work and Allocate in one stage. A splits it because the owner's questions (a good issue, moving work through) live there.\n- Reporting. B makes Report and receive its own stage, an owner act; A folds it into Learn and remember.\n- Shape of the trade-offs. B names one trade-off per stage in its own words; A forces three per stage onto the parent's trigram lines. B's names map onto A's lines: depth ↔ overload and human layer ↔ agent throughput sit under line 1 (refine ↔ deliver); gate ↔ flow and reviewable ↔ fast under line 1 too; spec-led ↔ implementation-led and convention ↔ enforcement under line 3 (core ↔ adapter); oversight ↔ momentum under line 2. So B's set is not orthogonal: most of its trade-offs are line 1.\n\nWhat B saw that A missed:\n- The owner's attention as the single sink: four stages end in an owner act, and fixes move the act instead of removing it. A has the merge part (SP-112) but not the pattern.\n- The process is re-founded again and again (epic-worker skills, unit walk, the reboot to Project #6, holons). For the process itself the programme leans to clean cuts, the opposite of A's finding that line 2 never went toward one way: we keep practice side by side, then replace the whole process at once.\n- Gating swung both ways and was settled by 9d50126b (confidence grades care); A recorded 'both' without the turn.\n- Deciding is not the bottleneck (83 ratified, 5 proposed); decision quality and execution are.\n\nWhat A has that B does not: three tensions per stage refining the parent's lines, poles with shadows, and problems linked to the shadow they sit in, which is the fractal structure the owner asked for.",
+    "unresolved_questions": "- Is deciding a stage, or a spine beside the flow?\n- Is 'the owner's attention is the single sink' a problem to record (it holds SP-63, SP-112 and B's affirm, rule, merge and receive acts)?\n- Should a stage carry one trade-off (B) or three on the lines (A)? B's one-per-stage names are easier to recognise; A's are tested for orthogonality.",
+    "next_action": "Record 'the owner's attention is the single sink' as a suggested problem if the owner agrees; fold B's evidence into A's stage exercises where it is stronger."
+  },
+  "createdAt": "2026-10-25T19:45:30.108496765+00:00",
+  "updatedAt": "2026-10-25T19:45:30.108499791+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (comparing flow models, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

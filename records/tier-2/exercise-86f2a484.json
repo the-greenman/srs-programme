@@ -1,0 +1,20 @@
+{
+  "instanceId": "86f2a484-bd7e-4cf9-bebb-25b3b96c91c3",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Flow model B: an independent model of how work moves",
+    "thinking_reached": "Made by an agent commissioned on 2026-10-25 that read only what existed before that day (srs-programme at 2dcc58f, srs-context at 5263e9b, clerk at af44be9, the repos' CLAUDE.md files and commands, git history, semops2 and products), and nothing of model A (container 165f3a6e) or its notes. Eight stages, each with one trade-off named in its own words. The cut between Make sense and Rule is the agent's own judgement; the stages nearly match the September unit walk (Ground, Classify, Check charter, Route, Work, Prove, Land, Harvest) and the handbook's flow rows.",
+    "unresolved_questions": "- Moderate confidence. Not verified: local plan files, cloud routine logs, the I1 values, private srs-lab content; the 'owner merged every PR' figure is from the audit, not checked per PR.\n- One claim checked and wrong: srs-rust's CLAUDE.md on master names Project #6, not #5 (the agent read a stale local checkout)."
+  },
+  "createdAt": "2026-10-25T19:45:08.171311700+00:00",
+  "updatedAt": "2026-10-25T19:45:08.171316207+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (flow model B, independent agent, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

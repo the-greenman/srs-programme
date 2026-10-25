@@ -1,0 +1,20 @@
+{
+  "instanceId": "4fa1c4a7-8a30-4a2d-bc87-949580d322d7",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "B2. Make sense",
+    "thinking_reached": "Aim: turn what was noticed into named meaning (domain, persona, problem, remedy, axes), so work has a why.\n\nTried: the method package; Suggestions, Affirmed and Set aside; domain containers, clusters, remedies with falsifiers; the trigram and compass axes; the decision taxonomy.",
+    "tensions": "- Trade-off: human layer ↔ agent throughput. Agents generate meaning far faster than the owner affirms it; on 10-24 the answer moved to narrative first (SP-103, remedy 74a2cbd2).\n- Gone wrong: affirmation is the choke point; affirming the pilot domains reappeared in five plans after it was done on 10-16; SP-101, SP-102; the axes exercise took two days and found 82 of 101 decisions inward (discoveries 13)."
+  },
+  "createdAt": "2026-10-25T19:45:08.381555888+00:00",
+  "updatedAt": "2026-10-25T19:45:08.381560148+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (flow model B, independent agent, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

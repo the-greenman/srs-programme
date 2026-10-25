@@ -1,0 +1,20 @@
+{
+  "instanceId": "1a165b8f-2926-42e0-850c-2eec7b6bdfe5",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "B10. Where the documents differ from practice",
+    "thinking_reached": "The handbook draws one chain from meaning to execution to governance; real work also enters directly from the owner (9e2c2950; SP-95 shipped the day it was raised) and through /rfc and steward escalations (most of October's product work was the RFC-051/052 rollout). SP-62: most real work bypasses the agreed process.",
+    "tensions": "- The handbook's live-status line said no domain was affirmed; all seven were affirmed by 10-20.\n- The handbook gated on an affirmed problem; 9d50126b (10-24) revised that and /ship follows, the handbook did not.\n- The Intake chapter is 'Proposed, not in force' while D2 to D7 are ratified, and intake was never practised.\n- clerk/CLAUDE.md says the owner reviews and merges, against 949ae72d (checked: still true on main).\n- The routines table says builders run hourly; groups merged 0 to 6 of 10 per cycle and the routines stopped behind the canary.\n- The handbook's stage facts were last checked on 2026-10-11."
+  },
+  "createdAt": "2026-10-25T19:45:09.210392353+00:00",
+  "updatedAt": "2026-10-25T19:45:09.210395369+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (flow model B, independent agent, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
