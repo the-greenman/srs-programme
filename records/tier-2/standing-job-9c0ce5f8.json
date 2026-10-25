@@ -8,13 +8,14 @@
     "title": "Keep the flow joined",
     "description": "Sweep the governed repositories with clerk flow --open: join every dot clerk flow marks auto, citing its rule (lane or group label, the sub-issue link a Part of names, the blocked-by link a Blocked by names); never guess a choice. Report, per repository, the issues that flow and the choices left for a person (two holding groups, an existing parent, a parked epic, a missing problem or plan).",
     "done_when": "Every open issue under a ranked epic has its mechanical dots joined, and the report lists each choice left with the issue it belongs to.",
-    "trigger": "daily, before the board sync that fills Ready (proposed)",
+    "trigger": "daily 22:45 UTC, before the 23:00 board sync that fills Ready for the 00:00 unattended worker",
     "size": "The governed repositories, open issues only",
+    "routine_id": "trig_015sM5MvGpmFmVfBrG9Z7JDi",
     "brief_path": "routines/flow-keeper.md"
   },
   "lifecycleState": "draft",
   "createdAt": "2026-10-24T16:20:17.865427207+00:00",
-  "updatedAt": "2026-10-24T16:21:11.904940259+00:00",
+  "updatedAt": "2026-10-25T12:50:13.208882448+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",
