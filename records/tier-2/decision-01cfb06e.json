@@ -18,9 +18,9 @@
     "status": "proposed",
     "decision_kind": "design"
   },
-  "lifecycleState": "draft",
+  "lifecycleState": "proposed",
   "createdAt": "2026-10-22T17:13:43.032070407+00:00",
-  "updatedAt": "2026-10-24T19:43:15.542155959+00:00",
+  "updatedAt": "2026-10-25T11:35:42.073977243+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",

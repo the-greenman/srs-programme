@@ -16,9 +16,9 @@
     "revisit_when": "The RFC is accepted or srs-web#547 needs the id before then.",
     "next_steps": "Owner authorises the RFC; srs#931 loses ready until an implementation issue exists."
   },
-  "lifecycleState": "draft",
+  "lifecycleState": "proposed",
   "createdAt": "2026-10-24T19:13:04.898836943+00:00",
-  "updatedAt": "2026-10-24T19:13:04.898848590+00:00",
+  "updatedAt": "2026-10-25T11:35:41.849978158+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",
