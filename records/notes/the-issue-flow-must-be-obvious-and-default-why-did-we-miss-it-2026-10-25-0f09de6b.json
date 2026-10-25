@@ -1,0 +1,28 @@
+{
+  "instanceId": "0f09de6b-9eb4-4d5f-9e79-9d3f939bdbce",
+  "title": "The issue flow must be obvious and default; why did we miss it? (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:issue-flow",
+    "topic:agent-defaults",
+    "topic:stories"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's push and open prs.  Programme does not need ownership merge. \n\nLet's also review why we missed this process. \nThe flow process needs to be obvious and default"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
