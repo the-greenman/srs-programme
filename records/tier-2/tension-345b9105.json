@@ -6,10 +6,10 @@
   "typeName": "tension",
   "fieldValues": {
     "title": "Change",
-    "description": "Whether change comes from testing new approaches or from deepening what already works."
+    "description": "Line 2. Whether we bring in new things, or make what we have better: energy added to change state, or the system let settle."
   },
   "createdAt": "2026-10-20T11:24:12.678683165+00:00",
-  "updatedAt": "2026-10-20T11:24:12.678684781+00:00",
+  "updatedAt": "2026-10-25T07:32:58.096783913+00:00",
   "createdBy": {
     "kind": "human",
     "id": "human:the-greenman",

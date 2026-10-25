@@ -6,10 +6,10 @@
   "typeName": "tension",
   "fieldValues": {
     "title": "Action",
-    "description": "Whether energy goes outward into visible work or inward into capacity and shared understanding."
+    "description": "Line 1. Whether we do the work, or update how the work gets done: energy applied outward onto the world, or let in to change the system itself."
   },
   "createdAt": "2026-10-20T11:23:38.382415229+00:00",
-  "updatedAt": "2026-10-20T11:23:38.382419797+00:00",
+  "updatedAt": "2026-10-25T07:32:58.001545286+00:00",
   "createdBy": {
     "kind": "human",
     "id": "human:the-greenman",
