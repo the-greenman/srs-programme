@@ -1,0 +1,19 @@
+{
+  "instanceId": "977453ff-27a5-410e-9eb5-49c2058f998a",
+  "typeId": "88d9b5da-418b-4bf1-a3e3-97bd14a52a9c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "axis-in-domain",
+  "fieldValues": {
+    "title": "Core once and adapter convenience in Programme coordination",
+    "line": 3
+  },
+  "createdAt": "2026-10-25T09:13:32.814878871+00:00",
+  "updatedAt": "2026-10-25T09:13:32.814880464+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

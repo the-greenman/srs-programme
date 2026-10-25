@@ -1,0 +1,18 @@
+{
+  "instanceId": "8f130e34-02ac-4a42-9142-9caab95d1c04",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed with both poles: Poles affirmed on the owner's instruction (2026-10-25) to restore the owner's axes (clerk#192); the tension was affirmed earlier, its poles never were"
+  },
+  "createdAt": "2026-10-25T09:12:11.147753701+00:00",
+  "updatedAt": "2026-10-25T09:12:11.147756806+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

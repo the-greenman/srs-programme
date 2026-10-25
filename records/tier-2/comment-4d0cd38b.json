@@ -1,0 +1,18 @@
+{
+  "instanceId": "4d0cd38b-c3ee-4e32-89ef-889744d88173",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed with both poles: Poles affirmed on the owner's instruction (2026-10-25): the owner's ruling of 2026-10-23 makes this tension an axis of Programme coordination (clerk#192, clerk#194)"
+  },
+  "createdAt": "2026-10-25T09:13:03.234528470+00:00",
+  "updatedAt": "2026-10-25T09:13:03.234532191+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

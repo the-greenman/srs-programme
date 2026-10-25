@@ -1,0 +1,19 @@
+{
+  "instanceId": "309e3a38-96ff-454b-9ec6-138c292500f8",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Deliver and refine",
+    "description": "Line 1 in Programme coordination. Whether the change lands on the world, shipping the work already defined, or on the programme itself, refining how and whether we are ready to act (owner, 2026-10-23)."
+  },
+  "createdAt": "2026-10-25T09:12:53.622761543+00:00",
+  "updatedAt": "2026-10-25T09:12:53.622764614+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

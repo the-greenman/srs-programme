@@ -1,0 +1,19 @@
+{
+  "instanceId": "8150bc17-b697-4905-b65d-a1db6da5b64e",
+  "typeId": "88d9b5da-418b-4bf1-a3e3-97bd14a52a9c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "axis-in-domain",
+  "fieldValues": {
+    "title": "One mechanism and compatibility in Programme coordination",
+    "line": 2
+  },
+  "createdAt": "2026-10-25T09:13:30.224517271+00:00",
+  "updatedAt": "2026-10-25T09:13:30.224524785+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

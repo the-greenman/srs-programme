@@ -1,0 +1,19 @@
+{
+  "instanceId": "8f7ab45a-55a6-4da2-b9da-c40d6e862fe8",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Possession",
+    "looks_like": "What is made works where it lives and is kept there."
+  },
+  "createdAt": "2026-10-25T09:12:10.728084165+00:00",
+  "updatedAt": "2026-10-25T09:12:10.728085724+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
