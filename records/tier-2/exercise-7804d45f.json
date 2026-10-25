@@ -6,13 +6,13 @@
   "typeName": "exercise",
   "fieldValues": {
     "title": "3. Status, holds and routing",
-    "thinking_reached": "The GitHub Project Status field plus label mirrors: 'status: in progress', 'status: in review', ready, promote:ready, blocked, needs-input, parked; eleven gate:* labels (dispatched, blocked-owner, in-review, working, auto-merge, owner-merge, external-work, pool, session-unit, queued, needs-input); wg:* (the working group that holds the problem's domain) and lane:unattended (central lane). The programme binds a work-status set to label text through label-binding records (decision f58db200).",
-    "tensions": "- gate:* mixes three things: workflow state (working, in-review, queued, dispatched), holds (needs-input, blocked-owner, external-work) and merge authority (auto-merge, owner-merge).\n- 'in review' and 'needs-input' exist both as status/hold labels and as gate labels.\n- Not re-verified in this pass: what each gate:* label means today and who writes it.",
-    "unresolved_questions": "- Which of the eleven gate labels are still read by any tool?",
-    "next_action": "Audit the gate:* labels against label-binding records and the tools that read them."
+    "thinking_reached": "The GitHub Project Status field plus label mirrors: 'status: in progress', 'status: in review', 'status: done', ready, promote:ready, blocked, needs-input, parked; wg:* (the working group that holds the problem's domain) and lane:unattended; and eleven gate:* labels in srs and srs-rust (other repos carry only gate:auto-merge and gate:owner-merge). The programme binds the label text to its meaning through label-binding records; the work-status set is clerk#121, the first application of decision f58db200 ('Meaning in the definition over meaning in the surface').",
+    "tensions": "- Nine gate:* labels (dispatched, blocked-owner, in-review, working, external-work, pool, session-unit, queued, needs-input) are retired in their label bindings and read by no code, but still exist as labels in srs and srs-rust.\n- Only gate:auto-merge and gate:owner-merge are live; they are merge authority, not state (system 8).",
+    "unresolved_questions": "- Delete the nine retired gate labels, or keep them for history on closed issues?",
+    "next_action": "Delete the nine retired gate:* labels from srs and srs-rust (quick win, proposed)."
   },
   "createdAt": "2026-10-25T18:35:37.544548963+00:00",
-  "updatedAt": "2026-10-25T18:35:37.544553316+00:00",
+  "updatedAt": "2026-10-25T19:04:42.570020145+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

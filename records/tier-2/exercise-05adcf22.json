@@ -6,13 +6,13 @@
   "typeName": "exercise",
   "fieldValues": {
     "title": "2. The board model: value and order",
-    "thinking_reached": "Epic Priority P0 to P2 (rank 1 = P0, 2 = P1, 3+ = P2, unranked = parked), story MoSCoW (Must, Should, Could, Won't) set by a human, a derived 'priority: Pn' label on implementation issues, bump labels (critical-path, blocks-gate, regression), a bug floor of P1, and milestone labels (eight milestone:* labels in semanticops.com and muDemocracy.org). An epic is a release. Defined twice: clerk docs/board.md (Project #6 'SemanticOps') and srs-rust docs/project-management.md (Project #5 'SRS'; says it is canonical).",
-    "tensions": "- Two canonical copies. srs-rust's says an epic's Priority is hand-set, its one board input. The clerk's and the handbook's say it is derived from the period ranking by clerk roadmap and 'never set by hand'.\n- Two projects carry the same model: #5 has 1,347 items, #6 has 552.\n- srs-programme's CLAUDE.md says to reprioritise by editing the period's objective_rank, a third statement of the same rule.",
-    "unresolved_questions": "- Which project does clerk board sync write, and does anything still write #5?\n- Do milestone:* labels (release names) duplicate epics-as-releases?",
-    "next_action": "Delete one copy of the board process; make the other the only statement (proposed)."
+    "thinking_reached": "Epic Priority P0 to P2 (rank 1 = P0, 2 = P1, 3+ = P2, unranked = parked), derived from the period ranking by clerk roadmap and never set by hand; story MoSCoW (Must, Should, Could, Won't) set by a human; a derived 'priority: Pn' label on implementation issues; bump labels (critical-path, blocks-gate, regression); a bug floor of P1; and eight milestone:* labels in semanticops.com and muDemocracy.org, plus five native GitHub milestones in srs-rust. An epic is a release. One statement: clerk docs/board.md and the handbook (Project #6 'SemanticOps'). srs-rust's docs/project-management.md now says 'Moved' and points to the clerk (commit dd8e47a8, 2026-10-11).",
+    "tensions": "- milestone:* labels and native milestones name releases, while the board model says an epic is a release.\n- srs-programme's CLAUDE.md restates the rule (reprioritise by editing objective_rank), a second statement of one rule.\n- A stale local srs-rust checkout still shows the retired copy that said epic Priority was hand-set; an agent reading it would act on the old rule.",
+    "unresolved_questions": "- Do milestone:* labels and native milestones still mean anything the derivation reads?",
+    "next_action": "Retire milestone labels if nothing reads them (planning)."
   },
   "createdAt": "2026-10-25T18:35:37.444725928+00:00",
-  "updatedAt": "2026-10-25T18:35:37.444730438+00:00",
+  "updatedAt": "2026-10-25T19:04:42.472507911+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

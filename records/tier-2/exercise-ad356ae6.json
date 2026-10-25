@@ -6,13 +6,13 @@
   "typeName": "exercise",
   "fieldValues": {
     "title": "4. Effort: size and complexity",
-    "thinking_reached": "size: small, medium, large, xl, and size:XS (no space). complexity: simple, medium, complex, and also low, small, high. Present in srs-rust in full and as subsets elsewhere. clerk board size sets small, medium, large or xl.",
-    "tensions": "- Six complexity labels for three levels (simple, low, small; medium; complex, high).\n- 'small' appears in both size and complexity.\n- size:XS follows a different spelling from the other sizes.",
+    "thinking_reached": "srs-rust: size small, medium, large, xl and size:XS; complexity simple, medium, complex and also low, small, high. srs, srs-vscode, semanticops.com, muDemocracy.org: size small to xl; complexity simple, medium, complex. srs-web: size small to xl plus size:m; complexity simple, medium, complex, high. clerk, srs-programme, srs-context: size only. clerk board size sets small, medium, large or xl.",
+    "tensions": "- Six complexity labels for three levels in srs-rust; srs-web adds high.\n- size:XS and size:m use different spellings from the other sizes.\n- 'small' appears in both size and complexity.",
     "unresolved_questions": "- Is complexity used for anything the derived priority or queue reads?",
     "next_action": "Collapse to one size scale and one complexity scale (quick win, proposed)."
   },
   "createdAt": "2026-10-25T18:35:37.646424128+00:00",
-  "updatedAt": "2026-10-25T18:35:37.646427376+00:00",
+  "updatedAt": "2026-10-25T19:04:42.667203332+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

@@ -6,13 +6,13 @@
   "typeName": "exercise",
   "fieldValues": {
     "title": "7. Implementation decisions: ADRs",
-    "thinking_reached": "srs-rust/docs/adr holds 52 files (the latest, ADR-051, plus the template). Each has a Status, Date, Supersedes and Superseded-by. ADR-048 gives the implementation layer's five rules, consuming the spec charter by link: spec-first, the layer test, and three more. Other repos record implementation decisions as srs-context decisions or in their CLAUDE.md files.",
+    "thinking_reached": "srs-rust/docs/adr on origin/master holds 55 files: ADRs up to ADR-054 (052 package upgrade, 053 structured error reports, 054 fork into container) and the template. Each has a Status, Date, Supersedes and Superseded-by. ADR-048 gives the implementation layer's rules, consuming the spec charter by link: spec-first, the layer test, one way per goal, parity and mirror, decision mode, and a sixth added 2026-10-08, identifier over label in outputs. Other repos record implementation decisions as srs-context decisions or in their CLAUDE.md files.",
     "tensions": "- Three stores for decisions with separate lifecycles: srs rfc-decision records, srs-programme decision records (proposed, ratified) and srs-rust ADRs (accepted), plus srs-context decision records.\n- ADRs have no mode, door or cell of their own; ADR-048 says it follows the compass by link.",
     "unresolved_questions": "- Should an ADR carry a decision mode, and should it be a programme decision record?",
     "next_action": "Decide the home of an implementation decision (planning)."
   },
   "createdAt": "2026-10-25T18:35:37.946239667+00:00",
-  "updatedAt": "2026-10-25T18:35:37.946243806+00:00",
+  "updatedAt": "2026-10-25T19:04:42.866080035+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

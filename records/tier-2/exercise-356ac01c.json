@@ -6,13 +6,13 @@
   "typeName": "exercise",
   "fieldValues": {
     "title": "12. A framework (proposal, not a ruling)",
-    "thinking_reached": "One spine: the handbook flow. Six classifications, each owned once: (1) kind of item (epic, story, work item, bug, RFC, ADR, decision); (2) value and order, derived; (3) effort, one size scale and one complexity scale; (4) state, one set (decision f58db200 already points here); (5) authority, mode × door, already ruled for every repo (949ae72d); (6) route, domain to group. Repo-local variants keep the framework and add their own forms: srs keeps the Doors and the RFC process, srs-rust keeps ADRs, muDemocracy.org drops MECHANICAL / JUDGEMENT / OWNER for the shared authority rule. Bugs need no problem (owner ruling, 2026-10-25).",
+    "thinking_reached": "One spine: the handbook flow. Six classifications, each owned once: (1) kind of item (epic, story, work item, bug, RFC, ADR, decision); (2) value and order, derived; (3) effort, one size scale and one complexity scale; (4) state, one set (the clerk's work-status set, clerk#121, already points here); (5) authority, mode × door, already ruled for every repo (949ae72d); (6) route, domain to group. Repo-local variants keep the framework and add their own forms: srs keeps the Doors and the RFC process, srs-rust keeps ADRs, muDemocracy.org drops MECHANICAL / JUDGEMENT / OWNER for the shared authority rule. Bugs need no problem (owner ruling, 2026-10-25).",
     "tensions": "- Doors and ADRs are decision forms, not work classifications, so they fit the framework only as local variants of 'decide'.",
     "unresolved_questions": "- Who owns the framework: the clerk handbook, or a spec-level decision?",
     "next_action": "Quick wins from systems 2, 3, 4 and 8; then planning for 6, 7 and 9."
   },
   "createdAt": "2026-10-25T18:35:38.448778085+00:00",
-  "updatedAt": "2026-10-25T18:35:38.448781244+00:00",
+  "updatedAt": "2026-10-25T19:04:43.263425392+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

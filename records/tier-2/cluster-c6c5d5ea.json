@@ -1,0 +1,19 @@
+{
+  "instanceId": "c6c5d5ea-ab07-4d80-b1a4-5c5c687798c6",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "What a good pull request carries",
+    "description": "A pull request is judgeable: it names its issue and what it changed, states its decision mode and door, and carries no authority decision of its own."
+  },
+  "createdAt": "2026-10-25T19:03:17.109024677+00:00",
+  "updatedAt": "2026-10-25T19:03:17.109026140+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (mapping Programme coordination, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

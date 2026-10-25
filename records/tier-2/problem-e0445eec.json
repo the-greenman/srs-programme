@@ -1,0 +1,25 @@
+{
+  "instanceId": "e0445eec-1a54-4af9-b806-44aca559758c",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-112",
+    "title": "Finished work waits for the owner's merge",
+    "statement": "Agents finish work in hours, but almost every pull request waits for me to merge it on GitHub, away from the place where I affirm, answer or ratify. My acts there do not finish anything, so the work I judged still waits, and I am drawn to GitHub to clear it.",
+    "kind": "condition",
+    "source_ref": [
+      "Work-flow audit 2026-10-23 (source-documents/work-flow-audit-2026-10-23): 254 merged PRs in the week, every one through the owner",
+      "Owner, 2026-10-25: vignette 30afa94e"
+    ]
+  },
+  "createdAt": "2026-10-25T19:03:06.518169392+00:00",
+  "updatedAt": "2026-10-25T19:03:06.518170932+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (mapping Programme coordination, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

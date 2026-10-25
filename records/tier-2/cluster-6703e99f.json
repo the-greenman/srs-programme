@@ -1,0 +1,19 @@
+{
+  "instanceId": "6703e99f-26df-43ff-9ae2-a781671d3aea",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Which decisions a human must own",
+    "description": "Which choices need a human, which an agent may make under a rule, and how a decision reaches the owner in a form they can judge."
+  },
+  "createdAt": "2026-10-25T19:03:14.551162020+00:00",
+  "updatedAt": "2026-10-25T19:03:14.551163649+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (mapping Programme coordination, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

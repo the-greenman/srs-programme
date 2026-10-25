@@ -1,0 +1,28 @@
+{
+  "instanceId": "30afa94e-d051-4862-83e0-f9c535a162be",
+  "title": "Map the domain of the programme and the clerk: what each process element is solving (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:process",
+    "topic:issue-flow",
+    "topic:programme-coordination"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Work through and cross check this report. Let's follow the same process as we have established... What are the problems and remedies that the different elements of our processes are trying to address. These are the domain of the programme and the clerk. How do we actually manage to get work identified in the right way. How do we move work through the system. How do we stay safe. How do we balance throughput and quality? When do decisions need to be human owned? What is a good pr? What is a good issue? We have been solving this problem in so many ways. Let's make sure we build a good map of the domain and build our understanding"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

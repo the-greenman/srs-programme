@@ -1,0 +1,25 @@
+{
+  "instanceId": "1125725b-ebfb-40c3-9cce-df7f2f0ec7f9",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-111",
+    "title": "The same work is classified in several vocabularies at once",
+    "statement": "Work is sized, ranked, held, routed and authorised by labels, project fields, title conventions and records that overlap: up to six complexity labels for three levels, effort labels that differ by repo, nine retired gate labels still in place, three words for who may merge, and five boards of which one is no longer written. An agent cannot tell which classification is in force, and each tool reads a different one.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-25: vignettes 7bfe4a58, 30afa94e",
+      "Process inventory 2026-10-25 (container 3b5009cd)"
+    ]
+  },
+  "createdAt": "2026-10-25T19:03:06.410011602+00:00",
+  "updatedAt": "2026-10-25T19:04:43.772114558+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (mapping Programme coordination, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

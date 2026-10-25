@@ -1,0 +1,25 @@
+{
+  "instanceId": "57226695-5faa-43e3-9fff-fd68bd1ccdb4",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "An owner act is the last step of its work",
+    "move": "When the owner affirms, answers, receives or ratifies, that act completes the work it judged: the merge, close or release that follows runs from it, by the agent under the merge rule (decision mode and door), not as a second visit to GitHub.",
+    "does_not_fix": "Work whose door or mode needs the owner's merge in its own right.",
+    "falsifier": "A week after it is in force, the owner still merges most practice PRs by hand.",
+    "source_ref": [
+      "Work-flow audit 2026-10-23, proposed rule H1",
+      "Owner, 2026-10-25: vignette 30afa94e"
+    ]
+  },
+  "createdAt": "2026-10-25T19:03:08.402371118+00:00",
+  "updatedAt": "2026-10-25T19:03:08.402372455+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (mapping Programme coordination, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,25 @@
+{
+  "instanceId": "b0a719ed-69f6-4388-8c4e-59590e63579e",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "One framework of six classifications, each owned once, with local forms",
+    "move": "Work is classified on six axes, each defined in one place: kind of item, value and order (derived), effort (one size and one complexity scale), state (one work-status set), authority (decision mode and door) and route (domain to group). A repository adds local forms (srs's Doors, srs-rust's ADRs) inside the framework, and retires labels and words that duplicate an axis.",
+    "does_not_fix": "Which kinds of decision exist (the decision-taxonomy exercise).",
+    "falsifier": "Six months on, a tool still reads a classification the framework retired, or two repos use different words for one axis.",
+    "source_ref": [
+      "Process inventory 2026-10-25, section 12",
+      "Owner, 2026-10-25: vignette 7bfe4a58"
+    ]
+  },
+  "createdAt": "2026-10-25T19:03:08.298955655+00:00",
+  "updatedAt": "2026-10-25T19:03:08.298957325+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (mapping Programme coordination, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
