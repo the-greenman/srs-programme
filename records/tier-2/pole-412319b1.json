@@ -1,0 +1,20 @@
+{
+  "instanceId": "412319b1-bd1f-4057-95fd-86f76809195d",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Capture everything",
+    "looks_like": "Every run report, note, finding and transcript is recorded.",
+    "shadow": "More is recorded than anyone reads; the record becomes the work."
+  },
+  "createdAt": "2026-10-25T20:39:10.495816864+00:00",
+  "updatedAt": "2026-10-25T20:39:10.495818419+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (applying trade-off fixes, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

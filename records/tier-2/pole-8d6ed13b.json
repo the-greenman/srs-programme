@@ -1,0 +1,20 @@
+{
+  "instanceId": "8d6ed13b-af1c-4668-9701-faa6cbfed4b5",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Keep the practice stable",
+    "looks_like": "The process stays as it is long enough to be learnt and measured.",
+    "shadow": "Lessons are recorded and not applied: falsifiers never evaluated, remedies re-planned."
+  },
+  "createdAt": "2026-10-25T20:39:13.130341653+00:00",
+  "updatedAt": "2026-10-25T20:39:13.130343100+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (applying trade-off fixes, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

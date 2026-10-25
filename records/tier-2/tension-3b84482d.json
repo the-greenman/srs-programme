@@ -1,0 +1,19 @@
+{
+  "instanceId": "3b84482d-5237-4838-b5e4-6d579a42e967",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Capture everything and attend to what matters",
+    "description": "Line 2 in the stage Sense, refining the Programme coordination line 'One mechanism and compatibility'. Whether every signal is recorded, or attention goes to the few that matter. The constraint is attention: whatever is recorded has to be read by someone."
+  },
+  "createdAt": "2026-10-25T20:39:09.897015401+00:00",
+  "updatedAt": "2026-10-25T20:39:09.897017763+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (applying trade-off fixes, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
