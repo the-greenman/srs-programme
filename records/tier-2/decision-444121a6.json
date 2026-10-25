@@ -1,0 +1,28 @@
+{
+  "instanceId": "444121a6-bd33-4145-8a42-6f4ffaf5d168",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Heading outline: how a rendered document starts below its title (srs#911)",
+    "decision_question": "Should the SRS spec change so a rendered document can keep a continuous heading outline (title, then sections, then records), and if so by which mechanism (srs#911)?",
+    "context": "Problem: Rendered documents from a Composition jump from a title heading straight to a third-level heading, because depthOffset cannot go below 0 and the spec fixes heading levels. The agent edition of the website (/agents/<page>.md) and the clerk handbook both hit it. Why it matters: a broken outline hurts accessibility and agents that navigate by heading (SP-82, affirmed 2026-10-16). Options and consequences: (a) allow a negative depthOffset: one schema line, but it lets authors produce nonsense levels such as H0; (b) a rendering rule that the first rendered level follows the title: no author setting, but changes what every existing Composition renders; (c) do nothing and keep working around it in each consumer. Either (a) or (b) is a normative change to the schema or the rendering rules, so it needs a Door 2 or 3 classification and a Charter Check, which only the owner or an RFC can settle. Recommendation: open an RFC (Door 2) that names the cell and weighs (a) against (b). Action needed: decide. Urgency: low, no consumer is blocked beyond the workaround. Answers: SP-82.",
+    "friction": "srs#911 is labelled ready for the group, but no recorded ruling covers a change to composition.json or the heading-level rule, and the builder mandate excludes new normative meaning. The issue itself says it needs a classification and a Charter Check.",
+    "alternatives_considered": "A) Allow a negative depthOffset. B) Add a rule that the first rendered level follows the title. C) Do nothing and work around it per consumer.",
+    "key_requirements": "One way per goal; existing Compositions keep rendering the same unless opted in; spec stays independent of any implementation; the schema, the rendering rule and the RFC say the same thing.",
+    "decision_statement": "Open an RFC (Door 2, Charter Check mandatory) for srs#911 comparing A and B, with a bias towards the option that needs no author setting; the builder builds nothing until it is accepted.",
+    "rationale": "A schema minimum and the fixed heading levels are normative; the builder only executes recorded rulings, so choosing between A and B is not its call.",
+    "revisit_when": "When the RFC is accepted (then label srs#911 ready for implementation), or if the workaround is dropped by both known consumers.",
+    "next_steps": "Owner decides. If an RFC is wanted, route srs#911 to the spec lane and remove wg:third-party-ready; if not, close srs#911 as won't-do."
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-25T07:13:07.849292619+00:00",
+  "updatedAt": "2026-10-25T07:13:22.206917431+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
