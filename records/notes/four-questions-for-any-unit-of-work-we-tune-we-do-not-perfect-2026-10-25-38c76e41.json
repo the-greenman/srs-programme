@@ -1,0 +1,28 @@
+{
+  "instanceId": "38c76e41-1639-4649-842e-0c417e7fd1d7",
+  "title": "Four questions for any unit of work; we tune, we do not perfect (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:programme-coordination",
+    "topic:process",
+    "topic:unit-of-work"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "1.yes.\n2. Yes\n3.  Let's take a closer look at an consequences. And find a safe path.\n\n\nSo... All of this is complicated and I cannot provide valuable input.   The basic rules are.. we need to have this mapped as a unit of work that is not lost. Every pr and wait ends up being a point where a session gets forgotten and the work abandoned \n\nIs the goal recorded?\nDo we have a unit of work that can be completed?\nDo we know how to recognise when we have made a mistake?\nDo we understand why we need to take each action and are we sure we are not going in circles?\n\nOur job is not a perfect system , but a way to know that we are improving and an awareness of the tradeoffs so that we are tuning"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
