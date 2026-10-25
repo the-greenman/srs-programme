@@ -1,0 +1,20 @@
+{
+  "instanceId": "f9e1505d-4cd3-4f88-b245-8c49a5d54b6f",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Many readings",
+    "looks_like": "An agent's suggestion and the owner's fork both stay, side by side.",
+    "shadow": "Duplicates: one problem recorded twice with one id, tensions whose poles run in opposite orders."
+  },
+  "createdAt": "2026-10-25T19:31:04.465374612+00:00",
+  "updatedAt": "2026-10-25T19:31:04.465376136+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

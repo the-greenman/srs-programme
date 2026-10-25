@@ -1,0 +1,20 @@
+{
+  "instanceId": "6210960a-9a14-4420-aa94-e804ed02746f",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Commit",
+    "looks_like": "One remedy is ranked and started.",
+    "shadow": "Work runs on a remedy nobody tested against its falsifier."
+  },
+  "createdAt": "2026-10-25T19:31:07.270542670+00:00",
+  "updatedAt": "2026-10-25T19:31:07.270544761+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

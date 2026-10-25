@@ -1,0 +1,19 @@
+{
+  "instanceId": "e88d0c6c-b088-4b93-a434-0127b0f4bab6",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Many feeds and one desk",
+    "description": "Line 3 in the stage Sense, refining the Programme coordination line 'Core once and adapter convenience'. Whether the state is read from each source where it lives, or gathered once at the centre."
+  },
+  "createdAt": "2026-10-25T19:31:01.204295534+00:00",
+  "updatedAt": "2026-10-25T19:31:01.204297400+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

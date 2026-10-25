@@ -1,0 +1,27 @@
+{
+  "instanceId": "86c06cdb-8b7e-49a9-96e9-fa413af3a71e",
+  "title": "semops2 holds an older model of tensions on domains (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:tensions",
+    "topic:domains"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "For an older model of tensionsbon domains look at /home/Greenman/semops2. It's the precursor to srs"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

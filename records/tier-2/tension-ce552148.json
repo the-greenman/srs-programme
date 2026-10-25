@@ -1,0 +1,19 @@
+{
+  "instanceId": "ce552148-2dda-4f85-937c-f0a1927d59f3",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Explore and commit to a statement",
+    "description": "Line 1 in the stage Make meaning, refining the Programme coordination line 'Deliver and refine'. Whether meaning is explored in stories and clusters before it is named, or stated as a record early."
+  },
+  "createdAt": "2026-10-25T19:31:02.908473197+00:00",
+  "updatedAt": "2026-10-25T19:31:02.908474642+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

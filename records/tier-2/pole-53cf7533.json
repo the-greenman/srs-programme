@@ -1,0 +1,20 @@
+{
+  "instanceId": "53cf7533-927d-4521-a626-b42f33965783",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "One home",
+    "looks_like": "One statement, pointed at from everywhere.",
+    "shadow": "The home is long and the pointer thin, so the rule is not found when needed."
+  },
+  "createdAt": "2026-10-25T19:31:31.920723257+00:00",
+  "updatedAt": "2026-10-25T19:31:31.920726688+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

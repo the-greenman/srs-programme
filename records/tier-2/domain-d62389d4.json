@@ -1,0 +1,21 @@
+{
+  "instanceId": "d62389d4-9848-4850-9780-e011ce890311",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Choose a response: a remedy, ranked by purpose",
+    "purpose": "Each problem gets a remedy worth trying, and the programme's purpose ranks which remedies run first.",
+    "in_scope": "Remedies, their falsifiers and limits; objectives, periods and epics; priority derived from rank.",
+    "out_of_scope": "Turning a remedy into issues (Shape the work)."
+  },
+  "createdAt": "2026-10-25T19:31:06.257976833+00:00",
+  "updatedAt": "2026-10-25T19:31:06.257980202+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

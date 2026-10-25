@@ -1,0 +1,22 @@
+{
+  "instanceId": "ee119a02-cc90-4152-93cd-6b45d7caf4a4",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "The archetypal flow: the ideal layer of Programme coordination",
+    "thinking_reached": "Nine stages, each what we are trying to achieve, in order: Sense (notice what matters and hear it), Make meaning (name the problem in its domain), Choose a response (a remedy, ranked by purpose), Shape the work (a good issue), Allocate (the right hands pick up ready work), Build (make the change once, in the right place), Review and land (a good pull request, safely merged), Decide (the right owner settles what governs later work) and Learn and remember (what happened changes what we do), which feeds Sense again.\n\nThe map is fractal. Each stage is a subdomain that refines Programme coordination. Each has three tensions, one per trigram line, and each refines the parent's line: line 1 Refine ↔ Deliver, line 2 Compatibility ↔ One way, line 3 Adapter convenience ↔ Core once. Each pole records what leaning on it looks like and its shadow, the failure of leaning too hard. Where we went too far is recorded as the shadow we fell into, with evidence, and the recorded problems that sit in that shadow are linked to the pole (concerns).\n\nThe older model in the products repository (semantic_ops prompts and templates) used the same frame: three polarities per domain, Orientation (decisive action ↔ reflective awareness), Change dynamics (renewal ↔ preservation) and Perspective (tactical focus ↔ system-wide vision), plus an optional domain-specific wildcard; personas carried polarity preferences, and problems a felt tension and a tension map (vignette 86c06cdb).",
+    "tensions": "Where we fell into a shadow, counted over the 27 stage tensions (yin is the first pole, yang the second): line 1: 1 both, 3 yang, 5 yin; line 2: 2 both, 7 yin; line 3: 2 both, 1 yang, 6 yin.\n- Line 1: five stages leaned inward (keep weighing, recording, holding, deliberating), and three went too far the other way: Sense acted on what it heard without keeping the words, Make meaning committed to statements before the problem was lived, and Build shipped from stale workspaces.\n- Line 2: we mostly kept everything side by side (readings, options, conventions, lanes, cases).\n- Line 3: we mostly let each place do its own thing (feeds, rankings, labels, self-selection, fixes, ways of deciding), while Make meaning went the other way, into the method's types.",
+    "unresolved_questions": "- Are these the right nine stages, or should Decide and Learn sit beside the flow (as the handbook places the decision flow and the affirmation layer)?\n- The stage tensions are untested: no 2×2 cases, no cube, no yang assignment.\n- How a subdomain links to its parent is new here (refines); the method has not ruled it.",
+    "next_action": "Fill one stage's cases with the owner (Review and land is the best evidenced), then the others; link remedies to the shadows they move us out of."
+  },
+  "createdAt": "2026-10-25T19:31:33.775576725+00:00",
+  "updatedAt": "2026-10-25T19:31:53.416794597+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

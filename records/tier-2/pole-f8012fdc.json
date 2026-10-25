@@ -1,0 +1,20 @@
+{
+  "instanceId": "f8012fdc-37ae-43a0-aba0-dc6fd1404ccd",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Record",
+    "looks_like": "Reports, findings, retrospectives and audits are written.",
+    "shadow": "Findings that change nothing: the same lesson recorded again."
+  },
+  "createdAt": "2026-10-25T19:31:30.544182046+00:00",
+  "updatedAt": "2026-10-25T19:31:30.544183784+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

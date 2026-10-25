@@ -1,0 +1,19 @@
+{
+  "instanceId": "668bd945-d5b3-40c7-8fba-3678fcffee4b",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Case by case and a standing rule",
+    "description": "Line 2 in the stage Decide, refining the Programme coordination line 'One mechanism and compatibility'. Whether each case reaches the owner, or a standing rule settles the class of cases."
+  },
+  "createdAt": "2026-10-25T19:31:27.329375837+00:00",
+  "updatedAt": "2026-10-25T19:31:27.329377875+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

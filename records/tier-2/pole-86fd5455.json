@@ -1,0 +1,20 @@
+{
+  "instanceId": "86fd5455-a403-4811-a53e-5b6a8f1ff3d2",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Merge on green",
+    "looks_like": "Checks pass and the change lands.",
+    "shadow": "A change merges that nobody understood, or against a reviewer's verdict."
+  },
+  "createdAt": "2026-10-25T19:31:22.868705912+00:00",
+  "updatedAt": "2026-10-25T19:31:22.868708135+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

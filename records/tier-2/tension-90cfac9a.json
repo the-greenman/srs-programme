@@ -1,0 +1,19 @@
+{
+  "instanceId": "90cfac9a-c07a-480b-bb44-9bfc72741364",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Local conventions and one shape",
+    "description": "Line 2 in the stage Shape the work, refining the Programme coordination line 'One mechanism and compatibility'. Whether each repository keeps its own issue conventions, or every issue has one shape."
+  },
+  "createdAt": "2026-10-25T19:31:12.114940784+00:00",
+  "updatedAt": "2026-10-25T19:31:12.114942373+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

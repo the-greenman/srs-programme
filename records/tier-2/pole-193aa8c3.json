@@ -1,0 +1,20 @@
+{
+  "instanceId": "193aa8c3-f0c9-466d-bff6-0cd9e63a2ba0",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Assignment by rule",
+    "looks_like": "A claim checks the seat, the mandate and the grounding.",
+    "shadow": "The rule refuses work it should take, such as a bug without a problem line (clerk#223)."
+  },
+  "createdAt": "2026-10-25T19:31:17.440399547+00:00",
+  "updatedAt": "2026-10-25T19:31:17.440401883+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

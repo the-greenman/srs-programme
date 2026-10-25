@@ -1,0 +1,20 @@
+{
+  "instanceId": "329a27ab-b66e-42ec-a924-c2f3f9b4a954",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "One shape",
+    "looks_like": "One work-item shape and one bug shape everywhere.",
+    "shadow": "A shape that fits no repository well is filled in by rote."
+  },
+  "createdAt": "2026-10-25T19:31:12.804499285+00:00",
+  "updatedAt": "2026-10-25T19:31:12.804501284+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

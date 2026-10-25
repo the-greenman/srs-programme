@@ -1,0 +1,22 @@
+{
+  "instanceId": "3bddf4e9-cc02-439b-bc23-b27f64f2f838",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "5. Allocate: what we tried and where we went too far",
+    "thinking_reached": "The ideal: Ready work reaches the right hands, human or agent, at the right time, and nothing is claimed twice or dropped.\n\nWhat we have tried: wg labels and lane:unattended; topup and promote; clerk claim with seats and mandates; stale-claims; working groups with charters; routines; decision f301ae06 (local sessions act as group members); sequences for multi-step work.\n\nProblems recorded here: SP-59, SP-31, SP-50, SP-70, SP-62.",
+    "tensions": "- Line 1, Hold until ready and let it flow: too far toward Hold until ready. The 2026-10 backlog was parked wholesale until domains and problems existed (handbook, How an issue reaches a group).\n- Line 2, Many lanes and one queue: too far toward Many lanes. About 80% of merged PRs came from local sessions and 5% from the ready queue (decision f799b6bc).\n- Line 3, Self-selection and assignment by rule: too far toward Self-selection. Cited mandates are never checked (SP-70); agents lack a group's rules of engagement (SP-31).",
+    "unresolved_questions": "- The three tensions are a first pass: none has its four 2×2 cases or the cube filled yet (handbook, A domain's axes, steps 3 and 4).\n- Is each tension orthogonal to the other two in this stage, and which pole is yang here: does it flip from the parent domain?",
+    "next_action": "Fill the 2×2 cases from the stage's own history; then name the remedy that moves us back out of each shadow."
+  },
+  "createdAt": "2026-10-25T19:31:17.802359454+00:00",
+  "updatedAt": "2026-10-25T19:31:17.802364211+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

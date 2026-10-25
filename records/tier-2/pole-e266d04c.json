@@ -1,0 +1,20 @@
+{
+  "instanceId": "e266d04c-e1e8-444d-9485-65c09acf9841",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Linked records",
+    "looks_like": "The issue points at a problem and remedy record.",
+    "shadow": "Meaning moves out of GitHub, where people file and read issues."
+  },
+  "createdAt": "2026-10-25T19:31:13.830719132+00:00",
+  "updatedAt": "2026-10-25T19:31:13.830720609+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

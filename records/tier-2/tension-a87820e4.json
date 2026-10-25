@@ -1,0 +1,19 @@
+{
+  "instanceId": "a87820e4-9096-414b-96a4-d5e64ef2b100",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Deliberate and settle",
+    "description": "Line 1 in the stage Decide, refining the Programme coordination line 'Deliver and refine'. Whether a decision is held open for deliberation, or settled and recorded."
+  },
+  "createdAt": "2026-10-25T19:31:26.183078120+00:00",
+  "updatedAt": "2026-10-25T19:31:26.183079715+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

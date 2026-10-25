@@ -1,0 +1,20 @@
+{
+  "instanceId": "9617fbda-0a38-4e80-b492-dd23affd3878",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Hold until ready",
+    "looks_like": "Parked, blocked and needs-input keep unready work out.",
+    "shadow": "Hundreds of parked issues and an empty queue."
+  },
+  "createdAt": "2026-10-25T19:31:15.172951114+00:00",
+  "updatedAt": "2026-10-25T19:31:15.172952893+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

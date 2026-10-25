@@ -1,0 +1,20 @@
+{
+  "instanceId": "7fa61a79-22a8-40b3-85a0-c964600a3bb1",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "One definition",
+    "looks_like": "One record per meaning, found before created.",
+    "shadow": "Every new reading has to win against the existing record before it can be heard."
+  },
+  "createdAt": "2026-10-25T19:31:04.686263909+00:00",
+  "updatedAt": "2026-10-25T19:31:04.686265386+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,19 @@
+{
+  "instanceId": "20bf954d-9942-4d4b-9904-9e9645d2e3e3",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Keep options open and one remedy per problem",
+    "description": "Line 2 in the stage Choose a response, refining the Programme coordination line 'One mechanism and compatibility'. Whether several responses stay live, or one is chosen and the rest retired."
+  },
+  "createdAt": "2026-10-25T19:31:07.606930992+00:00",
+  "updatedAt": "2026-10-25T19:31:07.606933026+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

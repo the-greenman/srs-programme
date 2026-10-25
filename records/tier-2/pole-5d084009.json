@@ -1,0 +1,20 @@
+{
+  "instanceId": "5d084009-e8bf-4afb-b641-f61d766c98db",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Keep options open",
+    "looks_like": "Remedies, epics and refactors stay open in parallel.",
+    "shadow": "Half-finished responses: rulings never executed, refactors parked (SP-02, SP-03)."
+  },
+  "createdAt": "2026-10-25T19:31:08.059687829+00:00",
+  "updatedAt": "2026-10-25T19:31:08.059689820+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

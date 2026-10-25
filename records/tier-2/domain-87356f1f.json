@@ -1,0 +1,21 @@
+{
+  "instanceId": "87356f1f-a21b-4088-8945-33f107f1ea65",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Shape the work: a good issue",
+    "purpose": "A remedy becomes issues that anyone can pick up: grounded in a problem (a bug needs none), placed under its parent, small, planned and checkable.",
+    "in_scope": "The issue's shape (Answers, Part of, Remedy, Ruling, plan, acceptance), labels for kind and effort, sequences.",
+    "out_of_scope": "Who picks it up (Allocate) and how it is built (Build)."
+  },
+  "createdAt": "2026-10-25T19:31:10.185726244+00:00",
+  "updatedAt": "2026-10-25T19:31:10.185727760+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

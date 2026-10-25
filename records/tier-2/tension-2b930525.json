@@ -1,0 +1,19 @@
+{
+  "instanceId": "2b930525-15f2-4d53-abe5-151cc586e751",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "A reviewer's judgement and encoded gates",
+    "description": "Line 3 in the stage Review and land, refining the Programme coordination line 'Core once and adapter convenience'. Whether landing rests on a person's reading, or on rules encoded as checks."
+  },
+  "createdAt": "2026-10-25T19:31:24.243510259+00:00",
+  "updatedAt": "2026-10-25T19:31:24.243511924+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

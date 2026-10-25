@@ -1,0 +1,21 @@
+{
+  "instanceId": "466bdda4-c11e-4690-a2cd-b33cdbe47e71",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Make meaning: name the problem in its domain",
+    "purpose": "Work starts from meaning: a problem in a domain, held by a persona, in words that trace back to the experience they came from.",
+    "in_scope": "Domains, personas, problems, clusters, tensions and poles; suggestions and their affirmed forks; deriving records from vignettes.",
+    "out_of_scope": "Choosing and ranking the response (Choose a response)."
+  },
+  "createdAt": "2026-10-25T19:31:02.558916796+00:00",
+  "updatedAt": "2026-10-25T19:31:02.558918991+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

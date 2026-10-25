@@ -1,0 +1,19 @@
+{
+  "instanceId": "266142d2-e2d9-4aa3-a97a-7b4b6f6f5ee3",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Repository checks and one definition of a good PR",
+    "description": "Line 2 in the stage Review and land, refining the Programme coordination line 'One mechanism and compatibility'. Whether each repository defines what a PR must carry, or one definition holds everywhere."
+  },
+  "createdAt": "2026-10-25T19:31:23.207398952+00:00",
+  "updatedAt": "2026-10-25T19:31:23.207400624+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

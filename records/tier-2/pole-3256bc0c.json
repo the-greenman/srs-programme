@@ -1,0 +1,20 @@
+{
+  "instanceId": "3256bc0c-1662-4089-8da4-238c0ec024d1",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "One definition",
+    "looks_like": "One shape for every PR, with local additions.",
+    "shadow": "A check blocks a change it was never meant for."
+  },
+  "createdAt": "2026-10-25T19:31:23.896187649+00:00",
+  "updatedAt": "2026-10-25T19:31:23.896191774+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

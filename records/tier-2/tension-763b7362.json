@@ -1,0 +1,19 @@
+{
+  "instanceId": "763b7362-35c6-4bfb-8e6e-e91627106089",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Record what happened and change the practice",
+    "description": "Line 1 in the stage Learn and remember, refining the Programme coordination line 'Deliver and refine'. Whether learning ends as a record, or changes the practice."
+  },
+  "createdAt": "2026-10-25T19:31:30.094355983+00:00",
+  "updatedAt": "2026-10-25T19:31:30.094357683+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

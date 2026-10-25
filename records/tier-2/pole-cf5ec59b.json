@@ -1,0 +1,20 @@
+{
+  "instanceId": "cf5ec59b-553a-42dd-9885-b2e448ec9f64",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Each agent's memory",
+    "looks_like": "Auto-memory, local notes, each repo's CLAUDE.md.",
+    "shadow": "Facts go stale in places nobody revisits."
+  },
+  "createdAt": "2026-10-25T19:31:33.070991653+00:00",
+  "updatedAt": "2026-10-25T19:31:33.070993781+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

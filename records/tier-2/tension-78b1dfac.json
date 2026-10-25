@@ -1,0 +1,19 @@
+{
+  "instanceId": "78b1dfac-0d4f-44c5-a080-47a64244a6cb",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "The owner's words and the method's types",
+    "description": "Line 3 in the stage Make meaning, refining the Programme coordination line 'Core once and adapter convenience'. Whether meaning comes in the owner's own language from outside, or in the method's own types at the centre."
+  },
+  "createdAt": "2026-10-25T19:31:05.017752368+00:00",
+  "updatedAt": "2026-10-25T19:31:05.017755277+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

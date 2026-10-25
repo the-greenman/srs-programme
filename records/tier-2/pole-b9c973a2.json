@@ -1,0 +1,20 @@
+{
+  "instanceId": "b9c973a2-dc5a-4348-9706-9722ce27de83",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Labels and text",
+    "looks_like": "Answers is a line of text; kind, state and effort are labels.",
+    "shadow": "Label families multiply and each tool reads a different one."
+  },
+  "createdAt": "2026-10-25T19:31:13.609980830+00:00",
+  "updatedAt": "2026-10-25T19:31:13.609982456+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (archetypal flow, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
