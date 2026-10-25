@@ -9,10 +9,10 @@
     "thinking_reached": "Five GitHub Projects: #5 'SRS' (1,347 items), #6 'SemanticOps' (557), #4 'MuDemocracy' (37), #3 'mu democracy roadmap' (38) and #2 'SemOps Agent Workflow' (0). #6 is written hourly by srs-programme's Board sync workflow (the clerk's reusable programme-board-sync, project from the programme settings), and its priority by Derive priority. #5 has had no writer since srs-rust's board-sync.yml was retired on 2026-10-11 (commit dd8e47a8); only a manual run of the old script could still write it.",
     "tensions": "- #5 still holds 1,347 items that look live but are not maintained.\n- #2 is empty; #3 and #4 are small and may be unused.",
     "unresolved_questions": "- Which projects can be archived without losing anything an agent reads?",
-    "next_action": "Choose the one board; archive the rest (planning)."
+    "next_action": "Done 2026-10-25: Project #5 closed (reversible with gh project close 5 --undo). #2, #3 and #4 are left for the owner to judge."
   },
   "createdAt": "2026-10-25T18:35:38.146327053+00:00",
-  "updatedAt": "2026-10-25T19:04:43.068729550+00:00",
+  "updatedAt": "2026-10-25T19:13:34.470315603+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",
