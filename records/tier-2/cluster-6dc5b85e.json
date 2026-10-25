@@ -1,0 +1,19 @@
+{
+  "instanceId": "6dc5b85e-86c2-4e23-8a84-f2583563244b",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Staying safe while many hands change things",
+    "description": "Several writers, builds and agents change shared things without overwriting each other, imitating meaning or acting outside their rules."
+  },
+  "createdAt": "2026-10-25T19:03:12.008091720+00:00",
+  "updatedAt": "2026-10-25T19:03:12.008093401+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (mapping Programme coordination, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

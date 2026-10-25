@@ -1,0 +1,21 @@
+{
+  "instanceId": "a72d443c-0e8e-4299-a606-1f10303a749c",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "13. Systems the first pass missed",
+    "thinking_reached": "- Slash commands that add or classify work: triage, stories and roadmap in srs, srs-rust, srs-web, srs-vscode and clerk; ship in srs-rust and clerk (ship-web in srs-web); rfc and author in srs; session and routines in clerk; epic-worker and epic-coordinator still in srs (and epic-worker in srs-rust) although muDemocracy.org's AGENTS.md calls them retired; enrich and review in muDemocracy.org.\n- PR templates: .github/pull_request_template.md in srs, srs-rust, srs-web, srs-vscode and muDemocracy.org, each its own. No repo has an issue template (clerk#224).\n- Clerk routines that move work: bug-fixer, canary, flow-keeper, synthesiser, wg-analyst, wg-builder, wg-steward, wg-reviewer, handbook-watcher, unattended-worker.\n- More label families: desk, plan, no-code, review:requested, requires-spec-rfc, requires-wasm-binding, spec change, quick win, rfc, story:unplanned, workstream, epic-256:*.\n- Native GitHub milestones (five in srs-rust).\n- Separate workflows: PR upkeep (clerk scripts/upkeep.mjs) and Derive priority in srs-programme.\n- The decision-record cell guard in srs (check-decision-cell-tags.mjs), beside the PR classification check.",
+    "tensions": "- Slash commands named triage, stories and roadmap exist in five repos; whether they are one command copied or five that drift is not checked.\n- Five PR templates, no issue templates.",
+    "next_action": "Compare the five PR templates and the triage, stories and roadmap commands for drift (planning)."
+  },
+  "createdAt": "2026-10-25T19:04:43.276523597+00:00",
+  "updatedAt": "2026-10-25T19:04:43.276527137+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (process inventory, corrected 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

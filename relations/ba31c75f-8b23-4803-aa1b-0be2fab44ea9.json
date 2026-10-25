@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "ba31c75f-8b23-4803-aa1b-0be2fab44ea9",
+  "relationType": "contains",
+  "sourceInstanceId": "ee938ec2-5cfa-47d4-b280-e2ef1f940d6e",
+  "targetInstanceId": "631eedd7-f8a7-4137-9ca2-d82c3a1ef3ff",
+  "createdAt": "2026-10-25T19:03:11.026060177+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (mapping Programme coordination, 2026-10-25)"
+  }
+}

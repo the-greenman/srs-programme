@@ -1,0 +1,22 @@
+{
+  "instanceId": "0f1e5e96-d64e-4e78-9306-3ea1dab798da",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Programme coordination mapped by seven questions",
+    "thinking_reached": "The owner's seven questions (vignette 30afa94e) are the clusters of the Programme coordination domain: how work is identified, how it moves, how we stay safe, throughput against quality, which decisions a human owns, what a good pull request carries and what a good issue carries. Under each are the problems already recorded (each problem placed once, under the question it answers most), the remedies that answer them, and the tensions and principles that bear on the question. Three problems were new: SP-110 (a good PR differs by repo), SP-111 (one piece of work, several vocabularies) and SP-112 (finished work waits for the owner's merge). The eight systems in the process inventory (container 3b5009cd) are the remedies we already run; this map is the problems they answer.",
+    "tensions": "- 'How work is identified' and 'what a good issue carries' overlap: the first is about meaning, the second about the shape it takes.\n- Many problems have no remedy yet (count shown per question in the map).\n- Problems recorded twice (an agent's copy and the owner's affirmed fork) are shown once, by the agent's copy.",
+    "unresolved_questions": "- Is this the cluster set the owner wants, or a first cut to refine?\n- Which unanswered problems are the next remedies?",
+    "next_action": "Cross-check the inventory, then quick wins and planning."
+  },
+  "createdAt": "2026-10-25T19:03:09.084737120+00:00",
+  "updatedAt": "2026-10-25T19:03:09.084741908+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (mapping Programme coordination, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

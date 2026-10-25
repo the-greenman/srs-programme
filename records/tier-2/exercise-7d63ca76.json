@@ -6,13 +6,13 @@
   "typeName": "exercise",
   "fieldValues": {
     "title": "6. Classifying a decision",
-    "thinking_reached": "Four answers to 'what kind of decision is this?': (a) decision modes (rfc-decision-7caca3a1): clear and complicated are settled by rules, complex maps its consequences, chaotic is out of scope; (b) the Pattern Grid, twelve cells (versioning, identity, description, attribution, succession, containment, reference, assertion, governance, repository, conformance, portability) and six axes (decision-compass.md); (c) the layer rules, three planes (Meaning, Expression, Operation; decision 9ee14517); (d) the handbook's seven kinds (purpose, boundary, premise, preference, policy, design, mandate) after four tests. Lifecycle: proposed, then ratified or abandoned in a session. A taxonomy exercise (2026-10-22) is clustering decisions before naming kinds and has not concluded.",
+    "thinking_reached": "Four answers to 'what kind of decision is this?': (a) decision modes (rfc-decision-7caca3a1): clear and complicated are settled by rules, complex maps its consequences, chaotic is out of scope, and a fifth state, unresolved; (b) the Pattern Grid, twelve cells (versioning, identity, description, attribution, succession, containment, reference, assertion, governance, repository, conformance, portability) and six axes (decision-compass.md); (c) the layer rules, three planes (Meaning, Expression, Operation; decision 9ee14517); (d) the handbook's seven kinds (purpose, boundary, premise, preference, policy, design, mandate) after four tests. Lifecycle: proposed, then ratified or abandoned in a session. A taxonomy exercise (2026-10-22) is clustering decisions before naming kinds and has not concluded.",
     "tensions": "- Modes, cells and kinds each answer a different question but are used as if they were one classification.\n- Finding 3807ea6d: the Pattern Grid has no Process cell, and three dispatch briefs named one.\n- The handbook's kinds are 'adopted to test'; srs's modes are ruled.",
     "unresolved_questions": "- Is a decision classified by mode, by cell and by kind at once, or by one of them per layer?",
     "next_action": "Wait for the taxonomy exercise; then fix which classification each repo uses (planning)."
   },
   "createdAt": "2026-10-25T18:35:37.844105709+00:00",
-  "updatedAt": "2026-10-25T18:35:37.844111239+00:00",
+  "updatedAt": "2026-10-25T19:04:42.765968146+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

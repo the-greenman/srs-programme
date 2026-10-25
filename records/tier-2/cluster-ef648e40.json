@@ -1,0 +1,19 @@
+{
+  "instanceId": "ef648e40-32f5-4fec-87a2-958a05095632",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Throughput against quality",
+    "description": "How much flows without review, and what stays reviewable: the rate of agent work against what the owner can test and understand."
+  },
+  "createdAt": "2026-10-25T19:03:13.011607206+00:00",
+  "updatedAt": "2026-10-25T19:03:13.011609950+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (mapping Programme coordination, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

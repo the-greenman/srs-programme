@@ -6,11 +6,12 @@
   "typeName": "exercise",
   "fieldValues": {
     "title": "10. Already recorded",
-    "thinking_reached": "Reports: the work-flow audit of the week to 2026-10-23 (254 merged PRs, 176 of them process and memory, none finished without the owner's merge); the decision-taxonomy exercise of 2026-10-22; the archaeology of 2026-10-08; the retrospective on shipping RFC-051 and RFC-052 (45 PRs over 2 days 21 hours). Problems: 1df06c34 'Most real work bypasses the agreed process' (a survey of 430 PRs: 42% had no issue, about 5% carried Answers) and 668c6c31 'A closed issue does not mean the work landed'. Rulings: 949ae72d (merge rights), f58db200 (one work-status set), da1a4063 (tasks live as issues), 071eadb2 (no core changes until the process is refined). Findings: 716c8ce1, 3807ea6d, 157dc2a3. Today: SP-109 and clerk#224 (issue templates), clerk#223 (bugs), and the owner's ruling that bugs need no problem.",
+    "thinking_reached": "Reports: the work-flow audit of the week to 2026-10-23 (254 merged PRs, 176 of them process and memory, none finished without the owner's merge); the decision-taxonomy exercise of 2026-10-22; the archaeology of 2026-10-08; the retrospective on shipping RFC-051 and RFC-052 (45 PRs over 2 days 21 hours). Problems: SP-62 'Most real work bypasses the agreed process' (recorded twice, 1df06c34 and 19cdcac9; its evidence, a survey of 430 PRs from 2026-09-27 to 10-11 in which 42% had no issue and about 5% carried Answers, is in decision f799b6bc and srs-context decision f301ae06, not in the problem) and 668c6c31 'A closed issue does not mean the work landed'. Rulings: 949ae72d (merge rights), f58db200 (meaning in the definition over the surface; its first application is the work-status set), da1a4063 (tasks live as issues), 071eadb2 (no core changes until the process is refined). Findings: 716c8ce1, 3807ea6d, 157dc2a3. Today: SP-109 and clerk#224 (issue templates), clerk#223 (bugs), and the owner's ruling that bugs need no problem.",
+    "tensions": "- An earlier exercise (8e6caa7d) attributes the 430-PR survey to SP-62 and calls f58db200 'one work-status set'; this inventory repeated both, and has been corrected.",
     "unresolved_questions": "- None of these reports maps the systems against each other; this inventory is the first."
   },
   "createdAt": "2026-10-25T18:35:38.246035932+00:00",
-  "updatedAt": "2026-10-25T18:35:38.246039386+00:00",
+  "updatedAt": "2026-10-25T19:04:43.167184962+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",
