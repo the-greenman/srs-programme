@@ -1,0 +1,19 @@
+{
+  "instanceId": "4e3a2d87-75a5-4eac-bf96-782ede61d28a",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Refine",
+    "looks_like": "Energy goes into the programme's own rules, gates and readiness: how work is done and whether we may act."
+  },
+  "createdAt": "2026-10-25T09:12:53.826431395+00:00",
+  "updatedAt": "2026-10-25T09:12:53.826435011+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

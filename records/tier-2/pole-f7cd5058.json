@@ -1,0 +1,20 @@
+{
+  "instanceId": "f7cd5058-f4a8-477b-b409-b8bdd0ec7a9b",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "One way",
+    "looks_like": "A single mechanism per goal; the old one is removed.",
+    "shadow": "A breaking change for anyone still on the old way."
+  },
+  "createdAt": "2026-10-25T09:13:02.676825857+00:00",
+  "updatedAt": "2026-10-25T09:13:02.676827814+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

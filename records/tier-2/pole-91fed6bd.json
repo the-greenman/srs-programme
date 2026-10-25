@@ -1,0 +1,19 @@
+{
+  "instanceId": "91fed6bd-f791-4524-8545-6a5eb4d4be31",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Deliver",
+    "looks_like": "The work already defined is shipped: releases, landings and merges that reach users and other repositories."
+  },
+  "createdAt": "2026-10-25T09:12:53.725291459+00:00",
+  "updatedAt": "2026-10-25T09:12:53.725293354+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

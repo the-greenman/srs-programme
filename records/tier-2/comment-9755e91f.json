@@ -1,0 +1,18 @@
+{
+  "instanceId": "9755e91f-9bd4-40e6-9f1e-2d12a54b8cf8",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Axis 3 of Semantic records: Restored from the owner's recorded polarity of 2026-10-20 (0f068fc: each pole refines its Stance pole), which the move to axis-in-domain records left behind (clerk#192)"
+  },
+  "createdAt": "2026-10-25T09:12:18.202799487+00:00",
+  "updatedAt": "2026-10-25T09:12:18.202804010+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

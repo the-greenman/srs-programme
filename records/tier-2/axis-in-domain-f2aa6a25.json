@@ -1,0 +1,19 @@
+{
+  "instanceId": "f2aa6a25-7fa9-4f73-b1e7-9dee54c4752b",
+  "typeId": "88d9b5da-418b-4bf1-a3e3-97bd14a52a9c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "axis-in-domain",
+  "fieldValues": {
+    "title": "Deliver and refine in Programme coordination",
+    "line": 1
+  },
+  "createdAt": "2026-10-25T09:13:27.623996+00:00",
+  "updatedAt": "2026-10-25T09:13:27.623997332+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

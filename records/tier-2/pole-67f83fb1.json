@@ -1,0 +1,19 @@
+{
+  "instanceId": "67f83fb1-c611-40d8-9a7b-6ddf662f8f76",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Evolution",
+    "looks_like": "The model may change shape between revisions, with migration, when that makes it better."
+  },
+  "createdAt": "2026-10-25T09:12:07.924822937+00:00",
+  "updatedAt": "2026-10-25T09:12:07.924824456+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
