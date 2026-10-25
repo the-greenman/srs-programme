@@ -1,0 +1,28 @@
+{
+  "instanceId": "7007c3be-a20b-44eb-8f17-8572531b6d48",
+  "title": "The three trigram lines are foundational; line 2 is disrupt or stabilise (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:tensions",
+    "topic:trigram",
+    "topic:method"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Yes. Line 2. Is district or stabilise.\n\n\nThese are the three trigram lines. They are used all over our work. And should be foundational."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

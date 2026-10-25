@@ -1,0 +1,30 @@
+{
+  "instanceId": "55997a62-df5f-4208-bd89-a302c509862a",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "The three trigram lines are the foundational axes",
+    "decision_question": "What are the axes against which every domain, tension, decision and stance in our work is placed?",
+    "context": "The three lines are already used in many places: the handbook chapter 'A domain's axes' (proposed, not in force), the decision-taxonomy exercise (two blind raters per line agreed at kappa 0.90, 0.84 and 0.81 on 101 decisions), the eight stance archetypes, the domain axes (axis-in-domain), the fractal map of the archetypal flow, and the older products model (orientation, change dynamics, perspective). The owner, 2026-10-25: 'These are the three trigram lines. They are used all over our work. And should be foundational.'",
+    "friction": "Each use states the lines in its own words and none is in force, so a new domain, decision or stance can be placed on different axes from the last.",
+    "alternatives_considered": "1. Do nothing: each practice keeps its own statement of the lines. Leads to: drift between the stance, domain and decision uses.\n2. The three trigram lines are foundational, stated once, and every other use points to them (recommended). Leads to: one frame to place and compare domains, tensions, decisions and stances; narrower domains may flip a line's polarity (cdd272a3).\n3. Use the twelve-cell compass as the foundation instead. Leads to: a fixed grid that finds gaps well but is harder to recognise in practice; it stays as the map for finding gaps.",
+    "key_requirements": "Understeer: uses keep their own wording, and placements cannot be compared across domains. Oversteer: every trade-off is forced onto a line where it does not fit (the first fractal map tried three per stage and two failed the definition of a trade-off), or the lines are treated as truth rather than a lens.",
+    "decision_statement": "Every domain, tension, decision and stance is placed on three trigram lines, stated once: line 1, act now and outward, or gather information and refine ourselves (Act ↔ Observe); line 2, disrupt by evolving and adding new things, or stabilise by simplifying and refining what is present (Disrupt ↔ Stabilise); line 3, the scale of the boundary, small and closed with a few mostly internal options, or open with many options, many of them external (Focus ↔ Zoom out).",
+    "rationale": "Good enough for now: the lines already recur across the work, raters agree on them, and the owner names them as foundational. Every decision is an experiment, so this one is too.",
+    "revisit_when": "A domain's trade-offs repeatedly fail to place on any line, or raters stop agreeing on a line's reading, or a fourth axis keeps appearing (the older products model allowed a domain-specific wildcard).",
+    "owner": "human:the-greenman",
+    "status": "proposed",
+    "decision_kind": "premise"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-25T23:12:11.700123336+00:00",
+  "updatedAt": "2026-10-25T23:12:11.700124782+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (proposing from the owner vignettes, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
