@@ -1,0 +1,28 @@
+{
+  "instanceId": "5708b442-32a9-47b5-95ec-07b59b95bba1",
+  "title": "SDE uses a different triad (2026-10-23)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:trigram",
+    "topic:zodiac"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "SDE uses a different triad axis.\n\nThe trigrams use earth, human, heaven.   \nSDE is based on the zodiac: individual, relational, systemic. \n\nThese are not quite the same"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-23; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner narrative verbatim, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

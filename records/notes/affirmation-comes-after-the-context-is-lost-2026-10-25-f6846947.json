@@ -1,0 +1,28 @@
+{
+  "instanceId": "f6846947-fd9b-45e8-9676-3e9697399093",
+  "title": "Affirmation comes after the context is lost (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:affirmation",
+    "topic:stories"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Now, this work cannot be lost because the problems we set up don't get affirmed. \n\nThe current affirmation process still seems to regularly result in lost work. But the time I get to affirmation, context has often been lost, affirmation gets hard and often confused.\n\nTake a look for the narrative affirmation and capture process that should have defined some tier0 records and be informing the next agent editor works"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner narrative verbatim, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,26 @@
+{
+  "instanceId": "71d4c10a-2218-4767-a29d-87c7800236a7",
+  "title": "Conversation 2026-10-22 to 2026-10-25: forming decisions, the trigram, and the standard flow",
+  "tags": [
+    "narrative",
+    "conversation"
+  ],
+  "sections": [
+    {
+      "name": "context",
+      "label": "Context",
+      "content": "Agent framing, not the owner's words: one Claude Code conversation in which the owner reviewed how decisions are formed (taxonomy, scope, T3 axes, trigram and zodiac), found the programme stuck at line 1, pushed work through the care policy, and set the standard flow for work: story first, placed by meaning, held as a resumable sequence, with affirmation as its own layer. Tracking issue: the-greenman/clerk#197. The vignettes below are the owner's words, in the order said."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-22 to 2026-10-25; the vignettes are recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner narrative verbatim, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
