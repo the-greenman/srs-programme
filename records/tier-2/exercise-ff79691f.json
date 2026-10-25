@@ -1,0 +1,20 @@
+{
+  "instanceId": "ff79691f-57aa-4dc4-9d6f-a8b1cb6f9a33",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "B5. Build",
+    "thinking_reached": "Aim: one claimed issue, built in an isolated worktree, gates judged by exit code.\n\nTried: /ship with checkpoints A, B, C; scripts/wt; the wg-builder and unattended-worker routines; srs-rust ship stages 0 to 9 with dogfooding.",
+    "tensions": "- Trade-off: autonomy ↔ supervision. Much autonomous machinery was built, but the work that moves is mostly owner-present local sessions.\n- Gone wrong: WG Third-party ready merged 0 of 10 in most cycles (run reports 0867a03f, 2dd29261); every routine stopped behind a broken canary from 10-23; 140 worktrees, about 115 removable; stuck claims (clerk#25, srs-rust#1264); stale binaries and siblings (srs#874); orchestrator traps (finding 1d681412)."
+  },
+  "createdAt": "2026-10-25T19:45:08.690846006+00:00",
+  "updatedAt": "2026-10-25T19:45:08.690850826+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (flow model B, independent agent, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

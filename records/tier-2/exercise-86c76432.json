@@ -1,0 +1,20 @@
+{
+  "instanceId": "86c76432-86ea-4ee0-9590-c76cd46dc4c8",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "B8. Learn",
+    "thinking_reached": "Aim: turn outcomes into memory and changed practice (harvest, measure, retrospect).\n\nTried: the September unit walk's Harvest; srs-context and the dream cycle; indicators I1 to I4, falsifiers and return_when; the handbook watcher; the big audits (10-08, 10-23).",
+    "tensions": "- Trade-off: refine ↔ deliver (trigram line 1). Practice leans hard to refine: process against product merges, week of 10-12 66 to 26, week of 10-19 197 to 83, about 0 before October; 071eadb2 (no core changes until the process is refined); the owner, 10-23: 'stuck at line 1'.\n- Gone wrong: I2 to I4 never computed (clerk#25); falsifiers never evaluated; no retrospective; the watcher has no trigger; harvest cost one PR per unit (2026-09-11); learning arrives in bursts as audits, and their remedies are re-planned rather than done."
+  },
+  "createdAt": "2026-10-25T19:45:09.002524090+00:00",
+  "updatedAt": "2026-10-25T19:45:09.002529927+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (flow model B, independent agent, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

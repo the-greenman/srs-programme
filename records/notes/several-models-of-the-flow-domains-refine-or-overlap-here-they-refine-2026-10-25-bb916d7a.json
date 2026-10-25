@@ -1,0 +1,27 @@
+{
+  "instanceId": "bb916d7a-c1b7-4dbf-9fe3-58c9ff24af29",
+  "title": "Several models of the flow; domains refine or overlap, here they refine (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:process",
+    "topic:domains"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's not worry about the right stages. We could produce multiple models. If it's not going to be completely biased by your notes, commission an agent to have another go at finding what the flow is. See how they compare. \n\nDomains can refine, they can also overlap. They can also overlap on different dimensions. \n\nIn this case we will be refining"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

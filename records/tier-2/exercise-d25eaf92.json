@@ -1,0 +1,20 @@
+{
+  "instanceId": "d25eaf92-16f2-4a7a-bd27-235334ee1d6e",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "B3. Rule",
+    "thinking_reached": "Aim: settle a standing choice once, so later work can cite it.\n\nTried: the srs /rfc pipeline with Charter Check, doors and modes; the programme decision log, four tests and seven kinds; /session; parked decisions (684f84ab); cite, never re-ask (4445b9cf).",
+    "tensions": "- Trade-offs: spec-led ↔ implementation-led, and convention ↔ enforcement. The rule says spec first (e337703b); in practice implementation ran ahead (RFC-003 export, MCP tools without an RFC). Programme rulings come fast: 98 decision records in about 16 days.\n- Gone wrong: rulings made but not executed (SP-02; relation rules R1 to R11 unenforced for 12 weeks); decision quality weak (policy a catch-all, 24 of 47; none scoped to a domain; 22 with no alternatives); rulings live outside records, so 25 parked issues could only become exercises (finding d072ce9b). Deciding is not the bottleneck: 83 ratified, 5 proposed."
+  },
+  "createdAt": "2026-10-25T19:45:08.486632497+00:00",
+  "updatedAt": "2026-10-25T19:45:08.486636445+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (flow model B, independent agent, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

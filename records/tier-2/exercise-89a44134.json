@@ -1,0 +1,20 @@
+{
+  "instanceId": "89a44134-5a77-4766-92f4-06548d366ab8",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "B7. Report and receive",
+    "thinking_reached": "Aim: tell the level above what happened, and have it acknowledged.\n\nTried: steward run reports; the desk (#35); clerk session; a pause after two unreceived reports; the control room.",
+    "tensions": "- Trade-off: oversight ↔ momentum. The pause rule chose oversight, and produced the owner-act backlog.\n- Gone wrong: 14 of 20 run reports say landed_as pending; receiving is still a thumbs-up on #31; the endSession exercise bug, a session interrupted on 10-21, merges hidden from minutes (audit); SP-63, SP-64; three owner surfaces built where one was planned."
+  },
+  "createdAt": "2026-10-25T19:45:08.899625653+00:00",
+  "updatedAt": "2026-10-25T19:45:08.899629282+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (flow model B, independent agent, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

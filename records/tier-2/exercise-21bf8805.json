@@ -1,0 +1,20 @@
+{
+  "instanceId": "21bf8805-1601-4bdd-9afc-08e46eaddc20",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "B4. Admit, route, rank",
+    "thinking_reached": "Aim: decide whether something is work now, whose it is, and in what order.\n\nTried: Answers and the grounding gate (e3ed9e54); routing D4, D5, D15; parked; clerk claim refusals; the intake design (D2 to D7); holons (05c3ddcb); period ranking, roadmap --apply and board sync; confidence grades care (9d50126b, 10-24).",
+    "tensions": "- Trade-off: gate ↔ flow. Practice swung: gating hardened from 10-11 to 10-16, then 9d50126b turned the gate into a grade ('a gate on it stops the practice that would grow it').\n- Gone wrong: on 10-23, 396 open issues, 200 parked and 25 ready (discoveries 13); intake ratified but no issue ever carried intake, and topup does not route (clerk#124); P0 and P1 epics idle since 10-07; parked blockers stall ranked work (SP-97)."
+  },
+  "createdAt": "2026-10-25T19:45:08.590906367+00:00",
+  "updatedAt": "2026-10-25T19:45:08.590910314+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (flow model B, independent agent, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

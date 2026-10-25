@@ -1,0 +1,20 @@
+{
+  "instanceId": "20447cbc-b977-4efc-8ee5-854b61620cb5",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "B6. Review and land",
+    "thinking_reached": "Aim: a verified change merged and spread to every consumer; closed means landed.\n\nTried: the quorum comment, pr-upkeep, gate labels, merge rights by mode and door (949ae72d), programme auto-merge (c373c2c1), the revision-bump choreography, a8e833f1.",
+    "tensions": "- Trade-off: reviewable ↔ fast. Practice leaned to the human at merge; rulings now lean to automation (srs-programme: 156 auto-merges, 23 owner merges).\n- Gone wrong: the owner the recorded merger of all 254 PRs in the week to 10-23; clerk 10-09 to 10-24: 41 owner-merge PRs, 40 without a gate label, 6 auto-merge; srs#962 merged over a reject verdict; false closes (srs-rust#131, srs-web#173, finding 24da1465); early epic closes (srs#256); RFC-051/052: 45 PRs, 9 repos, about 14 rulings, 3.5 of 69 hours rollout."
+  },
+  "createdAt": "2026-10-25T19:45:08.794660510+00:00",
+  "updatedAt": "2026-10-25T19:45:08.794663810+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (flow model B, independent agent, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

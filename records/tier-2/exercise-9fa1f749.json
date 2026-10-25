@@ -1,0 +1,20 @@
+{
+  "instanceId": "9fa1f749-30cd-480b-9559-c7b591d95341",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "B1. Notice",
+    "thinking_reached": "Aim: something wrong or wanted is written down somewhere durable.\n\nTried: the Rebel, Watcher and Challenger scouts (SP-01 to SP-47, 10-08); srs-context findings (89); 'file friction as an issue' (clerk ship stage 6.5); the archaeology; Tier-0 vignettes since 10-24.",
+    "tensions": "- Trade-off: depth ↔ overload. Practice leans to capturing everything with agents: 202 problem records for 105 SP ids (suggestion plus fork).\n- Gone wrong: about 15 merged PRs promised follow-ups never filed (archaeology 1.4); the first real-use session left no record and srs-web#587-590 sat unlabelled (audit); plan files are local and untracked (clerk#8); feedback outruns reading (SP-12)."
+  },
+  "createdAt": "2026-10-25T19:45:08.276957183+00:00",
+  "updatedAt": "2026-10-25T19:45:08.276961255+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (flow model B, independent agent, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
