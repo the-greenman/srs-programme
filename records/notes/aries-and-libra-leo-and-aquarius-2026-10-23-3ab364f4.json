@@ -1,0 +1,28 @@
+{
+  "instanceId": "3ab364f4-6329-4e2e-b3ff-4849405b927d",
+  "title": "Aries and Libra, Leo and Aquarius (2026-10-23)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:zodiac",
+    "topic:polarity"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "1. what do we mean by versioning? \nAries would promote new versions. Action.    Libra is reference and stability\n\n2. Aquarius vs leo \nLeo again promotes motion forward. Driven from the centre. \nAquarius proposes wider change - but aligned with the group. So it's slower. \n\nLeo's change is noticable but bound. \nAquarius is deeper, but open"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-23; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner narrative verbatim, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

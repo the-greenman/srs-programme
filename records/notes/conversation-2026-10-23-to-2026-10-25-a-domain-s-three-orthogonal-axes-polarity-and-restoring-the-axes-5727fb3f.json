@@ -1,0 +1,26 @@
+{
+  "instanceId": "5727fb3f-87dd-4152-a4d4-b0dd5dd99469",
+  "title": "Conversation 2026-10-23 to 2026-10-25: a domain's three orthogonal axes, polarity, and restoring the axes",
+  "tags": [
+    "narrative",
+    "conversation"
+  ],
+  "sections": [
+    {
+      "name": "context",
+      "label": "Context",
+      "content": "Agent framing, not the owner's words: one Claude Code conversation in which the owner set the goal of three foundational orthogonal axes per domain, asked for the synthetic process to be recorded (clerk handbook chapter \"A domain's axes\", clerk#158/#159), ruled Programme coordination's lines 1 and 3, read the compass against the zodiac (the polarity rule, discovery 15), then found the owner's axis work lost in the move to axis-in-domain records and had it restored (clerk#192, srs-programme#256, #257). The vignettes below are the owner's words, in the order said. The first two were said before the conversation was compacted and are taken from the agent's record of it, so their line breaks may differ."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-23 to 2026-10-25; the vignettes are recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner narrative verbatim, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

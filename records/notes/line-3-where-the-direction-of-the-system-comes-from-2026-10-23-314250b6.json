@@ -1,0 +1,29 @@
+{
+  "instanceId": "314250b6-57c5-466a-8cf5-2c29011d1a91",
+  "title": "Line 3: where the direction of the system comes from (2026-10-23)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:axes",
+    "topic:line-3",
+    "topic:programme-coordination"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "3. is good\n\n\n\nlets think a little about the others\n\nline three tradisionally is  where the direction of teh system comes from. Have we chosen our goal (yang) or are we aligning with other actors (yin) \n\nThe core and adaptor level is about control from the centre, adaptors allow direction from the outside"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-23; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner narrative verbatim, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
