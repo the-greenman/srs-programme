@@ -1,0 +1,27 @@
+{
+  "instanceId": "70bb1536-2b73-43cc-ba99-b47c755fcb8c",
+  "title": "A chat opens a container: the narrative is the initial semantic layer (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:stories",
+    "topic:conversation-containers"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's update the handbook text.\n\nLet's also define the standard. A news chat will open a new container, browsable by day. The container should be given a relevant title (which can be updated as the conversation evolves. An agent can also maintain a short summary of the conversation in the container description) \n\nIf possible we should be tagging the conversation with topics as we go. \n\nThe narrative is the initial semantic later, it's the experience in the moment that is then crystallised into structure. \n\nWe can trace our refined records back to their context by doing this, and it will allow us to cross check as the conversation evolves (synthesiser)"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

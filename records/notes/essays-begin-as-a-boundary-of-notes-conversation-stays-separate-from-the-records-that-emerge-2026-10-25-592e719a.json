@@ -1,0 +1,29 @@
+{
+  "instanceId": "592e719a-d0ca-466c-9d54-9b6974b631b3",
+  "title": "Essays begin as a boundary of notes; conversation stays separate from the records that emerge (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essays",
+    "topic:boundaries",
+    "topic:stories",
+    "topic:musrs"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's look at the essay process. You can actually see it's origins in muSrs with it's collection of problems and claims and remedies. \n\nSome of the items are just records of conversation. \n\nThis process is refining what emerged. But I need to be able to see what the original conversation was separate to the structured records that emerg from it. \n\nAn essay will begin with a statement of intent. We ideally state what domain we are working in, and capture some kind of purpose statement. But in practice we allow things to emerge as freeform as possible. \n\nAn essay begins as a boundary. Then we add notes in this vignette form. These are the seeds of the essay... But in our semantic architecture they are part of the whole. \n\nWe explore the idea as small questions, pushing and pulling. These generate an understanding of personas, problems , claims and remedies. \n\nI should be able to explore these notes in the essay editor,  ideally pinning notes open for reference like the other elements I can link into my essays. \n\nEssays also allow cloning. This creates an interesting thing. I will end up with a bunch of notes relevant to multiple essays. As I write I may end up discarding one form of an essay, and then taking parts of it to create another.\n\nSo an essay is part of a collection of essays that may share the same domain and evolve from each other, each sometimes addressing a different problem , or different attempts at the same problem. Sometimes they may have a different audience"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

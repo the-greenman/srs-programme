@@ -1,0 +1,28 @@
+{
+  "instanceId": "7d992135-f3c4-42e6-857c-2306dc6dd346",
+  "title": "Meaning first: derive problems and remedies from the vignettes to find the features (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essays",
+    "topic:stories",
+    "topic:meaning-first"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "We already have a duplicate functionality I think, and already handle the drafts so I can. Swap in and out my text. 625 is probably handled. \n\n\nWhat would be useful for this process is to now have a go at deriving the problems and remedies from the vignettes. \n\nIn general we want to work meaning first, so problem and remedies allow us to understand the features we need to build for our target audience"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

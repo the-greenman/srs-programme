@@ -1,0 +1,25 @@
+{
+  "instanceId": "f1b278fd-ced5-44c9-bc0f-7034e504430c",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A research loop proposes references and fact checks as unaffirmed suggestions",
+    "move": "The writer sets up an agent loop whose brief says what to check and where to look. What it finds lands in the essay's references pool as a candidate marked with the agent and the time, never as accepted. A doubted claim becomes a comment with its evidence, and the writer ticks or denies in place.",
+    "does_not_fix": "Whether a claim holds (the evidence-line remedy), and how a loop writes while the editor is closed.",
+    "falsifier": "A loop runs while the writer is away and the writer still has to find or sort its findings by hand, or cannot tell which agent found a reference.",
+    "source_ref": [
+      "Owner, 2026-10-25: vignette 69b6ad45",
+      "srs-web#626"
+    ]
+  },
+  "createdAt": "2026-10-25T17:16:11.952712984+00:00",
+  "updatedAt": "2026-10-25T17:16:11.952714611+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (deriving from the owner vignettes, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,26 @@
+{
+  "instanceId": "d6474dbb-6dbe-4c45-a1b7-c68ae8ee5f4d",
+  "title": "Narrative practice must be default: agents act on problem and remedy talk unprompted (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:stories"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "I want to make sure that this information is available by default. It should be something agents manage without me needing to tell them. \n\nWhen a conversation begins to describe a problem and remedy... Agents should know what to do with them"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

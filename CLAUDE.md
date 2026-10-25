@@ -40,10 +40,10 @@ Precedence is repository governance (this file and `roadmap.mjs`), not a tool ru
 ## Narrative explorations
 
 The owner's understanding of the work enters as **Tier-0 vignettes** in the **Narrative explorations**
-container (`80b283ef`): when the owner explains the work, record their words verbatim as a note
+container (`80b283ef`): when the owner explains the work, or starts describing a problem or remedy, unprompted, record their words verbatim as a note
 (`note create`, then `container members add 80b283ef <id>`; sections `narrative` and `source`) before
 acting on it. Records derived from a vignette go to Suggestions with `derived-from` to it. The practice
-is the clerk handbook chapter "Narrative explorations: how meaning grows" (decision 77e04b19).
+is the clerk handbook chapter "Narrative explorations: how meaning grows" (decision 77e04b19), which also sets the one-container-per-conversation standard (dated title, summary description, `topic:` tags).
 
 ## Writes go through the pinned CLI
 

@@ -1,0 +1,30 @@
+{
+  "instanceId": "6a64cb96-3f08-45c1-9c8a-433dc2b8120d",
+  "title": "Conversation 2026-10-25: narrative practice as the default standard",
+  "tags": [
+    "conversation",
+    "topic:stories",
+    "topic:conversation-containers",
+    "topic:agent-defaults",
+    "topic:boundaries",
+    "topic:search",
+    "topic:essays"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner asked to find the narrative-explorations process, then asked that it be available by default so agents act on problem and remedy talk without being told, then set the standard: one container per chat, browsable by day, titled and summarised by the agent, tagged by topic, the narrative being the initial semantic layer. This note is the conversation's identity record; the vignettes are the owner's words."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-10-25, as the first test of the convention."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

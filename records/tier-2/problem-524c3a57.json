@@ -1,0 +1,26 @@
+{
+  "instanceId": "524c3a57-a3a5-4c40-8fbe-e4fce40cb459",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-106",
+    "title": "An essay has nowhere to keep the exploration it grows from",
+    "statement": "I start an essay by exploring: conversations with agents through chat, the CLI or the web, source material, quotes, ideas tested one small question at a time, and for a narrative the timelines, characters, events and themes. That material ends up in chats and inside the fields of the claims it produced, so I cannot read the original conversation apart from the structured records that emerged from it, trace a claim back to what was said, or keep the conversation open while I write.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-25: vignettes 592e719a, 188fca9f, 69b6ad45 (srs-programme, Narrative explorations)",
+      "muDemocracy.org#392",
+      "srs-web#624"
+    ]
+  },
+  "createdAt": "2026-10-25T17:16:11.516135675+00:00",
+  "updatedAt": "2026-10-25T17:16:11.516137751+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (deriving from the owner vignettes, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

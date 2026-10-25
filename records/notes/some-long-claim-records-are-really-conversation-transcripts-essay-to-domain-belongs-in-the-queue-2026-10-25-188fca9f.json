@@ -1,0 +1,28 @@
+{
+  "instanceId": "188fca9f-56d5-4c8a-8659-942a7912c3e6",
+  "title": "Some long claim records are really conversation transcripts; essay to domain belongs in the queue (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essays",
+    "topic:musrs",
+    "topic:domains"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "I've not saved any essays in the main repo yet, that is the goal of the next week. \n\nIf you look at some of the claim records (the long ones)you will see that they are actually transcripts of conversation. \n\nThe essay to domain is new, but should be in the queue as an issue.\n\nThe essay record has a purpose/goal field."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
