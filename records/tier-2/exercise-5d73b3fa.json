@@ -7,12 +7,12 @@
   "fieldValues": {
     "title": "2. Make meaning: what we tried and where we went too far",
     "thinking_reached": "The ideal: Work starts from meaning: a problem in a domain, held by a persona, in words that trace back to the experience they came from.\n\nWhat we have tried: The method package (problems, personas, domains, clusters, remedies); the Suggestions, Affirmed and Set aside layers; problem scouts and the similar check; domain axes on the trigram (clerk#158); narrative explorations as the source; the products repository's earlier problem template with 'felt tension' and a domain tension map.\n\nProblems recorded here: SP-101, SP-102, SP-105, SP-73, SP-94, SP-98, SP-72.",
-    "tensions": "- Line 1, Explore and commit to a statement: too far toward Commit to a statement. The method was designed before there were tools to practise it, and affirming its records one at a time is harder than writing them (SP-101, SP-102).\n- Line 2, Many readings and one definition: too far toward Many readings. SP-62, SP-63, SP-67 and others exist twice under one id; agents create records where one already holds the meaning (SP-105).\n- Line 3, The owner's words and the method's types: too far toward The method's types. Types and relations (axes, poles, clusters, care modes) were added ahead of practice; clusters still cannot be compared side by side (SP-73).",
-    "unresolved_questions": "- The three tensions are a first pass: none has its four 2×2 cases or the cube filled yet (handbook, A domain's axes, steps 3 and 4).\n- Is each tension orthogonal to the other two in this stage, and which pole is yang here: does it flip from the parent domain?",
+    "tensions": "- Line 1, Explore and commit to a statement: too far toward Commit to a statement. The method was designed before there were tools to practise it, and affirming its records one at a time is harder than writing them (SP-101, SP-102).\n- Model B: affirmation is the choke point; affirming the pilot domains reappeared in five plans after it was done; the axes exercise took two days.\n- The stage's other two tensions stay as records under its domain, out of this map (one trade-off per stage, owner, 2026-10-25).",
+    "unresolved_questions": "- The trade-off is untested: its four 2×2 cases are not filled yet.\n- Does model B name it better? (B's name for this stage's trade-off is in exercise B2.)",
     "next_action": "Fill the 2×2 cases from the stage's own history; then name the remedy that moves us back out of each shadow."
   },
   "createdAt": "2026-10-25T19:31:05.949370132+00:00",
-  "updatedAt": "2026-10-25T19:31:05.949378174+00:00",
+  "updatedAt": "2026-10-25T19:59:53.987141167+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

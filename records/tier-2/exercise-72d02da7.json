@@ -7,12 +7,12 @@
   "fieldValues": {
     "title": "3. Choose a response: what we tried and where we went too far",
     "thinking_reached": "The ideal: Each problem gets a remedy worth trying, and the programme's purpose ranks which remedies run first.\n\nWhat we have tried: Remedy records with does_not_fix and a falsifier; periods rank objectives and clerk roadmap derives epic priority; story MoSCoW and the board rollup; srs-rust's retired gh-project on Project #5; the frozen v12 strategy roadmap; exercises and plans.\n\nProblems recorded here: SP-97, SP-02, SP-03, SP-04.",
-    "tensions": "- Line 1, Weigh options and commit to one: too far toward Weigh. Affirming the pilot domains appeared in five plans in seven days although it was done on 10-16 (work-flow audit, 2026-10-23).\n- Line 2, Keep options open and one remedy per problem: too far toward Keep options open. Rulings made but never executed (SP-02); implementation parks as unfinished refactors (SP-03); work a ranked remedy depends on sits parked (SP-97).\n- Line 3, Local ranking and ranking derived from purpose: too far toward both local ranking and derived from purpose, by turns. Project #5 was ranked by hand until 2026-10-11 and is now unwritten; the derived model now carries bump labels, floors, bands and a parked backlog of hundreds (handbook: hundreds of issues, an empty queue).",
-    "unresolved_questions": "- The three tensions are a first pass: none has its four 2×2 cases or the cube filled yet (handbook, A domain's axes, steps 3 and 4).\n- Is each tension orthogonal to the other two in this stage, and which pole is yang here: does it flip from the parent domain?",
+    "tensions": "- Line 1, Weigh options and commit to one: too far toward Weigh. Affirming the pilot domains appeared in five plans in seven days although it was done on 10-16 (work-flow audit, 2026-10-23).\n- Model B: the P0 and P1 epics in semanticops.com idle since 10-07; audit remedies re-planned rather than done.\n- The stage's other two tensions stay as records under its domain, out of this map (one trade-off per stage, owner, 2026-10-25).",
+    "unresolved_questions": "- The trade-off is untested: its four 2×2 cases are not filled yet.\n- Does model B name it better? (B's name for this stage's trade-off is in exercise B4.)",
     "next_action": "Fill the 2×2 cases from the stage's own history; then name the remedy that moves us back out of each shadow."
   },
   "createdAt": "2026-10-25T19:31:09.871559841+00:00",
-  "updatedAt": "2026-10-25T19:31:09.871563146+00:00",
+  "updatedAt": "2026-10-25T19:59:54.821894093+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",
