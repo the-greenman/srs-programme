@@ -1,0 +1,28 @@
+{
+  "instanceId": "7bfe4a58-3674-4c7c-8c91-0ca2ccd36a55",
+  "title": "One consistent process: map every system for adding and classifying jobs (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:issue-flow",
+    "topic:process",
+    "topic:classification"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Now, I want you to walk the different repos and the different tools and tell me how many different systems we have for adding and classifying jobs. \n\nDoors, decision types on srs. ADRs on rust. Gh project abd clerk.  Take a look at any reports that may already be recorded in the programme and context. \n\nLook at the handbook and let's see if we can map all the different parts. \n\nOur goal is to eventually get one consistent process that is understood. repos can have localised versions of the main process, but the framework should be consistent"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
