@@ -1,0 +1,18 @@
+{
+  "instanceId": "5e257234-d1bc-416a-9d04-e750048dc814",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Axis 1 of Semantic engineering in practice: Restored as the owner's act: these are the owner's own base axes (vignette 3839d26; restated 2026-10-25), recorded on 2026-10-24 as agent suggestions (clerk#192, clerk#194)"
+  },
+  "createdAt": "2026-10-25T07:32:43.886851613+00:00",
+  "updatedAt": "2026-10-25T07:32:43.886854818+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

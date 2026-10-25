@@ -1,0 +1,20 @@
+{
+  "instanceId": "ea0de257-9aa3-4fde-90ef-4d27dde92125",
+  "typeId": "88d9b5da-418b-4bf1-a3e3-97bd14a52a9c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "axis-in-domain",
+  "fieldValues": {
+    "title": "Perspective in Stance",
+    "line": 3,
+    "summary": "Suggested from the line pairing fixed 2026-10-20 (srs-context cc05d4c9); yang from the Initiator's lean. For the owner to judge in relation."
+  },
+  "createdAt": "2026-10-25T07:32:41.438001495+00:00",
+  "updatedAt": "2026-10-25T07:32:41.438005236+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

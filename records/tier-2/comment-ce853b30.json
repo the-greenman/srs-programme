@@ -1,0 +1,18 @@
+{
+  "instanceId": "ce853b30-428f-407e-82c6-49a0cb1e0869",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Axis 2 of Stance: Restored from the owner's placement of 2026-10-22 (srs-programme#213, placeAxes: Stance), which the move to axis-in-domain records left behind (clerk#192)"
+  },
+  "createdAt": "2026-10-25T07:32:39.189897036+00:00",
+  "updatedAt": "2026-10-25T07:32:39.189901304+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
