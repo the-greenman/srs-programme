@@ -1,0 +1,24 @@
+{
+  "instanceId": "48a39d5e-d32e-4dc8-b050-b33604739a4d",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Issue templates in each governed repo carry the flow shape",
+    "move": "Each governed repo has an issue template for a work item (Answers, Part of, Remedy, Ruling, Problem, Technical plan, Acceptance) and one for a bug (found while, version, steps, expected, actual, severity, done when), so GitHub shows the shape at the moment of filing.",
+    "does_not_fix": "Whether the problem named in Answers exists (clerk place) and whether the epic is ranked; the templates only show the shape.",
+    "falsifier": "After the templates exist, issues are still filed without the sections the flow check asks for.",
+    "source_ref": [
+      "Owner, 2026-10-25: vignette cac6e918"
+    ]
+  },
+  "createdAt": "2026-10-25T17:51:56.749330717+00:00",
+  "updatedAt": "2026-10-25T17:51:56.749332721+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (deriving from the owner vignettes, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
