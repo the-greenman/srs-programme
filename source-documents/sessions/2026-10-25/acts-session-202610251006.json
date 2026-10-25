@@ -1,0 +1,11 @@
+{
+  "session": "b43c45ea-e3f9-4f31-a4dd-d361d65b1b0c",
+  "acts": [
+    {
+      "at": "2026-10-25T10:06:38.434Z",
+      "kind": "ratify",
+      "id": "51054b3c-c25d-4385-bd56-9bd2512282df",
+      "title": "The clerk#197 dogfood sequence merges on green without owner stops"
+    }
+  ]
+}

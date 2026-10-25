@@ -1,0 +1,34 @@
+{
+  "instanceId": "b43c45ea-e3f9-4f31-a4dd-d361d65b1b0c",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-25 10:06 UTC: SemanticOps",
+    "held_at": "2026-10-25T10:06:37Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-25 10:06 UTC: SemanticOps\nAttendees: Owner\n- Ratified: The clerk#197 dogfood sequence merges on green without owner stops [51054b3c]\nActs in the order taken (UTC):\n- 10:06:38Z ratify: The clerk#197 dogfood sequence merges on green without owner stops [51054b3c]\nClerked by: Claude Code, on the owner's live instruction in a /session conversation"
+  },
+  "createdAt": "2026-10-25T10:06:38.956715156+00:00",
+  "updatedAt": "2026-10-25T10:06:38.956718999+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "b4e94886-e119-4682-a461-15150465a530",
+      "sourceRole": "attaches"
+    },
+    {
+      "sourceType": "repository-document",
+      "sourceId": "146c460d-5f18-4279-94d8-58e1ba8ab585",
+      "sourceRole": "attaches"
+    }
+  ]
+}
