@@ -1,0 +1,28 @@
+{
+  "instanceId": "e965126c-be1a-4053-92cb-d013dd675dd2",
+  "title": "Decisions formed correctly, a taxonomy through practice (2026-10-22)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:decisions",
+    "topic:taxonomy"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The problem here is that decisions need to be formed correctly in order to mean something. Decisions need to be recognised for the type of decision they make and then formed appropriately. We should be working to develop a taxonomy through practice."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-22; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner narrative verbatim, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,28 @@
+{
+  "instanceId": "f3da7b7f-edd7-4f4c-a075-f3bee55c1c81",
+  "title": "Line 2: adding energy, or letting the system settle (2026-10-22)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:trigram",
+    "topic:decisions"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Then, line 2. \n\nIs the option we are selecting moving the system towards a transformative energy state, are we adding energy to change states, or are we allowing the system to stabilise"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-22; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner narrative verbatim, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

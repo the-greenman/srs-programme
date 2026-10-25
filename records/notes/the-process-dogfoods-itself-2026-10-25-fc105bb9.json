@@ -1,0 +1,28 @@
+{
+  "instanceId": "fc105bb9-7869-4cc5-9991-b835c08a9f86",
+  "title": "The process dogfoods itself (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:flow",
+    "topic:resumption"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Now, this process should be dogfooding itself \nIt needs to be defined as an epic if needed, it's a unit of work that must be able to continue if I close this chat"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner narrative verbatim, 2026-10-25)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
