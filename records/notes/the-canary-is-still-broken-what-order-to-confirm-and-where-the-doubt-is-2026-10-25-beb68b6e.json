@@ -1,0 +1,27 @@
+{
+  "instanceId": "beb68b6e-4eaf-4cf8-a046-865fabc79b5a",
+  "title": "The canary is still broken; what order to confirm, and where the doubt is (2026-10-25)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:programme-coordination",
+    "topic:process"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Canary seems to still be broken. \n\nGive me the order I should confirm.\n\nWhere is there any doubt in the order?"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-25; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
