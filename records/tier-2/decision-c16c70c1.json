@@ -1,0 +1,30 @@
+{
+  "instanceId": "c16c70c1-17e9-44a4-83ee-118879913e4f",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Escalation: may the release gate also run the RFC-043 arrangement fixture? (srs-rust#1481)",
+    "decision_question": "May the release corpus-conformance gate gain the RFC-043 arrangement fixture, so that a failing arrangement scenario keeps a release in draft?",
+    "context": "Problem: srs-rust#1481 runs the 14 RFC-043 arrangement scenarios against srs-rust, closing the gap srs-rust#793 closed for discovery. Its tests execute RFC-043's Conformance fixture section within the group's mandate, but one line of the PR adds the fixture to the release workflow's corpus-conformance gate. From then on a failing scenario stops a release from being promoted. The reviewer rejected it as an escalation, not a defect: anything touching a gate is outside the group's boundary. Why it matters: a release is what every client pins, so what blocks a release decides how early spec drift is caught against how often a release stalls. The change is small, but it widens what the gate refuses. Options and consequences: (A) Merge as is: drift between the spec's arrangement rules and the tool stops a release at once; a bad fixture would hold releases until fixed. (B) Split the workflow line into its own PR: the tests land now and run in CI; the gate change waits for a later ruling; nothing is blocked meanwhile. (C) Drop the workflow line and keep the tests only: drift shows in CI but never holds a release. Recommendation: B. Action needed: decide. Urgency: low; the PR is owner-merge and nothing is blocked by it. Answers: SP-01. Detail: https://github.com/the-greenman/srs-rust/pull/1481",
+    "friction": "The tests are plainly within the ruling (RFC-043 Conformance fixture); the gate line is not covered by any recorded ruling. The reviewer cannot split a PR and the builder may not change what a gate refuses.",
+    "alternatives_considered": "A. Merge as is. B. Split the gate line into its own PR. C. Keep the tests only and leave the release gate unchanged.",
+    "key_requirements": "The arrangement fixture runs in CI. A change to what blocks a release is the owner's. The 14 scenarios stay the spec's, not the implementation's.",
+    "decision_statement": "Land srs-rust#1481 without the release.yml line; ask for the gate change as a separate PR for the owner to merge once the fixture has been green on master for a while.",
+    "rationale": "It gives the drift check now at no risk to releases, and keeps the one change that alters what a release needs under the owner's hand.",
+    "revisit_when": "After the fixture has run green on master for a week, or the first time it catches real drift.",
+    "next_steps": "Owner picks A, B or C on this record. If B, the builder removes the workflow line from srs-rust#1481 and files the gate change under SP-01.",
+    "owner": "human:the-greenman",
+    "status": "proposed"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-26T11:35:13.886793495+00:00",
+  "updatedAt": "2026-10-26T11:35:40.114951904+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
