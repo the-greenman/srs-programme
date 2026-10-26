@@ -1,0 +1,23 @@
+{
+  "instanceId": "305913bf-f7e6-4f3e-812f-9dd65ae9e08b",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle 2026-10-26",
+    "run_date": "2026-10-26",
+    "chose": "Closed the cycle 2026-10-25 11:30 to 2026-10-26 11:30 UTC. Two group PRs merged by the owner, both with approving quorum comments (builder editor-builder, reviewer editor-reviewer): srs-web#620 (essay names its domain and maps it; mandate remedy 5f200696 affirmed as dddaa2e3) and srs-web#621 (essay read-only until the writer gives a name; mandate remedy 9ce3dedc affirmed). Both were owner-merge, so no delegated budget used. Open: srs-rust#1472 (session AttentionState), rejected by the reviewer on three red checks (Schema Drift x2, CI) at 0fd4d69, the Builder replied but has pushed nothing since 2026-10-25 08:53; srs-web#607 and srs-web#628 carry gate:owner-merge. No decision awaited assent, so no group session was held. No new escalation. Pause state: ok.",
+    "rationale": "No new escalation. Nothing outside the role's boundary was stopped on: the red checks on srs-rust#1472 are the Builder's to fix (the drift is the mirror lagging srs master, which the schema-sync workflow resolves). The earlier inform item (who files the essay package change in muDemocracy.org after ruling 5d5feb79) is still unclaimed and is repeated in the report.",
+    "figures": "Delegated merges (group-state): 0 of 10; 1 open. Merged this cycle: 2 (srs-web#620, srs-web#621, both owner-merge). Open: srs-rust#1472 (red). Ready + wg:agent-editor issues: 2 (semanticops.com#14 blocked, srs-web#525). Needs-input: srs-web#567. Ratified decisions across the programme: well over 10, so the srs-web#560 build trigger stays reached.",
+    "landed_as": "https://github.com/the-greenman/srs-programme/pull/290"
+  },
+  "createdAt": "2026-10-26T11:40:17.812831407+00:00",
+  "updatedAt": "2026-10-26T11:40:17.812836568+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
