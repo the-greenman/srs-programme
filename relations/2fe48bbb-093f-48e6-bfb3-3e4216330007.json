@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "2fe48bbb-093f-48e6-bfb3-3e4216330007",
+  "relationType": "evidences",
+  "sourceInstanceId": "179ab139-5058-4d4c-8309-49f124b527ee",
+  "targetInstanceId": "800f223f-4893-406d-bac4-f6e45bb470fc",
+  "createdAt": "2026-10-26T12:07:20.989452112+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "Owner, 2026-10-26: agents in a multi-agent conversation must see what changed, scoped to the current focus; the attention PR is part of the same remedy."
+}
