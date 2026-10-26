@@ -1,0 +1,27 @@
+{
+  "instanceId": "055524b2-2779-4f6c-922e-cef93fc1ec60",
+  "title": "My current web browser load takes a few minutes (2026-10-26)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:load-speed",
+    "topic:srs-web"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "My current web browser load takes a few minutes"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-26; recorded verbatim (about opening the muSrs folder in srs-web)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

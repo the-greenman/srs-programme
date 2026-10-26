@@ -1,0 +1,28 @@
+{
+  "instanceId": "4030b4cd-1225-4eb0-bf50-a573fc287a4b",
+  "title": "A tool that keeps getting slower becomes friction and stops being used (2026-10-26)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:load-speed",
+    "topic:srs-web",
+    "topic:usability-over-time"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The problem here is that the tool needs to be usable to people over time. If it keeps getting too slow, then it may be too much friction to stay useful. (I got up to make some tea while this loaded)"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-26; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
