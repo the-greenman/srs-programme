@@ -1,0 +1,23 @@
+{
+  "instanceId": "7131fe89-574f-46c8-a801-40cd76c38548",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Substrate entries: the spec contract and the schemas disagree on what a lifecycle state and a relation type must carry",
+    "thinking_reached": "Found by the analyst on 2026-10-26 while probing write paths with release v0.1.0-build.560 on a copy of srs-programme. The RFC-006 VocabularyEntry substrate contract (srs-spec.md, 'The VocabularyEntry substrate contract') lists id, version and namespace as required, and aliases as optional, on every entry: LifecycleState and RelationTypeDefinition included. The schemas say otherwise. lifecycle.json requires only `key` on a state. relation-type.json has no `aliases` at all, with additionalProperties false. The implementation follows both sides at once. `repo validate` follows the schema, so srs-programme's governance lifecycle (3c504040, states with no version or namespace) validates clean. `lifecycle update` follows the contract and refuses that same stored lifecycle ('state draft is missing required substrate field version'), so it cannot be updated through the CLI at all without inventing values. On the relation-type side, RFC-006 says aliases give rename-safety, but `relation-type update` with `aliases` is refused as an unknown field. The only lossless re-key is a new definition plus a rewrite of every Relation (the silent re-key is filed separately as srs-rust#1485).",
+    "tensions": "Tightening lifecycle.json to the contract makes every existing corpus with bare states invalid, which needs a migration and a dataModelRevision. Loosening `lifecycle update` to the schema keeps those corpora updatable, but leaves entries that RFC-006's own identity rules (supersede, retire by id) cannot address. Adding `aliases` to relation-type.json is additive, but it is new normative surface under RFC-005/RFC-006 (Door 3), and the resolver would have to honour aliases on Relation.relationType.",
+    "unresolved_questions": "1. Which side is right for LifecycleState: the substrate contract (id, version and namespace required: migrate corpora, revision bump) or the schema (key only: relax `lifecycle update`, and amend the contract to say a specialisation may relax)? Note that the contract text says a specialisation MUST NOT relax a required field. 2. Does RelationTypeDefinition carry `aliases`, as the substrate contract implies (RFC-006 revision, schema change, resolver work), or is the contract's alias list not meant for relation types (amend the contract)?",
+    "blocking": "No group issue is blocked yet. Until question 1 is ruled, any agent editing a lifecycle through the CLI in this programme must hand-add substrate fields, which is the imitation SP-08 describes. Until question 2 is ruled, a relation-type key fix costs a rewrite of every Relation.",
+    "next_action": "Owner: rule on questions 1 and 2, or authorise one RFC-006 revision that settles both. The group then files the implementation (srs-rust) and schema (srs) halves as ruling-backed work. Grounding: SP-01 (Spec, schema and tool keep drifting apart) and SP-08 (Agents imitate file shape instead of meaning)."
+  },
+  "createdAt": "2026-10-26T12:40:35.460095674+00:00",
+  "updatedAt": "2026-10-26T12:40:35.460102764+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-analyst",
+    "name": "Third-party-ready analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
