@@ -1,0 +1,31 @@
+{
+  "instanceId": "88d0b37d-f459-4d76-9446-62bc52e44b00",
+  "title": "Order is assessed against strategy: a domain defines the tensions, a working group holds the strategy (2026-10-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:ordering",
+    "topic:strategy",
+    "topic:working-groups",
+    "topic:domains",
+    "topic:tensions"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Ordering should be assessed against a strategic priority. This is part of the working group's reason for existence. A domain defines the tensions, and a working group holds our strategy for approaching it."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-27; recorded verbatim. Context: Claude Code had reviewed the programme of works (068a0a8b) and asked whether clerk#124 should move earlier in its order."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,29 @@
+{
+  "instanceId": "0601eb2e-19af-49dc-9676-d4993381351d",
+  "title": "The working group setup is heavy: few cloud routines, and we keep losing them (2026-10-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:working-groups",
+    "topic:routines",
+    "topic:capacity"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "However, our current working group setup seems very heavy. We can only manage a limited number of cloud routines and we keep loosing them"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-27; recorded verbatim. Context: Claude Code had reviewed the programme of works (068a0a8b) and asked whether clerk#124 should move earlier in its order."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
