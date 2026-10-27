@@ -1,0 +1,30 @@
+{
+  "instanceId": "17cc3c02-f67c-457a-ac6f-d336bb83180c",
+  "title": "srs-context should hold the active collections of knowledge, kept light and navigable by dream time (2026-10-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:srs-context",
+    "topic:orientation",
+    "topic:dream-cycle",
+    "topic:navigation"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Here's another thing to  link. \nSrs-context should ensure that any agent should know about current active collections of knowledge. \n\nWhen we are working on a problem , context should hold the information on what topics we have been working through recently and how to find more. Dream time should manage this list, keeping the semantic hierarchy navigable, ensuring that we keep the top levels light and relevant"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-27; recorded verbatim. Context: Claude Code had just found the flow map (165f3a6e) and the programme of works only by searching container titles."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

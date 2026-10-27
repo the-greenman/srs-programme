@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "9f14bc97-f813-458f-88f1-8112e471cc62",
+  "relationType": "derived-from",
+  "sourceInstanceId": "5469ae68-b144-4ef5-b350-89c2db5c3ba6",
+  "targetInstanceId": "17cc3c02-f67c-457a-ac6f-d336bb83180c",
+  "createdAt": "2026-10-27T12:48:29.198944012+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  }
+}
