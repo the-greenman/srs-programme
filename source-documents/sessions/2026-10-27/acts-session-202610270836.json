@@ -1,0 +1,141 @@
+{
+  "session": "384c09c6-65ad-424a-a4b5-97eaf82ec46a",
+  "acts": [
+    {
+      "at": "2026-10-27T08:36:30.710Z",
+      "section": "Reports",
+      "position": 1,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "e189ea9d-3d87-4ce1-87a7-9a9cf290b3f4",
+      "title": "WG Agent-supported editor report 2026-10-25"
+    },
+    {
+      "at": "2026-10-27T08:36:50.676Z",
+      "section": "Reports",
+      "position": 2,
+      "of": 4,
+      "seen": [
+        "full record"
+      ],
+      "kind": "receive",
+      "id": "305913bf-f7e6-4f3e-812f-9dd65ae9e08b",
+      "title": "WG Agent-supported editor report 2026-10-26"
+    },
+    {
+      "at": "2026-10-27T08:37:14.316Z",
+      "section": "Reports",
+      "position": 3,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "acc1447a-20aa-454f-8acc-d1962c994151",
+      "title": "WG Third-party ready report 2026-10-25"
+    },
+    {
+      "at": "2026-10-27T08:37:30.170Z",
+      "section": "Reports",
+      "position": 4,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "d0805f86-c239-4a33-8828-14247232310f",
+      "title": "WG Third-party ready report 2026-10-26"
+    },
+    {
+      "at": "2026-10-27T08:37:41.321Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 1,
+      "seen": [],
+      "updatedAt": "2026-10-24T19:39:44.996002325+00:00",
+      "kind": "ratify",
+      "id": "77e04b19-61e7-4c45-88fd-d7e34421a246",
+      "title": "Tier-0 vignettes are how our semantics grow: the owner's words first, records derived from them"
+    },
+    {
+      "at": "2026-10-27T08:41:33.708Z",
+      "section": "Decisions for this session",
+      "position": 1,
+      "of": 5,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-10-25T11:35:42.073977243+00:00",
+      "kind": "accept",
+      "id": "01cfb06e-475f-4092-b93a-e32a6e7a2cb4",
+      "title": "Typed per-code details for ErrorReport (srs-rust#1342)"
+    },
+    {
+      "at": "2026-10-27T08:45:13.053Z",
+      "section": "Decisions for this session",
+      "position": 2,
+      "of": 5,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-10-25T07:13:22.206917431+00:00",
+      "kind": "comment",
+      "id": "444121a6-bd33-4145-8a42-6f4ffaf5d168",
+      "title": "Heading outline: how a rendered document starts below its title (srs#911)"
+    },
+    {
+      "at": "2026-10-27T08:45:15.148Z",
+      "section": "Decisions for this session",
+      "position": 2,
+      "of": 5,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-10-25T07:13:22.206917431+00:00",
+      "kind": "accept",
+      "id": "444121a6-bd33-4145-8a42-6f4ffaf5d168",
+      "title": "Heading outline: how a rendered document starts below its title (srs#911)"
+    },
+    {
+      "at": "2026-10-27T08:45:47.359Z",
+      "section": "Decisions for this session",
+      "position": 3,
+      "of": 5,
+      "seen": [],
+      "updatedAt": "2026-10-25T11:35:41.849978158+00:00",
+      "kind": "accept",
+      "id": "6b5e2810-04f3-46d0-b193-3e47fb68302b",
+      "title": "Escalation: may an RFC reopen RFC-039's retired field-id bridge? (srs#931)"
+    },
+    {
+      "at": "2026-10-27T08:48:23.825Z",
+      "section": "Decisions for this session",
+      "position": 4,
+      "of": 5,
+      "seen": [],
+      "updatedAt": "2026-10-25T11:35:41.663476713+00:00",
+      "kind": "comment",
+      "id": "bf4a5af5-727f-4da4-af51-72b421a47b78",
+      "title": "Escalation: how do structured diagnostics reach the existing text lists? (srs-rust#1264)"
+    },
+    {
+      "at": "2026-10-27T08:48:25.634Z",
+      "section": "Decisions for this session",
+      "position": 4,
+      "of": 5,
+      "seen": [],
+      "updatedAt": "2026-10-25T11:35:41.663476713+00:00",
+      "kind": "accept",
+      "id": "bf4a5af5-727f-4da4-af51-72b421a47b78",
+      "title": "Escalation: how do structured diagnostics reach the existing text lists? (srs-rust#1264)"
+    },
+    {
+      "at": "2026-10-27T08:49:05.220Z",
+      "section": "Decisions for this session",
+      "position": 5,
+      "of": 5,
+      "seen": [],
+      "updatedAt": "2026-10-26T11:35:40.114951904+00:00",
+      "kind": "accept",
+      "id": "c16c70c1-17e9-44a4-83ee-118879913e4f",
+      "title": "Escalation: may the release gate also run the RFC-043 arrangement fixture? (srs-rust#1481)"
+    }
+  ]
+}

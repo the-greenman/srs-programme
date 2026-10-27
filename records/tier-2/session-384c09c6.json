@@ -1,0 +1,29 @@
+{
+  "instanceId": "384c09c6-65ad-424a-a4b5-97eaf82ec46a",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-27 08:36 UTC: SemanticOps",
+    "held_at": "2026-10-27T08:36:02Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-27 08:36 UTC: SemanticOps\nAttendees: Owner\n- Received: WG Agent-supported editor report 2026-10-25\n- Received: WG Agent-supported editor report 2026-10-26\n- Received: WG Third-party ready report 2026-10-25\n- Received: WG Third-party ready report 2026-10-26\n- Ratified: Tier-0 vignettes are how our semantics grow: the owner's words first, records derived from them [77e04b19]\n- Ratified (escalation accepted): Typed per-code details for ErrorReport (srs-rust#1342) [01cfb06e]\n- Ratified (escalation accepted): Heading outline: how a rendered document starts below its title (srs#911) [444121a6]\n- Commented: Heading outline: how a rendered document starts below its title (srs#911) [444121a6] (1)\n- Ratified (escalation accepted): Escalation: may an RFC reopen RFC-039's retired field-id bridge? (srs#931) [6b5e2810]\n- Ratified (escalation accepted): Escalation: how do structured diagnostics reach the existing text lists? (srs-rust#1264) [bf4a5af5]\n- Commented: Escalation: how do structured diagnostics reach the existing text lists? (srs-rust#1264) [bf4a5af5] (1)\n- Ratified (escalation accepted): Escalation: may the release gate also run the RFC-043 arrangement fixture? (srs-rust#1481) [c16c70c1]\nActs in the order taken (UTC):\n- 08:36:30Z receive: WG Agent-supported editor report 2026-10-25 [e189ea9d] (Reports 1 of 4)\n- 08:36:50Z receive: WG Agent-supported editor report 2026-10-26 [305913bf] (Reports 2 of 4, saw full record)\n- 08:37:14Z receive: WG Third-party ready report 2026-10-25 [acc1447a] (Reports 3 of 4)\n- 08:37:30Z receive: WG Third-party ready report 2026-10-26 [d0805f86] (Reports 4 of 4)\n- 08:37:41Z ratify: Tier-0 vignettes are how our semantics grow: the owner's words first, records derived from them [77e04b19] (Decisions since the last session 1 of 1, record updated 2026-10-24T19:39:44.996002325+00:00)\n- 08:41:33Z accept: Typed per-code details for ErrorReport (srs-rust#1342) [01cfb06e] (Decisions for this session 1 of 5, saw full record, record updated 2026-10-25T11:35:42.073977243+00:00)\n- 08:45:13Z comment: Heading outline: how a rendered document starts below its title (srs#911) [444121a6] (Decisions for this session 2 of 5, saw full record, record updated 2026-10-25T07:13:22.206917431+00:00)\n- 08:45:15Z accept: Heading outline: how a rendered document starts below its title (srs#911) [444121a6] (Decisions for this session 2 of 5, saw full record, record updated 2026-10-25T07:13:22.206917431+00:00)\n- 08:45:47Z accept: Escalation: may an RFC reopen RFC-039's retired field-id bridge? (srs#931) [6b5e2810] (Decisions for this session 3 of 5, record updated 2026-10-25T11:35:41.849978158+00:00)\n- 08:48:23Z comment: Escalation: how do structured diagnostics reach the existing text lists? (srs-rust#1264) [bf4a5af5] (Decisions for this session 4 of 5, record updated 2026-10-25T11:35:41.663476713+00:00)\n- 08:48:25Z accept: Escalation: how do structured diagnostics reach the existing text lists? (srs-rust#1264) [bf4a5af5] (Decisions for this session 4 of 5, record updated 2026-10-25T11:35:41.663476713+00:00)\n- 08:49:05Z accept: Escalation: may the release gate also run the RFC-043 arrangement fixture? (srs-rust#1481) [c16c70c1] (Decisions for this session 5 of 5, record updated 2026-10-26T11:35:40.114951904+00:00)"
+  },
+  "createdAt": "2026-10-27T08:49:13.892971995+00:00",
+  "updatedAt": "2026-10-27T08:49:13.892979853+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "f3be30bd-3d70-4c76-8838-60c7191fc506",
+      "sourceRole": "attaches"
+    }
+  ]
+}
