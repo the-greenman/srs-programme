@@ -1,0 +1,25 @@
+{
+  "instanceId": "27e1d6de-656e-4d07-8540-6629662b3e9a",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-118",
+    "title": "Nobody can say what a repository's navigation is meant to be",
+    "statement": "A repository's navigation has no kept guidance tied to its purpose, and no way to lock a level against change while leaving the rest to dreamtime to evolve; so neither the group nor an agent knows what shape it is meant to keep.",
+    "kind": "capability",
+    "source_ref": [
+      "srs-programme: Narrative explorations 2026-10-26 vignette 29d4cbd4",
+      "the-greenman/srs-web#425 (related: SP-83)"
+    ]
+  },
+  "createdAt": "2026-10-26T15:05:39.380576076+00:00",
+  "updatedAt": "2026-10-26T15:05:39.380579439+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
