@@ -1,0 +1,30 @@
+{
+  "instanceId": "8487fd7a-7cb1-4a1d-af69-34b2e39ab616",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "May the arrangement fixture add two container-literal Compositions to the allowlist?",
+    "decision_question": "May scripts/composition-container-literal-allowlist.json gain two entries so the arrangement conformance fixture can test rule flattening [R8] and supplied-versus-literal container precedence [R9]?",
+    "context": "Problem: The RFC-043 arrangement conformance fixture cannot test two rules (a rule section flattening a nested container, and a supplied container overriding a differing literal) without a Composition that names a Container by id, and the check that forbids that (check-composition-container-literal.mjs, RFC-043 ruling M, srs#851) only allows listed exceptions.\nWhy it matters: Without these scenarios a third-party renderer and the reference implementation can disagree on which container wins and on how a rule section lays out nested entries, and both claim conformance. That is the drift SP-01 names. The allowlist is the owner's ruled, shrinking exception; adding to it touches a gate, which the third-party-ready group may not do on its own.\nOptions and consequences: (1) Add two allowlist entries citing srs#977: both scenarios land now, the allowlist grows by two until srs#851 removes it. (2) Create the Composition at run time inside the scenario: no allowlist change, but the runner needs a new create-then-render operation and scenarios.json still carries the literal, which the same check scans. (3) Do nothing: the clauses stay listed as not covered.\nRecommendation: Option 1, two entries, each citing srs#977 and removed with the rest by srs#851.\nAction needed: decide\nUrgency: low; srs#977 is otherwise delivered in srs PR #980.\nAnswers: SP-01 \"Spec, schema and tool keep drifting apart\" ",
+    "friction": "srs#977 asks for these scenarios from RFC-043's own conformance list, but the only way to express them trips a gate the group cannot change. Needs deciding now because srs PR #980 ships the rest and the README lists these two as not covered.",
+    "alternatives_considered": "1. Add two allowlist entries (srs#977). 2. Create the Composition inside the scenario at run time (new runner operation, literal still scanned). 3. Do nothing, leave the two clauses uncovered.",
+    "key_requirements": "The allowlist keeps shrinking toward srs#851; new entries are tied to a live issue; no scenario that a runner cannot drive; expectations captured from the pinned CLI.",
+    "decision_statement": "Add two allowlist entries, one per Composition (outline-view-rule, outline-view-literal), each citing srs#977, then add the [R8] and [R9] scenarios.",
+    "rationale": "The allowlist is the owner's ruled exception mechanism for exactly this and expires with srs#851; the scenarios close a real conformance gap.",
+    "revisit_when": "srs#851 lands and removes the literals and the allowlist file.",
+    "next_steps": "If approved: the builder adds the entries and scenarios in a follow-up PR on srs#977 and checks the runner handles the keys.",
+    "status": "proposed",
+    "decision_kind": "preference"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-27T16:37:23.139340180+00:00",
+  "updatedAt": "2026-10-27T16:37:49.880390108+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
