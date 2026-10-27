@@ -1,0 +1,25 @@
+{
+  "instanceId": "6127238e-43c9-4b4f-8503-4fd6cc5416cf",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-121",
+    "title": "Working groups cost more routines than we can keep running",
+    "statement": "I want each working group to keep moving with little upkeep. Today each group needs its own builder, reviewer, steward and analyst cloud routines, and the number we can run is limited. We keep losing them: disabled, still on old prompts, or drifted from their records. When one is lost, the group stops quietly.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-27: vignette 0601eb2e (srs-programme, Narrative explorations)",
+      "clerk routines --check, 2026-10-27: 16 blocking drifts; SRS Bug Fixer and Branch Auditor disabled; editor builder and reviewer every 4h"
+    ]
+  },
+  "createdAt": "2026-10-27T12:55:37.676943577+00:00",
+  "updatedAt": "2026-10-27T12:55:37.676947565+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
