@@ -1,0 +1,29 @@
+{
+  "instanceId": "55517a33-7e22-4e24-b33d-6425dcbd292e",
+  "title": "Conversation 2026-10-27: routines and flow",
+  "tags": [
+    "conversation",
+    "topic:routines",
+    "topic:flow",
+    "topic:bug-fixer",
+    "topic:group-pause"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner asked the state of the automatic routines and why work is not in flow. Claude Code reported: all routines run, but both working groups are paused on four unreceived reports, so the group builders and reviewers exit each run; the nightly lane ships one issue a night; six claims are held on needs-input questions; the SRS Bug Fixer routine is disabled. The owner asked to clear the stale claims and said the bug fixer was meant to move into the groups, but then it stops with them and spends the same issue budget."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Kept by Claude Code for the owner, 2026-10-27."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
