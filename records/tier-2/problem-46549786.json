@@ -5,7 +5,7 @@
   "typeNamespace": "com.semanticops.method",
   "typeName": "problem",
   "fieldValues": {
-    "problem_id": "SP-116",
+    "problem_id": "SP-119",
     "title": "A repository opened for the first time reads as a data dump",
     "statement": "Someone opening a repository, in muSrs for one, should see its few top-level areas (for muSrs an argument area, an essay area, a website and guides) and not a huge dump of records; today the top level does not present a coherent, useful hierarchy.",
     "kind": "condition",
@@ -15,7 +15,7 @@
     ]
   },
   "createdAt": "2026-10-26T15:05:38.361911825+00:00",
-  "updatedAt": "2026-10-26T15:05:38.361914730+00:00",
+  "updatedAt": "2026-10-27T11:43:03.778984363+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",
