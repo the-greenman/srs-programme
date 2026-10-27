@@ -1,0 +1,25 @@
+{
+  "instanceId": "a66b1359-4d75-449a-84a5-ec0e2b585d7e",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The programme records the rank of its objectives, but not the reasons for most of its order",
+    "summary": "Only rank 1 of the period's seven objectives carries a reason (decision 3c8b94d1: it enables the rest). Ranks 2 to 7 have none; epic priority is derived mechanically from them; order inside an epic is sub-issue position with no reason. The programme of works (068a0a8b) is the one order with reasons and owner confirmation. No working group charter holds a strategy, so no group orders its own work.",
+    "evidence": [
+      "records/tier-2/period-3a279650.json",
+      "clerk roadmap --json, 2026-10-27",
+      "clerk groups --json, 2026-10-27"
+    ],
+    "body": "- Period 'Focus 1: writing and memory' (from 2026-10-08): objective_rank lists seven objectives; only cba2c1cf states why it is first.\n- clerk roadmap: epic priority P0/P1/P2 from objective rank; topup feeds in epic order, so a P2 group epic (semanticops.com#31) is fed last.\n- Group charters (role records 834b61fd, 1fc9ce85): authority, boundary, budget, quorum, cycle, repos, domains; no strategy or stance.\n- Programme of works 068a0a8b: nine steps with reasons; steps 1 and 2 confirmed (vignette 38c76e41) as sequence clerk#229; 'the rest of the order waits until this unit is done'. A suggestion on 2026-10-27 to move clerk#124 earlier on one day's evidence was withdrawn (owner vignette 6f4c40e6)."
+  },
+  "createdAt": "2026-10-27T13:04:09.335948897+00:00",
+  "updatedAt": "2026-10-27T13:04:09.335952211+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

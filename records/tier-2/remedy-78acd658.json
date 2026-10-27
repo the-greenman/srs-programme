@@ -1,0 +1,26 @@
+{
+  "instanceId": "78acd658-3ea1-4961-8971-d9b4f19bac0d",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "One routine per seat, serving every group in turn",
+    "move": "Replace the per-group routines with one routine per seat (builder, reviewer, steward, analyst) whose brief reads clerk groups --json and serves each chartered group in turn, by the group's room and its own order, as the bug fixer's brief already does for the builder seat (clerk#151). Each standing job has one standing-job record, and clerk routines --check runs on a schedule and reports a lost or drifted trigger on the desk.",
+    "does_not_fix": "It does not raise the platform's limit on routines, and a single routine is a single point of failure for every group; it does not decide each group's order (remedy 9938939f does).",
+    "falsifier": "After two cycles, a group with room and ready work still goes a cycle without a build, or the trigger count has not fallen.",
+    "source_ref": [
+      "Owner, 2026-10-27: vignette 0601eb2e (the working group setup is heavy; we keep losing routines)",
+      "Finding 6dbfc61c (2026-10-27)",
+      "clerk#124 want 2: briefs take the group as a parameter"
+    ]
+  },
+  "createdAt": "2026-10-27T13:04:35.807597403+00:00",
+  "updatedAt": "2026-10-27T13:04:35.807604536+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,26 @@
+{
+  "instanceId": "e120cf12-2bda-46ba-8580-d5607f676f32",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Before escalating, an agent applies the charter and the rulings, and decides when a principle settles it",
+    "move": "Extend policy 84d873ce from ADRs to every recorded principle: before an agent labels needs-input or raises a proposed decision, it checks the decision compass (cell and axis preferences, layer rules), the ADRs and the ratified rulings. When one clearly decides the question, it records the decision on the issue citing the rule and carries on; it escalates only a real conflict between preferences, a Door 2 or 3 acceptance, or a resource only the owner holds.",
+    "does_not_fix": "It does not let an agent accept an RFC or change a ruling; and a wrongly applied principle still reaches review, not the owner.",
+    "falsifier": "In a weekly sample, more than a third of new needs-input questions are again answerable from principles, or a principle-based decision is overturned in review for misreading the rule.",
+    "source_ref": [
+      "Owner, 2026-10-27: vignette 431e12d6 (the point of principles is to keep moving things forward and to maintain consistency)",
+      "Finding e832c6f4 (2026-10-27): 15 of 24 needs-input questions answerable on principle",
+      "Policy 84d873ce (proposed)"
+    ]
+  },
+  "createdAt": "2026-10-27T13:04:36.140022722+00:00",
+  "updatedAt": "2026-10-27T13:04:36.140031088+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
