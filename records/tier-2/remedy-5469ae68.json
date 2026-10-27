@@ -1,0 +1,25 @@
+{
+  "instanceId": "5469ae68-b144-4ef5-b350-89c2db5c3ba6",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "srs-context names the active collections of knowledge, curated by the dream cycle",
+    "move": "srs-context keeps a short, always-loaded list of the collections being worked through now (containers, problems, sequences, conversations), each with one line on what it is and how to find more (its id and the find or outline call). The dream cycle maintains it: it adds what recent sessions touched, retires what has gone quiet, and keeps the top level of the semantic hierarchy light, demoting detail into the collections themselves.",
+    "does_not_fix": "It does not make each collection navigable inside (SP-83, SP-118), and it does not decide what is relevant: it reflects recent work, so a collection nobody touched stays out of the list even if it matters.",
+    "falsifier": "A fresh agent, given only the session brief, cannot name the collection the last three sessions worked in, or needs more than two calls to reach it; or the list grows past about fifteen entries.",
+    "source_ref": [
+      "Owner, 2026-10-27: vignette 17cc3c02 (srs-programme, Narrative explorations)",
+      "Worked case: the flow map 165f3a6e and programme of works 068a0a8b were found only by searching container titles (2026-10-27)"
+    ]
+  },
+  "createdAt": "2026-10-27T12:48:29.102249180+00:00",
+  "updatedAt": "2026-10-27T12:48:38.571001009+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

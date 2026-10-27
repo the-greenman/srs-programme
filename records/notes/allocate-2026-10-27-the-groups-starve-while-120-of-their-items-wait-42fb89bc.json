@@ -1,0 +1,28 @@
+{
+  "instanceId": "42fb89bc-b983-4644-a4c4-2db095987f08",
+  "title": "Allocate, 2026-10-27: the groups starve while 120 of their items wait",
+  "tags": [
+    "finding",
+    "topic:flow",
+    "topic:group-queue",
+    "topic:allocate"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Findings",
+      "content": "Measured 2026-10-27 with clerk flow --open over every governed repo, after both groups were unpaused (reports received in the 08:36 session, srs-programme#295).\n\n- The two groups hold 120 open items (WG Third-party ready 89, WG Agent-supported editor 31). 20 pass every flow dot; about 6 carry ready. Each group has a budget of 10 per cycle.\n- Topup keeps ONE programme-wide Ready queue at a target of 6 (default; the board-sync workflow cannot set it). Ready stood at 10, so topup nominated nothing and the 20 flowing items stayed in Backlog. A dry run at target 30 nominated only clerk and srs-programme P1 items: topup fills by epic priority, so a P2 group epic (semanticops.com#31) is always fed last.\n- 63 items are held, mostly parked. All 48 parked labels were set in one sweep on 2026-10-08; 42 carry no stated reason. Where a reason was given (\"until its work is ranked\"), the epic has since been ranked, but nothing lifts the label.\n- 86 items have no technical plan. Only WG Third-party ready has an analyst (clerk#124 item 3).\n- 50 items reach no ranked epic: 30 have no parent reaching a roadmap epic; 20 sit under the parked muDemocracy.org epics #94, #293 and #83.\n- 24 needs-input issues: 6 were not questions (a wait or agent work), 15 were answerable from principles and rulings, 3 were real questions.\n- The SRS Bug Fixer cloud routine is disabled and still carries the old standalone prompt, so no bug is fixed anywhere; its clerk brief (routines/bug-fixer.md step 2) skips a group bug unless the group is unpaused with room, so a bug stops with the group and spends its budget.\n\nThis is the shadow of the pole Hold until ready (9617fbda): \"Hundreds of parked issues and an empty queue.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Claude Code, in conversation with the owner, 2026-10-27 (conversation note 55517a33)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
