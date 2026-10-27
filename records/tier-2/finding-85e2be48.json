@@ -1,0 +1,23 @@
+{
+  "instanceId": "85e2be48-6e83-4cb3-93b4-62636cc6de41",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Many problems exist as two records with the same SP id",
+    "summary": "At least SP-03, SP-12, SP-31, SP-36, SP-50, SP-59, SP-62, SP-63, SP-70, SP-79 and SP-97 each have two problem records with the same problem_id and title. Links split between them (for SP-97, 7 relations on ae1cd3f3 and 4 on 0d6f5bc2), so a reader that picks the wrong one sees less.",
+    "evidence": [
+      "srs find --type com.semanticops.method/problem, srs-programme master 2026-10-27"
+    ],
+    "body": "Found while linking findings on 2026-10-27: srs find --type com.semanticops.method/problem returns 216 hits for about 120 SP ids. The pair members differ only in instanceId and in which relations point at them. This needs a de-duplication through supersedes, not deletion."
+  },
+  "createdAt": "2026-10-27T13:04:10.183550864+00:00",
+  "updatedAt": "2026-10-27T13:04:10.183556304+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

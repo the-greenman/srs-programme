@@ -1,0 +1,29 @@
+{
+  "instanceId": "cfc44d42-a021-467a-ba94-0bea94e1d34f",
+  "title": "Suggested actions, 2026-10-27: strategy that sticks, the confirmed unit, principles, feeding the groups, lighter routines",
+  "tags": [
+    "actions",
+    "suggestion",
+    "topic:flow",
+    "topic:strategy",
+    "topic:routines"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Suggested actions",
+      "content": "Suggested by Claude Code from the conversation of 2026-10-27 (note 55517a33). These are suggestions: the order of the programme of works (068a0a8b) stands, and nothing here reorders it by itself (owner vignette 6f4c40e6). Items marked \"owner\" need the owner; the rest an agent can do under existing rules.\n\nA. Make strategy stick (SP-122, SP-72)\n1. Owner: settle SP-122. Either a stance or axis placement given by the owner in a session is recorded as the owner's act in that session, or the stance waits for the affirmation editor (srs-web#617, blocked). Until one is chosen, Thunder (2026-10-24) stays invisible.\n2. Owner: set or confirm a stance for each group for the current cycle: the editor group (Thunder) and WG Third-party ready (none set).\n3. Agent, after 1: build remedy 9938939f in steps: a stance record bound to a group and cycle; the analyst places candidates on the three lines; topup orders the group's queue by the stance; the digest names it. Placed under clerk#19.\n\nB. Keep the confirmed unit moving (programme of works step 2, sequence clerk#229)\n4. Agent: fix the failing integration check on clerk#232 (clerk#167). Owner: merge it.\n5. Owner: receive the 2026-10-27 group reports (srs-programme#296, #297) at the next session so the groups stay unpaused.\n\nC. Decide by principle, escalate only real questions (SP-99, SP-63)\n6. Owner: ratify policy 84d873ce together with remedy e120cf12 (apply the charter before escalating). This also unblocks srs-rust#1342.\n7. Owner: the three real questions: srs-rust#1264, srs#931, srs#851. Optional: the borderline srs#928, srs-web#260, srs-web#567.\n8. Agent: relabel the six needs-input issues that are not questions (srs-rust#1198, #683, #1339, #1132, #1380; muDemocracy.org#391) as blocked, parked or back to an agent.\n\nD. Feed the groups (SP-120, SP-97)\n9. Agent: review the 48 parked labels set on 2026-10-08 as one batch: lift those whose stated reason no longer holds; list the 42 with no reason for the owner in one pass.\n10. Agent: ask the analyst to write technical plans for the highest-ranked group items first (86 lack one).\n11. Per-group feed is clerk#124 want 4; it stays at step 8 of the programme of works unless the owner moves it.\n\nE. Lighter, sturdier routines (SP-121)\n12. Owner: choose whether to take remedy 78acd658 (one routine per seat serving every group). If yes, it joins clerk#124 want 2 (briefs take the group as a parameter).\n13. Owner: decide the Bug Fixer: re-point it at the clerk brief now, or fold it into 12. Today no bug is fixed anywhere.\n14. Agent: record standing-job records for the six triggers that have none, and report the four muSrs briefs that do not exist; schedule clerk routines --check so a lost routine shows on the desk.\n\nF. Memory and data hygiene (SP-22, SP-105)\n15. Agent, once remedy 5469ae68 is affirmed: an srs-context issue for an active-collections list kept by the dream cycle.\n16. Agent: de-duplicate the problems that exist twice under one SP id (finding 85e2be48), by supersedes, never deletion.\n17. Agent: clerk#192 (owner axis placements carried into axis-in-domain) is still open; check whether 2026-10-25's restore closed it.\n"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Claude Code, at the owner's request (2026-10-27: log all the elements in the programme data, then pull together a set of suggested actions)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

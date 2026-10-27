@@ -1,0 +1,25 @@
+{
+  "instanceId": "480d9db0-0066-46da-91f6-e921d2b867d3",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The owner's strategy is held, but as suggestions nothing reads",
+    "summary": "The editor group's stance for its next cycle, Thunder (Act, Stabilise, Zoom out), set by the owner on 2026-10-24 (vignette f71456d5), survives as three agent-created principles and three axes in the group's domain. The clerk reads only affirmed records, the affirmation surface (srs-web#617) is not built and is blocked, and nothing that orders work reads a stance. So each time it looks lost.",
+    "evidence": [
+      "clerk domains, 2026-10-27",
+      "git log c349bd2 (2026-10-24), 9bdc5b4 (2026-10-25)",
+      "clerk#192, clerk#194, srs-web#617"
+    ],
+    "body": "- Thunder: principles 0e2a00e2, 1997e9d5, f93a7b24 (lean toward Act, Stabilise, Zoom out; derived-from f71456d5), axes 16000f1b, d3777c50, f194112a; all createdBy ai, in Suggestions.\n- clerk domains shows every pole of both groups' tensions as '?'.\n- The same loss happened to the owner's axis placements and was restored on 2026-10-25 (srs-programme#256); clerk#192 is still open.\n- clerk#194 (record an owner ruling as the owner's act) was closed as superseded by the ruling that affirmation never happens in chat (clerk#197 R2), which leaves the owner's stance waiting for srs-web#617.\n- Ratified 2026-10-16: 6494df0f (a member's stance comes from an archetype), ee95817b (a stance is read relative to its boundary).\n- No stance has been set for WG Third-party ready.\n- No record binds a stance to a group and a cycle; topup and the routine briefs never read one."
+  },
+  "createdAt": "2026-10-27T13:04:09.752836198+00:00",
+  "updatedAt": "2026-10-27T13:04:09.752842429+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

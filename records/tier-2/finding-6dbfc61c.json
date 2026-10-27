@@ -1,0 +1,25 @@
+{
+  "instanceId": "6dbfc61c-8f4f-402f-abc8-33a209dff148",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The programme's cloud routines drift from their records, and two are switched off",
+    "summary": "On 2026-10-27, 19 cloud triggers exist and 17 are enabled. clerk routines --check reports 16 blocking drifts. The SRS Bug Fixer is disabled and still carries its old standalone prompt, so no bug is fixed anywhere. The editor group's builder and reviewer run every 4 hours while their names say hourly.",
+    "evidence": [
+      "RemoteTrigger list, 2026-10-27",
+      "clerk routines --check, 2026-10-27: 16 drift (16 blocking)",
+      "clerk routines/bug-fixer.md step 2"
+    ],
+    "body": "- trigger-without-record (6): srs-context monthly review, the four muSrs routines (Synthesizer, Steward, Builder, Watcher), SRS System Architect.\n- sources-missing (6): the same six routines lack repositories their work reads.\n- brief-missing (4): the muSrs routines name routines/synthesizer.md, steward.md, builder.md and watcher.md, which do not exist.\n- Disabled: SRS Bug Fixer (it re-picked issues already in review because it read labels only, srs-context finding 2b6095e3) and SRS Branch Auditor.\n- The clerk brief routines/bug-fixer.md holds the builder seat in every group (clerk#151), but step 2 skips a group's bug unless the group is unpaused with room: a bug stops with the group and spends its feature budget (owner vignette 9e0fb82c).\n- Each group needs its own builder, reviewer, steward and, for one group, an analyst: 9 of the 19 triggers.\n- Nothing records when a trigger was lost or why."
+  },
+  "createdAt": "2026-10-27T13:04:08.580076245+00:00",
+  "updatedAt": "2026-10-27T13:04:08.580085797+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
