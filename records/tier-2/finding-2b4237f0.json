@@ -1,0 +1,27 @@
+{
+  "instanceId": "2b4237f0-168c-4227-86a7-8c333a6b6ff0",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A closed blocker leaves its dependent labelled blocked, so the chain waits for a person to notice",
+    "summary": "When srs-rust#1473 closed on 2026-10-28, srs-programme#189 kept its blocked label; clerk flow showed it held until the driver removed the label by hand. Nothing clears a blocked label when the last blocker closes.",
+    "evidence": [
+      "srs-programme#189 labels, 2026-10-28 21:50 UTC",
+      "clerk flow --chain srs-programme#189 (held: blocked) until the label was removed"
+    ],
+    "body": "- In an unattended chain, this is a silent stop between every pair of links.\n- Recorded under the proposed flow-stop rule fbba3d5e."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-10-28T22:02:02.600387770+00:00",
+  "updatedAt": "2026-10-28T22:02:02.600391679+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
