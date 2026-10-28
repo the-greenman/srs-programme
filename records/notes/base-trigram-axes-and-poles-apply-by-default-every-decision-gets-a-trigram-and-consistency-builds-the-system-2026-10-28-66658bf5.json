@@ -1,0 +1,30 @@
+{
+  "instanceId": "66658bf5-30b2-4e46-aff8-4dc900d0000d",
+  "title": "Base trigram axes and poles apply by default; every decision gets a trigram, and consistency builds the system (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:compass",
+    "topic:trigram",
+    "topic:decision-flow",
+    "topic:stance"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "So SRS programme should have put base trigram axes and poles affirmed?\n\nThese should apply by default and any decision can be mapped against them. This will give each decision a trigram. \n\nWe can use the trigrams to see our basic stance. \n\nWe can also apply the 4 elements to every domain. Although these can also be broken down into a 2x2 matrix. \n\nThese synthetic maps never need to be absolute. They are always relative to a domain. And we may need to also refine judgement based on other decisions within a domain.\n\nWe can see from the compass that over time we can understand our stance in each cell, and we build a consistent system by being consistent"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28, after the zodiac canon was recorded (srs-programme#322); recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

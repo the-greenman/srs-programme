@@ -18,9 +18,9 @@
     "status": "proposed",
     "decision_kind": "policy"
   },
-  "lifecycleState": "draft",
+  "lifecycleState": "proposed",
   "createdAt": "2026-10-24T19:43:15.640962303+00:00",
-  "updatedAt": "2026-10-24T19:43:15.640965506+00:00",
+  "updatedAt": "2026-10-28T20:26:03.858674182+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",
