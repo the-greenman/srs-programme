@@ -1,0 +1,28 @@
+{
+  "instanceId": "b514ca75-07d1-41ba-81e9-efecadbf6949",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The affirmation editor waits behind a blocker the queue cannot see: srs-rust#1473 has no epic and no plan",
+    "summary": "srs-web#617 (inline tick or deny, the first part of the affirmation editor; P1; epic semanticops.com#29, which serves objectives ranked 2 and 4) is blocked by srs-programme#189 (comments 1.1.0; P1, ready, held blocked), which is blocked by srs-rust#1473 (write a new definition version beside the old; P1; owner-approved 2026-10-25). clerk flow --chain srs-rust#1473 shows no parent reaching a roadmap epic and no technical plan, so it is not in the queue and runs only as a probe. Nothing has moved on the chain since 2026-10-25; srs-programme#189 was auto-reclaimed on 2026-10-27 after an idle claim.",
+    "evidence": [
+      "clerk flow --chain srs-web#617, srs-programme#189, srs-rust#1473 (2026-10-28)",
+      "clerk queue (2026-10-28): neither srs-rust#1473 nor srs-web#617 queued; srs-programme#189 held",
+      "srs-web merges 2026-10-24..28: essay, ADR-027 layers, RecordProse, folder reads; none on #617"
+    ],
+    "body": "- A blocker that is not shaped (no epic, no plan) is invisible to the queue, so everything it blocks waits with no signal, however high its own rank.\n- The desk shows #617 and #189 as blocked, not why the chain does not move: its root is outside the queue.\n- Joining the epic dot needs a Part of line; the plan needs a person or analyst."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-10-28T20:44:34.137664+00:00",
+  "updatedAt": "2026-10-28T20:44:34.137669912+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
