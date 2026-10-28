@@ -1,0 +1,30 @@
+{
+  "instanceId": "c7a8e0a2-0c9b-442d-a8e6-6091bf844188",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Escalation: may `note delete` start refusing notes that Relations point at? (srs-rust#1497)",
+    "decision_question": "May `note delete` change its default from silently deleting every incident Relation to refusing, with a `--cascade` flag to opt back in, as `record delete` already does?",
+    "context": "Problem: `note delete` on a note that Relations point at reports success and silently removes every Relation to and from it; `record delete` refuses the same case unless `--cascade` is passed. In this programme notes are the vignettes that suggestions are derived-from, so deleting one cuts the provenance of everything derived from it and nothing shows the loss afterwards. srs-rust#1497 gives notes the record contract. Why it matters: it is a breaking change to a command people and scripts already run (a delete that used to succeed now fails until `--cascade` is given), and the ruling it executes (srs-rust#1025) covered records only. The reviewer found the diff within the ruling and gates green, and escalated rather than approved because the role's boundary reserves breaking CLI behaviour for the owner; PR labelled gate:owner-merge. Options and consequences: A. Approve the flip: notes and records behave alike, silent provenance loss ends, but any caller that deletes a referenced note must add `--cascade`. B. Ship only the reporting half (`cascadedRelations` in the result) and keep today's default: nothing breaks, the loss is visible but still silent in effect. C. Decline, leaving notes as they are. Recommendation: A, because a destructive command should do what its sibling does and the programme's own rule is that provenance is never cut quietly. Action needed: decide. Urgency: medium, the PR is ready and waits on you; the builder also notes the refusal message says \"record\" for a note and a tier-neutral message would need its own ADR-053 code. Answers: SP-06",
+    "friction": "The ruling (srs-rust#1025, rfc-decision-1e7c0c8e) settled the record half. Whether the default for notes flips too is a contract change the reviewer may not approve and the builder may not decide.",
+    "alternatives_considered": "A. Flip the default and add --cascade (srs-rust#1497 as written). B. Reporting half only, keep silent cascade as default. C. Leave note delete unchanged.",
+    "key_requirements": "Provenance links are not removed silently (Invariant 16, Relations are first-class claims). A breaking CLI default is the owner's call. Notes and records share one delete contract unless a ruling says otherwise.",
+    "decision_statement": "Approve option A: land srs-rust#1497, so `note delete` refuses notes with inbound Relations unless `--cascade` is passed and reports every removed Relation; the tier-neutral error code is filed separately if wanted.",
+    "rationale": "It copies a guard that already exists for records, ends silent loss of provenance, and the cost to callers is one flag.",
+    "revisit_when": "If a caller or script is found relying on the silent cascade, or the first time the refusal message confuses a note delete.",
+    "next_steps": "Owner picks A, B or C on this record. If A, the owner merges srs-rust#1497 (gate:owner-merge). If B, the builder strips the default flip and re-requests review.",
+    "owner": "human:the-greenman",
+    "status": "proposed"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-28T11:37:09.970891175+00:00",
+  "updatedAt": "2026-10-28T11:37:09.970895608+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
