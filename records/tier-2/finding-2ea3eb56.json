@@ -13,6 +13,9 @@
     ],
     "body": "- The filing rule (search before filing) existed and did not stop the second issue.\n- The overlap is visible to clerk pr-tree (same-file edge) only once both PRs are open, too late to save the work."
   },
+  "tags": [
+    "flow-stop"
+  ],
   "createdAt": "2026-10-28T18:00:41.264458101+00:00",
   "updatedAt": "2026-10-28T18:00:41.264464685+00:00",
   "createdBy": {

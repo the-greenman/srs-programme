@@ -1,0 +1,28 @@
+{
+  "instanceId": "82e8b452-b7cd-4599-9d7f-727df12de8f2",
+  "title": "Every agent keeps the flow section updated: when flow stops, we know why (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:flow",
+    "topic:flow-stops"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Can we set up a standing rule for any agent to keep the flow section of the programme updated with discoveries? \n\nWhen we find that flow has stopped, we should know why. Especially if there are obvious remedies, we should be gathering data on each stage in the flow, getting to understand exactly what causes us to stop and how we could evolve."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28, after the quorum proposal (af1c9258) was filed; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
