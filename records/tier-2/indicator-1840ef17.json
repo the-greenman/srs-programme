@@ -1,0 +1,21 @@
+{
+  "instanceId": "1840ef17-70c4-408b-bfb3-fb88751523be",
+  "typeId": "7c00a086-3840-4cba-b771-b01e2dad719b",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.argument",
+  "typeName": "indicator",
+  "fieldValues": {
+    "indicator_id": "I3",
+    "title": "Does governance keep up?",
+    "measurement_method": "Median days from proposed to ratified, and reports awaiting acknowledgement. No computation yet; no result is recorded until one exists.",
+    "baseline_state": "Pending: no computation."
+  },
+  "createdAt": "2026-10-28T00:17:05.900876743+00:00",
+  "updatedAt": "2026-10-28T00:17:05.900881234+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:unattended-worker",
+    "name": "Unattended lane worker"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,21 @@
+{
+  "instanceId": "5762dd13-b4aa-4bb1-aecf-27343bfb292d",
+  "typeId": "8b2d78d1-51ba-4e3d-8638-9ce1fc9595a0",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.argument",
+  "typeName": "measurement-result",
+  "fieldValues": {
+    "result_id": "I1 2026-10-04..2026-10-11",
+    "observed_finding": "I1 for PRs merged 2026-10-04..2026-10-11: 15/297 grounded to a problem (5%); 12/297 with an affirmed persona and domain (4%). By level: none 123, issue 159, problem 3, problem+persona+domain 0, epic 12, group 0.",
+    "observation_period": "2026-10-04..2026-10-11",
+    "evaluator": "pending: the owner's session (useful, noisy or misleading)"
+  },
+  "createdAt": "2026-10-28T00:36:15.406331093+00:00",
+  "updatedAt": "2026-10-28T00:36:15.406342055+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:unattended-worker",
+    "name": "Unattended lane worker"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
