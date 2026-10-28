@@ -1,0 +1,13 @@
+{
+  "id": "9657efc7-286b-4acc-8570-041c346ebe54",
+  "version": 1,
+  "key": "com.semanticops.comments/proposes-link-to",
+  "namespace": "com.semanticops.comments",
+  "label": "proposes link to",
+  "description": "A suggestion comment proposes a link from the record it comments on to the target (comment -> target); its proposed_relation field names the relation type.",
+  "category": "association",
+  "createdAt": "2026-10-28T00:00:00Z",
+  "canonicalDirection": "Comment proposes link to Target",
+  "irreflexive": true,
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json"
+}

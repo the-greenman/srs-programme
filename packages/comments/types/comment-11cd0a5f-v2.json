@@ -1,0 +1,33 @@
+{
+  "id": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "namespace": "com.semanticops.comments",
+  "name": "comment",
+  "version": 2,
+  "description": "Feedback on one record.",
+  "fields": [
+    {
+      "fieldId": "d34c8983-3b82-49b0-ac59-acd7ead5180a",
+      "order": 0,
+      "required": true,
+      "displayLabel": "Body"
+    },
+    {
+      "fieldId": "fc28c45f-ecf2-4ded-b152-f9cbf93074c4",
+      "order": 1,
+      "required": false,
+      "displayLabel": "Kind"
+    },
+    {
+      "fieldId": "9aabee0d-c0a7-470a-b72d-a49bfe5e7964",
+      "order": 2,
+      "required": false,
+      "displayLabel": "Proposed relation"
+    }
+  ],
+  "identityFieldId": "d34c8983-3b82-49b0-ac59-acd7ead5180a",
+  "aiGuidance": {
+    "purpose": "A comment is feedback on exactly one record, linked to it by a com.semanticops.comments/comments-on relation (comment to target). It never edits the target. Create the comment record, then relate it comments-on. Authorship is the engine-stamped createdBy (RFC-046), never a field; thread order is createdAt. Its label is the start of its text. Version 2 adds kind (content and response kinds, ruling ff946eb1) and proposed_relation, which with a proposes-link-to relation carries a link proposal (remedy 2910ac1e). Version 1 comments stay valid."
+  },
+  "createdAt": "2026-10-28T00:00:00Z",
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json"
+}
