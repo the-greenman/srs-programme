@@ -1,0 +1,22 @@
+{
+  "instanceId": "b955dabb-9c53-4fa6-9bd9-1ce78d9f8f0e",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "D3. Place: the level and boundary where a decision removes choices",
+    "thinking_reached": "The ideal: every decision names the level and boundary (domain) where it removes choices; shown elsewhere it is context, not a decision. What we have: no decision in the programme log records its domain or level (0 of 109); 14 are design-kind, technical choices in the strategy log, e.g. 01cfb06e typed ErrorReport details (srs-rust#1342). Boundaries exist as types (com.mudemocracy.argument boundary, narrows), domains as method records, but decisions are not placed on them.",
+    "tensions": "Define domains first, and sense them from where decisions land. The owner: do not move the problem to domain definition; sense where domains are needed and keep watching; domains may merge from experience (vignette 5f271974).",
+    "unresolved_questions": "Which boundaries do decisions keep naming that no domain holds yet? When does a recurring boundary become a domain, and when do two domains merge?",
+    "next_action": "Each decision placed records its boundary (a domain link, or a boundary: tag where no domain exists yet); a boundary tag that keeps recurring goes to affirmation review as a candidate domain."
+  },
+  "createdAt": "2026-10-28T19:30:15.163291684+00:00",
+  "updatedAt": "2026-10-28T19:30:15.163296711+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

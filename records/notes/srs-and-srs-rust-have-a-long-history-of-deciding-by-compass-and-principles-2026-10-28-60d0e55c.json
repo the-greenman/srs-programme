@@ -1,0 +1,29 @@
+{
+  "instanceId": "60d0e55c-ae62-4a3e-97b8-086d757a73b4",
+  "title": "SRS and srs-rust have a long history of deciding by compass and principles (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:decision-flow",
+    "topic:principles",
+    "topic:compass"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "SRS and srs-rust ha e a long history of decisions made by compass and principles "
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28, mid-turn while the decision-flow section was being written; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

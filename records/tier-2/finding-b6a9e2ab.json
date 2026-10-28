@@ -1,0 +1,28 @@
+{
+  "instanceId": "b6a9e2ab-84f4-4750-a203-ae7614b8eb93",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "No decision records the level or boundary where it removes choices, so technical choices reach the strategy log",
+    "summary": "None of the 109 decisions in the srs-programme decision log links to a domain or boundary, 1 is classed boundary, and 8 are set against a principle. 14 are design-kind, among them 01cfb06e, typed per-code details for ErrorReport (srs-rust#1342): a technical choice ratified in the programme owner's session. On 2026-10-28 srs-rust#1470 asked the owner to merge a one-line ADR-011 correction.",
+    "evidence": [
+      "srs-programme records/tier-2/decision-*.json, 2026-10-28: decision_kind counts policy 43, none 39, design 14, premise 5, mandate 4, preference 3, boundary 1; relations from decisions: derived-from 16, set-against 8, refines 6",
+      "decision 01cfb06e",
+      "srs-rust#1470 body: Decision asked"
+    ],
+    "body": "- The owner's definition (vignette 6606adfe): a decision removes future choices only at the right level; a technical ADR in a strategy context removes none, while at the technical level its impact may be huge.\n- The type has no field for level or domain, and no relation from a decision to a domain or boundary is in use."
+  },
+  "tags": [
+    "decision-stop"
+  ],
+  "createdAt": "2026-10-28T19:30:16.029882381+00:00",
+  "updatedAt": "2026-10-28T19:30:16.029885861+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

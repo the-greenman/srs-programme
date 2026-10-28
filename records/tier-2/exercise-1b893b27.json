@@ -1,0 +1,22 @@
+{
+  "instanceId": "1b893b27-486c-42c5-b16d-c5e24b24fb63",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "D2. Settle by principle: what we tried and where we went too far",
+    "thinking_reached": "The ideal: a choice that a principle, charter cell, ADR or ruling already decides is settled where it arises, citing the rule, and never reaches the owner. What happened: of 24 needs-input questions on 2026-10-27, 15 were answerable from the charter, ADRs and rulings and 3 were real (finding e832c6f4). The owner reports that many decisions vanished once a review of principles was prompted (vignette 3e076051). Remedy e120cf12 (apply the charter before escalating) is suggested. What works: srs and srs-rust have a long history of deciding by compass and principles (owner, vignette, 2026-10-28). The decision compass (srs/docs/charter/decision-compass.md, since 2026-08-23) with its Charter Check, and srs-rust ADR-048, settle most choices where they arise: 41 of 54 srs rfc-decision records cite the compass, a cell or an axis. The programme layer has no equivalent in use (SP-72: a group has no affirmed compass of its own), so its choices escalate instead.",
+    "tensions": "Escalate to be safe, and decide by the rule already set. Too far toward escalating: the owner receives what principles settle (SP-63, SP-99).",
+    "unresolved_questions": "Which principles settle most, and which choices recur because no principle covers them?",
+    "next_action": "Each escalation that a principle settles is a decision-stop finding here, naming the principle."
+  },
+  "createdAt": "2026-10-28T19:30:14.972593257+00:00",
+  "updatedAt": "2026-10-28T19:30:14.972599605+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
