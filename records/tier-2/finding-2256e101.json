@@ -1,0 +1,28 @@
+{
+  "instanceId": "2256e101-92a8-4592-938b-641728ee198c",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A change to a cross-cutting rule left copies of the rule behind, and each surfaced only when the next link ran",
+    "summary": "srs-rust#1473 routed the definition writers in package_service through one versioned filename rule. Driving semanticops.com#42 then hit, one link at a time: srs-rust#1512 (a name lookup that ignored version), srs-rust#1513 (repository_portability had its own unversioned copy of the rule, ten sites, so .srsj lost every version but the last), and srs-web bindings still at build.554 (a single-file .srsj could not hold two versions). Each cost a build, a review and a release cycle.",
+    "evidence": [
+      "srs-rust#1512, #1513 (filed 2026-10-28)",
+      "srs-rust#1514 (one fix PR for both)",
+      "srs-web branch 617-link-proposals: bindings advanced to build.575"
+    ],
+    "body": "- What would have caught it: before closing a change to a rule, search every copy of the rule (here: format strings building definition paths, and every by-name type lookup) and every consumer that pins the old engine. ADR-048 rule 3, one way per goal, names the hazard but nothing checks it.\n- Recorded under the proposed flow-stop rule fbba3d5e; a predicted-stop item for the holon walk-through (f940e488)."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-10-28T22:02:02.496346247+00:00",
+  "updatedAt": "2026-10-28T22:02:02.496353551+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
