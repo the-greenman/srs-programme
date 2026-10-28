@@ -45,6 +45,18 @@ container (`80b283ef`): when the owner explains the work, or starts describing a
 acting on it. Records derived from a vignette go to Suggestions with `derived-from` to it. The practice
 is the clerk handbook chapter "Narrative explorations: how meaning grows" (decision 77e04b19), which also sets the one-container-per-conversation standard (dated title, summary description, `topic:` tags).
 
+## Flow stops
+
+When you find work stopped, record it as you fix it or work around it. That covers:
+- a PR that cannot merge;
+- a gate red for a reason outside its change;
+- an issue nobody can take;
+- duplicate work;
+- an owner wait that asks nothing;
+- a routine that did not run.
+
+Write a `com.semanticops.programme/finding` in Suggestions, tagged `flow-stop`, with dated evidence. It `evidences` the exercise of the flow-map stage where the work stopped (container `165f3a6e`, nine stages) and the problem behind it. Suggest the problem if none exists, and suggest the remedy if one is obvious. When a flow-stop finding already names the cause, add the occurrence to its evidence instead of a second finding. The rule is clerk handbook *Recording where flow stops* (proposed decision fbba3d5e). Read the stops with `srs find --tag flow-stop`.
+
 ## Writes go through the pinned CLI
 
 Never hand-edit records, relations, containers or the manifest. Use the srs MCP server where mounted, else the pinned CLI (`clerk fetch-srs --repo .` prints `SRS_CLI_PATH=`). If the CLI cannot express an operation that is a finding: file the srs-rust issue and park, never hand-edit around it.

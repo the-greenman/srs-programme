@@ -14,6 +14,9 @@
     ],
     "body": "- The desk counts a sequence's next task as free once the previous one is claimed, so siblings are taken in parallel even when they edit the same file.\n- One growing JSON file that every task appends to makes the collision certain; RFC-051 split container membership into one file per entry for the same reason."
   },
+  "tags": [
+    "flow-stop"
+  ],
   "createdAt": "2026-10-28T18:00:41.151320604+00:00",
   "updatedAt": "2026-10-28T18:00:41.151326041+00:00",
   "createdBy": {

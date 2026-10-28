@@ -15,6 +15,9 @@
     ],
     "body": "- CI is not the bottleneck: srs-rust ci.yml runs 4-7 minutes.\n- srs-programme flows because GitHub native auto-merge is armed on every PR (c373c2c1, clerk#208) and its PRs rarely touch the same file.\n- The cost lands on the owner: the follow-up commits and conflicts on srs and srs-rust are what the owner unpicks by hand (vignette 913a3db6)."
   },
+  "tags": [
+    "flow-stop"
+  ],
   "createdAt": "2026-10-28T18:00:41.041667300+00:00",
   "updatedAt": "2026-10-28T18:00:41.041676117+00:00",
   "createdBy": {
