@@ -1,0 +1,28 @@
+{
+  "instanceId": "b738c0a4-fff3-46ad-ad59-788fd9c53142",
+  "title": "Retire authored-by: one way to say who made a record (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:attribution",
+    "topic:one-way-per-goal",
+    "topic:local-vs-standard"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "1. ok. lets retire authored by. \nWe have shown that we need this feature, and we should only have one of them. \n2. Yes. We added the Id for a reason in authored-by\n3. FIne. \n\nWe are wrong if we find that we need to differentiate between two different actions. But these two don't at the moment so that is a rework anyway. \n\nIs this the actual principle?   When srs-rust provides a standard way to achieve a goal, we can retire local ways of achieving the same goal."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28, answering the three-step recommendation on the-greenman/muDemocracy.org#397 (retire authored-by; agent/role records list the actor ids they act as; rule 12 checks createdBy resolves, authored-by grandfathered before 2026-10-02); recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
