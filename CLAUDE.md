@@ -57,6 +57,19 @@ When you find work stopped, record it as you fix it or work around it. That cove
 
 Write a `com.semanticops.programme/finding` in Suggestions, tagged `flow-stop`, with dated evidence. It `evidences` the exercise of the flow-map stage where the work stopped (container `165f3a6e`, nine stages) and the problem behind it. Suggest the problem if none exists, and suggest the remedy if one is obvious. When a flow-stop finding already names the cause, add the occurrence to its evidence instead of a second finding. The rule is clerk handbook *Recording where flow stops* (proposed decision fbba3d5e). Read the stops with `srs find --tag flow-stop`.
 
+## Decision flow
+
+Decisions have their own flow, parallel to work: container `68b6eb64`, six stages (Arise, Settle by principle, Place, Decide, Record, Cite and revisit). It applies whenever you propose, apply or find a decision.
+- **Placement.** Name the boundary where the decision removes choices: link the domain if one exists, otherwise add a tag `boundary:<slug>` in plain words. Never create a domain just to place a decision.
+- **Principles first.** Before escalating, apply the decision compass and the recorded principles (remedy e120cf12).
+- **Stops.** Record a decision that stopped, as you meet it, as a finding tagged `decision-stop` that `evidences` its stage. That covers a decision that:
+  - vanished once a principle was applied;
+  - reached a level that is not its own;
+  - could not be found, or lived only in a branch;
+  - was asked again.
+
+The rule is proposed decision 199dd369. Read with `srs find --tag decision-stop` and `srs find --tag boundary:<slug>`.
+
 ## Writes go through the pinned CLI
 
 Never hand-edit records, relations, containers or the manifest. Use the srs MCP server where mounted, else the pinned CLI (`clerk fetch-srs --repo .` prints `SRS_CLI_PATH=`). If the CLI cannot express an operation that is a finding: file the srs-rust issue and park, never hand-edit around it.

@@ -1,0 +1,28 @@
+{
+  "instanceId": "3e076051-9380-4eff-b68d-308941c6e18f",
+  "title": "Where do decisions go, and when do they stop? Many vanished once principles were reviewed (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:decision-flow",
+    "topic:principles"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Now I want you to add what might be a parallel section to the programme.\n\nWhere do decisions go? When do they stop?\nMany of the decisions I've had to review just needed me to prompt a review of principles - and they vanished."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28, opening a decision-flow section parallel to the work-flow map; recorded verbatim (one message, split by thought)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

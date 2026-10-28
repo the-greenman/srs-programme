@@ -1,0 +1,22 @@
+{
+  "instanceId": "bcea2fc7-f77b-4302-92ad-5618f99849ff",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "D5. Record: one findable store, by id",
+    "thinking_reached": "The ideal: every decision is recorded once, in a store that names its level, and is referenced by stable id. What we have (2026-10-28): srs-programme decision log 109 (ratified 100), srs rfc-decision records 54, srs-rust ADRs 52, srs-web ADRs 27, srs-context decisions 32, clerk docs/decision-log.md 36 rows, plus PR bodies (srs-decisions blocks), issue comments (srs:answer), vignettes holding rulings, and two separate projects (decision-logger, muDemocracy-decisions). No index joins them. The 2026-10-08 archaeology found unfollowed decisions and decisions lost in branches.",
+    "tensions": "One store, and a store per level with one index.",
+    "unresolved_questions": "Do we need an architecture for a decisions server (owner, vignette e3069d0d)? Evidence first: how many decisions are lost or unfindable per month, and does an index across the existing stores fix that?",
+    "next_action": "Record each decision that cannot be found, or that lives only in a branch or PR text, as a decision-stop finding here."
+  },
+  "createdAt": "2026-10-28T19:30:15.548367698+00:00",
+  "updatedAt": "2026-10-28T19:30:15.548374331+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

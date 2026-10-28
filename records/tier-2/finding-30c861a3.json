@@ -1,0 +1,28 @@
+{
+  "instanceId": "30c861a3-ac9b-4fd1-8d9b-e9400d7436eb",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Decisions are recorded in at least seven stores with no shared index",
+    "summary": "On 2026-10-28 decisions were held in: the srs-programme decision log (109; 100 ratified), srs rfc-decision records (54), srs-rust ADRs (52), srs-web ADRs (27), srs-context decisions (32), the clerk's docs/decision-log.md (36 rows), PR bodies (srs-decisions blocks), issue comments (srs:answer), vignettes that hold owner rulings, and two separate projects (decision-logger, muDemocracy-decisions). Nothing lists them together, so a decision can be found only by knowing its store.",
+    "evidence": [
+      "Counts by srs find and ls, 2026-10-28",
+      "Open PRs carrying decision blocks: srs-rust 2, clerk 1 (2026-10-28, after the day's cleanup)",
+      "source-documents/archaeology-2026-10-08 (unfollowed decisions, work lost in branches)"
+    ],
+    "body": "- Each store has its own id scheme: UUID records, ADR-nnn, rfc-decision slugs, table rows.\n- The owner's question (vignette e3069d0d): do we need a decisions server? This inventory is the baseline to measure against."
+  },
+  "tags": [
+    "decision-stop"
+  ],
+  "createdAt": "2026-10-28T19:30:15.931891366+00:00",
+  "updatedAt": "2026-10-28T19:30:15.931896082+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

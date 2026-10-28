@@ -1,0 +1,22 @@
+{
+  "instanceId": "a532ba62-afdc-4cc1-9a2c-b27a0ec8cbaf",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "D6. Cite and revisit: decisions that govern later work",
+    "thinking_reached": "The ideal: later work cites the decision it applies (pr-check's made block), a decision is revisited when its revisit_when fires, and superseded decisions keep a readable history (SP-38). Domains that turn out to overlap merge, and their decisions with them.",
+    "tensions": "Keep rulings stable, and revise them from each lesson.",
+    "unresolved_questions": "Which decisions are never cited? Which revisit_when conditions have fired unnoticed?",
+    "next_action": "Record a re-asked decision (SP-99) or a contradicted one (SP-104) as a decision-stop finding here."
+  },
+  "createdAt": "2026-10-28T19:30:15.742697615+00:00",
+  "updatedAt": "2026-10-28T19:30:15.742703657+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,22 @@
+{
+  "instanceId": "fc0ba1a8-683f-48be-a894-93c2640d015d",
+  "title": "The decision flow: where decisions go and where they stop",
+  "tags": [
+    "decision-flow",
+    "topic:decision-flow",
+    "topic:domains"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "Summary",
+      "content": "A section parallel to the work-flow map (The archetypal flow, container 165f3a6e), opened at the owner's request on 2026-10-28 (vignettes 3e076051, 6606adfe, 5f271974, e3069d0d). It zooms into work-flow stage 8, Decide, the way that map is fractal. Its working definition is the owner's: a decision is a choice that removes future choices, and it does so only at the level and in the domain where it is relevant. Elsewhere it is noise.\n\nSix stages, a first pass by an agent (confidence low; untested), each an exercise that stops evidence:\n1. Arise: a choice appears (issue, PR, review, conversation, session).\n2. Settle by principle: a charter cell, ADR, ruling or principle already decides it (most stop here; finding e832c6f4).\n3. Place: the level and boundary where it removes choices; nested and parallel domains are sensed here.\n4. Decide: the owner of that level settles it (mode and door).\n5. Record: one findable store, by stable id, never only in a branch or PR text.\n6. Cite and revisit: later work references it; revisit_when; supersede; domains merge from experience.\n\nStops are findings tagged decision-stop that evidence the stage where the decision stopped (proposed decision, this conversation). Work flow and decision flow are read together."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
