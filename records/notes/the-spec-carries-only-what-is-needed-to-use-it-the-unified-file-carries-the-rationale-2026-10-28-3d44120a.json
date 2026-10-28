@@ -1,0 +1,28 @@
+{
+  "instanceId": "3d44120a-012d-4ae8-ac08-e74758941327",
+  "title": "The spec carries only what is needed to use it; the unified file carries the rationale (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:rationale",
+    "topic:spec-publication"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "When the spec was restructured, we lost the difference between the spec and the unified file. I think we should bring it back. The spec should not contain discussion around why the spec if as it is, it should just contain what is needed to use the spec. The unified version contained the rationale. \n\nLets update this plan to review how we can bring this back, rather than remove unified\n"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

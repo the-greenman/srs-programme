@@ -1,0 +1,27 @@
+{
+  "instanceId": "aefc744c-c53e-46f7-bbc7-453cfefd364f",
+  "title": "The spec must be agent readable: that is the point of SRS (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:agent-readability"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Ok. Perhaps I should actually consider this a bit of a bug. Or more. \n\nI need my spec to be agent readable. That's kind of the point of srs. \n\nWhat should I expect of a spec so that I can point an LLM at it and it will understand?\n"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with claude.ai, 2026-10-28, relayed into Claude Code the same day; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

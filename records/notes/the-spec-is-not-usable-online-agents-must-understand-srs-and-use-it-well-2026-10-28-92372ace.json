@@ -1,0 +1,35 @@
+{
+  "instanceId": "92372ace-d209-40b7-a2a0-30e8fec06143",
+  "title": "The spec is not usable online; agents must understand SRS and use it well (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:agent-readability",
+    "topic:spec-publication"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "I have been trying to bring srs into a conversation with claude.ai. \n\nUnfortunetely the current spec is not useable online. Here is what it said. (I would like us to prepare a response. This is a core \"Third party ready\" requiement. I need agents and ai to be able to understand teh system and use it well) \n"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28; recorded verbatim. The claude.ai transcript it introduces is attached."
+    }
+  ],
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "6fb1935e-d5b0-44bd-8493-da8d4b8c85c2",
+      "sourceRole": "attaches"
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
