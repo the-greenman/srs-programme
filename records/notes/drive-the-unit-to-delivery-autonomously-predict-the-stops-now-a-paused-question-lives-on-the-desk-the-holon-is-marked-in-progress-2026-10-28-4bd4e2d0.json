@@ -1,0 +1,30 @@
+{
+  "instanceId": "4bd4e2d0-9c74-46fc-bed8-2580d8fa4f00",
+  "title": "Drive the unit to delivery autonomously; predict the stops now; a paused question lives on the desk; the holon is marked in progress (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:flow",
+    "topic:holon",
+    "topic:autonomy",
+    "topic:affirmation-editor"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Good. Keep going.  If possible drive this all the way. Be autonomous.\n\nWe have already sorted all.yhe decisions. If there are any other points that we can predict will cause a stop..\nLet's address them now. \nOtherwise, your goal is to deliver. \nWe are exploring how to build the flow. \nWhat do we need in place to take a concept through to delivery without getting lost. \n\nIf we do need to pause and ask a question, the decision needs to be somewhere where it can be found easily. (On the desk?) \nWe need to have a holon of work clearly marked as in progress so that it gets driven to finish"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28, after srs-rust#1511 (the first link of the affirmation chain) was opened; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
