@@ -1,0 +1,29 @@
+{
+  "instanceId": "85847aef-88c2-46c0-9093-f8aa4ff22d19",
+  "title": "Are we missing clear intentions? Problem, claim and remedy with domains and personas give the intent autonomy needs (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:intent",
+    "topic:autonomy",
+    "topic:flow"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Are we generally missing clear intentions for our work? The problem and claim and remedy process - with domains and personas is an attempt to provide rich intent. By understanding these, we should have a clear goal for autonomy that does not require relentless ownership decisions and merge"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28, after the affirmation-editor chain was found stuck behind srs-rust#1473 (finding b514ca75); recorded verbatim (one message, split by thought)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
