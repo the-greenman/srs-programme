@@ -1,0 +1,26 @@
+{
+  "instanceId": "1dccc6e4-0726-44d3-a2c5-c921eca1b67a",
+  "title": "Conversation 2026-10-28: the arrangement fixture joins the release gate",
+  "tags": [
+    "conversation",
+    "topic:release-gate",
+    "topic:conformance"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Reviewing srs-rust#1481 (the RFC-043 arrangement conformance runner), Claude Code fixed the runner for the scenarios srs#972 and srs#979 added. The reviewer had escalated the one-line release.yml change that adds arrangement-fixture to the release corpus-conformance gate. The owner kept it, with a review condition: revisit if releases keep getting harder."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-10-28."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
