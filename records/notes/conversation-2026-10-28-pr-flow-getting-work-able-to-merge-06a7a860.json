@@ -1,0 +1,23 @@
+{
+  "instanceId": "06a7a860-1c4d-4d6b-8d81-fa88e0fc2254",
+  "title": "Conversation 2026-10-28: PR flow, getting work able to merge",
+  "tags": [
+    "conversation",
+    "topic:flow",
+    "topic:merge",
+    "topic:pr-upkeep"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "Summary",
+      "content": "The owner had spent two hours unpicking PRs and asked to look at the flow work in srs-programme. Agent reading of PR history 2026-10-26..28: srs-programme PRs merge within the hour, srs and srs-rust PRs wait ~17h and most carry follow-up commits. Three causes: strict 'require up to date' branch protection plus a quorum tied to the exact head stalls working-group PRs (upkeep never updates them, clerk lib/practice/upkeep.mjs:92); sibling tasks of one issue run in parallel and append to one file (srs#979/#980/#981, conformance/arrangement/scenarios.json); duplicate issues produce duplicate PRs (srs-rust#1470 and #1498 fix the same ADR-011 bullet). Suggested: problem SP-124, findings, remedies (quorum survives a base merge; a sequence frees its next task only when the previous merges; append-heavy fixtures get one file per entry). Cleanup: srs-rust#1470 closed as superseded, srs#980 rebased."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

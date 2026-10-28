@@ -1,0 +1,25 @@
+{
+  "instanceId": "247e4ca6-7b3d-46eb-b28c-917a00ae3c54",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-125",
+    "title": "Agent PRs collide and go stale, so the owner spends their time making work mergeable",
+    "statement": "Agents finish work, but on srs and srs-rust their pull requests fall behind master, collide with each other's files, or duplicate each other, and nothing in the flow repairs that. I spend hours unpicking PRs so they can merge instead of directing the work, so the work does not really flow.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-28: vignette 913a3db6 (I've just spent two hours unpicking prs again)",
+      "Findings 2026-10-28 (conversation 556b3034)"
+    ]
+  },
+  "createdAt": "2026-10-28T18:00:41.372275299+00:00",
+  "updatedAt": "2026-10-28T18:00:41.372283616+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
