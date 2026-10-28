@@ -1,0 +1,27 @@
+{
+  "instanceId": "fed4eeb4-c815-4a7c-a051-543bd5b84258",
+  "tags": [
+    "conversation",
+    "vignette",
+    "publishing",
+    "musrs"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-28, on muDemocracy.org PR #396 (the coherence fix that would re-publish transcripts):\n\n\"ok. This is my blocker for this weeks most important work. Lets find a way through.\n\nTranscripts should not end up fully published.\nWe don't really have a way to prevent a spedcific type of content from getting published. But this means that we should probably only list sources that are cited.\n\nLets look at options for this. Publishing only cited resources is probably the right option anyway.\n\nA1. An essay should have all the various elements it needs in it's own container. We should eaily be able to export an essay - and all relevant content should be immediately availbale.\n\nA2: How are we publishing notes at the moment?\nI'm not sure that we should automatically publish everything in the musrs to the website.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Recorded verbatim by Claude Code in the RFC-051/052 delivery conversation, 2026-10-28. Context: muDemocracy.org#395 / PR #396 (asks A1 document-state records, A2 note homes)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code (recording the owner verbatim, 2026-10-28)"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
