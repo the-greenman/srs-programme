@@ -1,0 +1,28 @@
+{
+  "id": "fc28c45f-ecf2-4ded-b152-f9cbf93074c4",
+  "namespace": "com.semanticops.comments",
+  "name": "kind",
+  "version": 1,
+  "description": "What kind of comment this is: a content kind, or a response kind that answers another comment.",
+  "aiGuidance": {
+    "purpose": "Content kinds (question, objection, evidence, suggestion, task) comment on a record that is not a comment. Response kinds (agree, disagree, done, rejected, withdrawn) comment on the comment they answer, and only response kinds may target a comment (ruling ff946eb1). agree and disagree are a writer's verdict (the thumbs); done and rejected settle a task, with the text as the reason; withdrawn clears the author's verdict or reopens the task. The current verdict or task state is the latest response by that author; changing one's mind is a new response, never an edit or a deletion. Read the responses before commenting again, and never propose a rejected task again. Optional: a comment with no kind is a plain comment."
+  },
+  "fieldType": {
+    "datatype": "string",
+    "cardinality": "single",
+    "valueDomain": "closed",
+    "allowedValues": [
+      "question",
+      "objection",
+      "evidence",
+      "suggestion",
+      "task",
+      "agree",
+      "disagree",
+      "done",
+      "rejected",
+      "withdrawn"
+    ]
+  },
+  "createdAt": "2026-10-28T00:00:00Z"
+}
