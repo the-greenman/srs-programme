@@ -1,0 +1,26 @@
+{
+  "instanceId": "06404989-fca0-4dfe-a926-64495741584a",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A decision for a session is proposed at birth, the gate refuses a stuck draft, and a new decision is checked against the ones already taken",
+    "move": "Three changes, all in the clerk:\n1. A decision written for a session is proposed when it is created. The handbook and every brief that writes decisions say so, with the transition.\n2. clerk check, which the Validate workflow runs on every programme PR, fails on a governance/decision whose status field says proposed while its lifecycle is draft. It warns on any draft in a decision log older than a day, so a PR cannot merge a decision the session will never see. The desk lists remaining drafts under Threads.\n3. pr-check runs the srs similar check on each decision record a PR adds against the decision log. A close match is reported as cite, do not re-ask (decision 4445b9cf), naming the earlier decision.",
+    "does_not_fix": "It does not ratify anything: ratification stays in the session. It does not find decisions recorded outside the decision log (SP-127, clerk#238).",
+    "falsifier": "After a month, a decision is again found in draft with status proposed, or the owner again restates a decision that is already recorded.",
+    "source_ref": [
+      "Owner, 2026-10-28: vignette 36c0549e (how do we keep having decisions stay drafts; the same decision coming back)",
+      "Finding eb00c2d7 (decisions marked proposed stay in draft)",
+      "clerk lib/practice/agenda.mjs:14 (agenda reads lifecycle proposed only)"
+    ]
+  },
+  "createdAt": "2026-10-28T20:32:04.171769341+00:00",
+  "updatedAt": "2026-10-28T20:32:04.171779659+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
