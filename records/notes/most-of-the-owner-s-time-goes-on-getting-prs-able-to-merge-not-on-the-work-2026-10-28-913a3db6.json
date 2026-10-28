@@ -1,0 +1,27 @@
+{
+  "instanceId": "913a3db6-c4e8-4d88-9699-1e22f2d1d54f",
+  "title": "Most of the owner's time goes on getting PRs able to merge, not on the work (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:flow",
+    "topic:merge"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "ok... lets look at the work we set up in srs-programme to work out how to keep things flowing. \nI've just spent two hours unpicking prs again. We are not really getting work flowing if most of what I do is getting work able to merge"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28, opening a review of the flow machinery set up in srs-programme; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,24 @@
+{
+  "instanceId": "2ea3eb56-0bea-4b26-a5ab-fef3b46b8815",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Two issues for one fix produce two PRs, and the second goes stale",
+    "summary": "srs-rust#1342 (PR #1470, opened 2026-10-24) and srs-rust#1494 (PR #1498, merged 2026-10-27) both correct ADR-011's Neutral bullet on the schemars dependency. #1498 merged; #1470 then sat CONFLICTING with seven master merges and nothing left to add.",
+    "evidence": [
+      "srs-rust#1470 ∩ #1498 files: docs/adr/011-cli-output-contract.md",
+      "srs-rust#1470 mergeStateStatus DIRTY, 2026-10-28"
+    ],
+    "body": "- The filing rule (search before filing) existed and did not stop the second issue.\n- The overlap is visible to clerk pr-tree (same-file edge) only once both PRs are open, too late to save the work."
+  },
+  "createdAt": "2026-10-28T18:00:41.264458101+00:00",
+  "updatedAt": "2026-10-28T18:00:41.264464685+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
