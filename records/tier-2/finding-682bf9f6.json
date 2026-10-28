@@ -1,0 +1,27 @@
+{
+  "instanceId": "682bf9f6-f0c0-4eef-a960-42abb2165b6c",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The zodiac and compass construction is re-derived and recorded in error, instead of cited from the owner's canon",
+    "summary": "The owner has described the compass construction in at least eight vignettes (2026-10-23) and again on 2026-10-28, and says it has been recorded in error repeatedly (vignette 9a255ae4). Derived records restated it instead of citing it, and the errors repeated:\n- srs-context cc05d4c9 mapped the compass onto T3 axis names and swapped lines 1 and 3;\n- on 2026-10-28 an agent called a fractal domain's axes the compass, then stated a trigram-line reading as fact (b326b3fb, srs-context#90).",
+    "evidence": [
+      "Vignettes 4a05c30b, 6691a910, b0e5ce97, 8dbbdb0e, 492e5e56, 5708b442 (2026-10-23); 9a255ae4 (2026-10-28)",
+      "srs-programme#320 and #321; srs-context#90; srs-context concept cc05d4c9 history"
+    ],
+    "body": "- Canon now in one place: srs-context concept cc05d4c9, rewritten from the owner's words with each vignette cited, beside the Pattern Grid (srs docs/charter/decision-compass.md).\n- An srs-context trap (dfacefd2, in the brief) and a bench task test that agents cite the canon instead of re-deriving it.\n- This is a Learn and remember stop: what the owner settled was not carried forward, so it was relearned, and relearned wrongly."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-10-28T20:20:26.745621216+00:00",
+  "updatedAt": "2026-10-28T20:20:26.745624668+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
