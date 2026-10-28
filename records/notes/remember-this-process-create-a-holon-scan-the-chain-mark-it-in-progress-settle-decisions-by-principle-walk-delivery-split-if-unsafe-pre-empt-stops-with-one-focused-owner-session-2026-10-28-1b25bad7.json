@@ -1,0 +1,29 @@
+{
+  "instanceId": "1b25bad7-df7b-4410-bf60-50798cdc136c",
+  "title": "Remember this process: create a holon, scan the chain, mark it in progress, settle decisions by principle, walk delivery, split if unsafe, pre-empt stops with one focused owner session (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:holon",
+    "topic:flow",
+    "topic:delivery"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "This process feels like one that we should remember. \n\nCreating a holon of work. \nIdentifying all the items in the chain\nMarking it as an in progress unit\nIdentifying any decisions and applying principles \nWalking through the process that would be required to deliver the holon\n(Split holon if there is no way to deliver it safely)\nPreemptively addressing issues ( using owner attention in one focussed session... Not split over pieces of the delivery)"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28, while the affirmation unit (semanticops.com#42) was being driven; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
