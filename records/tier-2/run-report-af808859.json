@@ -10,10 +10,10 @@
     "chose": "Closed the cycle 2026-10-27 11:30 to 2026-10-28 11:30 UTC. Nothing changed: no group PR merged, no decision awaited assent (no group session held), no new escalation. Two group PRs stay open: srs-web#630 (green, approved by editor-reviewer, gate:owner-merge, waiting for the owner's merge) and srs-rust#1472 (session AttentionState; rejected on red Schema Drift at 0fd4d69, no push since 2026-10-25, branch behind master). srs-web#567 is needs-input. The 2026-10-27 report has no thumbs-up yet; pause state is ok. I1 for the period was already written this morning by the other group's steward (74b7cd7d): 0/1 grounded to a problem; evaluator pending, the owner's to give.",
     "rationale": "No new escalation: nothing outside the role's boundary was stopped on. The two items waiting on the owner (the surface question on srs-rust#1472, the muDemocracy.org essay package change after ruling 5d5feb79) were raised in earlier reports and are repeated as still open.",
     "figures": "Delegated merges (group-state): 0 of 10; 1 open. Merged this cycle: 0. Open: srs-web#630, srs-rust#1472. Ready + wg:agent-editor issues: 2 (srs-web#525; semanticops.com#14, blocked). Needs-input: srs-web#567. Build trigger srs-web#560 stays reached.",
-    "landed_as": "PR_URL_PLACEHOLDER"
+    "landed_as": "https://github.com/the-greenman/srs-programme/pull/309"
   },
   "createdAt": "2026-10-28T11:41:48.935942816+00:00",
-  "updatedAt": "2026-10-28T11:41:48.935953250+00:00",
+  "updatedAt": "2026-10-28T11:42:31.642790045+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:editor-steward",
