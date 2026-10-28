@@ -1,0 +1,30 @@
+{
+  "instanceId": "af1c9258-2cae-4ee3-a4c5-d8984227cd11",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A review approves a change, not a commit: a quorum holds while the PR's own diff is unchanged",
+    "decision_question": "When a working-group PR's head moves after its quorum only because the default branch was merged in (or the branch rebased) and the PR's own diff is unchanged, does the quorum still hold?",
+    "context": "Answers: SP-125 (suggested). The quorum names the exact head SHA it reviewed (clerk lib/practice/upkeep.mjs:29), so any new commit voids it. srs, srs-rust, srs-programme and clerk require branches to be up to date (strict protection), so every merge leaves the other open PRs BEHIND. Upkeep therefore never updates a group PR (upkeep.mjs:92), and when anyone does, the reviewer routine re-reviews from scratch (routines/wg-reviewer.md step 2 compares dates). Group PRs loop: update, re-review, master moves, update. On 2026-10-28 the owner spent two hours unpicking PRs (vignette 913a3db6) and asked for the quorum rules to change (vignette 7f6efc3a). GitHub merge queue is unavailable: the-greenman is a personal account.",
+    "alternatives_considered": "1. Keep the exact-head rule. Leads to: group PRs wait on a reviewer run after every merge elsewhere; the owner keeps updating and merging by hand.\n2. Switch off strict protection on srs and srs-rust. Leads to: no BEHIND state, but a PR is merged on checks that ran against an older master; two PRs that each pass alone can break master, caught only after the fact.\n3. A quorum holds while the PR's own diff is unchanged (chosen). Leads to: upkeep keeps group PRs current and merges them on green with no new review; the head still passes the required checks; a diff that changed still needs a reviewer.\n4. Arm native auto-merge on group PRs. Leads to: merges between upkeep runs, but skips the budget and pause checks at merge time.",
+    "key_requirements": "Required checks still pass on the head that merges; an unreadable or truncated comparison never carries a quorum (fail closed); upkeep, the desk and the reviewer routine read one verdict.",
+    "decision_statement": "A working-group quorum approves the PR's change: the diff from the merge base to the reviewed commit. It holds on a later head whose own diff (merge base to head) is the same, file by file and line by line, ignoring hunk offsets. A head whose own diff differs, by a conflict resolution or any edit, is unreviewed. The carry applies only in a repository whose default branch requires status checks, so the head that merges has passed them. Upkeep may update a group PR's branch, and the reviewer does not re-review a head its quorum carries to.",
+    "rationale": "Merging the default branch in changes what the PR is tested against, not what the reviewer judged; the required checks already cover the first. Binding approval to the change removes the update and re-review loop without weakening either the review or the gate.",
+    "revisit_when": "A carried quorum lets through a change a reviewer would have rejected, or after a week group PRs on srs and srs-rust still wait more than a day after a green quorum (remedy 2b1011ab falsifier).",
+    "next_steps": "the-greenman/clerk#235 implements it: sameChange in lib/practice/upkeep.mjs, compare reads in the adapters, upkeep updates group PRs, a clerk quorum command, reviewer brief step 2, handbook records. Then bump the clerk pin in srs-programme.",
+    "owner": "human:the-greenman",
+    "status": "proposed",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-28T18:20:08.115582826+00:00",
+  "updatedAt": "2026-10-28T18:21:24.584093267+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
