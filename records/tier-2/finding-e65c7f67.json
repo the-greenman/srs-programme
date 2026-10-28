@@ -6,16 +6,16 @@
   "typeName": "finding",
   "fieldValues": {
     "title": "Semantic records puts compass axes from two diagonals on the same line; only its Change line holds one modality",
-    "summary": "Read by the diagonals (owner, vignette cad03157), each line of a domain holds the compass axes of one modality, since opposite cells share one. The diagonals are Cardinal {Versioning and Reference, Attribution and Repository}, Fixed {Identity and Assertion, Succession and Conformance} and Mutable {Description and Governance, Containment and Portability}. clerk domains (2026-10-28) shows Semantic records placing:\n- Action: Attribution and Repository (Cardinal) and Description and Governance (Mutable, set aside);\n- Change: Identity and Assertion and Succession and Conformance (both Fixed);\n- Perspective: Containment and Portability (Mutable) and Versioning and Reference (Cardinal).\nThe domain's own three axes are one per modality (Attribution and Repository on Action, Identity and Assertion on Change, Containment and Portability on Perspective), which reads Action as Cardinal and Perspective as Mutable. By that reading, Versioning and Reference belongs on Action and Description and Governance on Perspective.",
+    "summary": "Read by the diagonals (owner, vignette cad03157), each line of a domain holds the compass axes of one modality, since opposite cells share one. The diagonals are Cardinal {Versioning and Reference, Attribution and Repository}, Fixed {Identity and Assertion, Succession and Conformance} and Mutable {Description and Governance, Containment and Portability}. clerk domains (2026-10-28) shows Semantic records placing:\n- Action: Attribution and Repository (Cardinal) and Description and Governance (Mutable, set aside);\n- Change: Identity and Assertion and Succession and Conformance (both Fixed);\n- Perspective: Containment and Portability (Mutable) and Versioning and Reference (Cardinal).\nThe domain's own three axes are one per modality (Attribution and Repository on Action, Identity and Assertion on Change, Containment and Portability on Perspective), which reads Action as Cardinal and Perspective as Mutable. By that reading, Versioning and Reference would sit on Action and Description and Governance on Perspective.",
     "evidence": [
       "clerk domains --repo srs-programme, 2026-10-28 (Semantic records block; warnings: 3 tensions on line Perspective, 2 on Action, 3 on Change)",
       "srs/docs/charter/decision-compass.md, The Pattern Grid (diagonal sets)",
       "Each of these tensions exists twice as a record (finding 85e2be48)"
     ],
-    "body": "- This is a suggestion for the affirmation layer, not a correction: which line each modality takes is the owner's to affirm. The agent's reading comes from the domain's own axis choice.\n- The clerk's duplicate-or-inner/outer warnings on these lines may be this mixing, not duplication.\n- Related slip: srs-context concept cc05d4c9 records an earlier mapping that swapped lines 1 and 3."
+    "body": "- Held as a reading to test, not a change (owner, vignette 3de9323b): nothing is moved or set aside on it. Shared understanding evolves gradually; the dream cycle watches readings like this one and tests them against later work.\n- This is a suggestion for the affirmation layer, not a correction: which line each modality takes is the owner's to affirm. The agent's reading comes from the domain's own axis choice.\n- The clerk's duplicate-or-inner/outer warnings on these lines may be this mixing, not duplication.\n- Related slip: srs-context concept cc05d4c9 records an earlier mapping that swapped lines 1 and 3."
   },
   "createdAt": "2026-10-28T19:51:38.258583556+00:00",
-  "updatedAt": "2026-10-28T19:51:38.258587643+00:00",
+  "updatedAt": "2026-10-28T19:58:14.884275689+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",
