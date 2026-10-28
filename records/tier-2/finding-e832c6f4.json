@@ -13,6 +13,9 @@
     ],
     "body": "Not questions (should be blocked, parked or returned to an agent): srs-rust#1198, srs-rust#683, srs-rust#1339, muDemocracy.org#391, srs-rust#1132, srs-rust#1380.\n\nDecided on principle the same day at the owner's instruction (vignette 431e12d6), each with a comment citing its rule: srs#236 (tighten names now), srs#244 (park), srs#911 (open the RFC), srs-rust#1184 (workflow_dispatch, no secret), srs-rust#1288 (render flag, not exportConfig), srs-rust#1289 (closed as done), srs-rust#861 (split A/B/C), srs-web#513 (narrowed), srs-web#562 (re-scoped), srs-programme#38 (a clerk command), clerk#25 (group cycle; judgement left pending).\n\nBorderline, left for the owner: srs#928, srs-web#260, srs-web#567; srs-rust#1342 waits on proposed policy 84d873ce.\n\nReal questions: srs-rust#1264 (axis 5-11 Reliability against axis 2-8 Evolution), srs#931 (identifier over label against reliability), srs#851 (RFC-050 acceptance, Door 2).\n\nThe six claims on needs-input issues were released the same day; srs-programme#189's answered question became a blocked-by edge on srs-rust#1473."
   },
+  "tags": [
+    "decision-stop"
+  ],
   "createdAt": "2026-10-27T13:04:08.908997578+00:00",
   "updatedAt": "2026-10-27T13:04:08.909002439+00:00",
   "createdBy": {

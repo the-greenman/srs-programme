@@ -1,0 +1,22 @@
+{
+  "instanceId": "5c718524-21ab-4b69-bbcc-e75bfedf0312",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "D1. Arise: where decisions appear, and what we tried",
+    "thinking_reached": "The ideal: a choice is noticed where it arises and named as a choice, not left in prose. What we have: decision language in PR bodies is caught by clerk pr-check (srs-decisions block); issues carry needs-input; conversations carry vignettes; sessions carry asks.",
+    "tensions": "Notice every choice, and let small choices pass unrecorded.",
+    "unresolved_questions": "Which arising points produce choices that are never recorded? (count decision-stop findings here)",
+    "next_action": "Record decision-stop findings at this stage as they are met."
+  },
+  "createdAt": "2026-10-28T19:30:14.779774392+00:00",
+  "updatedAt": "2026-10-28T19:30:14.779781308+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

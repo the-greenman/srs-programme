@@ -1,0 +1,29 @@
+{
+  "instanceId": "5f271974-9572-424e-8418-8413d6b80b24",
+  "title": "Sense the nested and parallel domains decisions belong to; keep watching, merge from experience (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:decision-flow",
+    "topic:domains",
+    "topic:boundaries"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "We need to be actively detecting the nested and parallel domains where decisions are relevant. \n\nWe need to be able to see what the relevant boundary for any decision is, and, if we keep hitting them, then we should be able to start to define domains that are relevant .\n\nWe don't want to move the problem to domain definition. We need to sense where domains are needed and keep watching. Domains may need to merge based on experience."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28, opening a decision-flow section parallel to the work-flow map; recorded verbatim (one message, split by thought)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,26 @@
+{
+  "instanceId": "180838bd-e0e1-40b9-90c8-6f4c8752b84f",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-127",
+    "title": "Decisions are scattered over many stores and some are lost in branches",
+    "statement": "Our decisions live in at least seven stores and in PR text and branches, with no index between them. I cannot tell where a decision is recorded or how it got there, cite it reliably, or be sure it was not lost with a branch.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-28: vignette e3069d0d",
+      "Finding: decisions are recorded in at least seven stores with no shared index (2026-10-28)",
+      "source-documents/archaeology-2026-10-08"
+    ]
+  },
+  "createdAt": "2026-10-28T19:30:16.224747546+00:00",
+  "updatedAt": "2026-10-28T19:30:16.224750772+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

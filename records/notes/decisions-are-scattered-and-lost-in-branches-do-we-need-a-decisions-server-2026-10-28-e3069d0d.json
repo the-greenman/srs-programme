@@ -1,0 +1,28 @@
+{
+  "instanceId": "e3069d0d-b169-485d-836b-139e58a72923",
+  "title": "Decisions are scattered and lost in branches; do we need a decisions server? (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:decision-flow",
+    "topic:decision-stores"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Work flow and decision flow are very related.\n\nBut we also have decisions scattered all over the place. We need to know where they are recorded and how they got there. We need to be able to reference them... And not loose them in branches.\n\nIf we get enough evidence, do we need an architecture for some kind of decisions server?"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28, opening a decision-flow section parallel to the work-flow map; recorded verbatim (one message, split by thought)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

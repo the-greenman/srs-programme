@@ -1,0 +1,33 @@
+{
+  "instanceId": "199dd369-80b1-464d-a356-3e602eb7f176",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Every decision names the boundary where it removes choices, and every agent records where decision flow stops",
+    "decision_question": "When an agent meets a decision, what does it record so that we see the level where it matters, sense the domains we lack, and learn where decisions stop?",
+    "context": "On 2026-10-28 the owner asked for a decision-flow section parallel to the work-flow map (vignettes 3e076051, 6606adfe, 5f271974, e3069d0d, 60d0e55c). Evidence: none of the 109 decisions in the programme log records its domain or level; 14 are design-kind technical choices in the strategy log (01cfb06e); 15 of 24 needs-input questions were already answered by principles (e832c6f4); decisions sit in at least seven stores with no index (finding 30c861a3). srs and srs-rust settle most choices by the decision compass and ADR-048 (41 of 54 rfc-decisions cite it); the programme has no equivalent in use. The section is container 68b6eb64-c628-4ea2-bf53-3e1051f6fe75 (six stages). Parallel to proposed decision fbba3d5e (work-flow stops).",
+    "alternatives_considered": "1. Do nothing: decisions keep no level. Leads to: technical choices keep reaching the owner, domains are guessed, decisions keep vanishing on a principle review only after reaching the owner.\n2. Define the domain hierarchy first, then place decisions. Leads to: the problem moves to domain definition, which the owner rejects (vignette 5f271974).\n3. Place every decision by boundary and record its stops (chosen). Leads to: a domain link where one exists, a plain boundary tag where none does; recurring boundaries are counted and proposed as domains; stops counted per stage.\n4. A decisions server now. Leads to: one store, but built before the evidence that the index (remedy af3b7a6c) would give.",
+    "key_requirements": "No domain is created just to place a decision; the boundary is named in plain words when no domain exists; recording never blocks the decision; repeats add evidence, not records.",
+    "decision_statement": "Placement. When any agent proposes, applies or finds a decision, its record names the boundary where it removes choices: a link to the domain when one exists, otherwise a tag boundary:<slug> naming the boundary in plain words. Shown above or beside its level (a strategy session, another group's desk), it is context there, not a decision to make.\nStops. When a decision vanished once a principle was applied, reached a level that is not its own, could not be found or lived only in a branch or PR text, was asked again, or was contradicted by practice, the agent records a com.semanticops.programme/finding in Suggestions, tagged decision-stop. The finding has dated evidence and evidences the stage of the decision flow (container 68b6eb64-c628-4ea2-bf53-3e1051f6fe75) where the decision stopped, and the problem behind it. A repeat of a known stop is added as evidence. Before escalating, the agent applies the compass and the recorded principles (remedy e120cf12).\nDomains. A boundary tag that keeps recurring is brought to affirmation review as a candidate domain; domains whose decisions keep crossing are proposed for merging. Agents never create a domain to place a decision.",
+    "rationale": "A decision removes choices only where it is relevant (owner, vignette 6606adfe). Naming the boundary at the point of decision costs a line and lets each level see only its own decisions; counting boundaries and stops senses the domains and the failure points from experience instead of designing them first.",
+    "revisit_when": "After a month: boundary tags do not converge, or decision-stop findings are rare while the owner still receives decisions below their level. Or the index shows losses a decisions server would prevent.",
+    "next_steps": "Handbook text beside Recording where flow stops; a pointer in the srs-context brief; the decision index (remedy af3b7a6c) as a clerk issue; existing decisions are placed as they are next cited.",
+    "owner": "human:the-greenman",
+    "status": "proposed",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "tags": [
+    "boundary:programme-practice"
+  ],
+  "createdAt": "2026-10-28T19:31:00.592130073+00:00",
+  "updatedAt": "2026-10-28T19:31:00.774869707+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

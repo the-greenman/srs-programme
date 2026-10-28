@@ -1,0 +1,25 @@
+{
+  "instanceId": "056adebb-a76f-4a98-95e8-1dc8120f385f",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-126",
+    "title": "A decision is shown where it removes no choices, because its level and domain are not recorded",
+    "statement": "A decision removes future choices only in the domain where it is relevant. Ours do not say where that is, so technical choices land in my strategy sessions as noise, and I cannot see which boundaries keep being hit or where a domain is missing.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-28: vignettes 6606adfe and 5f271974",
+      "Finding: no decision records the level or boundary where it removes choices (2026-10-28)"
+    ]
+  },
+  "createdAt": "2026-10-28T19:30:16.127292931+00:00",
+  "updatedAt": "2026-10-28T19:30:16.127299477+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
