@@ -1,0 +1,28 @@
+{
+  "instanceId": "47205709-44f0-4ae4-81ba-993abc4bb502",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A spec fixture landed before the implementation's runner could read it, and srs-rust master went red",
+    "summary": "srs-rust#1481 added a test that runs srs master's conformance/arrangement/scenarios.json. srs#981 then merged nine scenarios using shapes the runner does not know (members-move, members-add, expectedSectionOrder, expectedValidateUnchanged, a retired-key refusal code). srs-rust master CI went red at 17:52 UTC on 2026-10-28, and every srs-rust PR's Test check failed with it, srs-rust#1487 included.",
+    "evidence": [
+      "srs-rust CI run 40739834351 (master push, 17:52 UTC): 9 of 30 arrangement scenarios failed",
+      "srs-rust#1487 Test failed at 18:10 for the same 9",
+      "srs#980 adds two more shapes (composition create, expectedDiagnosticContains)"
+    ],
+    "body": "- The PR guard asked for runner first, fixture second; srs#981 merged the fixture first.\n- The cost spreads: one spec PR stops every implementation PR until the runner catches up.\n- Fix in hand: one srs-rust PR teaching the runner every shape, before srs#980 (another session, 2026-10-28)."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-10-28T19:13:25.920685628+00:00",
+  "updatedAt": "2026-10-28T19:13:25.920690819+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,30 @@
+{
+  "instanceId": "fbba3d5e-d5b5-49ea-b92e-496d53ef32a4",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Every agent records where flow stops, at the stage it stopped, so stops are counted and remedied",
+    "decision_question": "When an agent finds that work has stopped, what does it record, and where, so that we learn which stage stops us and why?",
+    "context": "On 2026-10-28 the owner spent two hours unpicking PRs (vignette 913a3db6); the causes were found only by reading PR history afterwards. The flow map (container 165f3a6e) names nine stages, each with an exercise \"what we tried and where we went too far\", but only the 2026-10-27 model comparison evidences them. Stops found in passing (a red master, a duplicate issue, a stale PR) are fixed or worked around and leave no record, so nothing counts which stage stops most or which remedy would help. The owner asked for a standing rule (vignette 82e8b452).",
+    "alternatives_considered": "1. Do nothing: stops are fixed where found. Leads to: each stop is rediscovered; no data per stage; remedies are argued from memory.\n2. A dedicated routine audits flow daily (as the flow keeper does for issues). Leads to: a second view of the same history, late, and only of what GitHub shows; agents who saw the cause do not record it.\n3. Every agent records the stop it meets, at its stage (chosen). Leads to: the record is written by whoever has the cause in hand, counted per stage by a query; a small cost on every agent.\n4. A new flow-stop type with stage and cause fields. Leads to: stricter data, but a package change before we know which fields matter.",
+    "key_requirements": "Written by the agent that met the stop, at the time; counted per stage and per cause; never blocks the fix; uses existing types and relations until the data shows which fields matter.",
+    "decision_statement": "Any agent that finds work stopped (a PR that cannot merge, a gate red for a reason outside its change, an issue nobody can take, duplicate work, work waiting on the owner that asks nothing, a routine that did not run) records the stop before or while working round it. It writes a com.semanticops.programme/finding in Suggestions, tagged flow-stop, with dated evidence (refs, times, counts). The finding evidences the exercise of the flow-map stage where the work stopped (one of the nine stages in 165f3a6e), and the problem that holds the cause, suggesting one when none does. When a flow-stop finding already names the same cause, the agent adds the new occurrence to its evidence instead of filing a second. When a remedy is obvious it is suggested, answering that problem. Recording a stop never waits on anything and never replaces fixing it.",
+    "rationale": "The agent that met the stop holds the cause; written then, it costs minutes, and the per-stage count turns anecdotes into data for choosing remedies and evolving the practice (Learn and remember).",
+    "revisit_when": "After two weeks: if flow-stop findings are rare while the owner still unpicks work, the rule is not followed; if they are many but no remedy changed, the data is not read. Either way, review at an affirmation or session meeting.",
+    "next_steps": "Clerk handbook: a \"Recording where flow stops\" section under Keeping the flow (with the query). Pointers in srs-programme CLAUDE.md and the srs-context handbook convention. Follow-up: a per-stage count of flow-stop findings on the desk.",
+    "owner": "human:the-greenman",
+    "status": "proposed",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-28T19:13:59.730501257+00:00",
+  "updatedAt": "2026-10-28T19:13:59.910316027+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
