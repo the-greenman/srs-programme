@@ -1,0 +1,28 @@
+{
+  "instanceId": "fdc74e98-6a33-4341-8392-05ec31f05bc0",
+  "title": "Every semanticops domain is an entry point; srs-rust needs its own home (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:agent-onboarding",
+    "topic:sites"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "take a look at https://srs.semanticops.com\n\nDoes an agent arriving for the first time know how to use this quickly?\nI think its missing info on srs-rust\n\nThen .... srs-rust probably needs its own domain and home\n\n---\n\nengine is good.\n\nwe don't need to recod everyhing I say! Just the important elements that give work context.\n\nLets establish a standard way to build the semanticops subdomains, and then make sure that we provide a way for agents to adopt srs simply.\n\nA new agent should be able to start from any semanticops domain, and know how to quickly get up and running.\n"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29; recorded verbatim (two messages). The owner chose engine.semanticops.com as srs-rust's home, macOS and linux-arm64 release builds, and hand-written engine pages first."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
