@@ -1,0 +1,28 @@
+{
+  "instanceId": "28f48868-a4ef-4a12-8903-b61ddab8acbc",
+  "title": "Help is kept as an SRS help repository (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:editor-help",
+    "topic:feature-registry"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "SRS help repo (Recommended)"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29, while planning the third-party-ready essay editor; recorded verbatim (the owner's choice, among three options Claude Code offered for where help items are kept: an SRS help repo, one JSON file per editor, or JSON now and SRS later; the option it named was: one help repository bundled with srs-web, one container per editor and one record per feature, words edited in the editor itself)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

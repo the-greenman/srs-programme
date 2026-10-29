@@ -1,0 +1,29 @@
+{
+  "instanceId": "57b28da1-761c-4342-ba88-131a25008d88",
+  "title": "Domain, persona, problem and remedy: a first-time writer in the agent-assisted editor (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:third-party-ready",
+    "topic:editor-help",
+    "topic:domains"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Lets review the domain, persona, problem and remedy.   This can be in the agent assisted editor domain (but it's aso third party ready in taht domain) this is a first time user who wants to try being in charge of their own content - but use AI. The problem is the concept and tools are not what they are used to so they don't understand what to do. The remedy is to make some help, but allow an agent to help with that too"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29, while planning the third-party-ready essay editor; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

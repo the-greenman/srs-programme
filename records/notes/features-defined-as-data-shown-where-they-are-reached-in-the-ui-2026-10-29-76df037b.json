@@ -1,0 +1,28 @@
+{
+  "instanceId": "76df037b-ccf9-486f-943d-08b2bc5706c4",
+  "title": "Features defined as data, shown where they are reached in the UI (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:editor-help",
+    "topic:feature-registry"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Wwe would need a way to keep a list of features defined (as data) and then show how they weer accessible in the ui."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29, while planning the third-party-ready essay editor; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
