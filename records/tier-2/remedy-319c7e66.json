@@ -1,0 +1,27 @@
+{
+  "instanceId": "319c7e66-d954-4f3f-859b-2fc1f8613c61",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A span can be pointed at, commented on and diffed",
+    "move": "One shared way to name a specific part of the text: a span names the record, the section and the exact words (quoted, so it survives edits), and is the same for the writer, agents and tools. The writer highlights a span to ask for specific feedback; an agent highlights the words it means, and a comment can carry a span. The editor shows each comment beside its highlight and each highlight beside its comment, and dismissing a highlight from its comment (or the comment from the highlight) closes both. The repository diff takes a scope, a span or a set of records, and says what changed inside it down to the words, so a writer or agent can ask what changed there, not only that a record changed. The record-level changes read shipped in srs-rust#1524 is the coarse first slice of this; it keeps its place and gains the scope.",
+    "does_not_fix": "Which paragraph the writer is working in and when agents respond (the focus remedy 800f223f). Citation of a passage in a source document (SP-51), though it should reuse the same span. Review of record file diffs (SP-21).",
+    "falsifier": "A writer highlights words in a paragraph and the agent's reply, or the editor, still cannot show which words it concerns, or an agent asked what changed in one paragraph returns the whole record or every record.",
+    "source_ref": [
+      "vignette:35e35dd2",
+      "vignette:cc042a1d",
+      "srs-rust#1524"
+    ],
+    "return_when": "When a writer has used highlights and span-scoped changes through a writing session and has said whether pointing was precise enough to replace general comments."
+  },
+  "createdAt": "2026-10-29T20:11:24.418892177+00:00",
+  "updatedAt": "2026-10-29T20:11:24.418896452+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
