@@ -1,0 +1,29 @@
+{
+  "instanceId": "811b391c-1dc9-40df-a9db-f2954975739c",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A holon driver session holds no seat, so clerk claim refuses it and earlier holons claimed under the owner's actor",
+    "summary": "Driving holon semanticops.com#49, this local Claude Code session ran clerk claim srs-web#639 --as builder. As agent:claude-code it was refused (\"does not hold the builder seat in WG Agent-supported editor\"). The precedent on #591 and #622 was a claim recorded as human:the-greenman by a session acting for the owner; repeating that was refused by the session's permission check as acting under the owner's identity. The owner's answer: the driver is us. The items were claimed openly as agent:claude-code, driver of #49, by label and claim comment, outside clerk claim.",
+    "evidence": [
+      "srs-web#591 claim comment: Claimed by human:the-greenman as builder (a local session driving semanticops.com#43)",
+      "clerk claim srs-web#640 --as builder --dry-run, 2026-10-29: claude-code does not hold the builder seat in WG Agent-supported editor",
+      "srs-web#639, #640 claim comments, 2026-10-29: Claimed by agent:claude-code as builder, the driver of holon #49",
+      "owner, vignette in conversation f100f41a: Is that not us? What is our holon?"
+    ],
+    "body": "- The holon practice (handbook, Driving a unit (holon) to delivery) names a driver, but clerk claim only knows group seats, so the driver has no way to claim through the tool.\n- Claiming under the owner's actor makes the record say the owner claimed it; the honest record is the session's own actor, named as driver of the holon.\n- Suggested change: clerk claim accepts --as driver when the issue's parent is a Unit (in progress) whose body names the actor as driver."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-10-29T14:15:30.252288990+00:00",
+  "updatedAt": "2026-10-29T14:15:30.252290784+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

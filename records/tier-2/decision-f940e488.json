@@ -18,12 +18,12 @@
     "status": "proposed",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "tags": [
     "boundary:programme-practice"
   ],
   "createdAt": "2026-10-28T21:38:23.108429755+00:00",
-  "updatedAt": "2026-10-28T21:38:23.295028126+00:00",
+  "updatedAt": "2026-10-29T12:36:05.100461430+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

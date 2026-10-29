@@ -1,0 +1,28 @@
+{
+  "instanceId": "5c80bf46-5abc-4ac1-b208-26af816c67ea",
+  "title": "Help items and their words must be maintainable; each editor has its own help (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:editor-help",
+    "topic:feature-registry"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "We need to be able to maintain the items in this help and their words. \nthe different editors will probably want their own help."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29, while planning the third-party-ready essay editor; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

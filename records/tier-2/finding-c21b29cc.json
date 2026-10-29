@@ -1,0 +1,28 @@
+{
+  "instanceId": "c21b29cc-12eb-484d-9ba6-6ec8c3e16445",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A PR stacked on another goes DIRTY when its base is squash-merged",
+    "summary": "srs-web#650 (#641) was stacked on #647 (#639). When the owner squash-merged #647, GitHub re-targeted #650 to main and it went DIRTY: its first commits duplicated the squashed ones. The driver rebased with --onto the merged head, resolving a conflict with #591 that had landed meanwhile.",
+    "evidence": [
+      "srs-web#650 mergeStateStatus DIRTY after #647 merged, 2026-10-29",
+      "git rebase --onto origin/main e5429ce6"
+    ],
+    "body": "- Stacking is the only way to build a chain's later items before review, and squash merges always break it.\n- Suggested change: the holon delivery walk names stacked items and the rebase-onto step after each base merges."
+  },
+  "tags": [
+    "flow-stop",
+    "boundary:holon-delivery"
+  ],
+  "createdAt": "2026-10-29T19:59:18.953072626+00:00",
+  "updatedAt": "2026-10-29T19:59:18.953075364+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

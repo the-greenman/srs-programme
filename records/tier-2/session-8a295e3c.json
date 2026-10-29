@@ -1,0 +1,29 @@
+{
+  "instanceId": "8a295e3c-a86a-47cb-b358-71daa14034c6",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-29 12:34 UTC: SemanticOps",
+    "held_at": "2026-10-29T12:34:08Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-29 12:34 UTC: SemanticOps\nAttendees: Owner\n- Ratified: Every decision names the boundary where it removes choices, and every agent records where decision flow stops [199dd369]\n- Ratified: The three trigram lines are the foundational axes [55997a62]\n- Ratified: Stuck implementation work follows the reviewed ADRs [84d873ce]\n- Ratified: A capability a client needs before the core has it ships as a marked, tracked client stopgap that the core service replaces [880039f3]\n- Ratified: A review approves a change, not a commit: a quorum holds while the PR's own diff is unchanged [af1c9258]\n- Ratified: A concept reaches delivery as one holon: chain scanned, marked in progress, decisions settled by principle, stops pre-empted in one owner session [f940e488]\n- Ratified: Every agent records where flow stops, at the stage it stopped, so stops are counted and remedied [fbba3d5e]\n- Received: WG Agent-supported editor report 2026-10-29\n- Received: WG Third-party ready report 2026-10-29 (comment only)\nActs in the order taken (UTC):\n- 12:34:48Z ratify: Every decision names the boundary where it removes choices, and every agent records where decision flow stops [199dd369] (Decisions since the last session 1 of 7, saw full record, record updated 2026-10-28T19:31:00.774869707+00:00)\n- 12:34:59Z ratify: The three trigram lines are the foundational axes [55997a62] (Decisions since the last session 2 of 7, record updated 2026-10-28T20:26:03.762625176+00:00)\n- 12:35:07Z ratify: Stuck implementation work follows the reviewed ADRs [84d873ce] (Decisions since the last session 3 of 7, record updated 2026-10-28T20:26:03.858674182+00:00)\n- 12:35:17Z ratify: A capability a client needs before the core has it ships as a marked, tracked client stopgap that the core service replaces [880039f3] (Decisions since the last session 4 of 7, record updated 2026-10-28T16:52:43.122563879+00:00)\n- 12:35:24Z ratify: A review approves a change, not a commit: a quorum holds while the PR's own diff is unchanged [af1c9258] (Decisions since the last session 5 of 7, record updated 2026-10-28T18:21:24.584093267+00:00)\n- 12:35:27Z ratify: A concept reaches delivery as one holon: chain scanned, marked in progress, decisions settled by principle, stops pre-empted in one owner session [f940e488] (Decisions since the last session 6 of 7, record updated 2026-10-28T21:38:23.295028126+00:00)\n- 12:35:35Z ratify: Every agent records where flow stops, at the stage it stopped, so stops are counted and remedied [fbba3d5e] (Decisions since the last session 7 of 7, record updated 2026-10-28T19:13:59.910316027+00:00)\n- 12:35:41Z receive: WG Agent-supported editor report 2026-10-29 [d862e5de] (Reports 1 of 2)\n- 12:35:57Z receive: WG Third-party ready report 2026-10-29 [comment:] (Reports 2 of 2)"
+  },
+  "createdAt": "2026-10-29T12:36:03.404982303+00:00",
+  "updatedAt": "2026-10-29T12:36:03.404986432+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "f4682098-65e4-4853-9db5-5195085b385c",
+      "sourceRole": "attaches"
+    }
+  ]
+}

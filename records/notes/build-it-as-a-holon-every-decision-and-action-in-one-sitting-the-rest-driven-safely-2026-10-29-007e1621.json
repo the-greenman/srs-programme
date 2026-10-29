@@ -1,0 +1,28 @@
+{
+  "instanceId": "007e1621-b23b-413c-b191-e0e360e539ad",
+  "title": "Build it as a holon: every decision and action in one sitting, the rest driven safely (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:flow",
+    "topic:holon"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "then, the next part of the plan should be to build this as a holon. We need to work out all the required decisions and actions so that they can be performed in one sitting and the rest of development driven safely"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29, while planning the third-party-ready essay editor; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

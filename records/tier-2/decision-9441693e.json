@@ -1,0 +1,32 @@
+{
+  "instanceId": "9441693e-ec30-4acc-a4b9-56a90feb67d1",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Every editor carries its own help as data, joined to its UI by feature id, and agents may point at the UI but never write through it",
+    "decision_question": "How does an editor explain itself to a first-time writer and to that writer's AI, so the words can be maintained and cannot drift from the UI?",
+    "context": "The owner wants to share the essay editor with people who have never seen it (SP-130, affirmed; remedy 44a6f76d, affirmed 2026-10-29), with help on first open, connecting their AI explained first, and their AI able to teach the editor and point at it. The owner asked for features defined as data, maintainable words, help per editor, a standard so features know their own help, and no drift (conversation f100f41a, vignettes 76df037b, 5c80bf46, 5ab40a97), and chose an SRS help repository among three options (vignette 28f48868). Unit semanticops.com#49 delivers it for the essay editor (srs-web#639-#643).",
+    "alternatives_considered": "1. Help as JSON or markdown files per editor, edited through PRs. Leads to: least code, but the words live in source, not as records, and are maintained only by developers.\n2. Help text inside components. Leads to: features literally carry their help, but words are scattered through code and no agent manual exists apart from the UI.\n3. Help as an SRS repository, one container per editor, joined to components by a feature id, with a CI contract (chosen). Leads to: words maintained in the editor itself, one source for the help dialog, the agent manual and highlighting; a build failure when help and UI part.",
+    "decision_statement": "Help is data. Every editor in srs-web that offers help keeps it in one SRS help repository bundled with the app: one record per feature (a stable feature id, the words a person reads, guidance for an agent, and whether it has a place in the UI), one container per editor whose entry order is the order shown; help shared by several editors is one record, a member of each of their containers. The words are maintained by opening that repository in the editor.\nComponents name, words don't live in code. A component declares the feature it presents by its id and never holds help text. CI fails when a declared feature has no help, when help with a UI place names a feature nothing presents, or when an id is used twice. Whether the words are still true is a review duty, prompted in the PR template.\nAgents point, never write. The same records are the agents' manual: the host answers read-and-point tools (read the help; highlight a feature or paragraph on screen) itself, as presentation, and these tools never change the document.\nThe help record type stays in the help repository's own package until a second consumer needs it.",
+    "rationale": "One source drives the person's help, the agent's manual and the highlight, so they cannot disagree; the feature id is the join, so code and words each stay in their own place and a machine check can see when they part. Keeping help as records is the system's own practice: meaning in records, maintained in the editor.",
+    "revisit_when": "A second consumer of the help type appears outside srs-web; or the contract check is routinely bypassed; or a first-time writer with only the link still cannot connect their AI or write a paragraph unaided (the remedy's falsifier).",
+    "next_steps": "Build srs-web#639 (repository and contract), #640 (link), #641 (essay words, owner-approved), #642 (dialog), #643 (agent tools); other editors adopt by adding a container and feature ids.",
+    "owner": "human:the-greenman",
+    "status": "proposed",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "tags": [
+    "boundary:editor-help"
+  ],
+  "createdAt": "2026-10-29T13:51:37.704222109+00:00",
+  "updatedAt": "2026-10-29T13:55:40.206395905+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
