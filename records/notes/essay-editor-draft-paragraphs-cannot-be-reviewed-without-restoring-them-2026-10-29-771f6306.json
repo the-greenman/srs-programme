@@ -1,0 +1,28 @@
+{
+  "instanceId": "771f6306-d046-42ba-9dc2-61dae990b4bc",
+  "title": "Essay editor: draft paragraphs cannot be reviewed without restoring them (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essay-editor",
+    "topic:drafts"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The essay editor allows me to move paragraphs into draft. But there is no way to  review the paragrahphs there. This means that I have to restore them to see what's in them. \n\nIn a complex essay, I need to be able to switch paragraphs in antd out to see how they flow. If I cannot see them, I can loose my place. I need to be able to expand or preview a draft paragraph without restoring it."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29; recorded verbatim (one message)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
