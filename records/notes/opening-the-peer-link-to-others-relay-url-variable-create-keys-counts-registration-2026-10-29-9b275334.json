@@ -1,0 +1,28 @@
+{
+  "instanceId": "9b275334-55a4-4cce-b7fc-1ca014df87e5",
+  "title": "Opening the peer link to others: relay URL variable, create keys, counts, registration (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:relay",
+    "topic:agent-collaboration",
+    "topic:registration"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "what if someone else wants to set up a peer?\n\nlets make sure that the relay url is a variable. \n\nI need to be able to see how many relays are created. \nAlso, how would I be able to manage handing out a key that would allow me to manage create access? \n\nEventually I could make signup a paid service, but for now, it would just require a registration with a simple privacy statement and terms of service\n\nI have enabled resend.com on the domain\n\nSend me (greenman@the-organization.com) a weekly update email if there are new subscribers"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

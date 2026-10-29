@@ -1,0 +1,30 @@
+{
+  "instanceId": "18d1c388-cc14-4d1d-97b1-cf2b5d54a8bb",
+  "title": "The generic editor is many people's first experience of SRS, and muSrs must present a coherent view there: data first, tools after (2026-10-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:navigation",
+    "topic:first-experience",
+    "topic:third-party-ready",
+    "topic:dogfood",
+    "topic:muSrs"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Now, what about the  default SRS web view.\n\nFor many the generic editor is their first experience of srs. This first experience is a core third party ready concern. \n\nDoes SRS make sense ?\n\nOur muSrs repo is our primary dogfood. It is the first real client for all this work, we need to make sure that we are able to present some kind of coherent view. This is as much a data problem as it is a tooling problem, so first we get the data in place, and we build the tools after if they are needed"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-27; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

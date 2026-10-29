@@ -1,0 +1,28 @@
+{
+  "instanceId": "cc042a1d-b995-4fb0-b8b5-0b28388c1dcd",
+  "title": "Vignette 2026-10-29: the diff cannot say what to diff",
+  "tags": [
+    "vignette",
+    "topic:change-visibility",
+    "topic:diff",
+    "topic:highlight",
+    "topic:agent-editor"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-29, following the vignette on pointing at a specific element (35e35dd2): \"Ah. In this case we need to create a diff. Our current diff tool cannot state what to diff. So it's also inaccurate. We need to be able to point to specific changes.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Kept by Claude Code for the owner, 2026-10-29. Verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
