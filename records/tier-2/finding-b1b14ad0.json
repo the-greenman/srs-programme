@@ -1,0 +1,28 @@
+{
+  "instanceId": "b1b14ad0-737e-44b0-969e-b4432b68a189",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Parallel worktrees run e2e against each other's dev server, so a gate judges the wrong branch",
+    "summary": "Driving holon semanticops.com#49, the driver built srs-web#642 and #643 in parallel worktrees and ran their e2e at the same time. Playwright reuses any server on its fixed port (reuseExistingServer: true, port 5173), so #643's test ran against #642's code and failed on a dialog #643 does not have. A green could equally have been the wrong branch's.",
+    "evidence": [
+      "srs-web#658 (bug)",
+      "help-dialog intercepts pointer events in a #643 run, 2026-10-29"
+    ],
+    "body": "- Gates are judged by exit code, so a cross-wired run is a false green or a false red with nothing to show it.\n- Workaround used: a PLAYWRIGHT_PORT per worktree. Fix: srs-web#658."
+  },
+  "tags": [
+    "flow-stop",
+    "boundary:holon-delivery"
+  ],
+  "createdAt": "2026-10-29T20:28:32.555690351+00:00",
+  "updatedAt": "2026-10-29T20:28:32.555692864+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
