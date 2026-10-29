@@ -1,0 +1,25 @@
+{
+  "instanceId": "c9bff825-4c17-4b8f-bfec-c9cf18f3ae34",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-133",
+    "title": "A diff cannot be asked about a specific change",
+    "statement": "The repository diff compares whole states and cannot be told what to compare, so it reports changes at record level and cannot say which words changed or answer for one part of the text. A writer or agent cannot point at a specific change, and what the diff reports is too coarse to trust.",
+    "kind": "capability",
+    "source_ref": [
+      "vignette:cc042a1d"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-29T20:08:41.366997382+00:00",
+  "updatedAt": "2026-10-29T20:08:41.366999278+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

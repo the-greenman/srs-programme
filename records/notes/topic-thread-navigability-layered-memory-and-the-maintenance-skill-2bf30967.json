@@ -1,0 +1,30 @@
+{
+  "instanceId": "2bf30967-66d3-4cc3-ba01-8e6933456386",
+  "title": "Topic thread: navigability, layered memory and the maintenance skill",
+  "tags": [
+    "topic-thread",
+    "topic:navigation",
+    "topic:memory",
+    "topic:dreamtime",
+    "topic:layers",
+    "topic:temporal",
+    "topic:maintenance-skill"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "A running thread on how an SRS repository stays findable, and how what it learns is kept, tested and let go. Opened 2026-10-27 from the navigation work on muSrs.\n\nQuestions the thread holds open\n1. What is the SRS maintenance skill? The skill an agent or person uses to keep a repository navigable and its meaning intact over time.\n2. How do we structure repositories so that they are navigable? A few purpose-shaped areas at the root, stable once settled, growing consistently; only significant redesigns come up for PR.\n3. How do we build up information in layers? Short-term notes and vignettes become long-term structure only by being actively structured and tested against scenarios.\n\nPositions the owner has taken (see the vignettes in this container)\n- Semantic integrity is directly related to navigability: if the information cannot be found, or what was learnt cannot be discovered, SRS is not transferring meaning.\n- Meaning has a temporal element: some information is valuable now, some for the long term, and irrelevant data must be removed at the right time.\n- Short-term memory (small pieces without full context, including vignettes) becomes long-term memory only through the dream cycle, which reviews it across contexts and tests it against scenarios.\n- Affirmation does not fit most of this. Confidence is built by cross-checks, not by affirming a fixed truth; solid ground accumulates as the same scenarios play out.\n\nRelated: SP-116, SP-117, SP-118 (suggested problems); srs-rust#1490 (navigation tree); the muSrs worktree branch navigation-structure-2026-10-27."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code on the owner's instruction, 2026-10-27."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
