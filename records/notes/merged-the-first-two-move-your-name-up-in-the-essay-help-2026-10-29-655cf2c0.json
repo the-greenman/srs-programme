@@ -1,0 +1,27 @@
+{
+  "instanceId": "655cf2c0-2686-4ea1-a986-89153c41516f",
+  "title": "Merged the first two; move \"Your name\" up in the essay help (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:editor-help"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "I've merged the first two. We can move up \"Your name\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29, after srs-web#646 and #647 merged and the review of #650 asked whether the name gate should come earlier; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
