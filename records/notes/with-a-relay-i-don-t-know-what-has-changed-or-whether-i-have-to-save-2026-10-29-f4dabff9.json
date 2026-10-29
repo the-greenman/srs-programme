@@ -1,0 +1,29 @@
+{
+  "instanceId": "f4dabff9-71f8-4d4e-aa11-20892f56272f",
+  "title": "With a relay I don't know what has changed or whether I have to save (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:relay",
+    "topic:save-state",
+    "topic:remote-agents"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "When I set up a relay for an srs repo I have a rather large problem. \n\nI dont know what has changed, and I don't know how if I have to save? \n\nI also probably need to allow a remote agent to see if anything needs to be saved"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

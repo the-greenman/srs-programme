@@ -1,0 +1,30 @@
+{
+  "instanceId": "5a95b823-e836-484d-b7f8-db9118828463",
+  "title": "A human must see what changed, with a realistic way to review how to merge; unpark srs#387 (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:relay",
+    "topic:save-state",
+    "topic:repo-diff",
+    "topic:merge-review"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "ok. lets set these up and unpark srs#387\n\nA human needs to be able to see what has changed, and there has to be a realistic way to review how to merge."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29, ruling on the proposed path (srs-rust baseline+changes tool, srs-web changes panel, unpark srs#387); follows vignettes f4dabff9 and 07833bd2; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
