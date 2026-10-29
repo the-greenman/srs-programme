@@ -1,0 +1,24 @@
+{
+  "instanceId": "b6e6a202-6c28-4105-8224-8eadaa36b286",
+  "title": "Conversation 2026-10-29: Third-party-ready essay editor",
+  "tags": [
+    "conversation",
+    "topic:third-party-ready",
+    "topic:editor-help",
+    "topic:feature-registry",
+    "topic:holon"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "Summary",
+      "content": "The owner asked to make the essay editor shareable with someone new: a link that opens a new essay, first-run popup help with don't-show-again, connecting Claude Code or ChatGPT explained first, an AI-focussed manual so the writer's own AI can teach the editor, and an agent able to highlight UI components. Features kept as data, words maintainable, help per editor, kept in an SRS help repository; a standard so features know their own help without drift. Framed in Evidence-backed writing (the agent-assisted editor) for a first-time writer; to be built as one holon with every decision, including affirmation, in one setup sitting."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

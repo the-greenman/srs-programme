@@ -1,0 +1,25 @@
+{
+  "instanceId": "d3c930aa-d05c-46ce-bd61-e098a0a8a65d",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-132",
+    "title": "Writer and agents cannot point at a specific part of the text",
+    "statement": "A writer who wants specific feedback can only give agents the paragraph they are in, and an agent that has something to say about particular words can only comment on the whole paragraph. Neither can mark the exact words they mean, see which comment belongs to which mark, or dismiss a mark with its comment, so feedback stays general where the writer wants it direct.",
+    "kind": "capability",
+    "source_ref": [
+      "vignette:35e35dd2"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-10-29T20:08:41.203257147+00:00",
+  "updatedAt": "2026-10-29T20:08:41.203261469+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

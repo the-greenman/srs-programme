@@ -1,0 +1,22 @@
+{
+  "instanceId": "601b05fb-bae5-4724-92d9-874d1c9ec254",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "D4. Decide: the right owner for the level",
+    "thinking_reached": "The ideal: the owner of the level where the decision removes choices settles it, by mode and door (decision 949ae72d), so the programme owner sees strategy and a group sees its own technical choices. What happens: technical ADR choices reach the owner's session (01cfb06e; srs-rust#1470 asked the owner to merge an ADR text fix).",
+    "tensions": "Owner sees everything, and each level decides its own.",
+    "unresolved_questions": "How many owner asks were below the owner's level?",
+    "next_action": "Count decisions that reached the owner from a lower level as decision-stop findings here."
+  },
+  "createdAt": "2026-10-28T19:30:15.355285359+00:00",
+  "updatedAt": "2026-10-28T19:30:15.355288332+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

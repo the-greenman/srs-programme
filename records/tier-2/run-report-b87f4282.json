@@ -1,0 +1,23 @@
+{
+  "instanceId": "b87f4282-8098-49b5-99d8-5dae9f868fa1",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle 2026-10-27",
+    "run_date": "2026-10-27",
+    "chose": "Closed the cycle 2026-10-26 11:30 to 2026-10-27 11:30 UTC. No group PR merged. Open: srs-web#630 (read a local folder's files concurrently; builder the owner, reviewer editor-reviewer approved, gates green at 8827c59, gate:owner-merge until the owner ratifies that an affirmed remedy is a recorded ruling for a mandate) and srs-rust#1472 (session AttentionState; reviewer reject on red Schema Drift at 0fd4d69; the mirror PR #1471 merged 2026-10-25 but the Builder has pushed nothing since, so the PR is behind master). No decision awaited assent, so no group session was held. No new escalation. Pause state: ok.",
+    "rationale": "No new escalation. Nothing outside the role's boundary was stopped on: the red check on srs-rust#1472 is the Builder's to clear by merging master now that the mirror landed. The surface-addition question on that PR (new MCP tool attention_list and WASM methods) stays with the owner, as the reviewer noted.",
+    "figures": "Delegated merges (group-state): 0 of 10; 1 open. Merged this cycle: 0. Open group PRs: srs-web#630 (green, owner-merge), srs-rust#1472 (red, behind). Ready + wg:agent-editor issues: 2 (srs-web#525; semanticops.com#14, blocked). Needs-input: srs-web#567.",
+    "landed_as": "PR URL pending"
+  },
+  "createdAt": "2026-10-27T11:39:10.603461469+00:00",
+  "updatedAt": "2026-10-27T11:39:10.603466484+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,27 @@
+{
+  "instanceId": "b6a8acbe-e282-4a0e-8c93-d79c8e8e29dd",
+  "title": "A collaborative link between two Claude Codes to help a remote agent debug (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:relay",
+    "topic:agent-collaboration"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "So, heres a very quick scenario. \n\nConnecting two claude codes on different machines \nA small app to run on either side and manage a queue \n\nI want to help a remote agent debug something. We want to establishe a collaborative link\n\nlets build it in relay. \nIt should be as small as possible. \nIdeally I just share a single link to someone via chat, and their claude can pull it in"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

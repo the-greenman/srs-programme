@@ -1,0 +1,26 @@
+{
+  "instanceId": "064f2110-e697-45b9-b44c-cc2327efcea4",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Each working group holds its strategy as an archetype on the three lines, per cycle, and its queue is ordered by it",
+    "move": "A group records its stance for a cycle as one vertex of the three lines (an archetype, e.g. Thunder: Act, Stabilise, Zoom out), set by the owner and read relative to the group's boundary (ratified 6494df0f, ee95817b). The stance stays in force until it is changed by decision, never by omission, so yesterday's order is not dropped by today's mood. The group's analyst places each candidate issue on the same three lines, and topup feeds the group's queue in the order its stance favours, within the roadmap's epic rank. The digest names the stance and why each item was taken.",
+    "does_not_fix": "The stance counts only once affirmed, and the affirmation surface (srs-web#617) is not built: until it is, the owner's stance waits as a suggestion, as Thunder (2026-10-24, principles 0e2a00e2, 1997e9d5, f93a7b24) does today. It also does not rank objectives against each other (the period does that) or explain ranks 2 to 7.",
+    "falsifier": "After two cycles, the group's merged work does not lean measurably toward its stance (raters placing it on the three lines, as in exercise b430b7e0), or the owner still has to restate a stance already set.",
+    "source_ref": [
+      "Owner, 2026-10-27: vignettes 88d0b37d and c3413c86 (srs-programme, Narrative explorations)",
+      "Owner, 2026-10-24: vignette f71456d5, the editor group's stance Thunder",
+      "Ratified 2026-10-16: 6494df0f (a member's stance comes from an archetype), ee95817b (a stance is read relative to its boundary)"
+    ]
+  },
+  "createdAt": "2026-10-29T09:19:51.338269003+00:00",
+  "updatedAt": "2026-10-29T09:19:51.338270589+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

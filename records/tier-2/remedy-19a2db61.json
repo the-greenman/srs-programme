@@ -1,0 +1,29 @@
+{
+  "instanceId": "19a2db61-a322-4a59-9e14-346694a325c1",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "One fractal compass: the SRS compass is its most developed node, and its mechanism runs at every level",
+    "move": "Carry the function, not the content: this is the synthetic way (owner, vignette 3de9323b). The universal lens is the three trigram lines, the base poles every domain carries, refined and renamed within it. Every domain chooses a direction on each line:\n- energy in or out (Act or Observe);\n- change toward disruption or stability;\n- a boundary managed open or closed.\nThose three choices are the domain's compass. The SRS decision compass is the most developed instance of the function: its grid, levels and diagonals are lenses held beside the lines and tested over time (vignette cad03157), not merged into them or set aside. Carry its mechanism to every level: a decision proposed in any domain names the domain and the axes or principles it was weighed on (set-against), and passes a level test that relocates it to the level that owns it, retires it, or holds it with a named payer. clerk pr-check and the session apply that check, as the rfc skill's Charter Check does for the spec. Grow the content from evidence: a domain gets its own affirmed axes and leans when decision-stop findings and boundary tags show decisions landing there, starting with the domains that collect the most.",
+    "does_not_fix": "It does not write the compasses for the 13 domains without affirmed axes; it makes clear which ones are needed first. It does not change the SRS compass.",
+    "falsifier": "After a month, decisions in programme domains still reach the owner without a domain or cited axis, or the check passes decisions that the level test should have relocated.",
+    "source_ref": [
+      "Owner, 2026-10-28: vignette 539a4719 (the SRS compass is advanced; the fractal version is the current attempt at domain and working-group axes)",
+      "Owner, 2026-10-28: vignette 60d0e55c (SRS and srs-rust decide by compass and principles)",
+      "Finding: the SRS compass works because it is consulted at the point of decision (2026-10-28)",
+      "srs rfc-decision-c20fcff8 (the level test)",
+      "Owner, 2026-10-28: vignette cad03157 (do not mix synthetic logic lenses; the three axes are the compass diagonals)",
+      "Owner, 2026-10-28: vignette 3de9323b (evolve shared understanding gradually; the three lines are a universal lens; every domain chooses in or out, disruption or stability, open or closed)"
+    ]
+  },
+  "createdAt": "2026-10-28T19:45:51.619867470+00:00",
+  "updatedAt": "2026-10-28T19:58:03.919855316+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

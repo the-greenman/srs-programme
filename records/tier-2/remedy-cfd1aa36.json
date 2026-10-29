@@ -1,0 +1,26 @@
+{
+  "instanceId": "cfd1aa36-407b-4659-8577-360134bc57ba",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Fixtures every task appends to are stored one file per entry",
+    "move": "A conformance or test fixture that many tasks extend (conformance/arrangement/scenarios.json today) is split into one file per scenario, read in name order, so parallel tasks add files rather than edit one array, and git merges them without conflict. This is the reasoning RFC-051 applied to container membership.",
+    "does_not_fix": "It does not help two tasks that change the same scenario, nor shared prose such as a README index.",
+    "falsifier": "Scenario PRs still conflict on the fixture after the split.",
+    "source_ref": [
+      "Owner, 2026-10-28: vignette 913a3db6",
+      "Finding: sibling tasks of one issue are built in parallel and collide on one file (2026-10-28)",
+      "RFC-051 (one entry file per container member)"
+    ]
+  },
+  "createdAt": "2026-10-28T18:00:41.693739463+00:00",
+  "updatedAt": "2026-10-28T18:00:41.693744014+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

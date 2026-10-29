@@ -1,0 +1,30 @@
+{
+  "instanceId": "b326b3fb-90ee-4f79-9014-1a6110758ae3",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The SRS compass works because it is consulted at the point of decision; the fractal compass has the structure but no such check",
+    "summary": "The SRS decision compass (srs/docs/charter/decision-compass.md, since 2026-08-23) settles spec decisions: every RFC passes the Charter Check (rfc skill Stage 1.5, checker-enforced: cells, decision mode, one-way-per-goal, layer test), the level test relocates a rule to the level that owns it, a drift guard binds the page to its 19 charter rulings, and 41 of 54 rfc-decision records cite a cell, axis or the compass. The fractal compass in srs-programme has the structure (25 domains, 24 axis-in-domain records, 66 tensions, 112 poles, 39 principles; Semantic records, Stance and Programme coordination have 3 of 3 axes affirmed) but nothing consults it when a decision is made: 13 domains, including all nine work-flow stages, have 0 of 3 affirmed axes of their own, and 8 of 109 programme decisions are set against a principle or decision.",
+    "evidence": [
+      "srs/docs/charter/decision-compass.md (Pattern Grid, axis and cell preferences, layer rules, level test, decision modes, three doors)",
+      "srs/.claude/commands/rfc.md Stage 1.5; srs/scripts/check-decision-compass-drift.mjs",
+      "grep of srs rfc-decision records for compass, cell or axis: 41 of 54 (2026-10-28)",
+      "clerk domains and clerk check on srs-programme, 2026-10-28",
+      "srs-programme relations: set-against 8 (5 to decisions, 3 to principles)"
+    ],
+    "body": "- Held as a reading to test, not a change (owner, vignette 3de9323b): nothing is moved or set aside on it. Shared understanding evolves gradually; the dream cycle watches readings like this one and tests them against later work.\n- Do not mix the lenses (owner, vignette cad03157). The compass is a 3x4 grid: four elements crossed with three levels (Individual, Relational, Systemic). Its modalities, Cardinal, Fixed and Mutable, run on the diagonals; the owner's reading (vignette cad03157) is that these correspond to the fractal's three lines, a reading held to test, not canon (srs-context concept cc05d4c9). The compass levels are a different lens from the lines. Each of the six compass axes pairs opposite cells, which share a modality, so on that reading each line would hold the two axes on one diagonal. The domain Semantic records places them that way only on its Change line (finding, 2026-10-28).\n- What travels is the mechanism, not the content: a check at the point of decision, a cited cell or axis on every ruling, a level test with relocate, retire or hold, and a drift guard.\n- The level test (rfc-decision-c20fcff8) is the placement step of the decision flow (stage D3) already ruled for the spec."
+  },
+  "tags": [
+    "decision-stop"
+  ],
+  "createdAt": "2026-10-28T19:45:51.520919888+00:00",
+  "updatedAt": "2026-10-28T20:20:26.733223028+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

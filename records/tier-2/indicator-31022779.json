@@ -1,0 +1,21 @@
+{
+  "instanceId": "31022779-88da-4048-9aec-7d1ea8592d28",
+  "typeId": "7c00a086-3840-4cba-b771-b01e2dad719b",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.argument",
+  "typeName": "indicator",
+  "fieldValues": {
+    "indicator_id": "I1",
+    "title": "Is work grounded?",
+    "measurement_method": "Share of merged PRs whose issue answers an affirmed problem, and separately with an affirmed persona-in-domain and domain. Computed by `clerk ground --since <date> [--until <date>]`; recorded per cycle by `clerk measure --group <wg:label> --write` as a measurement-result.",
+    "baseline_state": "Retroactive for the cycle before the two-domain walk (about 0%); compared with the next two cycles (clerk#25)."
+  },
+  "createdAt": "2026-10-28T00:17:05.298306104+00:00",
+  "updatedAt": "2026-10-28T00:17:05.298310752+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:unattended-worker",
+    "name": "Unattended lane worker"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

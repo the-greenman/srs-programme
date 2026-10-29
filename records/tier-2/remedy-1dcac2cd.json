@@ -1,0 +1,26 @@
+{
+  "instanceId": "1dcac2cd-fef2-4011-9623-559b50d47869",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "An essay is a container for meaning, and its notes are kept apart from its records",
+    "move": "Creating an essay creates a container with an optional purpose and domain. Notes written as vignettes, from MCP, the CLI or a web AI chat, join it. The editor lists the notes apart from the claims, problems, remedies and sources, shows from each derived record the note it came from, and lets the writer pin a note open beside the text. In muSrs a long claim keeps what was concluded and points to the notes that hold the conversation.",
+    "does_not_fix": "Whether the owner affirms the records derived from the notes (the affirmation layer), and the cost of a very large container (SP-107).",
+    "falsifier": "After a week of writing, the owner cannot open an essay and read its conversation apart from its records, or cannot say which note a claim came from.",
+    "source_ref": [
+      "Owner, 2026-10-25: vignettes 592e719a, 69b6ad45",
+      "srs-web#624",
+      "muDemocracy.org#392"
+    ]
+  },
+  "createdAt": "2026-10-29T09:18:36.227825482+00:00",
+  "updatedAt": "2026-10-29T09:18:36.227828424+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

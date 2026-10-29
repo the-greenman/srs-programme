@@ -1,0 +1,18 @@
+{
+  "instanceId": "fd7ce8b3-4386-40f0-9e50-938faa86e428",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: Boundary practice is core"
+  },
+  "createdAt": "2026-10-29T08:39:34.922827720+00:00",
+  "updatedAt": "2026-10-29T08:39:34.922831936+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

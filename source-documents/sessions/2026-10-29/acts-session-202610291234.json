@@ -1,0 +1,104 @@
+{
+  "session": "8a295e3c-a86a-47cb-b358-71daa14034c6",
+  "acts": [
+    {
+      "at": "2026-10-29T12:34:48.077Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 7,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-10-28T19:31:00.774869707+00:00",
+      "kind": "ratify",
+      "id": "199dd369-80b1-464d-a356-3e602eb7f176",
+      "title": "Every decision names the boundary where it removes choices, and every agent records where decision flow stops"
+    },
+    {
+      "at": "2026-10-29T12:34:59.666Z",
+      "section": "Decisions since the last session",
+      "position": 2,
+      "of": 7,
+      "seen": [],
+      "updatedAt": "2026-10-28T20:26:03.762625176+00:00",
+      "kind": "ratify",
+      "id": "55997a62-df5f-4208-bd89-a302c509862a",
+      "title": "The three trigram lines are the foundational axes"
+    },
+    {
+      "at": "2026-10-29T12:35:07.976Z",
+      "section": "Decisions since the last session",
+      "position": 3,
+      "of": 7,
+      "seen": [],
+      "updatedAt": "2026-10-28T20:26:03.858674182+00:00",
+      "kind": "ratify",
+      "id": "84d873ce-93a9-4a0d-a9aa-0f9e3b187ce7",
+      "title": "Stuck implementation work follows the reviewed ADRs"
+    },
+    {
+      "at": "2026-10-29T12:35:17.829Z",
+      "section": "Decisions since the last session",
+      "position": 4,
+      "of": 7,
+      "seen": [],
+      "updatedAt": "2026-10-28T16:52:43.122563879+00:00",
+      "kind": "ratify",
+      "id": "880039f3-77ed-42c9-a2fb-a1d78a77efec",
+      "title": "A capability a client needs before the core has it ships as a marked, tracked client stopgap that the core service replaces"
+    },
+    {
+      "at": "2026-10-29T12:35:24.325Z",
+      "section": "Decisions since the last session",
+      "position": 5,
+      "of": 7,
+      "seen": [],
+      "updatedAt": "2026-10-28T18:21:24.584093267+00:00",
+      "kind": "ratify",
+      "id": "af1c9258-2cae-4ee3-a4c5-d8984227cd11",
+      "title": "A review approves a change, not a commit: a quorum holds while the PR's own diff is unchanged"
+    },
+    {
+      "at": "2026-10-29T12:35:27.956Z",
+      "section": "Decisions since the last session",
+      "position": 6,
+      "of": 7,
+      "seen": [],
+      "updatedAt": "2026-10-28T21:38:23.295028126+00:00",
+      "kind": "ratify",
+      "id": "f940e488-8224-4347-8599-65dbb7dbdfe3",
+      "title": "A concept reaches delivery as one holon: chain scanned, marked in progress, decisions settled by principle, stops pre-empted in one owner session"
+    },
+    {
+      "at": "2026-10-29T12:35:35.110Z",
+      "section": "Decisions since the last session",
+      "position": 7,
+      "of": 7,
+      "seen": [],
+      "updatedAt": "2026-10-28T19:13:59.910316027+00:00",
+      "kind": "ratify",
+      "id": "fbba3d5e-d5b5-49ea-b92e-496d53ef32a4",
+      "title": "Every agent records where flow stops, at the stage it stopped, so stops are counted and remedied"
+    },
+    {
+      "at": "2026-10-29T12:35:41.064Z",
+      "section": "Reports",
+      "position": 1,
+      "of": 2,
+      "seen": [],
+      "kind": "receive",
+      "id": "d862e5de-6314-4d50-9dd4-168ce6d1612a",
+      "title": "WG Agent-supported editor report 2026-10-29"
+    },
+    {
+      "at": "2026-10-29T12:35:57.397Z",
+      "section": "Reports",
+      "position": 2,
+      "of": 2,
+      "seen": [],
+      "kind": "receive",
+      "id": "comment:6495647919",
+      "title": "WG Third-party ready report 2026-10-29"
+    }
+  ]
+}

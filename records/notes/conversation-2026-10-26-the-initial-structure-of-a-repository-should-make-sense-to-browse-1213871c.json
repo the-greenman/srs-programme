@@ -1,0 +1,28 @@
+{
+  "instanceId": "1213871c-e805-4641-b463-f698847c6414",
+  "title": "Conversation 2026-10-26: the initial structure of a repository should make sense to browse",
+  "tags": [
+    "conversation",
+    "topic:navigation",
+    "topic:dreamtime",
+    "topic:structure",
+    "topic:muSrs"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner described how a repository's top level should read when opened (in muSrs: an argument area, an essay area, a website, guides), that its coherence emerges from a dreamtime synthesis rather than from waking-hours recording, and that the navigation structure carries its own guidance conversation tied to the repository's purpose, with optional locked levels. This note is the conversation's identity record; the vignette is the owner's words."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-10-26."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,25 @@
+{
+  "instanceId": "ff4ac336-3034-4e26-8636-955e4780d58c",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-114",
+    "title": "The process is re-founded instead of evolved",
+    "statement": "Every few weeks the way work is driven is replaced whole: the epic-worker skills (retired in August), the unit walk (September), the reboot from Project #5 to #6 (2026-10-08), units frozen then revived as holons (2026-10-21). Each re-founding loses what the last one learnt and leaves its labels, docs and copies behind.",
+    "kind": "condition",
+    "source_ref": [
+      "Flow model B, across the stages (container b9c5106b)",
+      "Process inventory 2026-10-25 (container 3b5009cd): retired labels and copies left behind"
+    ]
+  },
+  "createdAt": "2026-10-29T09:03:10.534700815+00:00",
+  "updatedAt": "2026-10-29T09:03:10.534704207+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

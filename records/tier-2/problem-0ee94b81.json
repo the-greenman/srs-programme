@@ -1,0 +1,25 @@
+{
+  "instanceId": "0ee94b81-5677-40da-9a91-b5e57b291309",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-120",
+    "title": "Groups sit idle while their ready work waits in the backlog",
+    "statement": "When a working group has budget left and the programme holds a mountain of grounded work in its domain, I want the group fed until its room is used. Today one programme-wide queue of six, filled in epic order, starves the groups: twenty items that pass every check wait in the backlog while the builders exit with nothing to take.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-27: vignette c1253e35 (srs-programme, Narrative explorations): all these groups should have a mountain of work available",
+      "Finding note 42fb89bc (Allocate, 2026-10-27)"
+    ]
+  },
+  "createdAt": "2026-10-29T09:02:40.558922634+00:00",
+  "updatedAt": "2026-10-29T09:02:40.558924044+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,26 @@
+{
+  "instanceId": "f402de9a-5c9c-4290-9d5b-54de0c1ba63a",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "The editor carries its own help as data, and the writer's agent can teach it and point at it",
+    "move": "Each editor carries its own help: one record per feature (what it is, the words a person reads, guidance for an agent, and a stable feature id), kept in an SRS help repository bundled with the editor, one container per editor, with shared items (connect your AI, saving) as members of several. The words are maintained in the editor itself. A component declares the feature it presents by that id and never holds help text; a check fails the build when a declared feature has no help, or help names a feature nothing presents. The help is shown on first open (with don't show again, and a Help button to return), connecting the writer's AI first. The same records are the manual for agents: a connected agent reads it and can highlight a feature or paragraph on the writer's screen, so the writer can ask their AI to teach them the editor. A link opens a new essay directly, so the editor can be shared.",
+    "does_not_fix": "Whether the concepts themselves are simpler or fewer; help explains them, it does not reduce them. Whether the words stay true when a feature changes behaviour (the check guarantees structure only; words are a review prompt). The repository-level first view (SP-119).",
+    "falsifier": "A first-time writer given only the link, in a fresh browser, still cannot connect their AI or write a paragraph unaided; or a feature is added or removed and its help does not follow it without anyone noticing.",
+    "source_ref": [
+      "srs-programme: conversation 2026-10-29 · Third-party-ready essay editor (container f100f41a)",
+      "semanticops.com#29"
+    ],
+    "return_when": "When a first-time writer outside the programme has used the shared link and the owner has heard where they got stuck."
+  },
+  "createdAt": "2026-10-29T13:46:10.368+00:00",
+  "updatedAt": "2026-10-29T13:46:10.368+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

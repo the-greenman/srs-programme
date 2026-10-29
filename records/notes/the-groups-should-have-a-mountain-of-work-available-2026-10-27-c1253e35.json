@@ -1,0 +1,29 @@
+{
+  "instanceId": "c1253e35-1c85-4722-baff-98bad84a09ec",
+  "title": "The groups should have a mountain of work available (2026-10-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:flow",
+    "topic:group-queue",
+    "topic:routines"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "All these groups should have a mountain of work available..."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-27; recorded verbatim. Context: both working groups had just unpaused; the desk showed their queues running dry (1 and 5 ready against a budget of 10)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

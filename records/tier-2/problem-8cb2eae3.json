@@ -1,0 +1,25 @@
+{
+  "instanceId": "8cb2eae3-aac5-4f26-b73c-b4b2c7e8df48",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-117",
+    "title": "A repository's structure stops fitting what it has recorded",
+    "statement": "Records keep arriving in waking hours and the navigation structure is never revisited, so the coherence of the top level erodes; it only emerges from a synthesis, a dreamtime process that evolves the structure after the recording.",
+    "kind": "capability",
+    "source_ref": [
+      "srs-programme: Narrative explorations 2026-10-26 vignette 29d4cbd4",
+      "the-greenman/srs-web#425 (related: SP-83)"
+    ]
+  },
+  "createdAt": "2026-10-26T15:05:38.871090658+00:00",
+  "updatedAt": "2026-10-26T15:05:38.871092552+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

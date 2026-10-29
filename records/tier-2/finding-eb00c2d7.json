@@ -1,0 +1,27 @@
+{
+  "instanceId": "eb00c2d7-ff11-4c4e-b441-208815ec50f7",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Decisions marked proposed stay in draft and never reach a session",
+    "summary": "record create starts a governance/decision in lifecycle draft; authors set the status field to proposed but do not run the propose transition, and the session and desk read the lifecycle. On 2026-10-28 three decisions had status proposed in draft:\n- 55997a62, the three trigram lines are the foundational axes (2026-10-25);\n- 84d873ce, stuck implementation work follows the reviewed ADRs (2026-10-24), the policy remedy e120cf12 extends;\n- c7a8e0a2, an escalation created that day.\nThe first two had waited three and four days, unseen.",
+    "evidence": [
+      "srs-programme records/tier-2/decision-*.json, 2026-10-28: lifecycleState draft with fieldValues.status proposed",
+      "Proposed decision af1c9258 was also created in draft that day and needed the propose transition"
+    ],
+    "body": "- 55997a62 and 84d873ce were moved to proposed on 2026-10-28 (srs-programme PR, this conversation); c7a8e0a2 was left to the session that made it.\n- The status field duplicates the lifecycle and can disagree with it; nothing checks that they agree."
+  },
+  "tags": [
+    "decision-stop"
+  ],
+  "createdAt": "2026-10-28T20:26:25.884042716+00:00",
+  "updatedAt": "2026-10-28T20:26:25.884063619+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

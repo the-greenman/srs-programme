@@ -45,6 +45,31 @@ container (`80b283ef`): when the owner explains the work, or starts describing a
 acting on it. Records derived from a vignette go to Suggestions with `derived-from` to it. The practice
 is the clerk handbook chapter "Narrative explorations: how meaning grows" (decision 77e04b19), which also sets the one-container-per-conversation standard (dated title, summary description, `topic:` tags).
 
+## Flow stops
+
+When you find work stopped, record it as you fix it or work around it. That covers:
+- a PR that cannot merge;
+- a gate red for a reason outside its change;
+- an issue nobody can take;
+- duplicate work;
+- an owner wait that asks nothing;
+- a routine that did not run.
+
+Write a `com.semanticops.programme/finding` in Suggestions, tagged `flow-stop`, with dated evidence. It `evidences` the exercise of the flow-map stage where the work stopped (container `165f3a6e`, nine stages) and the problem behind it. Suggest the problem if none exists, and suggest the remedy if one is obvious. When a flow-stop finding already names the cause, add the occurrence to its evidence instead of a second finding. The rule is clerk handbook *Recording where flow stops* (proposed decision fbba3d5e). Read the stops with `srs find --tag flow-stop`.
+
+## Decision flow
+
+Decisions have their own flow, parallel to work: container `68b6eb64`, six stages (Arise, Settle by principle, Place, Decide, Record, Cite and revisit). It applies whenever you propose, apply or find a decision.
+- **Placement.** Name the boundary where the decision removes choices: link the domain if one exists, otherwise add a tag `boundary:<slug>` in plain words. Never create a domain just to place a decision.
+- **Principles first.** Before escalating, apply the decision compass and the recorded principles (remedy e120cf12).
+- **Stops.** Record a decision that stopped, as you meet it, as a finding tagged `decision-stop` that `evidences` its stage. That covers a decision that:
+  - vanished once a principle was applied;
+  - reached a level that is not its own;
+  - could not be found, or lived only in a branch;
+  - was asked again.
+
+The rule is proposed decision 199dd369. Read with `srs find --tag decision-stop` and `srs find --tag boundary:<slug>`.
+
 ## Writes go through the pinned CLI
 
 Never hand-edit records, relations, containers or the manifest. Use the srs MCP server where mounted, else the pinned CLI (`clerk fetch-srs --repo .` prints `SRS_CLI_PATH=`). If the CLI cannot express an operation that is a finding: file the srs-rust issue and park, never hand-edit around it.

@@ -1,0 +1,26 @@
+{
+  "instanceId": "d1b1500f-06b5-4b79-95c2-4f39c99227a2",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-110",
+    "title": "What a pull request must carry differs in every repository",
+    "statement": "When I open a pull request, each repository asks for something different: srs wants a Mode, Cell and Door line checked in CI, srs-web wants Closes #N and a branch name pattern, muDemocracy.org wants MECHANICAL, JUDGEMENT or OWNER, the clerk grades grounding from the issue. Five repos each have their own PR template and nothing states once what a good pull request is, so PRs fail checks they could not have known about, or pass with nothing that lets a reviewer judge them.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-25: vignette 30afa94e",
+      "Process inventory 2026-10-25, sections 5 and 8",
+      "finding 157dc2a3: 11 of the last 20 merged srs PR bodies would fail the classification check"
+    ]
+  },
+  "createdAt": "2026-10-29T09:03:20.711230532+00:00",
+  "updatedAt": "2026-10-29T09:03:20.711232782+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

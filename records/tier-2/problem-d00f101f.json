@@ -1,0 +1,24 @@
+{
+  "instanceId": "d00f101f-1e42-4793-b182-0f16a8a01c8c",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-102",
+    "title": "Affirming agents' structure one record at a time is harder than writing it myself",
+    "statement": "Agents propose domains, poles, problems and principles as separate records, and I am asked to affirm each one. Working out why something is almost right takes far longer than writing it from scratch, so the loop of affirmations stalls and the meaning layer stays unaffirmed. The essay editor went the same way.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-24, reviewing the flow map (clerk#180): \"A constant loop of affirmations is actually harder than sitting down and doing the writing. ... Trying to understand why something is almost right takes far longer than simply starting from scratch.\""
+    ]
+  },
+  "createdAt": "2026-10-29T08:55:48.366679024+00:00",
+  "updatedAt": "2026-10-29T08:55:48.366681362+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

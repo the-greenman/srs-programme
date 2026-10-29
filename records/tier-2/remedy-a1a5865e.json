@@ -1,0 +1,26 @@
+{
+  "instanceId": "a1a5865e-1240-4602-8972-045bb9332bee",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "One home in its layer: find it before you create it, and let agents hold the implementation layer against the principles",
+    "move": "Every piece of meaning or code has one home, in one layer, and is found before anything new is made. Before an agent creates a record, it answers three questions: which layer it belongs in, which existing record already holds it (search, then similar), and whether to link to it, refine it, or create. It creates only when nothing holds it. The same holds for code: a capability lives once, at the architecture layer that owns it (the core service, then its adapters, then thin clients), and is consumed, never cloned. The tools carry the check: record_create shows the near-duplicates a similar search finds before it writes, and a review asks where an existing home was looked for. The work is split by layer. Agents manage the implementation level, proposing, cross-checking each other, testing and merging clear, Door-1 changes under the ratified merge rule (949ae72d), because code moves faster than humans can review. Humans and agents work together on the principles, standards and architecture boundaries that the implementation is held to, and those boundaries are named and held as records, not left implicit.",
+    "does_not_fix": "Deciding the principles and standards themselves (they stay a shared act, in sessions). The capability-layering rules (srs-rust/docs/architecture/capability-layering.md), ADR-048 and the decision-compass layer rules, which already exist and are applied here, not restated. Merge rights, already ruled by 949ae72d.",
+    "falsifier": "In the next month the owner still finds an agent recreating a record or a capability that already existed in its layer, or an implementation-level PR still waits for the owner although it is clear, Door 1 and cross-checked.",
+    "source_ref": [
+      "Owner, 2026-10-24 (vignette 'Who holds which layer'): \"agents should be able to manage the implementation level proposals. Humans and agents work together on principles and standards. Our code moves faster than humans can review. ... Code should not be duplicated, code needs to live at the correct architecture layer. Architecture boundaries and layers need to be identified and held.\"",
+      "srs-rust/docs/architecture/capability-layering.md; srs-rust/docs/adr/048-implementation-decision-rules.md; srs/docs/charter/decision-compass.md (layer rules 1 and 2); decision 949ae72d"
+    ],
+    "return_when": "After the record_create near-duplicate check exists, or after the next agent-made duplicate is found."
+  },
+  "createdAt": "2026-10-29T09:20:27.762399136+00:00",
+  "updatedAt": "2026-10-29T09:20:27.762402221+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

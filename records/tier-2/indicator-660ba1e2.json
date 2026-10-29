@@ -1,0 +1,21 @@
+{
+  "instanceId": "660ba1e2-bb20-413f-b904-0b2f9ce04255",
+  "typeId": "7c00a086-3840-4cba-b771-b01e2dad719b",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.argument",
+  "typeName": "indicator",
+  "fieldValues": {
+    "indicator_id": "I2",
+    "title": "Does work flow?",
+    "measurement_method": "Delegated merges against budget, and ready count at cycle close against target. No computation yet; no result is recorded until one exists.",
+    "baseline_state": "Pending: no computation."
+  },
+  "createdAt": "2026-10-28T00:17:05.623849830+00:00",
+  "updatedAt": "2026-10-28T00:17:05.623859471+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:unattended-worker",
+    "name": "Unattended lane worker"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

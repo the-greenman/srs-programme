@@ -1,0 +1,28 @@
+{
+  "instanceId": "36c0549e-1480-4f36-baac-87a5a77ce57e",
+  "title": "How do decisions keep staying drafts? The same decision comes back, lost in proposals that never reach a session (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:decision-flow",
+    "topic:drafts"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "File.\n\nHow do we keep having decisions stay drafts?\nThese are all affirmed.\nWe end up with the same decision coming back again and again. And lost in proposals that never reach a session"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28, after learning that decisions 55997a62 and 84d873ce had stayed in draft for days (finding eb00c2d7); recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

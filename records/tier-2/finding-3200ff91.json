@@ -1,0 +1,23 @@
+{
+  "instanceId": "3200ff91-d6dc-4570-ad70-48bc5c1b4a46",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The confirmed unit of the programme of works is stuck on its first PR",
+    "summary": "Sequence clerk#229 (owner acts finish their work: clerk#167, then clerk#128, then clerk#164) has not moved since 2026-10-25. clerk#167's PR, clerk#232, is open with failing checks and gate:owner-merge. Nothing in the nine-step order has closed since 2026-10-25; clerk#223 (step 1) sits on the bug track while the bug fixer routine is disabled.",
+    "evidence": [
+      "gh issue view, gh pr view clerk#232, 2026-10-27"
+    ],
+    "body": "State on 2026-10-27: clerk#223 open (no lane label); clerk#167 in review via clerk#232 (checks FAILURE and SUCCESS, owner merge); clerk#128 open; clerk#164 blocked; clerk#168, #148, #169, #224, #166, #98, #99, #170, #124, #200, #155 open. The groups were unpaused the same morning by a session receiving their reports (srs-programme#295), which clerk#167 would make the rule."
+  },
+  "createdAt": "2026-10-27T13:04:10.487383408+00:00",
+  "updatedAt": "2026-10-27T13:04:10.487388611+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

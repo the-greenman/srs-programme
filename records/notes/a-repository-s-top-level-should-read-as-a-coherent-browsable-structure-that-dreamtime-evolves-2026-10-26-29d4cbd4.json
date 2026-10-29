@@ -1,0 +1,29 @@
+{
+  "instanceId": "29d4cbd4-7367-4792-8f43-c5282ec84285",
+  "title": "A repository's top level should read as a coherent, browsable structure that dreamtime evolves (2026-10-26)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:navigation",
+    "topic:dreamtime",
+    "topic:structure",
+    "topic:muSrs"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "A srs repositiory should have a structure that makes sense to browse. If I load up muSrs, I should be able to see the different top level elements of it without a huge dump of data. I should see that there is an argument area, an essay area, a website, and guides - the general navigation should make sense, and present a useful heirarchy. There should be a general coherence to the initial structure. \n\nThis kind of coherence probably only emerges from a synthesis - a dreamtime process. We keep recording more information into the repo in \"waking hours\", but then the general structure should evolve in dreaming. \n\nSometimes we may want locked levels of navigation, but often dreamtime should be able to evolve the structure on it's own - although we should probably maintain a conversation and guidance on the structure of the navigation - which will be related to the purpose."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-26; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

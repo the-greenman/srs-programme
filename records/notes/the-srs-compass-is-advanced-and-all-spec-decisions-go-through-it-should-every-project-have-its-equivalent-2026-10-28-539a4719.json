@@ -1,0 +1,29 @@
+{
+  "instanceId": "539a4719-0e80-45f6-86ed-d7881c46284c",
+  "title": "The SRS compass is advanced and all spec decisions go through it; should every project have its equivalent? (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:decision-flow",
+    "topic:compass",
+    "topic:fractal"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Now, our SRS compass is pretty advanced and and all spec decisions still go through it.\n\n\nShould we look at the equivalent across all projects? The fractal version is the current attempt to get domain and working group axes"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28, after the decision-flow section (68b6eb64) was opened; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

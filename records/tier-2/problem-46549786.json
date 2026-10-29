@@ -1,0 +1,25 @@
+{
+  "instanceId": "46549786-11f3-4bc9-a273-46fc791a2aaa",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-119",
+    "title": "A repository opened for the first time reads as a data dump",
+    "statement": "Someone opening a repository, in muSrs for one, should see its few top-level areas (for muSrs an argument area, an essay area, a website and guides) and not a huge dump of records; today the top level does not present a coherent, useful hierarchy.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme: Narrative explorations 2026-10-26 vignette 29d4cbd4",
+      "the-greenman/srs-web#425 (related: SP-83)"
+    ]
+  },
+  "createdAt": "2026-10-26T15:05:38.361911825+00:00",
+  "updatedAt": "2026-10-27T11:43:03.778984363+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

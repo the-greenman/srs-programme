@@ -1,0 +1,25 @@
+{
+  "instanceId": "506203b7-7cf0-4bc9-a82e-27fe47fcec61",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-100",
+    "title": "The owner cannot tell what is asked of them",
+    "statement": "Asks for the owner arrive as fragments, scattered across PR bodies, review comments, issue comments and long chat updates, each naming PR numbers and codes without the context needed to act. There is no single list, in context, of the actions only the owner can take: what to do, where, why it matters, and the default if they agree. The owner said (2026-10-24, during the RFC-051/052 delivery): \"I have no idea what is asked of me. Provide clear actions that I need to perform in context. I can't act on any of these fragments.\" Work then waits on the owner without the owner knowing it is waiting.",
+    "kind": "problem",
+    "source_ref": [
+      "Claude Code conversation, 2026-10-24 (owner's words quoted)",
+      "the-greenman/srs#940 release plan; the-greenman/srs#941 delivery-state block"
+    ]
+  },
+  "createdAt": "2026-10-29T08:55:10.478653011+00:00",
+  "updatedAt": "2026-10-29T08:55:10.478654665+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

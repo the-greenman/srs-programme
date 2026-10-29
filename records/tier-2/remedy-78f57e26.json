@@ -1,0 +1,24 @@
+{
+  "instanceId": "78f57e26-49e2-4be0-8aac-6d3875eb0602",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A bug is filed and worked as a bug, with no problem line",
+    "move": "An issue with the bug label (or the bug shape: found while, steps, expected, actual, severity) needs no Answers line. The flow, claim and grounding checks treat it as grounded in the bug itself, and the handbook's bug template says so.",
+    "does_not_fix": "Whether a bug reveals a problem worth recording; the filer may suggest one, and need not.",
+    "falsifier": "A labelled bug with the bug shape is still refused or listed as a gap for having no Answers line.",
+    "source_ref": [
+      "Owner, 2026-10-25: vignette d7a4db67"
+    ]
+  },
+  "createdAt": "2026-10-29T09:03:41.103302853+00:00",
+  "updatedAt": "2026-10-29T09:03:41.103304390+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

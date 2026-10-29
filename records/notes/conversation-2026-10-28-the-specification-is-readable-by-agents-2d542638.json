@@ -1,0 +1,28 @@
+{
+  "instanceId": "2d542638-bc62-4296-93cb-035b0b3b077c",
+  "title": "Conversation 2026-10-28: the specification is readable by agents",
+  "tags": [
+    "conversation",
+    "topic:agent-readability",
+    "topic:spec-publication",
+    "topic:rationale"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner brought SRS into a claude.ai conversation; claude.ai could not read the published specification at srs.semanticops.com (one 514 KB file, cut off at about 117k characters, no llms.txt). The owner called it a core Third-party-ready requirement and a bug: the spec must be agent readable, which is the point of SRS. Planning the response, the owner ruled that the spec / unified distinction lost in the RFC-042 restructure comes back: the spec carries only what is needed to use it, the unified file carries the rationale."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-10-28."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

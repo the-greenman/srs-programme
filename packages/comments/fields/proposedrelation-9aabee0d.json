@@ -1,0 +1,15 @@
+{
+  "id": "9aabee0d-c0a7-470a-b72d-a49bfe5e7964",
+  "namespace": "com.semanticops.comments",
+  "name": "proposed_relation",
+  "version": 1,
+  "description": "The relation-type key of the link a suggestion comment proposes.",
+  "aiGuidance": {
+    "purpose": "Set only on a suggestion comment that proposes a link: the installed relation-type key (for example com.semanticops.method/answers) of the link from the commented record to the record the comment proposes-link-to. The link itself is not written until it is affirmed: a relation is a claim and has no suggested state (remedy 2910ac1e). The owner answers with an agree or disagree response."
+  },
+  "fieldType": {
+    "datatype": "string",
+    "cardinality": "single"
+  },
+  "createdAt": "2026-10-28T00:00:00Z"
+}

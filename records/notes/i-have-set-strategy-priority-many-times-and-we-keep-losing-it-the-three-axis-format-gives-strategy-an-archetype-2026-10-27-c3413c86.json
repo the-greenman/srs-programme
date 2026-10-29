@@ -1,0 +1,31 @@
+{
+  "instanceId": "c3413c86-3a04-4455-a1ec-f68d911165bb",
+  "title": "I have set strategy priority many times and we keep losing it; the three-axis format gives strategy an archetype (2026-10-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:strategy",
+    "topic:trigram",
+    "topic:archetype",
+    "topic:continuity",
+    "topic:working-groups"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Hmm I have set strategy priority multiple times in the past. \n\nWe seem to have lost them again. \nThe three axis format allows us to assign strategic foundations with an archetype"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-27; recorded verbatim. Context: Claude Code had reported that no working group holds a strategy and that every pole of the groups' tensions shows \"?\"."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

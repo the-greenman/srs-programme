@@ -1,0 +1,21 @@
+{
+  "instanceId": "6739d926-4b23-4a2e-9375-32e7a3c73f9f",
+  "typeId": "7c00a086-3840-4cba-b771-b01e2dad719b",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.argument",
+  "typeName": "indicator",
+  "fieldValues": {
+    "indicator_id": "I4",
+    "title": "Does done mean done?",
+    "measurement_method": "Reopened issues, false closes and reverted PRs. No computation yet; no result is recorded until one exists.",
+    "baseline_state": "Pending: no computation."
+  },
+  "createdAt": "2026-10-28T00:17:06.192683749+00:00",
+  "updatedAt": "2026-10-28T00:17:06.192693859+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:unattended-worker",
+    "name": "Unattended lane worker"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

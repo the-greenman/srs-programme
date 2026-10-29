@@ -1,0 +1,29 @@
+{
+  "instanceId": "7b1e4134-5b8c-4400-9c94-92332bd01d7f",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Strict up-to-date protection and a head-bound quorum stall working-group PRs",
+    "summary": "srs, srs-rust, srs-programme and clerk require a branch to be up to date before merging. Every merge leaves the other open PRs BEHIND. Upkeep updates ordinary auto PRs (srs-rust#1481 carried 10 'Merge branch master' commits) but never a working-group PR, because a new commit voids its quorum, so each merge elsewhere sends a group PR back for a fresh reviewer round. GitHub merge queue is unavailable: the-greenman is a personal account.",
+    "evidence": [
+      "gh api branches/<default>/protection, 2026-10-28: strict=true on srs, srs-rust, srs-programme, clerk; srs-web unprotected",
+      "clerk lib/practice/upkeep.mjs:92 (group PR: no update-branch; a new commit voids the quorum) and :29 (quorum names the exact head)",
+      "srs-rust#1481: 10 master merges; srs-rust#1470: 7 master merges in 4 days",
+      "PRs merged 2026-10-26..28: srs 5 (avg 17.8h open), srs-rust 13 (avg 16.9h), srs-programme 23 (under 1h)"
+    ],
+    "body": "- CI is not the bottleneck: srs-rust ci.yml runs 4-7 minutes.\n- srs-programme flows because GitHub native auto-merge is armed on every PR (c373c2c1, clerk#208) and its PRs rarely touch the same file.\n- The cost lands on the owner: the follow-up commits and conflicts on srs and srs-rust are what the owner unpicks by hand (vignette 913a3db6)."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-10-28T18:00:41.041667300+00:00",
+  "updatedAt": "2026-10-28T18:00:41.041676117+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

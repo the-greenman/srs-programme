@@ -1,0 +1,24 @@
+{
+  "instanceId": "61784feb-5c86-4175-bbd6-844f429f0c8e",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-130",
+    "title": "A first-time writer does not know what to do in the editor, because its concepts and tools are unfamiliar",
+    "statement": "Someone sent a link to the essay editor meets concepts and tools they are not used to (paragraphs as records, problems, sources and counter-claims, comment threads, a paired AI agent, saving to a place they choose), and nothing in the editor explains them, so they do not understand what to do. Connecting their own AI, which they came to use, is explained only in the README and llms.txt, not in the editor. Sibling of SP-119 (a repository opened for the first time reads as a data dump: structure, where this is concepts and tools) and SP-129 (an agent arriving at a SemanticOps site cannot get the tools running: the agent side of the same first contact).",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme: conversation 2026-10-29 · Third-party-ready essay editor (container f100f41a), vignettes 57b28da1, 2c6cd8d1"
+    ]
+  },
+  "createdAt": "2026-10-29T13:46:23.841+00:00",
+  "updatedAt": "2026-10-29T13:46:23.841+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

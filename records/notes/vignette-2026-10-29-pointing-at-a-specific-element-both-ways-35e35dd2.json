@@ -1,0 +1,27 @@
+{
+  "instanceId": "35e35dd2-cd57-4126-8587-655d2ee63477",
+  "title": "Vignette 2026-10-29: pointing at a specific element, both ways",
+  "tags": [
+    "vignette",
+    "topic:attention",
+    "topic:highlight",
+    "topic:agent-editor"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-29, answering whether this is the current attention: \"When I'm working in the editor, I need to be able to point at a specific element. Sometimes I don't want general comments, I want to be specific. So I need to be able to highlight an element of my essay.\n\nIn reverse, I also need an agent to be able to point at something specific. It may be valuable to allow a comment to highlight specfic words in a paragraph. This will allow us to be direct. (I should be able to dismiss a highlighty via the comment too) I need to be able to see what comment links to what highlight\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Kept by Claude Code for the owner, 2026-10-29. Verbatim, typos kept."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,33 @@
+{
+  "instanceId": "f940e488-8224-4347-8599-65dbb7dbdfe3",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A concept reaches delivery as one holon: chain scanned, marked in progress, decisions settled by principle, stops pre-empted in one owner session",
+    "decision_question": "What must be in place to take a concept through to delivery without it getting lost?",
+    "context": "On 2026-10-28 the affirmation editor (srs-web#617, P1, under a rank-2 objective) had not moved since 2026-10-25: its root blocker srs-rust#1473 had no epic and no plan, so the queue never saw it (finding b514ca75); decisions it needed were stuck in draft (eb00c2d7); questions were asked piece by piece. The owner asked for the chain to be claimed and completed as one unit (vignettes 19c9c6b8, 4bd4e2d0) and then named the process to remember (vignette 1b25bad7). Worked example: semanticops.com#42, six sub-issues across srs-rust, srs-programme and srs-web, driven by a local session. Ratified decision 05c3ddcb already holds work as holons in one GitHub tree.",
+    "alternatives_considered": "1. Do nothing: issues move one at a time through the queue. Leads to: chains stall behind unshaped blockers, decisions surface late and one at a time, the owner is pulled into each piece.\n2. One holon per concept, driven to finish (chosen). Leads to: one parent marked in progress, every item and decision known up front, owner questions asked together once, pauses visible on the desk.\n3. A dedicated orchestration routine per concept. Leads to: automation before the practice is proven; the same steps, less visible.",
+    "key_requirements": "Every item in the chain shaped and ordered under one parent; decisions settled by principle before delivery; owner attention in one focused session; any pause on the desk; the holon split when it cannot be delivered safely.",
+    "decision_statement": "A concept reaches delivery as one holon: a parent issue titled Unit (in progress), under its epic, holding every item of its chain as ordered sub-issues with their blockers recorded, labelled status: in progress, assigned, with a named driver. Before delivery, the driver scans the chain to its root and shapes every item; lists the open decisions and settles every one a principle settles, recording it on its issue; walks the delivery path step by step; splits the holon if it cannot be delivered safely; and lists the predicted stops with what is done about each. Questions that truly need the owner are put together in one focused session, not across the delivery. The driver claims each item as it unblocks and drives it to the acceptance; an unavoidable pause goes on the parent as needs-input assigned to the owner, so it shows on the desk. The practice is the clerk handbook chapter Driving a unit (holon) to delivery.",
+    "rationale": "The stops seen on 2026-10-28 were predictable: an unshaped blocker, decisions in draft, a missing dependency edge, budget and review timing. Finding them up front costs minutes; finding them during delivery costs days and the owner's attention piece by piece.",
+    "revisit_when": "After three holons: one stalls for a reason the walk-through should have found, or the owner is again asked questions piece by piece during delivery.",
+    "next_steps": "clerk handbook chapter (clerk PR); srs-context brief convention; semanticops.com#42 is the first holon and its retrospective tests this.",
+    "owner": "human:the-greenman",
+    "status": "proposed",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "tags": [
+    "boundary:programme-practice"
+  ],
+  "createdAt": "2026-10-28T21:38:23.108429755+00:00",
+  "updatedAt": "2026-10-29T12:36:05.100461430+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

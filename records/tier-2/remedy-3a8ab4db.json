@@ -1,0 +1,26 @@
+{
+  "instanceId": "3a8ab4db-07d2-46ed-9633-fddcf780ce9f",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Every decision carries a trigram on its domain's lines, and a domain's trigrams show its stance",
+    "move": "When a decision is proposed, it leans toward one pole on each of its domain's three lines (com.semanticops.method/leans-toward, its allowed sources extended to decisions): that is its trigram. A domain's lines default to the base poles (Act/Observe, Disrupt/Stabilise, Focus/Zoom out), renamed and refined in the domain. A domain may also read its decisions through the four elements, as a 2x2 of two binary lenses (greenmans_creation/sgis: source of force by scope of influence). A stance view per domain counts its decisions' trigrams; a new decision whose trigram departs from the domain's pattern gives its reason, and is never blocked for it. Placement is relative to the domain and refined by the domain's earlier decisions, never absolute.",
+    "does_not_fix": "It does not place the 109 existing decisions at once; they are placed as they are next cited. It does not make a trigram a verdict: a departure is a prompt to reason, not an error.",
+    "falsifier": "Two raters placing the same decisions disagree on the lines (the 2026-10 taxonomy exercise agreed at kappa 0.81 to 0.90), or a domain's trigrams show no pattern after a month.",
+    "source_ref": [
+      "Owner, 2026-10-28: vignette 66658bf5",
+      "Proposed decision 55997a62 (the three trigram lines are the foundational axes)",
+      "source-documents/decision-taxonomy-2026-10-22 (101 decisions placed on the lines by two blind raters)"
+    ]
+  },
+  "createdAt": "2026-10-28T20:26:25.990368917+00:00",
+  "updatedAt": "2026-10-28T20:26:25.990372263+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

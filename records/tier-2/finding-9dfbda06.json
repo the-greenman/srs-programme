@@ -1,0 +1,28 @@
+{
+  "instanceId": "9dfbda06-5305-4cac-bb04-c7ffb1d7d447",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Sibling tasks of one issue are built in parallel and collide on one file",
+    "summary": "srs#979, #980 and #981 are tasks of srs#977 built by separate sessions at the same time; all three append to conformance/arrangement/scenarios.json and its README. #979 and #981 merged; #980 went DIRTY and needed a rebase. srs-rust#1487 likewise had to be rebased onto #1485 to recount error variants.",
+    "evidence": [
+      "srs#980 ∩ srs#981 files: conformance/arrangement/README.md, conformance/arrangement/scenarios.json",
+      "srs#980 mergeStateStatus DIRTY, 2026-10-28",
+      "srs-rust#1487 commit 'test(error): count both new variants after rebase onto #1485'"
+    ],
+    "body": "- The desk counts a sequence's next task as free once the previous one is claimed, so siblings are taken in parallel even when they edit the same file.\n- One growing JSON file that every task appends to makes the collision certain; RFC-051 split container membership into one file per entry for the same reason."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-10-28T18:00:41.151320604+00:00",
+  "updatedAt": "2026-10-28T18:00:41.151326041+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

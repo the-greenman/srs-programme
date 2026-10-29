@@ -1,0 +1,25 @@
+{
+  "instanceId": "eb5a2ac9-8f94-4bae-972e-32f9a7310402",
+  "title": "Keep the arrangement fixture in the release gate; review it if releases keep getting harder (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "ok, keep it \n\nWe will review this if we find that these releases keep getting more difficult"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28, ruling on srs-rust#1481's release.yml change (arrangement-fixture added to the release corpus-conformance gate); recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

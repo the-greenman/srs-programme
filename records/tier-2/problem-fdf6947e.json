@@ -1,0 +1,24 @@
+{
+  "instanceId": "fdf6947e-d047-463c-8089-a0ed7358992a",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-101",
+    "title": "The method was designed before there were tools to practise it",
+    "statement": "We designed a whole system of domains, personas, problems, tensions and gates, then tried to run it without working tools or a working process. For weeks the domains have fought me: I keep trying to align my own process with the agents', and the method costs more effort than the work it is meant to steer.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-24, reviewing the flow map (clerk#180): \"We designed a system. But then never had working tools or process. The domains have been sitting fighting me for weeks as I've attempted to align my process with the agents.\""
+    ]
+  },
+  "createdAt": "2026-10-29T08:53:16.088275697+00:00",
+  "updatedAt": "2026-10-29T08:53:16.088277764+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

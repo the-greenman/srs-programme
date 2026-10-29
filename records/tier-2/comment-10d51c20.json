@@ -1,0 +1,18 @@
+{
+  "instanceId": "10d51c20-35b1-4fb2-ba2f-e16448bcfe83",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: This is the dream"
+  },
+  "createdAt": "2026-10-29T08:52:28.052404778+00:00",
+  "updatedAt": "2026-10-29T08:52:28.052407758+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

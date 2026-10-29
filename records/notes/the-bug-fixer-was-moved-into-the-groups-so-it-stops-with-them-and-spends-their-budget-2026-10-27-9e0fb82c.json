@@ -1,0 +1,30 @@
+{
+  "instanceId": "9e0fb82c-c0f3-407e-be05-1590fda325f2",
+  "title": "The bug fixer was moved into the groups, so it stops with them and spends their budget (2026-10-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:bug-fixer",
+    "topic:flow",
+    "topic:routines",
+    "topic:group-pause"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The bug fixer was supposed to be moved into all the groups. .. but then it's stops with the groups and uses the same issue budget"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-27; recorded verbatim. Context: Claude Code had reported that both working groups are paused on unreceived reports and that the SRS Bug Fixer cloud routine is disabled."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

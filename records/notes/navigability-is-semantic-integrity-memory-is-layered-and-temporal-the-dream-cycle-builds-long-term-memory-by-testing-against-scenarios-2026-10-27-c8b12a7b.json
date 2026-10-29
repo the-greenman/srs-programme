@@ -1,0 +1,32 @@
+{
+  "instanceId": "c8b12a7b-4803-4a6a-ad73-d7bb78cc7e99",
+  "title": "Navigability is semantic integrity; memory is layered and temporal; the dream cycle builds long-term memory by testing against scenarios (2026-10-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:navigation",
+    "topic:memory",
+    "topic:dreamtime",
+    "topic:layers",
+    "topic:temporal",
+    "topic:affirmation",
+    "topic:maintenance-skill"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's do 1,2,3\n\nLet's start a topic thread in our programme, and link to it from context so that it's easy to find .\n\nWhat is the SRS maintenance skill?\nHow do we structure repositories so that they are navigable?\nHow do we build up information in layers? \n\nSemantic integrity is going to be directly related to navigability. If we cannot find the information, if we cannot discover what has been learnt previously, then we are not achieving the goal of Srs which is transferring meaning.\n\nMeaning also has a temporal element.\nSome information is valuable now, some in the long term. We must know when to remove data that is not relevant.\n\nThe dream cycle is part of the process of working with long and short term memory. Short term memory does not immediately become long term memory unless it is being actictivly structured. Short term memory is often small pieces of information without full context. We need a dream cycle to move these into long term memory bu testing them against different scenarios.\n\nThe vignette process we have created recently is part of a short term memory strategy. The dream cycle is going to be reviewing these across contexts and building it into longer term memory structures.\n\n\nBut affirmation will just kill lots of this work. We build un confidence with cross checks, there is no fixed truth that will be affirmed. Over time we build up a solid ground because the same scenarios play out"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-27; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

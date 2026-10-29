@@ -1,0 +1,29 @@
+{
+  "instanceId": "19c9c6b8-f719-46b3-9a30-0f4a9b9fbe0f",
+  "title": "Claim the affirmation chain and complete the whole unit; solve principle-based decisions by principle (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:flow",
+    "topic:affirmation-editor",
+    "topic:principles"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's do all this, and then let's claim the work. \nOnce we begin, we need to make sure that the whole unit is completed. First scan the chain. Understand what decisions need me. Look at principles to solve each.  Solve any that are principle based by principle."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28, after the affirmation-editor chain was found stuck behind srs-rust#1473 (finding b514ca75); recorded verbatim (one message, split by thought)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

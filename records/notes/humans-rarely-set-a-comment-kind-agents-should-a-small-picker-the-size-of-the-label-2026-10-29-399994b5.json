@@ -1,0 +1,27 @@
+{
+  "instanceId": "399994b5-3079-4e83-a85b-0793ec33c682",
+  "title": "Humans rarely set a comment kind; agents should; a small picker the size of the label (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:comment-kinds"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "ok. can we look at the ui on the comment a bit? \nMost of the time, a human won't need to set the kind. But an agent should. Can we make a widget that is a bit more the size of the final label that allows us to select the type."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29, reviewing srs-web PR #645 (comment kinds, srs-web#591); recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

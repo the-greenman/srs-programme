@@ -1,0 +1,26 @@
+{
+  "instanceId": "cd98688f-9eb8-427b-9efc-2c33986e8cc3",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-122",
+    "title": "The owner's strategy waits as a suggestion with nowhere to affirm it",
+    "statement": "When I set a group's stance or a domain's axes, I want it in force from then on. Affirmation never happens in chat, so my words become agent suggestions, and the place to affirm them (srs-web#617) does not exist yet. The clerk reads only affirmed records, so what I set is invisible and I set it again.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-27: vignette c3413c86 (I have set strategy priority multiple times... we seem to have lost them again)",
+      "Owner ruling 2026-10-25, clerk#197 R2: affirmation never happens in chat",
+      "Finding 480d9db0 (2026-10-27)"
+    ]
+  },
+  "createdAt": "2026-10-29T09:03:05.588068323+00:00",
+  "updatedAt": "2026-10-29T09:03:05.588070048+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

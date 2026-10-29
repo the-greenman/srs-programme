@@ -1,0 +1,33 @@
+{
+  "instanceId": "55517a33-7e22-4e24-b33d-6425dcbd292e",
+  "title": "Conversation 2026-10-27: routines and flow",
+  "tags": [
+    "conversation",
+    "topic:bug-fixer",
+    "topic:flow",
+    "topic:group-pause",
+    "topic:ordering",
+    "topic:principles",
+    "topic:routines",
+    "topic:srs-context",
+    "topic:strategy"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner asked the state of the automatic routines and why work was not in flow. Both working groups were paused on unreceived reports (cleared at the 08:36 session); six claims were held on needs-input questions (released); the SRS Bug Fixer is disabled.\n\nOf 24 needs-input questions, 15 were answerable from principles; at the owner's instruction 11 clear ones were decided and posted the same day (finding e832c6f4; vignette 431e12d6: decisions taken one at a time undermine integrity).\n\nThe groups hold 120 open items but about 6 were ready: a programme-wide topup target of 6 filled in epic order, 48 parked labels from one sweep, 86 items without a plan (finding 42fb89bc, SP-120; per-group feed added to clerk#124). The owner asked that all work flow in through the same system and that notes join the flow map (165f3a6e) beside the programme of works (068a0a8b), whose order stands (vignette 6f4c40e6).\n\nOrdering: only objective rank 1 carries a reason; no group holds a strategy (finding a66b1359). The owner has set strategy before: the editor group's stance Thunder survives only as unaffirmed suggestions nothing reads (finding 480d9db0, SP-122; remedy 9938939f: a group's strategy is an archetype per cycle). Routines are heavy and drift (finding 6dbfc61c, SP-121; remedy 78acd658). Principles before escalation: remedy e120cf12. srs-context should name the active collections (vignette 17cc3c02, remedy 5469ae68). Duplicate SP records: finding 85e2be48. The confirmed unit is stuck on clerk#232: finding 3200ff91.\n\nSuggested actions: note cfc44d42."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Kept by Claude Code for the owner, 2026-10-27."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
