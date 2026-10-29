@@ -1,0 +1,23 @@
+{
+  "instanceId": "d862e5de-6314-4d50-9dd4-168ce6d1612a",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle 2026-10-29",
+    "run_date": "2026-10-29",
+    "chose": "Closed the cycle 2026-10-28 11:30 to 2026-10-29 11:30 UTC. Three group PRs merged by the owner, all owner-merge, so no delegated budget used: srs-web#630 (read a local folder's files concurrently; reviewer approved, mandate none, non-normative), srs-rust#1472 (session AttentionState: reviewer findings none, all gates green after the schema mirror landed; mandate remedy 800f223f affirmed, charter 384a704a) and srs-web#635 (inline tick or deny; reviewer verdict reject because its ruling names remedy 2910ac1e, which exists only in Suggestions and has no fork in Affirmed). srs-web#636 (conversations view, same remedy 2910ac1e, reviewer reject) was merged by the owner at 11:36 UTC, just after the close, and belongs to the next cycle. No decision awaited assent, so no group session was held. No new escalation record: the reviewer already escalated the unaffirmed remedy on the PRs and the owner merged both.",
+    "rationale": "No new escalation. The one open question, whether remedy 2910ac1e is to be affirmed (a human fork into Affirmed), is the owner's act and cannot be made by an agent; the owner merged both PRs that cite it, so it is repeated as an inform item rather than filed as a second record. The earlier inform item (who files the essay package change in muDemocracy.org after ruling 5d5feb79) is still unclaimed.",
+    "figures": "Delegated merges (group-state): 0 of 10; 0 open group PRs. Merged this cycle: 3 (srs-web#630, srs-rust#1472, srs-web#635, all owner-merge). Ready + wg:agent-editor issues: 2 (srs-web#525; semanticops.com#14 blocked). Needs-input: srs-web#567. Ratified decisions in the group log: 2 (384a704a, 5d5feb79). Pause state: ok.",
+    "landed_as": "pending"
+  },
+  "createdAt": "2026-10-29T11:39:20.042450200+00:00",
+  "updatedAt": "2026-10-29T11:39:20.042454480+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
