@@ -1,0 +1,31 @@
+{
+  "instanceId": "48ec7608-9abc-4156-8114-3d61ef875807",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "First-time writer trying AI-assisted ownership, in Evidence-backed writing",
+    "summary": "Someone new to the editor, sent a link by someone else, who wants to try being in charge of their own content while still using AI. They have not met records, paragraphs-as-records, problems, counter-claims or paired agents before, and have no one beside them to explain.",
+    "goals": [
+      "Own their own text, in their own words",
+      "Use the AI they already have (Claude Code, claude.ai, ChatGPT)",
+      "Get started without a guide beside them"
+    ],
+    "jobs": [
+      "Open the link and start writing",
+      "Connect their AI to the essay",
+      "Learn the concepts and tools as they need them",
+      "Ask their AI to show them how the editor works"
+    ],
+    "needs": "The editor explaining itself the first time they open it, connecting their AI explained first, and their AI able to teach them the editor and point at it."
+  },
+  "createdAt": "2026-10-29T13:52:20.954357695+00:00",
+  "updatedAt": "2026-10-29T13:52:20.954359693+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

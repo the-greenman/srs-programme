@@ -1,0 +1,19 @@
+{
+  "instanceId": "c1a98cf8-eddd-44b1-8973-7bd3b1980506",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Throughput against quality",
+    "description": "How much flows without review, and what stays reviewable: the rate of agent work against what the owner can test and understand."
+  },
+  "createdAt": "2026-10-29T13:53:25.775318989+00:00",
+  "updatedAt": "2026-10-29T13:53:25.775322074+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
