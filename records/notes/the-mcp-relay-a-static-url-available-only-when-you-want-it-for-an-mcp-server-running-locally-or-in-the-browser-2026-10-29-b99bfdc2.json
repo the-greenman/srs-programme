@@ -1,0 +1,27 @@
+{
+  "instanceId": "b99bfdc2-28d0-4e5e-be1a-2ece25b4a1a5",
+  "title": "The MCP relay: a static URL, available only when you want it, for an MCP server running locally or in the browser (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:relay",
+    "topic:data-ownership"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "the relay is just an mcp relay. \n\nThe main appication is to connect the semanticops editor to an agent. \nthe peer link is a second application\n\nAnd lets just call it an MCP relay.\n\nThe general instructions are that a local mcp server ... and one running inside a web browser (srs-rust/srs-web) can connect by a static url that is only available when you want it to be, \n\nIn this scenareio the mcp server runs in the browser. Srs allows you to manage your own data and just provide it when  you want. no infrastructure"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,28 @@
+{
+  "instanceId": "baee7d9a-09a6-449a-b316-a0693de9123c",
+  "title": "Navigating the meaning stored in a repository is an essential job of SRS (2026-10-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:navigation",
+    "topic:tree",
+    "topic:semantics"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "file an issue here. \n\nWe ned a useful tree that allows us to make sense of what is in the repository, \nNavigation is a semantic essential... how do we navigatethe meaning stored in a repository is one of the essential jobs that srs needs to be able to perform"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-27; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
