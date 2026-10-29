@@ -1,0 +1,28 @@
+{
+  "instanceId": "128eb8b6-07a9-4da8-a335-85c1da0bea53",
+  "title": "Vignette 2026-10-29: helping knowledge gathering with SRS",
+  "tags": [
+    "vignette",
+    "topic:livewyer-ingress",
+    "topic:market-intelligence",
+    "topic:knowledge-gathering"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-29: \"This is a private repo from Dave thats exploring opportunities for business by scanning what's going on. I want to see if I can help his knowledge gathering with srs. [...] Consider this dogfooding+ This is a tech demo. How would srs add value?\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Kept by Claude Code for the owner, 2026-10-29. Verbatim."
+    }
+  ],
+  "createdAt": "2026-10-29T20:55:24Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

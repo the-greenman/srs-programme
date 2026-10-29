@@ -1,0 +1,29 @@
+{
+  "instanceId": "0717268b-d36c-473d-98ea-9708f26f2e47",
+  "title": "Conversation 2026-10-29: SRS for LiveWyer ingress knowledge gathering",
+  "tags": [
+    "conversation",
+    "topic:livewyer-ingress",
+    "topic:market-intelligence",
+    "topic:dogfooding",
+    "topic:tech-demo"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner pointed Claude Code at dodwyer/livewyer-ingress, a private repository in which Dave scans conference talks for business opportunities (transcripts, quote-anchored findings per talk). The owner asked what SRS would add to that knowledge gathering, framed as dogfooding and a tech demo, and asked Claude Code to work autonomously and produce something."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-10-29."
+    }
+  ],
+  "createdAt": "2026-10-29T20:55:24Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
