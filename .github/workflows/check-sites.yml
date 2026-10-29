@@ -1,0 +1,22 @@
+name: Check sites
+
+# The site standard (semanticops.com#44) checked against what is deployed: every SemanticOps
+# domain serves /llms.txt opening with the canonical Get running block. A failure fails this run;
+# nothing records it as a finding yet.
+on:
+  schedule:
+    - cron: "40 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node scripts/check-sites.mjs
