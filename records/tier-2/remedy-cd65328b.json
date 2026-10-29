@@ -1,0 +1,23 @@
+{
+  "instanceId": "cd65328b-1008-4741-ada3-b840f2d9de46",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Remedies of one problem are related and shown together",
+    "move": "Install remedy-to-remedy relation types (competes-with, complements, synthesised-from) and show every remedy answering a problem on that problem, competing pairs flagged, so a synthesis is a remedy derived from the ones it combines.",
+    "does_not_fix": "Does not say when a remedy has succeeded or failed; competing hypotheses can be laid out and still never tested.",
+    "falsifier": "Problems with two or more remedies still show no relations between them after a period of use, or a competing pair is decided without anyone seeing both.",
+    "source_ref": [
+      "Owner, 2026-10-29: vignette 2941f51a (srs-programme, Narrative explorations)"
+    ]
+  },
+  "createdAt": "2026-10-29T09:11:53.446632904+00:00",
+  "updatedAt": "2026-10-29T09:11:53.446636507+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
