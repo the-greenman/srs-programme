@@ -1,0 +1,21 @@
+{
+  "instanceId": "e36a09c8-be9b-404e-a859-1184addd5906",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Review and land: a good pull request, safely merged",
+    "purpose": "Each change arrives as a pull request someone can judge, is checked and reviewed by someone else, and lands safely; closed means landed.",
+    "in_scope": "PR shape and classification, gates by exit code, quorum review, merge rights, merge labels, provenance and grounding checks.",
+    "out_of_scope": "Choices that govern later work (Decide)."
+  },
+  "createdAt": "2026-10-29T08:54:31.244735026+00:00",
+  "updatedAt": "2026-10-29T08:54:31.244736596+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

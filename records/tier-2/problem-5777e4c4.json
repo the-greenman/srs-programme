@@ -1,0 +1,25 @@
+{
+  "instanceId": "5777e4c4-218f-458d-a225-7c937f8395f7",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-107",
+    "title": "Work on one aspect of a large body of meaning cannot stay inside a boundary",
+    "statement": "When I work on one aspect of a large repository such as muSrs, I draw a boundary around the concepts and actions I am working with and want every search and read to stay inside it. Today a container bounds a content search, but other reads are global, a boundary is made by hand, and nothing tells me when a large boundary has become slow.",
+    "kind": "capability",
+    "source_ref": [
+      "Owner, 2026-10-25: vignettes 61761471, 29094aed (srs-programme, Narrative explorations)",
+      "srs#973"
+    ]
+  },
+  "createdAt": "2026-10-29T09:03:25.726295290+00:00",
+  "updatedAt": "2026-10-29T09:03:25.726297046+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

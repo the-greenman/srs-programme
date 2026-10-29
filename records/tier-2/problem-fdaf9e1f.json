@@ -1,0 +1,25 @@
+{
+  "instanceId": "fdaf9e1f-cff1-48d7-86d3-36da7c2d9dd7",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-117",
+    "title": "A repository's structure stops fitting what it has recorded",
+    "statement": "Records keep arriving in waking hours and the navigation structure is never revisited, so the coherence of the top level erodes; it only emerges from a synthesis, a dreamtime process that evolves the structure after the recording.",
+    "kind": "capability",
+    "source_ref": [
+      "srs-programme: Narrative explorations 2026-10-26 vignette 29d4cbd4",
+      "the-greenman/srs-web#425 (related: SP-83)"
+    ]
+  },
+  "createdAt": "2026-10-29T08:58:36.031438533+00:00",
+  "updatedAt": "2026-10-29T08:58:36.031442146+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

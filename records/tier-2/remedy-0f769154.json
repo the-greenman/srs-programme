@@ -1,0 +1,25 @@
+{
+  "instanceId": "0f769154-e1d6-4c30-93a7-67b082c286b1",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A real user's session is an occasion: it is reported, its findings enter intake, and its file is kept",
+    "move": "When someone uses an SRS editor for real work (not dogfooding on the spec), the session that follows is recorded as an occasion: a run-report in the programme names the repository, the agents that wrote to it, what broke and the issues filed. Every issue it produces carries a group label and a priority the day it is filed, so it lands in a queue. Before agents write to a real user's file, a restorable snapshot is taken. Agent-damage findings (no change view, no undo of an agent's changes, a broken render that validates clean, writes with no createdBy) rank above polish in the group's queue.",
+    "does_not_fix": "The editor features themselves (srs-web#587-#590, srs-rust#1423). How agents pace their help (remedy 800f223f). Dogfooding on the spec repositories, where git, gates and PRs already give diff, undo and validation.",
+    "falsifier": "After the next two real sessions, a finding from them is still in no queue a week later, or a user's file cannot be restored to its state before the agents wrote.",
+    "source_ref": [
+      "Work-flow audit 2026-10-23: the ENA contract session (2026-10-21) produced six problems; four landed unlabelled in no queue and the working group reported its queue dry; ena.srs was untracked"
+    ],
+    "return_when": "After the next real-use session, or when the editor gains its own snapshots."
+  },
+  "createdAt": "2026-10-29T09:04:11.475558014+00:00",
+  "updatedAt": "2026-10-29T09:04:11.475561082+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,18 @@
+{
+  "instanceId": "4996542f-5286-422a-9399-e1ac4abf2db1",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: A problem without a domain is abstract. a problem is only a problem in context"
+  },
+  "createdAt": "2026-10-29T08:47:21.189989303+00:00",
+  "updatedAt": "2026-10-29T08:47:21.189993716+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

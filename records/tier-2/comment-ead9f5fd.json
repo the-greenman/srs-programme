@@ -1,0 +1,18 @@
+{
+  "instanceId": "ead9f5fd-55f8-4af4-bee6-f2ed3eefc34e",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: everything is exploration. never stop learning"
+  },
+  "createdAt": "2026-10-29T08:46:34.039614250+00:00",
+  "updatedAt": "2026-10-29T08:46:34.039616959+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

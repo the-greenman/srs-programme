@@ -1,0 +1,24 @@
+{
+  "instanceId": "70d9ac96-b7bb-4d42-b6fb-68aaf4ed4b4e",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-123",
+    "title": "An agent pointed at the published specification cannot read it",
+    "statement": "The specification is published at srs.semanticops.com as one 514 KB markdown file with no index for agents. A web-fetch tool stops after about 117,000 characters, so an agent reaches only the opening parts and cannot find, for example, what ext:addressability requires; the full form is an .srs archive it cannot open without an SRS client. A third party who points an AI assistant at the standard cannot learn it or use it correctly.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme:source-documents/agent-readable-spec-2026-10-28/claude-ai-transcript-2026-10-28.md (claude.ai, 2026-10-28)"
+    ]
+  },
+  "createdAt": "2026-10-29T08:59:04.966513642+00:00",
+  "updatedAt": "2026-10-29T08:59:04.966515133+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

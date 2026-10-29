@@ -1,0 +1,25 @@
+{
+  "instanceId": "2fd83b9f-8b24-4be5-881a-64ca0fe202bc",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-118",
+    "title": "Nobody can say what a repository's navigation is meant to be",
+    "statement": "A repository's navigation has no kept guidance tied to its purpose, and no way to lock a level against change while leaving the rest to dreamtime to evolve; so neither the group nor an agent knows what shape it is meant to keep.",
+    "kind": "capability",
+    "source_ref": [
+      "srs-programme: Narrative explorations 2026-10-26 vignette 29d4cbd4",
+      "the-greenman/srs-web#425 (related: SP-83)"
+    ]
+  },
+  "createdAt": "2026-10-29T09:02:50.536424266+00:00",
+  "updatedAt": "2026-10-29T09:02:50.536426177+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
