@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // Check that every SemanticOps domain meets the site standard (srs-context decision d871837a,
 // semanticops.com#44): /llms.txt answers 200 as text/plain with CORS *, its first `##` section is
-// the canonical Get running block, byte for byte, and every link in that block resolves.
+// the canonical Get running block (byte for byte, ignoring CRLF and trailing blank lines), and every
+// link in that block resolves.
 //
 //   node scripts/check-sites.mjs [--json]     exit 0 when every domain passes, 1 otherwise
 //
@@ -38,16 +39,20 @@ function firstSection(text) {
 const links = [...new Set(GET_RUNNING.match(/https:\/\/[^\s)`]+/g))];
 const linkResults = new Map();
 
-/** null when the link answers 2xx or 3xx (HEAD, then GET when HEAD is refused), else the reason. */
+/** null when the link resolves to 2xx after redirects (HEAD, then GET when HEAD fails), else the reason. */
 function checkLink(url) {
   if (!linkResults.has(url)) {
     const once = (method) =>
-      fetch(url, { method, redirect: "manual", signal: AbortSignal.timeout(TIMEOUT_MS) }).then((r) => r.status);
+      fetch(url, { method, signal: AbortSignal.timeout(TIMEOUT_MS) }).then((r) => {
+        void r.body?.cancel();
+        return r.status;
+      });
     linkResults.set(
       url,
       once("HEAD")
-        .then((s) => (s >= 200 && s < 400 ? s : once("GET")))
-        .then((s) => (s >= 200 && s < 400 ? null : `${url} answered ${s}`))
+        .catch(() => 0)
+        .then((s) => (s >= 200 && s < 300 ? s : once("GET")))
+        .then((s) => (s >= 200 && s < 300 ? null : `${url} answered ${s}`))
         .catch((e) => `${url} failed: ${e.cause?.code ?? e.message}`)
     );
   }
