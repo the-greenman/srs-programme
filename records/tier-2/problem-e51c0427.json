@@ -1,0 +1,23 @@
+{
+  "instanceId": "e51c0427-d651-4bf8-84cf-9d4ef7e1b7ca",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-134",
+    "title": "Reopening the repositories I always use means searching for them each time",
+    "statement": "A person who switches between the same few repositories has to find each one again through the open dialogs every time, because the editor remembers none of them, so reaching the repository they want takes longer than the work they came to do.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme vignette 4d5e30f2-09db-4e50-a152-bf99b22e4e59 (owner, 2026-10-29)"
+    ]
+  },
+  "createdAt": "2026-10-29T20:39:12.099177500+00:00",
+  "updatedAt": "2026-10-29T20:39:12.099184010+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
