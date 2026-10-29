@@ -1,0 +1,29 @@
+{
+  "instanceId": "e51415f2-fe7c-4279-993a-36f3b7b506b9",
+  "title": "Affirmation steps belong to the holon setup (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:flow",
+    "topic:holon",
+    "topic:affirmation"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "if we need to affirm, then those steps should be part of the holon setup"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29, while planning the third-party-ready essay editor; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

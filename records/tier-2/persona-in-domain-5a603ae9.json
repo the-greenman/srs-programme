@@ -1,0 +1,31 @@
+{
+  "instanceId": "5a603ae9-587b-4ba6-b1c6-58c9a5d8b985",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "First-time writer trying AI-assisted ownership, in Evidence-backed writing",
+    "summary": "Someone new to the editor, sent a link by someone else, who wants to try being in charge of their own content while still using AI. They have not met records, paragraphs-as-records, problems, counter-claims or paired agents before, and have no one beside them to explain.",
+    "goals": [
+      "Own their own text, in their own words",
+      "Use the AI they already have (Claude Code, claude.ai, ChatGPT)",
+      "Get started without a guide beside them"
+    ],
+    "jobs": [
+      "Open the link and start writing",
+      "Connect their AI to the essay",
+      "Learn the concepts and tools as they need them",
+      "Ask their AI to show them how the editor works"
+    ],
+    "needs": "The editor explaining itself the first time they open it, connecting their AI explained first, and their AI able to teach them the editor and point at it."
+  },
+  "createdAt": "2026-10-29T13:36:53.006032866+00:00",
+  "updatedAt": "2026-10-29T13:36:53.006044831+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

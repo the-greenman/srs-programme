@@ -1,0 +1,29 @@
+{
+  "instanceId": "8146f8f6-9ef3-4c5d-abc0-1b9c96596f03",
+  "title": "Ask your AI to teach you the editor: an AI-focussed manual, and an agent that can highlight the UI (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:third-party-ready",
+    "topic:editor-help",
+    "topic:ai-manual"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Ideally there should be some way to ask your ai to teach you how to use it. This means that we need to have an ai focussed manual. \n\nIs there a way we could allow an agent to highlight a component in the ui?"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29, while planning the third-party-ready essay editor; recorded verbatim (one message, split by thought)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
