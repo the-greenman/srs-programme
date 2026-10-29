@@ -1,0 +1,21 @@
+{
+  "instanceId": "87ac7e01-4705-4325-95f2-ef42a6fb8b60",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Build: make the change once, in the right place",
+    "purpose": "The change is made once, in the layer that owns it, in a clean workspace against the right build, and is not lost.",
+    "in_scope": "Worktrees, the pinned CLI, capability layering, implementation rules (ADR-048), breaking-change choreography.",
+    "out_of_scope": "Judging and landing the change (Review and land)."
+  },
+  "createdAt": "2026-10-29T08:48:16.418410447+00:00",
+  "updatedAt": "2026-10-29T08:48:16.418412453+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

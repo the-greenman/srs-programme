@@ -1,0 +1,18 @@
+{
+  "instanceId": "8ef93bba-568c-44fe-ab0b-c4d96cc724cc",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: a decision at the wrong level, in the wrong domain cannot be properly assessed"
+  },
+  "createdAt": "2026-10-29T08:49:31.561244138+00:00",
+  "updatedAt": "2026-10-29T08:49:31.561247616+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,21 @@
+{
+  "instanceId": "40586d36-c101-433b-bfa0-80fc367e3f07",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Make meaning: name the problem in its domain",
+    "purpose": "Work starts from meaning: a problem in a domain, held by a persona, in words that trace back to the experience they came from.",
+    "in_scope": "Domains, personas, problems, clusters, tensions and poles; suggestions and their affirmed forks; deriving records from vignettes.",
+    "out_of_scope": "Choosing and ranking the response (Choose a response)."
+  },
+  "createdAt": "2026-10-29T08:47:21.044837162+00:00",
+  "updatedAt": "2026-10-29T08:47:21.044838725+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

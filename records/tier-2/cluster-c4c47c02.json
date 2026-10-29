@@ -1,0 +1,19 @@
+{
+  "instanceId": "c4c47c02-def6-482e-9efd-07ee3f3d1fbd",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Which decisions a human must own",
+    "description": "Which choices need a human, which an agent may make under a rule, and how a decision reaches the owner in a form they can judge."
+  },
+  "createdAt": "2026-10-29T08:55:09.179716081+00:00",
+  "updatedAt": "2026-10-29T08:55:09.179717737+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

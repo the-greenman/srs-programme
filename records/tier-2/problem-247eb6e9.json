@@ -1,0 +1,25 @@
+{
+  "instanceId": "247eb6e9-9f55-4bc3-863b-015ef6d6946e",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-124",
+    "title": "Private source material reaches published output",
+    "statement": "When I publish from muSrs, the renders list every source the repository holds, not only the ones my argument cites, so working transcripts of my conversations, with their links and summaries, end up in the published files. Nothing lets me say what is published: only website pages have a published tag, guides use a hand-kept deny list, and the argument and problems renders take everything. I cannot keep exploring in the open repository without risking that what I am thinking through is published.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme vignette fed4eeb4 (the owner, 2026-10-28)",
+      "muDemocracy.org#395 / PR #396"
+    ]
+  },
+  "createdAt": "2026-10-29T09:02:55.519810380+00:00",
+  "updatedAt": "2026-10-29T09:02:55.519812073+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
