@@ -1,0 +1,22 @@
+{
+  "instanceId": "b1f41d6a-a551-49f8-82fd-70e9861232a0",
+  "title": "Conversation 2026-10-29: Essay comment kinds holon",
+  "tags": [
+    "conversation",
+    "topic:comment-kinds",
+    "topic:holon"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "Summary",
+      "content": "Planning and driving unit semanticops.com#43 (essay comment kinds, task states, thumbs) as a holon; comment UI direction."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
