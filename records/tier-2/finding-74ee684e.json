@@ -1,0 +1,29 @@
+{
+  "instanceId": "74ee684e-a1ac-4de0-b3f8-2ef707c793bd",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A holon's rulings were written only in its issue body, so the owner's session could not show them",
+    "summary": "Holon semanticops.com#49 settled seven rulings (R1-R7) in its parent issue. The owner went to ratify them and found nothing: 'how do i do the remaining ratifications? They don't appear in session'. The session agenda lists only proposed decision records in a decision log. The agent then wrote one proposed decision (9441693e) for the owner-level ruling and recorded the rule-settled ones on the issue citing their rule; the owner ratified it (srs-programme#345).",
+    "evidence": [
+      "semanticops.com#49 body, section 'Decisions settled by principle', 2026-10-29",
+      "owner, 2026-10-29: how do i do the remaining ratifications? They don't appear in session",
+      "srs-programme#343 (proposed 9441693e), #345 (session ratifying it)"
+    ],
+    "body": "- The holon handbook step 4 says to record each settlement on its issue, which is a store no session reads.\n- Suggested change: in holon setup, every ruling that needs the owner is written as a proposed decision in the owning log at once (proposed decision 199dd369's placement rule), and only rule-settled ones stay as issue text citing the rule."
+  },
+  "tags": [
+    "decision-stop",
+    "boundary:holon-delivery"
+  ],
+  "createdAt": "2026-10-29T19:59:17.514236330+00:00",
+  "updatedAt": "2026-10-29T19:59:17.514238910+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

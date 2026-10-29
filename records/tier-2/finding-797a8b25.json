@@ -1,0 +1,28 @@
+{
+  "instanceId": "797a8b25-fc62-4a19-8ca5-8b63defd7b73",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The srs CLI cannot update a vocabulary term, so stale guidance stays in a package",
+    "summary": "Fixing review feedback on srs-web#647, a term description in the help repository's placement vocabulary named a mechanism that no longer exists. The CLI has vocabulary create and term-create but no update for either, so the text could not be corrected without hand-editing package JSON, which the rules forbid.",
+    "evidence": [
+      "srs vocabulary --help, srs term --help (build.576)",
+      "srs-rust#1526"
+    ],
+    "body": "- Filed srs-rust#1526 and left the text; the stop is small but recurs for any vocabulary wording fix."
+  },
+  "tags": [
+    "flow-stop",
+    "boundary:holon-delivery"
+  ],
+  "createdAt": "2026-10-29T19:59:19.210084867+00:00",
+  "updatedAt": "2026-10-29T19:59:19.210089416+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,29 @@
+{
+  "instanceId": "4209a7e0-2f3a-4fbd-8497-62fe6c8211b8",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The Conversations view cannot affirm a persona-in-domain, so a derived persona stays suggested",
+    "summary": "In holon #49's setup sitting the owner affirmed the problem (SP-130) and remedy beside their vignettes in the Method editor's Conversations view, but the persona-in-domain 5a603ae9 offered no tick: the view's affirm act covers problem, remedy, cluster and persona only (CARRY in srs-web src/lib/method/method-document.ts). The owner affirmed it by another route (srs-programme#344).",
+    "evidence": [
+      "srs-web src/lib/method/method-document.ts CARRY: problem, remedy, cluster, persona",
+      "semanticops.com#49 comment 2026-10-29: persona-in-domain 5a603ae9 still suggested",
+      "srs-programme#344 fork 48ec7608"
+    ],
+    "body": "- Every problem is held-by a persona-in-domain, so the commonest derived persona is exactly the one the view cannot tick.\n- Suggested change: add persona-in-domain to the Method editor's affirmable entities."
+  },
+  "tags": [
+    "flow-stop",
+    "boundary:holon-delivery"
+  ],
+  "createdAt": "2026-10-29T19:59:17.914648941+00:00",
+  "updatedAt": "2026-10-29T19:59:17.914651251+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
