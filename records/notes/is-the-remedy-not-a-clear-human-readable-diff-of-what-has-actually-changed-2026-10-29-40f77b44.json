@@ -1,0 +1,29 @@
+{
+  "instanceId": "40f77b44-646b-48fe-a1b7-377bac261146",
+  "title": "Is the remedy not a clear human-readable diff of what has actually changed? (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:repo-diff",
+    "topic:merge-review",
+    "topic:remedy"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "What remedy do we need? \nIs the remedy not the ability to present a clear human readable diff of what has actually changed?"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29, after srs#387 was filed with 'Remedy: none yet' for SP-34; follows vignette 5a95b823; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
