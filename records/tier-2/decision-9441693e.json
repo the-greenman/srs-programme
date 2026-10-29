@@ -17,12 +17,12 @@
     "status": "proposed",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "tags": [
     "boundary:editor-help"
   ],
   "createdAt": "2026-10-29T13:51:37.704222109+00:00",
-  "updatedAt": "2026-10-29T13:51:37.812205024+00:00",
+  "updatedAt": "2026-10-29T13:55:40.206395905+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

@@ -1,0 +1,29 @@
+{
+  "instanceId": "be1d7a96-f1e7-492b-8469-ef9e4c537df1",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-10-29 13:55 UTC: SemanticOps",
+    "held_at": "2026-10-29T13:55:25Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-10-29 13:55 UTC: SemanticOps\nAttendees: Owner\n- Ratified: Every editor carries its own help as data, joined to its UI by feature id, and agents may point at the UI but never write through it [9441693e]\nActs in the order taken (UTC):\n- 13:55:34Z ratify: Every editor carries its own help as data, joined to its UI by feature id, and agents may point at the UI but never write through it [9441693e] (Decisions since the last session 1 of 1, record updated 2026-10-29T13:51:37.812205024+00:00)"
+  },
+  "createdAt": "2026-10-29T13:55:39.641370618+00:00",
+  "updatedAt": "2026-10-29T13:55:39.641372650+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "e96b9193-6e2e-473a-a097-969bc36cce62",
+      "sourceRole": "attaches"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "session": "be1d7a96-f1e7-492b-8469-ef9e4c537df1",
+  "acts": [
+    {
+      "at": "2026-10-29T13:55:34.892Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 1,
+      "seen": [],
+      "updatedAt": "2026-10-29T13:51:37.812205024+00:00",
+      "kind": "ratify",
+      "id": "9441693e-ec30-4acc-a4b9-56a90feb67d1",
+      "title": "Every editor carries its own help as data, joined to its UI by feature id, and agents may point at the UI but never write through it"
+    }
+  ]
+}
