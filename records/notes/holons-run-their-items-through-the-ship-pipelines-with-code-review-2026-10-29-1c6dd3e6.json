@@ -1,0 +1,29 @@
+{
+  "instanceId": "1c6dd3e6-a261-4ff4-b39b-e875c109b7c7",
+  "title": "Holons run their items through the ship pipelines, with code review (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:holon",
+    "topic:flow",
+    "topic:review"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "lets update our general holon workign guide. we should run code reviews on our work. \n\nhave a look at the ship and ship0web commands, we should be using them to run the actual work whenever possible"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29; recorded verbatim (one message)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
