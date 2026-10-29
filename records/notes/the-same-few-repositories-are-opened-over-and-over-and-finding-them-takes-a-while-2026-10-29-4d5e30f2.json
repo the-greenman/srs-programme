@@ -1,0 +1,26 @@
+{
+  "instanceId": "4d5e30f2-09db-4e50-a152-bf99b22e4e59",
+  "title": "The same few repositories are opened over and over, and finding them takes a while (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:srs-web"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "I am almost always loading the same repos. To make it easier to use the editor, we should maintain a list of recently opened repos, and provide a way to star them so that we have a favourite list first.\n\nThis is a QOL fix rather than a deep problem to solve. But any regular user will have the same challenge. We switch between the same set of repos fairly often. Finding them can sometimes take a while."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29; recorded verbatim (typo corrected)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
