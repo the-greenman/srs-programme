@@ -1,0 +1,25 @@
+{
+  "instanceId": "a9ddb1dc-745d-4f4d-9392-64bfe38fea93",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-116",
+    "title": "A repository that takes minutes to open stops being used",
+    "statement": "Opening a real corpus in the editor takes minutes (the owner left to make tea while the muSrs folder, about 5,800 files, loaded in Chrome). A tool that gets slower as the corpus grows becomes friction, and people stop opening it. Writers need a repository to open in seconds however large it grows, and need to see that it stays that way.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme:narrative-explorations:055524b2",
+      "srs-programme:narrative-explorations:4030b4cd"
+    ]
+  },
+  "createdAt": "2026-10-29T08:57:54.008583660+00:00",
+  "updatedAt": "2026-10-29T08:57:54.008585998+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

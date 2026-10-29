@@ -1,0 +1,24 @@
+{
+  "instanceId": "a36b0c25-857f-41b2-8354-1a2a93d7e3c2",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-108",
+    "title": "A bug is stopped by a problem gate it does not need",
+    "statement": "When I find a bug I want to file it and have it worked as a bug. The flow, the claim and the grounding check treat a missing Answers line as ungrounded for every issue, so a bug waits for a problem that nobody needs to write.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-25: vignette d7a4db67 (srs-programme, Narrative explorations): bugs do not need problems; bugs are bugs"
+    ]
+  },
+  "createdAt": "2026-10-29T08:42:02.134944236+00:00",
+  "updatedAt": "2026-10-29T08:42:02.134945724+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

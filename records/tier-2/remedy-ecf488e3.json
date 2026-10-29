@@ -1,0 +1,26 @@
+{
+  "instanceId": "ecf488e3-530e-4635-afb8-e967d3b72615",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A sequence frees its next task only when the previous task's PR merges",
+    "move": "In an open sequence (an issue with sub-issues), the desk and clerk claim treat the next task as free only when the previous task's PR has merged, unless the task states it is independent of its siblings (an 'Independent of' line). Parallel work then comes from different sequences, not from siblings that edit the same files.",
+    "does_not_fix": "It does not stop unrelated issues from touching the same file, and it slows one sequence down to one PR at a time.",
+    "falsifier": "Sibling PRs of one sequence still conflict with each other after the change, or sequence throughput falls with no drop in conflicts.",
+    "source_ref": [
+      "Owner, 2026-10-28: vignette 913a3db6",
+      "Finding: sibling tasks of one issue are built in parallel and collide on one file (2026-10-28)",
+      "clerk#204 (next task free to take)"
+    ]
+  },
+  "createdAt": "2026-10-29T09:18:25.777511223+00:00",
+  "updatedAt": "2026-10-29T09:18:25.777512789+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

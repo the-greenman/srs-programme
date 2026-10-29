@@ -1,0 +1,24 @@
+{
+  "instanceId": "825845a2-a0cc-496a-900e-6439e31a3ded",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-104",
+    "title": "A ratified rule and the practice running today say opposite things, and nothing notices",
+    "statement": "Rulings D4, D5 and D15 (ratified 2026-10-16) say an issue is not work until it is grounded and routed, and the handbook repeats it. Since clerk#156 the code grades care instead and refuses nothing for lack of confidence, a position never ratified. Nothing checks records against each other or against the practice they describe, so contradictions surface only when someone trips over them.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-24, reviewing the flow map (clerk#180); flow map clerk#180; clerk#156; decisions D4, D5, D15"
+    ]
+  },
+  "createdAt": "2026-10-29T08:58:51.819315590+00:00",
+  "updatedAt": "2026-10-29T08:58:51.819317369+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

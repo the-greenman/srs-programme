@@ -1,0 +1,26 @@
+{
+  "instanceId": "4d308de6-2955-4c99-9284-63b027803563",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "One index of decisions across the stores, by stable id, before any decisions server",
+    "move": "Keep the stores where they are and build one read-only index that lists every decision in every store (record, ADR, rfc-decision, log row, PR block, answered ask) with its id, store, level, state and how it got there, and flags decisions that exist only in a branch or open PR. The index is the evidence for the owner's question whether a decisions server is needed: build a server only if the index shows decisions lost or unfindable that a single store would have kept.",
+    "does_not_fix": "It does not stop decisions being written in many places, nor give the stores one id scheme; it makes them findable and their losses countable.",
+    "falsifier": "The index misses decisions that agents later find by hand, or after a month it shows no loss a server would prevent (then no server).",
+    "source_ref": [
+      "Owner, 2026-10-28: vignette e3069d0d",
+      "Finding: decisions are recorded in at least seven stores with no shared index (2026-10-28)",
+      "clerk#63 (precedent is local: one log per decision)"
+    ]
+  },
+  "createdAt": "2026-10-29T09:20:33.009662467+00:00",
+  "updatedAt": "2026-10-29T09:20:33.009664177+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,19 @@
+{
+  "instanceId": "726442ba-e3f2-49ec-9279-e70662fd8aad",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Moving work through without losing it",
+    "description": "Work is claimed, built, reviewed and landed without being lost, parked out of sight or restarted from nothing."
+  },
+  "createdAt": "2026-10-29T08:52:27.770814484+00:00",
+  "updatedAt": "2026-10-29T08:52:27.770816016+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,26 @@
+{
+  "instanceId": "e0afe25e-cb04-483b-be3d-258265fcaef8",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A quorum survives a merge of the base branch",
+    "move": "Bind a working-group quorum to the PR's own change (the diff from the merge base to the head, or its patch-id) instead of the exact head SHA. When a new head differs from the reviewed one only by merging the base branch and the PR's own diff is unchanged, the quorum still holds, so upkeep keeps group PRs up to date like any auto PR and merges them on green.",
+    "does_not_fix": "It does not resolve a real conflict, and a base merge that changes the PR's own diff (a conflict resolution) still needs a fresh review. Alternative with the same effect at less cost and less safety: switch off 'require up to date' on srs and srs-rust and let push CI on master catch two PRs that each pass alone but fail together.",
+    "falsifier": "After a week, group PRs on srs and srs-rust still wait more than a day after a green quorum, or still carry more than one owner-made follow-up commit on average.",
+    "source_ref": [
+      "Owner, 2026-10-28: vignette 913a3db6",
+      "Finding: strict up-to-date protection and a head-bound quorum stall working-group PRs (2026-10-28)",
+      "clerk lib/practice/upkeep.mjs:29, :92"
+    ]
+  },
+  "createdAt": "2026-10-29T09:03:56.243645116+00:00",
+  "updatedAt": "2026-10-29T09:03:56.243646540+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

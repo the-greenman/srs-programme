@@ -1,0 +1,25 @@
+{
+  "instanceId": "2a5a1496-7713-428f-b59e-c26a1c6a3dea",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A boundary is drawn around what is being worked on, and every read stays inside it",
+    "move": "A writer or agent draws a boundary around the work in hand (a conversation, an essay, one aspect of a domain) and search, traversal, context and views can each be limited to it. The cost of building and working inside a boundary is measured, so a slow one is noticed.",
+    "does_not_fix": "Whether relations become container-specific (they are not today), and the choice of boundary for a family of essays.",
+    "falsifier": "Working on one aspect of a large repository, the owner still filters results by hand because a read ignores the boundary.",
+    "source_ref": [
+      "Owner, 2026-10-25: vignettes 61761471, 29094aed",
+      "srs#973"
+    ]
+  },
+  "createdAt": "2026-10-29T09:14:54.853919739+00:00",
+  "updatedAt": "2026-10-29T09:14:54.853921258+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

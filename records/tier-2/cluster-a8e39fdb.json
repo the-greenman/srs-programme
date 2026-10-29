@@ -1,0 +1,19 @@
+{
+  "instanceId": "a8e39fdb-81fc-48ac-8243-082a53b9f0fa",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "What a good issue carries",
+    "description": "An issue names its problem (a bug needs none), its parent, remedy, ruling, plan, acceptance and lane, in one vocabulary."
+  },
+  "createdAt": "2026-10-29T08:56:29.004556226+00:00",
+  "updatedAt": "2026-10-29T08:56:29.004557798+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

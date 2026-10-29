@@ -1,0 +1,19 @@
+{
+  "instanceId": "c609c1b7-168a-4cfe-8239-d7f2192abe8a",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Capture everything and attend to what matters",
+    "description": "Line 2 in the stage Sense, refining the Programme coordination line 'One mechanism and compatibility'. Whether every signal is recorded, or attention goes to the few that matter. The constraint is attention: whatever is recorded has to be read by someone."
+  },
+  "createdAt": "2026-10-29T09:03:35.923558037+00:00",
+  "updatedAt": "2026-10-29T09:03:35.923560447+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

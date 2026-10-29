@@ -1,0 +1,19 @@
+{
+  "instanceId": "20e56b90-fe12-4494-b6d8-bbd9362e446f",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "How work is identified rightly",
+    "description": "Work starts from meaning: a problem in a domain, for a persona, told in the owner's words, before it becomes an issue."
+  },
+  "createdAt": "2026-10-29T08:53:14.358259986+00:00",
+  "updatedAt": "2026-10-29T08:53:14.358263361+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

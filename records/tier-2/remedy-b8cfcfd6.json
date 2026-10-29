@@ -1,0 +1,25 @@
+{
+  "instanceId": "b8cfcfd6-d6d8-441a-9220-5c1752e2ad0c",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A good pull request is defined once, and each repository adds only its local checks",
+    "move": "The handbook states what every pull request carries (the issue it closes, what changed and how it was tested, its decision mode and, where it changes a ruling, its door) and generates a PR template from that text for every governed repo. A repo adds its own lines (srs's Cell, srs-web's branch name) to the template, never a different base.",
+    "does_not_fix": "Whether the change is right; the template only makes a PR judgeable.",
+    "falsifier": "After the template exists, PRs still fail a repo's check for a line the template did not ask for.",
+    "source_ref": [
+      "Owner, 2026-10-25: vignette 30afa94e",
+      "clerk#224 (issue templates)"
+    ]
+  },
+  "createdAt": "2026-10-29T09:18:20.606648309+00:00",
+  "updatedAt": "2026-10-29T09:18:20.606650192+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

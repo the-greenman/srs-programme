@@ -1,0 +1,18 @@
+{
+  "instanceId": "093dcdc9-bf12-4d6e-b348-31a79213ea2c",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: Our work is to build semantic infrastructure"
+  },
+  "createdAt": "2026-10-29T08:53:14.572355567+00:00",
+  "updatedAt": "2026-10-29T08:53:14.572359115+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

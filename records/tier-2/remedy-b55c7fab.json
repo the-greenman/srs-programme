@@ -1,0 +1,25 @@
+{
+  "instanceId": "b55c7fab-a1d2-4dc2-a4c2-a6dcfd3634a1",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Every decision names the boundary where it removes choices; domains are sensed from the boundaries that recur",
+    "move": "When a decision is proposed, applied or found, its record names the level and boundary where it removes choices: a link to the domain when one exists, otherwise a boundary:<slug> tag in plain words. A session or desk shows a decision only at its level; elsewhere it is context. Boundary tags are counted; one that keeps recurring is brought to affirmation review as a candidate domain, and two domains whose decisions keep crossing are proposed for merging. No domain is created up front to make a decision placeable.",
+    "does_not_fix": "It does not decide who owns each level (decision 949ae72d does), nor recover the placement of the 109 existing decisions; those are placed as they are next cited.",
+    "falsifier": "After a month, boundary tags have not converged (each decision names a new one), or the owner's sessions still receive design-kind decisions.",
+    "source_ref": [
+      "Owner, 2026-10-28: vignettes 6606adfe, 5f271974",
+      "Finding: no decision records the level or boundary where it removes choices (2026-10-28)"
+    ]
+  },
+  "createdAt": "2026-10-29T09:20:06.913851114+00:00",
+  "updatedAt": "2026-10-29T09:20:06.913852538+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

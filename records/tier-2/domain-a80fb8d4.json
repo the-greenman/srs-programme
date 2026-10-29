@@ -1,0 +1,21 @@
+{
+  "instanceId": "a80fb8d4-03a8-4d6f-a82d-232871dd7f2d",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Sense: notice what matters and hear it",
+    "purpose": "Nothing that matters goes unnoticed: the owner's experience is captured as it was said, and every session knows where things stand before it acts.",
+    "in_scope": "The owner's words, the desk, session start, intake of requests and findings, signals from the repositories.",
+    "out_of_scope": "Deciding what the words mean (Make meaning) and what to do about them (Choose a response)."
+  },
+  "createdAt": "2026-10-29T08:50:40.876862940+00:00",
+  "updatedAt": "2026-10-29T08:50:40.876864502+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
