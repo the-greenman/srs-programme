@@ -1,0 +1,27 @@
+{
+  "instanceId": "9eb1d478-b4a2-4efd-b569-3c5ffc0262ac",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A clear, human-readable diff shows what has actually changed",
+    "move": "Wherever a repository can change out of sight (a relay session, an agent's work, a copy taken away), a person can ask what has actually changed since a point they choose: their last save, before an agent started, or the origin of a copy. The answer comes from one core comparison keyed by stable ids, not by file. It is read as records by title, field by field, with relations and container entries in words, and who made each change. When two copies both changed the same record, it shows both values side by side, so merging is a review of named differences, not of files. The same answer is given to agents as data.",
+    "does_not_fix": "Merging without a person (automatic resolution), a lasting history of edits between sessions, and limits on who may change what (SP group permissions).",
+    "falsifier": "A person reviewing an agent's work or a returning copy still has to open files or raw JSON to learn what changed, or cannot tell a one-sided change from a conflicting one.",
+    "source_ref": [
+      "Owner, 2026-10-29: vignettes f4dabff9, 07833bd2, 5a95b823, 40f77b44",
+      "srs#387",
+      "srs-rust#1522",
+      "srs-web#587"
+    ]
+  },
+  "createdAt": "2026-10-29T12:30:04.887179601+00:00",
+  "updatedAt": "2026-10-29T12:30:04.887181100+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
