@@ -1,0 +1,24 @@
+{
+  "instanceId": "4a2b7df5-6848-4157-822a-83ebaf527512",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "The editor remembers the repositories I open, and keeps my starred ones first",
+    "move": "On the idle page the editor lists the repositories the person has opened lately, newest first, and lets them star any of them. Starred repositories sit in a Favourites list above Recent and are never dropped; Recent is capped. Choosing an entry reopens it in one click, without the open dialogs. GitHub repositories come first (owner, repo, branch and path are enough to reopen), then a local folder (its handle is kept and permission asked again on click), then a local file. The list lives in the viewer's own browser; it is a convenience and carries no semantics.",
+    "does_not_fix": "Finding a repository the person has never opened (the GitHub and Dropbox pickers, srs-web#425), sharing a favourites list between people or devices, and Dropbox and Drive entries until their handles can be reopened.",
+    "falsifier": "Once the list exists, the person still reaches their usual repositories through the open dialogs, or the entries fail to reopen.",
+    "source_ref": [
+      "Owner, 2026-10-29 (vignette 'The same few repositories are opened over and over'): \"We switch between the same set of repos fairly often. Finding them can sometimes take a while.\""
+    ],
+    "return_when": "After a starred GitHub repository has been reopened from the idle page in one click."
+  },
+  "createdAt": "2026-10-29T20:40:09.053817535+00:00",
+  "updatedAt": "2026-10-29T20:40:09.053820596+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

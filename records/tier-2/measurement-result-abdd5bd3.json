@@ -1,0 +1,21 @@
+{
+  "instanceId": "abdd5bd3-660d-4e8d-b3a6-dbbcb1cf0a69",
+  "typeId": "8b2d78d1-51ba-4e3d-8638-9ce1fc9595a0",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.argument",
+  "typeName": "measurement-result",
+  "fieldValues": {
+    "result_id": "I1 2026-10-29T11:30:00Z..now",
+    "observed_finding": "I1 for wg:third-party-ready, PRs merged 2026-10-29T11:30:00Z..now: 1/3 grounded to a problem (33%); 0/3 with an affirmed persona and domain (0%). By level: none 0, issue 2, problem 1, problem+persona+domain 0, epic 0, group 0.",
+    "observation_period": "2026-10-29T11:30:00Z..now",
+    "evaluator": "pending: the owner's session (useful, noisy or misleading)"
+  },
+  "createdAt": "2026-10-29T11:37:52.388087520+00:00",
+  "updatedAt": "2026-10-29T11:37:52.388093374+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

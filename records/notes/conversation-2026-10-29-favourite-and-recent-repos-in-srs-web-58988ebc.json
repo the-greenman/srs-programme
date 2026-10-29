@@ -1,0 +1,27 @@
+{
+  "instanceId": "58988ebc-dfb1-4b10-94b6-9d299cdbddf5",
+  "title": "Conversation 2026-10-29: favourite and recent repos in srs-web",
+  "tags": [
+    "conversation",
+    "topic:srs-web",
+    "topic:opening-repositories",
+    "topic:favourites"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner is almost always loading the same few repositories in the srs-web editor and finds them slowly. They asked for a list of recently opened repositories with a star to mark favourites, shown first. GitHub first, then local folder and file. Filed as a holon and built through /ship."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-10-29."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
