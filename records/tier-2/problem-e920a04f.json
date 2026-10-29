@@ -1,0 +1,24 @@
+{
+  "instanceId": "e920a04f-6fc4-4a9d-bd0e-ca97dd9cdcfb",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-129",
+    "title": "An agent arriving at a SemanticOps site cannot get the tools running",
+    "statement": "An agent sent to any SemanticOps site (semanticops.com, srs.semanticops.com, skill.semanticops.com, app.semanticops.com) learns what SRS is but not how to install the srs engine or connect it. The specification site never mentions the engine, the main site says 'run srs repo validate' with no install step, the install one-liner lives only in the srs-rust README and the srs-memory skill and covers Linux x86_64 only, and the MCP setup is on no public page. Each site was also built its own way, so there is no standard a new site follows. A third party who points an AI assistant at SemanticOps cannot get from reading to doing.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme:records/notes vignette fdc74e98 (owner, 2026-10-29)"
+    ]
+  },
+  "createdAt": "2026-10-29T10:32:00.689055908+00:00",
+  "updatedAt": "2026-10-29T10:32:00.689060595+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
