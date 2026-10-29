@@ -1,0 +1,24 @@
+{
+  "instanceId": "b5cc33ee-7f86-4235-9a11-45b042daca20",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-131",
+    "title": "A writer cannot see whether an essay fits a word or character limit",
+    "statement": "Funding bids, the essay editor's first purpose, always set a word or character limit, per answer and often per section. While I write I cannot see how many words or characters a paragraph, a nested section or the whole essay holds, so I have to copy the text out to count it, and I find out late that I am over.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-29"
+    ]
+  },
+  "createdAt": "2026-10-29T15:48:32.934361350+00:00",
+  "updatedAt": "2026-10-29T15:48:32.934365243+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
