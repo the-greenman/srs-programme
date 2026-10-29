@@ -1,0 +1,29 @@
+{
+  "instanceId": "07833bd2-cb8b-4e0b-8a71-ac01a209e5ae",
+  "title": "We need the old repo diff issue now: a useful view of what has changed (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:relay",
+    "topic:save-state",
+    "topic:repo-diff"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "ok. we have an old issue for a repo diff. \nI think we need it now. \n\nWe need to be able to present a useful view of what has changed."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29, after hearing that srs-web tracks only a single dirty flag and no MCP surface exposes save state (follows vignette f4dabff9); recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
