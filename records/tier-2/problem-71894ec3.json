@@ -1,0 +1,23 @@
+{
+  "instanceId": "71894ec3-25cb-4114-8e66-aafeefd22178",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-128",
+    "title": "An affirmed remedy reads as the right one",
+    "statement": "Once a remedy is affirmed, the flow treats it as the answer. A problem can have many remedies, but I cannot see them side by side, which ones compete, or how they relate, so nothing prompts us to synthesise them into the way forward. A remedy is a hypothesis: it records a falsifier, but not what would count as success, and nothing records whether the experiment has run or what it showed.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-10-29: vignette 2941f51a (srs-programme, Narrative explorations)"
+    ]
+  },
+  "createdAt": "2026-10-29T09:11:45.346145188+00:00",
+  "updatedAt": "2026-10-29T09:11:45.346146503+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
