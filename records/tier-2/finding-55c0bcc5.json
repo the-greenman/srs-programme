@@ -1,0 +1,28 @@
+{
+  "instanceId": "55c0bcc5-1db2-4f2b-998d-5d81b87436df",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A flaky e2e test on srs-web main fails unrelated PRs' CI",
+    "summary": "e2e/agent-library.spec.ts:190 (Guides at 390px) failed CI on main (run 40729530179) and on the 640, 641 and 648-comment-review-fixes branches. The test resized to 390px and counted a 'Go' button before the bar re-rendered narrow, then clicked a vanished button until the 60s timeout. Each failure cost a diagnosis before the PR could be judged.",
+    "evidence": [
+      "srs-web CI runs 40729530179 (main), 40914199487, 40914913074, 40920588467",
+      "fix: wait for header-menu before openMenu, 10/10 repeated runs (srs-web#650)"
+    ],
+    "body": "- Nothing tracks a test that fails on main intermittently, so each PR's driver rediscovers it.\n- Suggested change: a red main run on a test that later passes opens a flaky-test bug at once."
+  },
+  "tags": [
+    "flow-stop",
+    "boundary:holon-delivery"
+  ],
+  "createdAt": "2026-10-29T19:59:18.688587441+00:00",
+  "updatedAt": "2026-10-29T19:59:18.688589671+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

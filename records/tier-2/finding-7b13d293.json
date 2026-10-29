@@ -1,0 +1,28 @@
+{
+  "instanceId": "7b13d293-98df-46fc-925e-5359058dc1a9",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A holon cannot be driven to finish: every PR in it waits for the owner's merge",
+    "summary": "Holon #49 was set up so that, after one sitting, development is driven without the owner. Every srs-web PR in it carries gate:owner-merge (the domain is not mature, so PRs are owner merged), so the WG quorum approved srs-web#646 and #647 and both then waited for the owner to run clerk merge. Three more PRs (#650, #642, #643) will wait the same way.",
+    "evidence": [
+      "srs-web#646, #647: wg-quorum verdict=approve, label gate:owner-merge, merged by the owner 2026-10-29",
+      "owner comment on proposed decision: Until a domain meets all criteria, PRs are owner merged"
+    ],
+    "body": "- The sitting can affirm the remedy and ratify the rulings, but not pre-authorise the merges, so the holon still needs the owner once per PR.\n- Suggested change: the setup sitting may authorise merge-on-quorum for the holon's own PRs (as semanticops.com#43's owner answers did for #305), recorded on the parent, so the driver merges after quorum within that mandate."
+  },
+  "tags": [
+    "flow-stop",
+    "boundary:holon-delivery"
+  ],
+  "createdAt": "2026-10-29T19:59:18.304616192+00:00",
+  "updatedAt": "2026-10-29T19:59:18.304617940+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

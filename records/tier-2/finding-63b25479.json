@@ -1,0 +1,28 @@
+{
+  "instanceId": "63b25479-6698-4682-84c4-5991f216b081",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A content question surfaced during build, after the holon's one sitting",
+    "summary": "Holon #49 gathered owner questions into one setup sitting, including approving the help words. The code review of srs-web#650 then found that the approved order put 'Your name' ninth although a writer must name themselves before editing, and the question went back to the owner mid-delivery (answered 2026-10-29: move it up).",
+    "evidence": [
+      "srs-web#650 review finding 10, 2026-10-29",
+      "owner, 2026-10-29: We can move up \"Your name\""
+    ],
+    "body": "- Content the owner approves is reviewed for code, not for sense, before the sitting.\n- Suggested change: in holon setup, run a review of the drafted content (its order and claims against the code) before it is put to the owner."
+  },
+  "tags": [
+    "decision-stop",
+    "boundary:holon-delivery"
+  ],
+  "createdAt": "2026-10-29T19:59:19.465043437+00:00",
+  "updatedAt": "2026-10-29T19:59:19.465047596+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
