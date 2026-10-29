@@ -1,0 +1,27 @@
+{
+  "instanceId": "6d1ff82f-6a32-4b62-bcc9-532e336c8e33",
+  "title": "Conversation 2026-10-29: remedies are hypotheses",
+  "tags": [
+    "conversation",
+    "topic:remedies",
+    "topic:experiments",
+    "topic:affirmation"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner, unprompted, set out how remedies should be treated in the flow: an affirmed remedy is not thereby the right one; a problem can have many remedies, which may compete; their relations must be visible; candidates are synthesised to find the way forward; and each remedy is a hypothesis with stated success and failure conditions, run as an experiment."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-10-29."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

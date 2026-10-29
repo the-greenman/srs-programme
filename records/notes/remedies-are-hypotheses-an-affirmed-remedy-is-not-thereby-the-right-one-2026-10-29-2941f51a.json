@@ -1,0 +1,27 @@
+{
+  "instanceId": "2941f51a-a513-494c-a98a-292323de76d7",
+  "title": "Remedies are hypotheses: an affirmed remedy is not thereby the right one (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:remedies",
+    "topic:experiments"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "here;s something important for the flow .... just because a remedy is affirmed, doesn't mean its the right one. \n\nA problem may have many remedies. \nWe should notice when they are competing. \nWe should ensure that we can see their relations\n\nAs we find potential remedies we will need to synthesise them to to find the right way forward. \n\nRemedies are hypotheses. We need to know what would make them succeed or fail as experiements"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29, unprompted; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

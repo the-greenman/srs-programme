@@ -1,0 +1,23 @@
+{
+  "instanceId": "aa5f6f0a-4535-478c-9eb0-8e97d22f9549",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Remedies carry a success condition and an outcome",
+    "move": "Give the remedy type a `succeeds_when` field beside `falsifier`, and record the experiment outcome (untested, running, held, failed) apart from affirmation, so affirming a remedy means \"worth trying\", not \"right\".",
+    "does_not_fix": "Does not show competing remedies or relate them; one remedy can be tested well while a better rival goes unseen.",
+    "falsifier": "Affirmed remedies still reach epics with no success condition stated, or outcomes are never recorded after the work lands.",
+    "source_ref": [
+      "Owner, 2026-10-29: vignette 2941f51a (srs-programme, Narrative explorations)"
+    ]
+  },
+  "createdAt": "2026-10-29T09:11:53.336035365+00:00",
+  "updatedAt": "2026-10-29T09:11:53.336036847+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
