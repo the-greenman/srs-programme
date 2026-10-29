@@ -1,0 +1,28 @@
+{
+  "instanceId": "774617ba-144e-40ee-bb2f-b0fd6597430a",
+  "title": "The essay editor needs word and character counts for funding bids (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essay-editor",
+    "topic:word-counts"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The srs-web essay editor needs to provide word and character counts. \n\nOne of the initial purposes for the essay is to assist in writing carefully researched funding bids. These will always need specific word or character counts. \n\nWe need ot show counts per paragraph and totals per essay. \nWe should only include paragraphs in the main body. We should include hidden paragraphs. \n\nWhere paragraphs are nested, we should show subtotals. \n\nNumbers can be small, with a hover to make them easier."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29, asking for word and character counts in the srs-web essay editor; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

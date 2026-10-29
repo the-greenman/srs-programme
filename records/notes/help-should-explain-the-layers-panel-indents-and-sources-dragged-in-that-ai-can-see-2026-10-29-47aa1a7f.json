@@ -1,0 +1,27 @@
+{
+  "instanceId": "47aa1a7f-1a8a-49cf-a828-023b24a963ca",
+  "title": "Help should explain the layers panel, indents, and sources dragged in that AI can see (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:editor-help"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's add help for the layers panel as well. \nWe need to explain indents. \n\nWe can also drag in different sources, which AI can see."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29, adding to the draft essay help words (srs-web#641); recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
