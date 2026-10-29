@@ -1,0 +1,28 @@
+{
+  "instanceId": "2c6cd8d1-75a9-41f1-9a0b-fb5ea4d19747",
+  "title": "Introduce the editor on first open: popup help, don't show again, connect your AI first (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:third-party-ready",
+    "topic:editor-help"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Then we need to be able to introduce the editor. \nOpening a new editor should probably have a popup help (and a way to say don't show again) \n\nThe editor is not something people are used to. It needs some key concepts and tools explained. \nOne of the first things it should explain is how to connect claude code or chatgpt. "
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29, while planning the third-party-ready essay editor; recorded verbatim (one message, split by thought)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

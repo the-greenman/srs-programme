@@ -1,0 +1,28 @@
+{
+  "instanceId": "622d1a82-a36a-4958-a2fa-12bd129781a9",
+  "title": "A shared essay editor needs a link that opens a new essay (2026-10-29)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:third-party-ready",
+    "topic:share-link"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Here;s  3rd party ready thing\n\nI want to be able to share the essay editor with someone. I need a link that opens a new essay directly. "
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-29, while planning the third-party-ready essay editor; recorded verbatim (one message, split by thought)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
