@@ -1,0 +1,31 @@
+{
+  "instanceId": "0425ca8b-2a7a-4bf3-994f-e1b1181aa094",
+  "title": "5. The graph across repositories",
+  "tags": [
+    "research",
+    "topic:graph"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "Meaning stops at the repository boundary; the return of federation, starting with cross-repository addressing, is ratified."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "Decision 31e9fd27 (ratified 2026-10-16) orders the return: RFC-049 addressing, then cross-repository relations, then multi-repository MCP. It answers SP-86 (a record cannot link to a record in another repository) and SP-87 (an agent works in one repository at a time), under cluster c583f5d7 and strategy contract 586cd1ec. SP-09 (knowledge arrives without its meaning attached) names relations among what is lost."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "Is any cross-repository graph needed before RFC-049 (Draft) is accepted?"
+    }
+  ],
+  "createdAt": "2026-10-30T09:32:50Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

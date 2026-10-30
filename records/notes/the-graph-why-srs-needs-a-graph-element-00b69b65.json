@@ -10,27 +10,22 @@
     {
       "name": "claim",
       "label": "Claim",
-      "content": "SRS needs a graph element (owner, 2026-10-30, vignette in conversation 2026-10-29). In the owner's earlier words the need is for relationships and links: \"seeing relationships ... systems in systems\" (lenses assessment, 2026-10-09). No vignette uses the word graph."
+      "content": "SRS needs a graph element (the owner, 2026-10-30, vignette in conversation 2026-10-29). In the owner's own words the need is for relationships and links; no vignette uses the word graph."
     },
     {
       "name": "story",
       "label": "The story so far",
-      "content": "SRS was always a graph: records joined by typed, binary relations. In September we ruled that meaning lives in relations and membership is declared (srs decision 0750c62f). What was missing was evidence for a graph surface, so every relation feature nobody used was removed with a return trigger: relation-query in 0 of 13 real sections, relation provenance in 0 of 250 relations (srs decision 4f1e12e5).\n\nThose triggers are now firing:\n- A third-party demo had to restate 296 evidences edges as container membership to print one problem dossier (finding bbe2be46, srs#726).\n- Clients and agents rebuild the same walks (reach, lineage, neighbours) in their own code, and the one picture, the Map, breaks past a few hundred records (finding on the graph surface, this thread).\n- People cannot see what links to what (SP-48, vignettes 2941f51a and 35e35dd2).\n- Federation's return, the graph across repositories, is ratified (decision 31e9fd27).\n\nThe need the evidence supports is narrow: one-hop selection by relation, visible links (what links here), and a bounded walk in the core. It is not a graph query language (strategy contract 0ce48b8d), and keeping that line is what separates it from the unplanned query surface removed in srs#525."
+      "content": "SRS was always a graph: records joined by typed, binary relations, and in September we ruled that meaning lives in relations. What was missing was evidence for a graph surface, so every relation feature nobody used was removed with a return trigger. Those triggers are now firing: a third-party demo had to restate 296 relations as membership to print one document, clients rebuild the same walks, people cannot see what links to what, and federation's return is ratified. The need the evidence supports is narrow: one-hop selection by relation, visible links, and a bounded walk in the core. It is not a graph query language."
     },
     {
-      "name": "strands",
-      "label": "Strands and evidence",
-      "content": "1. See the graph: SP-48 (7063a8d7), remedy lenses (364126da), vignettes 2941f51a and 35e35dd2, srs-web#481 (Map at 704 records), muDemocracy-decisions#21 (2026-03-17, earliest request found).\n2. Select by relation: finding bbe2be46, vignette d6fd498b, srs#726 open question 3 and the owner's 'planned query language' (srs#688), srs#851 (33 container literals), SP-24 (bc432d78).\n3. Removed, awaiting evidence: srs decision 4f1e12e5 (item 4 relation-query, item 2 federation), strategy contract e1cd52e7.\n4. Integrity already done: RFC-005 installable relation types, RFC-027 relation rows, RFC-022 relational lifecycle states, srs#171 and srs#287 (relation layer), srs decision 0750c62f; missing constraints: unit cf9f5816 (acyclicity, cardinality), srs-context finding e1d026a5 (the concept graph is not a DAG).\n5. Agents navigating by relation: srs-rust#1413, #1415, #1416, #1229; srs-context finding 030997a9 and SP-22 (d199abac) on context cost; finding bbe9faf9 (zero-context agent).\n6. Across repositories: decision 31e9fd27, SP-86 (c8167ce7), SP-87 (11cd5900), cluster c583f5d7, strategy contract 586cd1ec, SP-09 (7a0a13f1)."
-    },
-    {
-      "name": "counter",
-      "label": "Counter-evidence",
-      "content": "- Strategy contract 0ce48b8d: the discovery contract excludes a general graph query language; srs#726: a query must never become a place meaning lives.\n- A record of dead relation features (4f1e12e5): relation-query 0 of 13, provenance 0 of 250, the old federation 34 prose records with no data.\n- Carried context 287d4071: lifecycle needs looked like graph walking but were met twice without graph code.\n- Finding bbe2be46: one hop was enough; nothing needed multi-hop.\n- Decision 559bfb9e (experiment now, unify later) and one-way-per-goal: a derived container would be a third selection construct, and 0750c62f says no third.\n- srs docs/research/graph-model-alignment.md (2026-08-10, srs#368 open): SRS does not need to adopt a graph model.\n- srs-rust#1086: unwanted contains expansion in rendering."
+      "name": "parts",
+      "label": "The parts",
+      "content": "1. People need to see what links to what.\n2. Documents need to select records by relation.\n3. Agents and clients walk the graph themselves.\n4. Relation integrity: what is done and what is missing.\n5. The graph across repositories.\n6. Against: why graph features were removed and what to avoid.\nEach part is a section below this one, with its evidence inside it."
     },
     {
       "name": "open",
       "label": "Open questions",
-      "content": "- Does selection need more than one hop? Only one corpus (LiveWyer) has been measured.\n- Where does a graph view sit: a lens layout, a Composition, or a new presentation object?\n- Is a walk (srs-rust#1413) a core service or a DiscoveryQuery axis? One way per goal says not both.\n- Is any cross-repository graph needed before RFC-049 is accepted?\n- Must integrity constraints (acyclicity, cardinality) come first?\n- Has anyone outside the owner's projects asked for a graph view?\n- No affirmed problem names relation selection itself (srs-rust#1413 says so); SP-24 and SP-48 carry it today."
+      "content": "More than one hop? Where a graph view lives. Walk as service or query axis. Constraints first? Demand beyond the owner's projects. No affirmed problem names relation selection itself; SP-24 and SP-48 carry it today."
     }
   ],
   "createdAt": "2026-10-30T09:13:36Z",

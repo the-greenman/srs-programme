@@ -1,0 +1,36 @@
+{
+  "instanceId": "0f9e2ee9-9d0c-413b-abfa-a352de576b3d",
+  "title": "The domain map: from semantic engineering to the stages of the flow",
+  "tags": [
+    "research",
+    "topic:domains"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "Where our work happens, from the base domain down to the stages of the flow. A domain says where and when a problem occurs; its tensions say what it trades off."
+    },
+    {
+      "name": "tree",
+      "label": "The map",
+      "content": "Semantic engineering in practice is the base domain. Within it:\n- Programme coordination: how work and decisions move through the programme. It is refined by the nine stages of the archetypal flow, each a domain with its own purpose, scope and trade-off: Sense, Make meaning, Choose a response, Shape the work, Allocate, Build, Review and land, Decide, Learn and remember.\n- Semantic records: what a record is and asserts.\n- Agent memory: what agents keep between sessions.\n- Deep context: the context an agent needs to act well.\n- Evidence-backed writing: writing whose claims carry their evidence.\n- Group meaning ownership: how a group owns its meaning.\n- Stance: the position a record or response takes."
+    },
+    {
+      "name": "drill",
+      "label": "How to read it",
+      "content": "Open a domain to see its purpose and scope, then its clusters, problems, tensions and poles. Open a stage under Programme coordination to see its exercise (what we tried and where we went too far), its trade-off and the two poles. Most domains exist as a suggestion and an affirmed copy; the map shows the record each domain's own section is built on."
+    },
+    {
+      "name": "state",
+      "label": "Where it stands",
+      "content": "The nine stages and Programme coordination came from the flow work (2026-10-25). Choose a response and Shape the work have no affirmed copy yet. The tensions are untested."
+    }
+  ],
+  "createdAt": "2026-10-30T09:32:50Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
