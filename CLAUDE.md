@@ -75,13 +75,22 @@ The rule is proposed decision 199dd369. Read with `srs find --tag decision-stop`
 
 ## Research
 
-Standing research into how SRS is used and what it needs: the **Research** root section, container `2f14de07`. Its anchor note says how a thread works. There is one thread per question: the graph (`fd02df3d`), human-readable repositories (`02a7e2e4`), and the flow and decision explorations above.
-- **Add evidence as you meet it.** That covers a demo, a friction, an issue comment or an owner remark about SRS in use.
-  - An existing record joins the thread by membership. Don't copy it.
-  - New evidence is a `finding` in Suggestions that `evidences` the problem it bears on, and joins the thread.
-  - Owner words are first a vignette in their conversation container.
-- **Keep counter-evidence in the same thread.**
-- **Rewrite, don't append.** The thread's anchor note holds the case so far; update it when the evidence changes the story.
+Standing research into how SRS is used and what it needs: the **Research** root section, container `2f14de07`.
+
+It is a tree of documents that gets deeper: an introduction, then one overview per thread, then parts, then the evidence. Every document with children anchors its own container, so navigation drills down. The threads:
+- the graph (`fd02df3d`);
+- human-readable repositories (`02a7e2e4`);
+- flow and decisions (`0217dd72`, over the four flow and decision models);
+- the domain map (`5a3d1e92`, from the base domain down to the nine flow stages).
+
+**Add evidence as you meet it.** That covers a demo, a friction, an issue comment or an owner remark about SRS in use.
+- An existing record joins the right part by membership. Don't copy it.
+- New evidence is a `finding` in Suggestions that `evidences` the problem it bears on, and joins a part.
+- Owner words are first a vignette in their conversation container.
+
+**Keep counter-evidence in the same thread.**
+
+**Rewrite, don't append.** An overview holds the case so far: in short, the story, the parts, what is open. When the evidence changes the story, rewrite the overview, and move new detail into a part. How to structure any repository this way is taught at engine.semanticops.com/structure.md.
 
 srs-context points here (convention `a752700b`), so a session in any repository can find it.
 

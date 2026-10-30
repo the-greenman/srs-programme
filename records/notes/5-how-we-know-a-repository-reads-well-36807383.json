@@ -1,0 +1,31 @@
+{
+  "instanceId": "36807383-e067-4039-b7eb-186109e99211",
+  "title": "5. How we know a repository reads well",
+  "tags": [
+    "research",
+    "topic:human-readable-repos"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "The test is a person or a cold agent reading it, not a checker going green."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "Wave 5, Read as a human (9ff0a734): its exit criterion is a front-to-back read-through by someone who did not write it. The zero-context agent test (8b87b2d5) failed: no tree walk, one invented id (finding bbe9faf9). The lenses remedy (364126da) uses a person finding their way as its falsifier. The owner, 2026-10-29: a new agent should be able to start from any SemanticOps domain (fdc74e98). SP-116: a repository that takes minutes to open stops being used. Proposed in srs-rust#1490: a coverage report of what is not reachable from the root."
+    },
+    {
+      "name": "principle",
+      "label": "Principle",
+      "content": "Read-through and reachability are the tests. Decided for Wave 5; reachability proposed."
+    }
+  ],
+  "createdAt": "2026-10-30T09:32:50Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

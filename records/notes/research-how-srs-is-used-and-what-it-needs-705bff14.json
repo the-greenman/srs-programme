@@ -7,19 +7,24 @@
   ],
   "sections": [
     {
-      "name": "purpose",
-      "label": "Purpose",
-      "content": "Standing research into SRS in use, kept beside the work so a story can be told from evidence rather than memory. Each thread follows one question over time: how work flows, how decisions settle, whether SRS needs a graph element, how a repository is structured for humans. A thread ends only when its question is answered by a decision or an affirmed record."
+      "name": "intro",
+      "label": "Introduction",
+      "content": "This is where the programme studies SRS in use: what it needs, how work moves, and how a repository should be structured. Each thread follows one question and is written as a tree of documents: an overview first, then parts, then the evidence. Start with the overview of the thread you need, and go one level deeper only when you need more.\n\nThe owner, 2026-10-30: \"Where we have a research area it should be structured as a tree of documents that get deeper. As a human or agent I should be able to find a top level introduction and then drill down into parts.\""
+    },
+    {
+      "name": "threads",
+      "label": "The threads",
+      "content": "- The graph: why SRS needs a graph element. The evidence supports one-hop selection by relation, visible links and a bounded walk in the core, not a query language.\n- Human-readable repositories: how a repository is structured for people. Five parts, from the front door to how we test readability.\n- Flow and decisions: the models of how work moves and how decisions settle.\n- The domain map: where the work happens, from the base domain down to the stages of the flow."
     },
     {
       "name": "practice",
       "label": "How a thread works",
-      "content": "A thread is a container titled \"<question or name> (yyyy-mm-dd started)\". Its anchor note holds the case so far: the claim, the story the evidence tells, the strands, and the open questions. It is rewritten as evidence arrives, never appended to as a log.\n\nEvidence joins by declared membership: an existing record (a vignette, problem, finding, decision, strategy contract) is added to the thread, not copied. New evidence (an issue comment, a demo, a measurement) becomes a finding in Suggestions that evidences the problem or contract it bears on, and is also added to the thread. Owner words enter as vignettes in their conversation container first (Narrative explorations).\n\nCounter-evidence goes in the same thread, marked as such. A thread that only collects support is advocacy, not research."
+      "content": "A thread is a section with an overview document: the claim, the story the evidence tells, the parts, and the open questions. It is rewritten as the evidence changes, never appended to as a log. Each part is a document of its own, holding its evidence below it. Existing records join by membership and are never copied. New evidence becomes a finding in Suggestions that evidences the problem it bears on. Owner words enter first as vignettes in their conversation container. Counter-evidence stays in the same thread: a thread that only collects support is advocacy, not research."
     },
     {
       "name": "find",
       "label": "How to find it",
-      "content": "srs find --container 2f14de07-0850-4f32-9870-f241630d9537 lists every thread anchor. To search one thread: srs find --container <thread container> --text \"<term>\". Threads: the graph fd02df3d-5b57-46b6-80ca-beb977bf8931; human-readable repositories 02a7e2e4-bdb9-489c-8bf5-1e4aa0c01c7f; the archetypal flow 165f3a6e; flow model B b9c5106b; programme coordination by seven questions 2a13a5c7; the decision flow 68b6eb64. Each is also a child container of Research. srs-context points here (convention a752700b, in its Brief), so a session in any repository can find it."
+      "content": "srs find --container 2f14de07-0850-4f32-9870-f241630d9537 searches all of Research. Each thread and part is its own container, so a search can be narrowed to one. srs-context points here (convention a752700b, in its Brief)."
     }
   ],
   "createdAt": "2026-10-30T09:13:36Z",

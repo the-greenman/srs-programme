@@ -1,0 +1,30 @@
+{
+  "instanceId": "62c4c942-341f-4b4f-92f2-78ee2156d0ff",
+  "title": "Vignette 2026-10-30: research is a tree of documents that gets deeper",
+  "tags": [
+    "vignette",
+    "topic:research",
+    "topic:human-readable-repos",
+    "topic:navigation",
+    "topic:domains",
+    "topic:skill"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"So, we have a few things here,.\n\nThe exploration of flow and decisions should not be just vignettes. \n\nSRS is designed to manage data in a structured way. Where we have a research area it should be structured as a tree of documents that get deeper. \n\nAs a human or agent I should be able to find a top level introduction and then drill down into parts. \n\n\nOur flow work has identified a set of possible domains, these exist as domains, but they should also be laid out in a way that would allow me to navigate... From high level overview down to specific details.\n\nThis structuring of data should be part of the skill we teach. It's the human readable work we have just been doing.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdAt": "2026-10-30T09:28:05Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

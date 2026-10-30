@@ -1,0 +1,31 @@
+{
+  "instanceId": "7d2f0962-c78e-4797-b143-a88e9f7fbccb",
+  "title": "3. Labels, headings and reading views",
+  "tags": [
+    "research",
+    "topic:human-readable-repos"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "A record read by a person shows its title as a heading and its meaning in words, without machine fields."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "SP-82: rendered documents cannot keep a continuous heading outline; decision 444121a6 sends srs#911 to an RFC. SP-80: the rendered specification cannot be followed front to back (cluster 426561fe); the spec's reading order work (unit 2e876361) and one mechanism for depth (65c41ce6) answered parts of it. SP-05 and srs#928: labels belong in the core, not invented by clients; compositions have no display title. Practised in LiveWyer: displayLabel on every field and a reading view per type (title as heading, machine fields hidden)."
+    },
+    {
+      "name": "principle",
+      "label": "Principle",
+      "content": "Every type has a reading view; documents keep a continuous outline. Practised; ruled to an RFC (444121a6) but not written."
+    }
+  ],
+  "createdAt": "2026-10-30T09:32:50Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

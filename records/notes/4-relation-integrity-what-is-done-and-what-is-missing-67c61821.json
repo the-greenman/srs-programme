@@ -1,0 +1,31 @@
+{
+  "instanceId": "67c61821-4db4-47d8-8e15-024e71296536",
+  "title": "4. Relation integrity: what is done and what is missing",
+  "tags": [
+    "research",
+    "topic:graph"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "The relation layer is typed and governed; the constraints a graph needs (acyclicity, cardinality, endpoint types) are not."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "Done: installable relation types (RFC-005), relation rows in rendering (RFC-027), relational lifecycle states (RFC-022), the relation principles R1 to R11 (srs#171, with eight open defects in srs#287), and decision 0750c62f: membership is declared and meaning lives in relations. Missing: declared structural constraints (unit cf9f5816). Measured: the spec's concept graph is not a DAG, with three two-cycles among 44 concepts (srs-context finding e1d026a5)."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "Must integrity constraints come before a graph surface?"
+    }
+  ],
+  "createdAt": "2026-10-30T09:32:50Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

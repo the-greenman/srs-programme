@@ -1,0 +1,31 @@
+{
+  "instanceId": "93f957c2-23a3-4389-bfe0-b718640ad1b3",
+  "title": "1. People need to see what links to what",
+  "tags": [
+    "research",
+    "topic:graph"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "Links between records exist but cannot be seen: SRS shows the tool's model, not the shape of the work."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "The owner, 2026-10-09: \"I have found myself wanting to work by drawing boundaries, creating distinctions and then seeing relationships ... I'm looking for systems in systems\" (srs-programme source-documents/srs-web-lenses-2026-10-09/assessment.md). The affirmed problem SP-48 says links between records are hidden. The lenses remedy (364126da, built as srs-web#547) answers with three panes: a set, one thing, and what links to it. The Map is the only picture, and at 704 records it is a dense circle with truncated labels (srs-web#481). In October the owner asked twice to see links: remedy relations (vignette 2941f51a) and which comment links to what (35e35dd2). The earliest request found is muDemocracy-decisions#21 (2026-03-17): mapping the conversation."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "Where does a graph view live: a lens layout, a Composition, or a new presentation object? There are no usage numbers for the Map."
+    }
+  ],
+  "createdAt": "2026-10-30T09:32:50Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

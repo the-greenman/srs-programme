@@ -1,0 +1,31 @@
+{
+  "instanceId": "0526b03e-c1cf-4e56-97cd-e6399336ade6",
+  "title": "2. Documents need to select records by relation",
+  "tags": [
+    "research",
+    "topic:graph"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "A document such as 'this problem and everything that evidences it' cannot be expressed without restating relations as container membership."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "Decision 4f1e12e5 retired the relation-query section source (0 of 13 real sections) with a return trigger: a composition need neither live variant expresses. LiveWyer Insight met it on 2026-10-30: a problem dossier had to restate 296 evidences edges as membership of 23 containers (finding bbe2be46, srs#726 open question 3, srs#851 for the 33 container literals it then needs). The owner, 2026-09-10 (srs#688): \"we had an unplanned query language. A large SRS repo will need a structured query language.\" SP-24 says what a query returns is opaque. One hop over one relation type was enough for every document in the demo."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "Does selection need more than one hop? Only one corpus has been measured. Under one-way-per-goal (decision 0750c62f, 'no third'), the return belongs in DiscoveryQuery as a relation axis, not as a derived container."
+    }
+  ],
+  "createdAt": "2026-10-30T09:32:50Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

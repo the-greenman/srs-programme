@@ -1,0 +1,31 @@
+{
+  "instanceId": "dfc8fde9-3e24-45f2-bbd7-4768c5356404",
+  "title": "1. The front door: what a repository opens on",
+  "tags": [
+    "research",
+    "topic:human-readable-repos"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "A person opening a repository should meet its purpose and a way in, not a data dump."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "The owner, 2026-10-26: \"A srs repository should have a structure that makes sense to browse\" (29d4cbd4). The affirmed problems are SP-119 (a repository opened for the first time reads as a data dump) and SP-48 (every repository opens as the same engine view). The generic editor is many people's first experience of SRS (18d1c388), and a repository should identify itself to a cold agent (a693b256). Decided: the root container is required and its identity record is the repository's purpose (RFC-013). Not decided: what the front door is; RFC-013's root view binding (OQ-1) was never specified, and srs-web simply opens the first composition. LiveWyer Insight puts a reading guide in the identity record and installs its front-door document first (finding 6439b0db)."
+    },
+    {
+      "name": "principle",
+      "label": "Principle",
+      "content": "The identity record is the front matter and reading guide; one document is the front door. Decided in part (RFC-013), practised (LiveWyer, srs-context), the front door undecided."
+    }
+  ],
+  "createdAt": "2026-10-30T09:32:50Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
