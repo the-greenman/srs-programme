@@ -7,7 +7,7 @@
   "fieldValues": {
     "title": "What makes a relationship strong?",
     "thinking_reached": "No option chosen. Raised as an open question in Research (3. Confidence instead of a gate), 2026-10-30, and turned into an exercise so options are explored before any decision.",
-    "tensions": "Options, none chosen:\n- A. Its type: evidences counts more than relates-to.\n- B. Its source: the owner's words, a measurement, an agent's observation.\n- C. Agreement: how many independent sources point the same way.\n- D. A mix of these, fading with age.",
+    "tensions": "Options, none chosen:\n- A. Its type: evidences counts more than relates-to.\n- B. Its source: the owner's words, a measurement, an agent's observation.\n- C. Agreement: how many independent sources point the same way.\n- D. A mix of these, fading with age.\n- E. Recurrence: the same storyline found by dreams in independent vignettes (the owner, 2026-10-30: \"When they find the same storyline in different vignettes they will have stronger dreams\").",
     "unresolved_questions": "Cases where the owner trusts or distrusts a record, and which signals explain it.",
     "next_action": "Take ten records the owner trusts and ten they doubt and list the relations each has."
   },
@@ -16,7 +16,7 @@
     "research"
   ],
   "createdAt": "2026-10-30T10:07:40.026128318+00:00",
-  "updatedAt": "2026-10-30T10:07:40.026131659+00:00",
+  "updatedAt": "2026-10-30T10:22:03.528705489+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"

@@ -82,6 +82,7 @@ It is a tree of documents that gets deeper: an introduction, then one overview p
 - human-readable repositories (`02a7e2e4`);
 - affirmation and confidence (`45883ea7`): where human judgement belongs, and confidence built from relationships;
 - open exercises (`7cccba8c`): every open question as an exercise, a question with options to explore before it becomes a decision;
+- dreamtime (`764f0236`): long-term memory as a practice; dreams that test data in scenarios, keep the readable hierarchy in shape and strengthen relationships when storylines recur;
 - flow and decisions (`0217dd72`, over the four flow and decision models);
 - the domain map (`5a3d1e92`, from the base domain down to the nine flow stages).
 

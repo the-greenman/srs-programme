@@ -1,0 +1,21 @@
+{
+  "instanceId": "0ec68e91-88f1-4436-8606-13824416f378",
+  "title": "7. Open exercises from dreamtime",
+  "tags": [
+    "research",
+    "exercise"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "Whether dreamtime becomes standard, what dreams test, what they may change, and how recurrence becomes strength."
+    }
+  ],
+  "createdAt": "2026-10-30T10:22:02Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
