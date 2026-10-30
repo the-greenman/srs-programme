@@ -1,0 +1,31 @@
+{
+  "instanceId": "0872ba27-28aa-4279-9a2f-cea03c094d4c",
+  "title": "2. Audit, 2026-10-30: six corpora",
+  "tags": [
+    "research",
+    "topic:readability"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "LiveWyer Insight and srs-context read best; the programme, muSrs, the spec and the clerk handbook each fail at the front door or in structure, and the shared packages give almost no labels or reading views."
+    },
+    {
+      "name": "table",
+      "label": "Scorecard",
+      "content": "| Check | programme | muSrs | spec | handbook | context | livewyer |\n|---|---|---|---|---|---|---|\n| F1 | ✓ 631 chars | △ 216 chars | ✓ 503 chars | △ 308 chars | △ 140 chars | ✓ 1030 chars |\n| F2 | △ 29 chars | ✓ 5060 chars | ✓ 487205 chars | △ 18 chars | ✓ 12652 chars | ✓ 17950 chars |\n| S1 | ✓ 9 sections | ✓ 9 sections | ✓ 9 sections | △ 91 sections | ✓ 8 sections | △ 10 sections |\n| S2 | △ 8/9 anchored | ✓ 9/9 anchored | ✓ 9/9 anchored | △ 0/91 anchored | ✓ 8/8 anchored | ✓ 10/10 anchored |\n| S3 | ✓ 68/80 documents | ✓ 16/19 documents | △ 3/9 documents | ✓ 0/0 documents | △ 3/8 documents | ✓ 33/33 documents |\n| S4 | △ 14 walls | △ 21 walls | △ 7 walls | △ 1 walls | △ 4 walls | △ 6 walls |\n| S5 | △ 73% (1346/1855) | △ 67% (769/1143) | △ 75% (534/711) | ✓ 100% (92/92) | ✓ 100% (234/234) | ✓ 100% (882/882) |\n| L1 | △ 39% of 215 fields | △ 46% of 358 fields | ✓ 100% of 69 fields | △ 82% of 28 fields | ✓ 100% of 37 fields | ✓ 100% of 29 fields |\n| L2 | △ 0/44 types | △ 2/67 types | △ 2/15 types | △ 0/5 types | ✓ 5/6 types | ✓ 6/6 types |\n| L3 | ✓ 46/47 sections | ✓ 69/72 sections | ✓ 22/22 sections | ✓ 2/2 sections | ✓ 5/5 sections | ✓ 36/36 sections |\n| M1 | ✓ 0 errors, 23 warnings | ✓ 0 errors, 6 warnings | ✓ 0 errors, 2 warnings | ✓ 0 errors, 0 warnings | ✓ 0 errors, 0 warnings | ✓ 0 errors, 0 warnings |\n| M2 | △ 42% (673 records) | △ 8% (90 records) | ✓ 2% (17 records) | ✓ 0% (0 records) | ✓ 1% (2 records) | ✓ 0% (0 records) |\n\nRun on clean exports of each default branch. srs-context was fixed the same day: F1 1144 characters, S3 8/8."
+    },
+    {
+      "name": "read",
+      "label": "What it says",
+      "content": "The front door is the commonest failure: three of six open on an identity that is not a guide, and two on a document that renders nothing. Structure fails by reach (a quarter to a third unreachable in three corpora) and by walls. Reading fails in the shared packages: labels below half and almost no views, which no single repository can fix alone. Semantics stay intact everywhere (no validation errors), except that affirmation repeats 42% of the programme's records."
+    }
+  ],
+  "createdAt": "2026-10-30T10:37:24Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,21 @@
+{
+  "instanceId": "7adce1ce-4bf2-4159-9e33-e5c78438605b",
+  "title": "3. Quick wins",
+  "tags": [
+    "research",
+    "topic:readability"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "Small changes with a large effect on a first reading: guides at the front door, overview documents for bare sections, one root member without a section, labels filled from field names."
+    }
+  ],
+  "createdAt": "2026-10-30T10:37:24Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

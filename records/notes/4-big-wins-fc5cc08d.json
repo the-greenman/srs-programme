@@ -1,0 +1,21 @@
+{
+  "instanceId": "fc5cc08d-f17e-41a1-94b4-b9c8cc0d8a3c",
+  "title": "4. Big wins",
+  "tags": [
+    "research",
+    "topic:readability"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "Larger changes that lift every repository at once: reading views in the shared packages, everything reachable from the root, the duplicate pairs, and walls broken into parts."
+    }
+  ],
+  "createdAt": "2026-10-30T10:37:24Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

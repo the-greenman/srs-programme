@@ -1,0 +1,30 @@
+{
+  "instanceId": "42d82b48-c32e-4992-a925-f21852c2706f",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "srs-programme: the first document renders nothing",
+    "summary": "The editor opens the first composition, semanticops-roadmap, which is unbound: rendered on its own it gives 29 characters and 'needs a supplied container'.",
+    "evidence": [
+      "Audit 2026-10-30: F2 29 chars",
+      "23 compositions, many from shared packages (agent routines, argument readers); none is a front door"
+    ],
+    "body": "Remedies: a bound front-door composition installed first (needs a way to order compositions; there is no command), or the editor supplying the root container to an unbound first composition (srs#851's direction), or the spec's root view binding (RFC-013 OQ-1). The exercise on the front door holds the options."
+  },
+  "tags": [
+    "readability",
+    "corpus:programme",
+    "check:F2",
+    "win:quick",
+    "status:open"
+  ],
+  "createdAt": "2026-10-30T10:37:25.286479609+00:00",
+  "updatedAt": "2026-10-30T10:37:25.286481539+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,36 @@
+{
+  "instanceId": "363fc3c3-1f8a-4260-8db7-c07c587790bb",
+  "title": "Readable repositories, tested: the core offering",
+  "tags": [
+    "research",
+    "topic:readability"
+  ],
+  "sections": [
+    {
+      "name": "claim",
+      "label": "Claim",
+      "content": "Readability by humans and AI with the semantics intact is the core offering of SRS, and we test ourselves against it. The owner, 2026-10-30: \"We need to hold that purpose and test ourselves against it. Right now human readability has been lagging behind.\""
+    },
+    {
+      "name": "story",
+      "label": "The story so far",
+      "content": "The LiveWyer Insight experiment showed that a third-party repository can read well with today's tools. Applied to our own corpora, the same checks found the front door the commonest failure, large unreachable areas, and shared packages that give almost no labels or reading views. srs-context was fixed the same day and now passes all but one check. The rest is an issue list ranked into quick wins, big wins and tool fixes, to be re-run and worked down."
+    },
+    {
+      "name": "parts",
+      "label": "The parts",
+      "content": "1. The checks and the activities.\n2. Audit, 2026-10-30: six corpora.\n3. Quick wins.\n4. Big wins.\n5. Tool fixes.\n6. Keeping it up: dreams and the skill."
+    },
+    {
+      "name": "find",
+      "label": "The issue list",
+      "content": "srs find --type com.semanticops.programme/finding --tag readability (add --tag win:quick, win:big or win:tool, --tag status:open, or --tag corpus:<name>)."
+    }
+  ],
+  "createdAt": "2026-10-30T10:37:24Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
