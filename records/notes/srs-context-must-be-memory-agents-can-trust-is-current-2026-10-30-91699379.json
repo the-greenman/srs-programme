@@ -1,0 +1,27 @@
+{
+  "instanceId": "91699379-d270-45f8-b73b-8ed60b8987d6",
+  "title": "srs-context must be memory agents can trust is current (2026-10-30)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:context-currency",
+    "topic:agent-memory"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's update srs-context.\n\nThis repo should act as our main agent shared memory. It shouldn't really get out of date.\n\nHow do we make it work as something that agents can trust is current?"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim. At that moment the session's brief reported the main srs-context clone 16 commits behind origin/main: a stray finding file (already rescued to origin as finding-7f5236df by the 2026-10-29 dream) was left in the main checkout, which stops the SessionStart hook fast-forwarding."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
