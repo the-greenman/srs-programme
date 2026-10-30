@@ -1,0 +1,26 @@
+{
+  "instanceId": "bedfd45b-ae5e-4bfc-8e2d-07ee646e2fec",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "clerk claim and clerk care report different care modes for the same issue",
+    "summary": "For srs-context#112, clerk claim printed 'Care mode: build, by rule 1' while clerk care, run a moment later, printed 'Mode: Careful, by rule 4: a clear plan on thin theory is careful'. The duties differ (Careful requires gate:owner-merge and an assumptions block), so a builder following claim's line would open the PR with the wrong gate.",
+    "evidence": [
+      "clerk claim srs-context#112 and clerk care srs-context#112, 2026-10-30 ~10:20 UTC, from the same srs-programme checkout (origin/master)",
+      "The same mismatch on srs-context#113 (claim: build; care: Careful)"
+    ],
+    "body": "- The driver followed the stricter mode (care) and labelled PR #120 gate:owner-merge.\n- Likely cause: claim grades from a different input set than care (claim ran before the blocked label was removed, or reads the grounding without the theory facts)."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-10-30T10:45:00.030088482+00:00",
+  "updatedAt": "2026-10-30T10:45:00.030090404+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

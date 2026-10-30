@@ -9,7 +9,8 @@
     "summary": "When srs-rust#1473 closed on 2026-10-28, srs-programme#189 kept its blocked label; clerk flow showed it held until the driver removed the label by hand. Nothing clears a blocked label when the last blocker closes.",
     "evidence": [
       "srs-programme#189 labels, 2026-10-28 21:50 UTC",
-      "clerk flow --chain srs-programme#189 (held: blocked) until the label was removed"
+      "clerk flow --chain srs-programme#189 (held: blocked) until the label was removed",
+      "srs-context#112, 2026-10-30: the blocked label added while #111 was open stayed after #111 closed; clerk claim refused (held: blocked) until the driver removed it by hand"
     ],
     "body": "- In an unattended chain, this is a silent stop between every pair of links.\n- Recorded under the proposed flow-stop rule fbba3d5e."
   },
@@ -17,7 +18,7 @@
     "flow-stop"
   ],
   "createdAt": "2026-10-28T22:02:02.600387770+00:00",
-  "updatedAt": "2026-10-28T22:02:02.600391679+00:00",
+  "updatedAt": "2026-10-30T10:44:41.567931848+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",
