@@ -1,0 +1,42 @@
+{
+  "instanceId": "e634638f-3fbb-4578-8fad-7ef589fc4db7",
+  "title": "Human-readable repositories: structuring a repository for people",
+  "tags": [
+    "research",
+    "topic:human-readable-repos"
+  ],
+  "sections": [
+    {
+      "name": "claim",
+      "label": "Claim",
+      "content": "How an SRS repository is structured so a person can read it. The owner, 2026-10-26: \"A srs repository should have a structure that makes sense to browse\" (vignette 29d4cbd4), and 2026-10-27: \"Navigation is a semantic essential\" (baee7d9a). The problem it answers is SP-119, a repository opened for the first time reads as a data dump."
+    },
+    {
+      "name": "story",
+      "label": "The story so far",
+      "content": "The spec decided the skeleton: a required root container whose identity is the repository's purpose record (RFC-013), and an ordered outline whose entry order is the navigation order (RFC-043). What it never decided is the front door, and the tools do not yet honour the order: navigation children come back unordered (srs-rust#1490), and srs-web's container pane shows search hits (srs-web#668).\n\nThe practice ran ahead of the spec. srs-context reads in numbered layers (00 Brief to 99 Dogfood). muSrs is being regrouped into five purpose-shaped areas (uncommitted, worktree navigation-structure-2026-10-27). LiveWyer Insight showed that a third-party repository can read well with today's tools: a ranked root, a section container per root member, a reading guide in the identity record, labels and reading views, and the first composition as the front door.\n\nThe owner's further ask is that structure stays stable and grows consistently, with only redesigns brought for review (ac5974c6), and that the structure follows the repository's purpose (29d4cbd4). Nothing yet answers that (SP-117, SP-118 have no remedy)."
+    },
+    {
+      "name": "principles",
+      "label": "Emerging principles",
+      "content": "1. The root container's order is the reading order. Decided (RFC-043 Change E); practised in srs-context, muSrs, LiveWyer; not yet honoured by tools (srs-rust#1490, srs-web#668).\n2. A few purpose-shaped areas at the top, never a data dump. Owner (29d4cbd4, SP-119); practised; not decided.\n3. Every root member anchors a section container; depth comes from the outline. Link decided (RFC-043 Change F, anchorInstanceId); practised (decision a6280447 for domains, LiveWyer); in tension with 0750c62f, which gives navigation depth to the contains tree.\n4. The identity record is the front matter and reading guide. Pointer decided (RFC-013); guide practised only (LiveWyer, srs-context).\n5. The first composition is the front door. Practised only, by an srs-web convention; RFC-013 OQ-1 (the root view binding) was never specified.\n6. Every type has a reading view: title as heading, machine fields hidden. Practised (LiveWyer); SP-05 and srs#928 say labels belong in the core.\n7. Settled navigation is stable and evolves consistently; only redesigns go to review; guidance follows the purpose, with optional locked levels. Owner (ac5974c6, 29d4cbd4); SP-117, SP-118; no remedy.\n8. The test is a human read-through, not a checker. Decided as Wave 5's exit criterion (9ff0a734); falsifier of remedy 364126da.\n9. Everything is reachable from the root. Proposed (srs-rust#1490).\n10. A continuous heading outline. Ruled to an RFC (decision 444121a6, srs#911); not written."
+    },
+    {
+      "name": "gaps",
+      "label": "Gaps and contradictions",
+      "content": "- srs-rust#1490 cites SP-116 for the data dump; it is SP-119 (SP-116 is the slow open).\n- No remedy answers SP-117, SP-118 or SP-119.\n- The owner asked to record the old structure and what changed (ac5974c6): no such record exists, and the muSrs restructure is uncommitted.\n- Navigation depth: 0750c62f and RFC-043 keep the contains tree; LiveWyer, muSrs and srs-rust#1490 use container outlines; srs tree (contains) is the data dump.\n- srs-context finding 1dff7ee3: an identity record with descendants conflicts with RFC-043 [R12] and slicing.\n- Problem containers restate relations as membership (finding bbe2be46), pending relation selection (graph thread).\n- No spec for the front door or default composition (RFC-013 OQ-1); no composition title (srs#928).\n- The clerk handbook is a counter-example: 91 flat sections, read through its rendered markdown."
+    },
+    {
+      "name": "open",
+      "label": "Open questions",
+      "content": "- What is the front door, in the spec: the identity record, a bound composition, or both?\n- Who decides a repository's top-level areas, and how is the purpose turned into structure (a conversation, a guide, the dream cycle)?\n- How is a structural change recorded so a settled navigation can be compared over time?\n- Should navigation depth come from the contains tree or from container outlines, and can it be one way?"
+    }
+  ],
+  "createdAt": "2026-10-30T09:13:36Z",
+  "updatedAt": "2026-10-30T09:18:31Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
