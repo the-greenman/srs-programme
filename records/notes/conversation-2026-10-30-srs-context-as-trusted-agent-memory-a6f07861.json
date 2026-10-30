@@ -1,0 +1,23 @@
+{
+  "instanceId": "a6f07861-dcf6-4f33-8507-01f2d232cafb",
+  "title": "Conversation 2026-10-30: srs-context as trusted agent memory",
+  "tags": [
+    "conversation",
+    "topic:context-currency",
+    "topic:agent-memory",
+    "topic:dream-cycle",
+    "topic:agent-affirmation"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "Summary",
+      "content": "Making srs-context project memory agents can trust is current; rule-governed dreams, watched stats and a human-browsable tree; driving it as a holon; agents affirming problems they are the audience of."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

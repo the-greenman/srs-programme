@@ -1,0 +1,27 @@
+{
+  "instanceId": "d83cd13c-1369-49e1-aa95-8e62d67cc818",
+  "title": "Agents should affirm the problems they are the audience of (2026-10-30)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:agent-affirmation",
+    "topic:agent-memory"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "File it. \nReview any decisions required. Let's follow the holon flow and deliver\n\nAgents should probably be able to affirm problems where they are the audience!"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim. Said in reply to Claude Code's offer to file SP-135..137 and their remedies as one holon in srs-context. It contradicts the practice running today: srs-programme CLAUDE.md ('Agents never write into Affirmed or Set aside') and the clerk handbook, The affirmation layer ('Affirmation is how the owner turns a suggestion ... into an affirmed record')."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
