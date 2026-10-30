@@ -1,0 +1,32 @@
+{
+  "instanceId": "5fcbd854-e995-47f5-ba23-3cacceb5f5f3",
+  "title": "6. Housekeeping: the cleanup cycle",
+  "tags": [
+    "research",
+    "topic:dreamtime",
+    "topic:housekeeping"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "A regular, automatic cleanup of the workspace: remove finished work, rescue unfinished work before it is lost, and put what needs a decision in front of the owner. The owner, 2026-10-30: \"It's not quite dreamtime... Although probably the same thing at a different level.\""
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "The first full sweep (2026-10-30) found 135 worktrees and three pieces of finished work never committed, one for two and a half months, which no other session could see (finding on stale work, this part). Dreams tidy memory; housekeeping tidies the workspace the memory is built in. Both run on a cadence, decide what they safely can, and leave the rest for a person. scripts/wt now has a read-only 'wt stale' report, the input such a cycle needs."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "How the cycle runs and what it may do unattended: the exercise below."
+    }
+  ],
+  "createdAt": "2026-10-30T11:00:42Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
