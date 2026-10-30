@@ -1,0 +1,27 @@
+{
+  "instanceId": "2aaf9f6a-e305-4d9c-8564-21b2ca384507",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The branch of a closed, unmerged PR blocks clerk claim, and no routine removes it",
+    "summary": "srs-rust#1342 was ready and planned, but clerk claim refused it because branch 1342-adr011-schemars-bullet still existed after its PR #1470 closed unmerged on 2026-10-28. A builder commented once; every later run skipped it without repeating, so the only buildable item in the group queue sat idle for two days. Deleted 2026-10-30 at the owner's instruction.",
+    "evidence": [
+      "routine run cse_01LP2XeFxXqD3qSEjJe5zLUR (2026-10-30 15:48)",
+      "srs-rust PR #1470 closed 2026-10-28"
+    ],
+    "body": "Close to 'clerk claim refuses an issue that an open PR only mentions', but the PR is closed. The branch-auditor routine that would catch it is disabled (trigger trig_01FoTFubucDinmgvJBCFD6cb). A remedy: claim ignores branches whose PRs are all closed, or the steward deletes the branches of closed unmerged group PRs."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-10-30T17:52:28.506276566+00:00",
+  "updatedAt": "2026-10-30T17:52:28.506278114+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
