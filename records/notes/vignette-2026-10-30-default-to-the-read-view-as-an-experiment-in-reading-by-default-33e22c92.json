@@ -1,0 +1,26 @@
+{
+  "instanceId": "33e22c92-2300-4d30-9833-9584e246477c",
+  "title": "Vignette 2026-10-30: default to the Read view, as an experiment in reading by default",
+  "tags": [
+    "vignette",
+    "topic:human-readable-repos",
+    "topic:srs-web"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"lets try the default to read view. It is a worthwhile experiment. We need to see if it makes reading these repos  easier by default.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
