@@ -1,0 +1,27 @@
+{
+  "instanceId": "2a4331b1-b5e6-46e2-8938-070f5aeac070",
+  "title": "Dreams flag rules; a regular review decides what to do (2026-10-30)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:dream-cycle",
+    "topic:dream-rules"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "1. Flag. We need to do a review regularly to see  what we should do"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim. Answer to ask A1 on srs-context PR #120: when a dream rule's falsifier holds, may the dream itself retire the rule, or only flag it (options: flag only / the dream may retire it / do nothing)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
