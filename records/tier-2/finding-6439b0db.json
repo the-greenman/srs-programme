@@ -1,0 +1,26 @@
+{
+  "instanceId": "6439b0db-8880-4e4e-bd48-72c99dd2cc60",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A third-party repository became readable with today's tools: ranked root, anchored sections, reading views, a front-door document",
+    "summary": "LiveWyer Insight (2026-10-30) went from an empty first screen and a flat list to a ranked, nested, labelled reading in srs-web without new features. It shows which human-readability practices work now and which need the core.",
+    "evidence": [
+      "~/dev/livewyer-insight commit fe4443b: root lists opportunities ranked by signal, then The evidence; each opportunity anchors a container of problems, each problem a container of findings",
+      "Reading guide in the identity purpose record, rendered first in the default document",
+      "displayLabel on every field, a *-card view per type (titleFieldId heading, labelMode none, machine fields hidden)",
+      "Four compositions; srs-web opens compositions[0], so the signal map was installed first (front door by convention only)",
+      "Still broken by tools: srs-rust#1490 (navigation order), srs-web#668 (container pane ignores the outline), srs-web#425 (no third nav level), srs#911 (H1 to H3), srs#928 (no composition title)"
+    ],
+    "body": "Gathered for the human-readable repositories research thread. The practices match the owner's 2026-10-26 discussion (vignettes 29d4cbd4, ac5974c6): a few purpose-shaped areas at the top, never a data dump. Problem containers restating evidences edges as membership is a cost of the missing relation selection (finding bbe2be46)."
+  },
+  "createdAt": "2026-10-30T09:18:31.871182798+00:00",
+  "updatedAt": "2026-10-30T09:18:31.871184446+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

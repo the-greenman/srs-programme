@@ -1,0 +1,27 @@
+{
+  "instanceId": "4a855eb2-d805-4779-91f1-a432ae3cfe6e",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The graph has no surface in the core: clients rebuild walks and the Map breaks at scale",
+    "summary": "SRS stores a typed graph but offers no walk, no 'what links here' and no graph view that holds up. Clients and agents rebuild the same walks, and the one picture breaks past a few hundred records.",
+    "evidence": [
+      "srs-rust#1413 Reach (n-hop walk) and #1416 lineage, built in clients: Strata's walk is about 40 lines; at 3 hops on muSrs it reaches all 139 problems, so a hop cap is needed (2026-10-19/20)",
+      "srs-rust#1415: clients stitch the whole graph from many calls; asks for one whole-graph read",
+      "srs-web#481: the Map at 704 records is a dense circle with overlapping, truncated labels (2026-10-06)",
+      "srs-rust#1229: a hub with 782 authored-by edges forced the bounded neighbours tool (closed 2026-10-04)",
+      "srs-programme source-documents/srs-web-lenses-2026-10-09/assessment.md: relations show only as an SVG on the Map; nothing answers 'what links here'",
+      "Finding bbe9faf9: the zero-context agent never walked the tree and invented depends-on prerequisites (2026-09-11)"
+    ],
+    "body": "Gathered for the graph research thread (2026-10-30). Each item is a client or agent doing graph work the core does not offer. Counter-weight in the same thread: strategy contract 0ce48b8d excludes a general graph query language, and finding bbe2be46 found one hop enough."
+  },
+  "createdAt": "2026-10-30T09:18:31.278647768+00:00",
+  "updatedAt": "2026-10-30T09:18:31.278649752+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

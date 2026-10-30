@@ -73,6 +73,18 @@ Decisions have their own flow, parallel to work: container `68b6eb64`, six stage
 
 The rule is proposed decision 199dd369. Read with `srs find --tag decision-stop` and `srs find --tag boundary:<slug>`.
 
+## Research
+
+Standing research into how SRS is used and what it needs: the **Research** root section, container `2f14de07`. Its anchor note says how a thread works. There is one thread per question: the graph (`fd02df3d`), human-readable repositories (`02a7e2e4`), and the flow and decision explorations above.
+- **Add evidence as you meet it.** That covers a demo, a friction, an issue comment or an owner remark about SRS in use.
+  - An existing record joins the thread by membership. Don't copy it.
+  - New evidence is a `finding` in Suggestions that `evidences` the problem it bears on, and joins the thread.
+  - Owner words are first a vignette in their conversation container.
+- **Keep counter-evidence in the same thread.**
+- **Rewrite, don't append.** The thread's anchor note holds the case so far; update it when the evidence changes the story.
+
+srs-context points here (convention `a752700b`), so a session in any repository can find it.
+
 ## Writes go through the pinned CLI
 
 Never hand-edit records, relations, containers or the manifest. Use the srs MCP server where mounted, else the pinned CLI (`clerk fetch-srs --repo .` prints `SRS_CLI_PATH=`). If the CLI cannot express an operation that is a finding: file the srs-rust issue and park, never hand-edit around it.

@@ -1,11 +1,15 @@
 {
   "instanceId": "0717268b-d36c-473d-98ea-9708f26f2e47",
-  "title": "Conversation 2026-10-29: SRS for LiveWyer ingress knowledge gathering",
+  "title": "Conversation 2026-10-29: SRS for LiveWyer, the graph and a research area",
   "tags": [
     "conversation",
+    "topic:dogfooding",
+    "topic:graph",
+    "topic:human-readable-repos",
     "topic:livewyer-ingress",
     "topic:market-intelligence",
-    "topic:dogfooding",
+    "topic:relation-query",
+    "topic:research",
     "topic:tech-demo"
   ],
   "sections": [

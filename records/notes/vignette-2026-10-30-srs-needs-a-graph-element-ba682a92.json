@@ -1,0 +1,28 @@
+{
+  "instanceId": "ba682a92-6221-46e8-a4be-fdf78ba24a25",
+  "title": "Vignette 2026-10-30: SRS needs a graph element",
+  "tags": [
+    "vignette",
+    "topic:graph",
+    "topic:research",
+    "topic:relation-query"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"Let's build a research section in srs-programme. We already have some ongoing explorations into flow and decisions. Now I want to do the same for the graph.\nSRS needs to have a graph element, I just need to gather the evidence and tell the right story.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdAt": "2026-10-30T09:12:35Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
