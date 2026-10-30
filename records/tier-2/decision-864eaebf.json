@@ -1,0 +1,31 @@
+{
+  "instanceId": "864eaebf-bc16-4e5c-92a2-14b1677c433a",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Escalation: should heading-outline continuity be one rule for every document, or opt-in per Composition? (srs#991)",
+    "decision_question": "Should a rendered document never skip a heading level (draft RFC-001 Revision 12, rule [N+39]), for every Composition, or only for Compositions that opt in?",
+    "context": "Problem: a rendered page with an untitled section goes from a top heading straight to a third-level one (H1 then H3), which the agent pages on semanticops.com show today. srs#991 drafts the rule that closes the gap. Why it matters: it touches the Accepted RFC-001 text itself (Door 3), so the group cannot approve it, and the choice sets how many ways there are to decide heading levels (Conformance: one way over many, against Reliability: existing output stays as it is). Options and consequences: A. One rule for every document: one outline rule, but the 6 semanticops.com page Compositions change output, and downstream repositories such as muDemocracy.org were not audited. B. Opt-in property on a Composition: existing output stays byte-identical, at the price of a second way to decide level skipping. C. Do nothing: agent pages keep the H1 then H3 jump. Recommendation: A, as the builder drafted it. Action needed: decide. Urgency: low; srs#991 is a draft, no spec text changes until you merge it. Answers: SP-82. Reviewer rejected on escalation 2026-10-29.",
+    "friction": "The draft RFC changes an Accepted RFC's own surface; no ruling covers it and the group's role excludes Door 2 and 3 changes.",
+    "alternatives_considered": "A. Unconditional rule [N+39]. B. Opt-in Composition property. C. Leave as is.",
+    "key_requirements": "One way to decide heading levels; no silent change to existing output; downstream impact known before it lands.",
+    "decision_statement": "Approve option A: merge srs#991 as drafted, with the downstream audit (muDemocracy.org and other users of Compositions with untitled sections) done before the rule is folded into the spec.",
+    "rationale": "A skipped heading level has one correct treatment; a switch adds a second way. The cost is a visible output change on 6 known pages, which can be checked first.",
+    "revisit_when": "The downstream audit finds a Composition that must keep a skipped level, or the first consumer breaks on the changed outline.",
+    "next_steps": "Owner picks A, B or C here or by merging srs#991. If B, the builder rewrites the draft as an opt-in property. If A, the audit is filed before any fold.",
+    "owner": "human:the-greenman",
+    "status": "proposed",
+    "decision_kind": "preference"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-30T11:37:34.655465088+00:00",
+  "updatedAt": "2026-10-30T11:37:34.655469103+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
