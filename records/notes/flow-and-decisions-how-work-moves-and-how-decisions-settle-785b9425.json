@@ -1,0 +1,37 @@
+{
+  "instanceId": "785b9425-9035-4bb3-8eda-608c4341c43b",
+  "title": "Flow and decisions: how work moves and how decisions settle",
+  "tags": [
+    "research",
+    "topic:flow",
+    "topic:decision-flow"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "Four models of how work moves through the programme and one of how decisions settle, compared and not yet tested against cases."
+    },
+    {
+      "name": "models",
+      "label": "The models",
+      "content": "- The archetypal flow (2026-10-25): nine stages, each what we are trying to achieve, in order: Sense, Make meaning, Choose a response, Shape the work, Allocate, Build, Review and land, Decide, Learn and remember. Each stage is a subdomain of Programme coordination with one trade-off and an exercise of what we tried. It is the ideal layer.\n- Flow model B (2026-10-25): an independent model made to compare against the first.\n- Programme coordination by seven questions (2026-10-25): the domain mapped by the questions it must answer, with its clusters, problems and remedies.\n- The decision flow (2026-10-28): stage 8, Decide, zoomed in: Arise, Settle by principle, Place, Decide, Record, Cite and revisit.\n- Comparing the flow models: what the models agree and disagree on."
+    },
+    {
+      "name": "state",
+      "label": "Where it stands",
+      "content": "The stage trade-offs are untested: no 2x2 cases yet. The next action is to fill the four cases for one stage's trade-off with the owner (Review and land is the best evidenced). Flow stops and decision stops are recorded as findings against the stages (tags flow-stop and decision-stop). The stages are also laid out as domains in the domain map."
+    },
+    {
+      "name": "drill",
+      "label": "How to read it",
+      "content": "Each model below is its own section. Inside the archetypal flow, each stage has its exercise, its trade-off and the two poles with their shadows; the owner's vignettes sit under the exercise they shaped."
+    }
+  ],
+  "createdAt": "2026-10-30T09:32:50Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

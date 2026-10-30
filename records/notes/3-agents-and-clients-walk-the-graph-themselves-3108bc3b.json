@@ -1,0 +1,31 @@
+{
+  "instanceId": "3108bc3b-2c7f-4570-858a-86ff737fe39c",
+  "title": "3. Agents and clients walk the graph themselves",
+  "tags": [
+    "research",
+    "topic:graph"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "The core stores a graph but has no walk, so every client writes its own and agents do not walk at all."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "Reach (an n-hop walk, srs-rust#1413) and lineage (#1416) were built in clients. Strata's walk is about 40 lines, and at 3 hops on muSrs it reaches all 139 problems, so a cap is needed. Clients stitch the whole graph from many calls (#1415). A hub with 782 authored-by edges forced the bounded neighbours tool (#1229). A context read inlines whole neighbours and costs about 6.5k to 9k tokens (srs-context finding 030997a9, SP-22). The zero-context agent never walked the tree and invented prerequisites (finding bbe9faf9)."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "Is a walk a core service or a DiscoveryQuery axis? One way per goal says not both."
+    }
+  ],
+  "createdAt": "2026-10-30T09:32:50Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,31 @@
+{
+  "instanceId": "d86f6769-faf5-4cb3-89db-38eeaecb3c77",
+  "title": "2. Reading order and sections: a few areas, then deeper",
+  "tags": [
+    "research",
+    "topic:human-readable-repos"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "The root lists a few purpose-shaped areas in reading order; each anchors a section that goes one level deeper."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "The owner, 2026-10-27: \"Navigation is a semantic essential\" (baee7d9a). Decided: the root container's entry order is the navigation order, and a section root links to its section container (RFC-043 Changes E and F). Practised: srs-context's numbered layers, the muSrs regrouping into five areas (uncommitted), domain containers with the domain as identity (decision a6280447), and LiveWyer's ranked root. Not yet honoured by tools: navigation returns children out of order (srs-rust#1490), and srs-web's container pane shows search hits (srs-web#668). SP-83 (navigation unusable in a large repository) and SP-118 (nobody can say what the navigation is meant to be) stand. The topic thread on navigability (2bf30967) holds the owner's 2026-10-27 discussion."
+    },
+    {
+      "name": "principle",
+      "label": "Principle",
+      "content": "The root's order is the reading order; every root member anchors a section; depth comes from the outline. Decided (RFC-043), practised, not yet honoured by tools; in tension with decision 0750c62f, which gives navigation depth to the contains tree."
+    }
+  ],
+  "createdAt": "2026-10-30T09:32:50Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

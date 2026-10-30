@@ -1,0 +1,31 @@
+{
+  "instanceId": "6c3a70dd-7bfd-4592-a34e-3254b899e83f",
+  "title": "6. Against: why graph features were removed and what to avoid",
+  "tags": [
+    "research",
+    "topic:graph"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "Relation features have died unused before, and a general query language is ruled out. The case must stay narrow."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "Strategy contract 0ce48b8d excludes a general graph query language, and srs#726 warns that a query must never become a place where meaning lives. Decision 4f1e12e5 records dead features: relation-query in 0 of 13 sections, relation provenance in 0 of 250 relations, the old federation 34 prose records with no data. Carried context 287d4071: lifecycle needs looked like graph walking but were met twice without graph code. Decision 559bfb9e (experiment now, unify later) and one way per goal stand against a third selection construct. The graph-model survey (srs docs/research/graph-model-alignment.md, srs#368) adopts nothing. srs-rust#1086 shows unwanted relation expansion in rendering."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "Has anyone outside the owner's projects asked for a graph view?"
+    }
+  ],
+  "createdAt": "2026-10-30T09:32:50Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

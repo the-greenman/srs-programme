@@ -1,0 +1,31 @@
+{
+  "instanceId": "fad84830-9c33-4c57-b8d3-2ef41259edf9",
+  "title": "4. Structure that stays stable as it grows",
+  "tags": [
+    "research",
+    "topic:human-readable-repos"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "A settled navigation should not rearrange itself; it grows consistently, and only real redesigns come up for review."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "The owner, 2026-10-27: \"Once a repo has a settled navigation, it should not completely rearrange itself... evolve in a consistent manner automatically, with only significant redesigns coming up for PR\" and \"record the old structure, and then record what changed\" (ac5974c6). \"Semantic integrity is going to be directly related to navigability\" (c8b12a7b). SP-117: a repository's structure stops fitting what it has recorded. No remedy answers it, and no record of a structure before and after a change exists yet."
+    },
+    {
+      "name": "principle",
+      "label": "Principle",
+      "content": "Settled structure is stable; change is recorded; guidance follows the purpose. Owner's words only; no remedy."
+    }
+  ],
+  "createdAt": "2026-10-30T09:32:50Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
