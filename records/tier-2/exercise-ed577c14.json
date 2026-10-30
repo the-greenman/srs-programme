@@ -1,0 +1,25 @@
+{
+  "instanceId": "ed577c14-5eda-43dd-8e2b-fa83c13b7721",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "How does a dream turn a recurring storyline into relationship strength?",
+    "thinking_reached": "No option chosen. Raised in Research (Dreamtime), 2026-10-30, as a question to explore before any decision.",
+    "tensions": "Options, none chosen:\n- A. It writes evidence: each vignette that tells the storyline gets an evidences link to the record, and strength is the number of independent ones.\n- B. It records the storyline itself (a cluster of vignettes) and the record derives from it.\n- C. It stores a strength value, which needs a home in the data model (relation confidence was removed, 4f1e12e5).\n- D. Nothing is stored: strength is computed on read from recurrence.",
+    "unresolved_questions": "Whether recurrence found by a dream agrees with the owner's sense of what is well grounded.",
+    "next_action": "Have one dream look for recurring storylines across the 2026-10 vignettes and compare its strongest with the owner's."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:22:03.100048066+00:00",
+  "updatedAt": "2026-10-30T10:22:03.100050901+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

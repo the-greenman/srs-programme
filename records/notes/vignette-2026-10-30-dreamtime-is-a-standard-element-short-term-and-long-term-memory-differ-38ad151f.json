@@ -1,0 +1,28 @@
+{
+  "instanceId": "38ad151f-0f05-4a57-9f1e-8db19a7f5b00",
+  "title": "Vignette 2026-10-30: dreamtime is a standard element, short-term and long-term memory differ",
+  "tags": [
+    "vignette",
+    "topic:dreamtime",
+    "topic:memory",
+    "topic:human-readable-repos"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"We need to also develop a more general dreamtime concept. Srs-context does it, but it's a standard element for this kind of system . \n\nShort term and long term memory are different things. We generally operate in short term memory, focussed on smaller contexts. The dreamtime is a practice that we need to develop that keeps testing our data in different scenarios. Building the human readable overview, refining the information hierarchy so that our information has places to go and is not lost.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdAt": "2026-10-30T10:20:59Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,36 @@
+{
+  "instanceId": "12326379-3540-48c6-9c37-4ceb1bee54e5",
+  "title": "Dreamtime: long-term memory as a practice",
+  "tags": [
+    "research",
+    "topic:dreamtime"
+  ],
+  "sections": [
+    {
+      "name": "claim",
+      "label": "Claim",
+      "content": "Dreamtime is a standard element of an SRS system, not a feature of one memory. The owner, 2026-10-30: \"The dreamtime is a practice that we need to develop that keeps testing our data in different scenarios. Building the human readable overview, refining the information hierarchy so that our information has places to go and is not lost.\""
+    },
+    {
+      "name": "story",
+      "label": "The story so far",
+      "content": "We work mostly in short-term memory: one task, a small context. srs-context showed that long-term memory can be kept by agents alone, in a dream cycle that runs unattended, replays real work and merges its own changes. The owner now asks for that practice in general: dreams that keep the human-readable hierarchy in shape, give new records a place, and strengthen relationships when the same storyline turns up in different vignettes. That ties dreamtime to three other threads: human-readable repositories (stable structure that grows), affirmation and confidence (strength from relationships), and the graph (relationships as data)."
+    },
+    {
+      "name": "parts",
+      "label": "The parts",
+      "content": "1. Short-term and long-term memory.\n2. What a dream does today.\n3. Dreams that build the readable hierarchy.\n4. Dreams and relationship strength.\n5. Against: what dreams must not do."
+    },
+    {
+      "name": "open",
+      "label": "Open questions",
+      "content": "Four exercises, each with options: whether dreamtime becomes standard and in what form; what a dream tests against; what a dream may change unattended in the programme; how recurrence becomes relationship strength."
+    }
+  ],
+  "createdAt": "2026-10-30T10:22:02Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
