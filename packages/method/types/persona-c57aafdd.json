@@ -1,36 +1,40 @@
 {
-  "id": "c57aafdd-d002-4ee6-9a2b-ff3805107580",
-  "namespace": "com.semanticops.method",
-  "name": "persona",
-  "version": 1,
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "extraction": "Keep it short: title, a two-sentence summary, three to five jobs, brief needs. No long generated profiles.",
+    "purpose": "A kind of user of the system with distinct jobs and needs. Problems are linked to it by held-by relations, never by a name in a text field."
+  },
+  "createdAt": "2026-10-08T10:44:32.413459157+00:00",
   "description": "Someone, or something, that holds problems and has jobs to get done.",
   "fields": [
     {
+      "displayLabel": "Title",
       "fieldId": "7ccb4e5e-8e02-49d3-b51c-3bf3280616e0",
       "order": 0,
       "required": true
     },
     {
+      "displayLabel": "Summary",
       "fieldId": "0a273307-bfcf-4007-a4fc-dc6fe61e1e01",
       "order": 1,
       "required": false
     },
     {
+      "displayLabel": "Jobs",
       "fieldId": "fced003b-7144-4746-9f0f-bcbea055f717",
       "order": 2,
       "required": false
     },
     {
+      "displayLabel": "Needs",
       "fieldId": "c5106dcb-1d8b-4e67-848a-ae8c3dfed702",
       "order": 3,
       "required": false
     }
   ],
+  "id": "c57aafdd-d002-4ee6-9a2b-ff3805107580",
   "identityFieldId": "7ccb4e5e-8e02-49d3-b51c-3bf3280616e0",
-  "aiGuidance": {
-    "purpose": "A kind of user of the system with distinct jobs and needs. Problems are linked to it by held-by relations, never by a name in a text field.",
-    "extraction": "Keep it short: title, a two-sentence summary, three to five jobs, brief needs. No long generated profiles."
-  },
-  "createdAt": "2026-10-08T10:44:32.413459157+00:00",
-  "$schema": "https://srs.semanticops.com/schema/2.0/type.json"
+  "name": "persona",
+  "namespace": "com.semanticops.method",
+  "version": 1
 }

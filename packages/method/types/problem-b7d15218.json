@@ -1,46 +1,52 @@
 {
   "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
-  "id": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
-  "namespace": "com.semanticops.method",
-  "name": "problem",
-  "version": 1,
+  "aiGuidance": {
+    "extraction": "Suggestions are drafted by agents; the human layer adopts by record fork. Link the holding persona with held-by; never write a persona name into the statement.",
+    "purpose": "One problem in the SemanticOps method: a claim about what is wrong or missing, held by one or more personas (held-by), grouped into clusters (contains) and answered by remedies or epics (answers)."
+  },
+  "createdAt": "2026-10-08T10:44:32.283626893+00:00",
   "description": "A problem that people or agents hold, stated as a claim.",
   "fields": [
     {
+      "displayLabel": "Problem id",
       "fieldId": "db7fa869-1023-462b-8d64-acc149e67e45",
       "order": 0,
       "required": true
     },
     {
+      "displayLabel": "Title",
       "fieldId": "7ccb4e5e-8e02-49d3-b51c-3bf3280616e0",
       "order": 1,
       "required": true
     },
     {
+      "displayLabel": "Statement",
       "fieldId": "159222a6-8908-4aeb-a8db-64d1afea99b9",
       "order": 2,
       "required": true
     },
     {
+      "displayLabel": "Kind",
       "fieldId": "50b17985-7eea-4ac5-886a-1408dab5d9e4",
       "order": 3,
       "required": false
     },
     {
+      "displayLabel": "Source",
       "fieldId": "0c9743ed-1d05-4b07-86c9-9bd89e0d60d1",
       "order": 4,
       "required": false
     },
     {
+      "displayLabel": "When out of balance",
       "fieldId": "191eb505-cdb3-4b09-ae2b-30585713c0fd",
       "order": 5,
       "required": false
     }
   ],
+  "id": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
   "identityFieldId": "7ccb4e5e-8e02-49d3-b51c-3bf3280616e0",
-  "aiGuidance": {
-    "purpose": "One problem in the SemanticOps method: a claim about what is wrong or missing, held by one or more personas (held-by), grouped into clusters (contains) and answered by remedies or epics (answers).",
-    "extraction": "Suggestions are drafted by agents; the human layer adopts by record fork. Link the holding persona with held-by; never write a persona name into the statement."
-  },
-  "createdAt": "2026-10-08T10:44:32.283626893+00:00"
+  "name": "problem",
+  "namespace": "com.semanticops.method",
+  "version": 1
 }
