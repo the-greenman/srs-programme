@@ -11,7 +11,7 @@
       "Audit 2026-10-30: F2 29 chars",
       "23 compositions, many from shared packages (agent routines, argument readers); none is a front door"
     ],
-    "body": "Remedies: a bound front-door composition installed first (needs a way to order compositions; there is no command), or the editor supplying the root container to an unbound first composition (srs#851's direction), or the spec's root view binding (RFC-013 OQ-1). The exercise on the front door holds the options."
+    "body": "Remedies: a bound front-door composition installed first (needs a way to order compositions; there is no command), or the editor supplying the root container to an unbound first composition (srs#851's direction), or the spec's root view binding (RFC-013 OQ-1). The exercise on the front door holds the options.\n\nFiled as srs-rust#1532 (a command to move a composition first), under epic semanticops.com#52."
   },
   "tags": [
     "readability",
@@ -21,7 +21,7 @@
     "status:open"
   ],
   "createdAt": "2026-10-30T10:37:25.286479609+00:00",
-  "updatedAt": "2026-10-30T10:37:25.286481539+00:00",
+  "updatedAt": "2026-10-30T11:32:57.663251580+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"

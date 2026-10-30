@@ -1,0 +1,29 @@
+{
+  "instanceId": "751f232e-730d-4469-928f-8766564535f7",
+  "title": "Vignette 2026-10-30: interactive experiments over mockups; prototype relation traversal in the interface before core and spec",
+  "tags": [
+    "vignette",
+    "topic:human-readable-repos",
+    "topic:prototypes",
+    "topic:graph",
+    "topic:srs-lab"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"lets record anything we need in the programme and make sure issues are captured. \n\nthen make the quick fixes. \n\nthen, lets see if we can do some more lab prototypes. What different ways can we experiment with making repositories readable. Rather than simply make mockups, we can build interactive experiments and test them on different repo structures. \n\nif we need to, we can prototype ways to do relation traversal in the interface layer before sending it into core andthe spec. \n\nAct autonomously for any prototypes. Repo quick fixes can also be auto merged\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdAt": "2026-10-30T11:28:48Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -9,16 +9,19 @@
   "description": "A recurring stance: a pattern of leanings across several tensions.",
   "fields": [
     {
+      "displayLabel": "Title",
       "fieldId": "7ccb4e5e-8e02-49d3-b51c-3bf3280616e0",
       "order": 0,
       "required": true
     },
     {
+      "displayLabel": "Summary",
       "fieldId": "0a273307-bfcf-4007-a4fc-dc6fe61e1e01",
       "order": 1,
       "required": true
     },
     {
+      "displayLabel": "Use when",
       "fieldId": "8882824d-fe07-418f-aa43-3164356b9f29",
       "order": 2,
       "required": false

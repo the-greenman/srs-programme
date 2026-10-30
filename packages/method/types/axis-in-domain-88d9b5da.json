@@ -9,16 +9,19 @@
   "description": "A tension as one of a domain's three axes: which line it is and which of its poles is yang there. Refines the tension; the domain is given by in-domain, the yang pole by yang-pole.",
   "fields": [
     {
+      "displayLabel": "Title",
       "fieldId": "7ccb4e5e-8e02-49d3-b51c-3bf3280616e0",
       "order": 0,
       "required": true
     },
     {
+      "displayLabel": "Line",
       "fieldId": "481bf75b-0e08-4687-babb-2f55f12890a0",
       "order": 1,
       "required": true
     },
     {
+      "displayLabel": "Summary",
       "fieldId": "0a273307-bfcf-4007-a4fc-dc6fe61e1e01",
       "order": 2,
       "required": false
