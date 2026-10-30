@@ -1,0 +1,23 @@
+{
+  "instanceId": "aa5603cb-cb90-41f9-a5ad-ae8c3360d6c9",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "srs-context proves its own currency in every brief",
+    "move": "The session hook removes stray writes that already exist on origin, fast-forwards, and lists any that do not by name. A record is suspect when a path its pointers name has a commit on the default branch after its last_verified (read from origin, never a sibling working tree); the dream re-verifies suspects first. The brief opens with one line: the commit it is served from, how far behind, and the suspect records by title, so an agent trusts everything else.",
+    "does_not_fix": "It does not catch drift in a record with no code pointer (a concept or a practice); those still rely on the dream's age-based re-verification.",
+    "falsifier": "A session's brief shows 0 behind and 0 suspect while a record it serves contradicts the code on the default branch; or the main clone stays behind origin for more than one session.",
+    "source_ref": [
+      "Owner, 2026-10-30: vignettes 91699379 and 37a31d5c (srs-programme, Narrative explorations)"
+    ]
+  },
+  "createdAt": "2026-10-30T09:39:09.229655627+00:00",
+  "updatedAt": "2026-10-30T09:39:09.229657299+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

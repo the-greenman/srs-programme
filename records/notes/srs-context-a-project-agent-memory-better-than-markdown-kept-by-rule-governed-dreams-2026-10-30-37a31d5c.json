@@ -1,0 +1,28 @@
+{
+  "instanceId": "37a31d5c-93c3-430e-9070-5bb6293399d4",
+  "title": "srs-context: a project agent memory better than markdown, kept by rule-governed dreams (2026-10-30)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:context-currency",
+    "topic:agent-memory",
+    "topic:dream-cycle"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "SRS context is an evolving project. We need to make sure that we track these problems and remedies from the perspective of an agent \n\n\nOur goal is to build a working, efficient, project level agent memory store that's better than markdown. \n\nWe should regularly watch stats.\n\nWe need to start to establish a more advanced dream process. Our dream agent needs a set of rules we can maintain. \n\nThe point of dreams is to test the knowledge we have stored in short term memory and build a carefully managed tree of the most important information any agent might need. Over time it should become more and more optimised. \n\nWhile the primary audience for context is agent, as a human I should be able to open it and see a carefully indexed tree of all the most important operational information. \n\nDreams keep this organised and up to date. \nOur hooks should be measuring speed and usage. We should be using that information to understand how to optimise different parts of the systen"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim. Said in reply to Claude Code's diagnosis of why srs-context goes stale (a dirty main clone stops the hook fast-forwarding; last_verified is date-based, not change-driven) and its proposal of a self-cleaning main, change-driven re-verification and a currency line in the brief. Follows vignette 91699379 in the same conversation."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
