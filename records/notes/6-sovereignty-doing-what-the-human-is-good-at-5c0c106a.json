@@ -1,0 +1,31 @@
+{
+  "instanceId": "5c0c106a-cf96-4e6a-8e90-43b9941c8fa4",
+  "title": "6. Sovereignty: doing what the human is good at",
+  "tags": [
+    "research",
+    "topic:affirmation"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "SRS is about human and AI collaboration. The owner keeps sovereignty by judging what they can review, not by clicking through what they cannot."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "The owner, 2026-10-30: \"SRS is about human-si collaboration. I maintain sovereignty by doing the things I'm good at.. not being a click monkey affirming things I can't review.\" The same point in earlier words: a yes given in chat without seeing the structure is a fake decision (81f2bf49), and \"A tick or a deny, right where I write\" (67459d40). Sovereignty therefore sits with the owner's narrative (the vignettes), the decisions only the owner can take, and the tip they choose to manage. Agents carry the volume: clustering, linking, deriving, and the confidence that follows from cross-checks."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "What does the owner review, and in what form, so that review is judgement rather than clicking: a story, a diff of what changed, the low-confidence items only?"
+    }
+  ],
+  "createdAt": "2026-10-30T09:53:41Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,31 @@
+{
+  "instanceId": "77b8fe85-0423-4228-ac10-e2495cca57d6",
+  "title": "3. Confidence instead of a gate",
+  "tags": [
+    "research",
+    "topic:affirmation"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "Confidence already grades care instead of gating work; the next step is confidence that grows from relationships and their strength, which nothing computes yet."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "Decision 9d50126b (ratified 2026-10-24): \"Confidence grades care, it does not gate work\"; affirmation raises confidence instead of unlocking it. It came from a builder refusing srs-rust#1132 eighteen times for one missing line, and settled the contradiction logged as SP-104. The care policy (srs-programme docs/confidence-and-care.md, clerk lib/practice/care-policy.mjs) grades four axes high, medium or low, but every signal is a yes/no presence check, and the top Placement grade still needs an affirmed problem. The owner, 2026-10-27: \"affirmation will just kill lots of this work. We build up confidence with cross checks, there is no fixed truth that will be affirmed\" (c8b12a7b); 2026-10-23: domain assignment confidence (8ac535e5); 2026-10-30: \"build up confidence based on the number of relationships and their strength\". Gap: relation confidence was removed from the data model (srs decision 4f1e12e5, 0 of 250 relations used it) and RFC-046 did not restore it, so relation strength has no home. This joins the graph thread (part 4, relation integrity)."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "Where does confidence from cross-checks live: in clerk's care policy as a computed score, or in the data, which would reopen the 4f1e12e5 removal? What counts as a relationship's strength: its type, its source (owner words, measurement, agent), its age, agreement between independent sources?"
+    }
+  ],
+  "createdAt": "2026-10-30T09:53:41Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

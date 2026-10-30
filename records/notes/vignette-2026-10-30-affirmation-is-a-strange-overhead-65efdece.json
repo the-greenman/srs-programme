@@ -1,0 +1,28 @@
+{
+  "instanceId": "65efdece-78b2-4244-b46c-643dd183d6b3",
+  "title": "Vignette 2026-10-30: affirmation is a strange overhead",
+  "tags": [
+    "vignette",
+    "topic:affirmation",
+    "topic:provenance",
+    "topic:duplicates"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"One of the research areas has to be how we managed affirmation. These are a strange overhead and they introduce weird complexity. We have duplicate records. Sometimes affirmation is very tricky. We've started to build the vignette system to keep track of provenance. But it's still interestingly hard.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdAt": "2026-10-30T09:47:58Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

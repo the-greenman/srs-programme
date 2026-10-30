@@ -80,6 +80,7 @@ Standing research into how SRS is used and what it needs: the **Research** root 
 It is a tree of documents that gets deeper: an introduction, then one overview per thread, then parts, then the evidence. Every document with children anchors its own container, so navigation drills down. The threads:
 - the graph (`fd02df3d`);
 - human-readable repositories (`02a7e2e4`);
+- affirmation and confidence (`45883ea7`): where human judgement belongs, and confidence built from relationships;
 - flow and decisions (`0217dd72`, over the four flow and decision models);
 - the domain map (`5a3d1e92`, from the base domain down to the nine flow stages).
 

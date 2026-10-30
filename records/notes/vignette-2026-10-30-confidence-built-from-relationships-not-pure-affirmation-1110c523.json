@@ -1,0 +1,28 @@
+{
+  "instanceId": "1110c523-5929-456b-bcc3-a28254418882",
+  "title": "Vignette 2026-10-30: confidence built from relationships, not pure affirmation",
+  "tags": [
+    "vignette",
+    "topic:affirmation",
+    "topic:confidence",
+    "topic:graph"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"The workflow system is moving towards a confidence level rather than pure affirmation. I think that is important in general.\n\nWe should be able to generally build up confidence based on the number of relationships and their strength.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdAt": "2026-10-30T09:47:58Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
