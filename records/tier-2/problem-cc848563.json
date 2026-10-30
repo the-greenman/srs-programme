@@ -1,0 +1,24 @@
+{
+  "instanceId": "cc848563-bdc1-4c4d-bf53-c8c7211a15a3",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-136",
+    "title": "The dream agent's rules cannot be kept one by one",
+    "statement": "The dream cycle's rules live in one prose procedure (srs-context references/dream-cycle.md). A dream agent cannot cite which rule it applied to each change, the owner cannot amend, test or retire one rule without editing the whole text, and nobody can tell which rules make the memory better and which only make it bigger. So the dream cannot become more optimised over time in a way anyone can follow.",
+    "kind": "consequence",
+    "source_ref": [
+      "srs-context .claude/skills/srs-context/references/dream-cycle.md",
+      "srs-context dream.json (cadence and pressure only)"
+    ]
+  },
+  "createdAt": "2026-10-30T09:39:09.007438052+00:00",
+  "updatedAt": "2026-10-30T09:39:09.007443869+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
