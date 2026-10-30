@@ -1,0 +1,31 @@
+{
+  "instanceId": "778f154a-c696-4931-ac16-aa91840ecb23",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Drafting an RFC is group work; accepting it stays with the owner",
+    "decision_question": "Who carries a question that needs new normative meaning from an issue to an RFC the owner can accept or reject?",
+    "context": "Problem: working groups may only execute recorded rulings, and their charters list RFCs as outside. Drafting an RFC is treated as making a ruling, though only acceptance makes one. No routine runs the RFC process, so an RFC moves only when the owner drives it in a local session. On 2026-10-30, 9 open issues waited on an RFC (7 of them in a group's ready queue, re-triaged and skipped on every builder run) and 6 RFCs sat at Draft, one of them gating a P0. Why it matters: rulings are made but never executed (SP-02), and groups sit idle while ready work waits. The RFC procedure already separates the two acts: its Charter Check, draft, agent review and revision end at a Draft with a 'Decisions you need to make' section; acceptance and the fold into the spec come after, and folding an accepted RFC is already in-mandate work. srs merge rules already keep every Door 2 PR at owner merge. Evidence: finding f626ff6b.",
+    "friction": "A group meets a question only an RFC can answer, may not draft one, and so files a proposed decision that asks the owner to design the change as well as judge it.",
+    "alternatives_considered": "Do nothing: RFCs move only in the owner's local sessions; RFC-request issues stay in group queues and are skipped every run.\nEach group's builder drafts RFCs: no new routine, but drafts compete with builds for the builder's runs and budget, and one brief mixes code and spec authorship.\nAn RFC drafter holds a seat in every group and drafts only RFC-request issues, by the RFC procedure up to the Draft (chosen): one consumer of RFC requests, each draft claimed, reviewed by the group and left for the owner's acceptance, as the bug fixer holds a seat for bugs.\nThe owner names RFCs to draft in each session: precise, but the owner keeps finding and shaping each one.",
+    "key_requirements": "Acceptance and every normative change stay with the owner; a draft is a proposal with no normative force. Every draft runs the Charter Check and the agent review before it reaches the owner. Draft RFC PRs keep owner merge (srs Door 2). No group may widen its own mandate.",
+    "decision_statement": "A working group may draft an RFC: an RFC drafter holds a builder seat in every working group and in the central group, takes only issues that ask for an RFC, and runs the RFC procedure up to a reviewed Draft opened for the owner. Accepting an RFC stays with the owner; folding an accepted RFC into the spec is ordinary in-mandate group work.",
+    "rationale": "A seat is how the practice gives an agent a mandate: clerk claim checks it, the group reviews its work and it counts against the group's budget (4a44396a, the bug fixer's seat). The RFC procedure already ends drafting where judgement begins, and its PR body is written for the owner to decide from, so the owner's act shrinks to judging rather than designing. Nothing normative changes without the owner, so the mandate gains work, not authority.",
+    "revisit_when": "Drafts are rejected for being the wrong question more often than for their content, or the owner's queue of Draft RFCs grows faster than it is decided.",
+    "next_steps": "On ratification, an agent (not the owner): (1) upgrade the programme to clerk methodology 0.4.0, which defines the work label rfc-request, and re-bind the existing requires-spec-rfc label to it (today it is retired as a synonym of blocked); (2) record the agent agent:rfc-drafter with the builder seat, authorised by the Owner role and each group role, and its standing-job record; (3) amend each group charter boundary from Outside: new rulings, RFCs to Outside: new rulings, accepting RFCs; (4) enable the RFC drafter trigger, which runs routines/rfc-drafter.md in the clerk; (5) add the routine to the handbook. Until then the trigger stays disabled and clerk claim refuses the actor.",
+    "owner": "Owner role (SemanticOps)",
+    "status": "proposed",
+    "decision_kind": "mandate"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-10-30T18:05:20.740418598+00:00",
+  "updatedAt": "2026-10-30T18:18:51.699922158+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
