@@ -1,0 +1,29 @@
+{
+  "instanceId": "5783c542-465c-4870-bbae-4f4a34748d35",
+  "title": "Vignette 2026-10-30: packages and repositories are used in opposite directions",
+  "tags": [
+    "vignette",
+    "topic:federation",
+    "topic:registry",
+    "topic:packages",
+    "topic:mcp",
+    "topic:publishing"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30, on whether the package registry and the repository registry are one shape: \"Lets think of how this will actually get used. \nThe challenge here is that I will use these in opposite ways., \n\nA package is a distribution that goes far beyond my own work. Packages once created should be shared by different groups. They will subscribe to it and get updates. \n\nMy repository registry/directory will initially be my own list of repos. I will register all my different repositories with my main mcp server, and it wil let me access them all through the same interface. \n\nLater,  If I want to, I would publish a repo online. But then it could  get an http address as a prefix to the repo and element. \n\nThese could still be the same mechanism, but they may not have the same content. I'd publish packages somewhere - they are static. The repos could be published too. But would also need to work via mcp\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
