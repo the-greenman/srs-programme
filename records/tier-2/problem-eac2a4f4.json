@@ -1,0 +1,25 @@
+{
+  "instanceId": "eac2a4f4-ade4-44b3-a0da-9df8ee62883f",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-135",
+    "title": "An agent cannot tell whether the memory it reads is current",
+    "statement": "An agent reading srs-context has no way to know whether a record still holds. Its copy can be behind origin without notice (a stray write left the main clone dirty, so the session hook stopped fast-forwarding and served a brief 16 commits old), and a record's last_verified says only when someone last re-read it, not whether the code it points at has changed since. So the agent either trusts the memory blindly or re-reads the source, and the memory saves nothing.",
+    "kind": "consequence",
+    "source_ref": [
+      "srs-context hooks/session-start.sh: fast-forwards only a clean main",
+      "srs-context bench/staleness.mjs: staleness is age in days, not change since verification",
+      "Worked case 2026-10-30: stray finding-4b3f5283 left in the main checkout after the 2026-10-29 dream rescued it as finding-7f5236df"
+    ]
+  },
+  "createdAt": "2026-10-30T09:39:08.893813670+00:00",
+  "updatedAt": "2026-10-30T09:39:08.893815330+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,23 @@
+{
+  "instanceId": "f2b0a88e-de65-46b7-ae85-5c690b7da4c0",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Memory stats are watched on a schedule and feed the dream's rules",
+    "move": "The usage hook also records each srs-context call's duration and result size. Each dream writes one stats line (speed, reads per record, never-read, suspect, behind, brief tokens, citations) and compares it with the last; a rule whose measure worsens is flagged in the report. A stats view in srs-context shows the trend for a person and for an agent.",
+    "does_not_fix": "It does not judge answer quality; that stays with the A/B bench run at the monthly review.",
+    "falsifier": "Two dream cycles pass with a stat worse than its threshold and no rule change, retirement or finding citing it.",
+    "source_ref": [
+      "Owner, 2026-10-30: vignette 37a31d5c (srs-programme, Narrative explorations)"
+    ]
+  },
+  "createdAt": "2026-10-30T09:39:09.465861191+00:00",
+  "updatedAt": "2026-10-30T09:39:09.465864571+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

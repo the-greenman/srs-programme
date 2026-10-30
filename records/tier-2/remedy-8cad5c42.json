@@ -1,0 +1,23 @@
+{
+  "instanceId": "8cad5c42-c354-4b87-b4fa-f6d038fc6023",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "The dream agent works from a container of rule records",
+    "move": "srs-context holds a Dream rules container: one record per rule (when it applies, what the dream does, the measure that shows it helps, and a falsifier), including the rules for the shape of the tree a person browses. The dream reads the rules, cites the rule id for every change it makes, and reports per rule what it did and what the measure did. A rule changes by successor, so its history stays; dream-cycle.md becomes the rendered view of the container.",
+    "does_not_fix": "It does not decide which rules are right; the measures and the owner do. It does not make the navigation tree collapsible in a client (SP-83).",
+    "falsifier": "After a month, a dream report cannot name the rule behind one of its changes, or no rule has been amended or retired because of its measure.",
+    "source_ref": [
+      "Owner, 2026-10-30: vignette 37a31d5c (srs-programme, Narrative explorations)"
+    ]
+  },
+  "createdAt": "2026-10-30T09:39:09.352909427+00:00",
+  "updatedAt": "2026-10-30T09:39:09.352913379+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
