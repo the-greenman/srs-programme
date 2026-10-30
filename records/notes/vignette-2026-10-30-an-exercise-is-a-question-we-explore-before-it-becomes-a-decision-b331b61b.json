@@ -1,0 +1,29 @@
+{
+  "instanceId": "b331b61b-91cd-4643-afc4-0f8200bd14d7",
+  "title": "Vignette 2026-10-30: an exercise is a question we explore before it becomes a decision",
+  "tags": [
+    "vignette",
+    "topic:exercise",
+    "topic:decision-flow",
+    "topic:research",
+    "topic:options"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"Let's make sure we keep all these questions. Rather than me answering them, let's begin by defining options and then exploring. \n\nThis is part of the ideas for an \"exercise\". Before we get to a decision, an exercise is a question and we need to explore possible options and gather evidence \n\nLet's identify the open questions I. Our research... And also look at the open exercises in our session. We should be able to easily find these, and gradually develop our understanding before they hit formal decisions\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdAt": "2026-10-30T10:04:46Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

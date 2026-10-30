@@ -1,0 +1,25 @@
+{
+  "instanceId": "2da109d9-6833-46e3-9639-86c6f4944bd4",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Does selection by relation need more than one hop?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (2. Documents need to select records by relation), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. One hop only: records with a relation of type T to or from X. Smallest surface, matches every document measured so far.\n- B. A bounded walk: n hops with a hard cap. Covers lineage and reach; needs a cap (3 hops reach all 139 muSrs problems).\n- C. Path expressions over typed relations. Most expressive; closest to the unplanned query language that was removed.",
+    "unresolved_questions": "How many real documents in more than one corpus need more than one hop. Only LiveWyer has been measured, and it needed one.",
+    "next_action": "Write the documents the programme, the spec and muSrs actually want as selections, and count the hops each needs."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:33.418678474+00:00",
+  "updatedAt": "2026-10-30T10:07:33.418681650+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

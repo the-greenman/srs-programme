@@ -1,0 +1,25 @@
+{
+  "instanceId": "1915631e-3876-453c-bd73-e4d44df75556",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "How is a cluster's quality judged without affirmation?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (5. What AI should own: clusters and other dynamic structure), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. Stability: the same clusters across runs.\n- B. Coverage and cohesion: every problem placed, each cluster coherent.\n- C. The owner reads the result now and then.",
+    "unresolved_questions": "Which measure agrees with the owner's judgement on a sample.",
+    "next_action": "Score two synthesiser runs both ways and ask the owner which clusters read better."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:43.125287895+00:00",
+  "updatedAt": "2026-10-30T10:07:43.125291197+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,25 @@
+{
+  "instanceId": "1fe6e95f-cd12-4e8b-b9a4-22bac69be3e5",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Does confidence built from relations need a promotion step before it carries authority?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (7. Against: why affirmation exists), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. Never authority: confidence only sets how much care work gets.\n- B. Promotion by an owner act, as Office over Testimony requires.\n- C. Promotion by a threshold, confirmed in a session.",
+    "unresolved_questions": "Which acts confidence would be used for: ranking, merging, gating.",
+    "next_action": "Map each act in the care policy and the desk to the authority it needs today."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:41.799205185+00:00",
+  "updatedAt": "2026-10-30T10:07:41.799208046+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

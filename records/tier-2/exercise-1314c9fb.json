@@ -1,0 +1,25 @@
+{
+  "instanceId": "1314c9fb-d73c-4160-890c-7fe78f7f48b9",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Is there demand for a graph element beyond the owner's projects?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (6. Against: why graph features were removed and what to avoid), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. Proceed on internal evidence: the programme, the spec and muSrs are real users.\n- B. Seek external users first, starting with demos like LiveWyer Insight.\n- C. Ship the narrow core (one-hop selection, links, a walk) and measure who uses it.",
+    "unresolved_questions": "Requests or friction from people outside the programme. None found so far.",
+    "next_action": "Ask Dave and the next demo user what they tried to do with relations, and record it as findings."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:36.059442575+00:00",
+  "updatedAt": "2026-10-30T10:07:36.059445563+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

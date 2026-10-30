@@ -1,0 +1,25 @@
+{
+  "instanceId": "249061b1-a6a5-4f26-8378-5ff115c3f660",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "What shape should an exercise have?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (Open exercises), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. Keep governance/exercise as it is and write the question and options into its fields, as these exercises do.\n- B. Add fields for the question, the options and the evidence, and a lifecycle: open, exploring, ready, decided or set aside.\n- C. An exercise is a container: the question as its document, each option a record below it, evidence linked to options.\n- D. An option is a type of its own, linked to its exercise, so evidence can support or weaken one option.",
+    "unresolved_questions": "The type has no question, options or lifecycle; 52 exercises exist and none can close; the session and desk treat any exercise not closed or abandoned as open, so all of them stay open forever.",
+    "next_action": "Write two of these exercises each way and see which one a reader and the session can follow."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:43.939121574+00:00",
+  "updatedAt": "2026-10-30T10:07:43.939125701+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

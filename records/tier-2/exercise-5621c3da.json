@@ -1,0 +1,25 @@
+{
+  "instanceId": "5621c3da-fa04-4a03-bc8f-ef35fc74f84a",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Is any cross-repository graph needed before RFC-049 is accepted?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (5. The graph across repositories), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. Wait for RFC-049 and the ratified order of federation's return.\n- B. A read-only view across repositories, resolved client-side, as a probe.\n- C. Prototype cross-repository links in clients now and feed the RFC.",
+    "unresolved_questions": "Concrete documents that need a link into another repository, and how often.",
+    "next_action": "Collect the cases behind SP-86 and SP-87 and check which an addressing-only RFC-049 already covers."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:35.614653112+00:00",
+  "updatedAt": "2026-10-30T10:07:35.614656239+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
