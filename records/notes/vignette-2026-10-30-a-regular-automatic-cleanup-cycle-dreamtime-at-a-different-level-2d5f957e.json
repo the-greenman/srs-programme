@@ -1,0 +1,29 @@
+{
+  "instanceId": "2d5f957e-c303-476a-a17a-957372f39baa",
+  "title": "Vignette 2026-10-30: a regular automatic cleanup cycle, dreamtime at a different level",
+  "tags": [
+    "vignette",
+    "topic:housekeeping",
+    "topic:dreamtime",
+    "topic:worktrees",
+    "topic:flow-stops"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"Let's clean anything thatvis obviously stale. \nThen test remaining worktrees against their actual repos. \n\nmuDemocracy working groups are now in their own repo. They should not have been committed anyway. \n\nLet's try to get everything clean. \n\n\nThis maintenance work is also something we should be managing automatically. It's not quite dreamtime... Although probably the same thing at a different level. We need a regular automatic cleanup cycle. When we see work is stale, we should clean up.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdAt": "2026-10-30T10:50:01Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
