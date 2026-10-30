@@ -10,7 +10,7 @@
     "evidence": [
       "Audit 2026-10-30: F1 308 chars, F2 18 chars, S1 91 sections"
     ],
-    "body": "Group the chapters into a few areas that match the rendered handbook's parts, each an overview document; bind the front document."
+    "body": "Group the chapters into a few areas that match the rendered handbook's parts, each an overview document; bind the front document.\n\nFiled as clerk#247 under epic semanticops.com#52."
   },
   "tags": [
     "readability",
@@ -20,7 +20,7 @@
     "status:open"
   ],
   "createdAt": "2026-10-30T10:37:26.423215538+00:00",
-  "updatedAt": "2026-10-30T10:37:26.423217013+00:00",
+  "updatedAt": "2026-10-30T11:32:58.015600597+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"

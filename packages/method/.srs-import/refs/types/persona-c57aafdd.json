@@ -8,21 +8,25 @@
   "description": "Someone, or something, that holds problems and has jobs to get done.",
   "fields": [
     {
+      "displayLabel": "Title",
       "fieldId": "7ccb4e5e-8e02-49d3-b51c-3bf3280616e0",
       "order": 0,
       "required": true
     },
     {
+      "displayLabel": "Summary",
       "fieldId": "0a273307-bfcf-4007-a4fc-dc6fe61e1e01",
       "order": 1,
       "required": false
     },
     {
+      "displayLabel": "Jobs",
       "fieldId": "fced003b-7144-4746-9f0f-bcbea055f717",
       "order": 2,
       "required": false
     },
     {
+      "displayLabel": "Needs",
       "fieldId": "c5106dcb-1d8b-4e67-848a-ae8c3dfed702",
       "order": 3,
       "required": false

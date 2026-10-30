@@ -9,16 +9,19 @@
   "description": "One side of a tension.",
   "fields": [
     {
+      "displayLabel": "Title",
       "fieldId": "7ccb4e5e-8e02-49d3-b51c-3bf3280616e0",
       "order": 0,
       "required": true
     },
     {
+      "displayLabel": "Looks like",
       "fieldId": "d2f41e5b-e0de-46f5-b8bf-e2ca03155e40",
       "order": 1,
       "required": true
     },
     {
+      "displayLabel": "Shadow",
       "fieldId": "2030962b-8279-4345-9826-3e13f01cee4a",
       "order": 2,
       "required": false

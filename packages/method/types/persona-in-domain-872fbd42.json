@@ -9,26 +9,31 @@
   "description": "A persona as it appears in one domain: its goals, jobs and needs there. Refines the shared persona; the domain is given by an in-domain relation.",
   "fields": [
     {
+      "displayLabel": "Title",
       "fieldId": "7ccb4e5e-8e02-49d3-b51c-3bf3280616e0",
       "order": 0,
       "required": true
     },
     {
+      "displayLabel": "Summary",
       "fieldId": "0a273307-bfcf-4007-a4fc-dc6fe61e1e01",
       "order": 1,
       "required": false
     },
     {
+      "displayLabel": "Goals",
       "fieldId": "812204a1-484b-4120-bad0-a4503dab8a8a",
       "order": 2,
       "required": false
     },
     {
+      "displayLabel": "Jobs",
       "fieldId": "fced003b-7144-4746-9f0f-bcbea055f717",
       "order": 3,
       "required": false
     },
     {
+      "displayLabel": "Needs",
       "fieldId": "c5106dcb-1d8b-4e67-848a-ae8c3dfed702",
       "order": 4,
       "required": false

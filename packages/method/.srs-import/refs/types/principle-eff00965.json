@@ -9,21 +9,25 @@
   "description": "A leaning tied to a context: 'this over that', with the case where the other side governs.",
   "fields": [
     {
+      "displayLabel": "Statement",
       "fieldId": "159222a6-8908-4aeb-a8db-64d1afea99b9",
       "order": 0,
       "required": true
     },
     {
+      "displayLabel": "Boundary",
       "fieldId": "b681e85e-567c-4309-8b46-16b1dba8cd93",
       "order": 1,
       "required": true
     },
     {
+      "displayLabel": "Context",
       "fieldId": "dc262ba1-7c76-4b04-ae6b-0d20c67d1671",
       "order": 2,
       "required": false
     },
     {
+      "displayLabel": "Source",
       "fieldId": "0c9743ed-1d05-4b07-86c9-9bd89e0d60d1",
       "order": 3,
       "required": false

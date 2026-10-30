@@ -10,17 +10,17 @@
     "evidence": [
       "Audit 2026-10-30: S2 8/9 anchored"
     ],
-    "body": "Give it a section or move it under the identity record."
+    "body": "Give it a section or move it under the identity record.\n\nFixed 2026-10-30: a 'Programme settings' section anchored on the programme record; the record stays at the root."
   },
   "tags": [
     "readability",
     "corpus:programme",
     "check:S2",
     "win:quick",
-    "status:open"
+    "status:fixed"
   ],
   "createdAt": "2026-10-30T10:37:25.661750631+00:00",
-  "updatedAt": "2026-10-30T10:37:25.661752543+00:00",
+  "updatedAt": "2026-10-30T11:32:57.215321037+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"

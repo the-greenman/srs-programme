@@ -1,36 +1,40 @@
 {
-  "id": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
-  "namespace": "com.semanticops.method",
-  "name": "domain",
-  "version": 1,
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "extraction": "Purpose is one or two sentences; in_scope and out_of_scope name the boundary.",
+    "purpose": "A domain draws the boundary that tensions are relative to. Clusters and problems belong to a domain (contains). Public word: none; keep 'domain'."
+  },
+  "createdAt": "2026-10-08T11:04:57.755Z",
   "description": "A bounded area of work in which problems arise and tensions hold.",
   "fields": [
     {
+      "displayLabel": "Title",
       "fieldId": "7ccb4e5e-8e02-49d3-b51c-3bf3280616e0",
       "order": 0,
       "required": true
     },
     {
+      "displayLabel": "Purpose",
       "fieldId": "7c405948-6db7-492c-ba12-e759c78781ad",
       "order": 1,
       "required": true
     },
     {
+      "displayLabel": "In scope",
       "fieldId": "47f51f10-40c3-4ac2-9677-734d10be3701",
       "order": 2,
       "required": false
     },
     {
+      "displayLabel": "Out of scope",
       "fieldId": "c01b77c8-c1d6-49fe-aa3f-020e469fc267",
       "order": 3,
       "required": false
     }
   ],
+  "id": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
   "identityFieldId": "7ccb4e5e-8e02-49d3-b51c-3bf3280616e0",
-  "aiGuidance": {
-    "purpose": "A domain draws the boundary that tensions are relative to. Clusters and problems belong to a domain (contains). Public word: none; keep 'domain'.",
-    "extraction": "Purpose is one or two sentences; in_scope and out_of_scope name the boundary."
-  },
-  "createdAt": "2026-10-08T11:04:57.755Z",
-  "$schema": "https://srs.semanticops.com/schema/2.0/type.json"
+  "name": "domain",
+  "namespace": "com.semanticops.method",
+  "version": 1
 }

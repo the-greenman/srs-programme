@@ -11,7 +11,7 @@
       "Audit 2026-10-30 L1: programme 39% of 215 fields, muSrs 46% of 358 fields, handbook 82% of 28 fields",
       "srs-context convention 04f2384a: an additive optional field that only aids discovery updates in place, without a version bump"
     ],
-    "body": "The labels live in the shared packages (the clerk's governance, method and programme packages; muDemocracy's argument package), so the fill is a package change in each, released as usual."
+    "body": "The labels live in the shared packages (the clerk's governance, method and programme packages; muDemocracy's argument package), so the fill is a package change in each, released as usual.\n\nDone for the clerk's method and programme packages (clerk#248, method 1.1.1, programme 0.3.1); the programme now runs method 1.1.1. Still open: the argument and comments packages (muDemocracy), and the programme's methodology package, which is installed at 0.2.0, behind the clerk's 0.3.0, so upgrading it also brings 0.3.0's changes and is left for a deliberate upgrade."
   },
   "tags": [
     "readability",
@@ -21,7 +21,7 @@
     "status:open"
   ],
   "createdAt": "2026-10-30T10:37:27.177302210+00:00",
-  "updatedAt": "2026-10-30T10:37:27.177305997+00:00",
+  "updatedAt": "2026-10-30T11:32:59.045294445+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"

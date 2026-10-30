@@ -11,7 +11,7 @@
       "Audit 2026-10-30: S3 3/9 documents",
       "Wave 5 'Read as a human' set the read-through as the exit criterion"
     ],
-    "body": "Write an overview for each Part: what it covers, the order of its concepts, and what to read first."
+    "body": "Write an overview for each Part: what it covers, the order of its concepts, and what to read first.\n\nFiled as srs#993 under epic semanticops.com#52."
   },
   "tags": [
     "readability",
@@ -21,7 +21,7 @@
     "status:open"
   ],
   "createdAt": "2026-10-30T10:37:26.803096644+00:00",
-  "updatedAt": "2026-10-30T10:37:26.803098364+00:00",
+  "updatedAt": "2026-10-30T11:32:57.438154522+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"
