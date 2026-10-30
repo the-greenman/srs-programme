@@ -1,0 +1,28 @@
+{
+  "instanceId": "f0d233bd-87f2-4347-b1f5-6ffba0f160a6",
+  "title": "An agent should discover the editor's start page by itself, not be told by the writer (2026-10-30)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:editor-help",
+    "topic:ai-manual"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Can we make an agent start page for the essay editor? \nOur help is telling the users to tell the agent how to use the ui highligting. \nIdeally an agent should automatically discover a starting page that is an index of everything it needs to know about  the editor. \nIf we can't make it automatically highlighted, then our agent briefing should have the info."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30, after holon semanticops.com#49 delivered ui_help and ui_highlight; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
