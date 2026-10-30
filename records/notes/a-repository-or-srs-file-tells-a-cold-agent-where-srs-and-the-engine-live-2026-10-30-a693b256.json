@@ -1,0 +1,27 @@
+{
+  "instanceId": "a693b256-d5cc-4793-8543-10faaab70268",
+  "title": "A repository or .srs file tells a cold agent where SRS and the engine live (2026-10-30)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:agent-onboarding"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "How can an srs repo or .SRS file identity itself and tell an agent that knows nothing about srs to look SRS.semanticopa.com\n\n---\n\nI want the LLM to also know about the engine.\n"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim (the meaning-bearing sentences of two messages; the instructions to file, ship and update a checkout are omitted). 'semanticopa' is the owner's typo for semanticops."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
