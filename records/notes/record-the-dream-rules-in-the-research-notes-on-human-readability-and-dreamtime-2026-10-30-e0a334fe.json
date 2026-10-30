@@ -1,0 +1,28 @@
+{
+  "instanceId": "e0a334fe-290d-4724-96ef-57e81bcadf04",
+  "title": "Record the dream rules in the research notes on human readability and dreamtime (2026-10-30)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:dream-cycle",
+    "topic:research",
+    "topic:human-readability"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's look at the recent srs-programme research notes on human readability and dreamtime. Our dream rules should be recorded there where relevant."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim. Said after the two answers above, about where the srs-context dream rules (layer 95, srs-context PR #120) should also be recorded."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

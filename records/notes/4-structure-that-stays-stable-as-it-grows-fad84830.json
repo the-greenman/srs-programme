@@ -14,7 +14,7 @@
     {
       "name": "body",
       "label": "The evidence",
-      "content": "The owner, 2026-10-27: \"Once a repo has a settled navigation, it should not completely rearrange itself... evolve in a consistent manner automatically, with only significant redesigns coming up for PR\" and \"record the old structure, and then record what changed\" (ac5974c6). \"Semantic integrity is going to be directly related to navigability\" (c8b12a7b). SP-117: a repository's structure stops fitting what it has recorded; no remedy answers it. The owner's ask was carried out on 2026-10-27: muSrs holds notes recording the old navigation and the change to a purpose-shaped root. That work sat uncommitted until 2026-10-30 (muDemocracy.org#408), which is why this thread first said no such record existed."
+      "content": "The owner, 2026-10-27: \"Once a repo has a settled navigation, it should not completely rearrange itself... evolve in a consistent manner automatically, with only significant redesigns coming up for PR\" and \"record the old structure, and then record what changed\" (ac5974c6). \"Semantic integrity is going to be directly related to navigability\" (c8b12a7b). SP-117: a repository's structure stops fitting what it has recorded; no remedy answers it. The owner's ask was carried out on 2026-10-27: muSrs holds notes recording the old navigation and the change to a purpose-shaped root. That work sat uncommitted until 2026-10-30 (muDemocracy.org#408), which is why this thread first said no such record existed. In progress for agent memory: srs-context#114 is to keep srs-context's tree by dream rules of stage `tree`, with locked levels named in the rules and the rest evolving under them (srs-context#110)."
     },
     {
       "name": "principle",

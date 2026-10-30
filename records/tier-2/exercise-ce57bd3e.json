@@ -1,0 +1,25 @@
+{
+  "instanceId": "ce57bd3e-6ca6-45f7-87b1-4ed54fd4b83e",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "How should the automatic cleanup cycle run?",
+    "thinking_reached": "No option chosen. Raised by the owner on 2026-10-30 after the first full cleanup: 'We need a regular automatic cleanup cycle. When we see work is stale, we should clean up.' The owner calls it not quite dreamtime, probably the same thing at a different level.",
+    "tensions": "Options, none chosen:\n- A. Schedule 'wt prune' and 'wt stale' on this machine (a timer), removing what is clean and merged and reporting the rest.\n- B. A standing housekeeping job in the clerk that runs the sweep on a cadence: prune what is merged, rescue uncommitted work older than N days to a pushed branch, archive scratch files, and put what needs a decision on the desk.\n- C. A level of the dream cycle: dreams over the workspace as well as over memory, with the same rule that a dream decides what it can and leaves the rest.\n- D. Each agent cleans up after itself at session end (remove its worktree once merged, push or rescue anything uncommitted), with a SessionStart nudge listing what is stale, as srs-context already does for stray writes.",
+    "unresolved_questions": "What may run unattended: removing merged work is safe; discarding uncommitted changes is not (the 2026-10-30 sweep could not, and should not, do it unasked). How long before uncommitted work counts as stale (a day? a week?), and whether rescue to a branch is always better than asking. Whether one cycle should cover all of the owner's projects or only SemanticOps.",
+    "next_action": "Run 'scripts/wt stale' daily for a week and note what it finds and what was safe to clean without asking; then choose."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T11:00:43.436282346+00:00",
+  "updatedAt": "2026-10-30T11:00:43.436289407+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

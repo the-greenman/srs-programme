@@ -1,0 +1,33 @@
+{
+  "instanceId": "759cfa96-2d8f-46a3-97e7-7a7b57f4fe03",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Stale work across the workspace: 135 worktrees, three finished pieces of work never committed",
+    "summary": "The first full cleanup (2026-10-30) found 135 worktrees across nine repositories and most main checkouts off their default branch. Most of it was finished work never tidied, but three pieces of real work had never been committed and were invisible to every other session, one for two and a half months.",
+    "evidence": [
+      "96 worktrees clean and merged: removed with their branches",
+      "20 clean worktrees with unlanded commits and no open PR (closed PRs, superseded rebases): worktrees removed, branches kept",
+      "4 srs-context dream runs (24 to 29 October) whose branches were never pushed: dreams that did not land",
+      "Recovered: the muSrs restructure (3 days, muDemocracy.org#408); the graph model survey in srs (since 2026-08-10, srs#992); draft-tray work in srs-web's main checkout (pushed as rescue/drafttray-2026-10-29); control-room work in srs-lab's main checkout (rescue/control-room-2026-10-29)",
+      "5 of 10 main checkouts sat on old merged branches, one 43 commits behind; muDemocracy tracked working_groups that belong in their own repository (muDemocracy.org#409)",
+      "40 scratch files (logs, PR bodies, probe scripts) and 3 stray copies left in the worktree folders: archived to .wt/_archive/2026-10-30",
+      "7 merged worktrees still hold stale uncommitted leftovers (build artifacts, probes, a duplicate, generated reports): removal discards changes, so it waits for the owner",
+      "The tool hid part of it: scripts/wt left srs-context, clerk and srs-lab out of its repository list and stopped at the first error; scripts/wt is not under version control"
+    ],
+    "body": "Fixed the same day: scripts/wt now covers every SemanticOps repository, reports an unreadable worktree and continues, and has a read-only 'wt stale' report (uncommitted changes older than a day, unlanded commits with no open PR, main checkouts off their default branch or behind). It is the input an automatic cleanup cycle needs; how that cycle runs is an exercise."
+  },
+  "tags": [
+    "flow-stop",
+    "housekeeping"
+  ],
+  "createdAt": "2026-10-30T11:00:42.999343735+00:00",
+  "updatedAt": "2026-10-30T11:00:42.999345768+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
