@@ -9,17 +9,17 @@
     {
       "name": "summary",
       "label": "In short",
-      "content": "srs-context already dreams: unattended, on a cadence, it consolidates, replays real work, re-verifies and rotates its brief."
+      "content": "srs-context already dreams: unattended, on a cadence, under rules kept as records. It consolidates, replays real work, re-verifies what has drifted, and rotates its brief."
     },
     {
       "name": "body",
       "label": "The evidence",
-      "content": "srs-context decision 475a40e7 (owner ruling 2026-10-12): long-term memory is agent-managed; \"Dreaming is unconscious. No ratification and auto pr. We don't verify dreams.\" The procedure (srs-context .claude/skills/srs-context/references/dream-cycle.md) consolidates journal notes, auto-memory and stray writes; replays up to three salient sessions from eight archetypes (scenarios.md); turns questions people asked into gold questions and fills the gaps; re-verifies the oldest records; and rotates the brief. Hooks measure each session and launch the dream when due. The owner, 2026-10-30: \"Srs-context does it, but it's a standard element for this kind of system.\" srs-context finding 6bfb854a: an unattended dream cannot read sibling repositories or write outside its worktree."
+      "content": "srs-context decision 475a40e7 (owner ruling 2026-10-12): long-term memory is agent-managed; \"Dreaming is unconscious. No ratification and auto pr. We don't verify dreams.\" The procedure (srs-context .claude/skills/srs-context/references/dream-cycle.md) consolidates journal notes, auto-memory and stray writes; replays up to three salient sessions from eight archetypes (scenarios.md); turns questions people asked into gold questions and fills the gaps; re-verifies the records most likely to have drifted (suspects first, since srs-context#111); and rotates the brief. Hooks measure each session (and, from srs-context#113, call speed and errors) and launch the dream when due. Since 2026-10-30 the dream's policy is a set of rules kept as records: srs-context layer 95 Dream rules, one `dream-rule` record each (srs-context#112; pending owner merge of srs-context PR #120). Each rule says when it applies, what the dream does, the measure that shows it helps, and its falsifier; the dream cites a rule id for every change and reports each rule's measure (rule 57d11a3b). By stage: consolidate (rescue strays 0bc11a20; one verdict per item b635fa7b; the canonical home first b0a9ca7f); replay (b9937992); gold questions (add2d605); reverify (suspects first 48ae0f01, using srs-context#111's change-driven suspects; findings whose fix landed e46c8254; broken pointers 0fc7623f; the canonical document wins 298ffaa0; readings under test b3423062); prune (d43ffea5); brief (776b933c). Rules about the rules: a dream changes a rule only by successor when that rule's own measure calls for it, never its measure or falsifier (84aa5528); a rule whose falsifier holds is flagged for the monthly review and never retired by a dream (2b9aa44f). The owner, 2026-10-30, on that last point: \"Flag. We need to do a review regularly to see what we should do\" (vignette 2a4331b1). The rules are rendered for reading at srs-context .claude/skills/srs-context/references/dream-rules.md. The owner, 2026-10-30: \"Srs-context does it, but it's a standard element for this kind of system.\" srs-context finding 6bfb854a: an unattended dream cannot read sibling repositories or write outside its worktree."
     },
     {
       "name": "open",
       "label": "Open",
-      "content": "What form a general dreamtime takes, and what it tests against: two exercises below."
+      "content": "What form a general dreamtime takes, and what it tests against: two exercises below. The rules give a partial answer to what a dream tests against (exercise d5b55c59): options A (archetype scenarios), B (replays of real sessions) and C (the questions people asked) are each a rule today; D (storylines across vignettes) and E (a cold reader) are not yet."
     }
   ],
   "createdAt": "2026-10-30T10:22:02Z",

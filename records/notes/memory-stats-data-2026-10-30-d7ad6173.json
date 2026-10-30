@@ -1,0 +1,26 @@
+{
+  "instanceId": "d7ad6173-18c4-4a40-8c5c-d391880778dc",
+  "title": "Memory stats: Data (2026-10-30)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:memory-stats"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "2. Data."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim. Answer to ask A1 on srs-context PR #121: should the memory stats live as a generated file (bench/results/stats.md) or as records with a Stats composition inside srs-context (options: generated file / records and a composition / do nothing). The one-word answer is kept as said; its reading is open."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

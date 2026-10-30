@@ -14,7 +14,7 @@
     {
       "name": "body",
       "label": "The evidence",
-      "content": "Settled navigation should not completely rearrange itself (ac5974c6). Testimony becomes office only through a verification step (srs decision 16b20c56, Office over Testimony), so a dream's confidence must not by itself become authority. Decision c373c2c1 refuses any change that affirms or ratifies on the owner's behalf. srs-context's dreams merge their own changes because they touch only agent memory; the programme holds the owner's words and decisions, which no dream may rewrite."
+      "content": "Settled navigation should not completely rearrange itself (ac5974c6). Testimony becomes office only through a verification step (srs decision 16b20c56, Office over Testimony), so a dream's confidence must not by itself become authority. Decision c373c2c1 refuses any change that affirms or ratifies on the owner's behalf. srs-context's dreams merge their own changes because they touch only agent memory; the programme holds the owner's words and decisions, which no dream may rewrite. srs-context's own rules keep a line inside its memory: a dream never changes a rule's measure or falsifier (84aa5528), never retires a rule on its own falsifier but flags it for the monthly review (2b9aa44f; the owner, 2026-10-30: \"Flag. We need to do a review regularly to see what we should do\", vignette 2a4331b1), and never scraps a reading under test (b3423062). For exercise 8969754d this is evidence from agent memory only: option C, with the removal of a rule held for a review a person takes part in."
     },
     {
       "name": "open",
