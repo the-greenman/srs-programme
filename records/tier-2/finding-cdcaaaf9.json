@@ -1,0 +1,30 @@
+{
+  "instanceId": "cdcaaaf9-3835-4346-a648-125b6c40e26a",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The muSrs restructure sat uncommitted in a worktree for three days",
+    "summary": "On 2026-10-27, between about 12:00 and 16:00, an agent restructured muSrs into five purpose-shaped areas and recorded the old and new structure, as the owner had asked. Nothing was committed or pushed, so the work stopped at Build: it was invisible to every other session, and main moved 29 commits ahead. It was found on 2026-10-30, committed as found and merged with main (muDemocracy.org#408).",
+    "evidence": [
+      "Worktree ~/dev/.wt/muDemocracy.org/navigation-structure-2026-10-27: 142 uncommitted changes, files dated 2026-10-27 11:59 to 16:00",
+      "Recovered: commit 0bf0e03 (as found), merge bcacb57 (one conflict, both sides kept), muDemocracy.org#408",
+      "Readability audit: reachability 67% on main, 93% with the restructure",
+      "The research thread on human-readable repositories had recorded, wrongly, that no before/after structure record existed: it existed only in the uncommitted worktree"
+    ],
+    "body": "An uncommitted worktree is invisible: the desk, the research and other agents all read the default branch, so finished work there looks like work never done. A remedy would be a check that lists worktrees with uncommitted changes older than a day (for example in scripts/wt ls or the desk)."
+  },
+  "tags": [
+    "flow-stop",
+    "readability",
+    "corpus:muSrs"
+  ],
+  "createdAt": "2026-10-30T10:45:35.373602638+00:00",
+  "updatedAt": "2026-10-30T10:45:35.373604090+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
