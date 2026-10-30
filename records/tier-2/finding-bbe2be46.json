@@ -1,0 +1,25 @@
+{
+  "instanceId": "bbe2be46-f92f-40b2-97c4-1347ce6494af",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The relation-query return trigger has fired: a problem dossier needs one-hop relation selection",
+    "summary": "Decision 4f1e12e5 retired the relation-query section source until 'a composition need neither live variant expresses'. LiveWyer Insight (2026-10-30) has that need: a dossier of one problem and every finding that evidences it. Neither discovery-query nor container-subset expresses it without restating 296 evidences edges as container membership.",
+    "evidence": [
+      "LiveWyer Insight demo repository (~/dev/livewyer-insight, tools/link.py): 23 problem containers duplicate 296 evidences relations as membership; the problem-dossiers composition names 23 containerId literals",
+      "srs#726 comment 6518740142 (open question 3), with the proposed narrow predicate",
+      "srs#851 comment 6518740429: 33 containerId literals, all one 'each child section container' rule",
+      "Strategy contract e1cd52e7 (section-source-variants, deferred) names this trigger"
+    ],
+    "body": "One hop over one relation type was enough for every document the demo needed; nothing called for multi-hop traversal or a general query language. Decision 0750c62f keeps membership declared and names DiscoveryQuery the computed selection, so the return belongs in DiscoveryQuery as a relation axis (relatedTo, relationType, direction) rather than as a derived container. The owner's framing is vignette d6fd498b: the relation-based container was removed to return with more evidence."
+  },
+  "createdAt": "2026-10-30T08:44:59.511684670+00:00",
+  "updatedAt": "2026-10-30T08:44:59.511686169+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

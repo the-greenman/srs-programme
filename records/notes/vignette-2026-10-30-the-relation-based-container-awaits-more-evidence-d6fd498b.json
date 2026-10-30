@@ -1,0 +1,29 @@
+{
+  "instanceId": "d6fd498b-f304-453d-94d7-93e346fea4d3",
+  "title": "Vignette 2026-10-30: the relation-based container awaits more evidence",
+  "tags": [
+    "vignette",
+    "topic:containers",
+    "topic:relation-query",
+    "topic:livewyer-ingress",
+    "topic:evidence"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30, after the LiveWyer Insight demo showed that a problem dossier (a problem and every finding that evidences it) cannot be a composition without duplicating relations as container membership: \"Investigate the history of containers in SRS and look at how we can query via relations. We have removed the relation based container because we needed to return with more evidence\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Kept by Claude Code for the owner, 2026-10-30. Verbatim."
+    }
+  ],
+  "createdAt": "2026-10-30T08:32:12Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
