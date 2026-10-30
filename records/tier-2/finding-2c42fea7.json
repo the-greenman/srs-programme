@@ -1,0 +1,28 @@
+{
+  "instanceId": "2c42fea7-ac8c-4610-ba93-4148f1a3b54c",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "One hop is enough for evidence; structure and dependency need a bounded walk (five corpora measured)",
+    "summary": "Measured 2026-10-30 over five corpora (srs-context, LiveWyer, srs-programme, muSrs, the spec): for each relation type, how many records are reached inbound at 1, 2 and 3 hops. Evidential relations (evidences, applies-to, answers, concerns, comments-on, ratifies) are flat: three hops reach nothing one hop did not. Structural and dependency relations (contains, precedes, depends-on, refines) keep growing: in the spec depends-on goes from 2.4 records on average at one hop to 8.1 at three (max 34); in muSrs from 1.7 to 4.4.",
+    "evidence": [
+      "srs-lab readers/hops-2026-10-30.txt (the table)",
+      "Readers' Select by relation rebuilds LiveWyer's problem dossiers with one inbound evidences hop, no container duplication"
+    ],
+    "body": "Suggests the answer to 'more than one hop?' depends on the relation type, not the query: a relation type could declare whether it is transitive (structural) or not (evidential), and a selection would walk only transitive types, bounded. That is a property of RelationTypeDefinition, not a query language."
+  },
+  "tags": [
+    "graph",
+    "prototype",
+    "measurement"
+  ],
+  "createdAt": "2026-10-30T11:42:30.951150877+00:00",
+  "updatedAt": "2026-10-30T11:42:30.951154092+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
