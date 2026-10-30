@@ -1,0 +1,31 @@
+{
+  "instanceId": "03213398-3029-403e-86e8-07f65ea76ce3",
+  "title": "7. Against: why affirmation exists",
+  "tags": [
+    "research",
+    "topic:affirmation"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "Affirmation was built to keep authority human; confidence from relations is testimony and cannot by itself become authority."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "The charter's Office over Testimony ruling (srs decision 16b20c56) says testimony is promoted into office only by a verification mechanism, such as a signature or a ratified decision. A confidence score built from relations is testimony. SP-71 and decision c373c2c1 exist because agents imitated authority acts. The fake-decision warning (81f2bf49) applies equally to a score whose basis the owner never sees. Decision 9d50126b carries its own revisit trigger: when changes built on suggested meaning are reverted more often than the care modes predict. And the owner keeps some things affirmed on purpose (a5a9c651)."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "Does relation-derived confidence need a promotion step before it can rank or merge work? Which acts must stay offices (ratify, merge, set the period's priorities) whatever the confidence?"
+    }
+  ],
+  "createdAt": "2026-10-30T09:53:41Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

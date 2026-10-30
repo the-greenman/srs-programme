@@ -1,0 +1,38 @@
+{
+  "instanceId": "bf123f5c-3558-464c-8673-9588767e7306",
+  "title": "Affirmation and confidence: where human judgement belongs",
+  "tags": [
+    "research",
+    "topic:affirmation",
+    "topic:confidence",
+    "topic:sovereignty"
+  ],
+  "sections": [
+    {
+      "name": "claim",
+      "label": "Claim",
+      "content": "Work should run on confidence that builds from relationships and their strength, with the owner's words as the lowest layer and a human-managed affirmation tip used only where it is worth it. The owner, 2026-10-30: \"I maintain sovereignty by doing the things I'm good at.. not being a click monkey affirming things I can't review.\""
+    },
+    {
+      "name": "story",
+      "label": "The story so far",
+      "content": "Affirmation began in October as the sovereign layer: agents suggest, the owner forks a record into Affirmed, and canon() joins the two copies. It became a sink. Today 304 of 313 affirmed records are copies, the owner's attention gates the flow, and ratifications happen faster than they can be read. The owner has been moving away from it in steps: confidence grades care instead of gating work (24 October), the owner affirms the story rather than each record (24 and 27 October), affirming in chat is a fake decision (25 October), and \"we build up confidence with cross checks\" (27 October). On 30 October the owner made it general: confidence from the number and strength of relationships, an optional human tip, vignettes as the base, and AI trusted to keep clusters evolving. What is built still grades confidence by yes/no signals and by layer membership, and the data model has no place for a relation's strength."
+    },
+    {
+      "name": "parts",
+      "label": "The parts",
+      "content": "1. What affirmation costs today.\n2. Provenance: the owner's words are the lowest layer.\n3. Confidence instead of a gate.\n4. The human tip: a managed layer when it is worth it.\n5. What AI should own: clusters and other dynamic structure.\n6. Sovereignty: doing what the human is good at.\n7. Against: why affirmation exists."
+    },
+    {
+      "name": "open",
+      "label": "Open questions",
+      "content": "How confidence is computed, and where it lives. What a relationship's strength is. What happens to the 304 duplicate pairs. Which records start at the tip, which rise to it, which never need it. How the owner reviews so that review is judgement. Whether relation-derived confidence needs a promotion step before it carries authority. Decision 77e04b19's revisit (around 2026-11-21) is a natural place to decide."
+    }
+  ],
+  "createdAt": "2026-10-30T09:53:41Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

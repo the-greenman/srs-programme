@@ -1,0 +1,31 @@
+{
+  "instanceId": "c85efe42-7dda-432d-90cd-2d915353fae3",
+  "title": "5. What AI should own: clusters and other dynamic structure",
+  "tags": [
+    "research",
+    "topic:affirmation"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "Clusters are dynamic. AI is better at keeping them current than the owner, and affirming them freezes the cycle that improves them."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "The owner, 2026-10-30: \"I genuinely trust that AI will be better at building clusters than I will in many cases. I want AI to keep evolving clusters. Affirmation breaks the better version of the cycle.\" Today the handbook has the synthesiser name clusters and the owner affirm each cluster's name and description, with membership left fluid; the standing job 'Name the clusters' (0e366cfd) adds, merges and renames its own suggested clusters and never affirms; decision a8aabd01 (proposed) lets a problem have no cluster or one of its own. In practice all 24 clusters were forked into Affirmed (finding da9d4da6), so their names are now frozen copies."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "Should affirmed clusters return to the synthesiser? How is a cluster's quality judged without affirmation: stability across runs, coverage, or the owner reading the result?"
+    }
+  ],
+  "createdAt": "2026-10-30T09:53:41Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

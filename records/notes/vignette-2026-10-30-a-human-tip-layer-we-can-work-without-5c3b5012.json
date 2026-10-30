@@ -1,0 +1,28 @@
+{
+  "instanceId": "5c3b5012-e17e-4424-bda4-3adf2d354f57",
+  "title": "Vignette 2026-10-30: a human tip layer we can work without",
+  "tags": [
+    "vignette",
+    "topic:affirmation",
+    "topic:confidence",
+    "topic:vignettes"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"There is room for a purely human controlled affirmation layer, but we should be able to work without it. The vignettes provide the lowest level input. \n\nSometimes we will want to build a strongly managed human tip level. This is what affirmation does. Sometimes I might start there, sometimes it might get there eventually. But we don't always need it.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdAt": "2026-10-30T09:47:58Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

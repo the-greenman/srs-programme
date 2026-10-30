@@ -14,7 +14,7 @@
     {
       "name": "threads",
       "label": "The threads",
-      "content": "- The graph: why SRS needs a graph element. The evidence supports one-hop selection by relation, visible links and a bounded walk in the core, not a query language.\n- Human-readable repositories: how a repository is structured for people. Five parts, from the front door to how we test readability.\n- Flow and decisions: the models of how work moves and how decisions settle.\n- The domain map: where the work happens, from the base domain down to the stages of the flow."
+      "content": "- The graph: why SRS needs a graph element. The evidence supports one-hop selection by relation, visible links and a bounded walk in the core, not a query language.\n- Human-readable repositories: how a repository is structured for people. Five parts, from the front door to how we test readability.\n- Affirmation and confidence: where human judgement belongs. Affirmation by fork has become a sink (304 of 313 affirmed records are copies); the move is to confidence built from relationships, with an optional human tip.\n- Flow and decisions: the models of how work moves and how decisions settle.\n- The domain map: where the work happens, from the base domain down to the stages of the flow."
     },
     {
       "name": "practice",

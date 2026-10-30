@@ -1,0 +1,31 @@
+{
+  "instanceId": "8df28dea-7f1a-4c57-867c-ab0d64f6530a",
+  "title": "4. The human tip: a managed layer when it is worth it",
+  "tags": [
+    "research",
+    "topic:affirmation"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "A strongly managed human layer is right for some things, some of the time; work should not depend on it."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "The owner, 2026-10-30: \"There is room for a purely human controlled affirmation layer, but we should be able to work without it ... Sometimes I might start there, sometimes it might get there eventually. But we don't always need it.\" The affirmation layer chapter of the clerk handbook already puts it beside the flow, never a step in it, from vignette 81f2bf49: \"I have to say yes because I assume it's right... The very thing that was supposed to be the sovereign anchor becomes exactly the thing that undermines it.\" Remedy 2910ac1e (affirm in context, srs-web#617) puts a tick or deny where the owner writes (67459d40). Decision c373c2c1 refuses any change that affirms or ratifies on the owner's behalf. The owner also wants some things fixed: \"Our chat sourced axes stay affirmed\" (a5a9c651), affirmation steps belong to the holon setup (e51415f2), and an affirmed remedy is still only a hypothesis (2941f51a)."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "Which kinds of record start at the tip (axes, decisions, the purpose), which may rise to it, and which never need it?"
+    }
+  ],
+  "createdAt": "2026-10-30T09:53:41Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

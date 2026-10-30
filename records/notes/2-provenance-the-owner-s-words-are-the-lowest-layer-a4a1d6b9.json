@@ -1,0 +1,31 @@
+{
+  "instanceId": "a4a1d6b9-3476-471c-8c5f-047720c101c7",
+  "title": "2. Provenance: the owner's words are the lowest layer",
+  "tags": [
+    "research",
+    "topic:affirmation"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "Vignettes keep the owner's words verbatim; everything derived from them points back with derived-from, so a record's origin can be traced without a human copy of it."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "Decision 77e04b19 (ratified 2026-10-27): vignettes are verbatim Tier-0 notes; records derived from them are suggestions with derived-from; \"the owner affirms the story, and work does not wait on it\". Remedy 6e141bd2: a record derived from a passage the owner wrote carries the owner's confidence; its falsifier is the owner still affirming record by record after four weeks. RFC-046 (srs) stamps createdBy as testimony, never authority. The owner, 2026-10-30: \"The vignettes provide the lowest level input\", and provenance \"is still interestingly hard\"."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "Decision 77e04b19 is due for revisit around 2026-11-21. Is that the session where affirmation becomes optional?"
+    }
+  ],
+  "createdAt": "2026-10-30T09:53:41Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
