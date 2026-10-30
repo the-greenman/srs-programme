@@ -1,0 +1,25 @@
+{
+  "instanceId": "1a4801f2-87a2-4d37-818b-b8a641e7951f",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "What should srs-web show a person who opens a repository?",
+    "thinking_reached": "No option chosen. Raised 2026-10-30 after the four readable repositories were opened in srs-web and the owner said: \"I cannot understand them at all. It may just be that the three column layout is not the right starting point.\"",
+    "tensions": "Options, none chosen:\n- A. A reading view first: one column, full width. It opens on the identity record's guide; a section opens as its overview document followed by its children in outline order (title and first line each); breadcrumbs above; drilling down is clicking. The three-column editor is one switch away.\n- B. Keep the three columns, but a section shows its anchor document above the ordered outline instead of search results, and the inspector stays closed until asked for.\n- C. Document first: open the repository's front-door composition full width, with the navigation as a collapsible table of contents; records open in place.\n- D. Lenses as the start: a set, one thing, what links to it (remedy 364126da), with the reading view as one lens.",
+    "unresolved_questions": "Which one a newcomer understands in the first minute, tested with the owner and a cold reader on the same four repositories. Whether A needs anything from the engine beyond the container outline and anchor records it already exposes (likely not). How each behaves for a repository that has not been structured (a data dump): the view must degrade to something sensible.\n\nThe positive case (owner, 2026-10-30: \"srs-context is actually really readable\"). In the same shell, srs-context opens on agent-brief, a composition that renders its brief as prose; its few layers are numbered in reading order (00 Brief to 99 Dogfood) and each is small; every record type has a reading card, so records read as text, not as label and value rows. What it shares with option C: the first thing seen is a written document, not a list. The test of any option is whether the other repositories read as srs-context does.",
+    "next_action": "Mock A and C over the four repositories as static pages (rendered from the CLI outline), put them in front of the owner beside today's screens, and pick one to prototype in srs-web."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T11:22:51.324445259+00:00",
+  "updatedAt": "2026-10-30T11:23:13.051266879+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
