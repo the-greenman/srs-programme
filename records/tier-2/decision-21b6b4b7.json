@@ -1,0 +1,30 @@
+{
+  "instanceId": "21b6b4b7-6920-4def-8ef5-ef1a879a05c1",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Field identity rules: enforce in schema, enforce in a validator, or stop claiming them (srs#236)",
+    "decision_question": "For each documented Field identity rule (snake_case name, reserved / and @, reserved core namespace, uuid and date-time formats), do we enforce it in field.json, in an engine validator, or stop claiming it as normative?",
+    "context": "Problem: the spec states Field identity rules as normative prose and field.json enforces none of them; format assertion is off in srs-schema, so id: \"f-1\" validates.\nWhy it matters: / and @ are the reference separators (namespace/name@version); a name containing them makes references ambiguous. Documented conventions that are not enforced bind nobody (SP-01).\nOptions and consequences: (a) pattern constraints in field.json plus format assertion on: strongest, but tightens a normative schema and may break existing instances and engine fixtures. (b) keep the schema loose, enforce in an engine validator with a diagnostic code: no schema change, but independent implementers still miss the rules. (c) drop the claims from the spec: honest, weakens the guarantee. (d) do nothing.\nRecommendation: audit all existing Field instances first (read-only), then (a) for name and namespace where the audit is clean, with a validator and diagnostic code for the core reservation.\nAction needed: rule on the option; the change is Door 2/3 (normative schema), so the builder cannot proceed without it.\nUrgency: the issue is P0 and blocks-gate.",
+    "friction": "srs#236 is the top ready item in WG Third-party ready, but it names no ruling and changes conformance rules and docs/schema/2.0, which the builder mandate excludes.",
+    "alternatives_considered": "(a) Enforce in field.json (pattern plus format assertion), after an audit.\n(b) Enforce in an engine validator only.\n(c) Stop claiming the rules normatively.\n(d) Do nothing.",
+    "key_requirements": "Audit existing instances before tightening; a deprecation story if violations exist; engine fixtures conform; schema mirrors re-synced.",
+    "decision_statement": "Audit first, then enforce name and namespace rules in field.json with format assertion on, and the core reservation in a validator with a diagnostic code; carried as an RFC or RFC revision.",
+    "rationale": "Documented conventions are enforced conventions; the separators are load-bearing for references.",
+    "revisit_when": "The audit finds existing violations, or the RFC is drafted.",
+    "next_steps": "On ruling: a read-only audit issue, then the RFC (Door 2) or revision (Door 3).",
+    "owner": "Owner role (SemanticOps)",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-10-30T17:14:36.102042802+00:00",
+  "updatedAt": "2026-10-30T17:14:36.102052470+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
