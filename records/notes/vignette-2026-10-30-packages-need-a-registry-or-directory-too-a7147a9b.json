@@ -1,0 +1,28 @@
+{
+  "instanceId": "a7147a9b-ca01-4bc4-9dc1-08140a1b18b6",
+  "title": "Vignette 2026-10-30: packages need a registry or directory too",
+  "tags": [
+    "vignette",
+    "topic:federation",
+    "topic:registry",
+    "topic:packages",
+    "topic:distribution"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30, on RFC-049 Q2 and Q4: \"q2. No. Until required. \nq4.\n\nLets look a bit wider. \n\nHow will packages get distributed? They need registry/directory too.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

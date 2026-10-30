@@ -1,0 +1,28 @@
+{
+  "instanceId": "ce536911-5f60-43c1-815d-ddc74e2ae0ba",
+  "title": "Vignette 2026-10-30: the address is core, a citation across repositories may need a mirror",
+  "tags": [
+    "vignette",
+    "topic:federation",
+    "topic:addressing",
+    "topic:mirroring",
+    "topic:essays"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"Addressability and federation are pretty foundational for srs\"\n\n\"yes. We need to move the address to the core. The attentionstate is just a way to hold a pointer to an address, it should not be confused with the address itself. \n\nThe main form of this is form of relation. \n\nIf I have a federated set of repos, I may have my research in one central repo and my essays in another. My essay might be able to say... this links to that record in that repo. \n\nNow, this also brings up future elements. When I cite a record in a different repo I may need to cache/mirror it. One of the scenarios we looked at way me splitting and essay off into it's own repo for working. It could then see itself as a mirror of the records in the original repo.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

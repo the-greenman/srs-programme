@@ -1,0 +1,28 @@
+{
+  "instanceId": "86ba876e-ca7f-437c-a169-4cf2b042f2b2",
+  "title": "Conversation 2026-10-30: RFC-049 addressing, the smallest piece of a first registry",
+  "tags": [
+    "conversation",
+    "topic:federation",
+    "topic:addressing",
+    "topic:rfc-049",
+    "topic:registry"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "srs-rust#683 (multi-repository MCP serving) is blocked on RFC-049 (Draft Rev 3). The owner asked to look at the draft and sort it out; Claude Code put the six Open Questions to the owner, who asked for real option comparisons with trade-offs and a stated reason for each ruling, and framed the work as the first iteration of a registry."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-10-30."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
