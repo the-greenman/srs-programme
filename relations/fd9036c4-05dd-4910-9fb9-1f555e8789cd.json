@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "fd9036c4-05dd-4910-9fb9-1f555e8789cd",
+  "relationType": "evidences",
+  "sourceInstanceId": "a693b256-d5cc-4793-8543-10faaab70268",
+  "targetInstanceId": "e920a04f-6fc4-4a9d-bd0e-ca97dd9cdcfb",
+  "createdAt": "2026-10-30T00:47:04.605469818+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "A second arrival point for SP-129: the repository and the .srs file, not only the sites."
+}
