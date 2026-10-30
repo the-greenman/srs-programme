@@ -1,0 +1,28 @@
+{
+  "instanceId": "8b9b1066-d0ca-4993-958d-d9168b7a3338",
+  "title": "Vignette 2026-10-30: AI should keep evolving clusters",
+  "tags": [
+    "vignette",
+    "topic:affirmation",
+    "topic:clusters",
+    "topic:synthesis"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"Some elements, like clusters, rarely need affirmation. These are dynamic. AI is good at this kind of thing. So I genuinely trust that AI will be better at building clusters than I will in many cases. I want AI to keep evolving clusters. Affirmation breaks the better version of the cycle.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdAt": "2026-10-30T09:47:58Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,29 @@
+{
+  "instanceId": "23f12a6f-8026-40c2-aa16-90c5f1e97300",
+  "title": "Vignette 2026-10-30: sovereignty is doing what I am good at",
+  "tags": [
+    "vignette",
+    "topic:affirmation",
+    "topic:sovereignty",
+    "topic:human-ai-collaboration",
+    "topic:research"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"I'm not exactly sure where this fits into our research, but it's one more core vein. SRS is about human-si collaboration. I maintain sovereignty by doing the things I'm good at.. not being a click monkey affirming things I can't review\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdAt": "2026-10-30T09:47:58Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

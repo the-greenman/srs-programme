@@ -1,0 +1,31 @@
+{
+  "instanceId": "ab9b5800-4346-4f06-9580-9915293784a1",
+  "title": "1. What affirmation costs today",
+  "tags": [
+    "research",
+    "topic:affirmation"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "Affirmation by fork turned the human layer into a second copy of the data, and the owner's attention into the single sink."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "Measured 2026-10-30: 304 of the 313 affirmed records are copies of a suggestion, a fifth of all typed records; 133 of 137 problems exist twice; all 24 clusters were forked; 78 poles and 29 tensions still wait (finding da9d4da6). One round affirmed 90 records in one pull request (srs-programme#332), and session logs show seven ratifications in 47 seconds. The owner: \"A constant loop of affirmations is actually harder than sitting down and doing the writing\" (SP-102); \"I cannot affirm a pole on its own\" (SP-98); \"by the time I get to affirmation, context has often been lost\" (f6846947); \"the same decision coming back again and again\" (36c0549e, SP-64). SP-113: all 254 merges went through the owner, and each fix moved the act instead of removing it. SP-100, SP-101 and SP-103 complete the picture: the owner cannot tell what is asked, the method came before its tools, and understanding has no place to grow as a story."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "If affirmation becomes optional, do the 304 pairs collapse into one record each, or does an affirmed copy survive only as the tip?"
+    }
+  ],
+  "createdAt": "2026-10-30T09:53:41Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

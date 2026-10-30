@@ -1,0 +1,26 @@
+{
+  "instanceId": "da9d4da6-616c-434d-8f78-0fee02762a55",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Affirmation by fork duplicates 304 records: 97% of affirmed records are copies of a suggestion",
+    "summary": "Measured on srs-programme master, 2026-10-30. Of 1,585 typed records, 313 are in Affirmed; 304 of them are copies of a suggestion that stays in Suggestions, joined by derived-from. Every reader must resolve each pair to the right copy, and every reference must choose one.",
+    "evidence": [
+      "Per type, suggested / affirmed / pairs: problem 137/133/133, remedy 61/53/53, cluster 24/24/24, persona-in-domain 18/18/18, domain 17/15/15, tension 47/19/18, principle 28/13/13, pole 94/18/16, axis-in-domain 12/12/9, persona 5/5/5",
+      "Still waiting as suggestion only: 78 poles, 29 tensions, 15 principles, 8 remedies, 31 findings (findings are not affirmed by design)",
+      "Every one of the 24 clusters was forked into Affirmed, though the owner says clusters rarely need affirmation (vignette 8b9b1066)",
+      "Building the research threads on 2026-10-30, each cited problem, remedy and domain had to be checked for which copy was affirmed: SP-24, SP-48, SP-86, SP-09, SP-22, SP-116 to SP-119, remedy 364126da, 13 domains; two flow stages have no affirmed copy at all",
+      "srs-rust#1490 cited SP-116 for the data dump (it is SP-119): a label resolved against the wrong record"
+    ],
+    "body": "Gathered for the research thread on affirmation and confidence. The fork-and-copy mechanism (handbook: Suggested, affirmed, set aside; canon() follows derived-from) makes the human layer a second copy of the data rather than a judgement on the first. The owner (2026-10-30): \"These are a strange overhead and they introduce weird complexity. We have duplicate records.\""
+  },
+  "createdAt": "2026-10-30T09:48:35.353218226+00:00",
+  "updatedAt": "2026-10-30T09:48:35.353222820+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
