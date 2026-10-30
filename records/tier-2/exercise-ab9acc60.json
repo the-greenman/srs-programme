@@ -1,0 +1,25 @@
+{
+  "instanceId": "ab9acc60-dec3-4199-88ac-f42f52e57762",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "When should the move from affirmation to confidence be decided?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (2. Provenance: the owner's words are the lowest layer), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. At the revisit of decision 77e04b19, around 2026-11-21.\n- B. In a session of its own, once these exercises have options explored.\n- C. Never as one decision: let it change through smaller decisions as each exercise settles.",
+    "unresolved_questions": "How far the exercises above have got by the revisit date.",
+    "next_action": "Review this exercise's siblings before 2026-11-21 and report which are ready."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:43.566016370+00:00",
+  "updatedAt": "2026-10-30T10:07:43.566020022+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

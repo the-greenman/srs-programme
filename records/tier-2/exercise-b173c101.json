@@ -1,0 +1,25 @@
+{
+  "instanceId": "b173c101-b697-4a51-a428-c60acce7d00b",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "How should a change to a repository's structure be recorded?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (4. Structure that stays stable as it grows), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. Git history only.\n- B. A snapshot record of the navigation before and after each change.\n- C. A navigation diff computed on demand (srs repo diff over the outline).\n- D. A change note in the repository's root, written by whoever changed it.",
+    "unresolved_questions": "What the owner needs when comparing structures over time (vignette ac5974c6: record the old structure, then what changed).",
+    "next_action": "Take the uncommitted muSrs restructure and try recording it each way."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:38.269329535+00:00",
+  "updatedAt": "2026-10-30T10:07:38.269334787+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

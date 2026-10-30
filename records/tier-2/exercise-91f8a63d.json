@@ -1,0 +1,25 @@
+{
+  "instanceId": "91f8a63d-6905-4889-81fd-1a475557afe5",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "How does an exercise reach a session without flooding the desk?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (Open exercises), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. Only exercises in the owner's log reach the session (today's rule); everything else stays in Research.\n- B. An exercise reaches the session when an option is ready to propose.\n- C. The session sees a count and a list, and takes up one or two by choice.",
+    "unresolved_questions": "How many exercises the owner can take up in one session, and which got lost.",
+    "next_action": "Track which of today's exercises the owner opens over the next weeks."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:44.177458343+00:00",
+  "updatedAt": "2026-10-30T10:07:44.177461860+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

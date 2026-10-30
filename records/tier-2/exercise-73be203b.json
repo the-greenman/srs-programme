@@ -1,0 +1,25 @@
+{
+  "instanceId": "73be203b-5552-4278-bf02-b881961a7ed6",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Which records start at the human tip, which rise to it, and which never need it?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (4. The human tip: a managed layer when it is worth it), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. By type: decisions and the repository's purpose start at the tip; problems and remedies may rise; clusters, findings and tensions never need it.\n- B. By domain: the owner names the domains where the tip is managed.\n- C. By confidence: a record rises to the tip when its confidence crosses a line and it matters for ranking.",
+    "unresolved_questions": "Which affirmed records changed what happened, and which were affirmed without effect.",
+    "next_action": "Sample affirmed records by type and check whether anything read their affirmation."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:40.913562887+00:00",
+  "updatedAt": "2026-10-30T10:07:40.913566083+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

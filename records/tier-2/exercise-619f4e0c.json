@@ -1,0 +1,25 @@
+{
+  "instanceId": "619f4e0c-1345-455d-b146-034f3d732d69",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Must relation integrity constraints come before a graph surface?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (4. Relation integrity: what is done and what is missing), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. Constraints first: acyclicity, cardinality and endpoint types are declared before any walk or view.\n- B. Surface first: ship one-hop selection and views, add constraints as problems appear.\n- C. Together, per relation type: a type gains a surface when its constraints are declared.",
+    "unresolved_questions": "Whether walks or views give wrong answers on today's data: the concept graph already has three two-cycles.",
+    "next_action": "Run a bounded walk over the spec's depends-on graph and the programme's relations and record where cycles or bad endpoints change the result."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:35.170568873+00:00",
+  "updatedAt": "2026-10-30T10:07:35.170573303+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

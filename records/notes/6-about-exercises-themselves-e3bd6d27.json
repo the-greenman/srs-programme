@@ -1,0 +1,21 @@
+{
+  "instanceId": "e3bd6d27-05e4-4839-ae25-34ca5236dfb9",
+  "title": "6. About exercises themselves",
+  "tags": [
+    "research",
+    "exercise"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "What shape an exercise should have, and how one reaches a session."
+    }
+  ],
+  "createdAt": "2026-10-30T10:07:33Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

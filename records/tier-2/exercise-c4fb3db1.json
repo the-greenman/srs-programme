@@ -1,0 +1,25 @@
+{
+  "instanceId": "c4fb3db1-ad00-4469-8367-2e9822c3cbc8",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Which problem carries the need to select by relation?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (2. Documents need to select records by relation), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. SP-24, what a query or view returns is opaque.\n- B. SP-48, links between records are hidden.\n- C. A new problem stated for selection by relation itself (srs-rust#1413 notes none is affirmed).",
+    "unresolved_questions": "Whether the people who feel it describe opacity, hidden links, or something neither names.",
+    "next_action": "Read the vignettes and findings in the graph thread's second part against SP-24 and SP-48 and see what neither covers."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:33.855321617+00:00",
+  "updatedAt": "2026-10-30T10:07:33.855324462+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

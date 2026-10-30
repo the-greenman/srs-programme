@@ -81,6 +81,7 @@ It is a tree of documents that gets deeper: an introduction, then one overview p
 - the graph (`fd02df3d`);
 - human-readable repositories (`02a7e2e4`);
 - affirmation and confidence (`45883ea7`): where human judgement belongs, and confidence built from relationships;
+- open exercises (`7cccba8c`): every open question as an exercise, a question with options to explore before it becomes a decision;
 - flow and decisions (`0217dd72`, over the four flow and decision models);
 - the domain map (`5a3d1e92`, from the base domain down to the nine flow stages).
 
@@ -92,6 +93,10 @@ It is a tree of documents that gets deeper: an introduction, then one overview p
 **Keep counter-evidence in the same thread.**
 
 **Rewrite, don't append.** An overview holds the case so far: in short, the story, the parts, what is open. When the evidence changes the story, rewrite the overview, and move new detail into a part. How to structure any repository this way is taught at engine.semanticops.com/structure.md.
+
+**Questions become exercises, not answers.** When a thread raises an open question, write it as a `governance/exercise` tagged `exercise` and `research`. The title is the question. The tensions field holds the options, none chosen. The unresolved-questions field says what evidence would choose between them. Put the exercise in its part and in Open exercises. Don't put it in the owner's log until an option is ready to propose.
+
+**Searching.** `srs find --container` covers a section's direct members only (srs#726), so search one part at a time, or by type and tag: `srs find --type governance/exercise --tag research --text <term>`.
 
 srs-context points here (convention `a752700b`), so a session in any repository can find it.
 

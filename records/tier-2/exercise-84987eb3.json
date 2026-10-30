@@ -1,0 +1,25 @@
+{
+  "instanceId": "84987eb3-f7ba-4ab3-9034-ff748a533021",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "What makes a relationship strong?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (3. Confidence instead of a gate), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. Its type: evidences counts more than relates-to.\n- B. Its source: the owner's words, a measurement, an agent's observation.\n- C. Agreement: how many independent sources point the same way.\n- D. A mix of these, fading with age.",
+    "unresolved_questions": "Cases where the owner trusts or distrusts a record, and which signals explain it.",
+    "next_action": "Take ten records the owner trusts and ten they doubt and list the relations each has."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:40.026128318+00:00",
+  "updatedAt": "2026-10-30T10:07:40.026131659+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

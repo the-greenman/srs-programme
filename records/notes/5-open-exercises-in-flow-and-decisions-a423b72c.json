@@ -1,0 +1,21 @@
+{
+  "instanceId": "a423b72c-f0cf-42e3-974d-41da4d4c4771",
+  "title": "5. Open exercises in flow and decisions",
+  "tags": [
+    "research",
+    "exercise"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "The flow exploration's own exercises that still hold open questions."
+    }
+  ],
+  "createdAt": "2026-10-30T10:07:33Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

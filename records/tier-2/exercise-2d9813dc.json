@@ -1,0 +1,25 @@
+{
+  "instanceId": "2d9813dc-6a43-4e30-b02a-2171668a5fba",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Should the affirmed clusters return to the synthesiser?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (5. What AI should own: clusters and other dynamic structure), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. Yes: unaffirm all 24 and let the synthesiser own clusters.\n- B. Keep names affirmed and membership fluid, as the handbook says today.\n- C. The synthesiser owns clusters; the owner can pin one.",
+    "unresolved_questions": "Whether the synthesiser's clusters beat the frozen ones on the owner's own reading.",
+    "next_action": "Run the synthesiser on the problems with the 24 clusters hidden and compare."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:42.687802681+00:00",
+  "updatedAt": "2026-10-30T10:07:42.687806518+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

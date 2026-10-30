@@ -1,0 +1,25 @@
+{
+  "instanceId": "6a1fd092-1ef9-443a-a60e-2fe2e923c622",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Should navigation depth come from the contains tree or from container outlines?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (2. Reading order and sections: a few areas, then deeper), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. Container outlines only: depth is arrangement and the outline is the navigation.\n- B. The contains tree only, as decision 0750c62f says.\n- C. Both, kept apart: outlines for reading, contains for meaning.",
+    "unresolved_questions": "Where the two disagree today and which one readers and agents actually follow.",
+    "next_action": "Diff the contains tree and the outlines in srs/srs and srs-programme and read the disagreements."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:37.382035903+00:00",
+  "updatedAt": "2026-10-30T10:07:37.382038961+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

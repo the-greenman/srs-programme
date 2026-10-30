@@ -1,0 +1,25 @@
+{
+  "instanceId": "7f589bf0-a53f-4423-bac9-ea68b9edf5e8",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Is a graph walk a core service or a query axis?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (3. Agents and clients walk the graph themselves), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. A core service (neighbours, reach, lineage) that clients call.\n- B. An axis of DiscoveryQuery, so selection and walking are one mechanism.\n- C. A query axis implemented on a core walk, with only the axis exposed (one way per goal).",
+    "unresolved_questions": "Which callers need a walk outside a selection, and whether one-way-per-goal forbids exposing both.",
+    "next_action": "Inventory the walks clients built (srs-rust#1413, #1415, #1416) and classify each as selection or traversal."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:34.732079777+00:00",
+  "updatedAt": "2026-10-30T10:07:34.732085714+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

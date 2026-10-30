@@ -1,0 +1,21 @@
+{
+  "instanceId": "3fd136e7-c24f-45f1-89fb-d0016772774a",
+  "title": "4. Open exercises on the session agenda",
+  "tags": [
+    "research",
+    "exercise"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "The exercises in the owner's log, which the session and the desk list as open. None can close: the exercise type has no lifecycle."
+    }
+  ],
+  "createdAt": "2026-10-30T10:07:33Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
