@@ -1,0 +1,29 @@
+{
+  "instanceId": "5e9735b5-bdec-4dd7-a72f-0ab35766e902",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Reader mode makes our repositories followable with no change to their data",
+    "summary": "The Readers experiment (srs-lab#32) reads the same data four ways. In Reader mode (one column; a page is a record or note followed by what it anchors, in outline order, each with its first line; walls grouped by kind) srs-programme, muSrs and LiveWyer Insight can be followed page by page from their guide: every overview written for them shows. In srs-web's three columns the same repositories show search results.",
+    "evidence": [
+      "srs-lab readers/ (merged #32), tested with Playwright on five corpora, four modes, no console errors",
+      "srs-programme: guide, then roadmap, five phases, Narrative explorations and Research, each with its first line and item count; Research opens on its introduction and threads, a thread on its overview, a part on its evidence",
+      "Gaps it exposed: two records share the title 'SemanticOps programme' (the purpose and the settings record); bullet lists in prose render as plain lines; Book mode is long for large sections"
+    ],
+    "body": "This is evidence for option A of the exercise on what srs-web should show (a reading view first), and for the claim that the data was never the problem. A reading view needs nothing from the engine beyond outlines, anchors and records, which the CLI and WASM already expose."
+  },
+  "tags": [
+    "readability",
+    "prototype",
+    "corpus:srs-web"
+  ],
+  "createdAt": "2026-10-30T11:42:30.565162566+00:00",
+  "updatedAt": "2026-10-30T11:42:30.565165559+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
