@@ -1,0 +1,26 @@
+{
+  "instanceId": "876426b5-fa62-4436-8568-a309d451770c",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "clerk claim refuses an issue that an open PR only mentions",
+    "summary": "clerk claim refused srs-context#113 with 'an open PR already references it (srs-context#120)': PR #120 only mentioned #113 in prose ('not counted yet (srs-context#113)'). The collision check (refersTo in clerk lib/practice/claim.mjs) treats any #n in a PR's title or body as that PR working on the issue, so a PR that points at its successor blocks the successor's claim.",
+    "evidence": [
+      "clerk claim srs-context#113, 2026-10-30 ~10:45 UTC: refused, 'an open PR already references it (srs-context#120)'",
+      "Worked round by rewriting #113 and #114 in PR #120's body as full URLs; the claim then succeeded"
+    ],
+    "body": "- A holon's PRs routinely name the next items in their chain, so this stops every holon at each step.\n- Likely remedy: count only closing keywords (Closes/Fixes/Resolves #n) or a head branch named n-*, not a bare mention."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-10-30T10:44:59.901143259+00:00",
+  "updatedAt": "2026-10-30T10:44:59.901147861+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
