@@ -1,0 +1,25 @@
+{
+  "instanceId": "4ddf0599-19bd-4316-a210-4552eccc1634",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-138",
+    "title": "Problems agents hold wait for an owner who is not their audience",
+    "statement": "Some problems are held by the AI agent persona: what an agent needs from the memory it reads (SP-135..137). Only the owner can affirm them, in the affirmation layer, so a problem whose audience is agents waits on the person least placed to judge it, and the agents who are its audience can neither confirm it nor deny it. This contradicts the practice running today, kept here unresolved: srs-programme CLAUDE.md ('Agents never write into Affirmed or Set aside') and the clerk handbook, The affirmation layer ('Affirmation is how the owner turns a suggestion ... into an affirmed record').",
+    "kind": "consequence",
+    "source_ref": [
+      "Owner, 2026-10-30: vignette d83cd13c (srs-programme, conversation 2026-10-30 · srs-context as trusted agent memory)",
+      "srs-programme CLAUDE.md, Suggestions and the human layer",
+      "clerk docs/handbook.md, The affirmation layer"
+    ]
+  },
+  "createdAt": "2026-10-30T09:52:25.497296966+00:00",
+  "updatedAt": "2026-10-30T09:52:25.497302442+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

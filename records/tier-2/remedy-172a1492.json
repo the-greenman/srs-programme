@@ -1,0 +1,23 @@
+{
+  "instanceId": "172a1492-3b39-4ae7-9d42-6323f852a349",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Agents affirm problems held by an agent persona, under evidence the owner can overturn",
+    "move": "An agent may affirm a problem only when it is held by an AI-agent persona-in-domain, and only with evidence from agent use (a bench task it fails, a usage stat, a recorded incident), cited on the affirmation and stamped with the agent's createdBy. The affirmation is a fork into Affirmed like the owner's, marked as agent-affirmed; the owner can overturn it in the affirmation layer at any time, and an owner affirmation or set-aside always wins. Remedies, domains and rulings stay the owner's.",
+    "does_not_fix": "It does not let agents affirm problems held by a human persona, remedies or rulings, and it does not settle which agent may affirm (any session, or only a chartered seat).",
+    "falsifier": "The owner overturns more than one in five agent affirmations in a period, or an agent-affirmed problem is found to have no evidence from agent use.",
+    "source_ref": [
+      "Owner, 2026-10-30: vignette d83cd13c (srs-programme, Narrative explorations, conversation a6853b05)"
+    ]
+  },
+  "createdAt": "2026-10-30T09:52:25.616933814+00:00",
+  "updatedAt": "2026-10-30T09:52:25.616937123+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
