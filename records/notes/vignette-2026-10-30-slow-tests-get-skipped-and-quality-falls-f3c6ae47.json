@@ -1,0 +1,26 @@
+{
+  "instanceId": "f3c6ae47-5031-4fe7-896e-b4257686b234",
+  "title": "Vignette 2026-10-30: slow tests get skipped, and quality falls",
+  "tags": [
+    "vignette",
+    "topic:quality",
+    "topic:ci"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"This ci work is all part of our ability to maintain quality. If tests take too long, we start to skip them and quality falls.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
