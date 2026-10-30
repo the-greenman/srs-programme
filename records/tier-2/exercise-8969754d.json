@@ -1,0 +1,25 @@
+{
+  "instanceId": "8969754d-6d76-4256-ab40-c8cf132140c2",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "What may a dream change unattended in the programme?",
+    "thinking_reached": "No option chosen. Raised in Research (Dreamtime), 2026-10-30, as a question to explore before any decision.",
+    "tensions": "Options, none chosen:\n- A. Nothing: dreams propose, and a session decides.\n- B. Its own layer only: clusters, overviews, confidence and placement, never vignettes, decisions or the human tip.\n- C. What srs-context's dreams may change (decision 475a40e7), with structural redesigns brought as pull requests (vignette ac5974c6).",
+    "unresolved_questions": "What went wrong when agents changed programme records unattended, and what the owner wants to see before a change lands.",
+    "next_action": "List the unattended changes to the programme in the last month and how many were reverted."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:22:02.866764742+00:00",
+  "updatedAt": "2026-10-30T10:22:02.866768551+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

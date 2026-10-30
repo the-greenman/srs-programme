@@ -1,0 +1,31 @@
+{
+  "instanceId": "e11104e6-b089-45aa-a7fb-e5776acb0c0a",
+  "title": "5. Against: what dreams must not do",
+  "tags": [
+    "research",
+    "topic:dreamtime"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "A dream that rearranges the structure or promotes its own findings to authority undoes what it is for."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "Settled navigation should not completely rearrange itself (ac5974c6). Testimony becomes office only through a verification step (srs decision 16b20c56, Office over Testimony), so a dream's confidence must not by itself become authority. Decision c373c2c1 refuses any change that affirms or ratifies on the owner's behalf. srs-context's dreams merge their own changes because they touch only agent memory; the programme holds the owner's words and decisions, which no dream may rewrite."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "Where the line falls between what a dream may change and what only the owner may: the third exercise."
+    }
+  ],
+  "createdAt": "2026-10-30T10:22:02Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,28 @@
+{
+  "instanceId": "b2caaca7-653c-4a38-908f-b7d5f30c8bee",
+  "title": "Vignette 2026-10-30: dreams strengthen relationships when storylines recur",
+  "tags": [
+    "vignette",
+    "topic:dreamtime",
+    "topic:confidence",
+    "topic:graph"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"Our relationship strength is something that dreams will play a big role in. When they find the same storyline in different vignettes they will have stronger dreams.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdAt": "2026-10-30T10:20:59Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

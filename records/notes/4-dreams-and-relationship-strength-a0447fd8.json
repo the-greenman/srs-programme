@@ -1,0 +1,31 @@
+{
+  "instanceId": "a0447fd8-3e78-487b-956b-7fb2d7e5abeb",
+  "title": "4. Dreams and relationship strength",
+  "tags": [
+    "research",
+    "topic:dreamtime"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "Dreams find the same storyline told in different vignettes; each recurrence makes the relationships behind it stronger."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "The owner, 2026-10-30: \"Our relationship strength is something that dreams will play a big role in. When they find the same storyline in different vignettes they will have stronger dreams.\" This answers part of the affirmation thread's question \"What makes a relationship strong?\", which now carries recurrence as option E, and connects to confidence built from cross-checks (c8b12a7b). Today the synthesiser's weekly job (0e366cfd) names clusters, the nearest thing to finding storylines, and nothing records recurrence."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "How a dream turns recurrence into strength: an exercise below."
+    }
+  ],
+  "createdAt": "2026-10-30T10:22:02Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

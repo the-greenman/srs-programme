@@ -1,0 +1,25 @@
+{
+  "instanceId": "7d53a3ae-bdb3-4977-88d8-d425a8b7fd98",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Should dreamtime be a standard element of every SRS system, and in what form?",
+    "thinking_reached": "No option chosen. Raised in Research (Dreamtime), 2026-10-30, as a question to explore before any decision.",
+    "tensions": "Options, none chosen:\n- A. A procedure per repository, as srs-context's dream cycle is today.\n- B. One general dream skill, given a repository's purpose and scenarios.\n- C. An engine service (a dream command) with pluggable scenarios and a report.\n- D. Part of the srs-memory skill only, for project memories.",
+    "unresolved_questions": "Which steps of srs-context's dream cycle are specific to a memory and which any repository needs.",
+    "next_action": "Walk srs-context's dream cycle steps against srs-programme by hand and mark each step general or specific."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:22:02.400390152+00:00",
+  "updatedAt": "2026-10-30T10:22:02.400393447+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

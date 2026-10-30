@@ -1,0 +1,31 @@
+{
+  "instanceId": "bf4113c8-b3fe-4844-9ee4-02557873ac83",
+  "title": "2. What a dream does today",
+  "tags": [
+    "research",
+    "topic:dreamtime"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "srs-context already dreams: unattended, on a cadence, it consolidates, replays real work, re-verifies and rotates its brief."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "srs-context decision 475a40e7 (owner ruling 2026-10-12): long-term memory is agent-managed; \"Dreaming is unconscious. No ratification and auto pr. We don't verify dreams.\" The procedure (srs-context .claude/skills/srs-context/references/dream-cycle.md) consolidates journal notes, auto-memory and stray writes; replays up to three salient sessions from eight archetypes (scenarios.md); turns questions people asked into gold questions and fills the gaps; re-verifies the oldest records; and rotates the brief. Hooks measure each session and launch the dream when due. The owner, 2026-10-30: \"Srs-context does it, but it's a standard element for this kind of system.\" srs-context finding 6bfb854a: an unattended dream cannot read sibling repositories or write outside its worktree."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "What form a general dreamtime takes, and what it tests against: two exercises below."
+    }
+  ],
+  "createdAt": "2026-10-30T10:22:02Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

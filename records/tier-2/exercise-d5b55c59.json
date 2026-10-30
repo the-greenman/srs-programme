@@ -1,0 +1,25 @@
+{
+  "instanceId": "d5b55c59-2f33-42fd-b12f-3f141c52bc47",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "What should a dream test our data against?",
+    "thinking_reached": "No option chosen. Raised in Research (Dreamtime), 2026-10-30, as a question to explore before any decision.",
+    "tensions": "Options, none chosen:\n- A. Archetype scenarios (srs-context's scenarios.md).\n- B. Replays of real sessions.\n- C. The questions people actually asked (srs-context's gold questions).\n- D. Storylines across vignettes: the same story told more than once.\n- E. A cold reader: can a newcomer find their way (the human-readable test).",
+    "unresolved_questions": "Which tests found real defects in srs-context's dreams so far, and which found nothing.",
+    "next_action": "Read the last dream reports in srs-context and tally what each kind of test changed."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:22:02.635533558+00:00",
+  "updatedAt": "2026-10-30T10:22:02.635536757+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
