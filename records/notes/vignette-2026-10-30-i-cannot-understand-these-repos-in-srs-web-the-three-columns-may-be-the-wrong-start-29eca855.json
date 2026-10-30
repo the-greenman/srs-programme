@@ -1,0 +1,28 @@
+{
+  "instanceId": "29eca855-56f1-44d9-902c-6cbfdc4bdebc",
+  "title": "Vignette 2026-10-30: I cannot understand these repos in srs-web; the three columns may be the wrong start",
+  "tags": [
+    "vignette",
+    "topic:human-readable-repos",
+    "topic:srs-web",
+    "topic:layout"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"ok. now, lets return to our broader goal. How do we build repos that are meaningfl for humans. \nHave we captured all our research and issues? \nI also want to test these new repos when they are opened in srs-web. And suggest what change we can make on srs-web that can attempt to make some kind of sense of these repos. \n\nTo be honest, I cannot understand them at all. It may just be that the three column layout is not the right starting point.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdAt": "2026-10-30T11:20:28Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

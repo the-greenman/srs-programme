@@ -1,0 +1,28 @@
+{
+  "instanceId": "fd6e4eef-2263-4b1c-b616-ea20d9eb7032",
+  "title": "Vignette 2026-10-30: srs-context is actually really readable",
+  "tags": [
+    "vignette",
+    "topic:human-readable-repos",
+    "topic:srs-web",
+    "topic:srs-context"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30, after the repositories were opened in srs-web: \"srs-context is actually really readable.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdAt": "2026-10-30T11:23:12Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
