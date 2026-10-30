@@ -1,0 +1,28 @@
+{
+  "instanceId": "690b6447-dd92-46aa-a657-bdab0ce7e558",
+  "title": "Vignette 2026-10-30: ongoing research into SRS use, findable from context",
+  "tags": [
+    "vignette",
+    "topic:research",
+    "topic:human-readable-repos",
+    "topic:findability"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"What we have also done on structuring a human readable repo is also important. We have recently spent time discussing how to structure a repo for humans. See if we can collect that too.\n\nIt looks like we need to be able to keep an ongoing research into srs use area in the programme and make sure that it's all findable from context..\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdAt": "2026-10-30T09:12:35Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
