@@ -1,0 +1,29 @@
+{
+  "instanceId": "1c09abf8-6cf7-43d6-8c85-15b55fd6337b",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "srs-programme: one root member opens no section",
+    "summary": "'SemanticOps programme' (the programme record) sits at the root without a section of its own, so navigation shows a dead end.",
+    "evidence": [
+      "Audit 2026-10-30: S2 8/9 anchored"
+    ],
+    "body": "Give it a section or move it under the identity record."
+  },
+  "tags": [
+    "readability",
+    "corpus:programme",
+    "check:S2",
+    "win:quick",
+    "status:open"
+  ],
+  "createdAt": "2026-10-30T10:37:25.661750631+00:00",
+  "updatedAt": "2026-10-30T10:37:25.661752543+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

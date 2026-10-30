@@ -1,0 +1,30 @@
+{
+  "instanceId": "fc59fcb3-e582-405b-bb58-cdf8b9a75064",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Missing field labels could be filled from field names in one pass",
+    "summary": "Most missing labels are a field name read aloud (unresolved_questions → Unresolved questions). A one-pass fill gives every field a readable label, to be improved by hand where the name is not the reader's word.",
+    "evidence": [
+      "Audit 2026-10-30 L1: programme 39% of 215 fields, muSrs 46% of 358 fields, handbook 82% of 28 fields",
+      "srs-context convention 04f2384a: an additive optional field that only aids discovery updates in place, without a version bump"
+    ],
+    "body": "The labels live in the shared packages (the clerk's governance, method and programme packages; muDemocracy's argument package), so the fill is a package change in each, released as usual."
+  },
+  "tags": [
+    "readability",
+    "corpus:packages",
+    "check:L1",
+    "win:quick",
+    "status:open"
+  ],
+  "createdAt": "2026-10-30T10:37:27.177302210+00:00",
+  "updatedAt": "2026-10-30T10:37:27.177305997+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

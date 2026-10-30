@@ -1,0 +1,29 @@
+{
+  "instanceId": "b19eebc8-1d58-4610-befe-6ef073be1b40",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "muSrs: the identity record is not yet a reading guide",
+    "summary": "muSrs opens on a 216-character identity record; a reader is not told what the five areas are or where to start.",
+    "evidence": [
+      "Audit 2026-10-30 (origin/main): F1 216 chars"
+    ],
+    "body": "Write the guide when the restructure into areas lands (uncommitted worktree navigation-structure-2026-10-27)."
+  },
+  "tags": [
+    "readability",
+    "corpus:muSrs",
+    "check:F1",
+    "win:quick",
+    "status:open"
+  ],
+  "createdAt": "2026-10-30T10:37:26.050739604+00:00",
+  "updatedAt": "2026-10-30T10:37:26.050741806+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

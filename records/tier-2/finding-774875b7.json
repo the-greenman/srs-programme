@@ -1,0 +1,29 @@
+{
+  "instanceId": "774875b7-d18d-4f7f-b758-6186bfe640ac",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A quarter to a third of three corpora cannot be reached from the root",
+    "summary": "Records outside any section a reader can reach exist only for search.",
+    "evidence": [
+      "Audit 2026-10-30 S5: programme 73% (1346/1855) (6 of 87 containers unreachable), muSrs 67% (769/1143) (64 of 84 containers unreachable), spec 75% (534/711) (10 of 20 containers unreachable)"
+    ],
+    "body": "Place each unreached record in the section it belongs to or retire it; the muSrs restructure addresses most of muSrs. A coverage report in the engine (srs-rust#1490) would make this a standing check."
+  },
+  "tags": [
+    "readability",
+    "corpus:multiple",
+    "check:S5",
+    "win:big",
+    "status:open"
+  ],
+  "createdAt": "2026-10-30T10:37:27.933667465+00:00",
+  "updatedAt": "2026-10-30T10:37:27.933668986+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

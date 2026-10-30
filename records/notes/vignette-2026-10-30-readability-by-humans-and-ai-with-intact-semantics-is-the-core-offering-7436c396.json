@@ -1,0 +1,29 @@
+{
+  "instanceId": "7436c396-a0f6-415d-9a4b-f5096f9a0963",
+  "title": "Vignette 2026-10-30: readability by humans and AI with intact semantics is the core offering",
+  "tags": [
+    "vignette",
+    "topic:human-readable-repos",
+    "topic:purpose",
+    "topic:dreamtime",
+    "topic:skill"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"Now, we began this thread from our livewyer ingress experiment. I want us to pursue a goal that allows us to address some of the essential usability elements we discovered.\n\nReadability by humans and AI with intact semantics is essentially the core offering for SRS. We need to hold that purpose and test ourselves against it. \n\nRight now human readability has been lagging behind. \n\nWe also have many other corpuses to improve and to learn from.\n\nLets establish a set of core checks and activities that we can apply to build a human readable repo. These are part of a skill development and dreamtime too. \n\nThen we explore srs-programme, srs-context and muSrs to see how we can test this list of tests and remedies. We should keep refining this ability, maintaining an issue list and understanding the big wins and low hanging fruit for fixes. \n\nLet's try to build a set of readable repos\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdAt": "2026-10-30T10:31:32Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,30 @@
+{
+  "instanceId": "99b63d60-adbb-4384-aebb-5b1b32dc3790",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Reading views for the shared packages",
+    "summary": "Almost no type in the programme or muSrs has a reading view, so every record renders as a list of labelled fields with ids and paths among them.",
+    "evidence": [
+      "Audit 2026-10-30 L2: programme 0/44 types, muSrs 2/67 types, spec 2/15 types, handbook 0/5 types",
+      "LiveWyer Insight and srs-context pass with one view per type"
+    ],
+    "body": "One reading view per type in each shared package: title as heading, prose without labels, machine fields hidden. One package change improves every repository that uses it."
+  },
+  "tags": [
+    "readability",
+    "corpus:packages",
+    "check:L2",
+    "win:big",
+    "status:open"
+  ],
+  "createdAt": "2026-10-30T10:37:27.555863408+00:00",
+  "updatedAt": "2026-10-30T10:37:27.555864934+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

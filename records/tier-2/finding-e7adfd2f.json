@@ -1,0 +1,30 @@
+{
+  "instanceId": "e7adfd2f-83e0-4ec2-96e1-b3299f28f253",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Large sections read as walls",
+    "summary": "Many reachable sections hold more than fifteen items at one level, so a reader scrolls instead of choosing.",
+    "evidence": [
+      "Audit 2026-10-30 S4: programme 14 walls, muSrs 21 walls, spec 7 walls, context 4 walls, livewyer 6 walls",
+      "Largest: WG Agent-supported editor (24); Domain: Evidence-backed writing (20); Suggestions (535); Part: Conformance (32); Part: Instances (27); Part: Foundations (108)"
+    ],
+    "body": "Add a level of parts: group the children under overview documents. Dreams can propose groupings; the structure rule (settled structure stays put) decides when they land."
+  },
+  "tags": [
+    "readability",
+    "corpus:multiple",
+    "check:S4",
+    "win:big",
+    "status:open"
+  ],
+  "createdAt": "2026-10-30T10:37:28.687338023+00:00",
+  "updatedAt": "2026-10-30T10:37:28.687339678+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
