@@ -1,0 +1,31 @@
+{
+  "instanceId": "63652ab9-bb0c-476b-bdba-6c364b2a04a2",
+  "title": "1. The checks and the activities",
+  "tags": [
+    "research",
+    "topic:readability"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "Twelve automated checks in four groups (front door, structure, reading, semantics intact) and two that need a reader. Each check names the activity that fixes a failure."
+    },
+    {
+      "name": "checks",
+      "label": "The checks",
+      "content": "- F1 The identity record is a reading guide (front door). Pass: identity prose ≥ 400 characters. Activity: Write the reading guide into the identity (purpose) record: what this holds, the areas in order, what states mean, where to go next.\n- F2 The first document renders on its own (front door). Pass: first composition renders ≥ 500 characters with no parameters. Activity: Install a front-door composition first: the guide, then the top of each area; bind every section to a container.\n- S1 A few areas at the top (structure). Pass: 2 to 9 navigation sections. Activity: Group the root into a few purpose-shaped areas, ordered as a newcomer should read them.\n- S2 Every root member opens a section (structure). Pass: every root section anchors a container. Activity: Give each root member its own section container, anchored on it.\n- S3 Sections are documents, not labels (structure). Pass: ≥ 80% of section anchors carry ≥ 200 characters of prose. Activity: Rewrite each section anchor as an overview: in short, the story, the parts, what is open.\n- S4 No level is a wall of items (structure). Pass: no outline parent with more than 15 direct children. Activity: Add a level of parts: group the children under documents that anchor their own sections.\n- S5 Everything is reachable from the root (structure). Pass: ≥ 90% of instances reachable through sections. Activity: Place unreached records in the section they belong to, or retire them.\n- L1 Fields have human labels (reading). Pass: ≥ 90% of used types' fields have a displayLabel. Activity: Set displayLabel on every field assignment, in the words a reader uses.\n- L2 Types have reading views (reading). Pass: ≥ 50% of used types have a view. Activity: Add a reading view per type: title as heading, prose without labels, machine fields hidden.\n- L3 Documents use headings and views (reading). Pass: ≥ 50% of composition sections set titleFieldId or a view. Activity: Set titleFieldId and typeDispatch on composition sections.\n- M1 The repository validates (semantics intact). Pass: 0 errors (warnings reported). Activity: Fix every validation error; review warnings.\n- M2 One record per meaning (semantics intact). Pass: ≤ 2% of records share a type and title with another. Activity: Collapse duplicates into one record; keep provenance as relations.\n\nNeeds a reader:\n- H1: A person who did not write it reads it front to back and can say what it holds.\n- H2: A cold agent, given only the repository, explains it and finds a named record without searching blindly."
+    },
+    {
+      "name": "tool",
+      "label": "The audit",
+      "content": "srs-lab readability/audit.mjs (srs-lab#30) runs the twelve checks through the srs CLI, read-only, in seconds on a mid-size repository. How to build a repository that passes is taught at engine.semanticops.com/structure.md (srs-rust#1531)."
+    }
+  ],
+  "createdAt": "2026-10-30T10:37:24Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

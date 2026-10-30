@@ -1,0 +1,30 @@
+{
+  "instanceId": "3c104d1e-bdc3-4224-9191-edaca70cb332",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Spec: the Part sections are labels, not documents",
+    "summary": "Six of the spec's nine section anchors (Part: Foundations, Instances, Structure and others) carry under 200 characters, so a reader meets a heading and a list.",
+    "evidence": [
+      "Audit 2026-10-30: S3 3/9 documents",
+      "Wave 5 'Read as a human' set the read-through as the exit criterion"
+    ],
+    "body": "Write an overview for each Part: what it covers, the order of its concepts, and what to read first."
+  },
+  "tags": [
+    "readability",
+    "corpus:spec",
+    "check:S3",
+    "win:quick",
+    "status:open"
+  ],
+  "createdAt": "2026-10-30T10:37:26.803096644+00:00",
+  "updatedAt": "2026-10-30T10:37:26.803098364+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

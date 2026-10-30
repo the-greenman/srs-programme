@@ -1,0 +1,30 @@
+{
+  "instanceId": "1ba6906b-9f23-42db-a109-d0bf707224f2",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "srs-context: the front door was one sentence and the layers were labels (fixed)",
+    "summary": "The identity record said one sentence (140 characters) and five of eight layer anchors were under 200 characters. Fixed on 2026-10-30: a reading guide and a 'How to read it' section per layer (srs-context#118).",
+    "evidence": [
+      "Audit 2026-10-30: F1 140 chars, S3 3/8 documents",
+      "After the fix: F1 1144 chars, S3 8/8"
+    ],
+    "body": "The pattern for any layered memory: the guide names the layers in reading order and says where to stop."
+  },
+  "tags": [
+    "readability",
+    "corpus:context",
+    "check:F1",
+    "win:quick",
+    "status:fixed"
+  ],
+  "createdAt": "2026-10-30T10:37:24.910051786+00:00",
+  "updatedAt": "2026-10-30T10:37:24.910054238+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

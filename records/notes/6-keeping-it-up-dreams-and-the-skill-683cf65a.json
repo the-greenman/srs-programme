@@ -1,0 +1,31 @@
+{
+  "instanceId": "683cf65a-8efd-4d0b-bd12-a5e1fbad2388",
+  "title": "6. Keeping it up: dreams and the skill",
+  "tags": [
+    "research",
+    "topic:readability"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "The audit is re-run on a cadence and after big changes; its failures become the work list for dreams and for whoever owns the repository."
+    },
+    {
+      "name": "body",
+      "label": "How",
+      "content": "Dreams: srs-context's dream cycle can run the audit on its own memory and fix front-door and section regressions itself; for the programme and other corpora the exercise 'What may a dream change unattended in the programme?' decides how far a dream goes. The skill: the guide at engine.semanticops.com/structure.md teaches the same checks to anyone building a repository. The record: each re-run adds a dated scorecard here and moves issues between open and fixed (tags status:open and status:fixed)."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "Which thresholds are right is itself unknown: the audit's numbers were chosen, not measured. The manual checks (a read-through, a cold agent) are the test of the automated ones."
+    }
+  ],
+  "createdAt": "2026-10-30T10:37:24Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

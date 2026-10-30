@@ -1,0 +1,30 @@
+{
+  "instanceId": "eb3cfeb2-f5f5-463c-878e-0a31d30d2dbb",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Affirmation duplicates 42% of the programme's records",
+    "summary": "Every forked record appears twice, so a reader meets the same meaning in two places.",
+    "evidence": [
+      "Audit 2026-10-30 M2: programme 42% (673 records), muSrs 8% (90 records)",
+      "Finding da9d4da6: 304 of 313 affirmed records are copies"
+    ],
+    "body": "Not a readability fix to make alone: the exercise on the duplicate pairs holds the options."
+  },
+  "tags": [
+    "readability",
+    "corpus:programme",
+    "check:M2",
+    "win:big",
+    "status:open"
+  ],
+  "createdAt": "2026-10-30T10:37:28.313496160+00:00",
+  "updatedAt": "2026-10-30T10:37:28.313497600+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,34 @@
+{
+  "instanceId": "5aa318b3-963b-4a84-9c15-588c5cf6b2d2",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Tools that undo a readable structure",
+    "summary": "Structures that pass the audit are still shown badly by today's tools.",
+    "evidence": [
+      "srs-rust#1490: navigation loses outline order and depth; proposes a coverage report",
+      "srs-web#668: the container pane lists search hits, not the outline",
+      "srs-web#425: the editor's navigation shows two levels",
+      "srs#726: find cannot search a tree of sections",
+      "srs#928: compositions have no display title; srs#911: headings jump from H1 to H3",
+      "No command orders a package's compositions, so a front door cannot be put first"
+    ],
+    "body": "Each is logged where it lives. The order and depth of navigation (srs-rust#1490) and the container pane (srs-web#668) are the two that most often hide a good structure."
+  },
+  "tags": [
+    "readability",
+    "corpus:tools",
+    "check:tools",
+    "win:tool",
+    "status:open"
+  ],
+  "createdAt": "2026-10-30T10:37:29.055912625+00:00",
+  "updatedAt": "2026-10-30T10:37:29.055914262+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

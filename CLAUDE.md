@@ -78,6 +78,7 @@ The rule is proposed decision 199dd369. Read with `srs find --tag decision-stop`
 Standing research into how SRS is used and what it needs: the **Research** root section, container `2f14de07`.
 
 It is a tree of documents that gets deeper: an introduction, then one overview per thread, then parts, then the evidence. Every document with children anchors its own container, so navigation drills down. The threads:
+- readable repositories, tested (`442f1aeb`): the core offering, twelve checks, dated audits of our corpora and the issue list (`srs find --type com.semanticops.programme/finding --tag readability`);
 - the graph (`fd02df3d`);
 - human-readable repositories (`02a7e2e4`);
 - affirmation and confidence (`45883ea7`): where human judgement belongs, and confidence built from relationships;

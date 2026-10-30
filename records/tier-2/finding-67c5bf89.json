@@ -1,0 +1,29 @@
+{
+  "instanceId": "67c5bf89-3f6a-40ef-aa38-e47ae5ef8209",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Clerk handbook: no front document, and 91 sections flat at the root",
+    "summary": "The handbook repository opens on a 308-character identity and a composition that renders 18 characters; its 91 chapters are all root sections with no grouping, so it is read through its rendered markdown instead.",
+    "evidence": [
+      "Audit 2026-10-30: F1 308 chars, F2 18 chars, S1 91 sections"
+    ],
+    "body": "Group the chapters into a few areas that match the rendered handbook's parts, each an overview document; bind the front document."
+  },
+  "tags": [
+    "readability",
+    "corpus:handbook",
+    "check:S1",
+    "win:quick",
+    "status:open"
+  ],
+  "createdAt": "2026-10-30T10:37:26.423215538+00:00",
+  "updatedAt": "2026-10-30T10:37:26.423217013+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
