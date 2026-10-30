@@ -1,0 +1,25 @@
+{
+  "instanceId": "9e6da5e8-595f-4588-8fc2-90b99dea9ad2",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Where should a graph view live?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (1. People need to see what links to what), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. A lens layout in the editor: the set, the one thing, and what links to it, drawn as a graph.\n- B. A Composition section or renderer, so a graph can be part of a document.\n- C. A new presentation object of its own, beside compositions.",
+    "unresolved_questions": "Which reading tasks a graph view serves and how the Map is used today: there are no usage numbers.",
+    "next_action": "List the tasks behind the owner's requests to see links (vignettes 2941f51a, 35e35dd2, the lenses assessment) and match each to an option."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:34.294437675+00:00",
+  "updatedAt": "2026-10-30T10:07:34.294440638+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

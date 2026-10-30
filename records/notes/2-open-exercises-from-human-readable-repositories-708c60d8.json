@@ -1,0 +1,21 @@
+{
+  "instanceId": "708c60d8-6d00-4045-84cd-c6aaafe37d77",
+  "title": "2. Open exercises from human-readable repositories",
+  "tags": [
+    "research",
+    "exercise"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "The front door, who shapes the top level, locked levels, recording structural change, and how to test readability."
+    }
+  ],
+  "createdAt": "2026-10-30T10:07:33Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

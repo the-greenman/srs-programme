@@ -1,0 +1,25 @@
+{
+  "instanceId": "3be265ec-b96d-45aa-a500-1299607658b1",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Who decides a repository's top-level areas, and how does its purpose become structure?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (2. Reading order and sections: a few areas, then deeper), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. The owner, by hand.\n- B. A guided conversation per repository purpose, ending in a proposed structure.\n- C. An agent proposes it from the records (the dream cycle) and the owner adjusts.\n- D. Defaults from a blueprint or package, changed per repository.",
+    "unresolved_questions": "Which way produced structures that stayed stable and readable: srs-context, muSrs, LiveWyer and Research were each structured differently.",
+    "next_action": "Compare those four structures: who made them, how, and how much they changed afterwards."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:36.946968813+00:00",
+  "updatedAt": "2026-10-30T10:07:36.946973091+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

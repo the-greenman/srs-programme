@@ -1,0 +1,21 @@
+{
+  "instanceId": "16e9763a-167d-4019-8dc4-b2b8aca98763",
+  "title": "3. Open exercises from affirmation and confidence",
+  "tags": [
+    "research",
+    "exercise"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "How confidence is computed, what a strong relationship is, the duplicates, the human tip, review, authority and clusters."
+    }
+  ],
+  "createdAt": "2026-10-30T10:07:33Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

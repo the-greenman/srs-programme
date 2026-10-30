@@ -1,0 +1,25 @@
+{
+  "instanceId": "ef6feec0-0f54-49de-8995-bcf8c0321d69",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Which levels of a repository's navigation are locked?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (4. Structure that stays stable as it grows), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. None: navigation evolves freely with the records.\n- B. The top level only: areas change by deliberate redesign, everything below evolves.\n- C. Owner-chosen levels, marked as locked, as in the owner's words of 2026-10-26.",
+    "unresolved_questions": "How often top-level and lower-level structure changed in srs-context, muSrs and the programme, and which changes hurt readers.",
+    "next_action": "Count structural changes per level from git history in those repositories."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:37.835016130+00:00",
+  "updatedAt": "2026-10-30T10:07:37.835019545+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

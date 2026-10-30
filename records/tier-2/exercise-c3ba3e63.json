@@ -1,0 +1,25 @@
+{
+  "instanceId": "c3ba3e63-a2d0-47e0-9e74-df357337a0e2",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "How is confidence computed, and where does it live?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (3. Confidence instead of a gate), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. A score computed by clerk's care policy from the records and relations, not stored.\n- B. A field stored on each record, updated by agents.\n- C. Strength stored on relations in the data model, reopening the 4f1e12e5 removal.\n- D. Derived on read by a core service, so every client sees the same value.",
+    "unresolved_questions": "Who needs confidence (care modes, readers, the desk) and whether it must be identical across clients.",
+    "next_action": "Compute a simple cross-check score for the 23 problems in the graph and affirmation threads and see whether it matches the owner's sense."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:39.588886297+00:00",
+  "updatedAt": "2026-10-30T10:07:39.588889556+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

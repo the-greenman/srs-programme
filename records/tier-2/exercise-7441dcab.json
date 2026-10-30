@@ -1,0 +1,25 @@
+{
+  "instanceId": "7441dcab-ae9c-4856-82e8-5321240e1d57",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "How does the owner review so that review is judgement, not clicking?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (6. Sovereignty: doing what the human is good at), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. Review the story: a vignette and everything derived from it, side by side.\n- B. Review what changed since the last look.\n- C. Review only the low-confidence items.\n- D. Review a sample, as an audit.",
+    "unresolved_questions": "How long each takes, and how often it changes a record. Session logs show seven ratifications in 47 seconds.",
+    "next_action": "Try each form in one session and record the time and the changes made."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:41.355016063+00:00",
+  "updatedAt": "2026-10-30T10:07:41.355019518+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

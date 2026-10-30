@@ -1,0 +1,25 @@
+{
+  "instanceId": "7b6cd50c-3556-45d4-b502-c94d2a3cc4af",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "What happens to the 304 duplicate pairs?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (1. What affirmation costs today), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. Collapse each pair into one record; affirmation becomes a state on it.\n- B. Keep the affirmed copy as the tip and retire the suggestion.\n- C. Keep both, and stop forking new ones.\n- D. Leave everything as it is.",
+    "unresolved_questions": "What canon(), the desk and the care policy read from the pairs, and what breaks if a copy disappears.",
+    "next_action": "List every reader of Affirmed membership and derived-from in clerk and the programme."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:40.463701208+00:00",
+  "updatedAt": "2026-10-30T10:07:40.463706485+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

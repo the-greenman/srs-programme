@@ -1,0 +1,25 @@
+{
+  "instanceId": "594e14cd-5c93-4c89-a32e-4b90984c2b49",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "How do we test that a repository reads well?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (5. How we know a repository reads well), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. A person who did not write it reads it front to back (Wave 5's criterion).\n- B. A cold agent explains it and finds a named record (the zero-context test).\n- C. A reachability report: everything is reachable from the root (srs-rust#1490).\n- D. All three, at different moments.",
+    "unresolved_questions": "Which test catches the failures we have seen: the data dump, the empty front door, scrambled order.",
+    "next_action": "Run the cold-agent test and the reachability count on Research and LiveWyer and compare with a human read."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:39.143934345+00:00",
+  "updatedAt": "2026-10-30T10:07:39.143938705+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,21 @@
+{
+  "instanceId": "3db83deb-97dc-427c-8bcc-66d9ceb98304",
+  "title": "1. Open exercises from the graph thread",
+  "tags": [
+    "research",
+    "exercise"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "What the graph element should be: how far selection reaches, where views live, what comes first."
+    }
+  ],
+  "createdAt": "2026-10-30T10:07:33Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,25 @@
+{
+  "instanceId": "cd0db623-4b29-4be7-bbb8-6c75686ef0b4",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "What is a repository's front door, in the spec?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (1. The front door: what a repository opens on), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. The identity record: the purpose record is what a reader meets first.\n- B. A composition bound to the root container (RFC-013's root view binding, OQ-1, never specified).\n- C. Both: a bound composition that renders the identity record first.\n- D. A client convention only: the editor opens the first composition, and the spec stays silent.",
+    "unresolved_questions": "How each option behaves for a person in the editor, an agent over MCP, and a rendered export.",
+    "next_action": "Try each option on LiveWyer Insight and one programme repository, and read them cold."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:36.493502896+00:00",
+  "updatedAt": "2026-10-30T10:07:36.493506140+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

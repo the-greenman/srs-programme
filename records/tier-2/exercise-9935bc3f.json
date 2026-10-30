@@ -1,0 +1,25 @@
+{
+  "instanceId": "9935bc3f-3adb-4781-9161-4f2876c5cd90",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Which acts must stay offices, whatever the confidence?",
+    "thinking_reached": "No option chosen. Raised as an open question in Research (7. Against: why affirmation exists), 2026-10-30, and turned into an exercise so options are explored before any decision.",
+    "tensions": "Options, none chosen:\n- A. Ratifying decisions only.\n- B. Ratifying, merging owner-merge changes and setting the period's priorities.\n- C. Every act on a record the owner wrote.",
+    "unresolved_questions": "Which acts have been taken by agents and later regretted (SP-71, c373c2c1).",
+    "next_action": "List the acts decision c373c2c1 refuses and check which ones confidence might make safe."
+  },
+  "tags": [
+    "exercise",
+    "research"
+  ],
+  "createdAt": "2026-10-30T10:07:42.244941989+00:00",
+  "updatedAt": "2026-10-30T10:07:42.244946370+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

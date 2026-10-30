@@ -14,7 +14,7 @@
     {
       "name": "threads",
       "label": "The threads",
-      "content": "- The graph: why SRS needs a graph element. The evidence supports one-hop selection by relation, visible links and a bounded walk in the core, not a query language.\n- Human-readable repositories: how a repository is structured for people. Five parts, from the front door to how we test readability.\n- Affirmation and confidence: where human judgement belongs. Affirmation by fork has become a sink (304 of 313 affirmed records are copies); the move is to confidence built from relationships, with an optional human tip.\n- Flow and decisions: the models of how work moves and how decisions settle.\n- The domain map: where the work happens, from the base domain down to the stages of the flow."
+      "content": "- Open exercises: every open question in Research and on the session agenda, kept as a question with options to explore before it becomes a decision.\n- The graph: why SRS needs a graph element. The evidence supports one-hop selection by relation, visible links and a bounded walk in the core, not a query language.\n- Human-readable repositories: how a repository is structured for people. Five parts, from the front door to how we test readability.\n- Affirmation and confidence: where human judgement belongs. Affirmation by fork has become a sink (304 of 313 affirmed records are copies); the move is to confidence built from relationships, with an optional human tip.\n- Flow and decisions: the models of how work moves and how decisions settle.\n- The domain map: where the work happens, from the base domain down to the stages of the flow."
     },
     {
       "name": "practice",
@@ -24,7 +24,7 @@
     {
       "name": "find",
       "label": "How to find it",
-      "content": "srs find --container 2f14de07-0850-4f32-9870-f241630d9537 searches all of Research. Each thread and part is its own container, so a search can be narrowed to one. srs-context points here (convention a752700b, in its Brief)."
+      "content": "Each thread and part is its own section. srs find --container <section> searches that section's direct members only, so search a part's section to reach its evidence (searching a thread reaches its part documents). Every open question is an exercise: srs find --type governance/exercise --tag research --text \"<term>\". srs-context points here (convention a752700b, in its Brief)."
     }
   ],
   "createdAt": "2026-10-30T09:13:36Z",

@@ -1,0 +1,42 @@
+{
+  "instanceId": "e56b319f-01a2-498b-b884-340e323af540",
+  "title": "Open exercises: questions we explore before they become decisions",
+  "tags": [
+    "research",
+    "exercise",
+    "topic:exercise"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "Every open question in Research, and every open exercise on the session agenda, kept as an exercise: a question with its options defined and explored, and the evidence gathered, before it becomes a decision."
+    },
+    {
+      "name": "what",
+      "label": "What an exercise is",
+      "content": "The owner, 2026-10-30: \"Before we get to a decision, an exercise is a question and we need to explore possible options and gather evidence ... We should be able to easily find these, and gradually develop our understanding before they hit formal decisions.\"\n\nAn exercise moves through: a question; options, none chosen; evidence for and against each option; a proposal when one option is clearly better; then a decision in a session. Until the last step nothing is settled, and nobody is asked to answer."
+    },
+    {
+      "name": "how",
+      "label": "How each exercise is written",
+      "content": "The title is the question. Its tensions field lists the options and what each trades. Its unresolved questions field says what evidence would choose between them. Its next action says how to explore. Its thinking reached says where it stands. Each exercise also sits in the research part it came from, and comes from the owner's vignette of 2026-10-30. The exercise type has no fields for options and no lifecycle, so this is a stopgap; the first exercise in the meta part asks what shape an exercise should have."
+    },
+    {
+      "name": "parts",
+      "label": "The parts",
+      "content": "1. From the graph thread (7).\n2. From human-readable repositories (7).\n3. From affirmation and confidence (10).\n4. On the session agenda: the open exercises in the owner's log (6).\n5. Flow and decisions: the exploration exercises with open questions.\n6. About exercises themselves (2)."
+    },
+    {
+      "name": "find",
+      "label": "How to find them",
+      "content": "All exercises raised by Research: srs find --type governance/exercise --tag research (add --text \"<term>\" to search them). One part: srs find --container <that part's section>. A container search covers its direct members only, so searching this overview's section finds the six part documents, not the exercises inside them. The session and the desk list only the exercises in the owner's log; bringing one there is a deliberate act."
+    }
+  ],
+  "createdAt": "2026-10-30T10:07:33Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
