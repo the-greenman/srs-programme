@@ -1,0 +1,23 @@
+{
+  "instanceId": "bfac0405-d182-4d68-aff1-75c490f77e75",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle 2026-10-31",
+    "run_date": "2026-10-31",
+    "chose": "WG Agent-supported editor: cycle 2026-10-30 11:30 to 2026-10-31 11:30 UTC\n\n1. Decisions for you: none new. Inform: srs-web#567 (Funding 2, each agent's brief kept with the essay) still carries needs-input although a ratified decision on where the brief lives exists; the label may be stale or may mean a further question. Action needed: inform; clear the label or say what is still open. Inform, carried over: remedy 2910ac1e and SP-52 still have no affirmed remedy (see the 10-30 report).\n2. Decided within mandate: none; no decision awaited assent, so no group session was held.\n3. Done: 1 PR merged, by you (owner-merge): srs-web#676 \"An agent finds the editor's start page by itself (#674)\". Quorum line: builder agent:claude-code / reviewer agent:editor-reviewer / mandate affirmed remedy f402de9a + decision 9441693e, verdict approve, gates green on 93ec151.\n4. Stuck or lost: no open group PRs, no red gates. Needs-input: srs-web#567.\n5. Budget: 0 of 10 delegated merges this cycle (the one merge was owner-merge); 0 open. Pause: running.\n5b. Awaiting ratification: none.\n6. Next: 2 issues ready + wg:agent-editor (srs-web#525, semanticops.com#14). Queue running dry: 2 ready, budget 10. Needs feeding from the open group issues (for example srs-rust#1527, #1490, #1172, #1085, srs-web#587, #514). Top 3 in Builder order: srs-web#525, semanticops.com#14, then the oldest P1 (srs-rust#1172). Waits on the owner: srs-web#567 label. Fed by the analyst: not needed.\n6b. Exercises: none open.\n7. What we learned: the one merge this cycle had an affirmed remedy and a ratified decision behind it and the reviewer approved: the mandate chain worked when affirmation came first. I1 (record 8470c9f4-3316-4cca-a1dc-a20d5d7553ad): 0/1 merged PRs grounded to a problem, 0/1 with an affirmed persona and domain, in the measured window; the useful/noisy/misleading line is the owner's to give in a session. I2 to I4: pending.",
+    "rationale": "No new escalation. srs-web#567 is listed as an inform item because its needs-input label sits beside a ratified decision on the same question.",
+    "figures": "Delegated merges (group-state): 0 of 10; 0 open group PRs. Merged this cycle: srs-web#676 (owner-merge, approve). I1 measurement-result 8470c9f4: 0/1 grounded.",
+    "landed_as": "pending"
+  },
+  "createdAt": "2026-10-31T11:39:48.794622249+00:00",
+  "updatedAt": "2026-10-31T11:39:48.794628396+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
