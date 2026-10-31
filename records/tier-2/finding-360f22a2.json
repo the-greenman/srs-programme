@@ -1,0 +1,31 @@
+{
+  "instanceId": "360f22a2-a965-47ed-8ab2-202558153091",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "An owner ruling given in a PR comment did not reach the decision record or the follow-up issue, so a done task sat in the ready queue",
+    "summary": "Decision c16c70c1 (session 2026-10-27, option B) said srs-rust#1481 lands without the release.yml line and filed srs-rust#1495 to add it after a week. On 2026-10-28 17:32 the owner ruled in a PR #1481 comment to keep the line, and merged #1481 at 17:52 with arrangement-fixture in the release gate. On 2026-10-30 c16c70c1 still reads proposed with option B, #1495 is still labelled ready, and the 11:30 cycle report lists it as one of four workable issues.",
+    "evidence": [
+      "srs-rust#1481 comment 2026-10-28T17:32:58Z (owner): 'Owner ruling on the release.yml change: keep it.' Merged 2026-10-28T17:52:30Z",
+      "srs-rust master 1055ef0f, .github/workflows/release.yml:428: arrangement-fixture in the corpus-conformance gate (from b833207a)",
+      "srs-rust#1495 open with ready + wg:third-party-ready on 2026-10-30; semanticops.com#31 wg-report 2026-10-30 counts it as workable",
+      "decision c16c70c1 in srs-programme master 4aaa41d: status proposed, still option B"
+    ],
+    "body": "- The stop is at landing (work flow stage 7) and at recording (decision flow D5): the ruling lived only in a PR comment.\n- Nothing links a PR-comment ruling back to the decision it revises, so neither the decision nor the issue it spawned was updated.\n- Cost avoided this time: a builder would have opened a PR for work already on master."
+  },
+  "tags": [
+    "flow-stop",
+    "decision-stop",
+    "boundary:release-gate"
+  ],
+  "createdAt": "2026-10-30T12:18:05.223626016+00:00",
+  "updatedAt": "2026-10-30T12:18:05.223636584+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-analyst",
+    "name": "Third-party-ready analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
