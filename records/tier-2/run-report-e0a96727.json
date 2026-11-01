@@ -1,0 +1,23 @@
+{
+  "instanceId": "e0a96727-0448-4ed2-bedc-292e6c744958",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Third-party ready: cycle close 2026-11-01",
+    "run_date": "2026-11-01",
+    "chose": "<!-- wg-report cycle=2026-11-01 group=wg:third-party-ready -->\nPaused: 2 reports unacknowledged. Receive in a session or react 👍 to resume.\n\nWG Third-party ready: cycle 2026-10-31 11:30 to 2026-11-01 11:30 UTC\n\n1. Decisions for you: two open escalations, none new (both still unanswered, now 2 days).\n- 21b6b4b7 (srs#236, P0, blocks-gate): field identity and naming rules are in the spec but nothing enforces them. Options: enforce in the schema, enforce in a validator, or stop claiming them. Recommendation: see the record. Action needed: decide. Urgency: medium (the P0 cannot move).\n- 864eaebf (srs#991): one heading-outline rule for every document, or opt-in per Composition (Door 3, amends an Accepted RFC). Action needed: decide. Urgency: low (draft only).\nAlso waiting on you: c7a8e0a2 (`note delete` refusing notes that Relations point at, srs-rust#1497; ratification only); needs-input on srs-rust#1491, #683, srs#928.\n\n2. Decided within mandate: nothing ratified; no group PR merged, so no decision was ready and no session was held.\n\n3. Done: no group PRs merged this cycle (the group is paused). Merged elsewhere: srs-programme#394 and #395 (the previous cycle's reports).\n\n4. Stuck or lost: 5 group-labelled PRs open, none moved this cycle.\n- srs#991: waits on you (see 1).\n- srs-rust#1540 and #1541: reviewer rejected on red CI (fmt, site CLI reference drift); both now behind master. Need the builder, who is paused.\n- srs-rust#1535: owner-merge, clean, no quorum line.\n- srs-rust#1487: reviewer rejected, merge state dirty (conflicts), untouched since 10-28.\n- srs-programme#382 (finding) was open at last read.\n\n5. Budget: 0 of 10 delegated merges this cycle; 4 open per group-state. Pause state: paused: 2 reports unacknowledged.\n5b. Awaiting ratification: 8487fd7a (arrangement fixture allowlist, 5 days); c7a8e0a2 (4 days); 864eaebf (2 days); 21b6b4b7 (2 days). Session to ratify: `clerk session --as owner --repo <srs-programme> --ratify all` (the-greenman/clerk; the TUI is `clerk --as owner`).\n\n6. Next: ready + wg:third-party-ready in srs-rust, srs, srs-vscode, srs-web: 17 open, about 7 workable. The analyst's conformance sweep filed srs-rust#1542 to #1546 (P2), which top the Builder's order with srs#931 and srs-rust#1495. Blocked or waiting: srs-rust#1496, #1339, #1491, #683, #704, srs-web#632, srs#928. No local priorities set. Queue fed for about 1 cycle once the pause lifts, but the pause, not the queue, is the constraint now. Waits on you: 21b6b4b7, 864eaebf, the ratifications in 5b, and the acknowledgement that resumes the group. Fed by the analyst: 2026-10-31 12:19 (filed 5, conformance sweep).\n6b. Exercises: dd1a47a7 \"Relation reads hide who asserted a link\"; 2ac083c0 \"One unknown key makes a whole repository unloadable\"; 7131fe89 \"Substrate entries: spec contract and schemas disagree\". All the group's own, none listed in the SemanticOps log. Build trigger: logs hold well over 10 ratified decisions, so srs-web#560 is still ready to unpark; your call.\n\n7. What we learned: the pause is working as designed: with no acknowledgement the builder opened nothing and the PR set sat still, which also shows the rejected PRs need a builder to move. Measurement 7cc47de3 (I1): its window opened at 11:30 today, so it covers no PRs (0 of 0 grounded to a problem); the measure window starts at the close, so a close-time read is always empty (second report in a row). Useful, noisy or misleading is yours to give in a session. I2 to I4: pending.\n",
+    "rationale": "No new escalations; two open ones re-listed. Group is paused for unacknowledged reports, so nothing merged and nothing was ratified.",
+    "figures": "merged 0 of 10; open 4 (group-state); paused",
+    "landed_as": "PENDING"
+  },
+  "createdAt": "2026-11-01T11:35:34.625815781+00:00",
+  "updatedAt": "2026-11-01T11:35:34.625827060+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
