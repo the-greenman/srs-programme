@@ -1,0 +1,23 @@
+{
+  "instanceId": "bd8b7684-2514-4a3f-b0d0-2cd38ee84397",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle 2026-11-01",
+    "run_date": "2026-11-01",
+    "chose": "WG Agent-supported editor: cycle 2026-10-31 11:30 to 2026-11-01 11:30 UTC\nPaused: 2 reports unacknowledged. Receive in a session or react 👍 to resume.\n\n1. Decisions for you: none new. Inform, carried over: srs-web#567 (Funding 2, each agent's brief kept with the essay) still carries needs-input, unchanged since 2026-10-16; clear the label or say what is still open. Inform: the group has been paused for two reports; a 👍 on the 10-30 and 10-31 reports lifts it, and the one ready issue queue below cannot move until then.\n2. Decided within mandate: none; no decision awaited assent, so no group session was held.\n3. Done: nothing merged this cycle (the last group merge was srs-web#676 on 2026-10-30, owner-merge).\n4. Stuck or lost: no open group PRs, no red gates. Needs-input: srs-web#567. Blocked: srs-web#426, semanticops.com#14.\n5. Budget: 0 of 10 delegated merges this cycle; 0 open. Pause: paused: 2 reports unacknowledged.\n5b. Awaiting ratification: none.\n6. Next: 2 issues ready + wg:agent-editor (srs-web#525, semanticops.com#14, the latter also blocked). Queue running dry: 1 usable ready, budget 10. Needs feeding from the open group issues (for example srs-rust#1527, #1490, #1413, srs-web#587, #514). Top 3 in Builder order: srs-web#525, then P1 srs-rust#1172 and #1085 (both labelled parked). Waits on the owner: the 👍 to unpause, srs-web#567 label. Fed by the analyst: not needed.\n6b. Exercises: none open.\n7. What we learned: with no one acknowledging, the pause did what it was meant to: nothing was built, nothing piled up unread. The cost is an idle queue while the owner is away. I1 for this window: 0/1 grounded (the 1 is the window's carry-over; no new merge); the useful/noisy/misleading line is the owner's to give in a session. I2 to I4: pending.\n",
+    "rationale": "No escalation raised: nothing outside the role's boundary was stopped on. The group is paused for unacknowledged reports, so no work was delegated; the report is posted anyway so the owner can lift the pause.",
+    "figures": "Delegated merges (group-state): 0 of 10; 0 open group PRs. Merged this cycle: none. I1: dry run, not written (no merge in window). I2 to I4: pending.",
+    "landed_as": "pending"
+  },
+  "createdAt": "2026-11-01T11:39:17.780257447+00:00",
+  "updatedAt": "2026-11-01T11:39:17.780269113+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
