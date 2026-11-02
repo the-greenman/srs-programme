@@ -1,0 +1,19 @@
+{
+  "instanceId": "eef4a88e-210d-41cb-b7f8-d08bb3a1e84f",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Keep everything and one current picture",
+    "description": "Line 2 in the stage Sense, refining the Programme coordination line 'One mechanism and compatibility'. Whether every signal is kept, or one curated picture of where things stand is kept current."
+  },
+  "createdAt": "2026-11-02T13:47:19.652808+00:00",
+  "updatedAt": "2026-11-02T13:47:19.652811741+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

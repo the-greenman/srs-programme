@@ -1,0 +1,21 @@
+{
+  "instanceId": "afd98d95-9f0a-47b3-aa1e-dc3daa1870ba",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Choose a response: a remedy, ranked by purpose",
+    "purpose": "Each problem gets a remedy worth trying, and the programme's purpose ranks which remedies run first.",
+    "in_scope": "Remedies, their falsifiers and limits; objectives, periods and epics; priority derived from rank.",
+    "out_of_scope": "Turning a remedy into issues (Shape the work)."
+  },
+  "createdAt": "2026-11-02T13:39:04.767220221+00:00",
+  "updatedAt": "2026-11-02T13:39:04.767225381+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

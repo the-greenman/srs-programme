@@ -1,0 +1,18 @@
+{
+  "instanceId": "723c0128-3474-4792-ba5f-c03cb45dff32",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: weee need rich context"
+  },
+  "createdAt": "2026-11-02T13:39:51.405632669+00:00",
+  "updatedAt": "2026-11-02T13:39:51.405641013+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
