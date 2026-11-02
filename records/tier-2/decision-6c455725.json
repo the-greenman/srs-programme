@@ -1,0 +1,30 @@
+{
+  "instanceId": "6c455725-31b6-47a2-8494-68a9a2b0e0b6",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A website's own package links its block types to its components; the site editor is a generic srs-web shell",
+    "decision_question": "Where does the knowledge of which component draws a website block type, and which fields stay off the site, live once the site editor moves into srs-web?",
+    "context": "The muDemocracy site editor was a separate app; type-to-component and brief-field knowledge was repeated as string matches in its model, the site's export script and its renderer, and two brief lists disagreed. Holon muDemocracy.org#418 moves the editor into srs-web, which cannot see a site's code. srs-web ADR-029 (srs-web#680, PR #683) records the implementation.",
+    "friction": "Every new block kind or page needed edits in several places; the editor could not offer block types or tell a brief from copy without a code change.",
+    "alternatives_considered": "The site's package (chosen): one View per site component, the site Composition (tagged `site`) dispatching each type to its View; field views give order and visibility (displayHint brief, setting, key); a Theme gives the look.\nA site registry in srs-web code: a second copy of what the package states, and a srs-web change per site.\nKeep the prototype as a separate app: drifts at each pin, no storage, relay or hosting.\nDo nothing: three string-matched copies remain.",
+    "key_requirements": "The generic core (srs-web src/lib/site/*.ts) names no site; a site's own logic lives in src/lib/site/<site>/ and is never imported by the core (layers test). The site export is a temporary TS projection until srs-rust#1553 moves it into the core.",
+    "decision_statement": "A website's own SRS package is the one link between its block types and its components: a View per component, a Composition tagged `site` whose typeDispatch maps type to View, and a Theme. The srs-web site shell and the site's build both read it. Site-specific behaviour is a separate layer the generic core never imports.",
+    "rationale": "The package is the only artefact both the generic editor and the site can read; the spec already had every piece (View, typeDispatch, displayHint, remote Theme stylesheet) and the WASM bindings already read them, so no core change was needed. Owner direction: vignettes 4adc5965 and 7e87af63.",
+    "revisit_when": "A second site adopts the editor (extract a shared site package); srs-rust#1553 lands (the export moves into the core); or a site needs a field role the View cannot express.",
+    "next_steps": "srs-web#680 PR B (the shell), muDemocracy.org#415 (the site build calls exportSite), srs-rust#1553.",
+    "owner": "Owner role (SemanticOps)",
+    "status": "proposed",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-11-02T14:50:07.913017186+00:00",
+  "updatedAt": "2026-11-02T14:50:07.913020742+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
