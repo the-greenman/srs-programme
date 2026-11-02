@@ -12,7 +12,7 @@
     {
       "name": "narrative",
       "label": "Narrative",
-      "content": "Owner, 2026-11-02, on the muDemocracy.org conformance CI (muDemocracy.org#171, PR #421, asks A3 and A4): \"ok. lets look at this conformance. \n\nYes. Essays are essays. We are working through ideas. They should not break ci. \nThe core case is going to keep evolving. I need to be able to keep editing it.\"\n\nOwner answers in the same session (multiple choice, put by Claude Code): placement and completeness checks → \"Warn everywhere (Recommended)\"; content/ drift and verified-quote-without-text → \"Both warn (Recommended)\"."
+      "content": "Owner, 2026-11-02, on the muDemocracy.org conformance CI (muDemocracy.org#171, PR #421, asks A3 and A4): \"ok. lets look at this conformance. \n\nYes. Essays are essays. We are working through ideas. They should not break ci. \nThe core case is going to keep evolving. I need to be able to keep editing it.\"\n\nOwner answers in the same session (multiple choice, put by Claude Code): placement and completeness checks → \"Warn everywhere (Recommended)\"; content/ drift and verified-quote-without-text → \"Both warn (Recommended)\".\n\nOwner, same session, on ask A4 (whether to publish five new history claims in The core case): \"why is A4 blocking? \nI am going to always be updating my claims?\""
     },
     {
       "name": "source",
