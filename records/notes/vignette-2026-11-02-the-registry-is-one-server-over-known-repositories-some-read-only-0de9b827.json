@@ -1,0 +1,28 @@
+{
+  "instanceId": "0de9b827-9463-4e37-b56e-cf19748c98ac",
+  "title": "Vignette 2026-11-02: the registry is one server over known repositories, some read-only",
+  "tags": [
+    "vignette",
+    "topic:federation",
+    "topic:registry",
+    "topic:mcp",
+    "topic:access-control"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-11-02, ruling on writes to non-default repositories (RFC-049): \"We are going to need a read-only flag on repos in the registry. \nThe point of the registry is to establish a single server that can handle a set of known repos. \nSome of these repos may be copies of external reference repos that we don't want to be changing. \n\nLater, we may look at some kind of IAM and Access control, but that is far away at the moment.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-02; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
