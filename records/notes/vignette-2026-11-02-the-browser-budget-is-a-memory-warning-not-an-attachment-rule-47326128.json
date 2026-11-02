@@ -1,0 +1,25 @@
+{
+  "instanceId": "47326128-04cf-4c1a-915b-f0c2702b6def",
+  "title": "Vignette 2026-11-02: the browser budget is a memory warning, not an attachment rule",
+  "tags": [
+    "topic:attachment-policy",
+    "topic:musrs"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-11-02, choosing on srs-web#234 what the web editor does when a repository has no attachment policy. Options put: (a) no limit, as the core; (b) keep a browser-memory budget but separate, as a whole-repository warning (srs-rust#1328 repo_size), not an attachment refusal; (c) do nothing, keep the 5 MB refusal. Claude Code's lean was (b): the 5 MB is about browser memory, not the repository's attachment rules. The owner: \"b is good.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-02; recorded verbatim. Follows vignette 5a11a114 (muSrs is a pretty important test case)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
