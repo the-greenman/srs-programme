@@ -1,0 +1,26 @@
+{
+  "instanceId": "dcc99158-6ba9-45d3-b91d-980fd65d7ee7",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-141",
+    "title": "Work committed straight to main is checked only after it lands, so main stays red",
+    "statement": "Everyone who builds on muDemocracy.org needs a green main to judge their change against. Corpus work committed straight to main (\"committed as found\") and routine commits are checked only after they land; when they fail the coherence gate, main stays red, and every later change inherits the failure, so no gate can say whether that change is good.",
+    "kind": "consequence",
+    "source_ref": [
+      "muDemocracy.org CI runs 41126592816 (3d27cdd, 2026-10-30) to 41406591481 (d2e410e, 2026-11-02): all red",
+      "muDemocracy.org#171",
+      "muDemocracy.org#418 (stop S1)"
+    ]
+  },
+  "createdAt": "2026-11-02T13:46:01.272452345+00:00",
+  "updatedAt": "2026-11-02T13:46:01.272456848+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

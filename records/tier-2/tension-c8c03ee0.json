@@ -1,0 +1,19 @@
+{
+  "instanceId": "c8c03ee0-b507-434f-b8cc-929869c674a4",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Compatibility and a clean cut",
+    "description": "Line 2 in the stage Build, refining the Programme coordination line 'One mechanism and compatibility'. Whether old and new are carried side by side, or the old is cut."
+  },
+  "createdAt": "2026-11-02T13:46:20.702448384+00:00",
+  "updatedAt": "2026-11-02T13:46:20.702450995+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

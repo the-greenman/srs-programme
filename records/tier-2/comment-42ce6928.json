@@ -1,0 +1,18 @@
+{
+  "instanceId": "42ce6928-1548-45dd-a3ad-06e2269262e9",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: The remedy guies us"
+  },
+  "createdAt": "2026-11-02T13:39:05.036029645+00:00",
+  "updatedAt": "2026-11-02T13:39:05.036036230+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

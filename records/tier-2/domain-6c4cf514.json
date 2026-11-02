@@ -1,0 +1,21 @@
+{
+  "instanceId": "6c4cf514-08d6-484f-a25c-d5ff765400fd",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Shape the work: a good issue",
+    "purpose": "A remedy becomes issues that anyone can pick up: grounded in a problem (a bug needs none), placed under its parent, small, planned and checkable.",
+    "in_scope": "The issue's shape (Answers, Part of, Remedy, Ruling, plan, acceptance), labels for kind and effort, sequences.",
+    "out_of_scope": "Who picks it up (Allocate) and how it is built (Build)."
+  },
+  "createdAt": "2026-11-02T13:39:51.149345066+00:00",
+  "updatedAt": "2026-11-02T13:39:51.149348718+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
