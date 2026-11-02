@@ -1,0 +1,18 @@
+{
+  "instanceId": "139a73dd-a943-4edd-9871-dc9b499329fe",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: Website copy needsa foundation"
+  },
+  "createdAt": "2026-11-02T13:40:50.226056013+00:00",
+  "updatedAt": "2026-11-02T13:40:50.226060538+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

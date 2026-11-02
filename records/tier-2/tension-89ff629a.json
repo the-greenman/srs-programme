@@ -1,0 +1,19 @@
+{
+  "instanceId": "89ff629a-6db6-4399-93a7-92937ffe597a",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Fix it where you are and fix it once in the core",
+    "description": "Line 3 in the stage Build, refining the Programme coordination line 'Core once and adapter convenience'. Whether a fix lands in the client or repo at hand, or once in the core."
+  },
+  "createdAt": "2026-11-02T13:47:00.023937051+00:00",
+  "updatedAt": "2026-11-02T13:47:00.023941956+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
