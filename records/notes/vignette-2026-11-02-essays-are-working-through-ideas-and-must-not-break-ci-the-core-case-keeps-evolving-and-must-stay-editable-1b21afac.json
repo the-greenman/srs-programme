@@ -1,0 +1,28 @@
+{
+  "instanceId": "1b21afac-05de-465c-ad5e-40519ba3d3bf",
+  "title": "Vignette 2026-11-02: essays are working through ideas and must not break CI; the core case keeps evolving and must stay editable",
+  "tags": [
+    "vignette",
+    "topic:ci",
+    "topic:essays",
+    "topic:core-case",
+    "topic:musrs-coherence"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-11-02, on the muDemocracy.org conformance CI (muDemocracy.org#171, PR #421, asks A3 and A4): \"ok. lets look at this conformance. \n\nYes. Essays are essays. We are working through ideas. They should not break ci. \nThe core case is going to keep evolving. I need to be able to keep editing it.\"\n\nOwner answers in the same session (multiple choice, put by Claude Code): placement and completeness checks → \"Warn everywhere (Recommended)\"; content/ drift and verified-quote-without-text → \"Both warn (Recommended)\".\n\nOwner, same session, on ask A4 (whether to publish five new history claims in The core case): \"why is A4 blocking? \nI am going to always be updating my claims?\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-02; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

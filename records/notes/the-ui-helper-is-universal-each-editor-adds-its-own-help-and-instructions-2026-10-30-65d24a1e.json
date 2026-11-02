@@ -1,0 +1,28 @@
+{
+  "instanceId": "65d24a1e-7385-45fc-b8e0-d2dd077a7ba8",
+  "title": "The UI helper is universal; each editor adds its own help and instructions (2026-10-30)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:editor-help",
+    "topic:ai-manual"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "one note on the instructions on connect. \n\nSome of the instructions particular to the agent editor? \nThe ui helper should probably be universal though. \nDifferent editors will need to be able to add their own help and instructions"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30, while srs-web#674 (agent start page) was being built; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

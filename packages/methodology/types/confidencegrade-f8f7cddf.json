@@ -9,21 +9,25 @@
   "description": "One level an axis can reach, and the signals that earn it. Points at its axis with a `grades` relation.",
   "fields": [
     {
+      "displayLabel": "Policy title",
       "fieldId": "b782003d-7f38-4a75-b122-3ff453511ba1",
       "order": 0,
       "required": true
     },
     {
+      "displayLabel": "Confidence level",
       "fieldId": "fb3d43a0-445f-4594-82fc-52ec99759fb0",
       "order": 1,
       "required": true
     },
     {
+      "displayLabel": "Policy explanation",
       "fieldId": "5f0ac112-4d2e-42ea-9d4e-5ab74783cb72",
       "order": 2,
       "required": true
     },
     {
+      "displayLabel": "Signals",
       "fieldId": "79ce55ff-87c5-414c-9dce-901fd14b7e41",
       "order": 3,
       "required": false

@@ -1,0 +1,25 @@
+{
+  "instanceId": "46d698f3-223c-4f41-96f0-6059fcc9b46d",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-139",
+    "title": "Slow test gates get skipped, and quality falls",
+    "statement": "The people and agents who build SRS tools rely on test gates to keep quality. When a gate takes too long, it is skipped, run partially or waited out, and broken work gets through or stalls: srs-web's end-to-end job takes about 8 minutes on a green run, and on 2026-10-30 one broken page made 30 tests each wait out a 60-second timeout twice, so the job was cancelled at 15 minutes with no report. Gate speed is part of quality, not separate from it.",
+    "kind": "consequence",
+    "source_ref": [
+      "Owner, 2026-10-30: vignette f3c6ae47 (srs-programme, conversation 2026-10-30)",
+      "srs-web#675 (measurements)",
+      "srs-web PR #673, CI run 41069871537 (cancelled)"
+    ]
+  },
+  "createdAt": "2026-10-30T14:49:56.283185188+00:00",
+  "updatedAt": "2026-10-30T14:49:56.283189150+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

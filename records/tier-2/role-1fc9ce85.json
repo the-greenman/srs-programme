@@ -8,7 +8,7 @@
     "title": "WG Agent-supported editor",
     "role_holder": "Builder (agent:editor-builder), Reviewer (agent:editor-reviewer), Steward (agent:editor-steward); the owner is the parent role",
     "authority": "Decides itself and auto-merges any change that executes a recorded ruling, RFC or invariant and names it; in mode clear or complicated; within srs-web, srs-rust, srs, semanticops.com; with green gates; at most 10 delegated merges per cycle, and only while the group is not paused (2 consecutive unacknowledged cycle reports). Epic semanticops.com#29 (the epic record and this role are not related by any relation type: semanticops.com#29 is named here).",
-    "boundary": "Escalates, one proposed decision each: any change that would make or change a ruling; Door 2 or Door 3; complex mode; a breaking CLI or payload change; a pin bump in another repo; anything that touches gates or merge rules; going over budget. Outside: new rulings and RFCs.",
+    "boundary": "Escalates, one proposed decision each: any change that would make or change a ruling; Door 2 or Door 3; complex mode; a breaking CLI or payload change; a pin bump in another repo; anything that touches gates or merge rules; going over budget. Outside: new rulings and accepting RFCs. Drafting an RFC to a reviewed Draft is the RFC drafter's work in the group (778f154a).",
     "source_of_authority": "Owner (delegation, once ratified by the owner's charter decision)",
     "revisit_when": "The epic semanticops.com#29 closes, or the owner changes the mandate.",
     "status": "proposed",
@@ -32,7 +32,7 @@
   },
   "lifecycleState": "draft",
   "createdAt": "2026-10-11T08:30:28.559374397+00:00",
-  "updatedAt": "2026-10-11T08:30:28.559376063+00:00",
+  "updatedAt": "2026-11-02T12:21:53.307495394+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:orchestrator",

@@ -1,0 +1,19 @@
+{
+  "instanceId": "4fbce382-0dc3-4603-a85e-56aac00e885e",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Local ways of deciding and one shared classification",
+    "description": "Line 3 in the stage Decide, refining the Programme coordination line 'Core once and adapter convenience'. Whether each repository classifies and records its decisions its own way, or one compass classifies them all."
+  },
+  "createdAt": "2026-11-02T13:48:20.056434657+00:00",
+  "updatedAt": "2026-11-02T13:48:20.056438524+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

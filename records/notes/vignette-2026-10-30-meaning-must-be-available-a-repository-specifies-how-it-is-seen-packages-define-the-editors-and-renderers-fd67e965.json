@@ -1,0 +1,26 @@
+{
+  "instanceId": "fd67e965-4ab9-44bf-ba80-2ca3e85c9eb4",
+  "title": "Vignette 2026-10-30: meaning must be available; a repository specifies how it is seen; packages define the editors and renderers",
+  "tags": [
+    "vignette",
+    "topic:human-readable-repos",
+    "topic:public-use-case"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"we want to make sure that meaning is available. A human using srs must be able to have a view that makes sense. We may find that there is no real way to make a generic repo readable for everyone, but we should be able to get a sense of what;s inside it. A repo should probably be able to specify a default way to be seen. Packages will define what editors/ renderers are available. This is part of our drive to make an initial public use case that people can understand and see the value of\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

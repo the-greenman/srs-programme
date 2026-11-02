@@ -1,0 +1,23 @@
+{
+  "instanceId": "5bf4c8c8-3372-4db4-bff6-c2e0979237df",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "RelationTypeDefinition's existing category already decides how far a selection walks; no new field is needed",
+    "summary": "Readers round 2 (srs-lab#33), 2026-10-30. Every installed relation type in all five corpora carries a category. Walking the five structural categories (composition, refinement, dependency, sequence, derivation) to their closure and stopping the rest (evidence, governance, association, provenance, lifecycle) at one hop reproduces the hop measurement with no new field: spec depends-on averages 2.0 records at one hop and 7.7 at closure, up to 5 hops deep; precedes chains run 12 to 19 hops. Walks meet real cycles: six spec records sit on depends-on cycles (Type and Field assignment; Relation and Relation type definition), two in muSrs.",
+    "evidence": [
+      "srs-lab readers/walls-2026-10-30.txt (walk lines per corpus)",
+      "srs-lab readers/walls.js select(); Relations mode's Select by relation"
+    ],
+    "body": "Refines the hop finding: the transitivity it proposed adding to RelationTypeDefinition is already implied by category. A core or spec walk could take its reach from category, with a visited set, and report a cycle to the reader rather than hide it. Whether category should carry that meaning normatively is a spec question (srs#726)."
+  },
+  "createdAt": "2026-10-30T13:13:08.432776838+00:00",
+  "updatedAt": "2026-10-30T13:13:08.432780950+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

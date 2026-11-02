@@ -9,21 +9,25 @@
   "description": "One question the Confidence and care policy asks about a work item, such as: is the theory it rests on grounded? Each axis is graded on the confidence_level scale by its grades.",
   "fields": [
     {
+      "displayLabel": "Policy title",
       "fieldId": "b782003d-7f38-4a75-b122-3ff453511ba1",
       "order": 0,
       "required": true
     },
     {
+      "displayLabel": "Policy key",
       "fieldId": "b53cd964-42d5-41ab-999c-d2538783eb21",
       "order": 1,
       "required": true
     },
     {
+      "displayLabel": "Policy explanation",
       "fieldId": "5f0ac112-4d2e-42ea-9d4e-5ab74783cb72",
       "order": 2,
       "required": true
     },
     {
+      "displayLabel": "Policy order",
       "fieldId": "2c5b25b7-91bc-4e07-ab0a-24b425a264c4",
       "order": 3,
       "required": true

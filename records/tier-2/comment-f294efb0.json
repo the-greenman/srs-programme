@@ -1,0 +1,18 @@
+{
+  "instanceId": "f294efb0-a123-4874-8538-fed416615cd6",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: A            websieowner is a specific persona"
+  },
+  "createdAt": "2026-11-02T13:49:28.644480651+00:00",
+  "updatedAt": "2026-11-02T13:49:28.644485180+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,19 @@
+{
+  "instanceId": "dc9e7a0a-7fc3-4093-bb80-546349f3b8c9",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Each agent's memory and shared memory",
+    "description": "Line 3 in the stage Learn and remember, refining the Programme coordination line 'Core once and adapter convenience'. Whether what is learnt is kept by each agent or repo, or in one shared memory."
+  },
+  "createdAt": "2026-11-02T13:46:40.287199394+00:00",
+  "updatedAt": "2026-11-02T13:46:40.287202278+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

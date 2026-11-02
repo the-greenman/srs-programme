@@ -1,0 +1,28 @@
+{
+  "instanceId": "acaf85e0-088f-45e7-a2fc-565122f78148",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "An issue closed after its first part makes its dependents look unblocked",
+    "summary": "srs-rust#1264 closed when part 1 landed (ADR-055: an optional code on ValidationDiagnostic). srs-rust#1491 and #1339 both say 'Blocked by #1264' and reuse a shared Diagnostic type that part 1 never defined. The blocked-by edge read as cleared, so both were ready and were claimed five times between 10-28 and 10-30; every run tripped the guard and stopped.",
+    "evidence": [
+      "srs-rust#1491 comments 10-28, 10-29 (x2)",
+      "srs-rust#1339 comments 10-29, 10-30",
+      "srs-rust ADR-055 Negative / trade-offs"
+    ],
+    "body": "The inverse of 'A closed blocker leaves its dependent labelled blocked'. A remedy would name the deliverable a dependent needs (the type, not the issue) or keep the parent open until its parts land. Settled 2026-10-30: #1491 defines the type; #1339 is blocked by #1491."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-10-30T17:52:28.385590717+00:00",
+  "updatedAt": "2026-10-30T17:52:28.385594711+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,30 @@
+{
+  "instanceId": "f626ff6b-db3f-4884-bf10-1f992cc1fba0",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Working groups cannot advance an RFC: the charter puts RFCs outside, no routine runs the RFC process, and the flow has no lane for ruling work",
+    "summary": "WG Third-party ready's charter (role 834b61fd) ends its boundary with 'Outside: new rulings, RFCs, client UX', and the builder brief turns anything Door 2 or 3 into one proposed decision, never a PR. Drafting an RFC is not making a ruling (acceptance is), but the briefs treat the two as one. None of the 19 cloud routines runs the /rfc process, and clerk flow offers only wg:* or lane:unattended, so ruling work has no lane at all. On 2026-10-30, 9 issues labelled requires-spec-rfc were open: 7 also labelled ready and wg:third-party-ready (builders re-triage them every run and stop), the rest parked. 6 RFCs sit at Draft, among them RFC-049, the gate for P0 srs-rust#683 now that decision 31e9fd27 is ratified.",
+    "evidence": [
+      "clerk routines/wg-builder.md step 5 and Escalation; role 834b61fd boundary",
+      "gh search label:requires-spec-rfc, 2026-10-30: srs#931, #928, #902, srs-rust#1240, srs#367, #366, #312, srs-rust#691, srs#218",
+      "srs rfcs/: 6 at Status Draft (002, 010, 021, 047, 048, 049, 050)",
+      "clerk flow --chain srs#236, 2026-10-30: ✗ lane after the case question was moved out of the group"
+    ],
+    "body": "The stop is structural: every path out of a group for ruling work ends at the owner as a proposed decision, and the drafting step that would make the owner's judgement easy (an RFC with options, consequences and a Charter Check) has no seat. The only RFCs that move are those the owner drives in a local session. A remedy would give drafting a seat (a group may draft and open a Draft RFC PR; acceptance stays the owner's) and a lane label for ruling work, and keep requires-spec-rfc issues out of the build queue."
+  },
+  "tags": [
+    "flow-stop",
+    "decision-stop"
+  ],
+  "createdAt": "2026-10-30T17:52:28.118621532+00:00",
+  "updatedAt": "2026-10-30T17:52:28.118623106+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

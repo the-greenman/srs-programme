@@ -1,0 +1,32 @@
+{
+  "instanceId": "aea4351b-065c-4928-85bf-03342af7aa37",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Site author in Website copy",
+    "summary": "The owner keeping a public website's statements clear, backed and in line with the core marketing and argument materials. The site often restates or extracts from those materials, so its first duty is not to say something they do not. Agents can draft copy in this view, but it is discouraged; the writer's words and the core materials come first.",
+    "goals": [
+      "Every statement on the site is backed by evidence or our own content",
+      "The site never claims what the core materials do not",
+      "Site text drawn from the core materials stays in step with them",
+      "Pages and the menu are managed as records, with history and backup"
+    ],
+    "jobs": [
+      "Build and arrange a page and the menu from the site's components",
+      "Back each sentence with a claim, a source or a core text, and see where it is weak",
+      "Show a section of a core text on the page by reference rather than copying it",
+      "Spot where a page says something the core materials do not",
+      "Review an agent's draft, when one exists, before it reaches the page"
+    ],
+    "needs": "Sentence-level backing on the page, links from site text to the core materials it restates, a check for claims the core does not make, and the menu and pages edited where the words live."
+  },
+  "createdAt": "2026-11-02T12:46:25.380744434+00:00",
+  "updatedAt": "2026-11-02T12:46:25.380748955+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

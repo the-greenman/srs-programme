@@ -1,0 +1,18 @@
+{
+  "instanceId": "e6351992-2db4-4c7d-84f7-e3cdf0788cc8",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: We need to manage navigationinsde the repo."
+  },
+  "createdAt": "2026-11-02T13:50:25.766713198+00:00",
+  "updatedAt": "2026-11-02T13:50:25.766719178+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

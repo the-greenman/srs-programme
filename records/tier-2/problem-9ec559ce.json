@@ -1,0 +1,24 @@
+{
+  "instanceId": "9ec559ce-b684-40c9-8faf-228bf534ec3d",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-142",
+    "title": "A website can claim what the core materials do not",
+    "statement": "I need the website to say only what our core marketing and argument materials say. Site text is often extracted or rewritten from those materials, and nothing checks that a page does not make a different or stronger claim than its source, so the site can drift from the argument it is meant to present.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-11-02: vignette dce397d5 (srs-programme, conversation 09ff5a84)"
+    ]
+  },
+  "createdAt": "2026-11-02T13:43:22.830125001+00:00",
+  "updatedAt": "2026-11-02T13:43:22.830129106+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

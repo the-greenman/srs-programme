@@ -1,0 +1,27 @@
+{
+  "instanceId": "037ecab7-a9e0-45df-8245-e584ea4d2dab",
+  "title": "Vignette 2026-10-30: the first steps of a generic registry system",
+  "tags": [
+    "vignette",
+    "topic:federation",
+    "topic:registry",
+    "topic:packages"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30, choosing option C for RFC-049 (one registry core now, with a repository entry kind; packages later as a second kind): \"This is better. We take C. And we build the first steps of a generic registry system.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

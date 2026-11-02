@@ -1,0 +1,26 @@
+{
+  "instanceId": "51e19b50-789f-401a-a3be-b5333eae1589",
+  "title": "Vignette 2026-10-30: a decision records its rationale and how we would know it was wrong",
+  "tags": [
+    "vignette",
+    "topic:decision-practice",
+    "topic:registry"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30, after choosing option B for the RFC-049 registry: \"ok. looks like B is still the way. \n\nLets record a clear rationale. \n\nHow would we tell whether we made the wrong decision or need to change?\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

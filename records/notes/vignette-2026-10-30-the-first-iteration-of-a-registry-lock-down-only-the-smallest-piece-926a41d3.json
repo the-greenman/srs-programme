@@ -1,0 +1,28 @@
+{
+  "instanceId": "926a41d3-a775-4965-8789-044d61116a9c",
+  "title": "Vignette 2026-10-30: the first iteration of a registry, lock down only the smallest piece",
+  "tags": [
+    "vignette",
+    "topic:federation",
+    "topic:addressing",
+    "topic:registry",
+    "topic:decision-practice"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30, on the RFC-049 Open Questions: \"lets properly compare these options. We should make a decision only when we know what the options really are and the pros and cons. If possible our decision should state why we chose a path.\"\n\n\"Again, present me with options and a rationale. What are the trade-offs for each path?\"\n\n\"I need to decide these properly. Lets work through what we are building.   We are creating the first iteration of a registry, and want to only lock down the smallest piece now, and then gradually refine as we use the system and learn.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

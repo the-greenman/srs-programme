@@ -1,0 +1,20 @@
+{
+  "instanceId": "0db2e5f0-3122-4e56-a691-4c4598f9a9a5",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "How does a repository say how it should be seen, and what do packages offer?",
+    "thinking_reached": "No option chosen. Raised 2026-10-30 when the owner chose to open repositories on the Read view by default as an experiment (srs-web#673), and added: a human must have a view that makes sense; a generic repository may never be readable for everyone, but a person should get a sense of what is inside; a repository should probably be able to specify a default way to be seen; packages will define what editors and renderers are available. Today srs-web decides alone: Read when the repository has an identity record and a navigation section, else the explorer. Packages already offer editors through srs-web's registry (by entry type UUID), but nothing in the data says which view a repository prefers.",
+    "tensions": "Options, none chosen:\n- A. Nothing in the data: clients decide from structure (today's rule), and each viewer can override it. Cheapest; a repository author cannot steer it.\n- B. The repository names its default view: a manifest or root-container entry naming a Composition, an editor id or a built-in view. Needs a spec change and a vocabulary of view names that every client can resolve.\n- C. The package decides: a package declares the editors and renderers it provides and which is the default for a repository whose entry type it owns; the repository chooses only by which packages it installs.\n- D. Both: packages offer views, and the repository picks one of the offered ones as its default (B constrained by C).",
+    "unresolved_questions": "Whether the default-Read experiment makes these repositories easier to read for a newcomer (to be seen in use). Whether a repository's default view is data (spec) or a client setting. How a view a package defines is named so that srs-web, srs-vscode and an agent all resolve it the same way (capability layering: the core resolves, clients present). How it relates to the front door (RFC-013 OQ-1) and to Lenses' reserved pkg: lens ids. What a repository with no structure should show so a person still gets a sense of what is inside it."
+  },
+  "createdAt": "2026-10-30T15:05:32.525234879+00:00",
+  "updatedAt": "2026-10-30T15:05:32.525241842+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,26 @@
+{
+  "instanceId": "4adc5965-dfda-4fdc-b87d-4fa72201ddf3",
+  "title": "Vignette 2026-11-02: every page and the menu through the editor, on srs-web",
+  "tags": [
+    "vignette",
+    "topic:site-editor",
+    "topic:srs-web"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-11-02: \"lets look at the site editor. I need all the pages on the site to start to be managed via the editor. I also need to be able to manage the menu.\\n\\nThe menu needs to be able to have dropdowns in some places as we get more content.\\n\\nWe always work through the style guide.\\n\\nI need code to be DRY. We are also moving to making this editor sit fully on top of srs-web - so design accordinly.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-02; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

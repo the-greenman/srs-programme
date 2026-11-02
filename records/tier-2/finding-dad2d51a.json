@@ -1,0 +1,23 @@
+{
+  "instanceId": "dad2d51a-b9fb-406e-8f2f-652e427cf6de",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A wall reads as groups only where structure exists; where items share only words, grouping is a dream's job (five corpora measured)",
+    "summary": "Readers round 2 (srs-lab#33), 2026-10-30. Each of 54 walls (sections of more than 15 items) in five corpora was grouped four ways: by kind, by a record the items link to, by tag, by a shared word. The default is the first of these that places 60% of the items with no group above 60%. Structure groups well where it exists: srs-context's 50 Findings by the component each applies to (the group label is a record a reader can open); the spec's Parts by kind; muSrs Evidence by tag (for, against, primary-text). All 10 LiveWyer walls and 9 of muSrs's 16 have nothing but words in common, and a word grouping is noise ('cannot', 'whether') even though it places 95% of items.",
+    "evidence": [
+      "srs-lab readers/walls-2026-10-30.txt (the table, public corpora)",
+      "srs-lab readers/walls.js propose/best; the Reader page's Group by control"
+    ],
+    "body": "Two consequences. The share of items placed does not measure a grouping's quality: a word grouping scores highest and reads worst, so a cluster's quality needs a reader's test, not a coverage number. And the walls with no structure behind them are exactly where AI clustering (a dream that proposes and names groups) adds what neither the data nor a word count can; where structure exists, a client can group from it with no AI and no new data."
+  },
+  "createdAt": "2026-10-30T13:13:08.316363804+00:00",
+  "updatedAt": "2026-10-30T13:13:08.316370346+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

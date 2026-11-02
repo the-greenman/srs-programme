@@ -1,0 +1,28 @@
+{
+  "instanceId": "944f805e-f2ee-46eb-a154-90fbc4479664",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A decision settled on principle in an issue comment does not reach the builder, so the same issue stops again",
+    "summary": "The builder reads an issue's body (its Ruling line, guard and plan) and its labels, not the comment thread. On 2026-10-27 srs#236 was decided on principle in a comment, but its body still said 'Decision required', it kept needs-input and its parent was outside the roadmap; builders stopped on it on 10-29, 10-30 and 10-30 again, and one raised a duplicate proposed decision (21b6b4b7) for a question already settled. The same day's sweep (finding e832c6f4) named srs-rust#1198, #683, #1339, #1132 and #1380 as not questions, yet all five kept needs-input for three more days until their bodies and labels were changed on 2026-10-30.",
+    "evidence": [
+      "srs#236 comments 2026-10-27 to 2026-10-30",
+      "decision 21b6b4b7 (draft) and finding e832c6f4",
+      "srs-rust#1198, #1339, #1132, #1380 comments 2026-10-30"
+    ],
+    "body": "Settling is not done until the record the next agent reads carries it: the Ruling line, the plan and the labels. A comment is testimony that no routine consults. A remedy would make 'settled' mean an edit to the body and labels, checked by clerk flow (a hold whose question has a settling comment)."
+  },
+  "tags": [
+    "decision-stop"
+  ],
+  "createdAt": "2026-10-30T17:52:28.251699413+00:00",
+  "updatedAt": "2026-10-30T17:52:28.251702864+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,27 @@
+{
+  "instanceId": "c6ea1e03-f55f-453a-931a-5edb72375e7f",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A dry queue looks like a stopped group: builders exit quietly, so the owner sees no work and no reason",
+    "summary": "On 2026-10-30 the owner reported that all automated group work had stopped. Every group trigger was enabled and firing on schedule; pause checks were ok with budget room (10 and 6). Each builder run triaged for about two minutes and exited with nothing built, because no ready issue passed its checks: needs-input, a missing epic parent, RFC-only issues, a stale branch, a guard on a missing type. The brief says 'none means exit quietly', so the reasons stayed inside run logs no one reads.",
+    "evidence": [
+      "RemoteTrigger list_runs for trig_01RC6KWkRKzVVsPQxzZWbWpF, trig_017sfYgXA1PXoZRmHDzG69Jz, trig_012AfuCV7TWkDpw7mHpCE2w5",
+      "clerk group-state, 2026-10-30"
+    ],
+    "body": "The run already knows why each candidate was skipped; it just does not say so where the owner looks. A remedy would post the skip reasons per candidate to the desk (or the group's epic) when a run builds nothing, so a dry queue reads as a list of stops with owners."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-10-30T17:52:28.626155585+00:00",
+  "updatedAt": "2026-10-30T17:52:28.626157474+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

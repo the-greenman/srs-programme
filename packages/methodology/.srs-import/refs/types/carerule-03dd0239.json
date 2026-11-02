@@ -9,26 +9,31 @@
   "description": "One ordered rule: when its clauses hold for a work item, it selects a care mode. Rules are tried in policy_order and the first match wins; the last rule has no clauses and catches everything.",
   "fields": [
     {
+      "displayLabel": "Policy title",
       "fieldId": "b782003d-7f38-4a75-b122-3ff453511ba1",
       "order": 0,
       "required": true
     },
     {
+      "displayLabel": "Policy order",
       "fieldId": "2c5b25b7-91bc-4e07-ab0a-24b425a264c4",
       "order": 1,
       "required": true
     },
     {
+      "displayLabel": "All of",
       "fieldId": "71242168-e3cf-4481-8610-16e3b0e17e55",
       "order": 2,
       "required": false
     },
     {
+      "displayLabel": "Any of",
       "fieldId": "d4acf2cd-902e-422d-8564-5f72f4054d54",
       "order": 3,
       "required": false
     },
     {
+      "displayLabel": "Policy explanation",
       "fieldId": "5f0ac112-4d2e-42ea-9d4e-5ab74783cb72",
       "order": 4,
       "required": true

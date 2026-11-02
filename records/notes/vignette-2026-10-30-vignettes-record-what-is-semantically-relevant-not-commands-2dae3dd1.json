@@ -1,0 +1,25 @@
+{
+  "instanceId": "2dae3dd1-431f-4c94-a36b-88cc768964b5",
+  "title": "Vignette 2026-10-30: vignettes record what is semantically relevant, not commands",
+  "tags": [
+    "vignette",
+    "topic:narrative-practice"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-10-30: \"Lets make sure we refine those vignette rules. We record vignettes that are semantically relevant. Not just commands.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-30; recorded verbatim. Said after an agent recorded a bare instruction (\"lets build srs-read view\") as a vignette; that vignette was dropped. The handbook chapter Narrative explorations was refined to match (clerk#249)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

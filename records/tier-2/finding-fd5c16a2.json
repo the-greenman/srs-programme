@@ -1,0 +1,27 @@
+{
+  "instanceId": "fd5c16a2-3258-4ecc-94fd-a01f056cdf69",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "An issue whose GitHub parent is an epic outside the roadmap fails the epic check, though its body names the right epic",
+    "summary": "srs#236 (P0) was a sub-issue of muDemocracy.org#133 (Epic 14), which reaches no roadmap epic, so clerk flow showed '✗ epic' and builders skipped it on 10-29 and 10-30. A GitHub issue takes one parent, so it could not also sit under semanticops.com#31, the epic that implements its remedy (34e4af7c). Moved to #31 on 2026-10-30.",
+    "evidence": [
+      "clerk flow --chain srs#236 before and after, 2026-10-30",
+      "GitHub sub-issues API: 'Sub issue may only have one parent'"
+    ],
+    "body": "Epics from the older programme (Epic 14 and siblings) still hold children that the new flow cannot see. A remedy would make each old epic a child of the roadmap epic that answers its problem, or move its children."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-10-30T17:52:28.749119242+00:00",
+  "updatedAt": "2026-10-30T17:52:28.749124137+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
