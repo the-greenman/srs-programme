@@ -56,7 +56,7 @@
   "id": "a71f013f-0207-439f-8e52-2982baa68e86",
   "namespace": "com.semanticops.programme",
   "name": "methodology",
-  "version": "0.2.0",
+  "version": "0.4.0",
   "lifecycles": [
     "lifecycles/workitem-e71e57d2.json"
   ],

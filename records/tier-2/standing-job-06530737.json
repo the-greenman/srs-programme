@@ -1,0 +1,25 @@
+{
+  "instanceId": "06530737-6c83-41d4-a037-f14650354302",
+  "typeId": "58f0ee7b-8063-4fc7-9b39-af918962c91f",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "standing-job",
+  "fieldValues": {
+    "title": "Draft the RFC requests",
+    "description": "Take the first RFC request from clerk queue --rfcs, only when no Draft of yours waits for the owner: claim as the RFC drafter, check whether a ruling already decides it, run the srs RFC procedure Stages 0 to 4 without pausing, open the Draft PR at owner merge, run report. Never accepts, folds or merges (778f154a).",
+    "done_when": "Each RFC request taken has a reviewed Draft RFC PR waiting for the owner, or a comment naming the ruling that already decides it.",
+    "trigger": "every 6 hours at :25 (RFC drafter, every 6 hours)",
+    "size": "One RFC request per run; one Draft waiting at a time",
+    "routine_id": "trig_01JBB77YkRPUbbydcQJvfrts",
+    "brief_path": "routines/rfc-drafter.md"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-11-02T12:22:15.955747444+00:00",
+  "updatedAt": "2026-11-02T12:22:15.955751599+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
