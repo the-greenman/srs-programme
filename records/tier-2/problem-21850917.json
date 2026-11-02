@@ -1,0 +1,24 @@
+{
+  "instanceId": "21850917-999d-4f2a-ad14-d6871e2dc08e",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-140",
+    "title": "A website's pages and menu are written in code, not where its words are",
+    "statement": "I need to change what the site says and how it is navigated from the editor where I write it. Today some muDemocracy pages and the whole menu are hand-written in Astro files, the nav sections are listed in three places, and the link between a block type and the component that draws it is a string match in code, so a new page, a menu entry or a dropdown needs a developer and a deploy.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-11-02: vignettes 4adc5965 and 7e87af63 (srs-programme, conversation 2026-11-02)",
+      "muDemocracy.org commit 5fcde90 (adding one nav item touched five files)"
+    ]
+  },
+  "createdAt": "2026-11-02T11:45:30.204787975+00:00",
+  "updatedAt": "2026-11-02T11:45:30.204791176+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,27 @@
+{
+  "instanceId": "42bb1b17-9c95-472b-a68b-2e212e16b474",
+  "title": "Conversation 2026-11-02: the site editor on srs-web, every page and the menu",
+  "tags": [
+    "conversation",
+    "topic:site-editor",
+    "topic:srs-web",
+    "topic:packages"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner asked to look at the muDemocracy site editor: every page and the menu (with dropdowns) managed through it, styleguide first, DRY code, and the editor sitting fully on srs-web. Claude Code explored the prototype and srs-web's editor registry and proposed a plan; the owner asked how the editor manages packages and the link between package and site components."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-02."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
