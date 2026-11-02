@@ -1,0 +1,28 @@
+{
+  "instanceId": "66a3ca98-60ae-4af1-842f-f2ff710c7338",
+  "title": "Vignette 2026-11-02: accept RFC-049 in one phase, decisions up front, driven through as a holon",
+  "tags": [
+    "vignette",
+    "topic:federation",
+    "topic:holon",
+    "topic:rfc-049",
+    "topic:decision-practice"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-11-02, accepting RFC-049: \"thels accept the RFC\"\n\n\"one phase is better. \nWe prepare this work with all decisions made up-front if possible and then drive it through as a holon\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-02; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
