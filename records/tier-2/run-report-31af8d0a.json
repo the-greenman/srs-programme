@@ -1,0 +1,23 @@
+{
+  "instanceId": "31af8d0a-9465-4c13-b897-fb637ecdf669",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Third-party ready: cycle close 2026-11-02",
+    "run_date": "2026-11-02",
+    "chose": "<!-- wg-report cycle=2026-11-02 group=wg:third-party-ready -->\nPaused: 2 reports unacknowledged. Receive in a session or react 👍 to resume.\n\nWG Third-party ready: cycle 2026-11-01 11:30 to 2026-11-02 11:30 UTC\n\n1. Decisions for you: no new escalations; the same three drafts are still unanswered (3 days).\n- 21b6b4b7 (srs#236, P0): field identity and naming rules are in the spec but nothing enforces them. Options: enforce in the schema, enforce in a validator, or stop claiming them. Action needed: decide. Urgency: medium (the P0 cannot move).\n- 864eaebf (srs#991): one heading-outline rule for every document, or opt-in per Composition (Door 3, amends an Accepted RFC). Action needed: decide. Urgency: low (draft only).\n- c7a8e0a2 (srs-rust#1497, already merged): may `note delete` refuse notes that Relations point at? Ratification only.\nAlso: needs-input on srs-rust#1491, #683, srs#928.\n\n2. Decided within mandate: nothing ratified. No group PR merged, so no decision was ready and no session was held.\n\n3. Done: no group PRs merged this cycle (the group is paused). Last group merge: srs-rust#1539 on 2026-10-30.\n\n4. Stuck or lost: 5 group-labelled PRs open, none moved this cycle.\n- srs#991: waits on you (see 1).\n- srs-rust#1540 and #1541: reviewer rejected on red CI; both behind master. They need the builder, who is paused.\n- srs-rust#1535: owner-merge, clean, no quorum line.\n- srs-rust#1487: reviewer rejected, merge state dirty, untouched since 10-28.\n- srs-programme#382 (finding): open.\n\n5. Budget: 0 of 10 delegated merges this cycle; 4 open per group-state. Pause state: paused: 2 reports unacknowledged.\n5b. Awaiting ratification: 8487fd7a (arrangement fixture allowlist, proposed, 6 days); c7a8e0a2, 864eaebf, 21b6b4b7 (drafts, above). Session to ratify: `clerk session --as owner --repo <srs-programme> --ratify all` (the-greenman/clerk; the TUI is `clerk --as owner`).\n\n6. Next: ready + wg:third-party-ready in srs-rust, srs, srs-vscode, srs-web: 14 open issues (srs-rust 11, srs 2, srs-web 1, srs-vscode 0). No local priorities set. Queue is fed (about 1 cycle of work once running), but the pause, not the queue, is the constraint. Waits on you: the three decisions in 1, the ratification in 5b, and the acknowledgement that resumes the group. Fed by the analyst: 2026-10-31 12:19 (filed 5, conformance sweep); no run since.\n6b. Exercises: dd1a47a7 \"Relation reads hide who asserted a link\"; 2ac083c0 \"One unknown key makes a whole repository unloadable\"; 7131fe89 \"Substrate entries: spec contract and schemas disagree\". All the group's own, none listed in the SemanticOps log. Build trigger: logs hold well over 10 ratified decisions, so srs-web#560 is still ready to unpark; your call.\n\n7. What we learned: third paused cycle in a row; nothing moves without the acknowledgement, and the rejected PRs need a builder to move. Measurement c19cc6d6 (I1): window opened at this close, so it reads 0 of 1 grounded to a problem (one PR merged elsewhere after 11:30, not a group delivery). A close-time read is always near empty. Useful, noisy or misleading is yours to give in a session. I2 to I4: pending.\n",
+    "rationale": "No new escalations; three open drafts re-listed. Group is paused for unacknowledged reports, so nothing merged and nothing was ratified.",
+    "figures": "merged 0 of 10; open 4 (group-state); paused",
+    "landed_as": "PENDING"
+  },
+  "createdAt": "2026-11-02T11:35:52.899910748+00:00",
+  "updatedAt": "2026-11-02T11:35:52.899917043+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
