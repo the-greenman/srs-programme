@@ -1,0 +1,29 @@
+{
+  "instanceId": "5d4f931c-98df-4623-8119-2d7fc5e00430",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The bug fixer's seat was ratified but no routine runs it, so the bug queue has no consumer",
+    "summary": "Decision 4a44396a (ratified) gives agent:bug-fixer the builder seat in every group and says its trigger runs routines/bug-fixer.md (clerk#151). No enabled trigger runs that brief: the only bug-fixer trigger is the older 'SRS Bug Fixer' (trig_01HjsX1ohcEytbrLpWtbsENg), disabled and running its own prompt, not the brief. On 2026-11-02 clerk queue --bugs listed 15 queued bugs (1 P0, 13 P1, 1 P2) and 2 held. Bugs never enter the Ready feed by design, so nothing else takes them.",
+    "evidence": [
+      "RemoteTrigger list, 2026-11-02",
+      "clerk queue --bugs, 2026-11-02",
+      "decision 4a44396a next_steps"
+    ],
+    "body": "A ratified decision whose switch-on step names a trigger is not done until the trigger runs; nothing checks that. clerk routines --check would flag a standing-job record without a trigger, but the bug fixer has no standing-job record (handbook: 'bug-fixer (no standing job yet)'), so the drift is invisible."
+  },
+  "tags": [
+    "flow-stop",
+    "decision-stop"
+  ],
+  "createdAt": "2026-11-02T11:55:31.683505921+00:00",
+  "updatedAt": "2026-11-02T11:55:31.683509709+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
