@@ -1,0 +1,27 @@
+{
+  "instanceId": "dce397d5-605a-46b1-8e44-ee3fd95db271",
+  "title": "Vignette 2026-11-02: a website editor is a sub-domain; its statements are backed and must not drift from the core materials",
+  "tags": [
+    "vignette",
+    "topic:site-editor",
+    "topic:evidence",
+    "topic:personas"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-11-02, on the persona holding SP-140: \"The persona for the website is probably not really a general editor. \nWe are in a sub-domain of the general editor here. A website has it's own reasons to manage content with backup - but agents are able to write the copy in this view - but we just want to discourage it. A website editor needs to make clear statements that are backed up by evidence and other content. Often a website text is could be extracted from other materials. We will establish core marketing or argument materials and then the website needs to make sure its not makign different claims\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-02; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
