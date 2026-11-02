@@ -1,0 +1,24 @@
+{
+  "instanceId": "47dd7c18-eb93-4c1c-aa2b-b978e3c4eb52",
+  "title": "Vignette 2026-11-02: outline continuity without a switch; a configuration option only when we need more control",
+  "tags": [],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-11-02, answering Open Question 3 of RFC-001 Revision 12 (srs#991: an unconditional continuity rule, or an opt-in property per Composition): \"yes. But lets record our rationale properly. We will review a configuration option if we find that we need more control later.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-02; recorded verbatim. Recorded as rfc-decision-11c13e69 in srs (proposed until the revision is accepted)."
+    }
+  ],
+  "createdAt": "2026-11-02T13:32:17Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
