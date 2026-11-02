@@ -1,0 +1,27 @@
+{
+  "instanceId": "7e87af63-6d64-42cd-a0bd-4e729ff7e383",
+  "title": "Vignette 2026-11-02: the package is the link between a site and its components; prototype toward the generic editor",
+  "tags": [
+    "vignette",
+    "topic:site-editor",
+    "topic:packages",
+    "topic:srs-web"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-11-02, on the plan: \"How will this editor manage the packages? It's the link between package and site components that I'm wondering about\"\\n\\nAnd, choosing the package as the place for that link: \"The package is the right place. But, different websites would have their own packages.\\n\\nWe also have special styling for the mudemocracy site. How would we manage that?\\n\\nWhere we have uncertainty, we are allowed to prototype. As long as we are moving towards the generic editor, and building with components in mind, mudemocracy site editor can add it's own logic.... to test how we would build something more general.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-02; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
