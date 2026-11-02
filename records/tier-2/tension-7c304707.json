@@ -1,0 +1,19 @@
+{
+  "instanceId": "7c304707-8a67-4583-a093-128696c594c0",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Local ranking and ranking derived from purpose",
+    "description": "Line 3 in the stage Choose a response, refining the Programme coordination line 'Core once and adapter convenience'. Whether each repository or board ranks its own work, or rank flows down from the programme's purpose."
+  },
+  "createdAt": "2026-11-02T13:48:00.196022233+00:00",
+  "updatedAt": "2026-11-02T13:48:00.196026121+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

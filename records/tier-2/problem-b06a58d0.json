@@ -1,0 +1,25 @@
+{
+  "instanceId": "b06a58d0-8b48-4e61-9ee7-ae59672b31d9",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-137",
+    "title": "Memory measurements are taken but do not steer the system",
+    "statement": "srs-context hooks log which records each session reads and writes, and the bench measures speed, retrieval, cost and freshness, but nothing turns those numbers into a change: no one watches the stats on a schedule, the usage hook records no timings, and the dream reads the counts without a rule that acts on them (on 2026-10-29, 139 of 210 records had never been read). An agent cannot learn which parts of the memory pay for themselves.",
+    "kind": "consequence",
+    "source_ref": [
+      "srs-context hooks/usage-log.py (ids and op only, no duration)",
+      "srs-context bench/results/dream-2026-10-29.json (neverRead 139)"
+    ]
+  },
+  "createdAt": "2026-11-02T13:44:22.135714979+00:00",
+  "updatedAt": "2026-11-02T13:44:22.135719996+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
