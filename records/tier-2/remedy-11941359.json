@@ -1,0 +1,24 @@
+{
+  "instanceId": "11941359-b0af-45ed-ad27-7cbe64dbd6bb",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A site's pages, menu and component bindings live in its repository and are edited in the srs-web site shell",
+    "move": "Each website's own package declares one View per site component and a Composition that dispatches each type to its View, plus a Theme for its look; its menu is a container whose outline depth gives dropdowns. A generic site shell in srs-web edits pages and the menu from that data, with a site-specific layer (muDemocracy's evidence and authorship) kept apart from the generic core. The site build maps View names to components in one table and renders every content page and the menu from the records.",
+    "does_not_fix": "Data views and tools (problems, cards, guide pages, the guide editor, styleguides) stay code; renaming the homepage-* types; a shared cross-site package before a second site adopts the editor; a live preview of the real site inside the editor.",
+    "falsifier": "Adding a page, a menu entry or a dropdown still needs a code change, or a block type's component binding is still defined outside the site's package and one component table.",
+    "source_ref": [
+      "Owner, 2026-11-02: vignettes 4adc5965 and 7e87af63 (srs-programme, conversation 09ff5a84)",
+      "muDemocracy.org#413 (epic)"
+    ]
+  },
+  "createdAt": "2026-11-02T11:48:25.789699649+00:00",
+  "updatedAt": "2026-11-02T11:48:25.789704835+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
