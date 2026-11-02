@@ -1,0 +1,25 @@
+{
+  "instanceId": "5a11a114-20bd-4cff-85bc-293efdac8c18",
+  "title": "Vignette 2026-11-02: muSrs is a pretty important test case",
+  "tags": [
+    "topic:attachment-policy",
+    "topic:musrs"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-11-02, on the srs-web References tray showing muSrs at \"5.1 MB of 5 MB\" (the interim browser budget, attach-check.ts DEFAULT_MAX_TOTAL), choosing to push srs-rust#638 (the attachment-policy WASM binding) over raising the default: \"lets push 638. muSrs is a pretty important test case.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-02; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
