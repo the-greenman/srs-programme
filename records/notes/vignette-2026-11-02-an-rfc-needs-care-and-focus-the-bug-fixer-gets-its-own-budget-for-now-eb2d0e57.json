@@ -1,0 +1,24 @@
+{
+  "instanceId": "eb2d0e57-0229-4b46-b3f8-7a555643e0d0",
+  "title": "Vignette 2026-11-02: an RFC needs care and focus; the bug fixer gets its own budget, for now",
+  "tags": [],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-11-02, on the state of the workflow: \"RFC49 is now almost complete. But an RFC requires care and takes time and focus.\"\n\nOwner, 2026-11-02, on switching the bug fixer on: \"lets get the general bug fixer running. For now lets give it it's own budget.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-02; recorded verbatim."
+    }
+  ],
+  "createdAt": "2026-11-02T12:21:04Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

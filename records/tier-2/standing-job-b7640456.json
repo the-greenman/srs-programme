@@ -6,15 +6,16 @@
   "typeName": "standing-job",
   "fieldValues": {
     "title": "Fix the bugs",
-    "description": "Take the first workable bug from clerk queue --bugs, in its group's lane or the central one: check the dots (clerk flow --chain), claim as the bug fixer, reproduce on the default branch, fix with the smallest change plus a regression test, gates by exit code, PR, run report. Never runs a feature pipeline; never merges.",
+    "description": "Take the first workable bug from clerk queue --bugs, in its group's lane or the central one: check the dots (clerk flow --chain), claim as the bug fixer, reproduce on the default branch, fix with the smallest change plus a regression test, gates by exit code, PR, run report. Never runs a feature pipeline; never merges. Its own budget: at most 5 fixes open (11a311a7).",
     "done_when": "Each bug taken has a PR with its reproduction as a regression test and a run report, or a needs-input stop with the exact question.",
-    "trigger": "not yet set up (the seat is ratified, 4a44396a)",
+    "trigger": "every 2 hours at :05 (Bug fixer, every 2 hours)",
     "size": "One bug per run",
+    "routine_id": "trig_01NBQQ7uTxF8qBpkSnRuUgXi",
     "brief_path": "routines/bug-fixer.md"
   },
   "lifecycleState": "draft",
   "createdAt": "2026-10-24T16:20:17.611348171+00:00",
-  "updatedAt": "2026-10-24T16:20:17.611353016+00:00",
+  "updatedAt": "2026-11-02T12:22:15.807475089+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",
