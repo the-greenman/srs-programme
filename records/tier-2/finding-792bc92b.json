@@ -1,0 +1,28 @@
+{
+  "instanceId": "792bc92b-244c-4d29-9396-fbb558bae4d5",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Ready is filled to one global depth, so a group whose items rank later never gets any: the editor group starves",
+    "summary": "Builders take only Ready issues, and board-sync's topup promotes Backlog items to Ready until 6 consumable items exist across every lane, in implementation order. Third-party-ready and unattended items already fill that depth, so topup never promotes the editor group's work. On 2026-11-02 WG Agent-supported editor had 7 issues that pass every clerk flow dot and 6 more missing only a plan (srs-web#587, #592, #601, #623, #624, #626, #634; #514, #569, #572, #588, #589, #590), none Ready; its one Ready item, srs-web#525, waits on muDemocracy.org#303. Its builder exits with nothing to do on every run.",
+    "evidence": [
+      "clerk flow --open srs-web, 2026-11-02",
+      "clerk scripts/gh-project.mjs TOPUP_TARGET_DEFAULT = 6 (global)",
+      "editor builder runs, trig_012AfuCV7TWkDpw7mHpCE2w5"
+    ],
+    "body": "The depth was set to 6 for one consumer (#715); with several lanes it rations readiness across groups instead of per group. Across the governed repos about 78 open issues pass every flow dot and about 53 more miss only a plan; readiness, not shaping, decides what runs. A remedy: a topup depth per lane (each group and the central lane), so every consumer has its own queue."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-11-02T11:55:32.766494546+00:00",
+  "updatedAt": "2026-11-02T11:55:32.766504632+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
