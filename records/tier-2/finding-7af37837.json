@@ -1,0 +1,27 @@
+{
+  "instanceId": "7af37837-a661-40ea-8455-faa9137e397c",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "muDemocracy.org main CI red since 2026-10-30: corpus work committed as found fails the coherence gate",
+    "summary": "Every CI run on muDemocracy.org main from 3d27cdd (2026-10-30, \"committed as found\") to d2e410e (2026-11-02) failed: muSrs coherence reports 49 errors (publication-reachability: records in no container; one-home: records with two contains parents; note-source-membership) and two runs were killed by runner shutdowns. Found while preparing holon muDemocracy.org#418, whose every muDemocracy item would inherit the red gate.",
+    "evidence": [
+      "muDemocracy.org CI runs 41126592816, 41127398498, 41127984775, 41280743394, 41406591481",
+      "muDemocracy.org#171 (open since 2026-10-08)",
+      "muDemocracy.org#418 stop S1: PRs show baseline honesty against the last main run"
+    ]
+  },
+  "tags": [
+    "flow-stop",
+    "boundary:holon-delivery"
+  ],
+  "createdAt": "2026-11-02T11:57:02.781149483+00:00",
+  "updatedAt": "2026-11-02T11:57:16.014657028+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

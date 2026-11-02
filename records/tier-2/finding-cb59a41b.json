@@ -1,0 +1,27 @@
+{
+  "instanceId": "cb59a41b-b854-4b81-a008-bad26e35a84a",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A group PR the reviewer rejects has no one to fix it, so small red gates hold work and budget for days",
+    "summary": "The reviewer rejects correctly, but no seat goes back to a rejected PR: the builder brief builds one NEW issue per run. On 2026-11-02 three of the four open third-party-ready PRs sat rejected on fixable gates: srs-rust#1540 (a cargo fmt diff, rejected 10-30 20:42), srs-rust#1541 (the site CLI reference not regenerated for the new --fields flag, rejected 10-30 22:42) and srs-rust#1487 (red Test and merge conflicts since 10-28). Open group PRs count against the budget, so the three also held 3 of the group's 10 slots.",
+    "evidence": [
+      "wg-quorum comments on srs-rust#1540, #1541, #1487",
+      "clerk group-state wg:third-party-ready, 2026-11-02: 1 merged + 4 open of 10"
+    ],
+    "body": "Rework is the cheapest work in the system (the change is written and reviewed; only a gate is red) and it has no owner. A remedy: the builder's first step each run is its own group's rejected PRs, oldest first, before it picks a new issue."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-11-02T11:55:30.634814472+00:00",
+  "updatedAt": "2026-11-02T11:55:30.634817668+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
