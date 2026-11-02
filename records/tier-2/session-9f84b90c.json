@@ -1,0 +1,29 @@
+{
+  "instanceId": "9f84b90c-1862-488d-9300-f7c17ccec841",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-11-02 11:17 UTC: SemanticOps",
+    "held_at": "2026-11-02T11:17:16Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-11-02 11:17 UTC: SemanticOps\nAttendees: Owner\n- Ratified: Drafting an RFC is group work; accepting it stays with the owner [778f154a]\n- Received: WG Agent-supported editor report 2026-10-30\n- Received: WG Agent-supported editor report 2026-10-31\n- Received: WG Agent-supported editor report 2026-11-01\n- Received: WG Third-party ready report 2026-10-29\n- Received: WG Third-party ready report 2026-10-30\n- Received: WG Third-party ready report 2026-10-31\n- Received: WG Third-party ready report 2026-11-01\n- Ratified (escalation accepted): May the arrangement fixture add two container-literal Compositions to the allowlist? [8487fd7a]\nActs in the order taken (UTC):\n- 11:40:02Z ratify: Drafting an RFC is group work; accepting it stays with the owner [778f154a] (Decisions since the last session 1 of 1, record updated 2026-10-30T18:18:51.699922158+00:00)\n- 11:40:08Z receive: WG Agent-supported editor report 2026-10-30 [60c593a1] (Reports 1 of 7)\n- 11:40:12Z receive: WG Agent-supported editor report 2026-10-31 [bfac0405] (Reports 2 of 7)\n- 11:40:16Z receive: WG Agent-supported editor report 2026-11-01 [bd8b7684] (Reports 3 of 7)\n- 11:40:24Z receive: WG Third-party ready report 2026-10-29 [b092180d] (Reports 4 of 7)\n- 11:40:31Z receive: WG Third-party ready report 2026-10-30 [f94dbff3] (Reports 5 of 7)\n- 11:40:38Z receive: WG Third-party ready report 2026-10-31 [1f2127e1] (Reports 6 of 7)\n- 11:40:42Z receive: WG Third-party ready report 2026-11-01 [e0a96727] (Reports 7 of 7)\n- 11:41:43Z accept: May the arrangement fixture add two container-literal Compositions to the allowlist? [8487fd7a] (Decisions for this session 1 of 1, saw full record, record updated 2026-10-27T16:37:49.880390108+00:00)"
+  },
+  "createdAt": "2026-11-02T11:41:50.428716107+00:00",
+  "updatedAt": "2026-11-02T11:41:50.428719915+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "dfee42d4-cb14-4725-b54e-0af82e7ddf02",
+      "sourceRole": "attaches"
+    }
+  ]
+}
