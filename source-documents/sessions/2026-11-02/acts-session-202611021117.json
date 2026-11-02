@@ -1,0 +1,99 @@
+{
+  "session": "9f84b90c-1862-488d-9300-f7c17ccec841",
+  "acts": [
+    {
+      "at": "2026-11-02T11:40:02.210Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 1,
+      "seen": [],
+      "updatedAt": "2026-10-30T18:18:51.699922158+00:00",
+      "kind": "ratify",
+      "id": "778f154a-c696-4931-ac16-aa91840ecb23",
+      "title": "Drafting an RFC is group work; accepting it stays with the owner"
+    },
+    {
+      "at": "2026-11-02T11:40:08.363Z",
+      "section": "Reports",
+      "position": 1,
+      "of": 7,
+      "seen": [],
+      "kind": "receive",
+      "id": "60c593a1-f187-4967-b1cd-0cd8a1651d8f",
+      "title": "WG Agent-supported editor report 2026-10-30"
+    },
+    {
+      "at": "2026-11-02T11:40:12.204Z",
+      "section": "Reports",
+      "position": 2,
+      "of": 7,
+      "seen": [],
+      "kind": "receive",
+      "id": "bfac0405-d182-4d68-aff1-75c490f77e75",
+      "title": "WG Agent-supported editor report 2026-10-31"
+    },
+    {
+      "at": "2026-11-02T11:40:16.517Z",
+      "section": "Reports",
+      "position": 3,
+      "of": 7,
+      "seen": [],
+      "kind": "receive",
+      "id": "bd8b7684-2514-4a3f-b0d0-2cd38ee84397",
+      "title": "WG Agent-supported editor report 2026-11-01"
+    },
+    {
+      "at": "2026-11-02T11:40:24.494Z",
+      "section": "Reports",
+      "position": 4,
+      "of": 7,
+      "seen": [],
+      "kind": "receive",
+      "id": "b092180d-aa48-4a52-abb2-198628ecefbf",
+      "title": "WG Third-party ready report 2026-10-29"
+    },
+    {
+      "at": "2026-11-02T11:40:31.853Z",
+      "section": "Reports",
+      "position": 5,
+      "of": 7,
+      "seen": [],
+      "kind": "receive",
+      "id": "f94dbff3-aca8-4a7a-93bd-36dbf2cf739b",
+      "title": "WG Third-party ready report 2026-10-30"
+    },
+    {
+      "at": "2026-11-02T11:40:38.001Z",
+      "section": "Reports",
+      "position": 6,
+      "of": 7,
+      "seen": [],
+      "kind": "receive",
+      "id": "1f2127e1-6b32-42bc-b585-14d5cab8a869",
+      "title": "WG Third-party ready report 2026-10-31"
+    },
+    {
+      "at": "2026-11-02T11:40:42.028Z",
+      "section": "Reports",
+      "position": 7,
+      "of": 7,
+      "seen": [],
+      "kind": "receive",
+      "id": "e0a96727-0448-4ed2-bedc-292e6c744958",
+      "title": "WG Third-party ready report 2026-11-01"
+    },
+    {
+      "at": "2026-11-02T11:41:43.128Z",
+      "section": "Decisions for this session",
+      "position": 1,
+      "of": 1,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-10-27T16:37:49.880390108+00:00",
+      "kind": "accept",
+      "id": "8487fd7a-7cb1-4a1d-af69-34b2e39ab616",
+      "title": "May the arrangement fixture add two container-literal Compositions to the allowlist?"
+    }
+  ]
+}
