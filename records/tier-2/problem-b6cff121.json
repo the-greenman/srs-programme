@@ -1,0 +1,23 @@
+{
+  "instanceId": "b6cff121-ec7c-43aa-a6d3-90385e7b4209",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-142",
+    "title": "A website can claim what the core materials do not",
+    "statement": "I need the website to say only what our core marketing and argument materials say. Site text is often extracted or rewritten from those materials, and nothing checks that a page does not make a different or stronger claim than its source, so the site can drift from the argument it is meant to present.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-11-02: vignette dce397d5 (srs-programme, conversation 09ff5a84)"
+    ]
+  },
+  "createdAt": "2026-11-02T12:46:25.583361585+00:00",
+  "updatedAt": "2026-11-02T12:46:25.583365792+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

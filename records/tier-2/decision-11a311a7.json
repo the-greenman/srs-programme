@@ -1,0 +1,31 @@
+{
+  "instanceId": "11a311a7-f878-4a12-8566-304ddf157bae",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "The bug fixer carries its own budget, separate from the groups'",
+    "decision_question": "Whose budget does a bug fix spend: the group whose label it carries, or the bug fixer's own?",
+    "context": "Decision 4a44396a gave the bug fixer the builder seat in every group and counted its merges against the group's budget. Its trigger was never set up, so 15 bugs (14 at P1 or above) waited with no consumer (finding 5d4f931c). Counting fixes against a group's room means the bug track and the group's ranked work compete for the same slots, which the separate bug track exists to avoid. On 2026-11-02 the owner switched the bug fixer on and said: 'For now lets give it it's own budget.'",
+    "friction": "A group near its budget would stop taking bugs, or a run of bug fixes would stop the group's ranked work.",
+    "alternatives_considered": "Own budget (chosen, for now): the bug fixer has at most 5 fixes open at once; its PRs carry the bug label and never count against a group's room; a group's pause still stops it in that group.\nThe group's budget, as 4a44396a says: one budget per group, but bugs and ranked work compete for it.\nNo budget: nothing limits open bug fixes waiting for review.\nDo nothing: the bug fixer stays off and the bug queue has no consumer.",
+    "key_requirements": "Every bug fix is still claimed, reviewed by its group's reviewer and gated by the group's pause. Nothing widens the bug fixer's mandate beyond fixing bugs.",
+    "decision_statement": "The bug fixer carries its own budget, at most five fixes open at once, and its pull requests never count against a working group's budget; a group's pause still stops it in that group. This amends the budget clause of the bug fixer's seat, for now.",
+    "rationale": "Bugs ride their own track so they never compete with the Ready feed; giving them their own budget keeps that separation at the budget too, while review and the pause keep the group's oversight.",
+    "revisit_when": "Open bug fixes regularly sit at the cap, or a group's reviewer cannot keep up with bug fixes alongside its own work.",
+    "next_steps": "Done with this record: clerk excludes PRs carrying the bound bug label from group budgets, the brief caps open fixes at 5, and the bug fixer's trigger runs routines/bug-fixer.md.",
+    "owner": "Owner role (SemanticOps)",
+    "status": "proposed",
+    "decision_kind": "mandate"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-11-02T12:21:18.985245079+00:00",
+  "updatedAt": "2026-11-02T12:21:19.318097491+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

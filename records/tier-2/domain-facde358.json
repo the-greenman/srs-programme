@@ -1,0 +1,20 @@
+{
+  "instanceId": "facde358-4f83-485e-a063-1ea127b18135",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Website copy",
+    "purpose": "Keep what a public website says clear, backed by evidence and the project's other content, and consistent with the core marketing and argument materials it is often extracted from. A sub-domain of Evidence-backed writing: the same backing, for a site's pages and menu rather than one text.",
+    "in_scope": "Statements on a site's pages, each backed by a claim, a source or our own content. Site text extracted from, or shown by reference to, the core materials (guides, the argument). Checking that the site makes no claim the core materials do not make. Managing pages and the menu as records with history and backup. Agents can write copy here, but are discouraged: their words reach a page only when the writer swaps them in.",
+    "out_of_scope": "Writing the core argument or marketing materials themselves (Evidence-backed writing, the argument corpus). Site design and components (the site's styleguide). Hosting and deployment."
+  },
+  "createdAt": "2026-11-02T12:46:25.199431851+00:00",
+  "updatedAt": "2026-11-02T12:46:25.199435173+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
