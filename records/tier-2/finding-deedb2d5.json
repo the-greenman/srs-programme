@@ -1,0 +1,32 @@
+{
+  "instanceId": "deedb2d5-16b7-47fd-bd40-31358455e11e",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Setting up a domain costs the owner up to fourteen acts; the walks #89 and #90 are 23 days old with only the owner step open",
+    "summary": "Agent steps of the end-to-end walks closed in 0 to 5 days; the owner-affirmation step is still open on both. Affirmation is 1:1 for problems and remedies and stalls at the axis layer (poles 18 of 94, tensions 26 of 47, principles 13 of 28). Sessions run at rubber-stamp speed. Today's desk has 11 \"needs you\" rows.",
+    "evidence": [
+      "srs-programme#89 (opened 2026-10-11): #105 closed 10-11, #106 closed 10-15, #107 owner affirms still open and blocked; #90 the same shape (#110 open)",
+      "containers Suggestions 219dc999 / Affirmed 5e28aa7e / Set aside 17006e00 counted 2026-11-03: 581 / 343 / 4",
+      "handbook Domains 985-1031, Boards 1131-1160, Intake 1163-1227: the owner acts listed between a story and a buildable issue",
+      "session 8a295e3c: four ratifications between 12:34:48 and 12:35:07",
+      "clerk desk, 2026-11-03 10:15 UTC: 11 rows under Needs you"
+    ],
+    "body": "The decided moves (confidence grades care, 9d50126b; affirm the story not each record) are not yet what the tools ask for: the control room and the walks still put records up one at a time. The question is which of the fourteen acts carry judgement and which are bookkeeping that a chartered group or a rule can do."
+  },
+  "tags": [
+    "flow-review",
+    "research",
+    "topic:flow"
+  ],
+  "createdAt": "2026-11-03T10:25:06.567915522+00:00",
+  "updatedAt": "2026-11-03T10:25:06.567917365+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

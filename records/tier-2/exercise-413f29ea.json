@@ -1,0 +1,27 @@
+{
+  "instanceId": "413f29ea-61f1-4d25-9fee-34ccf457aa17",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "How does a received report become a record that changes the practice?",
+    "thinking_reached": "Receipt is a throttle and only that: it lifts the pause and reads nothing. 36 of 37 reports received; 0 records derived from any; the same lessons recur in section 7 for days; 8 measurement results wait on an evaluator the owner has never given; no retrospective held. The handbook specifies the loop (rate indicators, retrospective per period, propose a decision when a lesson recurs) and nothing runs it.",
+    "tensions": "- Status quo: a +1 and a receives relation. Leads to: the group runs on; lessons stay in prose.\n- The steward records recurrence: when a section-7 lesson repeats a previous report, the steward writes a finding derived-from both reports that evidences the stage and the problem; the finding enters the existing flow-stop machinery. Leads to: learning without the owner; depends on the steward reading its own reports (it already does) and on findings being read (0 of 64 affirmed).\n- Receipt asks one question: the session shows section 7 before the receive key and offers noted / make a finding / rate the indicator. Leads to: the 5-second act becomes a 10-second judgement; fills the empty evaluators as a side effect; keeps the owner in the loop at the cheapest point.\n- A retrospective per period: one session kind (clerk#59) over every report's section 7 since the last, the pending evaluators and escalations older than three days, producing one keep/change/drop decision derived-from the reports. Leads to: the loop the handbook specifies; one more session kind for the owner, but batched.",
+    "unresolved_questions": "Which lessons in the 37 reports' section 7 would have produced a change if recorded, and which were noise? (A hand pass over them is the cheapest test, and this review did part of it: builder not triggered, draft proposal invisible, ruling has no route, budget 0 of 10, rejected PRs need a builder, I1 window empty.) Is a finding nobody affirms better than a report nobody reads?",
+    "next_action": "Pass over the 37 reports' section 7 once, file the recurring lessons as findings derived-from the reports, and count how many turn into an issue within a week. That number decides between the steward option and the retrospective option."
+  },
+  "tags": [
+    "exercise",
+    "research",
+    "topic:flow"
+  ],
+  "createdAt": "2026-11-03T10:25:08.845996012+00:00",
+  "updatedAt": "2026-11-03T10:25:08.845997873+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

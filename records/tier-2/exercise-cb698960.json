@@ -1,0 +1,27 @@
+{
+  "instanceId": "cb698960-e364-4363-a7bb-c380f6c5785a",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "What gate makes a programme decision carry a case per option and a precedent search?",
+    "thinking_reached": "The owner's rule: a decision presents a case for every option after reviewing past decisions and principles; no branch without a rationale. Measured 2026-11-03: since 10-15, 41% of decisions have a case per option, 29% no alternatives, 12% a linked precedent, 0 set aside of 110 ratified. The spec has an enforced Charter Check and 41 of 54 rfc-decisions cite the compass; the programme has advice-only checks at ratification and no precedent search anywhere.",
+    "tensions": "- Status quo: options and framing checked in the agenda as advice; templates ask for options and a why. Leads to: what we measure now.\n- A Charter Check for programme decisions, checker-enforced at proposal: a decision cannot reach proposed without >=2 options each with \"leads to\", a \"precedent consulted\" list of decision and principle ids (empty allowed only with a reason), a placement (domain or boundary: tag) and a revisit condition. Leads to: the spec's numbers; costs a schema change (options as structured entries, a consulted field) and a clerk check; rulings relayed from the owner must be written up to the standard after the fact or recorded as rulings, not decisions.\n- A drafter step, not a gate: a decision-drafter routine takes an exercise or an escalation and produces the full case (search similar decisions, cite principles, write each option's consequence); the session only ratifies drafts that passed. Leads to: the owner sees finished cases; adds a routine (5959f5fb: groups cost more routines than we can keep running).\n- Set aside on quality: the session refuses to ratify a decision that fails the content tests and sends it back with the failing test. Leads to: a visible failure rate for the first time; the owner spends session time on returns.",
+    "unresolved_questions": "Does an enforced check change what agents write, or do they fill fields to pass (the spec's 41 of 54 is the evidence for; the decision-stop finding b326b3fb says the programme compass has no check at all)? Which of the 110 ratified decisions have been cited since, by id, and are the cited ones the argued ones? Exercise b430b7e0 asks whether every decision must name an alternative that differs on line 2 or 3; that would be the minimum content test.",
+    "next_action": "Count citations of each ratified decision (issues, findings, other decisions). Draft the check as a clerk conformance rule run on proposed decisions, report what it would have refused among the last 30, and bring the refusal list to WG Programme practice."
+  },
+  "tags": [
+    "exercise",
+    "research",
+    "topic:flow"
+  ],
+  "createdAt": "2026-11-03T10:25:08.366255509+00:00",
+  "updatedAt": "2026-11-03T10:25:08.366259194+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
