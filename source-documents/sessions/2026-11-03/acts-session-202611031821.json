@@ -1,0 +1,59 @@
+{
+  "session": "706ff71e-6d68-496d-9a45-ae7ee6a8a675",
+  "acts": [
+    {
+      "at": "2026-11-03T18:43:39.336Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 1,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-11-02T12:21:19.318097491+00:00",
+      "kind": "ratify",
+      "id": "11a311a7-f878-4a12-8566-304ddf157bae",
+      "title": "The bug fixer carries its own budget, separate from the groups'"
+    },
+    {
+      "at": "2026-11-03T18:43:44.372Z",
+      "section": "Reports",
+      "position": 1,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "comment:6576190352",
+      "title": "WG Agent-supported editor report 2026-11-02"
+    },
+    {
+      "at": "2026-11-03T18:43:46.641Z",
+      "section": "Reports",
+      "position": 2,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "3549497b-c1e6-4aba-b17f-4f09f14a5068",
+      "title": "WG Agent-supported editor report 2026-11-03"
+    },
+    {
+      "at": "2026-11-03T18:43:49.791Z",
+      "section": "Reports",
+      "position": 3,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "31af8d0a-9465-4c13-b897-fb637ecdf669",
+      "title": "WG Third-party ready report 2026-11-02"
+    },
+    {
+      "at": "2026-11-03T18:43:50.744Z",
+      "section": "Reports",
+      "position": 4,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "9887815a-fb1e-4766-b0ed-3b006c55c778",
+      "title": "WG Third-party ready report 2026-11-03"
+    }
+  ],
+  "words": []
+}

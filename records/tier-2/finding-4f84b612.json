@@ -1,0 +1,31 @@
+{
+  "instanceId": "4f84b612-9c6f-4ad3-a344-34a93ab5d64c",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "No clerk act affirms a remedy or problem: affirmation is a hand-run record fork under the owner's actor",
+    "summary": "clerk session records ratify, set-aside, consider, edit, comment, attendee and transcript. It has no affirm. The guard (lib/practice/guard.mjs:68) checks an affirmation as 'a human fork by the owner' into the Affirmed container, which is how 44a6f76d became f402de9a on 2026-10-29. So in a session the clerk must run `srs record fork <id> --into <Affirmed> --carry-relations outgoing` with the owner's SRS_ACTOR by hand, outside the session command and its dry run, and the session record does not list it as an act.",
+    "evidence": [
+      "clerk bin/clerk.mjs session flags, 2026-11-03: --ratify, --set-aside, --consider, --edit, --comment, --attendee, --transcript; no --affirm",
+      "clerk lib/practice/guard.mjs:63-68: Affirmed members must be created by the owner's human actor (a fork)",
+      "srs-programme remedy f402de9a: createdBy github:the-greenman, derived-from 44a6f76d, answers 5d9b77b6 and 61784feb carried (2026-10-29)",
+      "Ad hoc session 2026-11-03 22:14 UTC: remedy 6848d96e affirmed this way",
+      "Also noted: the session agenda warns 'no status-quo option' on D1-D3 (73dba259, 9c116ddb, 287c64f4) although each has an option lettered 'A. Status quo' / 'A. No examples'; the check matches the option's name, not its letter-prefixed form"
+    ],
+    "body": "- The act exists in the guard and in practice but not in the session command, so it is neither dry-run nor minuted: the session record says what was ratified, not what was affirmed.\n- What to do instead: `clerk session --affirm <id>` that forks into Affirmed as the owner's actor, carries outgoing relations, and lists the act in the session record; until then run the fork by hand in the session copy before the session command so one PR carries both, and name it in the session summary.\n- The status-quo warning is a parser nit: either accept a letter prefix, or the 7b91246b shape says the status-quo option is named 'Status quo' exactly."
+  },
+  "tags": [
+    "flow-stop",
+    "topic:clerk"
+  ],
+  "createdAt": "2026-11-03T22:19:12.587884771+00:00",
+  "updatedAt": "2026-11-03T22:19:12.587886725+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
