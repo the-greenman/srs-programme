@@ -19,9 +19,9 @@
     "status": "proposed",
     "decision_kind": "mandate"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-11-02T12:21:18.985245079+00:00",
-  "updatedAt": "2026-11-02T12:21:19.318097491+00:00",
+  "updatedAt": "2026-11-03T18:43:58.534307578+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",
