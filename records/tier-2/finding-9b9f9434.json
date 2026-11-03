@@ -1,0 +1,32 @@
+{
+  "instanceId": "9b9f9434-db6f-4279-898f-d01ef71c0d90",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Decision quality 2026-11-03: form is filled, substance is not; nothing is ever set aside",
+    "summary": "Of 116 decisions, 110 ratified and 0 set aside. Since 10-15: rationale 97%, revisit 100%, but a case per option 41%, no alternatives 29%, precedent linked as a relation 12%, placed in a domain or boundary 5%. 49 are minutes of a ruling already made. The checks that exist run only in the agenda, as advice.",
+    "evidence": [
+      "Bulk pass over records/ governance/decision, 2026-11-03 (criteria: >=2 options; >=5 words per option; relation or text citing a decision or principle; rationale >=10 words; revisit >=4 words; in-domain or boundary: tag)",
+      "clerk lib/adapters/session.mjs:126-130: a proposal from an exercise is created with title, question and statement only",
+      "clerk lib/practice/decision-options.mjs runs only in agenda.mjs:166; session.mjs:84-91 framing check is advice (e337703b)",
+      "spec counter-example: the RFC Charter Check is checker-enforced; 41 of 54 rfc-decisions cite the compass",
+      "weak: 7841bb87, 3c8b94d1, 73cd1ad7, 24d985d1; strong: af1c9258, 9441693e, f940e488"
+    ],
+    "body": "The owner's rule: a decision presents a case for every option after reviewing past decisions and principles; no branch without a rationale. No programme template asks for the precedent search and no gate refuses a decision without a case per option. The \"leads to\" option format (from 10-20) is the one convention that correlates with strong records."
+  },
+  "tags": [
+    "flow-review",
+    "research",
+    "topic:flow"
+  ],
+  "createdAt": "2026-11-03T10:25:05.537670876+00:00",
+  "updatedAt": "2026-11-03T10:25:05.537673117+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
