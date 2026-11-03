@@ -1,0 +1,30 @@
+{
+  "instanceId": "42fcc319-2468-4e15-b529-2c13f9174af6",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Can an essay container declare its comments and references as children while agents still file into them (srs-web#634)?",
+    "decision_question": "The owner ruled an essay must export whole from its own container, and that agents never write the essay but may file comments. The engine's write guard protects a container's whole closure, so declaring the comments and references containers as children of the essay container makes agent commenting fail. Which one gives way, or how do both hold?",
+    "context": "Problem: srs-web#634 asks that the essay container declare its draft, Bin, comments and references containers (as childContainerIds) and its document-state record, so one slice export carries the whole essay. Built and tested against the real engine (branch feat/634-essay-exported-whole): once the comments container is a child of the essay container, an agent session's record_create into it is refused ('container ... is protected'), because the session write guard treats a guarded container's declared children as guarded. The existing test tests/essay-guard.wasm.test.ts fails for exactly this reason. Why it matters: two owner rulings collide. 'An essay can be exported without losing anything' (2026-10-28) needs the children declared; 'agents never write the essay text, they comment' (muDemocracy.org#226) needs agents to write into comments and references. Today the second holds and the first is met only by a separate snapshot bundle that leaves out threads. Options and consequences: see alternatives. Recommendation: A. Action needed: decide. Urgency: blocks srs-web#634 and the muSrs coherence cleanup; no data is at risk meanwhile.",
+    "friction": "The fix is in the engine's guard semantics (srs-rust), outside the editor builder's mandate (no core change, plan step 5 says file core gaps instead of building them client-side). Doing nothing leaves the export incomplete.",
+    "alternatives_considered": "A: the engine guard stops at declared child containers by default, or a guard may list containers it leaves open (srs-rust change, then srs-web#634 builds as planned). B: keep children undeclared on the essay container and keep the snapshot bundle, widened to carry threads and vignettes (no core change; the owner's test 'export from its own container' is not met, the bundle stays). C: declare the children and accept that agents file comments through a different path, for example the essay package gives agents a record type outside the guarded closure (package change, more moving parts). D: do nothing.",
+    "key_requirements": "One slice export of the essay container carries every record, relation, container and editor state; agents can still file a comment or reference; agents still cannot edit a paragraph body; no client-side reimplementation of engine semantics.",
+    "decision_statement": "Take A: the write guard protects exactly the containers a session lists, not their declared children (or accepts an explicit open list). File it in srs-rust under semanticops.com#31/#29, then build srs-web#634 as planned; the work-in-progress branch feat/634-essay-exported-whole already contains the editor side.",
+    "rationale": "One way per goal and capability layering: guard semantics are the engine's. The editor already lists its guarded containers explicitly, so a guard that honours that list is the smallest change and keeps both rulings.",
+    "revisit_when": "The engine can express per-container guard exceptions some other way, or the owner prefers the bundle (B).",
+    "next_steps": "1. Decide A, B, C or D. 2. If A: file the srs-rust issue (guard honours the listed containers only); the builder resumes srs-web#634 once it ships and the pin is bumped. 3. If B: rewrite #634 as widening the bundle.",
+    "owner": "Peter Brownell",
+    "status": "proposed"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-11-03T08:25:25.620975924+00:00",
+  "updatedAt": "2026-11-03T08:25:25.620980484+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "WG Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
