@@ -1,0 +1,28 @@
+{
+  "instanceId": "855de68e-8087-439d-a3b3-02c1206a00dc",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The analyst's gate matches one exact phrase, so a cycle report that says the queue is thin but not 'Queue running dry' keeps the analyst out while ready work is under budget",
+    "summary": "On 2026-11-03 the WG Third-party ready cycle report (semanticops.com#31, 11:36 UTC) counted 8 ready issues against a budget of 10, two of them needing an RFC first, and wrote 'Queue fed for about 1 cycle; it is running thin ... Needs feeding: the analyst'. The analyst's gate (clerk routines/wg-analyst.md, section 1) passes only when section 6 says 'Queue running dry', so the 12:04 analyst run exited without walking a source. The 2026-11-01 and 2026-11-02 reports also lacked the phrase. The report asks for the analyst and the analyst's gate refuses it: the two briefs disagree on one string.",
+    "evidence": [
+      "semanticops.com#31 wg-report cycle=2026-11-03 group=wg:third-party-ready, 2026-11-03T11:36:12Z: '8 open issues ... it is running thin (8 ready, budget 10) ... Needs feeding: the analyst'",
+      "wg-report cycles 2026-11-01 and 2026-11-02: no 'Queue running dry' line; 2026-10-31 had it",
+      "wg-third-party-ready-analyst run 2026-11-03 12:07 UTC (trig_01M6mtE5wZJg2FeXFFnZjCSk): gate check 1 failed on the phrase, exit"
+    ],
+    "body": "The steward's brief (routines/wg-steward.md section 6) offers two forecast lines, 'Queue fed for about N cycles' or 'Queue running dry', without saying where one ends; 8 of 10 read as 'about 1 cycle'. An obvious remedy: gate the analyst on the count (ready below budget, which it recounts anyway in check 2) instead of the phrase, or have clerk group-state emit a machine flag both briefs read."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-11-03T12:10:06.497089003+00:00",
+  "updatedAt": "2026-11-03T12:10:06.497101995+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-analyst",
+    "name": "Third-party-ready analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
