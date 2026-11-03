@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "23f57d90-fa46-4337-a0fb-00bc56eb15d3",
+  "relationType": "com.mudemocracy.argument/holds-tension",
+  "sourceInstanceId": "b3bcd516-35bf-4ea8-b264-9e61ad6b3b17",
+  "targetInstanceId": "f9b901cc-cb78-49c5-9028-77ccfcdee633",
+  "createdAt": "2026-11-03T17:55:16Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  }
+}
