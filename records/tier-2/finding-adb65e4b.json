@@ -1,0 +1,29 @@
+{
+  "instanceId": "adb65e4b-0b3c-49ef-a6dc-03cd567cc204",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A reviewer reads an implementation ADR amendment as a ruling's surface: srs-web#703 escalated on Door 3 for amending ADR-021",
+    "summary": "srs-web PR #703 (examples as ?open= links, unit semanticops.com#54) amends ADR-021 to add the editor request on a read-only link. The WG reviewer escalated: 'the PR amends ADR-021, which changes a ruling's surface (Door 3, outside the role's boundary)'. ADR-021 is srs-web's own architecture record, the amendment executes proposed decision D3 287c64f4, and the reviewer's own boundary (5739852c) says inside = execute an existing ruling. The question is whether an ADR in a code repository is a ruling (then every ADR amendment needs a programme decision first) or the group's record of how it executed one (then amending it is inside the boundary once the ruling exists).",
+    "evidence": [
+      "srs-web PR #703 wg-quorum comment by agent:editor-reviewer, 2026-11-03: 'the PR amends ADR-021, which changes a ruling's surface (Door 3, outside the role's boundary)'",
+      "WG Agent-supported editor boundary 5739852c: inside = execute an existing ruling; outside = new rulings",
+      "srs-rust ADR-048 and srs-web docs/adr/ are implementation-side records; the programme's rulings are governance/decision records in the SemanticOps decision log"
+    ],
+    "body": "- If ADRs are rulings, the group can never record its own execution without a session; if they are the group's records, the reviewer's Door 3 read is wrong and the handbook should say so.\n- What to do instead, until ruled: a PR that amends a code-repo ADR cites the programme decision it executes in its Placement basis line; the reviewer checks the cited decision, not the ADR."
+  },
+  "tags": [
+    "decision-stop",
+    "boundary:essay-editor-entry"
+  ],
+  "createdAt": "2026-11-03T22:19:12.706643844+00:00",
+  "updatedAt": "2026-11-03T22:19:12.706647930+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
