@@ -1,0 +1,24 @@
+{
+  "instanceId": "f8e1b034-55b0-4be5-842a-6a386e90d094",
+  "title": "Local tooling for the housekeeping: a cybernetic, fractal, federated system of local AI (2026-11-03)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:local-models",
+    "topic:mudemocracy",
+    "topic:mozilla"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "At the moment I use claude routines to manage the mudemocracy housekeeping. The different archetypes doing their filing work. I also have a dream cycle. We also need to be able to take transcripts and then mine them for problems. I want to apply for the mozilla cohort (Human-Scale AI). I want you to see if we can build some local tooling that can handle some of the smaller tasks. srs and semanticops has really been designed to a cybernetic AI model, a fractal, federated system of local AI. The Mudemocracy project is about teaching groups how to manage themselves, making their own decisions and becoming sovereign in their actions. The mcp relay will also allow me to connect local agents. A previous iteration of this tool already does some, it uses local whisper (decision-logger). I now want to look at how we can do this as part of the semanticops layer. Use your own tokens wisely and see what you can put together to allow us to have a useful prototype with a way to measure and compare effectiveness. We want to find the right places to use the right models. (I've been looking at Jev and the new classifier models too.)"
+    }
+  ],
+  "createdAt": "2026-11-03T16:40:52Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
