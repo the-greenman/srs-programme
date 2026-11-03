@@ -1,0 +1,71 @@
+{
+  "instanceId": "7b2c742f-ca0a-4348-b7da-21e05cd588e2",
+  "title": "State of flow, 2026-11-03: a review",
+  "tags": [
+    "research",
+    "topic:flow",
+    "topic:decision-flow",
+    "topic:owner-load",
+    "topic:reports",
+    "audit"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "A dated audit of how work moves, how decisions settle, what the owner carries and whether we learn. Measured on 2026-11-03 from the programme's own records, the clerk's code and the desk. The one-line verdict: the flow runs and stops are being recorded, but nothing downstream of a stop, a report or a ratification changes the practice. The owner is the sink at four places (affirm, ratify, merge, receive), and the records that would let the system learn without the owner (findings from reports, counted recurrences, placed and argued decisions, a retrospective) are specified in the handbook and not exercised."
+    },
+    {
+      "name": "method",
+      "label": "What was measured",
+      "content": "Four read-only passes, each by a subagent over srs-programme, the clerk and the desk: (1) the designed flow against the 29 flow-stop findings; (2) all 116 governance/decision records against the handbook's own tests; (3) the 37 run-reports and everything that cites them; (4) the owner's load: containers, sessions, the end-to-end walks #89 and #90, the control room and the session CLI. Numbers below are from that day; rerun the passes before citing them later."
+    },
+    {
+      "name": "stops",
+      "label": "Where flow stops",
+      "content": "29 flow-stop findings from 10-28 to 11-02, six days. By stage: Allocate 9, Review and land 7, Build 5, Shape the work 4, Learn and remember 3, Make meaning 1, Decide 1, Sense 0, Choose a response 0. By problem: \"Agent PRs collide and go stale\" 8, \"Groups sit idle while their ready work waits\" 7, then owner merge, rulings never executed, issue lacks shape and half-done work lost at 2 each; 5 findings name no problem.\n\nSeven recurring causes: leftover git or label state blocks claim (4); parallel or duplicate builds collide (4); clerk claim refuses wrongly or disagrees with care (4); groups starve quietly (4); the owner as the gate, merge or acknowledgement (3); main goes red from landings outside the change (3); something ratified never put into practice (2).\n\nTwo things the recording rule (proposed decision fbba3d5e) asks for are not happening. \"Count, don't repeat\": every recurrence was filed as a new finding, so the counts above had to be rebuilt by hand. \"The stage absorbs it\": all nine stage exercises were last edited 10-25 and still carry the generic next action \"fill the 2x2 cases\"; no case has been filled. The handbook's stop table lists the four 10-28 causes and none of the 25 since. The handbook's 16-step flow and the nine-stage map are not mapped to each other, yet stops are filed against the nine."
+    },
+    {
+      "name": "decisions",
+      "label": "Decisions: form improves, substance does not",
+      "content": "116 decisions: 110 ratified, 5 draft, 1 proposed, 0 set aside. Form is now filled: since 10-15, rationale 97%, revisit trigger 100%, up from 82% and 75%. Substance is not: since 10-15 only 41% have a case per option, 29% have no alternatives at all, 12% link a prior decision or principle as a relation (down from 32%; precedent moved from links into prose), and 5% are placed in a domain or boundary. 39% meet all five content tests. 110 ratified and 0 set aside says the quality checks never fail anything.\n\nWhy. (1) Every template asks for options and a why, none asks \"which earlier decisions and principles did you check\" and none asks for a case per option; the schema keeps all options in one free-text field. (2) 49 of 116 are minutes of a ruling already made (\"relayed from the owner\"); 34 of the orchestrator's 65 have no alternatives. Creating a proposal from an exercise in the session adapter writes only title, question and statement. (3) The option and framing checks run only in the agenda at ratification, as advice. (4) There is nothing to consult: no code searches earlier decisions, 13 of 28 principles are affirmed, no compass axis is placed. The counter-example is the spec: the RFC Charter Check is checker-enforced and 41 of 54 rfc-decisions cite the compass. Duplicates and re-asks follow (1e5df0d9/a5c769be, 2637af0a/0b1c25b1, 21b6b4b7; finding e832c6f4: 15 of 24 needs-input questions were answerable from rulings). Ten decision-stop findings (10-27 to 11-02) say the same in the field."
+    },
+    {
+      "name": "reports",
+      "label": "Reports: a throttle, not a loop",
+      "content": "37 run-reports (10-10 to 11-02); 36 received through 12 sessions, at 4 to 8 seconds each (seven in 34 seconds on 11-02). Receipt is wired to exactly one thing in the clerk: the pause rule (two unreceived reports pause the group). Zero findings, problems, decisions or exercises are derived from any report; zero comments on any report. Eight measurement results exist, all I1, all with evaluator \"pending: the owner's session\"; the I1 window opens at cycle close so a close-time read is always empty, which two reports in a row say and nothing acts on. No retrospective has been held; the handbook's Measurement and retrospective section is specified and unexercised. The twelve editor reports had no \"What we learned\" section until 10-31 and were received anyway.\n\nLessons that recur in section 7 with no trace: builder not triggered (five reports before it was fixed), a draft proposal is invisible to the agenda, an \"other\" ruling has no route to a task, a ruling does not clear needs-input, budget at 0 of 10 while work lands by owner merge, rejected PRs need a builder to move. The throttle works as the owner says: it stops things from going too far. It does not learn, because receipt reads nothing."
+    },
+    {
+      "name": "owner",
+      "label": "The owner's load",
+      "content": "Suggested 581, affirmed 343 (342 by the owner), pending 247. Problems, remedies, clusters, personas, domains: affirmed 1:1. Tensions 26 of 47, poles 18 of 94, principles 13 of 28, findings 0 of 64. The domain-axis layer is where affirmation stalls, and the walks show why: #89 (Collaborative writing, opened 10-11) and #90 (Agent memory) closed their agent steps in 0 to 5 days; the owner-affirmation step is still open on both 23 days later, partly as bookkeeping (the 10-16 affirmations forked new ids, so the issue never noticed), partly because 3 axes per domain wait on decision cdd272a3. Between a new story and the first buildable issue the handbook asks the owner for up to fourteen acts (affirm domain, personas, cluster names, problems, tensions with both poles, three axes, remedy; rank the objective; MoSCoW; charter; intake exercises; parked decisions; owner-merge PRs including the affirmation-round PR). 24 sessions on 17 days, median 6 acts, mostly at rubber-stamp speed (four ratifications in 20 seconds on 10-29). Today's desk: 11 \"needs you\" rows. The affirmation thread (45883ea7) already records the owner's moves away from this: confidence grades care and does not gate (9d50126b, 10-24); affirm the story, not each record; cross-checks build confidence. Those moves are decided and not yet built, which is the same shape as the reports."
+    },
+    {
+      "name": "tools",
+      "label": "Tools",
+      "content": "Control room (srs-lab/control-room, served by clerk serve on 5181): half graduated. Reads come from the clerk; the owner's acts, affirmation rounds, the workbench, PR answers and scenario reads still run only in the lab middleware. Epic semanticops.com#38 (4 of 12 done) keeps the UI in srs-lab as the clerk's client; no issue proposes moving it out, so the owner's \"it probably needs to move out of the lab\" is either an amendment to #38 or a new decision about where owner tools live. Session CLI (clerk scripts/session, agenda.mjs): five agenda rows, plain-text screens with fields cut at 160 to 400 characters; it writes the session record, acts.json and the PR. No issue, open or closed, is about its readability. Both tools are well used; neither shows what receipt or ratification should produce."
+    },
+    {
+      "name": "domain",
+      "label": "Is the problem domain understood?",
+      "content": "Largely yes, and the owner should not pay to rediscover it. The relevant problems exist and are affirmed: the owner receives more decisions than they can judge (17ded190); the owner's attention is the single sink (31c11d12, duplicated by c5729f43); decision records are formed weakly (3b8da50b); a decision is asked for without what it takes to judge it (09205a2e); proposed decisions pile up unratified (5216a0c1); affirming agents' structure one record at a time is harder than writing it myself (d00f101f); poles are put up for affirmation one at a time (4a085b1a); the process is re-founded instead of evolved (b19e7ccf); a ratified rule and the practice say opposite things and nothing notices (825845a2); working groups cost more routines than we can keep running (5959f5fb). The nine stage domains each name a trade-off. What is missing is not problems but (a) the 2x2 cases that test each stage's trade-off, (b) evidence joined to the stages rather than filed beside them, and (c) remedies that remove the owner from a stage instead of making the owner faster at it. The working group for this is already chartered in principle: WG Programme practice (clerk#142, decision a8bc55ef). Its first queue should be the three exercises below, not a new charter round."
+    },
+    {
+      "name": "open",
+      "label": "What is open",
+      "content": "Three exercises, filed in this part and in Open exercises, each with options and the evidence that would choose: how setting up a domain becomes one affirmation instead of fourteen acts; what gate makes a programme decision carry a case per option and a precedent search; how a received report becomes a record that changes the practice. Smaller, decidable by rule: fold the duplicate problem pair 31c11d12/c5729f43; give the five problem-less stops a problem; count recurrences on the existing finding instead of filing new ones; move the handbook's stop table to a query over flow-stop findings so it cannot fall behind; map the 16 handbook steps onto the nine stages once."
+    },
+    {
+      "name": "history",
+      "label": "History",
+      "content": "2026-10-25: the archetypal flow, model B and the seven questions written in one day; nine stage domains with one trade-off each. 2026-10-28: the decision flow added as a zoom on stage 8; flow-stop and decision-stop recording proposed (fbba3d5e, 199dd369) and practised from that day. 2026-10-30: the thread overview written; the domain map laid out. 2026-11-03: this review, the first time the stops, decisions, reports and owner load were measured together. The owner's words that opened it are vignette 8d4deae4."
+    }
+  ],
+  "createdAt": "2026-11-03T10:25:03Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
