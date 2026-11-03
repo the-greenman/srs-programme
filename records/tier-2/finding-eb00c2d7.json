@@ -9,15 +9,16 @@
     "summary": "record create starts a governance/decision in lifecycle draft; authors set the status field to proposed but do not run the propose transition, and the session and desk read the lifecycle. On 2026-10-28 three decisions had status proposed in draft:\n- 55997a62, the three trigram lines are the foundational axes (2026-10-25);\n- 84d873ce, stuck implementation work follows the reviewed ADRs (2026-10-24), the policy remedy e120cf12 extends;\n- c7a8e0a2, an escalation created that day.\nThe first two had waited three and four days, unseen.",
     "evidence": [
       "srs-programme records/tier-2/decision-*.json, 2026-10-28: lifecycleState draft with fieldValues.status proposed",
-      "Proposed decision af1c9258 was also created in draft that day and needed the propose transition"
+      "Proposed decision af1c9258 was also created in draft that day and needed the propose transition",
+      "2026-11-03: D1 73dba259, D2 9c116ddb, D3 287c64f4 (essay home, unit semanticops.com#54) were created with status proposed in lifecycle draft and placed in the decision-flow research container 68b6eb64 and Suggestions, not the SemanticOps decision log; the ad hoc session agenda of 2026-11-03 22:14 UTC did not list them until the clerk ran the propose transition and added them to the log by hand (two prep acts, neither in the handbook brief that wrote them)"
     ],
-    "body": "- 55997a62 and 84d873ce were moved to proposed on 2026-10-28 (srs-programme PR, this conversation); c7a8e0a2 was left to the session that made it.\n- The status field duplicates the lifecycle and can disagree with it; nothing checks that they agree."
+    "body": "- 55997a62 and 84d873ce were moved to proposed on 2026-10-28 (srs-programme PR, this conversation); c7a8e0a2 was left to the session that made it.\n- The status field duplicates the lifecycle and can disagree with it; nothing checks that they agree.\n- 2026-11-03: recurred with D1-D3 after remedy 06404989 was written; the second half of the gap is placement: a decision for a session must also be a member of the SemanticOps decision log (7fa3525e), and nothing in record create or the decision shape says so."
   },
   "tags": [
     "decision-stop"
   ],
   "createdAt": "2026-10-28T20:26:25.884042716+00:00",
-  "updatedAt": "2026-10-28T20:26:25.884063619+00:00",
+  "updatedAt": "2026-11-03T22:19:30.692087383+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

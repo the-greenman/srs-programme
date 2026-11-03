@@ -1,0 +1,30 @@
+{
+  "instanceId": "210bd7f7-e880-4881-9777-d10e31d5ffbe",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "An owner choice recorded in a vignette is not an affirmation: a build the owner directed stopped at the group gate until a session was held",
+    "summary": "On 2026-11-03 the owner chose, in conversation, where the essay home lives, that its words are help records, and that examples are ?open= links. The words were recorded verbatim (vignette 24c38533) and the remedy 6848d96e and decisions D1 73dba259, D2 9c116ddb, D3 287c64f4 were derived from it with the chosen option marked. The group built all three PRs (srs-web#702, #703, #705) and the WG reviewer rejected each on mandate: the remedy is in Suggestions, not Affirmed, and the rulings are proposed. The owner asked: 'Have I not already provided these answers?' They had; no act had moved the records, because the only affirmation surfaces are the affirmation editor (srs-web#617, unbuilt) and a session, and the mandate check reads the layers, not the vignette.",
+    "evidence": [
+      "srs-web PR #702 and #703 wg-quorum comments by agent:editor-reviewer, 2026-11-03: verdict=reject, 'remedy 6848d96e is in the Suggestions container ... not Affirmed ... Ruling D2 9c116ddb is proposed'; gate:owner-merge added",
+      "Owner, 2026-11-03 ~22:10 UTC, in the local session: 'Have I not already provided these answers?' then 'Can we just run the session now'",
+      "Ad hoc session 2026-11-03 22:14 UTC held to ratify D1-D3 and affirm 6848d96e (session PR)",
+      "Vignette 24c38533-b35a-470a-bd78-42eca4bc0258; derived remedy and decisions with derived-from relations, srs-programme PRs #429 and #431"
+    ],
+    "body": "The stop is correct by the rules (affirmation is its own layer, never in chat) and still cost a session for choices the owner had already made in front of the agent. Two readings:\n- The vignette-to-suggestion path has no end: an owner-sourced suggestion looks identical to an agent-sourced one at the gate. A suggestion derived from an owner vignette that names the chosen option could be flagged 'owner-chosen, awaiting affirmation' on the desk, so the session (or the affirmation editor) sees it first, and the group knows the build may go ahead at its own risk.\n- Or the build should not have started before the session: the handbook could say that a unit derived from an owner vignette is built only after the owner's next session, which turns the stop into a scheduling rule. The owner's instruction today ('drive this build as autonomously as possible') argues for the first reading.\nWhat to do instead, until ruled: when a build derives from an owner vignette, hold the session before the first PR is opened, so the group's quorum lands on affirmed ground."
+  },
+  "tags": [
+    "decision-stop",
+    "boundary:essay-editor-entry"
+  ],
+  "createdAt": "2026-11-03T22:19:12.466712730+00:00",
+  "updatedAt": "2026-11-03T22:19:12.466714918+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
