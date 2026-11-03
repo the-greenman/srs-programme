@@ -1,0 +1,31 @@
+{
+  "instanceId": "cccf2f6e-5c2a-4043-ae28-bf4b89d17605",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Received reports leave no trace: 36 of 37 received, 0 records derived from any",
+    "summary": "Every run-report but one has been received, at 4 to 8 seconds each; receipt is wired only to the pause rule. No finding, decision, exercise or comment derives from any report, the 8 measurement results all wait on an evaluator the owner has never given, and the same section-7 lessons recur across reports with no record.",
+    "evidence": [
+      "srs-programme relations over the 37 stewardship/run-report records, 2026-11-03: 36 receives, 0 inbound derived-from or evidences",
+      "clerk: receives is read by upkeep.mjs (pause), desk.mjs, agenda.mjs, guard.mjs only; wg-analyst reads section 6 for \"Queue running dry\" only",
+      "TPR reports 11-01 and 11-02: \"the I1 window opens at the cycle close, so a close-time read is always empty\", twice, no issue",
+      "session 9f84b90c, 2026-11-02: seven reports received between 11:40:08 and 11:40:42"
+    ],
+    "body": "The throttle works as designed and is the only thing receipt does. The handbook's Measurement and retrospective section (rate each indicator; close each period with a retrospective decision; check revisit_when) has never been exercised. Candidate remedies, all on existing machinery: the steward writes a finding derived-from the reports when a section-7 lesson recurs; receipt shows section 7 and asks one question (noted, finding, rate the indicator); one retrospective session per period over the reports' section 7 and the pending evaluators."
+  },
+  "tags": [
+    "flow-review",
+    "research",
+    "topic:flow"
+  ],
+  "createdAt": "2026-11-03T10:25:04.505869549+00:00",
+  "updatedAt": "2026-11-03T10:25:04.505873087+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

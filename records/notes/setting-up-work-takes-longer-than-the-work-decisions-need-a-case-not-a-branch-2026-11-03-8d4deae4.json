@@ -1,0 +1,30 @@
+{
+  "instanceId": "8d4deae4-c25b-42ac-a3cd-1d210a2dead4",
+  "title": "Setting up work takes longer than the work; decisions need a case, not a branch (2026-11-03)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:flow",
+    "topic:decisions",
+    "topic:affirmation",
+    "topic:owner-load",
+    "topic:control-room",
+    "topic:reports"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "I'm looking to keep refining the way I manage ongoing work for my repository estate.\n\nThe new domain based system feels like the right long term plan, but getting it set up with rounds of affirmations and decisions means that the setup for work seems to almost take longer than doing the work.\n\nWe also seem to not be makign too much progress with the quality of decision definitions. Decisions should not just be random options. A decision needs to present a case for any option, after reviewing past decisions and principles. No decision should just be a branch without a rationale.\n\nWe now have the control room that is beginning to become pretty stable. It probably needs to move out of the lab. The session cli is also well used, but the cli interface can be difficult to read as a wall of text.\n\nTop follow our own process, we need to know that we have a good understanding of this problem domain for managing work, it's tensions and tradeoffs, and the kind of problems and potential remedies that we should be working through. We need to probably have a proper working group that can move through this... but I need to not spend all my time affirming and ratifying decisions.\n\nThe report recieving process is still ok because it's a throttle, it means that things only continue so far if I'm not able to pay attention. But are we learning from the reports?\n\nOur handbook and programme research should be a solid research document that gives the current state in a useful way, and maintains the historical context so that we can keep learning and improving."
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-03, asking for a review of the current state of flow; recorded verbatim (meaning-bearing sentences only; the instructions about token use and subagents are omitted). Derived work: the flow review in the Research thread 'flow and decisions' (0217dd72)."
+    }
+  ],
+  "createdAt": "2026-11-03T10:19:08Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
