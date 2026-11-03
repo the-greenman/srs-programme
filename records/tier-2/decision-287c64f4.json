@@ -1,0 +1,34 @@
+{
+  "instanceId": "287c64f4-8ca2-4d6d-83e0-8a9277061d26",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Example essays are ordinary .srsj files opened by the existing read-only link, which may now name the editor to open them in",
+    "decision_question": "How do example essays reach a visitor: not at all, through a dedicated ?example= link and loader, or through the existing ?open=<url> link with an editor request?",
+    "context": "The owner, 2026-11-03 (vignette 24c38533-b35a-470a-bd78-42eca4bc0258): 'provide some example essays to get them started'; and, on the first draft of this plan: 'Our examples can just be loaded from url links? We may not need a special example type? Unless we want to be able to say more (extra help etc) when we have an example loaded.' srs-web today: ADR-021 opens an .srs or .srsj from ?open=<https url> read-only, with Document > Save a copy… making a cloud copy the open editable document; ?repo= already takes an editor request (ADR-021 amendment, srs-web#530); a read-only link offers no package editor (App.svelte offeredEditors is empty when readOnlyHost is set), so an example would land in the Read view, although EssayShell already renders with readOnlyReason for GitHub documents without write access. The essay package carries a purpose field ('what the writer seeks to achieve with this essay and the help they want from collaborators'; agents read it first), which is where an example can say what it shows. Precedent consulted: ADR-021 and its amendments (one loader, read-only is a state of the document, Save a copy), R3 (semanticops.com#49), ADR-048 'once, in the right place' (no second loader for the same bytes), decision 82fbca88 in srs-context (agents never write essay text, which holds for a read-only example too).",
+    "alternatives_considered": "A. No examples: the home offers New essay only. Leads to: nothing to look at before writing; the owner asked for examples.\nB. A dedicated ?example=<id> boot link with its own loader (fixtures bundled lazily, opened as a new unsaved document in the essay editor). Leads to: an editable copy in one click; a second loader for .srsj bytes, an example registry in code, a fourth boot parameter, and fixtures as product content.\nC (chosen). Examples are .srsj files served as static assets (public/examples/), opened by the existing ?open=<url>; ?open= gains an editor request like ?repo= has, and an editor that declares it can render read-only (the essay editor) is offered on a read-only link; Save a copy… is the way to make the example your own; each example explains itself in its purpose field. Leads to: no new loader, no registry, no new link kind; one flag on the registry entry and one filter in offeredEditors; the example opens read-only, which is honest (it is not yours until you copy it); any .srsj on the web, including a shared Dropbox or Google Drive file, is an example by the same link once share links are handled (queued follow-up).",
+    "decision_statement": "Example essays are ordinary .srsj files reached by the existing ?open=<url> link. ?open= accepts an editor request, selected only when that editor is usable for the loaded repository and declares that it renders a read-only document; the essay editor declares it. A read-only example is made the writer's own by Save a copy…, as any read-only link is. An example explains itself in the essay's purpose field; the home page's list of examples is a help record of links, not code. There is no ?example= link and no example loader.",
+    "rationale": "C over B because B builds a second path for the same bytes (ADR-048: once, in the right place) and a registry of examples in code, where C adds one editor request to a link that already exists and one read-only flag; the owner's own question ('can just be loaded from url links?') named the smaller change. C over A because examples are asked for. The 'say more when an example is loaded' case is answered by the purpose field the essay package already carries, so no example type is needed.",
+    "revisit_when": "When an example needs words the essay itself cannot carry (a guided tour, a per-example help record), or when the owner hears that opening read-only and copying confused outside visitors more than an editable copy would have; then B is reconsidered as a thin layer over C.",
+    "next_steps": "srs-web PR 2 of the essay-home unit: editor on ?open= in src/lib/open-url.ts, readOnly on the essay registry entry, the offeredEditors filter, public/examples/*.srsj with purpose filled, ADR-021 amendment, llms.txt. Queued follow-up: Dropbox and Google Drive share links as ?open= sources (owner, 2026-11-03).",
+    "owner": "Owner role (SemanticOps)",
+    "status": "proposed",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "boundary:essay-editor-entry",
+    "topic:essay-editor",
+    "topic:onboarding"
+  ],
+  "createdAt": "2026-11-03T18:33:58.210171509+00:00",
+  "updatedAt": "2026-11-03T18:33:58.210172974+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

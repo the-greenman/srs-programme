@@ -1,0 +1,22 @@
+{
+  "instanceId": "5dbf9fc8-c2f7-49b7-beed-6ae8ed8e3c72",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "How does an agent guide a writer through domain → personas → problems → remedies → claims, and where are the reference fragments browsed?",
+    "thinking_reached": "The owner (vignette 24c38533-b35a-470a-bd78-42eca4bc0258): an agent should be able to help add and process reference material and build a library of fragments; the writer should see what reference material exists, browse quotes and citations and see how they link to problems and remedies; a connected agent should read the internal help and suggest the process; the process may be one of many packages, each shipping its own editor. Similar problems checked before writing (srs find, 2026-11-03): SP-85 (an essay cannot show the domain, problems, claims and remedies it speaks about), SP-57 (outside material cannot become quotable evidence), SP-54, SP-106, SP-101 (the method was designed before there were tools to practise it). No new problem is suggested: these hold the question. What exists: the argument package (problem, source, quotation, claim; srs-rust muSrs), srs-web's essay references pool (plans/519) and domain map (srs-web#571), srs-lab/strata (texts → fragments, problems, claims, quotes), the Method editor (MethodShell), and help as data (9441693e) which an agent reads through ui_help.",
+    "tensions": "- A: a strata lens graduated from srs-lab into srs-web (ADR-025): browse texts, quotes, problems and remedies as one surface. Leads to: the lab work pays off; a third shell to keep in step with the essay editor.\n- B: a references and quotes browser inside the essay editor (extends the references pool): quotes, their sources and the problems and remedies they bear on, from the essay. Leads to: one surface for the writer; the library stays per-essay-repository.\n- C: a package-shipped editor per decision 9a5e18a1 (views, dispatch composition, theme carried by the argument package; a generic shell lays it out). Leads to: every package can bring its own management screens; needs the generic block shell (srs-web#694) first.\n- Agent guidance in every option: the process (domain, personas, problems, remedies, claims) written as concept help records the agent reads through ui_help, with a protocol in the package when the engine's protocol runs can carry it.",
+    "unresolved_questions": "- Which evidence chooses: how many of the writer's reference acts happen inside an essay (B) against across essays (A, C)? Count from the first three outside writers' sessions once the essay home ships.\n- Does the argument package install cleanly into an essay repository in srs-web today (Install/Upgrade offers; finding 3fdecbe9 trap)? If not, B and C both wait on that.\n- Can the engine's protocol runs carry the guidance, or do concept help records suffice for the first version?",
+    "next_action": "File the unit for this exercise under semanticops.com#29 once the essay home unit is in build; check the argument package install path in srs-web; read srs-lab/strata DECISIONS.md S1 for what graduation needs."
+  },
+  "createdAt": "2026-11-03T18:33:56.981942399+00:00",
+  "updatedAt": "2026-11-03T18:33:56.981944241+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
