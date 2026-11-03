@@ -1,0 +1,31 @@
+{
+  "instanceId": "c5a6f672-067d-422f-b437-4fcff7fc617a",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Affirmation is pass-through: 324 of 334 affirmation acts are byte-identical to the suggestion; all 142 problems went untouched",
+    "summary": "Measured 2026-11-03 over the Affirmed container: of 334 affirmed records with a derived-from link to a suggestion of the same type, 324 (97%) are identical in every field and 10 (3%) were changed. Problems 142 of 142 identical, clusters 24 of 24, poles 16 of 16, axes 9 of 9, personas 5 of 5. The 10 edits are real judgement: rewritten tension descriptions, filled principle boundary clauses, doubled remedy moves. In the Collaborative writing walk (#89): 5 of 58 acts edited. Affirmation-round commits carry no reasons.",
+    "evidence": [
+      "python3 field-by-field diff of each Affirmed record against its derived-from suggestion, ids, timestamps, createdBy and codes ignored; containers 5e28aa7e (343) and 219dc999 (589), Set aside 17006e00 (4)",
+      "edited: 345b9105, 63b04760, fcc85f1d (tension descriptions re-meant); 800f223f, d1e2248f (remedy move doubled); 9ce3dedc (falsifier replaced); b3ac3391, e78b0f66 (principle boundary_clause filled); 2651f2ad (domain scope); 275fa8b8 (persona-in-domain summary, goals, jobs)",
+      "git log: \"Affirmations <date>: the owner's judgements from the control room\" commits of 10-20, 10-22, 10-24, 10-29, 11-02 carry no reasons or edit notes"
+    ],
+    "body": "This is the evidence exercise 179676eb asked for: which acts carry judgement and which are bookkeeping. The judgement concentrates in tensions, principles, remedies and the domain record (10 edits, 9 of them in those types); problems, clusters, poles, axes and personas were never changed by an affirmation. The per-record act on those types is bookkeeping and can be carried by derivation from one affirmed story (option \"affirm the walk\") or by a chartered group, under the decided rule that confidence grades care and does not gate (9d50126b). Counter-evidence to keep in view: the owner may read a record and pass it because it is right, which this measure cannot see; set-asides (4) are the other visible judgement."
+  },
+  "tags": [
+    "flow-review",
+    "research",
+    "topic:affirmation",
+    "topic:owner-load"
+  ],
+  "createdAt": "2026-11-03T15:08:49.516318051+00:00",
+  "updatedAt": "2026-11-03T15:08:49.516319534+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
