@@ -8,24 +8,29 @@
   ],
   "sections": [
     {
-      "name": "summary",
-      "label": "In short",
-      "content": "Four models of how work moves through the programme and one of how decisions settle, compared and not yet tested against cases."
+      "name": "claim",
+      "label": "Claim",
+      "content": "Work moves through nine stages, each with one trade-off; decisions settle through a flow of their own beside stage 8. Where either stops is recorded as a finding against the stage. The stops, the decisions, the reports and the owner's load were measured together for the first time on 2026-11-03: the flow runs and stops are recorded, but nothing downstream of a stop, a report or a ratification yet changes the practice."
     },
     {
-      "name": "models",
-      "label": "The models",
-      "content": "- The archetypal flow (2026-10-25): nine stages, each what we are trying to achieve, in order: Sense, Make meaning, Choose a response, Shape the work, Allocate, Build, Review and land, Decide, Learn and remember. Each stage is a subdomain of Programme coordination with one trade-off and an exercise of what we tried. It is the ideal layer.\n- Flow model B (2026-10-25): an independent model made to compare against the first.\n- Programme coordination by seven questions (2026-10-25): the domain mapped by the questions it must answer, with its clusters, problems and remedies.\n- The decision flow (2026-10-28): stage 8, Decide, zoomed in: Arise, Settle by principle, Place, Decide, Record, Cite and revisit.\n- Comparing the flow models: what the models agree and disagree on."
+      "name": "story",
+      "label": "The story so far",
+      "content": "2026-10-25: three models of how work moves were written in one day (the archetypal flow with nine stage domains and one trade-off each; model B, made independently; the domain mapped by seven questions) and compared. 2026-10-28: the decision flow was added as a zoom on stage 8 (Arise, Settle by principle, Place, Decide, Record, Cite and revisit), and recording stops as findings was proposed (fbba3d5e, 199dd369) and practised from that day. 2026-10-30: this overview was first written; the trade-offs were untested and the next action was to fill one stage's 2x2 cases with the owner. 2026-11-03: the review found 29 flow stops in six days (Allocate 9, Review and land 7, Build 5), two causes behind half of them (agent PRs collide and go stale; groups sit idle), recurrences filed as new findings instead of counted, and the stage exercises untouched since 10-25. Decisions: form is now filled (rationale 97%, revisit 100% since 10-15) but only 41% argue a case per option, 12% link a precedent, 0 of 110 ratified were ever set aside. Reports: 36 of 37 received, 0 records derived from any; receipt is wired only to the pause rule. The owner: 343 affirmations, 24 sessions at rubber-stamp speed, up to fourteen acts between a story and a buildable issue, the owner step of both end-to-end walks still open after 23 days. The problem domain is already mapped (the relevant problems are affirmed); what is missing is evidence joined to the stages, the 2x2 cases, and remedies that remove the owner from a stage rather than speed the owner up."
     },
     {
-      "name": "state",
-      "label": "Where it stands",
-      "content": "The stage trade-offs are untested: no 2x2 cases yet. The next action is to fill the four cases for one stage's trade-off with the owner (Review and land is the best evidenced). Flow stops and decision stops are recorded as findings against the stages (tags flow-stop and decision-stop). The stages are also laid out as domains in the domain map."
+      "name": "parts",
+      "label": "The parts",
+      "content": "- The archetypal flow: a fractal map of Programme coordination (2026-10-25): nine stage exercises, each with its trade-off and poles; stops are filed against these.\n- Flow model B: an independent model (2026-10-25).\n- Programme coordination mapped by seven questions (2026-10-25).\n- The decision flow: where decisions go and where they stop (2026-10-28): stage 8 zoomed in; decision stops are filed against its six stages.\n- Comparing the flow models (2026-10-25): what the models agree and disagree on; its open question \"is Decide a stage or a spine\" was answered in practice by the decision flow.\n- State of flow, 2026-11-03: a review: the first measured audit (stops, decisions, reports, owner load, tools), with three findings and three exercises beneath it."
+    },
+    {
+      "name": "open",
+      "label": "What is open",
+      "content": "Three exercises from the review, in Open exercises: how setting up a domain becomes one affirmation instead of fourteen acts; what gate makes a decision carry a case per option and a precedent search; how a received report becomes a record that changes the practice. By rule, no exercise: fold the duplicate problem pair 31c11d12/c5729f43; give the five problem-less stops a problem; count recurrences on the existing finding; make the handbook's stop table a query over flow-stop findings; map the handbook's 16 steps onto the nine stages once. Still untested: every stage's 2x2 cases. The chartered home for this work is WG Programme practice (clerk#142, decision a8bc55ef)."
     },
     {
       "name": "drill",
       "label": "How to read it",
-      "content": "Each model below is its own section. Inside the archetypal flow, each stage has its exercise, its trade-off and the two poles with their shadows; the owner's vignettes sit under the exercise they shaped."
+      "content": "Each part is its own section. Inside the archetypal flow, each stage has its exercise, its trade-off and the two poles with their shadows; the owner's vignettes sit under the exercise they shaped. Stops: srs find --tag flow-stop and --tag decision-stop. The review's findings are tagged flow-review."
     }
   ],
   "createdAt": "2026-10-30T09:32:50Z",
