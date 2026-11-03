@@ -17,14 +17,14 @@
     "status": "proposed",
     "decision_kind": "design"
   },
-  "lifecycleState": "draft",
+  "lifecycleState": "proposed",
   "tags": [
     "boundary:essay-editor-entry",
     "topic:essay-editor",
     "topic:onboarding"
   ],
   "createdAt": "2026-11-03T18:33:57.233144241+00:00",
-  "updatedAt": "2026-11-03T18:33:57.233148352+00:00",
+  "updatedAt": "2026-11-03T22:16:50.103367916+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

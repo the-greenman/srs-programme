@@ -1,0 +1,27 @@
+{
+  "instanceId": "d3fe4ba6-bc39-4442-9043-15493ea6629a",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "One essay home: a URL that says who is in charge and opens an essay",
+    "move": "The essay editor gets its own front door: essay.semanticops.com (and /essay on the app host) serves a home page instead of the generic open-a-repository landing. The page says, in the editor's own help words, that the writer owns every word and the AI supports; that a new essay lives in the browser until the writer chooses where to save it, and what the save choices are; how to connect an AI; and offers a one-click new essay and two or three example essays. The words are help records in the bundled help repository (the same records a paired agent reads through ui_help once an essay is open), so the page is edited in the editor, never in code. Examples are ordinary .srsj files opened by the existing read-only link, with the essay editor offered on that link and Save a copy… as the way to make one your own; each example explains itself in its purpose field.",
+    "does_not_fix": "The reference library, quote browsing and the agent-guided domain → personas → problems → remedies → claims process (SP-85, SP-57, SP-101; exercise in this commit). Whether the editor's concepts are fewer or simpler (SP-130's first remedy 44a6f76d). The repository-level first view (SP-119). Agents cannot read the home page itself, only its words once an essay is open.",
+    "falsifier": "A cold visitor given only https://essay.semanticops.com, in a fresh browser, still cannot say in one sentence what the editor is for, or cannot start writing and find where their essay is saved, without asking.",
+    "source_ref": [
+      "srs-programme: vignette 24c38533-b35a-470a-bd78-42eca4bc0258 (2026-11-03)",
+      "semanticops.com#29",
+      "semanticops.com#49"
+    ],
+    "return_when": "When three people outside the programme have been sent the URL and the owner has heard what they did first and where they stopped."
+  },
+  "createdAt": "2026-11-03T22:20:10.369569531+00:00",
+  "updatedAt": "2026-11-03T22:20:10.369573379+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
