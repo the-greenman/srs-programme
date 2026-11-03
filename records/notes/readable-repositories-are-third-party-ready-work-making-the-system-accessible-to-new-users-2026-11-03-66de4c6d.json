@@ -1,0 +1,29 @@
+{
+  "instanceId": "66de4c6d-75b8-4ae7-bf61-dae8aade6e38",
+  "title": "Readable repositories are third-party-ready work: making the system accessible to new users (2026-11-03)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:third-party-ready",
+    "topic:new-users",
+    "topic:read-view",
+    "topic:roadmap"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "This is part of our third party ready work, we are making the system accessible to new users. \nIt should fit pretty high in the roadmap... like now"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-03; recorded verbatim (about semanticops.com#52, Readable repositories, and srs-web#691, offering the dedicated editor from Read and Lenses)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
