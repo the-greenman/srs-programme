@@ -1,0 +1,30 @@
+{
+  "instanceId": "24c38533-b35a-470a-bd78-42eca4bc0258",
+  "title": "The essay editor is a technical implementation of the muDemocracy mindset shift; one URL that gets someone started (2026-11-03)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essay-editor",
+    "topic:sovereignty",
+    "topic:onboarding",
+    "topic:help",
+    "topic:references"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "The essay editor is a proof of concept editor for how to manage human AI collaboration with sovereignty.\nit has been designed to prevent AI just taking over. Once an AI has written all the text, it's actually very hard to claim control back. In practice, for any in-deph work, letting AI write and then fixing it is probably slower than just writing the whole work. The SRS essay editor allows for a managed human/AI collaboration context. It keeps the human in charge of their own meaning, and provides a way for the AI to support.\n\ni want to be able to communicate the SRS and muDemocracy concepts through the essay editor. It is a technical implementation of the mindset shift that mudemocracy is working for, and srs is empowering.\n\nI need to be able to talk about the editor and point someone to a url that will help them get started in a practical way. It should be easy to create new essays and assumes that people will work in their browser localstorage initially.\n\nWe may need to be able to explain the different save options. And provide some example essays to get them started.\n\nthe problem - remedy, reference, conversation model may be useful - but only if the package is easy to install and it's explained how to use it.\n\nThe scale of the muSrs problem/remedy/claim setup is probably a bit extreme, but if we assumed that it woudl be useful for an ai agent to be able to assist in adding or processing reference material and building up a library of fragments then we need to explain the idea, and provide a way to browse what's in there.\n\nI should be able to see what referrnce material exists. An Ai agent needs to understand the process of creating problem and remedy snippets. It needs to be able to guide a user through the process.\n\nA list of quotes and the ability to browse quotes and citations, as well as see where they come from and how they link to problems and remedies. will be valuable.\n\nWhen an agent is connected it should be able to read the internal help and suggest a process. Defineing the domain, identifying the audience/personas, understanding their problems in the domain and then looking at remedies and claims.\n\nThis process may be just one of many packages that backs up how its used. These packages will provide their own editor(s) to allow human management of the data.\n\nI need to be able to explain the editor concept and allow someone to easily create a new essay. A way to make the essay editor the primary.\n\nwe can use a new essay.semanticops.com subdomain but it's probably just an alias to the app subdomain.\n\nIf we need to we can prototype this in the lab so that we can buildt the whole thing and test it out. But the real work will need to be applied in the main srs-web repo.\n\nThe help and site content should all be managed via srs."
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-03 evening, after the help-dialog close fix (srs-web#696). Recorded verbatim, meaning-bearing sentences only; the instruction to add a homepage is omitted. The owner then chose, in the same conversation: a host-aware home on essay.semanticops.com (and /essay) in the same Worker; the home's words as help records; examples as ordinary ?open= links; the reference library and the agent-guided process as a separate unit. Derived work: remedy, exercise and proposed decisions D1-D3 in this commit; unit under semanticops.com#29."
+    }
+  ],
+  "createdAt": "2026-11-03T18:33:56Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
