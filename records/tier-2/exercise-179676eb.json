@@ -1,0 +1,27 @@
+{
+  "instanceId": "179676eb-dc97-428e-a620-e1c0bc35989d",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "How does setting up a domain become one affirmation instead of fourteen acts?",
+    "thinking_reached": "Between a story and the first buildable issue the handbook asks the owner for up to fourteen acts. The walks #89 and #90 show agents finishing in days and the owner step staying open for weeks, partly as bookkeeping. The owner has already ruled the direction: confidence grades care, it does not gate (9d50126b); affirm the story, not each record. What is not decided is which acts carry judgement that only the owner can give, and which are rule or group work.",
+    "tensions": "- Status quo: the owner affirms each record (domain, personas, clusters, problems, tensions with poles, axes, remedy) one by one in the control room. Leads to: full provenance per record; 247 pending, the axis layer stalls, sessions at rubber-stamp speed.\n- Affirm the walk as one act: a domain container with its personas, problems, remedy and axes is read as one story and affirmed once; the records inside are affirmed by derivation. Leads to: one judgement per domain; needs a readable rendering of the walk and a rule that derivation carries affirmation (confidence thread, 45883ea7).\n- Delegate to a chartered group: the owner ratifies the group's charter and mandate (clerk#142, a8bc55ef); the group affirms within its domain and reports; the owner affirms only what the report escalates. Leads to: the owner acts at the charter level only; depends on groups having a compass of their own (49f2d00c) and on reports being read (see the reports exercise).\n- Nothing gates: suggestions are usable at once, affirmation is a later tip where it is worth it, care mode decides the checks. Leads to: zero setup cost; confidence must be computed and shown, which is not built.",
+    "unresolved_questions": "Which acts, of the fourteen, has the owner ever changed on review rather than passed? (Count edits and set-asides against affirmations: 4 set aside of 343.) How many affirmed records were later cited by an issue's Answers line or a claim? If a walk affirmed as one story produced the same issues as the one-by-one walk, the per-record acts were bookkeeping. The decided moves in 45883ea7 and decision 77e04b19's revisit (around 2026-11-21) are the natural point to choose.",
+    "next_action": "Measure the four cases on #89: acts the owner edited vs passed; records cited later. Draft the \"affirm the walk\" rendering as a composition over the domain container and try it on #90 before proposing a decision."
+  },
+  "tags": [
+    "exercise",
+    "research",
+    "topic:flow"
+  ],
+  "createdAt": "2026-11-03T10:25:07.896869279+00:00",
+  "updatedAt": "2026-11-03T10:25:07.896871812+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
