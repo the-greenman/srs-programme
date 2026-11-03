@@ -1,0 +1,28 @@
+{
+  "instanceId": "9ee01ac1-9757-4594-a591-666c36ad185d",
+  "title": "A boundary and a domain are essentially the same thing (2026-11-03)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:domains",
+    "topic:boundaries",
+    "topic:affirmation"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "Since a boundary and a domain are essentially the same thing, we begin with the \"as proposed\" option."
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-03 evening, on the affirm page for principle \"One way over carrying the old one\" showing \"its tension is in no domain\" because the boundary SRS implementation traced to no domain. The proposal accepted: SRS implementation traces to Semantic records; the seven \"The clerk\" boundaries to Programme coordination; SemanticOps to Semantic engineering in practice. It reaffirms the 2026-10-22 ruling (clerk#129): a domain is just a boundary, two names for one thing."
+    }
+  ],
+  "createdAt": "2026-11-03T18:26:10Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
