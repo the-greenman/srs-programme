@@ -1,0 +1,24 @@
+{
+  "instanceId": "f5396ed0-6d97-4c5a-9162-3abc13662344",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "When the SRS standard provides a way to achieve a goal, the local way of achieving the same goal is retired",
+    "boundary_clause": "Unless the two turn out to mean different things: then they were never the same goal, and both stay, named for how they differ",
+    "context": "One-way-per-goal (srs .claude/commands/rfc.md Stage 1.5) applied one layer down, to a corpus that consumes the standard. Whatever the local way carried that the standard lacks is carried over, and existing uses are migrated or grandfathered. \"Standard\" means accepted in the spec, not merely shipped by srs-rust. Proving case 2026-10-28: muDemocracy retired its local authored-by relation for RFC-046 createdBy, keeping the agent-record id through actor_ids (muDemocracy.org#397, PR #400).",
+    "source_ref": [
+      "the-greenman/muDemocracy.org#397",
+      "the-greenman/muDemocracy.org#400"
+    ]
+  },
+  "createdAt": "2026-10-28T17:47:16.513877619+00:00",
+  "updatedAt": "2026-10-28T17:47:16.513885539+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

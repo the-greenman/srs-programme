@@ -1,0 +1,28 @@
+{
+  "instanceId": "6fd3c70b-48be-45a8-930c-0f469dbce361",
+  "title": "Retire agent-amendments: it duplicates git history (2026-10-28)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:attribution",
+    "topic:one-way-per-goal"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Lets retire this. It's not adding value and seems to just duplicate what we could get from git history?"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-10-28, answering an assessment of muDemocracy.org scripts/agent-amendments.mjs (the list of owner-authored records agents amended since the last /review; unread since 2026-09-22, blind to editor-session edits); recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
