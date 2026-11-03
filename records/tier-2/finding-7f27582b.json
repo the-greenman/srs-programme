@@ -1,0 +1,31 @@
+{
+  "instanceId": "7f27582b-72d5-4d83-b3ec-a1aeb8c96680",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "srs-rust#1535: an ask filed as unplaced where the compass placed it; the clear-mode case reached the owner's desk as a question",
+    "summary": "The builder's ask A1 (\"Where should the fieldMeta.source check live?\") carried why_unplaced: \"an implementation-layer choice\", and clerk pr-check passed it. The compass case written on 2026-11-03 settles it in one table: cell Conformance, decision mode clear, Door 1, option B (schema validation on the write path) passes every test. By rfc-decision-7caca3a1 and pr-decisions that is a ruling the group records and cites, and the PR is agent-mergeable; instead it sat on the owner's desk as \"Decision asked\" (row 7, 2026-11-03).",
+    "evidence": [
+      "srs-rust#1535 body, srs-decisions block: asks[0].why_unplaced, no compass cell, no tension",
+      "clerk pr-check srs-rust#1535, 2026-11-03: \"ok: every decision is in the block, classed and placed\"",
+      "the compass case (owner's session, 2026-11-03 afternoon): tests One home, One way over many, Reliability over Renewal (axis 5-11), Identifier over label, Spec-first; cell Conformance; mode clear",
+      "clerk desk 2026-11-03 10:15: \"Decision asked in srs-rust#1535 ... It waits on your answer\""
+    ],
+    "body": "The stop is at Settle by principle: the compass was not consulted where the ask was written, and why_unplaced is an escape with no test (finding b326b3fb said the fractal compass has the structure but no check). The same shape is on the desk for srs-rust#1549. Remedy filed as clerk#269: compass first in pr-check; an ask the compass settles is an error with the instruction to record a ruling."
+  },
+  "tags": [
+    "decision-stop",
+    "flow-review",
+    "topic:compass"
+  ],
+  "createdAt": "2026-11-03T17:46:30.754011209+00:00",
+  "updatedAt": "2026-11-03T17:46:30.754014827+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

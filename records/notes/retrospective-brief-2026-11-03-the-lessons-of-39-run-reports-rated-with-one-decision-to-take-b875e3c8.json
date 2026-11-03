@@ -23,6 +23,11 @@
       "name": "source",
       "label": "Source",
       "content": "Derived from the review 7b2c742f and finding cccf2f6e (received reports leave no trace). The session acts it asks for: rate the nine results (the i key once clerk#264 lands, or in comments until then), and ratify or amend the retrospective decision, which the steward proposes in the decision log once clerk#268's check is in place."
+    },
+    {
+      "name": "review",
+      "label": "Decisions due for review",
+      "content": "The owner (vignette 213f49ee): stating the conditions for review is what makes decisions accountable; nothing tests ours. Two conditions are already met, by this brief's own evidence: 4a44396a (the bug fixer seat: its trigger never ran, finding 5d4f931c; amended by proposed 11a311a7) and 24d985d1 (measures I1 to I4: the I1 window is empty in ten reports, lesson 1). Take them in the same session: keep, supersede or set aside. clerk#270 builds the check so the next ones are found without a brief."
     }
   ],
   "createdAt": "2026-11-03T15:09:57Z",
