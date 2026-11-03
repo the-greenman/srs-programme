@@ -1,0 +1,24 @@
+{
+  "instanceId": "289c27a6-d149-487e-8845-0d6c8fba1266",
+  "title": "Kinds of problem are still being learned; the three-axis stance may relate to kinds (2026-11-03)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:kinds",
+    "topic:axes",
+    "topic:local-models"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "We have multiple kinds and this is still something that we need to learn more about. srs-programme should have some records of the research we have been doing to classify kinds of decisions. We have clusters, we also have the trigram based 3 axis polarity notes. We can classify on the axes pretty reliably. This is a stance that may relate to kinds."
+    }
+  ],
+  "createdAt": "2026-11-03T18:40:09Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
