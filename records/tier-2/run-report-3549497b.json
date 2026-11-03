@@ -1,0 +1,23 @@
+{
+  "instanceId": "3549497b-c1e6-4aba-b17f-4f09f14a5068",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle 2026-11-03",
+    "run_date": "2026-11-03",
+    "chose": "<!-- wg-report cycle=2026-11-03 group=wg:agent-editor -->\nWG Agent-supported editor: cycle 2026-11-02 11:30 to 2026-11-03 11:30 UTC\nPause: running (the 11-02 report is the only one unacknowledged; the 10-20 to 11-01 reports all carry a 👍).\n\n1. Decisions for you: one, carried. Question: can an essay container declare its comments and references as children, so one export carries the whole essay, while agents can still file comments? Why it matters: two of your rulings collide (an essay exports whole, 2026-10-28; agents never write the essay, they comment). Today the engine refuses an agent's comment once the children are declared. Options: A engine guard stops at declared children (srs-rust change, then srs-web#634 builds as planned); B keep the snapshot bundle, widened to carry threads (no engine change, the export-from-its-own-container test stays unmet); C different path for agent comments (package change, more parts); D nothing. Recommendation: A. Action needed: decide. Urgency: blocks srs-web#634; no data at risk. Record 42fcc319-2468-4e15-b529-2c13f9174af6 (proposed). Also waiting: the needs-input label on srs-web#567.\n2. Decided within mandate: none. No decision awaited assent, so no group session was held.\n3. Done: no delegated merges. srs-web#682 (comment verdicts, 11-02 15:23) merged as owner-merge: builder editor-builder / reviewer editor-reviewer / mandate remedy-7f697a33 + ruling-ff946eb1.\n4. Stuck or lost: open group PRs, all owner-merge and waiting for you: srs-web#688 (notes tray) and #689 (changes since last save) approved, gates green; #690 (references candidates) approved, gates green; #687 (browse essays) rejected by the reviewer: gates red, remedy 6176df56 not affirmed. srs-web#634 stopped on the decision above (claim auto-reclaimed 11:30). Blocked: semanticops.com#14.\n5. Budget: 0 of 10 delegated merges this cycle; 0 open counted (owner-merge PRs do not count). Pause: running.\n5b. Awaiting ratification: none.\n6. Next: ready + wg:agent-editor: srs-web#634 (stopped), #626, #601, #525 (semanticops.com#14 blocked): 4 usable. Top 3 in builder order: #626, #601, #525. Queue fed for about 1 cycle. Waits on the owner: the escalation above, merge of #688 to #690, a 👍 on this report.\n6b. Exercises: none open.\n7. What we learned: owner-merge is the real bottleneck: four PRs wait on a person while the delegated budget sits at 0 of 10. The guard collision shows two rulings can be right and still need an engine rule to hold together. I1: not written (the window had rolled to the new cycle; 0 merges counted). I2 to I4: pending. Fed by the analyst: not needed.\n",
+    "rationale": "No new escalation: the srs-web#634 guard question (42fcc319) was already open and is carried. Nothing else was outside the mandate.",
+    "figures": "Delegated merges (group-state): 0 of 10; 0 open counted. Owner-merge PR merged: srs-web#682. I1 not written. I2 to I4: pending.",
+    "landed_as": "pending"
+  },
+  "createdAt": "2026-11-03T11:39:24.133227533+00:00",
+  "updatedAt": "2026-11-03T11:39:24.133234069+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
