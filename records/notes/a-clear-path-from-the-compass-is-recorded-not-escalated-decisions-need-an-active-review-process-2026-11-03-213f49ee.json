@@ -1,0 +1,29 @@
+{
+  "instanceId": "213f49ee-d3b5-4bbc-aaf9-22b1ddb018cb",
+  "title": "A clear path from the compass is recorded, not escalated; decisions need an active review process (2026-11-03)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:decisions",
+    "topic:compass",
+    "topic:decision-review",
+    "topic:flow"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "I need to be able to get the compass used properly to manage decisions.\nWhen a decision has a very clear path from the compass, it should rarely need to be escalated. if its significant, we can just record the rationale.\n\nA general missing piece is an active decision review process. the muSrs research shows that Stating the conditions for review is a key to long term accountabilty in human decision making. It probably matters here too."
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-03 afternoon, continuing the flow review (vignette 8d4deae4). The example the owner gave is the compass case written in srs-rust#1535 that afternoon (fieldMeta.source check: option B, schema validation on the write path; cell Conformance, decision mode clear), which reached the owner's desk as 'Decision asked' although the compass had settled it."
+    }
+  ],
+  "createdAt": "2026-11-03T17:43:52Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
