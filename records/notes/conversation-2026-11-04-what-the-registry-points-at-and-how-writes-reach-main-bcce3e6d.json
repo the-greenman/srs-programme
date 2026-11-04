@@ -1,0 +1,28 @@
+{
+  "instanceId": "bcce3e6d-3749-4d3b-89c9-0eca161f831f",
+  "title": "Conversation 2026-11-04: what the registry points at, and how writes reach main",
+  "tags": [
+    "conversation",
+    "topic:registry",
+    "topic:mcp",
+    "topic:sync"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner asked which repositories the shared MCP server should point at, how they stay up to date, how writes can be trusted where main is not writeable, and whether the clerk service is the answer; then said the need will reach other users, so the clerk holds only a proof of concept."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-04."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

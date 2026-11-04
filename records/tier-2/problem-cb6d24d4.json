@@ -1,0 +1,25 @@
+{
+  "instanceId": "cb6d24d4-ea25-43c2-8161-8be5e24ebf17",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-154",
+    "title": "A write through a shared server does not reach the repository everyone else reads",
+    "statement": "I need a write accepted by a server over several repositories to reach each repository's shared line, and to know where it has got to. Today the write stops at a file in a working checkout: nothing commits or pushes it, a protected main refuses a direct push, the checkout may be on another session's branch, and the server reports nothing about git. The same checkouts also go stale or serve work in progress to readers. Anyone running a multi-repository server over git repositories meets this, not only our workflow.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-11-04: vignettes 06faad77 and 9d04df06 (srs-programme, conversation 0a5d786c)",
+      "srs-context finding 43a07590"
+    ]
+  },
+  "createdAt": "2026-11-04T13:36:33.704892615+00:00",
+  "updatedAt": "2026-11-04T13:36:33.704897162+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
