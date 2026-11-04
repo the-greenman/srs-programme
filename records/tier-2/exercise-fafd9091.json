@@ -1,0 +1,28 @@
+{
+  "instanceId": "fafd9091-8e3c-4200-ad42-3216b3859b10",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "How does an essay get its own semantic context, who defines its types, and does a tick and bin replace affirmation there?",
+    "thinking_reached": "The owner (vignettes 98b27dc7-df89-4448-a572-0fa37ee7ae13, 5d9a2737-9034-46fd-8289-520984c9e120, 7aab7806-65d8-47a7-bae2-7edb1c254b56): each essay has its own semantic context (contract, story, product marketing); the editor builds up structured background from vignettes; a tick and bin on derived data may be enough. Exercise 5dbf9fc8 already holds the agent-guided process and the idea that it may be one of many packages with their own editors; this exercise is about the context itself. Checked 2026-11-04 in srs-web at 8b2fedb and srs-rust build.595: a new essay installs essay and comments only; the editor can install only bundled packages; an agent session has no tool to define a type or install a new package; the local CLI can do both on a repository on disk. The interim is the argument package as a dependency (proposed decision in this commit).",
+    "tensions": "How the context is set. Options, none chosen: (a) the writer chooses a kind of writing when starting, which installs a package; (b) packages are added on demand when the writing needs them; (c) a writer or agent proposes types in the essay session, from the vignettes, and the writer keeps them; (d) argument stays the default and others are opt-in.\n\nWho may define types. An agent defining types in a session gives flexibility, but types are a shared contract, and types invented per essay may not be comparable across essays.\n\nTick and bin against the affirmation layer. The owner says 'We may not want the whole affirmation requirement, but a tick and bin on derived data would be valuable', while the handbook's The affirmation layer has the owner tick or deny a derived record beside its words as its own layer. Kept as a tension, not resolved: this may be the same act at a lighter weight, or a separate one for private writing.",
+    "unresolved_questions": "Does a story written in the editor show which types it really needs, and do those look like a package or like one-off types? Do writers read the data structure layer at all? Does keeping or binning a derived item need a record of who did it, as a fork does, or is state on the item enough? What happens to an essay's types when its paragraphs are shared or copied into another essay?",
+    "next_action": "Try one non-argument piece, a story or a contract, from vignettes, by hand with the local CLI, and note what types it needed and where the tick and bin would have been used."
+  },
+  "tags": [
+    "exercise",
+    "research",
+    "topic:essay-editor",
+    "topic:semantic-context"
+  ],
+  "createdAt": "2026-11-04T13:16:30.037379248+00:00",
+  "updatedAt": "2026-11-04T13:16:30.037386972+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
