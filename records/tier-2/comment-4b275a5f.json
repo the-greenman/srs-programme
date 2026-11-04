@@ -1,0 +1,18 @@
+{
+  "instanceId": "4b275a5f-3b36-4970-bdb5-1baffc2236d9",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Using it shows the save pass has to run some time after a session ends, not at the moment it ends: the quiet window that guards a half-written change also skips the session's last writes. Until the pass is on a schedule, the session-end hook starts it detached and delayed. This comment is the agent's reading, not the owner's words."
+  },
+  "createdAt": "2026-11-04T14:17:39.999361144+00:00",
+  "updatedAt": "2026-11-04T14:17:39.999367240+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
