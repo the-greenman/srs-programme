@@ -388,6 +388,29 @@ The owner pre-approved the whole sequence, W1 to W7 (decision 51054b3c, ratified
 3. **Records through the CLI, every time.** Two early handbook edits were made as JSON. The content was right, but the act was the mimicry the rules forbid.
 4. **API cost is a constraint of the flow itself.** One desk run costs about 190 REST requests, and one integration run about 1,360. The sequence exhausted the owner's 5,000-an-hour quota once, and the CI installation token several times, so PRs failed on rate limits, not on their changes (clerk#215, #218).
 5. **A new session reads the desk as addressed to it.** "Everything that needs you" is the owner's queue, but a session told only "continue the work" took it as its own. The rule is now in the brief (srs-context#78) and, with clerk#220, the handbook's Find step. The desk itself still speaks only to the owner, so a line on the desk for agents is the next lever if sessions keep missing the sequence rows.
+### 18. Models rated on the three lines: the axes are learnable, prompting plateaus at kappa 0.5 (2026-11-03/04)
+
+**Why.** The owner (vignette 289c27a6, 2026-11-03): kinds are still being learned; "we can classify on the axes pretty reliably. This is a stance that may relate to kinds." Decision suggestion 9c2f4b0a: classifiers are benchmarked on the T3 lines, where owner-rated gold exists, not on `kind`. The lab is `semanticops/local-lab` (`axes.mjs`, gold `t3-gold.json` built from `t3-assignments-v3.tsv`, metastable lines skipped).
+
+**Method.** Each model was given the owner's three definitions verbatim (discoveries 7, 8, 10), the decision's title, statement and context, and asked for one pole per line; `--fewshot 12` adds twelve rated decisions spread across codes, leave-one-out. Kappa per line against the v3 codes. Full table: `axes-models-2026-11-04.tsv`.
+
+| model | line 1 | line 2 | line 3 |
+|---|---|---|---|
+| two human raters (discoveries 7, 8, 10) | 0.90 | 0.84 | 0.81 |
+| claude haiku, zero-shot | 0.40 | 0.59 | 0.56 |
+| claude sonnet, zero-shot | 0.19 | 0.48 | 0.67 |
+| qwen2.5-7b local, zero-shot | 0.50 | 0.16 | 0.13 |
+| claude haiku, 12-shot | 0.50 | 0.46 | 0.52 |
+| qwen2.5-7b local, 12-shot | 0.47 | 0.06 | 0.34 |
+
+**Findings.**
+
+1. **The lines are a real classification.** Every model beats chance on every line, and the human raters sit far above them. The labels are learnable and the gap is the models', not the definitions'. This is the opposite of the muSrs problem `kind` facet, where haiku, qwen and gpt-oss all sit at 41 to 45% against the owner's labels and the one-line definitions are what fails.
+2. **Line 2 is the hard line for a small model.** Adding energy or letting it settle needs the status quo as reference (discovery 8: read against practice before the decision). The 7B model has no way to know the practice before; its line 2 is near chance and gets worse with examples. Line 1 it reads as well as haiku.
+3. **Prompting plateaus around 0.5.** Twelve rated examples move each model's lines up and down without lifting the plateau. The raters reached 0.8+ with a boundary-first procedure and a reference set; a prompt with definitions and examples does not reproduce that. Remaining moves: the raters' two-step procedure as a two-step prompt (name the boundary and the practice before, then rate), or a small encoder classifier fine-tuned on the 101 (the Jev-shaped move: a structured question, a label, a calibrated probability).
+4. **Stance does not map onto the current kinds.** Crossing the v3 codes with `decision_kind` on the 47 kinded programme decisions: `policy` (24) spreads over eight codes; `design` (9) sits 6 in OSF; `premise` (4) leans OSZ. With 54 spec decisions carrying no kind and 29 programme decisions unkinded, the cross is too sparse to say more than discovery 1 already did: the seven kinds are not a taxonomy the stance would predict. The object clustering (discovery 3) is the cross worth running next, as the next passes already say.
+
+**Background the exercise had not cited.** `greenmans_creation/sgis/` (the owner, 2026-05) is a "synthetic semantic GIS" schema: a space partitioned by axes (a lens is a finite, exclusive, exhaustive set of categories), an axis carrying `topology_behavior` and a `lens_universality_claim` with a falsifiability note and a confidence, `derived_axis` with competitors, and `mapping_claim` ("mappings are claims, never hard-coded equivalences") with scope, exceptions and competing claims. That is the same shape as the axis-in-domain records (decision cdd272a3: polarity assigned per domain and per axis) and the zodiac-line correspondence (discovery 15): a mapping is a judgement with a confidence, and the structure holds competing judgements side by side. The owner named it on 2026-11-04 (vignette for this session) as potentially interesting; `research/decisions/` there holds an earlier compass-artifact decision study and `workspace/muDemocracy/decision-practice-synthesis.md` the six-type taxonomy already in the Sources table.
 
 ## Open questions
 
@@ -409,6 +432,7 @@ The owner pre-approved the whole sequence, W1 to W7 (decision 51054b3c, ratified
 
 - Add the 40 earlier programme decisions and the srs-context decisions.
 - A property matrix (all ten properties per decision) so clusterings can be recomputed as decisions arrive.
-- Cross the T3 code with the object clustering: which object × orientation pairs recur.
+- Cross the T3 code with the object clustering: which object × orientation pairs recur. (The cross with `decision_kind` is done: discovery 18.4, too sparse.)
+- Rate the 101 with the raters' boundary-first procedure as a two-step prompt, and fine-tune a small encoder on them; see whether either reaches the human kappa (discovery 18.3).
 - Rate line 3 both ways (attention and structure).
 - The owner marks up the assignments; disagreements become the record of what the axes mean for decisions.
