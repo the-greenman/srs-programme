@@ -1,0 +1,25 @@
+{
+  "instanceId": "8b13a850-3d1e-4359-990a-d80fc9ec739c",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "SQLite only as a rebuildable index over the files",
+    "move": "When registry-wide find is too slow, add an index in srs-projection built from the files and thrown away at will (the notmuch pattern), never a store the files are loaded from. Keep ADR-041 section 5 as the answer to the SQL question.",
+    "does_not_fix": "Live multi-user editing; that is not a storage problem.",
+    "falsifier": "A query the index cannot answer without becoming the source of truth.",
+    "source_ref": [
+      "Owner, 2026-11-04: vignette 662defe9 (srs-programme, conversation 09be2f75)",
+      "srs-rust ADR-041 G8"
+    ],
+    "return_when": "find across the registry exceeds an interactive budget."
+  },
+  "createdAt": "2026-11-04T10:11:56.656279035+00:00",
+  "updatedAt": "2026-11-04T10:11:56.656282484+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

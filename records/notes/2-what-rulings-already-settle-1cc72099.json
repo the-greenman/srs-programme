@@ -1,0 +1,25 @@
+{
+  "instanceId": "1cc72099-288e-4cfc-8f9b-cf49667793e7",
+  "title": "2. What rulings already settle",
+  "tags": [
+    "research",
+    "topic:sovereignty"
+  ],
+  "sections": [
+    {
+      "name": "rulings",
+      "label": "Rulings",
+      "content": "ADR-041 section 5, owner steer 2026-07-22: multi-user or networked environments consume SRS through export/import, never a RepositoryStore over a network database; the synchronous store is a deliberate boundary. G8: SQL, graph and vector acceleration is an optional derived projection in srs-projection. Scope decision 9ec53ca2: permissions, storage/sync and transport are outside SRS. Values statement (ratified 2026-08-02): semantic sovereignty through portable data; sovereignty is structural, this is a folder."
+    },
+    {
+      "name": "consequence",
+      "label": "Consequence",
+      "content": "An HTTP transport and an auth front need no RFC (transport is outside the standard) but do need an ADR-037 amendment in srs-rust. Authorization must not be encoded in records. SQL can only ever be an index."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
