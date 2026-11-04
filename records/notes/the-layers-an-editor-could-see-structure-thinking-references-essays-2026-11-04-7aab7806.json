@@ -1,0 +1,26 @@
+{
+  "instanceId": "7aab7806-65d8-47a7-bae2-7edb1c254b56",
+  "title": "The layers an editor could see: structure, thinking, references, essays (2026-11-04)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essay-editor",
+    "topic:semantic-context"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "Ideally an editor could see the data structure layer. What fields and types exist. \nThen there is the thinking layer. The vignettes. the derived data. The relationsips. \nThen we need to be able to see attachments and references. Citations and quotes. \nThen we have the essays that fit on top of all this."
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
