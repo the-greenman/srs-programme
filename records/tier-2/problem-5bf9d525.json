@@ -1,0 +1,20 @@
+{
+  "instanceId": "5bf9d525-a86e-4f9e-b533-4e829c76284b",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-153",
+    "title": "We cannot show that the essay editor has users",
+    "statement": "Our next funding is linked to our ability to show that the essay editor has users. The editor runs in the person's browser and their essays are saved wherever they choose, and it carries no analytics or telemetry, so nothing in the editor tells us whether anyone has used it, came back or finished an essay. As things stand we have no evidence to put in front of a funder.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme vignette be94ea4d (the owner, 2026-11-04)",
+      "srs-web main 8b2fedb: no analytics or telemetry found in src, index.html or public; hosting logs and the relay were not checked"
+    ]
+  },
+  "createdAt": "2026-11-04T13:25:35.774000568+00:00",
+  "updatedAt": "2026-11-04T13:25:35.774002495+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
