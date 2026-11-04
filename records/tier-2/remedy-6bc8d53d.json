@@ -1,0 +1,22 @@
+{
+  "instanceId": "6bc8d53d-aa14-44f8-97a0-9e62854c12b0",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "One essay view plugs into both websites",
+    "move": "Make the essay's reader view one piece that the muDemocracy and semanticops websites both plug in, so a published essay is drawn from its records with its sources available and says how it was made.",
+    "does_not_fix": "Comments and working material in a shared file (the later cleaner, 0d1c7493). A reader's agent connecting from a link (SP-152). Evidence that anyone uses the editor (SP-153): a reader of our site is not yet a user of the editor.",
+    "falsifier": "A published essay differs from its records after the next build, a reader cannot open a quote's source from the page, or the two sites end up with separate essay views.",
+    "source_ref": [
+      "srs-programme vignette 38c2e274 (the owner, 2026-11-04)",
+      "muDemocracy.org: scripts/ensure-srs-web.mjs and export-srs-pages.mjs already run srs-web's site core at build time, a possible starting point (not assessed)",
+      "muSrs/packages/essay/compositions: the essay composition is tagged reader, and essay-references renders what it refers to"
+    ],
+    "return_when": "The theory of change has gone from the editor to both sites this way and the owner has said whether it presents the stack."
+  },
+  "createdAt": "2026-11-04T13:48:49.520959390+00:00",
+  "updatedAt": "2026-11-04T13:48:49.520964083+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
