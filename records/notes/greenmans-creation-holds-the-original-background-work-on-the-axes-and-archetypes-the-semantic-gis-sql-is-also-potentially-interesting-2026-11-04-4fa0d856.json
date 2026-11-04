@@ -1,0 +1,24 @@
+{
+  "instanceId": "4fa0d856-714c-4a9a-b58f-c673990ee2b7",
+  "title": "greenmans_creation holds the original background work on the axes and archetypes; the semantic GIS SQL is also potentially interesting (2026-11-04)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:axes",
+    "topic:archetypes",
+    "topic:kinds"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "/home/greenman/dev/greenmans_creation has a lot of my original background work into these axes and archetypes. The semantic gis sql is also potentially interesting"
+    }
+  ],
+  "createdAt": "2026-11-04T10:47:03Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
