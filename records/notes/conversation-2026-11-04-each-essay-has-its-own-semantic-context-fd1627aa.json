@@ -2,10 +2,11 @@
   "instanceId": "fd1627aa-224a-42e0-86ac-5330fe37aa97",
   "title": "Conversation 2026-11-04: each essay has its own semantic context",
   "tags": [
-    "narrative",
-    "vignette",
+    "conversation",
     "topic:essay-editor",
-    "topic:semantic-context"
+    "topic:semantic-context",
+    "topic:packages",
+    "topic:affirmation"
   ],
   "sections": [
     {
