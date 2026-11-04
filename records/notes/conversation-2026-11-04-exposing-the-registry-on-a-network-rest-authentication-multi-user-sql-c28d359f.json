@@ -1,0 +1,28 @@
+{
+  "instanceId": "c28d359f-0df5-49a5-ac90-e5b0f3c7acb5",
+  "title": "Conversation 2026-11-04: exposing the registry on a network — REST, authentication, multi-user, SQL",
+  "tags": [
+    "conversation",
+    "topic:registry",
+    "topic:network",
+    "topic:sovereignty",
+    "topic:multi-user"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner noted that srs-rust now has a registry serving several repositories over MCP only, designed to run locally, and that the work is drifting toward exposing it on a network. They asked whether a REST API has value beside MCP, whether an authentication layer is needed and can be added without bloat while keeping the sovereign principles, and whether multi-user access forces an SQL backend. They asked for research toward the roadmap, with experiments and dogfooding in srs-lab that must not undermine the system."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-04."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
