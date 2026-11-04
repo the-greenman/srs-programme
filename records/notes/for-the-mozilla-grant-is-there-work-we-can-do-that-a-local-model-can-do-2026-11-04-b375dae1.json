@@ -1,0 +1,22 @@
+{
+  "instanceId": "b375dae1-b4e1-42be-a168-e7f44221327d",
+  "title": "For the Mozilla grant: is there work we can do that a local model can do (2026-11-04)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:local-models",
+    "topic:mozilla"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "For my mozilla grant I'm interested in seeing if there is some work that we can do that we can use a local model for."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
