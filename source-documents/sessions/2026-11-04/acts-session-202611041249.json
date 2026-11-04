@@ -1,0 +1,59 @@
+{
+  "session": "c21eb241-c97b-4027-8908-d304d056b592",
+  "acts": [
+    {
+      "at": "2026-11-04T12:50:02.141Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 3,
+      "seen": [],
+      "updatedAt": "2026-11-03T22:16:50.567932326+00:00",
+      "kind": "ratify",
+      "id": "287c64f4-8ca2-4d6d-83e0-8a9277061d26",
+      "title": "Example essays are ordinary .srsj files opened by the existing read-only link, which may now name the editor to open them in"
+    },
+    {
+      "at": "2026-11-04T12:50:08.471Z",
+      "section": "Decisions since the last session",
+      "position": 2,
+      "of": 3,
+      "seen": [],
+      "updatedAt": "2026-11-03T22:16:50.103367916+00:00",
+      "kind": "ratify",
+      "id": "73dba259-db8c-48ec-9646-8b8f6486afc4",
+      "title": "The essay editor has its own home: essay.semanticops.com and /essay on the same app, serving a home page in place of the generic landing"
+    },
+    {
+      "at": "2026-11-04T12:50:34.469Z",
+      "section": "Decisions since the last session",
+      "position": 3,
+      "of": 3,
+      "seen": [],
+      "updatedAt": "2026-11-03T22:16:50.332785154+00:00",
+      "kind": "ratify",
+      "id": "9c116ddb-8a7d-4020-893a-56ce3ffa6b60",
+      "title": "The essay home's words are help records: a container essay-home in the bundled help repository, concept and ui records, shared with the essay container"
+    },
+    {
+      "at": "2026-11-04T12:50:43.366Z",
+      "section": "Reports",
+      "position": 1,
+      "of": 2,
+      "seen": [],
+      "kind": "receive",
+      "id": "40096c03-471e-4b89-a6f5-ab79b4ad13a1",
+      "title": "WG Agent-supported editor report 2026-11-04"
+    },
+    {
+      "at": "2026-11-04T12:50:50.534Z",
+      "section": "Reports",
+      "position": 2,
+      "of": 2,
+      "seen": [],
+      "kind": "receive",
+      "id": "5a1b9a3e-90e5-4733-bfab-2bc1bf55639e",
+      "title": "WG Third-party ready report 2026-11-04"
+    }
+  ],
+  "words": []
+}

@@ -1,0 +1,25 @@
+{
+  "instanceId": "546a4792-fb5d-40bd-87d5-9a408f0826f5",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Project showing the editor has users, in Evidence-backed writing",
+    "summary": "The group behind the essay editor, whose next funding is linked to showing that the editor has users. For them the editor is also the front door that explains the semantic sovereignty stack.",
+    "goals": [
+      "Show a funder that the essay editor has users",
+      "Have the editor usable by people beyond the group",
+      "Explain the semantic sovereignty stack through the editor"
+    ],
+    "jobs": [
+      "Make the case for the next funding round",
+      "See whether people are using the editor",
+      "Bring new people in through the editor"
+    ],
+    "needs": "Evidence of use a funder can trust, gathered in a way consistent with the sovereignty the editor exists to explain."
+  },
+  "createdAt": "2026-11-04T13:25:35.658545785+00:00",
+  "updatedAt": "2026-11-04T13:25:35.658548364+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

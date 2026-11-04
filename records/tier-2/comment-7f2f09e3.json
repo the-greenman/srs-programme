@@ -1,0 +1,13 @@
+{
+  "instanceId": "7f2f09e3-126f-4941-857f-b8f29dbcab33",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "How the stack meets Mozilla's application form (read 2026-11-04). The agent's reading, not the owner's words; the call and FAQ pages refused automated fetches, so the criteria in them were not read directly.\n\nThe form asks for project stage (concept; working prototype; deployed with fewer than 100 users; deployed with 100+), approximate users, early signals of product-community fit, traction, and a link to a repository, demo or website. SP-153 is therefore a question on the form, not only a later concern.\n\nThe form also asks: 'Does core functionality depend on calling a frontier AI model's API?' and the 'Largest parameter count of any core AI model', with an option 'No AI models used directly'. It says when answers fall outside the call's focus. The editor uses no model directly: the person's own agent connects to it, and today that is usually a frontier model. So the honest answers may be 'no' and 'no AI models used directly', and a search summary of the call says it wants AI at the core and excludes projects whose core depends on a frontier model. The owner's framing, local-first at the level where many people engage with AI (vignette 3c77ed20), and the local-models work (vignette f8e1b034) bear on this. Whether a small local model joins the core before applying is the open question. The same summary excludes standalone governance projects, which bears on how muDemocracy is presented: as what the stack serves, rather than as the project itself."
+  },
+  "createdAt": "2026-11-04T13:48:49.660662790+00:00",
+  "updatedAt": "2026-11-04T13:48:49.660664938+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

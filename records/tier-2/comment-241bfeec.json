@@ -1,0 +1,13 @@
+{
+  "instanceId": "241bfeec-8aa8-4246-95c5-858e78270d92",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "The essay editor is a new case of this problem, seen from the reader's side (conversation 017606e8, 2026-11-04). The owner says a reader does not want to see the comments a paragraph was built on. A file shared as a view link carries more than the view: srs-web's snapshot bundle declares the essay, draft, bin, comments and references containers as its children (src/lib/essay/essay-document.ts, refreshBundle). So a view that hides the comments hides them from the person only; anyone with the url can read them in the file, including the reader's agent.\n\nThis pulls against vignette f32cc637, where the document provides deeper context for an agent to interrogate. Some of that context may be exactly what the writer would not publish. Unresolved: is the published essay the working file, or a file made from it that leaves material out, and who says what goes in? This comment is the agent's reading, not the owner's words."
+  },
+  "createdAt": "2026-11-04T13:19:44.350059851+00:00",
+  "updatedAt": "2026-11-04T13:19:44.350062888+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

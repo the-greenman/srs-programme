@@ -1,0 +1,27 @@
+{
+  "instanceId": "5d9a2737-9034-46fd-8289-520984c9e120",
+  "title": "Build up structured background from vignettes; a tick and bin instead of affirmation (2026-11-04)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essay-editor",
+    "topic:semantic-context",
+    "topic:affirmation"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "The editor should be able to simply present a view that builds up structured bavkground. The Vignette to structured data process. We may not want the whole affirmation requirement, but a tick and bin on derived data would be valuable. "
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

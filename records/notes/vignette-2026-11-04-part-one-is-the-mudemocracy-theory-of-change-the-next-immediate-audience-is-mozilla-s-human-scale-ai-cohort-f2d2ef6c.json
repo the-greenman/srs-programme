@@ -1,0 +1,24 @@
+{
+  "instanceId": "f2d2ef6c-61e7-425e-9143-7476437390f9",
+  "title": "Vignette 2026-11-04: part one is the muDemocracy theory of change; the next immediate audience is Mozilla's Human Scale AI cohort",
+  "tags": [
+    "vignette",
+    "topic:funding",
+    "topic:mudemocracy",
+    "topic:mozilla",
+    "topic:audience"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Part one is our theory of change for mudemocracy, but while we are approaching democracy funders, the next immediate audience is https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/human-scale-ai/cohort/"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

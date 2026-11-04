@@ -1,0 +1,13 @@
+{
+  "instanceId": "d2b343dc-2258-438f-9787-4ec7dd9df0a8",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "From the owner, 2026-11-04 (vignette be94ea4d): the next funding essay is about the usability of the essay editor itself, the editor is the front door that explains the semantic sovereignty stack, and the next funding is linked to showing that it has users.\n\nThis pulls against three records as they stand, and none has been changed. The principle 'Getting the funding essays written over developing the editor' limits editor work to what the essays need, and 'Stabilising what we have over bringing in new features' admits a feature only when a funding essay cannot be written without it; for the next round, developing the editor for other people is the case the essay has to make. The domain's purpose says the first case is the owner writing pieces for muDemocracy, and does not mention new users or the front door.\n\nThis also answers the question in comment ddebd106, for the next round: work for people other than the writer counts. Whether that swing happens now or when the next round starts is the owner's to set, and the agent has not assumed it."
+  },
+  "createdAt": "2026-11-04T13:25:36.015308123+00:00",
+  "updatedAt": "2026-11-04T13:26:32.760782550+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

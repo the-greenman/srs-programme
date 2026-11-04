@@ -1,0 +1,9 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "37d4ec99-bff0-4580-8fac-090bc39a470b",
+  "relationType": "depends-on",
+  "sourceInstanceId": "bbb39011-8e51-4ad0-a3aa-92841def3c09",
+  "targetInstanceId": "65d7297c-19d9-4117-97db-0eeafcf730c9",
+  "createdAt": "2026-11-04T13:20:56.926247603+00:00",
+  "notes": "A reader can only follow the links a writer was able to make (SP-85)."
+}

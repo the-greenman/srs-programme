@@ -1,0 +1,23 @@
+{
+  "instanceId": "40096c03-471e-4b89-a6f5-ab79b4ad13a1",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle 2026-11-04",
+    "run_date": "2026-11-04",
+    "chose": "<!-- wg-report cycle=2026-11-04 group=wg:agent-editor -->\nWG Agent-supported editor: cycle 2026-11-03 11:30 to 2026-11-04 11:30 UTC\nPause: running (the 11-03 report is the only one without a 👍 so far).\n\n1. Decisions for you: one, carried, unchanged. Question: can an essay container declare its comments and references as children, so one export carries the whole essay, while agents can still file comments? Why it matters: two of your rulings collide (an essay exports whole; agents never write the essay, they comment). Options: A engine guard stops at declared children (srs-rust change, then srs-web#634 builds as planned); B keep the snapshot bundle, widened to carry threads; C a different path for agent comments; D nothing. Recommendation: A. Action needed: decide. Urgency: blocks srs-web#634; no data at risk. Record 42fcc319-2468-4e15-b529-2c13f9174af6 (proposed). Also waiting: needs-input on srs-web#567 and #634.\n2. Decided within mandate: none. No group decision record awaited assent, so no group session was held. (srs-web#690 names one decision in its PR block, \"Answer a candidate with a comment response on the source, not a new field\", with reviewer assent; it has no record in the group log yet, so there is nothing to ratify. It needs a proposed record from the builder.)\n3. Done: no delegated merges. You merged seven group PRs during this cycle: srs-web#688 (notes tray), #689 (changes since last save), #690 (references candidates), #687 (browse essays), #702, #703, #705 (the essay home, three parts). Quorum lines: #688, #689, #690 builder editor-builder / reviewer editor-reviewer, approved, mandate affirmed remedies; #687 and #702/#703 reviewer rejected (remedy 6176df56 and 6848d96e were only suggested, since affirmed by your fork d3fe4ba6 for 6848d96e); #705 carries no quorum comment I could find.\n4. Stuck or lost: srs-web#708 (agent-created source reads back as a candidate, #626) is open, owner-merge, CI preview deployed, no reviewer quorum comment yet. srs-web#634 stopped on the decision above. Blocked: semanticops.com#14. Check: srs-web#698 and #699 are still labelled ready though their PRs (#702, #703) merged; the issues may need closing. #705 merged with no reviewer line, so its mandate is unchecked.\n5. Budget: 0 of 10 delegated merges this cycle; 0 open counted (owner-merge PRs do not count). Pause: running.\n5b. Awaiting ratification: none from the group. The essay-home decisions D1 to D3 are in the SemanticOps log under your hand.\n6. Next: ready + wg:agent-editor: srs-web#699, #698 (likely done, see 4), #626, #601, #525 usable; #634 stopped; semanticops.com#14 blocked. Top 3 in builder order: #626, #601, #525. Queue fed for about 1 cycle. Waits on you: the escalation, review and merge of #708, a 👍 on this report.\n6b. Exercises: none open.\n7. What we learned: owner-merge stayed the path: seven group PRs merged by you in one day while the delegated budget sat at 0 of 10, and the reviewer's rejections were all one cause (a suggested remedy, not an affirmed one), which your forks fixed after the fact. A decision named in a PR block but never made a record is invisible to the steward: the builder should file the proposed record. I1: nothing to measure (0 delegated merges in the window, nothing written). I2 to I4: pending. Fed by the analyst: not needed.\n",
+    "rationale": "No new escalation: the srs-web#634 guard question (42fcc319) is already open and carried. Nothing else fell outside the mandate.",
+    "figures": "Delegated merges (group-state): 0 of 10; 0 open counted. Owner-merged group PRs: srs-web#687, #688, #689, #690, #702, #703, #705. I1 not written (0 merges). I2 to I4: pending.",
+    "landed_as": "pending"
+  },
+  "createdAt": "2026-11-04T11:39:01.666929058+00:00",
+  "updatedAt": "2026-11-04T11:39:01.666936981+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

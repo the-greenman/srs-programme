@@ -1,0 +1,9 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "1567af40-221b-45d3-95c9-dbe965080c4b",
+  "relationType": "refines",
+  "sourceInstanceId": "6bc8d53d-aa14-44f8-97a0-9e62854c12b0",
+  "targetInstanceId": "a27ed282-66fc-4b6f-bb13-3c2b111af495",
+  "createdAt": "2026-11-04T13:49:38.689448846+00:00",
+  "notes": "Widens the site-publishes-essays remedy from muDemocracy alone to both websites, with the reader's sources available. The owner set that remedy below writing the essays on 2026-10-16; vignette 38c2e274 raises the question again."
+}

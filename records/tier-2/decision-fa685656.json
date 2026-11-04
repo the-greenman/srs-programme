@@ -1,0 +1,34 @@
+{
+  "instanceId": "fa685656-718f-4348-a816-64be631c30b9",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "The essay package holds the basic building blocks of structured writing: source, quotation and problem, and argument builds on it",
+    "decision_question": "How does a new essay get the source and problem types its help and agent brief already assume?",
+    "context": "Checked 2026-11-04 in srs-web at 8b2fedb and muSrs at c5560cd. A new essay installs essay and comments only, and adding a source throws 'install the argument package' (essay-document.ts:720), though help/ (essay.links, essay.sources) and the agent handoff (essay-document.ts:642-645) assume these types. Neither the editor nor an agent tool can install an unbundled package. Argument has 27 types and depends on governance, so depending on it would add about 32 types to every essay, permanently, because upgrades delete nothing. Tested: one repository cannot declare a definition in two packages (SRS038-R12-DUPLICATE-ID), so copying into essay is refused where both live. claim exists only in the muSrs primary package, which no bundle carries. Owner, vignettes 1cfe0647 and abed4266.",
+    "alternatives_considered": "A. Do nothing: leave it and make the help conditional. Leads to: sources stay broken on a new essay.\nB. A one-action install in the editor and an agent install tool. Leads to: new UI, a new engine tool and a step every writer must discover.\nC. Essay depends on the whole argument package (the owner's first choice, made before its size was stated). Leads to: no install step, but about 39 types in every essay, governance included.\nD. A small separate package that essay and argument both depend on (the owner's second choice). Leads to: 3 added types and no reverse dependency, but a further package to publish and pin.\nE (chosen). Move source, quotation and problem into essay; argument depends on essay. Leads to: a 70 KB essay bundle with 3 added types and no install step; argument repositories also get essay's 5 types.\nF. A semantic context chosen per essay. Leads to: the likely long-term shape, but far larger; held by exercise fafd9091.",
+    "decision_statement": "The essay package holds the basic building blocks of structured writing: source, quotation and problem, and what they need, moved from argument with UUIDs and namespace unchanged. Argument depends on essay. A new essay has these types without an install step. The agent help teaches their use: when to create each, what relates to what, and that the writer decides. This is the current default, not the model of what every kind of writing needs.",
+    "rationale": "The owner, 2026-11-04: 'Our essay package can expand a little. It can contain the basic building blocks that allow for structured semantic construction of writing.' E over C because it costs 3 types rather than about 32, and keeps governance out of a contract or a story. E over D because the owner placed the blocks in essay, and it leaves one fewer package to publish. E over B because it leaves the writer nothing to discover. Move over copy because a copy is refused. The condition from vignette 1cfe0647 stands: agent help must teach it.",
+    "revisit_when": "When a kind of writing other than an argued essay, such as a story or contract, is supported; when a further block is proposed for essay, since 'a little' is a limit; or if argument depending on essay causes a conflict between the essay-references composition and argument's claim-backing-view. Exercise fafd9091 supersedes this if it picks another default.",
+    "next_steps": "muDemocracy.org#431 publishes essay 1.9.0; argument 1.4.0 moves with it. srs-web#590 pins essay 1.9.0, teaches the agent help and handoff, and corrects what the help says about claims. Owner asks A1 (persona and scale on problem) and A2 (claim) are on muDemocracy.org#431.",
+    "owner": "Owner role (SemanticOps)",
+    "status": "proposed",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "tags": [
+    "boundary:essay-editor-packages",
+    "topic:essay-editor",
+    "topic:semantic-context"
+  ],
+  "createdAt": "2026-11-04T13:16:30.658940469+00:00",
+  "updatedAt": "2026-11-04T14:05:00.340525913+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
