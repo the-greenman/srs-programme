@@ -1,0 +1,13 @@
+{
+  "instanceId": "f7e3952b-4e57-4c38-9837-b658fe149147",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "A second suggested revision of this domain, from the owner's vignettes 38c2e274 and 3c77ed20 (2026-11-04). It adds to comment 10007219. Agents do not edit Affirmed records, so the wording is proposed here.\n\nPurpose, add: \"The editor is also the usable proof of concept of the stack and the way people come to experience it: the editor is local-first at the level where many people engage with AI, SRS is the local-first tooling beneath it, and muDemocracy is about re-establishing decision-making sovereignty. Our own essays are the first dogfood, and an essay on our websites is a presentation of the stack.\"\n\nOut of scope, the line 'Distribution beyond publishing the writer's own essays' still holds: the two websites publish our own essays.\n\nOpen: the name 'Evidence-backed writing' describes the writer's purpose and not the front door. Vignette c020fd77 speaks of an essay editor context within a web editor domain. Whether this domain is renamed, or a separate domain is split off, is the owner's."
+  },
+  "createdAt": "2026-11-04T13:48:49.831671899+00:00",
+  "updatedAt": "2026-11-04T13:48:49.831685227+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

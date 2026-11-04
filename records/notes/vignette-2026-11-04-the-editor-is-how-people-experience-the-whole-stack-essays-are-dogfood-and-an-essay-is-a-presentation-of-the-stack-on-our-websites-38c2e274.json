@@ -1,0 +1,24 @@
+{
+  "instanceId": "38c2e274-235d-430e-8614-264ddfbc7416",
+  "title": "Vignette 2026-11-04: the editor is how people experience the whole stack; essays are dogfood, and an essay is a presentation of the stack on our websites",
+  "tags": [
+    "vignette",
+    "topic:essay-editor",
+    "topic:dogfood",
+    "topic:websites",
+    "topic:reader"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The editor now becomes the way that people experience our whole technical stack. The essays I write about our work should be dogfood. The essay view probably needs to become something I can plug into mudemocracy and semanticops websites. A blog post or, well, essay, should be a presentation of the stack. "
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim. The opening 'Yes.' is omitted."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
