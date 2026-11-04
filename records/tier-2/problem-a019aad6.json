@@ -1,0 +1,29 @@
+{
+  "instanceId": "a019aad6-d5f0-48a8-b292-65cb8e20028c",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-100",
+    "title": "A group's meetings cannot enter its own corpus without a hand step",
+    "statement": "A recorded meeting reaches the corpus only through a person: the audio is transcribed elsewhere, the text is held outside the repository, and someone reads it and files what they find. So most meetings are never mined, the ones that are arrive weeks late and partial, and nothing in the corpus can quote the moment a problem was spoken.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-11-04 (vignettes b375dae1, whisper-plan): \"what if we had a local whisper server that we can also plug into the repo via mcp. Then I can record transcripts directly into the srs container\"; \"For my mozilla grant I'm interested in seeing if there is some work that we can do that we can use a local model for\"",
+      "Decision 24ed7a61: local models detect, frontier models write"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "topic:local-models",
+    "topic:transcripts"
+  ],
+  "createdAt": "2026-11-04T14:42:04.834790814+00:00",
+  "updatedAt": "2026-11-04T14:42:04.834793068+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

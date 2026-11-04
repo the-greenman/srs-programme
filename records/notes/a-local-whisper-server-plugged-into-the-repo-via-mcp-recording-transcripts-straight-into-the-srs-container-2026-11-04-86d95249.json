@@ -1,0 +1,23 @@
+{
+  "instanceId": "86d95249-c844-48cd-b750-af36779af5c4",
+  "title": "A local whisper server plugged into the repo via MCP, recording transcripts straight into the SRS container (2026-11-04)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:local-models",
+    "topic:transcripts",
+    "topic:mozilla"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "So, my bigger plan has always been to set up a separate TSS format for managing transcripts. But, what if we had a local whisper server that we can also plug into the repo via mcp. Then I can record transcripts directly into the srs container. This should just work as a package? And then a runnable container that could connect and stream in the transcription?"
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
