@@ -1,0 +1,23 @@
+{
+  "instanceId": "920ab2a5-86c0-4a22-8559-da8c0794181a",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Record duplicate in the core: may the owner's srs-web#607 ruling be recorded as a decision, so srs-rust#1505 becomes group work?",
+    "thinking_reached": "Checked 2026-11-04 against srs-rust origin/master 99e5594 and srs-web main. Record duplication (create a successor, deep-copy field values, field meta and instance meta, add derived-from, recreate only the relations the caller selects) lives in two clients: srs-web `src/lib/record-duplication.ts` (srs-web#607) and the muDemocracy site editor's `site-editor/src/model.ts` (muDemocracy.org#379). `record fork` and `container copy` exist in the core; neither does this. The owner ruled on srs-web#607 on 2026-10-28 (comment): option (b), the srs-web helper merges as a tracked temporary stopgap, and an srs-rust core service `record duplicate` (core + CLI + WASM) replaces it. srs-rust#1505 is shaped and planned for that service, but its only ruling is that comment. Under decision 0b1c25b1 a thread is not a ruling, and the service adds a CLI command, a payload struct and a WASM binding, so no srs-rust ADR can carry it alone.",
+    "tensions": "Option A: record the 2026-10-28 ruling as a short decision (capability layering: record duplicate is one core service; the srs-web helper is temporary), then srs-rust#1505 is ready Door 1 work. Option B: treat duplicate as a mode of `record fork` (one way per goal: Conformance) and record that instead, so the core gains a flag rather than a command. Option C: leave duplication in the clients until a third client needs it. Group tools reimplement meaning in the client (SP-05) pulls toward A or B; one way per goal pulls toward B.",
+    "unresolved_questions": "1. Is duplicate a separate command or a mode of record fork (fork replaces, duplicate does not)? 2. Which relations are recreated by default (none, the caller selects)? Evidence that would choose: whether fork's successor and replacement semantics can be switched off without a second meaning for fork.",
+    "blocking": "srs-rust#1505 cannot be promoted to ready; the srs-web helper (srs-web#607) and the muDemocracy copy stay in place.",
+    "next_action": "Owner: confirm option A (record the 2026-10-28 ruling as a decision) or choose B. Recommendation: A, as stated on srs-web#607; the Steward records it, then the analyst promotes srs-rust#1505."
+  },
+  "createdAt": "2026-11-04T12:17:21.964539639+00:00",
+  "updatedAt": "2026-11-04T12:17:21.964553642+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-analyst",
+    "name": "Third-party-ready analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

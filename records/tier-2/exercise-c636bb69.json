@@ -1,0 +1,23 @@
+{
+  "instanceId": "c636bb69-e353-49df-ab0a-55b6342f9d8b",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Render one section of a composition: what should `render composition --container` mean, so srs-rust#1510 has a ruling?",
+    "thinking_reached": "Checked 2026-11-04 against srs-rust origin/master 99e5594 with release v0.1.0-build.576. The spec composition has nine container-subset sections, one per Part. `srs render composition --container <Part>` renders all nine sections against that one container (about 905 kB instead of about 100 kB): on render, --container silently re-points every section. `--instance` scopes to a record and its subtree but cannot name a concept container. srs#983 therefore splits the rendered markdown by headings in a script (`scripts/lib/agent-pages.mjs`). srs-rust#1510 is planned (a --section selector; one meaning for --container) but states `Ruling: none`. RFC-043 puts order on the Container and RFC-036 keeps presentation in the view layer; neither says what selecting part of a composition means, and srs#851 (compositions stop naming containers, RFC-050 Draft) may change the sections' shape.",
+    "tensions": "Option A: a --section selector (by index or title) renders one section with its own typeFilter and dispatch; --container on render is refused when every section names its own container. Option B: --container keeps one meaning on render, scope the section whose source is that container. Option C: wait for RFC-050 (srs#851), since sections that no longer name containers change what selecting one means. Portability and the group's lean (Office, Portability, Evolution) favour a core render over a client splitter; Evolution warns against fixing a CLI meaning RFC-050 may remove.",
+    "unresolved_questions": "1. Does selecting a section belong to the render request (CLI and WASM) or to a Composition of its own per Part? 2. Should --container on render be refused or redefined? 3. Does RFC-050 settle this first? Evidence that would choose: RFC-050's section shape once it leaves Draft, and whether other publishers (muDemocracy site) need per-section pages.",
+    "blocking": "srs-rust#1510 cannot be promoted; srs#983's agent pages keep a heading splitter in a script (SP-123).",
+    "next_action": "Owner: choose A, B or C. Recommendation: B for --container (one meaning, never a silent re-point) with A's selector, recorded as a short decision under RFC-036 (presentation in the view layer); then srs-rust#1510 becomes ready work."
+  },
+  "createdAt": "2026-11-04T12:17:22.255041813+00:00",
+  "updatedAt": "2026-11-04T12:17:22.255050988+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-analyst",
+    "name": "Third-party-ready analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
