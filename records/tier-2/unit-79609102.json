@@ -6,7 +6,7 @@
   "typeName": "unit",
   "fieldValues": {
     "title": "Transcripts recorded straight into an SRS container with local whisper, mined locally",
-    "summary": "One deployable bundle (the-greenman/transcribe): a local whisper server, a bridge that writes one utterance record per segment into a transcript container, the com.semanticops.transcript package, and the local detector after it. Answers SP-100 for muSrs first; the Mozilla Human-Scale AI application's one end-to-end local loop.",
+    "summary": "One deployable bundle (the-greenman/transcribe): a local whisper server, a bridge that writes one utterance record per segment into a transcript container, the com.semanticops.transcript package, and the local detector after it. Answers SP-156 for muSrs first; the Mozilla Human-Scale AI application's one end-to-end local loop.",
     "decision_mode": "complicated",
     "issue_ref": [
       "muDemocracy.org#432"
@@ -21,7 +21,7 @@
     "topic:transcripts"
   ],
   "createdAt": "2026-11-04T14:42:05.178984059+00:00",
-  "updatedAt": "2026-11-04T14:44:02.366014298+00:00",
+  "updatedAt": "2026-11-04T14:46:09.686282496+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"

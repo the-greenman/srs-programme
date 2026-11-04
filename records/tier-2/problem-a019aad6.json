@@ -5,7 +5,7 @@
   "typeNamespace": "com.semanticops.method",
   "typeName": "problem",
   "fieldValues": {
-    "problem_id": "SP-100",
+    "problem_id": "SP-156",
     "title": "A group's meetings cannot enter its own corpus without a hand step",
     "statement": "A recorded meeting reaches the corpus only through a person: the audio is transcribed elsewhere, the text is held outside the repository, and someone reads it and files what they find. So most meetings are never mined, the ones that are arrive weeks late and partial, and nothing in the corpus can quote the moment a problem was spoken.",
     "kind": "condition",
@@ -20,7 +20,7 @@
     "topic:transcripts"
   ],
   "createdAt": "2026-11-04T14:42:04.834790814+00:00",
-  "updatedAt": "2026-11-04T14:42:04.834793068+00:00",
+  "updatedAt": "2026-11-04T14:46:09.534894556+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"
