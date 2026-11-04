@@ -1,0 +1,27 @@
+{
+  "instanceId": "e182fed6-d924-467a-b15e-0f38af4e512e",
+  "title": "An essay finds published packages and installs what it needs (2026-11-04)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essay-editor",
+    "topic:semantic-context",
+    "topic:packages"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "Lets start with the basics. The real next step is allowing for the installation of packages. An essay should be able to find a list of published packages and install what is needed."
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim. Given as the answer to two asks on muDemocracy.org#431: whether problem should require persona and scale, and whether essay should carry a claim type."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
