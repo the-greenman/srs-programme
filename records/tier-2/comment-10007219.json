@@ -1,0 +1,13 @@
+{
+  "instanceId": "10007219-70e8-4349-a9c2-162ffdf598d2",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Suggested revision of this domain, from the owner's vignettes of 2026-11-04 (conversation 017606e8). The domain is written only for the writer, and the owner has named the reader as the next persona. Agents do not edit Affirmed records, so the wording is proposed here.\n\nPurpose, add at the end: \"The finished piece is also for its reader: a person it is sent to, who reads it as a final product and can see what it rests on.\"\n\nIn scope, add: \"A reader sent an essay: the read-only finished text without the comments it was built on, with its links, sources and references available. A reader going further through an agent, if they choose to.\"\n\nOut of scope, add: \"A reader editing the essay.\"\n\nOpen tension: the out-of-scope line \"Distribution beyond publishing the writer's own essays\" stays as written, on the reading that an essay shared from Google, Dropbox or a public repository is still the writer's own publishing. The owner has not ruled on that."
+  },
+  "createdAt": "2026-11-04T13:03:54.236528412+00:00",
+  "updatedAt": "2026-11-04T13:03:54.236532609+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
