@@ -1,0 +1,28 @@
+{
+  "instanceId": "c4acef1a-4cbe-4715-a3fa-577eb30ed0ba",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "An essay exported whole: how a child container stays open to agent filing (srs-web#634)",
+    "decision_question": "The essay container must declare its comments and references containers as children so one slice export carries the essay (srs-web#634). The engine write guard protects a container's whole closure, so doing that stops agents filing comments and references. Which course do we take?",
+    "context": "Problem: Owner ruling 2026-10-28 says an essay must export without losing anything. srs-web#634 plans to do it by declaring the draft, bin, comments and references containers as childContainerIds of the essay container. Tested on the real engine (build 576, 2026-11-04): with those children declared, an agent session with the essay write guard gets 'container ... is protected; record_create is not allowed on it' when filing a comment. The editor deliberately keeps these containers out of the essay's closure for this reason (essayWriteGuard comment; the snapshot bundle exists to carry them). Why it matters: agents filing comments and research candidates into those containers is the essay research loop and the owner ruling that agents never write essay text but may comment. Options and consequences: (A) core change: the guard exempts listed containers even when they are descendants of a protected one; export whole, agent loop intact, needs an srs-rust change (capability layering). (B) keep the snapshot bundle and make it the self-contained container the owner asked for, created up front with threads included; no core change, but the essay container itself still exports incomplete and a second container exists. (C) declare children and relax the guard in the client by listing the comments and references containers as non-protected; engine rejects it today because protection follows the closure, so not possible without A. (D) do nothing: #634 stays blocked. Recommendation: A, filed in srs-rust, then build #634 as planned; B as the interim. Action needed: choose A or B. Urgency: low, no harm until chosen; #634 and the muSrs coherence allowlist wait.",
+    "friction": "Plan step 1 and the write guard cannot both hold on the current engine; discovered while building, not before.",
+    "alternatives_considered": "A: guard exemption in the core. B: bundle as the self-contained container (interim). C: client-side relax (not possible today). D: do nothing.",
+    "key_requirements": "An essay slice export loses nothing (owner, 2026-10-28). Agents can still file comments and references and cannot edit essay text. Semantics stay in the core.",
+    "decision_statement": "Add to the engine write guard a way to leave named containers writable although they lie inside a protected closure (srs-rust issue under semanticops.com#31), then declare the essay's child containers as srs-web#634 plans. Until it lands, #634 waits.",
+    "rationale": "One way per goal and capability layering: the protection rule is core semantics, so the exemption belongs there; a client workaround would reimplement it.",
+    "revisit_when": "The srs-rust guard change lands, or the owner prefers B.",
+    "next_steps": "If A: file the srs-rust issue, parent it under semanticops.com#29, release the claim on srs-web#634 to ready with a blocked-by link. If B: rewrite #634 around the bundle."
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-11-04T08:28:12.541503954+00:00",
+  "updatedAt": "2026-11-04T08:28:12.541514463+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
