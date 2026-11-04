@@ -1,0 +1,31 @@
+{
+  "instanceId": "bfa7c1ad-ed03-43cc-8311-ffb88457eaf2",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A web-editor export could not be merged back into muSrs in the editor, though nothing conflicted",
+    "summary": "On 2026-11-04 the owner reported that the web editor could not merge a muSrs export (musrs.srs, downloaded 2026-11-03) back into muSrs, and asked an agent to do it. The export's work had stopped at landing: a new essay and its evidence sat in a downloaded file while main moved on. A file-level three-way comparison found no path changed on both sides, so the merge had nothing to resolve.",
+    "evidence": [
+      "musrs.srs: based on muDemocracy.org 59aa818, identified by comparing it with recent commits. Against that base it changes 117 paths: 116 new, one edit",
+      "main had changed 121 paths since that base; none is among the 117",
+      "Landed by an agent as muDemocracy.org#429, by copying those 117 paths in a worktree and running the CI steps",
+      "The new corpus gates passed apart from one quotation that failed check-quote-fidelity on its [sic] mark, fixed in the same PR",
+      "Not observed: the editor's own failure. The agent saw neither the error nor the attempt, so the cause in the editor is unknown"
+    ],
+    "body": "What is known is that this case was easy: the export only added to the corpus, and the per-entry container layout (RFC-051) left no shared file to conflict on. Why the editor stopped is still to find out, starting from the owner's account of what it showed. srs-web#251 tracks the three-way merge experience for concurrent tree commits and may be related; this finding does not establish that. An agent merge also needs its own care: copying the whole export over main would silently revert main's later changes to files the export left alone. That happened in the worktree during this merge (12 files) and was caught before commit, so only the paths changed against the base may be copied."
+  },
+  "tags": [
+    "flow-stop",
+    "corpus:muSrs"
+  ],
+  "createdAt": "2026-11-04T13:22:15.876128703+00:00",
+  "updatedAt": "2026-11-04T13:22:15.876137044+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
