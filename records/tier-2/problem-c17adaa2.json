@@ -1,0 +1,23 @@
+{
+  "instanceId": "c17adaa2-4afa-4de6-8cd3-258b622c06ad",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-148",
+    "title": "A subdomain does not inherit its parent's personas, axes and poles",
+    "statement": "I need a subdomain to start with its parent's axes and poles and the parent's personas offered, and then localise the names and keep only the primary personas. Today each persona-in-domain and axis-in-domain is copied by hand with a refines link, so inheritance is a convention agents follow unevenly, and a parent domain cannot show the influences from its subdomains and siblings or hold the general problems its subdomains assume.",
+    "kind": "capability",
+    "source_ref": [
+      "Owner, 2026-11-04: vignette c020fd77 (srs-programme, conversation 09be2f75)"
+    ]
+  },
+  "createdAt": "2026-11-04T10:11:55.702073008+00:00",
+  "updatedAt": "2026-11-04T10:11:55.702074598+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

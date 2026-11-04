@@ -1,0 +1,24 @@
+{
+  "instanceId": "1f855eca-6d21-46a2-9abf-64879b1fd267",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-147",
+    "title": "The roadmap is organised by objective while understanding is organised by domain",
+    "statement": "I need to see the future of each domain (the generic web editor, within it the essay editor and the website editor) and set its priorities there, then grow outward. The roadmap is a flat list of objectives and epics with no domain in it, and the domain understanding lives on the boards with no priority in it, so I have lost sight of the roadmap.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-11-04: vignette c020fd77 (srs-programme, conversation 09be2f75)",
+      "clerk roadmap --json, 2026-11-04: seven objectives, thirteen epics, no domain"
+    ]
+  },
+  "createdAt": "2026-11-04T10:11:55.288557555+00:00",
+  "updatedAt": "2026-11-04T10:11:55.288559031+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
