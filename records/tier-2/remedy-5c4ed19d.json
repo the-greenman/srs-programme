@@ -1,0 +1,27 @@
+{
+  "instanceId": "5c4ed19d-db8f-4cbe-97e8-178e70736aa8",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "An essay finds published packages and installs what it needs",
+    "move": "An essay can see a list of published packages, what each one is for and what it would add, and install one with its dependencies. The writer does this from the editor, and a connected agent can read the same list and suggest an install, which the writer confirms. The list is an ext:registry catalog; the essay package keeps only what every kind of writing needs, and everything else arrives this way.",
+    "does_not_fix": "Publishing by groups outside this programme, trust and signing of third-party packages, subset export and binding (RFC-047, srs#871). Defining new types in an essay (exercise fafd9091). An agent installing without the writer's confirmation.",
+    "falsifier": "A writer whose essay needs something the essay package lacks, such as a story's characters, cannot find and install it without leaving the editor or asking someone, or an install succeeds and the types are still unusable.",
+    "source_ref": [
+      "srs-programme: vignette e182fed6-d924-467a-b15e-0f38af4e512e (2026-11-04)",
+      "srs-rust#1153",
+      "muDemocracy.org#293"
+    ],
+    "return_when": "When a second package beyond essay has been installed into a real essay from the list, by a writer or through an agent."
+  },
+  "createdAt": "2026-11-04T14:21:28.947482927+00:00",
+  "updatedAt": "2026-11-04T14:21:28.947484518+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
