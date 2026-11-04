@@ -1,0 +1,21 @@
+{
+  "instanceId": "0d1c7493-955b-48a9-b5bf-37145952868c",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A cleaner removes records from an exported essay",
+    "move": "Run a cleaner over an exported essay that removes records, comments first, so the file shared with a reader no longer holds them.",
+    "does_not_fix": "Until it exists, a shared file still carries its comments, draft and bin. It does not decide which records go, or what context an agent reading the cleaned file should still have (vignette f32cc637). It does nothing for what a reader sees (SP-150), and it does not cover muSrs renders, the original case of SP-124.",
+    "falsifier": "A cleaned essay still exposes comment text anywhere in the file, or fails validation because the removed records leave relations or containers dangling.",
+    "source_ref": [
+      "srs-programme vignette 53fd0e50 (the owner, 2026-11-04)",
+      "srs-web main 8b2fedb, src/lib/essay/essay-document.ts: refreshBundle declares what the snapshot carries and exportSlice writes it, a possible starting point (not assessed)"
+    ],
+    "return_when": "Writers need to choose record by record what stays, rather than removing fixed kinds."
+  },
+  "createdAt": "2026-11-04T13:25:35.545455621+00:00",
+  "updatedAt": "2026-11-04T13:25:35.545457879+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
