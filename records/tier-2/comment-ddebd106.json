@@ -1,0 +1,13 @@
+{
+  "instanceId": "ddebd106-05e4-4cc7-8f80-3be3c0842ae0",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Tension kept open, from conversation 017606e8 (2026-11-04). This cycle's principle admits a new feature only when a funding essay cannot be written without it. The reader's problems (SP-150, SP-151, SP-152) are not about writing, so by this boundary they wait. But a funding essay is sent to someone, and that someone is a reader, so whether the principle should read 'written' or 'written and read' is a question for the owner. The agent's reading, not a ruling; nothing here changes the principle."
+  },
+  "createdAt": "2026-11-04T13:19:44.458815604+00:00",
+  "updatedAt": "2026-11-04T13:19:44.458817174+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
