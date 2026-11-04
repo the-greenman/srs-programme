@@ -412,6 +412,26 @@ The owner pre-approved the whole sequence, W1 to W7 (decision 51054b3c, ratified
 
 **Background the exercise had not cited.** `greenmans_creation/sgis/` (the owner, 2026-05) is a "synthetic semantic GIS" schema: a space partitioned by axes (a lens is a finite, exclusive, exhaustive set of categories), an axis carrying `topology_behavior` and a `lens_universality_claim` with a falsifiability note and a confidence, `derived_axis` with competitors, and `mapping_claim` ("mappings are claims, never hard-coded equivalences") with scope, exceptions and competing claims. That is the same shape as the axis-in-domain records (decision cdd272a3: polarity assigned per domain and per axis) and the zodiac-line correspondence (discovery 15): a mapping is a judgement with a confidence, and the structure holds competing judgements side by side. The owner named it on 2026-11-04 (vignette for this session) as potentially interesting; `research/decisions/` there holds an earlier compass-artifact decision study and `workspace/muDemocracy/decision-practice-synthesis.md` the six-type taxonomy already in the Sources table.
 
+### 19. A small encoder cannot learn the lines from 101 decisions; the stance is not in the surface text (2026-11-04)
+
+**Why.** The owner (vignette 5dd0ff41, 2026-11-04): "lets look at an encoder fine tune"; recognising the T3 axes is part of the bigger work on semantics at scale, deeper than decisions, and the-system-networks applies the same three poles to actors within a boundary (its survey's three binary questions are Act/Observe, Disrupt/Stabilise, Focus/Zoom out). Discovery 18.3 left the fine-tune as a remaining move.
+
+**Method.** `semanticops/local-lab/encoder.py`, same gold as discovery 18 (metastable lines skipped), every item scored by a model that never saw it (stratified k-fold). Two rungs: frozen sentence embeddings (bge-small, bge-base) with a balanced logistic regression; and a SetFit contrastive fine-tune of bge-small per line (5 folds, 1 epoch, 10 pair iterations, CPU, 4 hours). Table: `encoder-models-2026-11-04.tsv`.
+
+| classifier | line 1 | line 2 | line 3 |
+|---|---|---|---|
+| two human raters | 0.90 | 0.84 | 0.81 |
+| best prompt (haiku) | 0.50 | 0.59 | 0.56 |
+| bge-base frozen + LR | 0.44 | 0.39 | 0.18 |
+| bge-small frozen + LR | 0.42 | 0.33 | 0.03 |
+| bge-small SetFit fine-tune | 0.08 | 0.39 | 0.00 |
+
+**Findings.**
+
+1. **The small-encoder route is closed at this data size.** Frozen embeddings reach a third to a half of the human kappa on lines 1 and 2 and nothing on line 3. The fine-tune is worse: on the two skewed lines (about 85% one pole) it collapses to the majority pole, accuracy equal to the baseline and kappa 0. A 33M-parameter encoder with 80 training items per fold learns the prior, not the stance.
+2. **The stance is not in the surface text.** Line 2 needs the practice before the decision (discovery 8), line 3 needs who decides (discovery 10). Those are facts about the context the text does not state; a prompted model infers them from the decision's own wording and the examples, an embedding has nothing to embed. This is the same lesson as the raters' boundary-first procedure: the rating is a judgement about a boundary, made before reading the option.
+3. **What would change it.** More gold where the lines are applied, not inferred: the option-level ratings (discovery 12), and the-system-networks survey answers, where a person answers the three questions directly about an actor. Or the feature the raters use made explicit, the boundary and the status quo written as text beside the decision, and fed to the classifier. Until then the cheapest reliable reader is a prompted model: a local 7B for line 1 (kappa 0.50, equal to haiku) and a frontier model for lines 2 and 3; the two-step prompt (name the boundary and the practice before, then rate) is the next experiment, and it is a prompt experiment, not a training one.
+
 ## Open questions
 
 1. Does Authority replace Mandate, or widen it? Are Gate and Lean kinds, or attributes?
@@ -433,6 +453,6 @@ The owner pre-approved the whole sequence, W1 to W7 (decision 51054b3c, ratified
 - Add the 40 earlier programme decisions and the srs-context decisions.
 - A property matrix (all ten properties per decision) so clusterings can be recomputed as decisions arrive.
 - Cross the T3 code with the object clustering: which object × orientation pairs recur. (The cross with `decision_kind` is done: discovery 18.4, too sparse.)
-- Rate the 101 with the raters' boundary-first procedure as a two-step prompt, and fine-tune a small encoder on them; see whether either reaches the human kappa (discovery 18.3).
+- Rate the 101 with the raters' boundary-first procedure as a two-step prompt (discovery 18.3). The small-encoder fine-tune is done and closed at this data size (discovery 19); reopen it when option-level or survey gold exists.
 - Rate line 3 both ways (attention and structure).
 - The owner marks up the assignments; disagreements become the record of what the axes mean for decisions.

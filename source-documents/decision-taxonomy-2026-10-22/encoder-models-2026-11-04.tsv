@@ -1,0 +1,5 @@
+classifier	line1_kappa	line2_kappa	line3_kappa	line1_acc	line2_acc	line3_acc	folds	seconds
+bge-small frozen + LR	0.42	0.33	0.03				10	10
+bge-base frozen + LR	0.44	0.39	0.18				10	20
+bge-small SetFit fine-tune	0.08	0.39	0.00	0.84	0.70	0.86	5	14625
+majority baseline	0	0	0	0.84	0.52	0.86		
