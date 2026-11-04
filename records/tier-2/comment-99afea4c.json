@@ -1,0 +1,18 @@
+{
+  "instanceId": "99afea4c-4eb9-4e61-be20-5329f28a9d88",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "A lock inside the server does not cover this as long as transport is stdio: each session runs its own server process (several were live on 2026-11-04), and an in-process lock cannot see the others. The lock needs to be a per-repository lock file, or the writers need to share one server process. A save pass would take the same lock file, so it never commits half a write. This comment is the agent's reading, not the owner's words."
+  },
+  "createdAt": "2026-11-04T13:36:34.186073781+00:00",
+  "updatedAt": "2026-11-04T13:36:34.186083857+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

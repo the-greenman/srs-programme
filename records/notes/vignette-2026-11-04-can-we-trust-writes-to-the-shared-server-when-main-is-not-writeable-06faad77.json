@@ -1,0 +1,28 @@
+{
+  "instanceId": "06faad77-7bb2-4db0-9c7b-4660891846ca",
+  "title": "Vignette 2026-11-04: can we trust writes to the shared server when main is not writeable?",
+  "tags": [
+    "vignette",
+    "topic:registry",
+    "topic:mcp",
+    "topic:sync"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "now that we have our srs mcp with shared repos, we should probably think a bit about what repos it actually points to and how they stay up to date. \nIdeally we should be able to trust our writes to the mcp. But how does this work for branches where main is not writeable? How do we keep in sync? \nClerk service?"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
