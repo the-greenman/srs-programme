@@ -1,0 +1,23 @@
+{
+  "instanceId": "ddce04fb-84a4-4b66-9c0b-5f3c4ac89e15",
+  "title": "Vignette 2026-11-04: we need a way to strip types of records on export",
+  "tags": [
+    "vignette",
+    "topic:essay-editor",
+    "topic:publishing",
+    "topic:export"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "yes. we need to be  able to have a way to strip types of records on export "
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim. Answers the proposal to publish each cited source's record and quotes, but not attached full documents."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

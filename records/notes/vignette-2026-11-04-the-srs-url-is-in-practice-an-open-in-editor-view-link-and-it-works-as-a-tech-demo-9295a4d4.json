@@ -1,0 +1,23 @@
+{
+  "instanceId": "9295a4d4-dceb-48b5-8c0d-b01f2abb1fa9",
+  "title": "Vignette 2026-11-04: the srs url is in practice an open-in-editor view link, and it works as a tech demo",
+  "tags": [
+    "vignette",
+    "topic:essay-editor",
+    "topic:view-link",
+    "topic:dogfood"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "yes. in pratice, it's probably an open in editor view link. It works as a tech demo"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim. Answers the question whether 'srs url' means an https link to a .srs file."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
