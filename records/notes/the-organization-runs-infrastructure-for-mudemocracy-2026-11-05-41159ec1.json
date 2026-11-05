@@ -1,0 +1,23 @@
+{
+  "instanceId": "41159ec1-448a-4f73-9900-dde8f9c42a0f",
+  "title": "The-Organization runs infrastructure for muDemocracy (2026-11-05)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:mudemocracy",
+    "topic:registration"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The-Organization runs infrastructure for mudemocracy"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-05, while settling who the privacy policy and terms name for app.mudemocracy.org; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
