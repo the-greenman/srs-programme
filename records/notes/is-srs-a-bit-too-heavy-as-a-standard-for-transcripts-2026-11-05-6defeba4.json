@@ -1,0 +1,23 @@
+{
+  "instanceId": "6defeba4-393e-4a65-96a1-fc1bcc1eed25",
+  "title": "Is SRS a bit too heavy as a standard for transcripts? (2026-11-05)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:transcripts",
+    "topic:tss"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Is srs just a bit too heavy as a standard for this?  We have planned to have an additional standard. \nor, since we are using only a subset of the functionality, will this actually be ok?"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-05; recorded verbatim, about holding transcripts as SRS records in a separate repository. Follows vignette e97cfe74."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
