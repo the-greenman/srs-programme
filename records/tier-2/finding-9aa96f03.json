@@ -1,0 +1,31 @@
+{
+  "instanceId": "9aa96f03-f6bf-4b9e-a6b4-3e2806a376a3",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A compass-settled ask still reads as a choice, so the owner clicks recommended",
+    "summary": "The compass ran on srs#998, but its result stops at the RFC: the ask shows a tension code and a pole, and offers as open a choice the compass has already settled. The gates being built would not touch this case, and a real meeting's review shows the fix is to split out standing rules so the decision beneath them is no longer asked.",
+    "evidence": [
+      "Owner, 2026-11-05 (vignette 43f236ce): 'these decisions are very hard to judge... So I tend to just click \"recommended\"'",
+      "srs#998 D1 and D2: both recommendations are the default pole; the RFC says 'one way over many' is 'what chooses between the options'; D2's why is that b2ff7c91 'requires' grouping by identifier",
+      "srs#998 D1 block as filed: A is labelled reliability though it reverses RFC-039's 'x-srs-field-id is retired'; B is labelled renewal though the RFC calls it 'closest to RFC-039's stated wish'",
+      "srs#998 D1 block as filed: the why says 'a lookup cannot fix a merged facet', while the B on offer includes a facet rule; the PR body says 'a lookup alone'",
+      "srs#998: RFC Open Question 1(c), 'A now, lookup later', is missing from the block; Open Questions 3 and 4 are 'decided unless the owner objects' and are not asks",
+      "clerk lib/practice/pr-decisions.mjs: an ask has no revisit, stakes, precedent or resolution-sentence field; line 117 warns only when both tension and why_unplaced are missing",
+      "clerk#269 as filed covers why_unplaced asks and settled Door 1 cases; clerk#268 as filed covers programme decision records; srs#998 is a placed Door 2 ask with id null, so neither touches it",
+      "7b91246b, the decision behind clerk#268, had status proposed and lifecycle draft on 2026-11-05, so no agenda could show it (clerk#239)",
+      "No open issue for a decision checklist on 2026-11-05: searched clerk, srs-programme, semanticops.com, muDemocracy.org, srs and srs-context",
+      "Owner's meeting review, 2026-11-04: one of seven first-attempt records held a single decision; 'standing rules hide inside one-off decisions, and actions get written up as decisions'"
+    ],
+    "body": "## What we learned\n\n1. **Applying the compass is not showing it.** A checker can confirm a section exists. What the owner needs is what the compass settled and what it left open.\n2. **A settled question is not a decision for the owner.** When the compass gives one answer, a recommendation only asks the owner to agree. That is why clicking it is the rational response, and why a low set-aside rate (0 of 110, finding 9b9f9434) says little about quality.\n3. **Standing rules are the lever.** The meeting review found that once a standing rule is split out, the one-off decision beneath it is no longer the committee's to make. In srs#998, 'an id travels beside its label in the same output' is that rule.\n4. **The real judgement can sit outside the asks.** In srs#998 it is the reversal of a standing statement, the change in a facet's meaning and two silent defaults.\n5. **A pole label is a claim.** It needs checking like any other, the 'citation present versus honoured' gap the compass's own observability audit names.\n6. **The format already existed.** muDemocracy's Minimum Viable Decision Recording guide has the four questions and read-back; the clerk's ask format does not use them.\n\nThe checks now live in the Decision checklist container, and each session reviews them."
+  },
+  "tags": [
+    "research",
+    "topic:decisions"
+  ],
+  "createdAt": "2026-11-05T19:12:47.895001599+00:00",
+  "updatedAt": "2026-11-05T19:12:47.895003249+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

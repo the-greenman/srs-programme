@@ -1,0 +1,21 @@
+{
+  "instanceId": "ff2102e9-4b25-40bd-b0f7-292544ac8adc",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "article_number": "DC-05",
+    "title": "Options",
+    "article_text": "The options that had genuine support, each saying what it leads to. Never \"none\": if nothing competed, the option was leaving things as they are. Checked by: mechanical for at least two options, a status-quo option and a 'leads to' on each; judgement for whether support is genuine.",
+    "rationale": "From the owner's meeting review and the owner's rule in vignette 8d4deae4: a decision presents a case for any option. Finding 9b9f9434 measured a case per option at 41%."
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:decisions",
+    "decision-checklist"
+  ],
+  "createdAt": "2026-11-05T19:13:58.393015688+00:00",
+  "updatedAt": "2026-11-05T19:13:58.393017883+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

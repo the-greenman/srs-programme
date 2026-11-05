@@ -1,0 +1,22 @@
+{
+  "instanceId": "32eea7cf-ebd8-4cf4-8561-4bb13a8905db",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Review: is the decision checklist helping the owner judge?",
+    "thinking_reached": "First version written 2026-11-05 from the owner's meeting review, the muDemocracy guide, the handbook's four tests and srs#998. DC-01 to DC-11 follow the meeting's checklist; DC-12 to DC-14 are additions from srs#998 and have not been tried. This exercise stays open and on every owner session's agenda until three reviews in a row change nothing.",
+    "tensions": "Thorough against light: every check added is a cost on each decision, and DC-11 must keep small decisions small.\nMechanical against judgement: a check a tool can pass can be filled to pass (9b9f9434: form 97%, substance 41%).",
+    "unresolved_questions": "At each session: Which decision was hardest to judge, and what was missing? Which check did you actually use? Which did nothing? Did you change or refuse a recommendation, and did a check prompt it? Record the answers as comments here, with any check changed.",
+    "next_action": "Review at the next owner session, using srs#998 as the first test case: does its rewritten block let the owner say what they are judging?"
+  },
+  "tags": [
+    "exercise",
+    "topic:decisions",
+    "decision-checklist"
+  ],
+  "createdAt": "2026-11-05T19:13:59.225848296+00:00",
+  "updatedAt": "2026-11-05T19:13:59.225851544+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

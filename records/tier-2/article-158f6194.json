@@ -1,0 +1,21 @@
+{
+  "instanceId": "158f6194-71df-480e-810d-e136e6d91943",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "article_number": "DC-11",
+    "title": "Proportionate",
+    "article_text": "A small decision gets a line, not a table. Checked by: judgement.",
+    "rationale": "From the owner's meeting review. In srs#998 a choice with no first-party readers took the same form as a reversal of a standing statement."
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:decisions",
+    "decision-checklist"
+  ],
+  "createdAt": "2026-11-05T19:13:58.893729094+00:00",
+  "updatedAt": "2026-11-05T19:13:58.893730672+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

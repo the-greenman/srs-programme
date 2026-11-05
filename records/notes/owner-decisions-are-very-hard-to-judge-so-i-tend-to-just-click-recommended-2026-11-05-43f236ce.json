@@ -1,0 +1,21 @@
+{
+  "instanceId": "43f236ce-1533-4c1d-8309-072bc22098a0",
+  "title": "Owner: decisions are very hard to judge, so I tend to just click \"recommended\" (2026-11-05)",
+  "tags": [
+    "vignette",
+    "topic:decisions"
+  ],
+  "sections": [
+    {
+      "name": "owner-words",
+      "label": "Owner's words (verbatim)",
+      "content": "Lets look at the decisions here: \nhttps://control.semanticops.com/control-room/#/pr/srs/998\n\nThen have a look in the programme for our recent research into decisions. \n\nFor me, these decisions are very hard to judge.  They don't really present me with the information I need to be able to judge them. \n\nSo I tend to just click \"recommended\" \n\nHave these gone through the compass? \nHave we got tasks in place to make sure that these decisions go through the compass first? \nHave we got issues in place the create a checklist for what makes a good decision? \n\nHere are some notes from a real meeting, and the work to improve the quality of decision records.  We should learn from the process."
+    },
+    {
+      "name": "meeting-checklist",
+      "label": "From the owner's meeting notes, verbatim excerpt (the meeting's own business is left out: this repository is public and the notes include a confidential item)",
+      "content": "Only one of the seven records holds a single decision. The rest bundle standing rules, actions and follow-on choices into one record.\nTwo patterns: standing rules hide inside one-off decisions, and actions get written up as decisions.\n\nChecklist for a good decision record\nRun each record through these before it goes in the minutes.\n[ ] One decision. The decision fits in one sentence in the active voice: \"We will…\" or \"We agree…\". If it contains \"and\", try splitting it.\n[ ] A decision, not an action. It removes future choices. Tasks that carry it out go in the action table.\n[ ] Standing rules stand alone. A rule that will apply next time gets its own record.\n[ ] Why. The reason someone outside the room would need, a year from now.\n[ ] Options. The options that had genuine support. Never \"none\": if nothing competed, the option was leaving things as they are.\n[ ] Revisit. A condition tied to the why, not only a date: a sign it isn't working, and a sign it has done its job.\n[ ] Delegation, if any. The role that holds it, the limit, and how it reports back.\n[ ] Whose decision. If it belongs to the office or a group, it's not an MC record; note it as information.\n[ ] No names. The committee, the chair, the office, the lead. Appointments to roles are recorded once.\n[ ] Read back. The chair read the decision sentence aloud and the committee agreed it.\n[ ] Proportionate. A small decision gets a line, not a table.\n\nSplitting out the standing rules shows that once a rule exists, the one-off decision beneath it isn't the MC's to make.\n\nThe meeting went fastest where it decided who decides, and slowest where it tried to settle the detail live.\nSend proposals with the papers, in this format. A proposal already set out as decided / why / considered / revisit lets the MC amend rather than draft.\nWrite down the standing rules made in passing. Unrecorded, they will be argued again.\nMake delegations explicit. Each one says who holds it, the limit, and how they report back."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

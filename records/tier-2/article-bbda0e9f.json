@@ -1,0 +1,23 @@
+{
+  "instanceId": "bbda0e9f-4302-4289-a627-01ad77e54c77",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "article_number": "DC-00",
+    "title": "Decision checklist",
+    "article_text": "Run every decision through these checks before it reaches the person deciding, whether it is a decision record or an ask in a pull request. Each check is one record in this container, marked as mechanical (a tool can test it) or judgement (a reviewer answers it). A small decision gets a line, not a table: DC-11 governs how much of the rest applies. This container is the one home for the checks: the handbook, the briefs and the tools cite them and do not restate them.",
+    "rationale": "The checks were scattered across the handbook's four tests, the framing rules in e56d6893, semanticops.com#37 and muDemocracy's Minimum Viable Decision Recording guide, and the owner could not judge what reached them (finding on srs#998). One record per check lets a review change, evidence or retire one check without touching the others.",
+    "amendment_rule": "While the review exercise is open, a check changes at a session review, or between sessions by a proposal commented on that exercise. Every change names the decision or review that prompted it. A check nobody used across three reviews is a candidate to retire.",
+    "revisit_when": "Not working: the owner still accepts recommendations without being able to say what they judged, or decisions passing the checks are still hard to judge. Done its job: three session reviews in a row change nothing, and the mechanical checks run in the clerk."
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:decisions",
+    "decision-checklist"
+  ],
+  "createdAt": "2026-11-05T19:12:47.939585449+00:00",
+  "updatedAt": "2026-11-05T19:12:47.939587103+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,21 @@
+{
+  "instanceId": "26fe9696-b5e0-41dc-9f33-246da9402c3e",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "article_number": "DC-14",
+    "title": "The stakes",
+    "article_text": "What it changes and for whom, what it forecloses, whether it can be undone, and what would make the recommendation wrong. Checked by: mechanical for presence; judgement for substance.",
+    "rationale": "From SP-91: judging needs the question, the stakes and the real options. The last clause is what the owner lacks when only clicking 'recommended' is possible."
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:decisions",
+    "decision-checklist"
+  ],
+  "createdAt": "2026-11-05T19:13:59.144712094+00:00",
+  "updatedAt": "2026-11-05T19:13:59.144714897+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

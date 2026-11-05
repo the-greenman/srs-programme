@@ -1,0 +1,21 @@
+{
+  "instanceId": "9832e4c6-1eb0-4155-83e4-2fc2265173c4",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "article_number": "DC-07",
+    "title": "Delegation, if any",
+    "article_text": "The role that holds it, the limit, and how it reports back. Checked by: judgement.",
+    "rationale": "From the owner's meeting review: the meeting went fastest where it decided who decides, and an unclear delegation stalled an item."
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:decisions",
+    "decision-checklist"
+  ],
+  "createdAt": "2026-11-05T19:13:58.556071589+00:00",
+  "updatedAt": "2026-11-05T19:13:58.556073408+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

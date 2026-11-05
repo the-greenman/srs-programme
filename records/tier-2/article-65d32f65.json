@@ -1,0 +1,21 @@
+{
+  "instanceId": "65d32f65-740c-4a32-ada9-77124238ca5c",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "article_number": "DC-10",
+    "title": "Read back",
+    "article_text": "The person deciding sees the decision sentence on its own and agrees that sentence, not a summary of it. Checked by: judgement, at the session.",
+    "rationale": "From the owner's meeting review and the muDemocracy guide, where the chair reads it aloud. Agents write most of our sentences, so this is the moment authority stays with the person deciding (SP-91)."
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:decisions",
+    "decision-checklist"
+  ],
+  "createdAt": "2026-11-05T19:13:58.814007943+00:00",
+  "updatedAt": "2026-11-05T19:13:58.814010105+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

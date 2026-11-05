@@ -1,0 +1,21 @@
+{
+  "instanceId": "6d4a831d-63d5-4aa5-94b7-c0cba5b85a33",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "article_number": "DC-13",
+    "title": "Precedent consulted",
+    "article_text": "The decisions and principles checked, by id, or a reason the list is empty. A reversal of a standing position is named as a reversal. Checked by: mechanical for resolvable ids; judgement for whether they bear on the question.",
+    "rationale": "From the owner's rule in vignette 8d4deae4 and proposed decision 7b91246b. Finding 9b9f9434 measured linked precedent at 12%."
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:decisions",
+    "decision-checklist"
+  ],
+  "createdAt": "2026-11-05T19:13:59.065042853+00:00",
+  "updatedAt": "2026-11-05T19:13:59.065049710+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

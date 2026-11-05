@@ -1,0 +1,16 @@
+{
+  "instanceId": "a04e8ab7-a81d-40a0-8718-17702fe0a955",
+  "title": "Owner: a place where we manage our decision checklist, reviewed often for a while (2026-11-05)",
+  "tags": [
+    "vignette",
+    "topic:decisions"
+  ],
+  "sections": [
+    {
+      "name": "owner-words",
+      "label": "Owner's words (verbatim)",
+      "content": "Lets update the learning in the programme. \nWe need to have a place where we manage our decision checklist. It will need to be reviewed often for a while."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
