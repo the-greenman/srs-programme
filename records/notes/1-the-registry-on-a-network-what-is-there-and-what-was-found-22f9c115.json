@@ -1,0 +1,31 @@
+{
+  "instanceId": "22f9c115-c9fe-4d45-83da-fe613d84bc85",
+  "title": "1. The registry on a network: what is there and what was found",
+  "tags": [
+    "research",
+    "topic:registry",
+    "topic:network"
+  ],
+  "sections": [
+    {
+      "name": "state",
+      "label": "State on 2026-11-04",
+      "content": "RFC-049 accepted 2026-11-02 (srs#913); srs-rust#1551 merged: `srs mcp serve --registry <file> [--default <id>]`. Transport is stdio only (rmcp 2, features server + transport-io); no HTTP crate anywhere in the workspace; RFC-049 `remote` locators answer `locator-unusable` (a ponytail comment: no remote transport yet). Writes: no locks, no transactions (batch seam a no-op until srs-rust#813), synchronous per-call file I/O, single-client by design (ADR-037). The only network path today is srs-web browser-hosted MCP through semanticops-relay (pairing-code OAuth, prk_ bearer keys, access by agreement). The engine knows no auth beyond the session Actor (RFC-046 createdBy: testimony, never authority). Federation decision 31e9fd27: steps 1 (RFC-049) and 3 (#1551) done; step 2, cross-repository relations, open."
+    },
+    {
+      "name": "findings",
+      "label": "Findings",
+      "content": "REST beside MCP: not now. MCP streamable HTTP is already an HTTP API; the three real clients have their adapters (srs-web WASM, srs-vscode CLI, agents MCP). REST earns a place only for HTTP caching, webhooks, cron-curl or a public developer platform; if one appears, generate routes from srs-mcp-core typed tool catalogue, no semantics.\n\nAuthentication: needed the moment the server leaves loopback, but never owned by the engine. rmcp transport-streamable-http-server behind a Cargo feature, loopback by default; the server accepts an identity assertion from a trusted front (Tailscale or identity-aware proxy, forward-auth header, or a static bearer-token file as the zero-dependency rung) and maps it to the session Actor. Spec-level MCP OAuth (RFC 9728 resource metadata, RFC 8707 audience) matters only for public MCP clients; the relay already does that flow and stays the public front. Authorization is which registry an identity is handed, with RFC-049 per-entry read-only; no permission ever enters a record.\n\nMulti-user: access and concurrent editing are different problems. Many readers plus serialized writes needs a per-repository write lock in the server. Concurrent editing: git branches and PRs (how the programme runs) before CRDTs (Automerge 3, Loro 1.x: heavy, built for prose co-editing); SQL as source of truth is ruled out; SQLite as a rebuildable index (notmuch pattern) is the sanctioned slot when registry-wide find is too slow.\n\nCoherence: the same HTTP transport that exposes a server is what makes RFC-049 remote locators resolvable, so it is the transport leg of federation, beside step 2, not ahead of it."
+    },
+    {
+      "name": "sources",
+      "label": "Sources",
+      "content": "MCP draft authorization spec (modelcontextprotocol.io/specification/draft/basic/authorization): OAuth 2.1 resource server, RFC 9728, RFC 8707; stdio SHOULD NOT use it. rmcp 3.5.1 (2026-10-05): StreamableHttpService as a Tower/axum service; rmcp-server-kit adds bearer, mTLS, JWT. Loro, CRDT is not enough (index beside CRDT). srs-context journal note 527eeeaf."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,24 @@
+{
+  "instanceId": "a4337305-7693-441c-aefe-09f7b16733ec",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-146",
+    "title": "Affirmation out of context loses the nuance, so acceptance becomes a click",
+    "statement": "I need to affirm a record while sitting in its domain, seeing the personas, the problems and remedies already mapped, the tensions and the conversations that generated it. Affirmation arrives as a flat queue of records with none of that around them, so I cannot see the nuance and I click accept most of the time.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-11-04: vignette c020fd77 (srs-programme, conversation 09be2f75)",
+      "Related: d00f101f, 4a085b1a (affirmed)"
+    ]
+  },
+  "createdAt": "2026-11-04T10:11:54.881034200+00:00",
+  "updatedAt": "2026-11-04T10:11:54.881036061+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

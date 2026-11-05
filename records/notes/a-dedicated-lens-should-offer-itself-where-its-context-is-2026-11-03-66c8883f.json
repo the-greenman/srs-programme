@@ -1,0 +1,28 @@
+{
+  "instanceId": "66c8883f-7d8e-4150-beb0-84b7122072d9",
+  "title": "A dedicated lens should offer itself where its context is (2026-11-03)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:lenses",
+    "topic:srs-web",
+    "topic:read-view"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "I think that we can make the ability to switch lenses more obvious. \nIf we have got a dedicated editor/lens for the current context, can we present it as a more obvious, contextually relavant option?"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-03; recorded verbatim (after srs-web began opening repositories in Read by default, srs-web#670, and the way back to the explorer and editors was only under Go > Explorer)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

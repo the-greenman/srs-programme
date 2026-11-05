@@ -1,0 +1,26 @@
+{
+  "instanceId": "58810bde-fcc2-4584-9dd4-fb85ef7af793",
+  "title": "Future paths: where the roadmap goes next",
+  "tags": [
+    "research",
+    "topic:roadmap",
+    "topic:future-paths"
+  ],
+  "sections": [
+    {
+      "name": "claim",
+      "label": "Claim",
+      "content": "A roadmap the owner can hold is built per domain, outward: understand one domain (its personas, problems, remedies, tensions and the conversations that made it), set its priorities there, then move sideways to a sibling or up to the parent. The objective/epic roadmap stays, but is fed from domains rather than replacing them."
+    },
+    {
+      "name": "story",
+      "label": "The story so far",
+      "content": "Opened 2026-11-04 from two owner vignettes in conversation 09be2f75: the registry drifting toward a network (662defe9) and each domain having its own future, with affirmation performed in context (c020fd77). The research notes below log what was found and what is settled; the boards hold the suggested problems and remedies derived from them."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

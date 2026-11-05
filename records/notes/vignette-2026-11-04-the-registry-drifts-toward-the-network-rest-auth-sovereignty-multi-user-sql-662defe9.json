@@ -1,0 +1,28 @@
+{
+  "instanceId": "662defe9-4e17-40ef-ac9d-b03f8cd2561b",
+  "title": "Vignette 2026-11-04: the registry drifts toward the network — REST, auth, sovereignty, multi-user, SQL",
+  "tags": [
+    "vignette",
+    "topic:registry",
+    "topic:network",
+    "topic:sovereignty",
+    "topic:multi-user"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Srs-rust now has a registry, so multiple repos can be served at once. At the moment it only exposes Mcp. Is there a value in exposing a rest API too?\n\nI'm now getting to a point where I am able to expose a set of repos. This has been designed to happen locally... But we are now drifting into territory where this could now be exposed on a network.\n\nDo I need to consider an authentication layer? Can this be introduced safely without bloat? Can I still maintain my sovereign principles?\n\nAnd then, this raises a different question... Multiuser access. If I'm considering this, do I also need to look at an SQL backend?\n\nSrs-labs is the place for autonomous experimentation. While I'm happy with poc work, the goal here is to understand the future of the roadmap. We can do experiments and dogfooding, but shouldn't undermine the system."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Owner, in conversation with Claude Code, 2026-11-04. Verbatim; two bare instructions (do research, use agents) omitted."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,26 @@
+{
+  "instanceId": "af8adbc2-6a50-45d9-8bb1-22fb34ffa3db",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A pull request with a red E2E check merged, and main stayed red for every later pull request",
+    "summary": "srs-web#711 merged on 2026-11-04 with E2E shard 1/3 failing, and main has no branch protection, so nothing stopped it. Its two new tests failed only in CI, which serves the built bundle over http, while a local run uses the dev server. Every later srs-web pull request then showed the same red check, which reads as that pull request's own failure until someone compares it with main.",
+    "evidence": [
+      "2026-11-04. srs-web#711 status checks: E2E (Playwright) 1/3 FAILURE, E2E (Playwright) FAILURE, merged 14:25 UTC. main CI at 7497922: failure. srs-web#713 CI: the same two tests, essay-home.spec.ts:22 and :27. GET branches/main/protection: 404 Branch not protected. Reproduced locally with CI=1. Fixed by srs-web#715 (issue #714)."
+    ],
+    "body": "The cause of the test failure is a bug: parseOpenUrl refused the app's own origin over http. Production is always https and was not affected. The stop is that a failing required-in-practice check did not stop the merge, and that the local gate cannot see the failure unless it is run with CI=1. Options to weigh: protect main so E2E is required; have the local gate run the built bundle. Neither is chosen here."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-11-04T15:12:37.552523138+00:00",
+  "updatedAt": "2026-11-04T15:12:37.552524654+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

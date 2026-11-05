@@ -1,0 +1,25 @@
+{
+  "instanceId": "a5fa4798-3b6b-46b0-9d23-bef99b7b7096",
+  "title": "Vignette 2026-11-04: attachments are not a place for big files",
+  "tags": [
+    "topic:attachment-policy",
+    "topic:musrs"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-11-04, answering ask A1 on srs-web#693: where a repository's attachment policy names no per-file limit or type list, should the web editor keep its own defaults (1 MB per file, text only)? Options put: keep the defaults; drop them to match the core (no policy = no limit); move the defaults into the core so every client shares them. The owner: \"Yeah. We still want to generally limit those files. This is not a place for big files.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim. Follows vignette 47326128 (the browser budget is a memory warning, not an attachment rule)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

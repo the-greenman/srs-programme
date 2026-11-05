@@ -1,0 +1,20 @@
+{
+  "instanceId": "f5856da1-5905-45c4-bb24-d3cc0fe6a743",
+  "typeId": "0ccd7c62-c29a-40d8-9ca0-ae25f579a112",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "stakeholder",
+  "fieldValues": {
+    "title": "Mozilla Foundation, Human-Scale AI Incubator",
+    "summary": "The owner's next immediate funding audience. Up to US$500,000 over three years for bespoke technology already deployed with the people it serves; a 12-month cohort from April 2027. Search summaries of the call give a deadline of 2026-11-20, 11:59 p.m. PST, and an info webinar on 2026-11-12.",
+    "source_ref": [
+      "srs-programme vignette f2d2ef6c (the owner, 2026-11-04)",
+      "https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/human-scale-ai/cohort/ (refused automated fetches on 2026-11-04; call details below come from search summaries)",
+      "https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/human-scale-ai/call-for-proposals/",
+      "https://mozillafoundation.tfaforms.net/w/humanscaleai (the application form, read 2026-11-04)"
+    ]
+  },
+  "createdAt": "2026-11-04T13:48:49.252615032+00:00",
+  "updatedAt": "2026-11-04T13:48:49.252618162+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

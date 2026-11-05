@@ -1,0 +1,22 @@
+{
+  "instanceId": "4c35c650-6e52-4551-a94e-36a9f12b4fad",
+  "title": "Vignette 2026-11-04: the dissenting art essay is for practice; a generic version comes before going live",
+  "tags": [
+    "vignette",
+    "topic:essay-editor",
+    "topic:publishing"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "We can use that for practice. I will create a generic version for publication before we go live"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim. 'That' is The dissenting art of collective action, proposed as the first essay."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

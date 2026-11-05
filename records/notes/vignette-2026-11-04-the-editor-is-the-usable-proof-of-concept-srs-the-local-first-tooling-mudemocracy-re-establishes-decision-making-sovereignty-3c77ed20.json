@@ -1,0 +1,24 @@
+{
+  "instanceId": "3c77ed20-a78d-42a8-968e-4279820bb84e",
+  "title": "Vignette 2026-11-04: the editor is the usable proof of concept, srs the local-first tooling, muDemocracy re-establishes decision-making sovereignty",
+  "tags": [
+    "vignette",
+    "topic:essay-editor",
+    "topic:sovereignty",
+    "topic:local-first",
+    "topic:mudemocracy"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The semanticops editor is our usable proof of concept. Its local first at the level where many people engage with AI. Srs is our local first tooling. mudemocracy is about reestablishing decision making sovereginty."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

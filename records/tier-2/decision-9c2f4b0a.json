@@ -1,0 +1,35 @@
+{
+  "instanceId": "9c2f4b0a-dd1a-4db8-b501-832b98adb0c9",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Classifiers are benchmarked on the T3 stance lines, where the labels are reliable; kinds stay an open taxonomy",
+    "decision_question": "Which classification do we benchmark small and local classifier models on: the problem `kind` facet, or the three T3 stance lines?",
+    "context": "The owner, 2026-11-03 (vignette 289c27a6): kinds are still being learned; the research in srs-programme has clusters and the trigram-based three-axis polarity notes; we can classify on the axes pretty reliably; that stance may relate to kinds. Evidence: on muSrs `kind` (five values, one-line definitions) claude haiku agrees with the owner's labels 45%, qwen2.5-7b 42%, gpt-oss-20b 41%, so no model reads the labels. On the T3 lines the taxonomy exercise (b430b7e0, discoveries 7, 8, 10) rated 101 decisions with two blind raters at kappa 0.90, 0.84 and 0.81 on the owner's definitions; t3-assignments-v3.tsv is a labelled set. Discovery 1 found the seven decision kinds are not working as a taxonomy (policy a catch-all, kind assigned after writing, closed enum loses misfits). Jev-class models (typesafe.ai) and their open equivalents (small encoder classifiers) take a structured question and return a label with a calibrated probability: a labelled, reliable set is their precondition.",
+    "alternatives_considered": "(a) Keep benchmarking on `kind`: every model sits at 41 to 45%, so the result measures the definitions, not the models. (b) Write a `kind` rule first and benchmark it: the owner says kinds are still being learned, so a rule now would freeze a taxonomy the clustering has not produced. (c) Benchmark on the T3 lines, where owner-rated gold exists at high agreement, and let kinds grow from clusters; test later whether stance predicts kind.",
+    "key_requirements": "The gold set is the owner's rating; the three lines are rated per decision within its own boundary; metastable ratings are skipped, never guessed.",
+    "decision_statement": "Classifier models (local, Jev-class, or frontier) are benchmarked on the three T3 stance lines against the owner-rated decisions. Problem and decision kinds stay an open taxonomy grown by clustering, and are not a benchmark target until a rule exists that the owner has affirmed.",
+    "rationale": "A classifier can only be as good as its labels. The axes have reliable labels and a definition that two blind raters can apply; kinds have neither yet. Benchmarking where the labels are reliable gives a true reading of the models, and the stance labels are themselves candidate evidence for what the kinds are.",
+    "revisit_when": "The taxonomy exercise names kinds that hold across two clusterings; or a classifier reaches 80% on `kind` without a rule, which would mean the labels were learnable and the one-line definitions were at fault.",
+    "next_steps": "Run local-lab axes.mjs on the 101 rated decisions for each candidate model; add a Jev-class or open encoder classifier as a row; cross the predicted stance codes with the object and time clusterings as the exercise's next action already names.",
+    "owner": "Programme owner",
+    "status": "proposed",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "suggestion",
+    "topic:local-models",
+    "topic:axes",
+    "topic:kinds"
+  ],
+  "createdAt": "2026-11-03T18:46:37.353824358+00:00",
+  "updatedAt": "2026-11-03T18:46:37.353828064+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

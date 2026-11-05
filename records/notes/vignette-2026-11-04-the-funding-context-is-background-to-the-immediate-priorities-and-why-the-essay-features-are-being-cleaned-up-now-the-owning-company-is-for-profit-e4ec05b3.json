@@ -1,0 +1,23 @@
+{
+  "instanceId": "e4ec05b3-8db4-4378-87f4-d62653b55069",
+  "title": "Vignette 2026-11-04: the funding context is background to the immediate priorities and why the essay features are being cleaned up now; the owning company is for profit",
+  "tags": [
+    "vignette",
+    "topic:essay-editor",
+    "topic:funding",
+    "topic:priorities"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "don't worry about the exact form of my application. At the moment the owning company is for profit. \nlets just use this for background on the immediate priorities, and why I'm cleaning up some of the essay features now"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim. It sets how the Mozilla records in this conversation (stakeholder f5856da1, comment 7f2f09e3) are to be read: as background, not as a plan for the application."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,24 @@
+{
+  "instanceId": "ba74196c-168e-474a-9b84-e0e05d2ffe62",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-144",
+    "title": "Two writers through one server have no ordering guarantee",
+    "statement": "I need a write I make through the registry server to land whole even when another agent writes to the same repository at the same moment. The services write files one call at a time with no lock and no transaction (the batch seam is a no-op until srs-rust#813), which is safe only while the server has one client.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-11-04: vignette 662defe9 (srs-programme, conversation 09be2f75)",
+      "srs-rust ADR-037; srs-rust#813"
+    ]
+  },
+  "createdAt": "2026-11-04T10:11:54.042081959+00:00",
+  "updatedAt": "2026-11-04T10:11:54.042083902+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

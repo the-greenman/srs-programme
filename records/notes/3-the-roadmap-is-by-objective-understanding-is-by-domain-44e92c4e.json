@@ -1,0 +1,31 @@
+{
+  "instanceId": "44e92c4e-2d1c-4f20-a46d-e331fb3413fa",
+  "title": "3. The roadmap is by objective; understanding is by domain",
+  "tags": [
+    "research",
+    "topic:roadmap",
+    "topic:domains"
+  ],
+  "sections": [
+    {
+      "name": "observation",
+      "label": "Observation",
+      "content": "`clerk roadmap --json` (2026-11-04): period Focus 1, seven objectives, thirteen epics, no domain anywhere. The parent CLAUDE.md still names scripts/roadmap.mjs, which no longer exists. Meanwhile the method layer holds 40 domain records (suggested and affirmed copies), 24 axis-in-domain, 112 poles, 74 tensions, 284 problems, all living flat in Suggestions / Affirmed / Set aside and filtered by type. Nothing joins an epic to a domain, and no view shows one domain whole."
+    },
+    {
+      "name": "owner_picture",
+      "label": "The owner's picture",
+      "content": "Web-based generic editor as a domain with its own priorities; within it the essay editor (the first vehicle for local-first, semantic-sovereignty ideas) and the website editor, each with its own personas, problem variants and archetypal lean. Today the nearest records are Evidence-backed writing (the essay domain, five personas-in-domain) and Website copy, which refines Evidence-backed writing and holds one persona (Site author). There is no Web editor parent domain; a parent would hold the general problems (GitHub connection, editor identity) the subdomains assume."
+    },
+    {
+      "name": "inheritance",
+      "label": "Inheritance",
+      "content": "Subdomains inherit the parent's axes and poles by default and localise the names; personas come down from the parent but only the primary ones stay relevant. One level down is enough for a view. Today axis-in-domain and persona-in-domain are copied per domain by hand, with refines to the generic tension or persona, so inheritance exists as a convention, not as a rule any tool applies."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

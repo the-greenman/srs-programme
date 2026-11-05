@@ -1,0 +1,21 @@
+{
+  "instanceId": "d442ce37-3881-40f2-be2f-6dc9c28c359d",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-150",
+    "title": "A reader sent an essay lands in the writer's workspace",
+    "statement": "I was sent an essay and want to read it. Either the writer exports it to something normal, which keeps the paragraph text but leaves behind what is attached to the paragraphs, or a read-only link opens it in the writer's editor, with word counts, a comment marker on every paragraph, and panels for Layers, Draft and Bin. I came for the finished piece, and neither gives me that as it is.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme vignettes 5dba4711 and badfc2aa (the owner, 2026-11-04)",
+      "srs-web main 8b2fedb, src/lib/essay/EssayShell.svelte and src/lib/annotations.ts: read-only makes the page and panels inert but still renders them (read from the code, not run)",
+      "muSrs/packages/essay/compositions/essay-79b8c032.json and views/paragraph-view-16210dc2.json: the export renders paragraph bodies only"
+    ]
+  },
+  "createdAt": "2026-11-04T13:19:43.970082013+00:00",
+  "updatedAt": "2026-11-04T13:20:57.204784694+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

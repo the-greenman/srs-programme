@@ -1,0 +1,24 @@
+{
+  "instanceId": "13ddec89-180e-4178-a52b-e73729e77133",
+  "title": "Vignette 2026-11-04: view agent help differs; paste the file url into an agent and it advises on connecting an MCP server",
+  "tags": [
+    "vignette",
+    "topic:essay-editor",
+    "topic:reader",
+    "topic:agent-interrogation",
+    "topic:editor-help"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The view agent help is a little different. We would ideally want to be able to paste the file url into an agent, and it should be able to provide advice to the user on how to connect and set up an mcp server."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim. The closing instruction (update the domain and personas first, then think about how to address this) is omitted."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

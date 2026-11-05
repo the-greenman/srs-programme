@@ -1,0 +1,24 @@
+{
+  "instanceId": "5dd0ff41-73f7-4cc7-9f78-391034716454",
+  "title": "Recognising the T3 axes is part of the bigger work on semantics at scale; the-system-networks applies them to mapping networks (2026-11-04)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:axes",
+    "topic:semantics-at-scale",
+    "topic:local-models"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Lets look at an encoder fine tune. the-system-networks is a human facing website that applies the axes to mapping networks -- actors within a boundary. The ability to recognise the T3 axes is part of a our bigger work into working with semantics at scale. It goes deeper than decisions directly, and is worth the continued work to validate"
+    }
+  ],
+  "createdAt": "2026-11-04T11:01:19Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

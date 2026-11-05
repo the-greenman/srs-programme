@@ -1,0 +1,40 @@
+{
+  "instanceId": "b875e3c8-9b52-4598-bdcf-2ca68998d01e",
+  "title": "Retrospective brief, 2026-11-03: the lessons of 39 run-reports, rated, with one decision to take",
+  "tags": [
+    "research",
+    "retrospective",
+    "topic:reports",
+    "topic:flow",
+    "flow-review"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "For the first retrospective session (handbook, Measurement and retrospective; never held). Twenty distinct lessons from section 7 of the 39 run-reports to 2026-11-03, each with its recurrence, its trace in the programme and a keep / change / drop / done disposition; the four indicators and nine measurement results with a suggested rating so the owner only agrees or overrules; one recommended decision with three alternatives. Ten minutes to read. Prepared by a read-only pass; the editor reports have no numbered sections, so their lessons come from the closing paragraphs. Only the 10-31, 11-01 and 11-03 editor reports have an explicit \"What we learned\"."
+    },
+    {
+      "name": "brief",
+      "label": "The brief",
+      "content": "39 `run-report` records read (24 TPR, 14 editor, 1 real use). Key: keep / change / drop / done.\n\n## 1. Lessons in section 7\n\n| # | Lesson | First | Last | n | Trace | Disposition |\n|---|---|---|---|---|---|---|\n| 1 | group-state and I1 window roll over at the 11:30 close: a close-time read is always empty | 10-24 | 11-03 | 10 | none (tools.md: `cycleStart..now`) | **change**: measure and close read the cycle just closed |\n| 2 | Budget reads 0/10 while the owner merges by hand; owner-merge is the bottleneck | 10-22 | 11-03 | 6 | clerk#164, #166 open; muDemocracy.org#373 | **change**: I2 counts quorum-carrying merges by gate; budget is a sub-line |\n| 3 | Pause works but costs a cycle per silent day; reports read as a heartbeat | 10-19 | 11-02 | 5 | finding 77568b7f; clerk#167 closed, #65 open | **change**: one-line ack counts; an owner-away notice suspends the pause |\n| 4 | Proposals left in `draft` are invisible to the session agenda (one hid 83h) | 10-20 | 10-25 | 3 | clerk#239 open | keep (ship #239) |\n| 5 | Fed queue, not review, is the limit; analyst rate sets throughput | 10-18 | 10-31 | 3 | allocate 2026-10-27 \"groups starve\" | keep (filed) |\n| 6 | Rejected PRs need a builder to move; red gates hold work for days | 10-25 | 11-02 | 3 | finding cb59a41b; clerk#235 open | keep (filed) |\n| 7 | Reviewer rejections are specific enough to act on; Door 2/3 stops as designed | 10-28 | 11-03 | 3 | decision 199dd369 | keep |\n| 8 | Schema-mirror drift reds every open PR after a spec merge; sync before review | 10-25 | 10-27 | 2 | clerk#235 open | keep (fold into #235) |\n| 9 | Escalation drafts wait days; nothing surfaces them before the next report | 10-22 | 11-03 | 2 | none | **change**: steward comments on #31 the hour an escalation is filed |\n| 10 | A ruling does not clear `needs-input` on the issue it answers | 10-27 | 10-31 | 2 | none | **change**: session record names issues to relabel; `clerk session` does it |\n| 11 | Decision record on a separate programme PR stalls after the code merged | 10-18 | 10-18 | 1 | none | **change**: record rides the code PR, or upkeep carries both |\n| 12 | An \"other\" ruling has no route to a task | 10-21 | 10-21 | 1 | clerk#132 closed | **change**: \"other\" writes a needs-input note on the source issue |\n| 13 | Quorum comment names a decision with no record; nothing to ratify | 10-24 | 10-24 | 1 | none | **change**: reviewer names the record id; pr-check fails without it |\n| 14 | Proposal path has no review step (8487fd7a merged without assent) | 10-30 | 10-30 | 1 | none | **change**: decision PRs carry a reviewer line like code PRs |\n| 15 | Builder omits the PR classification line | 10-28 | 10-28 | 1 | srs#716 closed; clerk#224 open | keep (#224) |\n| 16 | Two correct rulings can collide; an engine rule must hold them | 11-03 | 11-03 | 1 | 42fcc319 open | keep (filed) |\n| 17 | Real use: no author recorded; argument package heavier than used | 10-21 | 10-21 | 1 | srs-web#618; remedy c21da256 | keep (filed) |\n| 18 | Mandate chain works when affirmation comes first | 10-31 | 10-31 | 1 | editor report | keep |\n| 19 | Resolved: builder clock trigger (5 reports, srs-programme#131); report PRs sitting open (2, merge-on-green); duplicate escalations folded; srs#236 audit scope (b80d2d1e); routine env value (finding 6dbfc61c) | 10-10 | 10-23 | 10 | as listed | done |\n| 20 | Nine editor reports carry no section 7 | 10-20 | 10-30 | 9 | finding cccf2f6e | **change**: template requires section 7; pr-check fails without it |\n\n## 2. Indicators and results (suggested rating)\n\nIndicators:\n- **I1 Is work grounded?** useful: the one computed measure; right question, real baseline (5%).\n- **I2 Does work flow?** misleading as defined: 0/10 for 11 cycles while 5 to 15 PRs merged (lesson 2). Redefine before computing.\n- **I3 Does governance keep up?** useful, uncomputed: lessons 4, 9, 10 are what it would show. Compute first.\n- **I4 Does done mean done?** useful, uncomputed; no report touched it; lowest priority.\n\nResults (all I1, evaluator pending):\n- 5762dd13 (10-04..10-11, 15/297): useful; the only window large enough to mean anything.\n- 74b7cd7d, f5b58565, 7cc47de3, 2a16eeb1 (0/0, 10-28 to 11-03): misleading; window opened at the close, measures nothing (lesson 1).\n- abdd5bd3 (1/3), c027f838 (0/2), 8470c9f4 (0/1, editor), c19cc6d6 (0/1): noisy; n of 1 to 3, same wrong window.\n\n## 3. Recommended retrospective decision\n\n**Keep I1, I3, I4; change I2 and the measure window; drop the close-time per-cycle I1 result.** `measure` reads the cycle just closed; I2 counts quorum-carrying merges by gate; per-cycle I1 becomes a weekly I1 over all merged PRs. The ten \"change\" lessons (1, 2, 3, 9, 10, 11 to 14, 20) become one clerk issue each, filed by the steward with `Answers:` the measurement problem (decision 24d985d1).\n\nAlternatives:\n- **Keep as is**: eight more empty results a week to rate.\n- **Drop measurement until I2 to I4 exist**: ends the noise, loses the baseline and the only proof the loop closes.\n- **Change the window only**: empty results stop; the budget line still reads 0 while work lands (lesson 2 recurs)."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Derived from the review 7b2c742f and finding cccf2f6e (received reports leave no trace). The session acts it asks for: rate the nine results (the i key once clerk#264 lands, or in comments until then), and ratify or amend the retrospective decision, which the steward proposes in the decision log once clerk#268's check is in place."
+    },
+    {
+      "name": "review",
+      "label": "Decisions due for review",
+      "content": "The owner (vignette 213f49ee): stating the conditions for review is what makes decisions accountable; nothing tests ours. Two conditions are already met, by this brief's own evidence: 4a44396a (the bug fixer seat: its trigger never ran, finding 5d4f931c; amended by proposed 11a311a7) and 24d985d1 (measures I1 to I4: the I1 window is empty in ten reports, lesson 1). Take them in the same session: keep, supersede or set aside. clerk#270 builds the check so the next ones are found without a brief."
+    }
+  ],
+  "createdAt": "2026-11-03T15:09:57Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,20 @@
+{
+  "instanceId": "bf9b32f5-463d-4d4c-9fce-7b6db852b77e",
+  "title": "5. Open questions",
+  "tags": [
+    "research",
+    "topic:roadmap"
+  ],
+  "sections": [
+    {
+      "name": "questions",
+      "label": "Questions",
+      "content": "Does a Web editor parent domain exist, with Evidence-backed writing and Website copy refining it, or does Website copy keep refining Evidence-backed writing? Is a domain's priority a period of its own (programme periods per domain) or a rank inside the shared period? What is the affirmation act in a domain view: the existing fork into Affirmed, or the confidence tip? Which tool hosts the domain view: the control room in srs-lab, srs-web, or the clerk desk? How is a localised axis name recorded without a new axis-in-domain copy?"
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

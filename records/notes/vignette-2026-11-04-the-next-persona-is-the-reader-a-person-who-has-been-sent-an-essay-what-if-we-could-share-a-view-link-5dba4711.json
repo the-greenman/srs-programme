@@ -1,0 +1,24 @@
+{
+  "instanceId": "5dba4711-ea72-4504-ac27-53fc302d651e",
+  "title": "Vignette 2026-11-04: the next persona is the reader, a person who has been sent an essay; what if we could share a view link?",
+  "tags": [
+    "vignette",
+    "topic:essay-editor",
+    "topic:personas",
+    "topic:reader",
+    "topic:view-link"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The next persona is the reader. A person who has been sent an essay. \nFor now, we offer the copy/export option to convert an srs essay into something normal. \n\nBut what if we were able to share a view link? \nIf an essay is published to google or dropbox or a public repo and a link to an essay is shared, what does a viewer need to see, "
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

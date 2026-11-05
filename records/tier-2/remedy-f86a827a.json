@@ -1,0 +1,24 @@
+{
+  "instanceId": "f86a827a-c5d2-4d3e-827b-299a0375f30c",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A domain workspace: understand one domain whole, affirm there, then move sideways or up",
+    "move": "One view per domain that shows its personas-in-domain, problems and remedies, axes with local pole names, archetypal lean, and the conversations that generated it, with the parent's personas and axes offered to a subdomain by default and the subdomains' influences visible from the parent, one level down. Affirmation and prioritisation happen in that view; the objective/epic roadmap is fed from the domains' priorities. Start as a read-only view in srs-lab control room over the existing records before any new type.",
+    "does_not_fix": "The cost of affirming one record at a time (d00f101f) and the orthogonality test for poles (4a085b1a); those remedies sit inside this frame.",
+    "falsifier": "The owner still clicks accept inside the domain view, or domains do not partition the problems cleanly enough to prioritise within one.",
+    "source_ref": [
+      "Owner, 2026-11-04: vignette c020fd77 (srs-programme, conversation 09be2f75)"
+    ],
+    "return_when": "Affirmation in a domain is still slower than writing the record."
+  },
+  "createdAt": "2026-11-04T10:11:56.924040565+00:00",
+  "updatedAt": "2026-11-04T10:11:56.924044873+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

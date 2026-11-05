@@ -1,0 +1,25 @@
+{
+  "instanceId": "3440f169-fe5c-45ff-9309-db4210b03277",
+  "title": "4. Affirmation in context",
+  "tags": [
+    "research",
+    "topic:affirmation"
+  ],
+  "sections": [
+    {
+      "name": "need",
+      "label": "What the owner needs to see",
+      "content": "Sit in one domain. See its personas-in-domain, its problems and remedies, the conversations that generated it, its tensions and trade-offs, and affirm there. Then move sideways to a sibling domain with the parent's personas offered, or up to the parent with its subdomains and their influences visible. Prioritise within the domain. Out of context the nuance is gone and acceptance becomes a click."
+    },
+    {
+      "name": "relation_to_existing",
+      "label": "Relation to existing work",
+      "content": "Thread Affirmation and confidence (45883ea7, 2026-10-30) argues for confidence built from relationships with a human tip; srs-web#617 (inline tick or deny) affirms a link where the owner writes. Neither gives a domain as the place of affirmation. Problems already affirmed nearby: d00f101f (one record at a time is harder than writing it myself), 4a085b1a (poles affirmed one at a time with no orthogonality test). The domain workspace is the frame those remedies would sit in."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

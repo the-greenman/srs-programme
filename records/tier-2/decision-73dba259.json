@@ -1,0 +1,34 @@
+{
+  "instanceId": "73dba259-db8c-48ec-9646-8b8f6486afc4",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "The essay editor has its own home: essay.semanticops.com and /essay on the same app, serving a home page in place of the generic landing",
+    "decision_question": "Where does the URL the owner points people at land: the generic landing with ?new=essay (today), a static page on semanticops.com, the app landing replaced, or a host-aware home on the same Worker?",
+    "context": "The owner, 2026-11-03 (vignette 24c38533-b35a-470a-bd78-42eca4bc0258): 'I need to be able to talk about the editor and point someone to a url that will help them get started in a practical way'; 'A way to make the essay editor the primary'; 'we can use a new essay.semanticops.com subdomain but it's probably just an alias to the app subdomain'. srs-web today: no router (src/main.ts mounts App.svelte; /styleguide is the one path check); the query string is reserved for boot links (ADR-021 with the ?repo= and ?new= amendments; R3 of unit semanticops.com#49); the hash is the one address (ADR-023); both custom domains app.semanticops.com and app.mudemocracy.org serve an identical app from one Worker (wrangler.jsonc; worker/index.ts guards only /api/* by APP_ORIGINS). Precedent consulted: ADR-021 and R3 (a link is a boot parameter, cleared on read); ADR-023 (one hash address; a path is not an address); vignette fdc74e98 (every semanticops domain is an entry point; srs-rust needs its own home); decision 6c455725 (a website's own package links block types to components: a site page is a different thing from an app landing); SP-129 (an agent arriving at a site cannot get the tools running: the home must also carry llms.txt lines); SP-74 (essays as files want a landing page: not this decision, noted so the home does not pretend to be it).",
+    "alternatives_considered": "A. Status quo: share https://app.semanticops.com/?new=essay. Leads to: the visitor lands in an empty essay with the first-open help; nothing says what the editor is for before they commit; no examples; no place for the save explanation.\nB. A static page on semanticops.com linking to ?new=essay. Leads to: words live outside the editor and outside SRS (against the owner's rule that help and site content are managed via SRS); examples cannot open in place; two deploys to keep in step.\nC. Replace the app landing at app.semanticops.com with the essay home. Leads to: governance, site and generic users lose open-a-repository as the front door; app.mudemocracy.org changes too; one page serves two audiences.\nD (chosen). A host-aware home: the Worker gains the custom domain essay.semanticops.com; at boot the app reads hostname and pathname (essay.semanticops.com, or /essay on any host) and mounts an EssayHome landing instead of the generic one; everything else (boot links, hash address, shells, recovery copy) is unchanged. Leads to: one deploy, one app, one more origin in APP_ORIGINS and in the OAuth callbacks; a second editor wanting a host turns the one literal into a table.",
+    "decision_statement": "essay.semanticops.com is a custom domain of the srs-web Worker. At boot the app maps hostname essay.semanticops.com, or pathname /essay on any host, to the essay home; the essay home replaces only the idle landing (open-a-repository), and every boot link (?new, ?open, ?repo), the hash address, the recovery-copy offer and the shells behave as on the generic landing. The generic landing stays the default on app.semanticops.com and app.mudemocracy.org. The home is reached by the path as well as the host so links work in development and from the other hosts.",
+    "rationale": "D over A because the owner's need is a page that explains before it commits; ?new=essay commits first. D over B because the words must be SRS-managed and the examples must open in the editor; a static page on another site can do neither. D over C because the generic landing is the front door for every other editor and for app.mudemocracy.org; replacing it serves one audience at the cost of the others, and the owner asked for an alias, not a takeover. D is the smallest change that gives the owner a URL: one host, one boot check, one landing component; it adds no router and no second address scheme.",
+    "revisit_when": "When a second editor asks for its own host or home (then the one literal becomes a host table and this decision is amended), or when the home needs content a help record cannot carry (then decision D2 is revisited first). Also if, after three outside visitors, the owner hears that the home page itself was the thing they got stuck on.",
+    "next_steps": "srs-web PR 3 of the essay-home unit: parseHome in src/lib/open-url.ts, the home prop from src/main.ts, EssayHome in the idle branch of App.svelte, wrangler.jsonc custom domain and APP_ORIGINS, ADR-030. Owner acts after merge: register https://essay.semanticops.com/ with the GitHub OAuth App, Dropbox and Google consoles.",
+    "owner": "Owner role (SemanticOps)",
+    "status": "proposed",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "ratified",
+  "tags": [
+    "boundary:essay-editor-entry",
+    "topic:essay-editor",
+    "topic:onboarding"
+  ],
+  "createdAt": "2026-11-03T18:33:57.233144241+00:00",
+  "updatedAt": "2026-11-04T12:50:59.176982190+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,24 @@
+{
+  "instanceId": "b38dcfa4-f415-4d4b-9283-6bc2d933e60b",
+  "title": "Vignette 2026-11-04: an ideas section on the muDemocracy site publishes read-only essays, each available at an srs url",
+  "tags": [
+    "vignette",
+    "topic:essay-editor",
+    "topic:websites",
+    "topic:reader",
+    "topic:view-link"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "I want to be create an \"ideas\" section on the mudemocracy site that allows me to publish read only essays. Each essay would be available at an srs url."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim, from a request to plan a holon covering this and a readable read-only essay."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

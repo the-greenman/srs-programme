@@ -1,0 +1,27 @@
+{
+  "instanceId": "abed4266-2361-4a45-82f9-be0e7eb0481f",
+  "title": "The essay package holds the basic building blocks of structured writing (2026-11-04)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essay-editor",
+    "topic:semantic-context",
+    "topic:packages"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "Our essay package can expand a little. It can contain the basic building blocks that allow for structured semantic construction of writing."
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim. Said during /ship muDemocracy.org#303, after choosing a small separate package for source, quotation and problem types."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
