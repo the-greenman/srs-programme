@@ -17,14 +17,14 @@
     "status": "proposed",
     "decision_kind": "design"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "tags": [
     "boundary:essay-editor-packages",
     "topic:essay-editor",
     "topic:semantic-context"
   ],
   "createdAt": "2026-11-04T13:16:30.658940469+00:00",
-  "updatedAt": "2026-11-04T14:05:00.340525913+00:00",
+  "updatedAt": "2026-11-05T17:45:27.050439626+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",
