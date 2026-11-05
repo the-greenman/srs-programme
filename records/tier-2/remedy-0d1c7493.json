@@ -1,0 +1,23 @@
+{
+  "instanceId": "0d1c7493-955b-48a9-b5bf-37145952868c",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "An export can strip chosen types of records",
+    "move": "Let an export leave out chosen types of records, comments first, so the file shared with a reader never holds them.",
+    "does_not_fix": "It does not decide what context an agent reading the stripped file should still have (vignette f32cc637). Attached source documents are not records, and RFC-026 carries them with any record that cites them, so stripping a type does not remove them from a record that stays. It does nothing for what a reader sees (SP-150), and it does not cover muSrs renders, the original case of SP-124.",
+    "falsifier": "A stripped essay still exposes comment text anywhere in the file, or fails validation because the removed records leave relations or containers dangling.",
+    "source_ref": [
+      "srs-programme vignettes 53fd0e50 and ddce04fb (the owner, 2026-11-04)",
+      "srs-web main 8b2fedb, src/lib/essay/essay-document.ts: refreshBundle already chooses members and exportSlice writes them",
+      "Trial 2026-11-04 on a scratch copy of muSrs: a container of the essay, its paragraphs and what they cite sliced to 31 instances and 24 relations, no comment text, 0 validation errors",
+      "Spec invariant I-151: a slice must include the root's effective member set, so a type filter inside slice export needs an RFC-026 amendment"
+    ],
+    "return_when": "Writers need to choose record by record what stays, rather than removing fixed types."
+  },
+  "createdAt": "2026-11-04T13:25:35.545455621+00:00",
+  "updatedAt": "2026-11-04T15:14:38.239568644+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

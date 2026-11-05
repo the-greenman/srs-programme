@@ -1,0 +1,24 @@
+{
+  "instanceId": "c020fd77-ff2e-4c5a-8c4a-47376f883721",
+  "title": "Vignette 2026-11-04: each domain has its own future; affirmation must happen in context",
+  "tags": [
+    "vignette",
+    "topic:roadmap",
+    "topic:affirmation",
+    "topic:domains",
+    "topic:personas"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "What is more important is how we get back to a managed roadmap.\n\nI've taken a path into a much deeper domain driven semantic context, and it may slowly be coming together, but I've lost sight of the road map.\n\nIn practice, each domain probably has its own future.\n\nThe web based generic editor has a set of priorities. But within that the essay editor will have its own, and it's becoming an initial vehicle for explaining the local first/semantic sovereignty ideas that all my work is based on. Then the website editor has its own potential way forward. Each has slightly different personas with variations on the problems. And the work in each of these domains could have a different archetypal lean.\n\nI need to be able to build the understanding of each domain and then grow outward.\n\nThe current affirmation process is very difficult.\n\nI need to be able to sit in a context ... Essay editor for instance. See what it's defined personas are. See what problems and remedies we have mapped. See the previous conversations that have helped generate the domain.\n\nLook at whether we have a good understanding of the tensions and tradeoffs. And perform the affirmation in context. Affirmation out of context breaks my ability to see the nuance. So I just click accept most of the time.\n\nIf I've got my essay editor context refined, and set its priorities, I should be able to move sideways and then look at the web site editor. This will have all the personas from the parent domain available. But a journalist and a website editor have different priorities, so not all personas are relevant.\n\nI need to be able to work out the primary personas in this domain and see what their problems are. This domain is aligned and builds on most of the same code. But has its own needs.\n\nSubdomains should by default inherit the axes and poles from their parents, but we will build understanding by localising the names.\n\nIf I zoom up a level and see the web editor domain with all its subdomains, I should be able to see influences from parent and sibling domains. (Subdomains may also be divided, but I probably only want one level down.)\n\nI'll need to be able to group the subdomain data and prioritize things within this domain. The web editor domain may have its own general problems that are outside of the subdomains.\n\nA web editor general domain may be interested in the connection to GitHub, in how identity of editors is managed... While the lower domains may assume that this exists and just focus on their particular issues."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Owner, in conversation with Claude Code, 2026-11-04, after the network-exposure research. Verbatim apart from typo fixes; the opening instructions (log the research, a research section, put the ideas on the boards, no prototype) omitted."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

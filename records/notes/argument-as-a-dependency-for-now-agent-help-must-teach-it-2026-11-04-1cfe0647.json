@@ -1,0 +1,27 @@
+{
+  "instanceId": "1cfe0647-c01c-4819-964c-97fb8dba4333",
+  "title": "Argument as a dependency for now; agent help must teach it (2026-11-04)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essay-editor",
+    "topic:semantic-context",
+    "topic:packages"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "yes. lets do this for now, but then the agent help needs to teach agents how to use it."
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim. 'this' is Claude Code's recommendation in the same conversation: make the argument package a dependency of the essay package and bundle it with the app, so a new essay has source, claim and problem types without an install step (muDemocracy.org#303, srs-web#590)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

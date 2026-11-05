@@ -1,0 +1,34 @@
+{
+  "instanceId": "c033133a-6d03-4d18-bb58-c44a9e4ff621",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Mined problems enter the corpus as draft suggestions derived from their source, never directly",
+    "decision_question": "How does a problem statement mined by a model from a transcript or other outside material become a `problem` record in muSrs?",
+    "context": "The owner, 2026-11-03 (vignette f8e1b034): transcripts are to be mined for problems. The practice already ruled for the owner's own words is that they are recorded verbatim as a Tier-0 vignette and records are derived from them as suggestions with derived-from (clerk handbook, Narrative explorations; decision 77e04b19). The affirmation layer is separate (handbook, The affirmation layer). On 2026-11-03 the local-lab pipeline produced 11 judged-new filing-quality problems from one transcript.",
+    "alternatives_considered": "(a) File nothing automatically and leave mined problems in the lab's results: the 11 good ones are lost to the corpus. (b) File on the judge's score alone, active: a model's judgement enters the corpus with no human act and no provenance. (c) File as draft suggestions through the srs CLI or MCP, with the transcript as a `source` record (private raw text held outside the repository), a derived-from edge to it, a verbatim quote as evidence, and a topic parent; affirmation happens in its own layer.",
+    "key_requirements": "The write goes through the CLI or MCP so the type and relation contracts hold; the quote is verbatim in the source; the novelty check is against the existing problems; the record is draft until affirmed.",
+    "decision_statement": "A mined problem enters muSrs only as a draft `problem` record written through the srs CLI or MCP, derived-from a `source` record for the material it came from, carrying its verbatim quote, under a topic parent, in the Problems container. Affirmation is the owner's act in the affirmation layer, never the pipeline's.",
+    "rationale": "It is the vignette rule applied to a transcript instead of a chat: the words come first as a source, the records are derived suggestions, and the human act of affirming them is kept separate from the machine act of proposing them.",
+    "revisit_when": "More than a few judged-new suggestions in a run turn out on review to be duplicates, which would mean the novelty check needs an embedding rather than word overlap; or the affirmation editor lands and suggestions can be reviewed there instead of in a PR.",
+    "next_steps": "File the 11 problems from the 3Nov transcript (P-122 to P-132) as draft suggestions in a PR labelled gate:owner-merge; record the source as a `source` record of kind transcript.",
+    "owner": "Programme owner",
+    "status": "proposed",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "suggestion",
+    "topic:mudemocracy",
+    "topic:housekeeping"
+  ],
+  "createdAt": "2026-11-03T18:46:37.500224465+00:00",
+  "updatedAt": "2026-11-03T18:46:37.500230578+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

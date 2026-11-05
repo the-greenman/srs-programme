@@ -1,0 +1,23 @@
+{
+  "instanceId": "38b46f31-81bf-4a6d-8788-a20479667fae",
+  "title": "Keep going with the experiments; srs-programme holds the research and learning into decision forms (2026-11-04)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:kinds",
+    "topic:local-models"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Should we keep going with the experiments? Lets also keep srs-programme updated with research and learning into decision forms."
+    }
+  ],
+  "createdAt": "2026-11-04T10:46:05Z",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

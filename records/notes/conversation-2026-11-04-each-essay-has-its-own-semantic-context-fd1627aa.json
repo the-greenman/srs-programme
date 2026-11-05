@@ -1,0 +1,27 @@
+{
+  "instanceId": "fd1627aa-224a-42e0-86ac-5330fe37aa97",
+  "title": "Conversation 2026-11-04: each essay has its own semantic context",
+  "tags": [
+    "conversation",
+    "topic:essay-editor",
+    "topic:semantic-context",
+    "topic:packages",
+    "topic:affirmation"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "Starting from the status of the essay home, the owner asked whether an essay has the packages its help assumes and whether an agent can create new types. Findings: a new essay has essay and comments only; the argument package is neither installed nor installable from the editor; no agent tool defines a type. The owner chose the argument package as a dependency for now, with agent help to teach it, and then described where the editor is going: each essay has its own semantic context, and the editor presents it in layers."
+    },
+    {
+      "name": "source",
+      "content": "Conversation identity note, written by Claude Code, 2026-11-04. The owner's words are in the vignettes of this container."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

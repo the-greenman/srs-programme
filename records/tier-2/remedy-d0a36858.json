@@ -1,0 +1,25 @@
+{
+  "instanceId": "d0a36858-1668-4cb5-86c7-15572c2feede",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Serve dedicated clones, accept a write only where it can reach main on its own, and save it by a tool beside the server",
+    "move": "The server accepts a write only where that write can reach main on its own; the registry's readOnly flag is the whole policy (owner's choice, 2026-11-04). Every entry points into a dedicated clone that no session works in. A read-only clone only fast-forwards. A writable clone sits on a local branch of main plus unmerged writes, so sessions read their own writes, and a save pass validates, commits, rebases, pushes a per-machine branch and opens a pull request that merges itself on green, reporting pending, behind and held per repository. The server stays out of git. The clerk holds the proof of concept as one self-contained module whose only inputs are the registry and arguments; the rule, layout, steps and status shape are written down so a generic tool can lift them.",
+    "does_not_fix": "Two sessions updating the same record can still lose a write until a per-repository lock file exists (SP-144). Writes scoped to a feature branch stay with the CLI in a worktree. Hosts other than GitHub.",
+    "falsifier": "The save pass often holds on conflicts or failed validation, or its pull requests stall for more than an hour.",
+    "source_ref": [
+      "Owner, 2026-11-04: vignettes 06faad77 and 9d04df06 (srs-programme, conversation 0a5d786c)"
+    ],
+    "return_when": "Someone outside this workspace wants it, or the status shape and steps go unchanged through two cycles of real use: then extract the generic tool and decide its home."
+  },
+  "createdAt": "2026-11-04T13:36:33.894677495+00:00",
+  "updatedAt": "2026-11-04T13:36:33.894682673+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

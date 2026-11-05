@@ -1,0 +1,23 @@
+{
+  "instanceId": "b0699e9e-20c3-4375-a051-67a22534c1e5",
+  "title": "Vignette 2026-11-05: keep the agents on a read-only essay; they allow deeper work, even read only",
+  "tags": [
+    "vignette",
+    "topic:essay-editor",
+    "topic:reader",
+    "topic:agent-interrogation"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "keep the agents. It allows for deeper work. Even read only."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-05; recorded verbatim. Answers ask A1 on srs-web#721: should a person reading an essay keep Go > Agents."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

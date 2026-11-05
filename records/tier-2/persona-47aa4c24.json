@@ -1,0 +1,20 @@
+{
+  "instanceId": "47aa4c24-56ee-4ca2-b905-faed7385b519",
+  "typeId": "c57aafdd-d002-4ee6-9a2b-ff3805107580",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona",
+  "fieldValues": {
+    "title": "Reader of a finished work",
+    "summary": "A person who receives a finished piece of work and reads it. They did not make it, are not editing it, and care about the final product more than how it was built.",
+    "jobs": [
+      "Open what they were sent and read it",
+      "Check what the work rests on",
+      "Go deeper when something raises a question"
+    ],
+    "needs": "The finished work as a finished work, with its sources within reach and no setup required before reading."
+  },
+  "createdAt": "2026-11-04T13:03:53.860479277+00:00",
+  "updatedAt": "2026-11-04T13:03:53.860481557+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

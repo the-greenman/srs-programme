@@ -1,0 +1,24 @@
+{
+  "instanceId": "017606e8-6a77-4e5d-9972-f1f2676f7aee",
+  "title": "Conversation 2026-11-04: the reader of a shared essay",
+  "tags": [
+    "conversation",
+    "topic:essay-editor",
+    "topic:personas",
+    "topic:reader",
+    "topic:view-link"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner added the reader to the essay editor domain: a person who has been sent an essay and wants the finished, read-only piece with its sources and links available, and possibly an agent for deeper interrogation. They asked that the domain and personas be updated first, before thinking about how to address it."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-04."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

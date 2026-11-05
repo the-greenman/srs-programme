@@ -1,0 +1,29 @@
+{
+  "instanceId": "706ff71e-6d68-496d-9a45-ae7ee6a8a675",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-11-03 18:21 UTC: SemanticOps",
+    "held_at": "2026-11-03T18:21:55Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-11-03 18:21 UTC: SemanticOps\nAttendees: Owner\n- Ratified: The bug fixer carries its own budget, separate from the groups' [11a311a7]\n- Received: WG Agent-supported editor report 2026-11-02 (comment only)\n- Received: WG Agent-supported editor report 2026-11-03\n- Received: WG Third-party ready report 2026-11-02\n- Received: WG Third-party ready report 2026-11-03\nActs in the order taken (UTC):\n- 18:43:39Z ratify: The bug fixer carries its own budget, separate from the groups' [11a311a7] (Decisions since the last session 1 of 1, saw full record, record updated 2026-11-02T12:21:19.318097491+00:00)\n- 18:43:44Z receive: WG Agent-supported editor report 2026-11-02 [comment:] (Reports 1 of 4)\n- 18:43:46Z receive: WG Agent-supported editor report 2026-11-03 [3549497b] (Reports 2 of 4)\n- 18:43:49Z receive: WG Third-party ready report 2026-11-02 [31af8d0a] (Reports 3 of 4)\n- 18:43:50Z receive: WG Third-party ready report 2026-11-03 [9887815a] (Reports 4 of 4)"
+  },
+  "createdAt": "2026-11-03T18:43:57.901599924+00:00",
+  "updatedAt": "2026-11-03T18:43:57.901603620+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "18aceab3-425c-43db-961b-c9b99f9a981b",
+      "sourceRole": "attaches"
+    }
+  ]
+}

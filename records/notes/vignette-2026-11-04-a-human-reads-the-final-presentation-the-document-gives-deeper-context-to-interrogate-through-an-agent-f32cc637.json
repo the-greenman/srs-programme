@@ -1,0 +1,23 @@
+{
+  "instanceId": "f32cc637-b1d2-4641-a980-6151c1889ec9",
+  "title": "Vignette 2026-11-04: a human reads the final presentation; the document gives deeper context to interrogate through an agent",
+  "tags": [
+    "vignette",
+    "topic:essay-editor",
+    "topic:reader",
+    "topic:agent-interrogation"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "An agent may be possible however, but in this case it would allow for a deeper interrogation. A human reads the final presenation but the document then provides deeper context to allow them to interrogate it further via an agent. "
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

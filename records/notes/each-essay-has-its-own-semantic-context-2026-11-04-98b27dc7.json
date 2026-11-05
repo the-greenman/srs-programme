@@ -1,0 +1,26 @@
+{
+  "instanceId": "98b27dc7-df89-4448-a572-0fa37ee7ae13",
+  "title": "Each essay has its own semantic context (2026-11-04)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essay-editor",
+    "topic:semantic-context"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "The scenario for the editor in time: \n\nEach essay has it's own semantic context. If I'm writing a contract, I am probably not working with problems and claims. \n\nIf I'm writing a story, my background will be characters, events, places. \n\nIf I am writing product marketing text, I may need other background elements. "
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

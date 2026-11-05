@@ -1,0 +1,29 @@
+{
+  "instanceId": "c21eb241-c97b-4027-8908-d304d056b592",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-11-04 12:49 UTC: SemanticOps",
+    "held_at": "2026-11-04T12:49:40Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-11-04 12:49 UTC: SemanticOps\nAttendees: Owner\n- Ratified: Example essays are ordinary .srsj files opened by the existing read-only link, which may now name the editor to open them in [287c64f4]\n- Ratified: The essay editor has its own home: essay.semanticops.com and /essay on the same app, serving a home page in place of the generic landing [73dba259]\n- Ratified: The essay home's words are help records: a container essay-home in the bundled help repository, concept and ui records, shared with the essay container [9c116ddb]\n- Received: WG Agent-supported editor report 2026-11-04\n- Received: WG Third-party ready report 2026-11-04\nActs in the order taken (UTC):\n- 12:50:02Z ratify: Example essays are ordinary .srsj files opened by the existing read-only link, which may now name the editor to open them in [287c64f4] (Decisions since the last session 1 of 3, record updated 2026-11-03T22:16:50.567932326+00:00)\n- 12:50:08Z ratify: The essay editor has its own home: essay.semanticops.com and /essay on the same app, serving a home page in place of the generic landing [73dba259] (Decisions since the last session 2 of 3, record updated 2026-11-03T22:16:50.103367916+00:00)\n- 12:50:34Z ratify: The essay home's words are help records: a container essay-home in the bundled help repository, concept and ui records, shared with the essay container [9c116ddb] (Decisions since the last session 3 of 3, record updated 2026-11-03T22:16:50.332785154+00:00)\n- 12:50:43Z receive: WG Agent-supported editor report 2026-11-04 [40096c03] (Reports 1 of 2)\n- 12:50:50Z receive: WG Third-party ready report 2026-11-04 [5a1b9a3e] (Reports 2 of 2)"
+  },
+  "createdAt": "2026-11-04T12:50:58.008296361+00:00",
+  "updatedAt": "2026-11-04T12:50:58.008299129+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "78060072-643c-42d7-b75e-872c486b389e",
+      "sourceRole": "attaches"
+    }
+  ]
+}

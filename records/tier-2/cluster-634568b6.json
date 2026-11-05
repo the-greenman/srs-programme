@@ -1,0 +1,14 @@
+{
+  "instanceId": "634568b6-6cb9-4c5a-a922-5d291cdaa0ec",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "The editor as front door",
+    "description": "The essay editor is how people first meet the semantic sovereignty stack, and the next funding depends on showing that it has users. This groups what stands between a new person and using it, and whether we can see that they did."
+  },
+  "createdAt": "2026-11-04T13:25:35.866580354+00:00",
+  "updatedAt": "2026-11-04T13:25:35.866587011+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

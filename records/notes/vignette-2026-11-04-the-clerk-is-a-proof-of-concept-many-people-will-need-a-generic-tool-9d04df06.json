@@ -1,0 +1,29 @@
+{
+  "instanceId": "9d04df06-ae94-4682-9100-5409ee1c8671",
+  "title": "Vignette 2026-11-04: the clerk is a proof of concept; many people will need a generic tool",
+  "tags": [
+    "vignette",
+    "topic:registry",
+    "topic:mcp",
+    "topic:sync",
+    "topic:generic-tool"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The multi repo mcp is probably going to generate this issue for many people. This work can belong in the clerk for now, but that is probably a POC. But the clerk is an internal workflow experiment for now. Eventually we need to be able to offer some kind of generic tool for this process"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-04; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

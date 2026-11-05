@@ -1,0 +1,30 @@
+{
+  "instanceId": "bc6bc746-4ab5-4fbb-9081-6038bfa9bcd2",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Read and Lenses offer the dedicated editor: is srs-web UI inside WG Third-party ready's mandate (srs-web#691)?",
+    "decision_question": "srs-web#691 (an Open in <Editor> button on Read pages, and every offered editor under Go) is the only ready item in WG Third-party ready, but it is user-interface work and the builder mandate covers only non-UI srs-web. Do we widen the mandate for this issue, hand it to another group, or leave it for the owner?",
+    "context": "Problem: srs-web#691 is labelled ready and wg:third-party-ready, with the owner's direction recorded (2026-11-03, after Read became the default landing). Its plan adds a button and Go menu entries in Read and Lenses, and possibly a shared component with a styleguide specimen. The builder's mandate is srs-rust, srs-vscode, srs docs and mirror syncs, and non-UI srs-web.\nWhy it matters: editors shaped to the work are now two steps from Read, and the owner could not find the way back (SP-48). Building UI under a mandate that excludes it would bypass the group's boundary; leaving it idle leaves that friction in place. Every other ready item in the group is claimed, blocked, an RFC request, or already has an open PR, so the group's budget goes unused until this is settled.\nOptions and consequences: (a) widen the mandate to cover this one issue: it is built and reviewed by the group, with the owner's direction as the ruling. (b) route it to WG Agent-supported editor, whose domain is editor UI: the right owner, but needs a label change. (c) the owner builds it or directs it in a session. (d) do nothing: the issue waits.\nRecommendation: (b). The issue is editor-UI work and belongs to the group that owns the editor domain.\nAction needed: decide\nUrgency: low; no gate is red and nothing else is blocked on it.\nAnswers: SP-48",
+    "friction": "The ready queue holds one unclaimed item and it is outside the builder mandate, so the routine could not build anything this cycle.",
+    "alternatives_considered": "(a) Widen WG Third-party ready's mandate for srs-web#691.\n(b) Re-label srs-web#691 wg:agent-editor.\n(c) Owner builds or directs it.\n(d) Do nothing.",
+    "key_requirements": "UI work follows ADR-027 layers, a styleguide specimen for any shared component, the srs-web gates, and a reviewer from the group that holds the mandate.",
+    "decision_statement": "Route srs-web#691 to WG Agent-supported editor (remove wg:third-party-ready, add wg:agent-editor), keeping its ready label.",
+    "rationale": "The change is presentation in the editor domain; the mandate boundary stays intact and the work gets a reviewer who knows that layer.",
+    "revisit_when": "WG Third-party ready is asked to take on more srs-web UI items, or the mandate is next reviewed.",
+    "next_steps": "On ruling (b): the owner or the steward swaps the working-group labels on srs-web#691; WG Agent-supported editor's builder picks it up.",
+    "owner": "Owner role (SemanticOps)",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-11-04T02:13:05.734685824+00:00",
+  "updatedAt": "2026-11-04T02:13:05.734696992+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

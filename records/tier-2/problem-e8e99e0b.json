@@ -1,0 +1,21 @@
+{
+  "instanceId": "e8e99e0b-10cf-4d09-805a-c468034803ec",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-155",
+    "title": "Our essays about the work do not present the stack",
+    "statement": "The essays I write about our work should be dogfood, and a blog post or essay should be a presentation of the stack. Today the theory of change and other essays live as records in muSrs, but nothing on our websites shows them from those records: the muDemocracy site's essay component only wraps hand-placed prose, its publishing script has no essay step, and semanticops.com has no essay page at all. So a person who reads our argument never meets the stack the argument is about.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme vignette 38c2e274 (the owner, 2026-11-04)",
+      "muDemocracy.org: src/components/Essay.astro, scripts/publish-musrs.mjs; muSrs holds four essay records, among them theory of change 7da63d85",
+      "semanticops.com: src/components and src/pages hold no essay view"
+    ]
+  },
+  "createdAt": "2026-11-04T13:48:49.368746402+00:00",
+  "updatedAt": "2026-11-04T13:48:49.368755487+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
