@@ -1,0 +1,27 @@
+{
+  "instanceId": "6a45944b-9329-4fe5-9fb2-081311e5e5a2",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A meeting's raw transcript stays provenance; its important fragments become vignettes",
+    "move": "Hold each recording's transcript as one attached file under one source record, the way other source files are held. Pull the fragments that carry meaning out as vignettes that point back to the source and the time, and derive records only from those vignettes. A local detector proposes candidate fragments; a person picks them.",
+    "does_not_fix": "It does not stop an export carrying the attached transcript: RFC-026 takes attached documents with any record that cites them (SP-124, srs#1002). It gives no live view during a meeting and no link from minutes to the transcript (SP-158). It does not identify speakers, and whisper's base model mishears words, so a fragment still has to be checked against the audio.",
+    "falsifier": "People regularly need to search, comment on or link individual utterances, not fragments; or the detector's candidates miss fragments a person would have picked, so someone has to read the whole transcript anyway.",
+    "source_ref": [
+      "srs-programme vignette c26e0903 (the owner, 2026-11-05)",
+      "Trial 2026-11-05 on a 52-minute meeting: 808 utterance records and 1,643 files in a scratch repository, whole chain 11 minutes; the local detector gave 33 candidates in 3 minutes",
+      "muDemocracy.org#432"
+    ],
+    "return_when": "Individual utterances turn out to need their own relations or comments often enough to justify a record each."
+  },
+  "tags": [
+    "suggested",
+    "topic:transcripts",
+    "topic:local-models"
+  ],
+  "createdAt": "2026-11-05T18:43:44.475872405+00:00",
+  "updatedAt": "2026-11-05T18:43:44.475874326+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

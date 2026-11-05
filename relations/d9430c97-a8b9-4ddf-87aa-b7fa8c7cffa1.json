@@ -1,0 +1,9 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "d9430c97-a8b9-4ddf-87aa-b7fa8c7cffa1",
+  "relationType": "com.semanticops.programme/serves",
+  "sourceInstanceId": "2e027738-fec4-4b27-85cc-0da643e6a604",
+  "targetInstanceId": "1a01b54d-2827-4594-9214-1177bee00e25",
+  "createdAt": "2026-11-05T18:38:53.789525601+00:00",
+  "notes": "The Mozilla Human-Scale AI application (due 2026-11-20) is the first use. Nearest ranked objective; a local-tooling objective of its own would be ranked in a session."
+}
