@@ -1,0 +1,28 @@
+{
+  "instanceId": "ee513dec-c46e-4bd8-bfea-73b447cf93ea",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A red master test stops every group PR in a repository, and the reviewer rejects each for a failure it did not cause",
+    "summary": "srs-rust master CI went red at 13:37 UTC on 2026-11-04 (merge of #1564, run 41839775989): Test fails on srs-projection rfc_035_parity (bundle envelope vs the reference emitter). Five group PRs (srs-rust#1575, #1574, #1573, #1570, #1562) were then rejected by the reviewer on that red Test, and the 2026-11-05 cycle merged no group PR.",
+    "evidence": [
+      "srs-rust CI run 41839775989 (master, 2026-11-04 13:37 UTC): Test failure",
+      "srs-rust#1575, #1574, #1573, #1570 quorum comments: verdict=reject, rfc_035_parity",
+      "Steward cycle close 2026-11-05 (run-report 661ca3ed)"
+    ],
+    "body": "- The reviewer judges each PR against its own head, so a red inherited from master reads as the PR's fault and sends it back to the builder, who cannot fix it in the PR.\n- What would have caught it: a check of the last master CI run before review, so PRs red for a master cause wait instead of being rejected.\n- Same family as cb59a41b (a rejected group PR has no one to fix it)."
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-11-05T11:38:20.778162260+00:00",
+  "updatedAt": "2026-11-05T11:38:20.778173083+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
