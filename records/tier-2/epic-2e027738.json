@@ -1,0 +1,19 @@
+{
+  "instanceId": "2e027738-fec4-4b27-85cc-0da643e6a604",
+  "typeId": "c2ec9c8a-b36b-4b19-940f-374b338e30a6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "epic",
+  "fieldValues": {
+    "title": "Local models for the housekeeping, placed by measurement",
+    "issue_ref": [
+      "semanticops.com#58"
+    ]
+  },
+  "tags": [
+    "topic:local-models"
+  ],
+  "createdAt": "2026-11-05T18:38:43.483452263+00:00",
+  "updatedAt": "2026-11-05T18:38:43.483453897+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,26 @@
+{
+  "instanceId": "eeefe987-5795-451c-8a37-321b1f3de3ee",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A live transcript beside the minutes, linked by time and by selection",
+    "move": "Show the transcript arriving in a panel beside the editor during a meeting. Store a time window on each minute as it is started, let the writer select the words a minute came from, and after the meeting have an agent propose further links for a tick or deny (srs-web#617).",
+    "does_not_fix": "It does not make the transcript more accurate or name speakers. It does not decide which transport carries the stream: the relay sends transcript text through Cloudflare and each write reloads the editor, while reading a local stream from the bridge is untested.",
+    "falsifier": "Writers ignore the panel and take minutes as before; or the transcript's lag of 10 to 15 seconds makes the time window point at the wrong words too often to be useful.",
+    "source_ref": [
+      "srs-programme vignettes 248620b9 and c26e0903 (the owner, 2026-11-05)",
+      "srs-context research note 472c6c47 (read from code; nothing run)"
+    ],
+    "return_when": "Minutes are mostly written after the meeting, when a transcript search covers the need."
+  },
+  "tags": [
+    "suggested",
+    "topic:transcripts",
+    "topic:srs-web"
+  ],
+  "createdAt": "2026-11-05T18:43:44.744729619+00:00",
+  "updatedAt": "2026-11-05T18:43:44.744732474+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

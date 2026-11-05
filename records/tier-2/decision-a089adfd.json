@@ -1,0 +1,31 @@
+{
+  "instanceId": "a089adfd-fd33-4e74-879f-3af05b218aaf",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Raw conversation is provenance: only its important fragments become records",
+    "decision_question": "How does a recorded conversation enter an SRS corpus, and what does an export of work built from it carry?",
+    "context": "The owner, 2026-11-05 (vignettes c26e0903, 6defeba4, e97cfe74): \"there is rarely much value in every utterance as a record\"; the raw conversation shows provenance and sits below the vignettes; an export should carry \"just the key bits of text that we are building from\". Unit 79609102 first built one utterance record per whisper segment. Measured on a 52-minute meeting: 808 records and 1,643 files, against about 1,250 records in all of muSrs. The TSS draft already separates what happened from what it meant, and the SRS SourceReference schema already has transcript-chunk and transcript-segment source types.",
+    "alternatives_considered": "(a) One record per utterance in the group's repository: every moment can be linked, but one meeting nearly doubles muSrs and most records carry no meaning. (b) One record per utterance in a separate transcripts repository: protects muSrs, but relations cannot cross repositories yet (decision 31e9fd27 step 2), and that repository overtakes muSrs after about one meeting. (c) Implement TSS as a stream beside SRS: the planned home for live and multi-stream sessions, but a 58 KB unimplemented draft with no consumer yet. (d) Hold the transcript as an attached source file, make important fragments vignettes, derive records from them: one process for all source material, at the cost of no record-level tools on a single utterance.",
+    "key_requirements": "Every record can be traced to the words it came from and the moment they were said. Verbatim words are checked against the audio before they become a vignette. Speakers are never inferred from a voice. An export never carries a full source transcript unless someone chooses that.",
+    "decision_statement": "Raw conversation is provenance. It is held as a source file, not as records. The fragments that carry meaning become vignettes, and records derive from vignettes. An export carries the fragments it builds from, not the raw source.",
+    "rationale": "Most of a conversation carries no meaning a record could hold, and the group already has a process for words that do. Treating a transcript as one more source file keeps one process, keeps the corpus small, and keeps provenance a relation inside the repository.",
+    "revisit_when": "People regularly need to search, comment on or link individual utterances; or the detector's candidates miss fragments a person would have picked; or live or multi-stream sessions create a real consumer for TSS.",
+    "next_steps": "Rework the bridge (transcribe issue), retire the utterance package from muSrs, and extend the handbook's vignette process to meeting fragments, under muDemocracy.org#432. Export behaviour goes through srs-web#718 and srs#1002.",
+    "owner": "Programme owner",
+    "status": "proposed",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "suggestion",
+    "topic:transcripts",
+    "topic:local-models",
+    "topic:tss"
+  ],
+  "createdAt": "2026-11-05T18:43:44.656563188+00:00",
+  "updatedAt": "2026-11-05T18:43:44.656564731+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

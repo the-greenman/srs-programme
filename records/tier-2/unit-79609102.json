@@ -5,13 +5,13 @@
   "typeNamespace": "com.semanticops.programme",
   "typeName": "unit",
   "fieldValues": {
-    "title": "Transcripts recorded straight into an SRS container with local whisper, mined locally",
-    "summary": "One deployable bundle (the-greenman/transcribe): a local whisper server, a bridge that writes one utterance record per segment into a transcript container, the com.semanticops.transcript package, and the local detector after it. Answers SP-156 for muSrs first; the Mozilla Human-Scale AI application's one end-to-end local loop.",
+    "title": "A meeting enters the corpus through local whisper: raw transcript as provenance, fragments as vignettes",
+    "summary": "One deployable bundle (the-greenman/transcribe): a local whisper server and a bridge that holds a recording's timestamped transcript as one file under one source record, with a local detector proposing fragments for a person to pick as vignettes. Answers SP-156 for muSrs first; the Mozilla Human-Scale AI application's one end-to-end local loop. Revised 2026-11-05 (remedy 6a45944b, draft decision a089adfd): it first wrote one record per utterance.",
     "decision_mode": "complicated",
     "issue_ref": [
       "muDemocracy.org#432"
     ],
-    "body": "## Why\n\nThe owner, 2026-11-04: a local whisper server plugged into the repo, recording transcripts directly into the SRS container, as a package and a runnable container; and for the Mozilla grant, work a local model can do. Ruling that shapes it: decision 24ed7a61 (the local model detects, a frontier model writes and judges).\n\n## Parts (the GitHub sub-issue tree is the authority)\n\n1. Package com.semanticops.transcript 0.1.0, the utterance type (transcribe).\n2. bridge.mjs, to-text.mjs, compose, README (transcribe).\n3. Install the package in muSrs; CI green (muDemocracy.org).\n4. Try-out: one real meeting on the office box, mined with the local detector, candidates reviewed into a PR of problems (muDemocracy.org).\n5. Record the learning: srs-programme discovery, srs-context component and finding.\n\n## Done when\n\nA meeting recorded on the office box is a transcript container in muSrs with its whisper JSON attached and `srs repo validate` at 0 errors; `to-text` of that container run through local-lab's detector yields grounded candidates; the numbers are posted on the holon issue; the package is installed in muSrs on main.\n\n## Not in scope\n\nBrowser-chunk upload and the srs-web live view over the relay; speaker diarisation; a GPU whisper image."
+    "body": "## Why\n\nThe owner, 2026-11-04: a local whisper server plugged into the repo, as a package and a runnable container; and for the Mozilla grant, work a local model can do. The owner, 2026-11-05 (vignette c26e0903): there is rarely much value in every utterance as a record; the raw conversation shows provenance and sits below the vignettes; we pull out important fragments as vignettes and abstract records from those. Rulings that shape it: decision 24ed7a61 (the local model detects, a frontier model writes and judges), draft decision a089adfd (raw conversation is provenance).\n\n## Parts (the GitHub sub-issue tree is the authority)\n\n1. Package com.semanticops.transcript 0.1.0 (done; retired by part 7).\n2. bridge.mjs, to-text.mjs, compose, README (done; reworked by part 6).\n3. Install the package in muSrs (done, PR #435; retired by part 7).\n4. Try-out: one real meeting, its fragments picked into vignettes through a PR.\n5. Record the learning: srs-programme discovery, srs-context component and finding.\n6. The bridge writes one source record with the timestamped transcript attached, not one record per utterance.\n7. Retire the utterance package from muSrs.\n8. The handbook's vignette process covers fragments of a recorded meeting.\n\n## Done when\n\nA recorded meeting is one source record in muSrs with its timestamped transcript attached and `srs repo validate` at 0 errors; the local detector's candidates are grounded verbatim in it; fragments a person picked, checked against the audio, are vignettes derived from that source; the numbers are posted on the holon issue; the utterance package is gone from muSrs on main.\n\n## Not in scope\n\nExports leaving out attached transcripts (srs-web#718, srs#1002); the live view and minutes linked to the transcript (remedy eeefe987, SP-158, its own unit); speaker diarisation; a GPU whisper image; implementing TSS."
   },
   "lifecycleState": "proposed",
   "tags": [
@@ -21,7 +21,7 @@
     "topic:transcripts"
   ],
   "createdAt": "2026-11-04T14:42:05.178984059+00:00",
-  "updatedAt": "2026-11-04T14:46:09.686282496+00:00",
+  "updatedAt": "2026-11-05T18:44:58.522077317+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"

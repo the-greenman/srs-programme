@@ -1,0 +1,24 @@
+{
+  "instanceId": "c26e0903-7298-4ee1-9390-8a1f577a55c4",
+  "title": "Raw conversation is provenance below the vignettes; we pull out fragments and export only the key bits (2026-11-05)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:transcripts",
+    "topic:tss",
+    "topic:essays"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "So, there is rarely much value in every utterance as a record. \nWhat we want is a version of the Vignette process we already have. \nThe raw conversation shows provenance. They sit at a level below the vignettes. We pull out important fragments as vignettes... and then abstract records from that. \n\nJust like the other files we may be basing our essays on, when we export an essay, we probably don't want to include the full source materials - just the key bits of text that we are building from"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-05; recorded verbatim, answering the question of utterance records versus a file (follows vignette 6defeba4)."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
