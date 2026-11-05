@@ -1,0 +1,21 @@
+{
+  "instanceId": "2312bb8b-2453-4c05-9119-73cdae0735e0",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-157",
+    "title": "No public home for μ.democracy. brand assets",
+    "statement": "I have nowhere on the site to send someone who needs the μ.democracy. logo or the rules for writing the name. The mark's files are served by the site but linked from no page offering them; the name with the mark exists only as PNGs with solid backgrounds in the repository's content/design folder; and the naming rule is held in a decision record in muSrs. Anyone who needs these has to ask me for them or work them out.",
+    "kind": "condition",
+    "source_ref": [
+      "the owner's request for a brand assets page, Claude Code session, 2026-11-05 (a bare request, so no vignette was recorded)",
+      "muDemocracy.org main e4da5d4: public/images, content/design, src/pages",
+      "muSrs decision d2f9d81a, Brand form, mark and title style"
+    ]
+  },
+  "createdAt": "2026-11-05T13:56:58.912348842+00:00",
+  "updatedAt": "2026-11-05T13:56:58.912350326+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
