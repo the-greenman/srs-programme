@@ -1,0 +1,23 @@
+{
+  "instanceId": "4bfbecc1-97b7-45c6-9a9e-744cd96513c3",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle 2026-11-05",
+    "run_date": "2026-11-05",
+    "chose": "<!-- wg-report cycle=2026-11-05 group=wg:agent-editor -->\nWG Agent-supported editor: cycle 2026-11-04 11:30 to 2026-11-05 11:30 UTC\nPause: running.\n\n1. Decisions for you: one, carried, unchanged. Question: can an essay container declare its comments and references as children, so one export carries the whole essay, while agents can still file comments? Why it matters: two of your rulings collide (an essay exports whole; agents never write the essay, they comment). Options: A engine guard stops at declared children (srs-rust change, then srs-web#634 builds as planned); B keep the snapshot bundle, widened to carry threads; C a different path for agent comments; D nothing. Recommendation: A. Action needed: decide. Urgency: blocks srs-web#634; no data at risk. Record 42fcc319-2468-4e15-b529-2c13f9174af6 (proposed). Also waiting: needs-input on srs-web#567, #634 and #709.\n2. Decided within mandate: none. No group decision record awaited assent, so no group session was held.\n3. Done: no group PR merged this cycle, by the group or by you.\n4. Stuck or lost: main of srs-web is red on E2E (essay-home `?open=` link), cause srs-web#714; fix is srs-web#715, which the reviewer approved on green (gates green at 89376ba, quorum line builder human:the-greenman / reviewer editor-reviewer, mandate none-nonnormative-bugfix). It waits on your merge. Behind it: srs-web#719 (quote from a pinned reference, #525) and #713 (pin essay 1.9.0) are open with reviewer verdict reject, only because of that red E2E; both need main merged in after #715. srs-web#708 (agent source reads back as candidate, #626) is open, reviewer approved on green (remedy f1b278fd affirmed), waits on your merge. Needs-input: #709 (P1, example essays are fixtures but the page calls them finished), #634, #567. Blocked: semanticops.com#14, srs-web#717, #426.\n5. Budget: 0 of 10 delegated merges this cycle; 0 open counted (all four open group PRs are owner-merge). Pause: running.\n5b. Awaiting ratification: none from the group.\n6. Next: ready + wg:agent-editor: srs-web#626 (PR #708 open), #601, #525 (PR #719 open), #634 (stopped); semanticops.com#57, #14 (blocked). Top 3 in builder order: #601, #626, #525. Queue fed for about 1 cycle. Waits on you: merge srs-web#715 first (unblocks the other two), then #708, #719, #713; the escalation above; a 👍 on this report.\n6b. Exercises: none open.\n7. What we learned: one red main stalls the whole lane: a single bug (#714) turned two good PRs into rejects within hours, and the fix sits unmerged because merges are owner-only. Pattern from the last four reports: budget 0 of 10 while the owner merges everything; consider whether owner-merge on non-normative bugfixes like #715 should be delegated. I1: 0 merges in the window, nothing to ground (result d440d893-d2f1-4d2b-818e-28dd986850fe; the useful/noisy/misleading line is yours to give in a session). I2 to I4: pending. Fed by the analyst: not needed.\n",
+    "rationale": "No new escalation: the srs-web#634 guard question (42fcc319) is already open and carried. The red main (srs-web#714) is a technical stop with a reviewed fix awaiting owner merge, settled within the group.",
+    "figures": "Delegated merges (group-state): 0 of 10; 4 open group PRs, all owner-merge (srs-web#708, #713, #715, #719). I1 result d440d893-d2f1-4d2b-818e-28dd986850fe: 0 merges, n/a.",
+    "landed_as": "pending"
+  },
+  "createdAt": "2026-11-05T11:39:56.631049551+00:00",
+  "updatedAt": "2026-11-05T11:39:56.631056076+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
