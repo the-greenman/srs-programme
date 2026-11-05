@@ -6,7 +6,7 @@
   "typeName": "finding",
   "fieldValues": {
     "title": "Getting an RFC beyond draft takes several look-alike acts, and each is hard to see",
-    "summary": "Answering an RFC's questions, marking its PR ready, merging it, accepting the RFC and folding it into the spec are separate acts that read as one. On srs#998 the owner answered both asks, took that as acceptance, and found the PR still claiming to be a draft.",
+    "summary": "Answering an RFC's questions, marking its PR ready, merging it, accepting the RFC and folding it into the spec are separate acts that read as one. On srs#998 the owner answered both asks, took that as acceptance, and found the PR still claiming to be a draft; it merged after the owner said to accept it and an agent folded it.",
     "evidence": [
       "Owner, 2026-11-05 (vignette f17c0e03): 'The rfc has many different steps (that seem the same) that are slightly invisible, for accepting an rfc and getting it beyond draft'",
       "srs#998, 2026-11-05: owner answers D1 and D2 at 19:42 UTC; a commit at 19:43 records them as RFC-053 Revision 5, which says 'The status stays Draft until the owner accepts the RFC'",
@@ -14,9 +14,13 @@
       "clerk lib/practice/desk.mjs:128: a draft PR's next step reads 'Finish the draft' and its owner is 'author', so after the answers the PR stops being listed as needing the owner",
       "The srs-decisions block on srs#998 held asks D1 and D2 and no ask for acceptance",
       "RFC-049 path: Draft PRs #917 and #994 merged, then acceptance and fold in #997, then 'mark Implemented' in #1001. RFC-052 path: acceptance and fold in #942, then #967. The two paths differ",
-      "Claude Code told the owner the PR was theirs to merge without checking its draft state, so the confusion is not only the owner's"
+      "Claude Code told the owner the PR was theirs to merge without checking its draft state, so the confusion is not only the owner's",
+      "After the fold, clerk desk still listed srs#998 as 'Decision asked' with the answered question, because the block's asks remain and the desk does not read them as answered",
+      "Issues with a clean clerk flow chain are not in clerk queue until topup nominates them: srs-rust#1581 and srs#1007 showed 'flows' and were absent from the queue on 2026-11-05",
+      "RFC-053's 'srs-web, afterwards' step had no open issue when the RFC merged: srs-web#547 was closed, so the client feature that motivated the RFC was tracked nowhere until a follow-up was filed by hand",
+      "The fold deferred the RFC's conformance fixtures to srs#1007, so an Accepted RFC's rules cannot yet be checked; the RFC's status alone does not show that"
     ],
-    "body": "## The acts, as they ran for RFC-053\n\n1. Answer the questions inside the RFC (a click in the control room).\n2. An agent records the answers as a revision; status stays Draft.\n3. Mark the PR ready (GitHub's flag; a draft cannot merge).\n4. Accept the RFC (the owner's ruling, with no ask or button of its own).\n5. Fold it into the spec: records, decisions, rendered output, revision rows on the RFCs it touches.\n6. Merge (the owner, and this is when anything normative changes).\n7. Implement, then mark it Implemented (a later PR).\n\nAccepted, answered, ready, merged and folded all sound like the same event. Nothing shows a person which of them has happened or which is next.\n\nIn clerk terms this stopped at Review and land: work waiting on the owner that had stopped asking for them.\n\nCandidate remedy, not yet suggested as a record: every RFC PR states its position on this one list, and every ask says what answering it does and does not do."
+    "body": "## The acts, as they ran for RFC-053\n\n1. Answer the questions inside the RFC (a click in the control room).\n2. An agent records the answers as a revision; status stays Draft.\n3. Accept the RFC (the owner's ruling, with no ask or button of its own).\n4. Fold it into the spec: records, decisions, rendered output, revision rows on the RFCs it touches.\n5. Mark the PR ready (GitHub's flag; a draft cannot merge).\n6. Merge (the owner, 2026-11-05 21:03 UTC; this is when anything normative changed).\n7. Implement, add fixtures, then mark it Implemented (later PRs).\n\nAccepted, answered, ready, merged and folded all sound like the same event. Nothing shows a person which of them has happened or which is next.\n\nIn clerk terms this stopped at Review and land: work waiting on the owner that had stopped asking for them.\n\nThe same gap continues past the merge. An accepted RFC has follow-up work that no step creates, and an issue that passes every flow check still waits for topup, so 'accepted' does not show whether its work is in the queue.\n\nTried once: srs#998's body opened with a numbered *Where this PR is* list and the owner merged from it, with no further question about state. One case only.\n\nCandidate remedy, not yet suggested as a record: every RFC PR states its position on this one list, every ask says what answering it does and does not do, and accepting an RFC produces its follow-up issues as a checked step."
   },
   "tags": [
     "flow-stop",
@@ -25,6 +29,6 @@
     "topic:decisions"
   ],
   "createdAt": "2026-11-05T20:02:20.638234136+00:00",
-  "updatedAt": "2026-11-05T20:02:20.638236111+00:00",
+  "updatedAt": "2026-11-05T21:07:23.802897030+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }
