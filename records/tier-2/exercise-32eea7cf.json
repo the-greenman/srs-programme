@@ -6,10 +6,10 @@
   "typeName": "exercise",
   "fieldValues": {
     "title": "Review: is the decision checklist helping the owner judge?",
-    "thinking_reached": "First version written 2026-11-05 from the owner's meeting review, the muDemocracy guide, the handbook's four tests and srs#998. DC-01 to DC-11 follow the meeting's checklist; DC-12 to DC-14 are additions from srs#998 and have not been tried. This exercise stays open and on every owner session's agenda until three reviews in a row change nothing.",
+    "thinking_reached": "First version written 2026-11-05 from the owner's meeting review, the muDemocracy guide, the handbook's four tests and srs#998. DC-01 to DC-11 follow the meeting's checklist; DC-12 to DC-14 are additions from srs#998 and have not been tried. DC-15 (consequences in the decision's own context) was added the same day on the owner's words (vignettes 8b9cb702 and 2f33caa2), after a hand-written version of it on srs#998 D1 proved far more valuable for review. This exercise stays open and on every owner session's agenda until three reviews in a row change nothing.",
     "tensions": "Thorough against light: every check added is a cost on each decision, and DC-11 must keep small decisions small.\nMechanical against judgement: a check a tool can pass can be filled to pass (9b9f9434: form 97%, substance 41%).",
-    "unresolved_questions": "At each session: Which decision was hardest to judge, and what was missing? Which check did you actually use? Which did nothing? Did you change or refuse a recommendation, and did a check prompt it? Record the answers as comments here, with any check changed.",
-    "next_action": "Review at the next owner session, using srs#998 as the first test case: does its rewritten block let the owner say what they are judging?"
+    "unresolved_questions": "At each session: Which decision was hardest to judge, and what was missing? Which check did you actually use? Which did nothing? Did you change or refuse a recommendation, and did a check prompt it? Were the strategic paths stated in DC-15 the real ones? Record the answers as comments here, with any check changed.",
+    "next_action": "Review at the next owner session. On srs#998 the owner answered D1 and D2 and found the strategic table more valuable than the rewritten block alone; the RFC itself is still a Draft, not accepted. Next test: the next technical decision to reach the owner."
   },
   "tags": [
     "exercise",
@@ -17,6 +17,6 @@
     "decision-checklist"
   ],
   "createdAt": "2026-11-05T19:13:59.225848296+00:00",
-  "updatedAt": "2026-11-05T19:13:59.225851544+00:00",
+  "updatedAt": "2026-11-05T19:58:44.209626895+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

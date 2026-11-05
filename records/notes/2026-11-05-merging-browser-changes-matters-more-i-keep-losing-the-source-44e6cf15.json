@@ -1,0 +1,20 @@
+{
+  "instanceId": "44e6cf15-cf54-45b4-8522-8618d009eb88",
+  "title": "2026-11-05: Merging browser changes matters more; I keep losing the source",
+  "tags": [
+    "vignette",
+    "topic:srs-web-merge",
+    "topic:srs-web-recovery-copy"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "I can live with this. the more important work however is merging in changes that are in the browser. \nI keep loosing the source, then needing to save to disk, and then have to find a way to merge back in again. "
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-05; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

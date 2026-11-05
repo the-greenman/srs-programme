@@ -1,0 +1,19 @@
+{
+  "instanceId": "837bc2ce-a8d5-4ace-b839-888be905128e",
+  "title": "2026-11-05: After a save and reload there is no suggested in-memory copy",
+  "tags": [
+    "vignette",
+    "topic:srs-web-recovery-copy"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "in srs-web when I have loaded a repo into memory, it shows that the repo is already loaded if it has unsaved changes. \n\nBut If I save, and then happen to reload - there is no suggested in-memory copy. \nIs the copy still in memory? "
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-05; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

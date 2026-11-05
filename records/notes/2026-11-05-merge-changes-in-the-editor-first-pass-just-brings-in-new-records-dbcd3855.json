@@ -1,0 +1,19 @@
+{
+  "instanceId": "dbcd3855-9b34-420c-8012-0f460fb5b4b4",
+  "title": "2026-11-05: Merge changes in the editor; first pass just brings in new records",
+  "tags": [
+    "vignette",
+    "topic:srs-web-merge"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "We now have a cleaner recent changes diff. Do we have a path to a clean merge of two copies of the same repo?\n\nI woudl like to be able to say, merge changes in the editor. \n\nWe can keep this simple as a first pass. Just bring in new records. \nA more advanced diff/merge view can follow"
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-05; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

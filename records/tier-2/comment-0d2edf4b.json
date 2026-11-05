@@ -1,0 +1,14 @@
+{
+  "instanceId": "0d2edf4b-2e7a-42ea-bb93-7ce76ef5cf64",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "srs#998, 2026-11-05: the owner answered D1 and D2 and reasonably took that as accepting the PR ('I've accepted 998 for now'), then found it still claiming to be a draft. Answering an ask, merging a Draft RFC and accepting the RFC are three separate acts. The block asks only the first two questions and has no ask for acceptance, so nothing tells the person deciding which act they have just done or what remains. The rewritten block did not fix this, and Claude Code's review missed the PR's draft state too. Candidate for a check: every ask says what answering it does and does not do.",
+    "kind": "evidence"
+  },
+  "createdAt": "2026-11-05T19:58:44.279943808+00:00",
+  "updatedAt": "2026-11-05T19:58:44.279948360+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
