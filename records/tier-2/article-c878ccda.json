@@ -1,0 +1,21 @@
+{
+  "instanceId": "c878ccda-5e60-4ffb-98d0-058a998c1730",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "article_number": "DC-04",
+    "title": "Why",
+    "article_text": "The reason someone outside the room would need, a year from now. It argues against the options actually on offer, not a weaker version of them. Checked by: judgement.",
+    "rationale": "First sentence from the owner's meeting review. Second from srs#998, whose why argued against a lookup alone while the option on offer included a facet rule."
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:decisions",
+    "decision-checklist"
+  ],
+  "createdAt": "2026-11-05T19:13:58.311901124+00:00",
+  "updatedAt": "2026-11-05T19:13:58.311902946+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

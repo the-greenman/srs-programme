@@ -1,0 +1,21 @@
+{
+  "instanceId": "af1e53e4-a10e-40c4-893d-da2f973f186f",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "article_number": "DC-06",
+    "title": "Revisit",
+    "article_text": "A condition tied to the why, not only a date: a sign it isn't working, and a sign it has done its job. Checked by: mechanical for presence; judgement for whether it can be observed.",
+    "rationale": "From the owner's meeting review and the muDemocracy guide. clerk#270 tests these conditions once they exist; the ask format has no field for them yet."
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:decisions",
+    "decision-checklist"
+  ],
+  "createdAt": "2026-11-05T19:13:58.476604679+00:00",
+  "updatedAt": "2026-11-05T19:13:58.476606358+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

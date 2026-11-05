@@ -1,0 +1,21 @@
+{
+  "instanceId": "9414df4a-d081-4273-8d8f-5cd743da3a03",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "article_number": "DC-03",
+    "title": "Standing rules stand alone",
+    "article_text": "A rule that will apply next time gets its own record. Once it exists, ask whether the one-off decision beneath it still needs asking. Checked by: judgement.",
+    "rationale": "The owner's meeting review found that once a standing rule was split out, the one-off decision beneath it was no longer the committee's to make. srs#998 has the same shape: 'an id travels beside its label in the same output'."
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:decisions",
+    "decision-checklist"
+  ],
+  "createdAt": "2026-11-05T19:13:58.229735964+00:00",
+  "updatedAt": "2026-11-05T19:13:58.229737566+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

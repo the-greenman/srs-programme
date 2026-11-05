@@ -1,0 +1,21 @@
+{
+  "instanceId": "b23885da-57e4-4636-9161-f036115ccd0e",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "article_number": "DC-02",
+    "title": "A decision, not an action",
+    "article_text": "It removes future choices. Tasks that carry it out go in the issue or action list. Would a later choice be settled by pointing at it? Checked by: judgement.",
+    "rationale": "From the owner's meeting review, where actions were written up as decisions. The later-choice question is the handbook's Reuse test."
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:decisions",
+    "decision-checklist"
+  ],
+  "createdAt": "2026-11-05T19:13:58.150347934+00:00",
+  "updatedAt": "2026-11-05T19:13:58.150349891+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
