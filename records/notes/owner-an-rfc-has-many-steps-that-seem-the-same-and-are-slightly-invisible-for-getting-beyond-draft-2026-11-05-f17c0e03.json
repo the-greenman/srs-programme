@@ -1,0 +1,17 @@
+{
+  "instanceId": "f17c0e03-4a00-42c9-9c19-cd35c4ca9b11",
+  "title": "Owner: an RFC has many steps that seem the same and are slightly invisible, for getting beyond draft (2026-11-05)",
+  "tags": [
+    "vignette",
+    "topic:flow",
+    "topic:decisions"
+  ],
+  "sections": [
+    {
+      "name": "owner-words",
+      "label": "Owner's words (verbatim)",
+      "content": "ok. so this is some more notes for our flow research in the programme. \n\nThe rfc has many different steps (that seem the same) that are slightly invisible, for accepting an rfc and getting it beyond draft"
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

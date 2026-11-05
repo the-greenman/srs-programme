@@ -1,0 +1,19 @@
+{
+  "instanceId": "b22f30cd-cfe7-4d8d-b3bc-beb3d404ba16",
+  "title": "2026-11-05: Bringing in new records is purely a tooling choice",
+  "tags": [
+    "vignette",
+    "topic:srs-web-merge"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "This does not change the format, and there is nothing in the spec that should prevent this, so I think this is a purely tooling choice."
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-05; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

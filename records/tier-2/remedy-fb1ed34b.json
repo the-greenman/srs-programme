@@ -1,0 +1,21 @@
+{
+  "instanceId": "fb1ed34b-ddca-48c1-b0d9-44fe7dbeaf79",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Bring new records in from another copy",
+    "move": "In the editor, a person picks another copy of the open repository, reviews what exists only in that copy, and brings the chosen items in unchanged, keeping their ids and who made them.",
+    "does_not_fix": "Edits to records both copies hold, deletions and reordering: they are reported, not merged. With no common base, a record deleted here looks new in the copy, so the review is the only protection. Full three-way merge stays with srs#387.",
+    "falsifier": "People still leave the editor to merge additive work, or believe work has landed when it was an edit reported as not brought in.",
+    "source_ref": [
+      "Owner, 2026-11-05: vignettes 44e6cf15, dbcd3855",
+      "srs#387"
+    ],
+    "return_when": "Copies regularly return with edits to existing records, which is when three-way merge (srs#387) earns its cost."
+  },
+  "createdAt": "2026-11-05T19:38:51.791557619+00:00",
+  "updatedAt": "2026-11-05T19:38:51.791559072+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
