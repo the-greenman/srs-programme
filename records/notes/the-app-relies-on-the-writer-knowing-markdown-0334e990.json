@@ -1,0 +1,15 @@
+{
+  "instanceId": "0334e990-5b05-4591-8640-109e52b28b43",
+  "title": "The app relies on the writer knowing markdown",
+  "tags": [
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "vignette",
+      "label": "Owner's words (verbatim, 2026-11-06)",
+      "content": "App.semanticips.com relies on the writer knowing markdown\n\nDoes our help explain this?"
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
