@@ -1,0 +1,47 @@
+{
+  "instanceId": "5f003af3-8356-4fe2-a9ce-8b141ba5d980",
+  "title": "The editor's domain: the owner's current words, ready for the owner's rewrite (2026-11-06)",
+  "tags": [
+    "domain-draft",
+    "topic:domain-definition",
+    "topic:essay-editor"
+  ],
+  "sections": [
+    {
+      "name": "status",
+      "label": "Status",
+      "content": "Collected by an agent. Every quoted passage is the owner's, from the vignettes named; nothing here is affirmed. The next step is the owner rewriting the statement in their own words. No agent should turn this into domain text. The current record is 'Evidence-backed writing' (2651f2ad), unchanged."
+    },
+    {
+      "name": "purpose",
+      "label": "Purpose",
+      "content": "\"An editing tool that supports a writer to produce better work with AI.\" (1cf3ef4f)\n\n\"bring together these different forms of cognition and create something richer than either one could achieve separately.\" (1cf3ef4f)\n\n\"Ai makes the depth of my writing better. I can take onmuch deeper topcis. But I can't let it write the final words,\" (af4b7e6c)\n\n\"I need the creativeity AI has to offer. But as a peer.\" (af4b7e6c)"
+    },
+    {
+      "name": "audience",
+      "label": "Audience",
+      "content": "\"I will promote this to people as a way of demonstrating how we can take the middle path with AI. We don't have to throw it out. We don't have to surrentder.\" (73ae8761)\n\n\"They may not be dedicated writers, they may be more technical, but they will be actively thinking about how they preserve their skills while also embracing AI.\" (73ae8761)\n\n\"They won't be writing a novel. They may try writing a researched essay.\" (73ae8761)"
+    },
+    {
+      "name": "inside",
+      "label": "Inside the boundary",
+      "content": "\"A web based editor that offers a way to build writing in layers.\" (1cf3ef4f)\n\n\"The whole point of SRS is the layers. The final output is the paragraph. But what lies underneath could be months of work.\" (73ae8761)\n\n\"Keeping the process means holding the rough work to build an understanding. The container holds the doubts, the questions, the failures, the discoveries.\" (73ae8761)\n\n\"This domain deals with the practice of writing, the creation and structure of texts. The collection and curation of reference materials, citations and quotes. The decomposition / composition of structured semantic building blocks. The setup of agents and their ability to interact.\" (1cf3ef4f)\n\n\"The agents add to the repo. I can have a conversation and a an agent can add references, notes and other materials. We just limit it's ability to create the mainparagraph text.\" (73ae8761)\n\n\"an essay is a specific onstruct on top of srs. it's pointless sharing an essay in a generic viewer.\" (73ae8761)"
+    },
+    {
+      "name": "outside",
+      "label": "Outside, and the limits",
+      "content": "\"Sharing srs is not really the domain for the editor.\" (73ae8761) This changes the sharing passage in 1cf3ef4f.\n\n\"The website editor is a sister domain. There I don't have quite the same strictness.\" (73ae8761) The record 'Website copy' (f2262d25) calls itself a sub-domain, which needs the owner's look.\n\n\"The essay editor is about deeper meaning. The website is suface meaning. I still want to easily know what an agent has written\" (73ae8761)\n\n\"We cannot control that context. So we should not pretend.\" and \"We create the tooling to support the user, but we're not workign around the user.\" (ee0353f8)"
+    },
+    {
+      "name": "differs",
+      "label": "Where this differs from the current record",
+      "content": "An agent's reading of the differences from 2651f2ad, for the owner to weigh:\n- The record's purpose is defensive: agents respond and never write. The owner's words start from what the two together can do, with the final words as the limit.\n- The record has no audience field. The owner's audience is defined by attitude: people looking for the middle path.\n- The record says 'every claim is valid and can stand up to critical argument'. The owner's wider statement treats that as one use: researched essays, among others.\n- The record has no line on the rough work, on what's outside our control, or on the essay's own viewer.\n- The record's title may no longer fit. The owner has not settled a name, and an earlier agent suggestion to rename it was withdrawn.\n\nThe suggested tensions 7c6e0019, 24f3b8ec and a09ff73a were drafted before all this and are out of date. They should not be taken up as they stand."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "- Is 'back in charge' about the owner and AI, or the owner and themselves? The owner's later words in d6d480b2 point to the second: \"I was not in charge of myself.\" Not yet stated for the domain.\n- Own words against feedback: is it its own axis? The owner left this open in 35c738dd.\n- Where getting started, help and the reader belong. Inline affirmation too."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
