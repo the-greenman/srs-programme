@@ -19,12 +19,12 @@
     "status": "proposed",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "tags": [
     "boundary:decision-flow",
     "topic:decisions"
   ],
   "createdAt": "2026-11-05T19:13:59.309053383+00:00",
-  "updatedAt": "2026-11-05T19:15:05.797569813+00:00",
+  "updatedAt": "2026-11-06T14:24:51.219959089+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

@@ -1,0 +1,29 @@
+{
+  "instanceId": "144d58b5-022c-49bb-a1e5-27ea3a8f0339",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-11-06 14:19 UTC: SemanticOps",
+    "held_at": "2026-11-06T14:19:58Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-11-06 14:19 UTC: SemanticOps\nAttendees: Owner\n- Ratified: Merging a holon's PRs in an immature domain [1f6dfe3c]\n- Ratified: Default editing mode in the essay editor [3f6f215c]\n- Ratified: An editor lists the packages it serves from its own site, and an agent can ask to install one but only the writer installs it [508703ce]\n- Commented: An editor lists the packages it serves from its own site, and an agent can ask to install one but only the writer installs it [508703ce] (1)\n- Ratified: New-writer features under the stabilising stance [5b0cd3fe]\n- Ratified: A programme decision reaches proposed only with a case per option, the precedent consulted and a placement [7b91246b]\n- Ratified: The core judges every visual round trip [bf0229dd]\n- Ratified: What the visual essay editor supports [c7d81c5d]\n- Ratified: Library for visual essay editing [cb1b56ec]\n- Ratified: Decision checklist: one container, reviewed at every owner session for now [d91facdd]\n- Ratified: Visual editing is chosen per editor [eb9b4530]\n- Received: WG Agent-supported editor report 2026-11-06\n- Received: WG Third-party ready report 2026-11-06\nActs in the order taken (UTC):\n- 14:20:37Z ratify: Merging a holon's PRs in an immature domain [1f6dfe3c] (Decisions since the last session 1 of 10, record updated 2026-11-06T08:45:20.627929957+00:00)\n- 14:20:48Z ratify: Default editing mode in the essay editor [3f6f215c] (Decisions since the last session 2 of 10, record updated 2026-11-06T08:45:20.538768012+00:00)\n- 14:21:31Z comment: An editor lists the packages it serves from its own site, and an agent can ask to install one but only the writer installs it [508703ce] (Decisions since the last session 3 of 10, record updated 2026-11-05T13:31:43.837310655+00:00)\n- 14:21:32Z ratify: An editor lists the packages it serves from its own site, and an agent can ask to install one but only the writer installs it [508703ce] (Decisions since the last session 3 of 10, record updated 2026-11-05T13:31:43.837310655+00:00)\n- 14:22:02Z ratify: New-writer features under the stabilising stance [5b0cd3fe] (Decisions since the last session 4 of 10, record updated 2026-11-06T08:45:20.106038003+00:00)\n- 14:22:16Z ratify: A programme decision reaches proposed only with a case per option, the precedent consulted and a placement [7b91246b] (Decisions since the last session 5 of 10, record updated 2026-11-05T19:13:59.395907924+00:00)\n- 14:22:29Z ratify: The core judges every visual round trip [bf0229dd] (Decisions since the last session 6 of 10, record updated 2026-11-06T08:45:20.451165505+00:00)\n- 14:23:20Z ratify: What the visual essay editor supports [c7d81c5d] (Decisions since the last session 7 of 10, record updated 2026-11-06T08:47:32.790170526+00:00)\n- 14:23:50Z ratify: Library for visual essay editing [cb1b56ec] (Decisions since the last session 8 of 10, record updated 2026-11-06T08:45:20.281539021+00:00)\n- 14:24:19Z ratify: Decision checklist: one container, reviewed at every owner session for now [d91facdd] (Decisions since the last session 9 of 10, record updated 2026-11-05T19:15:05.797569813+00:00)\n- 14:24:26Z ratify: Visual editing is chosen per editor [eb9b4530] (Decisions since the last session 10 of 10, record updated 2026-11-06T08:45:20.191181184+00:00)\n- 14:24:34Z receive: WG Agent-supported editor report 2026-11-06 [cde0f5b5] (Reports 1 of 2)\n- 14:24:40Z receive: WG Third-party ready report 2026-11-06 [fb1b7766] (Reports 2 of 2)"
+  },
+  "createdAt": "2026-11-06T14:24:48.336498330+00:00",
+  "updatedAt": "2026-11-06T14:24:48.336500284+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "6df6d3e1-1299-4600-85b9-13f4081b43e5",
+      "sourceRole": "attaches"
+    }
+  ]
+}
