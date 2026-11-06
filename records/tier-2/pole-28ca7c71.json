@@ -1,0 +1,15 @@
+{
+  "instanceId": "28ca7c71-afa1-4104-ac8c-2c86182d2a7b",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "The essay done well",
+    "looks_like": "What is supported is deliberately limited, and a first-time writer can start from one link and finish an essay.",
+    "shadow": "The essay stays paragraphs only, and cannot show the meaning it stands on."
+  },
+  "createdAt": "2026-11-06T10:06:00.252342855+00:00",
+  "updatedAt": "2026-11-06T10:06:00.252344421+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

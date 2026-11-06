@@ -1,0 +1,23 @@
+{
+  "instanceId": "538b59b1-fc45-4580-b9de-230a9042ebb9",
+  "title": "This process is important, but killing me (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:affirmation",
+    "topic:owner-load"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "This process is important, but killing me ;-)"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, approving the affirmation repairs and the prepared sitting on Evidence-backed writing; recorded verbatim. The opening 'ok. lets proceed.' is omitted as an instruction."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

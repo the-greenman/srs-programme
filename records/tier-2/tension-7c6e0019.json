@@ -1,0 +1,14 @@
+{
+  "instanceId": "7c6e0019-d984-4c41-ae5a-d2943234e0c4",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Keep writing and check the claims",
+    "description": "Line 1 in Evidence-backed writing, refining the Stance line 'Action'. Whether the writer keeps getting the piece written and out, or stops to test each claim against the evidence and the agents' challenges."
+  },
+  "createdAt": "2026-11-06T10:05:59.788382588+00:00",
+  "updatedAt": "2026-11-06T10:05:59.788384263+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

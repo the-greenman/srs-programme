@@ -1,0 +1,15 @@
+{
+  "instanceId": "b1c7c98e-24bb-44d0-9f72-ccf9f3f7c5ba",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "More kinds of writing",
+    "looks_like": "Each piece brings the background it needs: a story its characters and places, a contract its clauses, an argument its problems and claims.",
+    "shadow": "The writer is asked to think in structures and packages, and the editor grows faster than anyone can learn it."
+  },
+  "createdAt": "2026-11-06T10:06:00.164553652+00:00",
+  "updatedAt": "2026-11-06T10:06:00.164555357+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
