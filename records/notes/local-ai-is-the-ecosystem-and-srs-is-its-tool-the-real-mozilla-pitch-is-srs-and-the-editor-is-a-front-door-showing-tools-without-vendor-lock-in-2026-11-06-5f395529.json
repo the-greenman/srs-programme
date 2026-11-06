@@ -1,0 +1,21 @@
+{
+  "instanceId": "5f395529-546d-4840-a43d-c8799e8af819",
+  "title": "Local AI is the ecosystem and SRS is its tool; the real Mozilla pitch is SRS, and the editor is a front door showing tools without vendor lock-in (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Local Ai is not just the AI, its the ecosystem. SRS is the tool for the ecosystem. The Editor is a proof of concept. The real pitch for Mozilla is not the editor, it's SRS. The editor is a front door that shows how we can built tools without vendor lock-in."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, answering what local AI means for the community the editor is for; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

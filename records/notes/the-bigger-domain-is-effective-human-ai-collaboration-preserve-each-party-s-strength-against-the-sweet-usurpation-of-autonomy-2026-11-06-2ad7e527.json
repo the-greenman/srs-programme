@@ -1,0 +1,21 @@
+{
+  "instanceId": "2ad7e527-cba4-46c5-8dab-77f21e07a4bd",
+  "title": "The bigger domain is effective human/AI collaboration: preserve each party's strength, against the sweet usurpation of autonomy (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The bigger domain that all this work may be part of is effective human / AI collaboration. Great collaboration requires creating an environment where we preserve the strength of each party. When AI takes over the work a human should do, that becomes the gradual, sweet usurpation of autonomy. The Human looses their value. \n\nAI can research, it can challenge. It can support the structure. But we need tools that support the thinking that humans need to do to actively stay part of the process."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, answering what AI is useful for without costing the wrestling; recorded verbatim. The owner pasted alongside it: Carly Dober, 'Relying on AI is rotting your brain. But here's what you can do about it', The Guardian (Opinion), 31 October 2026. The article's text is not reproduced here."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

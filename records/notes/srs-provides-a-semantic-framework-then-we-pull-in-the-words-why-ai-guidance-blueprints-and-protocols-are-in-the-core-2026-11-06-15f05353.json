@@ -1,0 +1,23 @@
+{
+  "instanceId": "15f05353-6d42-42bf-a87d-ae7812115770",
+  "title": "SRS provides a semantic framework, then we pull in the words: why AI guidance, blueprints and protocols are in the core (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:synthesis",
+    "topic:domain-definition"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "what is thenext experiement. \nThe last one was very valuable - fitting together my ideas into a coherent whole - This is why SRS has an ai guideance element - and why we have blueprints and protocols as part of the core. SRS provides a semantic framework, then we pull in the words."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, after the experiment sorting their words under the old domain template; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
