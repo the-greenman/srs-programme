@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "f94ce1bd-06fd-4191-94b9-f85777387ae6",
+  "relationType": "com.mudemocracy.stewardship/authored-by",
+  "sourceInstanceId": "cde0f5b5-b80d-4e9d-8662-84d783f813af",
+  "targetInstanceId": "0d6c5d30-ad15-47f4-8a49-83d281bbb112",
+  "createdAt": "2026-11-06T11:39:38.988683451+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  }
+}
