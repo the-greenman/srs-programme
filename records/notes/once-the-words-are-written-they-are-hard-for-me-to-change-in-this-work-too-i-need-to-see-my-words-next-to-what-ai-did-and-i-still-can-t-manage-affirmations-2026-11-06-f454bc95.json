@@ -1,0 +1,21 @@
+{
+  "instanceId": "f454bc95-665d-47d9-bc5a-f5c58911bd4f",
+  "title": "Once the words are written they are hard for me to change, in this work too: I need to see my words next to what AI did, and I still can't manage affirmations (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "yes. That is the right path. We build through local experiments first. The point of the whole domain exercise it to build deep context. The challenge for me in all this work is exactly what we have been describing as the challenge for writing. Once the words are written, it's very hard for me to change them. \n\nThis is why we have begun the vignette system. I need to see my original words. The method editor needs to show me what AI has done next to what I said. And the tooling needs to make it simple for me to stay in charge. \n\nAt the moment I still cannot properly work out how to manage affirmations. The method editor is supposed to have a vignette view. But it only works on some things. And I'm never sure where to find it. The control room has a way for me to see a domain and all it's axes... but I hardly recognise it."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, approving a local experiment on the editor's domain definition; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

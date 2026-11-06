@@ -1,0 +1,24 @@
+{
+  "instanceId": "4fd551ad-b9d8-4d6f-b483-a24f62f97e16",
+  "title": "A summary layer I can clone and edit; vignettes strengthen or weaken assumptions; I can only affirm in context, and a domain is our current best guess (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:affirmation",
+    "topic:domain-definition",
+    "topic:synthesis"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "This little experiment shows me somethign very interesting. AI takes te fragments places them into categories of data within the domain. \n\nWhat I can then see coming is an AI produced summary of the text that sits a layer up. I should also be able to clone and edit that summary. I may not even be certain of that text, but it will help me to understand better. \n\nOver time, we collect more of this information. A conversation will return to this topic and those vignettes will strengthen or weaken the assumptions we may have made about a topic. \n\nGradually the confidence in a set of statements will grow - but an affirmation is still something that we should not assume is the goal. \n\nI can only affirm in context. When I see a statement, I need to see whats next to it. And what contains it. A domain is just our current best guess.   This is synthesis work - it is always relative to it's context. \n\ntake a look at this dataset. \n\nThis took me 6 months with multiple iterations"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, after reading the experiment page of the editor's domain in their own words; recorded verbatim. The dataset they mention did not come through with the message."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

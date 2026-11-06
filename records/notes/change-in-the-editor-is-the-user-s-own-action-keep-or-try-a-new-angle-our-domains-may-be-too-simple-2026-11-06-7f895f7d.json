@@ -1,0 +1,21 @@
+{
+  "instanceId": "7f895f7d-e120-4fdb-aaaa-471972d8145e",
+  "title": "Change in the editor is the user's own action, keep or try a new angle; our domains may be too simple (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "In this case your suggestion works. \nIts the user's own action, rather than an AI assisted action. \n\nFor reference, take a look at the domain definition templates from /home/greenman/dev/products\n\nThese are from a long time ago, but we may find that our domains are just too simple at the moment"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, choosing 'keep what's working / try a different angle' as the editor's Change axis over support / challenge; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

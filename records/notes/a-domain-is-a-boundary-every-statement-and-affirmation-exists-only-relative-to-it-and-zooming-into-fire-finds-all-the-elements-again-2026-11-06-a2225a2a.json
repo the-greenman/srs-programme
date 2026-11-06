@@ -1,0 +1,24 @@
+{
+  "instanceId": "a2225a2a-5d21-4b44-b298-e9c1667e9256",
+  "title": "A domain is a boundary: every statement and affirmation exists only relative to it, and zooming into fire finds all the elements again (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:affirmation",
+    "topic:domain-definition",
+    "topic:synthesis"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The process here is different. but the essential element is --- a domain is a boundary. Every statement only exists relative to that boundary. This work on SDE meant that I could only assign a category when I could see how it related to what was around it. \n\nAn affirmation cannot be made without context. And It only exists within that context. I can flag an element as \"fire\" in one context.... but when I zoom into only the fire elements... I find all the elements again within that context"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, answering whether their Systemic Data Ethics ratings separated confidence in the statement, placement, unit and map; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

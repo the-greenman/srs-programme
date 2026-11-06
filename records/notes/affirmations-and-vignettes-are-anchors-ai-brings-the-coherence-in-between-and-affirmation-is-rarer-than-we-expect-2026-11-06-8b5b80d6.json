@@ -1,0 +1,23 @@
+{
+  "instanceId": "8b5b80d6-2b6e-43f5-86a4-b168ace1299b",
+  "title": "Affirmations and vignettes are anchors; AI brings the coherence in between, and affirmation is rarer than we expect (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:affirmation",
+    "topic:human-ai-collaboration"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "These sound like good steps. \n\nThe Human / AI layer should be recognised. AI brings coherence. I will be weaving in and out of these topics over time. There is not a one to one link between conversation domain - problem - claim. The human layer can be far less structured. There will be vignettes from conversations across months soon. \n\nAI can build the coherence layer. Building up patterns and then refining them. Turning my words into structured data. Sometimes AI will take things out of context. Sometimes this will be caught by a challenger or rebel archetype. Sometimes I will just need to pay proper attention. \n\nSo the affirmation layer sits on the far side. It is probablt rarer than we are expecting it to be now. Affirming everything just becomes a chore... and then I just click \"recommended\". Affirmations are anchors. So are the vignettes. AI brings the coherence inbetween"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, answering the finding that most suggested records have no path back to the owner's words; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

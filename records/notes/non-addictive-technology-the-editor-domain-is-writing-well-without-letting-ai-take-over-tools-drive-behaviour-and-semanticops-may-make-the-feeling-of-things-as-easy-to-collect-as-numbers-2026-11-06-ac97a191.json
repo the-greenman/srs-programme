@@ -1,0 +1,21 @@
+{
+  "instanceId": "ac97a191-6ef8-4c3b-8986-e4090a036130",
+  "title": "Non-addictive technology; the editor domain is writing well without letting AI take over; tools drive behaviour, and SemanticOps may make the feeling of things as easy to collect as numbers (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "This is also a design choice to build non-addictive technology. The editor domain is about writing well, and collaborating with AI to create evidence backed writing - without letting the AI take over.  Without the tooling, asking Claude or any AI to just make a small change very quickly ends up with an unrecognisable document. We need tools to support us. \n\nTools drive behaviour. The spreadsheet made it so much easier to collect financial and quantitive data that we forgot about the qualitative. Perhaps part of the semanticops remit is to make it that much easier to collect the feeling of things too"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, talking about the domain of WG Agent-supported editor; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
