@@ -1,0 +1,23 @@
+{
+  "instanceId": "6f3839be-8092-4760-a1f6-90cf4b54e3e8",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Publish srs-bindings to npm: under what package name, version policy and account, so srs-rust#819 becomes group work?",
+    "thinking_reached": "Checked 2026-11-06 against srs-rust origin/master 43b1ce8e and srs-web main. SP-79 (Third parties cannot install the engine as a library) is affirmed and holds: srs-bindings ships only as a GitHub release tarball (`srs-bindings-web.tar.gz`), and srs-web fetches it through `scripts/ensure-bindings.mjs`, pinned to v0.1.0-build.595. srs-rust#819 is planned (publish from release.yml, ship the wasm-pack web output and .d.ts, point srs-web at the package) but its own scope leaves three choices open: the package name (\"@semanticops/srs-bindings, name TBD\"), the pre-1.0 version policy, and which npm account or scope publishes. No rfc-decision, accepted RFC or srs-rust ADR records any of them (decision 0b1c25b1), and the release.yml change adds a public distribution channel the owner holds, so the analyst cannot file it as work.",
+    "tensions": "Option A: publish under an `@semanticops` npm scope the owner creates, version `0.<build>.0` from the release tag (breaking changes allowed in minor below 1.0, as the issue suggests), published by release.yml with an automation token. Option B: publish only on promoted releases (after the corpus gate, srs-rust#877), so `latest` on npm matches `latest` on GitHub; drafts never reach npm. Option C: keep the tarball and publish a documented install recipe instead, with no registry account to hold. Portability (the group's lean, decision 7270e772) pulls toward A or B; Reliability (one release channel, nothing to rotate) pulls toward C.",
+    "unresolved_questions": "1. Does the owner want a public npm scope at all, and under what name? 2. Is a published version tied to every build or only to promoted releases? 3. Who holds the token, and where (an environment secret in srs-rust)? Evidence that would choose: whether a third-party integrator (the persona behind SP-79) can work from option C's recipe, and whether srs-web's pin bumps would get simpler under A or B.",
+    "blocking": "srs-rust#819 cannot be promoted to ready, and SP-79 yields no other ruling-backed work: the release and install items (srs-rust#1516, #1517) are closed.",
+    "next_action": "The owner chooses A, B or C (or names the package and policy) in a session; the choice is recorded as a decision, and the analyst then shapes srs-rust#819 as Door 1 work under semanticops.com#31."
+  },
+  "createdAt": "2026-11-06T12:18:18.583208539+00:00",
+  "updatedAt": "2026-11-06T12:18:18.583220632+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-analyst",
+    "name": "Third-party-ready analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
