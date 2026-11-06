@@ -1,0 +1,29 @@
+{
+  "instanceId": "cb1b56ec-5b86-4be1-ac67-4f943afbdd81",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Library for visual essay editing",
+    "decision_question": "Which existing library should provide visual editing in the essay editor?",
+    "context": "The owner, 2026-11-06 (vignette 50a11c7c): look at available libraries rather than assuming we build everything. The editor is Svelte 5 with no rich-text dependency; markdown stays stored and the core renderer (pulldown-cmark) stays the only reader. Evidence: finding e640280f measured Tiptap 3.33 on 87 real essay paragraphs (86 render the same, none lost unnoticed) at 140 KB gzipped, loaded on first edit. Sizes below are Bundlephobia figures for the other options and were not independently measured. A published no-edit benchmark (github.com/Katta041/markdown-roundtrip-benchmark, by the author of a competing editor) found neither Tiptap nor Milkdown byte-preserving, so no option avoids the protections in the companion decision. Precedent consulted: ADR-001; ADR-048 (once, in the right place); remedy ecc44c03. Placement: the editor group's log, srs-web.",
+    "friction": "Formatting today requires knowing markdown, and building an editing surface here would mean owning selection, input and paste across browsers, which is exactly the work a library exists for.",
+    "alternatives_considered": "A. Tiptap 3 with @tiptap/markdown, pinned exactly (recommended). For: MIT; about 6M weekly downloads for the markdown package; no framework wrapper needed; measured on our text. Against: its markdown package is labelled an early release and parses with marked, not our renderer; Svelte integration is lower-level than its React and Vue packages.\nB. Milkdown. For: markdown-first; MIT. Against: Crepe is about 453 KB gzipped; no first-party Svelte package; the same re-serialisation behaviour is reported, with inlined reference links.\nC. prosemirror-markdown directly. For: the foundation Tiptap uses, about 68 KB gzipped before the editor itself. Against: we would build what Tiptap provides (commands, toolbar state, keymaps).\nD. Lexical with @lexical/markdown. For: about 81 KB gzipped; strong project. Against: more to assemble ourselves, not measured on our text.\nE. Overtype or Carta. For: small (Overtype about 40 KB gzipped), and Carta is Svelte. Against: both still show markdown to the writer, so they do not answer the problem.\nF. Toolbar over today's plain-text box, no library. For: no dependency; buttons insert markers. Against: the writer still reads raw markdown.\nMDXEditor (about 569 KB gzipped, needs React) and BlockNote (about 185 KB gzipped, MPL-2.0, whole-document block model) were ruled out.",
+    "key_requirements": "The writer sees formatted text; works in Svelte 5 without React; acceptable licence; runs entirely in the browser with no cloud service; survives measurement on real essays; acceptable size when loaded only on first edit. Trade-off: a dependency to track, in a package still labelled early.",
+    "decision_statement": "The essay editor builds visual editing on Tiptap, with its version pinned exactly.",
+    "rationale": "It is the only option that both hides markdown and has been measured on our own text, and its size is modest beside the existing 3119 KB gzipped engine. The early-release risk is contained by the exact pin and by the core judging every round trip.",
+    "revisit_when": "A Tiptap upgrade makes the round-trip check fire noticeably more often, the markdown package is abandoned, or the write check fires often enough in use that writers are regularly sent to source.",
+    "owner": "Owner",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "tags": [
+    "topic:essay-editor",
+    "topic:visual-editor",
+    "holon:visual-editor"
+  ],
+  "createdAt": "2026-11-06T08:45:20.281537548+00:00",
+  "updatedAt": "2026-11-06T08:45:20.281539021+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,25 @@
+{
+  "instanceId": "0b9b055b-3f35-4596-9169-303e38e87e8c",
+  "title": "Vignette 2026-11-06: encryption and access control are a multi-repo layer; signed writes, split and merge with a recorded home; a shared organisational memory",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:shared-memory",
+    "topic:federation",
+    "topic:signed-writes",
+    "topic:access-control"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "At the moment I have been avoiding encryption within SRS itself. I have been feeling that it should be a different layer.\n\nThe kind of future element that may be useful is signed writes so that we can affirm who made the changes. \n\nIn my head, being able to split and merge repos may solve some of this, as long as we can record where \"home\" is, and then we watch for mirrored or cached records. \n\nThe encryption and access control then takes place at a multi repo later through a common interface. We already have the beginnings of this. And I prefer a federated model rather that scales in a fractal way rather than centralising. \n\n\nI'm mainly interested in checking that we can build a shared organisational memory. A group of people safely managing a shared long term agent context."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06; recorded verbatim. Follows vignette c1c1bd00."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

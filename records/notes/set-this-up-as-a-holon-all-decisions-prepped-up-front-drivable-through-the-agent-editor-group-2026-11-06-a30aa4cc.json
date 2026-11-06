@@ -1,0 +1,24 @@
+{
+  "instanceId": "a30aa4cc-0514-42c9-840e-62360cb7b424",
+  "title": "Set this up as a holon: all decisions prepped up front, drivable through the agent editor group (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:holon",
+    "topic:visual-editor",
+    "topic:decision-practice"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "I need to have this work set up as a holon. All decisions prepped up front and the work established so that it can be driven automatically if needed through the agent editor group "
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, on the same plan; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

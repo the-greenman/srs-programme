@@ -1,0 +1,29 @@
+{
+  "instanceId": "3f6f215c-58a8-451e-88ac-d38dc991bd5b",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Default editing mode in the essay editor",
+    "decision_question": "Which editing mode does a writer get by default, and where does the choice to switch live?",
+    "context": "The owner, 2026-11-06 (vignette 50a11c7c): a visual editor that does not require markdown knowledge, '(I would like to switch it off and use markdown if I want)'. The editor already keeps per-viewer conveniences in localStorage (src/lib/columns.ts, actor name). Precedent consulted: that pattern; persona 5a603ae9 First-time writer; remedy ecc44c03. Placement: the editor group's log, srs-web.",
+    "friction": "A default of markdown leaves the barrier for exactly the person this is for; a visual mode with no way out takes the source away from those who want it.",
+    "alternatives_considered": "A. Visual by default, with an 'Edit as markdown' switch remembered per browser (recommended). For: serves the new writer with no action on their part; matches existing per-viewer storage; no new server state. Against: the owner must switch once per browser; the choice does not follow a writer across devices.\nB. Markdown by default, visual opt-in. For: nothing changes for current writers. Against: the writer who needs it most will not find it.\nC. Per-account preference. For: follows the writer. Against: the editor is local-first and has no account requirement, so this needs new state and sign-in.\nD. Per-paragraph toggle. For: fine control. Against: more controls on every paragraph, and the render guard already handles the paragraphs that need source.\nE. Ask on first run. For: explicit. Against: asks a new writer about a word they may not know, which is the problem being solved.",
+    "key_requirements": "A first-time writer never has to know the word markdown; a fluent writer can always reach the source; no new server state. 'Markdown help' appears in markdown mode, where it is useful.",
+    "decision_statement": "The essay editor opens paragraphs visually unless the writer has chosen markdown on that browser.",
+    "rationale": "Defaults serve the person who cannot be expected to change them, and a fluent writer loses one click. Per-browser storage is what the editor already does for this kind of preference.",
+    "revisit_when": "Writers regularly lose the setting between devices, or most returning writers switch to markdown, which would call the default or the visual editor into question.",
+    "owner": "Owner",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "tags": [
+    "topic:essay-editor",
+    "topic:visual-editor",
+    "holon:visual-editor"
+  ],
+  "createdAt": "2026-11-06T08:45:20.538766633+00:00",
+  "updatedAt": "2026-11-06T08:45:20.538768012+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

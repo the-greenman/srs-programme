@@ -1,0 +1,24 @@
+{
+  "instanceId": "19964824-2c7b-4d4c-9d89-76815b160cc3",
+  "title": "The essay editor is a shift: elsewhere types and fields carry the structure, here the focus is the writing experience and sovereignty (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essay-editor",
+    "topic:visual-editor",
+    "topic:sovereignty"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The essay editor is a shift in our exploration.\nIn other environments we are not using rich text because we want to maintain the data structure. Srs allows us to establish structured types which, when used, means that we don't need rich text. Markdown is used only for simple text, fields used for the rest. \n\nThe essay currently only offers paragraph types. This is a different kind of context and a different user profile. \n\nOur focus for this work is currently the writing experience and sovereignty, so here we are looking at how we can offer an editor experience. "
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, on being shown a plan for a visual paragraph editor; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,29 @@
+{
+  "instanceId": "bf0229dd-4e5a-41d3-b556-7ccade67cf28",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "The core judges every visual round trip",
+    "decision_question": "How do we protect a writer's text, given that no available library preserves markdown source and the editor parses with a different parser from the core?",
+    "context": "Finding e640280f: 86 of 87 real paragraphs render the same, but only 76 are byte-identical, and text entered in the editor can save to markdown that reads differently: `1984. A year` becomes a numbered list without a fix, and two serializer defects survive it (literal asterisks, literal <em> tags). A check on opening cannot see these. The writer's sovereignty is the point of the work (vignette 19964824). Precedent consulted: ADR-001 (the core holds semantics, clients present); capability layering; srs-rust markdown.rs as the one sanitizing renderer. Placement: the editor group's log, srs-web.",
+    "friction": "Silently saving text that reads differently from what the writer saw is the one failure this work cannot have: it damages the writer's own words without telling them.",
+    "alternatives_considered": "A. The core judges both directions (recommended). On opening, if the core's rendering of the round-tripped markdown differs from the source, the paragraph opens as source. On saving, if the core's rendering of the saved markdown does not parse back to the editor's document (ignoring whitespace), the text is still saved, and the paragraph flips to source with a one-line note so the writer sees it. For: the renderer readers actually see is the judge; caught everything in the measurement with no false alarm beyond the one real case. Against: runs on every commit; a rare writer is sent to source.\nB. Check on opening only. For: simpler. Against: misses every case in the measured typed set.\nC. Trust the library. For: no code. Against: measurably wrong on ordinary sentences.\nD. Patch-on-save, writing only changed lines back into the source. For: preserves untouched bytes. Against: much more code, and the benchmark author's technique is built on a plain-text editor, not this model.\nE. Store the editor's document as the source of truth. For: no serialization risk. Against: gives up plain markdown, the portability the writer owns, and adds a client-side format.",
+    "key_requirements": "Never lose or silently change the writer's text; markdown stays the stored form; no semantics in the client beyond asking the core. Trade-off accepted: an edited paragraph's markup is normalised (for example `_a_` to `*a*`), which changes bytes and not meaning, and only for that paragraph. A paragraph opened and left is never rewritten.",
+    "decision_statement": "A paragraph the core renderer cannot reproduce from the visual editor's markdown is edited as source.",
+    "rationale": "Using the core as the judge means the check is about what readers will actually see, needs no second definition of markdown, and fails towards the writer seeing their own text.",
+    "revisit_when": "The write check fires for real writers more than rarely, or a paragraph is found to have changed meaning without either check firing.",
+    "owner": "Owner",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "tags": [
+    "topic:essay-editor",
+    "topic:visual-editor",
+    "holon:visual-editor"
+  ],
+  "createdAt": "2026-11-06T08:45:20.451164053+00:00",
+  "updatedAt": "2026-11-06T08:45:20.451165505+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

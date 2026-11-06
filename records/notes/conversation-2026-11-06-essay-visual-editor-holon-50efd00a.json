@@ -1,0 +1,18 @@
+{
+  "instanceId": "50efd00a-60d6-46e0-bf2b-d8358dbfbf3e",
+  "title": "Conversation 2026-11-06: Essay visual editor holon",
+  "tags": [
+    "conversation",
+    "topic:essay-editor",
+    "topic:visual-editor",
+    "topic:holon"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "Summary",
+      "content": "The owner observed that the essay editor relies on the writer knowing markdown, asked for a visual editor from an existing library with a switch back to markdown, framed the essay as a different context from the structured editors, limited what it supports, and asked for the work to be set up as a holon the agent editor group can drive."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
