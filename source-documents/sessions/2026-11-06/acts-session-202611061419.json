@@ -1,0 +1,154 @@
+{
+  "session": "144d58b5-022c-49bb-a1e5-27ea3a8f0339",
+  "acts": [
+    {
+      "at": "2026-11-06T14:20:37.384Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 10,
+      "seen": [],
+      "updatedAt": "2026-11-06T08:45:20.627929957+00:00",
+      "kind": "ratify",
+      "id": "1f6dfe3c-342d-40ed-b333-852911679b9d",
+      "title": "Merging a holon's PRs in an immature domain"
+    },
+    {
+      "at": "2026-11-06T14:20:48.782Z",
+      "section": "Decisions since the last session",
+      "position": 2,
+      "of": 10,
+      "seen": [],
+      "updatedAt": "2026-11-06T08:45:20.538768012+00:00",
+      "kind": "ratify",
+      "id": "3f6f215c-58a8-451e-88ac-d38dc991bd5b",
+      "title": "Default editing mode in the essay editor"
+    },
+    {
+      "at": "2026-11-06T14:21:31.084Z",
+      "section": "Decisions since the last session",
+      "position": 3,
+      "of": 10,
+      "seen": [],
+      "updatedAt": "2026-11-05T13:31:43.837310655+00:00",
+      "kind": "comment",
+      "id": "508703ce-ba9d-48ad-8718-1b42411d163d",
+      "title": "An editor lists the packages it serves from its own site, and an agent can ask to install one but only the writer installs it"
+    },
+    {
+      "at": "2026-11-06T14:21:32.452Z",
+      "section": "Decisions since the last session",
+      "position": 3,
+      "of": 10,
+      "seen": [],
+      "updatedAt": "2026-11-05T13:31:43.837310655+00:00",
+      "kind": "ratify",
+      "id": "508703ce-ba9d-48ad-8718-1b42411d163d",
+      "title": "An editor lists the packages it serves from its own site, and an agent can ask to install one but only the writer installs it"
+    },
+    {
+      "at": "2026-11-06T14:22:02.392Z",
+      "section": "Decisions since the last session",
+      "position": 4,
+      "of": 10,
+      "seen": [],
+      "updatedAt": "2026-11-06T08:45:20.106038003+00:00",
+      "kind": "ratify",
+      "id": "5b0cd3fe-b144-42dd-af80-34f33a82c96d",
+      "title": "New-writer features under the stabilising stance"
+    },
+    {
+      "at": "2026-11-06T14:22:16.669Z",
+      "section": "Decisions since the last session",
+      "position": 5,
+      "of": 10,
+      "seen": [],
+      "updatedAt": "2026-11-05T19:13:59.395907924+00:00",
+      "kind": "ratify",
+      "id": "7b91246b-0272-400c-98d5-fa26deaf9865",
+      "title": "A programme decision reaches proposed only with a case per option, the precedent consulted and a placement"
+    },
+    {
+      "at": "2026-11-06T14:22:29.692Z",
+      "section": "Decisions since the last session",
+      "position": 6,
+      "of": 10,
+      "seen": [],
+      "updatedAt": "2026-11-06T08:45:20.451165505+00:00",
+      "kind": "ratify",
+      "id": "bf0229dd-4e5a-41d3-b556-7ccade67cf28",
+      "title": "The core judges every visual round trip"
+    },
+    {
+      "at": "2026-11-06T14:23:20.238Z",
+      "section": "Decisions since the last session",
+      "position": 7,
+      "of": 10,
+      "seen": [],
+      "updatedAt": "2026-11-06T08:47:32.790170526+00:00",
+      "kind": "ratify",
+      "id": "c7d81c5d-a75a-4972-8fc4-f51d71b0c8f7",
+      "title": "What the visual essay editor supports"
+    },
+    {
+      "at": "2026-11-06T14:23:50.275Z",
+      "section": "Decisions since the last session",
+      "position": 8,
+      "of": 10,
+      "seen": [],
+      "updatedAt": "2026-11-06T08:45:20.281539021+00:00",
+      "kind": "ratify",
+      "id": "cb1b56ec-5b86-4be1-ac67-4f943afbdd81",
+      "title": "Library for visual essay editing"
+    },
+    {
+      "at": "2026-11-06T14:24:19.997Z",
+      "section": "Decisions since the last session",
+      "position": 9,
+      "of": 10,
+      "seen": [],
+      "updatedAt": "2026-11-05T19:15:05.797569813+00:00",
+      "kind": "ratify",
+      "id": "d91facdd-3b8f-4f8d-9152-ffa97cc32d5a",
+      "title": "Decision checklist: one container, reviewed at every owner session for now"
+    },
+    {
+      "at": "2026-11-06T14:24:26.288Z",
+      "section": "Decisions since the last session",
+      "position": 10,
+      "of": 10,
+      "seen": [],
+      "updatedAt": "2026-11-06T08:45:20.191181184+00:00",
+      "kind": "ratify",
+      "id": "eb9b4530-e6e9-4c70-8c9d-c334c1d454b3",
+      "title": "Visual editing is chosen per editor"
+    },
+    {
+      "at": "2026-11-06T14:24:34.893Z",
+      "section": "Reports",
+      "position": 1,
+      "of": 2,
+      "seen": [],
+      "kind": "receive",
+      "id": "cde0f5b5-b80d-4e9d-8662-84d783f813af",
+      "title": "WG Agent-supported editor report 2026-11-06"
+    },
+    {
+      "at": "2026-11-06T14:24:40.956Z",
+      "section": "Reports",
+      "position": 2,
+      "of": 2,
+      "seen": [],
+      "kind": "receive",
+      "id": "fb1b7766-0fd4-4afb-a81a-8995952ec4c9",
+      "title": "WG Third-party ready report 2026-11-06"
+    }
+  ],
+  "words": [
+    {
+      "on": "508703ce-ba9d-48ad-8718-1b42411d163d",
+      "title": "An editor lists the packages it serves from its own site, and an agent can ask to install one but only the writer installs it",
+      "kind": "comment",
+      "text": "This is a very poorly formatted decision."
+    }
+  ]
+}
