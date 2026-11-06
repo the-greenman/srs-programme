@@ -1,0 +1,15 @@
+{
+  "instanceId": "40e7eed6-f684-4457-b7aa-2346c3c591eb",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "The writer's meaning",
+    "looks_like": "Every word of copy is the author's. Agents critique, question and research, and the editor enforces that they do not draft.",
+    "shadow": "Writers who want a draft take the work elsewhere and paste it back, outside the record."
+  },
+  "createdAt": "2026-11-06T10:06:00.431326130+00:00",
+  "updatedAt": "2026-11-06T10:06:00.431327537+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
