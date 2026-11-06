@@ -1,0 +1,19 @@
+{
+  "instanceId": "cb6105d8-c7a7-4b8f-8a00-4a6a02ee67cb",
+  "title": "Conversation 2026-11-06: multi-user, federated, fractal long-term memory",
+  "tags": [
+    "conversation",
+    "topic:shared-memory",
+    "topic:federation",
+    "topic:signed-writes",
+    "topic:family-context"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "Summary",
+      "content": "Started from an outside project about family context, and moved to what the owner is mainly interested in: a group of people safely managing a shared long-term agent context. Encryption and access control are a layer above SRS across repositories; signed writes, and split and merge with a recorded home, are the parts SRS itself may need. The findings are in the Research thread Shared long-term memory."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,27 @@
+{
+  "instanceId": "ba7c6566-285c-404a-a9d3-8539be84747b",
+  "title": "1. What others are building",
+  "tags": [
+    "research",
+    "topic:shared-memory",
+    "topic:family-context"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "The nearest project works from private storage upward; nobody found so far works from typed shared meaning and group decisions."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "Family Intelligence, Inc. (intelligence.family, incubated by garden3d) is a home AI device and, by Mozilla's description, a shared household memory protocol: the hub stores only ciphertext, family devices search and reason locally, and the archive can be exported. It is reported as one of three preselected anchor projects of Mozilla's Human-Scale AI cohort; Mozilla's cohort page refused automated fetches on 2026-11-06, so this comes from search summaries of it. Planned outputs are a specification, an Apache 2.0 reference implementation, a threat model and a security review. Its public repository holds the website and benchmarks only, so the privacy claims cannot be inspected yet. Its draft lab page says it starts with the family and names municipalities, community groups and workplaces as later audiences.\n\nPublished designs store memory as a people, places and events graph extracted by a local model, or as a table of typed memories with embeddings. Neither defines group decisions or who affirmed what.\n\nWen, Liu and Yao (arXiv 2508.11030) propose four family principles: memory segregation, conversational consent, selective sharing and progressive memory. The study had 13 parent-child pairs imagining use, not using a system.\n\nfamstack (famstack.dev) is a working local family memory: documents, a local model, and a plain markdown wiki in git. It has no per-person privacy described, and it moved fact extraction into plain code because the model alone lost facts and invented family members."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "Whether a private storage protocol and typed shared meaning are complementary layers. No one has been asked."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

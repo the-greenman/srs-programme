@@ -1,0 +1,21 @@
+{
+  "instanceId": "8f44a398-07c1-43c2-9d20-bb28efc69355",
+  "title": "4. Against: what this thread must not assume",
+  "tags": [
+    "research",
+    "topic:shared-memory"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "In short",
+      "content": "The evidence is small, and shared memory already works without SRS for the one live group studied."
+    },
+    {
+      "name": "body",
+      "label": "The evidence",
+      "content": "- The test was two simulated people on one machine, with no real agents, no network and no months of use.\n- The live group's plain markdown, git and one keeping agent are working for it today. famstack does the same. SRS has to show that it adds something there, not assume it.\n- One group is not demand. Nearly all the need recorded here is the owner's.\n- Federation was removed once already because a large specified design went unused (decision 4f1e12e5). Its return is committed, but the lesson stands: build for the sharing that actually happens.\n- The file model's limit for several writers is a belief so far (SP-145), against ADR-041's ruling that networked use goes through export and import. The merge results in part 2 support the ruling only for separate clones. No shared server was tested, and the registry server had no write lock on 2026-11-04.\n- Signing proves whose key made a commit, not that the content is true. Attribution stays testimony until a verification mechanism promotes it (strategy contract e06081bf).\n- Keeping encryption out of SRS has a cost: a split cannot take back what a clone already holds in its history, so a group's access has to grow outward from private to shared."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
