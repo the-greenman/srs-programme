@@ -1,14 +1,22 @@
 {
   "instanceId": "0334e990-5b05-4591-8640-109e52b28b43",
-  "title": "The app relies on the writer knowing markdown",
+  "title": "The app relies on the writer knowing markdown (2026-11-06)",
   "tags": [
-    "vignette"
+    "narrative",
+    "vignette",
+    "topic:essay-editor",
+    "topic:visual-editor"
   ],
   "sections": [
     {
-      "name": "vignette",
-      "label": "Owner's words (verbatim, 2026-11-06)",
+      "name": "narrative",
+      "label": "Narrative",
       "content": "App.semanticips.com relies on the writer knowing markdown\n\nDoes our help explain this?"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06; recorded verbatim, typo included (app.semanticops.com)."
     }
   ],
   "$schema": "https://srs.semanticops.com/schema/2.0/note.json"

@@ -1,0 +1,29 @@
+{
+  "instanceId": "eb9b4530-e6e9-4c70-8c9d-c334c1d454b3",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Visual editing is chosen per editor",
+    "decision_question": "Where may a visual text editor be used, given that SRS deliberately uses types and fields rather than rich text to hold structure?",
+    "context": "The owner, 2026-11-06 (vignette 19964824): elsewhere we do not use rich text because we want to maintain the data structure; SRS types and fields mean we do not need it, and markdown is only for simple text. 'The essay currently only offers paragraph types. This is a different kind of context and a different user profile.' Precedent consulted: this vignette; 40f62bfd (the essay editor preserves human agency for owning meaning as individuals); decision 82fbca88 (in the essay editor agents never write essay text); ADR-001 (srs-web holds no semantics); capability layering. Placement: the editor group's log, domain Evidence-backed writing.",
+    "friction": "Without a stated boundary, a visual editor in one editor reads as a move to rich text everywhere, or as a reversal of the structured approach, and the next editor would inherit it by default.",
+    "alternatives_considered": "A. Each editor chooses for its own user profile, and structure stays in types and fields (recommended). For: states what the owner described; keeps structure where it is; leaves each editor free. Against: two editing behaviours to maintain across the product.\nB. Essay editor only, as a named exception. For: tightest. Against: names no reason, so the next case has nothing to apply.\nC. Offer visual editing for every markdown field. For: one behaviour everywhere. Against: invites formatting into fields where a type should carry the structure, which is the thing the owner wants to avoid.\nD. No visual editing anywhere. For: one mechanism, no dependency. Against: leaves the essay's writer facing raw markdown.",
+    "key_requirements": "Keep the data structure authoritative where types exist; serve the writer the essay is for; do not set a precedent by accident.",
+    "decision_statement": "Each editor chooses visual text editing for its own user profile, never as a substitute for structured types.",
+    "rationale": "The choice follows from who is writing and what the editor offers: where types exist, they carry the structure; where a writer has only paragraphs, the surface can serve the writing. Stating the reason makes it testable at the next editor.",
+    "revisit_when": "A second editor asks for visual editing, or writers in the essay editor start using formatting to fake structure a type should carry.",
+    "owner": "Owner",
+    "decision_kind": "boundary"
+  },
+  "lifecycleState": "proposed",
+  "tags": [
+    "topic:essay-editor",
+    "topic:visual-editor",
+    "holon:visual-editor"
+  ],
+  "createdAt": "2026-11-06T08:45:20.191179724+00:00",
+  "updatedAt": "2026-11-06T08:45:20.191181184+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

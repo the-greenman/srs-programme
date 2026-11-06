@@ -1,0 +1,32 @@
+{
+  "instanceId": "e640280f-3da2-4de0-9382-14fe14e7135a",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Tiptap round-trips real essays, but typed text needs a write check",
+    "summary": "Tiptap with the planned allowlist keeps 86 of 87 real essay paragraphs rendering the same through the core renderer, so visual editing is viable, though those paragraphs are mostly plain prose. Text entered in the visual editor can still save to markdown that renders differently, which a check on opening cannot see, so saving needs its own check and a small escape fix.",
+    "evidence": [
+      "Setup: @tiptap/core, starter-kit and markdown 3.33.0 in jsdom; renderer from srs-bindings build 595 (srs-web's pin, sha256 verified); comparison is renderMarkdown before and after a source -> editor -> markdown round trip.",
+      "87 essay paragraphs (58 muDemocracy, 10 example essays, 19 e2e fixtures): 85 render the same with stock settings; 86 once marked's bare-URL autolink is turned off (the core does not autolink). The remaining one is a heading written as two lines of text underlined with ---, which marked and the core parse differently; the render guard catches it.",
+      "Limit of that corpus: it is mostly plain prose. Of the 87, 10 contain a heading, 4 bold, 3 a bullet list, 1 a numbered list, 1 a quote, 1 italic, 1 code, and none a link, table or image. The stress set below is what exercises heavier formatting.",
+      "76 of those 87 are also byte-identical after the round trip. An edit therefore normalises some markup, for example `_a_` to `*a*` and `snake_case` to `snake\\_case`, without changing the rendering.",
+      "Stress set: 26 help summaries and 17 handbook chapters all render the same; 8 further handbook chapters contain tables or images and all 8 are caught by the render guard.",
+      "Text entered in the editor, 37 cases: with stock settings 10 save to markdown that renders differently, including `1984. A year` becoming a numbered list, `- x` a bullet, `# x` a heading and `---` a rule. An escape fix on paragraph text brings this to 2.",
+      "The 2 remaining are real serializer defects: bold on `(a)` inside a word saves `x**(a)**y`, shown with literal asterisks; overlapping bold and italic saves `**a*b***<em>c</em>`, shown with literal tags.",
+      "Write check (the core's rendering of the saved markdown, parsed back by the editor, must equal the document, ignoring whitespace): catches all of the above, with no false alarm on the 87 paragraphs beyond the one real case.",
+      "Bundle: Editor, StarterKit and Markdown come to 445 KB minified and 140 KB gzipped by esbuild, loaded on first edit. The srs-bindings wasm is 3119 KB gzipped, for scale.",
+      "Not exercised: real browser input. Keyboard input rules, paste, IME, touch and caret behaviour were not tested; jsdom has no layout."
+    ],
+    "body": "The escape fix and the write check are specified in the technical plan of the visual editing issue. This was a measurement in a scratch directory, not a product change."
+  },
+  "tags": [
+    "topic:essay-editor",
+    "topic:visual-editor",
+    "boundary:holon-delivery"
+  ],
+  "createdAt": "2026-11-06T08:43:44.845456380+00:00",
+  "updatedAt": "2026-11-06T08:47:16.778209098+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
