@@ -1,0 +1,23 @@
+{
+  "instanceId": "e9665fd8-f40d-4348-ae8d-acc30aac9a92",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Should signed writes live on commits or on records?",
+    "thinking_reached": "No option chosen. The owner raised signed writes as a possible future element (vignette 0b9b055b). A commit-based check caught a forged author in the test.",
+    "tensions": "Options, none chosen:\n- A. Commits only. No spec change and git does the work, but history stays behind when a record moves, and our own server saves are unsigned today.\n- B. A signature on each record. It travels with the record and lets a mirror prove it is an unaltered copy, but it needs a spec change and a canonical form to sign.\n- C. Commits now, records when a moved record's authorship first has to be verified.\n\nAlso: in a group where most people only touch files and one agent keeps the record, whose key signs?",
+    "unresolved_questions": "What would choose: a real case of a record moved between repositories whose author must be verified, and a test of signing through the save path, one commit per person.",
+    "next_action": "Try option A in a pilot before designing option B."
+  },
+  "tags": [
+    "exercise",
+    "research",
+    "topic:shared-memory",
+    "topic:signed-writes"
+  ],
+  "createdAt": "2026-11-06T09:27:50.919031474+00:00",
+  "updatedAt": "2026-11-06T09:27:50.919033294+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

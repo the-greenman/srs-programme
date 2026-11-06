@@ -1,0 +1,22 @@
+{
+  "instanceId": "e1a51578-4ef5-4fb4-a3a0-6fbf4c385b6e",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Where does multi-user, federated, fractal memory belong in the programme?",
+    "thinking_reached": "No option chosen. The owner named it an important part of the future (vignette e83f2d33); today it has no single home beyond this Research thread.",
+    "tensions": "Options, none chosen:\n- A. Widen the Agent memory domain, whose purpose today speaks of an agent across sessions, not a group.\n- B. A new domain nested in Deep context, beside Agent memory and Group meaning ownership.\n- C. No new home: Group meaning ownership, the federation strategy contract 586cd1ec and the Dreamtime thread carry their parts, joined only by this thread.\n\nSeparately: whether it gets an epic on the roadmap, and when.",
+    "unresolved_questions": "What would choose: whether problems SP-161, SP-162, SP-34, SP-50 and SP-86 keep landing together, and whether a pilot with a live group produces work that fits none of the existing domains.",
+    "next_action": "Watch where evidence lands as the thread grows."
+  },
+  "tags": [
+    "exercise",
+    "research",
+    "topic:shared-memory"
+  ],
+  "createdAt": "2026-11-06T09:27:50.836466318+00:00",
+  "updatedAt": "2026-11-06T09:27:50.836467867+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

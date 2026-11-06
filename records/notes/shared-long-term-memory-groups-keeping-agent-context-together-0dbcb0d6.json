@@ -1,0 +1,33 @@
+{
+  "instanceId": "0dbcb0d6-0f44-4784-9864-2143e4385145",
+  "title": "Shared long-term memory: groups keeping agent context together",
+  "tags": [
+    "research",
+    "topic:shared-memory",
+    "topic:federation",
+    "topic:signed-writes"
+  ],
+  "sections": [
+    {
+      "name": "claim",
+      "label": "Claim",
+      "content": "A group of people can safely manage a shared long-term agent context, and the memory scales by federating rather than centralising. The owner, 2026-11-06: \"Mukti-user, federated, fractal, long term memory is an important part of the future\" (vignette e83f2d33). So far this is tested only at the smallest scale."
+    },
+    {
+      "name": "story",
+      "label": "The story so far",
+      "content": "Outside projects start from privacy: Family Intelligence builds a shared household memory that no outside server can read. The owner's position is the reverse order: encryption and access control belong to a layer above SRS, across repositories through a common interface, and SRS's part is meaning, authorship, and being able to split and merge (vignette 0b9b055b). Existing rulings agree: scope decision 9ec53ca2 puts permissions, storage, sync and transport outside SRS, and decision 31e9fd27 has already scheduled federation's return.\n\nA test with two writers and one live group's memory point the same way. Adding to a shared memory already works: concurrent writes merge cleanly and a clash on one record is visible. Two things do not. A claimed author goes unchecked (SP-161), and bringing a split back can silently lose edits (SP-34). The live group shows the first with real consequences, and shows that people keep reading plain files, so any SRS layer has to leave those in place."
+    },
+    {
+      "name": "parts",
+      "label": "The parts",
+      "content": "1. What others are building.\n2. Two writers on one memory: the test.\n3. One live group's memory.\n4. Against: what this thread must not assume.\nEach part is a section below this one. The open questions are exercises in this thread and in Open exercises."
+    },
+    {
+      "name": "open",
+      "label": "Open questions",
+      "content": "Where this sits among the domains and on the roadmap. Whether signatures live on commits or on records. Where a record's home is recorded. Whether a safety rule is needed for what an agent takes from another member's record (SP-162, not yet seen in use).\n\nThe smallest next test is one live group's decision register as typed records, with its markdown page generated from them. That needs the group's agreement."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
