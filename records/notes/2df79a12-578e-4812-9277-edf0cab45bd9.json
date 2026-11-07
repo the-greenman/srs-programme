@@ -1,0 +1,26 @@
+{
+  "instanceId": "2df79a12-578e-4812-9277-edf0cab45bd9",
+  "title": "Nearby AI needs communities capable of maintenance: muDemocracy for governing, SRS and the relay for owning data, the essay editor for safe individual use; \"dumb AI\" is the right level of intelligence in the right place, \"cybernetic AI\" is fractal feedback, VSM (2026-11-07)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:local-models",
+    "topic:mozilla",
+    "topic:theory-of-change",
+    "topic:boundaries",
+    "topic:dreamtime"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "While this is working, here's my thinking for th \"nearby\" AI.\n\nWhat local ai needs is communities and groups capable of maintenance. We cannot really manage the idea of local models if we cannot manage local models. If a local model is just a smaller datacentre with the same megacorp... It's not really the right system.\n\nSo local ai requires that communities can govern well. This is the origin of muDemocracy. We need to have non-commercial, non megacorp organisational models capable of making new things and maintaining existing things.\n\nThen we need to have a working model for how we managed data without requiring another megacorp. We need the groups to host their own infrastructure and we need to have a way to give communities the ownership of their data. This is where SRS comes from. And the mcp relay.\n\nThen we need our individuals to have the tools to work with ai in a safe way. This is what the essay editor is doing.\n\nI've switched between calling this \"dumb AI\", or \"Cybernetic AI\" depending on what I am emphasising.\n\nDumb is about just using the right level of intelligence. The TV does not need to think more than a TV should. When there is too much cognition in the wrong place... We have surveillance. Keeping the right level of intelligence at the right level we can make the local model model possible.\n\nCybernetic AI is all about fractal feedback. We draw the right boundaries, identify the information relevant to that boundary. Then provide feedback.\n\nVSM... Creating a viable system means the right kinds of intelligence at each level"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-07, while the sized-model experiments on the Systemic Data Ethics map were running; unprompted; recorded verbatim. Sets the frame for the Mozilla Human-Scale AI application: muDemocracy (governing), SRS and the MCP relay (owning data and hosting), the essay editor (individual safe use), and the dreamtime/sized-models work as the cybernetic layer."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
