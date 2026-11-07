@@ -1,0 +1,25 @@
+{
+  "instanceId": "5ce724e2-f2b3-4995-b0e9-ba3ffa82f37c",
+  "title": "Map the muSrs sources; the Systemic Data Ethics 4x3 map classified standards and GDPR; axes may work best on decisions, and srs and srs-rust have decision logs (2026-11-07)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:axes",
+    "topic:dreamtime",
+    "topic:local-models",
+    "topic:synthesis"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "There may be some value in building a map of the sources in muSrs.\n\nOr, if you use the coda Mcp you will find a dataset for systemic data ethics. That has a classification process that used a 4x3 semantic map (zodiac based) to classify data ethics standard and gdpr\n\n/home/Greenman/Dropbox/systemic ethics/auto classification is an export of some of the coda data\n\nThe axes may tend to work best on decisions. SRS and srs-rust should have a set of decision logs"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-07, three messages sent while the boundary-first axes experiments and the boundary lab were running; recorded verbatim as one vignette."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
