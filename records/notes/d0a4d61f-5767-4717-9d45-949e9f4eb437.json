@@ -1,0 +1,26 @@
+{
+  "instanceId": "d0a4d61f-5767-4717-9d45-949e9f4eb437",
+  "title": "The Mozilla pitch is the cybernetic AI all of this serves; Laws of Form, Bateson and the trigrams: information is the difference that makes the difference, the boundary act and the distinction act; a viable system, not an ecosystem; the archetypes and stances come from the trigrams; Cybersyn (2026-11-07)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:mozilla",
+    "topic:theory-of-change",
+    "topic:axes",
+    "topic:boundaries",
+    "topic:synthesis"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Yes, the pitch for Mozilla is th cybernetic AI that all of this is serving.\n\nThe laws of form, bateson, and the system scientists are also very linked to the trigrams. Information is the difference that makes the difference. That is both the boundary act and the distinction act that we are wrestling with.\n\nWe need the system to be viable. It's not an ecosystem...it's a viable system.\n\nThe archetypes come from this too. Th stances based on the trigrams.\n\nCybersyn... I wonder how it could have worked these days"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-07, answering the agent's observation that the cybernetic layer had no home and that the Mozilla application could be written inside it rather than around SRS (two messages); recorded verbatim. Settles the frame of the application: the viable system, with muDemocracy, SRS and the relay, and the editor as its parts. Earlier framing to be read against this: 5f395529 (the real Mozilla pitch is SRS) and comment 7f2f09e3."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
