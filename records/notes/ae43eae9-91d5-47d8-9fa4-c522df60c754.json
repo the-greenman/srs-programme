@@ -1,0 +1,24 @@
+{
+  "instanceId": "ae43eae9-91d5-47d8-9fa4-c522df60c754",
+  "title": "The SDE level rubric: does it need more than one person to be true; must it be coordinated; is it about the whole and how it receives or projects information; and the horizon rubric: immediate (discrete action), medium (process), long (experiment) (2026-11-07)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:axes",
+    "topic:synthesis",
+    "topic:local-models"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "So, the inability to place a level is interesting.\n\nMy perception here has been trained by tarot and zodiac.\n\nFo sde, the rules on the surface were:\n\nDoes this need more than one person to be true? Does this define something that can be known, done , owned, felt.\n\nIs this something that must be coordinated? Is this something a group needs to know to act together?\n\nIs this about the whole and how it receives or projects information?\n\nAnother rubric was related to the horizon. Level 1 tends to be immediate. It's a property of the moment. It changes discreet action.\n\nLevel 2 is medium term. It requires establishing and modifying process.\n\nLevel 3 is long term. It requires experiment and exploration"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-07, answering the finding that no model of any size reads the SDE level axis (component/relationships/system, kappa 0.00 to 0.09) from the agent's definitions; recorded verbatim. The three questions map to levels 1 to 3 (component, relationships, system); the horizon rubric is a second reading of the same axis."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

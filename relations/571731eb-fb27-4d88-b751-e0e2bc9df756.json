@@ -1,0 +1,9 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "571731eb-fb27-4d88-b751-e0e2bc9df756",
+  "relationType": "refines",
+  "sourceInstanceId": "830998a8-0bd0-4023-9621-d64ed7c32418",
+  "targetInstanceId": "5f395529-546d-4840-a43d-c8799e8af819",
+  "createdAt": "2026-11-07T16:48:21.311458970+00:00",
+  "notes": "SRS stays the tool inside the viable system; the pitch is the system."
+}

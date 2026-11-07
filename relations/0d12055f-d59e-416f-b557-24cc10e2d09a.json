@@ -1,0 +1,9 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "0d12055f-d59e-416f-b557-24cc10e2d09a",
+  "relationType": "derived-from",
+  "sourceInstanceId": "532ab79d-4fd3-442d-9ee5-4d002b74cbef",
+  "targetInstanceId": "a815ed8b-3524-4b13-a414-c3817df368c4",
+  "createdAt": "2026-11-07T16:48:21.809128015+00:00",
+  "notes": "The 2x2 experiment."
+}

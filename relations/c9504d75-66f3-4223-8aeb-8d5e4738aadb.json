@@ -1,0 +1,9 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "c9504d75-66f3-4223-8aeb-8d5e4738aadb",
+  "relationType": "evidences",
+  "sourceInstanceId": "532ab79d-4fd3-442d-9ee5-4d002b74cbef",
+  "targetInstanceId": "4a67caf5-526e-4635-858f-72fd14d90d16",
+  "createdAt": "2026-11-07T16:48:21.605939467+00:00",
+  "notes": "The boundary lab: the programme's domains are sensed, not held."
+}
