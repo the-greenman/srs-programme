@@ -1,0 +1,31 @@
+{
+  "instanceId": "830998a8-0bd0-4023-9621-d64ed7c32418",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "The Mozilla application is written inside the cybernetic AI boundary: a viable system with the right intelligence at each level, which muDemocracy, SRS with the relay, and the editor serve",
+    "decision_question": "What is the boundary the Mozilla Human-Scale AI application is written inside: SRS, the editor, muDemocracy, or the cybernetic AI they all serve?",
+    "context": "The owner, 2026-11-06 (5f395529): local AI is the ecosystem and SRS is its tool; the real Mozilla pitch is SRS, the editor a front door. The owner, 2026-11-07 (2df79a12): local AI needs communities capable of maintenance; a local model that is a smaller datacentre with the same megacorp is not the right system; so local AI requires that communities govern well (muDemocracy), own and host their data (SRS and the MCP relay), and that individuals have safe tools (the essay editor); 'dumb AI' is the right level of intelligence at the right level (too much cognition in the wrong place is surveillance), 'cybernetic AI' is fractal feedback across the right boundaries; VSM: a viable system has the right kinds of intelligence at each level. Then (d0a4d61f): 'Yes, the pitch for Mozilla is the cybernetic AI that all of this is serving'; 'It's not an ecosystem... it's a viable system'; Laws of Form, Bateson, the trigrams and the archetypes come from the same root; Cybersyn. Evidence from the day (finding 532ab79d): a nearby model reads what is in the words and cannot read context; comparison inside a boundary needs a model that holds the boundary; the midpoint is a person's judgement. The form (comment 7f2f09e3) asks whether core functionality depends on a frontier model and the largest core model's parameter count.",
+    "alternatives_considered": "(a) SRS as the pitch, editor as the front door (5f395529): true of the tool, but answers the form's 'does the core depend on a frontier model' badly, since the editor's agent is usually a frontier model, and it does not say why a group would run it. (b) The editor as the pitch: the most deployed piece, but the call excludes projects that are only a tool without AI at the core. (c) muDemocracy as the pitch: the call excludes standalone governance projects. (d) The viable system as the pitch, with the three as its parts and the sized-model measurements as the evidence that intelligence is placed by level: the owner's words; answers the form's small/intentional/tailored on its own terms.",
+    "key_requirements": "The application says what the system is (its held boundary), names the three parts and what each gives a group, states which cognition runs where (nearby model: detect, sort the obvious, flag; held-boundary model: compare; person: hold the boundary, set the midpoint, affirm), and gives the measured table as evidence rather than a claim. It does not present a local model as a smaller datacentre.",
+    "decision_statement": "The Mozilla Human-Scale AI application is written inside the cybernetic AI boundary: a viable system for a community, with the right kind of intelligence at each level and feedback between the levels. muDemocracy (governing), SRS with the MCP relay (owning and hosting the group's data) and the essay editor (an individual's safe tool) are its parts, not the pitch. The local-lab measurements are its evidence of where each level of cognition is placed.",
+    "rationale": "It is what the owner says the work is for, and it is the only framing under which 'small models do some jobs well' is a strength rather than a shortfall: the small model's limits are the right limits for its level. It also answers the call's three principles (small, intentional, tailored) without stretching: small is the level of cognition, intentional is the held boundary, tailored is the group's own labels and data.",
+    "revisit_when": "The call's published criteria (not yet read directly; the pages refused automated fetches) turn out to require a single product; or the form's AI-at-the-core question cannot be answered truthfully with the nearby model's measured role.",
+    "next_steps": "Record the application's own boundary in the boundary lab shape (held by the owner, purpose written before the agent summaries), then draft the application from that record; keep 5f395529 as the account of SRS's place inside it.",
+    "owner": "Programme owner",
+    "status": "proposed",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "suggestion",
+    "topic:mozilla",
+    "topic:local-models",
+    "topic:theory-of-change"
+  ],
+  "createdAt": "2026-11-07T16:47:58.033441833+00:00",
+  "updatedAt": "2026-11-07T16:47:58.033443812+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

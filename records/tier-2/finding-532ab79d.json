@@ -1,0 +1,33 @@
+{
+  "instanceId": "532ab79d-4fd3-442d-9ee5-4d002b74cbef",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Sized models on the owner's axes (2026-11-07): absolute labels on context axes sit at chance for every size; stating the boundary first moves attention between axes; comparing items pairwise with a boundary-holding model gives a usable order, and the midpoint is its own problem",
+    "summary": "Seven experiments in one day in local-lab, all against the owner's own labels: the 101 rated decisions on the T3 stance lines, and a new gold set, 578 statements from data-ethics standards and GDPR that the owner classified on the Systemic Data Ethics 4x3 map (level component/relationships/system x element fire/earth/air/water) in an iterative, relative process some years ago. Models: qwen2.5-7b local, Laya 0.4B (non-generative, CPU, zero-shot and head-fine-tuned), gemma-3-4b and ministral-3b and qwen3-14b remote through OpenRouter, claude haiku. Three results. (1) No prompted model of any size reads the context axes from one item alone: SDE level is kappa 0.00 to 0.09 for every model including haiku; T3 lines 2 and 3 stay where they were. Axes whose poles are in the words (element, T3 line 1, the owner's internal/external cut) are read weakly and in order of model size. (2) Giving the model the boundary first (the raters' two-step procedure) is not a lift; it moves attention: haiku line 1 0.40 to 0.73 while line 2 fell 0.59 to 0.32; qwen line 2 0.16 to 0.26 while line 1 fell 0.50 to 0.19. (3) The owner's procedure, compare items with each other and cut at the midpoint, works where absolute labelling does not, but only with a model that can hold the boundary: haiku as a merge-sort comparator orders 60 statements on energy at AUC 0.80 (kappa 0.47 at the midpoint, best cut 0.50) and on scale at AUC 0.66 (kappa 0.20 at the midpoint, 0.43 at the best cut: the midpoint was wrong); qwen-7b and gemma-4b as comparators give no usable order (AUC 0.40 to 0.60).",
+    "evidence": [
+      "T3 stance lines, boundary first (axes.mjs --boundary; gold 101 decisions, humans kappa 0.90/0.84/0.81): qwen2.5-7b 0.19/0.26/0.10 (zero-shot 0.50/0.16/0.13); haiku 0.73/0.32/0.56 (zero-shot 0.40/0.59/0.56; $0.16); gemma-3-4b 0.05/0.03/-0.02 zero-shot and -0.02/0.14/0.10 with boundary; qwen3-14b remote 0.06/0.05/0.13 (suspect: thinking mode under a strict schema, unverified)",
+      "Laya 0.4B on T3, zero-shot, with and without boundary, both checkpoints: kappa -0.03 to 0.09 on every line; the two checkpoints returned identical rows, so the router most likely served one",
+      "SDE 4x3 map, 578 statements, 12 cells all populated (27 to 86 each), definitions written by the agent from the owner's systemic-AI-Ethics.md (not the owner's rubric): level kappa haiku 0.06, ministral-3b 0.09, qwen-7b 0.03, gemma-4b 0.01, Laya 0.00; element kappa haiku 0.33 ($0.32), ministral-3b 0.26 ($0.01), qwen-7b 0.24 ($0), gemma-4b 0.17, Laya 0.13",
+      "The owner's 2x2 under the elements (energy internal/external, scale individual/collective; fire=internal+individual, earth=external+individual, air=external+collective, water=internal+collective), two binary questions: gemma-4b energy 0.25, scale 0.09, element rebuilt 0.10 (direct 0.17); Laya 0.00 and 0.02",
+      "Pairwise ranking (rank.mjs: merge sort with the model as comparator, cut at the median): haiku, 60 items, energy AUC 0.80, kappa 0.47 at midpoint, 0.50 at best cut, 273 comparisons, $0.16; scale AUC 0.66, 0.20 at midpoint, 0.43 at best cut (cut 39 of 60, median 30); gemma-4b 120 items energy AUC 0.60 (0.13 / 0.23), scale 0.46; qwen-7b energy AUC 0.40 (inverted), scale 0.56 (0.00 / 0.23)",
+      "Laya head fine-tune (encoder frozen, 462 training statements, 4 epochs, 15 min CPU, 116 held out): level 0.06, element 0.11, no gain over zero-shot; unfreezing the encoder needs the GPU and was not run",
+      "Placement of 109 unrated decision logs (54 srs rfc-decision records, 55 srs-rust ADRs) by haiku with the boundary first: ODF 53, ADF 28, OSF 14, ADZ 6, ASF 6, OSZ 2; results/axes.decisions-unrated.claude_haiku.boundary.json; unrated, so this is a dream placement awaiting a waking look (exercise 06501cb0)",
+      "OpenRouter added as a provider in llm.mjs (openrouter:<vendor/model>, key from the environment or ~/dev/.env), no gateway service; one call to gemma-3-4b costs about a millionth of a dollar",
+      "Boundary lab built: ~/dev/semanticops/boundary-lab (repository 6b8f11a5), one boundary type with parent, purpose, sensed_by, held_by, purpose_written, division_axis, division_pole, exclusions, revision_condition; seven boundaries as containers; by the decision's own test the programme's existing domains are sensed (agent-written purposes), and the only held boundary is the owner's editor domain (purpose written before the contents)"
+    ],
+    "body": "Sources: local-lab/results (axes.*.boundary.json, sde.*.json, sde2.*.json, rank.*.json, laya.*.json, axes.decisions-unrated.*.json) and the scripts axes.mjs (--boundary, --gold), sde.mjs, sde2.mjs, rank.mjs, laya_axes.py, laya_sde.py, laya_sde2.py, laya_finetune.py. The SDE gold is the owner's Coda export (private path, recorded in srs-context). Caveats stated once: the SDE definitions are the agent's reading, not the owner's rubric, so result (1) on level may be the definition failing rather than the models; the qwen3-14b row is unverified; one run per setting, no repeats, so differences under about 0.1 kappa are noise; the ranking used 60 or 120 items, not the full set.\n\nWhat it says for the mapping dreamtime (part 7) and the owner's words (bc86edad, 2df79a12): the obvious items are obvious to any reader, so a nearby model can sort them and flag the blurry ones at zero cost (that is the right level of cognition for it); the blurry ones need comparison against neighbours inside the boundary, which only a model that can hold the boundary does today, and even then the midpoint is a separate judgement, which is where the person comes in. 'Small models do some jobs well' is true for detection and for poles in the words; it is not yet true for context-relative placement, and a fine-tune on 462 labels with a frozen encoder did not change that."
+  },
+  "tags": [
+    "topic:local-models",
+    "topic:axes",
+    "topic:dreamtime",
+    "research",
+    "suggestion"
+  ],
+  "createdAt": "2026-11-07T16:47:29.166765187+00:00",
+  "updatedAt": "2026-11-07T16:47:29.166775581+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
