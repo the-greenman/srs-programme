@@ -1,0 +1,24 @@
+{
+  "instanceId": "76f63499-f162-4bd4-81f4-fbd9e77b38d1",
+  "title": "A practice still being learnt: don't force exact types; new repos and packages are welcome if they help understand (2026-11-07)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:domain-definition",
+    "topic:boundaries",
+    "topic:method"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "We are talking about a practice that is still being learnt. We don't need to force exact types. We are also welcome to create new repos and try new packages is that help understand"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-07, saying yes to filing the boundary model as a suggested decision now (one thing, a container whose identity record carries parent, purpose, origin and division; cluster, domain and boundary as names on it) with recalibration as its own exercise; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

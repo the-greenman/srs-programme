@@ -1,0 +1,31 @@
+{
+  "instanceId": "6fe27de2-dbfe-4467-b08e-be3c5bdbc098",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Local-model results to date: a 7B model detects and places on one axis; writing, judging and context-relative axes stay frontier (2026-11-03/04)",
+    "summary": "The local-lab (semanticops/local-lab) ran the same housekeeping tasks on a local 7B model (qwen2.5-7b, 8 GB consumer GPU, zero cost), a 20B local model, and claude haiku and sonnet, with one prompt and the model as the only variable. Three tables so far: mining a 21k-word transcript for problem records, classifying 139 labelled problems on three facets, and placing 101 owner-rated decisions on the three T3 stance lines (plus small encoder classifiers on the same gold). The shape that emerges: the small model is good where the answer is checkable or has a learnable rule, and fails where the answer needs the surrounding context it was not given.",
+    "evidence": [
+      "Mining (judge = sonnet): sonnet 109 candidates, 16 at filing quality, $0.50; haiku 172, 8, $0.05; qwen2.5-7b 78, 0, $0, 78% of quotes verbatim; gpt-oss-20b 45 on an 8-window sample, 0, ~9 tok/s on this GPU (not practical)",
+      "Detector recall: of sonnet's 11 new filing-quality problems, qwen had a candidate in the same window for 6, haiku for 11",
+      "Facets against the owner's labels (n=139): scale 79 to 88% for every model; persona haiku 69%, gpt-oss 54%, qwen 35%; kind 41 to 45% for every model, so kind is a rule problem not a model problem",
+      "T3 stance lines (gold: 101 decisions, two blind human raters at kappa 0.90 / 0.84 / 0.81): haiku 0.40 / 0.59 / 0.56, sonnet 0.19 / 0.48 / 0.67, qwen 0.50 / 0.16 / 0.13; qwen reads line 1 as well as haiku and collapses on lines 2 and 3, which need the status quo and who decides as reference",
+      "12-shot prompting does not move the plateau (haiku 0.50 / 0.46 / 0.52; qwen 0.47 / 0.06 / 0.34)",
+      "Encoder classifiers on the same gold: bge-small/base frozen + logistic regression kappa 0.42 to 0.44 / 0.33 to 0.39 / 0.03 to 0.18; SetFit fine-tune collapses to the majority pole (0.08 / 0.39 / 0.00, 4 h CPU): the small-encoder route is closed at 101 items",
+      "Speed: qwen 1.5 s per axis item and 17 s per mining window locally; haiku 4 s and 9 s remote",
+      "Whisper runs locally already (decision-logger container); a 52-minute meeting transcribed into 808 utterance records, which led to decision a089adfd (raw conversation is provenance)"
+    ],
+    "body": "Sources: local-lab/README.md and results/ (summary.json, facets.*.json, axes.*.json, encoder.*.json); srs-context finding f8b796d0 and component 2e753d2b (private); the draft decisions 24ed7a61 (local detects, frontier writes) and 9c2f4b0a (benchmark on the T3 lines, kinds stay open) in this programme; epic 2e027738 (semanticops.com#58). For the Mozilla application this is the honest 'what runs locally today' table (local-lab/mozilla-fit.md). The next experiment named in every source is the same one: give the small model the boundary first (the raters' two-step procedure as a two-step prompt), which is also the first dreamtime mapping experiment (part 7 of the Dreamtime thread)."
+  },
+  "tags": [
+    "topic:local-models",
+    "topic:axes",
+    "research",
+    "suggestion"
+  ],
+  "createdAt": "2026-11-07T14:12:13.215334691+00:00",
+  "updatedAt": "2026-11-07T14:12:13.215337509+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
