@@ -1,0 +1,25 @@
+{
+  "instanceId": "8829d75d-5d3d-4a51-b672-b1d7ffd170c3",
+  "title": "A way of working is emerging: shared semantic infrastructure under domains and essays, comparing parents, siblings and children, cloning a domain, and zoomability (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:domain-definition",
+    "topic:essay-editor",
+    "topic:zoom",
+    "topic:lab"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The agent challenges that we went through are handy. But they are probably not central. \n\nWhat's emerging is a way of working. \nWe have a part of our process that we are aiming for. A thing that we need to capture, but first we have to explore and understand. \n\nA domain is a structured set of fields. But am essay was just paragraphs. But in both there is a set of underlying parts that we use as semantic infrastructure. \n\nBut what may still be missing is the way to compare parents, siblings and children. \n\nWhile I am working on the essay domain, I may need to see the web editor domain. Just like the essays, may clone the domain, and then only break some parts off. Lots may be shared. But not all. \n\nThen these are both part of the parent domain. Of working with layers of meaning and building on an srs file. \n\nThe UI of the essay editor is probably it's own domain... Because it's getting difficult and needs lots of work. \n\n\nWhat's missing is a zoomability. We need to be able to limit what is seen in a sensible way, and drill down."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, after seeing the soup prototype in srs-lab; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
