@@ -1,0 +1,23 @@
+{
+  "instanceId": "06501cb0-70b9-464d-8f4f-78191aabe0a9",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "How does waking experience recalibrate a boundary the dreamtime sensed, and what is kept of the difference?",
+    "thinking_reached": "No option chosen. Raised 2026-11-07 from the owner's words (2ad1b8d8): human and AI sensing differ; a dream-sensed boundary is valid in the dream; waking experience may recalibrate; so we must know where every boundary came from. Nothing has been seen in use yet: srs-context's dream cycle moves records and structure, but no dream has proposed a boundary that a person then moved, so there is no example of the difference.",
+    "tensions": "Options, none chosen:\n- A. Recalibration is an edit: the waking look replaces the dream boundary; the origin field changes to 'held'. Simplest; loses the difference.\n- B. Recalibration is a successor record: the dream boundary stays, the waking one supersedes it; the pair is the evidence of how the two sensings differ. Keeps the difference; the corpus grows.\n- C. Recalibration is a relation with a note: one boundary record, with a 'recalibrated-from' relation (or a refines) carrying what moved and why. Keeps the difference in one place; needs a relation type or a convention.\n- D. The dream never proposes a boundary, only places to look; every boundary is drawn awake. Avoids the question; contradicts 'dream boundaries are valid'.\n\nAlso open: what a dream may do on a dream-sensed boundary before a waking look (exercise 8969754d), and whether the calibration between the two sensings accumulates into something an agent can learn from (the owner: 'I learnt lots from dreams').",
+    "unresolved_questions": "Whether the difference between a dream boundary and its waking recalibration is the same kind of thing as an affirmation (a judgement relative to a boundary) or something new. Whether a sensed-by-a-person boundary ('this keeps coming back') needs the same treatment as a dream-sensed one.",
+    "next_action": "Let one dream propose one boundary in a lab repository (the next_steps of the boundary decision), have the owner look at it awake and move it, and record the difference in each of forms A to C to see which reads back usefully."
+  },
+  "tags": [
+    "exercise",
+    "research",
+    "topic:dreamtime",
+    "topic:boundaries"
+  ],
+  "createdAt": "2026-11-07T14:43:27.284872358+00:00",
+  "updatedAt": "2026-11-07T14:43:27.284874636+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

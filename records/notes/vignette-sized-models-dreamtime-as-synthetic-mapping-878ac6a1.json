@@ -1,0 +1,22 @@
+{
+  "instanceId": "878ac6a1-89be-442d-b47e-3ec573f28fa4",
+  "title": "Vignette: sized models, dreamtime as synthetic mapping",
+  "tags": [
+    "vignette",
+    "tier-0",
+    "dreamtime",
+    "sized-models",
+    "synthetic-logic"
+  ],
+  "sections": [
+    {
+      "name": "context",
+      "content": "Owner, unprompted, 2026-11-07, in the chat that produced the Shared long-term memory thread (container dc2f9ade). Follows the owner's earlier statement that multi-user, federated, fractal long-term memory is an important part of the future. Recorded verbatim before any derivation."
+    },
+    {
+      "name": "words",
+      "content": "For the Mozilla funding I'm interested in looking at how I can use appropriately sized models for various tasks\n\nI want to show that small models do some jobs well. I don't have to show that I run every model ... Just that it's not just about a frontier model.\n\nI want to see if we can investigate dreamtime a bit more.\n\nThe idea with srs as a shared memory is that it is able to provide a decent map of semantic space.\n\nShort term memory goes in fast. The dreamtime builds the connections and creates the maps.\n\nHome/Greenman/dev/greenmans_creation\n\nMy work over the last year (and many before) have been in creating synthetic maps. Using synthetic logic and foundational synthesis to map semantic space.\n\nThe idea is that once we have defined a boundary (Taiji) we can sense the foundation paradoxes. A good paradox axis is hard to find, and so we tend to generally use the classics: fire, earth, air, water. Beginning/middle/end. Individual/relational/systemic. Yin/yang\n\nThese have to exist within a boundary, within any boundary, and relative to that boundary. So we can take any set, assign elements, and then zoom in on any part and find the same relations. Because the axes don't define content, they define context.\n\nWiki - Taiji - bagua is universal.\n\nThis is a dreamtime work. Find a boundary. Arrange the content of that boundary by different universal axes. (This is an iterative process. Guess properties. Compare a subset. Recategorise. Compare again. Repeat. Name the cells created by different axes. Intersections. Review caregoriseation. Compare neighbours and repeat. See what might be missing. See what biases are. See what questions need to be asked.\n\nI think that we can build our own agentic setup for this using different sized models. We can run some completely locally. Others can be smaller remote.\n\nThe local ai is ....nearby AI. Not massive datacentre AI. (Unless we need it)\n\nWe should be looking at models like laya, that just categorise. But we can look at whatever things are relevant."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "4c2a7b90-a248-4bbd-af23-62e8e0c6b698",
+  "relationType": "depends-on",
+  "sourceInstanceId": "2e027738-fec4-4b27-85cc-0da643e6a604",
+  "targetInstanceId": "6fe27de2-dbfe-4467-b08e-be3c5bdbc098",
+  "createdAt": "2026-11-07T14:12:34.046218489+00:00",
+  "notes": "The epic's placement-by-measurement reads from this results table."
+}

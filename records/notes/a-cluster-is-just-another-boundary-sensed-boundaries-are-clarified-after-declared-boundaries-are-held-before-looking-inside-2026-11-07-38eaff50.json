@@ -1,0 +1,25 @@
+{
+  "instanceId": "38eaff50-2c4b-4f1a-b193-db70a60e2664",
+  "title": "A cluster is just another boundary; sensed boundaries are clarified after, declared boundaries are held before looking inside (2026-11-07)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:domain-definition",
+    "topic:boundaries",
+    "topic:human-ai-collaboration",
+    "topic:dreamtime"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "A cluster is probably just another boundary.\n\nSometimes we sense them before we clarify them. But if we discover ab issue that keeps coming back, eg: how do we write and store decisions... There is obviously a boundary there. But we sense it first.\n\nIf I want to create a very clear boundary for automated development... An agent assisted editor.... Then I probably need to really take the time to hold it and understand it before I look at what's inside.\n\nThis is the human/AI peer collaboration"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-07, answering the question whether the declared/sensed split of boundaries is right (the agent had proposed: the top boundary is declared, interior boundaries are sensed as cells grow dense; a boundary record carries parent, purpose, exclusions with reasons, axes, authority and revision condition); recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

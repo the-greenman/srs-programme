@@ -1,0 +1,9 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "c1abeda4-c3b3-4f8c-bc66-c6a0de62deeb",
+  "relationType": "refines",
+  "sourceInstanceId": "4a67caf5-526e-4635-858f-72fd14d90d16",
+  "targetInstanceId": "199dd369-80b1-464d-a356-3e602eb7f176",
+  "createdAt": "2026-11-07T14:43:51.744912582+00:00",
+  "notes": "Says what the boundary a decision names is, and where boundaries come from."
+}
