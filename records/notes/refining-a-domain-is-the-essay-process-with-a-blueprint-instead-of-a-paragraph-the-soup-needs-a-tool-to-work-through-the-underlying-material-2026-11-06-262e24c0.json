@@ -1,0 +1,24 @@
+{
+  "instanceId": "262e24c0-96ce-4213-9ab5-c20034130a60",
+  "title": "Refining a domain is the essay process with a blueprint instead of a paragraph: the soup needs a tool to work through the underlying material (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:domain-definition",
+    "topic:essay-editor",
+    "topic:lab"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's capture a process and see if we can prototype a tool that will guide the process of refining a domain. \n\nWhat we have done here is evolve a domain, or possibly create a new one. This collection of ideas, categorised and collared is the soup. This process is essentially the same as what we have been designing for the essay editor. \n\nBut instead of a raw paragraph, we have a blueprint. \n\nWe are going to need a way to make it possible to properly work through the underlying material. The current essay editor cramps everything into the right column. I need to be able to see the linked elements a little better and explore them. \n\nCan we create a lab prototype that can be turned into a refined editor later."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, after the three domain experiments were recorded in the programme; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
