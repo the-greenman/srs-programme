@@ -1,0 +1,22 @@
+{
+  "instanceId": "80706a54-8d69-44bb-80f9-ec17ba83529f",
+  "title": "Vignette 2026-11-08: holon merge authority should be a policy, not a decision per holon",
+  "tags": [
+    "topic:holon",
+    "topic:merge",
+    "holon:essay-images"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-11-08, on being shown proposed decision 1234c833 (authorising the essay images holon's driver to merge at quorum under 1f6dfe3c): \"But why do we need a special decision for this holon? This should be a policy\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-08; recorded verbatim. Concerns decision 1f6dfe3c (a holon whose setup sitting authorises it may have its driver merge at quorum), which needs one authorisation per holon, and proposal 1234c833, the first such authorisation written as its own decision."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
