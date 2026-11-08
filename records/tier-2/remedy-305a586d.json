@@ -1,0 +1,25 @@
+{
+  "instanceId": "305a586d-59c3-4da6-a47d-5b0b64086805",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "The essay on top of its layers: structure, thinking, references, with a tick and bin on what is derived",
+    "move": "The editor presents an essay as the top of a stack the writer can see. The data structure layer shows what types and fields exist. The thinking layer shows the vignettes, the data derived from them and their relationships. The references layer shows attachments, references, citations and quotes. The essays sit on top. A simple view builds structured background from vignettes, and the writer keeps or discards each derived item with a tick or a bin, without the programme's full affirmation process.",
+    "does_not_fix": "How an essay gets its semantic context or who defines its types (exercise in this commit). The current gap that a new essay lacks source, quotation and problem types (decision fa685656, muDemocracy.org#303 and srs-web#590). The reader's view of a finished essay (conversation 2026-11-04, the reader of a shared essay).",
+    "falsifier": "A writer working on something other than an argued essay, such as a story or a contract, cannot build up the background that piece needs using these layers, or the tick and bin leaves derived items they neither trust nor remove.",
+    "source_ref": [
+      "srs-programme: vignettes 98b27dc7-df89-4448-a572-0fa37ee7ae13, 5d9a2737-9034-46fd-8289-520984c9e120, 7aab7806-65d8-47a7-bae2-7edb1c254b56 (2026-11-04)"
+    ],
+    "return_when": "When a piece of writing with a non-argument background, such as a story, has been written through the layers, or when the argument dependency has shipped and the agent help teaches it."
+  },
+  "createdAt": "2026-11-08T21:51:46.640676813+00:00",
+  "updatedAt": "2026-11-08T21:51:46.640680878+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

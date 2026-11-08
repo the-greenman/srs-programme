@@ -1,0 +1,26 @@
+{
+  "instanceId": "cda413b1-2136-4206-ad14-bf0932d369ad",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Essays carry images in a dedicated image paragraph, never through markdown",
+    "move": "The essay package gains an image paragraph: a separate paragraph type whose image is a file attached to the repository, with alt text, an optional caption, and a small fixed set of layout options (full width or original size; left, centre or right alignment). The image is always a block and text never wraps around it. SVG is accepted only when it carries no scripts: the core refuses an unsafe SVG when it is attached, and the editor shows every image only as an image element, never as inline markup. In a normal essay paragraph a markdown image does not display, so the image paragraph is the only way an image reaches the reader. Rendering is tested in the editor and the export.",
+    "does_not_fix": "Images in other editors and record forms. Text wrap, cropping, galleries and image editing. Remote images as a source. Large media: attachments stay small. Markdown images in normal paragraphs, which stay off for now.",
+    "falsifier": "A writer still cannot add, lay out and caption an image without help; or an image paragraph renders differently in the editor and the export; or an SVG with a script is accepted or runs; or a markdown image displays in a normal paragraph.",
+    "source_ref": [
+      "srs-programme: conversation 2026-11-08, vignettes debafe21 and 02e02668",
+      "srs spec: SourceDocument and attaches SourceReference (I-101, I-102), attachment_policy (I-107, I-111)"
+    ],
+    "return_when": "When writers ask for wrap or for images inside text, or for formats or sizes the set does not cover."
+  },
+  "createdAt": "2026-11-08T21:51:01.191953414+00:00",
+  "updatedAt": "2026-11-08T21:51:01.191955662+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

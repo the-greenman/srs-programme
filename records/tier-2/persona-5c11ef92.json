@@ -1,0 +1,25 @@
+{
+  "instanceId": "5c11ef92-262c-43c9-8c49-57247def2ac4",
+  "typeId": "c57aafdd-d002-4ee6-9a2b-ff3805107580",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona",
+  "fieldValues": {
+    "title": "Reader of a finished work",
+    "summary": "A person who receives a finished piece of work and reads it. They did not make it, are not editing it, and care about the final product more than how it was built.",
+    "jobs": [
+      "Open what they were sent and read it",
+      "Check what the work rests on",
+      "Go deeper when something raises a question"
+    ],
+    "needs": "The finished work as a finished work, with its sources within reach and no setup required before reading."
+  },
+  "createdAt": "2026-11-08T21:52:01.910231284+00:00",
+  "updatedAt": "2026-11-08T21:52:01.910233329+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
