@@ -17,13 +17,13 @@
     "owner": "Owner",
     "decision_kind": "mandate"
   },
-  "lifecycleState": "ratified",
+  "lifecycleState": "superseded",
   "tags": [
     "topic:holon",
     "topic:merge",
     "holon:visual-editor"
   ],
   "createdAt": "2026-11-06T08:45:20.627928451+00:00",
-  "updatedAt": "2026-11-06T14:24:48.960323771+00:00",
+  "updatedAt": "2026-11-08T22:09:30.587253564+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }
