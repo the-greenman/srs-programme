@@ -1,0 +1,17 @@
+{
+  "session": "15a66ac6-d01a-4eac-a296-f4da25b7ec40",
+  "acts": [
+    {
+      "at": "2026-11-08T22:08:33.129Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 1,
+      "seen": [],
+      "updatedAt": "2026-11-08T21:58:23.396780199+00:00",
+      "kind": "ratify",
+      "id": "9a381347-51cc-4a84-a47c-8047c82ea490",
+      "title": "Who merges a grounded holon's PRs"
+    }
+  ],
+  "words": []
+}
