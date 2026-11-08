@@ -1,0 +1,25 @@
+{
+  "instanceId": "03218e1c-db3a-4867-9ff6-becd2ad18cfe",
+  "title": "SRS as interchange format: a database on an SRS schema (2026-11-08)",
+  "tags": [
+    "vignette",
+    "tier-0",
+    "interchange",
+    "database",
+    "multi-user",
+    "sovereignty"
+  ],
+  "sections": [
+    {
+      "name": "vignette",
+      "label": "Owner's words (2026-11-08, verbatim)",
+      "content": "Here's an experiment.\n\nSRS is a standalone format.\nBut it is also an interchange format. We don't have to build with srs directly.\n\nCan we build a database on an srs schema?\nIf I built my governance engine, could I generate a database design off a set of packages? Or could I create a set of packages off my data se design?(muDemocracy-decisions was a pre srs experiment that stopped because I couldn't export)\n\nWhat kinds of structures can SRS not represent?\nThis is the path to building the mukti-user experience... But still maintain sovereignty.\n\nWe can experiment autonomously in the lab"
+    },
+    {
+      "name": "context",
+      "label": "Context",
+      "content": "Said unprompted at the start of a session in the semanticops workspace. Frames SRS as an interchange format rather than only a storage format: packages as the schema source for a generated database, and the reverse, packages generated from a database design. muDemocracy-decisions (the decision-logger repo) is named as the pre-SRS experiment that stopped for lack of export. Names the limits question (what SRS cannot represent) and ties it to the multi-user experience with sovereignty kept. Authorises autonomous lab experimentation."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

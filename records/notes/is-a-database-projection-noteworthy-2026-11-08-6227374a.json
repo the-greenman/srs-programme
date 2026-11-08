@@ -1,0 +1,23 @@
+{
+  "instanceId": "6227374a-8f0b-4f1a-98bf-48568411d851",
+  "title": "Is a database projection noteworthy? (2026-11-08)",
+  "tags": [
+    "vignette",
+    "tier-0",
+    "interchange",
+    "projection"
+  ],
+  "sections": [
+    {
+      "name": "vignette",
+      "label": "Owner's words (2026-11-08, verbatim)",
+      "content": "My current assumption is that there is nothing particularly noteworthy about this capability? Many formats can achieve this?"
+    },
+    {
+      "name": "context",
+      "label": "Context",
+      "content": "Said after the lab result that SRS packages generate a relational schema in both directions (vignette 03218e1c, srs-context research note a0b5e1fe), while asking for the SQL projection to be added to srs-projection. A theory about the work's significance: that schema-to-database generation is commonplace and not a differentiator."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
