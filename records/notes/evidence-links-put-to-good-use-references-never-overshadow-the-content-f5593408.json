@@ -1,0 +1,24 @@
+{
+  "instanceId": "f5593408-86c7-4399-b2eb-d8751c11d970",
+  "title": "Evidence links put to good use; references never overshadow the content",
+  "tags": [
+    "vignette",
+    "tier-0",
+    "mudemocracy",
+    "evidence",
+    "small-democracy"
+  ],
+  "sections": [
+    {
+      "name": "owner",
+      "label": "Owner's words (2026-11-08, Claude Code, muDemocracy.org)",
+      "content": "\"We will be using the evidence links a lot more. We want to be able to ensure that all our work to build the references is put to good use.\n\nReferences should never overshadow the content, but they should be there for those who want them.\"\n\nSaid when planning how to back the small democracy story (muDemocracy.org#449) with its sources ledger and datasets. In plan review the owner chose that the checked-to level also lives on source records (how far the work has been read), not only on quotations."
+    },
+    {
+      "name": "derived",
+      "label": "Derived (suggestion)",
+      "content": "Evidence is built once for every website page, not per page: evidences and challenges links into any page record, exported with the page, shown in one collapsed Sources disclosure after a section and on a generated sources page, never inside the reading line. A level says how far the work was read, never how strong the claim is. Statements with no evidence are found by a check, not by memory. Follows vignettes 5f078033 and 59aca511."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

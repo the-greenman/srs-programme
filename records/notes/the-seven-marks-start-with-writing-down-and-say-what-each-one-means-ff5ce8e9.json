@@ -1,0 +1,24 @@
+{
+  "instanceId": "ff5ce8e9-3d1b-48dc-a04a-50a2cd8901ed",
+  "title": "The seven marks: start with writing down, and say what each one means",
+  "tags": [
+    "vignette",
+    "tier-0",
+    "mudemocracy",
+    "small-democracy",
+    "markers"
+  ],
+  "sections": [
+    {
+      "name": "owner",
+      "label": "Owner's words (2026-11-08, Claude Code, muDemocracy.org)",
+      "content": "\"1. Lets reverse the order. .... start with writing down.\n2. The subtitles on their own are meaningless.... We should first explain what each item means. ... then maybe we can add the dates of these examples... but what do the examples mean anyway?\"\n\nSaid of the story's list of the seven marks of a group that governs itself (How might we recognise democracy if we see it?), which showed a short title and a line of dated examples for each."
+    },
+    {
+      "name": "derived",
+      "label": "Derived (suggestion)",
+      "content": "Each mark is explained before it is evidenced: a plain sentence of what it means for a member, then dated examples that each say what happened and so what they show. The list starts where the practice starts, with writing decisions down (as the call to action says: 'The craft starts with writing decisions down and it grows from there'). Relates to claim C-203."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
