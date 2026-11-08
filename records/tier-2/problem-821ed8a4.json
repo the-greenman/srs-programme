@@ -1,0 +1,25 @@
+{
+  "instanceId": "821ed8a4-d7aa-4266-a567-c9f06ef09b97",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-145",
+    "title": "Multi-user access needs an SQL backend",
+    "statement": "I believe that once several people use the same repositories through one server the files must give way to a database. ADR-041 already rules the other way: networked use goes through export/import, and SQL is only ever a derived, rebuildable projection. The belief persists because nothing shows where the file model stops scaling.",
+    "kind": "belief",
+    "source_ref": [
+      "Owner, 2026-11-04: vignette 662defe9 (srs-programme, conversation 09be2f75)",
+      "srs-rust ADR-041 section 5 and G8"
+    ]
+  },
+  "createdAt": "2026-11-08T21:13:04.560469471+00:00",
+  "updatedAt": "2026-11-08T21:13:04.560471108+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

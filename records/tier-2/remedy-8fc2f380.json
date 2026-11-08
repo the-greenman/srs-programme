@@ -1,0 +1,25 @@
+{
+  "instanceId": "8fc2f380-18d0-4f9f-bba7-80fd529b6c2c",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "The essay editor offers visual formatting over plain markdown, and the writer can always switch to the source",
+    "move": "In the essay editor, clicking a paragraph opens it as formatted text with a small toolbar, so a writer can format without knowing markdown. An existing library provides the editing surface, limited to a short allowlist. The stored text stays plain markdown the writer can read and take away, the core stays the only renderer for reading, and a per-browser switch returns the writer to the source editor. The core renderer judges each round trip: a paragraph it cannot reproduce opens as source, and a paragraph opened and left is not rewritten. The help says plainly that paragraphs are markdown. It applies to the essay editor only: elsewhere, types and fields carry the structure.",
+    "does_not_fix": "Other editors and record forms, which keep plain text by design. Images and tables in the visual editor, which stay source-only for now. Byte-for-byte preservation of an edited paragraph: an edit normalises that paragraph's markup without changing how it reads. Whether a writer understands the essay's structure of titled, nested paragraphs (SP-130).",
+    "falsifier": "A first-time writer given only the link still cannot format a paragraph unaided; or a paragraph saved from the visual editor reads differently from what the writer saw; or writers mostly switch to markdown because the visual editor gets in the way.",
+    "source_ref": [
+      "srs-programme: conversation 2026-11-06 · Essay visual editor holon (container 2cc7cdb2), vignettes 0334e990, 50a11c7c, 19964824, cca0ff96"
+    ],
+    "return_when": "When first-time writers outside the programme have used it and the owner has heard where they got stuck, or when images or tables are next wanted in essays."
+  },
+  "createdAt": "2026-11-08T21:03:15.628106908+00:00",
+  "updatedAt": "2026-11-08T21:03:15.628108863+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

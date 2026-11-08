@@ -1,0 +1,24 @@
+{
+  "instanceId": "d121a99b-ed5d-4c25-beb4-5efcdb188d3d",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A restored working copy keeps its source",
+    "move": "The browser's recovery copy stores where the document came from and the commit it was based on, so a restored session saves back to its source instead of asking for a destination.",
+    "does_not_fix": "Merging: if the source has moved on since that commit, the save is refused and goes to a new branch. Sources that cannot be reopened after a reload stay as they are.",
+    "falsifier": "After a reload, a person still has to download the copy to get their work back to its source, or a save from a restored session undoes commits made since the copy was taken.",
+    "source_ref": [
+      "Owner, 2026-11-05: vignette 44e6cf15"
+    ]
+  },
+  "createdAt": "2026-11-08T21:19:09.926873617+00:00",
+  "updatedAt": "2026-11-08T21:19:09.926875128+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,23 @@
+{
+  "instanceId": "3be313bb-b516-4045-91f7-c28d712dc7c9",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Mechanism over policy",
+    "boundary_clause": "Unless the rule can be declared and checked by any implementation (the level test): then it is standard.",
+    "context": "Applies in the SemanticOps boundary. Proposed leaning; evidenced by rfc-decision-1e7c0c8e and c20fcff8, and the owner's 'two levels of rules', 2026-09-10.",
+    "source_ref": [
+      "source-documents/boundaries-2026-10-09/proposal.md (section 3.1)"
+    ]
+  },
+  "createdAt": "2026-11-08T21:22:43.157769278+00:00",
+  "updatedAt": "2026-11-08T21:22:43.157771171+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

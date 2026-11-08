@@ -1,0 +1,26 @@
+{
+  "instanceId": "4f64aa2f-1d92-4039-8bf0-72dfc487c4b0",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-149",
+    "title": "An essay's background is one fixed model, though what a writer needs behind a text depends on what they are writing",
+    "statement": "Each piece of writing has its own semantic context. A contract does not work with problems and claims; a story's background is characters, events and places; product marketing text needs other elements again. The essay editor and its help assume one background, problems, claims and sources, and neither the writer nor their agent can see which types exist or shape them, so the structure behind a text cannot follow the writing it serves.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme: vignettes 98b27dc7-df89-4448-a572-0fa37ee7ae13, 5d9a2737-9034-46fd-8289-520984c9e120, 7aab7806-65d8-47a7-bae2-7edb1c254b56 (2026-11-04)",
+      "srs-web#590",
+      "muDemocracy.org#303"
+    ]
+  },
+  "createdAt": "2026-11-08T21:02:15.985162304+00:00",
+  "updatedAt": "2026-11-08T21:02:15.985164030+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

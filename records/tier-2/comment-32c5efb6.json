@@ -1,0 +1,18 @@
+{
+  "instanceId": "32c5efb6-5cda-46ed-8362-92dfa36a1dbf",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: For now, the editor is a recognisable front door"
+  },
+  "createdAt": "2026-11-08T21:39:09.173105655+00:00",
+  "updatedAt": "2026-11-08T21:39:09.173108761+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
