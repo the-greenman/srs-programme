@@ -1,0 +1,23 @@
+{
+  "instanceId": "967c79ea-1cf9-44df-85c3-ae1b232d8f05",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "One way over carrying the old one",
+    "boundary_clause": "Unless it is transition carriage in 'extra' with a named collapse issue, or a declared twin with a parity gate.",
+    "context": "Applies in the SRS implementation boundary. Evidenced by ADR-048 rule 3 and worked example (b): semanticObjectType, the revisions.json allowlist (#866), federation removed with no shims (#878).",
+    "source_ref": [
+      "source-documents/boundaries-2026-10-09/proposal.md (section 3.3)"
+    ]
+  },
+  "createdAt": "2026-11-08T21:06:50.526089790+00:00",
+  "updatedAt": "2026-11-08T21:06:50.526091636+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

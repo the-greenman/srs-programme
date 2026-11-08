@@ -1,0 +1,25 @@
+{
+  "instanceId": "44d45dcf-9ea9-49af-b7e0-dff101bd55de",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-163",
+    "title": "A data design cannot be carried whole into SRS",
+    "statement": "I design a system around a few structures every database gives me: a key that must be unique across several fields, a reference that may point at one of several types, and facts that belong to a link rather than to either end. When I port that design into SRS packages, none of the three has a declared home, so I either flatten the design into conventions no tool can check, or keep the rule in my engine where the next engine cannot see it. The folder then holds less than the system knows.",
+    "kind": "capability",
+    "source_ref": [
+      "srs-programme vignette 03218e1c (owner, 2026-11-08: SRS as interchange format)",
+      "srs-context research note a0b5e1fe (lab srs-lab/interchange, 2026-11-08: decision-logger schema ported to packages; the loss list)"
+    ]
+  },
+  "createdAt": "2026-11-08T21:05:10.681450612+00:00",
+  "updatedAt": "2026-11-08T21:05:10.681455634+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

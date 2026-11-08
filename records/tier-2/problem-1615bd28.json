@@ -1,0 +1,26 @@
+{
+  "instanceId": "1615bd28-1c5d-4d29-bf02-8c123f887388",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-161",
+    "title": "A claimed author cannot be checked",
+    "statement": "A group sharing a memory cannot tell whether a record came from who it says. The author is whatever the writer's session declares, a later edit leaves no trace of the editor in the record, and nothing compares either with a key. So a member's word and a forged one look the same, and attribution can never become more than a claim.",
+    "kind": "capability",
+    "source_ref": [
+      "srs-programme: vignette 0b9b055b",
+      "srs-programme: research finding '2. Two writers on one memory: the test' (2026-11-06)",
+      "strategy contract e06081bf (attribution mechanism: promoted only by a verification mechanism such as a signature)"
+    ]
+  },
+  "createdAt": "2026-11-08T21:15:12.922648751+00:00",
+  "updatedAt": "2026-11-08T21:15:12.922650423+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,26 @@
+{
+  "instanceId": "62829380-757f-4787-bbe3-450be628da93",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-159",
+    "title": "Nobody can find who runs our services or on what terms",
+    "statement": "Someone using the editor at app.semanticops.com cannot find who runs it, what happens to their data and sign-ins, or on what terms they use it, because the editor has no privacy policy or terms. The relay has its own statement and terms, which do not name the operator and cover only the relay, so a person using both has no single place to read them.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme vignette f5c3e951 (the owner, 2026-11-05)",
+      "srs-web main a73e1d1: no privacy or terms page in src, public or worker",
+      "semanticops-relay main 421f20e: src/pages.ts terms and privacy"
+    ]
+  },
+  "createdAt": "2026-11-08T21:02:45.828302844+00:00",
+  "updatedAt": "2026-11-08T21:02:45.828304828+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
