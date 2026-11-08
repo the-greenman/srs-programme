@@ -12,7 +12,8 @@
       "session record 2026-11-02 11:17 UTC (srs-programme#400)",
       "clerk group-state, 2026-11-02",
       "rfc-drafter run session_01LP2XeEhUBj4HebxAr6CK2e (2026-11-03): wg:third-party-ready paused again ('paused: 2 reports unacknowledged', cycle 2026-11-03T11:30Z, room 6); both queued RFC requests srs#931 and srs#928 sit in that lane, so no RFC was drafted",
-      "local Claude Code session for the owner, 2026-11-03 ~18:50 UTC: clerk claim srs-web#698 (essay home, unit semanticops.com#54) refused: wg:agent-editor paused, 2 reports unacknowledged (cycles 11-02 and 11-03); the owner was present in the conversation and had just approved the plan, so the pause stopped work the owner was directing"
+      "local Claude Code session for the owner, 2026-11-03 ~18:50 UTC: clerk claim srs-web#698 (essay home, unit semanticops.com#54) refused: wg:agent-editor paused, 2 reports unacknowledged (cycles 11-02 and 11-03); the owner was present in the conversation and had just approved the plan, so the pause stopped work the owner was directing",
+      "rfc-drafter run session_01LP2XeHqUjAjdDUiQskWi1X (2026-11-08 12:30 UTC): wg:third-party-ready paused ('paused: 2 reports unacknowledged', cycle 2026-11-08T11:30Z, room 5); the only queued RFC request, srs#928, sits in that lane, so no RFC was drafted"
     ],
     "body": "The pause is a deliberate safety stop: the owner must be seeing the reports. But it cannot tell 'the owner is away for the weekend' from 'the owner is ignoring the group', and it stops on calendar time, not on what was built. Remedies to weigh: count unacknowledged reports only on working days, let a report with no merges and no decisions count as acknowledged, or acknowledge from the phone in one tap."
   },
@@ -20,7 +21,7 @@
     "flow-stop"
   ],
   "createdAt": "2026-11-02T11:55:29.610999956+00:00",
-  "updatedAt": "2026-11-03T18:44:08.474813043+00:00",
+  "updatedAt": "2026-11-08T12:27:36.641593119+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",
