@@ -17,12 +17,12 @@
     "owner": "Owner",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "tags": [
     "topic:holon",
     "topic:merge"
   ],
   "createdAt": "2026-11-08T21:58:23.396778536+00:00",
-  "updatedAt": "2026-11-08T21:58:23.396780199+00:00",
+  "updatedAt": "2026-11-08T22:08:40.823586212+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

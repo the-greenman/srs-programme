@@ -1,0 +1,29 @@
+{
+  "instanceId": "15a66ac6-d01a-4eac-a296-f4da25b7ec40",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-11-08 22:08 UTC: SemanticOps",
+    "held_at": "2026-11-08T22:08:04Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-11-08 22:08 UTC: SemanticOps\nAttendees: Owner\n- Ratified: Who merges a grounded holon's PRs [9a381347]\nActs in the order taken (UTC):\n- 22:08:33Z ratify: Who merges a grounded holon's PRs [9a381347] (Decisions since the last session 1 of 1, record updated 2026-11-08T21:58:23.396780199+00:00)"
+  },
+  "createdAt": "2026-11-08T22:08:40.177229929+00:00",
+  "updatedAt": "2026-11-08T22:08:40.177231706+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "88a0ce2c-0e84-4176-99c3-321234af566f",
+      "sourceRole": "attaches"
+    }
+  ]
+}
