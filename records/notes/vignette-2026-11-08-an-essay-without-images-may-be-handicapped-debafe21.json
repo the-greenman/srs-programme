@@ -1,0 +1,22 @@
+{
+  "instanceId": "debafe21-cb5e-4d23-b2b0-2cb405360a1a",
+  "title": "Vignette 2026-11-08: an essay without images may be handicapped",
+  "tags": [
+    "topic:essay-editor",
+    "topic:images",
+    "topic:attachment-policy"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-11-08, opening a research topic: \"embedded images. Specifically in essays, but also embedding in an srs file in general. Should it be allowed? An essay without images may be handicapped\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-08; recorded verbatim. Reopens the image question deferred by decision c7d81c5d (What the visual essay editor supports, ratified 2026-11-06, from vignette cca0ff96), whose revisit_when is 'Writers ask for images or tables in essays'. Bears on vignettes a5fa4798 (attachments are not a place for big files) and 47326128 (the browser budget is a memory warning)."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

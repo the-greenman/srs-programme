@@ -1,0 +1,30 @@
+{
+  "instanceId": "ca352740-8b44-416e-8513-99a91f4bec02",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Essay image formats and size",
+    "decision_question": "Which image formats may an image paragraph hold, and how large may each file be?",
+    "context": "The web editor's attachment defaults are 1 MB per file and text only (srs-web#693). The owner, 2026-11-04 (vignette a5fa4798): 'We still want to generally limit those files. This is not a place for big files.' The owner, 2026-11-08 (vignette 02e02668): 'Lets support svgs without scripts.' A repository's attachment_policy can narrow or widen limits (I-107).",
+    "friction": "With text-only defaults no image can be attached at all; with no limit, repositories swell past the browser budget (vignette 47326128).",
+    "alternatives_considered": "A. PNG, JPEG, WebP and script-free SVG, at most 1 MB each (recommended). For: covers photos, screenshots and diagrams; keeps the existing per-file cap. Against: a large photo must be resized first.\nB. The same plus GIF. For: simple animation. Against: large files, little need in essays.\nC. A larger cap, such as 5 MB. For: no resizing. Against: against 'not a place for big files'.\nD. Leave text only. Against: the feature cannot work.",
+    "key_requirements": "Small files; formats every browser shows; SVG only without scripts (owner).",
+    "decision_statement": "An essay image is a PNG, JPEG, WebP or script-free SVG file of at most 1 MB, unless the repository's attachment policy sets a stricter limit.",
+    "rationale": "These four formats cover photos, screenshots and diagrams in every browser, and the existing 1 MB cap keeps attachments small as the owner asked.",
+    "revisit_when": "Writers often hit the cap with ordinary images, or ask for a format outside the list.",
+    "owner": "Owner",
+    "decision_kind": "boundary"
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:essay-editor",
+    "topic:images",
+    "holon:essay-images",
+    "topic:attachment-policy"
+  ],
+  "createdAt": "2026-11-08T17:53:50.318497545+00:00",
+  "updatedAt": "2026-11-08T17:53:50.318499083+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

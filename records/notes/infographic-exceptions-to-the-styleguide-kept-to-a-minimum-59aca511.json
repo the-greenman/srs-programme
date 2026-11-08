@@ -1,0 +1,24 @@
+{
+  "instanceId": "59aca511-26cb-4b0c-afbd-dea0d49213ed",
+  "title": "Infographic exceptions to the styleguide, kept to a minimum",
+  "tags": [
+    "vignette",
+    "tier-0",
+    "mudemocracy",
+    "styleguide",
+    "small-democracy"
+  ],
+  "sections": [
+    {
+      "name": "owner",
+      "label": "Owner's words (2026-11-08, Claude Code, muDemocracy.org)",
+      "content": "\"Now, this feels a bit too far from our styleguide. We can allow infographic exceptions, but we should keep them to a minimum. Do we need two different map styles?\"\n\nSaid of the small democracy story rebuilt as muSrs story blocks (PR muDemocracy.org#449): a dark night-sky world map, a parchment rooms map, rounded pills, and green, orange, purple and five organisation colours beside a site palette that is greyscale plus one highlighter."
+    },
+    {
+      "name": "derived",
+      "label": "Derived",
+      "content": "Suggested rule for the site: an infographic may add colour only where the colour carries data, and otherwise uses the styleguide's palette, type, shapes and controls. Follows from vignette 5f078033 (the design should be standardised and use styleguide components)."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

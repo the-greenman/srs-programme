@@ -1,0 +1,22 @@
+{
+  "instanceId": "02e02668-7438-4adb-805a-5646fa00f63c",
+  "title": "Vignette 2026-11-08: images come as a special paragraph, no wrap, SVG without scripts",
+  "tags": [
+    "topic:essay-editor",
+    "topic:images",
+    "holon:essay-images"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-11-08, after the research on embedded images: \"we should set this up ad an epic for the editor. We would need to add a special type of paragraph that does images. We don't support image wrap. we may have a basic set of formatting and layout options that might define full width, original size, alignment. Caption. Lets support svgs without scripts. We will need to test rendering, and make sure that we can't add images by markdown that display in a normal paragraph for now. [...] We will let this be built by the working group\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-08; recorded verbatim (the bare instruction 'Build only the plan. holon and epcs.' omitted). Follows vignette debafe21 (an essay without images may be handicapped). Rulings it carries: images as a special paragraph type; no image wrap; layout options full width, original size, alignment; caption; SVG allowed without scripts; rendering tested; markdown images must not display in a normal paragraph for now; built by the editor working group."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
