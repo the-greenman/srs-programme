@@ -17,13 +17,13 @@
     "owner": "Owner",
     "decision_kind": "mandate"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "abandoned",
   "tags": [
     "topic:holon",
     "topic:merge",
     "holon:essay-images"
   ],
   "createdAt": "2026-11-08T21:55:15.062407789+00:00",
-  "updatedAt": "2026-11-08T21:55:15.062409516+00:00",
+  "updatedAt": "2026-11-08T21:58:37.786595283+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }
