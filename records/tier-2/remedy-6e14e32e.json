@@ -1,0 +1,25 @@
+{
+  "instanceId": "6e14e32e-095b-4e1c-9cc5-c4d7bbe42938",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "One writer at a time per repository, inside the server",
+    "move": "A per-repository write lock in the registry server around every write service call. Readers never wait. srs-rust#813 gives the batch seam when a multi-write service needs atomicity.",
+    "does_not_fix": "Concurrent editing by several people of one record; that is git branches and pull requests, or later a CRDT.",
+    "falsifier": "Write latency under the lock becomes visible to an interactive editor.",
+    "source_ref": [
+      "Owner, 2026-11-04: vignette 662defe9 (srs-programme, conversation 09be2f75)"
+    ],
+    "return_when": "Two people edit one repository live."
+  },
+  "createdAt": "2026-11-08T21:51:16.112026091+00:00",
+  "updatedAt": "2026-11-08T21:51:16.112027798+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
