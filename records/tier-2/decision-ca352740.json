@@ -17,7 +17,7 @@
     "owner": "Owner",
     "decision_kind": "boundary"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "tags": [
     "topic:essay-editor",
     "topic:images",
@@ -25,6 +25,6 @@
     "topic:attachment-policy"
   ],
   "createdAt": "2026-11-08T17:53:50.318497545+00:00",
-  "updatedAt": "2026-11-08T18:24:09.456686538+00:00",
+  "updatedAt": "2026-11-08T18:39:28.993703619+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

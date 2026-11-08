@@ -17,7 +17,7 @@
     "owner": "Owner",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "tags": [
     "topic:essay-editor",
     "topic:images",
@@ -25,6 +25,6 @@
     "topic:security"
   ],
   "createdAt": "2026-11-08T17:53:50.578660307+00:00",
-  "updatedAt": "2026-11-08T18:24:09.684572609+00:00",
+  "updatedAt": "2026-11-08T18:39:28.222733957+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

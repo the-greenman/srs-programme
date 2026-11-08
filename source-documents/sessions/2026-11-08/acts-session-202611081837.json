@@ -1,0 +1,141 @@
+{
+  "session": "105b2e7d-8996-42e3-9b80-0c87e4d2d0ff",
+  "acts": [
+    {
+      "at": "2026-11-08T18:37:41.776Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 7,
+      "seen": [],
+      "updatedAt": "2026-11-08T18:24:09.759204108+00:00",
+      "kind": "ratify",
+      "id": "2ec3671d-f901-4d0f-8bcf-462f3b8dec04",
+      "title": "Markdown images in normal paragraphs"
+    },
+    {
+      "at": "2026-11-08T18:37:48.593Z",
+      "section": "Decisions since the last session",
+      "position": 2,
+      "of": 7,
+      "seen": [],
+      "updatedAt": "2026-11-08T18:24:09.612447891+00:00",
+      "kind": "ratify",
+      "id": "72bcd83e-8d84-4564-a614-ba088efa8e95",
+      "title": "Alt text and caption on essay images"
+    },
+    {
+      "at": "2026-11-08T18:37:56.717Z",
+      "section": "Decisions since the last session",
+      "position": 3,
+      "of": 7,
+      "seen": [],
+      "updatedAt": "2026-11-08T18:24:09.684572609+00:00",
+      "kind": "ratify",
+      "id": "866167c1-54d1-4d96-a027-962084f59291",
+      "title": "Keeping SVG images free of scripts"
+    },
+    {
+      "at": "2026-11-08T18:38:01.712Z",
+      "section": "Decisions since the last session",
+      "position": 4,
+      "of": 7,
+      "seen": [],
+      "updatedAt": "2026-11-08T18:24:09.531798664+00:00",
+      "kind": "ratify",
+      "id": "b2b5c488-e314-4505-a20f-82299bad6388",
+      "title": "Essay image layout options"
+    },
+    {
+      "at": "2026-11-08T18:38:08.124Z",
+      "section": "Decisions since the last session",
+      "position": 5,
+      "of": 7,
+      "seen": [],
+      "updatedAt": "2026-11-08T18:24:09.303618277+00:00",
+      "kind": "ratify",
+      "id": "c4cc4697-7b5f-44a4-a7e7-64be23c21572",
+      "title": "How images enter an essay"
+    },
+    {
+      "at": "2026-11-08T18:38:12.495Z",
+      "section": "Decisions since the last session",
+      "position": 6,
+      "of": 7,
+      "seen": [],
+      "updatedAt": "2026-11-08T18:24:09.456686538+00:00",
+      "kind": "ratify",
+      "id": "ca352740-8b44-416e-8513-99a91f4bec02",
+      "title": "Essay image formats and size"
+    },
+    {
+      "at": "2026-11-08T18:39:07.247Z",
+      "section": "Decisions since the last session",
+      "position": 7,
+      "of": 7,
+      "seen": [],
+      "updatedAt": "2026-11-08T18:24:09.380161369+00:00",
+      "kind": "comment",
+      "id": "da11431b-8a0b-40e2-902f-4fee568cd6e8",
+      "title": "Where an essay image comes from"
+    },
+    {
+      "at": "2026-11-08T18:39:08.174Z",
+      "section": "Decisions since the last session",
+      "position": 7,
+      "of": 7,
+      "seen": [],
+      "updatedAt": "2026-11-08T18:24:09.380161369+00:00",
+      "kind": "ratify",
+      "id": "da11431b-8a0b-40e2-902f-4fee568cd6e8",
+      "title": "Where an essay image comes from"
+    },
+    {
+      "at": "2026-11-08T18:39:13.344Z",
+      "section": "Reports",
+      "position": 1,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "7ad9aa27-80e6-45d8-b8d4-061990b0c1a6",
+      "title": "WG Agent-supported editor report 2026-11-07"
+    },
+    {
+      "at": "2026-11-08T18:39:14.672Z",
+      "section": "Reports",
+      "position": 2,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "ef1526c0-d517-49e6-9bc9-f1aa26a67a69",
+      "title": "WG Agent-supported editor report 2026-11-08"
+    },
+    {
+      "at": "2026-11-08T18:39:17.263Z",
+      "section": "Reports",
+      "position": 3,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "9526c101-6681-4b5e-b9a8-32dc1d3a8ea4",
+      "title": "WG Third-party ready report 2026-11-07"
+    },
+    {
+      "at": "2026-11-08T18:39:18.457Z",
+      "section": "Reports",
+      "position": 4,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "57117eaa-64b7-4e9e-bb79-1b8a86719a57",
+      "title": "WG Third-party ready report 2026-11-08"
+    }
+  ],
+  "words": [
+    {
+      "on": "da11431b-8a0b-40e2-902f-4fee568cd6e8",
+      "title": "Where an essay image comes from",
+      "kind": "comment",
+      "text": "This is a startin point. We may want to change later."
+    }
+  ]
+}
