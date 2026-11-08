@@ -17,13 +17,13 @@
     "owner": "Owner",
     "decision_kind": "boundary"
   },
-  "lifecycleState": "draft",
+  "lifecycleState": "proposed",
   "tags": [
     "topic:essay-editor",
     "topic:images",
     "holon:essay-images"
   ],
   "createdAt": "2026-11-08T17:53:50.237264513+00:00",
-  "updatedAt": "2026-11-08T17:53:50.237266172+00:00",
+  "updatedAt": "2026-11-08T18:24:09.380161369+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }
