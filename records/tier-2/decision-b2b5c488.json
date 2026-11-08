@@ -1,0 +1,29 @@
+{
+  "instanceId": "b2b5c488-e314-4505-a20f-82299bad6388",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Essay image layout options",
+    "decision_question": "Which layout options does an image paragraph offer?",
+    "context": "The owner, 2026-11-08 (vignette 02e02668): 'We don't support image wrap. we may have a basic set of formatting and layout options that might define full width, original size, alignment. Caption.' Precedent consulted: c7d81c5d (a short supported list is cheap to extend later).",
+    "friction": "Without a fixed set, every layout wish becomes a new control to build and test on touch and keyboard; with none, a small diagram is stretched to full width.",
+    "alternatives_considered": "A. Size: full width or original size; alignment: left, centre or right, used only at original size (recommended). For: exactly the owner's list; three of the six combinations collapse, so few cases to test. Against: no intermediate sizes.\nB. A also with half width. For: side-by-side feel without wrap. Against: not asked for; more to test.\nC. Free sizing by dragging. Against: hard on touch and keyboard, and becomes presentation data.",
+    "key_requirements": "No text wrap (owner); full width, original size and alignment (owner); a caption (owner); keyboard and touch usable.",
+    "decision_statement": "An image paragraph is laid out as full width or original size, aligned left, centre or right at original size, with text never wrapping around it.",
+    "rationale": "It is the owner's set, held as two small closed fields, and the image is always a block, so layout cannot break the flow of paragraphs.",
+    "revisit_when": "Writers repeatedly want a size the two options do not give, such as a half-width image.",
+    "owner": "Owner",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:essay-editor",
+    "topic:images",
+    "holon:essay-images"
+  ],
+  "createdAt": "2026-11-08T17:53:50.406175595+00:00",
+  "updatedAt": "2026-11-08T17:53:50.406177116+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

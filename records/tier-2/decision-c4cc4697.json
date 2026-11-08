@@ -1,0 +1,29 @@
+{
+  "instanceId": "c4cc4697-7b5f-44a4-a7e7-64be23c21572",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "How images enter an essay",
+    "decision_question": "By what route may an image appear in an essay?",
+    "context": "The owner, 2026-11-08 (vignettes debafe21, 02e02668): 'An essay without images may be handicapped' and 'We would need to add a special type of paragraph that does images.' Decision c7d81c5d (ratified 2026-11-06) kept images out of the visual editor and names 'writers ask for images' as its revisit trigger; this decision answers that trigger without changing its allowlist. Precedent consulted: abed4266 (the essay package can grow basic building blocks for structured writing); the quotation type, a second record type already placed in essays; vignette 19964824 (the essay's structure comes from typed paragraphs, not rich text). Problem SP-164 (fff6809b), remedy fd1b4728.",
+    "friction": "Today the only route is a markdown image from a remote URL, which the essay does not own and the visual editor cannot edit.",
+    "alternatives_considered": "A. A dedicated image paragraph type (owner's ruling; recommended). For: structure carried by a type, as everywhere else in SRS; caption, alt text and layout become fields; the visual editor's allowlist stays short. Against: one more type in the essay package and its upgrade.\nB. Inline markdown images resolved to attachments. For: images inside text. Against: needs a new reference scheme and an RFC; layout and caption leak into markup.\nC. Leave it: markdown images from remote URLs. For: no work. Against: link rot, reader tracking, not stored with the essay.\nD. No images. Against: the owner's own word, handicapped.",
+    "key_requirements": "The image is owned by the essay; layout and caption are structured; the writer's text stays plain markdown; adding it later to other editors stays possible.",
+    "decision_statement": "An image appears in an essay only as its own image paragraph, never inside the text of a normal paragraph.",
+    "rationale": "A typed paragraph keeps structure in types, which is how SRS avoids rich text, and gives caption, alt text and layout a home as fields. The owner ruled it.",
+    "revisit_when": "Writers ask for images inside running text, or for wrap, often enough that the image paragraph gets in the way.",
+    "owner": "Owner",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:essay-editor",
+    "topic:images",
+    "holon:essay-images"
+  ],
+  "createdAt": "2026-11-08T17:53:50.153864070+00:00",
+  "updatedAt": "2026-11-08T17:53:50.153865538+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,30 @@
+{
+  "instanceId": "866167c1-54d1-4d96-a027-962084f59291",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Keeping SVG images free of scripts",
+    "decision_question": "How is an SVG image kept from running scripts?",
+    "context": "The owner, 2026-11-08 (vignette 02e02668): 'Lets support svgs without scripts.' An SVG is XML and can carry <script>, on* event attributes, <foreignObject> with HTML, javascript: links and external references. Browsers never run scripts in an SVG loaded through an <img> element, but the same file opened directly, downloaded or embedded inline would. Capability layering: a rule every client must share lives once in the core.",
+    "friction": "A hostile SVG attached to a shared essay could run in a reader's browser if any surface ever shows it inline.",
+    "alternatives_considered": "A. Two layers (recommended): the core refuses an unsafe SVG when it is attached (error code svg-unsafe), and every client shows images only through an <img> element from a blob URL, never inline SVG or HTML injection. For: defence in depth; the core check protects every client and the CLI. Against: two things to build and test.\nB. Client display rule only. For: smallest. Against: unsafe files still enter repositories and reach other clients.\nC. Rewrite SVGs to strip scripts. For: accepts more files. Against: rewriting the writer's file changes it silently; sanitisers have a long bug history.\nD. No SVG. Against: the owner's ruling.",
+    "key_requirements": "No script ever runs (owner); the writer's file is never rewritten; one rule for every client.",
+    "decision_statement": "An SVG with a script, an event attribute, foreign content or an external reference is refused when attached, and clients show SVG images only as image elements.",
+    "rationale": "Refusing is clearer than rewriting, and the display rule closes the gap if a refusal is ever missed.",
+    "revisit_when": "Writers' ordinary diagram tools produce SVGs that the check refuses, or a client needs inline SVG for interaction.",
+    "owner": "Owner",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:essay-editor",
+    "topic:images",
+    "holon:essay-images",
+    "topic:security"
+  ],
+  "createdAt": "2026-11-08T17:53:50.578660307+00:00",
+  "updatedAt": "2026-11-08T17:53:50.578661823+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

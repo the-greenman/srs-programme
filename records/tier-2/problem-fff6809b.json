@@ -1,0 +1,27 @@
+{
+  "instanceId": "fff6809b-c7af-44f5-a3fd-b030415c8bfb",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-164",
+    "title": "Essays cannot show an image",
+    "statement": "An essay writer cannot put an image in an essay, so an argument that needs a picture, chart or diagram is handicapped. The essay offers only text paragraphs. A markdown image typed into a paragraph does display, but only from a remote URL: the image is not stored with the essay, can break or track its readers, and the visual editor treats such a paragraph as source. There is no supported way to add an image the essay owns, lay it out, or caption it.",
+    "kind": "capability",
+    "source_ref": [
+      "srs-programme: conversation 2026-11-08, vignettes debafe21 and 02e02668",
+      "srs-programme: decision c7d81c5d (no images in the visual editor for now; revisit when writers ask for images)",
+      "srs-rust: crates/srs-core/src/markdown.rs (render_markdown renders http(s) and relative image URLs)",
+      "muDemocracy.org: muSrs/packages/essay/types/paragraph-ec61d93d.json (title and body only)"
+    ]
+  },
+  "tags": [
+    "topic:essay-editor",
+    "topic:images",
+    "holon:essay-images"
+  ],
+  "createdAt": "2026-11-08T17:52:25.235582402+00:00",
+  "updatedAt": "2026-11-08T17:52:25.235583881+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
