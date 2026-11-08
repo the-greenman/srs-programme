@@ -1,0 +1,24 @@
+{
+  "instanceId": "24a34cbb-9b87-4675-bcd5-3212b1095332",
+  "title": "Small democracy map: show what the data can show now; it was an overreach",
+  "tags": [
+    "vignette",
+    "tier-0",
+    "mudemocracy",
+    "small-democracy",
+    "evidence"
+  ],
+  "sections": [
+    {
+      "name": "owner",
+      "label": "Owner's words (2026-11-08, Claude Code, muDemocracy.org)",
+      "content": "\"Ok. yes. lets fix 2. Lets just use data to show what we can now. This is an overreach.\nStage 2 map also shows none of the initial growth of the colonies before the nation - which is what 3 is all about\"\n\nSaid after a review found that part two (the Small democracy map) counted members rather than rooms, claimed growth 'before each national wave' when the data shows it only before the first, double-counted overlapping series, and ended in a 460-million 'members shown' figure produced by series that start in 2013–15."
+    },
+    {
+      "name": "derived",
+      "label": "Derived (suggestion)",
+      "content": "A story's data parts claim only what their data shows now: the period and places the counts cover, the measure they actually count (memberships, not people or practice), and no inference in the caption that the data cannot carry. The underneath map should lead into the rooms chapter: the colonial towns' self-government before the nation, from the founding texts already on the record. Follows vignettes 5f078033 and f5593408."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
