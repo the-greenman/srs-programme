@@ -1,0 +1,25 @@
+{
+  "instanceId": "b2a28130-6570-4bd6-8828-f9d007c64202",
+  "title": "Pause: the SDE work took most of six months; the decisions are out of context and many are not clear; this is part of the work for the next year, not a weekend; what matters is the VSM idea and a way to reach it (2026-11-07)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:theory-of-change",
+    "topic:local-models",
+    "topic:dreamtime",
+    "topic:priorities"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Alright. I may need it pause this. The sde work took most of 6 months.\n\nThese decisions are also out of context. So it's going to be very hard. Many are not clear.\n\nI'm not trying to prove everything this weekend. This is part of the work for the next year.\n\nWhat matters is the vsm idea, and a way to reach it"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-07, on seeing the Calibration Table and the day's results; recorded verbatim. Sets the horizon: the calibration of the 109 decision logs and the SDE set is year-scale work and not a precondition; the priority is the viable-system idea and a path to it."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
