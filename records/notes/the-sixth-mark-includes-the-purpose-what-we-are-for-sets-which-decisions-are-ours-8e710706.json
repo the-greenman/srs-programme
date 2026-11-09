@@ -1,0 +1,24 @@
+{
+  "instanceId": "8e710706-1355-4ca0-a72d-3920951f7fc9",
+  "title": "The sixth mark includes the purpose: what we are for sets which decisions are ours",
+  "tags": [
+    "vignette",
+    "tier-0",
+    "mudemocracy",
+    "small-democracy",
+    "markers"
+  ],
+  "sections": [
+    {
+      "name": "owner",
+      "label": "Owner's words (2026-11-08, Claude Code, muDemocracy.org)",
+      "content": "\"Can we update principle 6. We need the purpose statement included\n\n6. What we are for, and who is in\nEveryone knows what the group is for, who the members are, how you join and how you leave. The purpose sets which decisions belong to the members. A group that cannot say who belongs, or what it is for, cannot say whose decision it is, or which decisions are theirs.\n1620: the Mayflower signers combine “for our better ordering and preservation”. 1844: the Rochdale Pioneers open their rule book with its objects, and let a member withdraw on a month’s notice.\""
+    },
+    {
+      "name": "derived",
+      "label": "Derived (suggestion)",
+      "content": "Purpose and membership are one mark, not two: membership says whose decision it is, purpose says which decisions are theirs. Relates to claim C-203 (the seven markers) and to the boundary work (a group's boundary is the group's own choice)."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
