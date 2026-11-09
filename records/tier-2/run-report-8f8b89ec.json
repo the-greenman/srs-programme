@@ -1,0 +1,23 @@
+{
+  "instanceId": "8f8b89ec-d57d-486c-bfac-64fe92747246",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle 2026-11-09",
+    "run_date": "2026-11-09",
+    "chose": "<!-- wg-report cycle=2026-11-09 group=wg:agent-editor -->\nWG Agent-supported editor: cycle 2026-11-08 11:30 to 2026-11-09 11:30 UTC\nPause: running (the 2026-11-07 and 2026-11-08 reports both carry your 👍).\n\n1. Decisions for you: carried, unchanged, nothing new. Can an essay container declare its comments and references as children so one export carries the whole essay, while agents can still file comments (srs-web#634)? Why it matters: two of your rulings collide. Options: A engine guard stops at declared children; B keep the snapshot bundle, widened to carry threads; C another path for agent comments; D nothing. Recommendation: A. Action needed: decide. Urgency: blocks srs-web#634. Records 42fcc319-2468-4e15-b529-2c13f9174af6 and c4acef1a-4cbe-4715-a3fa-577eb30ed0ba (both draft, same question). Also waiting on you: needs-input on srs-web#709 (a P1 bug, still no `Answers:` line), #626, #634, #567 (no new replies).\n2. Decided within mandate: none this cycle; no group session was held (no decision has a merged PR with an \"assent\" line). Owner rulings this cycle: none new in the log.\n3. Done: 3 PRs merged, all by you under `gate:owner-merge`, so 0 count against the delegated budget. srs-rust#1600 (merge report names a typed record by its display label): builder agent:editor-builder / reviewer agent:editor-reviewer, assent, gates green / mandate bug fix. srs-web#759 (a quotation opens with its passage highlighted) and srs-web#760 (merge changes from a file): the reviewer escalated both for mandate (no affirmed remedy behind them), you merged them, which settled the question for these two.\n4. Stuck or lost: no open group PRs; no red gates reported. Needs-input: srs-web#709, #626, #634, #567. Blocked: srs-web#750, #751, #752, #763 to #766, #768, #426, srs-rust#1608, semanticops.com#59 and #14. No escalated owner ruling is missing from both logs.\n5. Budget: 0 of 10 delegated merges this cycle; 0 open. Pause: running.\n5b. Awaiting ratification: none. Nothing `proposed` is ready in the group log; 42fcc319 and c4acef1a are draft escalations.\n6. Next: ready + wg:agent-editor: srs-web#634 and #626 (needs-input), #601 (an umbrella, not one PR); semanticops.com#62 and #57 (in progress), #14 (blocked). Top 3 in builder order: #601, semanticops.com#62, #57. Open group PRs in flight: none. Budget left: 10. Queue running dry: 5 ready, 2 waiting on you, 1 a tracking parent, 10 budget per cycle. Needs feeding: the essay image chain (srs-web#763 to #766, srs-rust#1606 to #1608) is blocked on its predecessors, and the drift list and open exercises are the other sources. Waits on you: the #634 decision and the #709 answer. Local priorities: none set. Fed by the analyst: 2026-11-08 12:18 UTC run nominated 3 issues; none since.\n6b. Exercises: none open.\n7. What we learned: the three PRs the reviewer held back for mandate were merged by you within the day, so the missing-affirmed-remedy rule cost a cycle without changing any outcome: the throttle is the owner-merge lane, not quality. This repeats the 2026-11-05, 11-07 and 11-08 notes; ratifying \"An affirmed remedy is a recorded ruling for a group's mandate\" (proposed) is still the amendment that would let reviewed PRs flow. I1 for this cycle's merges: 3/4 grounded to a problem, 3/4 with persona and domain (result 75c6e2f1-b278-40fc-a4ad-a2ac9ecaa49a); the useful/noisy/misleading line is yours to give in a session. I2 to I4: pending.\n\nRun-report PR: https://github.com/the-greenman/srs-programme/pull/521",
+    "rationale": "No new escalation was raised: the only open owner question (srs-web#634) is carried in two draft decisions, and the three PRs held for mandate were merged by the owner. No group session: no decision had a merged PR with an assent line.",
+    "figures": "merged 3 (0 delegated of 10); open 0; I1 3/4 grounded to a problem",
+    "landed_as": "https://github.com/the-greenman/srs-programme/pull/521"
+  },
+  "createdAt": "2026-11-09T11:39:32.831373342+00:00",
+  "updatedAt": "2026-11-09T11:40:22.137932853+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
