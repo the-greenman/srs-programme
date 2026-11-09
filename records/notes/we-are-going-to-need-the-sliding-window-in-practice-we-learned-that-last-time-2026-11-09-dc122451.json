@@ -1,0 +1,22 @@
+{
+  "instanceId": "dc122451-ea7b-4889-8e12-8084b5aa2ae8",
+  "title": "We are going to need the sliding window in practice; we learned that last time (2026-11-09)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:transcripts"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "merged. yeah. we are going to need the sliding window in practice. We did learn that last time."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-09, on merging transcribe#7 and reading that fixed whisper chunks split words at the boundary (srs-context finding 1c274051). 'Last time' is decision-logger, which used a 30 s window with a 10 s step and de-duplicated by text fingerprint (apps/transcription/src/web-server.ts:527-640). Recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
