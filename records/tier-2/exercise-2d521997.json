@@ -1,0 +1,23 @@
+{
+  "instanceId": "2d521997-40e6-4022-90dd-c4b045ce169b",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "I-95 and I-96 omit conditional-forbidden: which properties must a conditional-forbidden rule not supply?",
+    "thinking_reached": "Checked 2026-11-09 at srs 1461d01. RFC-040 Change F added the CrossFieldRule kind conditional-forbidden: docs/schema/2.0/type.json lists four kinds and srs-rust accepts and evaluates it. Invariant 95 (srs/records/invariants/invariant-095.json) still lists only conditional-required, field-ordering and mutual-exclusion, so read literally it makes the engine non-conformant for accepting the fourth kind. Invariant 96 has no 'MUST NOT supply' row for conditional-forbidden, and srs-rust skips the check for it (srs-core validation/record_type.rs, ConditionalForbidden => continue), so a fieldIds list on such a rule is not refused. No issue tracks the invariant text (srs searches find only the closed RFC-040 train #479, #273, #484).",
+    "tensions": "Option A: an RFC-019 revision (Door 3) that adds conditional-forbidden to I-95 and gives it the same I-96 row as conditional-required (must not supply fieldIds), then srs-rust refuses it. Option B: the same revision with a different property set for conditional-forbidden. Option C: treat RFC-040 Change F as already amending I-95 and only re-render the invariant. Spec, schema and tool drifting apart (SP-01) pulls toward A or C; Continuity pulls toward the smallest change that makes the text true.",
+    "unresolved_questions": "1. Is the I-95 list an RFC-019 surface (Door 3) or an RFC-040 fold miss that a re-fold fixes (Door 1)? 2. Which properties must conditional-forbidden not supply? Evidence that would choose: RFC-040 Change F's own text and its integration manifest.",
+    "blocking": "An srs-rust conformance fix for I-96 on conditional-forbidden, and a conformant reading of I-95.",
+    "next_action": "Owner: choose A, B or C. Recommendation: C if RFC-040 Change F states the kind's properties, else A."
+  },
+  "createdAt": "2026-11-09T12:36:37.524629478+00:00",
+  "updatedAt": "2026-11-09T12:36:37.524639102+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-analyst",
+    "name": "Third-party-ready analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

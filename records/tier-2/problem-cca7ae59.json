@@ -1,0 +1,27 @@
+{
+  "instanceId": "cca7ae59-d7da-4b98-9eb6-c8838d694b97",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-165",
+    "title": "A working group's epic fills up, and new work can no longer join it",
+    "statement": "GitHub caps a parent issue at 100 sub-issues and counts closed ones. A working group's report issue doubles as its epic, so once it is full the analyst cannot link new or unparked work under it, and an issue parented elsewhere cannot be moved to the group.",
+    "kind": "condition",
+    "source_ref": [
+      "the-greenman/semanticops.com#31 (2026-11-09: 100 sub-issues; adding srs-web#336 refused with HTTP 422)"
+    ]
+  },
+  "tags": [
+    "flow-stop"
+  ],
+  "createdAt": "2026-11-09T12:35:53.468476810+00:00",
+  "updatedAt": "2026-11-09T12:35:53.468481001+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-analyst",
+    "name": "Third-party-ready analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

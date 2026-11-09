@@ -1,0 +1,23 @@
+{
+  "instanceId": "3956749c-e653-47ce-81cb-b0476c2adb3f",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "RFC-043 pointers: must a write that points anchorInstanceId or identityInstanceId at a non-member be refused?",
+    "thinking_reached": "Checked 2026-11-09 with release build.639. container update {anchorInstanceId: <non-member>}, container create with a non-member anchor, and container update <root> {identityInstanceId: <non-member>} each return ok, and repo validate then reports container-pointer-unresolved errors. Removing the member a pointer names is refused ([R7], arrangement-pointer). RFC-043 [R3] says the pointer MUST equal a member, but [R7] mandates whole rejection only for [R2] violations and pointer-target removal, so write-time refusal of a pointer move is not ruled. No issue tracks it (#891, #907, #837 closed, other scope).",
+    "tensions": "Option A: extend [R7] (an RFC-043 revision, Door 3) so any write that leaves a pointer unresolved is refused, the same as removal. Option B: keep [R3] as a validate-time rule only; a write may pass through an invalid state. Destructive and partial writes succeed silently (SP-06) and the affirmed remedy 'Every write refuses loudly what it cannot carry' pull toward A; editors that set the pointer before adding the member pull toward B.",
+    "unresolved_questions": "1. Does any client set the pointer before the member exists (srs-web, muDemocracy site editor)? 2. Should create and update be treated alike? Evidence that would choose: a search of client code for anchorInstanceId writes.",
+    "blocking": "An srs-rust write-time check for [R3].",
+    "next_action": "Owner: choose A or B. Recommendation: A, after the client search shows no pointer-first writes."
+  },
+  "createdAt": "2026-11-09T12:36:37.780569179+00:00",
+  "updatedAt": "2026-11-09T12:36:37.780579387+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-analyst",
+    "name": "Third-party-ready analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
