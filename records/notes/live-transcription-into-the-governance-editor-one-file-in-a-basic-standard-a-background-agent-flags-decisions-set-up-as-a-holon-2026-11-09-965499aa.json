@@ -1,0 +1,24 @@
+{
+  "instanceId": "965499aa-3a65-429a-832e-ddbb7a42c828",
+  "title": "Live transcription into the governance editor: one file in a basic standard, a background agent flags decisions, set up as a holon (2026-11-09)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:transcripts",
+    "topic:local-models",
+    "topic:mudemocracy"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "for the transcribe work... in practice, I probably need to be streaming that into MCP... so that I can run in my browser. What work is identified to allow that?\n\nWe want to have a single file. But it should probably not be plain text. I need the small chunks. We should be recording in a basic transcription standard. \n\nIf I am going to be using the tool, what happens is that I will hold a meeting and click transcribe. We will then have a background agent recognise potential decisions. Our live governance editor will be able to present the users with a view that flags key topics, key decisions and assist with elements for minutes. \n\nThis was the capability of the original precusor to srs and the current toolset \n/home/greenman/dev/decision-logger\n\n[On the transport:] Spike both first. [On the button:] A button in the editor - but only available if the transcription engine is recognised as present\n\nIs TSS good enough to work with for now? I have not looked at it in a while\n\nIs there an established simple standard that could work better at this point?\n\nI need this work set up as a clear holon. It should be able to work in the lab as much as possible with full automation. If this session is lost, I need to be able to get it continued"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-09, seven messages across one planning exchange (two were answers to option questions, bracketed labels added by the agent); recorded verbatim as one vignette. Correction found while reading decision-logger: only live whisper transcription, manual flags, LLM drafts and export were built there; automatic decision and topic detection was designed (docs/decision-detection-architecture.md, M6) and never built. The agent proposed WebVTT with W3C Media Fragments for citing a moment, and SRS suggestion records for the agent's observations; TSS (tss.v1.spec, 0.1-draft) parked as the later multi-stream model."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
