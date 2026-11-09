@@ -1,0 +1,24 @@
+{
+  "instanceId": "e9491835-51ed-42dd-a28d-624234ed847e",
+  "title": "Stop the axes experiments for now, they need further work; small models still of interest for dreamtime and summaries (2026-11-09)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:axes",
+    "topic:local-models",
+    "topic:dreamtime"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "For now, our experiments should probably stop on the axes. That needs further work.. \nHowever, I am still interested in small models for dreamtime and summaries."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-09, after a summary of the local-lab results (findings 6fe27de2, 532ab79d) and a look at the Tiles project in Mozilla's Human-Scale AI cohort; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
