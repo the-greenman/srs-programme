@@ -1,0 +1,23 @@
+{
+  "instanceId": "b032e064-f765-47a2-847e-e3a316837b4b",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "RFC-051 whole-outline replace: may the owner's 2026-10-24 rule on srs#940 be recorded as a decision, so the correction revision becomes group work?",
+    "thinking_reached": "Checked 2026-11-09 at srs 1461d01 and srs-rust 17983f2. RFC-051 [R8] says which entry files a Change D operation writes, but not a whole-outline replace or swap. srs-rust implements a rule for it (crates/srs-core/src/container_write.rs:138, 310: the longest run already in key order keeps its keys, the rest are rewritten). On srs#940 (2026-10-24T14:46Z) the owner wrote: 'After the rollout: write the whole-outline replace rule into RFC-051 as a correction revision'. The rollout is done (srs-rust#1414 sub-issues all closed, srs#949 closed, corpora at revision 11), RFC-051 is still Revision 15 and still Accepted, not Implemented. Under decision 0b1c25b1 an issue comment is not a ruling, and the revision is Door 3 (an Accepted RFC's own surface), so it is not group work until the choice is recorded.",
+    "tensions": "Option A: record the 2026-10-24 choice as a decision (whole-outline replace keeps the longest in-order run's keys), then the correction revision is Door 1 work and RFC-051 can be marked Implemented after it. Option B: mark RFC-051 Implemented now and leave the rule as implementation-defined. Option C: a different rule (rewrite all keys on a whole-outline replace), which would change srs-rust. Third-party readiness (Portability) pulls toward A: a second implementation needs the rule written down.",
+    "unresolved_questions": "1. Does the owner confirm the 2026-10-24 wording as the rule? 2. Should srs#940 and srs-rust#1414 close once it is folded? Evidence that would choose: none needed beyond the owner's confirmation; srs-rust already behaves per option A.",
+    "blocking": "The RFC-051 correction revision, marking RFC-051 Implemented, and closing srs#940 and srs-rust#1414 (all six sub-issues closed).",
+    "next_action": "Owner: confirm option A. Recommendation: A; the Steward records the decision, the analyst files the correction revision as group work."
+  },
+  "createdAt": "2026-11-09T12:36:37.263415343+00:00",
+  "updatedAt": "2026-11-09T12:36:37.263419763+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-analyst",
+    "name": "Third-party-ready analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
