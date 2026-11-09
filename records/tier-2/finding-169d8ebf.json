@@ -1,0 +1,29 @@
+{
+  "instanceId": "169d8ebf-9c56-4bc8-b369-97fbc846bafe",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "3. One live group's memory",
+    "summary": "A small community working group runs a real shared memory on plain markdown, git and one keeping agent. It works and people can reach it, but it cannot say who a change came from or who agreed a decision, and numbered ids have already drifted between copies.",
+    "evidence": [
+      "About 50 markdown pages on a file share, with git underneath and a decision tool as the main intake, read 2026-11-06.",
+      "27 of 27 commits have one author, the keeping agent, and none is signed. That follows a ruling to commit under the agent's name.",
+      "Two copies of the group's decision log use the same numbers for different decisions: in three of the numbers checked, one copy holds a principle or a different choice where the other holds a spending limit, a contractor or an equipment decision. A task in one copy cites a number that means something else in the other.",
+      "Decision status in the register is written by the agent; the register does not show who agreed or link to a vote.",
+      "The group's own articles define a decision's fields, and its minutes definition defines three kinds of minute and says to prefer a record over inventing a decision.",
+      "All 6 people pages carry an exposure warning, as the group's plan required.",
+      "No commit since 2026-10-28 at the time of reading; the cause was not established."
+    ],
+    "body": "The group's identity and content are deliberately left out, because this repository is public and the memory holds personal details. Fuller notes are in srs-context journal note 54f0c1f7, which is private.\n\nThe group shows what a two-clone test cannot. Most members will only ever touch files and one agent does the keeping, so the person to put on record is the one the content came from, not whoever holds a key. Any SRS layer has to leave plain markdown as what people read."
+  },
+  "tags": [
+    "research",
+    "topic:shared-memory",
+    "topic:markdown"
+  ],
+  "createdAt": "2026-11-06T09:27:50.576275009+00:00",
+  "updatedAt": "2026-11-06T09:27:50.576276622+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

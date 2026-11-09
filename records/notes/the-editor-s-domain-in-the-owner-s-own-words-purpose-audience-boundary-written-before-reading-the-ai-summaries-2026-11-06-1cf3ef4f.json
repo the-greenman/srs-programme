@@ -1,0 +1,24 @@
+{
+  "instanceId": "1cf3ef4f-049a-438f-8916-7e4b821fe22c",
+  "title": "The editor's domain in the owner's own words, written before reading the AI summaries: purpose, audience, boundary (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:domain-definition",
+    "topic:essay-editor",
+    "topic:human-ai-collaboration"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Purpose \nAn editing tool that supports a writer to produce better work with AI. A tool that harnesses the potential for AI to improve human work, to bring together these different forms of cognition and create something richer than either one could achieve separately. Human's bring their unique perspective, their experience and character, AI brings what is the coherence and breadth of diverse knowledge. \n\nAudience\nThose interested in finding ways to work with AI as peers. Almost everyone needs to write things, but every tool now wants to jump in and replace our words. To write and speak for us.  Our audience wants to us AI wisely, and is also aware that they must keep their own skills sharp. They want what AI has to offer in its ability to create, but not at the cost of their own creativity. \n\nBoundary \nA web based editor that offers a way to build writing in layers. Collecting ideas and research, testing possibilities, exploring, working to understand. A tool that keeps the whole process, maintaining the richness of the thought process rather than just the finished product. \n\nA tool that allows AI to get a deep understanding of the semantic components of a piece of work. A way for agents to really see what is underneath and to bring a richer understanding of the subject. Checking, cross referencing, finding connections that a human may miss. Turning fragments of ideas in to solid building blocks. \n\nThis domain deals with the practice of writing, the creation and structure of texts. The collection and curation of reference materials, citations and quotes. The decomposition / composition of structured semantic building blocks. The setup of agents and their ability to interact. \n\nThe sharing of documents that demonstrate the capabilities of SRS. This is a PDF for meaning, and it shows that off. SRS is an Human/AI compatible document format, and being able to show how a document can also be a queryable dataset provides evidence of our capabilities. Since no other system can view these, we need to be able to provide some way to present them."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, pasted as 'This is what i wrote', in answer to the blank 'your own version first' box on the second experiment's reading page (Purpose, Audience, Boundary); recorded verbatim. The owner confirmed: 'I did write this before reading.'"
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

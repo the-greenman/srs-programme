@@ -1,0 +1,23 @@
+{
+  "instanceId": "e83f2d33-4977-430b-9c84-aacb60ea6bea",
+  "title": "Vignette 2026-11-06: multi-user, federated, fractal, long-term memory is an important part of the future",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:shared-memory",
+    "topic:federation"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Mukti-user, federated, fractal, long term memory is an important part of the future"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06; recorded verbatim. Follows vignettes c1c1bd00 and 0b9b055b."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

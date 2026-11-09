@@ -1,0 +1,15 @@
+{
+  "instanceId": "fba64fd4-353e-419e-91e2-d26dc5f4c2df",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "Keep writing",
+    "looks_like": "The writer gets the words down and finishes the piece; checking and linking wait until there is an argument to test.",
+    "shadow": "Pieces go out with claims nobody has tested, and the links to evidence never get made."
+  },
+  "createdAt": "2026-11-06T10:05:59.881231015+00:00",
+  "updatedAt": "2026-11-06T10:05:59.881232884+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

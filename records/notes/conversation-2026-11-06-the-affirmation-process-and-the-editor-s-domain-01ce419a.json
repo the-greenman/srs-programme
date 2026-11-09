@@ -1,0 +1,20 @@
+{
+  "instanceId": "01ce419a-632a-4e98-884a-a1f4733b2f0e",
+  "title": "Conversation 2026-11-06: The affirmation process and the editor's domain",
+  "tags": [
+    "conversation",
+    "topic:affirmation",
+    "topic:editor-domain",
+    "topic:human-ai-collaboration",
+    "topic:base-axes",
+    "topic:domain-definition"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "Summary",
+      "content": "The owner asked about the state of the affirmation process, ruled that any domain inherits the base axes as working defaults, then explained the editor's domain: writing with AI is seductive, once words are read they are hard to change, and tools must keep the human in charge. They separated the editor's domain from the application's, named its three axes, and approved a local experiment against the old domain definition template. They ended on not being able to find or use the affirmation views."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

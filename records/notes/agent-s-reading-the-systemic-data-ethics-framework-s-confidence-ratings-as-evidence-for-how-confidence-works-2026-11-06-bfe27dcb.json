@@ -1,0 +1,17 @@
+{
+  "instanceId": "bfe27dcb-ea7c-44f2-940c-6c078acbc841",
+  "title": "Agent's reading: the Systemic Data Ethics framework's confidence ratings, as evidence for how confidence works (2026-11-06)",
+  "tags": [
+    "topic:synthesis",
+    "topic:affirmation",
+    "agent-reading"
+  ],
+  "sections": [
+    {
+      "name": "reading",
+      "label": "The agent's reading, not the owner's words",
+      "content": "Source: the owner's Systemic Data Ethics Framework doc (docs.superhuman.com, doc g3RXBiB1T5; created February 2021), Aspects table. Figures from reading every row's rating, level, dimension, type, title and note on 2026-11-06; the quoted source passages were not read. 766 rows, 33 empty, 733 real. Rated 424: 1 star 4, 2 stars 30, 3 stars 126, 4 stars 218, 5 stars 46. Unrated 309, including 92 of 107 risks and all behaviours and biases. 209 carry a classification note. Mean rating by level: Design 3.82, Operations 3.64, Governance 3.45 (5 stars: Design 32, Operations 11, Governance 3). The notes on low ratings mostly question the placement or the unit, not the statement's truth: 'Is data sharing a design or governance issue?', 'Should split this. Too many options'. The notes on 5-star rows are mostly short glosses: 'Team diversity'. The doc's Questions and uncertainties page asks whether to categorise by where an aspect is needed or where responsibility lies. Its Categorisation in action page reviews one random aspect beside the classification questions, and those questions have their own star column, blank in every row read. An Export to AutoML button is disabled below 3 stars, though the AutoML training table holds 732 rows, about the whole set."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,29 @@
+{
+  "instanceId": "105b2e7d-8996-42e3-9b80-0c87e4d2d0ff",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-11-08 18:37 UTC: SemanticOps",
+    "held_at": "2026-11-08T18:37:06Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-11-08 18:37 UTC: SemanticOps\nAttendees: Owner\n- Ratified: Markdown images in normal paragraphs [2ec3671d]\n- Ratified: Alt text and caption on essay images [72bcd83e]\n- Ratified: Keeping SVG images free of scripts [866167c1]\n- Ratified: Essay image layout options [b2b5c488]\n- Ratified: How images enter an essay [c4cc4697]\n- Ratified: Essay image formats and size [ca352740]\n- Ratified: Where an essay image comes from [da11431b]\n- Commented: Where an essay image comes from [da11431b] (1)\n- Received: WG Agent-supported editor report 2026-11-07\n- Received: WG Agent-supported editor report 2026-11-08\n- Received: WG Third-party ready report 2026-11-07\n- Received: WG Third-party ready report 2026-11-08\nActs in the order taken (UTC):\n- 18:37:41Z ratify: Markdown images in normal paragraphs [2ec3671d] (Decisions since the last session 1 of 7, record updated 2026-11-08T18:24:09.759204108+00:00)\n- 18:37:48Z ratify: Alt text and caption on essay images [72bcd83e] (Decisions since the last session 2 of 7, record updated 2026-11-08T18:24:09.612447891+00:00)\n- 18:37:56Z ratify: Keeping SVG images free of scripts [866167c1] (Decisions since the last session 3 of 7, record updated 2026-11-08T18:24:09.684572609+00:00)\n- 18:38:01Z ratify: Essay image layout options [b2b5c488] (Decisions since the last session 4 of 7, record updated 2026-11-08T18:24:09.531798664+00:00)\n- 18:38:08Z ratify: How images enter an essay [c4cc4697] (Decisions since the last session 5 of 7, record updated 2026-11-08T18:24:09.303618277+00:00)\n- 18:38:12Z ratify: Essay image formats and size [ca352740] (Decisions since the last session 6 of 7, record updated 2026-11-08T18:24:09.456686538+00:00)\n- 18:39:07Z comment: Where an essay image comes from [da11431b] (Decisions since the last session 7 of 7, record updated 2026-11-08T18:24:09.380161369+00:00)\n- 18:39:08Z ratify: Where an essay image comes from [da11431b] (Decisions since the last session 7 of 7, record updated 2026-11-08T18:24:09.380161369+00:00)\n- 18:39:13Z receive: WG Agent-supported editor report 2026-11-07 [7ad9aa27] (Reports 1 of 4)\n- 18:39:14Z receive: WG Agent-supported editor report 2026-11-08 [ef1526c0] (Reports 2 of 4)\n- 18:39:17Z receive: WG Third-party ready report 2026-11-07 [9526c101] (Reports 3 of 4)\n- 18:39:18Z receive: WG Third-party ready report 2026-11-08 [57117eaa] (Reports 4 of 4)"
+  },
+  "createdAt": "2026-11-08T18:39:27.084864647+00:00",
+  "updatedAt": "2026-11-08T18:39:27.084866362+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "b671b040-e12f-421b-b1a5-0dac33e8e05e",
+      "sourceRole": "attaches"
+    }
+  ]
+}

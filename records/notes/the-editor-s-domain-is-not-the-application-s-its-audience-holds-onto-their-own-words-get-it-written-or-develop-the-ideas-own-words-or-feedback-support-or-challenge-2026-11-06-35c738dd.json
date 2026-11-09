@@ -1,0 +1,21 @@
+{
+  "instanceId": "35c738dd-29a2-4b82-b6f6-daeca125b6c1",
+  "title": "The editor's domain is not the application's: its audience holds onto their own words; get it written or develop the ideas, own words or feedback, support or challenge (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "I think we are confusing many things here. \n\nThere are multiple domains here, and domains can be nested nd overlapping so that's not a problem. \nBut lets not mix them. The domain for the editor is not the domain for the application. \n\nThe editor must server it's audience. It's audience is those wishing to hold onto their own words, and work with AI. Sometimes they may wantto build with evidence. Sometimes they may just want to build with structure and data. \n\nIn that domain, they want to get the essay written   or  spend time developing the ideas. SRS supports both in the same place. \n\nThey also need to manage writing with their own words  vs getting feedback on those words. This may still be the same axis. \n\nThen there is a challenge (in evidence backed writing ) to get support for your ideas or to challenge them"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, talking about the domain of WG Agent-supported editor; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

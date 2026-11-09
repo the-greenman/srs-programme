@@ -1,0 +1,21 @@
+{
+  "instanceId": "0ae99d7d-9a0c-4151-9eef-694044c9ac01",
+  "title": "The funding goal is to show a community who want local AI; like muDemocracy, it is work and humans need to do their part (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The funding goal is to show a community. The community of people who want local AI. This is a tool for that community. Just like mudemocracy is work. It's so much easier to just let an AI do the transcript and tell youthe tasks. But humans need to do their part."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, talking about the domain of WG Agent-supported editor; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

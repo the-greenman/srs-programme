@@ -1,0 +1,20 @@
+{
+  "instanceId": "e3b5c75f-6a37-4b45-b6e9-50989552d061",
+  "title": "2026-11-05: Keep working on the in-memory version rather than loading from github again",
+  "tags": [
+    "vignette",
+    "topic:developer-workflow",
+    "topic:srs-web-recovery-copy"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "This may be something I hit as a developer and I want to do my editing, and test a bug fix. \nBut it is handy to just keep working on the in-memory version - if it still exists, rather than loading from github again."
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-05; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,26 @@
+{
+  "instanceId": "c572a0ac-d521-4938-9e19-b2de23529369",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Serve the registry over streamable HTTP with identity from outside the engine",
+    "move": "Add rmcp transport-streamable-http-server behind a Cargo feature in srs-mcp, bound to loopback by default, over the unchanged srs-mcp-core. The server accepts an identity assertion from a trusted front (Tailscale or identity-aware proxy, forward-auth header, or a static token file) and maps it to the session Actor. Each identity is handed its own RFC-049 registry, with read-only entries where it may not write. Amend ADR-037; no RFC, since transport is outside the standard. First dogfood in srs-lab: serve srs-context and srs-programme read-only to cloud routines instead of cloning.",
+    "does_not_fix": "Public MCP clients that need spec OAuth discovery (RFC 9728): the relay stays that front. Cross-repository relations (federation step 2).",
+    "falsifier": "A client that cannot send a bearer header or sit behind the proxy, or an identity that must be decided per record rather than per registry.",
+    "source_ref": [
+      "Owner, 2026-11-04: vignette 662defe9 (srs-programme, conversation 09be2f75)",
+      "MCP draft authorization; rmcp 3.5.1"
+    ],
+    "return_when": "A second server resolves a remote locator, or a non-agent client needs REST."
+  },
+  "createdAt": "2026-11-08T21:38:34.647907264+00:00",
+  "updatedAt": "2026-11-08T21:38:34.647911791+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,24 @@
+{
+  "instanceId": "a815ed8b-3524-4b13-a414-c3817df368c4",
+  "title": "Classification is iterative and relative; the four elements break into a 2x2 (energy source internal/external, level individual/collective) that can align with line 1 (2026-11-07)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:axes",
+    "topic:synthesis",
+    "topic:local-models"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "So. My experience of classification is that it is iterative and relative.\n\nAlso, we can try to break the 4 elements into a 2x2.\n\nEnergy source: internal/external\nLevel:Individual/collective\n\nFire is internal energy individual\nEarth is external individual\n\nAir is external collective\n\nThis can align with line 1"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-07, after the first small-model results on the Systemic Data Ethics 4x3 map (Laya at chance on level, faint on element) and on the T3 stance lines; recorded verbatim. Water is left implicit: internal energy, collective."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

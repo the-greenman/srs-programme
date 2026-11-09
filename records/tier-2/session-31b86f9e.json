@@ -1,0 +1,29 @@
+{
+  "instanceId": "31b86f9e-467f-4b0a-a51f-02dba26712dd",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-11-05 17:43 UTC: SemanticOps",
+    "held_at": "2026-11-05T17:43:51Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-11-05 17:43 UTC: SemanticOps\nAttendees: Owner\n- Ratified: The essay package holds the basic building blocks of structured writing: source, quotation and problem, and argument builds on it [fa685656]\n- Received: WG Agent-supported editor report 2026-11-05\n- Received: WG Third-party ready report 2026-11-05\nActs in the order taken (UTC):\n- 17:44:58Z ratify: The essay package holds the basic building blocks of structured writing: source, quotation and problem, and argument builds on it [fa685656] (Decisions since the last session 1 of 1, record updated 2026-11-04T14:05:00.340525913+00:00)\n- 17:45:09Z receive: WG Agent-supported editor report 2026-11-05 [4bfbecc1] (Reports 1 of 2)\n- 17:45:19Z receive: WG Third-party ready report 2026-11-05 [661ca3ed] (Reports 2 of 2)"
+  },
+  "createdAt": "2026-11-05T17:45:26.405348213+00:00",
+  "updatedAt": "2026-11-05T17:45:26.405349786+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "5cf2c093-a726-46c9-ad26-5c3fe0f1c666",
+      "sourceRole": "attaches"
+    }
+  ]
+}

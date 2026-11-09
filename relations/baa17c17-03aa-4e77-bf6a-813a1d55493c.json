@@ -1,0 +1,9 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "baa17c17-03aa-4e77-bf6a-813a1d55493c",
+  "relationType": "supersedes",
+  "sourceInstanceId": "9a381347-51cc-4a84-a47c-8047c82ea490",
+  "targetInstanceId": "1234c833-aab4-4f95-9c3f-13028d5ca2fa",
+  "createdAt": "2026-11-08T21:58:38.022994359+00:00",
+  "notes": "The per-holon proposal, abandoned on the owner's word (vignette 80706a54)."
+}

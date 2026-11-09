@@ -1,0 +1,29 @@
+{
+  "instanceId": "5b0cd3fe-b144-42dd-af80-34f33a82c96d",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "New-writer features under the stabilising stance",
+    "decision_question": "Does the editor group's stance of stabilising over new features admit a feature that a first-time writer needs in order to use the essay editor, or only one a funding essay cannot be written without?",
+    "context": "The principle 'Stabilising what we have over bringing in new features, this cycle' (0ec24f96) admits a new feature only when a funding essay cannot be written without it. The owner's vignettes of 2026-11-04 (be94ea4d, 38c2e274, 3c77ed20) make the editor's usability the next funding essay's case and link funding to showing it has users. Comment d2b343dc names the conflict and leaves when that swing happens to the owner. On 2026-11-06 the owner said the focus of this work is 'the writing experience and sovereignty' (vignette 19964824). Precedent consulted: 0ec24f96; 'Getting the funding essays written over developing the editor'; comment d2b343dc; cluster 634568b6 The editor as front door. Placement: the editor group's log, domain Evidence-backed writing.",
+    "friction": "A visual editor is a new feature, and the owner can write essays in markdown, so as worded the principle refuses it. The holon cannot honestly claim its mandate while that stands unaddressed, and the same conflict will meet every front-door feature.",
+    "alternatives_considered": "A. Admit features a first-time writer cannot use the editor without (recommended). For: matches the owner's stated direction and the funding case; gives a test that can be reused. Against: a looser test invites scope growth, and it spends the group's budget on a new surface during a stabilising cycle.\nB. A one-off exception for this holon. For: changes nothing else. Against: the next front-door feature asks the same question again, which the practice of citing decisions exists to avoid.\nC. Hold the visual editor until the next funding round starts. For: keeps the stance as written and protects current essays. Against: the barrier stays for anyone sent the link now.\nD. Help only: ship the help fix and stop. For: smallest change; answers the honesty gap. Against: help explains the barrier without removing it, so the writer still has to learn markdown.",
+    "key_requirements": "Respect the owner's stated stance; do not break what exists; give a test the group can apply without asking again. Trade-off: each new surface carries maintenance during a period meant for stabilising, so the holon adds no user-visible change until its last item.",
+    "decision_statement": "The editor group admits a new feature when a first-time writer cannot use the essay editor without it.",
+    "rationale": "The essay editor is now the front door and the next funding case, so what stops a new writer is the thing to stabilise. A reusable test settles this class of question once rather than per feature.",
+    "revisit_when": "Front-door features crowd out fixes to what exists, or a feature admitted under this test turns out to be one first-time writers could do without.",
+    "owner": "Owner",
+    "decision_kind": "preference"
+  },
+  "lifecycleState": "ratified",
+  "tags": [
+    "topic:essay-editor",
+    "topic:visual-editor",
+    "holon:visual-editor"
+  ],
+  "createdAt": "2026-11-06T08:45:20.106036125+00:00",
+  "updatedAt": "2026-11-06T14:24:49.976592785+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

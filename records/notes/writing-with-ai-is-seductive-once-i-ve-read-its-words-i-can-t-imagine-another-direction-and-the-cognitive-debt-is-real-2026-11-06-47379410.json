@@ -1,0 +1,21 @@
+{
+  "instanceId": "47379410-f72c-499a-84df-62085713355c",
+  "title": "Writing with AI is seductive: once I've read its words I can't imagine another direction, and the cognitive debt is real (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Writing with AI is a tricky thing. AI is very useful, and very seductive. When AI writes, it produces words that seem very smooth and effective at first. And it's very easy to get caught up in the flow, and allow AI to own the words. \"I'll edit them later to make them my own words\" is the excuse that we make. But it turns out to be very hard. Once I've read the words, it's difficult to imagine a different direction. So I end up rearranging the chairs, just changing little parts. \n\nBut as an work gets longer, it also starts to become less coherent. Because it's not clear in my head, because I have not wrestled with each of the words and concepts, the cognitive debt is real. It;s also very easy for things to become so much longer than required. AI adds more and more, and we end up with generic slop."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, talking about the domain of WG Agent-supported editor; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

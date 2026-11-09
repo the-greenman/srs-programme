@@ -1,0 +1,20 @@
+{
+  "instanceId": "5f588821-4ec6-45ae-a5c0-9d6047d7d82b",
+  "title": "2026-11-05: We don't want to destroy provenance",
+  "tags": [
+    "vignette",
+    "topic:srs-web-merge",
+    "topic:provenance"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "lets amend. We don't want to destroy provenance. #"
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-05; recorded verbatim. Answering how RFC-046 should treat a record brought in from another copy of the same repository (srs-rust#1580)."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

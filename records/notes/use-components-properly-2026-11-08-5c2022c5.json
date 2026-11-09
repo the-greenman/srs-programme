@@ -1,0 +1,23 @@
+{
+  "instanceId": "5c2022c5-f60d-485c-8bad-75a759b2c702",
+  "title": "Use components properly (2026-11-08)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:site-editor",
+    "topic:components"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "new look is fine. We want to be using components properly."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-08, answering ask A1 on muDemocracy.org PR #452: the 404 page moved from hand-written hero markup, which rendered unstyled, to the site's Hero component."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

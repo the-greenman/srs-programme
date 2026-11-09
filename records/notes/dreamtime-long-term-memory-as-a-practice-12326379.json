@@ -9,22 +9,22 @@
     {
       "name": "claim",
       "label": "Claim",
-      "content": "Dreamtime is a standard element of an SRS system, not a feature of one memory. The owner, 2026-10-30: \"The dreamtime is a practice that we need to develop that keeps testing our data in different scenarios. Building the human readable overview, refining the information hierarchy so that our information has places to go and is not lost.\""
+      "content": "Dreamtime is a standard element of an SRS system, not a feature of one memory. The owner, 2026-10-30: \"The dreamtime is a practice that we need to develop that keeps testing our data in different scenarios. Building the human readable overview, refining the information hierarchy so that our information has places to go and is not lost.\" And 2026-11-07: \"Short term memory goes in fast. The dreamtime builds the connections and creates the maps.\""
     },
     {
       "name": "story",
       "label": "The story so far",
-      "content": "We work mostly in short-term memory: one task, a small context. srs-context showed that long-term memory can be kept by agents alone, in a dream cycle that runs unattended, replays real work and merges its own changes. The owner now asks for that practice in general: dreams that keep the human-readable hierarchy in shape, give new records a place, and strengthen relationships when the same storyline turns up in different vignettes. That ties dreamtime to three other threads: human-readable repositories (stable structure that grows), affirmation and confidence (strength from relationships), and the graph (relationships as data)."
+      "content": "We work mostly in short-term memory: one task, a small context. srs-context showed that long-term memory can be kept by agents alone, in a dream cycle that runs unattended, replays real work and merges its own changes. The owner now asks for that practice in general: dreams that keep the human-readable hierarchy in shape, give new records a place, and strengthen relationships when the same storyline turns up in different vignettes. That ties dreamtime to three other threads: human-readable repositories (stable structure that grows), affirmation and confidence (strength from relationships), and the graph (relationships as data). On 2026-11-07 the owner named the map-making itself: the synthetic-mapping method from their own vault (a boundary, universal axes, cells, iteration), to be run by an agentic setup of appropriately sized, mostly nearby models; that joins this thread to the local-models work."
     },
     {
       "name": "parts",
       "label": "The parts",
-      "content": "1. Short-term and long-term memory.\n2. What a dream does today.\n3. Dreams that build the readable hierarchy.\n4. Dreams and relationship strength.\n5. Against: what dreams must not do.\n6. Housekeeping: the cleanup cycle (dreams for the workspace)."
+      "content": "1. Short-term and long-term memory.\n2. What a dream does today.\n3. Dreams that build the readable hierarchy.\n4. Dreams and relationship strength.\n5. Against: what dreams must not do.\n6. Housekeeping: the cleanup cycle (dreams for the workspace).\n7. Dreams as synthetic mapping, run on nearby models (with the local-model results to date and an exercise)."
     },
     {
       "name": "open",
       "label": "Open questions",
-      "content": "Four exercises, each with options: whether dreamtime becomes standard and in what form; what a dream tests against; what a dream may change unattended in the programme; how recurrence becomes relationship strength."
+      "content": "Five exercises, each with options: whether dreamtime becomes standard and in what form; what a dream tests against; what a dream may change unattended in the programme; how recurrence becomes relationship strength; which steps of the mapping loop a nearby model can do and how the boundary is given to it."
     }
   ],
   "createdAt": "2026-10-30T10:22:02Z",

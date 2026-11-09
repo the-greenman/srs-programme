@@ -1,0 +1,29 @@
+{
+  "instanceId": "1f6dfe3c-342d-40ed-b333-852911679b9d",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Merging a holon's PRs in an immature domain",
+    "decision_question": "When a holon's setup sitting has affirmed its remedy and ratified its rulings, who may merge its PRs in a domain that is not yet mature?",
+    "context": "Decision 3b910d90 (ratified): a group in an immature domain works under the owner, with no delegated merges and every PR owner-merged. Decision 2637af0a (ratified): an affirmed remedy counts as a recorded ruling, so a group may auto-merge with a valid quorum. Domain Evidence-backed writing names no tensions, so 3b910d90 governs; the last eight group PRs checked carry gate:owner-merge and were merged by the owner, and the group's reviewer routine adds gate:owner-merge on approval. Finding 7b13d293 records the result: a holon cannot be driven to finish. On the first such holon the owner answered 'you may merge if all reviewers approve' (vignette 286be05e, semanticops.com#49). Each srs-web merge deploys straight to production. Mechanics: the group's builder and reviewer routines run every four hours and build and review this work unaided; they never merge, and `clerk merge` is the owner's act. Placement: the editor group's log; this is the owner's to authorise.",
+    "friction": "Without an authorisation the holon needs the owner once per PR, five times, and 'driven automatically' stops at the merge.",
+    "alternatives_considered": "A. The sitting may authorise the holon's driver to merge its own PRs once the group's quorum approves at head (recommended). A small routine scoped to the holon's sub-issues, or a local session, performs the merge and is removed when the parent closes. For: follows the owner's precedent; narrow; the rule in 3b910d90 stands everywhere else; reviewers still gate every change. Against: production changes without the owner looking; mitigated because only the last item changes anything a writer can see, and a build fails loudly in the gates.\nB. Owner merges each PR with `clerk merge`. For: the rule as written; the owner sees every change. Against: five stops on the desk, and the holon is not automatic at the last step.\nC. Authorise items 1 to 4 and keep the owner's merge on item 5, which turns the feature on. For: the owner decides the moment writers see it, after reading the combined review. Against: one stop, though a deliberate one.\nD. Make the domain mature (name three tensions) so 2637af0a applies to the group. For: the proper long-term answer, and it ends the question for all group work. Against: tensions are a real piece of thinking for the owner, not something to rush for one holon, and it widens delegation well beyond this work.",
+    "key_requirements": "Respect 3b910d90; keep a reviewer other than the builder on every change; no change a writer can see without a green combined review; the authorisation ends with the holon. Option C is a sensible variant if the owner wants to see it before writers do.",
+    "decision_statement": "A holon whose setup sitting authorises it may have its driver merge its own PRs once the group's quorum approves at head.",
+    "rationale": "The sitting is where the owner has already judged the remedy and rulings, so what remains at each merge is checking conformance, which the quorum does. It is scoped to one holon, so the maturity rule keeps its force.",
+    "revisit_when": "A PR merged under this authority is reverted, or the domain matures and 2637af0a makes it unnecessary.",
+    "owner": "Owner",
+    "decision_kind": "mandate"
+  },
+  "lifecycleState": "superseded",
+  "tags": [
+    "topic:holon",
+    "topic:merge",
+    "holon:visual-editor"
+  ],
+  "createdAt": "2026-11-06T08:45:20.627928451+00:00",
+  "updatedAt": "2026-11-08T22:09:30.587253564+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

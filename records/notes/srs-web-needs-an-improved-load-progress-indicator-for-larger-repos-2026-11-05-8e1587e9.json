@@ -1,0 +1,23 @@
+{
+  "instanceId": "8e1587e9-8b34-484a-b96d-71990b86d84c",
+  "title": "srs-web needs an improved load progress indicator for larger repos (2026-11-05)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:load-speed",
+    "topic:srs-web"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "srs-web needs an imporved load progress indicator for larger repos"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-05; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

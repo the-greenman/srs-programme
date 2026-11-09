@@ -1,0 +1,20 @@
+{
+  "instanceId": "6c308ee7-69b6-4bc3-8e77-c5e620ebae1e",
+  "title": "2026-11-05: We can move without a valid actor",
+  "tags": [
+    "vignette",
+    "topic:provenance",
+    "topic:srs-web-merge"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "A1. We can move without a valid actor"
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-05; recorded verbatim. Answering ask A1 on srs#1008 (RFC-046 Revision 7): should a move succeed in a session whose actor is invalid."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

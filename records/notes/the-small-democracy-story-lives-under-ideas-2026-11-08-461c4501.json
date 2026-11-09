@@ -1,0 +1,23 @@
+{
+  "instanceId": "461c4501-1ec2-4b82-825e-09cfeafe789d",
+  "title": "The small democracy story lives under /ideas (2026-11-08)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:site-editor",
+    "topic:ideas"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "this story should exist under /ideas"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-08, on where the small-democracy story (the site page /small-democracy) lives, and therefore how the old redirect /ideas/small-democracy -> /community is resolved (muDemocracy.org#438)."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

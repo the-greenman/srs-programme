@@ -1,0 +1,25 @@
+{
+  "instanceId": "bc86edad-80ee-4c4b-b5cd-662b3fa35345",
+  "title": "The second element axis may be content/context (a thing or a relationship between things); the thing/things boundary is relative, so items are compared with each other through iterations until the difference that makes the difference, and the categorisation rests on the boundary and the midpoint (2026-11-07)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:axes",
+    "topic:synthesis",
+    "topic:local-models",
+    "topic:boundaries"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The second axis for the elements might also work as: content/context.\n\nIs this about a thing, or a relationship between things\n\nThe boundary between thing and things is relative. So we need the boundary and then we te d to need to compare items with each other I tend to find that some items are obvious, others far more blurry. Where we are uncertain we have to move through iterations, working out if something is more individual or more collective. Then we pick the difference that makes the difference.\n\nThen the categorisation tends to be based on not just the boundary but also the midpoint"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-07, after the 2x2 results (gemma-4b: energy internal/external kappa 0.25, scale individual/collective 0.09; Laya at chance on both); recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

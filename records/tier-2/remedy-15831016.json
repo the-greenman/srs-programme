@@ -1,0 +1,22 @@
+{
+  "instanceId": "15831016-03a3-4b80-930d-c76472d51ffb",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A domain with no axes of its own reads the base axes as working defaults",
+    "move": "A domain with no affirmed axes of its own, and no ancestor that has them, reads the base axes (Action, Change, Perspective) and shows them as working defaults. Nobody confirms them. A domain's own affirmed axis still replaces the default on its line, and `clerk check` stops warning that such a domain lacks axes.",
+    "does_not_fix": "Who merges a group's PRs: whether a default axis counts toward a mature domain under decision 3b910d90 is a separate question. Offering a parent's personas to a subdomain (remedy f86a827a).",
+    "falsifier": "Decisions in a domain cannot honestly be placed on the base axes, or the owner keeps replacing the defaults because they mislead there.",
+    "source_ref": [
+      "Owner, 2026-11-06: vignette 06d83ca7",
+      "Owner, 2026-10-28: vignette 66658bf5",
+      "Owner, 2026-10-24: vignette b7372574"
+    ],
+    "return_when": "A domain's work is judged wrongly because its default axes did not fit it."
+  },
+  "createdAt": "2026-11-06T14:35:09.388535971+00:00",
+  "updatedAt": "2026-11-06T14:35:09.388537528+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

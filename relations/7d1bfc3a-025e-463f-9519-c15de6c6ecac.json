@@ -1,0 +1,9 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "7d1bfc3a-025e-463f-9519-c15de6c6ecac",
+  "relationType": "com.semanticops.programme/set-against",
+  "sourceInstanceId": "d91facdd-3b8f-4f8d-9152-ffa97cc32d5a",
+  "targetInstanceId": "7b91246b-0272-400c-98d5-fa26deaf9865",
+  "createdAt": "2026-11-05T19:15:05.575011653+00:00",
+  "notes": "Applies: this holds the fuller content; 7b91246b's gate tests a mechanical part of it."
+}

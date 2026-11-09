@@ -1,0 +1,31 @@
+{
+  "instanceId": "4a67caf5-526e-4635-858f-72fd14d90d16",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A boundary is one thing: a container whose identity record says its parent, purpose, origin and division; cluster, domain and boundary are names on it",
+    "decision_question": "How is a domain or boundary defined so that it is clear enough to be useful, and what is the relation between a cluster, a domain and a boundary?",
+    "context": "Boundary and domain were ruled one thing on 2026-10-22 (clerk#129) and reaffirmed 2026-11-03 (9ee01ac1), yet the programme carries a method `domain` type (title, purpose, in_scope, out_of_scope), muSrs a `boundary` type (title, purpose, inside, outside, authority_basis, revision_condition), and duplicate domain records (comment 3f3053f3). The owner's suspicion that 'our domains are too simple' (7f895f7d) meant 'not defined with enough clarity to be useful' (2ad1b8d8). The owner, 2026-11-06 (a2225a2a): every statement and affirmation exists only relative to a boundary; zooming into the fire elements finds all the elements again. 2026-11-07 (38eaff50, 2ad1b8d8): a cluster is probably just another boundary; some boundaries are sensed before they are clarified (an issue that keeps coming back), others must be held and understood before looking inside (the agent-assisted editor); cells are always relative to a boundary, made by dividing on one tension and taking one pole as the new boundary, repeated; human and AI sensing differ, dream boundaries are valid in the dream and waking experience recalibrates, so we must know where each boundary came from; we may end with a single concept with cluster as a name for a boundary that performs a function, and the types may just be tags unless a practice needs its own fields. The three domain experiments of 2026-11-06 (8c144fd5) found the owner's purpose written before reading the contents beat every agent run. The owner's SGIS schema (greenmans_creation/sgis) has the same shape: system_boundary with explicit exclusions and rationale, and recursive_scope, a position that becomes the boundary of a child space.",
+    "alternatives_considered": "(a) Keep separate types for domain, boundary and cluster and reconcile their fields: keeps the duplicates and the two-names problem, and forces a type decision in a practice still being learnt. (b) One type with the union of all fields: forces the fields before any practice has shown it needs them; the owner says not to force exact types. (c) One underlying thing, a container whose identity record carries the few fields every boundary has, with cluster, domain and boundary as tags until a practice earns its own fields: matches the ruling, the fractal model and the owner's 'maybe they are just tags'.",
+    "key_requirements": "A boundary's origin is part of its validity, not metadata: the record says who sensed it (a person, the dreamtime), who held it (a person writing the purpose), and whether the purpose was written before or after reading the contents. Every boundary but the root names its parent. A boundary made by division names the axis and pole. Nothing is held on a dream-sensed boundary until a waking look; agents may use it as sensed. The practice is still being learnt: no field is required beyond these until a practice shows it needs one, and new repositories and packages may be made to try shapes.",
+    "decision_statement": "A boundary is a container with an identity record. The identity record carries the parent boundary, the purpose in the holder's own words, the origin (sensed by whom, held by whom, purpose written before or after the contents), and, when the boundary is a division of its parent, the axis and the pole. Exclusions carry their reasons. Cluster, domain and boundary are names (tags) for the same thing in different practices; a practice that needs its own fields (muSrs's authority_basis and revision_condition are the first candidates) adds them without a new kind of thing. The base axes are inherited by every boundary (06d83ca7).",
+    "rationale": "Clarity comes from the definition, not the surface (f58db200): what a boundary excludes and why, what it is relative to, and where it came from, are what make it usable; in-scope lists are the surface. The sensed/held distinction is the human/AI peer collaboration itself: detection of recurrence is what a nearby model can do, holding a purpose before looking inside is what only the holder can do, and keeping the origin lets dream boundaries be used without being mistaken for held ones. Division as the way to make a child boundary removes the need for axis, lens and cell types: a cell is a boundary.",
+    "revisit_when": "A practice needs a field that does not fit the identity record; or two boundaries with different origins are found to be treated the same by a tool or an agent (the origin was not used); or the recalibration between dream-sensed and waking boundaries turns out to be a thing in its own right (exercise filed alongside).",
+    "next_steps": "Try the shape before changing any package: a lab package or a new repository where one boundary is divided by one base axis twice and the identity records carry origin; the Suggestions clusters as sensed boundaries, the editor domain (1cf3ef4f) as a held one. Then merge method `domain` and muSrs `boundary` toward it, and the duplicate domain records (3f3053f3). Dreamtime part 7 (4d975bde) runs the mapping loop on such a boundary.",
+    "owner": "Programme owner",
+    "status": "proposed",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "suggestion",
+    "topic:domain-definition",
+    "topic:boundaries",
+    "topic:dreamtime"
+  ],
+  "createdAt": "2026-11-07T14:43:27.193232535+00:00",
+  "updatedAt": "2026-11-07T14:43:27.193234745+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

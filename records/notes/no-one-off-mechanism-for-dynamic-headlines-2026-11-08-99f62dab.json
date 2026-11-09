@@ -1,0 +1,23 @@
+{
+  "instanceId": "99f62dab-9c12-4cda-af51-939408519b1c",
+  "title": "No one-off mechanism for dynamic headlines (2026-11-08)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:site-editor",
+    "topic:components"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "If we don't have a mechanism for generic dynamic headlines... dont add one for this"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-08, answering ask A1 on muDemocracy.org PR #457: whether the subscribe page's hero should again swap its headline after sending (copy that lived in route code), by adding a field for it."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,18 @@
+{
+  "instanceId": "248620b9-ca04-4d22-81f6-4631bdd7dfe9",
+  "title": "Streaming the transcript to the running browser, taking minutes I want to connect with it (2026-11-05)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:transcripts",
+    "topic:local-models"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "What would be involved in streaming updates via mcp to the running browser? \nIn using this, I would probably also be working with an editor in the browser - possibly taking minutes that I want to connect with the transcript?"
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

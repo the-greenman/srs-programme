@@ -1,0 +1,21 @@
+{
+  "instanceId": "b5432cd9-3b8d-4106-90a9-fe6db2386b74",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "article_number": "DC-08",
+    "title": "Whose decision",
+    "article_text": "If it belongs to a group, an agent's mandate or a ruling already made, it is not asked: it is recorded and shown as information. Checked by: judgement.",
+    "rationale": "From the owner's meeting review, in our terms. Applies 4445b9cf (a decision already taken is cited, never asked again)."
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:decisions",
+    "decision-checklist"
+  ],
+  "createdAt": "2026-11-05T19:13:58.635618522+00:00",
+  "updatedAt": "2026-11-05T19:13:58.635620746+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

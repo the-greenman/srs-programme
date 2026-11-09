@@ -1,0 +1,9 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "18d326e8-dd73-4fb6-837f-f74388881545",
+  "relationType": "com.semanticops.programme/set-against",
+  "sourceInstanceId": "d91facdd-3b8f-4f8d-9152-ffa97cc32d5a",
+  "targetInstanceId": "e56d6893-1e60-42e0-8b99-8f8a69ac8b68",
+  "createdAt": "2026-11-05T19:15:05.386295702+00:00",
+  "notes": "Applies: its four framing rules become checks in the container."
+}

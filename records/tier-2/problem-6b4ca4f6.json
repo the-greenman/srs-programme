@@ -1,0 +1,25 @@
+{
+  "instanceId": "6b4ca4f6-f604-4a14-aced-b4ef6a1e3522",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-160",
+    "title": "An essay writer can format text only by knowing markdown, and nothing tells them so",
+    "statement": "In the essay editor, clicking a paragraph replaces the formatted text with its raw markdown source, and there are no formatting controls: typing markdown is the only way to make a heading, a list, a link or bold text. The help never says this (no help record mentions markdown); the one explanation is a cheat-sheet behind a header action labelled 'Markdown help', which helps only someone who already knows the word. A writer who does not know markdown sees stray symbols in their own text and has no way to format it. This is a different context from the structured editors, where types and fields carry the structure and markdown is only for simple text: the essay offers only paragraph types, and its writer is someone trying to write and own their words, so the plain-text surface stands between them and the writing. Sibling of SP-130 (a first-time writer does not know what to do in the editor): that problem is explaining the editor's concepts, this one is a skill the editor silently requires.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme: conversation 2026-11-06 · Essay visual editor holon (container 2cc7cdb2), vignettes 0334e990, 50a11c7c, 19964824",
+      "srs-web: src/lib/components/MarkdownText.svelte, src/lib/components/MarkdownHelp.svelte, help/ (zero records mention markdown, checked 2026-11-06)"
+    ]
+  },
+  "createdAt": "2026-11-08T21:00:47.468973531+00:00",
+  "updatedAt": "2026-11-08T21:00:47.468978089+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

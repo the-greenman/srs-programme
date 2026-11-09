@@ -1,0 +1,14 @@
+{
+  "instanceId": "709bf3b8-cdb7-4e0f-9e1c-ff74319d29f1",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Proposed check, from the owner's words in vignette 8b9cb702. Not yet in the list.\n\n**DC-15 Consequences before mechanism.** Each option says which strategic paths it opens and which it shuts, in terms of the programme's objectives and standing commitments. Mechanism sits behind a link. If no option opens or shuts a path, the decision stays at the level where it removes choices and does not reach the owner (SP-126). Paths an agent inferred are marked as inferred. Checked by: mechanical for presence; judgement for substance.\n\nWhy a separate check: DC-14 asks what one recommendation forecloses. This asks it of every option, in the reader's terms rather than the system's. It also sharpens SP-126: a technical choice is noise in a strategy session only if it moves no strategic path, and the mechanism is never what the owner needs to see.\n\nThe open risk is that these paths are, in the owner's words, 'not immediately recognisable'. An agent can fill the field without seeing them, so the first reviews should ask whether the stated paths were the real ones. First example: srs#998 D1.",
+    "kind": "suggestion"
+  },
+  "createdAt": "2026-11-05T19:48:00.635395198+00:00",
+  "updatedAt": "2026-11-05T19:48:00.635396853+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

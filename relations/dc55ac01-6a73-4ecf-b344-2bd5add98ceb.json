@@ -1,0 +1,9 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "dc55ac01-6a73-4ecf-b344-2bd5add98ceb",
+  "relationType": "derived-from",
+  "sourceInstanceId": "532ab79d-4fd3-442d-9ee5-4d002b74cbef",
+  "targetInstanceId": "bc86edad-80ee-4c4b-b5cd-662b3fa35345",
+  "createdAt": "2026-11-07T16:48:21.703891676+00:00",
+  "notes": "The ranking experiment is the owner's relative procedure, run."
+}

@@ -1,0 +1,21 @@
+{
+  "instanceId": "7d49bed1-9a65-4e08-a907-33b7a7564417",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "article_number": "DC-12",
+    "title": "The compass is shown, not named",
+    "article_text": "The decision says what the compass settles and what it leaves open, in words. A question the compass settles is recorded as a ruling with its case, and only what it leaves open is asked. A pole label on an option must survive checking: an option that reverses a standing position is not labelled as continuity with it. Checked by: mechanical for presence; judgement for honesty.",
+    "rationale": "Added from srs#998, not from the meeting. Applies 7ee8fa01 (a decision is shown with its compass) and remedy dfa1059e."
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:decisions",
+    "decision-checklist"
+  ],
+  "createdAt": "2026-11-05T19:13:58.980642749+00:00",
+  "updatedAt": "2026-11-05T19:13:58.980644418+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

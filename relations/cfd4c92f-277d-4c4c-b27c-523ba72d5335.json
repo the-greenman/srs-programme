@@ -1,0 +1,9 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "cfd4c92f-277d-4c4c-b27c-523ba72d5335",
+  "relationType": "derived-from",
+  "sourceInstanceId": "e1b85460-fdc2-4ca1-83a4-3e78059eb70f",
+  "targetInstanceId": "96f88dd0-abaa-426f-ae55-627feabd8ae7",
+  "createdAt": "2026-11-06T09:44:44.913588449+00:00",
+  "notes": "The owner restated this problem on 2026-11-06: \"too difficult and so we never get there\"."
+}

@@ -1,0 +1,29 @@
+{
+  "instanceId": "da11431b-8a0b-40e2-902f-4fee568cd6e8",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Where an essay image comes from",
+    "decision_question": "May an image paragraph show a remote image, or only a file stored in the repository?",
+    "context": "The spec already stores binary files as SourceDocuments, attached to a record by an attaches SourceReference (I-101, I-102) and bounded by attachment_policy (I-107, I-111). srs-web has add_attachment and get_attachment_bytes. The core renderer today accepts http(s) image URLs in markdown. Precedent consulted: vignette a5fa4798 (attachments are not a place for big files); the sovereignty focus of the essay (vignette 19964824). Holon semanticops.com essay images, remedy fd1b4728.",
+    "friction": "A remote image is not the writer's: it can disappear, change, or tell a third party who is reading.",
+    "alternatives_considered": "A. Attached files only (recommended). For: the image travels with the essay, has a checksum and provenance, and works offline. Against: the writer must have the file.\nB. Attached or remote URL. For: convenient for images already online. Against: link rot and reader tracking come back; two render paths to test.\nC. Remote URL only. For: no storage. Against: the essay owns nothing.",
+    "key_requirements": "The essay owns its images; one render path; readers are not tracked.",
+    "decision_statement": "An image paragraph shows only an image file attached to the repository, never a remote URL.",
+    "rationale": "Owning the file is the point of sovereignty, and one source means one path to build and test.",
+    "revisit_when": "Writers routinely need images they cannot download or are not allowed to copy, such as licensed embeds.",
+    "owner": "Owner",
+    "decision_kind": "boundary"
+  },
+  "lifecycleState": "ratified",
+  "tags": [
+    "topic:essay-editor",
+    "topic:images",
+    "holon:essay-images"
+  ],
+  "createdAt": "2026-11-08T17:53:50.237264513+00:00",
+  "updatedAt": "2026-11-08T18:39:29.522104936+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

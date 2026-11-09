@@ -1,0 +1,15 @@
+{
+  "instanceId": "c4bace26-4a41-4dc2-a8e7-6b8fa29a5868",
+  "typeId": "e3b62684-70d8-403d-ac8f-164fcb4b60a9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "pole",
+  "fieldValues": {
+    "title": "What agents bring",
+    "looks_like": "The writer lets the agents' challenges, evidence and structure change the argument, and uses AI writing where it adds value.",
+    "shadow": "The agent's text takes over, and once it has written everything it is very hard to claim the meaning back."
+  },
+  "createdAt": "2026-11-06T10:06:00.515550247+00:00",
+  "updatedAt": "2026-11-06T10:06:00.515552324+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

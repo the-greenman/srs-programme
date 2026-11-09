@@ -1,0 +1,23 @@
+{
+  "instanceId": "9f1ed28c-97a4-4b3a-8554-e848a2e3230a",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "When do a decision's incompatible options serve different remedies?",
+    "thinking_reached": "The owner, 2026-11-05 (vignette 2f33caa2): 'It will be very interesting to find when we have two different and incompatible answers that serve different remedies. That's probably gold for our research into decisions.' This extends vignette 2941f51a (notice when remedies compete) and remedy 7c02a070, which shows competing remedies of one problem together. The new part: a decision can expose a conflict between remedies that may answer different problems and never sit side by side anywhere else. Working hypothesis, not a finding: such a conflict marks a real trade-off that no rule or compass default has settled, and may name a tension a domain lacks (SP-94). No instance has been recorded yet, and no record links a decision's options to remedies today.",
+    "tensions": "Ways to find instances, none chosen:\n- Forward: options name the remedies they serve (DC-15, clerk#278), and any decision with different remedies on incompatible options is logged. Leads to: clean data, slowly.\n- Backward: read past decisions with a strong case per option (for example af1c9258, 9441693e, f940e488) and map their options to remedies by hand. Leads to: early instances, with the mapping being our own inference.\n- From the remedies: look for remedy pairs whose moves cannot both stand, across problems. Leads to: conflicts found before a decision forces them, and many false positives.",
+    "unresolved_questions": "Are the options truly incompatible, or only a question of order? Test: can both stand at once? Does the conflict map to an existing tension, or name a new one? What settled it: a ranked objective, a principle, or the owner's judgement? Did the losing remedy's falsifier change? Is a conflict worth more than a low-stakes decision of the same shape, or is it only more visible?",
+    "next_action": "Record each instance as a finding tagged remedy-conflict: the decision, its options, the remedies each serves, why both cannot stand, and what settled it. The competes-with relation remedy 7c02a070 proposes is not installed yet, so state the pair in the finding for now. After the first five, review whether they map to existing tensions. Start with the backward sample of ten decisions."
+  },
+  "tags": [
+    "exercise",
+    "research",
+    "topic:decisions",
+    "topic:remedies"
+  ],
+  "createdAt": "2026-11-05T19:56:48.280051389+00:00",
+  "updatedAt": "2026-11-05T19:57:31.324414726+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

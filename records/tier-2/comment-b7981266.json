@@ -1,0 +1,18 @@
+{
+  "instanceId": "b7981266-c127-4c7c-baa9-2d07729b69c6",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: we need clear locations"
+  },
+  "createdAt": "2026-11-08T21:11:50.818433081+00:00",
+  "updatedAt": "2026-11-08T21:11:50.818436791+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

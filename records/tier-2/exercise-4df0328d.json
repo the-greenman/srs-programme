@@ -1,0 +1,23 @@
+{
+  "instanceId": "4df0328d-3841-4095-8347-aaabaee46d58",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Which steps of the dreamtime mapping loop can a nearby model do, and how is the boundary given to it?",
+    "thinking_reached": "No option chosen. Raised in Research (Dreamtime, part 7), 2026-11-07, from the owner's vignette 878ac6a1: build the mapping dreamtime as an agentic setup of appropriately sized models, most of them nearby, a frontier model only when needed. The local-lab tables already show the 7B model places on an axis whose rule is in the text and fails on axes that need the boundary as reference; the vault's own rule says the axes define context, not content.",
+    "tensions": "Options for the split, none chosen:\n- A. Nearby model places every item on every axis; frontier model only names cells and states gaps. Cheapest; known to fail on context-relative axes unless the boundary is given.\n- B. Nearby model places only on axes with a learnable rule (today: T3 line 1, scale); frontier places the rest. Matches the measurements; needs a per-axis gate.\n- C. Two-step prompt, boundary first: the nearby model gets the container's identity record and the axis's two poles before each item. Untested; the next experiment every source names.\n- D. A non-generative decision model per axis: Laya (0.4B, CPU, calibrated `choice` answers, no retraining per question; the owner's named example) zero-shot with the boundary in its state; a fine-tune only once there is more gold than 101 items, since the encoder fine-tune collapsed at that size.\n\nHow the boundary is given: the container's identity record; the identity record plus the records already placed (neighbours); a written status quo for the axis. Unknown which the raters actually use.",
+    "unresolved_questions": "Whether axis, lens and cell become SRS types or stay a container convention. Which container is the first boundary (the Suggestions clusters, a muSrs problem set, this thread). What 'good enough' is for a placement a dream makes unattended (exercise 8969754d). What the Mozilla form's largest-core-model answer becomes once a sub-1B model does one step.",
+    "next_action": "Run options C and D once in local-lab on the same gold: one SRS container as boundary, the three T3 lines as axes; qwen2.5-7b with the boundary first, Laya zero-shot with the boundary as state, haiku on the same items; all against the owner's 101 ratings, kappa per line beside the zero-shot row."
+  },
+  "tags": [
+    "exercise",
+    "research",
+    "topic:dreamtime",
+    "topic:local-models"
+  ],
+  "createdAt": "2026-11-07T14:12:13.297524372+00:00",
+  "updatedAt": "2026-11-07T14:18:13.465071158+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

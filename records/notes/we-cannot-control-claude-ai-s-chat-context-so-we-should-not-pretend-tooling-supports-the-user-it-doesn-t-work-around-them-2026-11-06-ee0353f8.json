@@ -1,0 +1,23 @@
+{
+  "instanceId": "ee0353f8-5840-4edd-b286-6d3376bd71c0",
+  "title": "We cannot control claude.ai's chat context, so we should not pretend: tooling supports the user, it doesn't work around them (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essay-editor",
+    "topic:human-ai-collaboration"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Take a look at this essay in musrs. I wrote this with claude.ai.  Much of he conversation took place in claude's own chat. We cannot control that context. So we should not pretend. \n\nWe create the tooling to support the user, but we're not workign around the user."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, giving the essay id 7da63d85-530b-4f6b-9e9e-e0b00d51b8c6 in muSrs and pasting part of their claude.ai transcript about the How We Learn paragraph (not copied here). That exchange is summarised in muSrs as vignette 0ca12af0. Recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

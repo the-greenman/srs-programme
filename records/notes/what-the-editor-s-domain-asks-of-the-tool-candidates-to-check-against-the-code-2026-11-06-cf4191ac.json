@@ -1,0 +1,27 @@
+{
+  "instanceId": "cf4191ac-2a93-46aa-a525-484ad89f817f",
+  "title": "What the editor's domain asks of the tool: candidates to check against the code (2026-11-06)",
+  "tags": [
+    "tool-implications",
+    "topic:essay-editor",
+    "topic:domain-definition"
+  ],
+  "sections": [
+    {
+      "name": "status",
+      "label": "Status",
+      "content": "An agent's reading of the owner's words. No issue has been filed and none of this has been checked against srs-web, so some of it may already exist. Each candidate needs a duplicate search and the usual filing shape before it becomes work."
+    },
+    {
+      "name": "candidates",
+      "label": "Candidates",
+      "content": "1. Hold the line in one place. Agents add references, notes and other materials, and can't create main paragraph text (73ae8761). Check that the editor and its MCP tools really enforce this, and that the help text says the same.\n\n2. Show who wrote what, in both editors. The owner wants \"to easily know what an agent has written\" in the essay and website domains (73ae8761). A record's createdBy only says who created it, so it can't show where words came from: text pasted from a chat looks like the writer's own. The tool shouldn't claim more than it knows (ee0353f8).\n\n3. Give the rough work a home. \"The container holds the doubts, the questions, the failures, the discoveries.\" (73ae8761) Check whether notes, comments and drafts cover this or whether doubts and failures have nowhere natural to go.\n\n4. Bring in chat when the writer asks, and say it's partial. No scraping, and no pushing the writer to hold the conversation in the editor (ee0353f8). The owner described this flow on 25 October: chat feeds in vignettes, then records link to paragraphs (69b6ad45). In muSrs, Claude.ai already writes vignettes with writer, Claude and outcome sections. Candidate changes: keep the writer's section verbatim, label the rest as summary, give each vignette a date, and link it to the paragraph it concerns.\n\n5. Keep the agent's brief accurate. The agent's brief is the part of a chat we do shape. A muSrs note (e3094a8c) shows a brief wrongly told Claude that claims weren't available.\n\n6. An essay viewer that knows what an essay is. \"it's pointless sharing an essay in a generic viewer.\" (73ae8761) The reader's needs are still to be settled.\n\n7. Let the writer write first. \"Once I've read the words, it's difficult to imagine a different direction.\" (47379410) AI suggestions could stay folded until the writer has written, as on the run 2 page. That page's blank box is the evidence, from one use only.\n\n8. Make the middle path visible in how the editor presents itself: the front page and the help (73ae8761). A real worked example could be the muDemocracy theory of change: 12 paragraphs on top of months of context."
+    },
+    {
+      "name": "case",
+      "label": "A possible worked case",
+      "content": "The owner intends to rewrite Synthetic Logic in their own words (d6d480b2). Writing from memory first, with the old file as a source and not the text, would test these candidates on real work. It's the owner's own to take up, when they want to."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

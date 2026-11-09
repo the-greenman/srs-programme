@@ -1,0 +1,29 @@
+{
+  "instanceId": "1b2caa5d-64ef-4293-8d2f-151f240ace28",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "srs-rust releases stopped for 34 hours: GitHub refused the macOS runner, every Release run was cancelled, and nobody was told",
+    "summary": "From 2026-11-06 01:49 UTC, every srs-rust Release run on master was cancelled: both macOS legs (os: macos-14) got 'The configuration macos-14-arm64-us-default is not supported' within a second, so draft, corpus gate and promote were skipped. Six runs in a row. The last published release is v0.1.0-build.616 (2026-11-05 18:25 UTC). Work merged and closed since (RFC-053 srs-rust#1591, RFC-044 [R11] #1590, RFC-045 slice 1 #1589) is not in any release, so no pin can advance and srs#1007 and srs-web#742 wait. The cycle report of 2026-11-07 did not see it; the analyst found it by checking whether a release carries #1591.",
+    "evidence": [
+      "2026-11-07: srs-rust Release runs on master cancelled at 2026-11-06 01:49, 08:36, 14:26, 16:47, 21:52, 21:52 UTC; latest https://github.com/the-greenman/srs-rust/actions/runs/42300311033, annotation: The configuration 'macos-14-arm64-us-default' is not supported",
+      "2026-11-07: releases/latest is v0.1.0-build.616, created 2026-11-05T18:25:41Z",
+      "2026-11-07: filed as bug srs-rust#1592; srs#1007 and srs-web#742 now blocked by it"
+    ],
+    "body": "- Where it stopped: Review and land. The PRs merged green, their issues closed, but the work never reached a release, which is what consumers pin.\n- Why nobody saw it: a cancelled run is not a red one; CI on master stayed green, and no report or routine reads the Release workflow.\n- Fix in hand: srs-rust#1592 (move the macOS legs to a supported runner label). The wider gap is that release health has no watcher."
+  },
+  "tags": [
+    "flow-stop",
+    "release"
+  ],
+  "createdAt": "2026-11-07T12:16:28.488177197+00:00",
+  "updatedAt": "2026-11-07T12:16:28.488181567+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-analyst",
+    "name": "Third-party-ready analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

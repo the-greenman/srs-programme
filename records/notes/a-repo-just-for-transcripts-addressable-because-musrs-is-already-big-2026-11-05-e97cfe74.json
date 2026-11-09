@@ -1,0 +1,24 @@
+{
+  "instanceId": "e97cfe74-2e02-41b8-8405-54f2d2f0ffb1",
+  "title": "A repo just for transcripts, addressable, because muSrs is already big (2026-11-05)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:transcripts",
+    "topic:addressability",
+    "topic:registry"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "This is just Lisa and I. We have our consent\n\nSo, we now have our local mcp server able to serve multiple repos. \nWhat is the current status of our addressability issues? \nIf we are able to manage a repo just for transcripts - and it's addressable it would probably be better. MuSrs is already big"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-05; recorded verbatim, about the 5 Nov MU training plan recording (a meeting between the owner and Lisa) and where its transcript should live. Follows vignette 248620b9."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

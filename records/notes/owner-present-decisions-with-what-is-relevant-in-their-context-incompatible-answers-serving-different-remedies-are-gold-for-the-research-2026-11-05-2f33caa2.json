@@ -1,0 +1,17 @@
+{
+  "instanceId": "2f33caa2-dd32-4455-8eb0-b25c704211c3",
+  "title": "Owner: present decisions with what is relevant in their context; incompatible answers serving different remedies are gold for the research (2026-11-05)",
+  "tags": [
+    "vignette",
+    "topic:decisions",
+    "research"
+  ],
+  "sections": [
+    {
+      "name": "owner-words",
+      "label": "Owner's words (verbatim)",
+      "content": "I've accepted 998 for now. \nBut this suggested decision information is far more valuable for review. \nThese are important elements for how we present decisions - with information that is relevant in the context of the decision. \n\nWe can still require some serious technical decision when they are needed. But these should also be very speccific about what teh technical context is. \n\nThese strategic decisions are also going to be relevant to the problems and remedies that we have identified. \n\nIt will be very interesting to find when we have two different and incompatible answers that serve different remedies. That's probably  gold for our reseach into decisions."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

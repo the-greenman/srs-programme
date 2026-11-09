@@ -1,0 +1,25 @@
+{
+  "instanceId": "2ad1b8d8-b578-4b33-8494-245fb7128d4a",
+  "title": "Simple domains lack clarity to be useful; cells are relative to a boundary, divide and repeat; dream boundaries are valid if we know where they came from; cluster may stay a name for a boundary with a function (2026-11-07)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:domain-definition",
+    "topic:boundaries",
+    "topic:dreamtime",
+    "topic:synthesis"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Simple domains: it was a suspicion that we are not defining the domains with enough clarity to be useful\n\nCells are always relative to a boundary..\nDefine boundary - divide yin and Yang - take only Yang as boundary... Repeat.\n\nHuman and AI sensing is different. If dreamtime finds places to look it's going to offer suggestions that are valid in the dreams . And I learnt lots from dreams. But my waking experience may need to recalibrate. So as long as we know where the boundaries came from, then dream boundaries are valid. But we need to know what they are.\n\nIn practice we can end up with a single concept... But it is also probably still fine to call a cluster a cluster... Because it is a boundary that performs a function. We may not need all these different types... Maybe they are just tags. But, we may also find that we want to record different pieces of information for different practices"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-07, answering three points: what 'our domains may be too simple' (7f895f7d) meant; whether a cluster and a domain are one type at two stages (sensed then held); and whether holding a boundary fixes its axes or the axes come from looking inside; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

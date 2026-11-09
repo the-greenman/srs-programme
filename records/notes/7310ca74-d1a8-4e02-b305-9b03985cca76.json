@@ -1,0 +1,25 @@
+{
+  "instanceId": "7310ca74-d1a8-4e02-b305-9b03985cca76",
+  "title": "The calibration practice: rows with filters, a confidence per coordinate, items seen together to compare, relative order within a selection, going up and down; naming a cell once enough is mapped and testing against the name; cross-checking with the zodiac (3x4) and tarot (3x7, no fool) layers, the 4 and 7 mapping the same row with different valence (2026-11-07)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:axes",
+    "topic:synthesis",
+    "topic:affirmation",
+    "topic:editor"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Can you build me an interface for calibration.\n\nIn coda I worked through items in rows with filters. I would mark each coordinate on an axis with a confidence. I need to see them together to allow comparing.\n\nI will not always be able to tell an axis initially. So I go up and down, working and reworking.\n\nSometimes I need to sort by an axis. But often not absolutely. Within a selection I may be able to say what the relative order is.\n\nThere is another level of cross check.\n\nWhen I have mapped enough items, I can name a cell. Once a cell had a name and description. I can then also test against that name.\n\nThis means that I can manage the sometimes obscure phrasing of an individual item...\n\nAnd then I also cross check with the zodiac .( 3x4)\nAnd I add a tarot layer as well. (3x7 no fool)\n\nThe 4 and 7 map the same row with different Valence.\n\nAries ~ magician + high priestess\nTaurus ~ high priestess + empress + emperor\nGemini ~ emperor + hierophant+ lovers\nCancer ~ lovers + chariot\n\nThese esoteric systems are all my own training models"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-07, three messages while the owner's level rubric was being re-run on haiku and qwen; the first is a request (an interface for calibration), the rest describe the practice the interface serves; recorded verbatim. Note the cell-naming cross-check: a named cell with a description becomes a second thing to test an item against, which handles obscure phrasing."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

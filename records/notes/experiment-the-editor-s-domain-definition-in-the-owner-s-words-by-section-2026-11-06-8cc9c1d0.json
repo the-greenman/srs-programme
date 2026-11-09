@@ -1,0 +1,82 @@
+{
+  "instanceId": "8cc9c1d0-ce4b-49c0-af2b-dfc133577dd3",
+  "title": "Experiment: the editor's domain definition, in the owner's words, by section (2026-11-06)",
+  "tags": [
+    "topic:editor-domain",
+    "topic:domain-definition",
+    "experiment"
+  ],
+  "sections": [
+    {
+      "name": "how_to_read",
+      "label": "How to read this",
+      "content": "A local experiment: does the old domain template (products/semantic_ops/templates/template_domain.md, v2.5.3) earn its sections on a real domain? Everything in quotation marks is the owner's, verbatim, with its vignette. The agent wrote only the headings, the sorting and the bracketed notes. 'Not yet said' is left blank on purpose. The sorting is the agent's reading and is the owner's to change."
+    },
+    {
+      "name": "domain_name",
+      "label": "Domain name",
+      "content": "Not yet said. The owner calls it \"the editor domain\" and \"The domain for the editor\" (ac97a191, 35c738dd). The record is still titled Evidence-backed writing."
+    },
+    {
+      "name": "overview",
+      "label": "1. Overview",
+      "content": "\"The editor domain is about writing well, and collaborating with AI to create evidence backed writing - without letting the AI take over.\" (ac97a191)\n\n\"In that domain, they want to get the essay written   or  spend time developing the ideas. SRS supports both in the same place.\" (35c738dd)"
+    },
+    {
+      "name": "stakeholders",
+      "label": "2. Key stakeholders",
+      "content": "\"The editor must server it's audience. It's audience is those wishing to hold onto their own words, and work with AI.\" (35c738dd)"
+    },
+    {
+      "name": "in_scope",
+      "label": "3. In scope",
+      "content": "\"Sometimes they may wantto build with evidence. Sometimes they may just want to build with structure and data.\" (35c738dd)"
+    },
+    {
+      "name": "out_of_scope",
+      "label": "3. Out of scope",
+      "content": "\"The domain for the editor is not the domain for the application.\" (35c738dd)\n\nNothing further said yet."
+    },
+    {
+      "name": "boundary_rationale",
+      "label": "3. Why these boundaries",
+      "content": "\"There are multiple domains here, and domains can be nested nd overlapping so that's not a problem. \nBut lets not mix them.\" (35c738dd)"
+    },
+    {
+      "name": "tensions",
+      "label": "4. Tensions",
+      "content": "[Action] \"they want to get the essay written   or  spend time developing the ideas.\" (35c738dd)\n\n[Perspective] \"They also need to manage writing with their own words  vs getting feedback on those words. This may still be the same axis.\" (35c738dd) [Whether this is a separate axis was left open; the agent argued it is.]\n\n[Change] Keep what's working / try a different angle. [The agent's wording, which the owner accepted:] \"In this case your suggestion works. \nIts the user's own action, rather than an AI assisted action.\" (7f895f7d)\n\n[Change, in evidence-backed writing only] \"Then there is a challenge (in evidence backed writing ) to get support for your ideas or to challenge them\" (35c738dd)\n\nThe lines themselves: \"So, for now, any domain inherits the base axes. We don't need to confirm these.\" (06d83ca7) \"My thesis is that they are universal and the three axes can always be found.\" (011dddcc)"
+    },
+    {
+      "name": "key_concepts",
+      "label": "5. Key concepts and terminology",
+      "content": "Terms the owner used, none yet defined: \"own words\", \"rearranging the chairs\", \"wrestled\", \"cognitive debt\", \"generic slop\" (47379410); \"take over\" (ac97a191); \"sweet usurpation of autonomy\" (2ad7e527).\n\nDefinitions: not yet said."
+    },
+    {
+      "name": "related_domains",
+      "label": "6. Related systems and domains",
+      "content": "\"The bigger domain that all this work may be part of is effective human / AI collaboration.\" (2ad7e527)\n\n\"The domain for the editor is not the domain for the application.\" (35c738dd)\n\n\"The mudemocracy editor it talking about attrubution for web page content. That's not quite the same domain.\" (7ff3049a)"
+    },
+    {
+      "name": "landscape",
+      "label": "7. Domain landscape",
+      "content": "\"Additctive technology makes everything as easy as possible. It removes individuality, it removes friction and the need to think.\" \"We are against \\\"enshittification\\\".\" (49633063)\n\n\"VIM, EMACs these are power tools. They are not easy tools. But they have remains useful to many. We don't want to take that level of extreme\" (49633063)\n\n\"imagine AI is fire\" ... \"But the way forward is to learn when fire is useful.\" (49633063)\n\n\"Tools drive behaviour.\" (ac97a191)\n\nThe owner pasted alongside 2ad7e527: Carly Dober, 'Relying on AI is rotting your brain. But here's what you can do about it', The Guardian, 31 October 2026.\n\n[Some of this may belong to the bigger domain rather than this one.]"
+    },
+    {
+      "name": "challenges",
+      "label": "8. Common challenges",
+      "content": "\"When AI writes, it produces words that seem very smooth and effective at first. And it's very easy to get caught up in the flow, and allow AI to own the words.\" (47379410)\n\n\"Once I've read the words, it's difficult to imagine a different direction. So I end up rearranging the chairs, just changing little parts.\" (47379410)\n\n\"as an work gets longer, it also starts to become less coherent. Because it's not clear in my head, because I have not wrestled with each of the words and concepts, the cognitive debt is real.\" (47379410)\n\n\"It;s also very easy for things to become so much longer than required. AI adds more and more, and we end up with generic slop.\" (47379410)\n\n\"Without the tooling, asking Claude or any AI to just make a small change very quickly ends up with an unrecognisable document. We need tools to support us.\" (ac97a191)"
+    },
+    {
+      "name": "difference",
+      "label": "From the suggestion template: what makes it different",
+      "content": "\"Our goal it not to build a tool for anyone. Our goal is to build a tool that people recognise as something different. Our tools protect the soverignty of the individual.\" (49633063)\n\n\"AI can research, it can challenge. It can support the structure. But we need tools that support the thinking that humans need to do to actively stay part of the process.\" (2ad7e527)"
+    },
+    {
+      "name": "left_out",
+      "label": "Left out on purpose",
+      "content": "Vignettes 0ae99d7d and 5f395529 (the community, Mozilla and the SRS pitch) belong to the application's domain, per 35c738dd, and are not sorted here."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

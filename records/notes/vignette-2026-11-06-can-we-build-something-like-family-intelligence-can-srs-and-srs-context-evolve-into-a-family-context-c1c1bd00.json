@@ -1,0 +1,24 @@
+{
+  "instanceId": "c1c1bd00-1e71-433c-8fac-5102ee96abaf",
+  "title": "Vignette 2026-11-06: can we build something like Family Intelligence; can SRS and srs-context evolve into a family context",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:family-context",
+    "topic:local-models",
+    "topic:mozilla"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "https://www.intelligence.family/\n\nCan you read this?\nCan you find out more about the family context? \nCan we build something that does a similar job? \nCan SRS and our srs-context be evolved to be a family context?"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06; recorded verbatim. What was read in answer: srs-context journal note e9dce15f."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

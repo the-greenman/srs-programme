@@ -1,0 +1,23 @@
+{
+  "instanceId": "d6d480b2-14ae-4313-9a73-541ab97c6195",
+  "title": "Synthetic Logic: decades fused into a system with AI, and cognitive debt in the owner's own foundational work (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:human-ai-collaboration",
+    "topic:cognitive-debt"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "[…] when I look at my output. (/home/greenman/Dropbox/enough/syntheticlogic.md) it is mine and it's also not. I let the AI own the wrong parts. I was not in charge of myself.\n\n[…] this synthetic logic, was the beginning. It was the moment I was able to fuse decades of my work into a system. And I may never have reached it without AI. \n\nBut, I need to go back to it, and rewrite it all because the words are not properly mine. And some I may not even recognise. There is cognitive debt... in my own foundational work"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, two consecutive messages after the agent raised 'neither dominates' against 'back in charge'; recorded verbatim, with parts left out at the owner's request, marked […]."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

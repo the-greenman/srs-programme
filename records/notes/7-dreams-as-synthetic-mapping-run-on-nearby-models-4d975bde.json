@@ -1,0 +1,44 @@
+{
+  "instanceId": "4d975bde-2108-4030-abcf-64a853273f10",
+  "title": "7. Dreams as synthetic mapping, run on nearby models",
+  "tags": [
+    "research",
+    "topic:dreamtime",
+    "topic:local-models",
+    "topic:axes",
+    "suggestion"
+  ],
+  "sections": [
+    {
+      "name": "claim",
+      "label": "Claim",
+      "content": "The owner, 2026-11-07 (vignette 878ac6a1): SRS as a shared memory should give \"a decent map of semantic space. Short term memory goes in fast. The dreamtime builds the connections and creates the maps.\" The map-making is the owner's long-standing practice of synthetic maps: \"Find a boundary. Arrange the content of that boundary by different universal axes\", iteratively, naming the cells, comparing neighbours, looking for what is missing and what is biased. And the agentic setup that does it should use appropriately sized models, most of them \"nearby AI. Not massive datacentre AI. (Unless we need it)\". For the Mozilla application the point to show is that \"it's not just about a frontier model\"."
+    },
+    {
+      "name": "method",
+      "label": "The method, as the owner's vault states it",
+      "content": "greenmans_creation (the owner's Obsidian vault, private) holds the method under `core.synthetic_logic` (obsidian-vault/0-Core/Synthetic-Logic.md), with Foundational Synthesis (2-Synthetic-Practice/Foundational-Synthesis.md) as the practice and a Practice Guide. Four moves: choose a lens with complete coverage (exhaustive, mutually exclusive); overlay an independent lens (orthogonality); preserve polarity rather than collapsing paradox; iterate until the map is usable. Foundational Synthesis is \"identification of boundaries, discovery of fundamental tensions, organization of elements, and validation through testing systemic balance\", using a few abstract tensions \"that classify all system elements, even those we cannot yet see\". Membership is \"relative to the current system boundary\"; drilling into a cell means being \"re-categorized relative to the new local axes\"; categorisation is provisional. Gap-hunting: an empty cell may mean something undiscovered, an over-full cell over-aggregation, a row of empties a misaligned lens. The classic axes (yin/yang as the basal binary; fire/earth/air/water; beginning/sustaining/completing; individual/relational/systemic; the three T3 axes and the bagua as the cube's eight vertices) are the stock lenses because \"a good paradox axis is hard to find\".\n\nThe data shape exists as SQL (sgis/synthetic-gis-schema-v2.sql, seeded by iching-seed.sql and axis-correspondence-claims-v2.sql): `system_boundary` (scope, exclusions, rationale); `axis`, `axis_value`, `lens_set`, `lens_universality_claim`; `space_position` (coordinates per axis) and `representation_cell`; `mapping_claim` with basis, confidence and exceptions (\"Mappings are claims\"); `completeness_audit` (universality, orthogonality, generativity) and `gap_finding` (empty / sparse / normal / over_full); `recursive_scope`, a position that becomes the boundary of a child space. The I Ching seed populates all eight trigram vertices and its audit passes; there is no run yet of the method on a user's own boundary beyond that seed."
+    },
+    {
+      "name": "fit",
+      "label": "How it fits SRS and the dreamtime",
+      "content": "Most of the SGIS shape already has an SRS counterpart: a boundary is a container (and `recursive_scope` is a member that roots a sub-container); a mapping claim is a relation, or a record with a stance field; a gap finding is a diagnostic; the audit is a dream test (exercise d5b55c59, what a dream tests against). What SRS does not have is the axis as a first-class thing: a lens with its ordered values, a universality claim, and a cell as the intersection of two lenses. The programme's own T3 stance lines (decision 9c2f4b0a) are three such axes already applied to 101 decisions.\n\nAs dreamtime work the loop is: take a container as the boundary; guess the axes; place a subset; compare neighbours; recategorise; name the cells; look at the empties; raise the questions. That is the same shape as the existing dream cycle (consolidate, re-verify, rotate the brief) with the arrangement step made explicit."
+    },
+    {
+      "name": "models",
+      "label": "What the local-model results already say about which step a small model can do",
+      "content": "local-lab (2026-11-03/04, finding f8b796d0 in srs-context, decisions 24ed7a61 and 9c2f4b0a here) measured exactly the sub-tasks this loop needs:\n\n- Placing a record on an axis: on T3 line 1 a 7B local model (qwen2.5) reads as well as haiku (kappa 0.50 vs 0.40; humans 0.90). On lines 2 and 3, which need the status quo and who decides as reference, it collapses (0.16, 0.13) while haiku holds 0.5 to 0.6. The small-encoder route (bge + logistic regression, SetFit) is closed at 101 items: the stance \"is not in the surface text\"; it is reasoning over context.\n- The method's own rule explains that result: the axes \"don't define content, they define context\", so a classifier that is not told the boundary cannot place anything on a context-relative axis. The README's named next experiment is the raters' two-step procedure as a two-step prompt, boundary first. That is also the first dreamtime experiment: give the small model the container's identity record and the axis's two poles, then the item.\n- Detecting is local, writing is frontier (24ed7a61): the 7B model found 6 of sonnet's 11 new filing-quality problems in the same window, at zero cost, but wrote none at filing quality. In the mapping loop that puts \"compare a subset, propose a cell\" on the nearby model and \"name the cell, state the gap, raise the question\" on a frontier model called only for what was flagged.\n- `scale` is easy for every model (79 to 88%), `kind` is a rule problem not a model problem (every model at 41 to 45%): an axis with a learnable rule is where a small model earns its place, so the first axes to try are the ones whose poles two blind raters already agree on."
+    },
+    {
+      "name": "laya",
+      "label": "Laya: the model that just categorises",
+      "content": "The owner's named example is Laya (huggingface.co/convaiinnovations/laya, Apache 2.0; card read 2026-11-07). It is a 0.4B non-generative \"System 1 decision model\": a ModernBERT-large backbone with a decision head, given a state (text or JSON) and typed questions, answering `choice` (pick one option), `score` (ordinal) or `noul` (yes/no probability) with calibrated probabilities, and it \"never generates text\". Each option is scored at its own mask token, so a new question needs no retraining. A multilingual checkpoint (322M, mmBERT-base) reads 8,192 tokens. On a Tesla T4 one question takes about 35 ms; on CPU 193 to 464 ms per request; the download is about 800 MB. It is the Jev-class row that decision 9c2f4b0a already asks for.\n\nWhat the card itself says to expect: zero-shot on new typed decisions the base checkpoints are near chance (0.36) and the fine-tuned one reaches 0.77; on natural-language questions it is better zero-shot (MASSIVE intent 0.78, XNLI 0.86); accuracy drops with many options; `score` is the weakest type; it ships over-confident and needs per-domain temperature fitting. So the fit to this loop is a `choice` question per axis with two poles (few options, a question in words) and the boundary passed as the state. The caution from our own encoder result stands: 101 gold items were not enough to fine-tune a 33M encoder, and Laya's head is larger, so the first row is zero-shot with the boundary in the state, not a fine-tune."
+    },
+    {
+      "name": "open",
+      "label": "Open",
+      "content": "Exercise (this thread): which steps of the mapping loop a nearby model can do and how the boundary is given to it. Not yet done: a single run of the loop on one SRS container with a local model placing and a frontier model naming; a Laya row in the axes table; whether axis, lens and cell need to be SRS types or stay a container convention; what the Mozilla form's \"largest parameter count of any core model\" answer becomes once a sub-1B model does a step in the core loop (comment 7f2f09e3)."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

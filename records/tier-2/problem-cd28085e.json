@@ -1,0 +1,24 @@
+{
+  "instanceId": "cd28085e-7f87-41bf-9a8e-ab17bc33efcd",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-158",
+    "title": "Minutes taken in a meeting cannot point at the words they came from",
+    "statement": "While a meeting is being recorded and transcribed, the person taking minutes in the browser cannot see the transcript arrive beside their editor, and a minute they write cannot be connected to the moment of conversation it came from. The connection is lost, or has to be rebuilt by hand afterwards.",
+    "kind": "capability",
+    "source_ref": [
+      "Owner, 2026-11-05 (vignette 248620b9): \"I would probably also be working with an editor in the browser - possibly taking minutes that I want to connect with the transcript?\""
+    ]
+  },
+  "tags": [
+    "suggested",
+    "topic:transcripts",
+    "topic:srs-web"
+  ],
+  "createdAt": "2026-11-05T18:43:44.564335408+00:00",
+  "updatedAt": "2026-11-05T18:43:44.564336947+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

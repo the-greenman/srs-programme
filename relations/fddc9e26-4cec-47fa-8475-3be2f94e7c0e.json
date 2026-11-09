@@ -1,0 +1,9 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "fddc9e26-4cec-47fa-8475-3be2f94e7c0e",
+  "relationType": "com.semanticops.programme/set-against",
+  "sourceInstanceId": "d91facdd-3b8f-4f8d-9152-ffa97cc32d5a",
+  "targetInstanceId": "7ee8fa01-3cab-4ba4-98f0-008f51719c8d",
+  "createdAt": "2026-11-05T19:15:05.480460400+00:00",
+  "notes": "Applies: DC-12 carries the compass into the checks."
+}

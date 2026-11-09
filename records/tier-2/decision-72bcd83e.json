@@ -1,0 +1,30 @@
+{
+  "instanceId": "72bcd83e-8d84-4564-a614-ba088efa8e95",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Alt text and caption on essay images",
+    "decision_question": "Must an image paragraph carry alt text, and what form does its caption take?",
+    "context": "The owner asked for a caption (vignette 02e02668). Alt text is what a screen reader and a text-only export read in place of the image. The essay's agents never write essay text (srs-context decision 82fbca88), so alt text is the writer's.",
+    "friction": "An image without a text equivalent is invisible to some readers and to every text projection of the essay, including search.",
+    "alternatives_considered": "A. Alt text required, caption optional plain text (recommended). For: accessible by default; the caption cannot carry a markdown image, so it stays outside the image route. Against: one required field to fill.\nB. Both optional. For: fastest. Against: images without text equivalents.\nC. Caption as markdown. For: links and emphasis in captions. Against: another markdown surface to police for images.",
+    "key_requirements": "Accessible to screen readers; searchable; no second route for images.",
+    "decision_statement": "Every essay image carries alt text written by the writer, and its caption, when present, is plain text.",
+    "rationale": "Alt text is an accessibility basic and the essay's text projection depends on it; a plain-text caption keeps markdown images out.",
+    "revisit_when": "Writers ask for links or emphasis in captions, or the alt text field is mostly filled with filler.",
+    "owner": "Owner",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "ratified",
+  "tags": [
+    "topic:essay-editor",
+    "topic:images",
+    "holon:essay-images",
+    "topic:accessibility"
+  ],
+  "createdAt": "2026-11-08T17:53:50.493683359+00:00",
+  "updatedAt": "2026-11-08T18:39:27.973424222+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

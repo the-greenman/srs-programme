@@ -1,0 +1,24 @@
+{
+  "instanceId": "1edd8a7c-f35a-4357-b638-618e7fcebf8f",
+  "title": "No real data on the origin of American democracy: a few dots, then suddenly a huge democracy",
+  "tags": [
+    "vignette",
+    "tier-0",
+    "mudemocracy",
+    "small-democracy",
+    "evidence"
+  ],
+  "sections": [
+    {
+      "name": "owner",
+      "label": "Owner's words (2026-11-08, Claude Code, muDemocracy.org)",
+      "content": "\"so, one of the challenges for part 2 is that we don't present any real data on the origin of american democracy.\n\nWe show what looks like a few dots ... and then suddenly a huge democracy.\""
+    },
+    {
+      "name": "derived",
+      "label": "Derived (suggestion)",
+      "content": "The story's central case (small democracy grows into a nation) is the American one, and it is the one the data parts show least: the underneath map has dated pins but no counts before 1800, and the nations map lights the whole modern-border United States at once in 1800. Showing the growth needs a colonial series (towns with town meetings, assemblies, the colonial franchise) from before V-Dem's coverage begins. Follows vignette 24a34cbb."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

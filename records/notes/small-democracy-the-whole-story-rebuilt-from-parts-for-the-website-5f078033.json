@@ -1,0 +1,23 @@
+{
+  "instanceId": "5f078033-66ae-484a-92e0-1a80cf659bfe",
+  "title": "Small democracy: the whole story, rebuilt from parts for the website",
+  "tags": [
+    "vignette",
+    "tier-0",
+    "mudemocracy",
+    "small-democracy"
+  ],
+  "sections": [
+    {
+      "name": "owner",
+      "label": "Owner's words (2026-11-08, Claude Code, muDemocracy.org)",
+      "content": "\"I now want to pull this apart, and rebuild it from component parts in a way that can be added to our mudemocracy website. I need to be able to edit the text to refine it over time (using our standard editor tools, so we probably need to move this into musrs). The design should be standardised, and use styleguide components (we can extend the styleguide). We are adding a new section to the main menu for ideas and research to handle this. We will also add our theory of change there. I will probably also want to be able to embed this animation in other places; it's a core part of our story.\"\n\nSaid of the one-file prototype temp/Small democracy_ the whole story.html (five interactive chapters: the seven marks, a V-Dem world map 508 BC to 2025 with a nations and an underneath view, a Norwich-to-Washington stop-by-stop map, the last-sixty-years charts, and a seven-question self-check) and its ledger temp/Small democracy sources and evidence.md."
+    },
+    {
+      "name": "derived",
+      "label": "Derived",
+      "content": "Work in muDemocracy.org: the story becomes a muSrs website page whose words are records (new block types in the website package, drawn by styleguide components), with the map data as static files and the chapter engines as site code; an Ideas and research menu section holds it and, later, the theory of change."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

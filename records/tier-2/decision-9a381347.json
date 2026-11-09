@@ -1,0 +1,28 @@
+{
+  "instanceId": "9a381347-51cc-4a84-a47c-8047c82ea490",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Who merges a grounded holon's PRs",
+    "decision_question": "In a domain that is not yet mature, who merges the PRs of a holon whose remedy is affirmed and whose rulings are ratified, without a separate authorisation for each holon?",
+    "context": "The owner, 2026-11-08 (vignette 80706a54), on proposal 1234c833: 'why do we need a special decision for this holon? This should be a policy.' Decision 3b910d90 (ratified): a group in an immature domain works under the owner, every PR owner-merged. Decision 2637af0a (ratified): an affirmed remedy counts as a recorded ruling, so a group may auto-merge with a valid quorum, but 3b910d90 overrides it in an immature domain. Decision 1f6dfe3c (ratified 2026-11-06) bridged the two one holon at a time: a holon's setup sitting may authorise its driver to merge at quorum. In practice that authorisation repeats the same judgement every time: the owner has already affirmed the remedy and ratified the rulings, and what is left at each merge is conformance, which the quorum checks. The second holon (semanticops.com#63, essay images) needed it written as its own decision (1234c833). Precedent consulted: 1f6dfe3c and its options; the owner's answer on the first holon, 'you may merge if all reviewers approve' (vignette 286be05e, semanticops.com#49). Each srs-web merge deploys straight to production.",
+    "friction": "Every holon in an immature domain needs a fresh owner decision before it can be driven to finish, though the decision never changes; without it each PR waits on the owner.",
+    "alternatives_considered": "A. Policy: a grounded holon (affirmed remedy, ratified rulings) has its driver merge each PR at quorum, except the PR that first makes the feature usable to writers or readers, which the owner merges after the holon's combined review (recommended). For: no per-holon decision; the owner's one look lands where users first meet the change; 3b910d90 still governs ungrounded work. Against: one deliberate stop per holon.\nB. The same policy with no exception: the driver merges every PR, the switch-on included. For: fully automatic, as the owner allowed on #49. Against: users meet the change with no human look at the whole.\nC. Keep 1f6dfe3c: authorise each holon at its sitting. For: the owner chooses per holon. Against: a decision per holon that repeats itself; the friction the owner named.\nD. Mature the domains (name three tensions each) so 2637af0a applies to all group work. For: the long-term answer. Against: real thinking per domain, and wider than holons; it does not remove the need while domains are young.",
+    "key_requirements": "No per-holon authorisation; respect 3b910d90 for work without an affirmed remedy and ratified rulings; a reviewer other than the builder on every change; a human look before users meet a new feature; changes to a spec ruling, public contract or gate still escalate (2637af0a).",
+    "decision_statement": "The driver of a holon whose remedy is affirmed and whose rulings are ratified merges each of its PRs once the group's quorum approves at head, except the PR that first makes the feature usable, which the owner merges after the holon's combined review.",
+    "rationale": "The owner's judgement is already in the affirmed remedy and ratified rulings, so a per-holon authorisation only repeats it; the quorum checks conformance at each merge, and keeping the switch-on for the owner puts the one human look where users first meet the change.",
+    "revisit_when": "A PR merged under this policy is reverted, or the switch-on stop is waved through without a look often enough that it no longer earns its place.",
+    "owner": "Owner",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "tags": [
+    "topic:holon",
+    "topic:merge"
+  ],
+  "createdAt": "2026-11-08T21:58:23.396778536+00:00",
+  "updatedAt": "2026-11-08T22:08:40.823586212+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

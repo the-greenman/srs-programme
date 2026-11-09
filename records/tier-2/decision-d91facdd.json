@@ -1,0 +1,30 @@
+{
+  "instanceId": "d91facdd-3b8f-4f8d-9152-ffa97cc32d5a",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Decision checklist: one container, reviewed at every owner session for now",
+    "decision_question": "Where do we manage what makes a good decision, and how often is it reviewed while it is new?",
+    "context": "The owner, 2026-11-05 (vignettes 43f236ce and a04e8ab7): 'We need to have a place where we manage our decision checklist. It will need to be reviewed often for a while.' That the place and frequent review are wanted is the owner's; the shape and the stopping rule below are the proposal. Precedent consulted: 7b91246b (gate on a case per option; this holds the content its tests come from), e56d6893 (framing rules as convention first; its four rules become checks here), 7ee8fa01 (a decision is shown with its compass; DC-12 applies it), e337703b (convention before enforcement: the checks start as a convention), 4445b9cf (cite, never re-ask; DC-08). Tension: Reviewable and fast.",
+    "friction": "The checks are scattered, so nobody can tell which version applies, and a low-effort review changes nothing. Frequent review costs session time, in the one place this programme is trying to take load off (SP-113).",
+    "alternatives_considered": "A. Do nothing: the checks stay in the handbook, e56d6893, semanticops.com#37 and the muDemocracy guide. Leads to: the same decisions, the owner keeps clicking recommended.\nB. A handbook section. Leads to: one readable page; each change is a clerk PR; no evidence per check and nothing puts it on an agenda.\nC. One record holding the whole list. Leads to: simple and reviewable, but evidence and retirement cannot attach to a single check.\nD. One record per check in a container, with an open exercise in the decision log that puts the review on every session's agenda (chosen). Leads to: each check changes alone; no new code; fifteen records to keep.\nE. D, reviewed only at the monthly retrospective. Leads to: less session load, and slow learning while the list is most likely wrong.",
+    "key_requirements": "One home the handbook and tools cite, not restate. Review reaches the owner without anyone remembering to raise it. Review stops when it stops changing things.",
+    "decision_statement": "We manage the decision checklist in one container of per-check records, reviewed at every owner session until three reviews in a row change nothing.",
+    "rationale": "D over B and C because the point of frequent review is to change single checks on evidence, which needs each check addressable. D costs no code because an open exercise in the decision log already appears on every session's agenda. D over E because the list is untested on our own decisions, and the owner asked for frequent review while it is new.",
+    "revisit_when": "Not working: the owner holds or skips the review at two sessions running, or the list grows past 15 checks with none retired. Done its job: three reviews in a row change nothing; then the exercise closes and the checks are reviewed at the retrospective.",
+    "next_steps": "Session review through exercise in container 871b27f9; the clerk issue on the checklist makes the handbook, briefs and pr-check cite it.",
+    "owner": "Owner role (SemanticOps)",
+    "status": "proposed",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "tags": [
+    "boundary:decision-flow",
+    "topic:decisions"
+  ],
+  "createdAt": "2026-11-05T19:13:59.309053383+00:00",
+  "updatedAt": "2026-11-06T14:24:51.219959089+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

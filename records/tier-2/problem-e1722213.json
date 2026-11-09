@@ -1,0 +1,25 @@
+{
+  "instanceId": "e1722213-b406-48e3-be4f-ba1a3152b7c4",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-162",
+    "title": "An agent cannot weigh what other members wrote",
+    "statement": "An agent loading a long-term memory that others also write takes in what it reads as context, whoever wrote it. A record from another member's agent can steer this agent's work months later, and nothing says what the agent may rely on, what is only someone's testimony, and what it must never treat as an instruction.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme: vignette 0b9b055b",
+      "Reasoned from the shared-memory design on 2026-11-06, not yet seen in use; SP-135 is the neighbouring problem about whether memory is current"
+    ]
+  },
+  "createdAt": "2026-11-08T21:15:27.895609313+00:00",
+  "updatedAt": "2026-11-08T21:15:27.895613885+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

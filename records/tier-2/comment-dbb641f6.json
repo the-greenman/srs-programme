@@ -1,0 +1,18 @@
+{
+  "instanceId": "dbb641f6-96ba-4eba-a181-2f77e0e1679d",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "This is a startin point. We may want to change later."
+  },
+  "createdAt": "2026-11-08T18:39:29.148640693+00:00",
+  "updatedAt": "2026-11-08T18:39:29.148643483+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

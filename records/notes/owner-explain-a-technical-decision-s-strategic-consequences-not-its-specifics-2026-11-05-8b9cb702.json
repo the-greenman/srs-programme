@@ -1,0 +1,16 @@
+{
+  "instanceId": "8b9cb702-fca1-449a-a45c-75320a8e6f6e",
+  "title": "Owner: explain a technical decision's strategic consequences, not its specifics (2026-11-05)",
+  "tags": [
+    "vignette",
+    "topic:decisions"
+  ],
+  "sections": [
+    {
+      "name": "owner-words",
+      "label": "Owner's words (verbatim)",
+      "content": "ok. I can now do a bit better with the decision. \nIt was explained more. \n\nWe may however have some other kind of requirement here. \n\nThis links back to decisions in context. \nWhen we have a detailed technical decision that has consequences, we need to be better at explaining the consequences, rather than the specifics. \n\nSince very little of my work is now writing real code, or looking at the json of the spec, the information that matters in a larger context is stategic. Each option opens up or shuts down strategic paths that are not immediately recognisable."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

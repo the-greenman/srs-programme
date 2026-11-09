@@ -1,0 +1,33 @@
+{
+  "instanceId": "d7ec7b1a-5284-409d-9204-da5f378cd2b5",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "2. Two writers on one memory: the test",
+    "summary": "Two people on separate clones can share one memory with today's tools: adds merge cleanly and a clash on one record is visible. A claimed author goes unchecked, and copying a split back silently lost an edit.",
+    "evidence": [
+      "Build v0.1.0-build.602, dataModelRevision 11, a scratch repository with two git clones and ssh-signed commits, 2026-11-06.",
+      "10 notes each added concurrently to one container: git merge reported 0 conflicts, repo validate 0 errors, 21 members present.",
+      "Both writers edit one record: a git conflict in that one file, and repo validate fails until it is resolved.",
+      "SRS_ACTOR is self-declared: Bob created a note with createdBy alice and repo validate reported 0 errors.",
+      "An update by Bob left createdBy as alice and added no record of the editor.",
+      "A script comparing createdBy with the signer of the commit that added each file reported the forged record and no false positives on the honest clone. It needs git log --no-renames, because --follow treats near-identical JSON files as renames.",
+      "A relation to a record in another repository is refused with relation-endpoint-unknown.",
+      "slice export then archive unpack gave a new repositoryId, slice.origin.repositoryId and exportedAt, the same instance ids, and 0 validation errors. The origin holds no base version.",
+      "repo diff between home and split listed modified instances by id, with no way to say which side changed them.",
+      "Copying split records back over home discarded a home edit, with repo validate at 0 errors.",
+      "On srs-context origin/main, recent 'save: N files written through the server' commits have git signature status N (none), then a GitHub merge commit."
+    ],
+    "body": "Not tested: real agents, a shared server, a network, more than two writers, or long use. The clones avoid the registry server's lack of a write lock, which the 2026-11-04 research recorded.\n\nThe scratch repository was thrown away after the test. It is cheap to repeat."
+  },
+  "tags": [
+    "research",
+    "topic:shared-memory",
+    "topic:signed-writes"
+  ],
+  "createdAt": "2026-11-06T09:27:50.489876657+00:00",
+  "updatedAt": "2026-11-06T09:27:50.489879108+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

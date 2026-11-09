@@ -1,0 +1,25 @@
+{
+  "instanceId": "16741e97-6a4a-4362-a7f7-4c8e72bc59a4",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-143",
+    "title": "A registry server can only be reached from its own machine",
+    "statement": "I need to read, and where allowed write, the repositories a registry server holds from another machine: a cloud routine, a second laptop, another server resolving a remote locator. srs mcp serve speaks stdio only, so a server is reachable only by a process on its own host, and an RFC-049 remote locator answers locator-unusable.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-11-04: vignette 662defe9 (srs-programme, conversation 09be2f75)",
+      "srs-rust#1551; RFC-049 (srs#913)"
+    ]
+  },
+  "createdAt": "2026-11-08T21:23:32.407021705+00:00",
+  "updatedAt": "2026-11-08T21:23:32.407025675+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

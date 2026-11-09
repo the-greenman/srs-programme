@@ -1,0 +1,29 @@
+{
+  "instanceId": "1234c833-aab4-4f95-9c3f-13028d5ca2fa",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Merging the essay images holon's PRs",
+    "decision_question": "Under decision 1f6dfe3c, may the essay images holon's driver merge its own PRs once the group's quorum approves at head, and for which items?",
+    "context": "Decision 1f6dfe3c (ratified 2026-11-06) lets a holon's setup sitting authorise its driver to merge at quorum; without that authorisation, decision 3b910d90 applies (immature domain: every PR owner-merged). Domain Evidence-backed writing still names no tensions. The essay images holon (semanticops.com#63) has its problem affirmed (SP-164, 55cede0b) and its rulings D1-D7 ratified (srs-programme commit 8646300); its remedy fd1b4728 is still a suggestion, so the mandate rests on the rulings. The chain is eight PRs across srs-rust, muDemocracy.org and srs-web. Each srs-web merge deploys straight to production. Two items change what a writer sees: srs-web#763 stops markdown images showing in normal paragraphs (no real essay paragraph has one, finding e640280f), and srs-web#766 turns image paragraphs on. srs-rust#1608 is a release. Precedent consulted: 1f6dfe3c and its option C; the owner's answer on the first holon, 'you may merge if all reviewers approve' (vignette 286be05e, semanticops.com#49).",
+    "friction": "Without an authorisation the holon stops on the owner's desk eight times, once per PR, and cannot be driven to finish.",
+    "alternatives_considered": "A. Authorise all eight. For: fully automatic, as on #62. Against: writers see the feature without the owner looking first.\nB. Authorise none; the owner merges each with clerk merge. For: the owner sees every change. Against: eight stops.\nC. Authorise every item except srs-web#766, which turns the feature on; the owner merges that one after reading the holon's combined review (recommended; 1f6dfe3c's own option C). For: one deliberate stop at the moment writers see it; everything else, including the release and the markdown-image removal no essay uses, flows at quorum. Against: one stop.\nD. Name the domain's tensions so it matures and 2637af0a applies to all group work. For: ends the question for good. Against: real thinking for the owner, not to be rushed for one holon, and it widens delegation well beyond this work.",
+    "key_requirements": "Respect 3b910d90 outside this holon; a reviewer other than the builder on every change; nothing a writer can use without a green combined review; the authorisation ends when #63 closes.",
+    "decision_statement": "The essay images holon's driver may merge each of its PRs once the group's quorum approves at head, except the item that turns image paragraphs on, which the owner merges after the combined review.",
+    "rationale": "The rulings are already judged, so what is left at each merge is conformance, which the quorum checks; keeping the switch-on for the owner puts the one human look where a writer would first meet the feature.",
+    "revisit_when": "A PR merged under this authority is reverted, or the domain matures and 2637af0a makes it unnecessary.",
+    "owner": "Owner",
+    "decision_kind": "mandate"
+  },
+  "lifecycleState": "abandoned",
+  "tags": [
+    "topic:holon",
+    "topic:merge",
+    "holon:essay-images"
+  ],
+  "createdAt": "2026-11-08T21:55:15.062407789+00:00",
+  "updatedAt": "2026-11-08T21:58:37.786595283+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

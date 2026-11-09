@@ -1,0 +1,29 @@
+{
+  "instanceId": "2ec3671d-f901-4d0f-8bcf-462f3b8dec04",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Markdown images in normal paragraphs",
+    "decision_question": "Where does a markdown image in text stop displaying?",
+    "context": "The owner, 2026-11-08 (vignette 02e02668): 'make sure that we can't add images by markdown that display in a normal paragraph for now.' Every display path in srs-web renders through the core render_markdown, which today shows http(s) and relative image URLs. None of the 87 real essay paragraphs measured in finding e640280f contains an image. Other surfaces (comments, help, record fields) also render markdown.",
+    "friction": "While markdown images display, the image paragraph is not the only route, and its ownership and layout rules can be bypassed.",
+    "alternatives_considered": "A. Normal essay paragraphs only, through a render option in the core (recommended). For: exactly what was asked; no other surface changes; the source text is kept, so lifting the rule later restores the image. Against: other surfaces still show remote images.\nB. Every markdown surface. For: no remote images anywhere. Against: wider than asked; help and handbook records may use them.\nC. Strip the markup on save. Against: changes the writer's text.",
+    "key_requirements": "Normal paragraphs show no image (owner); the writer's text is never changed; semantics stay in the core.",
+    "decision_statement": "A normal essay paragraph renders without images, keeping the markdown in its source unchanged.",
+    "rationale": "It closes the bypass where it was asked, without touching other surfaces or the writer's words.",
+    "revisit_when": "Remote images cause trouble on another surface, or writers want images inside text and the image paragraph is extended to allow it.",
+    "owner": "Owner",
+    "decision_kind": "boundary"
+  },
+  "lifecycleState": "ratified",
+  "tags": [
+    "topic:essay-editor",
+    "topic:images",
+    "holon:essay-images"
+  ],
+  "createdAt": "2026-11-08T17:53:50.668382592+00:00",
+  "updatedAt": "2026-11-08T18:39:27.720980482+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

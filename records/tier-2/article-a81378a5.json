@@ -1,0 +1,22 @@
+{
+  "instanceId": "a81378a5-ba55-4d80-9f63-e6d85993e0ec",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "article_number": "DC-15",
+    "title": "Consequences in the decision's own context",
+    "article_text": "A decision is presented with what is relevant in its context. Strategic form: each option says which strategic paths it opens and which it shuts, and which problems and remedies it serves or works against, by id; mechanism sits behind a link; paths an agent inferred are marked as inferred. Technical form: used only when real technical judgement is needed, and it states exactly what the technical context is (the component, the constraint, the evidence and what the person deciding has to weigh). It still says what moves strategically, or that nothing does. If no option opens or shuts a path and no technical judgement is needed, the decision stays at the level where it removes choices and does not reach the owner. Checked by: mechanical for presence and resolvable ids; judgement for whether the stated paths are the real ones.",
+    "rationale": "The owner, 2026-11-05 (vignettes 8b9cb702 and 2f33caa2): the information that matters in a larger context is strategic, and each option opens or shuts paths that are not immediately recognisable. Sharpens SP-126: a technical choice is noise in a strategy session only if it moves nothing. First tried by hand on srs#998 D1, which the owner found far more valuable for review.",
+    "revisit_when": "Not working: reviews find the stated paths were not the real ones, or the field is filled with restated mechanism. Done its job: the owner can name the path they chose between without opening the technical text."
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:decisions",
+    "decision-checklist"
+  ],
+  "createdAt": "2026-11-05T19:56:48.191293159+00:00",
+  "updatedAt": "2026-11-05T19:56:48.191295373+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

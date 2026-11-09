@@ -1,0 +1,24 @@
+{
+  "instanceId": "73ae8761-f9a2-4081-8cf2-4c86c00c3a07",
+  "title": "Answering the challenger: agents add to the repo, the website is surface meaning, the middle path with AI, the container holds the rough work (2026-11-06)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:domain-definition",
+    "topic:essay-editor",
+    "topic:human-ai-collaboration"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "if you want the peer thing, I only have the art version: /home/greenman/Dropbox/Feral Sanctity\nIt's not part of srs or the editorbut this is all part of the same flow of work. \n\n\nSome challenger responses: \nThe agents add to the repo. I can have a conversation and a an agent can add references, notes and other materials. We just limit it's ability to create the mainparagraph text. \n\nThe website editor is a sister domain. There I don't have quite the same strictness. The copy on a website workd differently. It uses fewer words, and I can edit it easier. The essay editor is about deeper meaning. The website is suface meaning. I still want to easily know what an agent has written, but I will sometimes want to get pages done quickly. \n\nThe whole point of SRS is the layers. The final output is the paragraph. But what lies underneath could be months of work. the Mu Theory of change is months of building up the context before attempting to write a few paragraphs. \n\nSharing srs is not really the domain for the editor. But an essay is a specific onstruct on top of srs. it's pointless sharing an essay in a generic viewer. \n\nI will promote this to people as a way of demonstrating how we can take the middle path with AI. We don't have to throw it out. We don't have to surrentder. My audience are people we are trying to find this path. I want to show them that there are ways of achieving this. They may not be dedicated writers, they may be more technical, but they will be actively thinking about how they preserve their skills while also embracing AI. They will be inerested people. They won't be writing a novel. They may try writing a researched essay. \n\nKeeping the process means holding the rough work to build an understanding. The container holds the doubts, the questions, the failures, the discoveries. \n\n\"Whether the domain anchors are too simple\" .... I have no idea what the question is here? This seems t be a misunderstanding of the whole concept. \n\nAI's depth and creativity anchors have almost no older ground. This may be the first time I've framed it like this. But all my work is AI fuelled. But I personally need to put myself back in charge too."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-06, replying to the challenger's contested list on the third experiment's reading page (agent limits, website editor, keeping the process, sharing SRS, audience, whether the domain is too simple, depth and creativity); recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

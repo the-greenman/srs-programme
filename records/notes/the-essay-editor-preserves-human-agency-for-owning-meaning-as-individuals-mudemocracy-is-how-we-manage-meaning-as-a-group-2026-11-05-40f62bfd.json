@@ -1,0 +1,24 @@
+{
+  "instanceId": "40f62bfd-1e7e-4c6e-8cf6-a4642d8ba8ae",
+  "title": "The essay editor preserves human agency for owning meaning as individuals; muDemocracy is how we manage meaning as a group (2026-11-05)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essay-editor",
+    "topic:sovereignty",
+    "topic:help",
+    "topic:onboarding",
+    "topic:mudemocracy"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "Essay.semanticops.com needs to explain itself on its homepage so that what makes it distinct is clear.\n\n\nFor the help update, a few points worth covering:\nThe rule: the agent advises and assists, and every word of copy is the author's.\nWhat the agent can do: critique, questions, structure, research, validation, highlighting passages.\nWhat it can't do: draft, rewrite or \"improve\" sentences, plus a short line on why.\nHow the editor enforces this, so it reads as a design choice rather than a missing feature.\n\n\nWe can also link this with muDemocracy.\n\nOur work is about wise use of AI. Writing is important, and AI writing needs to be kept to where it adds value, not where it takes over meaning. \n\nThe idea behind semantic Ops is that we are working with meaning. SRS preserves meaning layers in one document. The essay editor preserves the human agency for owning the meaning. AI supports it.\n\nThe essay editor is an example of how we own our own meaning as individuals. muDemocracy is a project about how we managed meaning as a group"
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-05. Recorded verbatim. Follows vignette 24c38533 (2026-11-03)."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

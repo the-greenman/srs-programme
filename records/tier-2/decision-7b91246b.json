@@ -19,13 +19,13 @@
     "status": "proposed",
     "decision_kind": "policy"
   },
-  "lifecycleState": "draft",
+  "lifecycleState": "ratified",
   "tags": [
     "boundary:decision-flow",
     "topic:decisions"
   ],
   "createdAt": "2026-11-03T15:08:48.875782519+00:00",
-  "updatedAt": "2026-11-03T15:08:48.875784888+00:00",
+  "updatedAt": "2026-11-06T14:24:50.234463982+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:claude-code",

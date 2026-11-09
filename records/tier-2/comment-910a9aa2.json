@@ -1,0 +1,18 @@
+{
+  "instanceId": "910a9aa2-666d-4263-b227-ebd5bd78048c",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed: We have few users. do it right!"
+  },
+  "createdAt": "2026-11-08T21:06:50.701982812+00:00",
+  "updatedAt": "2026-11-08T21:06:50.701987674+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

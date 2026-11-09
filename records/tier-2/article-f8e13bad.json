@@ -1,0 +1,21 @@
+{
+  "instanceId": "f8e13bad-42c3-449b-9434-fcdf8da88f9d",
+  "typeId": "a1142ac3-5385-5c0e-8630-1dd3432cdf7f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "article",
+  "fieldValues": {
+    "article_number": "DC-01",
+    "title": "One decision",
+    "article_text": "The decision fits in one sentence in the active voice: \"We will…\" or \"We agree…\". If it contains \"and\", try splitting it. Anything decided by default alongside it is named on its own line, never left as \"decided unless you object\" in the prose. Checked by: judgement, with a mechanical test that a resolution sentence exists.",
+    "rationale": "From the owner's meeting review, where one of seven records held a single decision. An ask written only as a question leaves nothing to read back."
+  },
+  "lifecycleState": "draft",
+  "tags": [
+    "topic:decisions",
+    "decision-checklist"
+  ],
+  "createdAt": "2026-11-05T19:13:58.067852344+00:00",
+  "updatedAt": "2026-11-05T19:13:58.067855178+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

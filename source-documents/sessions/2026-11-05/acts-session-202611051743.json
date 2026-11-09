@@ -1,0 +1,37 @@
+{
+  "session": "31b86f9e-467f-4b0a-a51f-02dba26712dd",
+  "acts": [
+    {
+      "at": "2026-11-05T17:44:58.037Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 1,
+      "seen": [],
+      "updatedAt": "2026-11-04T14:05:00.340525913+00:00",
+      "kind": "ratify",
+      "id": "fa685656-718f-4348-a816-64be631c30b9",
+      "title": "The essay package holds the basic building blocks of structured writing: source, quotation and problem, and argument builds on it"
+    },
+    {
+      "at": "2026-11-05T17:45:09.314Z",
+      "section": "Reports",
+      "position": 1,
+      "of": 2,
+      "seen": [],
+      "kind": "receive",
+      "id": "4bfbecc1-97b7-45c6-9a9e-744cd96513c3",
+      "title": "WG Agent-supported editor report 2026-11-05"
+    },
+    {
+      "at": "2026-11-05T17:45:19.801Z",
+      "section": "Reports",
+      "position": 2,
+      "of": 2,
+      "seen": [],
+      "kind": "receive",
+      "id": "661ca3ed-1016-46f4-a413-c33b4291edda",
+      "title": "WG Third-party ready report 2026-11-05"
+    }
+  ],
+  "words": []
+}

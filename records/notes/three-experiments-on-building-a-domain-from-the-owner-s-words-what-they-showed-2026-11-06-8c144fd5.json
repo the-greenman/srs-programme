@@ -1,0 +1,37 @@
+{
+  "instanceId": "8c144fd5-db40-407f-a557-2a0252469ce9",
+  "title": "Three experiments on building a domain from the owner's words: what they showed (2026-11-06)",
+  "tags": [
+    "experiment",
+    "topic:domain-definition",
+    "topic:synthesis"
+  ],
+  "sections": [
+    {
+      "name": "finding",
+      "label": "What they showed",
+      "content": "An agent's reading; nothing here is affirmed.\n\nThe owner's blank page did what the agents could not. Written before reading any AI summary, their statement held ideas neither run reached, including AI as a peer and what the two together can do. The runs, told to add nothing, summarised the past accurately. Their picture of an assistant under limits was faithful to the notes they had, and wrong about the domain.\n\nThe sequence that worked: the owner writes first; agents test older words against it, and a challenger attacks the result; the owner replies; the owner rewrites. The owner's replies settled more than all three runs. The agents' best use here was giving the owner something to push back on.\n\nThis supports the owner's model in 8b5b80d6: vignettes and affirmations are anchors, and AI brings the coherence between them."
+    },
+    {
+      "name": "runs",
+      "label": "The runs",
+      "content": "1. Hand-sorted: the owner's words placed under their old domain template by one agent. The owner: \"The last one was very valuable\" (15f05353).\n\n2. Blueprint synthesis: two independent agents and a challenger, 37 vignettes including 6 about other domains. 43 and 58 statements; 28 of 58 ideas the same. All 101 quotes exact. Neither run placed an out-of-domain vignette in scope. The challenger raised 18 problems, some of them wrong.\n\n3. Anchored test: the owner's statements fixed as 23 verbatim passages; 43 older notes tested. 90 and 83 readings; 41 of 100 ideas the same. All 173 quotes exact. The challenger raised 15 problems and named 6 passages with no real backing in these notes.\n\nSRS blueprints, protocols and aiGuidance worked end to end with no workaround. The agents in runs 2 and 3 worked from the blueprint brief alone."
+    },
+    {
+      "name": "limits",
+      "label": "Limits to keep in mind",
+      "content": "- A gap in the sources reads as a gap in the owner's thinking. The notes used start on 24 October, while semanticops.com and the spec rest on the PDF for meaning (a0e650ea), and the early conversation isn't available. The agent reporting this said some ideas were new, which was wrong. Any such test must state what it was tested against, the date range, and what's known to be missing.\n- Peer idea: Feral Sanctity (October 2025, credited 'collective (human + machine)', CC BY 4.0) has \"Human and machine meeting at boundary to create what neither could alone.\" It wasn't in the test, so its absence said nothing.\n- All three agents missed the owner's 25 October line in 69b6ad45 about conversations in a web AI chat feeding in vignettes. Exact quotes don't prove readings are complete or right.\n- The challenger misread the owner's line on domains being 'too simple', and the reporting agent repeated it. The owner: \"This seems t be a misunderstanding of the whole concept.\" (73ae8761)\n- A vignette holds the owner's half of an exchange, so context gets lost."
+    },
+    {
+      "name": "blueprint",
+      "label": "For the next blueprint",
+      "content": "Add a required statement of what was tested against. Date every note on import. Say the direction of each relation in the brief. Give guidance on granularity. Have a home for claims about the method. Don't ask for a boundary before statements exist, unless the owner has written it. Mark AI summaries, and don't accept them as support for the owner's views."
+    },
+    {
+      "name": "files",
+      "label": "Where the files are",
+      "content": "Local only, not in git: /home/greenman/dev/semanticops/working/editor-domain-experiments-2026-11-06/ holds the build scripts, sandboxes, run outputs and pages. They stay out of this public repository because they include text from muSrs, which is private. Reading pages, private to the owner: run 1 https://claude.ai/artifact/L7stMdrTzgAM6v59ooPvnq, run 2 https://claude.ai/artifact/LZznXhdT3MhPoXmM4ZsvoC, run 3 https://claude.ai/artifact/7fFCPDEk9xPTMJcsUnmk3R"
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
