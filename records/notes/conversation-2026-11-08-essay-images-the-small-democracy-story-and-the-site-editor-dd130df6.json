@@ -1,0 +1,32 @@
+{
+  "instanceId": "dd130df6-6067-41a2-8d92-671c191de6f6",
+  "title": "Conversation 2026-11-08: essay images, the small democracy story and the site editor",
+  "tags": [
+    "conversation",
+    "topic:attachment-policy",
+    "topic:components",
+    "topic:essay-editor",
+    "topic:holon",
+    "topic:ideas",
+    "topic:images",
+    "topic:merge",
+    "topic:site-editor"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner on SRS as an interchange format, embedded images in essays and the holon that builds them, the small democracy story and its seven marks, and using components properly in the site editor. This note is the conversation's identity record; the vignettes are the owner's words."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-10, gathering the vignettes of 2026-11-08 that sat in no conversation container (vignette ef16e77c); grouped by date."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

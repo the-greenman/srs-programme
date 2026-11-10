@@ -1,0 +1,32 @@
+{
+  "instanceId": "c8d6715c-bf5d-4a2b-9132-93bd5ae1f437",
+  "title": "Conversation 2026-11-09: transcripts, governance minutes and the axes experiments",
+  "tags": [
+    "conversation",
+    "topic:affirmation",
+    "topic:axes",
+    "topic:domains",
+    "topic:dreamtime",
+    "topic:essay-editor",
+    "topic:local-models",
+    "topic:mudemocracy",
+    "topic:transcripts"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner on live transcription, meetings and minutes as a governance domain, the transcript remedies not being on firm ground, stopping the axes experiments for now, and cursor lag in the editor. This note is the conversation's identity record; the vignettes are the owner's words."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-10, gathering the vignettes of 2026-11-09 that sat in no conversation container (vignette ef16e77c); grouped by date."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

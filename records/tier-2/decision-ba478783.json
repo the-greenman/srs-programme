@@ -19,7 +19,7 @@
     "status": "proposed",
     "decision_kind": "preference"
   },
-  "lifecycleState": "draft",
+  "lifecycleState": "proposed",
   "tags": [
     "suggestion",
     "topic:unknown-content",
@@ -27,6 +27,6 @@
     "topic:portability"
   ],
   "createdAt": "2026-11-10T12:09:50.147804767+00:00",
-  "updatedAt": "2026-11-10T12:09:50.147806207+00:00",
+  "updatedAt": "2026-11-10T13:12:47.663311868+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

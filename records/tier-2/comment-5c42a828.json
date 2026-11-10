@@ -1,0 +1,18 @@
+{
+  "instanceId": "5c42a828-bbd4-4063-8c09-c883c2b25cd2",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dissent (agent reviewer, 2026-11-09, recorded by hand per remedy 2829dcf3): part of the evidence for the server-sent events transport is weaker than this remedy's sources state. The reviewer of the spike (srs-web#773, closed) found that \"typing survives 311/311\" with server-sent events is true by construction: the test's stand-in panel appended cues to the page and never touched the record form, so it shows the stream does not touch the document, not that the real panel keeps a minute being typed. The \"about 1 ms\" figure was measured in the handler, not to the screen. Chrome's local network access block was tested only headless against a fake origin with a simulated grant; headed Chrome and Brave are untested. The (b) result, MCP writes wiping a typed minute, had no control run. The reviewer held that none of this changes the choice of transport. Open until srs-web#768 measures typing and delay in the real panel. Sources: semanticops.com#59, srs-web#773 review comment, srs-web#772.",
+    "kind": "objection"
+  },
+  "tags": [
+    "dissent",
+    "topic:transcripts"
+  ],
+  "createdAt": "2026-11-10T13:12:52.478693865+00:00",
+  "updatedAt": "2026-11-10T13:12:52.478697204+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,18 @@
+{
+  "instanceId": "d2a00e6c-8040-4d2c-8562-fe5ed7d393cc",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dissent (agent reviewer, 2026-11-09, recorded by hand per remedy 2829dcf3): the live use of this split rests on too few decisions. The reviewer of local-lab detect.mjs (semanticops.com#65) judged \"qwen for potential decisions only\" directionally supported but weak, because qwen's real-meeting decision precision came from 5 flags, and 3 after the corrected re-run (all 3 right, but only 3 raised in 52 minutes). Precision on 3 says little; decision recall on real speech is unmeasured, because the sonnet judge sees only what was flagged. The builder accepted the recommendation and recorded the limit; it was not resolved. Bears on this decision's revisit trigger \"the detector's recall against a frontier reference falls below half on a new task\": live detection is a new task, and its recall has not been measured. Sources: semanticops.com#65 (review and corrected run report), finding 81a34482, the-greenman/transcribe#10.",
+    "kind": "objection"
+  },
+  "tags": [
+    "dissent",
+    "topic:local-models"
+  ],
+  "createdAt": "2026-11-10T13:12:52.372931864+00:00",
+  "updatedAt": "2026-11-10T13:12:52.372933973+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
