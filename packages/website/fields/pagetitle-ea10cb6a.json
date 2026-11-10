@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Name the page for editors and navigation; it is not necessarily the public hero headline."
+  },
+  "createdAt": "2026-09-14T17:07:37.996242233+00:00",
+  "description": "Internal page title.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "ea10cb6a-7a33-4b95-a13f-db8304e1a125",
+  "name": "page_title",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

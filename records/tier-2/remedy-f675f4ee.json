@@ -1,0 +1,32 @@
+{
+  "instanceId": "f675f4ee-92e1-48e4-bede-2fb8eadb871a",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Dissent is recorded on the decision it disagrees with",
+    "move": "Whenever an agent dissents in operation (a reviewer's `decision <id>: dissent`, a reviewer's finding the builder accepts rather than fixes, a minority view in a multi-agent review), write it as a comment on the decision record, tagged dissent, with who, why and the PR it came from. A decision's revisit then reads its dissent first, and the session agenda shows how much dissent each decision carries. Start by observing: take a few multi-agent decision processes as they run and record their dissent by hand before automating it.",
+    "does_not_fix": "It does not make agents dissent well, or at all: a reviewer prompted to agree will not. It does not decide what a revisit does with the dissent. A finding with no decision to attach to (a code choice in a PR) still has no home unless the PR names one.",
+    "falsifier": "Over a few cycles the recorded dissent never changes a revisit, a ratification or a revisit trigger; or it is so frequent and so minor that nobody reads it.",
+    "source_ref": [
+      "srs-programme vignette 948ec7ef (the owner, 2026-11-10)",
+      "muDemocracy.org/reference/Delegation in historic small democracy.md (report-back element 5; the John Lewis published reply; Dedham's unrecorded votes)",
+      "clerk/routines/wg-reviewer.md step 10"
+    ],
+    "return_when": "Agent reviews are rare enough that the PR history is read anyway at every revisit."
+  },
+  "tags": [
+    "suggested",
+    "topic:governance",
+    "topic:dissent"
+  ],
+  "createdAt": "2026-11-10T14:24:32.595+00:00",
+  "updatedAt": "2026-11-10T14:24:32.595+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

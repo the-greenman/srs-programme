@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Use a stable destination; no publishable placeholders."
+  },
+  "createdAt": "2026-09-14T17:07:39.662901821+00:00",
+  "description": "CTA destination.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "3212e6db-310c-4b07-b490-d516d41c0567",
+  "name": "action_href",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "One of: hero (a guide's title, subtitle and intro, as a page opening), section (the section as the guide renders it), record (an example table shown as one decision record in a deck). The words stay the guide's."
+  },
+  "createdAt": "2026-10-19T11:31:30Z",
+  "description": "How a guide-section block shows the guide record it uses.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "366afa11-15d4-4a10-8336-64033dbba6a0",
+  "name": "render_as",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

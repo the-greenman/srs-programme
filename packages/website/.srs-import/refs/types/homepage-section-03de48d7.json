@@ -1,0 +1,47 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "purpose": "Every section has one reader-state change and one editorial job. Preserve the page argument without duplicating it. Do not introduce unsupported claims, hide disagreement, or confuse editorial objective with public copy."
+  },
+  "createdAt": "2026-09-14T17:08:18.468152225+00:00",
+  "description": "Shared editorial metadata for every renderable homepage block.",
+  "fieldOrder": [
+    "45fbb93a-fd8d-4df6-a028-81ac07de1d5e",
+    "9772acd5-c431-4dec-a71f-531295d084d7",
+    "2bf57b24-bd34-4e9a-a306-962aa3c62418",
+    "40527886-7a33-4328-b478-9352c6e116d6",
+    "acc4c3d9-adae-424b-86a8-5dafbb7d7682"
+  ],
+  "fields": [
+    {
+      "fieldId": "45fbb93a-fd8d-4df6-a028-81ac07de1d5e",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "9772acd5-c431-4dec-a71f-531295d084d7",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "2bf57b24-bd34-4e9a-a306-962aa3c62418",
+      "order": 3,
+      "required": true
+    },
+    {
+      "fieldId": "40527886-7a33-4328-b478-9352c6e116d6",
+      "order": 4,
+      "required": true
+    },
+    {
+      "fieldId": "acc4c3d9-adae-424b-86a8-5dafbb7d7682",
+      "order": 5,
+      "required": false
+    }
+  ],
+  "id": "03de48d7-f3b5-45da-89c7-7718e4e80d58",
+  "identityFieldId": "45fbb93a-fd8d-4df6-a028-81ac07de1d5e",
+  "name": "homepage-section",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

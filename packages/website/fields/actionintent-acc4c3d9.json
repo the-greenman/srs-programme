@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "State the intended action or explicitly say None; it is not button text."
+  },
+  "createdAt": "2026-09-14T17:07:38.491135162+00:00",
+  "description": "Non-rendered intended next action.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "acc4c3d9-adae-424b-86a8-5dafbb7d7682",
+  "name": "action_intent",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

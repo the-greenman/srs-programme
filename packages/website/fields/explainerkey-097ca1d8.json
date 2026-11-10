@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "The name of the explainer's scene set in the site code, for example decision-recording."
+  },
+  "createdAt": "2026-10-19T11:31:30Z",
+  "description": "Which video explainer an explainer block shows.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "097ca1d8-626c-4b6f-8adb-4d2391abe634",
+  "name": "explainer_key",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

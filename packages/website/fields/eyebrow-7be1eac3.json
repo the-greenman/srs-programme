@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Use a compact orienting phrase; do not duplicate the headline."
+  },
+  "createdAt": "2026-09-14T17:07:38.550303662+00:00",
+  "description": "Optional short hero overline.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "7be1eac3-08be-408b-ac66-74baaac076a0",
+  "name": "eyebrow",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}
