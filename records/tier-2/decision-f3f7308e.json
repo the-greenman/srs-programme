@@ -1,0 +1,34 @@
+{
+  "instanceId": "f3f7308e-fe82-4d9e-94e3-f6830104184e",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Relation list reads show who asserted",
+    "decision_question": "Should every relation list read (CLI `relation list`, WASM `list_relations`, MCP, and the relations inside a context read) carry the relation's createdBy when present, or should a client fetch each relation with `relation get` to learn who asserted it?",
+    "context": "The exercise 'Relation reads hide who asserted a link' (dd1a47a7, 2026-10-23, release v0.1.0-build.545) found that `relation get` returns the whole stored relation, createdBy included, while `relation list`, WASM `list_relations` and the relations in `context_record` return only relationId, relationType, sourceId, targetId and two labels. Re-checked on 2026-11-10: unchanged; RelationSummary in srs-repository relation_service.rs has only id, type, source, target and labels, and context_service carries no created_by. RFC-046 (rfc-decision-d5524758) rules how createdBy is stamped and preserved ('testimony, never authority') but no rule says which reads must show it. The analyst's recommendation was additive: carry createdBy, notes and meta on every relation read, and defer a createdBy.kind filter. A Challenger noted the exercise bundles two needs: createdBy on list reads is small, while notes and meta are the heavy part and serve one client, the muDemocracy site editor (muDemocracy.org#350, which still parses relations/*.json from export_tree() in site-editor/src/model.ts to get meta.anchor), and that client is converging onto srs-web#601. This record therefore rules createdBy only and leaves notes and meta to a later ruling. Decision 0b1c25b1 requires a recorded ruling before the Third-party-ready group files a CLI, payload or WASM contract change; this record is that ruling. It answers SP-10 (unattributed claims are taken as fact) under affirmed remedy f37a6c3a (carry origin and identity through every change).",
+    "friction": "In every list read an agent's proposed link and the owner's confirmed one look the same, so a reviewer cannot see what agents asserted without one `relation get` per relation. srs-rust#1411 cannot be filed as group work without a ruling, and srs-web's typed client has a createdBy field with nothing to fill it from list calls.",
+    "alternatives_considered": "1. Carry createdBy on every relation read when present (recommended): an additive field on the summary payload in CLI, WASM, MCP and context reads. Leads to: attribution visible wherever relations are listed, at the cost of one small object per relation. 2. Carry createdBy, notes and meta on every relation read (the analyst's original recommendation): serves the site editor's meta.anchor need too, but makes the summary grow toward the full record, weighs on large lists (3,000 relations), and serves one client that is moving to a shared foundation. 3. Keep the list a summary and have clients call `relation get` per relation: no contract change, but N extra reads, and each client re-derives attribution its own way. 4. Do nothing: attribution stays invisible in lists and srs-rust#1411 stays unfileable.",
+    "key_requirements": "Attribution must be visible where claims are reviewed, without turning testimony into authority: createdBy is shown, never used to filter validity or rank. The change must be additive (no existing field renamed or removed) and the same in CLI, MCP and WASM, per the capability-layering rule that clients add presentation only. Out of scope: notes and meta on list reads (deferred until a client other than the site editor needs them, or srs-web#601 shows the need survives), and a createdBy.kind discovery filter (deferred; a new discovery predicate is its own ruling). `relation get` stays the one full read.",
+    "decision_statement": "Every read that lists relations carries each relation's createdBy whenever the stored relation has one.",
+    "rationale": "Attribution is the one field whose absence changes how a list is read: without it, proposals look like facts (SP-10). It is small and already stored, so carrying it costs little, whereas notes and meta grow the summary toward a second full read for the sake of one client that is moving. Ruling the small, clearly needed part now unblocks the group without settling the heavier question early.",
+    "revisit_when": "A second client, or srs-web#601's foundation, needs relation notes or meta in list reads; or reviewers ask to filter by createdBy.kind ('show me what agents proposed'); or showing createdBy in lists is observed being treated as authority (a relation trusted or discarded on attribution alone).",
+    "next_steps": "After ratification: srs-rust#1411 is reshaped to createdBy only and filed as ruling-backed group work; notes and meta stay with muDemocracy.org#350 / srs-web#601. Both are tracked as linked issues, not listed here.",
+    "owner": "Programme owner",
+    "status": "proposed",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "tags": [
+    "suggestion",
+    "topic:ruling"
+  ],
+  "createdAt": "2026-11-10T13:39:00.471931753+00:00",
+  "updatedAt": "2026-11-10T13:39:00.602439152+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
