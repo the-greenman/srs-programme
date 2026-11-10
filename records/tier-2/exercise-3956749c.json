@@ -12,8 +12,9 @@
     "blocking": "An srs-rust write-time check for [R3].",
     "next_action": "Owner: choose A or B. Recommendation: A, after the client search shows no pointer-first writes."
   },
+  "lifecycleState": "closed",
   "createdAt": "2026-11-09T12:36:37.780569179+00:00",
-  "updatedAt": "2026-11-09T12:36:37.780579387+00:00",
+  "updatedAt": "2026-11-10T13:39:13.724179209+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-analyst",

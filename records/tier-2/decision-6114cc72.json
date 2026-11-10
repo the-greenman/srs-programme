@@ -1,0 +1,34 @@
+{
+  "instanceId": "6114cc72-0a21-4fb9-87a7-0bc08c9f513c",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Whole-outline replace keeps longest ordered run",
+    "decision_question": "When an operation replaces or swaps a whole container outline, which entries keep their ordering keys and which are rewritten?",
+    "context": "RFC-051 [R8] says which entry files a Change D operation writes, but not a whole-outline replace or swap. srs-rust already implements a rule (crates/srs-core/src/container_write.rs): the longest run already in key order keeps its keys and the rest are rewritten. The owner ruled on srs#940 on 2026-10-24, verbatim: \"After the rollout (owner, 2026-10-24, via srs-rust#1463 ask A1): write the whole-outline replace rule into RFC-051 as a correction revision: the longest run already in key order keeps its keys, and the rest are rewritten. RFC-051 stays at Revision 15 during delivery, per the plan.\" Source: https://github.com/the-greenman/srs/issues/940#issuecomment-6385587121. The rollout is done (srs-rust#1414 sub-issues closed, srs#949 closed, corpora at revision 11) but RFC-051 is still Revision 15 and Accepted, not Implemented. Decision 4445b9cf (a decision already taken is cited, never asked again) and 0b1c25b1 (an owner ruling written anywhere else is recorded as a decision before it is cited) require this step: this record is that step.",
+    "friction": "The rule exists only in srs-rust and an issue comment, so a second implementation cannot learn it from the spec. The correction revision is an Accepted RFC's own surface and cannot be filed as group work, and RFC-051 cannot be marked Implemented, until the choice is recorded.",
+    "alternatives_considered": "1. Keep the longest in-order run's keys and rewrite the rest (chosen). Leads to: the minimum number of entry files change, merges stay small, and srs-rust already conforms. 2. Rewrite every key on a whole-outline replace: simplest to state, but touches every entry file and defeats per-entry merge, and changes srs-rust. 3. Leave it implementation-defined and mark RFC-051 Implemented: no spec work, but a second implementation cannot match the write set. 4. Do nothing: the correction revision stays blocked.",
+    "key_requirements": "A second implementation must be able to reproduce the write set from the spec alone (Portability). A whole-outline replace must change as few entry files as possible so concurrent edits still merge per entry. The rule must be deterministic when several runs tie in length, which the owner's words do not settle.",
+    "decision_statement": "A whole-outline replace keeps the keys of the longest run already in key order and rewrites the keys of the remaining entries.",
+    "rationale": "Minimising rewritten entries preserves the per-entry merge property that motivated RFC-051, and the reference implementation already behaves this way, so the rule costs nothing to adopt. Writing it down is what lets another implementation conform.",
+    "revisit_when": "Two implementations disagree on the result for tied runs; or whole-outline replaces are found to cause merge conflicts that a different rule would avoid; or key growth from repeated replaces becomes a measurable problem.",
+    "next_steps": "After affirmation: file the RFC-051 correction revision (Door 3) citing this decision, then mark RFC-051 Implemented and close srs#940 and srs-rust#1414 once folded.",
+    "owner": "Programme owner",
+    "status": "proposed",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "tags": [
+    "suggestion",
+    "topic:ruling"
+  ],
+  "createdAt": "2026-11-10T13:38:59.417024976+00:00",
+  "updatedAt": "2026-11-10T13:38:59.551721447+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -12,8 +12,9 @@
     "blocking": "No group issue is blocked yet. Until question 1 is ruled, any agent editing a lifecycle through the CLI in this programme must hand-add substrate fields, which is the imitation SP-08 describes. Until question 2 is ruled, a relation-type key fix costs a rewrite of every Relation.",
     "next_action": "Owner: rule on questions 1 and 2, or authorise one RFC-006 revision that settles both. The group then files the implementation (srs-rust) and schema (srs) halves as ruling-backed work. Grounding: SP-01 (Spec, schema and tool keep drifting apart) and SP-08 (Agents imitate file shape instead of meaning)."
   },
+  "lifecycleState": "closed",
   "createdAt": "2026-10-26T12:40:35.460095674+00:00",
-  "updatedAt": "2026-10-26T12:40:35.460102764+00:00",
+  "updatedAt": "2026-11-10T13:39:14.253972264+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-analyst",

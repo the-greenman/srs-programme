@@ -12,8 +12,9 @@
     "blocking": "srs-rust#1411 (asked by the muDemocracy site editor, muDemocracy.org#350) cannot be filed as group work. srs-web#578 (now nominated) adds createdBy to the typed client but has nothing to read it from in list calls.",
     "next_action": "Owner: rule on question 1. Recommendation: yes, additive: carry createdBy, notes and meta on every relation read when present, defer the kind filter. The ruling needs a decision record (a Door 1 fixup under RFC-046, or a short decision), then srs-rust#1411 becomes ready work for the group."
   },
+  "lifecycleState": "closed",
   "createdAt": "2026-10-23T12:14:09.452345508+00:00",
-  "updatedAt": "2026-10-23T12:14:09.452349500+00:00",
+  "updatedAt": "2026-11-10T13:39:15.250103799+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-analyst",

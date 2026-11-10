@@ -12,8 +12,9 @@
     "blocking": "An srs-rust conformance fix for I-96 on conditional-forbidden, and a conformant reading of I-95.",
     "next_action": "Owner: choose A, B or C. Recommendation: C if RFC-040 Change F states the kind's properties, else A."
   },
+  "lifecycleState": "closed",
   "createdAt": "2026-11-09T12:36:37.524629478+00:00",
-  "updatedAt": "2026-11-09T12:36:37.524639102+00:00",
+  "updatedAt": "2026-11-10T13:39:13.474087617+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-analyst",
