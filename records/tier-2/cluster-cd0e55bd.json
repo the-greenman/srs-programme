@@ -1,0 +1,19 @@
+{
+  "instanceId": "cd0e55bd-fb9d-48f4-a6d3-84e14d653e30",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Reading a finished essay",
+    "description": "What a person sent an essay meets: the finished piece, the evidence behind it, and the way further through an agent. The domain's other clusters are written from the writer's side; here the writer's working material is what stays out of the way."
+  },
+  "createdAt": "2026-11-10T14:40:00.119694024+00:00",
+  "updatedAt": "2026-11-10T14:40:00.119695934+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
