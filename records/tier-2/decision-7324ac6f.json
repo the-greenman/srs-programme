@@ -19,13 +19,13 @@
     "status": "proposed",
     "decision_kind": "design"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "tags": [
     "suggestion",
     "topic:ruling"
   ],
   "createdAt": "2026-11-10T13:38:58.347050205+00:00",
-  "updatedAt": "2026-11-10T13:38:58.477701494+00:00",
+  "updatedAt": "2026-11-10T14:20:36.551566592+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"

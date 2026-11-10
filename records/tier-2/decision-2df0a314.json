@@ -19,13 +19,13 @@
     "status": "proposed",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "tags": [
     "suggestion",
     "topic:exercise",
     "topic:agenda"
   ],
   "createdAt": "2026-11-10T13:37:29.382784417+00:00",
-  "updatedAt": "2026-11-10T13:37:29.382786403+00:00",
+  "updatedAt": "2026-11-10T14:20:35.936688539+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }
