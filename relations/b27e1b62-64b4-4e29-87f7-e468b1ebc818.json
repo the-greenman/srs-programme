@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "b27e1b62-64b4-4e29-87f7-e468b1ebc818",
+  "relationType": "depends-on",
+  "sourceInstanceId": "bf992d06-d56a-4675-85e4-e5a5b9966122",
+  "targetInstanceId": "65d7297c-19d9-4117-97db-0eeafcf730c9",
+  "createdAt": "2026-11-10T13:05:43.776+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "notes": "A reader can only follow the links a writer was able to make (SP-85)."
+}
