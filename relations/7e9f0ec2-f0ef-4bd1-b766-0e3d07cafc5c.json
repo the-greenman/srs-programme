@@ -1,0 +1,9 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "7e9f0ec2-f0ef-4bd1-b766-0e3d07cafc5c",
+  "relationType": "derived-from",
+  "sourceInstanceId": "ba478783-471f-4f68-adeb-e723c78167f4",
+  "targetInstanceId": "07f1a502-346f-4f2e-8faa-a0ea280320c1",
+  "createdAt": "2026-11-10T12:11:18.787716341+00:00",
+  "notes": "The owner's words at the 2026-10-22 session, on the exercise."
+}

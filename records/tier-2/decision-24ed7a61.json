@@ -7,13 +7,13 @@
   "fieldValues": {
     "title": "Local models detect, frontier models write: the split for housekeeping work",
     "decision_question": "When a housekeeping task (mining a transcript, triaging a source, classifying a record) can run on a local model, which part of the task does the local model own?",
-    "context": "The owner, 2026-11-03 (vignette f8e1b034): local tooling for the housekeeping, a cybernetic, fractal, federated system of local AI; the Mozilla Human-Scale AI cohort (deadline 2026-11-20); the right places to use the right models. Measured the same day in semanticops/local-lab on the 3Nov transcript (21k words, 36 windows): qwen2.5-7b on an 8 GB GPU produced 78 candidate problems, 78% with a verbatim quote, 0 at filing quality; claude sonnet 109 candidates, 99% grounded, 16 at filing quality; claude haiku 172, 8. Of sonnet's 11 judged-new filing-quality problems, qwen had a candidate in the same window for 6.",
+    "context": "The owner, 2026-11-03 (vignette f8e1b034): local tooling for the housekeeping, a cybernetic, fractal, federated system of local AI; the Mozilla Human-Scale AI cohort (deadline 2026-11-20); the right places to use the right models. Measured the same day in semanticops/local-lab on the 3Nov transcript (21k words, 36 windows): qwen2.5-7b on an 8 GB GPU produced 78 candidate problems, 78% with a verbatim quote, 0 at filing quality; claude sonnet 109 candidates, 99% grounded, 16 at filing quality; claude haiku 172, 8. Of sonnet's 11 judged-new filing-quality problems, qwen had a candidate in the same window for 6.\n\nSince then (2026-11-09, semanticops.com#65, finding 81a34482): the same split run live, flagging a meeting every 60 s over the last 180 s. On a real 52-minute meeting, judged by sonnet, qwen2.5-7b's flags held 25% of the time against haiku's 55%. Its potential-decision flags held (3 of 3, but only 3 raised), while its action items (0 of 4) and open questions (2 of 16) did not. Each window took 3 to 5 s on the 8 GB GPU. The live engine therefore runs the local model for potential decisions only, as proposals for a person (transcribe#6). Also measured (finding 532ab79d): no model of any size places items on context-relative axes from one item alone; the axes experiments are stopped (owner, vignette e9491835).",
     "alternatives_considered": "(a) The local model does the whole task, writing records: measured at zero filing-quality statements, with a fifth of quotes not verbatim and the prompt's own example echoed back. (b) A frontier model does the whole task: works today at 5 to 50 cents per transcript, but leaves no local story and no path to a group running its own housekeeping. (c) Split by what is checkable: the local model detects (which window, which verbatim quote) and the frontier model writes and judges only what was flagged.",
     "key_requirements": "A quote is checked mechanically against the source text; prose cannot be. The detector's recall is measured against a frontier reference on every new task before a routine depends on it.",
     "decision_statement": "A local model's job in the housekeeping is to detect: to say where in a text something is and quote it verbatim. Writing a record and judging one stays with a frontier model, which is called only on what the detector flagged.",
     "rationale": "The local model found many of the same places as the frontier model at no cost, and the thing it got wrong (prose, facets) is exactly the thing that cannot be checked without a judge. The thing it got right (location, quote) is cheap to check. Splitting on checkability puts each model where its errors are visible.",
     "revisit_when": "A local model clears quality 4 on a judged mining run; or the detector's recall against a frontier reference falls below half on a new task; or the frontier judge's cost per transcript exceeds the mining cost it saves.",
-    "next_steps": "Build the detector/writer pipeline in local-lab (local flags windows and quotes, frontier writes only those) and measure its recall and cost against the all-frontier run before any standing job uses it.",
+    "next_steps": "Build the detector/writer pipeline in local-lab (local flags windows and quotes, frontier writes only those) and measure its recall and cost against the all-frontier run before any standing job uses it. For the live detector: measure its decision recall on a real meeting against decisions a person marked, which the judge cannot; and run Gemma 4 E4B once ollama is upgraded.",
     "owner": "Programme owner",
     "status": "proposed",
     "decision_kind": "preference"
@@ -25,7 +25,7 @@
     "topic:housekeeping"
   ],
   "createdAt": "2026-11-03T18:46:37.017871461+00:00",
-  "updatedAt": "2026-11-03T18:46:37.017877208+00:00",
+  "updatedAt": "2026-11-09T17:56:56.100260148+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"
