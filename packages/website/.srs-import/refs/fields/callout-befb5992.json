@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Use for a concise guardrail, proof point, or transition; do not introduce an untraced claim."
+  },
+  "createdAt": "2026-09-14T17:07:38.857673970+00:00",
+  "description": "Optional highlighted supporting text.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "befb5992-70a7-4957-8b65-1d66cd13533b",
+  "name": "callout",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "A short slug; never shown."
+  },
+  "createdAt": "2026-10-23T10:31:40.021955675+00:00",
+  "description": "Stable key of a person's bio on a page.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "2446c2f7-38de-4ae4-858b-2bc13ba87493",
+  "name": "bio_key",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

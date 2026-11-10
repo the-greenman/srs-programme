@@ -1,0 +1,42 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "purpose": "Arrest attention with one proposition. Do not explain everything here. Resolve strange language immediately below the headline and do not presume a formal group."
+  },
+  "createdAt": "2026-09-14T17:08:18.538583547+00:00",
+  "description": "A homepage opening block.",
+  "extendsTypeId": "03de48d7-f3b5-45da-89c7-7718e4e80d58",
+  "extendsTypeVersion": 1,
+  "fieldOrder": [
+    "45fbb93a-fd8d-4df6-a028-81ac07de1d5e",
+    "9772acd5-c431-4dec-a71f-531295d084d7",
+    "2bf57b24-bd34-4e9a-a306-962aa3c62418",
+    "40527886-7a33-4328-b478-9352c6e116d6",
+    "acc4c3d9-adae-424b-86a8-5dafbb7d7682",
+    "7be1eac3-08be-408b-ac66-74baaac076a0",
+    "3c11109b-37b1-42f6-9ec6-81dd876c2748",
+    "204f2ac9-1563-4a52-a516-6ed9666e3193"
+  ],
+  "fields": [
+    {
+      "fieldId": "7be1eac3-08be-408b-ac66-74baaac076a0",
+      "order": 1,
+      "required": false
+    },
+    {
+      "fieldId": "3c11109b-37b1-42f6-9ec6-81dd876c2748",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "204f2ac9-1563-4a52-a516-6ed9666e3193",
+      "order": 3,
+      "required": true
+    }
+  ],
+  "id": "704c2742-9b02-4d08-89c5-7fa1ffa85697",
+  "identityFieldId": "45fbb93a-fd8d-4df6-a028-81ac07de1d5e",
+  "name": "homepage-hero",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

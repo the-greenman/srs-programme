@@ -1,0 +1,14 @@
+{
+  "instanceId": "0ec7a671-6fac-4016-b58b-9a874521e556",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Evidence for this exercise, 2026-11-10: poles as a record that may never need the human tip.\n\n17 affirmed tensions contain 34 suggested poles, and none has an affirmed fork. Costed one by one:\n- 16 poles (8 tensions) sit under a tension that refines an affirmed line, which refines a base axis (Action, Change or Perspective). They are local names of default poles; only the pole-to-pole refines link is missing.\n- 6 poles (3 tensions) are compass axes whose definitions are ratified in the spec.\n- 12 poles (6 tensions) are in no domain and refine nothing.\n\nAffirming each pole would cost 34 of the hardest judgements. Reading poles as working defaults through their refines lineage (owner ruling 06d83ca7) costs no owner acts now, and at most 9 placements later (3 compass axes and 6 tensions in no domain), each only if that tension is placed on a domain's line.\n\nProposed decision d6a969ff: \"A pole is never affirmed on its own: it stands as a working default through the affirmed pole it refines, or waits until its tension is placed on a domain's line by the owner.\"\n\nOwner vignettes 36bc6aae and bdd19ab1.",
+    "kind": "evidence"
+  },
+  "createdAt": "2026-11-10T14:32:58.919098711+00:00",
+  "updatedAt": "2026-11-10T14:33:25.491393239+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

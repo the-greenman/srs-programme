@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Resolve unfamiliar language quickly and make the next section feel necessary."
+  },
+  "createdAt": "2026-09-14T17:07:38.672621269+00:00",
+  "description": "Supporting public copy below a headline.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "204f2ac9-1563-4a52-a516-6ed9666e3193",
+  "name": "supporting_copy",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Use a lower-case hyphenated key such as decided or revisit."
+  },
+  "createdAt": "2026-09-14T17:07:39.289074965+00:00",
+  "description": "Stable identity for a decision-record item.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "ce797d19-0d62-4d25-9461-2070d87869a0",
+  "name": "record_item_key",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

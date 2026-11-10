@@ -1,0 +1,42 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "purpose": "Show a guide's opening or one of its sections on a page without copying it. Relate the block to the guide record with uses; set render_as. A heading here replaces the guide's heading on this page only."
+  },
+  "createdAt": "2026-10-19T11:31:30Z",
+  "description": "A block that shows a guide's record by reference: the words stay the guide's, edited in one place.",
+  "extendsTypeId": "03de48d7-f3b5-45da-89c7-7718e4e80d58",
+  "extendsTypeVersion": 1,
+  "fieldOrder": [
+    "45fbb93a-fd8d-4df6-a028-81ac07de1d5e",
+    "9772acd5-c431-4dec-a71f-531295d084d7",
+    "2bf57b24-bd34-4e9a-a306-962aa3c62418",
+    "40527886-7a33-4328-b478-9352c6e116d6",
+    "acc4c3d9-adae-424b-86a8-5dafbb7d7682",
+    "366afa11-15d4-4a10-8336-64033dbba6a0",
+    "a0a3c18e-de7f-46b1-a9f9-a05f30aa823b",
+    "85cbe666-a1d5-46d6-b6d8-c06c1263f029"
+  ],
+  "fields": [
+    {
+      "fieldId": "366afa11-15d4-4a10-8336-64033dbba6a0",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "a0a3c18e-de7f-46b1-a9f9-a05f30aa823b",
+      "order": 2,
+      "required": false
+    },
+    {
+      "fieldId": "85cbe666-a1d5-46d6-b6d8-c06c1263f029",
+      "order": 3,
+      "required": false
+    }
+  ],
+  "id": "6e1b9a5c-2f4d-4c8e-9a7b-3d5f1e2c4b6a",
+  "identityFieldId": "45fbb93a-fd8d-4df6-a028-81ac07de1d5e",
+  "name": "guide-section",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

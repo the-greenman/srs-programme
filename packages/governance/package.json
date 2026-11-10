@@ -67,6 +67,7 @@
   "name": "governance",
   "version": "1.1.0",
   "lifecycles": [
-    "lifecycles/governancelifecycle-3c504040.json"
+    "lifecycles/governancelifecycle-3c504040.json",
+    "lifecycles/exerciselifecycle-2619faba.json"
   ]
 }

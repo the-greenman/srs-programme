@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "A layout choice, not copy. One of: default, large, large-people."
+  },
+  "createdAt": "2026-10-19T11:59:23Z",
+  "description": "How a hero is laid out: default, large (the headline sized to its column), or large-people (large, with the people photo beside it).",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "6b684bcb-6551-4640-989e-0f797a70a073",
+  "name": "presentation",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

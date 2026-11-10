@@ -1,0 +1,22 @@
+{
+  "instanceId": "bdd19ab1-5430-4b64-a3bd-8129b0460615",
+  "title": "Poles are often the most difficult layer of a domain to affirm; this is why we work with default axes (2026-11-10)",
+  "tags": [
+    "vignette",
+    "topic:affirmation",
+    "topic:poles",
+    "topic:axes",
+    "topic:tensions"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "does srs-porogramme contain an ongoing discussion around affirmations? Our sessions have an open affirmation exercise. \n\nWe need to look at the cost of affirming each of these poles. They are often the most difficult layer of a domain to affirm. \n\nthis is why we have been looking into working with default axes."
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-10, responding to proposed decision d6a969ff (who may extend an affirmation to the parts of a whole), whose recommended option costs 17 owner acts on poles. Recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
