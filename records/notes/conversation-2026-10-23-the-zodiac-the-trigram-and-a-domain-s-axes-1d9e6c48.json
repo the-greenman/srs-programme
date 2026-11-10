@@ -1,0 +1,38 @@
+{
+  "instanceId": "1d9e6c48-53c3-4d89-8c60-a135072e3325",
+  "title": "Conversation 2026-10-23: the zodiac, the trigram and a domain's axes",
+  "tags": [
+    "conversation",
+    "topic:axes",
+    "topic:domains",
+    "topic:dream-cycle",
+    "topic:flow",
+    "topic:line-3",
+    "topic:method",
+    "topic:orthogonality",
+    "topic:placement",
+    "topic:polarity",
+    "topic:programme-coordination",
+    "topic:resumption",
+    "topic:routing",
+    "topic:trigram",
+    "topic:zodiac"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner on the decision compass as zodiac based and the three-axis structure as trigram based, poles and polarity, three orthogonal axes for a domain, and pulling strong work forward and recording it safely. This note is the conversation's identity record; the vignettes are the owner's words."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-10, gathering the vignettes of 2026-10-23 that sat in no conversation container (vignette ef16e77c); grouped by date."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
