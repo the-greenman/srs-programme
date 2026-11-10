@@ -19,7 +19,7 @@
     "status": "proposed",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "tags": [
     "suggestion",
     "topic:working-groups",
@@ -27,6 +27,6 @@
     "topic:authority"
   ],
   "createdAt": "2026-11-10T12:09:50.346181100+00:00",
-  "updatedAt": "2026-11-10T13:12:47.832582583+00:00",
+  "updatedAt": "2026-11-10T13:30:26.785562494+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }
