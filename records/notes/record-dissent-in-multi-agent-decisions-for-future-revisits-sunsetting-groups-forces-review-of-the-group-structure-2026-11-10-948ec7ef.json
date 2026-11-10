@@ -1,0 +1,24 @@
+{
+  "instanceId": "948ec7ef-899d-43e9-9dd1-51f8cf7c4a64",
+  "title": "Record dissent in multi-agent decisions for future revisits; sunsetting groups forces review of the group structure (2026-11-10)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:governance",
+    "topic:delegation",
+    "topic:dissent"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "What I take from this is that we should look at some multi-agent decision processes during operations and record the dissent. It will feed into future revisits. \n\nThe sunsetting of workign groups may force a level of iterative review of the structure of the groups themselves."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-10, after the gap map of the programme's delegation against the anatomy in ~/dev/muDemocracy.org/reference/Delegation in historic small democracy.md (vignettes 45a49561 and cb6c5175), which found no dissent channel and no sunset or laying-down for working groups. Recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

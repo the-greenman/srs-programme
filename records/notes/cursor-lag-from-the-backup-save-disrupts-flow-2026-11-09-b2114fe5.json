@@ -1,0 +1,22 @@
+{
+  "instanceId": "b2114fe5-6eff-4e5a-a44e-521c47fe3292",
+  "title": "Cursor lag from the backup save disrupts flow (2026-11-09)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essay-editor"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "It's noticable that my cursor gets stuck regularly. Just for a moment. This is probably our saving to backup. It's not bad, but the lag now and then can disrupt flow."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-09, while writing the μ.democracy theory-of-change essay in the srs web editor; recorded verbatim, typo included."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
