@@ -1,0 +1,24 @@
+{
+  "instanceId": "af3797a3-9d0d-4ff6-803d-b8f68a5669cd",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Affirm a domain's lines, not each tension",
+    "move": "Make the unit of tension affirmation a domain's three lines. In one domain view the owner sees, for each line:\n- the inherited axis (the parent's, or the base Act/Observe, Disrupt/Stabilise, Focus/Zoom out) as a working default that needs no tick;\n- the local trade-off placed on that line, with its local pole names and yang pole;\n- the problems that concern each pole.\n\nThe parent and sibling domains are shown beside it, and a 2×2 of two lines with real problems in each corner tests orthogonality.\n\nPlacing a trade-off on a line is the one act. It forks the tension with its nested poles and writes the axis-in-domain record. Every other tension stays a suggestion, shown in context: confidence comes from what rests on it, never from a tick.\n\nIt is built in stages, each shippable alone:\n0. repair the ground (poles nested under their tension, affirmed structure pointing at affirmed poles);\n1. the structural rules declared in the method package and checked by the engine;\n2. a generic record-in-context card over the engine's context_record;\n3. one-act tension affirm (srs-web#581);\n4. the domain lines view, piloted on Evidence-backed writing;\n5. weight tiers, so only foundational placements reach the owner;\n6. movement over time.",
+    "does_not_fix": "- Whether the base axes are universal: the owner's thesis (011dddcc), still open.\n- Whether the stage tensions meet the trade-off definition (exercises e8a87b14, 8d2248e0).\n- What affirmation itself is: fork or standing (exercise 79140644).\n- Placing things on axes automatically: the experiments are paused (e9491835).",
+    "falsifier": "With the domain lines view in place, the owner still cannot set Evidence-backed writing's three lines in one sitting and say why, or still affirms tensions from a list without seeing their domain, siblings and what rests on them.",
+    "source_ref": [
+      "srs-programme vignette 7d3a1ea0 (2026-11-10)",
+      "srs-programme vignette 0131da48 (2026-11-10)",
+      "srs-programme vignettes 06d83ca7, c020fd77, be1cdc74, a2225a2a, 4fd551ad, 8b5b80d6",
+      "srs-web#581",
+      "remedy f86a827a (domain workspace)"
+    ],
+    "return_when": "The owner's foundational placements are affirmed across the domains that hold work, and the owner reports asking for more structure to be shown rather than less."
+  },
+  "createdAt": "2026-11-10T13:57:51.674115974+00:00",
+  "updatedAt": "2026-11-10T13:57:51.674118658+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
