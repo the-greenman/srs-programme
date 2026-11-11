@@ -1,0 +1,20 @@
+{
+  "instanceId": "440911ac-ae0f-49a6-aa3b-ec014e306be4",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-169",
+    "title": "A definition cannot move to the package that should own it",
+    "statement": "As our packages grow, I need to move a definition into the package it belongs in, keeping its id, so the records that use it stay valid and a published package carries what its users need. Today a definition can only be created in a package, never moved: the same definition in two packages fails validation as a duplicate id, the CLI cannot re-home it, and hand-editing package files is ruled out. So the muDemocracy `uses` relation type stays in an unpublished package, a fresh site cannot point a menu item at a page, and splitting or refining a package means making a second definition with a new id that means the same thing.",
+    "kind": "condition",
+    "source_ref": [
+      "Owner, 2026-11-11: vignette 'Refine packages safely' (srs-programme, conversation 2026-11-08 · The muDemocracy site editor on srs-web)",
+      "muDemocracy.org#447: the unattended worker's run report of 2026-11-11 (SRS038-R12-DUPLICATE-ID; relation-type delete refused; no move command in build.554)"
+    ]
+  },
+  "createdAt": "2026-11-11T14:12:46.468733605+00:00",
+  "updatedAt": "2026-11-11T14:12:46.468735235+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

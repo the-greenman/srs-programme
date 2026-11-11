@@ -1,0 +1,22 @@
+{
+  "instanceId": "323bc189-cbcf-4668-80c9-b75154f90667",
+  "title": "Refine packages safely (2026-11-11)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:packages"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "ok. Lets do the rust tool to move between packages. We want to be able to safely refine packages."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-11, answering the unattended worker's question on muDemocracy.org#447: the `uses` relation type lives in muSrs's unpublished primary package, and the pinned CLI cannot move a definition from one package to another."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,15 @@
+{
+  "instanceId": "c7548ba8-03d5-451f-8b5a-9fe2c097c4d9",
+  "title": "2026-11-08 · The muDemocracy site editor on srs-web: menu, page migration, packages",
+  "tags": [
+    "conversation"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "Summary",
+      "content": "A conversation between the owner and Claude Code (2026-11-08 to 2026-11-11) driving holon muDemocracy.org#418: the srs-web Menu panel (srs-web#681), moving community, privacy, 404, contact, subscribe and the guides index into muSrs (#417), the /ideas plan (#438), and refining packages safely (#447)."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
