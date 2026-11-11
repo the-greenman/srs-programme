@@ -11,7 +11,8 @@
       "2026-11-09 12:5x UTC: POST repos/the-greenman/semanticops.com/issues/31/sub_issues for srs-web#336 returned HTTP 422 \"Parent cannot have more than 100 sub-issues and Sub issue may only have one parent\"",
       "GET repos/the-greenman/semanticops.com/issues/31/sub_issues?per_page=100 returns 100 entries after the run linked srs#1018, srs#1019, srs-rust#1409, #1619, #1620, #1621, #1622, #1623",
       "clerk flow --chain srs-web#336: ✗ epic: muDemocracy.org#83 is not ranked (parked); the issue cannot be moved to the group epic",
-      "2026-11-10 12:2x UTC (second occurrence): POST repos/the-greenman/semanticops.com/issues/31/sub_issues for srs-rust#1627 (filed by the analyst this run) returned HTTP 422 \"Parent cannot have more than 100 sub-issues\"; #31 still holds 100 (61 closed, 39 open). clerk flow --chain srs-rust#1627: ✗ epic: says Part of semanticops.com#31 but is not its sub-issue."
+      "2026-11-10 12:2x UTC (second occurrence): POST repos/the-greenman/semanticops.com/issues/31/sub_issues for srs-rust#1627 (filed by the analyst this run) returned HTTP 422 \"Parent cannot have more than 100 sub-issues\"; #31 still holds 100 (61 closed, 39 open). clerk flow --chain srs-rust#1627: ✗ epic: says Part of semanticops.com#31 but is not its sub-issue.",
+      "2026-11-11 12:1x UTC (third occurrence): POST repos/the-greenman/semanticops.com/issues/31/sub_issues for srs#1022 returned HTTP 422 \"Parent cannot have more than 100 sub-issues\"; #31 holds 100 (67 closed, 33 open). The analyst filed 10 issues this run (srs#1022 to #1027, srs-rust#1635 to #1638) and reshaped 4 (srs-rust#1411, #1505, #1510, #819); clerk flow --chain shows ✗ epic on all 14 and no other gap except real blockers."
     ],
     "body": "Stage: 4. Shape the work. The group's report issue is also its epic, so every issue the group has ever taken stays a sub-issue after it closes. Obvious remedies (suggestion only): detach closed sub-issues from #31 on a schedule, or give the group intermediate stories (one per cluster) under #31 and file work under those."
   },
@@ -20,7 +21,7 @@
     "topic:flow"
   ],
   "createdAt": "2026-11-09T12:36:03.794533552+00:00",
-  "updatedAt": "2026-11-10T12:16:22.386220499+00:00",
+  "updatedAt": "2026-11-11T12:18:34.896535762+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-analyst",
