@@ -18,9 +18,9 @@
     "owner": "Owner role (SemanticOps)",
     "decision_kind": "design"
   },
-  "lifecycleState": "draft",
+  "lifecycleState": "proposed",
   "createdAt": "2026-10-30T17:14:36.102042802+00:00",
-  "updatedAt": "2026-10-30T17:14:36.102052470+00:00",
+  "updatedAt": "2026-11-11T11:36:19.670160378+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",
