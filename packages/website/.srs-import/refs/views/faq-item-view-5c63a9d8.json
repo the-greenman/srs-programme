@@ -1,0 +1,36 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/view.json",
+  "aiGuidance": {
+    "purpose": "Binds these types to the site component Faq item. Hidden fields are not on the site: displayHint says whether a field is a brief, a setting or a key."
+  },
+  "compatibleTypes": [
+    "com.mudemocracy.website/faq-item"
+  ],
+  "createdAt": "2026-11-02T12:00:20Z",
+  "description": "One question and answer.",
+  "exportConfig": {
+    "format": "markdown"
+  },
+  "fieldViews": [
+    {
+      "fieldId": "87eef92c-b253-49fd-b4b4-8f705fefee40",
+      "order": 0,
+      "visible": true
+    },
+    {
+      "fieldId": "7ec03889-d4fd-49ff-87ad-c5c2352ec033",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "displayHint": "key",
+      "fieldId": "eb1af15a-28ac-4df4-ba73-8425039bfa24",
+      "order": 2,
+      "visible": false
+    }
+  ],
+  "id": "5c63a9d8-49e2-4162-92e7-fadfa9ab3b21",
+  "name": "faq-item-view",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

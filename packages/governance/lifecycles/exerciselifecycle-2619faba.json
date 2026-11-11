@@ -1,0 +1,71 @@
+{
+  "id": "2619faba-c357-445b-b000-6062067b265e",
+  "version": 1,
+  "namespace": "governance",
+  "name": "exercise_lifecycle",
+  "states": [
+    {
+      "id": "5e95bf46-14cd-4d28-ae16-b070e140fd86",
+      "version": 1,
+      "namespace": "governance",
+      "key": "open",
+      "label": "Open",
+      "description": "Exploring; on the session agenda.",
+      "isInitial": true,
+      "isFinal": false
+    },
+    {
+      "id": "84948efa-bad8-477c-a671-4c0b00ed6fdd",
+      "version": 1,
+      "namespace": "governance",
+      "key": "closed",
+      "label": "Closed",
+      "description": "Led to what it was for; each element it led to is derived-from it.",
+      "isInitial": false,
+      "isFinal": false
+    },
+    {
+      "id": "2764d1dc-d4fc-4c5f-9671-77a1c6eb26be",
+      "version": 1,
+      "namespace": "governance",
+      "key": "abandoned",
+      "label": "Abandoned",
+      "description": "Dropped without leading anywhere; the reason is a comment on it.",
+      "isInitial": false,
+      "isFinal": false
+    }
+  ],
+  "transitions": [
+    {
+      "id": "773ce7a2-ab66-4ec8-bae9-219dc7505529",
+      "name": "close",
+      "from": "open",
+      "to": "closed",
+      "description": "The exercise has led to what it was for."
+    },
+    {
+      "id": "124ffb20-ac4e-417b-b45a-f8f8f1b7545e",
+      "name": "abandon",
+      "from": "open",
+      "to": "abandoned",
+      "description": "Drop the exercise; say why in a comment."
+    },
+    {
+      "id": "bc1d0b80-3937-47bb-b3e1-d0458faef634",
+      "name": "reopen",
+      "from": "closed",
+      "to": "open",
+      "description": "New input reopens the question."
+    },
+    {
+      "id": "f24d355a-716c-42da-84e1-50a2cc99ad53",
+      "name": "revive",
+      "from": "abandoned",
+      "to": "open",
+      "description": "Take a dropped exercise up again."
+    }
+  ],
+  "initialState": "open",
+  "description": "An exercise is open while it explores; it is closed once it has led to the elements it was for, or abandoned when it is dropped. Closed and abandoned exercises leave the session agenda; either can be reopened.",
+  "createdAt": "2026-11-10T13:34:51Z"
+}

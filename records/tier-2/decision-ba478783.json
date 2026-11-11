@@ -1,0 +1,32 @@
+{
+  "instanceId": "ba478783-471f-4f68-adeb-e723c78167f4",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Unrecognised instance content is carried with a warning",
+    "decision_question": "When a Record, Note or Relation carries content that the reading tool does not recognise, should the repository fail to load, or load it, carry the content and warn?",
+    "context": "RFC-038 makes a schema failure of an instance file an error ([R7]) and any error under a reserved location fatal to the whole load ([R24]). rfc-decision-2e0cd70a ('Carry meaning you do not recognise') and mechanism f92f27a0 say the opposite for the instance layer: unknown instance content is detected, never fails a load, and is preserved or loudly refused on write. The exercise 'One unknown key makes a whole repository unloadable' set the two rulings side by side on 2026-10-20. On 2026-11-10 the defect was reproduced again on a copy of srs-context: one unrecognised top-level key in one record makes `repo validate` return ok:false (SRS038-R7-SCHEMA-VALIDATION) and the root container fails to load. In srs-core, Relation is still deny_unknown_fields and Note has no extras map; Record already carries a flatten extra. The owner, at the session of 2026-10-22, on that exercise: \"We have some clashing principles here. An unknown key should not crash a repo. We should probably loosen the fail closed decision. We carry the unknown meaning but warn.\" Decision 0b1c25b1 requires an owner ruling written anywhere else to be recorded as a decision before it is cited; this record is that step.",
+    "friction": "A third-party tool that adds one key to one file takes the whole repository down: every command fails, not just the one file. Because two recorded rulings disagree, the Third-party-ready group cannot file the srs-rust fix as work (SP-07, Tools drop what they do not understand; affirmed remedy 89d74184, Every write refuses loudly what it cannot carry). The owner's direction has waited 19 days with nothing filed, while nearby work hardened validation instead (srs-rust#1528).",
+    "alternatives_considered": "1. Carry and warn (chosen): an unrecognised key on a Record, Note or Relation is a non-fatal warning with a stable code, carved out of [R24]; the instance loads, and every write carries the key (Note and Relation gain an extras map as Record has). Leads to: third-party content survives and stays visible. 2. Fail closed, and narrow 2e0cd70a's load rule to `meta` only: keeps the catalog free of partial loads, but one stray key still bricks the repository and the sanctioned carrier becomes the only way to add meaning. 3. Load and silently drop the unknown key: the repository stays available, but meaning is lost on the next write, which is exactly SP-07. 4. Do nothing: the two rulings keep contradicting each other and the group cannot file the fix.",
+    "key_requirements": "Portability over reliability-by-refusal: meaning written by another tool must not be lost and must not make the repository unusable (SP-07). The warning must be loud and named, with a stable code, so an agent's misspelt field (for example createdby) is surfaced rather than hidden; the Challenger noted that fail-closed is part of the defence against agents imitating file shape (SP-08), and the warning replaces that defence. Scope is the instance layer only (Records, Notes, Relations); definition-layer rules for packages are untouched. The owner's words cover unknown keys; whether an out-of-contract value of a known key (the srs-rust#1528 class) is also carried with a warning is not decided here. Changing RFC-038 is a spec change and goes through a Door 3 revision, which cites this decision; this record does not override the spec on its own.",
+    "decision_statement": "Instance content that a tool does not recognise is carried through every write and reported as a named warning, and it never stops a repository from loading.",
+    "rationale": "A repository that any third-party key can disable is not third-party ready, and the programme already ruled to carry meaning it does not recognise; fail-closed loading is the one place that ruling is not honoured. Carrying with a warning keeps both goods: the meaning survives, and the anomaly stays visible instead of being either fatal or silent. Record already carries unknown keys, so the change is to bring Note and Relation into line, not to invent a mechanism.",
+    "revisit_when": "A carried unknown key is found, more than once, to have hidden a real authoring error that the warning did not bring to anyone's attention; or two tools write conflicting values into the same carried key; or a consumer needs unknown content rejected rather than carried for a safety reason.",
+    "next_steps": "After affirmation: a Door 3 revision of RFC-038 in srs citing this decision, then the srs-rust implementation issue (Relation drops deny_unknown_fields, Note gains an extras map, the catalog keeps the instance). Both are filed as linked issues, not listed here.",
+    "owner": "Programme owner",
+    "status": "proposed",
+    "decision_kind": "preference"
+  },
+  "lifecycleState": "ratified",
+  "tags": [
+    "suggestion",
+    "topic:unknown-content",
+    "topic:third-party-ready",
+    "topic:portability"
+  ],
+  "createdAt": "2026-11-10T12:09:50.147804767+00:00",
+  "updatedAt": "2026-11-10T13:30:27.067198099+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

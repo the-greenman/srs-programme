@@ -1,0 +1,29 @@
+{
+  "instanceId": "63d08e47-c3a8-4039-90d2-7c2a4e956043",
+  "title": "Conversation 2026-10-22: forming decisions on the three trigram axes",
+  "tags": [
+    "conversation",
+    "topic:clustering",
+    "topic:decisions",
+    "topic:scope",
+    "topic:taxonomy",
+    "topic:trigram"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner on how decisions are formed well: scoped to a context, clustered before naming, read on three independent trigram lines (where energy goes, adding energy or settling, our plan or sensing and responding). This note is the conversation's identity record; the vignettes are the owner's words."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-10, gathering the vignettes of 2026-10-22 that sat in no conversation container (vignette ef16e77c); grouped by date."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

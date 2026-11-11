@@ -1,0 +1,35 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "purpose": "One question in the reader's words, and a short answer."
+  },
+  "createdAt": "2026-10-19T11:31:30Z",
+  "description": "One question and its answer, inside an faq-group.",
+  "fieldOrder": [
+    "eb1af15a-28ac-4df4-ba73-8425039bfa24",
+    "87eef92c-b253-49fd-b4b4-8f705fefee40",
+    "7ec03889-d4fd-49ff-87ad-c5c2352ec033"
+  ],
+  "fields": [
+    {
+      "fieldId": "eb1af15a-28ac-4df4-ba73-8425039bfa24",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "87eef92c-b253-49fd-b4b4-8f705fefee40",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "7ec03889-d4fd-49ff-87ad-c5c2352ec033",
+      "order": 3,
+      "required": true
+    }
+  ],
+  "id": "9b4e2d8f-5a7c-4fbb-8d3e-6a8c4b5f7e9d",
+  "identityFieldId": "eb1af15a-28ac-4df4-ba73-8425039bfa24",
+  "name": "faq-item",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

@@ -1,0 +1,27 @@
+{
+  "instanceId": "d5355531-b057-46b6-b7e9-35106ab36e47",
+  "title": "Conversation 2026-10-26: srs-web load speed",
+  "tags": [
+    "conversation",
+    "topic:load-speed",
+    "topic:srs-web",
+    "topic:usability-over-time"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner on srs-web taking minutes to load a large repository, and a tool that keeps getting slower becoming friction. This note is the conversation's identity record; the vignettes are the owner's words."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-10, gathering the vignettes of 2026-10-26 that sat in no conversation container (vignette ef16e77c); grouped by date."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

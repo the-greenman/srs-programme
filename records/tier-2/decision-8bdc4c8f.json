@@ -1,0 +1,32 @@
+{
+  "instanceId": "8bdc4c8f-a398-4d8c-954a-7f628b89c9b4",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "One primary working group per holon",
+    "decision_question": "When a piece of work spans several domains or needs several groups, who holds authority over it?",
+    "context": "Ratified decision 05c3ddcb holds work as holons (revived units), each with one tracking issue; the GitHub sub-issue tree is the authority for its parts, a part's lane is its wg: label, and a handover across lanes is a blocked-by edge that goes to the owner's Needs you when it crosses groups. Ratified 3b910d90 lets a working group operate independently only in a mature domain, and 708c9373 lets a problem occur in several domains. The exercise 'How a remedy differs by domain and persona' asked whether an epic must serve one domain. The owner answered on 2026-10-16: \"An epic should be undertaken with a clear primary authority. It may exist in multiple domains, but we should not end up with two working groups fighting over it. So a working group may be responsible for multiple domains. However, it is possible that a complex epic will need cross group effort. We should flag work that needs different teams to coordinate in order to complete it\". Epics have since become holons, so the answer applies to holons.",
+    "friction": "Nothing says which group holds a holon whose parts sit in several lanes. As remedies come to serve personas in several domains, a holon implementing them will cross groups, and two groups can each act as if it were theirs.",
+    "alternatives_considered": "1. One primary group per holon, which may span several domains; parts another group must do are flagged handovers (chosen). 2. Shared authority, with every group whose lane holds a part co-owning the holon: no single group can be blocked out, but the owner names this as the failure to avoid (\"two working groups fighting over it\"). 3. One domain per holon: authority follows from the domain, but work that genuinely spans domains must be split artificially, and the owner says a group may hold several domains. 4. Do nothing: authority is settled case by case at merge time.",
+    "key_requirements": "One authority for each piece of work, without forcing work into one domain. It must use what 05c3ddcb already provides: the primary group is the wg: lane of the holon's tracking issue, and a cross-group part is a blocked-by handover, so no new field is needed. Cross-group effort is allowed but must be visible, and goes to the owner's Needs you as 05c3ddcb already requires. A group's independence still depends on 3b910d90's domain maturity.",
+    "decision_statement": "Every holon has one primary working group, and any part another group must do is a flagged handover, never shared authority.",
+    "rationale": "A clear single holder prevents the contest the owner warned of, and the lane on the tracking issue already records it, so the rule costs nothing to apply. Allowing a group to span domains, and allowing flagged handovers, keeps genuine cross-domain work whole instead of splitting it to fit an ownership rule.",
+    "revisit_when": "Holons are often found with parts in another group's lane and no handover edge; or a handover is repeatedly contested between the same two groups, suggesting their domains need redrawing; or the owner has to settle authority over a holon by hand more than once a period.",
+    "next_steps": "None beyond applying it; a check that flags cross-lane parts without a handover could follow as a linked clerk issue.",
+    "owner": "Programme owner",
+    "status": "proposed",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "tags": [
+    "suggestion",
+    "topic:working-groups",
+    "topic:holons",
+    "topic:authority"
+  ],
+  "createdAt": "2026-11-10T12:09:50.346181100+00:00",
+  "updatedAt": "2026-11-10T13:30:26.785562494+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

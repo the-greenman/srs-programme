@@ -1,0 +1,48 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "purpose": "Name one smallest next action. Remove needless permission, platform, and expertise barriers so beginning feels lighter than not beginning."
+  },
+  "createdAt": "2026-09-14T17:08:19.020149359+00:00",
+  "description": "The final lowest-friction action block.",
+  "extendsTypeId": "03de48d7-f3b5-45da-89c7-7718e4e80d58",
+  "extendsTypeVersion": 1,
+  "fieldOrder": [
+    "45fbb93a-fd8d-4df6-a028-81ac07de1d5e",
+    "9772acd5-c431-4dec-a71f-531295d084d7",
+    "2bf57b24-bd34-4e9a-a306-962aa3c62418",
+    "40527886-7a33-4328-b478-9352c6e116d6",
+    "acc4c3d9-adae-424b-86a8-5dafbb7d7682",
+    "a0a3c18e-de7f-46b1-a9f9-a05f30aa823b",
+    "1a9d942b-8eee-4d70-aac9-55451eeeee00",
+    "e8237a7c-f977-405a-9c57-fe216df24d48",
+    "3212e6db-310c-4b07-b490-d516d41c0567"
+  ],
+  "fields": [
+    {
+      "fieldId": "a0a3c18e-de7f-46b1-a9f9-a05f30aa823b",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "1a9d942b-8eee-4d70-aac9-55451eeeee00",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "e8237a7c-f977-405a-9c57-fe216df24d48",
+      "order": 3,
+      "required": true
+    },
+    {
+      "fieldId": "3212e6db-310c-4b07-b490-d516d41c0567",
+      "order": 4,
+      "required": true
+    }
+  ],
+  "id": "3751bf69-e00f-4e77-bbb2-fb7e3d3dfcf7",
+  "identityFieldId": "45fbb93a-fd8d-4df6-a028-81ac07de1d5e",
+  "name": "homepage-cta",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

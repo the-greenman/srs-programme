@@ -1,0 +1,32 @@
+{
+  "instanceId": "6fcf6054-1c0b-4cdf-99c4-66b3db131efa",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "A remedy names who it serves",
+    "decision_question": "Does a remedy say who it is a remedy for, or only which problem it answers?",
+    "context": "In the method package a remedy answers a problem (com.semanticops.method/answers), and the remedy type's fields (move, does not fix, falsifier, source, look again when) name no one. Ratified decision 708c9373 models a problem that occurs in several domains as one problem held by one persona-in-domain in each, with the problem's domains derived from its holders and never stored. The exercise 'How a remedy differs by domain and persona' (2026-10-16) asked what follows for remedies. The owner answered the same day: \"A remedy does need to point to who it is a remedy for. (One man's poison...)\". On 2026-11-09 the owner found remedies eeefe987 and 6a45944b sitting 'In no domain' because no persona-in-domain holds the problems they answer: \"Found them. They are not on firm ground.\" (vignette 19dec106).",
+    "friction": "A remedy for a problem held in two domains reads as fitting both, though what helps one persona may harm another. A remedy whose problem has no holder floats with no domain and nothing shows it. An affirmed remedy already tends to read as the right one for everyone (SP-128).",
+    "alternatives_considered": "1. A remedy names the persona-in-domain it serves, taken from the holders of the problem it answers (chosen; the mechanism, a relation or arrangement in a domain container, is still to be compared). 2. Derive who a remedy serves from its problem's holders only, as today: needs nothing new, but cannot say a remedy suits one holder and not another, and a holder-less problem leaves the remedy unanchored. 3. Clone the problem per domain when remedies diverge: keeps remedies simple, but splits one claim into copies, against 708c9373. 4. Place remedies under their problems in each domain container's outline: shows grouping, but arrangement is layout, not a semantic claim. 5. Do nothing: remedies stay scoped by implication and the 'in no domain' cases keep appearing.",
+    "key_requirements": "Meaning that must stay stable is stated as a relation or field, not as container membership. It must stay consistent with 708c9373: a remedy names a persona-in-domain, never a bare domain, and that persona-in-domain holds the problem the remedy answers, so there is no second path to a domain that could disagree with the first. The practice is still being learnt (vignette 76f63499): the owner asked to weigh containers against relations before picking a mechanism (\"We should investigate the pros and cons. We can do both.\"), and draft 4a67caf5 may change what a domain is. The owner's separate remark on cloning problems (\"We can clone problems, as long as we keep a link between them\") is not decided here, because it sits against 708c9373.",
+    "decision_statement": "A remedy names the persona-in-domain it serves, chosen from the holders of the problem it answers.",
+    "rationale": "What helps depends on who is helped, so a remedy without a named recipient overclaims. Choosing the recipient from the problem's holders keeps 708c9373's derivation intact, and makes a remedy whose problem has no holder visibly unanchored instead of silently domain-less. It also gives SP-128 a check: an affirmed remedy is affirmed for someone, not for everyone.",
+    "revisit_when": "Remedies routinely serve every holder of their problem alike, so that naming one becomes noise; or the chosen mechanism lets a remedy name someone who does not hold its problem; or draft 4a67caf5 changes what a persona-in-domain is.",
+    "next_steps": "The mechanism comparison (relation against container outline) stays open on the exercise; the method-package change follows as a linked issue once it is chosen.",
+    "owner": "Programme owner",
+    "status": "proposed",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "ratified",
+  "tags": [
+    "suggestion",
+    "topic:remedies",
+    "topic:personas",
+    "topic:domains"
+  ],
+  "createdAt": "2026-11-10T12:09:50.248735613+00:00",
+  "updatedAt": "2026-11-10T13:30:26.501053977+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

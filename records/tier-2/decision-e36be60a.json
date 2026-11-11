@@ -1,0 +1,34 @@
+{
+  "instanceId": "e36be60a-fb4e-4a59-9803-191c65600766",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Conditional-forbidden rules share conditional-required's shape",
+    "decision_question": "Which properties must a conditional-forbidden CrossFieldRule not supply, now that RFC-040 added the kind but invariants I-95 and I-96 still omit it?",
+    "context": "The exercise 'I-95 and I-96 omit conditional-forbidden' (2d521997, checked 2026-11-09 at srs 1461d01) found that RFC-040 Change F added the CrossFieldRule kind conditional-forbidden (type.json lists four kinds; srs-rust accepts and evaluates it), but I-95 still lists only conditional-required, field-ordering and mutual-exclusion, and I-96 has no 'MUST NOT supply' row for it; srs-rust skips the I-96 check for it (srs-core validation/record_type.rs, `ConditionalForbidden => continue`). The analyst recommended 'C if RFC-040 Change F states the kind's properties, else A'. Checked 2026-11-10 at srs master 77888cd: Change F's text says only that 'CrossFieldRuleKind gains conditional-forbidden' (annotated '#273 2026-07-31: no decision needed') and states no property set, so option C's condition is not met. The artefacts that implement it all give it conditional-required's shape: scripts/lib/schema-emitter.mjs says the two kinds 'share the predicate/target shape', and the RFC-040 Unit 3 golden fixture (tests/rfc-040-unit3/fixture-package/types/ticket.json) writes it with predicateFieldId, predicateValue and targetFieldId. I-96 today reads: 'a conditional-required or field-ordering rule MUST NOT supply fieldIds; a mutual-exclusion rule MUST NOT supply predicateFieldId, predicateValue, targetFieldId, or effect.' The invariant text change is an RFC-019 revision (Door 3) that cites this decision.",
+    "friction": "Read literally, I-95 makes every conformant engine non-conformant for accepting a kind the schema allows, and a conditional-forbidden rule that carries a stray fieldIds list is accepted silently, so the srs-rust conformance fix has no rule to implement (SP-01).",
+    "alternatives_considered": "1. Same row as conditional-required (recommended, the exercise's option A): an RFC-019 revision adds conditional-forbidden to I-95's list and to I-96's 'MUST NOT supply fieldIds' row; srs-rust then refuses it. Leads to: invariants match the schema, emitter and fixtures. 2. A different property set for conditional-forbidden (option B): no artefact suggests one, so this would invent a shape. 3. Treat RFC-040 Change F as having amended I-95 and only re-render (option C): Change F states no property set, so I-96's row would still be missing. 4. Do nothing: the invariants stay false.",
+    "key_requirements": "Smallest change that makes the text true (Continuity): the kind already exists in schema, emitter, Rust and fixtures with the predicate/target shape, so the ruling records that shape rather than designing one. Must cover both invariants together. A side finding for the same revision: I-95 says `type` where the schema field is `kind` (the emitter reads `rule.kind ?? rule.type`); the revision should check which word the invariant means.",
+    "decision_statement": "A conditional-forbidden cross-field rule takes exactly the properties of a conditional-required rule, so supplying fieldIds on it is a Type-level error.",
+    "rationale": "Change F gave the kind no property set of its own, but every implementing artefact already treats it as conditional-required's twin; naming that in I-95 and I-96 makes the spec true without changing any valid Type. The deciding factor is that options B and C either invent a shape or leave I-96 incomplete.",
+    "revisit_when": "A Type is found that needs a conditional-forbidden rule with a property conditional-required lacks (for example an effect or a set of targets); or RFC-019's CrossFieldRule model is revised in a way that splits the two kinds.",
+    "next_steps": "After ratification: an RFC-019 revision in srs (I-95, I-96) and the srs-rust I-96 check, filed as linked issues.",
+    "owner": "Programme owner",
+    "status": "proposed",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "ratified",
+  "tags": [
+    "suggestion",
+    "topic:ruling"
+  ],
+  "createdAt": "2026-11-10T13:38:56.738049560+00:00",
+  "updatedAt": "2026-11-10T14:20:37.726624683+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

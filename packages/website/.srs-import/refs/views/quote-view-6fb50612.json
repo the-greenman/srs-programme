@@ -1,0 +1,60 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/view.json",
+  "aiGuidance": {
+    "purpose": "Binds these types to the site component QuoteBlock. Hidden fields are not on the site: displayHint says whether a field is a brief, a setting or a key."
+  },
+  "compatibleTypes": [
+    "com.mudemocracy.website/homepage-quote"
+  ],
+  "createdAt": "2026-11-02T12:00:20Z",
+  "description": "A quotation on a dark band, drawn by QuoteBlock.",
+  "exportConfig": {
+    "format": "markdown"
+  },
+  "fieldViews": [
+    {
+      "fieldId": "92adcada-f75e-41b1-856e-31ca2e21033a",
+      "order": 0,
+      "visible": true
+    },
+    {
+      "fieldId": "f3445277-2e20-41d8-8785-a963edbc28d7",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "displayHint": "key",
+      "fieldId": "45fbb93a-fd8d-4df6-a028-81ac07de1d5e",
+      "order": 2,
+      "visible": false
+    },
+    {
+      "displayHint": "brief",
+      "fieldId": "9772acd5-c431-4dec-a71f-531295d084d7",
+      "order": 3,
+      "visible": false
+    },
+    {
+      "displayHint": "brief",
+      "fieldId": "2bf57b24-bd34-4e9a-a306-962aa3c62418",
+      "order": 4,
+      "visible": false
+    },
+    {
+      "displayHint": "brief",
+      "fieldId": "40527886-7a33-4328-b478-9352c6e116d6",
+      "order": 5,
+      "visible": false
+    },
+    {
+      "displayHint": "brief",
+      "fieldId": "acc4c3d9-adae-424b-86a8-5dafbb7d7682",
+      "order": 6,
+      "visible": false
+    }
+  ],
+  "id": "6fb50612-3aa7-4ef0-b6d4-c95abb1aa587",
+  "name": "quote-view",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

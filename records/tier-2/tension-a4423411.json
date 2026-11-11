@@ -1,0 +1,19 @@
+{
+  "instanceId": "a4423411-424d-45e2-b1b2-b59412e76931",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "More kinds of writing and the essay done well",
+    "description": "Line 2 in Evidence-backed writing, refining the Stance line 'Change'. Whether the editor opens up to new kinds of writing and new background for each piece, or makes the paragraph essay easy and solid for the person trying it first."
+  },
+  "createdAt": "2026-11-10T13:42:10.731188106+00:00",
+  "updatedAt": "2026-11-10T13:42:10.731190296+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "createdAt": "2026-11-04T09:12:34.345428784+00:00",
+  "description": "One item in the site menu: a label and where it goes. It points at a muSrs page by a `uses` relation to the page record (its address follows page_key), or at a code route by nav_href. An item with neither is a dropdown heading. The menu is the container tagged site-menu; depth 0 is the bar, depth 1 a dropdown entry.",
+  "fields": [
+    {
+      "fieldId": "8ca79f48-d672-484c-9778-5eb3eebba99a",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "1fc35cad-961d-4219-829b-718a159faede",
+      "order": 2,
+      "required": false
+    }
+  ],
+  "id": "1c468ba3-3b54-430a-9128-2c4b9fc862ee",
+  "name": "nav-item",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

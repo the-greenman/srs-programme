@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "abc081af-0261-4158-bafb-ece93a138e49",
+  "relationType": "com.semanticops.method/held-by",
+  "sourceInstanceId": "e76ab659-8404-49fd-b770-822b1d72f481",
+  "targetInstanceId": "2cce4aac-a1be-4841-b071-a8a9e7878350",
+  "createdAt": "2026-11-10T14:39:39.285928401+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "notes": "The reader is the someone checking a claim who must reread the whole source (conversation 017606e8)."
+}

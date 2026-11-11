@@ -1,0 +1,18 @@
+{
+  "instanceId": "7cf200a6-e02c-44e7-af44-2fd69c937d23",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed with both poles: this is the moment by moment tenstion"
+  },
+  "createdAt": "2026-11-10T13:41:17.749487828+00:00",
+  "updatedAt": "2026-11-10T13:41:17.749492354+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

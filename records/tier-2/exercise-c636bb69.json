@@ -12,8 +12,9 @@
     "blocking": "srs-rust#1510 cannot be promoted; srs#983's agent pages keep a heading splitter in a script (SP-123).",
     "next_action": "Owner: choose A, B or C. Recommendation: B for --container (one meaning, never a silent re-point) with A's selector, recorded as a short decision under RFC-036 (presentation in the view layer); then srs-rust#1510 becomes ready work."
   },
+  "lifecycleState": "closed",
   "createdAt": "2026-11-04T12:17:22.255041813+00:00",
-  "updatedAt": "2026-11-04T12:17:22.255050988+00:00",
+  "updatedAt": "2026-11-10T13:39:15.000388709+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-analyst",

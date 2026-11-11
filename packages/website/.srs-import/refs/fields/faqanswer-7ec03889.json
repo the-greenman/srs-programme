@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Short and direct; markdown links allowed. An answer that asserts something about the world needs evidence like any other statement."
+  },
+  "createdAt": "2026-10-19T11:31:30Z",
+  "description": "The answer to an FAQ question.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "7ec03889-d4fd-49ff-87ad-c5c2352ec033",
+  "name": "faq_answer",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}
