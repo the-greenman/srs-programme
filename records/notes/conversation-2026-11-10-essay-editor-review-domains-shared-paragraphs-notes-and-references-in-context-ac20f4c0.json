@@ -1,0 +1,22 @@
+{
+  "instanceId": "ac20f4c0-3ced-495a-be0a-1c5e035e0db6",
+  "title": "Conversation 2026-11-10: essay editor review: domains, shared paragraphs, notes and references in context",
+  "tags": [
+    "conversation",
+    "topic:essay-editor",
+    "topic:srs-web"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner reviewing the essay editor: domain controls with no domains, the essays list and shared-paragraph markers, notes and references that cannot be reviewed in context, and a wish for a multi-window view. This note is the conversation's identity record; the vignettes are the owner's words."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-10, on the owner's essay editor UI review with four screenshots."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
