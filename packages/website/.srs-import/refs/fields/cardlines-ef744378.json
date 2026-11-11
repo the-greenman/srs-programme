@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Two or three short lines that make the action feel small and concrete."
+  },
+  "createdAt": "2026-10-19T11:31:30Z",
+  "description": "The short lines of an action card, one per line.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "ef744378-7c33-4361-bd16-5611ff219813",
+  "name": "card_lines",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

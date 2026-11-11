@@ -19,9 +19,9 @@
     "status": "proposed",
     "decision_kind": "preference"
   },
-  "lifecycleState": "draft",
+  "lifecycleState": "proposed",
   "createdAt": "2026-10-30T11:37:34.655465088+00:00",
-  "updatedAt": "2026-10-30T11:37:34.655469103+00:00",
+  "updatedAt": "2026-11-11T11:36:19.900940855+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",

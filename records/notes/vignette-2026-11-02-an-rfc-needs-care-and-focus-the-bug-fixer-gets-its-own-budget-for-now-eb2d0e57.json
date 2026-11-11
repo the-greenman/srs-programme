@@ -1,7 +1,9 @@
 {
   "instanceId": "eb2d0e57-0229-4b46-b3f8-7a555643e0d0",
   "title": "Vignette 2026-11-02: an RFC needs care and focus; the bug fixer gets its own budget, for now",
-  "tags": [],
+  "tags": [
+    "vignette"
+  ],
   "sections": [
     {
       "name": "narrative",

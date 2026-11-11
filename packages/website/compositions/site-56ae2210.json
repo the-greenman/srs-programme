@@ -1,0 +1,77 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/composition.json",
+  "aiGuidance": {
+    "purpose": "The link between the website package and the site's components: typeDispatch says which View draws each block type. Add a block type here, with its View, before the site or the editor can use it."
+  },
+  "createdAt": "2026-11-02T12:00:47Z",
+  "description": "A website page: the page container's own entry order, each block drawn through the View of its type. The site build maps each View to the component that draws it, and the site editor offers only types this Composition dispatches.",
+  "exportConfig": {
+    "format": "markdown"
+  },
+  "id": "56ae2210-f98b-4ce8-82e2-9657ea7fdcb1",
+  "name": "site",
+  "namespace": "com.mudemocracy.website",
+  "rootTypeRefs": [
+    {
+      "typeId": "5de26162-3fd5-4fc9-b32e-567db46bb552",
+      "typeVersion": 1
+    }
+  ],
+  "sections": [
+    {
+      "emptyBehavior": "hide",
+      "order": 0,
+      "ordering": {
+        "source": "arranged"
+      },
+      "sectionId": "blocks",
+      "source": {
+        "type": "container-subset",
+        "typeFilter": [
+          "com.mudemocracy.website/action-card",
+          "com.mudemocracy.website/bio",
+          "com.mudemocracy.website/explainer",
+          "com.mudemocracy.website/faq-group",
+          "com.mudemocracy.website/faq-item",
+          "com.mudemocracy.website/guide-section",
+          "com.mudemocracy.website/hero",
+          "com.mudemocracy.website/homepage-cta",
+          "com.mudemocracy.website/homepage-decision-record",
+          "com.mudemocracy.website/homepage-decision-record-item",
+          "com.mudemocracy.website/homepage-feature",
+          "com.mudemocracy.website/homepage-feature-group",
+          "com.mudemocracy.website/homepage-hero",
+          "com.mudemocracy.website/homepage-prose",
+          "com.mudemocracy.website/homepage-quote",
+          "com.mudemocracy.website/primary-cta"
+        ]
+      },
+      "typeDispatch": {
+        "com.mudemocracy.website/action-card": "a91e7ae4-610f-4653-be3b-1cb751e30f2c",
+        "com.mudemocracy.website/bio": "f7d956ab-0744-4987-8622-1547a71be954",
+        "com.mudemocracy.website/explainer": "952cb650-3a7a-41a0-8d1e-4458b01ae681",
+        "com.mudemocracy.website/faq-group": "d3c7cafd-e002-4f7e-a1e8-98d13891be15",
+        "com.mudemocracy.website/faq-item": "5c63a9d8-49e2-4162-92e7-fadfa9ab3b21",
+        "com.mudemocracy.website/guide-section": "36a95874-d726-4e34-8a5a-f3712507908b",
+        "com.mudemocracy.website/hero": "5eee2746-5c02-4ecd-a03e-e753cfaf0e85",
+        "com.mudemocracy.website/homepage-cta": "a0469295-3a87-4bb9-8ebb-12df3ce27013",
+        "com.mudemocracy.website/homepage-decision-record": "6ee29738-8c9b-49b5-80bf-fca3e7ad9bf4",
+        "com.mudemocracy.website/homepage-decision-record-item": "8480c393-f233-4393-ad42-98475311cdbd",
+        "com.mudemocracy.website/homepage-feature": "2c989e4a-abe3-40da-a429-3b9e28312984",
+        "com.mudemocracy.website/homepage-feature-group": "0c6ebdfc-f660-4d82-bc50-581e5aefb2fb",
+        "com.mudemocracy.website/homepage-hero": "5eee2746-5c02-4ecd-a03e-e753cfaf0e85",
+        "com.mudemocracy.website/homepage-prose": "f5cce8f7-a847-4397-93fc-d3a58883af2b",
+        "com.mudemocracy.website/homepage-quote": "6fb50612-3aa7-4ef0-b6d4-c95abb1aa587",
+        "com.mudemocracy.website/primary-cta": "84f5f085-8b83-4aee-83c9-50514be28aa0"
+      }
+    }
+  ],
+  "tags": [
+    "site"
+  ],
+  "themeRef": {
+    "mode": "bundled",
+    "themeId": "cbd967a2-c7b9-47f9-9204-c6e41f6fbbb9"
+  },
+  "version": 1
+}

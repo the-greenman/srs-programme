@@ -1,0 +1,61 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/view.json",
+  "aiGuidance": {
+    "purpose": "Binds these types to the site component Explainer. Hidden fields are not on the site: displayHint says whether a field is a brief, a setting or a key."
+  },
+  "compatibleTypes": [
+    "com.mudemocracy.website/explainer"
+  ],
+  "createdAt": "2026-11-02T12:00:20Z",
+  "description": "A motion explainer named by its key, drawn by Explainer.",
+  "exportConfig": {
+    "format": "markdown"
+  },
+  "fieldViews": [
+    {
+      "fieldId": "a0a3c18e-de7f-46b1-a9f9-a05f30aa823b",
+      "order": 0,
+      "visible": false
+    },
+    {
+      "displayHint": "key",
+      "fieldId": "45fbb93a-fd8d-4df6-a028-81ac07de1d5e",
+      "order": 1,
+      "visible": false
+    },
+    {
+      "displayHint": "brief",
+      "fieldId": "9772acd5-c431-4dec-a71f-531295d084d7",
+      "order": 2,
+      "visible": false
+    },
+    {
+      "displayHint": "brief",
+      "fieldId": "2bf57b24-bd34-4e9a-a306-962aa3c62418",
+      "order": 3,
+      "visible": false
+    },
+    {
+      "displayHint": "brief",
+      "fieldId": "40527886-7a33-4328-b478-9352c6e116d6",
+      "order": 4,
+      "visible": false
+    },
+    {
+      "displayHint": "brief",
+      "fieldId": "acc4c3d9-adae-424b-86a8-5dafbb7d7682",
+      "order": 5,
+      "visible": false
+    },
+    {
+      "displayHint": "setting",
+      "fieldId": "097ca1d8-626c-4b6f-8adb-4d2391abe634",
+      "order": 6,
+      "visible": false
+    }
+  ],
+  "id": "952cb650-3a7a-41a0-8d1e-4458b01ae681",
+  "name": "explainer-view",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

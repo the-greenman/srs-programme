@@ -1,0 +1,23 @@
+{
+  "instanceId": "0131da48-5d2f-4f5d-bbbd-039c7a31c6e7",
+  "title": "The lab and clerk are experimental works; build reusable, modular understanding (2026-11-10)",
+  "tags": [
+    "vignette",
+    "topic:modularity",
+    "topic:capability-layering",
+    "topic:clerk",
+    "topic:srs-lab",
+    "topic:tensions"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "The lab and clerk have all emerged as experimental works. We should always be working to build reusable, modular understanding"
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-10, rejecting a plan draft that proposed extracting the clerk's and srs-lab's tension rules (domainField, judgement) into a shared JS package for srs-web; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

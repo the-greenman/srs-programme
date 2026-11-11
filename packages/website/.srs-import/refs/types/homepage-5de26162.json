@@ -1,0 +1,47 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "purpose": "Model the homepage as an argument-led public document. Move a reader from distant concern to one immediate, credible action. Preserve momentum and proof density: no more than one abstract move before something concrete."
+  },
+  "createdAt": "2026-09-14T17:08:18.395189044+00:00",
+  "description": "Root record for an editable homepage composition.",
+  "fieldOrder": [
+    "b8d5620d-9284-46f4-a1b3-a5c97c6b14cb",
+    "ea10cb6a-7a33-4b95-a13f-db8304e1a125",
+    "771554ab-2578-453e-8342-ed3f736b4239",
+    "d326cf4a-fcfe-4ca4-b676-740a6e23c2cf",
+    "bcd90b37-3d90-49ae-bb03-72f301072116"
+  ],
+  "fields": [
+    {
+      "fieldId": "b8d5620d-9284-46f4-a1b3-a5c97c6b14cb",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "ea10cb6a-7a33-4b95-a13f-db8304e1a125",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "771554ab-2578-453e-8342-ed3f736b4239",
+      "order": 3,
+      "required": true
+    },
+    {
+      "fieldId": "d326cf4a-fcfe-4ca4-b676-740a6e23c2cf",
+      "order": 4,
+      "required": true
+    },
+    {
+      "fieldId": "bcd90b37-3d90-49ae-bb03-72f301072116",
+      "order": 5,
+      "required": true
+    }
+  ],
+  "id": "5de26162-3fd5-4fc9-b32e-567db46bb552",
+  "identityFieldId": "b8d5620d-9284-46f4-a1b3-a5c97c6b14cb",
+  "name": "homepage",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

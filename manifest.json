@@ -1,4 +1,5 @@
 {
+  "rootContainerId": "fb8429db-ee67-4439-9656-0f36f17ab98b",
   "$schema": "https://srs.semanticops.com/schema/2.0/manifest.json",
   "createdAt": "2026-09-05T21:46:21.025288400+00:00",
   "dataModelRevision": 11,
@@ -27,10 +28,13 @@
     {
       "mode": "local",
       "path": "packages/stewardship"
+    },
+    {
+      "mode": "local",
+      "path": "packages/website"
     }
   ],
   "repositoryId": "fb8429db-ee67-4439-9656-0f36f17ab98b",
   "srsVersion": "2.0-draft",
-  "title": "SRS spec-rework programme",
-  "rootContainerId": "fb8429db-ee67-4439-9656-0f36f17ab98b"
+  "title": "SRS spec-rework programme"
 }

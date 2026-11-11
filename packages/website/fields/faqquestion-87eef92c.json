@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "In the reader's own words, as they would ask it."
+  },
+  "createdAt": "2026-10-19T11:31:30Z",
+  "description": "A question a reader asks.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "87eef92c-b253-49fd-b4b4-8f705fefee40",
+  "name": "faq_question",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

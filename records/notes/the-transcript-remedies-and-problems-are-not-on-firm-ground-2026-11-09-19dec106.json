@@ -1,0 +1,23 @@
+{
+  "instanceId": "19dec106-c559-4750-b9c1-6cf949e1ba52",
+  "title": "The transcript remedies and problems are not on firm ground (2026-11-09)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:transcripts",
+    "topic:affirmation"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Found them. They are not on firm ground."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-09, after finding remedies eeefe987 and 6a45944b and problems SP-158 (cd28085e) and SP-156 (a019aad6) under 'In no domain' in the control room's affirmation editor: the problems are held by no persona-in-domain, so the remedies answering them have no domain either. Recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

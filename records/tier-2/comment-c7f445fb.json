@@ -1,0 +1,18 @@
+{
+  "instanceId": "c7f445fb-4154-43ad-a831-38d0c504b54f",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Affirmed with both poles: this is also a good reflection of the actual experience"
+  },
+  "createdAt": "2026-11-10T13:42:11.574954103+00:00",
+  "updatedAt": "2026-11-10T13:42:11.574958254+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

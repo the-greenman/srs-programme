@@ -39,13 +39,15 @@ Precedence is repository governance (this file and `roadmap.mjs`), not a tool ru
 
 ## Narrative explorations
 
-The owner's understanding of the work enters as **Tier-0 vignettes** in the **Narrative explorations**
-container (`80b283ef`). A vignette is a *source of meaning*, not a log of the conversation. Record one only when the owner's words
+The owner's understanding of the work enters as **Tier-0 vignettes** in **the conversation's container**,
+a member of the **Narrative explorations** container (`80b283ef`). A vignette is a *source of meaning*, not a log of the conversation. Record one only when the owner's words
 say what something **is, why it matters, or how it should be understood**: a concept, a theory, a ruling, a frustration that exposes a missing concept, or the start of a problem or remedy. Do **not** record
 instructions (do this, merge that, move X up, add help for Y): they carry no meaning beyond the act, and the act is already in the PR or issue.
 Test: *if the owner had said nothing, would a record's meaning be poorer?* A challenge that reveals a concept ("Is that not us? What is our holon?" gives *the driver is us*) passes; "I've merged the first two" fails. A mixed message is recorded only for its meaning-bearing sentences. When it does qualify, record their words verbatim as a note
-(`note create`, then `container members add 80b283ef <id>`; sections `narrative` and `source`) before
-acting on it. Records derived from a vignette go to Suggestions with `derived-from` to it. The practice
+(`note create` tagged `vignette`, sections `narrative` and `source`, then `container members add <conversation container> <id>`) before
+acting on it. On the first capture of a conversation, open its container: an identity note tagged `conversation` (added to
+`80b283ef` too) and a container titled `YYYY-MM-DD · …` whose `identityInstanceId` names it. The Method editor's Conversations
+view reads only that shape: a vignette that sits in `80b283ef` alone, or lacks the `vignette` tag, never appears there. Records derived from a vignette go to Suggestions with `derived-from` to it. The practice
 is the clerk handbook chapter "Narrative explorations: how meaning grows" (decision 77e04b19), which also sets the one-container-per-conversation standard (dated title, summary description, `topic:` tags).
 
 ## Flow stops

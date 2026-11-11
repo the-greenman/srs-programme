@@ -1,0 +1,22 @@
+{
+  "instanceId": "7d3a1ea0-18af-4a83-93da-0ba55b674912",
+  "title": "Tensions are almost impossible to affirm without lots of context (2026-11-10)",
+  "tags": [
+    "vignette",
+    "topic:tensions",
+    "topic:affirmation",
+    "topic:method-editor",
+    "topic:domains"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "now. I want you to review all the conversations in srs-programme about domains and tensions. \nTensions are almost  impossible to affirm without lots of context. \n\nI want you to come up with a more detailed evolutioin of how we can manage tensions in the method editor"
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-10, after srs-web#562 shipped (domain and persona-in-domain ticks in the Conversations view); recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

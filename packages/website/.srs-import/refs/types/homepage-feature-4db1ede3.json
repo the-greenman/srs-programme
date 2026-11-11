@@ -1,0 +1,41 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "purpose": "Present one learning path or practical destination. Be specific about what it helps a group do next and keep the promise proportionate."
+  },
+  "createdAt": "2026-09-14T17:08:18.742502845+00:00",
+  "description": "One linked practical learning card.",
+  "fieldOrder": [
+    "bd4f93be-1093-4aae-9575-ba552d291276",
+    "9e8c3227-4d7b-405e-b048-e88696352970",
+    "28e727e2-8f79-4eaa-9514-60e6f5825f9c",
+    "3cf91740-38ba-40de-bb06-af3ce1124e69"
+  ],
+  "fields": [
+    {
+      "fieldId": "bd4f93be-1093-4aae-9575-ba552d291276",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "9e8c3227-4d7b-405e-b048-e88696352970",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "28e727e2-8f79-4eaa-9514-60e6f5825f9c",
+      "order": 3,
+      "required": true
+    },
+    {
+      "fieldId": "3cf91740-38ba-40de-bb06-af3ce1124e69",
+      "order": 4,
+      "required": true
+    }
+  ],
+  "id": "4db1ede3-1690-4087-bcc6-4e0ecded3135",
+  "identityFieldId": "bd4f93be-1093-4aae-9575-ba552d291276",
+  "name": "homepage-feature",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

@@ -1,0 +1,23 @@
+{
+  "instanceId": "993cfb4f-4822-4690-b0de-1a601086f7e5",
+  "title": "Vignette 2026-11-10: an exercise is a discussion to understand and research before it becomes actions, with a rebel for the deeper issues",
+  "tags": [
+    "vignette",
+    "topic:exercise",
+    "topic:research",
+    "topic:agent-stances"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "lets look at the exercises in our session. Each of these is an discussion that should be understood and researched. Then we can turn them into actions. Your job is to review each and lay out what is goingon. Then call in challenger and synthesiser agents. We may need a rebel too to ask what the deeper issues really are."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-10; recorded verbatim. Concerns the six exercises in section 4 of the Open exercises document (container 5c8a8c07)."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

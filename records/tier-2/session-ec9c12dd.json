@@ -1,0 +1,29 @@
+{
+  "instanceId": "ec9c12dd-97a8-4816-b9ea-a3f0d20a7675",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-11-10 13:10 UTC: SemanticOps",
+    "held_at": "2026-11-10T13:10:15Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-11-10 13:10 UTC: SemanticOps\nAttendees: Owner\n- Received: WG Agent-supported editor report 2026-11-09\n- Received: WG Agent-supported editor report 2026-11-10\n- Received: WG Third-party ready report 2026-11-09\n- Received: WG Third-party ready report 2026-11-10\nActs in the order taken (UTC):\n- 13:10:25Z receive: WG Agent-supported editor report 2026-11-09 [8f8b89ec] (Reports 1 of 4)\n- 13:10:27Z receive: WG Agent-supported editor report 2026-11-10 [909f5420] (Reports 2 of 4)\n- 13:10:30Z receive: WG Third-party ready report 2026-11-09 [e7012a82] (Reports 3 of 4)\n- 13:10:33Z receive: WG Third-party ready report 2026-11-10 [1045a321] (Reports 4 of 4)"
+  },
+  "createdAt": "2026-11-10T13:10:40.085399692+00:00",
+  "updatedAt": "2026-11-10T13:10:40.085401704+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "835e86b3-bea8-4246-9d76-2033b38667c4",
+      "sourceRole": "attaches"
+    }
+  ]
+}
