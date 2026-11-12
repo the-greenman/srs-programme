@@ -1,0 +1,18 @@
+{
+  "instanceId": "75d97500-b9cb-47ce-9ea5-d1c49bd93194",
+  "title": "Owner: repo-specific rules can't be built into the editor",
+  "tags": [
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "content": "\"we can't build our repo specific rules into the editor\""
+    },
+    {
+      "name": "context",
+      "content": "2026-11-12. Reply to the suggestion that the marker-attribution check be explained to agents editing muDemocracy in srs-web. The editor stays generic: a repository's rules have to travel as that repository's data (package guidance, validation rules) or stay in its CI."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
