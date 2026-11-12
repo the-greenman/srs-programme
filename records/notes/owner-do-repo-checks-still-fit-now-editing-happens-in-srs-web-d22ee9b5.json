@@ -1,0 +1,18 @@
+{
+  "instanceId": "d22ee9b5-1f61-4de6-b34f-5a98ea2acb56",
+  "title": "Owner: do repo checks still fit now editing happens in srs-web?",
+  "tags": [
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "content": "\"While a lot of editing now happens in SRS web it might be good to assess whether we should still have these checks or if we need to explain them to agents if we keep them\""
+    },
+    {
+      "name": "context",
+      "content": "2026-11-11. Said after main of muDemocracy.org went red: two srs-web saves corrected the dated examples of the 'rules' marker's canonical text, and check-marker-attributions.mjs flagged 8 story-stop attributions as stale (graded before the text changed)."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

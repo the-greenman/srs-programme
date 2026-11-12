@@ -1,0 +1,22 @@
+{
+  "instanceId": "7f2fef35-7494-4717-bef9-29aab7d8e817",
+  "title": "No moving out of a local copy of a package (2026-11-11)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:packages"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "yes. You can't move out of a local copy of a package."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-11, answering ask A1 on srs-rust PR #1641 (`srs package move`): moves into or out of a package installed from a bundle are refused. Such a package is refined at its source and reaches a repository by upgrade."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
