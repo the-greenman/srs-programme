@@ -18,14 +18,14 @@
     "status": "proposed",
     "decision_kind": "policy"
   },
-  "lifecycleState": "draft",
+  "lifecycleState": "proposed",
   "tags": [
     "suggestion",
     "topic:mudemocracy",
     "topic:housekeeping"
   ],
   "createdAt": "2026-11-03T18:46:37.500224465+00:00",
-  "updatedAt": "2026-11-03T18:46:37.500230578+00:00",
+  "updatedAt": "2026-11-12T19:54:50.341517929+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"
