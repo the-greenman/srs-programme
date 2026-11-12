@@ -1,0 +1,18 @@
+{
+  "instanceId": "5aab4a38-3ca9-40fd-8d99-53361c498f14",
+  "title": "Owner: srs-web holds only generic code for public packages; layers are never merged",
+  "tags": [
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "content": "\"I may have not paid quite enough attention before. We cannot merge layers. if this means that we don't have the mudemocracy editor on the generic srs-web then so be it. Lets make sure that srs-web has a clear layer test. srs-web contains only reusable generic code that applies to packages that are public. no code specific to any particular implementation can appear in generic srs-web code.\""
+    },
+    {
+      "name": "context",
+      "content": "2026-11-12. Said on reviewing srs-web#796 (B2 PR 1), which put muDemocracy's evidence rules into srs-web's src/lib/site/mudemocracy/, the site layer ADR-029 allowed as a temporary home. The ruling retires that home: an implementation's rules stay in its own repository, even at the cost of a muDemocracy-specific editor in srs-web."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
