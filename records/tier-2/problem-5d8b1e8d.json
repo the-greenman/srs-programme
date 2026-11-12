@@ -1,0 +1,19 @@
+{
+  "instanceId": "5d8b1e8d-08d6-41d4-8b89-ffb428df5658",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-170",
+    "title": "An agent's finished work cannot reach saving",
+    "statement": "When I work with an agent on a document I loaded from GitHub, the agent can make and check its changes but has no way to bring them to a save. I must notice that the work is done, find Save myself and write the commit message, and the agent can only tell from `changes` that the work is still unsaved. Work an agent finishes sits unsaved until I remember it.",
+    "kind": "capability",
+    "source_ref": [
+      "the-greenman/srs-web: ui_request_save (owner request, 2026-11-12)"
+    ]
+  },
+  "createdAt": "2026-11-12T17:08:10.728427662+00:00",
+  "updatedAt": "2026-11-12T17:08:10.728429529+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
