@@ -18,7 +18,7 @@
     "status": "proposed",
     "decision_kind": "policy"
   },
-  "lifecycleState": "draft",
+  "lifecycleState": "proposed",
   "tags": [
     "suggestion",
     "topic:local-models",
@@ -26,7 +26,7 @@
     "topic:kinds"
   ],
   "createdAt": "2026-11-03T18:46:37.353824358+00:00",
-  "updatedAt": "2026-11-03T18:46:37.353828064+00:00",
+  "updatedAt": "2026-11-12T19:54:50.173447717+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"
