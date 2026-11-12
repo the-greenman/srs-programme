@@ -18,7 +18,7 @@
     "status": "proposed",
     "decision_kind": "policy"
   },
-  "lifecycleState": "draft",
+  "lifecycleState": "proposed",
   "tags": [
     "suggestion",
     "topic:mozilla",
@@ -26,6 +26,6 @@
     "topic:theory-of-change"
   ],
   "createdAt": "2026-11-07T16:47:58.033441833+00:00",
-  "updatedAt": "2026-11-07T16:47:58.033443812+00:00",
+  "updatedAt": "2026-11-12T19:54:50.095533326+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

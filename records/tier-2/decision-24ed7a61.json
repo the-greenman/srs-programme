@@ -18,14 +18,14 @@
     "status": "proposed",
     "decision_kind": "preference"
   },
-  "lifecycleState": "draft",
+  "lifecycleState": "proposed",
   "tags": [
     "suggestion",
     "topic:local-models",
     "topic:housekeeping"
   ],
   "createdAt": "2026-11-03T18:46:37.017871461+00:00",
-  "updatedAt": "2026-11-09T17:56:56.100260148+00:00",
+  "updatedAt": "2026-11-12T19:54:49.837831804+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"
