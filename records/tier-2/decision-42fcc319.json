@@ -18,9 +18,9 @@
     "owner": "Peter Brownell",
     "status": "proposed"
   },
-  "lifecycleState": "draft",
+  "lifecycleState": "proposed",
   "createdAt": "2026-11-03T08:25:25.620975924+00:00",
-  "updatedAt": "2026-11-03T08:25:25.620980484+00:00",
+  "updatedAt": "2026-11-13T11:40:18.811132286+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:editor-steward",
