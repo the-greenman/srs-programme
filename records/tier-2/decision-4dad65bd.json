@@ -1,0 +1,28 @@
+{
+  "instanceId": "4dad65bd-1232-43b2-b7c1-f54f61892d89",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Does decision 83b841f1 (composition render never re-points a section) override RFC-043 [R9] and conformance scenario supplied_container_overrides_a_differing_literal?",
+    "decision_question": "Decision 83b841f1 says a supplied container never substitutes for one a section names. RFC-043 [R9] and the srs conformance scenario supplied_container_overrides_a_differing_literal say the supplied container wins. Which holds, and how is the other amended?",
+    "context": "Problem: srs-rust#1510 executes decision 83b841f1 (--container on render composition never re-points a section that names its own container). The builder implemented it; the whole srs-rust workspace passes except srs conformance/arrangement scenario supplied_container_overrides_a_differing_literal (rule R9, RFC-043 Change B), which requires the opposite: the supplied container is rendered and the section's literal containerId ignored. Both are recorded rulings. Why it matters: the conformance scenario is normative for every implementation, so changing behaviour without changing it makes srs-rust fail its own conformance corpus; changing it is a Door 3 revision of RFC-043 and touches srs docs/schema, outside the builder's mandate. Options and consequences: (A) Amend RFC-043 [R9] and the scenario so a supplied container selects the section naming it, refused if none, and implement #1510 (clean and matches 83b841f1; a Door 3 change, and anyone relying on override-at-render loses it). (B) Keep override only for sections without a literal, refuse on a literal mismatch, and add --section as the selector (same as A in practice). (C) Narrow 83b841f1: ship only --section, leave --container override unchanged (no conformance change; the 905 KB multiplication surprise remains). (D) Do nothing (the issue stays blocked and srs#983 keeps its splitter workaround). Recommendation: A, with RFC-043 revised in the same PR as the scenario. Action needed: owner chooses A, B, C or D. Urgency: medium; srs#983 workaround stays meanwhile.",
+    "friction": "Two ratified rulings contradict each other and a normative conformance scenario; the builder cannot proceed without changing one. Found while building srs-rust#1510.",
+    "alternatives_considered": "A: amend RFC-043 [R9] plus the scenario, then implement 83b841f1 fully. B: refuse on literal mismatch, keep override for unnamed sections, add --section. C: ship --section only, keep --container override. D: do nothing.",
+    "key_requirements": "Spec and implementation must agree; conformance corpus stays green; no silent re-pointing of a section that names its container.",
+    "decision_statement": "Amend RFC-043 [R9] and conformance scenario supplied_container_overrides_a_differing_literal so a supplied container selects the section that names it (refused when none does) and never re-points a named section; then implement srs-rust#1510 with --section.",
+    "rationale": "Decision 83b841f1 was ratified later and states the principle directly; the old scenario encodes the behaviour that caused the 905 KB multiplication surprise. One Door 3 revision keeps spec, conformance and engine in step.",
+    "revisit_when": "If a real consumer depends on rendering one composition against any container by override.",
+    "next_steps": "If A: srs Door 3 revision of RFC-043 [R9] with the scenario change; then srs-rust#1510 (attempt diff kept by the builder) lands; srs#983 retires its splitter."
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-11-14T04:22:43.793885318+00:00",
+  "updatedAt": "2026-11-14T04:22:56.763082453+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
