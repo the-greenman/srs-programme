@@ -1,0 +1,160 @@
+{
+  "session": "9a8b9389-846c-401e-8f95-8680f0414475",
+  "acts": [
+    {
+      "at": "2026-11-13T22:05:23.715Z",
+      "section": "Reports",
+      "position": 1,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "comment:6851788229",
+      "title": "WG Agent-supported editor report 2026-11-13"
+    },
+    {
+      "at": "2026-11-13T22:05:24.516Z",
+      "section": "Reports",
+      "position": 2,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "6340d5bb-5daa-4d46-99ed-f4b0cdcddd69",
+      "title": "WG Third-party ready report 2026-11-11"
+    },
+    {
+      "at": "2026-11-13T22:05:26.296Z",
+      "section": "Reports",
+      "position": 3,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "cf2e9873-27b6-4fd8-a15a-d0b0afc816b3",
+      "title": "WG Third-party ready report 2026-11-12"
+    },
+    {
+      "at": "2026-11-13T22:05:27.734Z",
+      "section": "Reports",
+      "position": 4,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "c1a3554b-d3fd-4d2e-b7ee-0b4e4b52b59a",
+      "title": "WG Third-party ready report 2026-11-13"
+    },
+    {
+      "at": "2026-11-13T22:06:01.363Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 2,
+      "seen": [],
+      "updatedAt": "2026-11-12T19:54:50.016607565+00:00",
+      "kind": "ratify",
+      "id": "6c455725-31b6-47a2-8494-68a9a2b0e0b6",
+      "title": "A website's own package links its block types to its components; the site editor is a generic srs-web shell"
+    },
+    {
+      "at": "2026-11-13T22:06:21.595Z",
+      "section": "Decisions since the last session",
+      "position": 2,
+      "of": 2,
+      "seen": [],
+      "updatedAt": "2026-11-10T14:39:25.652123580+00:00",
+      "kind": "ratify",
+      "id": "d6a969ff-b987-4db2-aa90-5c6541849cd1",
+      "title": "Whether poles need their own affirmation"
+    },
+    {
+      "at": "2026-11-13T22:07:33.720Z",
+      "section": "Decisions for this session",
+      "position": 1,
+      "of": 5,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-11-12T17:07:13.774973992+00:00",
+      "kind": "accept",
+      "id": "42fcc319-2468-4e15-b529-2c13f9174af6",
+      "title": "Can an essay container declare its comments and references as children while agents still file into them (srs-web#634)?"
+    },
+    {
+      "at": "2026-11-13T22:09:47.192Z",
+      "section": "Decisions for this session",
+      "position": 2,
+      "of": 5,
+      "seen": [],
+      "updatedAt": "2026-11-11T11:36:19.670160378+00:00",
+      "kind": "comment",
+      "id": "21b6b4b7-6920-4def-8ef5-ef1a879a05c1",
+      "title": "Field identity rules: enforce in schema, enforce in a validator, or stop claiming them (srs#236)"
+    },
+    {
+      "at": "2026-11-13T22:10:02.122Z",
+      "section": "Decisions for this session",
+      "position": 2,
+      "of": 5,
+      "seen": [],
+      "updatedAt": "2026-11-11T11:36:19.670160378+00:00",
+      "kind": "setaside",
+      "id": "21b6b4b7-6920-4def-8ef5-ef1a879a05c1",
+      "title": "Field identity rules: enforce in schema, enforce in a validator, or stop claiming them (srs#236)"
+    },
+    {
+      "at": "2026-11-13T22:10:02.123Z",
+      "section": "Decisions for this session",
+      "position": 2,
+      "of": 5,
+      "seen": [],
+      "updatedAt": "2026-11-11T11:36:19.670160378+00:00",
+      "kind": "comment",
+      "id": "21b6b4b7-6920-4def-8ef5-ef1a879a05c1",
+      "title": "Field identity rules: enforce in schema, enforce in a validator, or stop claiming them (srs#236)"
+    },
+    {
+      "at": "2026-11-13T22:10:19.756Z",
+      "section": "Decisions for this session",
+      "position": 3,
+      "of": 5,
+      "seen": [],
+      "updatedAt": "2026-11-11T11:36:19.900940855+00:00",
+      "kind": "accept",
+      "id": "864eaebf-bc16-4e5c-92a2-14b1677c433a",
+      "title": "Escalation: should heading-outline continuity be one rule for every document, or opt-in per Composition? (srs#991)"
+    },
+    {
+      "at": "2026-11-13T22:11:04.314Z",
+      "section": "Decisions for this session",
+      "position": 4,
+      "of": 5,
+      "seen": [],
+      "updatedAt": "2026-11-11T11:36:20.091079537+00:00",
+      "kind": "accept",
+      "id": "bc6bc746-4ab5-4fbb-9081-6038bfa9bcd2",
+      "title": "Read and Lenses offer the dedicated editor: is srs-web UI inside WG Third-party ready's mandate (srs-web#691)?"
+    },
+    {
+      "at": "2026-11-13T22:11:31.769Z",
+      "section": "Decisions for this session",
+      "position": 5,
+      "of": 5,
+      "seen": [],
+      "updatedAt": "2026-11-11T11:36:20.317614978+00:00",
+      "kind": "accept",
+      "id": "c7a8e0a2-0c9b-442d-a8e6-6091bf844188",
+      "title": "Escalation: may `note delete` start refusing notes that Relations point at? (srs-rust#1497)"
+    }
+  ],
+  "words": [
+    {
+      "on": "21b6b4b7-6920-4def-8ef5-ef1a879a05c1",
+      "title": "Field identity rules: enforce in schema, enforce in a validator, or stop claiming them (srs#236)",
+      "kind": "comment",
+      "text": "We must enforce our own standards for our own work. Should we be enforcing standards for other people's work? We need a clear boundary for where our naming conventions apply"
+    },
+    {
+      "on": "21b6b4b7-6920-4def-8ef5-ef1a879a05c1",
+      "title": "Field identity rules: enforce in schema, enforce in a validator, or stop claiming them (srs#236)",
+      "kind": "comment",
+      "text": "Lets audit this carefully and then pick what to enforce"
+    }
+  ]
+}

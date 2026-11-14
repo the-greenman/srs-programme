@@ -19,9 +19,9 @@
     "status": "proposed",
     "decision_kind": "design"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-11-02T14:50:07.913017186+00:00",
-  "updatedAt": "2026-11-12T19:54:50.016607565+00:00",
+  "updatedAt": "2026-11-13T22:11:39.741931445+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"
