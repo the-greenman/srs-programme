@@ -1,0 +1,23 @@
+{
+  "instanceId": "d62d3655-92a3-4bb7-bbd1-6eb33cfb876c",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle close 2026-11-15",
+    "run_date": "2026-11-15",
+    "chose": "<!-- wg-report cycle=2026-11-15 group=wg:agent-editor -->\nWG Agent-supported editor: cycle 2026-11-14 11:30 to 2026-11-15 11:30 UTC\nPause: running.\n\n1. Decisions for you: carried, nothing new. Can an essay container declare its comments and references as children so one export carries the whole essay, while agents can still file comments (srs-web#634)? Why it matters: two of your rulings collide. Options: A engine guard stops at declared children; B keep the snapshot bundle, widened to carry threads; C another path for agent comments; D nothing. Recommendation: A. Action needed: decide. Urgency: blocks srs-web#634. Record 42fcc319-2468-4e15-b529-2c13f9174af6 (proposed). Also needs-input: srs-web#709 (a P1 bug, still no `Answers:` line), #626, #634, #567. Housekeeping, asked yesterday and still open: record c4acef1a-4cbe-4715-a3fa-577eb30ed0ba is a second, `draft` record on the same #634 question and shows on no agenda; say if it should be set aside.\n2. Decided within mandate: none; no group session held (the only `proposed` decision in the group log is the #634 escalation, which is yours). Owner rulings this cycle: none new in the log.\n3. Done: no group PRs merged this cycle (the last, srs-web#817, merged 2026-11-14 01:50, before it opened). No quorum lines to report.\n4. Stuck or lost: open group PR srs#1032 (RFC-055, LINEAGE resolves to the highest installed version): gate:owner-merge, clean and mergeable on 4c1f38d, no reviewer quorum comment, waits on your merge. Needs-input: srs-web#709, #626, #634, #567. Blocked: srs-web#426, #751, #752, #768, #771, srs#1031, semanticops.com#14. No red gates reported; no claim released.\n5. Budget: 0 of 10 delegated merges; 1 open (owner-merge, not counted); room 10. Pause: running.\n5b. Awaiting ratification: none.\n6. Next: ready + wg:agent-editor and not needs-input or blocked: srs-web#601 (an umbrella), semanticops.com#57 and #59 (a spike); srs-rust, srs, srs-vscode: none. Top 3 in builder order: srs-web#601, semanticops.com#57, #59. Group PRs in flight: srs#1032. Budget left: 10. **Queue running dry: 3 ready, budget 10. Needs feeding.** Sources: the drift list, open exercises and the `priority: P2` unready issues (srs-web#750, #786 to #788, #717, #718; srs-rust#1660, #1527). Waits on you: the #634 decision, the #709 answer, the srs#1032 merge. Local priorities: none set. Fed by the analyst: not needed this cycle.\n6b. Exercises: none open.\n7. What we learned: a quiet cycle, and the group is idle on its own queue: nothing merged, one PR waiting on the owner, three ready items. The three needs-input items have now waited several reports; the stall is owner input, not capacity. I1 (c88e4c45-e4fc-4297-a2eb-ff773b7dc9f1, window opened 11:30 today): 0 of 1 PRs grounded to a problem (0%), 0 of 1 with an affirmed persona and domain; the useful/noisy/misleading line is yours to give in a session. I2 to I4: pending.\n",
+    "rationale": "No new escalation this cycle. The #634 escalation (42fcc319) and the unacknowledged housekeeping on c4acef1a are carried because they still wait on the owner.",
+    "figures": "merged 0 of 10; open 1 (owner-merge); room 10; ready 3; I1 0/1",
+    "landed_as": "PENDING"
+  },
+  "createdAt": "2026-11-15T11:38:58.375171036+00:00",
+  "updatedAt": "2026-11-15T11:38:58.375177799+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
