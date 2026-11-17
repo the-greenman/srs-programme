@@ -1,0 +1,23 @@
+{
+  "instanceId": "846188de-cb91-476f-a56f-280fa0854fce",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Third-party ready: cycle 2026-11-17",
+    "run_date": "2026-11-17",
+    "chose": "Closed the cycle 2026-11-16 11:30 to 2026-11-17 11:30 UTC. No group PR merged, none newly opened or changed since 2026-11-16. Open: srs#1021 (auto-merge, unstable), srs#1033 to #1037 (Door 3, owner merge), srs-rust#1646 (behind), srs-web#782 (conflict). The six proposed decisions in the 2026-11-16 report are unchanged; no decision awaited assent so no group session was held. Group paused: 2 reports unacknowledged.",
+    "rationale": "No new escalation: nothing outside the role boundary was stopped on beyond the owner backlog already escalated in the 2026-11-16 report.",
+    "figures": "Delegated merges 0 of 10; 3 open delegated, 8 open group PRs in total. I1 result 1fa41231-4169-443a-87c2-0fbc5def3343 (0 of 0, window opens at the 11:30 cycleStart). I2 to I4: pending.",
+    "landed_as": "https://github.com/the-greenman/srs-programme/pulls (wg-report-2026-11-17)"
+  },
+  "createdAt": "2026-11-17T11:34:34.456277294+00:00",
+  "updatedAt": "2026-11-17T11:34:34.456289584+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
