@@ -1,0 +1,23 @@
+{
+  "instanceId": "36c76ab0-6077-43ea-94f4-78884cbb2049",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Third-party ready: cycle close 2026-11-18",
+    "run_date": "2026-11-18",
+    "chose": "WG Third-party ready: cycle 2026-11-17 11:30 to 2026-11-18 11:30 UTC\nPaused: 2 reports unacknowledged. Receive in a session or react 👍 to resume.\n\n1. Decisions for you: nothing new; five proposed decisions still wait on you, all unchanged: 21b6b4b7 (srs#236: enforce field identity rules in the schema, in a validator, or stop claiming them; P0 cannot move; 7+ weeks), 6882f577 (structured findings for record and container validate, srs-rust#1339), 864eaebf (srs#991: one heading-outline rule for every document, or opt-in per Composition), bc6bc746 (srs-web#691: is editor UI inside this group's mandate?), c7a8e0a2 (srs-rust#1497: may `note delete` refuse notes that Relations point at?). Also de6b88c5 (may the group merge a Door 3 revision that only executes a ratified ruling?), which is why srs#1033 to #1037 sit untouched. Action needed: decide or ratify; Urgency: the Door 3 question is what holds five PRs. Also waiting for your merge: srs#1033 to #1037 (gate:owner-merge, since 14 Nov).\n\n2. Decided within mandate: none; no merged PR, so no decision was ready and no group session was held.\n\n3. Done: no group PRs merged this cycle (the last, srs-rust#1664, merged 2026-11-14). No quorum lines to report.\n\n4. Stuck or lost: 7 open group PRs, none changed since the last report: srs#1021 (auto-merge, unstable since 12 Nov); srs#1033 to #1037 (your merge); srs-rust#1646 (behind master); srs-web#782 (merge conflict). No red gate reported by a run this cycle. Needs-input: srs-rust#1495, #1164, #731, #728; srs-web#691.\n\n5. Budget: 0 of 10 delegated merges this cycle; 3 open delegated; room 7. Pause state: paused: 2 reports unacknowledged.\n5b. Awaiting ratification: the six proposed decisions in section 1 (oldest 21b6b4b7, 7+ weeks). Session to ratify: `clerk session --as owner --repo <srs-programme> --ratify all` (the-greenman/clerk; the TUI is `clerk --as owner`).\n\n6. Next: ready + wg:third-party-ready and neither blocked nor needs-input: none (srs-rust 9 ready, of which #1638, #1637, #1636, #1635, #1496 blocked and #1495, #1164, #731, #728 need input; srs 2 ready, both blocked (#1027, #928); srs-vscode 0; srs-web 1, needs input (#691)). Top 3 in the Builder's order: none available. **Queue running dry: 0 ready, budget 10. Needs feeding.** Where new work could come from: the blocked items unblock when the Door 3 question (de6b88c5) and the srs#1033 to #1037 merges land, then the spec-to-implementation drift list. Waits on the owner: the six decisions, five Door 3 merges, the acknowledgement that resumes the group. Local priorities: none set. Fed by the analyst: not re-read this cycle.\n\n6b. Exercises: not re-read this cycle.\n\n7. What we learned: the pause is holding as designed and costs nothing while nothing can be built; the real hold is one unanswered owner question (de6b88c5), which blocks the srs PRs and the srs-rust work behind them. Measurement I1 (d6ddb294-b128-4eaf-a61e-1da6c74df570): 0 of 0 merged PRs in the window (it opens at the 11:30 cycleStart, so it is empty at every close); whether it is useful, noisy or misleading is yours to give in a session. I2 to I4: pending. Build trigger (srs-web#560) not counted.\n",
+    "rationale": "No new escalation raised: the open ones are unchanged and listed in section 1; the one unanswered Door 3 question (de6b88c5) is what holds the queue.",
+    "figures": "0 of 10 delegated merges; 3 open delegated; 0 ready unblocked; I1 0/0",
+    "landed_as": "https://github.com/the-greenman/srs-programme/pull/567"
+  },
+  "createdAt": "2026-11-18T11:34:45.544671630+00:00",
+  "updatedAt": "2026-11-18T11:35:23.348238701+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
