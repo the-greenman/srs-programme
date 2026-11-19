@@ -1,0 +1,23 @@
+{
+  "instanceId": "113c2616-1b8e-48e2-b005-67bd25730128",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Third-party ready: cycle close 2026-11-19",
+    "run_date": "2026-11-19",
+    "chose": "WG Third-party ready: cycle 2026-11-18 11:30 to 2026-11-19 11:30 UTC\nPaused: 2 reports unacknowledged. Receive in a session or react 👍 to resume.\n\n1. Decisions for you: nothing new; the six proposed decisions from the last report still wait on you, unchanged: 21b6b4b7 (srs#236: enforce field identity rules in the schema, in a validator, or stop claiming them; P0 cannot move; 7+ weeks), 6882f577 (structured findings for record and container validate, srs-rust#1339), 864eaebf (srs#991: one heading-outline rule for every document, or opt-in per Composition), bc6bc746 (srs-web#691: is editor UI inside this group's mandate?), c7a8e0a2 (srs-rust#1497: may `note delete` refuse notes that Relations point at?), de6b88c5 (may the group merge a Door 3 revision that only executes a ratified ruling?). Action needed: decide or ratify; Urgency: de6b88c5 is what holds srs#1033 to #1037 and the srs-rust work behind them. Also waiting for your merge: srs#1033 to #1037 (gate:owner-merge, since 14 Nov).\n\n2. Decided within mandate: none; no PR merged, so no decision was ready and no group session was held.\n\n3. Done: no group PRs merged this cycle (the last, srs-rust#1664, merged 2026-11-14). No quorum lines to report.\n\n4. Stuck or lost: 7 open group PRs, none changed since the last report: srs#1021 (auto-merge, unstable since 12 Nov); srs#1033 to #1037 (your merge); srs-rust#1646 (behind master); srs-web#782 (merge conflict). No red gate reported by a run. Needs-input: srs-rust#1495, #1164, #731, #728; srs-web#691. Escalation-log check (owner rulings in both logs): not re-read this cycle.\n\n5. Budget: 0 of 10 delegated merges this cycle; 3 open delegated; room 7. Pause state: paused: 2 reports unacknowledged.\n5b. Awaiting ratification: the six proposed decisions in section 1 (oldest 21b6b4b7, 7+ weeks). Session to ratify: `clerk session --as owner --repo <srs-programme> --ratify all` (the-greenman/clerk; the TUI is `clerk --as owner`).\n\n6. Next: ready + wg:third-party-ready and neither blocked nor needs-input: none (srs-rust 9 ready: #1638, #1637, #1636, #1635, #1496 blocked, #1495, #1164, #731, #728 need input; srs 2 ready, both blocked (#1027, #928); srs-vscode 0; srs-web 1, needs input (#691)). Top 3 in the Builder's order: none available. **Queue running dry: 0 ready, budget 10. Needs feeding.** New work could come once de6b88c5 and the srs#1033 to #1037 merges land, then from the spec-to-implementation drift list. Waits on the owner: the six decisions, five Door 3 merges, the acknowledgement that resumes the group. Local priorities: none set. Fed by the analyst: not re-read this cycle.\n\n6b. Exercises: not re-read this cycle.\n\n7. What we learned: nothing changed in 24 hours. The pause costs nothing while nothing can be built; the real hold is one unanswered owner question (de6b88c5). Measurement I1 (9a9f70f5-e9a5-4af1-8e5c-fcfa416d9611): 0 of 0 merged PRs in the window (it opens at the 11:30 cycleStart, so it is empty at every close); whether it is useful, noisy or misleading is yours to give in a session. I2 to I4: pending. Build trigger (srs-web#560) not counted.\n",
+    "rationale": "No new escalation: the six open proposed decisions are unchanged and nothing outside the mandate stopped a run this cycle. No builder-proposed decision was ready to ratify.",
+    "figures": "merged 0 delegated; open 3 delegated group PRs (7 group PRs in all); paused",
+    "landed_as": "PENDING"
+  },
+  "createdAt": "2026-11-19T11:35:38.368989186+00:00",
+  "updatedAt": "2026-11-19T11:35:38.368993470+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
