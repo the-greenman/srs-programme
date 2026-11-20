@@ -1,0 +1,25 @@
+{
+  "instanceId": "5e202d15-209b-41d4-91f0-ead1567c5017",
+  "title": "Vignette 2026-11-20: the baseline argument — wise use of AI needs the right system: layers that make small models native, shared owned data, ownership of meaning, decisions as the semantic act, muDemocracy as the same at group scale",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:mozilla",
+    "topic:local-models",
+    "topic:theory-of-change",
+    "topic:boundaries"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "I'm working on submitting a bid for the Mozilla local ai fellowship. Details available in the srs-programme over the muSrs relay.\n\nI don't have enough evidence of community adoption to feel that I can be seriously considered, but I will anyway. I will be submitting as The Organisation, A commercial operation, but our code is fully open source and our muDemocracy materials are free.\n\nI want to build up the baseline argument for my work as it is essentially all aimed at the wise use of AI, in particular, a cybernetic AI.\n\nWise use of AI and machine cognition requires the right system. Local or small models can be used in known, specific workflows, but it's more difficult to use them for general stuff unless we have a way of working that splits the work into layers. So we need tools and data formats that make use of smaller, local models 'native'.\n\nWe also need shared data. Small models can't yet be used for everything, so we have to have general environments where multiple models can access the same dataset simply.\n\nWe need to own the dataset and have control over it. The local first system must apply consistently, the data itself must be something that we are in charge of. The switch to local, cybernetic AI, needs consistency across the layers. It's a mindset.\n\nWe also need the user facing tools that hold the relationship. If our tools don't support the sovereignty of cognition, of a human owning their own cognitive control... Requires ownership of meaning.\n\nAt a very basic level, when a human allows AI to write, they hand over a lot of semantic control. SRS and the semanticops project holds the deep context. When we don't hold every word, we hold the depth. The basic principle is consistent so that we allow each level to use what is appropriate.\n\nSovereignty is also owning decisions. A decision is a semantic act, it's the semantic architecture. A clear decision is how we build specific meaning... The difference that makes the difference. In order to manage the boundary of human and AI, we must know where the decisions lie... Handing over decision making authority is a delegation... It hands over sovereignty.\n\nBut not managing delegation is also handing over sovereignty because it leads to overwhelm. The skill we must develop is the ability to make clear decisions and to know how to record them.\n\nmuDemocracy is the same project for the team/organisation. It must own it's meaning in a way that allows for clarity. Simpler models need the clear boundary"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude (claude.ai, Semantic ops project), 2026-11-20, the application deadline day; unprompted; recorded verbatim. Extends decision 830998a8 (the application is written inside the cybernetic AI boundary) and vignette 2df79a12 with the chain of necessity: layers, shared data, owned data, ownership of meaning, decisions, group scale."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
