@@ -1,0 +1,22 @@
+{
+  "instanceId": "2662cd54-e517-4071-8a1a-2d3e4c801c36",
+  "title": "Vignette 2026-11-20: the copy rule to explain the concepts is there so the site explains the capability, not a snapshot in time; better examples are allowed",
+  "tags": [
+    "vignette",
+    "topic:site-copy",
+    "topic:real-examples"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The rules only stated \"explain the concepts\" so that we explained the tech capability... Not a snapshot in time. We are allowed to update the site with better examples."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-20; recorded verbatim. A ruling on the semanticops.com copy rules, given after the agent read the patterns page's \"the cases are small and invented\" as a bar on real examples."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
