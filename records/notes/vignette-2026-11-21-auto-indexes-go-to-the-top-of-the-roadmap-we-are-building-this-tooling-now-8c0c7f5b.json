@@ -1,0 +1,22 @@
+{
+  "instanceId": "8c0c7f5b-1136-4867-8dfc-e4b6116fffca",
+  "title": "Vignette 2026-11-21: auto indexes go to the top of the roadmap; we are building this tooling now",
+  "tags": [
+    "vignette",
+    "topic:indexes",
+    "topic:roadmap"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's add this to the top of the roadmap. We are actively building this tooling now"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-21; recorded verbatim. A priority ruling on srs#1043 (indexes that stay current) and its parent epic srs#726, given after the flow check reported that #726 reached no roadmap epic."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
