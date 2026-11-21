@@ -1,0 +1,23 @@
+{
+  "instanceId": "560acb5c-5ac6-4a40-a98e-aa35872756cd",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Third-party ready: cycle close 2026-11-21",
+    "run_date": "2026-11-21",
+    "chose": "WG Third-party ready: cycle 2026-11-20 11:30 to 2026-11-21 11:30 UTC\nPaused: 2 reports unacknowledged. Receive in a session or react 👍 to resume.\n\n1. Decisions for you: nothing new this cycle. Seven proposed decisions in the group log wait on you. Five are escalations: de6b88c5 (may the group merge a Door 3 revision that only executes a ratified ruling? It holds srs#1033 to #1037 and the srs-rust work behind them), 773ae4a6 (which DOS timestamp a deterministic .srs archive carries: the spec says 0x0000 and also 1980-01-01, which differ; filed 2026-11-20; srs-rust writes date 0x0021), 864eaebf (srs#991: one heading-outline rule for every document, or opt-in per Composition), bc6bc746 (srs-web#691: is editor UI inside this group's mandate?), c7a8e0a2 (srs-rust#1497: may `note delete` refuse notes that Relations point at?). Two are builder proposals: 21b6b4b7 (srs#236: enforce field identity rules in the schema, in a validator, or stop claiming them; 7+ weeks), 6882f577 (structured findings for record and container validate, srs-rust#1339). Action needed: decide or ratify. Urgency: de6b88c5 first. Also waiting for your merge: srs#1033 to #1037 (gate:owner-merge, since 14 Nov).\n\n2. Decided within mandate: none. No PR merged, so no decision was ready and no group session was held.\n\n3. Done: no group PRs merged this cycle (the last, srs-rust#1664, merged 2026-11-14). No quorum lines to report.\n\n4. Stuck or lost: open group PRs, none changed since the last report: srs#1021 (auto-merge, unstable since 12 Nov); srs#1033 to #1037 (your merge); srs-rust#1646 (behind master); srs-web#782 (merge conflict). Needs-input: srs-rust#1495, #1164, #731, #728, srs-web#691 and #632. No red gate reported by a run. Escalation-log check (owner rulings in both logs): not re-read this cycle.\n\n5. Budget: 0 of 10 delegated merges this cycle; 3 open delegated; room 7. Pause state: paused: 2 reports unacknowledged.\n5b. Awaiting ratification: the seven proposed decisions in section 1 (oldest 21b6b4b7, 7+ weeks). Session to ratify: `clerk session --as owner --repo <srs-programme> --ratify all` (the-greenman/clerk; the TUI is `clerk --as owner`).\n\n6. Next: ready by label: srs-rust 14, srs 4, srs-vscode 0, srs-web 1. Workable now: srs-rust#1678, #1667, #1666, #1665 and srs#1042, #1041 (the analyst filed these 2026-11-19/20); the rest are blocked or needs-input. Top 3 in the Builder's order (no local priorities; all priority: P2, oldest first): srs-rust#1667, #1666, #1665. Open group PRs in flight: 5 owner-merge, 3 delegated. Budget left: 7. Queue fed for about 1 cycle while paused (6 workable, but the group builds nothing until it is unpaused). Waits on the owner: the seven decisions, five Door 3 merges, the acknowledgement that resumes the group. Fed by the analyst: 2026-11-20, filed 4 conformance issues, asked 1 ruling.\n\n6b. Exercises: not re-read this cycle.\n\n7. What we learned: the pause is not the only hold. The group already has six workable issues and cannot start them; the real constraint is the unanswered owner questions, with de6b88c5 first. Measurement I1: 0 of 0 merged PRs in the window, so nothing to ground (the window opens at the 11:30 cycleStart, so it is empty at every close and no result was written; this repeats the 11-20 note, worth a fix to the measure window). Whether it is useful, noisy or misleading is yours to give in a session. I2 to I4: pending. Build trigger (srs-web#560): about 10 ratified decisions reached long ago (144 ratified across logs), so it is ready to unpark.\n",
+    "rationale": "No new escalation raised: the five open ones already cover every stop, and none was filed twice. Group paused (2 reports unacknowledged); reported anyway.",
+    "figures": "merged by group 0/10; open 3 delegated + 5 owner-merge; proposed decisions 7; ratified across logs 144",
+    "landed_as": "pending"
+  },
+  "createdAt": "2026-11-21T11:35:14.191529937+00:00",
+  "updatedAt": "2026-11-21T11:35:14.191533906+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
