@@ -1,0 +1,23 @@
+{
+  "instanceId": "9b2ba24d-ba3f-4128-9ed8-05fbacb412f9",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-171",
+    "title": "A repository's indexes go stale unless a script rebuilds them",
+    "statement": "When I give an agent a repository of a few hundred records through a connector, it needs ways in: by topic, by kind of record, by category and by time, and from any record to what is near it. SRS has no index that keeps itself current. So I write index notes and derived tags (a topic tag on everything a storyline reaches, a month tag from each date, a category tag from each relation) with a script, and run it on a timer. Between runs the indexes are wrong; when an agent files a record without the tags it is invisible to the queries; the index notes duplicate the records and can disagree with them; and the navigation outline grows past what an agent can read in one call.",
+    "kind": "capability",
+    "source_ref": [
+      "srs-programme: vignette 'an MCP agent must locate and cross-reference each thread…' (conversation 2026-11-21 · Auto indexes, learned from a private repository)",
+      "srs#726",
+      "srs-rust#1413",
+      "srs-rust#1490"
+    ],
+    "imbalance": "missing"
+  },
+  "createdAt": "2026-11-21T17:41:52.965774611+00:00",
+  "updatedAt": "2026-11-21T17:41:52.965777025+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
