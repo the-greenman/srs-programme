@@ -1,0 +1,21 @@
+{
+  "instanceId": "aa465d5c-143f-4374-8c3a-7e3856fd41f2",
+  "typeId": "8b2d78d1-51ba-4e3d-8638-9ce1fc9595a0",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.argument",
+  "typeName": "measurement-result",
+  "fieldValues": {
+    "result_id": "I1 2026-11-18T11:30:00Z..now",
+    "observed_finding": "I1 for wg:agent-editor, PRs merged 2026-11-18T11:30:00Z..now: 0/1 grounded to a problem (0%); 0/1 with an affirmed persona and domain (0%). By level: none 1, issue 0, problem 0, problem+persona+domain 0, epic 0, group 0. 1 PR(s) close an issue this token cannot read and are left out.",
+    "observation_period": "2026-11-18T11:30:00Z..now",
+    "evaluator": "pending: the owner's session (useful, noisy or misleading)"
+  },
+  "createdAt": "2026-11-18T11:38:18.253296812+00:00",
+  "updatedAt": "2026-11-18T11:38:18.253306225+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

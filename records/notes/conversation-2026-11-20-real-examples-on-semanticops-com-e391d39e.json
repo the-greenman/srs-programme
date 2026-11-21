@@ -1,0 +1,23 @@
+{
+  "instanceId": "e391d39e-2e83-4b05-9223-c63f860d92b9",
+  "title": "Conversation 2026-11-20: real examples on semanticops.com",
+  "tags": [
+    "conversation",
+    "topic:site-copy",
+    "topic:real-examples",
+    "topic:essay-editor"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Topics: site copy, real examples. The owner added a front-page section on agents of every size to semanticops.com, then asked whether the site speaks about the essay editor and whether real repositories would make better examples. They ruled that the copy rule to explain the concepts does not forbid real examples, and asked for a draft using the essay Rebuilding Small Democracy."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-20."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

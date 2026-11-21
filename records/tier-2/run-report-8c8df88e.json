@@ -1,0 +1,23 @@
+{
+  "instanceId": "8c8df88e-3d71-4d9e-8d6c-e5156ddbff2b",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle close 2026-11-20",
+    "run_date": "2026-11-20",
+    "chose": "WG Agent-supported editor: cycle 2026-11-19 11:30 to 2026-11-20 11:30 UTC\nPaused: 2 reports unacknowledged. Receive in a session or react 👍 to resume.\n\n1. Decisions for you: carried, nothing new. Can an essay container declare its comments and references as children so one export carries the whole essay, while agents can still file comments (srs-web#634)? Why it matters: two of your rulings collide (export the essay whole; agents comment but never write the essay). Options: A engine guard stops at declared children; B keep the snapshot bundle, widened to carry threads; C another path for agent comments; D nothing; E (your own, 2026-11-12) an essay is a nested container set, with one unguarded wrapper container that declares the paragraphs, draft, Bin, comments, references and threads, so no engine change. Recommendation: E, as your words already say; A stays available later if the wrapper's membership needs protecting. Action needed: decide (ratify E at a session). Urgency: blocks srs-web#634; no data at risk. Record 42fcc319-2468-4e15-b529-2c13f9174af6 (proposed). Also needs-input: srs-web#709 (a P1 bug, no owner reply since 2026-11-04), #626, #634, #567. Housekeeping, asked six times and still open: record c4acef1a-4cbe-4715-a3fa-577eb30ed0ba is an older `draft` record on the same #634 question (it predates E) and shows on no agenda; say if it should be set aside.\n2. Decided within mandate: none; no group session held (the only `proposed` decision in the group log is the #634 escalation, which is yours). Owner rulings this cycle: none new in the log.\n3. Done: no group PRs merged this cycle (the last, srs-web#817, merged 2026-11-14). No quorum lines to report.\n4. Stuck or lost: open group PR srs#1032 (RFC-055, LINEAGE resolves to the highest installed version): gate:owner-merge, no reviewer quorum comment, no activity since 2026-11-13, waits on your merge. Needs-input: srs-web#709, #626, #634, #567 (no owner reply since 2026-11-04, 11-06, 11-12 and 10-16). Blocked: srs-web#426, #751, #752, #768, #771, srs#1031, semanticops.com#14. No red gates reported; no claim released.\n5. Budget: 0 of 10 delegated merges; 0 open group PRs counted by group-state (srs#1032 is owner-merge, not counted); room 10. Pause: paused: 2 reports unacknowledged.\n5b. Awaiting ratification: none.\n6. Next: ready + wg:agent-editor and not needs-input or blocked: srs-web#601 (an umbrella), semanticops.com#57 and #59 (a spike); srs-rust, srs, srs-vscode: none. Top 3 in builder order: srs-web#601, semanticops.com#57, #59. Group PRs in flight: srs#1032. Budget left: 10. **Queue running dry: 3 ready, budget 10. Needs feeding.** Sources: the drift list, open exercises and the `priority: P2` unready issues (srs-web#750, #786 to #788, #717, #718; srs-rust#1660, #1527). Waits on you: the #634 decision, the #709 answer, the srs#1032 merge, and a 👍 or session receipt to lift the pause. Local priorities: none set. Fed by the analyst: not needed this cycle.\n6b. Exercises: none open.\n7. What we learned: the group has been still for six days and the same three owner waits (#634, #709, srs#1032) hold it; nothing in the group changed this cycle, so this report repeats yesterday's. The pause costs nothing while there is nothing to merge; the cost is the unanswered questions. I1 (17c6775c-055e-4288-b5b2-9ece1fdce88c, window opened 11:30 today): 0 of 1 PRs grounded to a problem. The one PR counted is not an editor PR, so the figure measures the counting window, not the group; the useful/noisy/misleading line is yours to give in a session. I2 to I4: pending.",
+    "rationale": "No new escalation: the one open escalation (#634) is carried; nothing else is outside the mandate.",
+    "figures": "merged 0 delegated; open 0 delegated group PRs (srs#1032 is owner-merge); room 10 of 10; I1 0/1",
+    "landed_as": "PENDING"
+  },
+  "createdAt": "2026-11-20T11:39:21.601960179+00:00",
+  "updatedAt": "2026-11-20T11:39:21.601967750+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
