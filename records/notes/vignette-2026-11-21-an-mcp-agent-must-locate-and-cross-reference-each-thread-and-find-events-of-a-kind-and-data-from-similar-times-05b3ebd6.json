@@ -1,0 +1,22 @@
+{
+  "instanceId": "05b3ebd6-84f4-44b6-94ed-75e55d2e9fea",
+  "title": "Vignette 2026-11-21: an MCP agent must locate and cross-reference each thread, and find events of a kind and data from similar times",
+  "tags": [
+    "vignette",
+    "topic:discovery",
+    "topic:indexes"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Make sure that an Mcp agent can easily locate and cross reference each of the threads. \n\nA query should be able to find types of events. Check for emails, events and any data from similar times."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-21; recorded verbatim (the meaningful sentences only; a sentence naming the private repository's user is left out). Said about a private repository used by a non-technical user through a connector; it set the requirement the auto-index request rests on."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
