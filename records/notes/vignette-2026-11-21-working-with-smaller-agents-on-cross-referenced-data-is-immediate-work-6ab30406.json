@@ -1,0 +1,23 @@
+{
+  "instanceId": "6ab30406-5112-404e-ba88-96fd20469022",
+  "title": "Vignette 2026-11-21: working with smaller agents on cross-referenced data is immediate work",
+  "tags": [
+    "vignette",
+    "topic:indexes",
+    "topic:roadmap",
+    "topic:small-agents"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's get what we can into the current top priority roadmap item. The ability to work with smaller agents on cross referenced data is immediate work."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-21; recorded verbatim. Said about srs#726 (now serving the rank-1 objective 'Agents find their way in a repository') and the related discovery, navigation and relation issues; it names who the work is for: smaller agents working on cross-referenced data."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
