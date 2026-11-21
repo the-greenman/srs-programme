@@ -18,9 +18,9 @@
     "owner": "human:the-greenman",
     "status": "proposed"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "createdAt": "2026-10-28T11:37:09.970891175+00:00",
-  "updatedAt": "2026-11-11T11:36:20.317614978+00:00",
+  "updatedAt": "2026-11-13T22:11:42.448056210+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",
