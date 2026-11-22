@@ -1,0 +1,17 @@
+{
+  "instanceId": "b7e2824f-3cf3-41af-ba0a-c3d7ca377d9f",
+  "title": "Confidence in a domain comes from the depth of context around it",
+  "tags": [
+    "vignette",
+    "topic:relation-weight",
+    "topic:affirmation",
+    "topic:domains"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "content": "So we don't necessarily need to base confidence on a purely numeric thing.\n\nIf we look at the bigger issue in SRS programme of problems and domains.\n\nWe should be able to assess the confidence we have in a domain by the depth of the context we have around it. If we have many vignettes that discuss the same issues, a set of problems that keep emerging, we should be able to assess a higher confidence level"
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

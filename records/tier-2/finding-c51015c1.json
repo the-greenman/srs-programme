@@ -1,0 +1,32 @@
+{
+  "instanceId": "c51015c1-95cc-4c63-8129-72f98a36ee93",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Counted confidence on the livewyer graph, 2026-11-22",
+    "summary": "Counting independent events behind each of livewyer-insight's 23 problems, instead of raw findings, reorders them substantially (rank correlation 0.56; six problems move eight or more places). Breadth across conferences and depth at a few conferences are different signals, and only the first is the repeated occurrence the owner described. Whether it matches the owner's sense is the remaining check.",
+    "evidence": [
+      "Computed on read from 1,098 existing relations (finding evidences problem, finding derived-from talk, event contains talk) through the srs CLI; nothing was stored. Script: livewyer-insight tools/counted_confidence.py (local branch interactive-report, commit 7a4c047).",
+      "Rank by distinct events against rank by findings: Spearman 0.56 across 23 problems; 6 move 8 or more places.",
+      "Falls when counted by events: 'Cluster fleets multiply day-2 toil' 4th by findings (16 from 15 talks) to 18th (4 events); 'Controllers and agents overload the API server' 10th to 23rd (14 findings, 3 events); 'LLM serving breaks Kubernetes' routing' 3rd to 12th; 'Observability is fragmented' 1st to 6th.",
+      "Rises: 'AI agents fail silently' 20th to 10th (9 findings, 8 events); 'AI-generated change outpaces review' 21st to 13th; 'Incident time goes on understanding' 14th to 5th.",
+      "Top by events: 'Developers still wait on tickets, approvals and platform experts', 12 events, 22 talks, 23 findings.",
+      "Talk-level concentration is low everywhere (no talk supplies more than 25% of a problem's findings), so the independence that matters here is between events, not between talks.",
+      "Signals that did not discriminate: series is nearly the same as event (62 series for 70 events); every problem spans 2025 to 2026; only 14 of 297 evidencing findings are 'demonstrated'.",
+      "All 23 problems are still 'suggested', so there is no recorded human judgement to compare against yet."
+    ],
+    "body": "## Method\n\nFor each problem: the findings that evidence it, the distinct talks those findings come from, the distinct events holding those talks, and the distinct conference series. Rank by distinct events (ties broken by talks) and compare with ranking by raw finding count. Read through the CLI; nothing written.\n\n## What it shows\n\n- **Counting the right unit changes the answer.** A problem one or two conferences ran a track on scores high on findings and low on events. A problem raised briefly at many unrelated events does the opposite. The owner's 'repeated occurrence' is the second.\n- **The graph already carries independence**, because each finding points at its talk and each talk at its event. No new data was needed.\n- **Which signals help is itself an empirical question.** Here events discriminate; series, dates and evidence status do not.\n\n## The remaining check\n\nExercise c3ba3e63 asks whether counted confidence matches the owner's sense. The movers above are the cases to judge: is 'Cluster fleets multiply day-2 toil' weaker than its 16 findings suggest, and is 'AI agents fail silently' stronger than its 9? The owner's answer is the test of option C (agreement) and E (recurrence) in exercise 84987eb3.\n\n## If it holds\n\nCounted confidence becomes a read-time service in the core (exercise c3ba3e63 option D): given an instance and a path through the graph (here evidences, derived-from, contains), count distinct endpoints at the chosen level. No spec change; the definition of the path is the repository's own, held in its records."
+  },
+  "tags": [
+    "research",
+    "status:open",
+    "topic:relation-weight",
+    "topic:affirmation",
+    "experiment"
+  ],
+  "createdAt": "2026-11-22T12:26:28.129428957+00:00",
+  "updatedAt": "2026-11-22T12:26:51.491893159+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
