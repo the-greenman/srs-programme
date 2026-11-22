@@ -1,0 +1,16 @@
+{
+  "instanceId": "982d0174-5285-4baf-938d-a4640e4a944d",
+  "title": "The interactive report: findings as report, presentation and data in one SRS",
+  "tags": [
+    "vignette",
+    "topic:interactive-report",
+    "topic:datasets"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "content": "So, the creation datasets. What should we do about those? How would SRS need to update to handle that kind of data?\n\nA real use case that I want to explore for srs is the interactive report. A consultant report that presents it's findings as a report, presentation and supporting data... All as a single SRS"
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
