@@ -1,0 +1,16 @@
+{
+  "instanceId": "b5aa66cc-5390-42f2-9d34-dca30e668334",
+  "title": "Confidence on a relation: a graph built from repeated occurrence, not only affirmation",
+  "tags": [
+    "vignette",
+    "topic:relation-weight",
+    "topic:affirmation"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "content": "Let's take a look at any existing issue or program research we have for weight on relations. I want to build up a set of use case examples.\n\nOur affirmation process may also benefit from a confidence rating on a relationship. This will allow us to dynamically build a graph from repeated occurrence rather than owner affirmation"
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
