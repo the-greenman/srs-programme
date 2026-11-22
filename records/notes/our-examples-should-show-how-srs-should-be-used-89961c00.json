@@ -1,0 +1,16 @@
+{
+  "instanceId": "89961c00-fd39-4804-b9b0-552925958590",
+  "title": "Our examples should show how SRS should be used",
+  "tags": [
+    "vignette",
+    "topic:srs-skill",
+    "topic:site-examples"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "content": "Let's implement the skill. It is an improvement...we will keep improving it.\n\nLet's review that content now that we have done this research... Our examples should show how SRS should be used."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
