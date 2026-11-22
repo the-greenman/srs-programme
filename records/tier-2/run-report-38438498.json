@@ -1,0 +1,23 @@
+{
+  "instanceId": "38438498-9429-4528-bfab-8f5116654810",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Third-party ready: cycle close 2026-11-22",
+    "run_date": "2026-11-22",
+    "chose": "WG Third-party ready: cycle 2026-11-21 11:30 to 2026-11-22 11:30 UTC\nPause state: running (the 11-20 and 11-21 reports carry a 👍).\n\n1. Decisions for you: nothing new this cycle. Seven proposed decisions in the group log still wait on you. Escalations: de6b88c5 (may the group merge a Door 3 revision that only executes a ratified ruling? It holds srs#1033 to #1037), 773ae4a6 (which DOS timestamp a deterministic .srs archive carries, 0x0000 or 1980-01-01), 864eaebf (srs#991: one heading-outline rule for every document, or opt-in per Composition), bc6bc746 (srs-web#691: is editor UI inside this group's mandate?), c7a8e0a2 (srs-rust#1497: may `note delete` refuse notes that Relations point at?). Builder proposals: 21b6b4b7 (srs#236, field identity rules; oldest, 3+ weeks), 6882f577 (structured findings for validate, srs-rust#1339). Action needed: decide or ratify. Urgency: de6b88c5 first. Also waiting for your merge: srs#1033 to #1037 (gate:owner-merge).\n\n2. Decided within mandate: none. No PR merged, so no decision was ready and no group session was held.\n\n3. Done: no group PRs merged this cycle (the last, srs-rust#1664, merged 2026-11-14). No quorum lines.\n\n4. Stuck or lost: open group PRs: srs#1021 (auto-merge); srs#1033 to #1037 (your merge); srs-rust#1646, #1693, #1694, #1695; srs-web#782. Nothing merged for 8 days although the group is running: the open PRs wait on review or on the owner's rulings. No red gate reported by a run. Escalation-log check (owner rulings in both logs): not re-read this cycle.\n\n5. Budget: 0 of 10 delegated merges this cycle; 6 open; room 4. Pause state: running.\n5b. Awaiting ratification: the seven proposed decisions in section 1 (oldest 21b6b4b7, filed 2026-10-30). Session to ratify: `clerk session --as owner --repo <srs-programme> --ratify all` (the-greenman/clerk; the TUI is `clerk --as owner`).\n\n6. Next: ready by label: srs-rust 13, srs 4, srs-vscode 0, srs-web 1. Queue fed for about 2 cycles at the budget of 10 if all were workable; many are blocked or needs-input. Open group PRs in flight: 11. Budget left: 4. Waits on the owner: the seven decisions and the five Door 3 merges. Fed by the analyst: 2026-11-20, filed 4 conformance issues, asked 1 ruling.\n\n6b. Exercises: not re-read this cycle.\n\n7. What we learned: the group is unpaused but still merges nothing; the constraint is the unanswered owner questions, with de6b88c5 first. Measurement I1: 0 of 0 merged PRs in the window (the window opens at the 11:30 cycleStart, so it is empty at every close; result 8adaccf6 written, evidences linked). Whether it is useful, noisy or misleading is yours to give in a session. I2 to I4: pending. Build trigger (srs-web#560): ready to unpark (far more than 10 ratified decisions).\n",
+    "rationale": "No new escalations this cycle; the seven open ones are listed for the owner, de6b88c5 first.",
+    "figures": "0 of 10 delegated merges; 6 open delegated; ready: srs-rust 13, srs 4, srs-vscode 0, srs-web 1",
+    "landed_as": "PENDING"
+  },
+  "createdAt": "2026-11-22T11:34:46.205656208+00:00",
+  "updatedAt": "2026-11-22T11:34:46.205665023+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
