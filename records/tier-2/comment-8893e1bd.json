@@ -1,0 +1,22 @@
+{
+  "instanceId": "8893e1bd-7bb1-4b0f-a2d5-fd70296af55b",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 3 vignettes from 3 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-25 · retells · \"If the essay is a narrative, I may want to be collecting ideas on timelines and characters and events\" (An essay is a container for meaning that grows from exploration to argument; essays form families (2026-10-25))\n- 2026-11-04 · touches · \"Then we have the essays that fit on top of all this.\" (The layers an editor could see: structure, thinking, references, essays (2026-11-04))\n- 2026-11-06 · touches · \"The essay currently only offers paragraph types. This is a different kind of context and a different user profile.\" (The essay editor is a shift: elsewhere types and fields carry the structure, here the focus is the writing experience and sovereignty (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:42.489416738+00:00",
+  "updatedAt": "2026-11-22T13:07:42.489420675+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

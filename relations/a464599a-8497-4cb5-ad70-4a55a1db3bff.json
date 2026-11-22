@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "a464599a-8497-4cb5-ad70-4a55a1db3bff",
+  "relationType": "evidences",
+  "sourceInstanceId": "40f62bfd-1e7e-4c6e-8cf6-a4642d8ba8ae",
+  "targetInstanceId": "c8f4810a-009f-497f-9bd6-491507962734",
+  "createdAt": "2026-11-22T13:06:57.952296399+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"muDemocracy is a project about how we managed meaning as a group\""
+}

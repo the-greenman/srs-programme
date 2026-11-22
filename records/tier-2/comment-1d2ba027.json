@@ -1,0 +1,22 @@
+{
+  "instanceId": "1d2ba027-99e1-4b26-88cd-06d9fe5e483c",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** Practice here means dogfooding and demonstration: 'Our examples should show how SRS should be used', 'It should be standard for any work', 'this process should be dogfooding itself', 'dogfooding+ This is a tech demo. How would srs add value?'. SRS is 'the tool for the ecosystem. The Editor is a proof of concept'; 'SRS provides a semantic framework, then we pull in the words'; the aim is to 'identify potential patterns of working with srs that allows it to be used well' and to keep 'the right level of intelligence at the right level' so local models are possible.\n\n**Proposed.** Apply semantic engineering in practice, using our own work as the demonstration: SRS is the shared semantic infrastructure, the editor a proof of concept on top, and our examples and process show the patterns of working that let humans and AI decide well together, at the right level of intelligence.\n\n**Depth.** 9 vignettes (2 retell, 7 touch); dogfooding and patterns-of-use recur. Dates not checked here.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:23.854900736+00:00",
+  "updatedAt": "2026-11-22T13:08:23.854904580+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

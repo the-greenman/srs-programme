@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "3b247f64-27c6-4b20-8d2d-caf49b00562f",
+  "relationType": "evidences",
+  "sourceInstanceId": "5f271974-9572-424e-8418-8413d6b80b24",
+  "targetInstanceId": "c4425452-c131-44ba-ae8a-e7d20ddc8559",
+  "createdAt": "2026-11-22T13:06:31.520769501+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"actively detecting the nested and parallel domains where decisions are relevant\""
+}

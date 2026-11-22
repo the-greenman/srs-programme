@@ -1,0 +1,22 @@
+{
+  "instanceId": "a5523be6-3d78-4cc6-ab2e-df4ea48e93b9",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 4 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-27 · retells · \"Does the programme register why we have ordered things as they are?\" (Does the programme register why we ordered the jobs as we did? (2026-10-27))\n- 2026-10-27 · retells · \"Ordering should be assessed against a strategic priority.\" (Order is assessed against strategy: a domain defines the tensions, a working group holds the strategy (2026-10-27))\n- 2026-10-29 · retells · \"Remedies are hypotheses. We need to know what would make them succeed or fail as experiements\" (Remedies are hypotheses: an affirmed remedy is not thereby the right one (2026-10-29))\n- 2026-10-29 · touches · \"What remedy do we need?\" (Is the remedy not a clear human-readable diff of what has actually changed? (2026-10-29))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:50.056139985+00:00",
+  "updatedAt": "2026-11-22T13:07:50.056144649+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

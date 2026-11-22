@@ -1,0 +1,22 @@
+{
+  "instanceId": "a8d08d70-08af-4622-8fe2-1d7beaee14f9",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 5 vignettes from 3 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-30 · retells · \"How will packages get distributed? They need registry/directory too.\" (Vignette 2026-10-30: packages need a registry or directory too)\n- 2026-10-30 · touches · \"Packages once created should be shared by different groups. They will subscribe to it and get updates.\" (Vignette 2026-10-30: packages and repositories are used in opposite directions)\n- 2026-11-04 · retells · \"An essay should be able to find a list of published packages and install what is needed.\" (An essay finds published packages and installs what it needs (2026-11-04))\n- 2026-11-11 · touches · \"Such a package is refined at its source and reaches a repository by upgrade.\" (No moving out of a local copy of a package (2026-11-11))\n- 2026-11-11 · touches · \"We want to be able to safely refine packages.\" (Refine packages safely (2026-11-11))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:01.451572903+00:00",
+  "updatedAt": "2026-11-22T13:08:01.451575862+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

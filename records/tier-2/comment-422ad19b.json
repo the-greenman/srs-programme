@@ -1,0 +1,22 @@
+{
+  "instanceId": "422ad19b-5086-4a56-aacb-d6abbafb2108",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** Direct first-person evidence of the failure: the owner finds decisions hard to judge and tends to click 'recommended' (43f236ce). Wanted: options with a rationale and the trade-offs per path (926a41d3), information relevant to the decision's context (2f33caa2), and the consequences explained rather than the specifics (8b9cb702).\n\n**Proposed.** I am asked to decide without what I need to judge: the options, the trade-offs, and what each path leads to for the things I care about. The specifics of a technical decision are shown but not their consequences, so I tend to click 'recommended', and approving is not a decision.\n\n**Depth.** Four vignettes, 2026-10-30 to 2026-11-05, all the owner on real decisions (RFC-049 questions, srs PR 998). Strongly recurring, with the owner's own admission of the behaviour. The record still lists no persona; the owner is the candidate.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:32.373598719+00:00",
+  "updatedAt": "2026-11-22T13:08:32.373603405+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

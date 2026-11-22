@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "f49cbf6f-2535-4a30-98be-f3b1cf16f9b6",
+  "relationType": "evidences",
+  "sourceInstanceId": "a693b256-d5cc-4793-8543-10faaab70268",
+  "targetInstanceId": "5a7efc6e-d555-4f55-acb7-12743081d572",
+  "createdAt": "2026-11-22T13:06:46.358092633+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"tell an agent that knows nothing about srs to look SRS.semanticopa.com --- I want the LLM to also know about the engine.\""
+}

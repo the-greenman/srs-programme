@@ -1,0 +1,22 @@
+{
+  "instanceId": "b623c52f-3697-4810-a962-3c86c4df1265",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** The record already carries the owner's cost, hours spent unpicking PRs. The vignettes add the measure and the effect. 'I've just spent two hours unpicking prs again' (the word 'again' marks recurrence), 'We are not really getting work flowing if most of what I do is getting work able to merge', and 'I'm going round and round on update prs' (2026-10-28), said while asking for srs-rust#1487 to be updated so it could merge. The repeated cycle of updating a PR that falls behind is the experience, and the owner's time is mostly spent on this, not on directing. The same day's second vignette is a plan to update the quorum rules, which is a remedy, not part of the problem.\n\n**Proposed.** Agents finish work, but their pull requests fall behind master, collide, or duplicate each other, and nothing in the flow repairs that. Most of my time goes on going round and round updating PRs so they can merge, again and again, instead of directing the work, so the work does not really flow.\n\n**Depth.** Two vignettes, both 2026-10-28, within one conversation. The word 'again' points to earlier episodes that are not in the vignettes, so recurrence is asserted by the owner but not shown across dates.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:41.798202837+00:00",
+  "updatedAt": "2026-11-22T13:08:41.798207414+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

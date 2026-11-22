@@ -1,0 +1,22 @@
+{
+  "instanceId": "71a330df-3d84-4bac-95e8-6bd63e17caf0",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 4 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-11-03 · retells · \"It keeps the human in charge of their own meaning, and provides a way for the AI to support.\" (The essay editor is a technical implementation of the muDemocracy mindset shift; one URL that gets someone started (2026-11-03))\n- 2026-11-06 · touches · \"manage writing with their own words vs getting feedback on those words\" (The editor's domain is not the application's: its audience holds onto their own words; get it written or develop the ideas, own words or feedback, support or challenge (2026-11-06))\n- 2026-11-06 · touches · \"We just limit it's ability to create the mainparagraph text.\" (Answering the challenger: agents add to the repo, the website is surface meaning, the middle path with AI, the container holds the rough work (2026-11-06))\n- 2026-11-06 · touches · \"human and Ai creativity are different. Ai makes the depth of my writing better.\" (AI's creativity as a peer: it deepens the writing, but it doesn't write the final words (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:06.505015649+00:00",
+  "updatedAt": "2026-11-22T13:08:06.505019468+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

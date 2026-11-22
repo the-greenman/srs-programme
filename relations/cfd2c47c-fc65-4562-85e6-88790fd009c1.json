@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "cfd2c47c-fc65-4562-85e6-88790fd009c1",
+  "relationType": "evidences",
+  "sourceInstanceId": "a2225a2a-5d21-4b44-b298-e9c1667e9256",
+  "targetInstanceId": "1e24b96d-5afc-45d5-8256-3321a99b6c27",
+  "createdAt": "2026-11-22T13:07:12.715319145+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"An affirmation cannot be made without context. And It only exists within that context.\""
+}

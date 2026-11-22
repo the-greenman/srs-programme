@@ -1,0 +1,22 @@
+{
+  "instanceId": "837ba324-1f21-44cb-a121-6b4a6add7c64",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** Mostly confirms the domain (stance, three trade-offs). Adds the line structure: the three trigram lines are \"used all over our work. And should be foundational\" (7007c3be); line 2 is disrupt/stabilise, line 3 sets the scale of the boundary, focus is a closed boundary on will while opening up and zooming out is sensing (f931c529, 075bac20, 3560699e); getting things done vs developing how we get things done (3f2db6bb); \"Every domain must have energy in a direction\" (3de9323b). Owner correction 2026-10-28: do not mix synthetic logic lenses; the compass is a 3x4 matrix whose rows are individual/relational/systemic and the three axes are its diagonals (cardinal, fixed, mutable) (cad03157). Axes classify reliably and are universal (011dddcc, 289c27a6), though the fractal version is still an attempt at domain and working-group axes (539a4719). Much of the content is about the axis system and the compass rather than a person's working stance, which hints the domain description should say how it relates to the compass without absorbing it.\n\n**Proposed.** How a person or agent shows up when working on shared records: where energy, change and attention go. The three trigram-line trade-offs (action, change, perspective), used as foundational axes across our work and kept distinct from the compass lens (its individual, relational and systemic rows), of which they are the diagonals, and the eight stances they make.\n\n**Depth.** Moderate: 15 vignettes, mainly 2026-10-28 to 2026-11-07; recurring, with one explicit owner correction that fixes the boundary against the compass.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:19.623611268+00:00",
+  "updatedAt": "2026-11-22T13:08:19.623615789+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

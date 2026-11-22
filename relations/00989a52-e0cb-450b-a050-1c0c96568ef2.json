@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "00989a52-e0cb-450b-a050-1c0c96568ef2",
+  "relationType": "evidences",
+  "sourceInstanceId": "36c0549e-1480-4f36-baac-87a5a77ce57e",
+  "targetInstanceId": "92eb1214-6f2f-4f25-bb33-01c556a28f78",
+  "createdAt": "2026-11-22T13:06:30.691205088+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"lost in proposals that never reach a session\""
+}

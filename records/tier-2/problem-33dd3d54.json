@@ -1,0 +1,28 @@
+{
+  "instanceId": "33dd3d54-e088-4c7e-8902-3617aa3563e2",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-188",
+    "title": "An essay is a fixed flat layout",
+    "statement": "I want essays browsed by domain and family with shared paragraphs highlighted, and built as nested containers of paragraphs, comments and references wrapped for export, not a fixed flat layout.",
+    "kind": "condition",
+    "source_ref": [
+      "Dream 2026-11-22: recurs in vignettes on 2026-10-25, 2026-11-12"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:57.478467291+00:00",
+  "updatedAt": "2026-11-22T13:08:57.478468902+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,22 @@
+{
+  "instanceId": "5ec87f73-0418-42f2-af0f-1dfb4d5c7f14",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 1 vignette from 1 day to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-27 · retells · \"Once a repo has a settled navigation, it should not completely rearrange itself\" (Settled navigation stays stable; it grows consistently and only significant redesigns come up for PR (2026-10-27))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:51.735430258+00:00",
+  "updatedAt": "2026-11-22T13:07:51.735434945+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "6596826c-df91-4872-9c30-e9f8785db5eb",
+  "relationType": "evidences",
+  "sourceInstanceId": "e3069d0d-b169-485d-836b-139e58a72923",
+  "targetInstanceId": "e8aa12c2-ea49-4547-8e36-4cd58fa44b3f",
+  "createdAt": "2026-11-22T13:06:31.688499832+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"we have decisions scattered all over the place. We need to know where they are recorded\""
+}

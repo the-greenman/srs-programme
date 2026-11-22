@@ -1,0 +1,22 @@
+{
+  "instanceId": "4abe421f-c592-48c0-bc84-f4304ffbe5a6",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 2 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-11-06 · touches · \"I prefer a federated model rather that scales in a fractal way rather than centralising\" (Vignette 2026-11-06: encryption and access control are a multi-repo layer; signed writes, split and merge with a recorded home; a shared organisational memory)\n- 2026-11-07 · touches · \"We need the groups to host their own infrastructure\" (Nearby AI needs communities capable of maintenance: muDemocracy for governing, SRS and the relay for owning data, the essay editor for safe individual use; \"dumb AI\" is the right level of intelligence in the right place, \"cybernetic AI\" is fractal feedback, VSM (2026-11-07))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:13.258277577+00:00",
+  "updatedAt": "2026-11-22T13:08:13.258282989+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

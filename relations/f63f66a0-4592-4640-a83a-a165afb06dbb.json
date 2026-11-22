@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "f63f66a0-4592-4640-a83a-a165afb06dbb",
+  "relationType": "evidences",
+  "sourceInstanceId": "29094aed-c1ba-4561-9b36-ed2fcd117634",
+  "targetInstanceId": "2c510165-74e7-40d0-9675-0aff42aae857",
+  "createdAt": "2026-11-22T13:06:15.527578182+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"When I'm working on an essay, I wil begin by creating the bigger container.\""
+}

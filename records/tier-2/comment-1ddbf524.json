@@ -1,0 +1,22 @@
+{
+  "instanceId": "1ddbf524-2862-42d1-9a64-6a778170a861",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 1 vignette from 1 day to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- undated · retells · \"Everyone knows what the group is for, who the members are, how you join and how you leave.\" (The sixth mark includes the purpose: what we are for sets which decisions are ours)",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:27.029145659+00:00",
+  "updatedAt": "2026-11-22T13:07:27.029148855+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

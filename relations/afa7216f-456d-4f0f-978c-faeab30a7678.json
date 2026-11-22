@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "afa7216f-456d-4f0f-978c-faeab30a7678",
+  "relationType": "evidences",
+  "sourceInstanceId": "7c963e02-6633-42d3-b602-3452eb260549",
+  "targetInstanceId": "bf992d06-d56a-4675-85e4-e5a5b9966122",
+  "createdAt": "2026-11-22T13:07:20.338053061+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"There is no way to preview a reference. I can't see where it is linked to.\""
+}

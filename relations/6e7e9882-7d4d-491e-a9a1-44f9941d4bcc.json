@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "6e7e9882-7d4d-491e-a9a1-44f9941d4bcc",
+  "relationType": "evidences",
+  "sourceInstanceId": "18d1c388-cc14-4d1d-97b1-cf2b5d54a8bb",
+  "targetInstanceId": "f9fef3c3-f5ea-458a-a288-ff6b8fdd5d83",
+  "createdAt": "2026-11-22T13:06:26.166670890+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"we need to make sure that we are able to present some kind of coherent view\""
+}

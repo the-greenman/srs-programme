@@ -1,0 +1,22 @@
+{
+  "instanceId": "36be1ed3-4bdc-4b7c-9363-239a99e5b1f8",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 7 vignettes from 3 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-25 · retells · \"The flow process needs to be obvious and default\" (The issue flow must be obvious and default; why did we miss it? (2026-10-25))\n- 2026-10-25 · retells · \"We need a standard core process that is the default that pushes work through the same flow.\" (A standard core process for preparing work (2026-10-25))\n- 2026-10-25 · retells · \"Agents should not simply bypass the flow, so there needs to be a standard interaction\" (Work in a chat window is lost; one place for the flow (2026-10-25))\n- 2026-10-25 · touches · \"Any proposed work needs to be safely in the flow and then we can push it\" (Defined as a task, tested, not lost halfway (2026-10-25))\n- 2026-10-25 · touches · \"we must continue this work until we know that we are following our process\" (Dogfood until work is not lost; a stop for approval is a failure (2026-10-25))\n- 2026-10-27 · retells · \"We should make sure the we are flowing any work in through the same system.\" (Add our notes to the flow map and review the prepared tasks: all work flows in through the same system (2026-10-27))\n- 2026-10-29 · touches · \"we should be using them to run the actual work whenever possible\" (Holons run their items through the ship pipelines, with code review (2026-10-29))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:38.724156456+00:00",
+  "updatedAt": "2026-11-22T13:07:38.724160730+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

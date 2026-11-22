@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "1706e490-6668-4e6a-b70d-f82787fe5595",
+  "relationType": "evidences",
+  "sourceInstanceId": "dca3aa01-e801-43de-96d5-189683f0805f",
+  "targetInstanceId": "aa2413c6-900c-41d7-a144-d269c50a8b2a",
+  "createdAt": "2026-11-22T13:07:20.504912780+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"The \"shared paragraph\" marker in an essay does not explain itself or allow me to know what the master paragraph is.\""
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "dfb4fc20-9a9c-4074-aa49-2e455dafe2e1",
+  "relationType": "evidences",
+  "sourceInstanceId": "2ad7e527-cba4-46c5-8dab-77f21e07a4bd",
+  "targetInstanceId": "25029de3-2621-40f5-9e4f-ae2e0c5456d0",
+  "createdAt": "2026-11-22T13:07:06.460360436+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"effective human / AI collaboration. Great collaboration requires creating an environment where we preserve the strength of each party.\""
+}

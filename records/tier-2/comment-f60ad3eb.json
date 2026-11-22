@@ -1,0 +1,22 @@
+{
+  "instanceId": "f60ad3eb-494b-43a0-9e6b-0ac02485e741",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** The record concerns forged or unverifiable authorship. One vignette (2026-10-24) supplies a concrete, honest-case instance: 'all of this text was written by me, so there is a bug in the editor not recording the author'. The author is lost even when no one forges anything, as provenance breaks in the editor. The second vignette (2026-11-05), 'We can move without a valid actor', is a touch: the owner affirms that a move succeeding in a session whose actor is invalid is the accepted state (a ruling on RFC-046 ask A1), so an invalid actor is tolerated, not refused. It does not change the problem and is not a quote about checking authorship.\n\n**Proposed.** A group sharing a memory cannot tell who wrote a record. The author is whatever the writer's session declares, an editor can fail to record it even for text I wrote myself, and operations can proceed without a valid actor, so a member's word and a forged or missing one look the same.\n\n**Depth.** Two vignettes, 2026-10-24 and 2026-11-05, over about two weeks, and two different surfaces (the essay editor, and the RFC-046 move rule). The concern recurs, but the 11-05 note is a one-line ruling and only touches the problem.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:40.075714300+00:00",
+  "updatedAt": "2026-11-22T13:08:40.075718779+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

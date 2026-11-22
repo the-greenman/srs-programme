@@ -1,0 +1,22 @@
+{
+  "instanceId": "cfa52a24-f1ec-4037-8f3b-2fbdbdef5771",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 15 vignettes from 7 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- undated · touches · \"A good paradox axis is hard to find, and so we tend to generally use the classics\" (Vignette: sized models, dreamtime as synthetic mapping)\n- 2026-10-22 · touches · \"we can judge a decision on the three axes. But each is independent.\" (Three independent axes; line 1 is where the energy goes (2026-10-22))\n- 2026-10-23 · touches · \"we will generally see a 2-1 yin/yang balance. An element will always have both.\" (Every element holds both poles, 2 to 1 (2026-10-23))\n- 2026-10-23 · touches · \"We use the 3 axes for domains as a default because it is directly tensions based.\" (Two synthetic systems, two maps (2026-10-23))\n- 2026-10-23 · touches · \"we can normally recognise yin and yang by how they appear in the domain\" (Yin and yang show in how a pole appears in its domain (2026-10-23))\n- 2026-10-23 · touches · \"Our goal is to find 3 foundational ORTHOGONAL axes for a domain.\" (Three foundational orthogonal axes for a domain (2026-10-23))\n- 2026-10-25 · retells · \"get a definition of what a tradeoff is, and what it's properties are\" (Define a trade-off and its properties, then test ours against it (2026-10-25))\n- 2026-10-25 · retells · \"Each stage in this flow is it's own subdomain. Each will have its own tensions.\" (An archetypal flow as the ideal layer: each stage a subdomain with its own tensions (2026-10-25))\n- 2026-10-25 · touches · \"an awareness of the tradeoffs so that we are tuning\" (Four questions for any unit of work; we tune, we do not perfect (2026-10-25))\n- 2026-10-25 · touches · \"Our whole boundary and tension practice is applied everywhere from the same rules\" (The three lines and their poles are the creation myth: Wuji, Taiji, Yin/Yang, the eight images (2026-10-25))\n- 2026-10-27 · touches · \"A domain defines the tensions, and a working group holds our strategy for approaching it.\" (Order is assessed against strategy: a domain defines the tensions, a working group holds the strategy (2026-10-27))\n- 2026-10-27 · touches · \"The three axis format allows us to assign strategic foundations with an archetype\" (I have set strategy priority many times and we keep losing it; the three-axis format gives strategy an archetype (2026-10-27))\n- 2026-11-06 · touches · \"I always start with them as my guide\" (My thesis: the base lines are universal and the three axes can always be found (2026-11-06))\n- 2026-11-06 · touches · \"We have growing evidence (srs-programme) that these axes are generally valid.\" (Any domain inherits the base axes as working defaults (2026-11-06))\n- 2026-11-07 · touches · \"Define boundary - divide yin and Yang - take only Yang as boundary... Repeat.\" (Simple domains lack clarity to be useful; cells are relative to a boundary, divide and repeat; dream boundaries are valid if we know where they came from; cluster may stay a name for a boundary with a function (2026-11-07))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:26.195993807+00:00",
+  "updatedAt": "2026-11-22T13:07:26.195998599+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

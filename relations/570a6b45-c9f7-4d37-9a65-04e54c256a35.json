@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "570a6b45-c9f7-4d37-9a65-04e54c256a35",
+  "relationType": "evidences",
+  "sourceInstanceId": "43f236ce-1533-4c1d-8309-072bc22098a0",
+  "targetInstanceId": "90074edc-c523-4cfd-9e03-39b7b76b7ea6",
+  "createdAt": "2026-11-22T13:06:58.613785930+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"The rest bundle standing rules, actions and follow-on choices into one record.\""
+}

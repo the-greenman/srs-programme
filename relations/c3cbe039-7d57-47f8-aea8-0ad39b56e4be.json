@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "c3cbe039-7d57-47f8-aea8-0ad39b56e4be",
+  "relationType": "evidences",
+  "sourceInstanceId": "5a6cda0f-5f36-4412-a3d6-29f62026b24d",
+  "targetInstanceId": "87ac7e01-4705-4325-95f2-ef42a6fb8b60",
+  "createdAt": "2026-11-22T13:06:12.334347473+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"code needs to live at the corret crchitecture layer\""
+}

@@ -1,0 +1,22 @@
+{
+  "instanceId": "e64350dc-39bc-43d8-b6f4-3c922de51c18",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** Scope is the key: a decision for one domain does not become global automatically, and the owner needs to see the relevant boundary for any decision. Strategy sessions need only the strategic information (\"the information that matters in a larger context is stategic\"). One vignette says problems are held by no persona-in-domain, a possibly separate concern.\n\n**Proposed.** A decision made for a specific domain does not become global automatically, but ours do not show their boundary, so I cannot see which decisions are relevant to a larger context or where a boundary is missing.\n\n**Depth.** Four vignettes, two retellings. The no-persona-in-domain vignette may be a separate problem, not covered here. Dates not checked.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:30.667645239+00:00",
+  "updatedAt": "2026-11-22T13:08:30.667648939+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

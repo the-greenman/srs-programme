@@ -1,0 +1,28 @@
+{
+  "instanceId": "6cf33a73-36ac-492f-836f-6c0085cc6a8b",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-181",
+    "title": "Decisions carry no review trigger",
+    "statement": "A ruling to keep something states when it would be reviewed (for example if releases keep getting harder), but nothing tracks the condition and there is no active decision review process.",
+    "kind": "condition",
+    "source_ref": [
+      "Dream 2026-11-22: recurs in vignettes on 2026-10-28, 2026-11-03"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:51.061724638+00:00",
+  "updatedAt": "2026-11-22T13:08:51.061726360+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

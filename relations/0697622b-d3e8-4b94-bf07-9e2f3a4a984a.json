@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "0697622b-d3e8-4b94-bf07-9e2f3a4a984a",
+  "relationType": "evidences",
+  "sourceInstanceId": "06d83ca7-de81-4bb3-9d0b-fd11c2121b6e",
+  "targetInstanceId": "95a0efbc-07de-4c72-aa1f-0150a445fcbc",
+  "createdAt": "2026-11-22T13:07:03.202894565+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"We have growing evidence (srs-programme) that these axes are generally valid.\""
+}

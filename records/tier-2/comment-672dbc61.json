@@ -1,0 +1,22 @@
+{
+  "instanceId": "672dbc61-b6e3-4b36-b1df-015b47560bfc",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** da30fd12: 'merging copies should be something we support natively' (two exported .srs copies held content the git copy lacked). 5f588821: 'We don't want to destroy provenance' when bringing in a record from another copy. ce536911: a record cited in another repository 'may need to cache/mirror it', with a split-off essay repo seeing itself as a mirror of the original.\n\n**Proposed.** Copies of a repository drift apart and there is no native way to identify a copy, mirror what it cites, or merge its edits back without losing provenance. Work done away from the source is lost or merged by hand.\n\n**Depth.** Three vignettes, 2026-10-29 to 2026-11-05; recurs as merge, provenance and mirroring. The cross-repo citation vignette only touches it and may belong to an addressability problem.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:37.507863008+00:00",
+  "updatedAt": "2026-11-22T13:08:37.507871802+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

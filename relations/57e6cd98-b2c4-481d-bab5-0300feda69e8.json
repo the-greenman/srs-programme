@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "57e6cd98-b2c4-481d-bab5-0300feda69e8",
+  "relationType": "evidences",
+  "sourceInstanceId": "bb916d7a-c1b7-4dbf-9fe3-58c9ff24af29",
+  "targetInstanceId": "789576ac-2177-4b8c-b592-055db5032384",
+  "createdAt": "2026-11-22T13:06:22.457896958+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"Domains can refine, they can also overlap. They can also overlap on different dimensions.\""
+}

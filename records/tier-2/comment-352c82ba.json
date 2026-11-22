@@ -1,0 +1,22 @@
+{
+  "instanceId": "352c82ba-a601-457c-8d6b-bfbfbf415ec6",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 10 vignettes from 7 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-24 · touches · \"A programme is a shared state.\" (The programme is a database (2026-10-24))\n- 2026-10-25 · retells · \"These are the domain of the programme and the clerk.\" (Map the domain of the programme and the clerk: what each process element is solving (2026-10-25))\n- 2026-10-25 · touches · \"I'm still confused that this is suggesting that the likely home of work is two specific epics.\" (Close to 1000 issues, not two epics (2026-10-25))\n- 2026-10-25 · touches · \"I want to see if we can map out the high level archetypal flow.\" (An archetypal flow as the ideal layer: each stage a subdomain with its own tensions (2026-10-25))\n- 2026-10-28 · touches · \"keep the flow section of the programme updated with discoveries\" (Every agent keeps the flow section updated: when flow stops, we know why (2026-10-28))\n- 2026-10-28 · touches · \"take a concept through to delivery without getting lost\" (Drive the unit to delivery autonomously; predict the stops now; a paused question lives on the desk; the holon is marked in progress (2026-10-28))\n- 2026-10-29 · touches · \"performed in one sitting and the rest of development driven safely\" (Build it as a holon: every decision and action in one sitting, the rest driven safely (2026-10-29))\n- 2026-10-30 · touches · \"SRS -programme is the record of the project and how we are learning to use the tools\" (Vignette 2026-10-30: where each kind of meaning lives)\n- 2026-11-03 · touches · \"the seven \"The clerk\" boundaries to Programme coordination\" (A boundary and a domain are essentially the same thing (2026-11-03))\n- 2026-11-06 · touches · \"All decisions prepped up front and the work established so that it can be driven automatically\" (Set this up as a holon: all decisions prepped up front, drivable through the agent editor group (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:34.539112354+00:00",
+  "updatedAt": "2026-11-22T13:07:34.539115177+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

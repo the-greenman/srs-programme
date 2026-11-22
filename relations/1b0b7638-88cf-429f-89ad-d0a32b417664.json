@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "1b0b7638-88cf-429f-89ad-d0a32b417664",
+  "relationType": "evidences",
+  "sourceInstanceId": "70bb1536-2b73-43cc-ba99-b47c755fcb8c",
+  "targetInstanceId": "cf99ac3e-61c6-4408-9f62-3e4692518379",
+  "createdAt": "2026-11-22T13:06:19.777229365+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"We can trace our refined records back to their context by doing this\""
+}

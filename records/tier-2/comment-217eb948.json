@@ -1,0 +1,22 @@
+{
+  "instanceId": "217eb948-e7ab-4823-a9b3-dc1999e40a40",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** Confirms the domain. Adds: a programme is shared state (209e10fb); it is the record of the project and how we learn to use the tools (cd46e937); the aim is to take a concept to delivery without getting lost (4bd4e2d0), with decisions prepped up front so work can be driven automatically and safely (a30aa4cc, 007e1621); the flow section should be updated with discoveries and the high-level archetypal flow mapped (82e8b452, 9826c570). Scale caution 2026-10-25: \"we have close to 1000 issues in our repos, with many different tasks\", so a suggestion of two epics as the home of work was wrong (6d3da7a8). Note the vignettes on mapping flow touch process more than coordination.\n\n**Proposed.** Keep the work of the SemanticOps and muDemocracy programmes moving to done across many repositories (close to a thousand issues, many kinds of task), with every piece of work understood within the whole picture, so a concept can be taken to delivery without getting lost, with decisions prepared up front and the flow record updated with what we discover.\n\n**Depth.** Moderate-thin: 10 vignettes, mostly touches, 2026-10-25 to 2026-11; some themes are shared with other domains.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:22.168076664+00:00",
+  "updatedAt": "2026-11-22T13:08:22.168080778+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "0cbc19f8-b788-41ff-b2d7-621e929bb383",
+  "relationType": "evidences",
+  "sourceInstanceId": "7d992135-f3c4-42e6-857c-2306dc6dd346",
+  "targetInstanceId": "40586d36-c101-433b-bfa0-80fc367e3f07",
+  "createdAt": "2026-11-22T13:06:21.112969198+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"In general we want to work meaning first, so problem and remedies allow us to understand the features we need to build\""
+}

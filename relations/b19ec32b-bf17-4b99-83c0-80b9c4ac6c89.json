@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "b19ec32b-bf17-4b99-83c0-80b9c4ac6c89",
+  "relationType": "evidences",
+  "sourceInstanceId": "2df79a12-578e-4812-9277-edf0cab45bd9",
+  "targetInstanceId": "c8f4810a-009f-497f-9bd6-491507962734",
+  "createdAt": "2026-11-22T13:07:16.781220987+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"local ai requires that communities can govern well.\""
+}

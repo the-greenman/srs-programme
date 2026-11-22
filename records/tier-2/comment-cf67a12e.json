@@ -1,0 +1,22 @@
+{
+  "instanceId": "cf67a12e-969c-4c7a-ad14-65044ccd63ac",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 7 vignettes from 3 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-29 · retells · \"Let's add help for the layers panel as well. We need to explain indents.\" (Help should explain the layers panel, indents, and sources dragged in that AI can see (2026-10-29))\n- 2026-10-29 · retells · \"some way to ask your ai to teach you how to use it\" (Ask your AI to teach you the editor: an AI-focussed manual, and an agent that can highlight the UI (2026-10-29))\n- 2026-10-29 · touches · \"SRS help repo (Recommended)\" (Help is kept as an SRS help repository (2026-10-29))\n- 2026-10-29 · touches · \"keep features in a structure that means that they know about their own help\" (Features should know their own help, without drift (2026-10-29))\n- 2026-10-29 · touches · \"show how they weer accessible in the ui\" (Features defined as data, shown where they are reached in the UI (2026-10-29))\n- 2026-10-30 · touches · \"Our help is telling the users to tell the agent how to use the ui highligting.\" (An agent should discover the editor's start page by itself, not be told by the writer (2026-10-30))\n- 2026-11-03 · touches · \"point someone to a url that will help them get started in a practical way\" (The essay editor is a technical implementation of the muDemocracy mindset shift; one URL that gets someone started (2026-11-03))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:56.383286607+00:00",
+  "updatedAt": "2026-11-22T13:07:56.383291143+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

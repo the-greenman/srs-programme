@@ -1,0 +1,22 @@
+{
+  "instanceId": "1fedfe20-a13a-4dc4-9d8d-32778d7ebff5",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 6 vignettes from 5 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- undated · touches · \"We should first explain what each item means.\" (The seven marks: start with writing down, and say what each one means)\n- 2026-11-02 · touches · \"I need all the pages on the site to start to be managed via the editor.\" (Vignette 2026-11-02: every page and the menu through the editor, on srs-web)\n- 2026-11-04 · touches · \"A blog post or, well, essay, should be a presentation of the stack.\" (Vignette 2026-11-04: the editor is how people experience the whole stack; essays are dogfood, and an essay is a presentation of the stack on our websites)\n- 2026-11-06 · retells · \"The mudemocracy editor it talking about attrubution for web page content. That's not quite the same domain.\" (The muDemocracy editor is about attribution for web page content, not quite the same domain (2026-11-06))\n- 2026-11-06 · touches · \"The website editor is a sister domain.\" (Answering the challenger: agents add to the repo, the website is surface meaning, the middle path with AI, the container holds the rough work (2026-11-06))\n- 2026-11-20 · touches · \"We are allowed to update the site with better examples.\" (Vignette 2026-11-20: the copy rule to explain the concepts is there so the site explains the capability, not a snapshot in time; better examples are allowed)",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:29.957084962+00:00",
+  "updatedAt": "2026-11-22T13:07:29.957088943+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

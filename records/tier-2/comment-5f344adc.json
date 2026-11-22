@@ -1,0 +1,22 @@
+{
+  "instanceId": "5f344adc-93d1-488c-9154-e9bf2d427569",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** Confirms meaning-first work from stories: \"All problems and domains are evolved from stories\" (e673c964); vignettes are pulled out as fragments and records abstracted from them (c26e0903); problem/claim/remedy with domains and personas is \"an attempt to provide rich intent\" (85847aef); problems and remedies tell us the features to build (7d992135). Adds that domains themselves evolve and may be created through the work (262e24c0), that vignettes strengthen or weaken assumptions (4fd551ad), that anchors (affirmations, vignettes) are what AI coheres between (8b5b80d6), and that the domains are suspected too simple to be useful (7f895f7d, 2ad1b8d8). Adds clusters as \"probably just another boundary\" sensed before clarified (38eaff50) and a canonical definition of the three axes (ffc72ab1).\n\n**Proposed.** Work starts from meaning that grows from stories: vignettes recorded in the owner's words are the anchors, from which domains, personas, problems, clusters and tensions are abstracted and then kept honest as new vignettes strengthen or weaken them. Domains evolve, and must be defined with enough clarity to be useful. Choosing and ranking the work comes from this, with remedies showing which features to build.\n\n**Depth.** Moderate: 12 vignettes, 2026-10 to 2026-11-07; recurring theme, with an open suspicion that domains are too thin.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:20.472654898+00:00",
+  "updatedAt": "2026-11-22T13:08:20.472658801+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

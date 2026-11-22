@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "9c269f49-5591-4740-9fa5-b9b47666d923",
+  "relationType": "evidences",
+  "sourceInstanceId": "5f395529-546d-4840-a43d-c8799e8af819",
+  "targetInstanceId": "cbd4225d-95cf-40e1-8045-9fbcc5c83b0a",
+  "createdAt": "2026-11-22T13:07:08.990382926+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"The editor is a front door that shows how we can built tools without vendor lock-in.\""
+}

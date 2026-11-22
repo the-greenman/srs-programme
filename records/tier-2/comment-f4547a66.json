@@ -1,0 +1,22 @@
+{
+  "instanceId": "f4547a66-f892-4cb9-856d-daea4fda8028",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** Adds the content of a decision and how it is shaped: decisions are \"scoped to a context\" (0564c719, 8b9cb702); the eight kinds \"should become stable definitions of the forms decisions can take\" and a decision is recognised by type then formed appropriately (dc71b4da, e965126c); it should state why a path was chosen (926a41d3) and present a case for any option after reviewing past decisions and principles (8d4deae4); the compass should be used properly to manage decisions (213f49ee); humans and agents work together on principles and standards (5a6cda0f); how decisions are presented matters (2f33caa2); a decision checklist is reviewed often (a04e8ab7); affirmation is its own layer (81f2bf49). Confirms the existing definition rather than changing its scope.\n\n**Proposed.** Choices that govern later choices are made at the right level by the right owner, scoped to a context, typed by the form they take, and presented with a case for each option and the reason for the one chosen, in a form the owner can judge, recorded once and cited, never asked again. Decisions and their kinds, modes, doors and cells; proposals, sessions and ratification; the affirmation layer; ADRs.\n\n**Depth.** Moderate: 11 vignettes, mostly touches; consistent with the existing record, little new tension.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:20.892782897+00:00",
+  "updatedAt": "2026-11-22T13:08:20.892789089+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

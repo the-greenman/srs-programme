@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "0ea7a125-e37e-4d71-bcef-afbf519807b0",
+  "relationType": "evidences",
+  "sourceInstanceId": "1b25bad7-df7b-4410-bf60-50798cdc136c",
+  "targetInstanceId": "2c7cfd6c-0f5a-47e6-9574-831758ff471f",
+  "createdAt": "2026-11-22T13:06:30.525605472+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"Marking it as an in progress unit\""
+}

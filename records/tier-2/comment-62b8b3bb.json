@@ -1,0 +1,22 @@
+{
+  "instanceId": "62b8b3bb-38e4-4ed2-aa36-937fd8de4fce",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 2 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-28 · touches · \"When srs-rust provides a standard way to achieve a goal, we can retire local ways of achieving the same goal.\" (Retire authored-by: one way to say who made a record (2026-10-28))\n- 2026-10-29 · touches · \"How do we avoid drift?\" (Features should know their own help, without drift (2026-10-29))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:55.954180493+00:00",
+  "updatedAt": "2026-11-22T13:07:55.954184187+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

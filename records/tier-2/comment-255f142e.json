@@ -1,0 +1,22 @@
+{
+  "instanceId": "255f142e-4e21-4e52-ae7b-1d99f25ac4a2",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** Adds loss and traceability: 'the connective tissue of the underlying context gets lost', 'We don't want to destroy provenance', refined records traced back 'and it will allow us to cross check', 'Semantic integrity is going to be directly related to navigability', not losing things 'in branches'. Early rationale was unavailable ('the conversation from early in the year was not available'). Future scope: 'Multi-user, federated, fractal, long term memory'.\n\n**Proposed.** Hold meaning and provenance over time so any action can be understood within the whole picture: what it serves, where each piece came from and who decided what. Refined records stay traceable to the context they came from, the connective tissue is not lost, and the whole stays navigable, which integrity depends on, across people, agents and branches.\n\n**Depth.** 8 vignettes (1 retell, 7 touch); provenance and navigability recur. Dates not checked here.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:24.275571689+00:00",
+  "updatedAt": "2026-11-22T13:08:24.275574661+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

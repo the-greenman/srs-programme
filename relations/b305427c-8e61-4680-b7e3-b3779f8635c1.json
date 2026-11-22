@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "b305427c-8e61-4680-b7e3-b3779f8635c1",
+  "relationType": "evidences",
+  "sourceInstanceId": "be1cdc74-5211-4e2c-b198-c77b78bd148c",
+  "targetInstanceId": "95a0efbc-07de-4c72-aa1f-0150a445fcbc",
+  "createdAt": "2026-11-22T13:06:10.653874703+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"Our goal is to find 3 foundational ORTHOGONAL axes for a domain.\""
+}

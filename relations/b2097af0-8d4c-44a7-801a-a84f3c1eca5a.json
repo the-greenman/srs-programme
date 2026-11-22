@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "b2097af0-8d4c-44a7-801a-a84f3c1eca5a",
+  "relationType": "evidences",
+  "sourceInstanceId": "8e1587e9-8b34-484a-b96d-71990b86d84c",
+  "targetInstanceId": "a9ddb1dc-745d-4f4d-9392-64bfe38fea93",
+  "createdAt": "2026-11-22T13:07:00.835199035+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"srs-web needs an imporved load progress indicator for larger repos\""
+}

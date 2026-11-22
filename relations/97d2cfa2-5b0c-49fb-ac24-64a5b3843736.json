@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "97d2cfa2-5b0c-49fb-ac24-64a5b3843736",
+  "relationType": "evidences",
+  "sourceInstanceId": "8b5b80d6-2b6e-43f5-86a4-b168ace1299b",
+  "targetInstanceId": "cf99ac3e-61c6-4408-9f62-3e4692518379",
+  "createdAt": "2026-11-22T13:07:11.706315316+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"AI can build the coherence layer. Building up patterns and then refining them. Turning my words into structured data.\""
+}

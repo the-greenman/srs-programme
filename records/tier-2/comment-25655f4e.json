@@ -1,0 +1,22 @@
+{
+  "instanceId": "25655f4e-6a98-48f8-8138-0992346a0ee7",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 1 vignette from 1 day to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- undated · touches · \"we need to explain them to agents if we keep them\" (Owner: do repo checks still fit now editing happens in srs-web?)",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:24.543068250+00:00",
+  "updatedAt": "2026-11-22T13:07:24.543072231+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

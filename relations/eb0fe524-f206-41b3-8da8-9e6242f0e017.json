@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "eb0fe524-f206-41b3-8da8-9e6242f0e017",
+  "relationType": "evidences",
+  "sourceInstanceId": "28f48868-a4ef-4a12-8903-b61ddab8acbc",
+  "targetInstanceId": "61784feb-5c86-4175-bbd6-844f429f0c8e",
+  "createdAt": "2026-11-22T13:06:37.645675411+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"SRS help repo (Recommended)\""
+}

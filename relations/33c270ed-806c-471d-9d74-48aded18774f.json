@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "33c270ed-806c-471d-9d74-48aded18774f",
+  "relationType": "evidences",
+  "sourceInstanceId": "43f236ce-1533-4c1d-8309-072bc22098a0",
+  "targetInstanceId": "b7f8b611-43d7-46dc-9d00-58e80fd1e918",
+  "createdAt": "2026-11-22T13:06:58.281103900+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"They don't really present me with the information I need to be able to judge them. So I tend to just click \"recommended\"\""
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "bc167931-5480-47c2-9fe9-03cf3f790038",
+  "relationType": "evidences",
+  "sourceInstanceId": "2ad1b8d8-b578-4b33-8494-245fb7128d4a",
+  "targetInstanceId": "fdaf9e1f-cff1-48d7-86d3-36da7c2d9dd7",
+  "createdAt": "2026-11-22T13:07:16.273694664+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"So as long as we know where the boundaries came from, then dream boundaries are valid.\""
+}

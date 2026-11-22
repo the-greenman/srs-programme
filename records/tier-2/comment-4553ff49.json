@@ -1,0 +1,22 @@
+{
+  "instanceId": "4553ff49-e845-403b-939f-22135d825d1f",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** The owner names the kinds of background beyond paragraphs: for a narrative, timelines, characters and events (69b6ad45). An editor could see layers: data structure, the thinking layer (vignettes, derived data, relationships), attachments and references, then the essays on top (7aab7806). The essay offers only paragraph types, which is a different kind of context and a different user profile (19964824).\n\n**Proposed.** What a writer needs behind a text depends on what they write: a narrative needs timelines, characters and events, an argument needs problems and claims. The essay offers only paragraph types, as if one background and one kind of writer fits all, and the layers behind the essay (structure, thinking, references) are not visible together.\n\n**Depth.** Three vignettes, 2026-10-25 to 2026-11-06, in three separate sittings; the concern recurs. Existing statement covers contracts, stories and marketing; the vignettes add the layered view.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:34.511677144+00:00",
+  "updatedAt": "2026-11-22T13:08:34.511681472+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

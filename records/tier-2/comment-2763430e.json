@@ -1,0 +1,22 @@
+{
+  "instanceId": "2763430e-0d5e-40cd-af6d-726ac8971180",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** The cost is lost work and a failed process, not only waiting: manual programme merges let work get lost (209e10fb), and every stop for a PR the owner must approve before the goal is a failure (7882db8d). The programme is shared state, like a database, and the owner's ratification was already done, so it should always auto-merge (82bfc3c4).\n\n**Proposed.** Finished work stops at a pull request that I have to approve before we reach the goal, and work waiting on a manual merge gets lost too easily. The programme is our shared database of state, and when I have already ratified, a further merge adds nothing but delay.\n\n**Depth.** Three vignettes, 2026-10-24 and 2026-10-25, one stretch of dogfooding. The concern is recurrent and emphatic, and the vignettes stop at the programme's merges, not code PRs in general.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:34.081657228+00:00",
+  "updatedAt": "2026-11-22T13:08:34.081661505+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

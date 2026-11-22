@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "77d5b683-b282-49c5-a99d-b8bd5b804837",
+  "relationType": "evidences",
+  "sourceInstanceId": "592e719a-d0ca-466c-9d54-9b6974b631b3",
+  "targetInstanceId": "275fa8b8-f64e-4c2d-98ed-3f019e63be9a",
+  "createdAt": "2026-11-22T13:06:17.402942478+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"As I write I may end up discarding one form of an essay, and then taking parts of it to create another.\""
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "b0598355-a8e3-410e-be5f-a09fa5269a45",
+  "relationType": "evidences",
+  "sourceInstanceId": "aefc744c-c53e-46f7-bbc7-453cfefd364f",
+  "targetInstanceId": "1cf008d0-da07-40e0-a323-54f07e0e7b66",
+  "createdAt": "2026-11-22T13:06:36.150273663+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"I need my spec to be agent readable. That's kind of the point of srs.\""
+}

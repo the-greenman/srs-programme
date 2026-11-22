@@ -1,0 +1,22 @@
+{
+  "instanceId": "5a68d8ae-f5f1-4ba1-a639-0cfd664d1ec7",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 2 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- undated · touches · \"we can't build our repo specific rules into the editor\" (Owner: repo-specific rules can't be built into the editor)\n- 2026-10-24 · touches · \"The actual UI should be separate from the functionality which is not business logic.\" (Layers in the editor: functionality apart from the look (2026-10-24))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:24.135288567+00:00",
+  "updatedAt": "2026-11-22T13:07:24.135291312+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

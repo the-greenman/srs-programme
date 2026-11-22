@@ -1,0 +1,22 @@
+{
+  "instanceId": "15a59f51-416d-46b0-bd5f-f578107b9046",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 5 vignettes from 4 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-24 · retells · \"The links to problems, claims and remedies are the real work for the coming week.\" (The coming week: linking essays to problems, claims and remedies (2026-10-24))\n- 2026-10-24 · touches · \"I need to be able to see how my text gets turned into different elements.\" (Seeing my words become elements (2026-10-24))\n- 2026-10-25 · touches · \"These generate an understanding of personas, problems , claims and remedies.\" (Essays begin as a boundary of notes; conversation stays separate from the records that emerge (2026-10-25))\n- 2026-11-04 · touches · \"Our essay package can expand a little\" (The essay package holds the basic building blocks of structured writing (2026-11-04))\n- 2026-11-06 · touches · \"I need to be able to see the linked elements a little better and explore them.\" (Refining a domain is the essay process with a blueprint instead of a paragraph: the soup needs a tool to work through the underlying material (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:36.222457347+00:00",
+  "updatedAt": "2026-11-22T13:07:36.222460310+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

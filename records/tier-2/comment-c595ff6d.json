@@ -1,0 +1,22 @@
+{
+  "instanceId": "c595ff6d-07e3-4011-aa08-eee1eced7c08",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 1 vignette from 1 day to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-25 · touches · \"We can add another clerk issue for templates.\" (Log the bug-about-bugs as a bug; templates as their own issue (2026-10-25))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:46.693307520+00:00",
+  "updatedAt": "2026-11-22T13:07:46.693310291+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

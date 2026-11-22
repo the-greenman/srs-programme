@@ -1,0 +1,22 @@
+{
+  "instanceId": "751d9dc8-e038-4e2f-8ace-6b1e07e33bb1",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** The destination is concrete: an ideas section on the muDemocracy site publishing read-only essays, each at an srs URL (b38dcfa4), and an essay view that plugs into the muDemocracy and semanticops sites (38c2e274). Export should be easy with all relevant content immediately available (fed4eeb4, though that vignette is chiefly about transcripts not being published in full, so publishing needs control over what leaves).\n\n**Proposed.** I need to publish a finished essay, as a read-only page at its own address on my sites, from the place I wrote it, with all its relevant content available. Today it has to leave the editor by export, so publishing is a separate job outside the work.\n\n**Depth.** Three vignettes, 2026-10-28 to 2026-11-04, one a blocker for the week's main work. It recurs across the transcripts, site and essay-view threads. The 'what must not publish' concern (transcripts) is a possible separate problem.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:33.650562394+00:00",
+  "updatedAt": "2026-11-22T13:08:33.650566466+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,22 @@
+{
+  "instanceId": "a535066c-d6b1-441e-a4e1-7b67f1a29c04",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 10 vignettes from 6 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- undated · touches · \"The dream cycle uses these moments to build a stable, up to date, model of reality.\" (Vignettes are short-term memory; dreams build the model; affirmation freezes it)\n- 2026-10-23 · touches · \"this work is recorded somewhere safe where it can inform future refinements\" (Record the work somewhere safe (2026-10-23))\n- 2026-10-23 · touches · \"The process will also generally keep being refined. We may find that edges are blurry\" (A standard synthetic process of iterative cross referencing (2026-10-23))\n- 2026-10-25 · touches · \"Let's record our learning and the problems. Integrate the learning.\" (Record and integrate the learning; one trade-off per stage (2026-10-25))\n- 2026-10-27 · retells · \"The dream cycle is part of the process of working with long and short term memory.\" (Navigability is semantic integrity; memory is layered and temporal; the dream cycle builds long-term memory by testing against scenarios (2026-10-27))\n- 2026-10-27 · touches · \"Dream time should manage this list, keeping the semantic hierarchy navigable\" (srs-context should hold the active collections of knowledge, kept light and navigable by dream time (2026-10-27))\n- 2026-10-30 · touches · \"We record vignettes that are semantically relevant. Not just commands.\" (Vignette 2026-10-30: vignettes record what is semantically relevant, not commands)\n- 2026-10-30 · touches · \"keeps testing our data in different scenarios\" (Vignette 2026-10-30: dreamtime is a standard element, short-term and long-term memory differ)\n- 2026-10-30 · touches · \"When they find the same storyline in different vignettes they will have stronger dreams.\" (Vignette 2026-10-30: dreams strengthen relationships when storylines recur)\n- 2026-11-06 · touches · \"the conversation from early in the year was not available to the agents to work with\" (The PDF for meaning is the project's foundation: the vignettes are recent, and the early conversation was not available to the agents (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:24.950900789+00:00",
+  "updatedAt": "2026-11-22T13:07:24.950904819+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

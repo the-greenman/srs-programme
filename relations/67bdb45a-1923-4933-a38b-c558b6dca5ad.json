@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "67bdb45a-1923-4933-a38b-c558b6dca5ad",
+  "relationType": "evidences",
+  "sourceInstanceId": "43f236ce-1533-4c1d-8309-072bc22098a0",
+  "targetInstanceId": "aa55b934-f5dc-4919-8a3a-c75e7dcc6356",
+  "createdAt": "2026-11-22T13:06:58.446094014+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"these decisions are very hard to judge\""
+}

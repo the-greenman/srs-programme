@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "35b2cd38-43c3-497a-af35-203b73c2b9fd",
+  "relationType": "evidences",
+  "sourceInstanceId": "f71456d5-aa77-4b4c-954a-ba3f95bf12e1",
+  "targetInstanceId": "f301d97e-b6bc-49b7-a418-8e66ef3cc0bb",
+  "createdAt": "2026-11-22T13:06:14.347642374+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"The next cycle has a lean towards action.\""
+}
