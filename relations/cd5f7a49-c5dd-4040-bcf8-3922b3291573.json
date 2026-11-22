@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "cd5f7a49-c5dd-4040-bcf8-3922b3291573",
+  "relationType": "evidences",
+  "sourceInstanceId": "774617ba-144e-40ee-bb2f-b0fd6597430a",
+  "targetInstanceId": "275fa8b8-f64e-4c2d-98ed-3f019e63be9a",
+  "createdAt": "2026-11-22T13:06:40.480695476+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"assist in writing carefully researched funding bids\""
+}

@@ -1,0 +1,22 @@
+{
+  "instanceId": "8e42205d-025f-499b-a677-18000d235e8f",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** Names the mechanism and a candidate shape: 'Affirming everything just becomes a chore... and then I just click recommended', 'affirming things I can't review', 'Affirmation breaks the better version of the cycle', 'affirmation will just kill lots of this work'. A lighter form is floated: 'We may not want the whole affirmation requirement, but a tick and bin on derived data would be valuable.' The owner still cannot 'properly work out how to manage affirmations'.\n\n**Proposed.** Agents propose structure as separate records and I am asked to affirm each one. It becomes a chore of things I cannot properly review, so I click 'recommended', the cycle of building meaning stalls, and the meaning layer stays unaffirmed or is affirmed without being read.\n\n**Depth.** 8 vignettes (2 retell, 6 touch); strong recurrence of the same frustration, with one partial remedy idea (tick and bin). Dates not checked here.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:24.698524538+00:00",
+  "updatedAt": "2026-11-22T13:08:24.698527440+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

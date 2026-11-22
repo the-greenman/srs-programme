@@ -1,0 +1,22 @@
+{
+  "instanceId": "42018f75-303d-432e-9902-9226ded50375",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** States what a well-formed decision needs: 'decisions need to be formed correctly in order to mean something', 'No decision should just be a branch without a rationale', 'make a decision only when we know what the options really are and the pros and cons', and a rationale that lets us tell 'whether we made the wrong decision or need to change'. Calls for a practice guide and examples, and for decision logs in SRS and srs-rust where 'the axes may tend to work best'.\n\n**Proposed.** Decisions are recorded without a clear rationale, without the options and their pros and cons, and without a way to tell later that they were wrong. A decision should only be made once its real options are known, and a later choice must be able to see what it weighed and when to revisit it.\n\n**Depth.** 7 vignettes (3 retell, 4 touch); consistent with SP-115's evidence, which adds the counts. Dates not checked here.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:25.121606424+00:00",
+  "updatedAt": "2026-11-22T13:08:25.121610603+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

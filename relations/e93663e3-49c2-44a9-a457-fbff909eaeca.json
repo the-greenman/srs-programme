@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "e93663e3-49c2-44a9-a457-fbff909eaeca",
+  "relationType": "evidences",
+  "sourceInstanceId": "b4738926-78f3-4854-bf5b-0c0b7457ee34",
+  "targetInstanceId": "2651f2ad-a0ca-45fe-88dd-8271f4c81084",
+  "createdAt": "2026-11-22T13:07:21.182912332+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"hover previews for notes and references with keep/deny on the card\""
+}

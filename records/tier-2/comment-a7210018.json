@@ -1,0 +1,22 @@
+{
+  "instanceId": "a7210018-d4a3-4f5d-b33b-2208ab61d12f",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 3 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-11-04 · retells · \"a cleaner process that will take an exported essay and remove records\" (Vignette 2026-11-04: a later cleaner process removes records from an exported essay, which addresses the comments issue)\n- 2026-11-04 · retells · \"we need to be able to have a way to strip types of records on export\" (Vignette 2026-11-04: we need a way to strip types of records on export)\n- 2026-11-05 · touches · \"when we export an essay, we probably don't want to include the full source materials\" (Raw conversation is provenance below the vignettes; we pull out fragments and export only the key bits (2026-11-05))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:07.342892170+00:00",
+  "updatedAt": "2026-11-22T13:08:07.342896354+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

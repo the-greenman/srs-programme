@@ -1,0 +1,22 @@
+{
+  "instanceId": "a9f57681-6a21-4451-8c79-392893bdd70d",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** The record says proposals are logged faster than they are ratified. The vignettes add that this is costly and recurring: 'We end up with the same decision coming back again and again. And lost in proposals that never reach a session' (2026-10-28), and 'We keep loosing decisions becuase of this. Its a real bug' (2026-11-10). The 11-10 context names a mechanism: decisions sit in lifecycle draft, some with status proposed, where no session agenda can see them, and 38 ratified decisions still read status proposed. The owner calls it a bug, not a backlog. Neither vignette says how many decisions are involved beyond the context counts given in the vignette notes.\n\n**Proposed.** Rulings are logged as proposals that never reach a session, so the same decision keeps coming back and decisions are lost. A decision's status and its lifecycle can disagree, which hides it from every agenda and leaves it unclear which rulings hold.\n\n**Depth.** Two vignettes, 2026-10-28 and 2026-11-10, thirteen days apart, with the second reporting the first's cause confirmed. The owner says 'again and again', so the concern recurs, and it is one of the better supported problems.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:41.374987042+00:00",
+  "updatedAt": "2026-11-22T13:08:41.374991081+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

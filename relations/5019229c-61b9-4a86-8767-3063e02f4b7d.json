@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "5019229c-61b9-4a86-8767-3063e02f4b7d",
+  "relationType": "evidences",
+  "sourceInstanceId": "3560699e-5d04-4be8-88c9-70a3694d7a5a",
+  "targetInstanceId": "f301d97e-b6bc-49b7-a418-8e66ef3cc0bb",
+  "createdAt": "2026-11-22T13:06:16.366118781+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"Line 2: Disrupt/ stabilise Bring in new things/ make what we have better\""
+}

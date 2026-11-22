@@ -1,0 +1,22 @@
+{
+  "instanceId": "48731d4f-95d9-46cb-be6e-b1f4f8aafbe0",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 2 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-11-04 · touches · \"a runnable container that could connect and stream in the transcription\" (A local whisper server plugged into the repo via MCP, recording transcripts straight into the SRS container (2026-11-04))\n- 2026-11-09 · touches · \"assist with elements for minutes\" (Live transcription into the governance editor: one file in a basic standard, a background agent flags decisions, set up as a holon (2026-11-09))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:08.606022438+00:00",
+  "updatedAt": "2026-11-22T13:08:08.606027334+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

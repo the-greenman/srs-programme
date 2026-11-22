@@ -1,0 +1,22 @@
+{
+  "instanceId": "6619bf72-758f-4a8a-a55d-b2de91d731fb",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 1 vignette from 1 day to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-11-04 · touches · \"Each essay would be available at an srs url\" (Vignette 2026-11-04: an ideas section on the muDemocracy site publishes read-only essays, each available at an srs url)",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:09.467769942+00:00",
+  "updatedAt": "2026-11-22T13:08:09.467773413+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

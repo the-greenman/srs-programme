@@ -1,0 +1,22 @@
+{
+  "instanceId": "dcb1fbb2-673c-459f-9f64-5581b53deeec",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 6 vignettes from 5 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-30 · touches · \"I maintain sovereignty by doing the things I'm good at\" (Vignette 2026-10-30: sovereignty is doing what I am good at)\n- 2026-11-03 · touches · \"becoming sovereign in their actions\" (Local tooling for the housekeeping: a cybernetic, fractal, federated system of local AI (2026-11-03))\n- 2026-11-05 · touches · \"muDemocracy is a project about how we managed meaning as a group\" (The essay editor preserves human agency for owning meaning as individuals; muDemocracy is how we manage meaning as a group (2026-11-05))\n- 2026-11-06 · touches · \"we need tools that support the thinking that humans need to do to actively stay part of the process\" (The bigger domain is effective human/AI collaboration: preserve each party's strength, against the sweet usurpation of autonomy (2026-11-06))\n- 2026-11-06 · touches · \"We build the tools that empower people, rather than taking away their power.\" (Not a tool for anyone: power tools that protect the individual's sovereignty; imagine AI is fire, and learn when it is useful (2026-11-06))\n- 2026-11-07 · touches · \"local ai requires that communities can govern well.\" (Nearby AI needs communities capable of maintenance: muDemocracy for governing, SRS and the relay for owning data, the essay editor for safe individual use; \"dumb AI\" is the right level of intelligence in the right place, \"cybernetic AI\" is fractal feedback, VSM (2026-11-07))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:00.190843603+00:00",
+  "updatedAt": "2026-11-22T13:08:00.190848402+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,22 @@
+{
+  "instanceId": "69cfe3d1-abc5-498b-8318-5968c4c864c7",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 11 vignettes from 4 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-24 · touches · \"agents tend to very quickly make texts too long and too generic\" (The core working problem: speed without the bigger context (2026-10-24))\n- 2026-11-03 · retells · \"Once an AI has written all the text, it's actually very hard to claim control back.\" (The essay editor is a technical implementation of the muDemocracy mindset shift; one URL that gets someone started (2026-11-03))\n- 2026-11-05 · retells · \"every word of copy is the author's. What it can't do: draft, rewrite or \"improve\" sentences\" (The essay editor preserves human agency for owning meaning as individuals; muDemocracy is how we manage meaning as a group (2026-11-05))\n- 2026-11-06 · retells · \"it's very easy to get caught up in the flow, and allow AI to own the words\" (Writing with AI is seductive: once I've read its words I can't imagine another direction, and the cognitive debt is real (2026-11-06))\n- 2026-11-06 · retells · \"I personally need to put myself back in charge too.\" (Answering the challenger: agents add to the repo, the website is surface meaning, the middle path with AI, the container holds the rough work (2026-11-06))\n- 2026-11-06 · retells · \"asking Claude or any AI to just make a small change very quickly ends up with an unrecognisable document.\" (Non-addictive technology; the editor domain is writing well without letting AI take over; tools drive behaviour, and SemanticOps may make the feeling of things as easy to collect as numbers (2026-11-06))\n- 2026-11-06 · retells · \"I can't let it write the final words, I need the creativeity AI has to offer. But as a peer.\" (AI's creativity as a peer: it deepens the writing, but it doesn't write the final words (2026-11-06))\n- 2026-11-06 · retells · \"I let the AI own the wrong parts. I was not in charge of myself.\" (Synthetic Logic: decades fused into a system with AI, and cognitive debt in the owner's own foundational work (2026-11-06))\n- 2026-11-06 · touches · \"every tool now wants to jump in and replace our words. To write and speak for us.\" (The editor's domain in the owner's own words, written before reading the AI summaries: purpose, audience, boundary (2026-11-06))\n- 2026-11-06 · touches · \"When AI takes over the work a human should do, that becomes the gradual, sweet usurpation of autonomy.\" (The bigger domain is effective human/AI collaboration: preserve each party's strength, against the sweet usurpation of autonomy (2026-11-06))\n- 2026-11-06 · touches · \"Our tools protect the soverignty of the individual.\" (Not a tool for anyone: power tools that protect the individual's sovereignty; imagine AI is fire, and learn when it is useful (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:37.484495176+00:00",
+  "updatedAt": "2026-11-22T13:07:37.484499703+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

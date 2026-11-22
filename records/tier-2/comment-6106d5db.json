@@ -1,0 +1,22 @@
+{
+  "instanceId": "6106d5db-e617-4f3d-aabe-e9f1da56ab1d",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 5 vignettes from 3 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-25 · touches · \"Domains can refine, they can also overlap. They can also overlap on different dimensions.\" (Several models of the flow; domains refine or overlap, here they refine (2026-10-25))\n- 2026-10-28 · touches · \"These synthetic maps never need to be absolute. They are always relative to a domain.\" (Base trigram axes and poles apply by default; every decision gets a trigram, and consistency builds the system (2026-10-28))\n- 2026-10-28 · touches · \"our base poles and these get carried through all domains. They just get refined and renamed\" (Evolve shared understanding gradually; the three lines are a universal lens every domain carries (2026-10-28))\n- 2026-11-06 · retells · \"any domain inherits the base axes.\" (Any domain inherits the base axes as working defaults (2026-11-06))\n- 2026-11-06 · retells · \"may clone the domain, and then only break some parts off. Lots may be shared. But not all.\" (A way of working is emerging: shared semantic infrastructure under domains and essays, comparing parents, siblings and children, cloning a domain, and zoomability (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:45.413806046+00:00",
+  "updatedAt": "2026-11-22T13:07:45.413809556+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,22 @@
+{
+  "instanceId": "74e3707a-72be-405c-8cde-e0533d1a840e",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 2 vignettes from 1 day to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-23 · retells · \"I have 900 issues on file. Many of them are already in epics, with detailed steps. Everything is stuck.\" (Pull strong work forward (2026-10-23))\n- 2026-10-23 · retells · \"ignoring hundreds of carefully defined issues that are immediuately actable\" (Stuck at line 1 (2026-10-23))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:32.452177283+00:00",
+  "updatedAt": "2026-11-22T13:07:32.452181671+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

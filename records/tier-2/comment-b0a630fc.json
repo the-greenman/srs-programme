@@ -1,0 +1,22 @@
+{
+  "instanceId": "b0a630fc-2a72-4487-9c17-f986aac1af9e",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 4 vignettes from 4 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- undated · touches · \"The purpose sets which decisions belong to the members.\" (The sixth mark includes the purpose: what we are for sets which decisions are ours)\n- 2026-11-04 · touches · \"mudemocracy is about reestablishing decision making sovereginty.\" (Vignette 2026-11-04: the editor is the usable proof of concept, srs the local-first tooling, muDemocracy re-establishes decision-making sovereignty)\n- 2026-11-06 · retells · \"A group of people safely managing a shared long term agent context.\" (Vignette 2026-11-06: encryption and access control are a multi-repo layer; signed writes, split and merge with a recorded home; a shared organisational memory)\n- 2026-11-07 · retells · \"We need the groups to host their own infrastructure and we need to have a way to give communities the ownership of their data.\" (Nearby AI needs communities capable of maintenance: muDemocracy for governing, SRS and the relay for owning data, the essay editor for safe individual use; \"dumb AI\" is the right level of intelligence in the right place, \"cybernetic AI\" is fractal feedback, VSM (2026-11-07))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:27.457100969+00:00",
+  "updatedAt": "2026-11-22T13:07:27.457105952+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

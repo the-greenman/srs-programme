@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "c5809a1c-875a-460b-88f0-0e998b5883c7",
+  "relationType": "evidences",
+  "sourceInstanceId": "1cf3ef4f-049a-438f-8916-7e4b821fe22c",
+  "targetInstanceId": "2651f2ad-a0ca-45fe-88dd-8271f4c81084",
+  "createdAt": "2026-11-22T13:07:04.755247637+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"An editing tool that supports a writer to produce better work with AI.\""
+}

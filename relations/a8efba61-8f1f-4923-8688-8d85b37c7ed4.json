@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "a8efba61-8f1f-4923-8688-8d85b37c7ed4",
+  "relationType": "evidences",
+  "sourceInstanceId": "6ab30406-5112-404e-ba88-96fd20469022",
+  "targetInstanceId": "d27e2c66-e5e2-4391-aa8a-669ddeb0577f",
+  "createdAt": "2026-11-22T13:07:23.055001937+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"The ability to work with smaller agents on cross referenced data is immediate work.\""
+}

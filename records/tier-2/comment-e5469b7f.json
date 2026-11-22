@@ -1,0 +1,22 @@
+{
+  "instanceId": "e5469b7f-73b9-489f-9f0a-6f6463b6b9ea",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 5 vignettes from 3 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-25 · retells · \"As I write I may end up discarding one form of an essay, and then taking parts of it to create another.\" (Essays begin as a boundary of notes; conversation stays separate from the records that emerge (2026-10-25))\n- 2026-10-25 · retells · \"I'll duplicate a paragraph and work with multiple versions of it, changing order to see what works.\" (An essay is a container for meaning that grows from exploration to argument; essays form families (2026-10-25))\n- 2026-10-29 · retells · \"In a complex essay, I need to be able to switch paragraphs in antd out to see how they flow.\" (Essay editor: draft paragraphs cannot be reviewed without restoring them (2026-10-29))\n- 2026-10-29 · touches · \"assist in writing carefully researched funding bids\" (The essay editor needs word and character counts for funding bids (2026-10-29))\n- 2026-11-10 · touches · \"I need a clean way to navigate between essays with shared paraphraphs.\" (I cannot see where a shared paragraph came from, or what a note or reference says, without leaving the essay (2026-11-10))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:40.816981549+00:00",
+  "updatedAt": "2026-11-22T13:07:40.816985647+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

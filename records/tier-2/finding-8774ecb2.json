@@ -1,0 +1,31 @@
+{
+  "instanceId": "8774ecb2-c9a1-4150-a6aa-402fc5a86738",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Patterns from a private case repository: graded support agrees with counted evidence, 2026-11-22",
+    "summary": "A private repository that builds one person's account over many conversations already uses the pattern the programme is moving to: captured words link as evidence to the storylines and points they retell, each point says what it rests on, and earlier versions of the derived document are kept as understanding grows. Its graded support and a plain count of evidence agree in order, so confidence can be a profile of source kind and recurrence, not one number. Only patterns are recorded here; the content is private.",
+    "evidence": [
+      "Layers: verbatim statements and conversation notes (short-term capture), then events and documents, then points, then arguments. Evidence runs upward through each layer; about 800 evidence links in total.",
+      "Conversation notes link as evidence to the storylines, events and points they retell. Storylines are their own record type, made by hand (option C of exercise ed577c14).",
+      "Every point carries a support grade naming what it rests on: documented, the person's account at the time, their account later, disputed, needs evidence. Every fact carries a certainty grade naming its source: a document, their own notes, someone else, worked out, conflicting, not known.",
+      "Graded support and counted evidence agree in order. Points graded documented average 5.0 evidence links (31 points), account at the time 4.2 (33), account later 3.2 (14), needs evidence 2.0 (1). Facts from a document average 5.2, facts from someone else 2.0.",
+      "The derived document was refined through successive drafts, each with its own feedback, and earlier drafts were kept, but as separate containers: no supersedes link says which replaced which.",
+      "Open questions are marked by a to-confirm field on most types; there is no lifecycle.",
+      "A loose refers-to relation carries about 1,300 links that are not claims."
+    ],
+    "body": "## What it shows\n\n- **Confidence as a profile works in practice.** The grade answers 'what kind of source', the count answers 'how many'. They agree in order but are not the same: a documented point with two links and a later account with seven are different kinds of strong. Neither replaces the other.\n- **The dream pattern exists already, done by hand.** Captured words become evidence for the storylines and points they retell. That is decision 22191de7 (proposed) on a small scale.\n- **Refinement without succession loses the chain.** Keeping every draft preserves history, but without supersedes nothing says which version is current or what changed. That is the gap decision 6fb54698 (proposed) closes.\n\n## What the programme can take from it\n\n- Grade support by source kind on derived records, alongside counted recurrence (exercise 84987eb3 option B with C and E).\n- Treat storylines as records a dream proposes, not only as clusters it names.\n- Use supersedes for each refinement, so the current version and its history are both readable."
+  },
+  "tags": [
+    "research",
+    "status:open",
+    "topic:relation-weight",
+    "topic:affirmation",
+    "topic:dreams"
+  ],
+  "createdAt": "2026-11-22T12:55:01.156577276+00:00",
+  "updatedAt": "2026-11-22T12:55:01.156579216+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

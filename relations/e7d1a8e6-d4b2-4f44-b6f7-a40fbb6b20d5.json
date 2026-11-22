@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "e7d1a8e6-d4b2-4f44-b6f7-a40fbb6b20d5",
+  "relationType": "evidences",
+  "sourceInstanceId": "286be05e-f801-4555-bc7e-18e67e21c32f",
+  "targetInstanceId": "e36a09c8-be9b-404e-a859-1184addd5906",
+  "createdAt": "2026-11-22T13:06:37.482051055+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"you may merge if all reviewers approve\""
+}

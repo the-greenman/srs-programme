@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "b861b9a7-c8f6-494e-93bc-4d07fdf0de67",
+  "relationType": "evidences",
+  "sourceInstanceId": "d6d480b2-14ae-4313-9a73-541ab97c6195",
+  "targetInstanceId": "fa41fa00-7119-483c-979c-8862e699d8a1",
+  "createdAt": "2026-11-22T13:07:14.070623373+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"I let the AI own the wrong parts. I was not in charge of myself.\""
+}

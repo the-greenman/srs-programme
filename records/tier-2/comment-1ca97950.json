@@ -1,0 +1,22 @@
+{
+  "instanceId": "1ca97950-6710-4692-9d88-0aaf37af3ee2",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** The marker does not explain itself and does not let the writer know which paragraph is the master (dca3aa01). The master always lives in the oldest owning essay (b4738926), and shared paragraphs are particularly interesting to highlight (69b6ad45). Diverging a paragraph needs an explicit local copy.\n\n**Proposed.** A shared paragraph's marker does not explain itself: I cannot see which paragraph is the master or which essays hold it, so I cannot judge whether it may change under another argument.\n\n**Depth.** Three vignettes, 2026-10-25 to 2026-11-10, two on the editor UI. The original statement about a change reaching every document stands; the vignettes shift the emphasis to legibility of the marker.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:34.942793835+00:00",
+  "updatedAt": "2026-11-22T13:08:34.942796987+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

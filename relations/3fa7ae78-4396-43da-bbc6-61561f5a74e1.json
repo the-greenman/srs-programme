@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "3fa7ae78-4396-43da-bbc6-61561f5a74e1",
+  "relationType": "evidences",
+  "sourceInstanceId": "23f12a6f-8026-40c2-aa16-90c5f1e97300",
+  "targetInstanceId": "d00f101f-1e42-4793-b182-0f16a8a01c8c",
+  "createdAt": "2026-11-22T13:06:42.003439683+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"affirming things I can't review\""
+}

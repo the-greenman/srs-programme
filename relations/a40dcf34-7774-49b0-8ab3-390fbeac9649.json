@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "a40dcf34-7774-49b0-8ab3-390fbeac9649",
+  "relationType": "evidences",
+  "sourceInstanceId": "69b6ad45-a3fe-48c2-acb7-c117905aeb6e",
+  "targetInstanceId": "275fa8b8-f64e-4c2d-98ed-3f019e63be9a",
+  "createdAt": "2026-11-22T13:06:18.408583311+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"I'll duplicate a paragraph and work with multiple versions of it, changing order to see what works.\""
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "3f0372de-0eea-4475-b866-e5e1af892968",
+  "relationType": "evidences",
+  "sourceInstanceId": "dfe90f0b-3e87-4939-9fa8-f730c1afa940",
+  "targetInstanceId": "2be11fd1-ed09-46e6-8a76-31f59ab89b4f",
+  "createdAt": "2026-11-22T13:06:29.682035047+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"We have a map of our flow, and a set of tasks that have been prepared.\""
+}

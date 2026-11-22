@@ -1,0 +1,22 @@
+{
+  "instanceId": "f27291d8-8fda-4571-97d3-303b014e04e3",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** Order has to be explained and judged against strategy: a domain defines the tensions and a working group holds the strategy that ranks work (88d0b37d, 2652e201). Remedies are hypotheses, so affirmed is not right: competing remedies must be visible and related, and each needs what would make it succeed or fail as an experiment (2941f51a). 40f77b44 only asks 'what remedy do we need?' and adds little here.\n\n**Proposed.** Each problem gets a remedy worth trying, treated as a hypothesis with what would make it succeed or fail. Competing remedies are noticed, related and synthesised. The programme registers why work is ordered as it is, assessed against the strategy a working group holds for its domain. Remedies, falsifiers and limits; objectives, periods and epics; priority derived from rank and its recorded reason. Turning a remedy into issues (Shape the work).\n\n**Depth.** Four vignettes, 2026-10-27 and 2026-10-29, two sittings. The ordering and hypothesis ideas each appear as distinct retellings. The domain is already affirmed with falsifiers and rank, so this is refinement, not a new concern.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:31.948812853+00:00",
+  "updatedAt": "2026-11-22T13:08:31.948816892+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

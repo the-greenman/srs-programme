@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "9aa33a70-630c-4d9d-bacf-6e82b2925ed0",
+  "relationType": "evidences",
+  "sourceInstanceId": "262e24c0-96ce-4213-9ab5-c20034130a60",
+  "targetInstanceId": "fdf6947e-d047-463c-8089-a0ed7358992a",
+  "createdAt": "2026-11-22T13:07:05.956170447+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"We are going to need a way to make it possible to properly work through the underlying material.\""
+}

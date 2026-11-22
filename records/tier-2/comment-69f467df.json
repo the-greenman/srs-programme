@@ -1,0 +1,22 @@
+{
+  "instanceId": "69f467df-9e56-450e-9e9b-b35e6f79f798",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 3 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- undated · touches · \"We should eaily be able to export an essay - and all relevant content should be immediately availbale.\" (None)\n- 2026-11-04 · retells · \"The essay view probably needs to become something I can plug into mudemocracy and semanticops websites.\" (Vignette 2026-11-04: the editor is how people experience the whole stack; essays are dogfood, and an essay is a presentation of the stack on our websites)\n- 2026-11-04 · retells · \"create an \"ideas\" section on the mudemocracy site that allows me to publish read only essays\" (Vignette 2026-11-04: an ideas section on the muDemocracy site publishes read-only essays, each available at an srs url)",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:29.128541413+00:00",
+  "updatedAt": "2026-11-22T13:07:29.128545309+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

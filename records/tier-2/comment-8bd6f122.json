@@ -1,0 +1,22 @@
+{
+  "instanceId": "8bd6f122-84d4-4bcc-ab92-627ccf5bc182",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 3 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- undated · retells · \"srs-web contains only reusable generic code that applies to packages that are public\" (Owner: srs-web holds only generic code for public packages; layers are never merged)\n- undated · touches · \"build a generic site editor that can be extended\" (Owner: a generic site editor with the smallest extension layer; a repository's rules as scripts that check it)\n- 2026-10-24 · retells · \"code needs to live at the corret crchitecture layer\" (Who holds which layer: agents at implementation, together at principles (2026-10-24))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:23.724978885+00:00",
+  "updatedAt": "2026-11-22T13:07:23.724981992+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "1bdeb1ee-f220-411b-aebf-337a865fedd5",
+  "relationType": "evidences",
+  "sourceInstanceId": "3d26c906-be44-4bff-bbad-70df93b50cc0",
+  "targetInstanceId": "92a06409-21a3-442e-a76f-cc87372bc9f2",
+  "createdAt": "2026-11-22T13:06:05.638869303+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"The dream cycle uses these moments to build a stable, up to date, model of reality.\""
+}

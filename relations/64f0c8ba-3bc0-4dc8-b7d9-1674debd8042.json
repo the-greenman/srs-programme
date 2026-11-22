@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "64f0c8ba-3bc0-4dc8-b7d9-1674debd8042",
+  "relationType": "evidences",
+  "sourceInstanceId": "40f62bfd-1e7e-4c6e-8cf6-a4642d8ba8ae",
+  "targetInstanceId": "fa41fa00-7119-483c-979c-8862e699d8a1",
+  "createdAt": "2026-11-22T13:06:57.619558623+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"every word of copy is the author's. What it can't do: draft, rewrite or \"improve\" sentences\""
+}

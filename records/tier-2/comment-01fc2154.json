@@ -1,0 +1,22 @@
+{
+  "instanceId": "01fc2154-b92f-44a8-9dce-0434f29ef540",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 1 vignette from 1 day to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-11-02 · touches · \"different websites would have their own packages.\" (Vignette 2026-11-02: the package is the link between a site and its components; prototype toward the generic editor)",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:05.656477840+00:00",
+  "updatedAt": "2026-11-22T13:08:05.656483290+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

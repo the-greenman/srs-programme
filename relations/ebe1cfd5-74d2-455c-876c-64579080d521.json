@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "ebe1cfd5-74d2-455c-876c-64579080d521",
+  "relationType": "evidences",
+  "sourceInstanceId": "7882db8d-1c5a-4495-ba99-2c5b8a8f1c86",
+  "targetInstanceId": "1df06c34-7783-4011-a12a-3422ba8dcec3",
+  "createdAt": "2026-11-22T13:06:20.440770231+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"we must continue this work until we know that we are following our process\""
+}

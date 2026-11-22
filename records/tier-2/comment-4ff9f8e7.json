@@ -1,0 +1,22 @@
+{
+  "instanceId": "4ff9f8e7-f19b-4abc-8b07-f2af975fa668",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** The subscription and discovery side: groups subscribe and get updates (\"They will subscribe to it and get updates\"), need a registry or directory, and a writer should find published packages and install what is needed. Refinement happens at the source and arrives by upgrade, and it must be safe (\"We want to be able to safely refine packages\").\n\n**Proposed.** A group that builds useful definitions has no way to publish them to a registry, and another group cannot find them, subscribe, and safely receive refinements by upgrade. Reuse relies on copying.\n\n**Depth.** Five vignettes, two retellings; consistent on publish, discover, subscribe, upgrade. Dates not checked.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:29.809338460+00:00",
+  "updatedAt": "2026-11-22T13:08:29.809343663+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

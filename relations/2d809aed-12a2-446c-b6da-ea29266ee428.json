@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "2d809aed-12a2-446c-b6da-ea29266ee428",
+  "relationType": "evidences",
+  "sourceInstanceId": "2df79a12-578e-4812-9277-edf0cab45bd9",
+  "targetInstanceId": "75cd5e78-bfd2-4e2a-bd49-bcdd20829714",
+  "createdAt": "2026-11-22T13:07:16.441966607+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"We need the groups to host their own infrastructure and we need to have a way to give communities the ownership of their data.\""
+}

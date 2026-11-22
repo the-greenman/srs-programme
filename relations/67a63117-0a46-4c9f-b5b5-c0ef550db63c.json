@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "67a63117-0a46-4c9f-b5b5-c0ef550db63c",
+  "relationType": "evidences",
+  "sourceInstanceId": "e83f2d33-4977-430b-9c84-aacb60ea6bea",
+  "targetInstanceId": "d77006ec-16e3-4965-bf05-592ec5de477d",
+  "createdAt": "2026-11-22T13:07:14.413156707+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"Mukti-user, federated, fractal, long term memory is an important part of the future\""
+}

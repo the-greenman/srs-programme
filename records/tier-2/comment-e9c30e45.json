@@ -1,0 +1,22 @@
+{
+  "instanceId": "e9c30e45-d4e0-44e9-8a29-63aab75df18d",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 18 vignettes from 9 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-22 · retells · \"Decisions need to be recognised for the type of decision they make and then formed appropriately\" (Decisions formed correctly, a taxonomy through practice (2026-10-22))\n- 2026-10-22 · touches · \"Decisions should generally be scoped to a context.\" (Decisions are scoped to a context (2026-10-22))\n- 2026-10-22 · touches · \"these 8 different types should become stable definitions of the forms decisions can take\" (Vertices, options, and two trigrams: context and action (2026-10-22))\n- 2026-10-24 · touches · \"Humans and agents work togetehr on principles and standards.\" (Who holds which layer: agents at implementation, together at principles (2026-10-24))\n- 2026-10-25 · touches · \"Affirmation is its own layer\" (Affirmation is its own layer; in chat it is a fake decision (2026-10-25))\n- 2026-10-25 · touches · \"The current affirmation process still seems to regularly result in lost work.\" (Affirmation comes after the context is lost (2026-10-25))\n- 2026-10-27 · touches · \"The point of principles is to keep moving things forward and to maintain consistency.\" (Principles keep work moving and consistent; decisions one at a time undermine integrity (2026-10-27))\n- 2026-10-28 · touches · \"How do we keep having decisions stay drafts?\" (How do decisions keep staying drafts? The same decision comes back, lost in proposals that never reach a session (2026-10-28))\n- 2026-10-28 · touches · \"Where do decisions go? When do they stop?\" (Where do decisions go, and when do they stop? Many vanished once principles were reviewed (2026-10-28))\n- 2026-10-28 · touches · \"Decisions are relevant in the domains where they are relevant.\" (A decision removes future choices only at the right level; out of context it is noise (2026-10-28))\n- 2026-10-28 · touches · \"actively detecting the nested and parallel domains where decisions are relevant\" (Sense the nested and parallel domains decisions belong to; keep watching, merge from experience (2026-10-28))\n- 2026-10-30 · touches · \"If possible our decision should state why we chose a path.\" (Vignette 2026-10-30: the first iteration of a registry, lock down only the smallest piece)\n- 2026-11-03 · touches · \"I need to be able to get the compass used properly to manage decisions.\" (A clear path from the compass is recorded, not escalated; decisions need an active review process (2026-11-03))\n- 2026-11-03 · touches · \"A decision needs to present a case for any option, after reviewing past decisions and principles.\" (Setting up work takes longer than the work; decisions need a case, not a branch (2026-11-03))\n- 2026-11-05 · touches · \"how we present decisions\" (Owner: present decisions with what is relevant in their context; incompatible answers serving different remedies are gold for the research (2026-11-05))\n- 2026-11-05 · touches · \"This links back to decisions in context.\" (Owner: explain a technical decision's strategic consequences, not its specifics (2026-11-05))\n- 2026-11-05 · touches · \"decision checklist. It will need to be reviewed often for a while.\" (Owner: a place where we manage our decision checklist, reviewed often for a while (2026-11-05))\n- 2026-11-07 · touches · \"SRS and srs-rust should have a set of decision logs\" (Map the muSrs sources; the Systemic Data Ethics 4x3 map classified standards and GDPR; axes may work best on decisions, and srs and srs-rust have decision logs (2026-11-07))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:30.792040026+00:00",
+  "updatedAt": "2026-11-22T13:07:30.792047189+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

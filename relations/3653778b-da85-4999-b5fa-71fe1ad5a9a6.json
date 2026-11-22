@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "3653778b-da85-4999-b5fa-71fe1ad5a9a6",
+  "relationType": "evidences",
+  "sourceInstanceId": "35c738dd-29a2-4b82-b6f6-daeca125b6c1",
+  "targetInstanceId": "ea45489c-c3a0-4c60-b67a-bf7eb66028d6",
+  "createdAt": "2026-11-22T13:07:06.793983765+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"to get support for your ideas or to challenge them\""
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "e72861a8-70ab-466f-ac59-df792adc148c",
+  "relationType": "evidences",
+  "sourceInstanceId": "ff5ce8e9-3d1b-48dc-a04a-50a2cd8901ed",
+  "targetInstanceId": "f2262d25-102d-4476-ac68-653bb7253d29",
+  "createdAt": "2026-11-22T13:06:07.616422843+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"We should first explain what each item means.\""
+}

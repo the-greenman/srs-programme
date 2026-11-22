@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "10d0f676-f22b-4f8f-b31a-d0c887348ab7",
+  "relationType": "evidences",
+  "sourceInstanceId": "d83cd13c-1369-49e1-aa95-8e62d67cc818",
+  "targetInstanceId": "825845a2-a0cc-496a-900e-6439e31a3ded",
+  "createdAt": "2026-11-22T13:06:48.209751854+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"It contradicts the practice running today: srs-programme CLAUDE.md ('Agents never write into Affirmed or Set aside')\""
+}

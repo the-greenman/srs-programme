@@ -1,0 +1,28 @@
+{
+  "instanceId": "eee3b848-a6c9-40c7-88df-919dfb101499",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-182",
+    "title": "Small-model work is unrecorded",
+    "statement": "I do not know which of our tasks a local small model could do, at what level of intelligence, and which need a hosted one, so housekeeping burns paid tokens and I cannot show a funder.",
+    "kind": "condition",
+    "source_ref": [
+      "Dream 2026-11-22: recurs in vignettes on 2026-11-03, 2026-11-04, 2026-11-07, 2026-11-20"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:51.845057151+00:00",
+  "updatedAt": "2026-11-22T13:08:51.845059301+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,22 @@
+{
+  "instanceId": "8cb6bc01-6b90-4fe7-8d96-127ae6c0d425",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 1 vignette from 1 day to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-11-06 · touches · \"The editor is a front door that shows how we can built tools without vendor lock-in.\" (Local AI is the ecosystem and SRS is its tool; the real Mozilla pitch is SRS, and the editor is a front door showing tools without vendor lock-in (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:15.822324446+00:00",
+  "updatedAt": "2026-11-22T13:08:15.822328404+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

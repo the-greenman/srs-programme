@@ -1,0 +1,22 @@
+{
+  "instanceId": "f4c6f2d9-65d6-466b-a41b-2f4b7b790d4d",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** The record is about writers seeing structure meant for agents. The 2026-11-04 vignette treats the same boundary as layers an editor could show: 'the data structure layer. What fields and types exist', then the thinking layer (vignettes, derived data, relationships), attachments and references, then essays on top. It is a constructive account of which layer a person sees, not a complaint, and it makes the record's concern a question of choosing layers. The 2026-11-22 vignette widens the concern to both audiences: 'We need to have SRS work well for humans and agents. Where do these have different needs, when are their needs conflicting?' The record names only the writer's side of that conflict and treats the agent's side as the model. The owner now asks where the needs differ or conflict, which the record does not say.\n\n**Proposed.** SRS has to work well for humans and for agents, but their needs differ and may conflict. Writers are shown the structure agents need (blocks, trees, relation types, containers) instead of the layer they think in, and we have not worked out where the two audiences' needs part.\n\n**Depth.** Two vignettes, 2026-11-04 and 2026-11-22, eighteen days apart. The concern is an open question in both, not a settled claim. The 11-22 vignette is a broad request about patterns, mistakes and skills, and only the humans-and-agents sentence bears on this record. The 'writers think in blocks' assumption in the record is still unobserved.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:42.232234102+00:00",
+  "updatedAt": "2026-11-22T13:08:42.232237353+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

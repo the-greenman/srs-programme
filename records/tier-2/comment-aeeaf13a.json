@@ -1,0 +1,22 @@
+{
+  "instanceId": "aeeaf13a-71cc-4d99-b56f-cd3fb7c69886",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 9 vignettes from 6 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- undated · touches · \"as the context grows, we refine the domain, problem, persona\" (Vignettes are short-term memory; dreams build the model; affirmation freezes it)\n- 2026-10-24 · retells · \"these are interconnected vignettes. We will cluster and synthesise them, and buld up meaning in cyles and spirals.\" (Vignettes, spirals and the paradox of boundaries (2026-10-24))\n- 2026-10-25 · touches · \"We can trace our refined records back to their context by doing this\" (A chat opens a container: the narrative is the initial semantic layer (2026-10-25))\n- 2026-10-30 · retells · \"gradually develop our understanding before they hit formal decisions\" (Vignette 2026-10-30: an exercise is a question we explore before it becomes a decision)\n- 2026-11-04 · touches · \"The editor should be able to simply present a view that builds up structured bavkground.\" (Build up structured background from vignettes; a tick and bin instead of affirmation (2026-11-04))\n- 2026-11-06 · touches · \"Let's capture a process and see if we can prototype a tool that will guide the process of refining a domain.\" (Refining a domain is the essay process with a blueprint instead of a paragraph: the soup needs a tool to work through the underlying material (2026-11-06))\n- 2026-11-06 · touches · \"AI produced summary of the text that sits a layer up. I should also be able to clone and edit that summary.\" (A summary layer I can clone and edit; vignettes strengthen or weaken assumptions; I can only affirm in context, and a domain is our current best guess (2026-11-06))\n- 2026-11-06 · touches · \"AI can build the coherence layer. Building up patterns and then refining them. Turning my words into structured data.\" (Affirmations and vignettes are anchors; AI brings the coherence in between, and affirmation is rarer than we expect (2026-11-06))\n- 2026-11-06 · touches · \"I need to see my original words. The method editor needs to show me what AI has done next to what I said.\" (Once the words are written they are hard for me to change, in this work too: I need to see my words next to what AI did, and I still can't manage affirmations (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:25.367956144+00:00",
+  "updatedAt": "2026-11-22T13:07:25.367960691+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

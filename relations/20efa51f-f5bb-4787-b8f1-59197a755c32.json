@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "20efa51f-f5bb-4787-b8f1-59197a755c32",
+  "relationType": "evidences",
+  "sourceInstanceId": "3de9323b-36ce-4eb9-bd62-0680afb6ac70",
+  "targetInstanceId": "789576ac-2177-4b8c-b592-055db5032384",
+  "createdAt": "2026-11-22T13:06:34.829577959+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"our base poles and these get carried through all domains. They just get refined and renamed\""
+}

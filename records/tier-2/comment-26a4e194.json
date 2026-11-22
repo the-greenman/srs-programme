@@ -1,0 +1,22 @@
+{
+  "instanceId": "26a4e194-9da4-4249-ac86-35a1843be652",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 3 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-25 · touches · \"Containers are an implementation of a boundary system.\" (Containers are boundaries: search within them; conversations are my chat artifacts (2026-10-25))\n- 2026-10-25 · touches · \"muDemocracy has not yet laid out the boundary rules\" (Boundary rules are not laid out yet; we are learning them by doing (2026-10-25))\n- 2026-11-06 · touches · \"a domain is a boundary. Every statement only exists relative to that boundary.\" (A domain is a boundary: every statement and affirmation exists only relative to it, and zooming into fire finds all the elements again (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:41.655442107+00:00",
+  "updatedAt": "2026-11-22T13:07:41.655446965+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

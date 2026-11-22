@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "605b1c94-6e41-4e81-bf3c-12a4533b989e",
+  "relationType": "evidences",
+  "sourceInstanceId": "6606adfe-d22d-4d31-ab14-25cfeaf47ee2",
+  "targetInstanceId": "c4425452-c131-44ba-ae8a-e7d20ddc8559",
+  "createdAt": "2026-11-22T13:06:31.184422855+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"Decisions are relevant in the domains where they are relevant.\""
+}

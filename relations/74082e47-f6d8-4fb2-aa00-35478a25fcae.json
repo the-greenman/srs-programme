@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "74082e47-f6d8-4fb2-aa00-35478a25fcae",
+  "relationType": "evidences",
+  "sourceInstanceId": "15ff2b99-2c37-42f5-9d85-2442e550a46a",
+  "targetInstanceId": "1615bd28-1c5d-4d29-bf02-8c123f887388",
+  "createdAt": "2026-11-22T13:06:10.820560826+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"all of this text was written by me, so there is a bug in the editor not recording the author\""
+}

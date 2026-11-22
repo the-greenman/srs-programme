@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "6c46a800-3111-4f31-bddb-c98dece45b72",
+  "relationType": "evidences",
+  "sourceInstanceId": "b4738926-78f3-4854-bf5b-0c0b7457ee34",
+  "targetInstanceId": "aa2413c6-900c-41d7-a144-d269c50a8b2a",
+  "createdAt": "2026-11-22T13:07:21.017156286+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"the a paragraph master always lives in the oldest owning essay\""
+}

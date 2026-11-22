@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "51a3db95-0e04-4a8a-a54f-52ee616ee78b",
+  "relationType": "evidences",
+  "sourceInstanceId": "45a49561-38e9-4dbd-ad33-9dca7be565fc",
+  "targetInstanceId": "c72787fd-153a-422f-8c3c-06e977128014",
+  "createdAt": "2026-11-22T13:07:19.479283714+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"Governance is about managing the delegation structure.\""
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "03d07117-c8a3-49aa-a4bf-0be357090853",
+  "relationType": "evidences",
+  "sourceInstanceId": "0b9b055b-3f35-4596-9169-303e38e87e8c",
+  "targetInstanceId": "75cd5e78-bfd2-4e2a-bd49-bcdd20829714",
+  "createdAt": "2026-11-22T13:07:03.714130372+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"A group of people safely managing a shared long term agent context.\""
+}

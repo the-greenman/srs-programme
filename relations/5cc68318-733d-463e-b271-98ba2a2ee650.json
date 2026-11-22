@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "5cc68318-733d-463e-b271-98ba2a2ee650",
+  "relationType": "evidences",
+  "sourceInstanceId": "ee0353f8-5840-4edd-b286-6d3376bd71c0",
+  "targetInstanceId": "2651f2ad-a0ca-45fe-88dd-8271f4c81084",
+  "createdAt": "2026-11-22T13:07:14.749627148+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"We create the tooling to support the user, but we're not workign around the user.\""
+}

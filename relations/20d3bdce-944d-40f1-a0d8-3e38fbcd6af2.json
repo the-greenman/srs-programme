@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "20d3bdce-944d-40f1-a0d8-3e38fbcd6af2",
+  "relationType": "evidences",
+  "sourceInstanceId": "c26e0903-7298-4ee1-9390-8a1f577a55c4",
+  "targetInstanceId": "a80fb8d4-03a8-4d6f-a82d-232871dd7f2d",
+  "createdAt": "2026-11-22T13:07:01.854724889+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"there is rarely much value in every utterance as a record\""
+}

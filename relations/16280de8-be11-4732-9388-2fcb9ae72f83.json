@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "16280de8-be11-4732-9388-2fcb9ae72f83",
+  "relationType": "evidences",
+  "sourceInstanceId": "8829d75d-5d3d-4a51-b672-b1d7ffd170c3",
+  "targetInstanceId": "8181bc74-727b-446e-8e7e-0a7812b26944",
+  "createdAt": "2026-11-22T13:07:11.197146195+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"in both there is a set of underlying parts that we use as semantic infrastructure.\""
+}

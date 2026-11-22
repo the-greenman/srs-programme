@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "809a01d4-8f20-4d4a-87fc-b97a3ae71fd7",
+  "relationType": "evidences",
+  "sourceInstanceId": "3a8ee1e5-c2bb-4b05-b8a1-5c7889365db8",
+  "targetInstanceId": "0ee94b81-5677-40da-9a91-b5e57b291309",
+  "createdAt": "2026-11-22T13:06:09.810064250+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"ignoring hundreds of carefully defined issues that are immediuately actable\""
+}

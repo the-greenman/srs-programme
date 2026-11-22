@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "134bf8b4-7644-46d7-82d2-bc1080914eb4",
+  "relationType": "evidences",
+  "sourceInstanceId": "b99bfdc2-28d0-4e5e-be1a-2ece25b4a1a5",
+  "targetInstanceId": "16741e97-6a4a-4362-a7f7-4c8e72bc59a4",
+  "createdAt": "2026-11-22T13:06:40.983828993+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"a local mcp server ... and one running inside a web browser can connect by a static url\""
+}

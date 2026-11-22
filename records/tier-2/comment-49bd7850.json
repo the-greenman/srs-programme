@@ -1,0 +1,22 @@
+{
+  "instanceId": "49bd7850-a190-419a-8b3d-f1f166b2a95f",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 4 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-30 · retells · \"present me with options and a rationale. What are the trade-offs for each path?\" (Vignette 2026-10-30: the first iteration of a registry, lock down only the smallest piece)\n- 2026-11-05 · retells · \"present decisions - with information that is relevant in the context of the decision\" (Owner: present decisions with what is relevant in their context; incompatible answers serving different remedies are gold for the research (2026-11-05))\n- 2026-11-05 · retells · \"They don't really present me with the information I need to be able to judge them. So I tend to just click \"recommended\"\" (Owner: decisions are very hard to judge, so I tend to just click \"recommended\" (2026-11-05))\n- 2026-11-05 · retells · \"we need to be better at explaining the consequences, rather than the specifics\" (Owner: explain a technical decision's strategic consequences, not its specifics (2026-11-05))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:02.291139214+00:00",
+  "updatedAt": "2026-11-22T13:08:02.291143163+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

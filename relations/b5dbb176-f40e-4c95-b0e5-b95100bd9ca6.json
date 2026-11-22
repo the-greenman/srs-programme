@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "b5dbb176-f40e-4c95-b0e5-b95100bd9ca6",
+  "relationType": "evidences",
+  "sourceInstanceId": "69b6ad45-a3fe-48c2-acb7-c117905aeb6e",
+  "targetInstanceId": "4f64aa2f-1d92-4039-8bf0-72dfc487c4b0",
+  "createdAt": "2026-11-22T13:06:18.574063034+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"If the essay is a narrative, I may want to be collecting ideas on timelines and characters and events\""
+}

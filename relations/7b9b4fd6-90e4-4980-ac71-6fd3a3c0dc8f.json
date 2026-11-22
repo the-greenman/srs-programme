@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "7b9b4fd6-90e4-4980-ac71-6fd3a3c0dc8f",
+  "relationType": "evidences",
+  "sourceInstanceId": "47326128-04cf-4c1a-915b-f0c2702b6def",
+  "targetInstanceId": "a9ddb1dc-745d-4f4d-9392-64bfe38fea93",
+  "createdAt": "2026-11-22T13:06:49.714670098+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"keep a browser-memory budget but separate, as a whole-repository warning\""
+}

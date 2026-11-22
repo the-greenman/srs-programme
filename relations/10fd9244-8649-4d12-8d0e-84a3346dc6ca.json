@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "10fd9244-8649-4d12-8d0e-84a3346dc6ca",
+  "relationType": "evidences",
+  "sourceInstanceId": "e965126c-be1a-4053-92cb-d013dd675dd2",
+  "targetInstanceId": "c4425452-c131-44ba-ae8a-e7d20ddc8559",
+  "createdAt": "2026-11-22T13:06:08.969217074+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"Decisions need to be recognised for the type of decision they make and then formed appropriately\""
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "8985ffea-eb2e-4715-ba17-c468bb36be76",
+  "relationType": "evidences",
+  "sourceInstanceId": "771f6306-d046-42ba-9dc2-61dae990b4bc",
+  "targetInstanceId": "275fa8b8-f64e-4c2d-98ed-3f019e63be9a",
+  "createdAt": "2026-11-22T13:06:40.148675028+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"In a complex essay, I need to be able to switch paragraphs in antd out to see how they flow.\""
+}

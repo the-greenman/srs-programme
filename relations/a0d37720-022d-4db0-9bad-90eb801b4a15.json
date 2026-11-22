@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "a0d37720-022d-4db0-9bad-90eb801b4a15",
+  "relationType": "evidences",
+  "sourceInstanceId": "8d4deae4-c25b-42ac-a3cd-1d210a2dead4",
+  "targetInstanceId": "c4425452-c131-44ba-ae8a-e7d20ddc8559",
+  "createdAt": "2026-11-22T13:06:52.605949509+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"A decision needs to present a case for any option, after reviewing past decisions and principles.\""
+}

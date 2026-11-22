@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "c7b55701-19e6-4b8f-8783-6e4c6431889e",
+  "relationType": "evidences",
+  "sourceInstanceId": "4adc5965-dfda-4fdc-b87d-4fa72201ddf3",
+  "targetInstanceId": "f2262d25-102d-4476-ac68-653bb7253d29",
+  "createdAt": "2026-11-22T13:06:49.888209359+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"I need all the pages on the site to start to be managed via the editor.\""
+}

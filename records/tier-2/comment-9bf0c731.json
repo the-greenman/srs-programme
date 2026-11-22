@@ -1,0 +1,22 @@
+{
+  "instanceId": "9bf0c731-790e-4c28-b50b-49a58001b020",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** The loss is not only the exploration material but the process itself: doubts, questions, failures and discoveries (73ae8761, 1cf3ef4f). The owner starts an essay by creating the bigger container (29094aed) and wants explorations kept in their own container (f15bd5f6).\n\n**Proposed.** When I write an essay I start by creating the bigger container, and I need it to hold the whole process: the conversations, sources, doubts, questions, failures and discoveries, not just the finished product. Today that rough work scatters across chats and the fields of the claims it produced, so I cannot return to the thinking that built my understanding.\n\n**Depth.** Four vignettes, 2026-10-24 to 2026-11-06, two retelling and two touching. The concern recurs across the exploration, container and editor-purpose threads, and the existing statement already covers the first half.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:31.526851994+00:00",
+  "updatedAt": "2026-11-22T13:08:31.526856713+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

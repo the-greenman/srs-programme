@@ -1,0 +1,22 @@
+{
+  "instanceId": "61ef9bae-1808-49bf-a43c-54abfe0390a7",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** The need is a cyclical, traceable process, not only a place to tell the story: 'build up meaning in cycles and spirals', 'as the context grows, we refine the domain, problem, persona', refined records traced 'back to their context', understanding developed 'before they hit formal decisions'. It also needs the original words kept visible beside AI work ('I need to see my original words... next to what I said'), an AI summary layer that can be cloned and edited, and AI as 'the coherence layer' turning words into structured data. Owner asks to capture the process and prototype a guiding tool.\n\n**Proposed.** I understand the programme as a narrative, but there is nowhere to tell it, return to it and refine it in cycles. My original words, the AI's synthesis above them and the records that result are not shown together or traceable to each other, so understanding is re-argued in fragments instead of building up before decisions.\n\n**Depth.** 9 vignettes (3 retell, 6 touch), all pointing at the same build-up-in-layers concern, consistent with the existing SP-103 text. Dates not checked here.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:23.424376589+00:00",
+  "updatedAt": "2026-11-22T13:08:23.424382166+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
