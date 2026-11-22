@@ -1,0 +1,18 @@
+{
+  "instanceId": "3d26c906-be44-4bff-bbad-70df93b50cc0",
+  "title": "Vignettes are short-term memory; dreams build the model; affirmation freezes it",
+  "tags": [
+    "vignette",
+    "topic:dreams",
+    "topic:affirmation",
+    "topic:domains",
+    "topic:relation-weight"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "content": "Yes. This is exactly what the dream cycle should be doing.\n\nVignettes are short term memory, they record a specific moment.\n\nThe dream cycle uses these moments to build a stable, up to date, model of reality. We use the vignettes to keep providing deeper context for domains, problems and personas. \n\nThen as the context grows, we refine the domain, problem, persona (any derived data points) \n\nAffirmation is a freezing of this definition... And may not always be wanted... The affirmed versions may need to be superceeded as our understanding grows, but if we only allow the affirmed copies to exist we may miss the refined points"
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

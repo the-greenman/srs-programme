@@ -1,0 +1,30 @@
+{
+  "instanceId": "22191de7-ac21-40f3-896c-2e6b99464341",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Dreams link vignettes to what they retell",
+    "decision_question": "When a new vignette retells something the programme already holds, what does the dream do with it?",
+    "context": "Vignettes record the owner's words at one moment; they are short-term memory. The dream cycle exists to build long-term memory from them (Dreamtime thread). Two open exercises asked how recurrence becomes strength (ed577c14) and what a dream may change unattended in the programme (8969754d). The owner, 2026-11-22: 'The dream cycle uses these moments to build a stable, up to date, model of reality. We use the vignettes to keep providing deeper context for domains, problems and personas.'",
+    "friction": "The graph records where a problem came from, not each time it came up again. 163 of 372 vignettes reach no record, and only 8 problems trace to the owner's words on more than one day, so a domain's depth and a problem's recurrence cannot be read from the data (finding cfb88628). Repeated concerns become new suggestions or nothing.",
+    "alternatives_considered": "A. Leave it to sessions: dreams only propose, a person links (today's practice; recurrence stays unrecorded). B. Store a strength value on records or relations (needs a home in the data model; reopens the 4f1e12e5 removal). C. Record the storyline as its own cluster record and derive from it (adds a layer before any link exists). D. Link each vignette as evidence to every domain, problem and persona it retells, and compute depth and recurrence on read (chosen here).",
+    "key_requirements": "The owner's words stay untouched: a dream adds links from a vignette, never edits it. Links must be checkable: each names the vignette and the record. Independence matters: two vignettes from one conversation are weaker than two from different weeks, which dates and conversation containers already show. No new data-model field.",
+    "decision_statement": "A dream links each vignette, as evidence, to every domain, problem and persona it retells.",
+    "rationale": "Recurrence is the signal the owner wants confidence built from, and it is the one most missing. Evidence links from vignettes add it with no new field, and depth then reads directly off the graph, as the counted-confidence experiments on livewyer (c51015c1) and the programme (cfb88628) showed.",
+    "revisit_when": "The links a dream adds disagree with the owner's sense of what a vignette is about in more than one case in ten at a monthly review, or a domain's depth rises without the owner recognising it as better understood.",
+    "owner": "Owner",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "tags": [
+    "suggested",
+    "topic:dreams",
+    "topic:affirmation",
+    "topic:domains"
+  ],
+  "createdAt": "2026-11-22T12:41:50.933176098+00:00",
+  "updatedAt": "2026-11-22T12:41:50.933178449+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
