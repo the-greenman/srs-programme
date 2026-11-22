@@ -1,0 +1,16 @@
+{
+  "instanceId": "03e967aa-5581-4b42-b7e4-ee0ed0b4a8ff",
+  "title": "Charts and presentations are specific renderings; the spec holds only the foundation",
+  "tags": [
+    "vignette",
+    "topic:interactive-report",
+    "topic:spec-scope"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "content": "In practice, like the essay, we would build a specific rendering for charts and presentations. The SRS spec should just have the essential foundation"
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
