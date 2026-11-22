@@ -1,0 +1,30 @@
+{
+  "instanceId": "3c892101-569f-4699-ab36-6329f14ff426",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Use cases for weight on relations, 2026-11-22",
+    "summary": "Eight cases where a relation's strength or confidence matters, from our own repositories. Most need only a count of independent relations that already exist (exercise options C and E), so they need no change to the data model. Three need one edge to say how strong it is, which today has nowhere to live except the relation's non-normative meta.",
+    "evidence": [
+      "Relation confidence, assertedBy and status were removed by decision 4f1e12e5 (2026-08-22) because 0 of 250 relations used them. Its return trigger is an evidence-shaped design from a real claimant; this list is that evidence.",
+      "Interactive report prototype on livewyer-insight, 2026-11-22: the renderer had to compute the 'strongest' findings for a problem from a field on the finding and the quote's length, because an evidences edge cannot carry a strength.",
+      "Same prototype: a problem's recurrence is already computable from existing edges, for example 'Software supply chain risk' is evidenced by findings from 12 talks at 8 events in 8 conference series.",
+      "Affirmation thread (bf123f5c): 304 of 313 affirmed records are copies made by forking; the owner asked for confidence from cross-checks instead (vignettes 1110c523, c8b12a7b).",
+      "The owner said the same thing on 2026-10-30 (1110c523) and again on 2026-11-22 (b5aa66cc). That recurrence across two conversations is itself the signal option E describes, found here by hand.",
+      "Creation import, 2026-11-22: 182 wikilinks were dropped because no typed relation fitted them; a low-confidence link could have kept them without claiming a meaning.",
+      "The Relation schema has an optional meta object, so a strength can be stored today without a spec change, but nothing validates, indexes or renders it."
+    ],
+    "body": "## The cases\n\n| # | Case | Edge | What strength means | Kind | Status |\n|---|---|---|---|---|---|\n| 1 | A problem said at many conferences (livewyer) | finding `evidences` problem | how many independent talks and events say it | recurrence (C) | measured |\n| 2 | A suggestion trusted without affirming it (programme) | vignette, finding, issue `evidences` problem | how many independent sources point at it | agreement (C) | measured cost, design open |\n| 3 | A storyline a dream finds again (dreams) | vignette `derived-from` or `evidences` storyline | how many independent vignettes tell it | recurrence (E) | proposed |\n| 4 | The strongest finding behind a problem (livewyer report) | one finding `evidences` problem | demonstrated beats claimed, a study beats an anecdote | asserted on the edge (A, B) | measured |\n| 5 | Support and counter-support in an essay (muSrs) | quotation or source `evidences` or `counters` paragraph | a study weighs more than an aside | asserted on the edge (B) | inferred |\n| 6 | Loose cross-references (creation) | note relates to note | a hint, not a claim | asserted, low (A) | measured gap |\n| 7 | Agent-made and owner-made links | any | the owner's word weighs more than an agent's guess | source (B), already held by createdBy (RFC-046) | built |\n| 8 | What matters most about a component (srs-context) | finding `applies-to` component | central or peripheral, so the brief can order it | asserted or computed | inferred |\n\n## What the cases say\n\nThree kinds of weight keep appearing.\n\n- **Counted.** How many independent relations point the same way (cases 1, 2, 3). Every input is already in the graph. It can be computed on read, by a core service so every client agrees (exercise c3ba3e63 option D). No spec change.\n- **Attributed.** Who made the link (case 7). Already stored as createdBy since RFC-046.\n- **Asserted.** The author of one link says how strong it is (cases 4, 5, 6, 8). This is the only kind with no home. Relation meta can hold it for a prototype; a normative field would reopen 4f1e12e5 and needs these cases as its claimant.\n\nIndependence is the hard part of counting. Twelve findings from one talk are one source, not twelve. The livewyer graph can tell them apart because each finding points at its talk and each talk at its event. The programme graph often cannot, because a suggestion and its affirmed copy are two records for one claim.\n\n## Next\n\n- Run exercise c3ba3e63's next action on the livewyer graph first: a counted confidence per problem (distinct events), compared with the owner's sense of which problems are real.\n- Prototype asserted strength in relation meta in one repository, and see whether any renderer or agent uses it.\n- Add a case to this list each time a repository needs weight; the list is the claimant 4f1e12e5 asks for."
+  },
+  "tags": [
+    "research",
+    "status:open",
+    "topic:relation-weight",
+    "topic:affirmation"
+  ],
+  "createdAt": "2026-11-22T11:55:39.625730555+00:00",
+  "updatedAt": "2026-11-22T11:55:39.625732189+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
