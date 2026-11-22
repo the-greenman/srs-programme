@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "f4fa59f4-ae2c-4632-a345-08e9e7e33fa9",
+  "relationType": "evidences",
+  "sourceInstanceId": "878ac6a1-89be-442d-b47e-3ec573f28fa4",
+  "targetInstanceId": "95a0efbc-07de-4c72-aa1f-0150a445fcbc",
+  "createdAt": "2026-11-22T13:06:06.134857091+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"A good paradox axis is hard to find, and so we tend to generally use the classics\""
+}

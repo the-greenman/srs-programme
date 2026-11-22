@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "709bbae0-3d7c-419d-ab8a-6524e4172e40",
+  "relationType": "evidences",
+  "sourceInstanceId": "f6846947-fd9b-45e8-9676-3e9697399093",
+  "targetInstanceId": "c4425452-c131-44ba-ae8a-e7d20ddc8559",
+  "createdAt": "2026-11-22T13:06:24.315195832+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"The current affirmation process still seems to regularly result in lost work.\""
+}

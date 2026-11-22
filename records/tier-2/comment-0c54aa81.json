@@ -1,0 +1,22 @@
+{
+  "instanceId": "0c54aa81-c417-4d35-8656-cff3ec37f7d5",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** The record covers temptation and replacement. The vignettes add what happens afterward and why: agents make text \"too long and too generic\" (bbd0b6e3); \"Once an AI has written all the text, it's actually very hard to claim control back\" (24c38533); a small change request ends up with \"an unrecognisable document\" (ac97a191); it is easy to get caught in flow and let AI own the words (47379410); the owner's own account: \"I let the AI own the wrong parts. I was not in charge of myself\" (d6d480b2) and cognitive debt (the words are not properly mine); and a wider frame, autonomy lost gradually, \"the gradual, sweet usurpation of autonomy\" (2ad7e527), with every tool wanting to write for us (1cf3ef4f). Desired shape: AI as a peer with creativity but not the final words (af4b7e6c).\n\n**Proposed.** When an agent can draft for me I let it, and then the text is long, generic and not mine: I do not recognise it, and it is very hard to take control back. I want AI to respond to my writing as a peer, with its creativity, while I keep the final words.\n\n**Depth.** Deep: 11 vignettes, including first-person owner experience, recurring across editor sessions through 2026-11-06.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:21.308826357+00:00",
+  "updatedAt": "2026-11-22T13:08:21.308830462+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

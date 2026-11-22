@@ -1,0 +1,22 @@
+{
+  "instanceId": "391c7f86-8cc3-439d-957b-a45e035e1186",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** Sensing is agent-led and selective: agents should manage it unprompted (\"It should be something agents manage without me needing to tell them\"), conversations from other AIs arrive through MCP as the owner's chat artifacts, and \"there is rarely much value in every utterance as a record\". The narrative is the first semantic layer, later crystallised into structure. Recurring issues are sensed before they are bounded (\"There is obviously a boundary there. But we sense it first.\").\n\n**Proposed.** Nothing that matters goes unnoticed: agents capture the owner's conversations, including chats with other AIs, without being told, keep only the words that carry meaning, and sense recurring issues before their boundary is clear, so experience in the moment can crystallise into structure.\n\n**Depth.** Five vignettes, two retellings; themes recur (agent-led capture, selectivity, narrative first). Dates not checked.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:28.958922137+00:00",
+  "updatedAt": "2026-11-22T13:08:28.958925954+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

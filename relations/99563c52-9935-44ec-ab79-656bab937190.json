@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "99563c52-9935-44ec-ab79-656bab937190",
+  "relationType": "evidences",
+  "sourceInstanceId": "5d9a2737-9034-46fd-8289-520984c9e120",
+  "targetInstanceId": "d00f101f-1e42-4793-b182-0f16a8a01c8c",
+  "createdAt": "2026-11-22T13:06:54.287485813+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"We may not want the whole affirmation requirement, but a tick and bin on derived data would be valuable.\""
+}

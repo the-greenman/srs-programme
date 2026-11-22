@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "18e61959-93d3-4e64-bd16-545b3b7e4543",
+  "relationType": "evidences",
+  "sourceInstanceId": "40f62bfd-1e7e-4c6e-8cf6-a4642d8ba8ae",
+  "targetInstanceId": "2651f2ad-a0ca-45fe-88dd-8271f4c81084",
+  "createdAt": "2026-11-22T13:06:57.787777871+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"The essay editor preserves the human agency for owning the meaning.\""
+}

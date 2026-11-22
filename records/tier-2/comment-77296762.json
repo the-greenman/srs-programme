@@ -1,0 +1,22 @@
+{
+  "instanceId": "77296762-539e-40a0-9752-004229d24c12",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 3 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-25 · touches · \"We need a special interface for affirmations.\" (Affirmation is its own layer; in chat it is a fake decision (2026-10-25))\n- 2026-10-25 · touches · \"Our chat sourced axes stay affirmed\" (Our chat sourced axes stay affirmed (2026-10-25))\n- 2026-11-06 · touches · \"I need tensions affirmed properly.\" (The affirmation layer is very important, but too difficult, so we never get there (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:44.995978510+00:00",
+  "updatedAt": "2026-11-22T13:07:44.995982413+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,22 @@
+{
+  "instanceId": "e8271f10-59ac-41ee-a0ec-2c2271ebec63",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** The loss happens at handoff points (\"Every pr and wait ends up being a point where a session gets forgotten and the work abandoned\"), and the owner wants a whole unit of work marked in progress and driven to finish (\"We need to have a holon of work clearly marked as in progress so that it gets driven to finish\"; \"Once we begin, we need to make sure that the whole unit is completed\"). Success test: dogfood \"until we know work is not lost when it follows the defined process and any new agent knows how to find the process\".\n\n**Proposed.** Every PR and wait is a point where a session is forgotten and the work abandoned, because nothing marks the whole unit of work as in progress and drives it to finish.\n\n**Depth.** Five vignettes, three retellings; recurring and strongly stated. Dates not checked.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:28.116904800+00:00",
+  "updatedAt": "2026-11-22T13:08:28.116908138+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

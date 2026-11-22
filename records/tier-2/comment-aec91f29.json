@@ -1,0 +1,22 @@
+{
+  "instanceId": "aec91f29-89e5-441b-af7f-5506ed95531c",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** The record frames the starvation as a queue-mechanics problem (a programme-wide queue of six, filled in epic order). The owner's words (2026-10-23) show the same thing as a whole-backlog problem: 'I have 900 issues on file. Many of them are already in epics, with detailed steps. Everything is stuck.' and 'ignoring hundreds of carefully defined issues that are immediuately actable'. Two causes are added: work is not acted on because 'we have not judged our ability to act as sufficient', and new rules keep being set up rather than using ready issues. The needed capability is stated as evaluating the queue for strong issues and pulling them forward, especially those that fit a domain.\n\n**Proposed.** I have hundreds of carefully defined issues, many already in epics with detailed steps, that could be acted on now, yet everything is stuck because we have not judged ourselves able to act and keep making new rules instead. I want the strong issues found and pulled forward, especially those that fit a group's domain, so that a group with room is fed.\n\n**Depth.** Two vignettes, both 2026-10-23, from one conversation. They are the same day and the same concern, so this is a single strong signal, not yet a recurrence across dates.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:39.653193764+00:00",
+  "updatedAt": "2026-11-22T13:08:39.653199391+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "5f862e24-7126-4a6d-ac06-0b58353eafec",
+  "relationType": "evidences",
+  "sourceInstanceId": "38c2e274-235d-430e-8614-264ddfbc7416",
+  "targetInstanceId": "3fc2e422-854f-47ee-a42f-aa4bf0eacb9f",
+  "createdAt": "2026-11-22T13:06:53.446642336+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"The essay view probably needs to become something I can plug into mudemocracy and semanticops websites.\""
+}

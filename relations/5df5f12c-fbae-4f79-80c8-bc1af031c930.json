@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "5df5f12c-fbae-4f79-80c8-bc1af031c930",
+  "relationType": "evidences",
+  "sourceInstanceId": "f454bc95-665d-47d9-bc5a-f5c58911bd4f",
+  "targetInstanceId": "d00f101f-1e42-4793-b182-0f16a8a01c8c",
+  "createdAt": "2026-11-22T13:07:15.256073516+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"At the moment I still cannot properly work out how to manage affirmations.\""
+}

@@ -1,0 +1,22 @@
+{
+  "instanceId": "091a5928-2886-448c-8250-8e9e76bcf024",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** Purpose decides which decisions belong to members (\"The purpose sets which decisions belong to the members\"), the aim is decision-making sovereignty, and groups should host their own infrastructure and own their data (\"give communities the ownership of their data\"). The domain is framed as a group safely managing a shared long-term agent context. This sits near the current exclusion of \"legal ownership of data\", so the boundary needs the owner's call.\n\n**Proposed.** Let a group hold and change shared meanings together, so no single member silently redefines them. The group's purpose sets which decisions belong to its members, and the group hosts its own infrastructure and shared long-term agent context. Individual opinion and private notes are outside it.\n\n**Depth.** Four vignettes, two retellings. The data-ownership vignette conflicts with the existing exclusion, so a human should rule on it. Dates not checked.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:30.237672061+00:00",
+  "updatedAt": "2026-11-22T13:08:30.237676478+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "6155fa18-1727-40d3-91a9-cbb55f9ae67f",
+  "relationType": "evidences",
+  "sourceInstanceId": "38c76e41-1639-4649-842e-0c417e7fd1d7",
+  "targetInstanceId": "2c7cfd6c-0f5a-47e6-9574-831758ff471f",
+  "createdAt": "2026-11-22T13:06:16.542760863+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"Every pr and wait ends up being a point where a session gets forgotten and the work abandoned\""
+}

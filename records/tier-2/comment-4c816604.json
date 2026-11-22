@@ -1,0 +1,22 @@
+{
+  "instanceId": "4c816604-5932-4c98-9d38-f920f95ce02f",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** The record already says a boundary is drawn around concepts and actions to focus searches. The vignettes add three points. Boundary work is 'a fundamental practice of working with complex information'. The aim is that creating a boundary be natural: 'it should be natural to be able to create a boundary that allows me to focus searches'. Efficiency should be watched: 'We should be able to notice when we need to optimise any process of creating and working with a boundary.' The 2026-11-06 vignette adds drill-down: 'We need to be able to limit what is seen in a sensible way, and drill down', and sets it among working across parent, sibling and child domains, where the owner may need to see another domain while working in one.\n\n**Proposed.** When I work on one aspect of a large body of meaning such as muSrs, I want it to be natural to draw a boundary around the concepts and actions I am working with, have every search and read stay inside it, and drill down within it. I also want to notice when a large boundary needs optimising.\n\n**Depth.** Two vignettes, 2026-10-25 and 2026-11-06, a twelve-day gap. The concern recurs and the second adds drill-down, so it is moderately deep. The 11-06 text is cut off in the batch, so the full context for the domain-comparison thread was not read.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:40.513670155+00:00",
+  "updatedAt": "2026-11-22T13:08:40.513675425+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

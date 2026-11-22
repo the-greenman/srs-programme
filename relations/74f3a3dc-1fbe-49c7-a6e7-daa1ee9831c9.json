@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "74f3a3dc-1fbe-49c7-a6e7-daa1ee9831c9",
+  "relationType": "evidences",
+  "sourceInstanceId": "19c9c6b8-f719-46b3-9a30-0f4a9b9fbe0f",
+  "targetInstanceId": "38502279-d1cd-4eed-8cfd-962bef89e43b",
+  "createdAt": "2026-11-22T13:06:30.025474565+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"Solve any that are principle based by principle.\""
+}

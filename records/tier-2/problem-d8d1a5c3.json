@@ -1,0 +1,28 @@
+{
+  "instanceId": "d8d1a5c3-e9d3-4722-a404-0bc308d91a3d",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-189",
+    "title": "Canon concepts are recorded wrongly repeatedly",
+    "statement": "Canon concepts such as zodiac, elements and trigrams are recorded in error and described competing ways again and again, because canon has no single affirmed home and the maps are not aligned.",
+    "kind": "condition",
+    "source_ref": [
+      "Dream 2026-11-22: recurs in vignettes on 2026-10-23, 2026-10-28"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:58.269851903+00:00",
+  "updatedAt": "2026-11-22T13:08:58.269854043+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "259afc68-66e7-4e08-b493-68c1a75e2c9a",
+  "relationType": "evidences",
+  "sourceInstanceId": "2f33caa2-dd32-4455-8eb0-b25c704211c3",
+  "targetInstanceId": "c4425452-c131-44ba-ae8a-e7d20ddc8559",
+  "createdAt": "2026-11-22T13:06:57.453141215+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"how we present decisions\""
+}

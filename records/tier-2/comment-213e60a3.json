@@ -1,0 +1,22 @@
+{
+  "instanceId": "213e60a3-6168-483b-b002-1d5e4dc9e8a1",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** Layers are never merged: srs-web holds only reusable generic code for public packages, with no implementation-specific code (5aab4a38). Code lives at the correct architecture layer and is not duplicated (5a6cda0f). Agents manage the implementation level while humans and agents work together on principles. A generic site editor is extended by the smallest possible extension layer (07f50160).\n\n**Proposed.** The change is made once, in the layer that owns it. Generic code stays generic, implementation-specific code is kept apart in the smallest extension layer, and layers are not merged. It happens in a clean workspace against the right build and is not lost. Worktrees, the pinned CLI, capability layering with a layer test, implementation rules (ADR-048), breaking-change choreography. Judging and landing the change (Review and land).\n\n**Depth.** Three vignettes, 2026-10-24 to 2026-11-12, on two threads (layer ownership, generic editor). The layer concern recurs and is already in the domain's wording, so this adds a layer test and the extension-layer idea.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:33.221236772+00:00",
+  "updatedAt": "2026-11-22T13:08:33.221240804+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

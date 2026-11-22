@@ -1,0 +1,22 @@
+{
+  "instanceId": "a9a913a9-3554-424c-9f14-bb6b5cb0db7a",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** Two needs the statement only implies: seeing how written text becomes the different elements (\"I need to be able to see how my text gets turned into different elements\"), and exploring the linked elements (\"I need to be able to see the linked elements a little better and explore them\"). One vignette says the links to problems, claims and remedies are the real work for the coming week, and another that the essay package can expand a little.\n\n**Proposed.** As I write an essay I cannot see how my text becomes domain, problem, claim and remedy elements, nor see and explore the elements it links to, so the links that are the real work stay invisible.\n\n**Depth.** Five vignettes (two retellings, three touches) in one dream; dates not checked in the batch files. Concern is consistent: visibility and exploration of linked elements.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:27.250993394+00:00",
+  "updatedAt": "2026-11-22T13:08:27.250997331+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

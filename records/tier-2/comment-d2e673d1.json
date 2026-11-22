@@ -1,0 +1,22 @@
+{
+  "instanceId": "d2e673d1-2cc3-4cbd-b729-d3ee39ac66e1",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 8 vignettes from 5 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-27 · touches · \"But affirmation will just kill lots of this work.\" (Navigability is semantic integrity; memory is layered and temporal; the dream cycle builds long-term memory by testing against scenarios (2026-10-27))\n- 2026-10-28 · touches · \"the real goal is to use the method editor and build the set of reusable components\" (Prototype the affirmation editor in srs-lab? The goal is the method editor and reusable components (2026-10-28))\n- 2026-10-30 · touches · \"affirming things I can't review\" (Vignette 2026-10-30: sovereignty is doing what I am good at)\n- 2026-10-30 · touches · \"Affirmation breaks the better version of the cycle.\" (Vignette 2026-10-30: AI should keep evolving clusters)\n- 2026-11-04 · retells · \"We may not want the whole affirmation requirement, but a tick and bin on derived data would be valuable.\" (Build up structured background from vignettes; a tick and bin instead of affirmation (2026-11-04))\n- 2026-11-06 · retells · \"Affirming everything just becomes a chore... and then I just click \"recommended\".\" (Affirmations and vignettes are anchors; AI brings the coherence in between, and affirmation is rarer than we expect (2026-11-06))\n- 2026-11-06 · touches · \"This process is important, but killing me ;-)\" (This process is important, but killing me (2026-11-06))\n- 2026-11-06 · touches · \"At the moment I still cannot properly work out how to manage affirmations.\" (Once the words are written they are hard for me to change, in this work too: I need to see my words next to what AI did, and I still can't manage affirmations (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:52.581708624+00:00",
+  "updatedAt": "2026-11-22T13:07:52.581711339+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

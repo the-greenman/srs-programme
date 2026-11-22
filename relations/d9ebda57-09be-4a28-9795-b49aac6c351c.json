@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "d9ebda57-09be-4a28-9795-b49aac6c351c",
+  "relationType": "evidences",
+  "sourceInstanceId": "2662cd54-e517-4071-8a1a-2d3e4c801c36",
+  "targetInstanceId": "f695c860-de15-4bd3-94e9-c79f67f7a4ea",
+  "createdAt": "2026-11-22T13:07:22.366768853+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"The rules only stated \"explain the concepts\" so that we explained the tech capability\""
+}

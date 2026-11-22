@@ -1,0 +1,28 @@
+{
+  "instanceId": "f73c9eff-b35b-4623-98c6-784c193c07b9",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-179",
+    "title": "Sensed and declared boundaries are conflated",
+    "statement": "Domains sensed from repeated boundary hits, by AI or by me, are treated like declared ones, so I cannot tell where a boundary came from or how to handle it (hold and understand first versus clarify afterwards).",
+    "kind": "condition",
+    "source_ref": [
+      "Dream 2026-11-22: recurs in vignettes on 2026-10-28, 2026-11-07"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:49.303547471+00:00",
+  "updatedAt": "2026-11-22T13:08:49.303551175+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

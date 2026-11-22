@@ -1,0 +1,22 @@
+{
+  "instanceId": "aac4dadf-5df9-4c11-8c4c-e42490ae0572",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 2 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-25 · retells · \"it should be natural to be able to create a boundary that allows me to focus searches\" (Boundaries focus work on complex information; conversations via MCP; essays begin as a container (2026-10-25))\n- 2026-11-06 · retells · \"We need to be able to limit what is seen in a sensible way, and drill down.\" (A way of working is emerging: shared semantic infrastructure under domains and essays, comparing parents, siblings and children, cloning a domain, and zoomability (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:39.565407925+00:00",
+  "updatedAt": "2026-11-22T13:07:39.565413506+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

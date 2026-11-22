@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "8abd5c37-370a-45a5-b3b9-9aae6a693fb0",
+  "relationType": "evidences",
+  "sourceInstanceId": "8d4deae4-c25b-42ac-a3cd-1d210a2dead4",
+  "targetInstanceId": "d199abac-12b5-41c9-84cd-3ca1b9b485cb",
+  "createdAt": "2026-11-22T13:06:52.434994170+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"the setup for work seems to almost take longer than doing the work\""
+}

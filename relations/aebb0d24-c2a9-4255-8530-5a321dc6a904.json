@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "aebb0d24-c2a9-4255-8530-5a321dc6a904",
+  "relationType": "evidences",
+  "sourceInstanceId": "2ad7e527-cba4-46c5-8dab-77f21e07a4bd",
+  "targetInstanceId": "fa41fa00-7119-483c-979c-8862e699d8a1",
+  "createdAt": "2026-11-22T13:07:06.125611139+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"When AI takes over the work a human should do, that becomes the gradual, sweet usurpation of autonomy.\""
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "ebd7dded-5a6a-4e8a-b576-4b6647c1d96a",
+  "relationType": "evidences",
+  "sourceInstanceId": "7f6efc3a-fe9c-4204-bf03-dab9a4718778",
+  "targetInstanceId": "db050219-c9a6-4db5-a363-05669dbd7dc8",
+  "createdAt": "2026-11-22T13:06:32.509015751+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"I'm going round and round on update prs\""
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "7ead53d4-35c3-4151-9b77-5714794ec51e",
+  "relationType": "evidences",
+  "sourceInstanceId": "878ac6a1-89be-442d-b47e-3ec573f28fa4",
+  "targetInstanceId": "ad31f09f-3539-498f-b519-8bae91175676",
+  "createdAt": "2026-11-22T13:06:05.964559283+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"srs as a shared memory is that it is able to provide a decent map of semantic space\""
+}

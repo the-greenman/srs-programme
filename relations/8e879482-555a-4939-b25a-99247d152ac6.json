@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "8e879482-555a-4939-b25a-99247d152ac6",
+  "relationType": "evidences",
+  "sourceInstanceId": "2df79a12-578e-4812-9277-edf0cab45bd9",
+  "targetInstanceId": "8181bc74-727b-446e-8e7e-0a7812b26944",
+  "createdAt": "2026-11-22T13:07:16.948287832+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"Keeping the right level of intelligence at the right level we can make the local model model possible.\""
+}

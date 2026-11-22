@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "5ae0910f-1f93-4b9f-a5d0-99cd6e56a7d3",
+  "relationType": "evidences",
+  "sourceInstanceId": "5547800a-d8b6-4bb7-b0c0-114f35183c27",
+  "targetInstanceId": "32f9342c-bcee-4370-a16f-8fcfc92a517a",
+  "createdAt": "2026-11-22T13:06:12.171404306+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"The actual UI should be separate from the functionality which is not business logic.\""
+}

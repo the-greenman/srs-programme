@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "c55aeeaa-70bc-476d-9c00-df9110a342b9",
+  "relationType": "evidences",
+  "sourceInstanceId": "beb68b6e-4eaf-4cf8-a046-865fabc79b5a",
+  "targetInstanceId": "506203b7-7cf0-4bc9-a82e-27fe47fcec61",
+  "createdAt": "2026-11-22T13:06:22.624864369+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"Give me the order I should confirm. Where is there any doubt in the order?\""
+}

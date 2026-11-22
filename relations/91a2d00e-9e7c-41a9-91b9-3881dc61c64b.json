@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "91a2d00e-9e7c-41a9-91b9-3881dc61c64b",
+  "relationType": "evidences",
+  "sourceInstanceId": "cad03157-7944-4cec-8e25-444215bc4b7a",
+  "targetInstanceId": "4a085b1a-c4dd-49bc-a882-3584d5ed4073",
+  "createdAt": "2026-11-22T13:06:35.492037802+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"We should b careful of mixing synthetic logic lenses.\""
+}

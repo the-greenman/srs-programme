@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "a4a46a49-5dc3-4805-ab6d-d27e480d0202",
+  "relationType": "evidences",
+  "sourceInstanceId": "592e719a-d0ca-466c-9d54-9b6974b631b3",
+  "targetInstanceId": "65d7297c-19d9-4117-97db-0eeafcf730c9",
+  "createdAt": "2026-11-22T13:06:17.740679519+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"These generate an understanding of personas, problems , claims and remedies.\""
+}

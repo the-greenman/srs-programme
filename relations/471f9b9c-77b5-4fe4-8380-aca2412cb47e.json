@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "471f9b9c-77b5-4fe4-8380-aca2412cb47e",
+  "relationType": "evidences",
+  "sourceInstanceId": "15ff2b99-2c37-42f5-9d85-2442e550a46a",
+  "targetInstanceId": "2651f2ad-a0ca-45fe-88dd-8271f4c81084",
+  "createdAt": "2026-11-22T13:06:10.997111422+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"The point if this is human text without bloat\""
+}

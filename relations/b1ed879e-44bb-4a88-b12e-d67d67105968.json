@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "b1ed879e-44bb-4a88-b12e-d67d67105968",
+  "relationType": "evidences",
+  "sourceInstanceId": "913a3db6-c4e8-4d88-9699-1e22f2d1d54f",
+  "targetInstanceId": "9065ddf5-4ea8-4bce-931b-2c1985ad449a",
+  "createdAt": "2026-11-22T13:06:32.344121500+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"We are not really getting work flowing\""
+}

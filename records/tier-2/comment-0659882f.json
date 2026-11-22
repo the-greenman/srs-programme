@@ -1,0 +1,22 @@
+{
+  "instanceId": "0659882f-d018-42bd-902e-fe6bcb95a05f",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** e3069d0d restates the problem: 'decisions scattered all over the place. We need to know where they are recorded and how they got there... And not loose them in branches', and asks whether a decisions server is needed. a04e8ab7 adds the need for 'a place where we manage our decision checklist' reviewed often. 33580d8e adds a second cause of loss: 'We keep loosing decisions becuase of this', where a decision's status and lifecycle disagree (13 in draft invisible to session agendas, 38 ratified still reading proposed).\n\n**Proposed.** Our decisions live in many stores, in PR text and in branches, with no index between them, and some are lost outright because a decision's status and its lifecycle disagree so no agenda can see it. I cannot tell where a decision is recorded, how it got there, or trust that it was kept.\n\n**Depth.** Three new vignettes 2026-10-28 to 2026-11-10 on top of the existing statement; the concern recurs across three weeks. The checklist-home vignette (a04e8ab7) concerns decision quality and may belong to SP-63.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:36.229911725+00:00",
+  "updatedAt": "2026-11-22T13:08:36.229914814+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

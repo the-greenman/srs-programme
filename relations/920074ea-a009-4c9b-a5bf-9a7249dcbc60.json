@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "920074ea-a009-4c9b-a5bf-9a7249dcbc60",
+  "relationType": "evidences",
+  "sourceInstanceId": "8829d75d-5d3d-4a51-b672-b1d7ffd170c3",
+  "targetInstanceId": "789576ac-2177-4b8c-b592-055db5032384",
+  "createdAt": "2026-11-22T13:07:10.684289392+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"may clone the domain, and then only break some parts off. Lots may be shared. But not all.\""
+}

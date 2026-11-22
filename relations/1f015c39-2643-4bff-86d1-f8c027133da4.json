@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "1f015c39-2643-4bff-86d1-f8c027133da4",
+  "relationType": "evidences",
+  "sourceInstanceId": "8829d75d-5d3d-4a51-b672-b1d7ffd170c3",
+  "targetInstanceId": "500e2cdd-eb2d-4435-9f71-e3e7bb304226",
+  "createdAt": "2026-11-22T13:07:11.029206318+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"what may still be missing is the way to compare parents, siblings and children.\""
+}

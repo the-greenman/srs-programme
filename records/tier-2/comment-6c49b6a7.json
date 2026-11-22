@@ -1,0 +1,22 @@
+{
+  "instanceId": "6c49b6a7-fae4-46af-aa0c-37601f3db5f2",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 14 vignettes from 6 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-24 · retells · \"I need to be able to affirm or deny a structured record created from my text right next to where I write.\" (A tick or a deny, right where I write (2026-10-24))\n- 2026-10-24 · retells · \"the distance means that I just approve a connection without beign able to see it in context\" (Seeing my words become elements (2026-10-24))\n- 2026-10-25 · retells · \"Affirmation in a chat session is abstract because I cannot see the structure clearly enough to actually affirm\" (Affirmation is its own layer; in chat it is a fake decision (2026-10-25))\n- 2026-10-25 · retells · \"the time I get to affirmation, context has often been lost, affirmation gets hard and often confused\" (Affirmation comes after the context is lost (2026-10-25))\n- 2026-10-30 · retells · \"not being a click monkey affirming things I can't review\" (Vignette 2026-10-30: sovereignty is doing what I am good at)\n- 2026-10-30 · touches · \"moving towards a confidence level rather than pure affirmation\" (Vignette 2026-10-30: confidence built from relationships, not pure affirmation)\n- 2026-10-30 · touches · \"Sometimes affirmation is very tricky.\" (Vignette 2026-10-30: affirmation is a strange overhead)\n- 2026-11-06 · retells · \"I can only affirm in context. When I see a statement, I need to see whats next to it. And what contains it.\" (A summary layer I can clone and edit; vignettes strengthen or weaken assumptions; I can only affirm in context, and a domain is our current best guess (2026-11-06))\n- 2026-11-06 · retells · \"An affirmation cannot be made without context. And It only exists within that context.\" (A domain is a boundary: every statement and affirmation exists only relative to it, and zooming into fire finds all the elements again (2026-11-06))\n- 2026-11-06 · retells · \"At the moment I still cannot properly work out how to manage affirmations.\" (Once the words are written they are hard for me to change, in this work too: I need to see my words next to what AI did, and I still can't manage affirmations (2026-11-06))\n- 2026-11-06 · touches · \"Affirming everything just becomes a chore... and then I just click \"recommended\".\" (Affirmations and vignettes are anchors; AI brings the coherence in between, and affirmation is rarer than we expect (2026-11-06))\n- 2026-11-10 · retells · \"Tensions are almost impossible to affirm without lots of context.\" (Tensions are almost impossible to affirm without lots of context (2026-11-10))\n- 2026-11-10 · retells · \"supposed to be able to show requried affirmations next to the conversations that they came from\" (The method editor should show required affirmations next to the conversations they came from, but the structure is missing (2026-11-10))\n- 2026-11-12 · retells · \"i need to see what is linked to what and be able to see the link before I can reliably affirm\" (2026-11-12 — Affirming a reference needs seeing the link (Greenman))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:35.806501133+00:00",
+  "updatedAt": "2026-11-22T13:07:35.806506543+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

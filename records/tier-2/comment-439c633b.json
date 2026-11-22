@@ -1,0 +1,22 @@
+{
+  "instanceId": "439c633b-6241-4dda-bcd5-fc0bf608fd37",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 2 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-11-05 · touches · \"The raw conversation shows provenance. They sit at a level below the vignettes.\" (Raw conversation is provenance below the vignettes; we pull out fragments and export only the key bits (2026-11-05))\n- 2026-11-06 · touches · \"Much of he conversation took place in claude's own chat. We cannot control that context.\" (We cannot control claude.ai's chat context, so we should not pretend: tooling supports the user, it doesn't work around them (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:12.414679711+00:00",
+  "updatedAt": "2026-11-22T13:08:12.414683527+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

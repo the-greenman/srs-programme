@@ -1,0 +1,28 @@
+{
+  "instanceId": "a664b713-3267-414b-950a-0e3d1e7dce4e",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-177",
+    "title": "Memory has no keep-or-expire sense",
+    "statement": "Short-term notes never mature into long-term memory through cross-checks, and nothing knows what is valuable now versus later, so irrelevant data stays and the top levels grow heavy.",
+    "kind": "condition",
+    "source_ref": [
+      "Dream 2026-11-22: recurs in vignettes on 2026-10-27, 2026-10-30"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:47.360809095+00:00",
+  "updatedAt": "2026-11-22T13:08:47.360810594+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

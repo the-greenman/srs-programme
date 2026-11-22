@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "46af4a89-bc7e-403a-bc1e-e9aed1b3554e",
+  "relationType": "evidences",
+  "sourceInstanceId": "66de4c6d-75b8-4ae7-bf61-dae8aade6e38",
+  "targetInstanceId": "458cd23c-0961-4dc2-b246-f5c0515f7f56",
+  "createdAt": "2026-11-22T13:06:52.100624358+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"we are making the system accessible to new users\""
+}

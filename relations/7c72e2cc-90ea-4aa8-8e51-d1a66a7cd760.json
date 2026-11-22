@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "7c72e2cc-90ea-4aa8-8e51-d1a66a7cd760",
+  "relationType": "evidences",
+  "sourceInstanceId": "e3b5c75f-6a37-4b45-b6e9-50989552d061",
+  "targetInstanceId": "84032d1b-18ad-487c-bce5-a056388f0b10",
+  "createdAt": "2026-11-22T13:07:02.022677759+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"it is handy to just keep working on the in-memory version - if it still exists\""
+}

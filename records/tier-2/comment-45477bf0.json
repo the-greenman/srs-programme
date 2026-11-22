@@ -1,0 +1,22 @@
+{
+  "instanceId": "45477bf0-10a8-4d13-8df1-debe73adbedc",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 4 vignettes from 3 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-23 · retells · \"evaluate the issue queue for issues that are strong, and pull them forward\" (Pull strong work forward (2026-10-23))\n- 2026-10-25 · retells · \"How does work find it's way to a working group?\" (How does work find its way to a working group? (2026-10-25))\n- 2026-10-25 · touches · \"does it get routed to the right working groups?\" (A standard core process for preparing work (2026-10-25))\n- 2026-10-29 · touches · \"what holon are 639 and 640 part of? Is that in progress? Is that not us? What is our holon?\" (The holon driver is us: claim the holon's items as ourselves (2026-10-29))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:32.872055192+00:00",
+  "updatedAt": "2026-11-22T13:07:32.872059495+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

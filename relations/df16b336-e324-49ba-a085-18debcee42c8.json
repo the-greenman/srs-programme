@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "df16b336-e324-49ba-a085-18debcee42c8",
+  "relationType": "evidences",
+  "sourceInstanceId": "2c6cd8d1-75a9-41f1-9a0b-fb5ea4d19747",
+  "targetInstanceId": "48ec7608-9abc-4156-8114-3d61ef875807",
+  "createdAt": "2026-11-22T13:06:37.972261205+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"The editor is not something people are used to. It needs some key concepts and tools explained.\""
+}

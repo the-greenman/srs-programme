@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "1c1364c0-924e-4db5-b5f3-295d249be60e",
+  "relationType": "evidences",
+  "sourceInstanceId": "e0a334fe-290d-4724-96ef-57e81bcadf04",
+  "targetInstanceId": "b8f9c93d-24b8-46f9-9309-a7d994799134",
+  "createdAt": "2026-11-22T13:06:48.374060455+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"Our dream rules should be recorded there where relevant.\""
+}

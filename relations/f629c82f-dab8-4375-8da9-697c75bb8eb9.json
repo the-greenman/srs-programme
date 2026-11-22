@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "f629c82f-dab8-4375-8da9-697c75bb8eb9",
+  "relationType": "evidences",
+  "sourceInstanceId": "49633063-8ebc-4028-b210-676c19e96a38",
+  "targetInstanceId": "2651f2ad-a0ca-45fe-88dd-8271f4c81084",
+  "createdAt": "2026-11-22T13:07:07.797049760+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"talking about the domain of WG Agent-supported editor\""
+}

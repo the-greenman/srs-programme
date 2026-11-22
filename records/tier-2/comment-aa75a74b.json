@@ -1,0 +1,22 @@
+{
+  "instanceId": "aa75a74b-721b-4cb8-b1f6-ce58d1c2c51a",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 5 vignettes from 3 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-27 · touches · \"For many the generic editor is their first experience of srs.\" (The generic editor is many people's first experience of SRS, and muSrs must present a coherent view there: data first, tools after (2026-10-27))\n- 2026-10-30 · touches · \"the three column layout is not the right starting point\" (Vignette 2026-10-30: I cannot understand these repos in srs-web; the three columns may be the wrong start)\n- 2026-10-30 · touches · \"lets try the default to read view\" (Vignette 2026-10-30: default to the Read view, as an experiment in reading by default)\n- 2026-10-30 · touches · \"A repo should probably be able to specify a default way to be seen.\" (Vignette 2026-10-30: meaning must be available; a repository specifies how it is seen; packages define the editors and renderers)\n- 2026-11-03 · touches · \"If we have got a dedicated editor/lens for the current context, can we present it as a more obvious\" (A dedicated lens should offer itself where its context is (2026-11-03))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:49.213123431+00:00",
+  "updatedAt": "2026-11-22T13:07:49.213126526+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

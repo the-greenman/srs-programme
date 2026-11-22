@@ -1,0 +1,22 @@
+{
+  "instanceId": "b511be3b-8446-4c1f-9363-400238bbeb66",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** 4d5e30f2 confirms the existing statement ('Finding them can sometimes take a while') and marks it 'a QOL fix rather than a deep problem'. The two 2026-11-05 vignettes add a related thread: after a save and reload 'there is no suggested in-memory copy. Is the copy still in memory?', and 'it is handy to just keep working on the in-memory version - if it still exists, rather than loading from github again'.\n\n**Proposed.** I keep returning to the same few repositories, and the editor remembers neither which ones nor whether a working copy is still in memory, so I search again or reload from the source instead of carrying on.\n\n**Depth.** Three vignettes, 2026-10-29 and 2026-11-05. The in-memory strand is a developer-testing scenario said once and could be split off if it recurs.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:37.084913808+00:00",
+  "updatedAt": "2026-11-22T13:08:37.084918620+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

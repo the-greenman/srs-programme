@@ -1,0 +1,28 @@
+{
+  "instanceId": "02bfc3c5-b869-4748-a9d4-a20a9eb6c533",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-175",
+    "title": "Competing alternatives are not seen competing",
+    "statement": "Several remedies, models or framings for the same thing exist side by side, but nothing shows them as competing or compares them, so one agent's framing quietly becomes the answer.",
+    "kind": "condition",
+    "source_ref": [
+      "Dream 2026-11-22: recurs in vignettes on 2026-10-25, 2026-10-29, 2026-11-10"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:45.404498893+00:00",
+  "updatedAt": "2026-11-22T13:08:45.404500339+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

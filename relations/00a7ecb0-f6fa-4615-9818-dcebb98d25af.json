@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "00a7ecb0-f6fa-4615-9818-dcebb98d25af",
+  "relationType": "evidences",
+  "sourceInstanceId": "49633063-8ebc-4028-b210-676c19e96a38",
+  "targetInstanceId": "c8f4810a-009f-497f-9bd6-491507962734",
+  "createdAt": "2026-11-22T13:07:07.632534310+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"We build the tools that empower people, rather than taking away their power.\""
+}

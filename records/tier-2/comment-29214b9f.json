@@ -1,0 +1,22 @@
+{
+  "instanceId": "29214b9f-6c79-4e51-8280-edf17a99aecd",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 10 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-27 · retells · \"we need to make sure that we are able to present some kind of coherent view\" (The generic editor is many people's first experience of SRS, and muSrs must present a coherent view there: data first, tools after (2026-10-27))\n- 2026-10-27 · touches · \"musrs has no working structure so any change is an improvement\" (Settled navigation stays stable; it grows consistently and only significant redesigns come up for PR (2026-10-27))\n- 2026-10-27 · touches · \"We ned a useful tree that allows us to make sense of what is in the repository\" (Navigating the meaning stored in a repository is an essential job of SRS (2026-10-27))\n- 2026-10-30 · retells · \"I cannot understand them at all\" (Vignette 2026-10-30: I cannot understand these repos in srs-web; the three columns may be the wrong start)\n- 2026-10-30 · retells · \"Right now human readability has been lagging behind.\" (Vignette 2026-10-30: readability by humans and AI with intact semantics is the core offering)\n- 2026-10-30 · retells · \"A human using srs must be able to have a view that makes sense.\" (Vignette 2026-10-30: meaning must be available; a repository specifies how it is seen; packages define the editors and renderers)\n- 2026-10-30 · touches · \"see if it makes reading these repos easier by default\" (Vignette 2026-10-30: default to the Read view, as an experiment in reading by default)\n- 2026-10-30 · touches · \"find a top level introduction and then drill down into parts\" (Vignette 2026-10-30: research is a tree of documents that gets deeper)\n- 2026-10-30 · touches · \"We have recently spent time discussing how to structure a repo for humans.\" (Vignette 2026-10-30: ongoing research into SRS use, findable from context)\n- 2026-10-30 · touches · \"What different ways can we experiment with making repositories readable.\" (Vignette 2026-10-30: interactive experiments over mockups; prototype relation traversal in the interface before core and spec)",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:48.796482072+00:00",
+  "updatedAt": "2026-11-22T13:07:48.796484834+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

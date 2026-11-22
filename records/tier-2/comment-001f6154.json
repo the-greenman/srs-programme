@@ -1,0 +1,22 @@
+{
+  "instanceId": "001f6154-bc2c-4979-88b0-cbcbb53ae230",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** Allocation includes pulling strong issues forward (\"evaluate the issue queue for issues that are strong, and pull them forward\"), routing to working groups (\"does it get routed to the right working groups?\"; \"How does work find it's way to a working group?\"), and knowing which holon a piece of work belongs to (\"what holon are 639 and 640 part of? ... What is our holon?\").\n\n**Proposed.** Ready work reaches the right hands, human or agent, at the right time: strong issues are pulled forward, work is routed to the right working group, and each piece of work is known to belong to a holon, so nothing is claimed twice or dropped. Routing by domain to a group, the ready queue, claims, holds, working groups, routines and local sessions. How the work is built once claimed (Build).\n\n**Depth.** Four vignettes, two retellings; routing and holon membership recur, which is thin evidence for a definition change. Dates not checked.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:31.095087823+00:00",
+  "updatedAt": "2026-11-22T13:08:31.095092092+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

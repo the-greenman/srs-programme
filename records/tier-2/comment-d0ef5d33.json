@@ -1,0 +1,22 @@
+{
+  "instanceId": "d0ef5d33-6c66-43a0-9f90-3c0240193105",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: split.\n\n**What the vignettes add.** Owner 2026-11-06: \"The domain for the editor is not the domain for the application\" and \"domains can be nested and overlapping so that's not a problem. But lets not mix them.\" Editor audience is those holding onto their own words and working with AI; \"The essay editor is about deeper meaning. The website is surface meaning\" (73ae8761). Website editor is \"a sub-domain of the general editor\" whose statements must be backed by evidence (dce397d5, 2026-11-02), and agents may add references, notes and materials but not the main paragraph text. Also: growth of meaning from exploration to argument (essay begins as boundary, vignette-form notes are its seeds), collaboration where \"the essay editor preserves the human agency for owning the meaning\", and writing experience and sovereignty as current focus. The record currently reads as one evidence-writing domain; the vignettes separate the agent-supported editor (own words, human/AI collaboration, sovereignty, optionally evidence) from evidence-backed website/essay writing as sister or sub-domains. Many touches are UI feature wishes (hover previews, nested containers, embedded images) which belong to problems/remedies, not the domain.\n\n**Proposed.** Split in two. (1) Agent-supported editing: help a writer who wants to hold onto their own words work with AI as a peer, so that agents respond to the writing, add references, notes and challenges, and never draft the main text; the human owns the meaning, and it grows from general exploration to specific argument. (2) Evidence-backed writing, a sub-domain of the first: statements, in an essay (deeper meaning) or a website (surface meaning), that are backed by evidence and other content and stay consistent with the core materials.\n\n**Depth.** Deep: about 23 vignettes, concentrated 2026-10-30 to 2026-11-06 with the website/editor distinction on 2026-11-02 and 2026-11-06; the concern recurs across several sessions and the owner explicitly corrected a conflation of domains.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:18.780212596+00:00",
+  "updatedAt": "2026-11-22T13:08:18.780217085+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

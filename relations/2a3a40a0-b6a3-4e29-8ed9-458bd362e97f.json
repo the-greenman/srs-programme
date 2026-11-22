@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "2a3a40a0-b6a3-4e29-8ed9-458bd362e97f",
+  "relationType": "evidences",
+  "sourceInstanceId": "76df037b-ccf9-486f-943d-08b2bc5706c4",
+  "targetInstanceId": "61784feb-5c86-4175-bbd6-844f429f0c8e",
+  "createdAt": "2026-11-22T13:06:39.816910303+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"show how they weer accessible in the ui\""
+}
