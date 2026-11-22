@@ -1,0 +1,23 @@
+{
+  "instanceId": "4aeca751-1523-40e8-a59f-ad4fe02a849e",
+  "title": "Vignette 2026-11-22: SRS must work well for humans and agents; where do their needs differ and conflict",
+  "tags": [
+    "vignette",
+    "topic:srs-skill",
+    "topic:humans-and-agents",
+    "topic:greenmans-creation"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's identify potential patterns of working with srs that allows it to be used well.\n\nFind patterns that would improve our existing repos. Identity mistakes we have made that have undermined our implementations.\n\nWe need to have SRS work well for humans and agents. Where do these have different needs, when are their needs conflicting?\n\nHow would we teach an agent working via mcp to use a repo well?\n\nHow do we need to keep learning from our work and feeding this into skills?\n\nHave a look at greenmans_creation. It's an old attempt to build my work into a coherent cross-referenced system. (Also look at equilibrium_cards and the-system-networks sites)\n\n(We can now look at cross referenced repos... Do we start to use that capability?)"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-22; recorded verbatim (the meaning-bearing sentences of a longer request). Said while asking for a review of SRS capabilities and the implementations tried so far, a new version of the srs skill with rules for maintaining it, and an exploration of greenmans_creation as an SRS repository."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
