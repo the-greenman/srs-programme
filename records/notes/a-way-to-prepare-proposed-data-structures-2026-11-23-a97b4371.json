@@ -1,0 +1,22 @@
+{
+  "instanceId": "a97b4371-961b-4660-9fbb-a2c53babee7f",
+  "title": "A way to prepare proposed data structures (2026-11-23)",
+  "tags": [
+    "vignette",
+    "topic:orgbrain",
+    "topic:structure-proposals"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "We will need a way to prepare proposed datastructrues that I can them implement."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-23; recorded verbatim. 'We' is the owner and the others using the Organisation Brain bot."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
