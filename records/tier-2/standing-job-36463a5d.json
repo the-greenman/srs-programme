@@ -1,0 +1,20 @@
+{
+  "instanceId": "36463a5d-a8b4-4c82-9ed9-8d8a3dc15a2b",
+  "typeId": "58f0ee7b-8063-4fc7-9b39-af918962c91f",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "standing-job",
+  "fieldValues": {
+    "title": "Dream over the vignettes",
+    "description": "Weekly: read the vignettes no dream has read, link each to the domains, problems and personas it retells (evidences), comment the evidence and refinement suggestions on those records, and suggest new problems only for concerns that recur on two or more days. Runs as agent:programme-dream. Never edits or deletes a vignette or record, never writes into Affirmed or Set aside, never affirms; a refinement is applied only by succession after the owner agrees.",
+    "done_when": "Every new vignette has been read, one programme PR carries the links, comments, suggested problems and a run report with depth before and after, and the digest issue lists the refinements waiting for the owner's Affirmation review; or a one-line 'nothing new' report when no vignette is new.",
+    "trigger": "weekly, Monday 06:00 UTC",
+    "size": "All vignettes since the last dream, in batches of 25",
+    "routine_id": "trig_01RkwSzLLoxVoVJs6xRqPX4k",
+    "brief_path": "routines/programme-dream.md"
+  },
+  "lifecycleState": "draft",
+  "createdAt": "2026-11-23T07:48:30.286183033+00:00",
+  "updatedAt": "2026-11-23T07:48:49.055582100+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
