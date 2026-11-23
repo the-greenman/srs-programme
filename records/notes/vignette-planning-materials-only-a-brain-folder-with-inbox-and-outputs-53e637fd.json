@@ -1,0 +1,14 @@
+{
+  "instanceId": "53e637fd-0b0f-44bc-8095-de00b485faea",
+  "title": "Vignette: planning materials only; a brain folder with inbox and outputs",
+  "tags": [
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "content": "we will just be setting up the planning. The training materials and structure, not the actual operations. \nWe can use google drive or dropbox. (we already have a dropbox folder for The-Organization. We can create a brain folder there with inbox and outputs)"
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
