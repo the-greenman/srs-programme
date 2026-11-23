@@ -1,0 +1,22 @@
+{
+  "instanceId": "27f904f1-9e8b-429a-8c26-c50b2e38f7d0",
+  "title": "Conversation 2026-11-23: Orgbrain as the core shared tool",
+  "tags": [
+    "conversation",
+    "topic:orgbrain",
+    "topic:structure-proposals"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner on giving the Organisation Brain Telegram bot write access to the SRS repositories, who uses it, and how data structures are proposed from it. This note is the conversation's identity record; the vignettes are the owner's words."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-23."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
