@@ -1,0 +1,23 @@
+{
+  "instanceId": "5e2d57b9-16d7-474b-bb0d-6832132c7180",
+  "title": "Vignette 2026-11-23: SemanticOps research is the AI side; muDemocracy research is human decisions",
+  "tags": [
+    "vignette",
+    "topic:semanticops-research",
+    "topic:repositories",
+    "topic:mudemocracy"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-11-23: \"This is not the website, it's general research and argument into the domain of Semantic Operations - The practice of working with AI and meaning.\"\n\n\"Mudemocracy research is the domain of human decisions, this is where the AI side lies.\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-23; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
