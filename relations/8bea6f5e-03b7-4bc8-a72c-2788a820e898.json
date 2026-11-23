@@ -1,8 +1,0 @@
-{
-  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
-  "relationId": "8bea6f5e-03b7-4bc8-a72c-2788a820e898",
-  "relationType": "com.mudemocracy.stewardship/authorised-by",
-  "sourceInstanceId": "36463a5d-a8b4-4c82-9ed9-8d8a3dc15a2b",
-  "targetInstanceId": "599b24c6-1418-48f4-9314-710834877bfc",
-  "createdAt": "2026-11-23T07:48:39.453032093+00:00"
-}
