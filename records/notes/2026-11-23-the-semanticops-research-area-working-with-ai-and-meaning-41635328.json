@@ -1,0 +1,22 @@
+{
+  "instanceId": "41635328-92bb-41ac-baee-53ab160b2932",
+  "title": "2026-11-23 · The SemanticOps research area: working with AI and meaning",
+  "tags": [
+    "conversation",
+    "topic:semanticops-research",
+    "topic:repositories"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Topics: SemanticOps research, where meaning lives, cross-repository references. The owner opened a research area for Semantic Operations, distinct from the website and from muDemocracy research, starting from a research report saved as markdown (Deciding Well With AI)."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-23."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
