@@ -1,0 +1,20 @@
+{
+  "instanceId": "cc80d922-ce33-4651-865e-b8acce04d328",
+  "title": "An agent's image is a source in the essay's references, as sources already work",
+  "tags": [
+    "vignette",
+    "holon:essay-images"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "label": "Owner, 2026-11-24",
+      "content": "A - This should work just like it already does."
+    },
+    {
+      "name": "context",
+      "content": "Answer to the open question of semanticops.com#71 / srs-web#826: where does an image an agent adds live, so it is linked to the essay without being placed? Option A, as put to the owner: a source record in the essay's references container, with the image attached; agents already write there, so the guard does not change. The other options were: linked to the essay record (B), an unplaced image paragraph (C), the file alone (D). Refines vignette 1392d20e."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,23 @@
+{
+  "instanceId": "3329d9fe-b049-4778-b592-a1e9647e7560",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "muDemocracy.org main CI red since 2026-11-19: relay writes carry no actor, and red saves merge unchecked",
+    "summary": "25 Tier-2 records written through the MuSRS relay on 2026-11-19 (17) and 2026-11-23 (8) have no createdBy, because srs-relay.service set no SRS_ACTOR, and coherence rule 12 fails on them. Every save merged red: clerk save runs only srs repo validate, and main is unprotected. Every later PR inherited the failure. createdBy cannot be set after creation (RFC-046) and AGENTS.md forbade authored-by, so there was no permitted repair.",
+    "evidence": [
+      "muDemocracy.org CI runs 44479330834 (first red, 2 ERROR lines) to 45369760446 (2026-11-24, 25 errors)",
+      "muDemocracy.org#515, PR #516 (the repair), PR #514 (red for this reason)",
+      "Same cause of unchecked saves in the editor: srs-web#793"
+    ]
+  },
+  "tags": [
+    "flow-stop",
+    "boundary:relay-writes"
+  ],
+  "createdAt": "2026-11-24T10:29:58.216198933+00:00",
+  "updatedAt": "2026-11-24T10:29:58.216200541+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
