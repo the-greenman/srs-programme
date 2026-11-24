@@ -1,0 +1,18 @@
+{
+  "instanceId": "83f378b2-836d-4b3c-9c62-ea5c8fe2e9a1",
+  "title": "Vignette: who training is for, evolving boundaries and personas, a repo discoverable by agents of any size",
+  "tags": [
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "content": "1. Use these. We will keep evolving the boundaries as we go. \n2. Yes. The basics are not limited to clerks... But these are the subset of the group that would be willing to take on the clerking role if they feel confident. \n3. Yes. We need to make sure the repo is effectively organised using our evolving good practice to make it discoverable by agents of any size \n4. Same as 2\n5. Yes. We will keep evolving the personas"
+    },
+    {
+      "name": "context",
+      "content": "Answers to questions from the AI about the training structure proposal in muSrs: 1. Are the four boundary domains the domains meant? (with one main domain per session, modules free to differ, recommended) 2. Are these sessions for individuals going deeper, such as clerks? (bearing on decision d93eef8b) 3. Can Training and Personas be added to the locked root? 4. Who is Say What You Mean for: committee members, or mainly clerks? 5. What happens to the three provisional homepage audiences? (recommended: add 'people affected by decisions made elsewhere' as a persona and check the other two against existing ones)"
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
