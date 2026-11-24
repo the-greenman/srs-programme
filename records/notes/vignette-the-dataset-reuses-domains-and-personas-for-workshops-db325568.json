@@ -1,0 +1,14 @@
+{
+  "instanceId": "db325568-bca8-4a26-b0d4-9ce33a5a0c4f",
+  "title": "Vignette: the dataset reuses domains and personas for workshops",
+  "tags": [
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "content": "Our dataset will also be reusing the domains and personas for workshops"
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
