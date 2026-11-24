@@ -1,0 +1,20 @@
+{
+  "instanceId": "7358e231-7078-4232-9890-ca8a685532c6",
+  "title": "Images are attachments, so they are used the way attachments are used",
+  "tags": [
+    "vignette",
+    "holon:essay-images"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "label": "Owner, 2026-11-24",
+      "content": "Lets use \"one way\" as much as possible. If images are attachments, then we should use them like we use attachments"
+    },
+    {
+      "name": "context",
+      "content": "Said when asking how source records in an essay's references container are currently linked, for an agent's image (semanticops.com#71 / srs-web#826). Follows vignette cc80d922."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
