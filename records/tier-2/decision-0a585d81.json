@@ -1,0 +1,31 @@
+{
+  "instanceId": "0a585d81-02e2-450d-8b24-174f751fcd8d",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "An epic is finite: it closes to new work and a successor takes over, and reports live apart from it",
+    "decision_question": "What happens when a working group's epic fills, and should one issue be a group's epic, its home and its report log?",
+    "context": "GitHub allows 100 sub-issues per parent and counts closed ones. On 2026-11-24 semanticops.com#31 held 100 (69 closed, 31 open) and semanticops.com#29 held 100 (58 closed). #31 also carries both groups' daily reports (106 comments). The flow keeper reports 14 issues that say Part of #31 and cannot be linked, among them the revision 12 chain (srs#1027, srs-rust#1638). Finding 92162b10 recorded the cap on 2026-11-09. Answers SP-165 (A working group's epic fills up, and new work can no longer join it).",
+    "friction": "New work cannot join the group that owns it, so it stays unranked; and an epic that is also a standing group never finishes, so it only grows.",
+    "alternatives_considered": "(a) Finite epics with successors (recommended): leads to each epic having an end, history kept where it happened, and one migration of open children for each full epic.\n(b) Unlink closed children when an epic fills: leads to room at once with no new issue, but the epic loses its record and progress count, and the cap returns.\n(c) Intermediate stories under the same epic: leads to the same epic lasting far longer, at the cost of one more level and of re-parenting, and it still never finishes.\n(d) Do nothing: leads to every new issue for both groups staying outside the roadmap.",
+    "key_requirements": "New work can join its group; closed work stays traceable; the roadmap still ranks the successor. Parked issues stay behind until they are re-grounded one at a time, by the ruled handbook text 'How an issue reaches a group'; they are not moved in bulk. The charters, briefs and the clerk name #31 in several places and must change together.",
+    "decision_statement": "An epic holds a finite piece of work: when it is full or its goal is met it takes no new work, a successor epic takes the open and unparked work and the same objective, and a working group's reports go to an issue of their own.",
+    "rationale": "An epic that ends can be finished and measured, and keeping closed children where they were done preserves the record. Separating the report log removes the reason the epic had to stay open.",
+    "revisit_when": "A successor fills within one period, or an issue is found under neither the old epic nor its successor.",
+    "next_steps": "If ratified: open successors for #31 and #29, move open unparked children, link the waiting issues, open a report issue per group, and change the charters, routine briefs and clerk references together.",
+    "owner": "Programme owner",
+    "status": "proposed",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "tags": [
+    "suggestion",
+    "topic:flow",
+    "boundary:epic-scope"
+  ],
+  "createdAt": "2026-11-24T11:03:10.232207170+00:00",
+  "updatedAt": "2026-11-24T11:03:10.232212579+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
