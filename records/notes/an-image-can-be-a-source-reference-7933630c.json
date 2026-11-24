@@ -1,0 +1,20 @@
+{
+  "instanceId": "7933630c-d9d1-4e93-b628-9d495e285f55",
+  "title": "An image can be a source reference",
+  "tags": [
+    "vignette",
+    "holon:essay-images"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "label": "Owner, 2026-11-24",
+      "content": "An image can be a source reference."
+    },
+    {
+      "name": "context",
+      "content": "Answer to: should an image the writer uploads also become a source in references? The question recommended yes, always. Read by the agent as 'allowed, not automatic'; the owner has not confirmed that reading. Follows vignettes cc80d922 and 7358e231 (semanticops.com#71)."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
