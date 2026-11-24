@@ -1,0 +1,20 @@
+{
+  "instanceId": "1392d20e-36c7-4662-82a2-f14c09aa5102",
+  "title": "An agent may add and link image attachments to an essay, but never place them in it",
+  "tags": [
+    "vignette",
+    "holon:essay-images"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "label": "Owner, 2026-11-24",
+      "content": "An agent should be able to add image attachments and link them to an essay, but it can't place them in the essay itself."
+    },
+    {
+      "name": "context",
+      "content": "Said after learning that the essay write guard (srs-web essay-document.ts essayWriteGuard) keeps agents out of the essay body, and that an agent has no path to put an image near an essay at all. Bears on decision 82fbca88 / muDemocracy.org#226 (agents never write essay text) and D5 72bcd83e (alt text is the writer's)."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
