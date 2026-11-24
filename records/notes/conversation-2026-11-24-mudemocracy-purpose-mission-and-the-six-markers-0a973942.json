@@ -1,0 +1,22 @@
+{
+  "instanceId": "0a973942-9f6d-459c-8c62-50433c06768b",
+  "title": "Conversation 2026-11-24: muDemocracy purpose, mission and the six markers",
+  "tags": [
+    "conversation",
+    "topic:mudemocracy",
+    "topic:purpose"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner adopting the muDemocracy mission and amended purpose, and asking whether the public wording reflects the theory of change. This note is the conversation's identity record; the vignettes are the owner's words."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-24."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
