@@ -1,0 +1,23 @@
+{
+  "instanceId": "9b769c15-2dcc-490d-9815-ce8f285f36e7",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle 2026-11-24",
+    "run_date": "2026-11-24",
+    "chose": "<!-- wg-report cycle=2026-11-24 group=wg:agent-editor -->\nWG Agent-supported editor: cycle 2026-11-23 11:30 to 2026-11-24 11:30 UTC\nPause: running.\n\n1. Decisions for you: none new. A correction to the last report: the srs-web#634 ruling (decision 42fcc319, \"Take E: an essay is a nested container set\") has been ratified since 2026-11-13, not proposed. srs-web#634 still carries `needs-input` and `ready` together, so the issue label is stale: say if the Builder may take it, or clear the label. Still needs-input: srs-web#709 (a P1 bug, no owner reply since 2026-11-04), #626, #567. Housekeeping, still open: record c4acef1a-4cbe-4715-a3fa-577eb30ed0ba is an older `draft` on the #634 question and shows on no agenda; say if it should be set aside.\n2. Decided within mandate: none; no group session held, and no group decision is waiting for assent. Owner rulings this cycle: none new in the log (your 11:27 session received the group's reports and ratified other decisions).\n3. Done: 2 group PRs merged, both srs-web, both by you: #822 (essay visual editing: keep split, indent, arrow navigation, caret; `gate:owner-merge`, merged 2026-11-23 22:46; quorum line: builder human:the-greenman / reviewer agent:editor-reviewer / mandate 384a704a, rulings cb1b56ec, c7d81c5d, bf0229dd, eb9b4530; verdict approve, findings none) and #823 (essay visual editing: a formatting toolbar, merged 2026-11-24 11:19). No tasks closed beyond these.\n4. Stuck or lost: srs-web#823 merged with no quorum comment on it (no builder, reviewer or mandate line), so it is outside the quorum record; it carries no `gate:owner-merge` label either. Open group PR srs#1032 (RFC-055): `gate:owner-merge`, waits on your merge. Needs-input: srs-web#709, #626, #634 (stale, see 1), #567. Blocked: srs-web#426, #771, #824, #825, #826, srs#1031, semanticops.com#14. No red gates reported; no claim released.\n5. Budget: 0 of 10 delegated merges (both merges were the owner's, not delegated); 0 open counted by group-state (srs#1032 is owner-merge); room 10. Pause: running.\n5b. Awaiting ratification: none.\n6. Next: ready + wg:agent-editor and not needs-input or blocked: srs-web#601 (an umbrella) and semanticops.com#57; srs-rust, srs, srs-vscode: none. srs-rust#1490 and #1413 are P0 but still not labelled ready. Group PRs in flight: srs#1032. Budget left: 10. **Queue running dry: 2 ready, budget 10. Needs feeding.** Sources: mark srs-rust#1490 and #1413 ready; or the P2 unready issues (srs-web#786 to #788, #717, #718, #768; srs-rust#1660, #1527); srs-web#752 (on by default) is in progress after #823. Waits on you: the #634 label, the #709 answer, the srs#1032 merge. Local priorities: none set. Fed by the analyst: not needed this cycle.\n6b. Exercises: none open.\n7. What we learned: the owner and the Builder role are the same person on the visual-editing line, so two PRs landed with the owner as builder and the reviewer's quorum line on one of them only: a merge by the owner needs no quorum, but the log then has a gap. I1 not written: this run started at 11:37, after the 11:30 close, and `clerk measure` counts the window opened at 11:30 today, so its figure would mislead; the useful/noisy/misleading line is yours to give in a session. I2 to I4: pending.",
+    "rationale": "No new escalation raised: the srs-web#634 question is already ruled (42fcc319, ratified 2026-11-13); nothing else is outside the mandate.",
+    "figures": "merged 2 group PRs (0 delegated of 10, both owner merges); open 1 (srs#1032, owner-merge); ready 2; needs-input 4; blocked 7",
+    "landed_as": "pending"
+  },
+  "createdAt": "2026-11-24T11:39:35.649290756+00:00",
+  "updatedAt": "2026-11-24T11:39:35.649295190+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
