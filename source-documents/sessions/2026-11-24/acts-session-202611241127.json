@@ -1,0 +1,266 @@
+{
+  "session": "9b62e42c-fc6e-41b7-8b7a-d67bae1cf34c",
+  "acts": [
+    {
+      "at": "2026-11-24T11:27:16.001Z",
+      "section": "Reports",
+      "position": 1,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "af047576-f63f-401e-8b20-76865e98ae10",
+      "title": "WG Agent-supported editor report 2026-11-11"
+    },
+    {
+      "at": "2026-11-24T11:27:16.453Z",
+      "section": "Reports",
+      "position": 2,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "cb3e5843-bbcf-497e-b4fa-470d9da03a39",
+      "title": "WG Agent-supported editor report 2026-11-12"
+    },
+    {
+      "at": "2026-11-24T11:27:16.783Z",
+      "section": "Reports",
+      "position": 3,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "284046de-7cf5-48b6-927f-08439b01ddcc",
+      "title": "WG Agent-supported editor report 2026-11-14"
+    },
+    {
+      "at": "2026-11-24T11:27:16.990Z",
+      "section": "Reports",
+      "position": 4,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "d62d3655-92a3-4bb7-bbd1-6eb33cfb876c",
+      "title": "WG Agent-supported editor report 2026-11-15"
+    },
+    {
+      "at": "2026-11-24T11:27:17.275Z",
+      "section": "Reports",
+      "position": 5,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "8d4ece85-46eb-45ed-8b95-c18c4cbae0ca",
+      "title": "WG Agent-supported editor report 2026-11-16"
+    },
+    {
+      "at": "2026-11-24T11:27:17.659Z",
+      "section": "Reports",
+      "position": 6,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "ed909b14-0671-4c97-a326-a586b858de8d",
+      "title": "WG Agent-supported editor report 2026-11-17"
+    },
+    {
+      "at": "2026-11-24T11:27:17.986Z",
+      "section": "Reports",
+      "position": 7,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "d0b1b815-517a-4d07-a184-42cc5b004cc3",
+      "title": "WG Agent-supported editor report 2026-11-18"
+    },
+    {
+      "at": "2026-11-24T11:27:18.274Z",
+      "section": "Reports",
+      "position": 8,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "78188d4e-b2e0-4966-9bac-7b2fd85a8edd",
+      "title": "WG Agent-supported editor report 2026-11-19"
+    },
+    {
+      "at": "2026-11-24T11:27:18.538Z",
+      "section": "Reports",
+      "position": 9,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "8c8df88e-3d71-4d9e-8d6c-e5156ddbff2b",
+      "title": "WG Agent-supported editor report 2026-11-20"
+    },
+    {
+      "at": "2026-11-24T11:27:18.892Z",
+      "section": "Reports",
+      "position": 10,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "9fd0de55-cac4-4eb0-aff3-813307126d87",
+      "title": "WG Agent-supported editor report 2026-11-22"
+    },
+    {
+      "at": "2026-11-24T11:27:19.416Z",
+      "section": "Reports",
+      "position": 11,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "eba4f8b1-e1e2-4019-b865-12371408fa9d",
+      "title": "WG Third-party ready report 2026-11-14"
+    },
+    {
+      "at": "2026-11-24T11:27:20.463Z",
+      "section": "Reports",
+      "position": 12,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "aeddefac-d654-439c-bab3-a1166fb75fd3",
+      "title": "WG Third-party ready report 2026-11-15"
+    },
+    {
+      "at": "2026-11-24T11:27:20.942Z",
+      "section": "Reports",
+      "position": 13,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "f0796ee7-50a7-484c-87a9-f82cae5048ca",
+      "title": "WG Third-party ready report 2026-11-16"
+    },
+    {
+      "at": "2026-11-24T11:27:21.340Z",
+      "section": "Reports",
+      "position": 14,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "846188de-cb91-476f-a56f-280fa0854fce",
+      "title": "WG Third-party ready report 2026-11-17"
+    },
+    {
+      "at": "2026-11-24T11:27:21.771Z",
+      "section": "Reports",
+      "position": 15,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "36c76ab0-6077-43ea-94f4-78884cbb2049",
+      "title": "WG Third-party ready report 2026-11-18"
+    },
+    {
+      "at": "2026-11-24T11:27:22.124Z",
+      "section": "Reports",
+      "position": 16,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "113c2616-1b8e-48e2-b005-67bd25730128",
+      "title": "WG Third-party ready report 2026-11-19"
+    },
+    {
+      "at": "2026-11-24T11:27:22.474Z",
+      "section": "Reports",
+      "position": 17,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "74c7f31c-6b66-49d0-b6a1-4eea24a73051",
+      "title": "WG Third-party ready report 2026-11-20"
+    },
+    {
+      "at": "2026-11-24T11:27:22.826Z",
+      "section": "Reports",
+      "position": 18,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "560acb5c-5ac6-4a40-a98e-aa35872756cd",
+      "title": "WG Third-party ready report 2026-11-21"
+    },
+    {
+      "at": "2026-11-24T11:27:23.121Z",
+      "section": "Reports",
+      "position": 19,
+      "of": 19,
+      "seen": [],
+      "kind": "receive",
+      "id": "38438498-9429-4528-bfab-8f5116654810",
+      "title": "WG Third-party ready report 2026-11-22"
+    },
+    {
+      "at": "2026-11-24T11:27:40.893Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 2,
+      "seen": [],
+      "updatedAt": "2026-11-24T11:03:10.232212579+00:00",
+      "kind": "ratify",
+      "id": "0a585d81-02e2-450d-8b24-174f751fcd8d",
+      "title": "An epic is finite: it closes to new work and a successor takes over, and reports live apart from it"
+    },
+    {
+      "at": "2026-11-24T11:27:59.721Z",
+      "section": "Decisions since the last session",
+      "position": 2,
+      "of": 2,
+      "seen": [],
+      "updatedAt": "2026-11-24T11:03:10.619106197+00:00",
+      "kind": "ratify",
+      "id": "1f65883b-022a-408b-b471-a66109845c4f",
+      "title": "An unread report stops new work, not work in flight, and a thumbs-up receives it"
+    },
+    {
+      "at": "2026-11-24T11:29:14.050Z",
+      "section": "Decisions for this session",
+      "position": 1,
+      "of": 4,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-11-22T15:14:46.320191729+00:00",
+      "kind": "accept",
+      "id": "239a1705-7d31-46cc-b15a-30359a5daacf",
+      "title": "May the five spec-corpus source-document sidecars be corrected by hand (srs#1041)?"
+    },
+    {
+      "at": "2026-11-24T11:30:28.898Z",
+      "section": "Decisions for this session",
+      "position": 2,
+      "of": 4,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-11-15T00:13:44.880279697+00:00",
+      "kind": "accept",
+      "id": "6882f577-b0ff-4474-89ee-c64f9bcbfa19",
+      "title": "Structured findings for record validate and container validate (srs-rust#1339 remainder)"
+    },
+    {
+      "at": "2026-11-24T11:31:10.912Z",
+      "section": "Decisions for this session",
+      "position": 3,
+      "of": 4,
+      "seen": [],
+      "updatedAt": "2026-11-20T12:17:31.074701584+00:00",
+      "kind": "accept",
+      "id": "773ae4a6-6a9c-4950-88a6-8b92578d22ea",
+      "title": "Escalation: which DOS timestamp does a deterministic .srs archive carry, 0x0000 or 1980-01-01? (RFC-017 Change D item 2, I-105)"
+    },
+    {
+      "at": "2026-11-24T11:31:28.288Z",
+      "section": "Decisions for this session",
+      "position": 4,
+      "of": 4,
+      "seen": [],
+      "updatedAt": "2026-11-14T11:36:01.258993678+00:00",
+      "kind": "accept",
+      "id": "de6b88c5-4b10-4793-8cf7-d84d463ce4a0",
+      "title": "Escalation: may the group merge a Door 3 revision that only executes a ratified ruling?"
+    }
+  ],
+  "words": []
+}

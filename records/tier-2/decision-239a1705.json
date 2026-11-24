@@ -18,12 +18,12 @@
     "status": "proposed",
     "decision_kind": "design"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "tags": [
     "boundary:sidecar-metadata-editing"
   ],
   "createdAt": "2026-11-22T15:14:34.908569833+00:00",
-  "updatedAt": "2026-11-22T15:14:46.320191729+00:00",
+  "updatedAt": "2026-11-24T11:31:45.071637041+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",
