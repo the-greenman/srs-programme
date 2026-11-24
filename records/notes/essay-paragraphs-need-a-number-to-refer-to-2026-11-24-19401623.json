@@ -1,0 +1,27 @@
+{
+  "instanceId": "19401623-392f-48d2-90a2-bdffaf5f8f74",
+  "title": "Essay paragraphs need a number to refer to (2026-11-24)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:essay-editor",
+    "topic:paragraph-numbers"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "We need a consistent way to number paragraphs for reference. \nAgents reference a paragraph number, but I can't see the number anywhere.\n\nThe numbers can appear in the layer view, and aslo with the paragraph title. \n\nNumbers should be dynamic - rearranging paragraphs changes the numbers."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-24, asking for paragraph numbers in the srs-web essay editor; recorded verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

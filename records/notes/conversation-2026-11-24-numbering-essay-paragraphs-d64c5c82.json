@@ -1,0 +1,21 @@
+{
+  "instanceId": "d64c5c82-29a1-4c8c-a675-d5504b0545f7",
+  "title": "Conversation 2026-11-24: Numbering essay paragraphs",
+  "tags": [
+    "conversation",
+    "topic:essay-editor",
+    "topic:paragraph-numbers"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "Summary",
+      "content": "Paragraph numbers in the srs-web essay editor, so the writer and agents can refer to the same paragraph."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
