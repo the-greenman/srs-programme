@@ -18,12 +18,12 @@
     "status": "proposed",
     "decision_kind": "boundary"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "tags": [
     "boundary:door-3-delegation"
   ],
   "createdAt": "2026-11-14T11:35:28.560879528+00:00",
-  "updatedAt": "2026-11-14T11:36:01.258993678+00:00",
+  "updatedAt": "2026-11-24T11:31:46.355428319+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",

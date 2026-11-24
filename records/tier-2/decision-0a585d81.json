@@ -19,13 +19,13 @@
     "status": "proposed",
     "decision_kind": "policy"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "tags": [
     "suggestion",
     "topic:flow",
     "boundary:epic-scope"
   ],
   "createdAt": "2026-11-24T11:03:10.232207170+00:00",
-  "updatedAt": "2026-11-24T11:03:10.232212579+00:00",
+  "updatedAt": "2026-11-24T11:31:44.334372804+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

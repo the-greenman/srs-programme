@@ -18,12 +18,12 @@
     "owner": "human:the-greenman",
     "status": "proposed"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "tags": [
     "boundary:archive-format"
   ],
   "createdAt": "2026-11-20T12:17:11.451223038+00:00",
-  "updatedAt": "2026-11-20T12:17:31.074701584+00:00",
+  "updatedAt": "2026-11-24T11:31:45.930035888+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",

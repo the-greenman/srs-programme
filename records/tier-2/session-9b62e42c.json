@@ -1,0 +1,29 @@
+{
+  "instanceId": "9b62e42c-fc6e-41b7-8b7a-d67bae1cf34c",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-11-24 11:27 UTC: SemanticOps",
+    "held_at": "2026-11-24T11:27:01Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-11-24 11:27 UTC: SemanticOps\nAttendees: Owner\n- Received: WG Agent-supported editor report 2026-11-11\n- Received: WG Agent-supported editor report 2026-11-12\n- Received: WG Agent-supported editor report 2026-11-14\n- Received: WG Agent-supported editor report 2026-11-15\n- Received: WG Agent-supported editor report 2026-11-16\n- Received: WG Agent-supported editor report 2026-11-17\n- Received: WG Agent-supported editor report 2026-11-18\n- Received: WG Agent-supported editor report 2026-11-19\n- Received: WG Agent-supported editor report 2026-11-20\n- Received: WG Agent-supported editor report 2026-11-22\n- Received: WG Third-party ready report 2026-11-14\n- Received: WG Third-party ready report 2026-11-15\n- Received: WG Third-party ready report 2026-11-16\n- Received: WG Third-party ready report 2026-11-17\n- Received: WG Third-party ready report 2026-11-18\n- Received: WG Third-party ready report 2026-11-19\n- Received: WG Third-party ready report 2026-11-20\n- Received: WG Third-party ready report 2026-11-21\n- Received: WG Third-party ready report 2026-11-22\n- Ratified: An epic is finite: it closes to new work and a successor takes over, and reports live apart from it [0a585d81]\n- Ratified: An unread report stops new work, not work in flight, and a thumbs-up receives it [1f65883b]\n- Ratified (escalation accepted): May the five spec-corpus source-document sidecars be corrected by hand (srs#1041)? [239a1705]\n- Ratified (escalation accepted): Structured findings for record validate and container validate (srs-rust#1339 remainder) [6882f577]\n- Ratified (escalation accepted): Escalation: which DOS timestamp does a deterministic .srs archive carry, 0x0000 or 1980-01-01? (RFC-017 Change D item 2, I-105) [773ae4a6]\n- Ratified (escalation accepted): Escalation: may the group merge a Door 3 revision that only executes a ratified ruling? [de6b88c5]\nActs in the order taken (UTC):\n- 11:27:16Z receive: WG Agent-supported editor report 2026-11-11 [af047576] (Reports 1 of 19)\n- 11:27:16Z receive: WG Agent-supported editor report 2026-11-12 [cb3e5843] (Reports 2 of 19)\n- 11:27:16Z receive: WG Agent-supported editor report 2026-11-14 [284046de] (Reports 3 of 19)\n- 11:27:16Z receive: WG Agent-supported editor report 2026-11-15 [d62d3655] (Reports 4 of 19)\n- 11:27:17Z receive: WG Agent-supported editor report 2026-11-16 [8d4ece85] (Reports 5 of 19)\n- 11:27:17Z receive: WG Agent-supported editor report 2026-11-17 [ed909b14] (Reports 6 of 19)\n- 11:27:17Z receive: WG Agent-supported editor report 2026-11-18 [d0b1b815] (Reports 7 of 19)\n- 11:27:18Z receive: WG Agent-supported editor report 2026-11-19 [78188d4e] (Reports 8 of 19)\n- 11:27:18Z receive: WG Agent-supported editor report 2026-11-20 [8c8df88e] (Reports 9 of 19)\n- 11:27:18Z receive: WG Agent-supported editor report 2026-11-22 [9fd0de55] (Reports 10 of 19)\n- 11:27:19Z receive: WG Third-party ready report 2026-11-14 [eba4f8b1] (Reports 11 of 19)\n- 11:27:20Z receive: WG Third-party ready report 2026-11-15 [aeddefac] (Reports 12 of 19)\n- 11:27:20Z receive: WG Third-party ready report 2026-11-16 [f0796ee7] (Reports 13 of 19)\n- 11:27:21Z receive: WG Third-party ready report 2026-11-17 [846188de] (Reports 14 of 19)\n- 11:27:21Z receive: WG Third-party ready report 2026-11-18 [36c76ab0] (Reports 15 of 19)\n- 11:27:22Z receive: WG Third-party ready report 2026-11-19 [113c2616] (Reports 16 of 19)\n- 11:27:22Z receive: WG Third-party ready report 2026-11-20 [74c7f31c] (Reports 17 of 19)\n- 11:27:22Z receive: WG Third-party ready report 2026-11-21 [560acb5c] (Reports 18 of 19)\n- 11:27:23Z receive: WG Third-party ready report 2026-11-22 [38438498] (Reports 19 of 19)\n- 11:27:40Z ratify: An epic is finite: it closes to new work and a successor takes over, and reports live apart from it [0a585d81] (Decisions since the last session 1 of 2, record updated 2026-11-24T11:03:10.232212579+00:00)\n- 11:27:59Z ratify: An unread report stops new work, not work in flight, and a thumbs-up receives it [1f65883b] (Decisions since the last session 2 of 2, record updated 2026-11-24T11:03:10.619106197+00:00)\n- 11:29:14Z accept: May the five spec-corpus source-document sidecars be corrected by hand (srs#1041)? [239a1705] (Decisions for this session 1 of 4, saw full record, record updated 2026-11-22T15:14:46.320191729+00:00)\n- 11:30:28Z accept: Structured findings for record validate and container validate (srs-rust#1339 remainder) [6882f577] (Decisions for this session 2 of 4, saw full record, record updated 2026-11-15T00:13:44.880279697+00:00)\n- 11:31:10Z accept: Escalation: which DOS timestamp does a deterministic .srs archive carry, 0x0000 or 1980-01-01? (RFC-017 Change D item 2, I-105) [773ae4a6] (Decisions for this session 3 of 4, record updated 2026-11-20T12:17:31.074701584+00:00)\n- 11:31:28Z accept: Escalation: may the group merge a Door 3 revision that only executes a ratified ruling? [de6b88c5] (Decisions for this session 4 of 4, record updated 2026-11-14T11:36:01.258993678+00:00)"
+  },
+  "createdAt": "2026-11-24T11:31:40.196834463+00:00",
+  "updatedAt": "2026-11-24T11:31:40.196836468+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "a12fbe67-7682-4a6d-9ab4-98b50a0b5634",
+      "sourceRole": "attaches"
+    }
+  ]
+}
