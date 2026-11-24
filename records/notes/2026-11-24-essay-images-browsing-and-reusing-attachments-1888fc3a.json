@@ -1,0 +1,14 @@
+{
+  "instanceId": "1888fc3a-5899-4089-82f0-98bee2c2c9bc",
+  "title": "2026-11-24 · Essay images: browsing and reusing attachments",
+  "tags": [
+    "conversation"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "content": "Owner session of 2026-11-24, driving the essay editor holons (semanticops.com#62, #63). Topic: how essay images relate to SRS attachments, browsing attachments, reusing images, and what agents may do with image attachments."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
