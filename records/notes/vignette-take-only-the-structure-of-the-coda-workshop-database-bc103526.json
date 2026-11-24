@@ -1,0 +1,18 @@
+{
+  "instanceId": "bc103526-18a7-46f8-af30-b090b8869713",
+  "title": "Vignette: take only the structure of the Coda Workshop database",
+  "tags": [
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "content": "1. Yes\n2. Just the structure \n3. Leave them out"
+    },
+    {
+      "name": "context",
+      "content": "Answers to three questions from the AI about the training structure: 1. Is the Coda Workshop database (series, session, module, component) the one meant? 2. Should its content move into muSrs, or just its structure? 3. Are Element and Phase wanted for muDemocracy?"
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
