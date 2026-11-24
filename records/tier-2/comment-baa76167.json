@@ -1,0 +1,18 @@
+{
+  "instanceId": "baa76167-4233-442d-8642-04ce5e309ab8",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "We must enforce our own standards for our own work. Should we be enforcing standards for other people's work? We need a clear boundary for where our naming conventions apply"
+  },
+  "createdAt": "2026-11-13T22:11:40.596941655+00:00",
+  "updatedAt": "2026-11-13T22:11:40.596945057+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
