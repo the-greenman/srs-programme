@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "A short slug; never shown."
+  },
+  "createdAt": "2026-10-19T11:31:30Z",
+  "description": "Stable key of an action card within its call to action.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "acf279b1-a2f2-4362-9379-603382eca6d5",
+  "name": "card_key",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

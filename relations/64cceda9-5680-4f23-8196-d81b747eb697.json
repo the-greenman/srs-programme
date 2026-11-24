@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "64cceda9-5680-4f23-8196-d81b747eb697",
+  "relationType": "evidences",
+  "sourceInstanceId": "35c738dd-29a2-4b82-b6f6-daeca125b6c1",
+  "targetInstanceId": "2651f2ad-a0ca-45fe-88dd-8271f4c81084",
+  "createdAt": "2026-11-22T13:07:06.628223486+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"The domain for the editor is not the domain for the application.\""
+}

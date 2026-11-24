@@ -1,0 +1,28 @@
+{
+  "instanceId": "5e8379e2-40ba-40cf-90c4-bc0af1e07fba",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-176",
+    "title": "Dreamtime does not test challenged understanding",
+    "statement": "Comments that challenge shared understanding, and boundaries sensed by AI versus by me, are not watched and tested in dream time, so understanding is rewritten or trusted without testing.",
+    "kind": "condition",
+    "source_ref": [
+      "Dream 2026-11-22: recurs in vignettes on 2026-10-28, 2026-10-30, 2026-11-07"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:46.381027976+00:00",
+  "updatedAt": "2026-11-22T13:08:46.381029473+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

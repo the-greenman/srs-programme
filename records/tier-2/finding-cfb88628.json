@@ -1,0 +1,33 @@
+{
+  "instanceId": "cfb88628-660c-493e-9dba-36ef7281252b",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Depth of context per domain in the programme, 2026-11-22",
+    "summary": "Read as layers rather than one number (the owner's words over time, problems that recur, evidence, answers), the programme's domains separate clearly: Programme coordination is deep, Evidence-backed writing is well voiced but thinly evidenced, three domains are building, two are thin, and 12 of 19 have no problems at all. The measure is a floor: 44% of vignettes reach no record, and a concern the owner repeats is rarely linked back to the problem it already has.",
+    "evidence": [
+      "Path: vignette derived-from or evidences problem; problem held-by persona-in-domain; persona-in-domain in-domain domain. Suggestion and affirmed copies merged by title (39 domain records are 19 names). Read through the srs CLI, nothing stored.",
+      "Programme coordination: owner words on 10 days (2026-10-23 to 11-10), 38 vignettes, 60 problems of which 5 recur on two or more days, 73 evidence links, 77 answers.",
+      "Evidence-backed writing: 9 days, 25 vignettes, 44 problems, 1 recurring, but only 7 evidence links.",
+      "Semantic records: 6 days over the longest span (2026-10-28 to 11-21), 11 vignettes, 27 problems, 1 recurring. Agent memory: 4 days, 0 recurring. Group meaning ownership: 4 days, 1 recurring.",
+      "Thin: Group governance (2 days, 2 problems), Website copy (1 day, 3 problems). 12 of 19 domain names have no problems held in them.",
+      "Recurring problems include 'Affirming agents' structure one record at a time is harder than writing it myself', 'Half-done work is lost when attention moves' and 'The process is re-founded instead of evolved'.",
+      "163 of 372 vignettes have no record derived from them, and only 8 problems trace to vignettes on more than one day: repeated concerns are mostly not linked back to the problem they already have.",
+      "Example the same day: vignette b5aa66cc repeats 1110c523 (2026-10-30) almost word for word; they were linked only by hand."
+    ],
+    "body": "## Reading it as a profile\n\n| Domain | Owner's words | Recurring problems | Evidence | Answers | Reading |\n|---|---|---|---|---|---|\n| Programme coordination | 10 days, 38 vignettes | 5 | 73 | 77 | deep |\n| Evidence-backed writing | 9 days, 25 vignettes | 1 | 7 | 59 | well voiced, thinly evidenced |\n| Semantic records | 6 days, 11 vignettes | 1 | 10 | 14 | building |\n| Group meaning ownership | 4 days, 6 vignettes | 1 | 7 | 14 | building |\n| Agent memory | 4 days, 6 vignettes | 0 | 3 | 18 | building |\n| Group governance | 2 days, 3 vignettes | 0 | 0 | 4 | thin |\n| Website copy | 1 day, 3 vignettes | 0 | 0 | 2 | thin |\n| 12 others | none | none | none | none | unknown |\n\nNo single number orders this well. The layers say different things: how long and how often the owner has talked about a domain, whether the same problems keep coming back, whether anything outside the owner's words supports them, and whether anything answers them. A domain can be strong on one and empty on another, and that difference is the useful part.\n\n## What limits it\n\nThe graph records where a problem came from, not every time it came up again. When the owner repeats a concern, the new vignette usually starts a new suggestion or links to nothing. So recurrence, the signal the owner cares about most, is mostly missing from the data, and every depth here is a floor.\n\n## What would raise it\n\nLink each new vignette to the problems it retells, with evidences, instead of only suggesting new ones. That is option A of exercise ed577c14, and the dream cycle is the natural place for it. With those links in place, a problem's recurrence and a domain's depth read directly off the graph, computed on read, with no stored score and no spec change."
+  },
+  "tags": [
+    "research",
+    "status:open",
+    "topic:relation-weight",
+    "topic:affirmation",
+    "topic:domains",
+    "experiment"
+  ],
+  "createdAt": "2026-11-22T12:33:14.073507613+00:00",
+  "updatedAt": "2026-11-22T12:33:14.073509880+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

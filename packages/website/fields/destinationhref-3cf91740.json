@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Use a stable internal path or URL."
+  },
+  "createdAt": "2026-09-14T17:07:39.167901234+00:00",
+  "description": "Feature destination.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "3cf91740-38ba-40de-bb06-af3ce1124e69",
+  "name": "destination_href",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

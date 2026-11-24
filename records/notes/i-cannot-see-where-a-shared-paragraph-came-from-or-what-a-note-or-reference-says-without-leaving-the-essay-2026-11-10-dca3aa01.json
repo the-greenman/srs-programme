@@ -1,0 +1,22 @@
+{
+  "instanceId": "dca3aa01-e801-43de-96d5-189683f0805f",
+  "title": "I cannot see where a shared paragraph came from, or what a note or reference says, without leaving the essay (2026-11-10)",
+  "tags": [
+    "vignette",
+    "topic:essay-editor",
+    "topic:srs-web"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "label": "The owner's words",
+      "content": "I need to do some UI fixes for the essay editor.\n\n1. if domains don't exist in repo, there should not be a control to assign.\n2. We now have essays in the right column, it talks about shared pargraphs (in the wrong font - this needs a style guide check.) Listing a number of shared paragraphs like that is probably not useful.\n - If domains exist, we should group the top dropdown by domain.\n3. The \"shared paragraph\" marker in an essay does not explain itself or allow me to know what the master paragraph is. Clicking on it gives me a derived copy but I didn't know that would happen. I mainly just wanted to see where it came from. I need a clean way to navigate between essays with shared paraphraphs. I need to see what is the master paragraph. and a child should allow me to diverge safely.\n4. Notes are difficult to see. When I have loads of notes, clicking on a book icon might open down below, but nothing tells me it has. I also have to scroll down to see the content. I need to be able to see a preview on hover. When there are multiple links I need to differentiate so each needs it's own preview.\n5. Refereences are also not reviewable. I cannot see them easily in context without pinning and scrolling. I am asked to keep or deny but can't see what the content or connection is.\n\nI feel that I may need a multi-window view of an essay. Can We allow the right column to be replaced by a separate page that can be opened at the same time? I may also want to open a specific note or source in it's own tab/window."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Claude Code session, 2026-11-10, with four screenshots of the essay editor (essays list with shared-paragraph counts, the derived-from marker, the notes list)."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

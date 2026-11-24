@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Name one practical learning path or destination in plain language."
+  },
+  "createdAt": "2026-09-14T17:07:39.039988876+00:00",
+  "description": "Feature-card title.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "9e8c3227-4d7b-405e-b048-e88696352970",
+  "name": "feature_title",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

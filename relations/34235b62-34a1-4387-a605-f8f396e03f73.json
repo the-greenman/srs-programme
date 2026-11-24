@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "34235b62-34a1-4387-a605-f8f396e03f73",
+  "relationType": "evidences",
+  "sourceInstanceId": "b38dcfa4-f415-4d4b-9283-6bc2d933e60b",
+  "targetInstanceId": "2bb26aef-0f2c-48e1-8bf9-94bb16f3d3cb",
+  "createdAt": "2026-11-22T13:06:56.452444539+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"Each essay would be available at an srs url\""
+}

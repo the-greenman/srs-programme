@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "721f5ea1-83d9-4236-9e42-a186ef92a662",
+  "relationType": "evidences",
+  "sourceInstanceId": "44e6cf15-cf54-45b4-8522-8618d009eb88",
+  "targetInstanceId": "27a33d91-a3d2-4b84-a98a-dc929b071a6b",
+  "createdAt": "2026-11-22T13:06:58.952717248+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"I keep loosing the source, then needing to save to disk, and then have to find a way to merge back in again.\""
+}

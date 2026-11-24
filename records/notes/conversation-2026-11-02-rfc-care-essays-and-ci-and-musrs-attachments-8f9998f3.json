@@ -1,0 +1,30 @@
+{
+  "instanceId": "8f9998f3-0fb5-41fe-9d1d-fff06e86458a",
+  "title": "Conversation 2026-11-02: rFC care, essays and CI, and muSrs attachments",
+  "tags": [
+    "conversation",
+    "topic:attachment-policy",
+    "topic:ci",
+    "topic:core-case",
+    "topic:essays",
+    "topic:musrs",
+    "topic:musrs-coherence"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner on an RFC needing care and focus, essays not breaking CI, outline continuity, and muSrs as a test case for the attachment and browser budget. This note is the conversation's identity record; the vignettes are the owner's words."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-10, gathering the vignettes of 2026-11-02 that sat in no conversation container (vignette ef16e77c); grouped by date."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

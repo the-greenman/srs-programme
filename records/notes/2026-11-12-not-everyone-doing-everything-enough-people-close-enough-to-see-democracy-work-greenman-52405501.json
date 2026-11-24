@@ -1,0 +1,19 @@
+{
+  "instanceId": "52405501-e736-461c-b54e-57452476e295",
+  "title": "2026-11-12 — Not everyone doing everything: enough people close enough to see democracy work (Greenman)",
+  "tags": [
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "greenman-1",
+      "label": "Greenman — 2026-11-12",
+      "content": "We can't count officers. There are always only a tiny number of those. People who turned up at meetings is handy. But most of the time people didn't need to be at all the meetings. But, when we have a small society, you can be much closer. You can go to a meeting. But you can also see democracy working for you. We don't need everyone doing all the things - but we need enough people able to see democracy in action and experience it working"
+    },
+    {
+      "name": "context",
+      "content": "Said after the small-democracy page data showed millions were members a century ago but only 1.5–5% attended co-op meetings (Spear), and that today membership is high (16.6m co-op memberships) while member-governed local units have collapsed ('Fewer rooms, more members'). Reframes the core claim of the essay 'Rebuilding Small Democracy' and the chain 'μ.democracy theory of change' from participation (attending, holding office) to proximity: enough people close enough to see and experience democracy working. Suggests members per room, not attendance, as the indicator."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

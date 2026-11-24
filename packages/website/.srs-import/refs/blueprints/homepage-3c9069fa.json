@@ -1,0 +1,81 @@
+{
+  "aiGuidance": {
+    "purpose": "Create an argument-led homepage as an ordered composition. Require a hero and a final CTA, treat middle blocks as optional, and ensure the order carries the reader from concern to proof to immediate action. Do NOT author contains Relations between a page and its blocks (a group block DOES contain its items: a feature group contains its feature cards and a decision record contains its items, ordered among themselves by precedes): blocks are shared across page variants by Container membership, and order lives in the Composition. Use projects Relations to make every substantive block reviewable against the SRS records it stands on. A hero and a final CTA are REQUIRED in every homepage variant. That requirement cannot currently be declared structurally: Blueprint.requiredTypes is validated against relation structure, and this document has none by design, so the requirement is stated here and enforced by review."
+  },
+  "createdAt": "2026-09-14T17:08:39.806335947+00:00",
+  "description": "A compositional homepage. Block membership and page order are presentational and are declared by a Container whose ordered entries carry the page order (RFC-043), not by contains Relations (a group block contains its own items): page structure at this level is presentation, not a part-of claim about the world (RFC-034 I-148 — a Container is a declared selection, a Relation is a semantic claim).",
+  "id": "3c9069fa-5804-40a9-9010-c0713b339619",
+  "name": "homepage",
+  "namespace": "com.mudemocracy.website",
+  "requiredTypes": [
+    {
+      "typeId": "704c2742-9b02-4d08-89c5-7fa1ffa85697",
+      "typeVersion": 1
+    },
+    {
+      "typeId": "3751bf69-e00f-4e77-bbb2-fb7e3d3dfcf7",
+      "typeVersion": 1
+    }
+  ],
+  "rootTypes": [
+    {
+      "typeId": "5de26162-3fd5-4fc9-b32e-567db46bb552",
+      "typeVersion": 1
+    }
+  ],
+  "structure": [
+    {
+      "cardinality": "one-to-one",
+      "relationType": "precedes",
+      "required": true,
+      "sourceType": {
+        "typeId": "704c2742-9b02-4d08-89c5-7fa1ffa85697",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "03de48d7-f3b5-45da-89c7-7718e4e80d58",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "one-to-one",
+      "relationType": "precedes",
+      "required": true,
+      "sourceType": {
+        "typeId": "03de48d7-f3b5-45da-89c7-7718e4e80d58",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "3751bf69-e00f-4e77-bbb2-fb7e3d3dfcf7",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "one-to-many",
+      "relationType": "contains",
+      "required": false,
+      "sourceType": {
+        "typeId": "ead43ed4-de39-4439-b852-55346429128b",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "4db1ede3-1690-4087-bcc6-4e0ecded3135",
+        "typeVersion": 1
+      }
+    },
+    {
+      "cardinality": "one-to-many",
+      "relationType": "contains",
+      "required": false,
+      "sourceType": {
+        "typeId": "1e5fbfea-7a89-49a0-af86-31134a090305",
+        "typeVersion": 1
+      },
+      "targetType": {
+        "typeId": "0b0f6a5f-0682-4552-9e84-36d9e24e54a6",
+        "typeVersion": 1
+      }
+    }
+  ],
+  "version": 1
+}

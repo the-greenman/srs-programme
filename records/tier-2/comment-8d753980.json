@@ -1,0 +1,22 @@
+{
+  "instanceId": "8d753980-5c60-42f4-8c13-3ebc59f775de",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 2 vignettes from 1 day to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-11-06 · touches · \"We are going to need a way to make it possible to properly work through the underlying material.\" (Refining a domain is the essay process with a blueprint instead of a paragraph: the soup needs a tool to work through the underlying material (2026-11-06))\n- 2026-11-06 · touches · \"The control room has a way for me to see a domain and all it's axes... but I hardly recognise it.\" (Once the words are written they are hard for me to change, in this work too: I need to see my words next to what AI did, and I still can't manage affirmations (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:14.121886613+00:00",
+  "updatedAt": "2026-11-22T13:08:14.121889531+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

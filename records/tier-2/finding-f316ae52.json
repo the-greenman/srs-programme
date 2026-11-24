@@ -1,0 +1,32 @@
+{
+  "instanceId": "f316ae52-edd8-4c8f-8b72-b32aa838dc55",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Cold-agent run, 2026-11-22: a longer skill did not raise scores, and the failures were tool gaps",
+    "summary": "Sixteen small-model runs answered four fixed tasks on three repositories, half with the current 18-line skill and half with a 12,000-byte draft. Three tasks sat at ceiling in both arms. The survey of the largest repository was partial in both. The draft changed what agents checked and cost more calls. The failures that remained came from the tools, and a skill should not carry them.",
+    "evidence": [
+      "Tasks: orient in the handbook (92 records); recall from a sentence in the project memory (321); plan a replacement there; survey the specification (738). Two runs per task and arm, read-only, through the registry server.",
+      "Orient, recall and plan: 12 of 12 correct with 0 failed calls, in both arms.",
+      "Survey: partial in all 4 runs. Old arm 7 and 10 calls with 2 failed each. New arm 15 and 13 calls with 1 and 2 failed, and 4 and 1 empty relation reads.",
+      "Every survey run failed to read `navigation` on the specification: 268,918 bytes with no depth bound over MCP, against a 96,000-byte cap on the read tool. The CLI has `--depth`; the resource does not.",
+      "`neighbours` with a relation type that is not an exact key returned zero edges and no warning. The draft had sent agents to the relation type list without saying to copy the key. That one line caused 5 empty reads and was corrected.",
+      "`container_outline` given a record id answers only 'container not found'.",
+      "No run invented an id or a fact, with either file.",
+      "Limits: the runs were not cold, because each agent also carried this project's instructions. Call logs were reported by the agents themselves. Two runs per cell is a small sample."
+    ],
+    "body": "## What this is\n\nA first run of check H2 of the readability audit: a cold agent, given only the repository, explains it and finds a named record without searching blindly. Here it was run as a comparison of two skill files.\n\n## What it shows\n\nAn agent learns to use a repository from five places, in this order: what the tool does and the errors it gives, the tool descriptions, the server instructions with the repository's own guidance, the repository itself, and last a skill. The first three are always delivered. The skill is delivered only where the client has skills and loaded this one.\n\nThe run fits that order. Agents with no usable skill already searched with any-word matching, read relations with `neighbours` and read a type before filling it, because the tool descriptions say so. The longer skill did not add a correct answer. It did make agents read relations before stating an order, and check transitions before planning a write.\n\nThe failures were of a different kind. A resource too large to read, an empty result with no warning, an error that does not name the next step. A sentence in a skill can warn about each. A change in the tool removes each for every agent, with or without a skill.\n\n## What follows\n\nFix a lesson at the lowest place that can hold it. A rule goes into the skill only when the tool, its description, the server instructions and the repository cannot carry it yet, and it leaves the skill when the tool is fixed.\n\nThe repository's own guidance is the cheapest of these places and the least used: on the same day it was set in 1 of 9 served repositories.\n\nThe audit's open question is whether its thresholds are right, since they were chosen and not measured. This run does not answer that. It does show the manual check can be made cheap and repeatable: four tasks with known answers, scored without judgement. Only the survey task separated a good run from a poor one, so the set needs harder tasks: a real write, a repository whose summary is wrong, a question that spans two repositories.\n\nThe detailed results are in the project memory as findings 3dfc2f9e, f602af00, 0381f65a and 731e1662."
+  },
+  "tags": [
+    "suggestion",
+    "readability",
+    "win:tool",
+    "status:open",
+    "topic:srs-skill"
+  ],
+  "createdAt": "2026-11-22T09:03:56.692799077+00:00",
+  "updatedAt": "2026-11-22T09:03:56.692800882+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

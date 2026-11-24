@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "04b0822b-7247-4648-a8eb-8b86e775b766",
+  "relationType": "evidences",
+  "sourceInstanceId": "8e710706-1355-4ca0-a72d-3920951f7fc9",
+  "targetInstanceId": "ecdb0e63-8f6c-4b5e-90e0-4c7562f5d7ed",
+  "createdAt": "2026-11-22T13:06:06.462046718+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"Everyone knows what the group is for, who the members are, how you join and how you leave.\""
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "84311b58-ded9-480d-ba25-8b59f92b29ff",
+  "relationType": "evidences",
+  "sourceInstanceId": "38c76e41-1639-4649-842e-0c417e7fd1d7",
+  "targetInstanceId": "95a0efbc-07de-4c72-aa1f-0150a445fcbc",
+  "createdAt": "2026-11-22T13:06:16.712630526+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"an awareness of the tradeoffs so that we are tuning\""
+}

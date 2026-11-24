@@ -1,0 +1,22 @@
+{
+  "instanceId": "a7305d1b-1495-4e59-bce8-029547a8eb17",
+  "title": "Inputting and sharing artefacts, and managing output (2026-11-23)",
+  "tags": [
+    "vignette",
+    "topic:orgbrain",
+    "topic:artefacts"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Also, how will we input and share artefacts? \nLisa will want to add attachments via telegram. And then we may want to create new artefacts. We should think about how to manage output."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-23; recorded verbatim. About the Organisation Brain Telegram bot."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

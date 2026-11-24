@@ -6,12 +6,13 @@
   "typeName": "remedy",
   "fieldValues": {
     "title": "A meeting's raw transcript stays provenance; its important fragments become vignettes",
-    "move": "Hold each recording's transcript as one attached file under one source record, the way other source files are held. Pull the fragments that carry meaning out as vignettes that point back to the source and the time, and derive records only from those vignettes. A local detector proposes candidate fragments; a person picks them.",
-    "does_not_fix": "It does not stop an export carrying the attached transcript: RFC-026 takes attached documents with any record that cites them (SP-124, srs#1002). It gives no live view during a meeting and no link from minutes to the transcript (SP-158). It does not identify speakers, and whisper's base model mishears words, so a fragment still has to be checked against the audio.",
+    "move": "Hold each recording's transcript as one attached file under one source record, the way other source files are held: a WebVTT file (W3C), one cue per spoken segment, cited by time with W3C Media Fragments (`<documentId>#t=a,b`). Pull the fragments that carry meaning out as vignettes that point back to the source and the time, and derive records only from those vignettes. A local detector proposes candidate fragments; a person picks them.",
+    "does_not_fix": "It does not stop an export carrying the attached transcript: RFC-026 takes attached documents with any record that cites them (SP-124, srs#1002). It does not identify speakers, and whisper's base model mishears words, so a fragment still has to be checked against the audio. The live view during a meeting and the link from minutes to the transcript are a separate remedy (eeefe987, SP-158).",
     "falsifier": "People regularly need to search, comment on or link individual utterances, not fragments; or the detector's candidates miss fragments a person would have picked, so someone has to read the whole transcript anyway.",
     "source_ref": [
-      "srs-programme vignette c26e0903 (the owner, 2026-11-05)",
+      "srs-programme vignettes c26e0903 (the owner, 2026-11-05) and 965499aa (2026-11-09: one file, not plain text, small chunks, a basic transcription standard)",
       "Trial 2026-11-05 on a 52-minute meeting: 808 utterance records and 1,643 files in a scratch repository, whole chain 11 minutes; the local detector gave 33 candidates in 3 minutes",
+      "Built 2026-11-09 (transcribe#3): the same meeting as one attached WebVTT file of 796 cues in 635 s, 0 validation errors",
       "muDemocracy.org#432"
     ],
     "return_when": "Individual utterances turn out to need their own relations or comments often enough to justify a record each."
@@ -22,6 +23,6 @@
     "topic:local-models"
   ],
   "createdAt": "2026-11-05T18:43:44.475872405+00:00",
-  "updatedAt": "2026-11-05T18:43:44.475874326+00:00",
+  "updatedAt": "2026-11-09T17:56:30.855469347+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

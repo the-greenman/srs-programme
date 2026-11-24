@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Name the speaker or author and work where known."
+  },
+  "createdAt": "2026-09-14T17:07:39.537258278+00:00",
+  "description": "Source attribution for a quotation.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "f3445277-2e20-41d8-8785-a963edbc28d7",
+  "name": "quote_attribution",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

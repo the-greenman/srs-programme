@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "b1b7d98a-9d67-4158-bd92-75d38674b77a",
+  "relationType": "evidences",
+  "sourceInstanceId": "4aeca751-1523-40e8-a59f-ad4fe02a849e",
+  "targetInstanceId": "869f95f2-8a46-4637-b30e-83ff60e8dd4b",
+  "createdAt": "2026-11-22T13:07:23.222939866+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"We need to have SRS work well for humans and agents. Where do these have different needs, when are their needs conflicting?\""
+}

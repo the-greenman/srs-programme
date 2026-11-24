@@ -1,0 +1,36 @@
+{
+  "instanceId": "2cce4aac-a1be-4841-b071-a8a9e7878350",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Reader sent an essay, in Evidence-backed writing",
+    "summary": "A person who has been sent an essay, perhaps as a link to a file on Google, Dropbox or a public repository. Unlike the writer, they are not editing and are mainly concerned with the final product; they may want to see what it rests on, and may not want to connect an agent of their own.",
+    "goals": [
+      "Read the finished essay as a finished piece",
+      "See where a quote or statement comes from",
+      "Understand the background the essay draws on",
+      "Question the essay more deeply when they choose to",
+      "Read without having to connect an agent"
+    ],
+    "jobs": [
+      "Open the essay they were sent and read it",
+      "See the source of a quote",
+      "Follow a statement to its reference document or external url",
+      "See the problems, claims and other records a paragraph links to",
+      "Browse the background references and citations",
+      "Interrogate the essay further through an agent",
+      "Ask an agent how to connect to the essay"
+    ],
+    "needs": "The finished text without the comments it was built on, its links and references within reach, and agent interrogation as an option rather than a precondition for reading."
+  },
+  "createdAt": "2026-11-10T14:39:39.040748892+00:00",
+  "updatedAt": "2026-11-10T14:39:39.040751264+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

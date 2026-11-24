@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "8849f58e-5bc5-40ec-bccd-e95a046684b8",
+  "relationType": "evidences",
+  "sourceInstanceId": "86d95249-c844-48cd-b750-af36779af5c4",
+  "targetInstanceId": "c72787fd-153a-422f-8c3c-06e977128014",
+  "createdAt": "2026-11-22T13:06:55.290872966+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"I can record transcripts directly into the srs container\""
+}

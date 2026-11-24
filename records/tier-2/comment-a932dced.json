@@ -1,0 +1,22 @@
+{
+  "instanceId": "a932dced-7df6-48c5-aba6-034f4af4df66",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 4 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-28 · touches · \"using owner attention in one focussed session... Not split over pieces of the delivery\" (Remember this process: create a holon, scan the chain, mark it in progress, settle decisions by principle, walk delivery, split if unsafe, pre-empt stops with one focused owner session (2026-10-28))\n- 2026-10-28 · touches · \"most of what I do is getting work able to merge\" (Most of the owner's time goes on getting PRs able to merge, not on the work (2026-10-28))\n- 2026-10-28 · touches · \"a clear goal for autonomy that does not require relentless ownership decisions and merge\" (Are we missing clear intentions? Problem, claim and remedy with domains and personas give the intent autonomy needs (2026-10-28))\n- 2026-11-06 · touches · \"The affirmation layer is very important. But it's also too difficult and so we never get there.\" (The affirmation layer is very important, but too difficult, so we never get there (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:52.999009739+00:00",
+  "updatedAt": "2026-11-22T13:07:52.999013253+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

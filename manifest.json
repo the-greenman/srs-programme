@@ -1,5 +1,15 @@
 {
+  "rootContainerId": "fb8429db-ee67-4439-9656-0f36f17ab98b",
   "$schema": "https://srs.semanticops.com/schema/2.0/manifest.json",
+  "aiGuidance": {
+    "summary": "The SemanticOps programme: a shared database of the roadmap (objectives, periods, epics), the method records (problems, remedies, personas) and standing research, written by the owner and by agents. Read the purpose record first; the settings record cfb14770 holds the programme settings.",
+    "suggestedEntryPoints": [
+      "records/tier-2/purpose-7a7d8945.json",
+      "records/tier-2/purpose-b1795e7f.json",
+      "records/tier-2/programme-cfb14770.json"
+    ],
+    "navigationHints": "Areas: roadmap (objectives, periods, epics; priority is derived from period objective_rank, so change the rank, never a priority), method (com.semanticops.method/problem, problem_id SP-nn, plus remedies, clusters, personas), Research (container 2f14de07), Narrative explorations (80b283ef: owner vignettes, Tier-0 notes tagged vignette, one conversation container each). Method records live in two containers: Suggestions (agents write; each with its own session actor) and Affirmed (human layer; only the owner adopts a suggestion, by fork with derived-from). The same problem can therefore appear twice: the Affirmed copy is the one that counts; tell them apart by container (Suggestions or Affirmed) and by the Affirmed copy's derived-from link to its suggestion; createdBy does not distinguish them. Set aside is the owner's reversible decline. Programme waves 1-5 and v12 records are frozen history. Shared containers: members add or remove, never update the container. Here, never hand-edit records or the manifest, and open a PR with gate:auto-merge."
+  },
   "createdAt": "2026-09-05T21:46:21.025288400+00:00",
   "dataModelRevision": 11,
   "namespace": "com.semanticops.programme",
@@ -27,10 +37,13 @@
     {
       "mode": "local",
       "path": "packages/stewardship"
+    },
+    {
+      "mode": "local",
+      "path": "packages/website"
     }
   ],
   "repositoryId": "fb8429db-ee67-4439-9656-0f36f17ab98b",
   "srsVersion": "2.0-draft",
-  "title": "SRS spec-rework programme",
-  "rootContainerId": "fb8429db-ee67-4439-9656-0f36f17ab98b"
+  "title": "SRS spec-rework programme"
 }

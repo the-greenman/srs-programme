@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "ebda42dd-893f-4bca-b443-1616d73f4af6",
+  "relationType": "evidences",
+  "sourceInstanceId": "7ff3049a-58ff-4729-b2a8-9d66e990a124",
+  "targetInstanceId": "f2262d25-102d-4476-ac68-653bb7253d29",
+  "createdAt": "2026-11-22T13:07:10.345582871+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"The mudemocracy editor it talking about attrubution for web page content. That's not quite the same domain.\""
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "9b6251b7-b40e-4aae-a58d-473dd5270e13",
+  "relationType": "evidences",
+  "sourceInstanceId": "aefc744c-c53e-46f7-bbc7-453cfefd364f",
+  "targetInstanceId": "458cd23c-0961-4dc2-b246-f5c0515f7f56",
+  "createdAt": "2026-11-22T13:06:35.988145399+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"What should I expect of a spec so that I can point an LLM at it and it will understand?\""
+}

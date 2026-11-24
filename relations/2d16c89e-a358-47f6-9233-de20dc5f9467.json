@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "2d16c89e-a358-47f6-9233-de20dc5f9467",
+  "relationType": "evidences",
+  "sourceInstanceId": "c8b12a7b-4803-4a6a-ad73-d7bb78cc7e99",
+  "targetInstanceId": "d00f101f-1e42-4793-b182-0f16a8a01c8c",
+  "createdAt": "2026-11-22T13:06:29.183147612+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"But affirmation will just kill lots of this work.\""
+}

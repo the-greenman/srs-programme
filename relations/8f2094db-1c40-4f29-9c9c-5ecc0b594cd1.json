@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "8f2094db-1c40-4f29-9c9c-5ecc0b594cd1",
+  "relationType": "evidences",
+  "sourceInstanceId": "0ae99d7d-9a0c-4151-9eef-694044c9ac01",
+  "targetInstanceId": "0a9adcaf-2b6c-4ff5-97b9-52cf312856f9",
+  "createdAt": "2026-11-22T13:07:03.373038817+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"The funding goal is to show a community. The community of people who want local AI.\""
+}

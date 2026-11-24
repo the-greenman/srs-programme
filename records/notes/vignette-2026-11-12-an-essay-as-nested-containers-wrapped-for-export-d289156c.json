@@ -1,0 +1,23 @@
+{
+  "instanceId": "d289156c-9783-469e-a85d-7dc765d204a9",
+  "title": "Vignette 2026-11-12: an essay as nested containers, wrapped for export",
+  "tags": [
+    "vignette",
+    "topic:essay",
+    "topic:containers",
+    "topic:export"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-11-12, on the editor group's carried question (decision 42fcc319: can an essay container declare its comments and references as children while agents still file into them, srs-web#634): \"But should we not simply have a bit of container nesting? (can  we nest a container?) An essay's pragraphs in one container. The comments in another. The references in another. And then we wrap all of these in an export?\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-12; recorded verbatim. Concerns decision 42fcc319 (proposed, options A to D) and srs-web#634 (an essay is exported whole)."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

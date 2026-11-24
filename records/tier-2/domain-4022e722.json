@@ -1,0 +1,21 @@
+{
+  "instanceId": "4022e722-1b6e-483d-989e-99edaafce261",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Group governance: meetings, minutes and decisions",
+    "purpose": "Help a group hold its meetings and keep its own record of what it decided and why, so every decision can be traced back to the conversation it came from and the record stays in the group's hands.",
+    "in_scope": "Meetings as they happen: recording and transcribing them, taking minutes, flagging what may be a decision, and linking each minute to the words it came from. Afterwards: turning the important fragments into the group's records and keeping its decision log.",
+    "out_of_scope": "How the SemanticOps programme itself decides (Decide: the right owner settles what governs later work). Owning and hosting the group's data (Group meaning ownership). Building an evidence-backed argument from a transcript (Evidence-backed writing)."
+  },
+  "tags": [
+    "suggested",
+    "topic:governance",
+    "topic:transcripts"
+  ],
+  "createdAt": "2026-11-09T17:59:22.338509253+00:00",
+  "updatedAt": "2026-11-09T17:59:22.338510735+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

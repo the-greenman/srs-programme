@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "57b4aa73-aafc-408b-ab16-4034b99fba4b",
+  "relationType": "evidences",
+  "sourceInstanceId": "17cc3c02-f67c-457a-ac6f-d336bb83180c",
+  "targetInstanceId": "ad31f09f-3539-498f-b519-8bae91175676",
+  "createdAt": "2026-11-22T13:06:25.653608543+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"any agent should know about current active collections of knowledge\""
+}

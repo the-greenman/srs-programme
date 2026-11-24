@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "d1253e9f-e9d9-440a-a29f-9d3b7a5cf128",
+  "relationType": "evidences",
+  "sourceInstanceId": "d76d18cc-2740-4c2d-83b7-7f7732b8f8bf",
+  "targetInstanceId": "c8167ce7-9fbd-4891-b09a-721e33d20398",
+  "createdAt": "2026-11-22T13:06:13.845508513+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"we may need to bring back federation to allow for essays to live in a different repo\""
+}

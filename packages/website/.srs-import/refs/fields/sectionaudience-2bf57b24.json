@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Name the reader state or situation this block addresses."
+  },
+  "createdAt": "2026-09-14T17:07:38.372702381+00:00",
+  "description": "Reader this block addresses.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "2bf57b24-bd34-4e9a-a306-962aa3c62418",
+  "name": "section_audience",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

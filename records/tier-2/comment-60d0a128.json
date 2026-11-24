@@ -1,0 +1,22 @@
+{
+  "instanceId": "60d0a128-bc2a-44c9-9f47-ac0cad4362fb",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** Memory is not one thing: 'Short term and long term memory are different things', 'Vignettes are short term memory, they record a specific moment', and 'Meaning also has a temporal element. Some information is valuable now, some in the long term.' Agent memory should be a working project-level store ('better than markdown'), 'the realtime practical agent memory' that 'shouldn't really get out of date', which 'any agent should know about', giving 'a decent map of semantic space', and usable from 'general environments where multiple models can access the same dataset simply'.\n\n**Proposed.** Give an AI agent the records it needs for the task at hand, with where each came from, across sessions and across models. Memory has a time dimension: moment-bound short-term records and long-term refined knowledge are kept apart, and the store stays current and gives any agent a map of what active knowledge exists. Excludes how the agent reasons or which model it runs on.\n\n**Depth.** 9 vignettes touch it (4 retell, 5 touch); the temporal short/long split and the 'map' and 'current collections' ideas recur across several of them. Dates not checked here.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:23.005367696+00:00",
+  "updatedAt": "2026-11-22T13:08:23.005372603+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

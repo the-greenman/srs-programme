@@ -1,0 +1,29 @@
+{
+  "instanceId": "4e1e29bb-325f-463d-9cb4-442ef58d5c88",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-166",
+    "title": "Saving a recovery copy freezes the writer's cursor",
+    "statement": "In the web editor, keeping a recovery copy of the document in the browser means serialising the whole repository on the main thread, so a writer working in a large repository (the muSrs essay, about 900 instances) sees the cursor stick for a moment every few seconds. The pause is short, but it recurs and breaks writing flow, and it grows with the repository. Quieting the schedule (srs-web#769) moves the pause out of the typing, but the whole-repo export still blocks whenever it runs, so any large repository, or a long burst of agent writes, brings it back.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme: conversation 2026-11-09, vignette b2114fe5",
+      "srs-web: src/lib/browser-cache.ts (workingCopyScheduler), src/App.svelte (workingCopy)",
+      "srs-web#769, srs-web#353, srs-web#350"
+    ]
+  },
+  "tags": [
+    "topic:essay-editor"
+  ],
+  "createdAt": "2026-11-10T14:24:48.422+00:00",
+  "updatedAt": "2026-11-10T14:24:48.422+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Who they are and why they are here, in the owner's voice. Statements about a real person: keep them ones the person would sign."
+  },
+  "createdAt": "2026-10-23T10:31:40.189340213+00:00",
+  "description": "A line or two about the person (markdown).",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "ad073964-6bb3-4564-a7ff-296950fb42dd",
+  "name": "bio_text",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

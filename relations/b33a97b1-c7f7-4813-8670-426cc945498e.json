@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "b33a97b1-c7f7-4813-8670-426cc945498e",
+  "relationType": "evidences",
+  "sourceInstanceId": "1de2ff73-0f81-47eb-a77a-30bed2620dab",
+  "targetInstanceId": "ace499f5-3267-47f4-91c3-29778d69fdf4",
+  "createdAt": "2026-11-22T13:06:15.190827657+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"does it get routed to the right working groups?\""
+}

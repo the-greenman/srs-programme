@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "be6d06f6-1418-4b3f-af5b-e8398ee0c834",
+  "relationType": "evidences",
+  "sourceInstanceId": "baee7d9a-09a6-449a-b316-a0693de9123c",
+  "targetInstanceId": "1cf008d0-da07-40e0-a323-54f07e0e7b66",
+  "createdAt": "2026-11-22T13:06:28.362202291+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"how do we navigatethe meaning stored in a repository is one of the essential jobs that srs needs to be able to perform\""
+}

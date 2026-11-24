@@ -1,0 +1,47 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "purpose": "A heading, two or three short lines, and an optional button. Relate it to a guide list with uses to show that list's items."
+  },
+  "createdAt": "2026-10-19T11:31:30Z",
+  "description": "One action card inside a primary call to action.",
+  "fieldOrder": [
+    "acf279b1-a2f2-4362-9379-603382eca6d5",
+    "a0a3c18e-de7f-46b1-a9f9-a05f30aa823b",
+    "ef744378-7c33-4361-bd16-5611ff219813",
+    "e8237a7c-f977-405a-9c57-fe216df24d48",
+    "3212e6db-310c-4b07-b490-d516d41c0567"
+  ],
+  "fields": [
+    {
+      "fieldId": "acf279b1-a2f2-4362-9379-603382eca6d5",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "a0a3c18e-de7f-46b1-a9f9-a05f30aa823b",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "ef744378-7c33-4361-bd16-5611ff219813",
+      "order": 3,
+      "required": false
+    },
+    {
+      "fieldId": "e8237a7c-f977-405a-9c57-fe216df24d48",
+      "order": 4,
+      "required": false
+    },
+    {
+      "fieldId": "3212e6db-310c-4b07-b490-d516d41c0567",
+      "order": 5,
+      "required": false
+    }
+  ],
+  "id": "b6d4f2a8-7c9e-4b1d-8f3a-8c0e6d7b9a1f",
+  "identityFieldId": "acf279b1-a2f2-4362-9379-603382eca6d5",
+  "name": "action-card",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

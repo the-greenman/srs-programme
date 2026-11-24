@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "6414ef02-bd82-4a2b-a1b4-a41b8bdcffff",
+  "relationType": "evidences",
+  "sourceInstanceId": "51e19b50-789f-401a-a3be-b5333eae1589",
+  "targetInstanceId": "7446174c-caea-4136-bafc-e4a838e20d1e",
+  "createdAt": "2026-11-22T13:06:44.017098243+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"Lets record a clear rationale. How would we tell whether we made the wrong decision or need to change?\""
+}

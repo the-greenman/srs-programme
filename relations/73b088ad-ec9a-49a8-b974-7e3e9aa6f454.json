@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "73b088ad-ec9a-49a8-b974-7e3e9aa6f454",
+  "relationType": "evidences",
+  "sourceInstanceId": "5d9a2737-9034-46fd-8289-520984c9e120",
+  "targetInstanceId": "cf99ac3e-61c6-4408-9f62-3e4692518379",
+  "createdAt": "2026-11-22T13:06:54.450988229+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"The editor should be able to simply present a view that builds up structured bavkground.\""
+}

@@ -1,0 +1,34 @@
+{
+  "instanceId": "7324ac6f-3aaa-4707-a008-4d213dc499ef",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Lifecycle states carry full substrate identity",
+    "decision_question": "When the RFC-006 VocabularyEntry substrate contract and lifecycle.json disagree on what a LifecycleState must carry, which one is right: the contract (id, version and namespace required) or the schema (key only)?",
+    "context": "The exercise 'Substrate entries: the spec contract and the schemas disagree' (7131fe89, 2026-10-26, release v0.1.0-build.560) found that the RFC-006 substrate contract (srs-spec.md, 'The VocabularyEntry substrate contract') requires id, version and namespace on every entry, LifecycleState included, and says a specialisation MUST NOT relax a required field; lifecycle.json requires only `key` on a state. `repo validate` follows the schema, so srs-programme's governance lifecycle (3c504040) validates clean, while `lifecycle update` follows the contract and refuses it ('state draft is missing required substrate field version'). Re-checked 2026-11-10: the gap has widened; srs-rust#1545 (closed 2026-11-02) made `lifecycle create` enforce the substrate fields too, while lifecycle.json is unchanged. Every lifecycle in the served corpora checked (srs, srs-programme, srs-context, clerk, muDemocracy, srs-web help) has bare key-only states. The exercise also asked whether RelationTypeDefinition carries `aliases` (question 2); that question is parked here (see key_requirements). This is a spec-level ruling: the schema change and corpus migration go through an RFC-006 revision (Door 3) that cites this decision; this record does not override the spec on its own.",
+    "friction": "No stored lifecycle in the programme can be updated or created through the CLI without an agent hand-inventing id, version and namespace values, which is the file-shape imitation SP-08 describes; meanwhile validation calls the same lifecycles clean (SP-01, spec, schema and tool drifting apart).",
+    "alternatives_considered": "1. The contract wins (recommended): lifecycle.json requires id, version and namespace on each state; existing corpora are migrated mechanically (deterministic ids, version 1, the lifecycle's namespace) under a dataModelRevision bump. Leads to: one rule for every substrate entry, states addressable by RFC-006's supersede and retire-by-id, and the write paths srs-rust already ships become correct. 2. The schema wins: amend the contract so a LifecycleState may be keyed only, and relax `lifecycle create`/`update`. Leads to: no migration, but the contract gains its first allowed relaxation, states stay unaddressable by id, and srs-rust#1545 is reverted. 3. Do nothing: validate and write paths keep disagreeing, and every lifecycle edit needs invented values.",
+    "key_requirements": "One rule per goal: the same entry must not be valid to read and invalid to write. The cost of option 1 is a migration and a dataModelRevision bump across every corpus with bare states; the migration must be mechanical and deterministic so no agent invents values. Option 2 is cheaper now but breaks the contract's own no-relaxation clause and reverts shipped write-path work. Scope: LifecycleState only. Parked: whether RelationTypeDefinition carries `aliases` (exercise question 2) is speculative today; no group issue is blocked by it, and the silent re-key it guards against is tracked separately as srs-rust#1485. The exercise made no recommendation; the option chosen here is the drafter's proposal, for the owner to ratify, edit or set aside.",
+    "decision_statement": "A lifecycle state carries the full VocabularyEntry substrate identity (id, version and namespace), the same as every other substrate entry.",
+    "rationale": "Two of the three surfaces (the contract and both write paths) already agree, and the contract forbids a specialisation from relaxing a required field; making the schema match ends the drift with no change to the rule itself. The migration cost is real but one-time and mechanical, whereas relaxing the contract would leave states outside RFC-006's identity rules for good.",
+    "revisit_when": "The migration cannot assign ids deterministically without collisions or owner choices; or a consumer is found that addresses lifecycle states only by key and would break on the bump; or a relation-type rename is needed and the full-rewrite cost (srs-rust#1485) is actually paid, which reopens the parked aliases question.",
+    "next_steps": "After ratification: an RFC-006 revision in srs (schema + migration under a revision bump) and the srs-rust validate-side half, filed as linked issues.",
+    "owner": "Programme owner",
+    "status": "proposed",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "ratified",
+  "tags": [
+    "suggestion",
+    "topic:ruling"
+  ],
+  "createdAt": "2026-11-10T13:38:58.347050205+00:00",
+  "updatedAt": "2026-11-10T14:20:36.551566592+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

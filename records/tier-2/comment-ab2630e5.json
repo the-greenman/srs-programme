@@ -1,0 +1,22 @@
+{
+  "instanceId": "ab2630e5-27c2-4900-8fcd-71434e082fdf",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 2 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-11-04 · retells · \"Ideally an editor could see the data structure layer. What fields and types exist.\" (The layers an editor could see: structure, thinking, references, essays (2026-11-04))\n- 2026-11-22 · retells · \"We need to have SRS work well for humans and agents. Where do these have different needs, when are their needs conflicting?\" (Vignette 2026-11-22: SRS must work well for humans and agents; where do their needs differ and conflict)",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:07.759066109+00:00",
+  "updatedAt": "2026-11-22T13:08:07.759069078+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

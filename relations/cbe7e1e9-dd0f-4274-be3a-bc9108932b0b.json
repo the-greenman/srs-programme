@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "cbe7e1e9-dd0f-4274-be3a-bc9108932b0b",
+  "relationType": "evidences",
+  "sourceInstanceId": "965499aa-3a65-429a-832e-ddbb7a42c828",
+  "targetInstanceId": "c72787fd-153a-422f-8c3c-06e977128014",
+  "createdAt": "2026-11-22T13:07:18.801282033+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"Our live governance editor will be able to present the users with a view that flags key topics, key decisions\""
+}

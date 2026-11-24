@@ -1,0 +1,22 @@
+{
+  "instanceId": "ffe8cbc1-35fd-4bcc-a4c8-48b0a271a227",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: split.\n\n**What the vignettes add.** Two concerns: copy quality ('We should first explain what each item means', 'We are allowed to update the site with better examples', 'A blog post or, well, essay, should be a presentation of the stack') and managing the site itself ('I need all the pages on the site to start to be managed via the editor', 'The website editor is a sister domain'). The owner separates attribution of web content: 'That's not quite the same domain.'\n\n**Proposed.** Website copy: keep what a public site says clear, starting by explaining what each item means, with better examples, and presenting the stack in posts and essays. Split off a sister domain, the website editor, concerned with managing all site pages through the editor.\n\n**Depth.** 6 vignettes (1 retell, 5 touch). The sister-domain statement is explicit, so the split is grounded, but only one vignette defines it. Dates not checked here.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:26.384747160+00:00",
+  "updatedAt": "2026-11-22T13:08:26.384749879+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

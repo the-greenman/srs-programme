@@ -1,0 +1,22 @@
+{
+  "instanceId": "4adac8e1-fc9c-4a76-a1d6-02f5760fca38",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 5 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-25 · retells · \"Every pr and wait ends up being a point where a session gets forgotten and the work abandoned\" (Four questions for any unit of work; we tune, we do not perfect (2026-10-25))\n- 2026-10-25 · retells · \"dogfood until we know work is not lost when it follows the defined process and any new agent knows how to find the process\" (Dogfood until work is not lost; a stop for approval is a failure (2026-10-25))\n- 2026-10-28 · retells · \"We need to have a holon of work clearly marked as in progress so that it gets driven to finish\" (Drive the unit to delivery autonomously; predict the stops now; a paused question lives on the desk; the holon is marked in progress (2026-10-28))\n- 2026-10-28 · touches · \"Once we begin, we need to make sure that the whole unit is completed.\" (Claim the affirmation chain and complete the whole unit; solve principle-based decisions by principle (2026-10-28))\n- 2026-10-28 · touches · \"Marking it as an in progress unit\" (Remember this process: create a holon, scan the chain, mark it in progress, settle decisions by principle, walk delivery, split if unsafe, pre-empt stops with one focused owner session (2026-10-28))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:40.406254504+00:00",
+  "updatedAt": "2026-11-22T13:07:40.406257248+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

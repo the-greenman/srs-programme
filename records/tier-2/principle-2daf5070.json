@@ -1,0 +1,19 @@
+{
+  "instanceId": "2daf5070-ec03-4bd5-a680-b56bdf078795",
+  "typeId": "eff00965-e1f5-4da0-bdfd-c7c705c3b8ea",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "principle",
+  "fieldValues": {
+    "statement": "Reusable, modular understanding over experimental tooling: what we learn in the clerk or srs-lab is moved into the package and the engine, where every client can reach it, instead of being imported from them.",
+    "boundary_clause": "None ratified yet: to be stated",
+    "context": "Deciding where a method rule, check or view lives when it first appeared in an experimental tool.",
+    "source_ref": [
+      "srs-programme vignette 0131da48 (2026-11-10)",
+      "srs-rust/docs/architecture/capability-layering.md"
+    ]
+  },
+  "createdAt": "2026-11-10T13:58:00.148595038+00:00",
+  "updatedAt": "2026-11-10T13:58:00.148596795+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

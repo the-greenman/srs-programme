@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Their role in the project and any credential, in a short line. A label, not a claim."
+  },
+  "createdAt": "2026-10-23T10:31:40.103385797+00:00",
+  "description": "The person's role, one line under their name.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "7bc84f28-c758-4d7f-b91b-f4f01a5741e8",
+  "name": "bio_role",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

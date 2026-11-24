@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "c36ae45a-c44a-4746-818e-1da209487d59",
+  "relationType": "derived-from",
+  "sourceInstanceId": "13101949-5340-4322-abfd-9dba6f73fef7",
+  "targetInstanceId": "a5fa4798-3b6b-46b0-9d23-bef99b7b7096",
+  "createdAt": "2026-11-22T13:08:56.274793668+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  }
+}

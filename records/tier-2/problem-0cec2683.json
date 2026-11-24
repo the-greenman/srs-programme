@@ -1,0 +1,28 @@
+{
+  "instanceId": "0cec2683-8416-4319-a2b9-89beed773ddd",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-173",
+    "title": "Confidence is only affirmed, never accumulated",
+    "statement": "I can only mark a claim, relation or domain placement as affirmed or not; nothing lets confidence grow or fall as later vignettes, relations and cross-checks bear on it, and weak placements cannot be found.",
+    "kind": "condition",
+    "source_ref": [
+      "Dream 2026-11-22: recurs in vignettes on 2026-10-23, 2026-10-27, 2026-10-30, 2026-11-06, undated"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:42.763188986+00:00",
+  "updatedAt": "2026-11-22T13:08:42.763190687+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

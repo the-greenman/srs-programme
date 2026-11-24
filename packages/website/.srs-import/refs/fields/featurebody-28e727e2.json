@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Explain what the reader can do or learn next in concrete sentences."
+  },
+  "createdAt": "2026-09-14T17:07:39.105537688+00:00",
+  "description": "Feature-card explanation.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "28e727e2-8f79-4eaa-9514-60e6f5825f9c",
+  "name": "feature_body",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

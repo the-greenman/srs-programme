@@ -1,0 +1,28 @@
+{
+  "instanceId": "9a171734-2d08-4b3b-bf9c-cca50d310d0f",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-174",
+    "title": "Open questions have no home as exercises",
+    "statement": "When I have an open question, there is nowhere to explore it through options, evidence and challenger/synthesiser/rebel views, so it cannot yield many elements before it becomes a decision.",
+    "kind": "condition",
+    "source_ref": [
+      "Dream 2026-11-22: recurs in vignettes on 2026-10-24, 2026-10-30, 2026-11-10"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:44.438408816+00:00",
+  "updatedAt": "2026-11-22T13:08:44.438410669+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

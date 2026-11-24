@@ -1,0 +1,28 @@
+{
+  "instanceId": "fb7bf02c-2424-4c5e-95a3-d006a277a3b4",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-183",
+    "title": "Conversations cannot be browsed by day or topic",
+    "statement": "Each chat should be its own titled container browsable by day and across sessions by topic, but the vignette view works only on some things and I never know where to find it.",
+    "kind": "condition",
+    "source_ref": [
+      "Dream 2026-11-22: recurs in vignettes on 2026-10-25, 2026-11-06"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:52.990818397+00:00",
+  "updatedAt": "2026-11-22T13:08:52.990822136+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

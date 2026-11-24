@@ -1,0 +1,22 @@
+{
+  "instanceId": "480d87c5-d260-4b61-8ea2-44ac16b739d0",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 4 vignettes from 3 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-24 · retells · \"I will need to be able to keep these in their own container\" (Vignettes, spirals and the paradox of boundaries (2026-10-24))\n- 2026-10-25 · touches · \"When I'm working on an essay, I wil begin by creating the bigger container.\" (Boundaries focus work on complex information; conversations via MCP; essays begin as a container (2026-10-25))\n- 2026-11-06 · retells · \"Keeping the process means holding the rough work to build an understanding. The container holds the doubts, the questions, the failures, the discoveries.\" (Answering the challenger: agents add to the repo, the website is surface meaning, the middle path with AI, the container holds the rough work (2026-11-06))\n- 2026-11-06 · touches · \"A tool that keeps the whole process, maintaining the richness of the thought process rather than just the finished product.\" (The editor's domain in the owner's own words, written before reading the AI summaries: purpose, audience, boundary (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:38.312337201+00:00",
+  "updatedAt": "2026-11-22T13:07:38.312341259+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

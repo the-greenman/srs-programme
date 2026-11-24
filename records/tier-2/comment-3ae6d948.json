@@ -1,0 +1,22 @@
+{
+  "instanceId": "3ae6d948-2098-4761-bdcb-44757efdd9f7",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 3 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-30 · retells · \"tell an agent that knows nothing about srs to look SRS.semanticopa.com --- I want the LLM to also know about the engine.\" (A repository or .srs file tells a cold agent where SRS and the engine live (2026-10-30))\n- 2026-10-30 · touches · \"an agent should automatically discover a starting page that is an index of everything it needs to know about the editor\" (An agent should discover the editor's start page by itself, not be told by the writer (2026-10-30))\n- 2026-11-04 · retells · \"paste the file url into an agent, and it should be able to provide advice to the user on how to connect and set up an mcp server\" (Vignette 2026-11-04: view agent help differs; paste the file url into an agent and it advises on connecting an MCP server)",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:02.710995754+00:00",
+  "updatedAt": "2026-11-22T13:08:02.711000894+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

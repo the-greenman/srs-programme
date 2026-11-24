@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Make one strong proposition; do not explain the full argument here."
+  },
+  "createdAt": "2026-09-14T17:07:38.611744158+00:00",
+  "description": "Primary public headline.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "3c11109b-37b1-42f6-9ec6-81dd876c2748",
+  "name": "headline",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

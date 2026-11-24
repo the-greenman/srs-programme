@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "f25cdf2b-0e4d-4b84-8cee-c47b82a02838",
+  "relationType": "evidences",
+  "sourceInstanceId": "ac97a191-6ef8-4c3b-8986-e4090a036130",
+  "targetInstanceId": "fa41fa00-7119-483c-979c-8862e699d8a1",
+  "createdAt": "2026-11-22T13:07:13.395349605+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"asking Claude or any AI to just make a small change very quickly ends up with an unrecognisable document.\""
+}

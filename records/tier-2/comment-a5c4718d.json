@@ -1,0 +1,22 @@
+{
+  "instanceId": "a5c4718d-81bf-4fa5-8182-b51a289783f5",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 4 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-11-06 · touches · \"what may still be missing is the way to compare parents, siblings and children.\" (A way of working is emerging: shared semantic infrastructure under domains and essays, comparing parents, siblings and children, cloning a domain, and zoomability (2026-11-06))\n- 2026-11-07 · touches · \"it is also probably still fine to call a cluster a cluster... Because it is a boundary that performs a function.\" (Simple domains lack clarity to be useful; cells are relative to a boundary, divide and repeat; dream boundaries are valid if we know where they came from; cluster may stay a name for a boundary with a function (2026-11-07))\n- 2026-11-07 · touches · \"A cluster is probably just another boundary.\" (A cluster is just another boundary; sensed boundaries are clarified after, declared boundaries are held before looking inside (2026-11-07))\n- 2026-11-07 · touches · \"I need to see them together to allow comparing.\" (The calibration practice: rows with filters, a confidence per coordinate, items seen together to compare, relative order within a selection, going up and down; naming a cell once enough is mapped and testing against the name; cross-checking with the zodiac (3x4) and tarot (3x7, no fool) layers, the 4 and 7 mapping the same row with different valence (2026-11-07))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:16.244215171+00:00",
+  "updatedAt": "2026-11-22T13:08:16.244218144+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,14 @@
+{
+  "instanceId": "405db04a-c531-4a85-a3d1-fe963bcdd974",
+  "typeId": "f6635d38-f2f6-4e2a-bcbe-8780d9ee4e0b",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "objective",
+  "fieldValues": {
+    "title": "Agents find their way in a repository: indexes that stay current",
+    "summary": "An agent given a repository through a connector finds anything by topic, kind, category and time, and moves from any record to what is near it, through indexes SRS keeps current itself, with no generated notes, derived tags or scripts on a timer. Ranked first by the owner on 21 Nov 2026 ('we are actively building this tooling now'); answers SP-171."
+  },
+  "createdAt": "2026-11-21T17:57:56.957794505+00:00",
+  "updatedAt": "2026-11-21T17:57:56.957796083+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

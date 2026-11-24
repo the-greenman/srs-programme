@@ -1,0 +1,28 @@
+{
+  "instanceId": "88942472-333d-4f13-a4e9-751d221009e1",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-184",
+    "title": "A holon needs a decision each time",
+    "statement": "Our own sessions cannot claim a holon's items as ourselves and each holon seems to need a special authorisation decision when a general policy should cover it.",
+    "kind": "condition",
+    "source_ref": [
+      "Dream 2026-11-22: recurs in vignettes on 2026-10-28, 2026-10-29, 2026-11-08"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:53.952990555+00:00",
+  "updatedAt": "2026-11-22T13:08:53.952992259+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

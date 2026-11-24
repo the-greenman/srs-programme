@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "21030aa7-4001-4b72-be82-cc6e79cac386",
+  "relationType": "evidences",
+  "sourceInstanceId": "a30aa4cc-0514-42c9-840e-62360cb7b424",
+  "targetInstanceId": "346e323e-16fe-4217-a00f-987ed1c04aa2",
+  "createdAt": "2026-11-22T13:07:13.223207187+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"All decisions prepped up front and the work established so that it can be driven automatically\""
+}

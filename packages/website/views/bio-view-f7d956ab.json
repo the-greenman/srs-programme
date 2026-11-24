@@ -1,0 +1,46 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/view.json",
+  "aiGuidance": {
+    "purpose": "Binds these types to the site component BioCard. Hidden fields are not on the site: displayHint says whether a field is a brief, a setting or a key."
+  },
+  "compatibleTypes": [
+    "com.mudemocracy.website/bio"
+  ],
+  "createdAt": "2026-11-02T12:00:20Z",
+  "description": "A person's bio, drawn by BioCard (consecutive bios form one grid).",
+  "exportConfig": {
+    "format": "markdown"
+  },
+  "fieldViews": [
+    {
+      "fieldId": "b230d787-8023-4b57-85fe-30ecb3e955c1",
+      "order": 0,
+      "visible": true
+    },
+    {
+      "fieldId": "7bc84f28-c758-4d7f-b91b-f4f01a5741e8",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "fieldId": "d2456270-f641-4177-ae67-6afa0bc13a2c",
+      "order": 2,
+      "visible": true
+    },
+    {
+      "fieldId": "ad073964-6bb3-4564-a7ff-296950fb42dd",
+      "order": 3,
+      "visible": true
+    },
+    {
+      "displayHint": "key",
+      "fieldId": "2446c2f7-38de-4ae4-858b-2bc13ba87493",
+      "order": 4,
+      "visible": false
+    }
+  ],
+  "id": "f7d956ab-0744-4987-8622-1547a71be954",
+  "name": "bio-view",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

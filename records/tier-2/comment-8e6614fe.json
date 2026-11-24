@@ -1,0 +1,22 @@
+{
+  "instanceId": "8e6614fe-003e-458a-8b04-e6ea1dc082f5",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** The vignettes mostly confirm and make operational: the goal is \"3 foundational ORTHOGONAL axes for a domain\" (be1cdc74); each is independent, a decision is judged on all three, with typically a 2-1 yin/yang balance and every element having both; yin/yang is recognised by how it appears in the domain (74cd49e5). Tensions are used because domains are \"directly tensions based\"; awareness of tradeoffs is for tuning (38c76e41); axes are working defaults inherited by any domain, backed by growing programme evidence (06d83ca7, 2026-11-06); a domain defines tensions while a working group holds strategy (88d0b37d); cells are relative to a boundary: divide, take yang, repeat (2ad1b8d8). Hard-to-find paradox axes lead to using the classics (878ac6a1). Open: a definition of tradeoff and its properties is still wanted (2d25d1f8).\n\n**Proposed.** A domain that names no tensions gives its decisions nothing to test their bias against. I need each domain to carry three independent foundational axes, found by dividing its boundary into yin and yang and repeating, so a decision can be judged on each and the trade-off is tuned deliberately rather than by accident.\n\n**Depth.** Moderate-deep: 15 vignettes mostly 2026-10 to 2026-11-07, recurring across axis, compass and domain-definition conversations.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:19.200332312+00:00",
+  "updatedAt": "2026-11-22T13:08:19.200336670+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

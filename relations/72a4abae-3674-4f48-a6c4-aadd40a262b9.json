@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "72a4abae-3674-4f48-a6c4-aadd40a262b9",
+  "relationType": "evidences",
+  "sourceInstanceId": "b738c0a4-fff3-46ad-ad59-788fd9c53142",
+  "targetInstanceId": "ad287bef-f25c-4ce8-ac95-3ba3a1afc725",
+  "createdAt": "2026-11-22T13:06:36.486206319+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"When srs-rust provides a standard way to achieve a goal, we can retire local ways of achieving the same goal.\""
+}

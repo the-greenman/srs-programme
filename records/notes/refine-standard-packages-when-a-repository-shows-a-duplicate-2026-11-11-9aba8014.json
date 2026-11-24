@@ -1,0 +1,23 @@
+{
+  "instanceId": "9aba8014-4efd-44dc-a7c6-a349777c1039",
+  "title": "Refine standard packages when a repository shows a duplicate (2026-11-11)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:packages",
+    "topic:site-editor"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "1. we can gradually improve our standard packages, when we find one duplicates in the same repo we can refine the packages to align. lets use challenges, and migrate the essays.\n\n2. Fine. It has been valuable to allow an agent to highlight a specific sentence - but they can be different features.\n\n3. fine."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-11, answering the three questions of the B2 plan on srs-web#694: (1) one 'argues against' relation, where the site uses `challenges` and the essay editor `com.mudemocracy.essay/counters`; (2) sentence-level backing; (3) converting the 31 old `projects` links."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

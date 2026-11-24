@@ -1,0 +1,25 @@
+{
+  "instanceId": "bf992d06-d56a-4675-85e4-e5a5b9966122",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-151",
+    "title": "A reader cannot follow an essay to what it rests on",
+    "statement": "A quote should be able to reveal its source, and a statement should be able to point to a reference document or an external url. A paragraph may link to problems and claims, and I may want to browse the background or see a list of citations. Today, in a read-only essay, the page and the References panel do not respond to clicks, so I can see that a paragraph has something attached but cannot open it. Exported, the references are a separate file. I have to take the essay's evidence on trust, in a form of writing whose point is that the evidence can be checked.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme vignette badfc2aa (the owner, 2026-11-04)",
+      "srs-web main 8b2fedb, src/lib/essay/EssayShell.svelte: the article and References panel are inert when read-only; header-actions.ts: Export references is its own file (read from the code, not run)"
+    ]
+  },
+  "createdAt": "2026-11-10T13:05:43.711+00:00",
+  "updatedAt": "2026-11-10T13:05:43.711+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

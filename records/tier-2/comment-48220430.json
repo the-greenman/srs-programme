@@ -1,0 +1,22 @@
+{
+  "instanceId": "48220430-6f44-40fd-a3c3-fb3cafc077d7",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 3 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-26 · touches · \"not distract with details in areas that are not the current focus\" (A conversation with many agents needs to show what changed (2026-10-26))\n- 2026-10-29 · retells · \"In reverse, I also need an agent to be able to point at something specific.\" (Vignette 2026-10-29: pointing at a specific element, both ways)\n- 2026-10-29 · touches · \"allow an agent to highlight a component in the ui\" (Ask your AI to teach you the editor: an AI-focussed manual, and an agent that can highlight the UI (2026-10-29))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:47.527953139+00:00",
+  "updatedAt": "2026-11-22T13:07:47.527956989+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

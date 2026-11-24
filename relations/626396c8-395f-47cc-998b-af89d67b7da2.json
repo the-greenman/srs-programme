@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "626396c8-395f-47cc-998b-af89d67b7da2",
+  "relationType": "evidences",
+  "sourceInstanceId": "262e24c0-96ce-4213-9ab5-c20034130a60",
+  "targetInstanceId": "65d7297c-19d9-4117-97db-0eeafcf730c9",
+  "createdAt": "2026-11-22T13:07:05.786926438+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"I need to be able to see the linked elements a little better and explore them.\""
+}

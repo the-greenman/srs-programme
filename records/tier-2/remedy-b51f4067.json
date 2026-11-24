@@ -1,0 +1,28 @@
+{
+  "instanceId": "b51f4067-e48e-4901-a555-2ac605352916",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "A live transcript beside the minutes, linked by time and by selection",
+    "move": "Show the transcript arriving in a panel beside the editor during a meeting, streamed from the local transcription engine on the same machine (server-sent events), with a local model's flags on what may be a decision. Store a time window on each minute as it is started, let the writer select the words a minute came from, and after the meeting have an agent propose further links for a tick or deny (srs-web#617). A flag becomes a record only when the writer accepts it.",
+    "does_not_fix": "It does not make the transcript more accurate or name speakers. It does not make the local model's flags reliable beyond potential decisions: measured on a real meeting, its decision flags held, but its action items, open questions and topics did not (semanticops.com#65). It does not work in a browser that blocks the page from reaching the engine on localhost until the person allows local network access (Chrome 148; Brave untested).",
+    "falsifier": "Writers ignore the panel and take minutes as before; or the transcript's lag (measured 2026-11-09: median about 10 s, 90th percentile about 15 to 16 s, worst about 20 s) makes the time window point at the wrong words too often to be useful; or the flags are wrong often enough that writers stop reading them.",
+    "source_ref": [
+      "srs-programme vignettes 248620b9 and c26e0903 (the owner, 2026-11-05) and 965499aa (2026-11-09)",
+      "srs-context research note 472c6c47 (read from code; nothing run)",
+      "Spike semanticops.com#59 (2026-11-09): server-sent events delivered in about 1 ms with the typed minute kept and nothing leaving the machine; MCP writes through the relay wiped a minute being typed (srs-web#772)",
+      "Lab: transcribe lab.mjs serve and detect stages (the-greenman/transcribe)"
+    ],
+    "return_when": "Minutes are mostly written after the meeting, when a transcript search covers the need."
+  },
+  "createdAt": "2026-11-10T13:36:41.928229994+00:00",
+  "updatedAt": "2026-11-10T13:36:41.928234893+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

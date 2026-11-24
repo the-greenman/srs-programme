@@ -1,0 +1,16 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/theme.json",
+  "createdAt": "2026-11-02T12:00:37Z",
+  "description": "The muDemocracy site's look: its design tokens, served by the site at a stable path, so an editor canvas can draw blocks as the site does.",
+  "id": "cbd967a2-c7b9-47f9-9204-c6e41f6fbbb9",
+  "name": "site-theme",
+  "namespace": "com.mudemocracy.website",
+  "stylesheet": {
+    "mode": "remote",
+    "url": "https://mudemocracy.org/site-tokens.css"
+  },
+  "targets": [
+    "html"
+  ],
+  "version": 1
+}

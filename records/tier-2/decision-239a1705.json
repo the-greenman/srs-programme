@@ -1,0 +1,33 @@
+{
+  "instanceId": "239a1705-7d31-46cc-b15a-30359a5daacf",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "May the five spec-corpus source-document sidecars be corrected by hand (srs#1041)?",
+    "decision_question": "The srs CLI cannot update a source-document sidecar, and the fix for srs#1041 is a one-key change in five sidecars. May those five files be edited by hand, or must the tool gain the capability first?",
+    "context": "Problem: all five source-document sidecars in the spec repository write contentPath relative to their own directory, against invariant I-109 (relative to sourceDocumentsPath), so the engine reads each of the five documents as a tombstone and the specification's own repository teaches the form the spec forbids. The fix is one key per file. The CLI has no sidecar-update command: `attachment add` mints a new documentId, which would change identities the sidecars carry today.\nWhy it matters: the spec repo is the first corpus a third party reads to learn the sidecar format, and this blocks the I-110 check. The repository rule is that data edits go through the CLI and a tool gap is filed and parked, never hand-edited around; sidecars are not records, so the owner may rule an exception.\nOptions and consequences: (a) Allow a one-off hand edit of the five contentPath values, keeping every other key; fast, and the bytes then read through the engine, but it sets a precedent for hand-editing sidecar metadata. (b) Keep the rule: file an srs-rust issue for a sidecar update command, park srs#1041 until it ships; slower, no precedent. (c) Re-add the five files with `attachment add`; uses the tool, but changes every documentId and loses the original metadata. (d) Do nothing; the five documents stay unreadable through the engine.\nRecommendation: (b), unless the owner is content to treat sidecar metadata as hand-editable; then (a) as a recorded, one-off ruling.\nAction needed: decide.\nUrgency: low to medium; no consumer is blocked beyond the I-110 check.\nAnswers: SP-01. Issue: the-greenman/srs#1041.",
+    "friction": "The builder claimed srs#1041, ran the guard (all five still wrong) and then found its plan needs either a hand edit, which repository rules forbid without an owner ruling, or a CLI capability that does not exist. The issue itself names both outcomes.",
+    "alternatives_considered": "(a) One-off hand edit of five contentPath values. (b) File srs-rust sidecar-update command and park srs#1041. (c) Re-add via attachment add, changing documentIds. (d) Do nothing.",
+    "key_requirements": "Every other sidecar key and every documentId unchanged. The engine returns bytes for all five documents. validate-all and check-release-drift green. No precedent set for hand-editing other tool-owned files unless the owner chooses it.",
+    "decision_statement": "File an srs-rust issue for a sidecar-update command and park srs#1041 until it ships, unless the owner rules a one-off hand edit of the five contentPath values.",
+    "rationale": "It keeps the CLI-only rule intact and turns the gap into a tracked capability that every corpus can use; the cost is delay on a low-urgency fix.",
+    "revisit_when": "When a sidecar-update command exists, or when a second corpus needs the same fix.",
+    "next_steps": "Owner rules. If (a): the builder edits the five files, runs both srs gates and opens the PR. If (b): the steward files the srs-rust issue and srs#1041 is parked and blocked by it.",
+    "status": "proposed",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "tags": [
+    "boundary:sidecar-metadata-editing"
+  ],
+  "createdAt": "2026-11-22T15:14:34.908569833+00:00",
+  "updatedAt": "2026-11-22T15:14:46.320191729+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

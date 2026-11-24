@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "e11a01ce-8014-4a41-99ef-34b16de2bc59",
+  "relationType": "evidences",
+  "sourceInstanceId": "dce397d5-605a-46b1-8e44-ee3fd95db271",
+  "targetInstanceId": "2651f2ad-a0ca-45fe-88dd-8271f4c81084",
+  "createdAt": "2026-11-22T13:06:50.570054353+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"A website editor needs to make clear statements that are backed up by evidence and other content.\""
+}

@@ -1,0 +1,22 @@
+{
+  "instanceId": "83a7e758-fab1-4f39-9ec1-8045617d3436",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** e97cfe74: a repo just for transcripts that is addressable, 'because muSrs is already big'. 6defeba4 doubts whether SRS is 'a bit too heavy as a standard' for transcripts. 965499aa: 'I will hold a meeting and click transcribe', streamed into one file in a basic standard with a background agent flagging decisions.\n\n**Proposed.** A recorded meeting cannot enter the group's corpus without a hand step, and there is no agreed light place or format to hold its transcript so it can be addressed and quoted.\n\n**Depth.** Three vignettes, 2026-11-05 to 2026-11-09; recurs as storage, format weight and live capture. The live-capture vignette is mostly a build request and only partly meaning-bearing.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:39.222169393+00:00",
+  "updatedAt": "2026-11-22T13:08:39.222174241+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

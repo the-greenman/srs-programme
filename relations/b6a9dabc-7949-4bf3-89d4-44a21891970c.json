@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "b6a9dabc-7949-4bf3-89d4-44a21891970c",
+  "relationType": "evidences",
+  "sourceInstanceId": "a0e650ea-04aa-4dba-b7f3-1928605f5cd8",
+  "targetInstanceId": "92a06409-21a3-442e-a76f-cc87372bc9f2",
+  "createdAt": "2026-11-22T13:07:12.379068645+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"the conversation from early in the year was not available to the agents to work with\""
+}

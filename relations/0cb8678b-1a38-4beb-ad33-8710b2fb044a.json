@@ -1,0 +1,9 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "0cb8678b-1a38-4beb-ad33-8710b2fb044a",
+  "relationType": "refines",
+  "sourceInstanceId": "7b6cd50c-3556-45d4-b502-c94d2a3cc4af",
+  "targetInstanceId": "79140644-9a4b-4ebd-88f1-29d89b92185a",
+  "createdAt": "2026-11-10T12:11:54.709533250+00:00",
+  "notes": "Answers question 7 of the umbrella exercise."
+}

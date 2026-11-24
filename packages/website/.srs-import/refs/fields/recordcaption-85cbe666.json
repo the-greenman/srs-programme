@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Explain what the example proves and state that a record does not itself make power democratic."
+  },
+  "createdAt": "2026-09-14T17:07:39.229505452+00:00",
+  "description": "Caption for a worked decision record.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "85cbe666-a1d5-46d6-b6d8-c06c1263f029",
+  "name": "record_caption",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

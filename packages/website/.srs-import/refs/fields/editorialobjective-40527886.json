@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Describe what the reader should understand, feel, or be ready to do."
+  },
+  "createdAt": "2026-09-14T17:07:38.433032381+00:00",
+  "description": "Concrete objective for this block.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "40527886-7a33-4328-b478-9352c6e116d6",
+  "name": "editorial_objective",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

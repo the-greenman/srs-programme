@@ -1,0 +1,22 @@
+{
+  "instanceId": "753ccda5-2022-4a2f-98b1-6bd044f7dacc",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 1 vignette from 1 day to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-29 · retells · \"a local mcp server ... and one running inside a web browser can connect by a static url\" (The MCP relay: a static URL, available only when you want it, for an MCP server running locally or in the browser (2026-10-29))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:58.496966245+00:00",
+  "updatedAt": "2026-11-22T13:07:58.496970613+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

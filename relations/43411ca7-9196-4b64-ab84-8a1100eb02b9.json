@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "43411ca7-9196-4b64-ab84-8a1100eb02b9",
+  "relationType": "evidences",
+  "sourceInstanceId": "29094aed-c1ba-4561-9b36-ed2fcd117634",
+  "targetInstanceId": "5777e4c4-218f-458d-a225-7c937f8395f7",
+  "createdAt": "2026-11-22T13:06:15.356249482+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"it should be natural to be able to create a boundary that allows me to focus searches\""
+}

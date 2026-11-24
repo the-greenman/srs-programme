@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Short, lower case, as the site menu reads (\"decision recording\"). A menu label names where it goes; it makes no claim."
+  },
+  "createdAt": "2026-11-04T09:12:27.980364756+00:00",
+  "description": "The words shown for a menu item.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "8ca79f48-d672-484c-9778-5eb3eebba99a",
+  "name": "nav_label",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

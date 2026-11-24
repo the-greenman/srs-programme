@@ -1,0 +1,33 @@
+{
+  "instanceId": "773ae4a6-6a9c-4950-88a6-8b92578d22ea",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Escalation: which DOS timestamp does a deterministic .srs archive carry, 0x0000 or 1980-01-01? (RFC-017 Change D item 2, I-105)",
+    "decision_question": "RFC-017 Change D item 2 (and I-105, \"`last mod` timestamps zeroed (`0x0000`)\") requires every ZIP entry's `last mod file time` and `last mod file date` to be \"`0x0000` (DOS time zero = 1980-01-01 00:00:00)\". Those are two different values: DOS date `0x0000` is month 0, day 0, while 1980-01-01 is date `0x0021`. Which one does the spec mean?",
+    "context": "Problem: the rule cannot be followed as written, because its value and its gloss disagree. Fact: srs-rust writes time `0x0000` and date `0x0021` (1980-01-01, `zip::DateTime::default()`, ADR-033 \"Timestamps zeroed via `zip::DateTime::default()`\"), checked in the raw central directory of an archive packed by release v0.1.0-build.675 on 2026-11-20. Every `.srs` the engine has ever written carries that date. The other items of the same rule were probed at the same time: entries are sorted, Deflate only, extra fields empty, and two packs are byte-identical (I-106); bit 11 is not set, which is filed as work (srs-rust#1678) because that clause is unambiguous. Why it matters: a third-party producer or verifier written against the literal `0x0000` disagrees byte for byte with the reference implementation, and neither side can be called wrong until the spec says which value it means. Options and consequences: A. The gloss rules: the value is time `0x0000`, date `0x0021` (1980-01-01, the smallest valid DOS date); fix the wording of RFC-017 Change D item 2 and I-105 (a Door 3 wording revision of RFC-017, no behaviour change, no archive bytes change). B. The literal rules: write date `0x0000`; srs-rust changes every archive's bytes once, and some ZIP tools display or reject a zero month and day. C. Do nothing: the spec keeps a rule nobody can satisfy literally, and the drift stays unrecorded. Recommendation: A, because it matches every archive in existence, `0x0000` is not a valid DOS date, and it costs one sentence. Action needed: decide. Urgency: low; nothing breaks today, but srs-rust#1678 changes the same headers and is the natural moment. Answers: SP-01",
+    "friction": "The analyst found the contradiction while probing I-105. A value that the spec states twice in two incompatible forms needs a ruling before anyone can implement or test it; the group cannot pick one.",
+    "alternatives_considered": "A. Keep 1980-01-01 (date 0x0021, time 0x0000) and correct the spec wording. B. Write date and time 0x0000 and change the implementation. C. Leave the rule as it is.",
+    "key_requirements": "Archives stay byte-identical across invocations (I-106). A spec rule must be satisfiable as written. Changing every archive's bytes needs a reason a reader would notice.",
+    "decision_statement": "Approve option A: a deterministic `.srs` entry carries `last mod file time` 0x0000 and `last mod file date` 0x0021 (1980-01-01 00:00:00); RFC-017 Change D item 2 and I-105 are reworded to say so, and srs-rust's behaviour stays as it is.",
+    "rationale": "It describes what every existing archive already holds, avoids an invalid DOS date, and needs only a wording revision.",
+    "revisit_when": "If a third-party ZIP producer or verifier is found that writes or expects date 0x0000.",
+    "next_steps": "Owner picks A, B or C on this record. If A, the analyst files an srs issue for the RFC-017 Revision and the I-105 rewording (a Door 3 revision, see de6b88c5). If B, the analyst files the srs-rust change, to land with srs-rust#1678.",
+    "owner": "human:the-greenman",
+    "status": "proposed"
+  },
+  "lifecycleState": "proposed",
+  "tags": [
+    "boundary:archive-format"
+  ],
+  "createdAt": "2026-11-20T12:17:11.451223038+00:00",
+  "updatedAt": "2026-11-20T12:17:31.074701584+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

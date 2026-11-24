@@ -1,0 +1,22 @@
+{
+  "instanceId": "2905d5b4-57b1-4645-9dd4-d5c4f5425b72",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** The existing problem is about private sources reaching published output; the vignettes name the control wanted. ddce04fb: 'we need to be able to have a way to strip types of records on export'. 53fd0e50: a 'cleaner process that will take an exported essay and remove records'. c26e0903: 'when we export an essay, we probably don't want to include the full source materials - just the key bits of text that we are building from'.\n\n**Proposed.** When I export an essay, it carries the full source materials and working records it was built from, and I have no way to say which types of record stay out, so only the key cited fragments should reach the published file.\n\n**Depth.** Three vignettes, 2026-11-04 to 2026-11-05; consistent. The cleaner-process one explicitly defers to later.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:38.798222030+00:00",
+  "updatedAt": "2026-11-22T13:08:38.798226245+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

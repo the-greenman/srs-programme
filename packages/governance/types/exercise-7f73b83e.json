@@ -1,47 +1,48 @@
 {
   "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
-  "createdAt": "2026-06-27T00:00:00Z",
+  "id": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "namespace": "governance",
+  "name": "exercise",
+  "version": 1,
   "description": "A structured group thinking exercise that surfaces tensions, unresolved questions, and next actions.",
   "fields": [
     {
-      "displayLabel": "Title",
       "fieldId": "d7e82557-9045-5e92-a494-d99112bbec4a",
       "order": 0,
-      "required": true
+      "required": true,
+      "displayLabel": "Title"
     },
     {
-      "displayLabel": "Thinking Reached",
       "fieldId": "f1e00001-0000-4000-8000-000000000001",
       "order": 1,
-      "required": false
+      "required": false,
+      "displayLabel": "Thinking Reached"
     },
     {
-      "displayLabel": "Tensions",
       "fieldId": "f2e00002-0000-4000-8000-000000000002",
       "order": 2,
-      "required": false
+      "required": false,
+      "displayLabel": "Tensions"
     },
     {
-      "displayLabel": "Unresolved Questions",
       "fieldId": "f3e00003-0000-4000-8000-000000000003",
       "order": 3,
-      "required": false
+      "required": false,
+      "displayLabel": "Unresolved Questions"
     },
     {
-      "displayLabel": "Blocking",
       "fieldId": "f4e00004-0000-4000-8000-000000000004",
       "order": 4,
-      "required": false
+      "required": false,
+      "displayLabel": "Blocking"
     },
     {
-      "displayLabel": "Next Action",
       "fieldId": "f5e00005-0000-4000-8000-000000000005",
       "order": 5,
-      "required": false
+      "required": false,
+      "displayLabel": "Next Action"
     }
   ],
-  "id": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
-  "name": "exercise",
-  "namespace": "governance",
-  "version": 1
+  "lifecycleRef": "2619faba-c357-445b-b000-6062067b265e",
+  "createdAt": "2026-06-27T00:00:00Z"
 }

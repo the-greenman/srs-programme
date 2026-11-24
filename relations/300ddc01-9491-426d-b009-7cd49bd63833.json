@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "300ddc01-9491-426d-b009-7cd49bd63833",
+  "relationType": "evidences",
+  "sourceInstanceId": "e97cfe74-2e02-41b8-8405-54f2d2f0ffb1",
+  "targetInstanceId": "c8167ce7-9fbd-4891-b09a-721e33d20398",
+  "createdAt": "2026-11-22T13:07:02.192090231+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"If we are able to manage a repo just for transcripts - and it's addressable it would probably be better. MuSrs is already big\""
+}

@@ -1,0 +1,22 @@
+{
+  "instanceId": "86e98c3a-ddd7-433f-9350-ca54d08229f1",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 9 vignettes from 6 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- undated · touches · \"Our examples should show how SRS should be used.\" (Our examples should show how SRS should be used)\n- 2026-10-25 · touches · \"It should be standard for any work.\" (All problems and domains evolve from stories (2026-10-25))\n- 2026-10-25 · touches · \"this process should be dogfooding itself\" (The process dogfoods itself (2026-10-25))\n- 2026-10-29 · touches · \"Consider this dogfooding+ This is a tech demo. How would srs add value?\" (Vignette 2026-10-29: helping knowledge gathering with SRS)\n- 2026-11-06 · retells · \"in both there is a set of underlying parts that we use as semantic infrastructure.\" (A way of working is emerging: shared semantic infrastructure under domains and essays, comparing parents, siblings and children, cloning a domain, and zoomability (2026-11-06))\n- 2026-11-06 · touches · \"SRS provides a semantic framework, then we pull in the words.\" (SRS provides a semantic framework, then we pull in the words: why AI guidance, blueprints and protocols are in the core (2026-11-06))\n- 2026-11-06 · touches · \"SRS is the tool for the ecosystem. The Editor is a proof of concept.\" (Local AI is the ecosystem and SRS is its tool; the real Mozilla pitch is SRS, and the editor is a front door showing tools without vendor lock-in (2026-11-06))\n- 2026-11-07 · touches · \"Keeping the right level of intelligence at the right level we can make the local model model possible.\" (Nearby AI needs communities capable of maintenance: muDemocracy for governing, SRS and the relay for owning data, the essay editor for safe individual use; \"dumb AI\" is the right level of intelligence in the right place, \"cybernetic AI\" is fractal feedback, VSM (2026-11-07))\n- 2026-11-22 · touches · \"identify potential patterns of working with srs that allows it to be used well\" (Vignette 2026-11-22: SRS must work well for humans and agents; where do their needs differ and conflict)",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:26.613340109+00:00",
+  "updatedAt": "2026-11-22T13:07:26.613345334+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

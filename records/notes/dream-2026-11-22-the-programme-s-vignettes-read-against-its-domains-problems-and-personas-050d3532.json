@@ -1,0 +1,27 @@
+{
+  "instanceId": "050d3532-052d-447f-bf81-897008a3aba5",
+  "title": "Dream 2026-11-22: the programme's vignettes, read against its domains, problems and personas",
+  "tags": [
+    "dream",
+    "research",
+    "topic:dreams"
+  ],
+  "sections": [
+    {
+      "name": "what",
+      "label": "What this dream did",
+      "content": "The first programme dream, run by hand at the owner's request (vignette 3d26c906). Small agents in layers: readers took batches of 25 vignettes and proposed which domains, problems and personas each retells, quoting the owner's words; skeptical checkers tried to reject each link; refiners read what the accepted links add to each record that grew; one agent looked for concerns that recur on different days and are not yet held as problems.\n\n373 vignettes read. 578 links proposed, 471 kept (9 had garbled ids, repaired by their unique prefix). 57 refinements proposed. 17 recurring concerns proposed as new problems."
+    },
+    {
+      "name": "review",
+      "label": "How to review it",
+      "content": "Each link is an evidences relation from a vignette, with the strength (retells or touches) and the quoted words in its notes. Each record that gained links carries one evidence comment listing them: agree or disagree with it. Each proposed refinement is a suggestion comment on the record it would change; the record itself is unchanged. New problems are suggestions in Suggestions, held by a persona and derived from the vignettes that raise them. Nothing was edited or deleted."
+    },
+    {
+      "name": "repeat",
+      "label": "Repeating it",
+      "content": "The layers are an inventory script, a workflow of reader, checker, refiner and new-issue agents, and an apply script. A later dream reads only vignettes added since the last one, plus the records they touch."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "add84176-0a6c-439f-8a2a-5f3373b4f321",
+  "relationType": "evidences",
+  "sourceInstanceId": "3e076051-9380-4eff-b68d-308941c6e18f",
+  "targetInstanceId": "c4425452-c131-44ba-ae8a-e7d20ddc8559",
+  "createdAt": "2026-11-22T13:06:31.021628538+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"Where do decisions go? When do they stop?\""
+}

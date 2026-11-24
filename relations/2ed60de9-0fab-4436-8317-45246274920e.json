@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "2ed60de9-0fab-4436-8317-45246274920e",
+  "relationType": "evidences",
+  "sourceInstanceId": "8146f8f6-9ef3-4c5d-abc0-1b9c96596f03",
+  "targetInstanceId": "61784feb-5c86-4175-bbd6-844f429f0c8e",
+  "createdAt": "2026-11-22T13:06:40.646309822+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"some way to ask your ai to teach you how to use it\""
+}

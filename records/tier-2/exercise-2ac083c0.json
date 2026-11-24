@@ -12,8 +12,9 @@
     "blocking": "Blocks filing srs-rust work for SP-07 (Tools drop what they do not understand) under the affirmed remedy 'Every write refuses loudly what it cannot carry' (89d74184). Nothing else waits on it.",
     "next_action": "Owner: rule which wins. Recommendation: option 1, a Door 3 revision of RFC-038 that classes an unknown instance-layer key as a non-fatal warning with a stable code, and requires Record, Note and Relation to carry such keys on write; that executes 2e0cd70a as recorded. The group then files the srs-rust implementation (Relation drops deny_unknown_fields, Note gains an extras map, the catalog keeps the instance). Source: srs-programme:source-documents/archaeology-2026-10-08/F-drift.md#19."
   },
+  "lifecycleState": "closed",
   "createdAt": "2026-10-20T19:19:45.062200750+00:00",
-  "updatedAt": "2026-10-20T19:19:45.062208059+00:00",
+  "updatedAt": "2026-11-10T13:39:15.501312422+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-analyst",

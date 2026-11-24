@@ -1,0 +1,22 @@
+{
+  "instanceId": "a808db98-4287-400e-b5fd-4280b21ccb17",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** Confirms context is needed to assign anything: 'I could only assign a category when I could see how it related to what was around it', 'assigning a decision to a pole, and then cross checking with other decisions'. This is 'often the most difficult layer of a domain to affirm', hence 'working with default axes': 'base trigram axes and poles affirmed? These should apply by default'. Warns 'We should be careful of mixing synthetic logic lenses.'\n\n**Proposed.** A pole only means something against its partner and the other tensions around it, so I cannot honestly affirm one alone. This is the hardest layer of a domain to affirm, and there is no default set of axes and poles to start from or to cross-check decisions against.\n\n**Depth.** 5 vignettes (1 retell, 4 touch); recurring, with default axes emerging as a remedy direction. Dates not checked here.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:26.815009199+00:00",
+  "updatedAt": "2026-11-22T13:08:26.815012047+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

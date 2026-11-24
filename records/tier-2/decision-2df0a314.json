@@ -1,0 +1,31 @@
+{
+  "instanceId": "2df0a314-1ebb-493e-bad0-456ff1b9b55c",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "An exercise closes once it has led somewhere",
+    "decision_question": "How does an exercise leave the session agenda once it has done its work, and what happens to an exercise that only asks the owner to choose between options?",
+    "context": "Ratified decision 5f7ec370 made an exercise a way to explore an idea that agents comment on and that may lead to many elements; it is never ratified. The exercise type had no lifecycle, so no exercise could close, and the clerk agenda shows every exercise in the SemanticOps decision log that is not closed or abandoned. On 2026-11-10 the session agenda carried 14 open exercises. A review that day found one of 103 exercises had anything derived from it, three of the 14 had been converted into ratified decisions, two asked only whether an owner ruling already given elsewhere could be recorded, and six were yes/no rulings from the Third-party-ready analyst, each with options and a recommendation. The handbook routes an analyst's 'needs a ruling' verdict to an exercise. The owner chose, in conversation on 2026-11-10, both options recommended to them: give exercises an end state (over removing them from the decision log), and turn ruling requests into decisions (over keeping them as exercises).",
+    "friction": "Exercises that have done their work stay on every agenda, mixed with genuine open discussions and with plain choices, so the owner cannot tell what is being asked (SP-100). Ruling requests wait as discussions although each needs only a yes or a different answer.",
+    "alternatives_considered": "1. An end state (chosen): the exercise type gains a lifecycle, open, closed and abandoned; an exercise closes when what it led to is recorded derived-from it, is abandoned with a comment saying why, and either can be reopened. A ruling request becomes a proposed decision carrying its options and the recommended one. Leads to: the agenda shows only open discussions, and the log keeps every exercise as a minute. 2. Remove a finished exercise from the decision log: works today with no package change, but the log no longer shows the exercise was held, and nothing records whether it concluded or was dropped. 3. Keep ruling requests as exercises: the owner gives input, a decision is drafted afterwards; this is the conversion step that has not been happening. 4. Do nothing: the agenda keeps growing.",
+    "key_requirements": "History is kept: a closed exercise stays in the log and is never deleted. Closing is an observable act with a test: what the exercise led to is derived-from it. Reopening is possible, because new input can revive a question. No clerk change is needed: the agenda already hides closed and abandoned exercises. An exercise that is still exploring stays open even if it has led to some elements. A decision drafted from a ruling request is still ratified by the owner in a session, never in chat.",
+    "decision_statement": "An exercise closes once what it led to is recorded derived-from it, and a request for the owner to choose between options is put as a proposed decision, not as an exercise.",
+    "rationale": "The exercise type existed to explore, but without an end it became a holding pen: answered questions and plain choices sat beside open discussions. An end state keeps the log's history while clearing the agenda, and it makes the conversion step visible, because a closed exercise points at what it became. Putting choices straight into decisions gives the owner the form a choice needs: options, a recommendation, and ratify, edit or set aside.",
+    "revisit_when": "Closed exercises are often reopened, suggesting they are being closed too early; or open exercises again outnumber the decisions they feed for two sessions running; or a ruling decision is set aside because the question needed discussion first.",
+    "next_steps": "A package change in srs-programme adds the exercise lifecycle; the clerk handbook's analyst step routes 'needs a ruling' to a proposed decision.",
+    "owner": "Programme owner",
+    "status": "proposed",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "tags": [
+    "suggestion",
+    "topic:exercise",
+    "topic:agenda"
+  ],
+  "createdAt": "2026-11-10T13:37:29.382784417+00:00",
+  "updatedAt": "2026-11-10T14:20:35.936688539+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

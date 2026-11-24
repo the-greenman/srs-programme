@@ -1,0 +1,46 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/view.json",
+  "aiGuidance": {
+    "purpose": "Binds these types to the site component PrimaryCta card. Hidden fields are not on the site: displayHint says whether a field is a brief, a setting or a key."
+  },
+  "compatibleTypes": [
+    "com.mudemocracy.website/action-card"
+  ],
+  "createdAt": "2026-11-02T12:00:20Z",
+  "description": "One card inside a primary call to action.",
+  "exportConfig": {
+    "format": "markdown"
+  },
+  "fieldViews": [
+    {
+      "fieldId": "a0a3c18e-de7f-46b1-a9f9-a05f30aa823b",
+      "order": 0,
+      "visible": true
+    },
+    {
+      "fieldId": "ef744378-7c33-4361-bd16-5611ff219813",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "fieldId": "e8237a7c-f977-405a-9c57-fe216df24d48",
+      "order": 2,
+      "visible": true
+    },
+    {
+      "fieldId": "3212e6db-310c-4b07-b490-d516d41c0567",
+      "order": 3,
+      "visible": true
+    },
+    {
+      "displayHint": "key",
+      "fieldId": "acf279b1-a2f2-4362-9379-603382eca6d5",
+      "order": 4,
+      "visible": false
+    }
+  ],
+  "id": "a91e7ae4-610f-4653-be3b-1cb751e30f2c",
+  "name": "action-card-view",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

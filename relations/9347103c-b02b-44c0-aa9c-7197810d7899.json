@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "9347103c-b02b-44c0-aa9c-7197810d7899",
+  "relationType": "evidences",
+  "sourceInstanceId": "7aab7806-65d8-47a7-bae2-7edb1c254b56",
+  "targetInstanceId": "4f64aa2f-1d92-4039-8bf0-72dfc487c4b0",
+  "createdAt": "2026-11-22T13:06:55.122748949+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"Then we have the essays that fit on top of all this.\""
+}

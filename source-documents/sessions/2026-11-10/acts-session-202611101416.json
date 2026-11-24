@@ -1,0 +1,109 @@
+{
+  "session": "f77215a6-f70e-4a08-a17c-420935a6f9eb",
+  "acts": [
+    {
+      "at": "2026-11-10T14:17:24.481Z",
+      "section": "Decisions since the last session",
+      "position": 1,
+      "of": 9,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-11-10T13:38:57.952797696+00:00",
+      "kind": "ratify",
+      "id": "012d961f-1594-41c5-bd7f-abed085d2fcf",
+      "title": "Engine bindings published on npm from promoted releases"
+    },
+    {
+      "at": "2026-11-10T14:17:46.559Z",
+      "section": "Decisions since the last session",
+      "position": 2,
+      "of": 9,
+      "seen": [],
+      "updatedAt": "2026-11-10T13:37:29.382786403+00:00",
+      "kind": "ratify",
+      "id": "2df0a314-1ebb-493e-bad0-456ff1b9b55c",
+      "title": "An exercise closes once it has led somewhere"
+    },
+    {
+      "at": "2026-11-10T14:19:16.677Z",
+      "section": "Decisions since the last session",
+      "position": 3,
+      "of": 9,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-11-10T13:38:59.551721447+00:00",
+      "kind": "ratify",
+      "id": "6114cc72-0a21-4fb9-87a7-0bc08c9f513c",
+      "title": "Whole-outline replace keeps longest ordered run"
+    },
+    {
+      "at": "2026-11-10T14:19:30.478Z",
+      "section": "Decisions since the last session",
+      "position": 4,
+      "of": 9,
+      "seen": [],
+      "updatedAt": "2026-11-10T13:38:58.477701494+00:00",
+      "kind": "ratify",
+      "id": "7324ac6f-3aaa-4707-a008-4d213dc499ef",
+      "title": "Lifecycle states carry full substrate identity"
+    },
+    {
+      "at": "2026-11-10T14:19:45.883Z",
+      "section": "Decisions since the last session",
+      "position": 5,
+      "of": 9,
+      "seen": [],
+      "updatedAt": "2026-11-10T13:38:57.416157028+00:00",
+      "kind": "ratify",
+      "id": "7753b32f-e3ad-4e13-84ec-1834c5e461d5",
+      "title": "Container pointer writes refused when unresolved"
+    },
+    {
+      "at": "2026-11-10T14:20:01.984Z",
+      "section": "Decisions since the last session",
+      "position": 6,
+      "of": 9,
+      "seen": [],
+      "updatedAt": "2026-11-10T13:39:00.071777016+00:00",
+      "kind": "ratify",
+      "id": "83b841f1-5f56-4f20-b616-cc9e8b1177cb",
+      "title": "Composition renders select sections, never re-point them"
+    },
+    {
+      "at": "2026-11-10T14:20:06.468Z",
+      "section": "Decisions since the last session",
+      "position": 7,
+      "of": 9,
+      "seen": [],
+      "updatedAt": "2026-11-10T13:38:59.012688635+00:00",
+      "kind": "ratify",
+      "id": "90fe6c0d-44e2-416a-a89b-23a7cd63d9be",
+      "title": "Record duplication is one core service"
+    },
+    {
+      "at": "2026-11-10T14:20:19.848Z",
+      "section": "Decisions since the last session",
+      "position": 8,
+      "of": 9,
+      "seen": [],
+      "updatedAt": "2026-11-10T13:38:56.877593704+00:00",
+      "kind": "ratify",
+      "id": "e36be60a-fb4e-4a59-9803-191c65600766",
+      "title": "Conditional-forbidden rules share conditional-required's shape"
+    },
+    {
+      "at": "2026-11-10T14:20:26.863Z",
+      "section": "Decisions since the last session",
+      "position": 9,
+      "of": 9,
+      "seen": [],
+      "updatedAt": "2026-11-10T13:39:00.602439152+00:00",
+      "kind": "ratify",
+      "id": "f3f7308e-fe82-4d9e-94e3-f6830104184e",
+      "title": "Relation list reads show who asserted"
+    }
+  ],
+  "words": []
+}

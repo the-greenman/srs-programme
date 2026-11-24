@@ -1,0 +1,22 @@
+{
+  "instanceId": "b52d7603-6d23-45af-9b9b-43b97aab7692",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 7 vignettes from 5 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-22 · retells · \"We need to establish a good practice guide and set of examples for how to form decsions.\" (A good practice guide for forming decisions (2026-10-22))\n- 2026-10-22 · retells · \"decisions need to be formed correctly in order to mean something\" (Decisions formed correctly, a taxonomy through practice (2026-10-22))\n- 2026-10-30 · retells · \"Lets record a clear rationale. How would we tell whether we made the wrong decision or need to change?\" (Vignette 2026-10-30: a decision records its rationale and how we would know it was wrong)\n- 2026-10-30 · touches · \"We should make a decision only when we know what the options really are and the pros and cons.\" (Vignette 2026-10-30: the first iteration of a registry, lock down only the smallest piece)\n- 2026-11-03 · retells · \"No decision should just be a branch without a rationale.\" (Setting up work takes longer than the work; decisions need a case, not a branch (2026-11-03))\n- 2026-11-05 · touches · \"work to improve the quality of decision records\" (Owner: decisions are very hard to judge, so I tend to just click \"recommended\" (2026-11-05))\n- 2026-11-07 · touches · \"The axes may tend to work best on decisions. SRS and srs-rust should have a set of decision logs\" (Map the muSrs sources; the Systemic Data Ethics 4x3 map classified standards and GDPR; axes may work best on decisions, and srs and srs-rust have decision logs (2026-11-07))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:31.618726339+00:00",
+  "updatedAt": "2026-11-22T13:07:31.618730198+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

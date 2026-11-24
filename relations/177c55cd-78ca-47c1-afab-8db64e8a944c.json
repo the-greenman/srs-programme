@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "177c55cd-78ca-47c1-afab-8db64e8a944c",
+  "relationType": "evidences",
+  "sourceInstanceId": "37a31d5c-93c3-430e-9070-5bb6293399d4",
+  "targetInstanceId": "ad31f09f-3539-498f-b519-8bae91175676",
+  "createdAt": "2026-11-22T13:06:43.353469492+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"build a working, efficient, project level agent memory store that's better than markdown\""
+}

@@ -1,0 +1,22 @@
+{
+  "instanceId": "cd9e30f7-bbfc-48ec-b360-08168652da99",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 8 vignettes from 7 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-24 · retells · \"the connective tissue of the underlying context gets lost\" (The core working problem: speed without the bigger context (2026-10-24))\n- 2026-10-25 · touches · \"We can trace our refined records back to their context by doing this, and it will allow us to cross check\" (A chat opens a container: the narrative is the initial semantic layer (2026-10-25))\n- 2026-10-27 · touches · \"Semantic integrity is going to be directly related to navigability.\" (Navigability is semantic integrity; memory is layered and temporal; the dream cycle builds long-term memory by testing against scenarios (2026-10-27))\n- 2026-10-28 · touches · \"And not loose them in branches.\" (Decisions are scattered and lost in branches; do we need a decisions server? (2026-10-28))\n- 2026-10-29 · touches · \"I want to see if I can help his knowledge gathering with srs\" (Vignette 2026-10-29: helping knowledge gathering with SRS)\n- 2026-11-05 · touches · \"We don't want to destroy provenance.\" (2026-11-05: We don't want to destroy provenance)\n- 2026-11-06 · touches · \"The srs spec contains some rationale. But the conversation from early in the year was not available\" (The PDF for meaning is the project's foundation: the vignettes are recent, and the early conversation was not available to the agents (2026-11-06))\n- 2026-11-06 · touches · \"Mukti-user, federated, fractal, long term memory is an important part of the future\" (Vignette 2026-11-06: multi-user, federated, fractal, long-term memory is an important part of the future)",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:37.068049794+00:00",
+  "updatedAt": "2026-11-22T13:07:37.068053897+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

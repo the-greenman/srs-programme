@@ -12,8 +12,9 @@
     "blocking": "srs-rust#1505 cannot be promoted to ready; the srs-web helper (srs-web#607) and the muDemocracy copy stay in place.",
     "next_action": "Owner: confirm option A (record the 2026-10-28 ruling as a decision) or choose B. Recommendation: A, as stated on srs-web#607; the Steward records it, then the analyst promotes srs-rust#1505."
   },
+  "lifecycleState": "closed",
   "createdAt": "2026-11-04T12:17:21.964539639+00:00",
-  "updatedAt": "2026-11-04T12:17:21.964553642+00:00",
+  "updatedAt": "2026-11-10T13:39:14.503378089+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-analyst",

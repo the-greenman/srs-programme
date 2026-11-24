@@ -1,0 +1,19 @@
+{
+  "instanceId": "346e4083-6bb2-4897-9fc7-beb87f865920",
+  "typeId": "91bd6f8a-417c-4728-87d2-26991e451221",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "tension",
+  "fieldValues": {
+    "title": "Keep writing and check the claims",
+    "description": "Line 1 in Evidence-backed writing, refining the Stance line 'Action'. Whether the writer keeps getting the piece written and out, or stops to test each claim against the evidence and the agents' challenges."
+  },
+  "createdAt": "2026-11-10T13:41:16.903860582+00:00",
+  "updatedAt": "2026-11-10T13:41:16.903862560+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

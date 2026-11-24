@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "cefca61f-55c9-4135-9b94-5ad80762eb7a",
+  "relationType": "evidences",
+  "sourceInstanceId": "35c738dd-29a2-4b82-b6f6-daeca125b6c1",
+  "targetInstanceId": "7d094006-5380-4ff3-9f6e-4d64333b107c",
+  "createdAt": "2026-11-22T13:07:06.960468596+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"manage writing with their own words vs getting feedback on those words\""
+}

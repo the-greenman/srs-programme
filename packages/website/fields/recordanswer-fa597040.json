@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Use a bounded, intelligible answer; never invent a transcript."
+  },
+  "createdAt": "2026-09-14T17:07:39.415149801+00:00",
+  "description": "Worked-record answer.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "fa597040-9e48-4e1a-9588-2667bea70f78",
+  "name": "record_answer",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

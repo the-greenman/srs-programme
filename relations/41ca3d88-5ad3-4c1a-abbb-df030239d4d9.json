@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "41ca3d88-5ad3-4c1a-abbb-df030239d4d9",
+  "relationType": "evidences",
+  "sourceInstanceId": "24c38533-b35a-470a-bd78-42eca4bc0258",
+  "targetInstanceId": "61784feb-5c86-4175-bbd6-844f429f0c8e",
+  "createdAt": "2026-11-22T13:06:51.585127842+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"point someone to a url that will help them get started in a practical way\""
+}

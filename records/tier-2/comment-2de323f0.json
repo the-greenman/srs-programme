@@ -1,0 +1,22 @@
+{
+  "instanceId": "2de323f0-5621-492e-9ebe-e738d8825820",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** The record lists the re-foundings and what they lose. The vignettes give the owner's stance and the cure. 2026-10-27: 'We should not suddenly abandon yesterdays work because we got up in a different mood today.' 2026-10-28: 'Let's not scrap anything based on this comment. We gradually evolve shared understanding.' Mood is named as a trigger for re-founding, and gradual evolution is named as the alternative. The 2026-10-28 vignette also asks that dream time watch for such moments and test them, and that the function be carried rather than the content. The second vignette is a touch because it concerns the shared understanding of domains, not process re-founding. The record's catalogue already linked the first vignette.\n\n**Proposed.** Every few weeks the way work is driven is replaced whole, often on a passing mood or a single comment, and each re-founding loses what the last one learnt and leaves its labels, docs and copies behind. Shared understanding should evolve gradually, with what works carried forward.\n\n**Depth.** Two vignettes a day apart (2026-10-27, 2026-10-28), on different subjects (an ordering question, and the correction of a domain model), so the stance generalises. The record's own list of re-foundings runs from August to 2026-10-21, so the owner's position is stronger evidence than the instances.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:40.951483170+00:00",
+  "updatedAt": "2026-11-22T13:08:40.951486007+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

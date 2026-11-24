@@ -1,0 +1,50 @@
+{
+  "instanceId": "cebc45af-c6d7-47c7-a589-40e4a2543490",
+  "title": "Conversation 2026-11-03: decisions need a case; local models; a boundary is a domain",
+  "tags": [
+    "conversation",
+    "topic:affirmation",
+    "topic:axes",
+    "topic:boundaries",
+    "topic:compass",
+    "topic:control-room",
+    "topic:decision-review",
+    "topic:decisions",
+    "topic:domains",
+    "topic:essay-editor",
+    "topic:flow",
+    "topic:help",
+    "topic:kinds",
+    "topic:lenses",
+    "topic:local-models",
+    "topic:mozilla",
+    "topic:mudemocracy",
+    "topic:new-users",
+    "topic:onboarding",
+    "topic:owner-load",
+    "topic:read-view",
+    "topic:references",
+    "topic:reports",
+    "topic:roadmap",
+    "topic:sovereignty",
+    "topic:srs-web",
+    "topic:third-party-ready"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner on setup taking longer than the work, decisions needing a case and a review process, readable repositories, local models for housekeeping, a boundary and a domain being the same thing, and kinds of problem. This note is the conversation's identity record; the vignettes are the owner's words."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-10, gathering the vignettes of 2026-11-03 that sat in no conversation container (vignette ef16e77c); grouped by date."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

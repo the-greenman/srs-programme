@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "State the rhetorical job; do not write copy here."
+  },
+  "createdAt": "2026-09-14T17:07:38.312748213+00:00",
+  "description": "Reader-state change for this block.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "9772acd5-c431-4dec-a71f-531295d084d7",
+  "name": "meta_objective",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/view.json",
+  "aiGuidance": {
+    "purpose": "Binds these types to the site component DecisionRecordCard row. Hidden fields are not on the site: displayHint says whether a field is a brief, a setting or a key."
+  },
+  "compatibleTypes": [
+    "com.mudemocracy.website/homepage-decision-record-item"
+  ],
+  "createdAt": "2026-11-02T12:00:20Z",
+  "description": "One question and answer of a worked decision record.",
+  "exportConfig": {
+    "format": "markdown"
+  },
+  "fieldViews": [
+    {
+      "fieldId": "bee790d9-28e6-4e9f-9011-38b5109dabbf",
+      "order": 0,
+      "visible": true
+    },
+    {
+      "fieldId": "fa597040-9e48-4e1a-9588-2667bea70f78",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "displayHint": "key",
+      "fieldId": "ce797d19-0d62-4d25-9461-2070d87869a0",
+      "order": 2,
+      "visible": false
+    }
+  ],
+  "id": "8480c393-f233-4393-ad42-98475311cdbd",
+  "name": "decision-record-item-view",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

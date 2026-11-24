@@ -1,0 +1,77 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/view.json",
+  "aiGuidance": {
+    "purpose": "Binds these types to the site component Hero. Hidden fields are not on the site: displayHint says whether a field is a brief, a setting or a key."
+  },
+  "compatibleTypes": [
+    "com.mudemocracy.website/hero",
+    "com.mudemocracy.website/homepage-hero"
+  ],
+  "createdAt": "2026-11-02T12:00:20Z",
+  "description": "A page opening, drawn by the site's Hero component.",
+  "exportConfig": {
+    "format": "markdown"
+  },
+  "fieldViews": [
+    {
+      "fieldId": "7be1eac3-08be-408b-ac66-74baaac076a0",
+      "order": 0,
+      "visible": true
+    },
+    {
+      "fieldId": "3c11109b-37b1-42f6-9ec6-81dd876c2748",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "fieldId": "43d00955-41e2-4f15-9dfe-06e4d22d64b5",
+      "order": 2,
+      "visible": true
+    },
+    {
+      "fieldId": "204f2ac9-1563-4a52-a516-6ed9666e3193",
+      "order": 3,
+      "visible": true
+    },
+    {
+      "displayHint": "key",
+      "fieldId": "45fbb93a-fd8d-4df6-a028-81ac07de1d5e",
+      "order": 4,
+      "visible": false
+    },
+    {
+      "displayHint": "brief",
+      "fieldId": "9772acd5-c431-4dec-a71f-531295d084d7",
+      "order": 5,
+      "visible": false
+    },
+    {
+      "displayHint": "brief",
+      "fieldId": "2bf57b24-bd34-4e9a-a306-962aa3c62418",
+      "order": 6,
+      "visible": false
+    },
+    {
+      "displayHint": "brief",
+      "fieldId": "40527886-7a33-4328-b478-9352c6e116d6",
+      "order": 7,
+      "visible": false
+    },
+    {
+      "displayHint": "brief",
+      "fieldId": "acc4c3d9-adae-424b-86a8-5dafbb7d7682",
+      "order": 8,
+      "visible": false
+    },
+    {
+      "displayHint": "setting",
+      "fieldId": "6b684bcb-6551-4640-989e-0f797a70a073",
+      "order": 9,
+      "visible": false
+    }
+  ],
+  "id": "5eee2746-5c02-4ecd-a03e-e753cfaf0e85",
+  "name": "hero-view",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

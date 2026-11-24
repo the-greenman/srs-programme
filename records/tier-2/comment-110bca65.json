@@ -1,0 +1,22 @@
+{
+  "instanceId": "110bca65-dbee-498d-8676-3d743575dd99",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** Working habits: discarding one form of an essay and reusing parts for another, duplicating a paragraph and reordering versions, swapping paragraphs to test flow, and navigating between essays with shared paragraphs. Also a use: assisting with \"carefully researched funding bids\".\n\n**Proposed.** Writes complex, carefully researched essays and funding bids by drafting several forms, duplicating and reordering paragraphs to test flow, reusing parts across essays, and needing to move between essays that share paragraphs.\n\n**Depth.** Five vignettes, three retellings of the same drafting behaviour; this is the persona's best-evidenced trait. Dates not checked.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:28.537015111+00:00",
+  "updatedAt": "2026-11-22T13:08:28.537019530+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

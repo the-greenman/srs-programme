@@ -1,0 +1,22 @@
+{
+  "instanceId": "099fdcdb-0212-4b15-85be-1b781473bc31",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** The owner takes the opposite stance to the record's premise that writers want authoring: the editor limits the agent's ability to create the main paragraph text (73ae8761), so the human stays in charge of their meaning with AI supporting (24c38533). AI's creativity deepens the writing as a peer, but the final words stay human (af4b7e6c). The editor's audience are those wishing to hold onto their own words while working with AI, some of whom may still want to build with AI (35c738dd). The trust problem is therefore the split between writing in one's own words and getting feedback on them, with authoring for those who want it still open.\n\n**Proposed.** A writer who wants to keep their own words needs AI's depth without AI writing the final text, and a tool that lets AI draft takes control of the meaning away, which is very hard to win back. Some writers will still want an agent to draft, rewrite or merge, and a tool must serve both without treating one as the default.\n\n**Depth.** Four vignettes, 2026-11-03 to 2026-11-06, concentrated in one editor-purpose thread, though it is the owner's own position. The drafting-for-those-who-want-it half of the original rests on no vignette, so the record is now two-sided and should be re-checked against more personas.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:32.800132811+00:00",
+  "updatedAt": "2026-11-22T13:08:32.800137828+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

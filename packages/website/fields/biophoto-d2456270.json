@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "A path like /images/people/name.jpg. Never invent one: the file must exist in the site."
+  },
+  "createdAt": "2026-10-23T10:31:40.149172430+00:00",
+  "description": "Site path of the person's photo (public/images/people/, 600px square).",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "d2456270-f641-4177-ae67-6afa0bc13a2c",
+  "name": "bio_photo",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

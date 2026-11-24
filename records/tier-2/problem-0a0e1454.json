@@ -1,0 +1,32 @@
+{
+  "instanceId": "0a0e1454-18fd-4687-8a0b-a6d5db252295",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-167",
+    "title": "Dissent in agent decisions is lost before the revisit",
+    "statement": "When an agent reviewer dissents from a decision, or a builder accepts a review finding instead of fixing it, the disagreement is written only into a pull request comment or body. Nothing ties it to the decision it disagrees with, so when that decision's revisit trigger fires, I see the decision and its rationale but not the objections raised against it in operation, and I cannot tell whether the trigger was already being warned about.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme vignette 948ec7ef (the owner, 2026-11-10)",
+      "clerk/routines/wg-reviewer.md step 10 (dissent as one line of a quorum comment)",
+      "muDemocracy.org/reference/Delegation in historic small democracy.md (report-back element 5: dissent and minority views recorded)",
+      "the-greenman/transcribe#9 and #10 (review findings accepted as known limits, recorded only in the PR bodies)"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "topic:governance",
+    "topic:dissent"
+  ],
+  "createdAt": "2026-11-10T14:24:12.098+00:00",
+  "updatedAt": "2026-11-10T14:24:12.098+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

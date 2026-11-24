@@ -1,0 +1,28 @@
+{
+  "instanceId": "13101949-5340-4322-abfd-9dba6f73fef7",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-186",
+    "title": "No default size limit for repositories",
+    "statement": "A repository is not a place for big files, yet essay growth and attachments hit size limits and no shared default across clients limits them while keeping essay-to-evidence links.",
+    "kind": "condition",
+    "source_ref": [
+      "Dream 2026-11-22: recurs in vignettes on 2026-10-24, 2026-11-04"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:55.886064112+00:00",
+  "updatedAt": "2026-11-22T13:08:55.886065690+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

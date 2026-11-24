@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Use a lower-case hyphenated key."
+  },
+  "createdAt": "2026-09-14T17:07:38.980170407+00:00",
+  "description": "Stable identity for a feature card.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "bd4f93be-1093-4aae-9575-ba552d291276",
+  "name": "feature_key",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

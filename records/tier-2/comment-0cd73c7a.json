@@ -1,0 +1,22 @@
+{
+  "instanceId": "0cd73c7a-bd22-4d8f-8142-20adb4cc82aa",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 8 vignettes from 4 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- undated · touches · \"srs as a shared memory is that it is able to provide a decent map of semantic space\" (Vignette: sized models, dreamtime as synthetic mapping)\n- 2026-10-27 · retells · \"any agent should know about current active collections of knowledge\" (srs-context should hold the active collections of knowledge, kept light and navigable by dream time (2026-10-27))\n- 2026-10-27 · touches · \"Meaning also has a temporal element. Some information is valuable now, some in the long term.\" (Navigability is semantic integrity; memory is layered and temporal; the dream cycle builds long-term memory by testing against scenarios (2026-10-27))\n- 2026-10-30 · retells · \"build a working, efficient, project level agent memory store that's better than markdown\" (srs-context: a project agent memory better than markdown, kept by rule-governed dreams (2026-10-30))\n- 2026-10-30 · retells · \"This repo should act as our main agent shared memory. It shouldn't really get out of date.\" (srs-context must be memory agents can trust is current (2026-10-30))\n- 2026-10-30 · retells · \"Srs-context is intended to be the realtime practical agent memory.\" (Vignette 2026-10-30: where each kind of meaning lives)\n- 2026-10-30 · touches · \"Short term and long term memory are different things.\" (Vignette 2026-10-30: dreamtime is a standard element, short-term and long-term memory differ)\n- 2026-11-20 · touches · \"we have to have general environments where multiple models can access the same dataset simply\" (Vignette 2026-11-20: the baseline argument — wise use of AI needs the right system: layers that make small models native, shared owned data, ownership of meaning, decisions as the semantic act, muDemocracy as the same at group scale)",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:25.778952568+00:00",
+  "updatedAt": "2026-11-22T13:07:25.778957002+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

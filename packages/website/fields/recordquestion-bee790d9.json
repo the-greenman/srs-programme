@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Use the question exactly as a reader should encounter it."
+  },
+  "createdAt": "2026-09-14T17:07:39.349092011+00:00",
+  "description": "Visible worked-record question.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "bee790d9-28e6-4e9f-9011-38b5109dabbf",
+  "name": "record_question",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

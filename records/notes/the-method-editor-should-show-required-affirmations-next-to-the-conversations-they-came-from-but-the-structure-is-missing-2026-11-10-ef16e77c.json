@@ -1,0 +1,21 @@
+{
+  "instanceId": "ef16e77c-4b87-4ca5-9fd6-faed004504d7",
+  "title": "The method editor should show required affirmations next to the conversations they came from, but the structure is missing (2026-11-10)",
+  "tags": [
+    "vignette",
+    "topic:affirmation",
+    "topic:method-editor",
+    "topic:conversation-containers"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "srs-programme has a method editor that is supposed to be able to show requried affirmations next to the conversations that they came from. \n\nWe seem to be missing some of the needed structure for this to work"
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-10; recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

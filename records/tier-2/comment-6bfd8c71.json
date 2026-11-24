@@ -1,0 +1,22 @@
+{
+  "instanceId": "6bfd8c71-9c54-4cbf-aeee-39916755ccba",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** Help is a structural concern as well as copy: help should live with each feature ('keep features in a structure that means that they know about their own help'), cover things like the layers panel and 'explain indents', 'show how they were accessible in the ui', allow 'some way to ask your ai to teach you how to use it', and 'point someone to a url that will help them get started in a practical way'. Current help tells users to tell the agent to highlight in the UI.\n\n**Proposed.** Someone new to the editor meets concepts and tools that nothing explains in place, and help is not tied to the features it describes. They need practical, in-context help, including a way to ask their own AI to teach them, and a link that gets them started.\n\n**Depth.** 7 vignettes (2 retell, 5 touch); concern recurs in several forms. The persona is a first-time writer; some vignettes concern help in general, which may fit another persona. Dates not checked here.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:25.965175369+00:00",
+  "updatedAt": "2026-11-22T13:08:25.965185465+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

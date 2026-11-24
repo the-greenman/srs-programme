@@ -1,0 +1,22 @@
+{
+  "instanceId": "762769e3-68a1-4c86-938d-2e97b8b84926",
+  "title": "Vignette 2026-11-10: how affirmations work needs a clear open exercise",
+  "tags": [
+    "vignette",
+    "topic:affirmation",
+    "topic:exercise"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The rebel's question about the affirmation process is a very important one. We need to mainatian a clear open exercise about how affirmations work. There is a lot of conversation in the programme about them."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-10; recorded verbatim. Responds to the Rebel's question in the review of the six session-agenda exercises: 'Should affirming a record change its standing, or create a second record?' (duplicate domain pairs such as 346e323e / 3576be41 are a suggestion and its affirmed copy). Related vignette 993cfb4f."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

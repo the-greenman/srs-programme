@@ -1,0 +1,22 @@
+{
+  "instanceId": "17c072cf-0d40-4582-9882-26422cdf6574",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 2 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-28 · retells · \"lost in proposals that never reach a session\" (How do decisions keep staying drafts? The same decision comes back, lost in proposals that never reach a session (2026-10-28))\n- 2026-11-10 · touches · \"We keep loosing decisions becuase of this. Its a real bug\" (We keep losing decisions because a decision's status and its lifecycle disagree (2026-11-10))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:53.422297528+00:00",
+  "updatedAt": "2026-11-22T13:07:53.422300501+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

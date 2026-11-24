@@ -1,0 +1,41 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/view.json",
+  "aiGuidance": {
+    "purpose": "Binds these types to the site component FeatureGridBlock item. Hidden fields are not on the site: displayHint says whether a field is a brief, a setting or a key."
+  },
+  "compatibleTypes": [
+    "com.mudemocracy.website/homepage-feature"
+  ],
+  "createdAt": "2026-11-02T12:00:20Z",
+  "description": "One feature inside a feature group.",
+  "exportConfig": {
+    "format": "markdown"
+  },
+  "fieldViews": [
+    {
+      "fieldId": "9e8c3227-4d7b-405e-b048-e88696352970",
+      "order": 0,
+      "visible": true
+    },
+    {
+      "fieldId": "28e727e2-8f79-4eaa-9514-60e6f5825f9c",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "fieldId": "3cf91740-38ba-40de-bb06-af3ce1124e69",
+      "order": 2,
+      "visible": true
+    },
+    {
+      "displayHint": "key",
+      "fieldId": "bd4f93be-1093-4aae-9575-ba552d291276",
+      "order": 3,
+      "visible": false
+    }
+  ],
+  "id": "2c989e4a-abe3-40da-a429-3b9e28312984",
+  "name": "feature-view",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

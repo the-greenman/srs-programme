@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "59adbd52-bf32-4199-8a52-c66524814b84",
+  "relationType": "evidences",
+  "sourceInstanceId": "57b28da1-761c-4342-ba88-131a25008d88",
+  "targetInstanceId": "2651f2ad-a0ca-45fe-88dd-8271f4c81084",
+  "createdAt": "2026-11-22T13:06:38.979665127+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"This can be in the agent assisted editor domain (but it's aso third party ready in taht domain)\""
+}

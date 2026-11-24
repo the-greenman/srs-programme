@@ -1,0 +1,19 @@
+{
+  "instanceId": "7c963e02-6633-42d3-b602-3452eb260549",
+  "title": "2026-11-12 — Affirming a reference needs seeing the link (Greenman)",
+  "tags": [
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "greenman-1",
+      "label": "Greenman — 2026-11-12",
+      "content": "I can't really reivew the attached references. There is no way to preview a reference. I can't see where it is linked to. Clicking on the book icon opens a pinned thing far away. i need to see what is linked to what and be able to see the link before I can reliably affirm"
+    },
+    {
+      "name": "context",
+      "content": "Said while reviewing the 113 paragraph-to-reference links about to be published with the essay 'Rebuilding Small Democracy' (muDemocracy.org#489), of which only one had been answered. The missing concept: affirmation acts on a link (this source backs this paragraph), so the writer must see both ends and the link itself. Commented on srs-web#787."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

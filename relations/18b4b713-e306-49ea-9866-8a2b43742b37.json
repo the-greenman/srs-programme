@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "18b4b713-e306-49ea-9866-8a2b43742b37",
+  "relationType": "evidences",
+  "sourceInstanceId": "7e87af63-6d64-42cd-a0bd-4e729ff7e383",
+  "targetInstanceId": "200614e2-4881-4343-b363-e131dfce0e85",
+  "createdAt": "2026-11-22T13:06:50.401736287+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"different websites would have their own packages.\""
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation-type.json",
+  "category": "association",
+  "createdAt": "2026-09-14T17:08:39.751489496+00:00",
+  "description": "A homepage section presents a public-facing projection of the target supporting record. It may simplify language for readers but must preserve the target’s scope, counter-claims, and epistemic posture.",
+  "id": "f4358083-6af0-4150-b087-b7990f1e958d",
+  "key": "projects",
+  "label": "Projects",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

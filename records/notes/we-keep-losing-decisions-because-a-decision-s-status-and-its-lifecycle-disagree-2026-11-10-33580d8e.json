@@ -1,0 +1,21 @@
+{
+  "instanceId": "33580d8e-6200-4efe-9ea1-5ba6eb07ba76",
+  "title": "We keep losing decisions because a decision's status and its lifecycle disagree (2026-11-10)",
+  "tags": [
+    "vignette",
+    "topic:decisions",
+    "topic:lost-work",
+    "topic:sessions"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "yes, We keep loosing decisions becuase of this. Its a real bug"
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-10, on being told that 13 decisions sit in lifecycle draft (some with status proposed) where no session agenda can see them, and 38 ratified decisions still read status proposed. Recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

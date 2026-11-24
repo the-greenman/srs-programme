@@ -1,0 +1,41 @@
+{
+  "instanceId": "d7f433cd-db6d-4587-9d3c-2cd837c086a8",
+  "title": "Conversation 2026-11-05: transcripts, judging decisions, and muDemocracy infrastructure",
+  "tags": [
+    "conversation",
+    "topic:addressability",
+    "topic:decisions",
+    "topic:essay-editor",
+    "topic:essays",
+    "topic:flow",
+    "topic:help",
+    "topic:load-speed",
+    "topic:local-models",
+    "topic:mudemocracy",
+    "topic:onboarding",
+    "topic:registration",
+    "topic:registry",
+    "topic:relay",
+    "topic:sovereignty",
+    "topic:srs-web",
+    "topic:transcripts",
+    "topic:tss"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner on the essay editor and human agency, load progress, where transcripts live, why decisions are hard to judge, and the infrastructure and pages behind muDemocracy. This note is the conversation's identity record; the vignettes are the owner's words."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-10, gathering the vignettes of 2026-11-05 that sat in no conversation container (vignette ef16e77c); grouped by date."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,23 @@
+{
+  "instanceId": "25860549-2e97-4019-aa9a-03f47b153a94",
+  "title": "Meetings and minutes are a governance domain (2026-11-09)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:transcripts",
+    "topic:domains"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "This is a governance domain."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-09, answering where problems SP-158 (minutes cannot point at the words they came from) and SP-156 (a group's meetings cannot enter its own corpus without a hand step) belong, after finding them held by no persona-in-domain (vignette 19dec106). Recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

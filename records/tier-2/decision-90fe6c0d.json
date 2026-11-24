@@ -1,0 +1,34 @@
+{
+  "instanceId": "90fe6c0d-44e2-416a-a89b-23a7cd63d9be",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Record duplication is one core service",
+    "decision_question": "Where should record duplication (a successor with copied values, metadata and selected relations) live: once in the core, or in each client?",
+    "context": "Record duplication exists in two clients: srs-web `src/lib/record-duplication.ts` (srs-web#607) and the muDemocracy site editor `site-editor/src/model.ts` (muDemocracy.org#379). The core has `record fork` and `container copy`; neither does this. srs-web#607 asked the owner to choose between (a) a core `record duplicate` service and closing the PR, (b) a stopgap TS helper in `$lib`, or (c) nothing. The owner ruled on 2026-10-28, verbatim: \"Owner decision (2026-10-28): option (b), as a tracked stopgap. #607 merges as an explicitly temporary `$lib` helper, so the muDemocracy site editor can move onto srs-web main (that unblocks muDemocracy.org#391). An srs-rust core service, `record duplicate` (core + CLI + WASM), replaces it, and the helper is removed once that binding ships. This PR gets its CI fixed (Biome import order and format, the E2E timeout) and a header comment marking the helper temporary, citing the srs-rust issue.\" Source: https://github.com/the-greenman/srs-web/pull/607#issuecomment-6474806539. srs-rust#1505 is shaped for that service and cites the comment as its Ruling. Decision 4445b9cf (a decision already taken is cited, never asked again) and 0b1c25b1 (an owner ruling written anywhere else is recorded as a decision before it is cited) require this step: this record is that step.",
+    "friction": "srs-rust#1505 cannot be promoted to ready group work because its only ruling is a thread comment, and the service adds a CLI command, a payload struct and a WASM binding, which no srs-rust ADR can carry alone. Meanwhile the duplication logic stays in two clients and drifts.",
+    "alternatives_considered": "1. Record the ruling: duplication is one core service (core, CLI, WASM) and client helpers are temporary (chosen). Leads to: srs-rust#1505 becomes ready work and both editors converge on the binding. 2. Make duplication a mode of `record fork`: one way per goal, but fork's successor and replacement semantics may conflict with a copy that replaces nothing; leads to a flag, not a command, and needs evidence that fork's replacement can be switched off cleanly. 3. Leave duplication in the clients until a third client needs it: no core work, but the meaning stays reimplemented per client (SP-05) and diverges. 4. Do nothing: the ruling stays an uncited thread comment and #1505 stays blocked.",
+    "key_requirements": "Capabilities live once in the core and clients add presentation only (capability layering). The srs-web helper is explicitly temporary and is removed when the binding ships. Which relations are recreated is chosen by the caller, none by default. Whether the service is a separate command or a mode of `record fork` is not decided here. A client-side duplicate helper (srs-web#607, the muDemocracy copy) is a tracked stopgap, removed once the binding ships; that is the temporary half of the owner's ruling and not part of the standing rule.",
+    "decision_statement": "Record duplication is implemented once in the core and exposed through the CLI and WASM.",
+    "rationale": "Capability layering already requires every capability to live once in the core; duplication is such a capability, and two client copies already exist. The owner accepted a stopgap only to unblock the site editor, not as the end state. Recording the choice makes the replacement work citable and schedulable.",
+    "revisit_when": "The core service cannot express duplication without giving `record fork` a second meaning; or a client needs duplication behaviour the shared service cannot parameterise; or the stopgap helper is still in place a long time after the binding ships.",
+    "next_steps": "After affirmation: promote srs-rust#1505 to ready, and file the removal of the srs-web helper and the muDemocracy copy once the binding ships.",
+    "owner": "Programme owner",
+    "status": "proposed",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "ratified",
+  "tags": [
+    "suggestion",
+    "topic:ruling"
+  ],
+  "createdAt": "2026-11-10T13:38:58.878550719+00:00",
+  "updatedAt": "2026-11-10T14:20:37.422234522+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

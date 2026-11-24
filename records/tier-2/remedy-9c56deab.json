@@ -1,0 +1,27 @@
+{
+  "instanceId": "9c56deab-e4e9-4ec8-87eb-6318e5d5119b",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Every working group has a review date, and its report proposes its own future",
+    "move": "A group's charter carries a review date. At that date the cycle report proposes renew, amend, merge or lay down, with reasons, and the owner session receives it as a decision, so the set of groups is reviewed one group at a time and the structure is revised iteratively rather than redesigned. For agent seats the review is of the mandate (brief, prompt, model), not rotation of the seat (vignette cb6c5175).",
+    "does_not_fix": "It does not say what the right groups are. It does not by itself reduce the cost of running groups (SP for routines cost, 5959f5fb), though laying a group down is one way to.",
+    "falsifier": "Every review comes back 'renew, unchanged' for several rounds; or reviews pile up unreceived, which is the pause rule's silence at a slower pace.",
+    "source_ref": [
+      "srs-programme vignette 948ec7ef (the owner, 2026-11-10)",
+      "muDemocracy.org/reference/Delegation in historic small democracy.md (Quaker laying down; QFP appointment minutes with term and end date; report-back element 8)",
+      "clerk/docs/handbook.md, Working groups and delegation"
+    ],
+    "return_when": "There is only one working group, or groups are short-lived by design."
+  },
+  "tags": [
+    "suggested",
+    "topic:governance",
+    "topic:delegation"
+  ],
+  "createdAt": "2026-11-10T13:00:43.611817810+00:00",
+  "updatedAt": "2026-11-10T13:00:43.611819421+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

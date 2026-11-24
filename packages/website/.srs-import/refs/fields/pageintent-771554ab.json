@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Describe the page job before writing public copy."
+  },
+  "createdAt": "2026-09-14T17:07:38.065122512+00:00",
+  "description": "The reader change the page is designed to make.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "771554ab-2578-453e-8342-ed3f736b4239",
+  "name": "page_intent",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

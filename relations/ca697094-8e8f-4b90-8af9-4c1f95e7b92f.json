@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "ca697094-8e8f-4b90-8af9-4c1f95e7b92f",
+  "relationType": "evidences",
+  "sourceInstanceId": "2dae3dd1-431f-4c94-a36b-88cc768964b5",
+  "targetInstanceId": "92a06409-21a3-442e-a76f-cc87372bc9f2",
+  "createdAt": "2026-11-22T13:06:42.838964003+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"We record vignettes that are semantically relevant. Not just commands.\""
+}

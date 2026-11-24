@@ -1,0 +1,29 @@
+{
+  "instanceId": "6fb54698-f0f0-4210-864a-3973957c81a4",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Derived records keep refining after affirmation",
+    "decision_question": "Once a domain, problem or persona is affirmed, can it still change as understanding grows?",
+    "context": "Affirmation forks a suggestion into an Affirmed copy that the owner adopts. 304 of 313 affirmed records are such copies (affirmation thread bf123f5c). Decision 9d50126b already holds that confidence grades care and does not gate work. The owner, 2026-11-22: 'Affirmation is a freezing of this definition... And may not always be wanted... The affirmed versions may need to be superceeded as our understanding grows, but if we only allow the affirmed copies to exist we may miss the refined points.'",
+    "friction": "An affirmed copy is a frozen definition. When dreams deepen the context around it, the refinement has nowhere to go: editing the affirmed copy rewrites the owner's act, and leaving the suggestion copy to drift splits one meaning across two records. Refined points are lost or duplicated.",
+    "alternatives_considered": "A. Affirmed copies are final; change needs a new suggestion and a new affirmation (today's practice; every refinement waits on the owner). B. Dreams edit affirmed records in place (loses what the owner affirmed). C. Refine by succession: the refined record supersedes the earlier version, affirmed or not, and the affirmed version stays as the record of what was frozen and when (chosen here). D. Drop affirmation entirely (loses the human tip where it is worth having).",
+    "key_requirements": "What the owner affirmed stays readable as it was. A refinement is traceable to the vignettes that prompted it. Affirmation stays available where a frozen definition is worth having, and is not required for a record to be used.",
+    "decision_statement": "A record derived from vignettes is refined by succession as its context grows, whether or not it was affirmed.",
+    "rationale": "Understanding keeps growing after any affirmation, and succession is the mechanism SRS already keeps for exactly this (supersedes, with the old record preserved). It lets the model stay current without overwriting the owner's act and without making the owner's attention the gate on every refinement.",
+    "revisit_when": "A successor to an affirmed record is later judged by the owner to have lost something the affirmed version held, or affirmed records are superseded so often that affirming them stops meaning anything.",
+    "owner": "Owner",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "proposed",
+  "tags": [
+    "suggested",
+    "topic:dreams",
+    "topic:affirmation"
+  ],
+  "createdAt": "2026-11-22T12:41:51.040952470+00:00",
+  "updatedAt": "2026-11-22T12:41:51.040954509+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

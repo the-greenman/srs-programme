@@ -1,0 +1,22 @@
+{
+  "instanceId": "5ad44f81-b0e5-4420-81ea-e174f537e62b",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 6 vignettes from 5 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-27 · touches · \"how do we navigatethe meaning stored in a repository is one of the essential jobs that srs needs to be able to perform\" (Navigating the meaning stored in a repository is an essential job of SRS (2026-10-27))\n- 2026-10-28 · touches · \"I need my spec to be agent readable. That's kind of the point of srs.\" (The spec must be agent readable: that is the point of SRS (2026-10-28))\n- 2026-10-28 · touches · \"The spec should not contain discussion around why the spec if as it is, it should just contain what is needed to use the spec.\" (The spec carries only what is needed to use it; the unified file carries the rationale (2026-10-28))\n- 2026-10-30 · touches · \"Addressability and federation are pretty foundational for srs\" (Vignette 2026-10-30: the address is core, a citation across repositories may need a mirror)\n- 2026-11-03 · touches · \"SRS implementation traces to Semantic records\" (A boundary and a domain are essentially the same thing (2026-11-03))\n- 2026-11-06 · touches · \"This is why SRS has an ai guideance element - and why we have blueprints and protocols as part of the core.\" (SRS provides a semantic framework, then we pull in the words: why AI guidance, blueprints and protocols are in the core (2026-11-06))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:52.164691685+00:00",
+  "updatedAt": "2026-11-22T13:07:52.164694952+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "A short slug; never shown."
+  },
+  "createdAt": "2026-10-19T11:31:30Z",
+  "description": "Stable key of a question within its FAQ group.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "eb1af15a-28ac-4df4-ba73-8425039bfa24",
+  "name": "faq_item_key",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

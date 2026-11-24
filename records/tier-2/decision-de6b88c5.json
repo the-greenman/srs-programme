@@ -1,0 +1,33 @@
+{
+  "instanceId": "de6b88c5-4b10-4793-8cf7-d84d463ce4a0",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Escalation: may the group merge a Door 3 revision that only executes a ratified ruling?",
+    "decision_question": "Five Door 3 revisions of Accepted RFCs, each executing an owner ruling already ratified, were escalated by the reviewer this cycle. Should the group be allowed to merge a Door 3 revision whose only content is the text of a recorded ruling, or does every Door 3 stay the owner's merge?",
+    "context": "Problem: srs#1033 (RFC-038 R18), #1034 (RFC-043 R13), #1035 (RFC-051 R16), #1036 (RFC-019 R7) and #1037 (RFC-006 R9) each write into an Accepted RFC the meaning the owner already ratified (decisions ba478783, 7753b32f, 6114cc72, e36be60a, 7324ac6f). The reviewer escalated all five on the boundary and set gate:owner-merge. Gates are green on those checked; no one disputes a ruling.\nWhy it matters: the owner's act each time is only to merge words they already chose, so the owner's attention goes to transcription while real judgement waits (four older decisions are unanswered). Delegating it would also remove the owner's last look at what normative text says, where a builder's wording could drift from the ruling.\nOptions and consequences: (a) keep every Door 3 as the owner's merge: safest, five merges to make now and the pattern repeats; (b) allow the group to merge a Door 3 only when the PR cites a ratified ruling, the reviewer confirms the text adds no meaning beyond it, and the PR is labelled gate:auto-merge: clears the queue, and the owner's check moves to the ruling, with the risk that the wording drifts; (c) (b) for one RFC family or a trial of 30 days, then review.\nRecommendation: (c), because it tests the trust cheaply and the owner can end it. Until ruled, (a) holds and the five PRs wait for the owner.\nAction needed: decide. Urgency: low, since each PR can simply be merged.\nAnswers: SP-02 \"Rulings are made but never executed\"",
+    "friction": "The boundary treats a Door 3 as new meaning, but these five carry none: the meaning was ratified in a separate session. The rule cannot tell an execution from an amendment, so every one reaches the owner.",
+    "alternatives_considered": "(a) every Door 3 stays the owner's merge. (b) a Door 3 that executes a ratified ruling is delegated, with reviewer confirmation that it adds nothing beyond the ruling. (c) (b) as a 30-day trial, reviewed by the owner.",
+    "key_requirements": "srs CLAUDE.md puts Door 3 under gate:owner-merge; the group role boundary names Door 2 and 3. Any change amends the role's standing orders and so needs an owner decision. The ruling must be cited by id and the diff must stay inside it.",
+    "decision_statement": "A Door 3 revision that only executes a ratified ruling, cites its id, and is confirmed by the reviewer to add no meaning, may carry gate:auto-merge, for a trial of 30 days.",
+    "rationale": "It keeps the owner's judgement where it is exercised, at the ruling, and removes a repeated transcription merge, while an end date keeps the owner in control.",
+    "revisit_when": "After 30 days, or the first time a merged Door 3 is found to say more than its ruling.",
+    "next_steps": "Owner rules in a session. If (c) or (b), the owner amends the role boundary and srs CLAUDE.md; until then the five PRs wait for the owner's merge.",
+    "status": "proposed",
+    "decision_kind": "boundary"
+  },
+  "lifecycleState": "proposed",
+  "tags": [
+    "boundary:door-3-delegation"
+  ],
+  "createdAt": "2026-11-14T11:35:28.560879528+00:00",
+  "updatedAt": "2026-11-14T11:36:01.258993678+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

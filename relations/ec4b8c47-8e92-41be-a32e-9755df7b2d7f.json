@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "ec4b8c47-8e92-41be-a32e-9755df7b2d7f",
+  "relationType": "evidences",
+  "sourceInstanceId": "88d0b37d-f459-4d76-9446-62bc52e44b00",
+  "targetInstanceId": "95a0efbc-07de-4c72-aa1f-0150a445fcbc",
+  "createdAt": "2026-11-22T13:06:27.542478606+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"A domain defines the tensions, and a working group holds our strategy for approaching it.\""
+}

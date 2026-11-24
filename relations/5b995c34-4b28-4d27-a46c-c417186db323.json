@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "5b995c34-4b28-4d27-a46c-c417186db323",
+  "relationType": "evidences",
+  "sourceInstanceId": "771f6306-d046-42ba-9dc2-61dae990b4bc",
+  "targetInstanceId": "2651f2ad-a0ca-45fe-88dd-8271f4c81084",
+  "createdAt": "2026-11-22T13:06:39.983187761+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"I need to be able to expand or preview a draft paragraph without restoring it.\""
+}

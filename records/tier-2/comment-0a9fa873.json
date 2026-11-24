@@ -1,0 +1,22 @@
+{
+  "instanceId": "0a9fa873-6b65-4857-9c97-942bc4f0ac49",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 1 vignette from 1 day to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-26 · touches · \"I need to be able to maintain a conversation with multiple agents.\" (A conversation with many agents needs to show what changed (2026-10-26))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:07:47.947325313+00:00",
+  "updatedAt": "2026-11-22T13:07:47.947329298+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

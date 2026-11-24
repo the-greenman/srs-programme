@@ -1,0 +1,23 @@
+{
+  "instanceId": "cb6c5175-2c0b-43d7-bc55-063a0acc46bd",
+  "title": "Agents don't need rotating seats: a different process from humans (2026-11-10)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:governance",
+    "topic:delegation"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Our agents don't have to worry about rotating seats. Its a slightly different process to dealing with humans there ;-)"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-10, answering the gap map of the programme's delegation against the anatomy in ~/dev/muDemocracy.org/reference/Delegation in historic small democracy.md, which listed no term, end date or rotation for working-group seats (vignette 45a49561). The first recorded divergence between the internal mirror (agents) and the external one (people). Recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

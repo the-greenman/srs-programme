@@ -1,0 +1,22 @@
+{
+  "instanceId": "54913c54-7674-4b44-855b-97fd4707cdf6",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** Beyond one-way inheritance: domains can overlap on different dimensions (\"Domains can refine, they can also overlap. They can also overlap on different dimensions.\"), base poles carry through all domains refined and renamed, maps are always relative to a domain, and a domain may be cloned with only some parts broken off, sharing the rest (\"Lots may be shared. But not all.\").\n\n**Proposed.** A domain does not inherit the base axes and poles, and cannot be cloned or overlapped with another so that some meaning is shared and some broken off. Each persona-in-domain and axis-in-domain is copied by hand, so inheritance is an uneven convention.\n\n**Depth.** Five vignettes, two retellings; the statement's refine case is confirmed and extended to overlap and clone. Dates not checked.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:29.383645891+00:00",
+  "updatedAt": "2026-11-22T13:08:29.383650137+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

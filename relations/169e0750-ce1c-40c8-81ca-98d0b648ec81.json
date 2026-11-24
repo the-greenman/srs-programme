@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "169e0750-ce1c-40c8-81ca-98d0b648ec81",
+  "relationType": "evidences",
+  "sourceInstanceId": "213f49ee-d3b5-4bbc-aaf9-22b1ddb018cb",
+  "targetInstanceId": "c4425452-c131-44ba-ae8a-e7d20ddc8559",
+  "createdAt": "2026-11-22T13:06:50.904533194+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"I need to be able to get the compass used properly to manage decisions.\""
+}

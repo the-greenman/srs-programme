@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Name the public subject in plain language, or omit it."
+  },
+  "createdAt": "2026-09-14T17:07:38.736232357+00:00",
+  "description": "Optional visible section heading.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "a0a3c18e-de7f-46b1-a9f9-a05f30aa823b",
+  "name": "section_heading",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

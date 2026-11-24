@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "1c346aa8-5b6e-439e-bf4b-9c32533d858f",
+  "relationType": "evidences",
+  "sourceInstanceId": "2ad1b8d8-b578-4b33-8494-245fb7128d4a",
+  "targetInstanceId": "40586d36-c101-433b-bfa0-80fc367e3f07",
+  "createdAt": "2026-11-22T13:07:15.766907591+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"we are not defining the domains with enough clarity to be useful\""
+}

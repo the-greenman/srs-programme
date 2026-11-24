@@ -1,0 +1,48 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/view.json",
+  "aiGuidance": {
+    "purpose": "Binds these types to the site component the page shell (title, meta description). Hidden fields are not on the site: displayHint says whether a field is a brief, a setting or a key."
+  },
+  "compatibleTypes": [
+    "com.mudemocracy.website/homepage"
+  ],
+  "createdAt": "2026-11-02T12:00:20Z",
+  "description": "A page: its title and meta description are shown; its brief stays in the editor.",
+  "exportConfig": {
+    "format": "markdown"
+  },
+  "fieldViews": [
+    {
+      "fieldId": "ea10cb6a-7a33-4b95-a13f-db8304e1a125",
+      "order": 0,
+      "visible": true
+    },
+    {
+      "fieldId": "771554ab-2578-453e-8342-ed3f736b4239",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "displayHint": "key",
+      "fieldId": "b8d5620d-9284-46f4-a1b3-a5c97c6b14cb",
+      "order": 2,
+      "visible": false
+    },
+    {
+      "displayHint": "brief",
+      "fieldId": "d326cf4a-fcfe-4ca4-b676-740a6e23c2cf",
+      "order": 3,
+      "visible": false
+    },
+    {
+      "displayHint": "brief",
+      "fieldId": "bcd90b37-3d90-49ae-bb03-72f301072116",
+      "order": 4,
+      "visible": false
+    }
+  ],
+  "id": "f19f9400-8769-42c2-8d88-526703d4bdb1",
+  "name": "page-view",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

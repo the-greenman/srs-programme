@@ -1,0 +1,31 @@
+{
+  "instanceId": "a74bf3c4-737e-4e4a-8475-1fc409a51574",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Prototype, 2026-11-22: two repositories share a vocabulary package, and no stored link crosses between them",
+    "summary": "A body of written work was split into two repositories that install one shared vocabulary package. The package and its checked dependency worked. Every attempt to store a link from a record in one repository to a record in the other was refused. The only reference that crosses the boundary today is an id written in prose, which nothing checks.",
+    "evidence": [
+      "A third repository holds the vocabulary: three fields, two types (concept, work) and two relation types. `srs package export` wrote it as one bundle of 7 definitions.",
+      "`srs package install` then `srs package dependency add` in each of the two content repositories reported the dependency `satisfied: true`. `repo validate` gave 0 errors in both.",
+      "`relation create` in one repository with a target record in the other was refused: code `relation-validation`, 'relation-endpoint-unknown: target instance not found in repository'.",
+      "`slice export` of the target record works, but `repo merge-preview --from` that slice in the other repository was refused: `merge-repository-mismatch`, 'only copies of the same repository can be merged'.",
+      "`record fork` on a foreign record id answers 'is not a Tier 2 record; only records can be forked'. The true cause is that the id is not in this repository.",
+      "A text field holding the other repository's id and the record's id is accepted. It is not validated and no tool follows it.",
+      "One registry file and one `srs mcp serve --registry` process served both repositories and answered `initialize`. Tools were not exercised through it.",
+      "Run with the CLI only, on 10 concept records with 10 relations and 3 work records. The single-repository layout was not built, so its side of the comparison is inferred."
+    ],
+    "body": "## What was tried\n\nA writer's connected body of work has a core set of concepts and many smaller works that apply them. Two layouts were compared. In layout A everything lives in one repository. In layout B the core concepts are one repository, the smaller works are another, and both install one vocabulary package.\n\nLayout B was built. Layout A was not.\n\n## What held\n\nSharing definitions works now. One package, exported once, installed in two repositories, with a dependency each repository checks. Both repositories then mean the same thing by `concept` and by `applies`. One server can serve both for reading.\n\n## What did not\n\nThe point of a cross-referenced body of work is the reference. A work that applies a concept needs an `applies` relation to it. In layout B that relation cannot be stored, because the concept is in the other repository. Three routes were tried and each was refused. What is left is a prose pointer.\n\nSo in layout B the question 'which works apply this concept' has no answer from `neighbours`, and validation cannot see a pointer that has gone stale.\n\n## What it says about the open exercise\n\nThis is one case for the exercise 'Is any cross-repository graph needed before RFC-049 is accepted?' (5621c3da). Addressing alone does not cover it: both repositories were addressable through one server, and the link still could not be stored. The case needs the second step of the ratified order (decision 31e9fd27), a relation whose endpoint is in another repository.\n\nUntil then the practical rule is: records that must link to each other live in one repository. Split by repository only where the parts do not need stored links, and share the vocabulary by package."
+  },
+  "tags": [
+    "suggestion",
+    "status:open",
+    "topic:cross-repository",
+    "topic:greenmans-creation"
+  ],
+  "createdAt": "2026-11-22T09:03:56.590062520+00:00",
+  "updatedAt": "2026-11-22T09:03:56.590064551+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

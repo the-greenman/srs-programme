@@ -1,0 +1,27 @@
+{
+  "instanceId": "7f1d0f86-27fd-488e-9827-8795818f985c",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-152",
+    "title": "A reader's agent cannot tell from an essay's link how to connect",
+    "statement": "I read the final presentation, and now I want to question it more deeply through an agent. I would paste the file url into my agent and expect it to advise me on connecting and setting up an MCP server. The connection steps we have today assume the writer's situation: the essay open in a browser tab, then the Agents panel and a pairing code. Nothing tells an agent that was handed only the file's url what the file is or how to help me reach it.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme vignettes f32cc637 and 13ddec89 (the owner, 2026-11-04)",
+      "srs-web main 8b2fedb, public/llms.txt: pairing is described from an open tab",
+      "srs-web#701: a Dropbox or Drive share link is an HTML page, not the file",
+      "Sibling: SP-123, an agent pointed at the published specification cannot read it"
+    ]
+  },
+  "createdAt": "2026-11-10T13:06:07.724+00:00",
+  "updatedAt": "2026-11-10T13:06:07.724+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "github:the-greenman",
+    "name": "Greenman"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,26 @@
+{
+  "instanceId": "07f50160-6451-4ad2-be42-92b1c7b7eb49",
+  "title": "Owner: a generic site editor with the smallest extension layer; a repository's rules as scripts that check it",
+  "tags": [
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "the ask",
+      "content": "\"So, lets look at what we can actually do to build a generic site editor that can be extended. We can do an app.mudemocracy or run a local site editor - but it should be built on the same codebase with the smallest possible extension layer. Could we allow a set of rules to be defined and played back? Could we allow for extensions? Could we get by with a custom style sheet?\""
+    },
+    {
+      "name": "on preview",
+      "content": "\"Creating a site that draws will require a standard framework to define the interaction. We have not defiend any such thing,. So, we can build an experimental pipeline, but the default has to just be best attempt theming in the editor\""
+    },
+    {
+      "name": "on rules",
+      "content": "\"Lets evaluate when/why we may want to create these kinds of rules for a repo. We ahve been using then because we started with code. Can we just set them up as a script that lets us check the repo?\""
+    },
+    {
+      "name": "context",
+      "content": "2026-11-12, after the ruling that srs-web holds only generic code for public packages (vignette 5aab4a38). Plan: hidden-cuddling-hare (theme as data, best-attempt drawing, host table, repository checks as one `npm run check` in the repository, B2 re-planned to its generic part, a site-drawn preview only as an experiment behind a flag). A rule moves into SRS core only when a second repository needs it or an editor must show it while editing."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

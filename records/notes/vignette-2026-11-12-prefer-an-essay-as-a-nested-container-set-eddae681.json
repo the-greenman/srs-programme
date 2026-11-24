@@ -1,0 +1,23 @@
+{
+  "instanceId": "eddae681-b042-43e3-af8f-19f8f88865fc",
+  "title": "Vignette 2026-11-12: prefer an essay as a nested container set",
+  "tags": [
+    "vignette",
+    "topic:essay",
+    "topic:containers",
+    "topic:export"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Owner, 2026-11-12, after being shown the essay's current container layout and a wrapper design (the essay's paragraphs, draft, bin, comments, references and threads as declared children of one unguarded wrapper container that is exported): \"I would prefer to move to an essay as a nested container set\""
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-12; recorded verbatim. Follows vignette d289156c; concerns decision 42fcc319 and srs-web#634."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

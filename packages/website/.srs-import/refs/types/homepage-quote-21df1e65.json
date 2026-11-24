@@ -1,0 +1,36 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "aiGuidance": {
+    "purpose": "Use a verified quotation to illuminate a point already made by the argument. Never use it as a substitute for evidence."
+  },
+  "createdAt": "2026-09-14T17:08:18.953661197+00:00",
+  "description": "An optional attributed quotation block.",
+  "extendsTypeId": "03de48d7-f3b5-45da-89c7-7718e4e80d58",
+  "extendsTypeVersion": 1,
+  "fieldOrder": [
+    "45fbb93a-fd8d-4df6-a028-81ac07de1d5e",
+    "9772acd5-c431-4dec-a71f-531295d084d7",
+    "2bf57b24-bd34-4e9a-a306-962aa3c62418",
+    "40527886-7a33-4328-b478-9352c6e116d6",
+    "acc4c3d9-adae-424b-86a8-5dafbb7d7682",
+    "92adcada-f75e-41b1-856e-31ca2e21033a",
+    "f3445277-2e20-41d8-8785-a963edbc28d7"
+  ],
+  "fields": [
+    {
+      "fieldId": "92adcada-f75e-41b1-856e-31ca2e21033a",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "f3445277-2e20-41d8-8785-a963edbc28d7",
+      "order": 2,
+      "required": false
+    }
+  ],
+  "id": "21df1e65-f244-4c42-97ca-442360f5ba7e",
+  "identityFieldId": "45fbb93a-fd8d-4df6-a028-81ac07de1d5e",
+  "name": "homepage-quote",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Name the primary human reader and their situation; do not use a marketing segment."
+  },
+  "createdAt": "2026-09-14T17:07:38.125886423+00:00",
+  "description": "Primary reader and situation.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "d326cf4a-fcfe-4ca4-b676-740a6e23c2cf",
+  "name": "primary_audience",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

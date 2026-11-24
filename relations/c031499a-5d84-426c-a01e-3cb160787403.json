@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "c031499a-5d84-426c-a01e-3cb160787403",
+  "relationType": "evidences",
+  "sourceInstanceId": "13ddec89-180e-4178-a52b-e73729e77133",
+  "targetInstanceId": "5a7efc6e-d555-4f55-acb7-12743081d572",
+  "createdAt": "2026-11-22T13:06:53.280119536+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"paste the file url into an agent, and it should be able to provide advice to the user on how to connect and set up an mcp server\""
+}

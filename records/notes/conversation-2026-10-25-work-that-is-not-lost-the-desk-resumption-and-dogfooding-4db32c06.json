@@ -1,0 +1,37 @@
+{
+  "instanceId": "4db32c06-9e63-48b5-b0f4-8b4f0536fbbe",
+  "title": "Conversation 2026-10-25: work that is not lost: the desk, resumption and dogfooding",
+  "tags": [
+    "conversation",
+    "topic:affirmation",
+    "topic:authority",
+    "topic:axes",
+    "topic:decisions",
+    "topic:desk",
+    "topic:dogfood",
+    "topic:flow",
+    "topic:lost-work",
+    "topic:placement",
+    "topic:programme",
+    "topic:resumption",
+    "topic:routing",
+    "topic:type-versions"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner on work lost in chat windows, finding active work at the desk, defining work as tested tasks, routing work to working groups, auto-merging the programme and pre-approving the clerk#197 dogfood sequence. This note is the conversation's identity record; the vignettes are the owner's words."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-10, gathering the vignettes of 2026-10-25 that sat in no conversation container (vignette ef16e77c); grouped by date."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

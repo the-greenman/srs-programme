@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Use a short stable key such as home. Never derive it from volatile public wording."
+  },
+  "createdAt": "2026-09-14T17:07:37.931531352+00:00",
+  "description": "Stable page identity.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "b8d5620d-9284-46f4-a1b3-a5c97c6b14cb",
+  "name": "page_key",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

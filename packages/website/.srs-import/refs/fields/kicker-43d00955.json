@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "A few words that turn the headline toward the reader; not a sentence of argument."
+  },
+  "createdAt": "2026-10-19T11:52:33Z",
+  "description": "A short line under the headline that frames it, set larger than body copy.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "43d00955-41e2-4f15-9dfe-06e4d22d64b5",
+  "name": "kicker",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

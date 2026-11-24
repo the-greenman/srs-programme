@@ -1,0 +1,23 @@
+{
+  "instanceId": "45a49561-38e9-4dbd-ad33-9dca7be565fc",
+  "title": "Governance is managing the delegation structure; the internal and external mirror (2026-11-10)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:governance",
+    "topic:delegation"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "/home/greenman/dev/muDemocracy.org/reference/Delegation in historic small democracy.md\n\nHere's more for the governance group. \nGovernance is about managing the delegation structure. \nThe srs-programme has a technical crossover for delegated decision making for agents and working groups. \n\nHow do we manage the internal and external mirror ?"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-10, the day after suggesting the domain 'Group governance: meetings, minutes and decisions' (4022e722, vignette 25860549). The reference file is ~/dev/muDemocracy.org/reference/Delegation in historic small democracy.md. Recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

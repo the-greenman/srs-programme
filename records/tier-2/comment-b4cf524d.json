@@ -1,0 +1,22 @@
+{
+  "instanceId": "b4cf524d-1f74-45eb-9145-74ea9dde43c9",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 2 vignettes from 1 day to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-10-30 · touches · \"Flag. We need to do a review regularly to see what we should do\" (Dreams flag rules; a regular review decides what to do (2026-10-30))\n- 2026-10-30 · touches · \"Our dream rules should be recorded there where relevant.\" (Record the dream rules in the research notes on human readability and dreamtime (2026-10-30))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:00.611216427+00:00",
+  "updatedAt": "2026-11-22T13:08:00.611219391+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

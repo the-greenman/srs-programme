@@ -1,0 +1,16 @@
+{
+  "instanceId": "08d01c7b-9383-440b-b925-47f173e86284",
+  "typeId": "c2ec9c8a-b36b-4b19-940f-374b338e30a6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "epic",
+  "fieldValues": {
+    "title": "Structured discovery and indexes that stay current",
+    "issue_ref": [
+      "srs#726"
+    ]
+  },
+  "createdAt": "2026-11-21T17:57:57.056340208+00:00",
+  "updatedAt": "2026-11-21T17:57:57.056342119+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

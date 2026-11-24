@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "The name the person goes by. A label, not a claim."
+  },
+  "createdAt": "2026-10-23T10:31:40.060974694+00:00",
+  "description": "The person's name, as shown on their bio card.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "b230d787-8023-4b57-85fe-30ecb3e955c1",
+  "name": "bio_name",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

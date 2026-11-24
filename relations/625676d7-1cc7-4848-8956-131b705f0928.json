@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "625676d7-1cc7-4848-8956-131b705f0928",
+  "relationType": "evidences",
+  "sourceInstanceId": "2652e201-82d3-4334-8857-9aac932838e7",
+  "targetInstanceId": "afd98d95-9f0a-47b3-aa1e-dc3daa1870ba",
+  "createdAt": "2026-11-22T13:06:26.670127755+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · retells · \"Does the programme register why we have ordered things as they are?\""
+}

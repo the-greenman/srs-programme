@@ -1,0 +1,22 @@
+{
+  "instanceId": "f7e6bda4-96ec-4dd1-b497-6d2e8d0ab9a2",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** The need moves from per-record readability to a human-readable view of change across the repository, tied to merging. 07833bd2: 'We need to be able to present a useful view of what has changed.' 40f77b44: the remedy is 'a clear human readable diff of what has actually changed'. 5a95b823: 'A human needs to be able to see what has changed, and there has to be a realistic way to review how to merge.'\n\n**Proposed.** A person cannot see what has actually changed in a record or a repository, so they cannot review it or decide how to merge it. Review of meaning degrades to trust.\n\n**Depth.** Three vignettes on 2026-10-29 (one day, following one another); all retell the same need and name the same remedy. Recurrence over time is still thin.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:36.657268288+00:00",
+  "updatedAt": "2026-11-22T13:08:36.657272885+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

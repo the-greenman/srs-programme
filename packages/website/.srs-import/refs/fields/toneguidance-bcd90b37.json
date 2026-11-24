@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "State public voice and prohibitions that copy must preserve."
+  },
+  "createdAt": "2026-09-14T17:07:38.187019140+00:00",
+  "description": "Voice constraints for the page.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "bcd90b37-3d90-49ae-bb03-72f301072116",
+  "name": "tone_guidance",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

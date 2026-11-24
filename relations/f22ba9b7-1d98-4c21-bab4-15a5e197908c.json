@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "f22ba9b7-1d98-4c21-bab4-15a5e197908c",
+  "relationType": "evidences",
+  "sourceInstanceId": "66c8883f-7d8e-4150-beb0-84b7122072d9",
+  "targetInstanceId": "7063a8d7-c51f-4777-a978-9b4c5d382448",
+  "createdAt": "2026-11-22T13:06:51.931018790+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"If we have got a dedicated editor/lens for the current context, can we present it as a more obvious\""
+}

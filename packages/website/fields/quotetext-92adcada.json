@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Use only a verified quotation; never use it as primary evidence."
+  },
+  "createdAt": "2026-09-14T17:07:39.476175020+00:00",
+  "description": "Attributed quotation.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "92adcada-f75e-41b1-856e-31ca2e21033a",
+  "name": "quote_text",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

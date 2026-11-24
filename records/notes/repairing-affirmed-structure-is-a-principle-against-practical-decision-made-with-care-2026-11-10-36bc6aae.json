@@ -1,0 +1,21 @@
+{
+  "instanceId": "36bc6aae-1253-458c-be43-3c9e9ab5d22f",
+  "title": "Repairing affirmed structure is a principle against practical decision, made with care (2026-11-10)",
+  "tags": [
+    "vignette",
+    "topic:affirmation",
+    "topic:decisions",
+    "topic:tensions"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "content": "Lets lay this decision out correctly in our format.\n\nThis feels like a principle <> practical decision that we should make with care"
+    },
+    {
+      "name": "source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-10, on the question raised by srs-programme#536: whether an agent may fork a suggested pole into Affirmed when the owner has affirmed its tension but never saw the pole. Recorded verbatim."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

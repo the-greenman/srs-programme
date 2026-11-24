@@ -18,7 +18,7 @@
     "status": "proposed",
     "decision_kind": "policy"
   },
-  "lifecycleState": "draft",
+  "lifecycleState": "proposed",
   "tags": [
     "suggestion",
     "topic:domain-definition",
@@ -26,6 +26,6 @@
     "topic:dreamtime"
   ],
   "createdAt": "2026-11-07T14:43:27.193232535+00:00",
-  "updatedAt": "2026-11-07T14:43:27.193234745+00:00",
+  "updatedAt": "2026-11-12T19:54:49.930766810+00:00",
   "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
 }

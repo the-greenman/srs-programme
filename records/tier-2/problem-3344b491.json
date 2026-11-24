@@ -1,0 +1,25 @@
+{
+  "instanceId": "3344b491-0c69-492a-8ce6-522409b4d1c2",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-172",
+    "title": "Two records can carry the same key and nothing notices",
+    "statement": "When I hold reference data as records (64 hexagrams, each with its number), nothing in SRS lets me say a field is a key for its type. Two records with the same number both validate, so a data error stays in the repository until someone happens to see it. A type's identity field only chooses the record's heading.",
+    "kind": "capability",
+    "source_ref": [
+      "greenmans_creation:workspace/_meta/datasets/hexagrams.json.md (Displacement and Skinning both numbered 49; Displacement is 43)",
+      "srs:docs/schema/2.0/type.json identityFieldId (display only, Rules N+33 to N+37)"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "topic:datasets",
+    "topic:interactive-report"
+  ],
+  "createdAt": "2026-11-22T10:58:44.623090601+00:00",
+  "updatedAt": "2026-11-22T10:58:44.623092734+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

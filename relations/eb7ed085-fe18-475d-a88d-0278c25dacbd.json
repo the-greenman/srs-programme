@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "eb7ed085-fe18-475d-a88d-0278c25dacbd",
+  "relationType": "evidences",
+  "sourceInstanceId": "eba4f8b1-e1e2-4019-b865-12371408fa9d",
+  "targetInstanceId": "8e866224-a9d7-4ea6-a598-2bdd46c8cb5d",
+  "createdAt": "2026-11-14T11:36:27.016441767+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  }
+}

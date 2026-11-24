@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "43be5b37-6859-4e20-bec6-7e28a72e1bf2",
+  "relationType": "evidences",
+  "sourceInstanceId": "690b6447-dd92-46aa-a657-bdab0ce7e558",
+  "targetInstanceId": "f9fef3c3-f5ea-458a-a288-ff6b8fdd5d83",
+  "createdAt": "2026-11-22T13:06:44.842293187+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"We have recently spent time discussing how to structure a repo for humans.\""
+}

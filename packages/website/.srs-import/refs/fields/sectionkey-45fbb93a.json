@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Use a lower-case hyphenated identity such as ground or learn-the-practice."
+  },
+  "createdAt": "2026-09-14T17:07:38.251209319+00:00",
+  "description": "Stable key for this homepage block.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "45fbb93a-fd8d-4df6-a028-81ac07de1d5e",
+  "name": "section_key",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

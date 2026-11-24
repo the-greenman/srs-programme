@@ -1,0 +1,46 @@
+{
+  "session": "ec9c12dd-97a8-4816-b9ea-a3f0d20a7675",
+  "acts": [
+    {
+      "at": "2026-11-10T13:10:25.511Z",
+      "section": "Reports",
+      "position": 1,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "8f8b89ec-d57d-486c-bfac-64fe92747246",
+      "title": "WG Agent-supported editor report 2026-11-09"
+    },
+    {
+      "at": "2026-11-10T13:10:27.587Z",
+      "section": "Reports",
+      "position": 2,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "909f5420-4617-4dcc-89f7-1a83b56d3226",
+      "title": "WG Agent-supported editor report 2026-11-10"
+    },
+    {
+      "at": "2026-11-10T13:10:30.759Z",
+      "section": "Reports",
+      "position": 3,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "e7012a82-61d7-4c52-902b-753cb17c3b30",
+      "title": "WG Third-party ready report 2026-11-09"
+    },
+    {
+      "at": "2026-11-10T13:10:33.219Z",
+      "section": "Reports",
+      "position": 4,
+      "of": 4,
+      "seen": [],
+      "kind": "receive",
+      "id": "1045a321-fee1-486d-813b-4a9ac9250212",
+      "title": "WG Third-party ready report 2026-11-10"
+    }
+  ],
+  "words": []
+}

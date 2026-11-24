@@ -1,0 +1,14 @@
+{
+  "instanceId": "439b890f-15e8-49f7-90c8-d409fa9f83b4",
+  "title": "Conversation 2026-11-12: Publishing the theory-of-change essay, and reviewing references before affirming",
+  "tags": [
+    "conversation"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "content": "Owner and Claude Code took the muDemocracy essay 'Rebuilding Small Democracy' (muSrs 7da63d85) to a public 1.0: fact-checked it against the chain 'μ.democracy theory of change' (85c4e452), added the six-question checklist, gathered evidence, and published it at mudemocracy.org/ideas/rebuilding-small-democracy (muDemocracy.org#488, #489). Reviewing the references before publishing exposed that the essay editor gives no way to see a reference, or what it is linked to, before affirming it."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

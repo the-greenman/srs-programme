@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "9a03b73d-7648-4286-9048-b9c875fdaaf6",
+  "relationType": "evidences",
+  "sourceInstanceId": "5dba4711-ea72-4504-ac27-53fc302d651e",
+  "targetInstanceId": "bf992d06-d56a-4675-85e4-e5a5b9966122",
+  "createdAt": "2026-11-22T13:06:54.617726895+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "notes": "Dream 2026-11-22 · touches · \"what does a viewer need to see\""
+}

@@ -1,0 +1,22 @@
+{
+  "instanceId": "8aa4183b-b622-4ee8-bc08-06d89028477a",
+  "title": "Vignette 2026-11-20: SRS programme, the essay container and other repos show us learning how the system works",
+  "tags": [
+    "vignette",
+    "topic:real-examples",
+    "topic:site-copy"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "SRS programme, essay container and other repos show us learning how the system works"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in conversation with Claude Code, 2026-11-20; recorded verbatim. Said while asking whether semanticops.com would benefit from SRS architecture examples."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

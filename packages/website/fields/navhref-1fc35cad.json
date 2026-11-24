@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Only for routes the site renders in code. A menu item for a muSrs page leaves this empty and uses the page instead, so its address follows page_key."
+  },
+  "createdAt": "2026-11-04T09:12:28.014294679+00:00",
+  "description": "Where a menu item goes when it is not a muSrs page: a code route such as /guides.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "1fc35cad-961d-4219-829b-718a159faede",
+  "name": "nav_href",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

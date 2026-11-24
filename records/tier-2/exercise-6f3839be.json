@@ -12,8 +12,9 @@
     "blocking": "srs-rust#819 cannot be promoted to ready, and SP-79 yields no other ruling-backed work: the release and install items (srs-rust#1516, #1517) are closed.",
     "next_action": "The owner chooses A, B or C (or names the package and policy) in a session; the choice is recorded as a decision, and the analyst then shapes srs-rust#819 as Door 1 work under semanticops.com#31."
   },
+  "lifecycleState": "closed",
   "createdAt": "2026-11-06T12:18:18.583208539+00:00",
-  "updatedAt": "2026-11-06T12:18:18.583220632+00:00",
+  "updatedAt": "2026-11-10T13:39:14.008426442+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-analyst",

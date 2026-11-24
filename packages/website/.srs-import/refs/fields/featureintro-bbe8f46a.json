@@ -1,0 +1,15 @@
+{
+  "aiGuidance": {
+    "purpose": "Set up a small practical route without repeating feature cards."
+  },
+  "createdAt": "2026-09-14T17:07:38.920106555+00:00",
+  "description": "Optional feature-group introduction.",
+  "fieldType": {
+    "datatype": "string",
+    "format": "plain"
+  },
+  "id": "bbe8f46a-4390-46b2-b0db-49c7bd75b207",
+  "name": "feature_intro",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

@@ -1,0 +1,28 @@
+{
+  "instanceId": "f5b142c8-7b42-4377-b01e-906aed5b9b39",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-180",
+    "title": "Repo checks block editor-saved work",
+    "statement": "Checks written for code-era repositories go red or block when I save evolving essays and claims in the editor, and neither the editor's authors nor its agents know the checks exist.",
+    "kind": "condition",
+    "source_ref": [
+      "Dream 2026-11-22: recurs in vignettes on 2026-11-02, undated"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:50.270439751+00:00",
+  "updatedAt": "2026-11-22T13:08:50.270444013+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,28 @@
+{
+  "instanceId": "b4738926-78f3-4854-bf5b-0c0b7457ee34",
+  "title": "A shared paragraph's master always lives in the oldest owning essay; diverging is \"Make a local copy\" (2026-11-10)",
+  "tags": [
+    "vignette",
+    "topic:essay-editor",
+    "topic:srs-web",
+    "ruling"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "label": "The owner's words",
+      "content": "3. \"Make a local copy\"\n Yes, the a paragraph master always lives in the oldest owning essay\n\n4. Good next pass\n\nSeparate window read only is a good next step"
+    },
+    {
+      "name": "context",
+      "label": "Context",
+      "content": "Answering Claude Code's proposal in the same conversation: the shared-paragraph marker opens a panel naming the original and every essay that holds the paragraph, with an explicit divergence button; hover previews for notes and references with keep/deny on the card; and a read-only open-in-new-tab for a note or source before a live companion window (srs-web#426)."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Claude Code session, 2026-11-10."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

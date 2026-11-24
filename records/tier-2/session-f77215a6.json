@@ -1,0 +1,29 @@
+{
+  "instanceId": "f77215a6-f70e-4a08-a17c-420935a6f9eb",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-11-10 14:16 UTC: SemanticOps",
+    "held_at": "2026-11-10T14:16:13Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-11-10 14:16 UTC: SemanticOps\nAttendees: Owner\n- Ratified: Engine bindings published on npm from promoted releases [012d961f]\n- Ratified: An exercise closes once it has led somewhere [2df0a314]\n- Ratified: Whole-outline replace keeps longest ordered run [6114cc72]\n- Ratified: Lifecycle states carry full substrate identity [7324ac6f]\n- Ratified: Container pointer writes refused when unresolved [7753b32f]\n- Ratified: Composition renders select sections, never re-point them [83b841f1]\n- Ratified: Record duplication is one core service [90fe6c0d]\n- Ratified: Conditional-forbidden rules share conditional-required's shape [e36be60a]\n- Ratified: Relation list reads show who asserted [f3f7308e]\nActs in the order taken (UTC):\n- 14:17:24Z ratify: Engine bindings published on npm from promoted releases [012d961f] (Decisions since the last session 1 of 9, saw full record, record updated 2026-11-10T13:38:57.952797696+00:00)\n- 14:17:46Z ratify: An exercise closes once it has led somewhere [2df0a314] (Decisions since the last session 2 of 9, record updated 2026-11-10T13:37:29.382786403+00:00)\n- 14:19:16Z ratify: Whole-outline replace keeps longest ordered run [6114cc72] (Decisions since the last session 3 of 9, saw full record, record updated 2026-11-10T13:38:59.551721447+00:00)\n- 14:19:30Z ratify: Lifecycle states carry full substrate identity [7324ac6f] (Decisions since the last session 4 of 9, record updated 2026-11-10T13:38:58.477701494+00:00)\n- 14:19:45Z ratify: Container pointer writes refused when unresolved [7753b32f] (Decisions since the last session 5 of 9, record updated 2026-11-10T13:38:57.416157028+00:00)\n- 14:20:01Z ratify: Composition renders select sections, never re-point them [83b841f1] (Decisions since the last session 6 of 9, record updated 2026-11-10T13:39:00.071777016+00:00)\n- 14:20:06Z ratify: Record duplication is one core service [90fe6c0d] (Decisions since the last session 7 of 9, record updated 2026-11-10T13:38:59.012688635+00:00)\n- 14:20:19Z ratify: Conditional-forbidden rules share conditional-required's shape [e36be60a] (Decisions since the last session 8 of 9, record updated 2026-11-10T13:38:56.877593704+00:00)\n- 14:20:26Z ratify: Relation list reads show who asserted [f3f7308e] (Decisions since the last session 9 of 9, record updated 2026-11-10T13:39:00.602439152+00:00)"
+  },
+  "createdAt": "2026-11-10T14:20:34.913129539+00:00",
+  "updatedAt": "2026-11-10T14:20:34.913134126+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "1c5e73d1-64e3-4780-988b-3b5e0b647edb",
+      "sourceRole": "attaches"
+    }
+  ]
+}

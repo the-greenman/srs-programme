@@ -1,0 +1,22 @@
+{
+  "instanceId": "8e57dd92-401e-4e3b-9093-0ca4ed99b848",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: sharpen.\n\n**What the vignettes add.** ac5974c6: once navigation is settled 'it should not completely rearrange itself... it should evolve in a consistent manner automatically, with only significant redesigns coming up for PR', and navigation exists so 'a human [can] find and navigate the content'. c8b12a7b ties navigability to semantic integrity ('If we cannot find the information... we are not achieving the goal of Srs which is transferring meaning'). 2ad1b8d8 says dream-found boundaries are valid 'as long as we know where the boundaries came from'. The record has no persona linked.\n\n**Proposed.** As a repository grows its navigation either never gets revisited or gets rearranged wholesale, so people cannot find what has been learnt. I need settled structure to stay stable and to evolve consistently on its own, with only significant redesigns coming up for review.\n\n**Depth.** Three vignettes over 2026-10-27 to 2026-11-07; recurs across navigation, memory and boundary themes. No persona is linked, which is a gap to fill (the person who navigates a repository, plus the owner who reviews redesigns).  The 11-07 vignette is only a touch.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:35.801362138+00:00",
+  "updatedAt": "2026-11-22T13:08:35.801366397+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

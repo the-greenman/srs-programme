@@ -1,0 +1,31 @@
+{
+  "instanceId": "ea34118d-2fbf-48d7-8bc8-b7e6d54f999c",
+  "title": "Conversation 2026-11-10: governance as delegation, and how affirmation works",
+  "tags": [
+    "conversation",
+    "topic:affirmation",
+    "topic:agent-stances",
+    "topic:delegation",
+    "topic:dissent",
+    "topic:exercise",
+    "topic:governance",
+    "topic:research"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "The owner on governance as managing the delegation structure, agents not needing rotating seats, recording dissent, and exercises as open discussions, including how affirmation works. This note is the conversation's identity record; the vignettes are the owner's words."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "Opened by Claude Code, 2026-11-10, gathering the vignettes of 2026-11-10 that sat in no conversation container (vignette ef16e77c); grouped by date."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

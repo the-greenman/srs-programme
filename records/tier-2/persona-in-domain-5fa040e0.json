@@ -1,0 +1,33 @@
+{
+  "instanceId": "5fa040e0-0f22-4b4c-a244-605b38288065",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Clerk in Group governance",
+    "summary": "The person who takes the minutes in a group's meeting and keeps its record of decisions afterwards: muDemocracy's clerk, the persona most of its governance problems name.",
+    "goals": [
+      "The minutes say what the group decided, in its own words",
+      "Every decision can be traced to the moment it was made",
+      "Nothing decided in the meeting is lost or misremembered",
+      "The record stays the group's, not a platform's"
+    ],
+    "jobs": [
+      "Take minutes while the meeting runs",
+      "Notice when the group has decided something",
+      "Point a minute at the words it came from",
+      "Bring a meeting into the group's corpus without retyping it",
+      "Keep the decision log current after the meeting"
+    ],
+    "needs": "To hear and follow the meeting while writing; help that proposes but never decides for them; a record that stays local and in the group's hands."
+  },
+  "tags": [
+    "suggested",
+    "topic:governance",
+    "topic:transcripts"
+  ],
+  "createdAt": "2026-11-09T17:59:22.437745759+00:00",
+  "updatedAt": "2026-11-09T17:59:22.437747443+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

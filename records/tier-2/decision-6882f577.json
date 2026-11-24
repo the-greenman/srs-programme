@@ -1,0 +1,31 @@
+{
+  "instanceId": "6882f577-b0ff-4474-89ee-c64f9bcbfa19",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Structured findings for record validate and container validate (srs-rust#1339 remainder)",
+    "decision_question": "Where do the structured findings of `record validate` and `container validate` go, and who defines their codes?",
+    "context": "Problem: srs-rust#1339 has landed 13 additive slices (diagnosticsStructured beside the text list). Two surfaces remain: `record validate` (`RecordValidateReport.errors: Vec<String>`, record_store.rs) and `container validate` (container_service.rs), where typed ValidationErrors are flattened into strings. Their typed errors carry no stable code taxonomy yet, so a builder cannot add a Diagnostic {severity, code, message, instanceId?} without inventing codes and a payload shape, which is a contract ruling (decision 0b1c25b1).\nWhy it matters: editors (srs-web, srs-vscode) preflight a whole document with `record validate` and must branch on the failure kind; today they parse English. Until these two surfaces carry codes, issue #1339 cannot close and the text lists cannot be retired (#1496).\nOptions and consequences: (1) add `diagnosticsStructured` beside `errors` on both reports, same shape as the other thirteen slices (one way per goal, additive, needs a code taxonomy for ValidationError); (2) carry the findings in the ok:false envelope's `errors: [ErrorReport]` (ADR-053), which needs codes and details per ValidationError variant and changes where clients look; (3) do nothing, leaving the two surfaces text-only and #1339 open.\nRecommendation: option 1.\nAction needed: ratify option 1 and the rule that each ValidationError variant gets one kebab-case code, defined once in srs-repository.\nUrgency: low; no client is blocked, the issue stays open and the group moves to other work.",
+    "friction": "Every other payload on #1339 now carries diagnosticsStructured; these two cannot follow without a shape and code ruling, so the issue has been re-offered to the builder for many runs with nothing left that is inside the mandate (slice 13 report, 2026-11-14).",
+    "alternatives_considered": "1. Add diagnosticsStructured beside errors on RecordValidateReport and the container validate payload, with one kebab-case code per ValidationError variant (recommended). Opens: closing #1339, then #1496 retiring the text lists. Shuts: nothing, additive. Serves: one way per goal, clients branch on codes. 2. Carry findings in the ok:false envelope errors [ErrorReport] (ADR-053): no new field, but clients look in a second place and ErrorReport has no severity. Shuts: a warning-level finding. 3. Do nothing: two surfaces stay text-only, #1339 stays open and keeps being re-offered.",
+    "key_requirements": "Codes defined once in srs-repository, stable, kebab-case, reusing names the validate-time rules already carry (for example container-pointer-unresolved). The text list stays unchanged until #1496. Payload goldens regenerated.",
+    "decision_statement": "Add diagnosticsStructured beside the unchanged errors list on record validate and container validate, one kebab-case code per ValidationError variant, defined once in srs-repository.",
+    "rationale": "It repeats the shape already shipped on thirteen surfaces (decision bf4a5af5), is additive and reversible, and keeps one place for clients to look.",
+    "revisit_when": "ADR-053 ErrorReport gains a severity, or #1496 retires the text lists.",
+    "next_steps": "On ratification the builder takes record validate and container validate as two slices, citing this decision as the ruling, and closes #1339.",
+    "owner": "Programme owner",
+    "status": "proposed",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-11-15T00:13:39.883938389+00:00",
+  "updatedAt": "2026-11-15T00:13:44.880279697+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

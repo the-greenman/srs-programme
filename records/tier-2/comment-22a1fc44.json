@@ -1,0 +1,22 @@
+{
+  "instanceId": "22a1fc44-432b-454e-bad3-3ab971dc2324",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 linked 3 vignettes from 2 days to this record as evidence. Agree if they belong here; disagree to have a later dream drop them.\n\n- 2026-11-05 · touches · \"holding transcripts as SRS records in a separate repository\" (Is SRS a bit too heavy as a standard for transcripts? (2026-11-05))\n- 2026-11-05 · touches · \"where its transcript should live\" (A repo just for transcripts, addressable, because muSrs is already big (2026-11-05))\n- 2026-11-09 · retells · \"I will hold a meeting and click transcribe.\" (Live transcription into the governance editor: one file in a basic standard, a background agent flags decisions, set up as a holon (2026-11-09))",
+    "kind": "evidence"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:11.996842475+00:00",
+  "updatedAt": "2026-11-22T13:08:11.996845680+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

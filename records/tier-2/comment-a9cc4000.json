@@ -1,0 +1,22 @@
+{
+  "instanceId": "a9cc4000-d900-46c1-85ae-46c649332533",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Dream 2026-11-22 suggests a refinement: broaden.\n\n**What the vignettes add.** The pointing runs both ways and is specific, not just focus awareness. 35e35dd2: 'I need to be able to point at a specific element... In reverse, I also need an agent to be able to point at something specific', with comments highlighting specific words and each comment linked to its highlight. 8146f8f6 adds an agent highlighting a UI component. 179ab139 adds that agents must see what changed so they do not 'distract with details in areas that are not the current focus'.\n\n**Proposed.** The writer and the agents cannot point at the same thing: an agent can only learn where the writer is working by polling, and neither side can single out a specific paragraph or word for the other. Help arrives about the wrong thing at the wrong time, and general comments replace direct ones.\n\n**Depth.** Three vignettes on 2026-10-26 and 2026-10-29; the pointing concern recurs in both directions (writer to agent, agent to writer, agent to UI). The 10-26 vignette is about change visibility and only touches this problem.\n\nIf you agree, the change is made by succession: a successor that supersedes this record, which stays as it is.",
+    "kind": "suggestion"
+  },
+  "tags": [
+    "dream"
+  ],
+  "createdAt": "2026-11-22T13:08:35.367079641+00:00",
+  "updatedAt": "2026-11-22T13:08:35.367083806+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:programme-dream",
+    "name": "Programme dream"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

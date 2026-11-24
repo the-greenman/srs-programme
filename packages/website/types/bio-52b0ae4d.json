@@ -1,0 +1,36 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/type.json",
+  "createdAt": "2026-10-23T10:31:40.230394454+00:00",
+  "description": "A person on a page: photo, name, role and a line or two of bio. Consecutive bios render as one grid.",
+  "fields": [
+    {
+      "fieldId": "2446c2f7-38de-4ae4-858b-2bc13ba87493",
+      "order": 1,
+      "required": true
+    },
+    {
+      "fieldId": "b230d787-8023-4b57-85fe-30ecb3e955c1",
+      "order": 2,
+      "required": true
+    },
+    {
+      "fieldId": "7bc84f28-c758-4d7f-b91b-f4f01a5741e8",
+      "order": 3,
+      "required": false
+    },
+    {
+      "fieldId": "d2456270-f641-4177-ae67-6afa0bc13a2c",
+      "order": 4,
+      "required": false
+    },
+    {
+      "fieldId": "ad073964-6bb3-4564-a7ff-296950fb42dd",
+      "order": 5,
+      "required": false
+    }
+  ],
+  "id": "52b0ae4d-5379-4b74-bb32-4a79e472ef2c",
+  "name": "bio",
+  "namespace": "com.mudemocracy.website",
+  "version": 1
+}

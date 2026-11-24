@@ -1,0 +1,33 @@
+{
+  "instanceId": "5023b60b-ea73-43ac-b3ea-28cb340591e0",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Clerk in Group governance",
+    "summary": "The person who takes the minutes in a group's meeting and keeps its record of decisions afterwards: muDemocracy's clerk, the persona most of its governance problems name.",
+    "goals": [
+      "The minutes say what the group decided, in its own words",
+      "Every decision can be traced to the moment it was made",
+      "Nothing decided in the meeting is lost or misremembered",
+      "The record stays the group's, not a platform's"
+    ],
+    "jobs": [
+      "Take minutes while the meeting runs",
+      "Notice when the group has decided something",
+      "Point a minute at the words it came from",
+      "Bring a meeting into the group's corpus without retyping it",
+      "Keep the decision log current after the meeting"
+    ],
+    "needs": "To hear and follow the meeting while writing; help that proposes but never decides for them; a record that stays local and in the group's hands."
+  },
+  "createdAt": "2026-11-10T13:38:41.730768462+00:00",
+  "updatedAt": "2026-11-10T13:38:41.730770205+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

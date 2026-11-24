@@ -12,8 +12,9 @@
     "blocking": "The RFC-051 correction revision, marking RFC-051 Implemented, and closing srs#940 and srs-rust#1414 (all six sub-issues closed).",
     "next_action": "Owner: confirm option A. Recommendation: A; the Steward records the decision, the analyst files the correction revision as group work."
   },
+  "lifecycleState": "closed",
   "createdAt": "2026-11-09T12:36:37.263415343+00:00",
-  "updatedAt": "2026-11-09T12:36:37.263419763+00:00",
+  "updatedAt": "2026-11-10T13:39:14.755933850+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-analyst",

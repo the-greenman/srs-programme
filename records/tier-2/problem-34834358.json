@@ -1,0 +1,26 @@
+{
+  "instanceId": "34834358-1f12-4555-8b71-0e5cd11457f1",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-168",
+    "title": "Working groups never come up for review",
+    "statement": "A working group is chartered once and runs until someone thinks to change it. It has no end date and its cycle report never proposes to renew, amend, merge or lay it down, so the structure of the groups themselves is never reviewed: a group can outlive its purpose, overlap another, or keep a mandate written for work that has moved.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme vignette 948ec7ef (the owner, 2026-11-10)",
+      "muDemocracy.org/reference/Delegation in historic small democracy.md (delegation element 11, withdrawal and sunset; report-back element 8, a proposal for the mandate)",
+      "clerk/docs/handbook.md, Working groups and delegation (no end date, sunset or laying-down)"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "topic:governance",
+    "topic:delegation"
+  ],
+  "createdAt": "2026-11-10T13:00:43.413046766+00:00",
+  "updatedAt": "2026-11-10T13:00:43.413049168+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

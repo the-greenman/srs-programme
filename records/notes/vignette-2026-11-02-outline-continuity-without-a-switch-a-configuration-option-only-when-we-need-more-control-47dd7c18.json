@@ -1,7 +1,9 @@
 {
   "instanceId": "47dd7c18-eb93-4c1c-aa2b-b978e3c4eb52",
   "title": "Vignette 2026-11-02: outline continuity without a switch; a configuration option only when we need more control",
-  "tags": [],
+  "tags": [
+    "vignette"
+  ],
   "sections": [
     {
       "name": "narrative",
