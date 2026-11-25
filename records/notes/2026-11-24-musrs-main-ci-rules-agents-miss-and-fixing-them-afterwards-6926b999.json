@@ -1,0 +1,14 @@
+{
+  "instanceId": "6926b999-8206-419f-949c-f206756b4b71",
+  "title": "2026-11-24 · muSrs main CI: rules agents miss, and fixing them afterwards",
+  "tags": [
+    "conversation"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "content": "Main CI of muDemocracy.org has been red since 2026-11-19: 25 records written through the MuSRS relay carry no createdBy."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

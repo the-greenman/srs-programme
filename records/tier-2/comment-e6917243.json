@@ -1,0 +1,18 @@
+{
+  "instanceId": "e6917243-1675-44f5-83a5-a927a8cdd62c",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Lets audit this carefully and then pick what to enforce"
+  },
+  "createdAt": "2026-11-13T22:11:40.874942995+00:00",
+  "updatedAt": "2026-11-13T22:11:40.874946361+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

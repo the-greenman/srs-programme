@@ -1,0 +1,23 @@
+{
+  "instanceId": "c0678f20-b26c-41b0-b286-9db59f229c9f",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Third-party ready: cycle close 2026-11-24",
+    "run_date": "2026-11-24",
+    "chose": "WG Third-party ready: cycle 2026-11-23 11:30 to 2026-11-24 11:30 UTC\nPause state: running (the 11-20, 11-21 and 11-22 and 11-23 reports each carry a 👍).\n\n1. Decisions for you: no new escalation this cycle; no run stopped outside the mandate or budget. Still waiting on you (all `proposed`, in the group log): de6b88c5 (may the group merge a Door 3 revision that only executes a ratified ruling? It holds srs#1033 to #1037; decide this first), 239a1705 (may the five spec-corpus source-document sidecars be corrected by hand, srs#1041; low urgency), 773ae4a6 (DOS timestamp of a deterministic .srs archive, 0x0000 or 1980-01-01), 6882f577 (builder proposal: structured findings for record and container validate, srs-rust#1339). Action needed: decide or ratify. Also waiting for your merge: srs#1033 to #1037 (gate:owner-merge).\n\n2. Decided within mandate: none ratified. The one PR merged carried no builder decision record, so no group session was held.\n\n3. Done: 1 PR merged, with a quorum line (builder / reviewer / mandate):\n- srs-web#782 fix(editor): read type subtypes from the core, not a TS closure (#336): tpr-builder (taken over by a local session on the owner's direction after a first reject for a stale pin) / tpr-reviewer / rfc-decision-9ee14517 (Door 1, clear). Reviewer findings: none on the final head.\n\n4. Stuck or lost: open group PRs: srs#1021 (auto-merge armed, conflicts with master: needs a rebase); srs#1049 (conflicts with master: needs a rebase); srs-rust#1646 (behind master, waiting for review); srs#1033 to #1037 (Door 3, wait on you). Eight srs-rust issues and two srs issues carry `blocked` or `needs-input` and are not workable. No red gate reported by a run. Escalation-log check (owner rulings in both logs): not re-read this cycle.\n\n5. Budget: 1 of 10 delegated merges this cycle (counted from merge times; `clerk group-state` prints 0 because its cycleStart is already today's 11:30 when run at the close); 3 open delegated (srs#1021, #1049, srs-rust#1646); room 7. Pause state: running.\n5b. Awaiting ratification: the proposed decisions listed in section 1, oldest 6882f577 (2026-11-15) after the earlier cleared ones. Session to ratify: `clerk session --as owner --repo <srs-programme> --ratify all` (the-greenman/clerk; the TUI is `clerk --as owner`).\n\n6. Next: ready-labelled issues, not blocked or awaiting input: srs-rust 0, srs 0, srs-vscode 0, srs-web 0 (the ten ready issues open in srs-rust, srs and srs-web are all `blocked` or `needs-input`). Top of the queue in Builder order (all P2): srs-rust#1679, #1638, #1637 (all blocked). Open group PRs in flight: 3 delegated and 5 Door 3. Budget left: 7. **Queue running dry: 0 workable ready, budget 10. Needs feeding.** The blocks are the five Door 3 PRs and the unanswered rulings above; new work could come from the spec-to-implementation drift list or open exercises. Fed by the analyst: not re-read this cycle.\n\n6b. Exercises: not re-read this cycle.\n\n7. What we learned: the queue is now dry for the reason already named: every ready item waits on a Door 3 merge or a ruling from you, not on builder capacity. Taking over a rejected PR on the owner's direction worked (srs-web#782 merged after a reject for a stale pin and a clean re-review). Measurement I1 (50f8af67, evidences linked): 0 of 1 PRs grounded to a problem; the window opens at the 11:30 cycleStart and the close runs after it, so it covers almost nothing at every close (flagged since 2026-11-22; the script needs the close time, not now). Whether I1 is useful, noisy or misleading is yours to give in a session. I2 to I4: pending. Build trigger (srs-web#560): ready to unpark (far more than 10 ratified decisions).\n\nPR: https://github.com/the-greenman/srs-programme/pull/615\n",
+    "rationale": "No escalation raised this cycle: no run stopped outside the mandate or budget. Earlier escalations stay open and are listed for the owner.",
+    "figures": "1 of 10 delegated merges; 3 open delegated + 5 Door 3; workable ready: 0",
+    "landed_as": "https://github.com/the-greenman/srs-programme/pull/615"
+  },
+  "createdAt": "2026-11-24T11:35:35.963473959+00:00",
+  "updatedAt": "2026-11-24T11:35:35.963485049+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

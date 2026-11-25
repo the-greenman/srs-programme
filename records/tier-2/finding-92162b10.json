@@ -14,7 +14,8 @@
       "2026-11-10 12:2x UTC (second occurrence): POST repos/the-greenman/semanticops.com/issues/31/sub_issues for srs-rust#1627 (filed by the analyst this run) returned HTTP 422 \"Parent cannot have more than 100 sub-issues\"; #31 still holds 100 (61 closed, 39 open). clerk flow --chain srs-rust#1627: ✗ epic: says Part of semanticops.com#31 but is not its sub-issue.",
       "2026-11-11 12:1x UTC (third occurrence): POST repos/the-greenman/semanticops.com/issues/31/sub_issues for srs#1022 returned HTTP 422 \"Parent cannot have more than 100 sub-issues\"; #31 holds 100 (67 closed, 33 open). The analyst filed 10 issues this run (srs#1022 to #1027, srs-rust#1635 to #1638) and reshaped 4 (srs-rust#1411, #1505, #1510, #819); clerk flow --chain shows ✗ epic on all 14 and no other gap except real blockers.",
       "2026-11-19 12:2x UTC (fourth occurrence): POST repos/the-greenman/semanticops.com/issues/31/sub_issues for srs-rust#1665, #1666 and #1667 (filed by the analyst this run) returned HTTP 422 \"Parent cannot have more than 100 sub-issues\"; #31 holds 100 (68 closed, 32 open). clerk flow --chain shows ✗ epic on all three and no other gap. Nothing has been detached and no intermediate stories exist since 2026-11-11, so every issue the analyst files or unparks now carries this gap.",
-      "2026-11-20 12:3x UTC (fifth occurrence): POST repos/the-greenman/semanticops.com/issues/31/sub_issues for srs#1041, srs#1042, srs-rust#1678 and #1679 (filed by the analyst this run) returned HTTP 422 \"Parent cannot have more than 100 sub-issues\"; #31 holds 100 (69 closed, 31 open). clerk flow --chain shows ✗ epic on all four and no other gap except srs-rust#1679's real blocker (srs#1041). Still nothing detached and no intermediate stories since 2026-11-11."
+      "2026-11-20 12:3x UTC (fifth occurrence): POST repos/the-greenman/semanticops.com/issues/31/sub_issues for srs#1041, srs#1042, srs-rust#1678 and #1679 (filed by the analyst this run) returned HTTP 422 \"Parent cannot have more than 100 sub-issues\"; #31 holds 100 (69 closed, 31 open). clerk flow --chain shows ✗ epic on all four and no other gap except srs-rust#1679's real blocker (srs#1041). Still nothing detached and no intermediate stories since 2026-11-11.",
+      "2026-11-24 12:2x UTC (sixth occurrence): adding srs-rust#1708 as a sub-issue of semanticops.com#31 was refused with \"Parent cannot have more than 100 sub-issues\"; srs#1051, filed the same run, carries the same gap. clerk flow --chain shows ✗ epic on both and no other gap. The owner ratified remedy 0a585d81 (finite epics with successors, reports in their own issue) in session 2026-11-24 11:27 UTC (srs-programme#614), but no successor to #31 is open yet, so new group work still says Part of #31 and cannot be linked."
     ],
     "body": "Stage: 4. Shape the work. The group's report issue is also its epic, so every issue the group has ever taken stays a sub-issue after it closes. Obvious remedies (suggestion only): detach closed sub-issues from #31 on a schedule, or give the group intermediate stories (one per cluster) under #31 and file work under those."
   },
@@ -23,7 +24,7 @@
     "topic:flow"
   ],
   "createdAt": "2026-11-09T12:36:03.794533552+00:00",
-  "updatedAt": "2026-11-20T12:16:43.068291800+00:00",
+  "updatedAt": "2026-11-24T12:16:00.163491790+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-analyst",

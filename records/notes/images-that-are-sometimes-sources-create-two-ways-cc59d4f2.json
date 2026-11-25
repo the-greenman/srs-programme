@@ -1,0 +1,20 @@
+{
+  "instanceId": "cc59d4f2-827d-44e7-8d87-e605b97807fe",
+  "title": "Images that are sometimes sources create two ways",
+  "tags": [
+    "vignette",
+    "holon:essay-images"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "label": "Owner, 2026-11-24",
+      "content": "my feeling is that this creates two ways. \nCan a user differentiate? Can I specify that this image is a source? \nThis may add unnecessary complexity"
+    },
+    {
+      "name": "context",
+      "content": "Response to the agent's reading of vignette 7933630c (allowed, not automatic), under which an upload in an image paragraph would not create a source."
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,29 @@
+{
+  "instanceId": "9a8b9389-846c-401e-8f95-8680f0414475",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-11-13 22:05 UTC: SemanticOps",
+    "held_at": "2026-11-13T22:05:12Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-11-13 22:05 UTC: SemanticOps\nAttendees: Owner\n- Received: WG Agent-supported editor report 2026-11-13 (comment only)\n- Received: WG Third-party ready report 2026-11-11\n- Received: WG Third-party ready report 2026-11-12\n- Received: WG Third-party ready report 2026-11-13\n- Ratified: A website's own package links its block types to its components; the site editor is a generic srs-web shell [6c455725]\n- Ratified: Whether poles need their own affirmation [d6a969ff]\n- Ratified (escalation accepted): Can an essay container declare its comments and references as children while agents still file into them (srs-web#634)? [42fcc319]\n- Set aside: Field identity rules: enforce in schema, enforce in a validator, or stop claiming them (srs#236) [21b6b4b7]\n- Commented: Field identity rules: enforce in schema, enforce in a validator, or stop claiming them (srs#236) [21b6b4b7] (2)\n- Ratified (escalation accepted): Escalation: should heading-outline continuity be one rule for every document, or opt-in per Composition? (srs#991) [864eaebf]\n- Ratified (escalation accepted): Read and Lenses offer the dedicated editor: is srs-web UI inside WG Third-party ready's mandate (srs-web#691)? [bc6bc746]\n- Ratified (escalation accepted): Escalation: may `note delete` start refusing notes that Relations point at? (srs-rust#1497) [c7a8e0a2]\nActs in the order taken (UTC):\n- 22:05:23Z receive: WG Agent-supported editor report 2026-11-13 [comment:] (Reports 1 of 4)\n- 22:05:24Z receive: WG Third-party ready report 2026-11-11 [6340d5bb] (Reports 2 of 4)\n- 22:05:26Z receive: WG Third-party ready report 2026-11-12 [cf2e9873] (Reports 3 of 4)\n- 22:05:27Z receive: WG Third-party ready report 2026-11-13 [c1a3554b] (Reports 4 of 4)\n- 22:06:01Z ratify: A website's own package links its block types to its components; the site editor is a generic srs-web shell [6c455725] (Decisions since the last session 1 of 2, record updated 2026-11-12T19:54:50.016607565+00:00)\n- 22:06:21Z ratify: Whether poles need their own affirmation [d6a969ff] (Decisions since the last session 2 of 2, record updated 2026-11-10T14:39:25.652123580+00:00)\n- 22:07:33Z accept: Can an essay container declare its comments and references as children while agents still file into them (srs-web#634)? [42fcc319] (Decisions for this session 1 of 5, saw full record, record updated 2026-11-12T17:07:13.774973992+00:00)\n- 22:09:47Z comment: Field identity rules: enforce in schema, enforce in a validator, or stop claiming them (srs#236) [21b6b4b7] (Decisions for this session 2 of 5, record updated 2026-11-11T11:36:19.670160378+00:00)\n- 22:10:02Z setaside: Field identity rules: enforce in schema, enforce in a validator, or stop claiming them (srs#236) [21b6b4b7] (Decisions for this session 2 of 5, record updated 2026-11-11T11:36:19.670160378+00:00)\n- 22:10:02Z comment: Field identity rules: enforce in schema, enforce in a validator, or stop claiming them (srs#236) [21b6b4b7] (Decisions for this session 2 of 5, record updated 2026-11-11T11:36:19.670160378+00:00)\n- 22:10:19Z accept: Escalation: should heading-outline continuity be one rule for every document, or opt-in per Composition? (srs#991) [864eaebf] (Decisions for this session 3 of 5, record updated 2026-11-11T11:36:19.900940855+00:00)\n- 22:11:04Z accept: Read and Lenses offer the dedicated editor: is srs-web UI inside WG Third-party ready's mandate (srs-web#691)? [bc6bc746] (Decisions for this session 4 of 5, record updated 2026-11-11T11:36:20.091079537+00:00)\n- 22:11:31Z accept: Escalation: may `note delete` start refusing notes that Relations point at? (srs-rust#1497) [c7a8e0a2] (Decisions for this session 5 of 5, record updated 2026-11-11T11:36:20.317614978+00:00)"
+  },
+  "createdAt": "2026-11-13T22:11:38.589971304+00:00",
+  "updatedAt": "2026-11-13T22:11:38.589972958+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "cdea9dd4-84ea-4901-91cc-e60033b24a6b",
+      "sourceRole": "attaches"
+    }
+  ]
+}

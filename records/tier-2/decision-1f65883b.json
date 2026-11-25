@@ -1,0 +1,31 @@
+{
+  "instanceId": "1f65883b-022a-408b-b471-a66109845c4f",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "An unread report stops new work, not work in flight, and a thumbs-up receives it",
+    "decision_question": "What should a working group do while its reports are unacknowledged, and what counts as receiving one?",
+    "context": "Each charter pauses a group after two unacknowledged reports. The group reports say both groups were paused from 2026-11-16 to 2026-11-21, and neither merged a group PR in that time; the Third-party ready group then merged 5 once a thumbs-up lifted the pause. A thumbs-up lifts the pause but is not a receipt, so on 2026-11-24 the desk still listed 22 reports as unreceived. Finding 77568b7f records earlier occurrences, from 2026-10-30.",
+    "friction": "Absence of the owner stops review and repair of work already built, so pull requests go stale and conflict; and one act of reading must be done twice, once as a thumbs-up and once in a session.",
+    "alternatives_considered": "(a) Finish but start nothing, and a thumbs-up receives (recommended): leads to open pull requests landing within existing mandates while no new work begins unseen, and to one act of reading.\n(b) Keep the full pause but let a thumbs-up receive: leads to one act of reading, with stalls as now whenever the owner is away.\n(c) Remove the pause: leads to no stalls, and to groups running unseen without limit.\n(d) Do nothing: leads to both groups stopping whenever two reports go unread, and receipts piling up.",
+    "key_requirements": "The owner keeps the stop that shows a group is being seen. Finishing means review, repair, rebase and merge of pull requests already open under an existing mandate, within the existing budget; it claims no issue and makes no decision. A thumbs-up counts only from the owner's account.",
+    "decision_statement": "While a working group's reports are unacknowledged past its limit it claims no new work but still reviews, repairs and merges what it already has open within its mandate, and the owner's thumbs-up on a report receives it.",
+    "rationale": "The pause exists so that a group does not run unseen; new claims are what extend a group beyond what was seen. Finishing work already in view adds little risk and prevents rot.",
+    "revisit_when": "A pull request merged during a pause has to be reverted, or the owner finds that a thumbs-up was given to a report that was not read.",
+    "next_steps": "If ratified: amend both charters' reporting standing orders, then group-state, claim, upkeep and the routine briefs.",
+    "owner": "Programme owner",
+    "status": "proposed",
+    "decision_kind": "policy"
+  },
+  "lifecycleState": "ratified",
+  "tags": [
+    "suggestion",
+    "topic:flow",
+    "boundary:group-pause"
+  ],
+  "createdAt": "2026-11-24T11:03:10.619100843+00:00",
+  "updatedAt": "2026-11-24T11:31:44.645923440+00:00",
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

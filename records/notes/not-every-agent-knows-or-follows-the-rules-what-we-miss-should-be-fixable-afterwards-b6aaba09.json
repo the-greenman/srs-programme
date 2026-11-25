@@ -1,0 +1,15 @@
+{
+  "instanceId": "b6aaba09-a87b-4291-8c80-61ea168d8ac1",
+  "title": "Not every agent knows or follows the rules; what we miss should be fixable afterwards",
+  "tags": [
+    "vignette",
+    "topic:retrospective-repair"
+  ],
+  "sections": [
+    {
+      "name": "vignette",
+      "content": "And look at where our issues came from. \nOur rules are strict and not every agent I work with knows or follows them. \nWhere we don't always catch these, we should be able to retrospectively fix them"
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

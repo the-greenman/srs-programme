@@ -1,0 +1,21 @@
+{
+  "instanceId": "53bcb143-ffb6-4317-bae5-074997b4c792",
+  "title": "2026-11-24 · muDemocracy's work involves all six markers",
+  "tags": [
+    "vignette",
+    "topic:mudemocracy"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "label": "Owner's words, verbatim",
+      "content": "Our work has to actually involve all 6 markers ( but the footer won't talk about markers)"
+    },
+    {
+      "name": "context",
+      "label": "Context",
+      "content": "Said about the public purpose wording (muSrs canonical text purpose-public, the site footer), after the new purpose and mission were adopted on 23 Nov 2026. Repeats and applies the muSrs note 35f9a0d7 of 12 Nov 2026: 'Our work is to build all 6 markers.'"
+    }
+  ],
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
