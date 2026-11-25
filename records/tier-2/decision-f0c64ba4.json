@@ -1,0 +1,33 @@
+{
+  "instanceId": "f0c64ba4-0c1f-42a9-bb87-1f78a7920bc3",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Escalation: what does an engine report for a corpus with no dataModelRevision, or revision 1: storage-generation-unsupported or container-migration-needed? (srs#965)",
+    "decision_question": "A manifest with no `dataModelRevision` counts as revision 0 (RFC-033). Two accepted rules give such a corpus, and a revision-1 corpus, different answers. RFC-038 [R21] says it is below the minimum storage generation, so the engine reports `storage-generation-unsupported`. RFC-052 [R7] says any corpus declaring revision 9 or lower is reported `container-migration-needed`, naming the pending registry migrations. Which rule governs revisions 0 and 1?",
+    "context": "Problem: two accepted RFCs give a revision-0 or revision-1 corpus two different error codes. No implementer can satisfy both, and srs#965 has been open since 2026-10-25 with no ruling. Fact: I probed release v0.1.0-build.691 (the latest published srs-rust release) on 2026-11-25 with a copy of the spec's discovery fixture. With the revision deleted, and at revision 1, `repo validate` fails with `storage-generation-unsupported` and says \"this build requires storage generation >= 2 (RFC-038 [R21]) — run the rfc038-storage migration\". At revision 2 and at revision 9 it fails with `container-migration-needed` and lists the pending `srs repo apply-migration --id ...` steps in order. So the engine already offers a migration for revisions 0 and 1, but under a code that says the corpus is unsupported. Why it matters: a third-party engine or client that branches on the error code (ADR-053 makes the code the contract) cannot tell whether an old corpus is a dead end or one migration away. Every first-party corpus is past revision 1, so the question only affects old third-party data, which is the data the Third-party-ready group exists for. Options and consequences: A. RFC-038 [R21] governs below generation 2. Revisions 0 and 1 stay `storage-generation-unsupported`, and RFC-052 [R7] is reworded to start at revision 2. This is a Door 3 wording revision of RFC-052 with no behaviour change. The engine's hint to run rfc038-storage stays as advice beside the code. B. RFC-052 [R7] governs every older revision. Revisions 0 and 1 report `container-migration-needed` with the full ladder from rfc032 or rfc038-storage onward, and RFC-038 [R21]'s code is kept only for a corpus no registry entry can reach. This is a Door 3 revision of RFC-038 plus an srs-rust change to one error path. It gives one code and one recovery for every older corpus, provided the ladder really reaches revision 0. C. Do nothing: the two RFCs keep disagreeing, the engine keeps today's split, and a third party has to read the message text to recover. Recommendation: B, because the engine already knows the migration for revisions 0 and 1 and says so in its message. One code for every corpus a registry migration can reach is what an embedder can act on without parsing English (SP-05, SP-01). If the owner prefers the smallest change, A is safe and costs one sentence. Action needed: decide. Urgency: low. Nothing first-party breaks, but the choice fixes the error contract third parties code against. Answers: SP-01",
+    "friction": "The analyst found srs#965 still open, with its options written out by the engineer who met it on 2026-10-25, but never put to the owner as a decision, so it never reached an agenda. The two rules are both accepted, and the group cannot pick between them: it is a ruling, not work (decision 0b1c25b1).",
+    "alternatives_considered": "A. RFC-038 [R21] governs revisions 0 and 1 (today's behaviour). Reword RFC-052 [R7] to start at revision 2. B. RFC-052 [R7] governs every older revision that a registry migration can reach. Revisions 0 and 1 report container-migration-needed with the full ladder. Amend RFC-038 [R21] to keep its code for unreachable corpora. C. Leave both rules as written.",
+    "key_requirements": "One error code per corpus state, stated once in the spec (the ADR-053 error-code contract). A spec rule an implementer can satisfy as written. No change for any first-party corpus (all are at revision 11).",
+    "decision_statement": "Approve option B: an engine reports any corpus whose declared dataModelRevision is below its own, and that the migration registry can bring forward, as `container-migration-needed`, naming the pending registry entries in order, revisions 0 and 1 included. `storage-generation-unsupported` is kept for a corpus no registry entry can reach. RFC-038 [R21] gets a Door 3 revision to say so, and srs-rust changes the revision 0/1 path to match.",
+    "rationale": "The engine already knows and prints the migration for revisions 0 and 1. A single code for 'one migration away' is what a client can act on without parsing message text, and it keeps RFC-052 [R7] as the one rule for older corpora.",
+    "revisit_when": "If the migration registry drops its earliest entries (srs-rust#1138, a migration retirement policy), because revisions 0 and 1 would then be unreachable and option A's floor would be right.",
+    "next_steps": "The owner picks A, B or C on this record. If B: the analyst files an srs issue for the RFC-038 [R21] Door 3 revision, and an srs-rust issue for the revision 0/1 error path, blocked by it. If A: the analyst files the RFC-052 [R7] wording revision. Then srs#965 loses needs-input and points at the result.",
+    "owner": "human:the-greenman",
+    "status": "proposed"
+  },
+  "lifecycleState": "proposed",
+  "tags": [
+    "boundary:storage-generation"
+  ],
+  "createdAt": "2026-11-25T12:14:26.007756357+00:00",
+  "updatedAt": "2026-11-25T12:14:35.187201928+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
