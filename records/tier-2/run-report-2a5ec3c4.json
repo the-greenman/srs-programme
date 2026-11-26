@@ -1,0 +1,23 @@
+{
+  "instanceId": "2a5ec3c4-853e-4681-940d-4281b632d309",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle close 2026-11-26",
+    "run_date": "2026-11-26",
+    "chose": "<!-- wg-report cycle=2026-11-26 group=wg:agent-editor -->\nWG Agent-supported editor: cycle 2026-11-25 11:30 to 2026-11-26 11:30 UTC\nPaused: 2 reports unacknowledged. Receive in a session or react 👍 to resume.\n\n1. Decisions for you: none new. Still waiting on you, carried unchanged: srs-web#709 (a P1 bug, `needs-input`, no owner reply since 2026-11-04), #626, #567, and the stale `needs-input` label on #634 (its ruling 42fcc319 has been ratified since 2026-11-13; say if the Builder may take it, or clear the label). Housekeeping: record c4acef1a (an older `draft` on the #634 question) shows on no agenda; say if it should be set aside. The one thing that changed: the group is now paused, because the reports of 2026-11-24 and 2026-11-25 carry no 👍. Nothing else in the group needs you to resume; a 👍 on either, or receiving them in a session, restarts it.\n2. Decided within mandate: none; no group session held, no group decision waits for assent. No new owner rulings in the log this cycle.\n3. Done: no group PRs merged and no tasks closed this cycle; no group issue or PR changed since the last report.\n4. Stuck or lost: srs#1032 (RFC-055, `gate:owner-merge`) still conflicts with its base (\"dirty\") and needs a rebase before you can merge it. srs-web#835 (a paragraph looks the same while edited visually as at rest, `gate:owner-merge`) is clean and waits on your merge. Needs-input: srs-web#709, #626, #634 (stale label), #567. Blocked: srs-web#426, #771, #824, #825, #826, srs#1031, semanticops.com#14. No red gates reported; no claim released.\n5. Budget: 0 of 10 delegated merges this cycle; 0 open counted by group-state (srs#1032 and srs-web#835 are owner-merge); room 10. Pause: paused: 2 reports unacknowledged.\n5b. Awaiting ratification: none.\n6. Next: ready + wg:agent-editor and not needs-input or blocked: srs-web#601 (an umbrella) and semanticops.com#57; srs-rust, srs, srs-vscode: none. srs-rust#1490 and #1413 (both P0) are still not labelled ready. Group PRs in flight: srs#1032, srs-web#835. Budget left: 10 (but the group is paused, so no group PR is merged by upkeep and the Builder opens nothing new). **Queue running dry: 2 ready, budget 10. Needs feeding.** Sources: mark srs-rust#1490 and #1413 ready; or the P2 unready issues (srs-web#786 to #788, #717, #718, #768; srs-rust#1660, #1527). Waits on you: a 👍 to resume, the #634 label, the #709 answer, the merge of srs-web#835 and (after a rebase) srs#1032. Local priorities: none set. Fed by the analyst: not needed this cycle.\n6b. Exercises: none open.\n7. What we learned: a quiet cycle (no merges, no changes) still counts as a report, and two such reports unacknowledged are enough to pause the group while the queue is already dry; the pause costs nothing now but would stall work once it is fed. I1 not written: this run started after the 11:30 close, and `clerk measure` counts the window opened at 11:30 today, so its figure would mislead; the useful/noisy/misleading line is yours to give in a session. I2 to I4: pending.",
+    "rationale": "No new escalation: the open waits on the owner are carried from earlier reports. The group became paused (reports of 11-24 and 11-25 unacknowledged), reported at the top as the brief requires. Nothing was ratified: no group decision is ready.",
+    "figures": "merged 0 of 10 delegated; open 0 counted (srs#1032, srs-web#835 owner-merge); room 10; ready 2; paused: 2 reports unacknowledged; I1 not written (run after the 11:30 close); I2 to I4 pending",
+    "landed_as": "pending"
+  },
+  "createdAt": "2026-11-26T11:38:33.047989250+00:00",
+  "updatedAt": "2026-11-26T11:38:33.047994924+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
