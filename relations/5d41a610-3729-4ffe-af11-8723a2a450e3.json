@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "5d41a610-3729-4ffe-af11-8723a2a450e3",
+  "relationType": "evidences",
+  "sourceInstanceId": "911852fb-47a1-4912-b563-e76e58d122b3",
+  "targetInstanceId": "7bd73ba0-aad7-4846-ad22-88b694b6a0a4",
+  "createdAt": "2026-11-26T12:14:58.107919305+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-analyst",
+    "name": "Third-party-ready analyst"
+  }
+}

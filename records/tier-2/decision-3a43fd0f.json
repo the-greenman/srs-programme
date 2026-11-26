@@ -1,0 +1,33 @@
+{
+  "instanceId": "3a43fd0f-ae4b-4db8-8942-beec4023d6b2",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Escalation: does a Blueprint relation's cardinality admit the numeric-range form (\"1..*\", \"0..3\", \"1\") that srs-rust accepts and blueprint.json refuses? (srs-rust#1100)",
+    "decision_question": "The published schema `docs/schema/2.0/blueprint.json` makes `RelationSpec.cardinality` a closed enum of four word forms: one-to-one, one-to-many, many-to-one, many-to-many. srs-rust's `blueprint schema` (`blueprint_schema_service.rs::parse_cardinality`) also accepts a numeric-range grammar (`N..M`, `N..*`, `N`) and turns it into minItems and maxItems, with a unit test and a CLI integration test. Which is the one grammar: the enum, or the enum plus ranges?",
+    "context": "Problem: the implementation is ahead of the specification. A Blueprint that uses a range passes in srs-rust but fails the published schema, so a third-party engine that follows the schema refuses data the reference engine wrote. srs-rust#1100 has been open since #1098 (write-time schema validation for definitions) with its two options written out by the engineer, and has been reported as 'needs a ruling' by the analyst since 2026-10-19, but was never put to the owner as a decision, so it never reached an agenda. Fact (2026-11-26): blueprint.json at srs master b3d292b still holds the four-value enum. srs-rust master e1a1642 still parses ranges in `parse_cardinality` (line 275). Blueprints are the one definition kind with no `validate_definition_write_schema` guard on create and update (composition, view, type, theme, vocabulary and protocol have it); #1098 reverted the guard for blueprints because it would have broken the range grammar. No first-party corpus uses a range: across srs, srs-programme, srs-context, muDemocracy.org, semanticops.com and srs-web every relation cardinality is a word form (42 one-to-many, 27 one-to-one, 23 many-to-many, 20 many-to-one). Why it matters: one grammar per goal is what a third party can implement from the spec alone, and the missing write guard lets any malformed Blueprint be written. Options and consequences: A. Retreat the implementation: the enum is the one grammar. srs-rust drops the range branch (a range is refused at write, and `blueprint schema` warns on an existing one), then adds the write-time schema guard to create_blueprint and update_blueprint. No spec change; Door 1 once ruled. Cost: a Blueprint can no longer say 'at least one' or 'at most three'; nothing first-party says that today. B. Widen the spec: blueprint.json's cardinality becomes the enum or a pattern for `N`, `N..M` and `N..*`, with the minItems/maxItems mapping stated in the ext:blueprint text. Door 3 revision of the Blueprint extension's owning RFC, then the same write guard. Keeps a tested capability, adds a second way to say the same thing for the common cases (1..1 beside one-to-one). C. Do nothing: schema and engine keep disagreeing and blueprints stay the one definition kind written without a schema check. Recommendation: A, because no corpus uses ranges, one way per goal is the standing preference, and it is the only option that needs no spec revision before the write guard can land. Answers: SP-01. Action needed: decide. Urgency: low; no PR waits on it, but it unblocks the last missing write guard.",
+    "friction": "The analyst found srs-rust#1100 parked, impl-ahead, with its options written down since #1098 but never recorded as a proposed decision. It needs a ruling, not work (decision 0b1c25b1), so it sat outside every agenda for five weeks.",
+    "alternatives_considered": "A. The four-value enum is the one grammar: remove the numeric-range branch from srs-rust and add the blueprint write-time schema guard. B. Widen blueprint.json to admit N, N..M and N..* with a stated minItems/maxItems mapping (Door 3), then add the guard. C. Leave both as they are.",
+    "key_requirements": "One cardinality grammar, stated once in the schema, that a third party can implement without reading srs-rust. Blueprint create and update checked against the published schema like every other definition kind. No breakage for any first-party corpus.",
+    "decision_statement": "Approve option A: a Blueprint RelationSpec's cardinality is one of the four word forms in blueprint.json and nothing else. srs-rust removes the numeric-range grammar from parse_cardinality (refused at write; warned on read), and create_blueprint and update_blueprint gain the same validate_definition_write_schema guard as the other definition kinds.",
+    "rationale": "No first-party corpus uses a range, so retreating costs nothing in data, and it is the only option that needs no spec revision. One way per goal: one-to-one and 1..1 would otherwise say the same thing twice.",
+    "revisit_when": "A real Blueprint needs a minimum or maximum count other than what the word forms express (for example 'at least one evidence relation'); then a range grammar is proposed through an RFC with its use case.",
+    "next_steps": "The owner picks A, B or C on this record. If A: the analyst rescopes srs-rust#1100 as Door 1 work (remove the range branch and its tests, add the write guard) and moves it to the ready queue. If B: the analyst files the Door 3 revision in srs and blocks srs-rust#1100 on it. If C: srs-rust#1100 closes as not planned.",
+    "owner": "human:the-greenman",
+    "status": "proposed"
+  },
+  "lifecycleState": "proposed",
+  "tags": [
+    "boundary:blueprint-cardinality"
+  ],
+  "createdAt": "2026-11-26T12:14:05.541852059+00:00",
+  "updatedAt": "2026-11-26T12:14:05.541862681+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
