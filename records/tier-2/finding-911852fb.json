@@ -1,0 +1,29 @@
+{
+  "instanceId": "911852fb-47a1-4912-b563-e76e58d122b3",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "An issue that says 'needs a ruling' is parked with its options written out and never becomes a proposed decision, so it never reaches an agenda",
+    "summary": "Two group issues waited weeks for a ruling that nobody asked for: srs#965 (two accepted RFCs give revision 0/1 corpora different error codes, open from 2026-10-25, escalated as f0c64ba4 only on 2026-11-25) and srs-rust#1100 (Blueprint cardinality: srs-rust accepts a numeric-range grammar blueprint.json refuses, parked since #1098; reported as 'needs a ruling' by the analyst on 2026-10-19, 10-20, 10-30 and 11-04, escalated as 3a43fd0f only on 2026-11-26). Each issue already held its options; the only missing act was recording them as a proposed decision, which is the one form the owner's agenda reads.",
+    "evidence": [
+      "srs#965 opened 2026-10-25 with options; proposed decision f0c64ba4 recorded 2026-11-25 (srs-programme#621)",
+      "srs-rust#1100: analyst reports on semanticops.com#31 2026-10-19, 2026-10-20, 2026-10-30 and 2026-11-04 each say 'parked, needs a ruling'; proposed decision 3a43fd0f recorded 2026-11-26",
+      "2026-11-26: srs-rust master e1a1642 still parses ranges (blueprint_schema_service.rs:275) and srs master b3d292b blueprint.json still holds the four-value enum"
+    ],
+    "body": "Stage: D1 Arise. The decision appeared inside an issue, was labelled parked or needs-input, and the report that noticed it said 'needs a ruling' without recording the ask. Obvious remedy (suggestion only): when an analyst or reviewer writes 'needs a ruling' on a group issue, the same run records the proposed escalation decision in the group container (the brief already says so for drift rows; it was not done for row 2 until today)."
+  },
+  "tags": [
+    "decision-stop",
+    "boundary:decision-flow"
+  ],
+  "createdAt": "2026-11-26T12:14:51.608434681+00:00",
+  "updatedAt": "2026-11-26T12:14:51.608445046+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-analyst",
+    "name": "Third-party-ready analyst"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
