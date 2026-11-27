@@ -1,0 +1,29 @@
+{
+  "instanceId": "7de554cd-f970-40ec-b219-f9d5802c5420",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A slice of a clean repository can warn about a lifecycle relation it cut",
+    "summary": "A record in state superseded needs an incoming supersedes relation; when the slice cuts that relation into externalRelationRefs, the slice reports LIFECYCLE_RELATION_UNSATISFIED as a warning that the origin repository does not have.",
+    "evidence": [
+      "muSrs essay slice, 2026-11-27: warning on record 49c88628; origin repository has no such warning",
+      "RFC-026 [R17] lists four info-level slice absences; this is not one of them, so it keeps warning severity"
+    ],
+    "body": "A lifecycle relation rule could be satisfied by an externalRelationRefs entry of the right type, or the case added to the [R17] info list."
+  },
+  "tags": [
+    "topic:carriers",
+    "research",
+    "gap"
+  ],
+  "createdAt": "2026-11-27T08:44:19.556729652+00:00",
+  "updatedAt": "2026-11-27T08:44:19.556731568+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

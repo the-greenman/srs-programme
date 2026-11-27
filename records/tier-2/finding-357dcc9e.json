@@ -1,0 +1,30 @@
+{
+  "instanceId": "357dcc9e-8530-430b-ba3d-721d8c9566c5",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A third-party corpus published an essay with its sources using only existing SRS features",
+    "summary": "The muSrs essay Rebuilding Small Democracy was exported with its paragraphs, sources, quotations, claims and source documents as one RFC-026 slice of a boundary container, and printed with per-paragraph sources, without any engine change.",
+    "evidence": [
+      "muDemocracy.org branch claude/essay-publication-boundary, commit 0f92b5f6: container 4d65f9a0, composition 62578728, views e5787efc fd586fa6 4f1fdf50",
+      "srs slice export (build.656): 155 instances, 152 relations, 7 source documents, 476 externalRelationRefs; repo validate 0 errors",
+      "srs render composition from the unpacked slice: 81,308 characters, no diagnostics"
+    ],
+    "body": "The owner expected the boundary export might not be implemented. RFC-034 childContainerIds and RFC-026 slices already do it; RFC-027 relationsPresentation with directions: inverse prints each paragraph's sources. What was missing was a container that names the publication's boundary."
+  },
+  "tags": [
+    "topic:carriers",
+    "research",
+    "corpus:musrs"
+  ],
+  "createdAt": "2026-11-27T08:44:15.832901407+00:00",
+  "updatedAt": "2026-11-27T08:44:15.832903336+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

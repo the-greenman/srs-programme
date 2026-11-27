@@ -1,0 +1,28 @@
+{
+  "instanceId": "4a56dccb-2363-4954-aec7-f385ee0b4205",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The record holds more than a published page should print",
+    "summary": "muSrs sources carry working notes (why it matters here, where it was read) that the default source view prints, which made the essay's reference list about 133,000 characters; publishing needed separate short views, and the full notes now travel only in the record.",
+    "evidence": [
+      "Rendered essay with source-citation-view: References section 132,788 characters; with publication-source-view: citation and URL only, whole render 81,308 characters"
+    ],
+    "body": "This is the carrier's main benefit in one example: the page can be short and readable because the record carries the rest. A publication needs its own views; the default reader views are written for the workspace."
+  },
+  "tags": [
+    "topic:carriers",
+    "research",
+    "corpus:musrs"
+  ],
+  "createdAt": "2026-11-27T08:44:17.012752932+00:00",
+  "updatedAt": "2026-11-27T08:44:17.012755739+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

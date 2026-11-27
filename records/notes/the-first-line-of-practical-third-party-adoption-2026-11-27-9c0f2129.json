@@ -1,0 +1,27 @@
+{
+  "instanceId": "9c0f2129-56d5-4dc0-965f-720b3b28a29e",
+  "title": "The first line of practical third-party adoption (2026-11-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:carriers"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "This is probably the first line of practical third party adoption. SRS as a way to enhance data ... And still usable."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in a Claude Code session, 2026-11-27, verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

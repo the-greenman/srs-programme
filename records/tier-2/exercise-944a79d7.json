@@ -1,0 +1,28 @@
+{
+  "instanceId": "944a79d7-9efc-4ec9-8af3-6b86af5b914c",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Where should an essay's publication boundary live?",
+    "thinking_reached": "Raised by the muSrs essay prototype (Research: SRS carriers, part 3); the owner: \"An essay is supposed to be structured with a boundary container that can be exported\". No option chosen.",
+    "tensions": "Options, none chosen:\n- A. A separate publication container whose children are the essay and references containers (the prototype).\n- B. The essay container itself declares its references container as a child, so every essay exports whole; the editor must keep the edge.\n- C. An essay blueprint creates the essay, references and boundary containers together, with the publication composition.",
+    "unresolved_questions": "Whether the essay editor would preserve childContainerIds on the essay container; whether other essays need different boundaries (drafts, comments); whether the references container can be kept complete (it had drifted).",
+    "next_action": "Ask the essay editor's owners about option B; add a check that an essay's cited records are in its references container."
+  },
+  "lifecycleState": "open",
+  "tags": [
+    "exercise",
+    "research",
+    "topic:carriers"
+  ],
+  "createdAt": "2026-11-27T08:44:21.242806384+00:00",
+  "updatedAt": "2026-11-27T08:44:21.242810739+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

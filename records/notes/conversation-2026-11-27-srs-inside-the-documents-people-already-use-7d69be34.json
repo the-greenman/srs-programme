@@ -1,0 +1,23 @@
+{
+  "instanceId": "7d69be34-0443-4635-9bc3-c592f807318f",
+  "title": "Conversation 2026-11-27: SRS inside the documents people already use",
+  "tags": [
+    "conversation",
+    "topic:carriers",
+    "topic:provenance",
+    "topic:third-party"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "Summary",
+      "content": "Embedding an SRS repository in a PDF people read as ordinary minutes or an essay, so an SRS reader can see the transcript, enrichment, topic map and sources behind the page. Two prototypes: meeting minutes, and the muSrs essay Rebuilding Small Democracy exported at its boundary container."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

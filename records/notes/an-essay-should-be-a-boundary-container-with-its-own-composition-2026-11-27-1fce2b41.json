@@ -1,0 +1,27 @@
+{
+  "instanceId": "1fce2b41-5b6c-4766-8eb4-23c387997907",
+  "title": "An essay should be a boundary container with its own composition (2026-11-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:carriers"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Let's try to create a pdf of the theory of change essay in muSrs.\n\nIt should contain references and sources.\n\nAn essay is supposed to be structured with a boundary container that can be exported ... But this may not be implemented yet.\n\nAn essay may also need to have it's own composition..."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in a Claude Code session, 2026-11-27, verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

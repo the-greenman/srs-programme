@@ -1,0 +1,27 @@
+{
+  "instanceId": "6f1ce1cc-e1f6-4e1e-9ed0-c323574779a0",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Re-rendering catches drift between page and record, but not forgery",
+    "summary": "A reader that re-renders the composition from the payload detects a record edited after printing even when the archive checksum is rewritten, but a forger who also rewrites the rendered-text checksum passes; only a signature over the PDF closes that.",
+    "evidence": [
+      "Tamper tests 2026-11-27: swapped payload fails archive and render checks; swapped payload with rewritten archive checksum fails the render check"
+    ],
+    "body": "The binding is for honest drift (someone edits the record or the page), which is the common case. Authorship needs a signature, and a PDF signature covers the attachment."
+  },
+  "tags": [
+    "topic:carriers",
+    "research"
+  ],
+  "createdAt": "2026-11-27T08:44:18.048975321+00:00",
+  "updatedAt": "2026-11-27T08:44:18.048977782+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

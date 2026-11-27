@@ -1,0 +1,28 @@
+{
+  "instanceId": "1e2ae1aa-2d60-4880-9cfa-aefe3d5ce51d",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Which carriers should SRS define, and how does a reader find the payload?",
+    "thinking_reached": "Raised by the 2026-11-27 carrier prototypes (Research: SRS carriers, part 1). No option chosen.",
+    "tensions": "Options, none chosen:\n- A. PDF/A-3 only, as the archival carrier: /AF with AFRelationship /Source, an SRS media type, an XMP binding.\n- B. A carrier binding per format (PDF, HTML, EPUB, DOCX), each with one rule for locating the payload, as a spec extension.\n- C. No spec change yet: a SemanticOps tool convention, specified once a second user asks.",
+    "unresolved_questions": "Whether anyone outside the programme wants SRS inside a document they already use; how each format survives ordinary tools (Ghostscript already strips PDF attachments); whether HTML or DOCX carriers can be kept from drifting.",
+    "next_action": "Build an HTML carrier from the same essay slice and test both in common viewers and editors; show the minutes PDF to the next demo user."
+  },
+  "lifecycleState": "open",
+  "tags": [
+    "exercise",
+    "research",
+    "topic:carriers"
+  ],
+  "createdAt": "2026-11-27T08:44:20.620759682+00:00",
+  "updatedAt": "2026-11-27T08:44:20.620762643+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

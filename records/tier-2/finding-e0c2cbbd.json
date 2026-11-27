@@ -1,0 +1,30 @@
+{
+  "instanceId": "e0c2cbbd-d6e8-491f-8622-acd39a70153c",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A source document's content checksum is stored nowhere",
+    "summary": "srs attachment add computes and reports contentChecksum and sidecarChecksum, but neither is persisted: the sidecar schema has no checksum property and the index that held them was retired, so nothing records which bytes an attached transcript had.",
+    "evidence": [
+      "srs#1053 (filed 2026-11-27)",
+      "grep for the reported digest in the minutes repository: no match",
+      "docs/schema/2.0/source-document-meta.json: no checksum property; srs-spec.md Source documents still describes manifest.sourceDocumentIndex"
+    ],
+    "body": "Provenance is weakest exactly where the evidence is a file. Carriers work around it by checksumming the whole archive."
+  },
+  "tags": [
+    "topic:carriers",
+    "research",
+    "bug"
+  ],
+  "createdAt": "2026-11-27T08:44:20.055508768+00:00",
+  "updatedAt": "2026-11-27T08:44:20.055513174+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

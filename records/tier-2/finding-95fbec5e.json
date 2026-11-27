@@ -1,0 +1,29 @@
+{
+  "instanceId": "95fbec5e-ef12-4ea1-b8bd-d19755b143bd",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Re-saving a carrier PDF can strip its SRS payload without warning",
+    "summary": "Ghostscript's pdfwrite removed the embedded .srs and all XMP binding from the prototype PDF and reported nothing; qpdf --linearize kept them.",
+    "evidence": [
+      "gs -sDEVICE=pdfwrite weekly-planning.srs.pdf: verify.py finds 0 payloads, no XMP",
+      "qpdf --linearize: binding intact"
+    ],
+    "body": "Counter-evidence for carriers as durable records: many 'print to PDF' and optimise paths behave like Ghostscript. A reader must treat a PDF without a binding as an ordinary PDF and never claim it was checked. Archival copies should be kept as the .srs as well."
+  },
+  "tags": [
+    "topic:carriers",
+    "research",
+    "counter-evidence"
+  ],
+  "createdAt": "2026-11-27T08:44:17.538621696+00:00",
+  "updatedAt": "2026-11-27T08:44:17.538623306+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

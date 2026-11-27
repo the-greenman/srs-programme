@@ -1,0 +1,27 @@
+{
+  "instanceId": "f4717c4f-b76f-439a-95c7-2be4e69f8298",
+  "title": "SRS is a file format designed to carry provenance (2026-11-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:carriers"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "SRS is a file format designed to carry provenance.\n\nWhat file formats could I embed SRS within?\n\nFile.srs.html\nFile.srs.pdf\nFile.srs.docx\n\nIf I created a rendered minutes document, I want them to be able to read the minutes, but an srs reader should also be able to see the transcript, the data that it was enriched with, an in-between topic map."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in a Claude Code session, 2026-11-27, verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

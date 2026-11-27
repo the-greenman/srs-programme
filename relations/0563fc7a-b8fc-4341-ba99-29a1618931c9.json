@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "0563fc7a-b8fc-4341-ba99-29a1618931c9",
+  "relationType": "evidences",
+  "sourceInstanceId": "95fbec5e-ef12-4ea1-b8bd-d19755b143bd",
+  "targetInstanceId": "cbd4225d-95cf-40e1-8045-9fbcc5c83b0a",
+  "createdAt": "2026-11-27T08:44:17.566340193+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "The meaning can still be lost when the carrier passes through ordinary tools."
+}

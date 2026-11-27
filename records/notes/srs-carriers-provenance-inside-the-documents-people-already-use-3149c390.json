@@ -1,0 +1,42 @@
+{
+  "instanceId": "3149c390-b0ac-4a45-99f8-578887e36a30",
+  "title": "SRS carriers: provenance inside the documents people already use",
+  "tags": [
+    "research",
+    "topic:carriers",
+    "topic:third-party"
+  ],
+  "sections": [
+    {
+      "name": "claim",
+      "label": "Claim",
+      "content": "An SRS repository can travel inside a document people already open, so the document still reads as itself and an SRS reader also gets everything behind it: the transcript, the data it was enriched with, the topic map, the sources. This is the first practical line of third-party adoption: SRS as a way to enhance data, and still usable. The owner, 2026-11-27: \"This is probably the first line of practical third party adoption. SRS as a way to enhance data ... And still usable.\""
+    },
+    {
+      "name": "story",
+      "label": "The story so far",
+      "content": "Two prototypes on 2026-11-27 put a whole SRS archive inside a PDF/A-3, as an associated file marked /Source, with a small binding in the PDF's metadata (repository, composition, archive and rendering checksums). A separate reader finds the payload, checks it, re-renders the composition from it and compares with what was printed.\n\nMeeting minutes worked end to end: the page reads as minutes; the payload carries a transcript, a calendar enrichment, three topics pointing at transcript cues, and the relations from topics to the decision and tasks.\n\nThe muSrs essay Rebuilding Small Democracy worked with features SRS already has: a boundary container whose childContainerIds are the essay and its references, exported as an RFC-026 slice (155 records, 7 source documents), and a composition that prints each paragraph's sources under it. The page is 26 pages; the record is the evidence.\n\nThe weak points are not in the idea. A PDF re-saved through ordinary tools loses its payload silently; a checksum binding catches drift but not a determined forger; SRS has no stored digest for source documents (srs#1053); and some rendering and slice behaviour gets in the way of a clean published page."
+    },
+    {
+      "name": "parts",
+      "label": "The parts",
+      "content": "1. The idea: carriers, formats and design rules.\n2. Prototype: meeting minutes in a PDF.\n3. Prototype: a muSrs essay, sliced at its boundary.\n4. Trust: binding the page to its record.\n5. What SRS needs: bugs and gaps found."
+    },
+    {
+      "name": "open",
+      "label": "What is open",
+      "content": "Three exercises: which carriers SRS should define and how a reader finds the payload; how a reader trusts that a page matches its record; where an essay's publication boundary should live. Not yet done: veraPDF validation, a signed carrier, an HTML carrier, and a user outside the programme. The working group label wg:third-party-ready exists for this."
+    },
+    {
+      "name": "find",
+      "label": "Finding the evidence",
+      "content": "Findings: srs find --type com.semanticops.programme/finding --tag topic:carriers. Exercises: srs find --type governance/exercise --tag topic:carriers. Where the prototype code is: part 2."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

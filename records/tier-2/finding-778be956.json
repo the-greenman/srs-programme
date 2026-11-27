@@ -1,0 +1,30 @@
+{
+  "instanceId": "778be956-c064-4d5a-a2fe-995ec213d7ba",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A slice cannot be byte-reproducible because it records its export time",
+    "summary": "slice.exportedAt is required, so two exports of the same container give different bytes and a different checksum, unlike srs archive pack, which is byte-identical by rule.",
+    "evidence": [
+      "srs-spec.md Slice manifest (~line 3036): exportedAt required",
+      "Archive determinism invariants (~lines 2752, 2759)",
+      "Two slice exports of the same state, 2026-11-27: different sha256"
+    ],
+    "body": "The carrier binding still works, because it covers the bytes embedded, but a rebuilt carrier cannot be checked against an earlier one by checksum. Options: make exportedAt optional, or define the slice's content checksum to exclude it."
+  },
+  "tags": [
+    "topic:carriers",
+    "research",
+    "gap"
+  ],
+  "createdAt": "2026-11-27T08:44:19.047246147+00:00",
+  "updatedAt": "2026-11-27T08:44:19.047250008+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
