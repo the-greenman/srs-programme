@@ -1,0 +1,28 @@
+{
+  "instanceId": "37e78650-a252-4fb5-90fd-c636669d530a",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Are the package's meeting and the clerk's session one thing?",
+    "thinking_reached": "Raised by the level design (Research: Protocol evolution, part 6): the acts a person takes on minutes are clerk session acts. No option chosen.",
+    "tensions": "Options, none chosen:\n- A. One type: a session may have a transcript and minutes.\n- B. Two types, related: a meeting is what happened; a session is where its outcomes are accepted.\n- C. Keep them apart until a group uses both.",
+    "unresolved_questions": "Whether the secretary's check happens in the meeting or after it; what a working group's session without a transcript needs.",
+    "next_action": "Model the first group's next meeting both ways on paper before moving the runner into the clerk."
+  },
+  "lifecycleState": "open",
+  "tags": [
+    "exercise",
+    "research",
+    "topic:protocol"
+  ],
+  "createdAt": "2026-11-27T11:39:14.663270440+00:00",
+  "updatedAt": "2026-11-27T11:39:14.663275592+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

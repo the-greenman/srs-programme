@@ -1,0 +1,31 @@
+{
+  "instanceId": "22673626-2e0a-4b21-a5cf-84a9b43e14aa",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "An update stage accounts for what earlier meetings left open",
+    "summary": "Given October's open items, a three-stage update wrote 17 follow-ups for November (4 progressed with evidence, 13 not mentioned), 8 subject standings and correct proposals to move the two misfiled topics; after acceptance one subject reads as a thread across both meetings.",
+    "evidence": [
+      "srs-lab minutes/ package 0.3, protocol meeting-update, run 2026-11-27; all document checks pass",
+      "17 follow-ups for 18 open items: one missing, not enforced",
+      "thread.py on the fire escape subject after the two moves"
+    ],
+    "body": "The list of business not mentioned is new information for a secretary. Completeness across documents is a check the runner cannot derive."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T11:39:12.098831959+00:00",
+  "updatedAt": "2026-11-27T11:39:12.098833830+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
