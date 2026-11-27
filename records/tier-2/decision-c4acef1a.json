@@ -16,9 +16,9 @@
     "revisit_when": "The srs-rust guard change lands, or the owner prefers B.",
     "next_steps": "If A: file the srs-rust issue, parent it under semanticops.com#29, release the claim on srs-web#634 to ready with a blocked-by link. If B: rewrite #634 around the bundle."
   },
-  "lifecycleState": "draft",
+  "lifecycleState": "proposed",
   "createdAt": "2026-11-04T08:28:12.541503954+00:00",
-  "updatedAt": "2026-11-04T08:28:12.541514463+00:00",
+  "updatedAt": "2026-11-27T23:19:59.361832720+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:editor-steward",

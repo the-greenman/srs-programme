@@ -1,0 +1,18 @@
+{
+  "instanceId": "dea27150-f13c-4576-af06-e51022b1985d",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Settled on principle (owner, 2026-10-27, vignette 431e12d6: a question a principle already answers is decided by it). This record's own rationale names the principles: one way per goal, and capability layering (semantics live once in the core). Together they pick option A: the exemption belongs in the engine write guard, not the client. Option B adds a second container for the same goal, and option C is client-side semantics.\n\nActed on (2026-11-27): proposed, in the WG Agent-supported editor log; core change filed as srs-rust#1721; srs-web#634 is blocked by it and no longer needs input. It is ratified at the group's next session.",
+    "kind": "evidence"
+  },
+  "createdAt": "2026-11-27T23:21:21.641987479+00:00",
+  "updatedAt": "2026-11-27T23:21:21.641989615+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

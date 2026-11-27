@@ -1,0 +1,26 @@
+{
+  "instanceId": "b0f0be5d-d91e-4424-98e4-a3e97a6dbc39",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Cluster, domain and boundary are names for one thing",
+    "decision_question": "Are a cluster, a domain and a boundary different kinds of thing?",
+    "context": "Boundary and domain were ruled one thing on 2026-10-22 (clerk#129) and reaffirmed on 2026-11-03 (9ee01ac1). On 2026-11-07 the owner said a cluster is probably just another one (38eaff50, 2ad1b8d8). Split from 4a67caf5 on 2026-11-27 so that the part settled by precedent stands apart from the new identity-record fields.",
+    "alternatives_considered": "(a) Keep separate types for domain, boundary and cluster and reconcile their fields: keeps the duplicates and contradicts the ruling. (b) One type with the union of all fields: forces fields no practice has asked for. (c) One thing, a container with an identity record, with cluster, domain and boundary as names (tags) used in different practices: what the ruling already holds, extended to cluster.",
+    "key_requirements": "Follows the rulings of 2026-10-22 and 2026-11-03. A practice that needs its own fields (muSrs's authority_basis and revision_condition are the first candidates) adds them without a new kind of thing.",
+    "decision_statement": "Cluster, domain and boundary are names for one kind of thing, a container with an identity record, used in different practices.",
+    "rationale": "Settled by precedent: the earlier rulings already make boundary and domain one thing, and a cluster has no property that distinguishes it. One way per goal.",
+    "revisit_when": "A practice shows that a cluster, domain or boundary behaves differently in a way an added field cannot carry.",
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-11-27T23:22:08.673487196+00:00",
+  "updatedAt": "2026-11-27T23:22:08.673489628+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

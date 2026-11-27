@@ -1,0 +1,18 @@
+{
+  "instanceId": "16f9f03b-ce19-4e92-a1a6-2e2c0f078d58",
+  "typeId": "11cd0a5f-8c3f-4ec2-a055-5b9f56c5b0bc",
+  "typeVersion": 2,
+  "typeNamespace": "com.semanticops.comments",
+  "typeName": "comment",
+  "fieldValues": {
+    "comment_text": "Settled by precedent (owner, 2026-10-27, vignette 431e12d6). This is the vignette rule (decision 77e04b19: words first as a source, records derived from them as suggestions) and the affirmation layer (a person affirms; no pipeline does) applied to a transcript instead of a chat. Option C is what those two already require; A loses the material and B skips the human act. Added to the SemanticOps decision log for ratification at the next session; it may be acted on meanwhile.",
+    "kind": "evidence"
+  },
+  "createdAt": "2026-11-27T23:21:29.884870843+00:00",
+  "updatedAt": "2026-11-27T23:21:29.884872609+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
