@@ -1,0 +1,24 @@
+{
+  "instanceId": "c742da96-8f2d-45e6-a35f-b9485d0e06de",
+  "typeId": "c2ec9c8a-b36b-4b19-940f-374b338e30a6",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "epic",
+  "fieldValues": {
+    "title": "A meeting practice that builds on itself, with AI people can check",
+    "issue_ref": [
+      "semanticops.com#72"
+    ]
+  },
+  "tags": [
+    "topic:protocol",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T17:06:55.138452603+00:00",
+  "updatedAt": "2026-11-27T17:06:55.138454550+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

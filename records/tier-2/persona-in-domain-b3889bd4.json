@@ -5,12 +5,14 @@
   "typeNamespace": "com.semanticops.method",
   "typeName": "persona-in-domain",
   "fieldValues": {
-    "title": "Maintainer in Checkable AI documents",
+    "title": "Maintainer in A shared practice that refines itself",
     "summary": "The secretary, organiser or analyst who runs the process over new sources, supplies facts and corrections, accepts or dismisses what the process flags, and publishes.",
     "goals": [
       "a trustworthy document with little editing",
       "keep it current as new sources arrive",
       "every correction traceable to who made it and why",
+      "what we learn on one meeting carried into how we process the next",
+      "hand more of the work to AI as it earns trust",
       "change model or tool without losing consistency"
     ],
     "jobs": [
@@ -28,7 +30,7 @@
     "topic:strata"
   ],
   "createdAt": "2026-11-27T16:47:00.830284258+00:00",
-  "updatedAt": "2026-11-27T16:47:00.830286283+00:00",
+  "updatedAt": "2026-11-27T17:04:55.365688208+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"

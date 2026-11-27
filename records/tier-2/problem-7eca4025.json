@@ -1,0 +1,29 @@
+{
+  "instanceId": "7eca4025-2690-4697-9a3a-f9a3cfdb9ba0",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-199",
+    "title": "Lessons from one meeting don't reach the next",
+    "statement": "What we learn processing a meeting (a house rule, a new kind of area, a better stage instruction, a correction we keep making) lands in chat, in hand passes, or in an edited copy of the package. The protocol and the data structure the next transcript is processed with do not change, so each meeting repeats the same corrections and the practice does not improve.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme vignette 27a7396f (owner, 2026-11-27)",
+      "srs-programme finding b9c05574: the backstage package copy gained vocabulary and a relation the package source lacks"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol",
+    "topic:third-party"
+  ],
+  "createdAt": "2026-11-27T17:05:21.120838832+00:00",
+  "updatedAt": "2026-11-27T17:05:21.120840640+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
