@@ -1,0 +1,28 @@
+{
+  "instanceId": "f68057b7-8551-431e-bc59-ef7b4247f76e",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "How is a stage given the earlier decisions that matter?",
+    "thinking_reached": "Raised by the retrieval measurements (Research: Protocol evolution, part 3). No option chosen.",
+    "tensions": "Options, none chosen:\n- A. All of them, while the register is small.\n- B. Text search (find, similar) for candidates.\n- C. Through subjects and the relation graph: the decisions under the subjects the meeting touches.\n- D. Select then read: a first pass over every title, then the full text of those picked.",
+    "unresolved_questions": "Recall of C and D against the same hand-made links; the size at which A stops working.",
+    "next_action": "Run C and D on srs-programme's 173 decisions against the 25 links."
+  },
+  "lifecycleState": "open",
+  "tags": [
+    "exercise",
+    "research",
+    "topic:protocol"
+  ],
+  "createdAt": "2026-11-27T11:08:51.429172550+00:00",
+  "updatedAt": "2026-11-27T11:08:51.429177232+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

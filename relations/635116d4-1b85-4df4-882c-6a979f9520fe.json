@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "635116d4-1b85-4df4-882c-6a979f9520fe",
+  "relationType": "evidences",
+  "sourceInstanceId": "43465141-5ae6-4f06-b0a3-9bc80bfd399d",
+  "targetInstanceId": "247eb6e9-9f55-4bc3-863b-015ef6d6946e",
+  "createdAt": "2026-11-27T11:08:50.159580249+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "The transcript and fragments stay in the meeting file."
+}

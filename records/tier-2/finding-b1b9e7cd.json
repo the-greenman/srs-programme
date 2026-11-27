@@ -1,0 +1,30 @@
+{
+  "instanceId": "b1b9e7cd-efeb-47b1-b265-bdf805fcca35",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Checking decision points against standing records finds the real issues, and flags too freely",
+    "summary": "A stage that reads a group's real articles, roles and decisions wrote 89 checks over two meetings, including the issue the group's own decision had to deal with the next day; 44 of the 89 are flagged in tension and none contradicts.",
+    "evidence": [
+      "Master repository 2026-11-27: 11 articles, 3 roles, 11 decisions; 47 checks on the October meeting, 42 on November",
+      "November: about 5,000 pounds of work flagged against the 3,000 pound per-job limit and the board's reserved powers"
+    ],
+    "body": "This is the owner's ask (\"looking for previous decisions that were relevant to any section ... highlight where we might contradict decisions\") working on real records. It needs a person's triage before anything reaches the page, and a relation that says in tension."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T11:08:47.375542121+00:00",
+  "updatedAt": "2026-11-27T11:08:47.375547067+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

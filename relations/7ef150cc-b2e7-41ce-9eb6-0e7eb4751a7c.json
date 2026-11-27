@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "7ef150cc-b2e7-41ce-9eb6-0e7eb4751a7c",
+  "relationType": "evidences",
+  "sourceInstanceId": "8e9f35f8-2cc3-4e38-b199-63da61920f98",
+  "targetInstanceId": "38502279-d1cd-4eed-8cfd-962bef89e43b",
+  "createdAt": "2026-11-27T11:08:48.151322354+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "Nothing reliable brings a settled decision in front of whoever is about to reopen it."
+}

@@ -1,0 +1,38 @@
+{
+  "instanceId": "0ef67c37-cf61-400a-8907-0572bbcdea60",
+  "title": "5. The project: SRS Minutes as a first governance product",
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "sections": [
+    {
+      "name": "product",
+      "label": "The product",
+      "content": "A small governed group gives it a meeting's recording or transcript and gets back minutes its secretary checks: every item cites the transcript, every decision point is listed with its status and checked against the group's own rules and earlier decisions, topics hang from subjects that persist, and the result is a PDF that carries its record. It drafts and flags; the group's own decision process stays the master."
+    },
+    {
+      "name": "phases",
+      "label": "Three phases",
+      "content": "1. Minutes from last night's meeting: the package at 1.0, the runner as a supported tool with the secretary's check as a real step, the group's master loaded from its existing records; Tier 1 and the filed bugs. Done when three consecutive meetings have gone through it and the secretary's changes are counted.\n\n2. Minutes with memory: governance 2.0, the decision protocol per decision point, working copy and merge, subject curation, flag triage; Tier 2. Done when a trustee can read one subject across four meetings and two thirds of the flags shown are kept.\n\n3. In the room: live transcription and the local detector feeding provisional observations, people as records; Tier 3. Done when a real meeting ends with minutes its secretary edits less than the phase 1 baseline.\n\nThroughout, the lab re-runs the same meetings when the package or model changes."
+    },
+    {
+      "name": "order",
+      "label": "What it needs from the standard, in order",
+      "content": "One RFC for the Tier 1 stage contract; then the protocol run, specified; then gates and records under construction together; then scope and composition; later context assembly, tension between records, live protocols and people."
+    },
+    {
+      "name": "risks",
+      "label": "Risks",
+      "content": "Over-flagging; caution (fewer decisions recorded than the room took); one model and one run, with no variance measured; privacy; subject drift; and two masters where a group already has a decision record."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

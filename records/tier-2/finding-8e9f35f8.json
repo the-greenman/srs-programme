@@ -1,0 +1,31 @@
+{
+  "instanceId": "8e9f35f8-2cc3-4e38-b199-63da61920f98",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Text search finds the related decision about half the time",
+    "summary": "Against 25 hand-made links between srs-programme's 173 decisions, lexical find puts the related decision in its first five 52 to 56 per cent of the time; on the master it would have ranked 47 per cent of the standing records the model cited in its first five.",
+    "evidence": [
+      "srs-programme 2026-11-27: title query 13/25 in top 5; title plus statement 14/25 top 5, 18/25 top 10; find --similar 13/25",
+      "LTH master: 42 of 89 cited standing records in top 5, 58 in top 10"
+    ],
+    "body": "A register too large to give every stage in full (414 KB here) needs an index that is not search: subjects, the relation graph, or a first pass over titles."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance",
+    "gap"
+  ],
+  "createdAt": "2026-11-27T11:08:48.122145852+00:00",
+  "updatedAt": "2026-11-27T11:08:48.122148032+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,28 @@
+{
+  "instanceId": "094a7ada-ff7f-45a7-a566-530e17abd56b",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Who curates subjects, and when?",
+    "thinking_reached": "Raised by the subject results (Research: Protocol evolution, part 3). No option chosen.",
+    "tensions": "Options, none chosen:\n- A. The process proposes; the secretary accepts, merges or renames before topics are linked (a gate).\n- B. Subjects are fixed by the group in advance; the process may only link.\n- C. The process creates freely; a periodic tidy merges them.",
+    "unresolved_questions": "How many subjects a real group settles on; whether merging two subjects is a relation, a successor, or a move of links.",
+    "next_action": "Ask the group for its own list of standing matters and run the two meetings again against it."
+  },
+  "lifecycleState": "open",
+  "tags": [
+    "exercise",
+    "research",
+    "topic:protocol"
+  ],
+  "createdAt": "2026-11-27T11:08:51.770057932+00:00",
+  "updatedAt": "2026-11-27T11:08:51.770061427+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

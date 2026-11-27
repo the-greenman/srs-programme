@@ -1,0 +1,28 @@
+{
+  "instanceId": "4926701b-6745-413f-9069-f0e6aa850b97",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Where does the protocol runner live?",
+    "thinking_reached": "Raised by the project definition (Research: Protocol evolution, part 5). No option chosen.",
+    "tensions": "Options, none chosen:\n- A. In the engine: srs protocol run does what the lab runner does.\n- B. In the clerk, as tooling over the engine.\n- C. Its own package, shipped with the minutes package.\n- D. In the browser editor, as the meeting panel.",
+    "unresolved_questions": "Whether other consumers (the unit walk, domain refinement) want the same runner; who maintains the model call.",
+    "next_action": "Decide before the Tier 1 RFC is written, since it fixes who implements it."
+  },
+  "lifecycleState": "open",
+  "tags": [
+    "exercise",
+    "research",
+    "topic:protocol"
+  ],
+  "createdAt": "2026-11-27T11:08:52.440218978+00:00",
+  "updatedAt": "2026-11-27T11:08:52.440227597+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

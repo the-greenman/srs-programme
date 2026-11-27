@@ -1,0 +1,28 @@
+{
+  "instanceId": "c52bb95e-eac7-4781-bb12-851a1671d576",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Where do a meeting's working records live?",
+    "thinking_reached": "Raised by the owner (\"Would minutes exist in this full form within the master repo? Would they add bloat?\") and the experiments in Research: Protocol evolution, part 4. No option chosen.",
+    "tensions": "Options, none chosen:\n- A. Everything in the master; discovery and compositions default to the outcome types.\n- B. Work each meeting in a copy of the master, merge the outcome records back, attach the whole meeting as a file.\n- C. A separate repository per meeting, with outcomes re-created in the master (new identities; the engine refuses a merge).",
+    "unresolved_questions": "Whether readers need to follow a minute to its fragment inside the master; how often a meeting is re-opened after merging; whether an attached file is acceptable provenance for a trustee.",
+    "next_action": "Use option B for the next real meeting and note every time the missing working records are wanted."
+  },
+  "lifecycleState": "open",
+  "tags": [
+    "exercise",
+    "research",
+    "topic:protocol"
+  ],
+  "createdAt": "2026-11-27T11:08:51.103980078+00:00",
+  "updatedAt": "2026-11-27T11:08:51.103985693+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

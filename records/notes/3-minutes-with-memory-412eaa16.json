@@ -1,0 +1,43 @@
+{
+  "instanceId": "412eaa16-b6e8-464f-ab13-9042680739cf",
+  "title": "3. Minutes with memory",
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "sections": [
+    {
+      "name": "setup",
+      "label": "What was run",
+      "content": "A master repository with a working group's real records: 11 articles, 3 roles and 11 decisions as governance package records. Two meetings in date order under a 12-stage protocol that adds two stages: match standing subjects, and check each decision point against the standing records."
+    },
+    {
+      "name": "precedents",
+      "label": "Checking against standing records",
+      "content": "89 checks over 31 decision points: 31 relies-on, 14 consistent-with, 44 in-tension-with, none contradicts. They include the real issue of the second meeting (a job of about 5,000 pounds against a 3,000 pound per-job limit and the board's reserved powers), which the group's own decision had to deal with the next day, and plausible ones the hand-written minutes do not mention. About half of all checks are flags: too many to hand over without triage. The process also questioned its own inputs: article text that had been clipped, and decisions written after the meeting they were being applied to."
+    },
+    {
+      "name": "subjects",
+      "label": "Subjects across meetings",
+      "content": "12 subjects after two meetings; 4 span both. Two matters split: the first meeting filed its fire escape topic under a board-engagement subject and the second created a fire escape subject. The link was mandatory, so off-the-record topics were forced under a subject. A subject list left to the process fragments."
+    },
+    {
+      "name": "retrieval",
+      "label": "Finding what matters",
+      "content": "With 25 standing records, every stage can be given all of them. With srs-programme's 173 decisions (414 KB) it cannot. Lexical find, tested against 25 hand-made links between those decisions, puts the related decision in its first five 52 to 56 per cent of the time and in its first ten 72 per cent at best. Tested the other way on the master, find would have ranked 47 per cent of the standing records the model cited in its first five."
+    },
+    {
+      "name": "governance",
+      "label": "What the governance records need",
+      "content": "The decision type has no field for what a decision rules out, for declared interests, for the group's own number, or for a subject; no relation says one record is in tension with another. In the two existing registers, about 25 of 170 decisions and 4 of 25 link to another decision."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

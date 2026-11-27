@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "2943b397-ab14-44f1-8d1a-8d4c258ce467",
+  "relationType": "evidences",
+  "sourceInstanceId": "b1b9e7cd-efeb-47b1-b265-bdf805fcca35",
+  "targetInstanceId": "38502279-d1cd-4eed-8cfd-962bef89e43b",
+  "createdAt": "2026-11-27T11:08:47.410925398+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "Each point in a meeting is read against the decisions already taken, with the reason given."
+}

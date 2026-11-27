@@ -1,0 +1,29 @@
+{
+  "instanceId": "24f0fde6-2d8e-4822-b570-5466617028f0",
+  "title": "The protocol was the original incentive for SRS; minutes as a first governance product (2026-11-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:minutes",
+    "topic:protocol",
+    "topic:governance"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Go a step further and look at how we might evolve our protocols. What are the elements that fit easily into the spec, what is a deeper challenge.\n\nThe protocol was perhaps the original incentive to actually create SRS, but we have needed to get SRS stable enough to actually use in real life before being able to implement it.\n\nAn actual governance protocol would also be looking for previous decisions that were relevant to any section. It would highlight where we might contradict decisions too.\n\nWhen building over a longer period a governance dataset would be building up institutional knowledge, all of which would feed into the minutes.\n\nWould minutes exist in this full form within the master repo? Would they add bloat? When minutes are within a bigger context, the topics would be built from a persistent core, so we would be able to trace conversation across time too.\n\nYour goal is to establish what would be a clear project that would allow us to create a way to build SRS minutes that could be a first governance product."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in a Claude Code session, 2026-11-27, verbatim apart from two corrected typing slips (\"within\", \"trace\"). The instructions in the same message (which projects to look at) are not recorded here."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
