@@ -1,0 +1,28 @@
+{
+  "instanceId": "721ed08c-63a3-4c78-b023-c5d4efe215bc",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-200",
+    "title": "AI's share of the work cannot grow with trust",
+    "statement": "Each stage is either done by the AI or done by a person, fixed when the protocol is written. There is no measured path for a stage to move from every output checked, to a sample checked, to trusted, so human and AI collaboration cannot widen as the AI proves itself, and cannot narrow again when it slips.",
+    "kind": "capability",
+    "source_ref": [
+      "srs-programme vignette 27a7396f (owner, 2026-11-27): \"gradually increase the ability for AI and human collaboration\"",
+      "remedy e589fc6d return_when (triage can sample once two thirds are kept)"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol"
+  ],
+  "createdAt": "2026-11-27T17:05:21.229356904+00:00",
+  "updatedAt": "2026-11-27T17:05:21.229358820+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

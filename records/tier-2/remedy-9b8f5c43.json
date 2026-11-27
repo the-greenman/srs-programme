@@ -1,0 +1,29 @@
+{
+  "instanceId": "9b8f5c43-0ed8-43ee-bdab-f621bcda093a",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Stages earn autonomy by measured acceptance",
+    "move": "Give each stage a trust level (every output checked, a sample checked, trusted) that moves up only when the maintainer's acceptance rate on that stage clears a stated bar for a stated number of runs, and drops back on a miss.",
+    "does_not_fix": "Does not make a stage's work better; it decides how much of it a person looks at. A rare, serious error can pass while a stage is sampled.",
+    "falsifier": "A stage promoted to sampled or trusted produces an error a reader finds that the maintainer's check would have caught, more than once in a period.",
+    "source_ref": [
+      "srs-programme vignette 27a7396f",
+      "remedy e589fc6d"
+    ],
+    "return_when": "Most stages sit at trusted and errors come from new kinds of source: attention should move to the sources, not the stages."
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol"
+  ],
+  "createdAt": "2026-11-27T17:05:21.562933231+00:00",
+  "updatedAt": "2026-11-27T17:05:21.562935224+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

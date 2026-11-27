@@ -1,0 +1,29 @@
+{
+  "instanceId": "f3ef427e-5d88-4cb1-9b29-42d7ccaab5ca",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Each run ends with a lesson pass into a new package version",
+    "move": "Close every run with a review stage that turns the maintainer's corrections and new rules into proposed changes to the package (house rules, stage guidance, types, vocabularies), which a person accepts into a new package version; before release, re-run that version on the earlier sources and diff the result.",
+    "does_not_fix": "Does not decide which lessons are worth keeping; a person still judges. A re-run diff shows change, not whether the change is better.",
+    "falsifier": "After three meetings under the loop, the maintainer is still making the same kind of correction on each new meeting, or accepted package changes make the re-run of an earlier meeting worse by the maintainer's reading.",
+    "source_ref": [
+      "srs-programme vignette 27a7396f",
+      "srs-programme finding b9c05574"
+    ],
+    "return_when": "Package versions change less often than meetings arrive for three cycles: the practice has settled and the review can run less often."
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol"
+  ],
+  "createdAt": "2026-11-27T17:05:21.448251943+00:00",
+  "updatedAt": "2026-11-27T17:05:21.448253565+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

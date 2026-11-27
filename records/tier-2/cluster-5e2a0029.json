@@ -1,0 +1,22 @@
+{
+  "instanceId": "5e2a0029-0943-44d7-b29c-b753dfd5bff0",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "The practice learns",
+    "description": "The way a group processes its meetings should itself improve: lessons become changes to the protocols and the data structure, and the share of work done by AI moves with measured trust. The common thread is that the practice, not only the document, grows over time."
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol"
+  ],
+  "createdAt": "2026-11-27T17:05:21.341202773+00:00",
+  "updatedAt": "2026-11-27T17:05:21.341204380+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

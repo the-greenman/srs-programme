@@ -5,9 +5,9 @@
   "typeNamespace": "com.semanticops.method",
   "typeName": "domain",
   "fieldValues": {
-    "title": "Checkable AI documents",
-    "purpose": "Let a person read what an AI made from their sources as a plain summary, open any part of it down to the words and records it rests on, and trust that each new document builds on the last, so that AI output is never a black box.",
-    "in_scope": "Documents built from sources by staged AI processes (a Protocol over a Blueprint): a group's minutes, a project's shared picture, a research synthesis. Their layers (strata) and the evidence links between them; the record of how each was made; how later sources, supplied facts and corrections update them; and the checks and acceptances a person makes before anything is published.",
+    "title": "A shared practice that refines itself",
+    "purpose": "Help a group build a consistent way of processing its meetings that gets better each time: every new transcript is worked on the framework and knowledge earlier ones built, what the group learns changes its protocols and its data structure, and AI takes on more of the work as people come to trust it. Every output reads as a plain summary that opens down to what it rests on, so the AI's part is never a black box.",
+    "in_scope": "The practice around a group's meetings and sources: the protocols (stages over a Blueprint) that turn a transcript into minutes, a project's shared picture or a synthesis; the structured context those runs read and grow (subjects, standing records, earlier documents); the layers (strata) that let a person check any output; how corrections, supplied facts and lessons become versioned changes to the protocols and the package; and the division of work between people and AI, widened as it earns trust. First cases: LTH Works (governance) and the Party Utility backstage (a creative crew); LiveWyer Insight as a non-meeting check.",
     "out_of_scope": "Capturing a meeting live, and a group's decision process (Group governance: meetings, minutes and decisions, which is this domain's first market). Argued essays (Evidence-backed writing). The programme's own memory for agents (Deep context, the parent; Agent memory). Who holds and hosts a group's data (Group meaning ownership)."
   },
   "tags": [
@@ -18,7 +18,7 @@
     "topic:third-party"
   ],
   "createdAt": "2026-11-27T16:46:48.687630782+00:00",
-  "updatedAt": "2026-11-27T16:46:48.687632290+00:00",
+  "updatedAt": "2026-11-27T17:04:55.185554905+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"

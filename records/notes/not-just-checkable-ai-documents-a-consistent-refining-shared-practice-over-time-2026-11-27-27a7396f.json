@@ -1,0 +1,28 @@
+{
+  "instanceId": "27a7396f-558b-4d15-8d3a-ad128ef103ea",
+  "title": "Not just checkable AI documents: a consistent, refining shared practice over time (2026-11-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:protocol",
+    "topic:governance",
+    "topic:third-party"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "This is a little more than just checkable Ai documents, it's a consistent, and refining shared practice over time.\n\nAs we establish the works and backstage data, we will be defining and evolving the way in which we process our meetings, and then gradually increase the ability for AI and human collaboration. We are evolving the structured context, so that when we process the next transcript, we are not starting from scratch, we are building on the framwork and knowledge from before. As we learn, we can evolve our protocols and continue to develop the underlying datastructure and how we feed into it"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in a Claude Code session, 2026-11-27, on the domain Checkable AI documents (4a76b0b5) and its epic. Verbatim; the request in the same message (set up the epic) is not recorded here."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

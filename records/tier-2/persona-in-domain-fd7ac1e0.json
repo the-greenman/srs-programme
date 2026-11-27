@@ -5,7 +5,7 @@
   "typeNamespace": "com.semanticops.method",
   "typeName": "persona-in-domain",
   "fieldValues": {
-    "title": "Reader in Checkable AI documents",
+    "title": "Reader in A shared practice that refines itself",
     "summary": "A member, trustee, crew member or client who reads a document an AI made from sources they did not see, and must decide whether to rely on it.",
     "goals": [
       "understand the gist quickly",
@@ -27,7 +27,7 @@
     "topic:strata"
   ],
   "createdAt": "2026-11-27T16:47:00.724528707+00:00",
-  "updatedAt": "2026-11-27T16:47:00.724530295+00:00",
+  "updatedAt": "2026-11-27T17:04:55.276536568+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "claude-code"

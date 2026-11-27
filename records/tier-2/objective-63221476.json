@@ -1,0 +1,26 @@
+{
+  "instanceId": "63221476-bd18-4922-adb0-4f793cb9df89",
+  "typeId": "f6635d38-f2f6-4e2a-bcbe-8780d9ee4e0b",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "objective",
+  "fieldValues": {
+    "title": "A meeting practice that builds on itself, with AI people can check",
+    "summary": "A group processes each meeting on the framework and knowledge earlier meetings built, improves its protocols and data structure as it learns, and hands AI more of the work as it earns trust; every output opens down to what it rests on. Its first offering is structured governance (SRS Minutes) for LTH Works, tested alongside the Party Utility backstage. Draft.",
+    "body": "## Measures\n\n- Changes needing a one-off script on the backstage: 35 of 35 now; one in five or fewer.\n- Secretary's edits per LTH Works meeting: baseline over three meetings, then below it.\n- Flags kept by the secretary: two thirds of those shown.\n- Repeated corrections: the same kind of correction is not needed on three meetings running.\n- Stages promoted past every-output-checked, with no miss a reader finds.\n\n## Source\n\nThe brief: srs-programme source-documents/governance-minutes-2026-11-27/planning-brief.md. The owner's direction: vignettes 0986f08a and 27a7396f (2026-11-27).",
+    "source_ref": [
+      "srs-programme source-documents/governance-minutes-2026-11-27/planning-brief.md"
+    ]
+  },
+  "tags": [
+    "topic:protocol",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T17:05:48.853067820+00:00",
+  "updatedAt": "2026-11-27T17:05:48.853069373+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
