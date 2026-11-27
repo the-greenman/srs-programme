@@ -1,0 +1,31 @@
+{
+  "instanceId": "73e1fba3-2954-4f93-b820-d7ff164fd0ae",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Open business and replaced standings fit the spec as it is",
+    "summary": "A lifecycle state gives open business as a native filter, and record successor creates the next standing with its supersedes relation; the prototype used plain fields for both.",
+    "evidence": [
+      "Test 2026-11-27, build.676: find --lifecycle-state open returns only the open point; record successor made the record and the supersedes relation, deriving the relation from the lifecycle",
+      "record successor left the predecessor in its old state",
+      "A lifecycle definition was refused four times, one missing property at a time; type create accepted a lifecycleRef that did not exist"
+    ],
+    "body": "The package should change, not the spec. Authoring a lifecycle is harder than it should be."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T11:39:12.837343967+00:00",
+  "updatedAt": "2026-11-27T11:39:12.837345976+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

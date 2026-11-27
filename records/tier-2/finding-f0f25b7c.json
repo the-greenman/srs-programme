@@ -1,0 +1,30 @@
+{
+  "instanceId": "f0f25b7c-2b06-43b7-a598-9fae83753df4",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A second meeting was minuted as if it were the first",
+    "summary": "The November meeting's records had no relation to any of the 10 decision points and 8 tasks the October meeting left open; only shared subjects connected the two.",
+    "evidence": [
+      "Master repository 2026-11-27: 0 relations from November records to October records",
+      "Four November minutes look back in wording only (still, again)"
+    ],
+    "body": "No stage was given the earlier meeting's records. Continuity needs a stage that reads the series, not a better prompt."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T11:39:11.364026064+00:00",
+  "updatedAt": "2026-11-27T11:39:11.364027843+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

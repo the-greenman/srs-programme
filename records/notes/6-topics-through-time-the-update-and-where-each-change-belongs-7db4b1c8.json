@@ -1,0 +1,48 @@
+{
+  "instanceId": "7db4b1c8-bde0-4bc9-9ad3-0dc04e08df72",
+  "title": "6. Topics through time: the update, and where each change belongs",
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "sections": [
+    {
+      "name": "problem",
+      "label": "What the second meeting showed",
+      "content": "The October meeting left 10 decision points open and 8 tasks. The November meeting was minuted with no relation to any of them: its records pointed at the same subjects and that was all. A second meeting was being processed as if it were the first, because no stage was given the earlier meeting's records. The owner, 2026-11-27: \"The way in which topics grow through time is going to be a core feature.\""
+    },
+    {
+      "name": "model",
+      "label": "What growing through time is",
+      "content": "A subject is a matter the group returns to: stable, few, owned by a person, outside any meeting. A topic is that matter as one meeting dealt with it. A follow-up says what a later meeting did to one item an earlier meeting left open: resolved, progressed, unchanged, overtaken or not mentioned. A standing says where a subject stands after a meeting, and each replaces the last. One act belongs to a person: curation of the subject list, which the process may only propose."
+    },
+    {
+      "name": "result",
+      "label": "What the update produced",
+      "content": "A three-stage protocol, meeting-update, run after each meeting's minutes in the master. For November: 17 follow-ups on October's 18 open items (4 progressed, each with the transcript lines that show it; 13 not mentioned), 8 standings (3 replacing an October one), and proposals at each meeting that name both topics the first meeting had filed under the wrong subject. Once those were accepted the fire escape read as one thread across both meetings. Limits: one open item got no follow-up and nothing enforced it; a misfiled topic breaks the chain until a person accepts the move, so curation comes before the update; and the thread across meetings had to be printed by a script."
+    },
+    {
+      "name": "levels",
+      "label": "The levels",
+      "content": "Spec: shapes and invariants two tools must agree on to exchange a repository; no governance words. Engine: generic mechanics over those shapes, the same for every package; no model calls. Package: the governance vocabulary as definitions, distributed as a bundle. Processor (the clerk): judgement, policy and the outside world. The owner, 2026-11-27: \"We need to design the update so that the changes fit at the right level. The spec, the engine and then a processor like the clerk that understands the governance.\""
+    },
+    {
+      "name": "where",
+      "label": "Where each change goes",
+      "content": "Most of it needs no new spec. Open business is a lifecycle state and the discovery filter on it; a standing replacing the last is supersedes and a record successor; the series is a parent container and a date on the root record. All three were tested on the engine as it is. The prototype used plain fields where a lifecycle belongs, so the package should change.\n\nThe spec needs three things: what a stage reads, with a scope (this document, the series before it, the repository); a repository scope for a type; and a completion check that can name a scope and a state. The engine's share is resolving those scopes and running the checks. Everything a person does (accepting a minute, keeping a flag, accepting a proposal, promoting a decision point) is the processor's, as clerk session acts, which already record who acted and when. The runner belongs in the clerk, split as the clerk already splits: the pure part in lib/practice, the srs CLI and the model in lib/adapters, the package in packages."
+    },
+    {
+      "name": "order",
+      "label": "Order of work",
+      "content": "1. Package: lifecycles on decision points, tasks, standings, proposals and precedent checks; a topic may have no subject. 2. Clerk: the runner moved in, the secretary's check and curation as session acts, the five steps orchestrated for one meeting. 3. Spec: one RFC for what a stage reads, with the rest of the Tier 1 stage contract. 4. Engine: series and repository scope, the stage brief, runs that travel. 5. Spec: repository-scoped types and scoped completion checks. 6. The thread composition, with the graph work."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

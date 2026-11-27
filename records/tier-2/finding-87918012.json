@@ -1,0 +1,31 @@
+{
+  "instanceId": "87918012-fe20-4c63-bb9d-e30124d3d5ca",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A composition cannot follow a subject across meetings",
+    "summary": "Compositions render the members of one container; the thread of a subject through several meeting containers had to be printed by a script.",
+    "evidence": [
+      "srs-lab minutes/thread.py",
+      "Composition section sources: container-subset and discovery-query, neither walks a relation out of the container"
+    ],
+    "body": "Belongs with the graph thread: one-hop selection by relation and a bounded walk."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance",
+    "gap"
+  ],
+  "createdAt": "2026-11-27T11:39:13.916974633+00:00",
+  "updatedAt": "2026-11-27T11:39:13.916978620+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

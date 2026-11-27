@@ -1,0 +1,28 @@
+{
+  "instanceId": "1d4a984b-1c97-4e32-8bd1-2be1c9ee1cab",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Should continuity be a separate update, or part of each minutes stage?",
+    "thinking_reached": "Raised by the second-meeting pass (Research: Protocol evolution, part 6). No option chosen.",
+    "tensions": "Options, none chosen:\n- A. A separate update protocol after the minutes, as tested: additive, and it can be re-run when subjects are re-filed.\n- B. Every minutes stage reads the series: a decision point continues an earlier one and a task updates an earlier task as they are written.\n- C. Both: stages link as they go, and the update accounts for what nothing linked to.",
+    "unresolved_questions": "Whether B makes minutes better or just longer briefs; whether a decision point that continues an earlier one is the same record, a successor, or a new one with a relation.",
+    "next_action": "Run option B on the November meeting and compare the minutes and the follow-ups."
+  },
+  "lifecycleState": "open",
+  "tags": [
+    "exercise",
+    "research",
+    "topic:protocol"
+  ],
+  "createdAt": "2026-11-27T11:39:14.336913420+00:00",
+  "updatedAt": "2026-11-27T11:39:14.336918639+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "102f731b-df70-467d-976f-4597eda3eebd",
+  "relationType": "evidences",
+  "sourceInstanceId": "22673626-2e0a-4b21-a5cf-84a9b43e14aa",
+  "targetInstanceId": "069253b6-904c-4946-b211-744b5ea2f6f6",
+  "createdAt": "2026-11-27T11:39:12.129720896+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "A conversation can be followed across meetings, item by item."
+}
