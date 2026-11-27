@@ -1,0 +1,22 @@
+{
+  "instanceId": "f6b79eed-fc9d-4bcd-b4a1-4f9ea49607ca",
+  "title": "Vignette: we don't keep something that is wrong; the spec does what is expected",
+  "tags": [
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "content": "Let's think about this principle.\n\nWe also don't want to keep something that is wrong.\n\nWhere possible we want the srs spec do what is expected... When we pick a counter intuitive option over over that is obviously easier to understand and has no obvious downside, then we should do what is better"
+    },
+    {
+      "name": "context",
+      "content": "Said 2026-11-27 in reply to the option set for srs#1035 (RFC-051 Rev 16 tie-break). The recommendation had been to codify srs-rust's existing tie rule (compare tied runs from the last entry backwards, keep the lower key) on Reliability over Renewal, because it changes no tool or data, over a more intuitive rule (e.g. keep the earliest run in the new outline)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

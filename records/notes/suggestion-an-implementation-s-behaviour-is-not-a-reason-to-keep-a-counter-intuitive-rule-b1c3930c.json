@@ -1,0 +1,27 @@
+{
+  "instanceId": "b1c3930c-43ae-44df-94a1-b3c9297fb977",
+  "title": "Suggestion: an implementation's behaviour is not a reason to keep a counter-intuitive rule",
+  "tags": [
+    "suggestion",
+    "topic:ruling"
+  ],
+  "sections": [
+    {
+      "name": "statement",
+      "content": "When the spec settles a rule and two candidates are both sound, prefer the one a reader would expect and can state simply, unless it has a real downside. What an implementation already does is evidence, not a standing contract: Reliability over Renewal (axis 5-11) protects what the spec has declared, not behaviour the spec never stated. Where an existing behaviour is wrong or needlessly counter-intuitive, the spec fixes it rather than enshrining it."
+    },
+    {
+      "name": "first case",
+      "content": "srs#1035 (RFC-051 Rev 16): which ordered run is kept when several tie in a whole-outline replace. The spec never stated a tie rule, so srs-rust's backward-comparison tie-break is not a standing contract; a rule a reader can predict (keep the run that comes first in the new outline) is preferred unless it has a real downside."
+    },
+    {
+      "name": "open questions",
+      "content": "Does this refine the reading of axis 5-11 in the Decision Compass, or sit beside it as a cell-level preference? What counts as an 'obvious downside' (a migration of stored data clearly does; a code change plus a pin advance probably does not)?"
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

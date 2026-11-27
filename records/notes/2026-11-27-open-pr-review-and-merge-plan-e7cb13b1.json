@@ -1,0 +1,18 @@
+{
+  "instanceId": "e7cb13b1-94fa-4975-8748-fc0662b4dbc0",
+  "title": "2026-11-27 · Open PR review and merge plan",
+  "tags": [
+    "conversation"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "content": "Owner and Claude Code reviewed all 21 open PRs across the SRS repositories and set a merge order. The conversation turned to srs#1035 (RFC-051 Revision 16, which run is kept when several ordered runs tie in a whole-outline replace), where the owner stated a principle about preferring the expected behaviour over an incumbent counter-intuitive one."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
