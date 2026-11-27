@@ -1,0 +1,38 @@
+{
+  "instanceId": "f75f3f71-7bc3-4cf2-ab6f-9ca6d0b2531e",
+  "title": "2. Three shapes of protocol, one runner",
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "sections": [
+    {
+      "name": "closed",
+      "label": "What a definition can carry today",
+      "content": "Nothing beyond its schema. Protocol, ProtocolStage, FieldRef and AiGuidance are all closed; there is no meta carrier; a stage has one outputType. A loose Protocol with an empty targetType, which the spec describes, cannot be created (srs#1054)."
+    },
+    {
+      "name": "tight",
+      "label": "One record, field by field",
+      "content": "The governance decision protocol's nine stages ran unchanged as target stages, on one decision point of a real meeting with its transcript fragments as members of the run's container. The record it built matches the decision the group took the next day and raises the spending limit that decision had to deal with. The record had to be created with a placeholder: the type requires the decision statement and the protocol writes it at stage 6."
+    },
+    {
+      "name": "synthesis",
+      "label": "A different report",
+      "content": "A Blueprint and a two-stage Protocol over the LiveWyer Insight report's own types, on a copy with all 417 findings: stage 1 wrote 32 problems with 353 evidence links (the project's own clustering has 23 and 297; 18 of the 32 match one closely). Stage 2 wrote 11 opportunities and marked every one strong: in the real project that field is computed from how many conference series support the problems. What the report's process needs and a Protocol cannot say: a loop over 361 talks, computed scoring and ranking, the affirmation queue, and work done upstream in another repository."
+    },
+    {
+      "name": "earlier",
+      "label": "What the earlier work adds",
+      "content": "decision-logger (pre-SRS) had the things still missing: a live context cursor tagging each chunk, a person choosing which flagged item to pursue, per-field regeneration and locking, and one decision followed across meetings. The local whisper work has live capture and a detector that finds but does not write; nothing yet turns its observations into records."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,55 @@
+{
+  "instanceId": "06092c26-8fcc-44a9-8bb5-0d6824130f52",
+  "title": "Protocol evolution: from minutes to a first governance product",
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "sections": [
+    {
+      "name": "claim",
+      "label": "Claim",
+      "content": "The Protocol can carry a governance product, and most of what it lacks is small. The owner, 2026-11-27: \"The protocol was perhaps the original incentive to actually create SRS, but we have needed to get SRS stable enough to actually use in real life before being able to implement it.\" No Protocol had ever been run before that day. Minutes are the consumer the spec was waiting for: a standing ruling left run semantics to be designed when a decision log needed them."
+    },
+    {
+      "name": "story",
+      "label": "The story so far",
+      "content": "One generic runner drove four different processes on real data: meeting minutes; the same minutes inside a master repository holding a group's real articles, roles and decisions; the governance package's own nine-stage decision protocol; and a synthesis protocol over the LiveWyer Insight report's types. From them, a stage turns out to be one of eight kinds of act, and a Protocol today can express four.\n\nThe needed changes sort into three tiers. Tier 1 is additive and small: say what kind a stage is, what it reads, which links it writes, which end a required relation binds. Tier 2 needs design inside the Protocol extension: a specified run that travels, checkable completion, records that are not finished yet, human gates, computed stages, sub-runs. Tier 3 is wider than the Protocol: finding the earlier decisions that matter, what a tension between records means, provenance across repositories, live meetings, people.\n\nThe governance questions have first answers. A check of each decision point against standing records works and finds the real issues, but flags too freely and needs a person's triage. Subjects trace a matter across meetings, and need curating. Full minutes do not strain the engine; they crowd search. And a meeting can be worked in a copy of the master with only its outcomes merged back."
+    },
+    {
+      "name": "parts",
+      "label": "The parts",
+      "content": "1. Kinds of stage, and three tiers of change.\n2. Three shapes of protocol, one runner.\n3. Minutes with memory.\n4. Where minutes live.\n5. The project: SRS Minutes as a first governance product."
+    },
+    {
+      "name": "open",
+      "label": "What is open",
+      "content": "Five exercises: where a meeting's working records live; how a stage is given the earlier decisions that matter; who curates subjects; what a flagged tension does; where the runner lives. Not done: variance across runs, a second model, a live meeting, and any use by the group."
+    },
+    {
+      "name": "find",
+      "label": "Finding the evidence",
+      "content": "Findings: srs find --type com.semanticops.programme/finding --tag topic:protocol. The two documents attached to this note are the tiered list of changes and the project definition. Code: srs-lab minutes/ and minutes/experiments/."
+    }
+  ],
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "0f72e98a-1ff3-4eb6-9b61-e719ebcdc1cc",
+      "sourceRole": "attaches"
+    },
+    {
+      "sourceType": "repository-document",
+      "sourceId": "f86a4d5a-7228-4e42-9365-e51c3d3bacdb",
+      "sourceRole": "attaches"
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

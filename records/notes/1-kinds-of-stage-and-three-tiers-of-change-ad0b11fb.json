@@ -1,0 +1,38 @@
+{
+  "instanceId": "ad0b11fb-f781-4da3-a8bd-fa37364e07de",
+  "title": "1. Kinds of stage, and three tiers of change",
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "sections": [
+    {
+      "name": "kinds",
+      "label": "Eight kinds of stage",
+      "content": "Expressible today: extract (write records of one type from a source); update (fill fields on records an earlier stage made, though only implied by position); target (fill fields of the one record the run is building: the original design); synthesise (write records that group or judge earlier ones, with the links arriving from them).\n\nNot expressible: for-each (repeat a stage or a sub-protocol per item); compute (derive values with no judgement: counts, rank, render); gate (a person accepts, rejects or promotes); live (a source that is still arriving)."
+    },
+    {
+      "name": "tier1",
+      "label": "Tier 1: fits the spec as it stands",
+      "content": "Additive optional properties and fixes: a stage's mode; the relations a stage writes; which end RelationSpec.required binds, and a label; what a stage reads; more than one output type and a named uncertainty type; an anchor on SourceReference or the fragment-identifier convention already in use; an explicit Blueprint reference on a Protocol; a meta carrier on definitions; and the filed bugs (srs#1053, srs#1054, srs-rust#1711 to #1714)."
+    },
+    {
+      "name": "tier2",
+      "label": "Tier 2: needs design, inside the Protocol extension",
+      "content": "A specified ProtocolRun that travels and records what each stage produced; a small vocabulary of checkable completion; records under construction (a required field written by a later stage); gate stages; compute stages; composition (extends, and a sub-run per item); scope (persistent types and standing records outside the document's container)."
+    },
+    {
+      "name": "tier3",
+      "label": "Tier 3: deeper, and wider than the Protocol",
+      "content": "Context assembly at scale; what a tension or contradiction between records means and who rules on it; provenance across repositories; live protocols and the attention cursor; people as records; what re-running a stage does; withholding as an export."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

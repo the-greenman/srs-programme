@@ -1,0 +1,31 @@
+{
+  "instanceId": "aedb0a19-dd56-4de5-aa30-f43d1831de54",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The original field-by-field Protocol works, once its record exists",
+    "summary": "The governance decision protocol's nine stages ran unchanged and built a decision record from one real decision point that matches the decision the group took the next day; but its target record had to be created with a placeholder, because the type requires a field the protocol writes at stage 6.",
+    "evidence": [
+      "Nested run 2026-11-27 on a copy of the 25 November meeting: 9 stages, 9 fields, each reply accepted first time",
+      "governance/decision requires decision_statement; stage 6 (Verdict) contributes it"
+    ],
+    "body": "A record under construction is not yet a valid record. The same gap makes a computed field unwritable by anything but the model."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance",
+    "gap"
+  ],
+  "createdAt": "2026-11-27T11:08:46.099852908+00:00",
+  "updatedAt": "2026-11-27T11:08:46.099855202+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

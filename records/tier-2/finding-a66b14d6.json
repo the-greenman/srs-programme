@@ -1,0 +1,31 @@
+{
+  "instanceId": "a66b14d6-27ca-40f4-a330-b3ef07413382",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The governance decision type lacks what a real group's decisions carry",
+    "summary": "Loading a working group's eleven real decisions into governance/decision left no field for what each rules out, its declared interests, its links or its own number: they went into context and the title.",
+    "evidence": [
+      "LTH Works decision format: question, options, decision, why, rules out, interests, links, revisit when, acted on",
+      "governance/decision 1.2.4 fields; muSrs and srs-programme both carry a stray status field"
+    ],
+    "body": "Governance 2.0 should take the group's format as a test case, add a subject link and a relation for tension between records."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance",
+    "gap"
+  ],
+  "createdAt": "2026-11-27T11:08:50.668396688+00:00",
+  "updatedAt": "2026-11-27T11:08:50.668398460+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

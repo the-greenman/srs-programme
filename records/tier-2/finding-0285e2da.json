@@ -1,0 +1,31 @@
+{
+  "instanceId": "0285e2da-d97e-4af3-a825-02f4cc38f667",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Full minutes do not strain the engine; they crowd search",
+    "summary": "A year of monthly meetings kept in full is the size of repositories that validate in 0.4 seconds, but 52 per cent of a master's records after two meetings are working detail and a subject search returns mostly those.",
+    "evidence": [
+      "srs-programme: 2,856 records, validate 0.41 s, find 0.36 s",
+      "Master after two meetings: 480 records, 251 working; find \"fire escape\" top ten: 3 open questions, 3 precedents, 1 fragment, 1 minute",
+      "The same search with --type-name minute: the right four"
+    ],
+    "body": "Bloat is a reading problem. Either the working layer stays out of the master, or discovery defaults to the outcome types."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T11:08:49.387752202+00:00",
+  "updatedAt": "2026-11-27T11:08:49.387754192+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

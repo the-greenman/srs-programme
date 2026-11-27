@@ -1,0 +1,30 @@
+{
+  "instanceId": "f3225366-17ca-4ad6-add6-5a8449c75365",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A synthesis stage is expressible; a computed field is not",
+    "summary": "A two-stage Protocol over the LiveWyer Insight report's own types clustered 417 real findings into 32 problems with 353 evidence links in one stage; asked to set the computed signal field in the next, the model marked all eleven opportunities strong.",
+    "evidence": [
+      "insight-synthesis on a copy of livewyer-insight, 2026-11-27: stage 1 accepted first time; 18 of 32 problems match one of the original 23 at Jaccard 0.3 or more",
+      "Original signal: computed from distinct conference series by tools/link.py"
+    ],
+    "body": "Grouping with links arriving from the grouped records fits today's Protocol. Counting, ranking and rendering need a compute stage; a loop over 361 talks needs for-each; the affirmation queue needs a gate."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T11:08:46.825780208+00:00",
+  "updatedAt": "2026-11-27T11:08:46.825781917+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

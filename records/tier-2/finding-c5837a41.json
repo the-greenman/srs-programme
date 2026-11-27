@@ -1,0 +1,31 @@
+{
+  "instanceId": "c5837a41-6af2-47cb-a48e-1427bd7f2122",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A Protocol definition cannot carry anything not yet specified",
+    "summary": "All four Protocol schemas are closed and there is no meta carrier, so none of the nine things the minutes runner supplied can be tried inside a definition; and a loose Protocol with an empty targetType cannot be created at all.",
+    "evidence": [
+      "protocol create with extra keys at protocol, stage and aiGuidance level: all refused (build.676)",
+      "srs#1054: targetType oneOf accepts the empty string twice"
+    ],
+    "body": "Each evolution needs a schema change before it can be tested in place. Until then conventions sit in a profile note or in the tool."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance",
+    "gap"
+  ],
+  "createdAt": "2026-11-27T11:08:45.549228604+00:00",
+  "updatedAt": "2026-11-27T11:08:45.549234764+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

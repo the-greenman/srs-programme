@@ -1,0 +1,31 @@
+{
+  "instanceId": "43465141-5ae6-4f06-b0a3-9bc80bfd399d",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A meeting can be worked in a copy of the master and only its outcomes merged back",
+    "summary": "A third real meeting was run in a copy of the master; 129 outcome records and 105 relations merged back with repo merge-apply, 120 working records and 321 relations stayed in the meeting file, and that file was attached to the meeting record. A separate repository is refused: only copies of one repository merge.",
+    "evidence": [
+      "2026-11-27: merge-preview offered 251 instances and 426 relations; merge-apply of the chosen 129 and 105 succeeded; master validates with 0 errors at 609 records (729 had the meeting been kept in full)",
+      "Meeting file (a slice of the working copy): 684 KB, attached as a source document",
+      "merge-preview from a slice into a different repository: refused, only copies of the same repository can be merged"
+    ],
+    "body": "It uses only what the engine has. Two things to settle: the 59 precedent checks came across but their links to decision points did not, because decision points were left in the working layer, so decision points belong with the outcomes; and nothing in the master can point into the attached file, so a minute's evidence is one file away rather than one link away."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T11:08:49.937890875+00:00",
+  "updatedAt": "2026-11-27T11:08:49.937892524+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

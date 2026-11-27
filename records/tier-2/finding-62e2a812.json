@@ -1,0 +1,31 @@
+{
+  "instanceId": "62e2a812-2511-4f06-9199-f5d3f4d0ecbf",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "No Protocol had been run before a minutes process needed one",
+    "summary": "No repository in the programme held a protocol run until 2026-11-27, and the spec defines no run; a standing ruling left run semantics to be designed when a consumer needed them, and named a decision log as that consumer.",
+    "evidence": [
+      "Survey 2026-11-27: no runs/runs.json under semanticops or muSrs; seven distinct Protocol definitions, none using outputType",
+      "rfc-decision-4f1e12e5: run semantics \"designed at consumer time\"",
+      "The only runs: the minutes experiments of 2026-11-27"
+    ],
+    "body": "Minutes are the first consumer. The design of the run should come from what they needed: what each stage produced, who ran it, which checks passed, and travel with the document."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T11:08:44.998700597+00:00",
+  "updatedAt": "2026-11-27T11:08:44.998704218+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

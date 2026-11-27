@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "2a0f7358-df6b-4cb1-8d9e-55beb62f9b79",
+  "relationType": "evidences",
+  "sourceInstanceId": "aedb0a19-dd56-4de5-aa30-f43d1831de54",
+  "targetInstanceId": "7446174c-caea-4136-bafc-e4a838e20d1e",
+  "createdAt": "2026-11-27T11:08:46.132053575+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "A decision point from minutes became a full decision record with question, alternatives, requirements, rationale and review triggers."
+}

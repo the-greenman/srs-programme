@@ -1,0 +1,38 @@
+{
+  "instanceId": "e4070572-20c9-42b5-95a1-cbceb722cb57",
+  "title": "4. Where minutes live",
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "sections": [
+    {
+      "name": "size",
+      "label": "Capacity is not the problem",
+      "content": "A meeting is about 180 to 240 records and 300 to 380 relations. A year of monthly meetings is the size of srs-programme (2,856 records), which validates in 0.4 seconds and searches in 0.36."
+    },
+    {
+      "name": "noise",
+      "label": "Noise is",
+      "content": "Of 480 records after two meetings, 52 per cent are working detail: fragments, decision points, open questions, process steps. Half the 767 relations touch a fragment. A search for a subject returns mostly open questions and precedent checks; restricted to minutes it returns the right four."
+    },
+    {
+      "name": "copy",
+      "label": "A working copy, and a merge",
+      "content": "repo merge refuses a different repository: only copies of one repository merge. So a third real meeting was run in a copy of the master. Its 129 outcome records (meeting, attendance, topics, minutes, tasks, references, precedent checks, new subjects) and 105 relations merged back with repo merge-apply; 120 working records and 321 relations stayed behind. The master validates with no errors at 609 records, where keeping the meeting in full would have made 729. The whole meeting, sliced from the working copy (684 KB), was attached to its meeting record. One consequence: the precedent checks came across without their links to decision points, which were left behind, so decision points belong in the outcome layer."
+    },
+    {
+      "name": "file",
+      "label": "The meeting file",
+      "content": "A slice of the meeting's container attaches to the meeting record in the master as an ordinary source document. With the transcript withheld it still validates and its evidence fragments keep their words. Relations cannot cross from the master into that file: cross-repository relations went with federation."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,30 @@
+{
+  "instanceId": "1453f37c-f5c9-4cdb-9f81-5aa52a78437b",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Subjects trace a matter across meetings, and fragment without a curator",
+    "summary": "After two meetings 4 of 12 subjects span both, so a matter can be followed in date order; but the first meeting shaped the list, two matters split across subjects, and a mandatory link forced off-the-record topics under a subject.",
+    "evidence": [
+      "Master 2026-11-27: water supply, spend and reporting, room lets, board engagement span both meetings",
+      "October's fire escape topic under a board-engagement subject; November created a fire escape subject"
+    ],
+    "body": "The persistent core has to be owned: merge, rename and retire subjects as a person's act, and let a topic have no subject."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T11:08:48.656983138+00:00",
+  "updatedAt": "2026-11-27T11:08:48.656987957+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,28 @@
+{
+  "instanceId": "ddb72765-d7df-469c-b9e0-1d066d3cfd42",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "What does a flagged tension do?",
+    "thinking_reached": "Raised by the precedent checks (Research: Protocol evolution, part 3). No option chosen.",
+    "tensions": "Options, none chosen:\n- A. Nothing by itself: it is a note for the secretary, kept or dismissed.\n- B. A relation in the governance package (in tension with), from the new record to the standing one, with the reason.\n- C. It blocks a lifecycle transition (proposed to ratified) until someone rules on it.",
+    "unresolved_questions": "How many flags a secretary keeps; whether a kept flag should survive into the decision register.",
+    "next_action": "Have the secretary triage the 89 checks from the two meetings and count."
+  },
+  "lifecycleState": "open",
+  "tags": [
+    "exercise",
+    "research",
+    "topic:protocol"
+  ],
+  "createdAt": "2026-11-27T11:08:52.106931454+00:00",
+  "updatedAt": "2026-11-27T11:08:52.106934761+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
