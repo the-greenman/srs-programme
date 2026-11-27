@@ -1,0 +1,30 @@
+{
+  "instanceId": "7ee9eaf7-bfda-4152-92e0-b18afd6841f4",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Huge unknown integers in a registry are refused, not rounded",
+    "decision_question": "When exact numeric comparison (RFC-056 [R4]) makes the registry loader meet an integer beyond u64 in an unknown field, does it refuse the registry or round the number?",
+    "context": "srs-rust#1716 enables serde_json's arbitrary_precision workspace-wide so field filters compare decimals exactly, as RFC-056 [R4] requires. As a side effect, the srs-core Registry refuses to load an integer beyond u64 in an unknown field (serde's flatten buffer has no u128) instead of rounding it silently. The TPR reviewer escalated it: a behaviour change no ruling covered.",
+    "friction": "Without a ruling the PR could not merge: merging would presume the answer.",
+    "alternatives_considered": "(1) Keep the refusal: no silent corruption; a registry carrying such a number fails to load. (2) Do nothing: revert to f64; RFC-056 [R4] stays violated for decimals and the registry rounds silently. (3) A custom deserializer that carries such numbers through flatten: exact and loadable, at the cost of code no current case needs.",
+    "key_requirements": "RFC-056 [R4]: exact numeric comparison. No silent corruption. Build only what a current requirement needs.",
+    "decision_statement": "The registry refuses an integer beyond u64 in an unknown field rather than rounding it silently.",
+    "rationale": "Owner, 2026-11-27: 'This implements the current feature and we can revisit when we hit a requirement.' The refusal is loud, the exactness is what the ruling asks for, no known registry carries such a number, and undoing it means reverting one Cargo feature.",
+    "revisit_when": "A real registry carries an integer beyond u64 in an unknown field.",
+    "external_links": [
+      "https://github.com/the-greenman/srs-rust/pull/1716"
+    ],
+    "decision_kind": "design"
+  },
+  "lifecycleState": "proposed",
+  "createdAt": "2026-11-27T23:34:14.724338481+00:00",
+  "updatedAt": "2026-11-27T23:34:14.724340070+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

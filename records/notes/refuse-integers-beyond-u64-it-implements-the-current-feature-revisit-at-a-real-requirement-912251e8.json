@@ -1,0 +1,19 @@
+{
+  "instanceId": "912251e8-2e56-4925-b01a-d98133d229ad",
+  "title": "Refuse integers beyond u64: it implements the current feature; revisit at a real requirement",
+  "tags": [
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "label": "Owner, 2026-11-27 (on srs-rust#1716 ask A1)",
+      "content": "Let's take the recommendation and refuse.\nThis implements the current feature and we can revisit when we hit a requirement"
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
