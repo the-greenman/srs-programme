@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "db7a2c28-be51-43c9-a5db-2427a6542d81",
+  "relationType": "derived-from",
+  "sourceInstanceId": "b0f0be5d-d91e-4424-98e4-a3e97a6dbc39",
+  "targetInstanceId": "4a67caf5-526e-4635-858f-72fd14d90d16",
+  "createdAt": "2026-11-27T23:22:16.209698747+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "notes": "Split on 2026-11-27: the naming part, settled by the rulings of 2026-10-22 and 2026-11-03, moved out of 4a67caf5."
+}
