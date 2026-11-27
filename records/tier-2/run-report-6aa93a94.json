@@ -1,0 +1,23 @@
+{
+  "instanceId": "6aa93a94-205f-42ae-be09-b8ff124779f9",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Third-party ready: cycle close 2026-11-27",
+    "run_date": "2026-11-27",
+    "chose": "WG Third-party ready: cycle 2026-11-26 11:30 to 2026-11-27 11:30 UTC\nPaused: 2 reports unacknowledged. Receive in a session or react 👍 to resume.\n\n1. Decisions for you: two proposed escalations wait on you. (a) 3a43fd0f (srs-rust#1100): srs-rust accepts a Blueprint relation cardinality in range form (\"1..*\", \"0..3\") that the published blueprint.json schema refuses, so a third-party engine following the schema rejects data the reference engine wrote. Options: widen the schema to the range form, or make the engine refuse it. Action needed: decide. Urgency: medium (open since 2026-10-19). (b) f0c64ba4 (srs#965): two accepted RFCs give a corpus with no or revision-1 dataModelRevision two different error codes (storage-generation-unsupported vs container-migration-needed); no implementer can satisfy both. Action needed: decide. Urgency: medium (open since 2026-10-25). Everything else the earlier reports listed (21b6b4b7, 6882f577, 864eaebf, bc6bc746, c7a8e0a2, de6b88c5) is now ratified or abandoned in the group log.\n\n2. Decided within mandate: none this cycle; no group PR merged, so no decision was ready and no session was held.\n\n3. Done: no group PR merged this cycle (0 quorum lines).\n\n4. Stuck or lost: 10 open group PRs. Waiting for your merge (gate:owner-merge): srs#1033, #1034, #1035, #1036, #1037. Delegated and open: srs#1021 and #1052 (auto-merge), srs#1049, srs-rust#1646 and #1709. No red gate was reported by a run. Needs-input: srs-rust#1495, #1164, #731, #728, #1510; srs-web#691, #632; srs#965. Blocked: srs-rust#1638, #1637, #1636, #1635, #1496, #1679; srs#1041, #1027, #928. Escalation-log check (owner rulings in both logs): not re-read this cycle. Also: no steward report was posted on #31 between 2026-11-21 and 2026-11-26 (a routine that did not run).\n\n5. Budget: 0 of 10 delegated merges this cycle; 5 open delegated; room 5. Pause state: paused: 2 reports unacknowledged.\n5b. Awaiting ratification: the two proposed escalations in section 1 (oldest 3a43fd0f). Session to ratify: `clerk session --as owner --repo <srs-programme> --ratify all` (the-greenman/clerk; the TUI is `clerk --as owner`).\n\n6. Next: ready + wg:third-party-ready: srs-rust 12, srs 3, srs-web 1, srs-vscode 0. Workable now: srs-rust#1692 (P0), #1677; the rest are blocked or need input. Top 3 in Builder order: srs-rust#1692, srs-rust#1677, srs-rust#1679 (blocked by srs#1041). Local priorities: none. Open group PRs in flight: 10 (5 delegated); budget left 5. Queue running dry: 2 workable, budget 10. Needs feeding: the conformance probe of unprobed invariants and the spec-to-implementation drift list. Waits on the owner: the two escalations, srs#1033 to #1037, and unacknowledged reports. Fed by the analyst: last Queue fed comment 2026-11-20 (filed 4).\n6b. Exercises: none open in the group log.\n\n7. What we learned: I1 for this cycle: 0/0 grounded to a problem (n/a, no PR merged); record ab81095d-069b-416c-b5b3-7ac7d6894544. The useful/noisy/misleading line is yours to give in a session; evaluator stays pending. I2 to I4: pending. The pause bites: five owner-merge PRs and two escalations have waited for the owner since mid-November, so the group has merged nothing in 13 days. Build trigger: about 22 ratified decisions are in the group log, so srs-web#560 (decision-log lens) is ready to unpark.\n",
+    "rationale": "Two escalations (3a43fd0f, f0c64ba4) are proposed decisions the owner must rule on; both were already open, so none was filed twice.",
+    "figures": "merged 0 of 10; open 10 group PRs (5 delegated); paused: 2 reports unacknowledged",
+    "landed_as": "PENDING"
+  },
+  "createdAt": "2026-11-27T11:35:12.545741159+00:00",
+  "updatedAt": "2026-11-27T11:35:12.545747903+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:tpr-steward",
+    "name": "Third-party-ready steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
