@@ -1,8 +1,8 @@
-# Checkable AI documents: planning brief
+# A shared practice that refines itself: planning brief
 
 Planning brief, 2026-11-27. It manages the implementation that follows the day's research in this folder
 ("Protocol evolution", "SRS Minutes: a first governance product", "Topics through time", "Rules for minutes",
-"Strata"). Domain: **Checkable AI documents** (`4a76b0b5`, suggested), container `3201c9c6`.
+"Strata"). Domain: **A shared practice that refines itself** (`4a76b0b5`, suggested; first named Checkable AI documents), container `3201c9c6`. Epic: semanticops.com#72; objective `63221476`.
 
 ## The problem
 
@@ -10,6 +10,12 @@ Planning brief, 2026-11-27. It manages the implementation that follows the day's
 > simple human facing summary and a way to go deeper to verify data. We also need to be able to maintain
 > consistency over time and be able to keep using the historical data to enhance understanding and context.
 > (Owner, 2026-11-27, vignette `0986f08a`.)
+
+The owner widened it the same day (vignette `27a7396f`): "This is a little more than just checkable AI
+documents, it's a consistent, and refining shared practice over time. [...] We are evolving the structured
+context, so that when we process the next transcript, we are not starting from scratch, we are building on the
+framework and knowledge from before. As we learn, we can evolve our protocols and continue to develop the
+underlying datastructure and how we feed into it."
 
 The product this leads to first is structured governance: minutes, decisions and their record, for a small
 governed group. The mechanism is wider than governance. It is the same for a project's shared picture and a
@@ -83,7 +89,7 @@ Where it stands:
 
 ## The shape of the answer
 
-Three declarations, each a small addition, carry the whole problem:
+Three declarations, each a small addition, carry the whole problem, and two loops make it a practice:
 
 1. **Strata** answer *how do I check it*: a fixed path down from any statement to its source.
 2. **Stage kinds** answer *how was it made, and can it be made again*: every change, including a correction,
@@ -91,18 +97,25 @@ Three declarations, each a small addition, carry the whole problem:
 3. **The series** answers *does it stay consistent*: each new source starts from what earlier documents
    left open, reading history through subjects and the relation graph.
 
+4. **The lesson loop** answers *does the practice improve*: each run ends with a review that turns the
+   maintainer's corrections into a proposed package version, re-run on earlier sources before release.
+5. **Trust levels** answer *how does AI take on more*: a stage moves from every output checked, to sampled,
+   to trusted, on measured acceptance, and drops back on a miss.
+
 Everything a person does (accept a minute, keep a flag, accept a reshape) is a session act in the clerk,
 recorded with who, when and in what order (Rules for minutes 7 and 10).
 
 ## Domain and problems
 
-Domain **Checkable AI documents** (`4a76b0b5`), under Deep context; Group governance (`c72787fd`, affirmed) is
+Domain **A shared practice that refines itself** (`4a76b0b5`), under Deep context; Group governance (`c72787fd`, affirmed) is
 its first market. Personas: *Reader* (`fd7ac1e0`, refines Reader of a finished work) and *Maintainer*
 (`b3889bd4`, refines A person working with AI). All suggested; affirmation is the owner's, in the affirmation
 layer.
 
 | Cluster | Problem | Held by | Remedy |
 |---|---|---|---|
+| The practice learns | SP-199 Lessons from one meeting don't reach the next | Maintainer | `f3ef427e` Each run ends with a lesson pass into a new package version |
+| | SP-200 AI's share of the work cannot grow with trust | Maintainer | `9b8f5c43` Stages earn autonomy by measured acceptance |
 | Open it down to the source | SP-190 AI summary gives no way to check it | Reader | `d5546041` Declared strata, drilled one layer at a time |
 | | SP-191 Drilling down gives a graph, not a path | Reader | `d5546041` |
 | Grow consistently over time | SP-192 Each new source processed as the first | Maintainer | `f6765764` Each new source starts from what the series left open |
