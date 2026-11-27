@@ -1,0 +1,28 @@
+{
+  "instanceId": "e688c548-8d80-4c1e-98db-04ee9958c48a",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Should minutes reuse the governance decision type?",
+    "thinking_reached": "Raised by the minutes package, which defines its own decision record in the group's eight-part form. No option chosen.",
+    "tensions": "Options, none chosen:\n- A. Depend on com.mudemocracy.governance and write governance/decision records.\n- B. Keep a minutes-local draft decision, as the prototype: self-contained, no dependency.\n- C. Draft locally, and map to governance/decision when the group's process takes it up.",
+    "unresolved_questions": "Whether a package dependency installs as cleanly from a bundle as a single package; how the two field sets map.",
+    "next_action": "Try the bundle with a governance dependency."
+  },
+  "lifecycleState": "open",
+  "tags": [
+    "exercise",
+    "research",
+    "topic:minutes"
+  ],
+  "createdAt": "2026-11-27T09:47:57.215725070+00:00",
+  "updatedAt": "2026-11-27T09:47:57.215729094+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

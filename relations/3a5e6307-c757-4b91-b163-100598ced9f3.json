@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "3a5e6307-c757-4b91-b163-100598ced9f3",
+  "relationType": "evidences",
+  "sourceInstanceId": "7868f6e4-f670-481a-bfc7-0c4641020768",
+  "targetInstanceId": "7446174c-caea-4136-bafc-e4a838e20d1e",
+  "createdAt": "2026-11-27T09:47:53.972624869+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "Each drafted decision states its options, reasons and what it rules out, and says where the meeting gave none."
+}

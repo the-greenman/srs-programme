@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "20644a38-5eba-401e-9f5d-ecea20970c26",
+  "relationType": "evidences",
+  "sourceInstanceId": "78ef30e9-8cf8-4326-a517-727fdfe5c1f6",
+  "targetInstanceId": "247eb6e9-9f55-4bc3-863b-015ef6d6946e",
+  "createdAt": "2026-11-27T09:47:54.956929157+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "Only the words a minute rests on leave with the document."
+}

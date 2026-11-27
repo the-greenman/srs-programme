@@ -1,0 +1,32 @@
+{
+  "instanceId": "4d319214-9788-475c-ad67-9a1ef92dc995",
+  "title": "4. The travelling form: a slice, a withheld transcript, a PDF",
+  "tags": [
+    "research",
+    "topic:minutes",
+    "topic:blueprint"
+  ],
+  "sections": [
+    {
+      "name": "slice",
+      "label": "The minutes file",
+      "content": "A slice of the meeting's container: 866 KB for meeting A, with 178 records, 303 relations, the transcript, eight supplied documents and the package. It validates with no errors and renders from the slice alone. It lists no protocol runs: the run does not travel (srs-rust#1711). The ten process-step records do, and the runner rebuilds the stage history from them, so a received file can be checked."
+    },
+    {
+      "name": "withheld",
+      "label": "Withholding the transcript",
+      "content": "Removing the transcript's content file and keeping its sidecar (a tombstone) leaves a valid repository with one warning. The fragments used as evidence keep their words; the off-the-record fragments never had any. This is the export that proposed decision a089adfd asks for: the fragments a document builds from, not the raw source."
+    },
+    {
+      "name": "pdf",
+      "label": "The PDF",
+      "content": "The carrier from Research, SRS carriers: the slice attached to a PDF whose pages are the minutes, decision log and task list rendered from the slice. Each minute shows its type and the transcript lines it rests on; the last page lists the stages that made it. The reader re-renders all three compositions from the payload and they match."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -19,7 +19,7 @@
     {
       "name": "where",
       "label": "Where the prototype is",
-      "content": "build.py (builder) and verify.py (reader, any slice or repository) were written in a Claude Code scratchpad on 2026-11-27 and are not yet in a repository. Moving them into srs-lab is the obvious next step."
+      "content": "The builders, the reader (any carrier PDF), the payload-swap script and the fictional example are in srs-lab carriers/ (srs-lab#42). The minutes publisher that uses the same carrier is in srs-lab minutes/ (srs-lab#43)."
     }
   ],
   "createdBy": {

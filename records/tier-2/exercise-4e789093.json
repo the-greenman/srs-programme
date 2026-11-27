@@ -1,0 +1,28 @@
+{
+  "instanceId": "4e789093-fb20-492a-b9c4-64195bb46bd9",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "What should a Protocol stage be able to declare?",
+    "thinking_reached": "Raised by the minutes runner (Research: Minutes with provenance, part 2). No option chosen.",
+    "tensions": "Options, none chosen:\n- A. Extend ProtocolStage: what it reads, which relations it writes, create or update, and checks a tool can run (coverage, limits).\n- B. A separate runner-profile definition that packages can carry, leaving Protocol epistemic.\n- C. Leave it to tools; publish the conventions as guidance.",
+    "unresolved_questions": "Whether a second tool given the same package runs the process the same way; whether other Protocols (the decision protocol, the unit walk) need the same nine things.",
+    "next_action": "Run the minutes package with a second runner or by hand through the MCP server, and note where it diverges."
+  },
+  "lifecycleState": "open",
+  "tags": [
+    "exercise",
+    "research",
+    "topic:minutes"
+  ],
+  "createdAt": "2026-11-27T09:47:56.306195172+00:00",
+  "updatedAt": "2026-11-27T09:47:56.306201580+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

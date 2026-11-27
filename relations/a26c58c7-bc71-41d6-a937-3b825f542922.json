@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "a26c58c7-bc71-41d6-a937-3b825f542922",
+  "relationType": "evidences",
+  "sourceInstanceId": "46d194eb-5677-4eb3-8a6a-908634194120",
+  "targetInstanceId": "cbd4225d-95cf-40e1-8045-9fbcc5c83b0a",
+  "createdAt": "2026-11-27T09:47:52.133570226+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "The record of how a document was made is lost when the document leaves the repository."
+}

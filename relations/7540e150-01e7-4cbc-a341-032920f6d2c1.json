@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "7540e150-01e7-4cbc-a341-032920f6d2c1",
+  "relationType": "evidences",
+  "sourceInstanceId": "ef89d55b-dc35-4895-bd25-1c42740a7c6d",
+  "targetInstanceId": "7a0a13f1-0a90-40eb-ae6b-9e36b8101dd4",
+  "createdAt": "2026-11-27T09:47:51.147209180+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "A minutes file arrives with the definitions, guidance and process that made it."
+}

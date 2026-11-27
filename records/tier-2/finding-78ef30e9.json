@@ -1,0 +1,29 @@
+{
+  "instanceId": "78ef30e9-8cf8-4326-a517-727fdfe5c1f6",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A minutes file can withhold the transcript and keep its evidence",
+    "summary": "With the transcript's content file removed and its sidecar kept, the slice still validates, packs and passes the document checks; the 53 fragments used as evidence keep their words and the off-the-record fragments never had any.",
+    "evidence": [
+      "repo validate on the tombstoned slice: 0 errors, 1 warning (RFC-017 R12 content unavailable)",
+      "runner check: fragments tile lines 1-824; source withheld"
+    ],
+    "body": "This is the export proposed decision a089adfd asks for. There is no command for it: the content file was deleted by hand."
+  },
+  "tags": [
+    "research",
+    "topic:minutes",
+    "topic:blueprint"
+  ],
+  "createdAt": "2026-11-27T09:47:54.926538832+00:00",
+  "updatedAt": "2026-11-27T09:47:54.926540671+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

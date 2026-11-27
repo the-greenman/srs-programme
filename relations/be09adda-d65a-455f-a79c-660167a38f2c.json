@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "be09adda-d65a-455f-a79c-660167a38f2c",
+  "relationType": "evidences",
+  "sourceInstanceId": "c8bb433f-205c-48ad-97b1-a4bd02a89b37",
+  "targetInstanceId": "6ad6615b-c4e5-4224-89ea-63d10a07c597",
+  "createdAt": "2026-11-27T09:47:50.474113407+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "The transcript becomes records in the group's own repository in ten scripted stages."
+}

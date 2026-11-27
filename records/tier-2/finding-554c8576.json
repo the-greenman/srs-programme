@@ -1,0 +1,30 @@
+{
+  "instanceId": "554c8576-bc36-4d9c-aaa1-9bdaf1f61853",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A Protocol cannot declare nine things the minutes process needs",
+    "summary": "The generic runner had to supply nine conventions outside the package: an anchored type, checkable completion, which end a required relation binds, which stage writes which link, create versus update, a stage's inputs, a place for \"not established\", a record of the process, and room for tool hints.",
+    "evidence": [
+      "srs-lab minutes/runner.mjs HINTS and derived rules",
+      "srs-lab minutes/README.md, What SRS is missing"
+    ],
+    "body": "Each is a place where two tools given the same package could run the process differently. Definition schemas are closed, so a package cannot carry them as extension data."
+  },
+  "tags": [
+    "research",
+    "topic:minutes",
+    "topic:blueprint",
+    "gap"
+  ],
+  "createdAt": "2026-11-27T09:47:51.619290828+00:00",
+  "updatedAt": "2026-11-27T09:47:51.619294740+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
