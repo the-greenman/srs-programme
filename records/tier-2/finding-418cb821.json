@@ -1,0 +1,30 @@
+{
+  "instanceId": "418cb821-c031-4f9b-9a4b-70ef617ee15a",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Real relations already fall into declared strata, and the mess is three axes drawn as one",
+    "summary": "Against five declared strata, every rests-on relation inside a real meeting goes down or stays level; the only upward ones cross meetings and 89 go to standing records, so depth, time and standing are separate directions.",
+    "evidence": [
+      "Master with two meetings, 2026-11-27: 600 rests-on relations: 209 one down, 180 skip one, 110 within a stratum, 89 to standing records, 7 back to an earlier meeting; 250 arrangement",
+      "srs-lab minutes/strata.py and the page it writes"
+    ],
+    "body": "A drill-down that offers down, back, across and around separately is not a graph. 110 relations within one stratum suggest a layer is missing or that a stratum needs an order."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T12:31:43.340456397+00:00",
+  "updatedAt": "2026-11-27T12:31:43.340458910+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

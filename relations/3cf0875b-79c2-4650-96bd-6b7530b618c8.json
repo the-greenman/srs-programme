@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "3cf0875b-79c2-4650-96bd-6b7530b618c8",
+  "relationType": "evidences",
+  "sourceInstanceId": "b68c916c-6a46-46bd-a28a-8802f2889e2d",
+  "targetInstanceId": "c8299089-7fc1-424a-b480-62090d6715f7",
+  "createdAt": "2026-11-27T12:31:44.147497618+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "A declared set of layers is part of a document's declared shape."
+}

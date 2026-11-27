@@ -1,0 +1,43 @@
+{
+  "instanceId": "841d1199-1798-451c-8c35-a1d4136e4283",
+  "title": "7. Rules for minutes",
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "label": "The owner's rules",
+      "content": "The owner, 2026-11-27: \"Minutes need to show what happened in a meeting, they should not put words into people's mouths. However, this allows for historical context, allowing a summary to better understand what is being said and minimise misrepresentation. This makes provenance important. In practice we have learned that decisions can take place outside of meetings, so a session can be a meeting, but not necessarily. A decision may also be part of many meetings... but should only be finalised in one session.\""
+    },
+    {
+      "name": "audit",
+      "label": "What the generated minutes had been doing",
+      "content": "No generated minute attributed a remark to a named person, and one of thirty named a rule the meeting never mentioned. But the minutes carried no context at all, and where context got in elsewhere (four of eight subject standings) it was written into the same sentences as what the meeting said. The clerk's own records already keep the third rule: all 156 ratified decisions in srs-programme were each ratified in exactly one session, none in more than one, and a considers relation exists for sessions that discuss without finalising. One ratified decision has no ratifying session."
+    },
+    {
+      "name": "rules",
+      "label": "Eleven rules, each with what holds it",
+      "content": "Minutes show what happened in a meeting. They put no words in anyone's mouth. What was not established is said, not filled in. Minutes may carry context, and context is never the meeting's. Everything has a source. The source can be withheld, not hidden. A meeting is one kind of session. A decision can be before many meetings and is finalised in one session. A minute of decision records agreement in the meeting, not a decision. The process drafts and flags; people decide. How the minutes were made is part of the minutes. Each is held by the shape of the records, by a check the tool runs, or by a person; a rule held only by guidance to a model is marked as the weakest. The full text is attached (rules-for-minutes.md) and is recorded as a proposed decision."
+    },
+    {
+      "name": "held",
+      "label": "Making three of them hold",
+      "content": "A minute now has two fields: what the meeting did, and context from elsewhere, with an informed-by relation to each outside record the context names. Three declared checks run on every reply: the meeting's text may not name a record from outside the meeting; every outside record named in the context must be linked and every link named; a minute of type decision must derive from a decision point the meeting settled. The checks are declared in the repository's profile note, not in the tool."
+    },
+    {
+      "name": "result",
+      "label": "The result on a real meeting",
+      "content": "November re-minuted under the rules, in a master where October had already been minuted and updated: 18 minutes, 14 with context, 23 informed-by links to articles and decisions, and no outside record named in what the meeting did. Two replies were refused for an invented field before the third was accepted. Two cautions: the run wrote no minute of type decision, where the earlier run wrote three; and it drew context only from standing records, not from the earlier meeting's standings, though they were available."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
