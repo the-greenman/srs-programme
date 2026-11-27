@@ -1,0 +1,30 @@
+{
+  "instanceId": "879c47a1-4365-47a8-b372-dba845fe068e",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Manual protocol stages work across models",
+    "summary": "Codex completed Party Utility's ten-stage session-notes protocol by producing stage JSON for the runner to validate and apply; the protocol itself did not require Claude.",
+    "evidence": [
+      "Comparison repository run f11d8375-e21f-4170-8420-c910362ec72c: 10 of 10 stages completed; 31 fragments cover lines 1–539, with 22 evidence excerpts checked against the source.",
+      "runner-debug.mjs uses the existing brief/apply commands and local file-backed record reads; applying stages used Codex-authored JSON, not an external model command.",
+      "The sandboxed Node child-process execution returned EPERM; the same runner operated outside the sandbox after approval.",
+      "The picture-update run 46da2178-c8be-46b0-be28-14ee08ba27c9 is at developments; meeting 1 remains incomplete."
+    ],
+    "body": "A working stage pipeline is not yet a working iterative dataset: a later meeting must reconcile earlier items and human corrections, preserve competing options, and support grouping many records into threads. The first meeting's output has not been completed and the current model of areas still combines physical places and work strands. This is one manual run, not a comparison of extraction quality between models."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes"
+  ],
+  "createdAt": "2026-11-27T13:42:28.433717930+00:00",
+  "updatedAt": "2026-11-27T13:42:28.433720264+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "codex"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
