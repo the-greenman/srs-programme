@@ -1,0 +1,29 @@
+{
+  "instanceId": "ad29ba6c-a5b9-425b-9cda-e1d45784d25c",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Creative work needs independent organising axes",
+    "summary": "Party Utility needs a stable venue map alongside projects, tasks, people, line-up, sing-alongs and media; the current picture package combines spaces and work strands in one area type.",
+    "evidence": [
+      "party-utility-comparison/package/spec.mjs defines area-kind as space or strand and makes area the common target for project records.",
+      "The organiser specified six venue spaces and separate project, task, person, line-up, sing-along and media lists on 2026-11-27.",
+      "The first session-notes run completed seven stages and remains at tasks; the second session has not yet been processed."
+    ],
+    "body": "The desired dataset must retain place and project as separate dimensions: a project may span places and a place may host several projects. Programme requirements are supplied by the organiser, not findings extracted from the transcripts. Model-independent execution remains to be tested end to end; the existing runner documents a manual brief/apply path and an external command interface."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes"
+  ],
+  "createdAt": "2026-11-27T13:23:30.409608613+00:00",
+  "updatedAt": "2026-11-27T13:23:30.409612532+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "codex"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
