@@ -1,0 +1,29 @@
+{
+  "instanceId": "f28b712a-3a8b-461b-b24c-91e4d931d0d6",
+  "typeId": "6f46d6ff-dd8b-4a7e-b957-d6be32bfa7d9",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "session",
+  "fieldValues": {
+    "title": "Session 2026-11-27 17:10 UTC: SemanticOps",
+    "held_at": "2026-11-27T17:10:33Z",
+    "convened": "ad-hoc",
+    "session_status": "ended",
+    "summary": "Session 2026-11-27 17:10 UTC: SemanticOps\nAttendees: Owner\n- Received: WG Agent-supported editor report 2026-11-21\n- Received: WG Agent-supported editor report 2026-11-23\n- Received: WG Agent-supported editor report 2026-11-24\n- Received: WG Agent-supported editor report 2026-11-25\n- Received: WG Agent-supported editor report 2026-11-26\n- Received: WG Agent-supported editor report 2026-11-27\n- Received: WG Third-party ready report 2026-11-23\n- Received: WG Third-party ready report 2026-11-24\n- Received: WG Third-party ready report 2026-11-25\n- Received: WG Third-party ready report 2026-11-26\n- Received: WG Third-party ready report 2026-11-27\n- Ratified (escalation accepted): Escalation: does a Blueprint relation's cardinality admit the numeric-range form (\"1..*\", \"0..3\", \"1\") that srs-rust accepts and blueprint.json refuses? (srs-rust#1100) [3a43fd0f]\n- Ratified (escalation accepted): Escalation: what does an engine report for a corpus with no dataModelRevision, or revision 1: storage-generation-unsupported or container-migration-needed? (srs#965) [f0c64ba4]\nActs in the order taken (UTC):\n- 17:10:45Z receive: WG Agent-supported editor report 2026-11-21 [52c6a8f7] (Reports 1 of 11)\n- 17:10:46Z receive: WG Agent-supported editor report 2026-11-23 [522756d4] (Reports 2 of 11)\n- 17:10:47Z receive: WG Agent-supported editor report 2026-11-24 [9b769c15] (Reports 3 of 11)\n- 17:10:48Z receive: WG Agent-supported editor report 2026-11-25 [80476d2e] (Reports 4 of 11)\n- 17:10:50Z receive: WG Agent-supported editor report 2026-11-26 [2a5ec3c4] (Reports 5 of 11)\n- 17:10:51Z receive: WG Agent-supported editor report 2026-11-27 [72b3af24] (Reports 6 of 11)\n- 17:10:58Z receive: WG Third-party ready report 2026-11-23 [df5e4ee7] (Reports 7 of 11)\n- 17:11:07Z receive: WG Third-party ready report 2026-11-24 [c0678f20] (Reports 8 of 11)\n- 17:11:07Z receive: WG Third-party ready report 2026-11-25 [a1641308] (Reports 9 of 11)\n- 17:11:09Z receive: WG Third-party ready report 2026-11-26 [30c1b1e3] (Reports 10 of 11)\n- 17:11:10Z receive: WG Third-party ready report 2026-11-27 [6aa93a94] (Reports 11 of 11)\n- 17:22:13Z accept: Escalation: does a Blueprint relation's cardinality admit the numeric-range form (\"1..*\", \"0..3\", \"1\") that srs-rust accepts and blueprint.json refuses? (srs-rust#1100) [3a43fd0f] (Decisions for this session 1 of 2, saw full record, record updated 2026-11-26T12:14:05.541862681+00:00)\n- 17:23:04Z accept: Escalation: what does an engine report for a corpus with no dataModelRevision, or revision 1: storage-generation-unsupported or container-migration-needed? (srs#965) [f0c64ba4] (Decisions for this session 2 of 2, record updated 2026-11-25T12:14:35.187201928+00:00)"
+  },
+  "createdAt": "2026-11-27T17:23:12.401268307+00:00",
+  "updatedAt": "2026-11-27T17:23:12.401270336+00:00",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json",
+  "sourceRefs": [
+    {
+      "sourceType": "repository-document",
+      "sourceId": "df096e7d-122c-44af-8778-ded65b7bec0e",
+      "sourceRole": "attaches"
+    }
+  ]
+}
