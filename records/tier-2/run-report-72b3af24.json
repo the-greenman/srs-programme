@@ -1,0 +1,23 @@
+{
+  "instanceId": "72b3af24-7b1e-493c-ab9e-59b5c5005b0d",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle close 2026-11-27",
+    "run_date": "2026-11-27",
+    "chose": "WG Agent-supported editor: cycle 2026-11-26 11:30 to 2026-11-27 11:30 UTC\nPaused: 3 reports unacknowledged (2026-11-24, -25, -26). Receive in a session or react 👍 to resume.\n\n1. Decisions for you: none new. Still waiting on you, unchanged: srs-web#709 (P1 bug, `needs-input`, no reply since 2026-11-04), #626, #567, and the stale `needs-input` label on #634 (ruling 42fcc319 is ratified; say if the Builder may take it or clear the label). Housekeeping: draft c4acef1a shows on no agenda; say if it should be set aside. A 👍 on any of the last three reports, or receiving them in a session, restarts the group.\n2. Decided within mandate: none; no group session held, nothing awaits assent.\n3. Done: no group PRs merged, no tasks closed. Nothing in the group changed since the last report.\n4. Stuck or lost: srs#1032 (RFC-055, `gate:owner-merge`) still conflicts with its base and needs a rebase before you can merge it. srs-web#835 (`gate:owner-merge`) is clean and waits on your merge. Needs-input: srs-web#709, #626, #634 (stale), #567. Blocked: srs-web#426, #771, #824, #825, #826, srs#1031, semanticops.com#14. No red gates, no claims released.\n5. Budget: 0 of 10 delegated merges; 0 open counted (the two open PRs are owner-merge); room 10. Pause: paused: 2 reports unacknowledged (group-state, read at close).\n5b. Awaiting ratification: none.\n6. Next: ready and unblocked: srs-web#601 (umbrella) and semanticops.com#57; none in srs-rust, srs, srs-vscode. srs-rust#1490 and #1413 (both P0) are still not labelled ready. **Queue running dry: 2 ready, budget 10. Needs feeding.** Sources: mark those two P0 ready, or the P2 unready issues (srs-web#786 to #788, #717, #718, #768; srs-rust#1660, #1527). Waits on you: a 👍 to resume, the #634 label, the #709 answer, merge of srs-web#835, rebase then merge of srs#1032. Local priorities: none. Fed by the analyst: not needed.\n6b. Exercises: none open.\n7. What we learned: a third identical quiet report. The pause costs nothing while the queue is dry, but it would stall work once fed, and the owner-merge items (#835, #1032) are the only thing moving the group. I1 not written (this run started after the 11:30 close, so the measure window would mislead); the useful/noisy/misleading line is yours to give in a session. I2 to I4: pending.\n",
+    "rationale": "No escalations raised: nothing new is outside the mandate; carried items are listed unchanged.",
+    "figures": "merged 0 of 10; open 0 counted; ready 2",
+    "landed_as": "pending"
+  },
+  "createdAt": "2026-11-27T11:38:21.877695203+00:00",
+  "updatedAt": "2026-11-27T11:38:21.877705635+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
