@@ -16,12 +16,12 @@
     {
       "name": "story",
       "label": "The story so far",
-      "content": "One generic runner drove four different processes on real data: meeting minutes; the same minutes inside a master repository holding a group's real articles, roles and decisions; the governance package's own nine-stage decision protocol; and a synthesis protocol over the LiveWyer Insight report's types. From them, a stage turns out to be one of eight kinds of act, and a Protocol today can express four.\n\nThe needed changes sort into three tiers. Tier 1 is additive and small: say what kind a stage is, what it reads, which links it writes, which end a required relation binds. Tier 2 needs design inside the Protocol extension: a specified run that travels, checkable completion, records that are not finished yet, human gates, computed stages, sub-runs. Tier 3 is wider than the Protocol: finding the earlier decisions that matter, what a tension between records means, provenance across repositories, live meetings, people.\n\nThe governance questions have first answers. A check of each decision point against standing records works and finds the real issues, but flags too freely and needs a person's triage. Subjects trace a matter across meetings, and need curating. Full minutes do not strain the engine; they crowd search. And a meeting can be worked in a copy of the master with only its outcomes merged back.\n\nA pass on the second meeting showed that continuity does not come free: it had been minuted with no relation to what the first left open. A three-stage update fixed that on the real meetings, and most of what it needs is already in the spec (lifecycles, supersedes, successors). The changes sort by level: three small things for the spec, scope and checks for the engine, vocabulary for the package, and every act of a person for a processor such as the clerk, where the runner belongs."
+      "content": "One generic runner drove four different processes on real data: meeting minutes; the same minutes inside a master repository holding a group's real articles, roles and decisions; the governance package's own nine-stage decision protocol; and a synthesis protocol over the LiveWyer Insight report's types. From them, a stage turns out to be one of eight kinds of act, and a Protocol today can express four.\n\nThe needed changes sort into three tiers. Tier 1 is additive and small: say what kind a stage is, what it reads, which links it writes, which end a required relation binds. Tier 2 needs design inside the Protocol extension: a specified run that travels, checkable completion, records that are not finished yet, human gates, computed stages, sub-runs. Tier 3 is wider than the Protocol: finding the earlier decisions that matter, what a tension between records means, provenance across repositories, live meetings, people.\n\nThe governance questions have first answers. A check of each decision point against standing records works and finds the real issues, but flags too freely and needs a person's triage. Subjects trace a matter across meetings, and need curating. Full minutes do not strain the engine; they crowd search. And a meeting can be worked in a copy of the master with only its outcomes merged back.\n\nA pass on the second meeting showed that continuity does not come free: it had been minuted with no relation to what the first left open. A three-stage update fixed that on the real meetings, and most of what it needs is already in the spec (lifecycles, supersedes, successors). The changes sort by level: three small things for the spec, scope and checks for the engine, vocabulary for the package, and every act of a person for a processor such as the clerk, where the runner belongs.\n\nRules for minutes are now stated and proposed as a decision: what the meeting did is kept apart from context, every statement has a source, and a decision is finalised in one session. Three of them are held by declared checks and held on a real meeting. And a document should declare its strata: real relations already fall into layers, and the mess of drilling down comes from drawing depth, time and standing records as one graph."
     },
     {
       "name": "parts",
       "label": "The parts",
-      "content": "1. Kinds of stage, and three tiers of change.\n2. Three shapes of protocol, one runner.\n3. Minutes with memory.\n4. Where minutes live.\n5. The project: SRS Minutes as a first governance product.\n6. Topics through time: the update, and where each change belongs."
+      "content": "1. Kinds of stage, and three tiers of change.\n2. Three shapes of protocol, one runner.\n3. Minutes with memory.\n4. Where minutes live.\n5. The project: SRS Minutes as a first governance product.\n6. Topics through time: the update, and where each change belongs.\n7. Rules for minutes.\n8. Strata: a defined set of layers."
     },
     {
       "name": "open",
@@ -31,7 +31,7 @@
     {
       "name": "find",
       "label": "Finding the evidence",
-      "content": "Findings: srs find --type com.semanticops.programme/finding --tag topic:protocol. The three documents attached to this note are the tiered list of changes, the project definition, and the level-by-level design for topics through time. Code: srs-lab minutes/ and minutes/experiments/."
+      "content": "Findings: srs find --type com.semanticops.programme/finding --tag topic:protocol. The five documents attached to this note are the tiered list of changes, the project definition, the level-by-level design for topics through time, the rules for minutes, and the strata design. Code: srs-lab minutes/ and minutes/experiments/."
     }
   ],
   "sourceRefs": [
@@ -48,6 +48,16 @@
     {
       "sourceType": "repository-document",
       "sourceId": "2380ed59-95db-479f-a861-a4382a9f8c11",
+      "sourceRole": "attaches"
+    },
+    {
+      "sourceType": "repository-document",
+      "sourceId": "433e4770-8ac8-4aef-b65a-78875b4f853f",
+      "sourceRole": "attaches"
+    },
+    {
+      "sourceType": "repository-document",
+      "sourceId": "dcd39b5f-e493-48da-aa76-77d6675ab9c2",
       "sourceRole": "attaches"
     }
   ],

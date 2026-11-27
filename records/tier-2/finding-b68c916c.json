@@ -1,0 +1,30 @@
+{
+  "instanceId": "b68c916c-6a46-46bd-a28a-8802f2889e2d",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Strata are not special to minutes: a research report fits them exactly",
+    "summary": "On the LiveWyer Insight report all 737 rests-on relations go exactly one stratum down through opportunity, problem, finding, talk and event, and its 361 contains relations are arrangement.",
+    "evidence": [
+      "livewyer-insight 2026-11-27: derived-from 440, evidences 297, contains 361",
+      "srs-lab strata decision S2: strata as a declared mapping; revisit if a package should declare its own layer"
+    ],
+    "body": "A declaration on the Blueprint would serve any document built from evidence. The spec's relation category already separates evidence, derivation and provenance from arrangement."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T12:31:44.112126138+00:00",
+  "updatedAt": "2026-11-27T12:31:44.112130266+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

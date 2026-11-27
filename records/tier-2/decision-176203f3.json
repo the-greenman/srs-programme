@@ -1,0 +1,33 @@
+{
+  "instanceId": "176203f3-ce00-4bed-ae3e-fcd996b1653c",
+  "typeId": "1fcad6a2-9f78-5e41-94ba-d82e88b822f3",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "decision",
+  "fieldValues": {
+    "title": "Rules for minutes: what a meeting did, context kept apart, and a decision finalised in one session",
+    "decision_question": "What rules do minutes made with SRS have to keep, so that they show what happened, put no words in anyone's mouth, may still carry context, and do not treat a meeting as the place a decision is made?",
+    "context": "Three protocols now produce minutes, follow-ups and standings from real meeting transcripts (srs-lab minutes/). An audit showed the generated minutes kept words out of mouths by guidance alone and gave context nowhere to go. The clerk already records sessions that ratify, consider and set aside decisions.",
+    "friction": "Without stated rules each new stage or package decides again what a minute may say, and context from standing records was being written into the same sentences as the meeting's own words.",
+    "alternatives_considered": "A. Leave it to each group's house rules. B. State rules in guidance to the model only. C. State the rules once, and hold each by the shape of the records, a check the tool runs, or a person's act, marking any held by guidance alone.",
+    "key_requirements": "A reader can tell what the meeting did from what was brought in. Every statement has a source a reader can follow. No process finalises a decision or names a speaker by inference. The rules are checkable where they can be.",
+    "decision_statement": "Approve option C: adopt the eleven rules in rules-for-minutes.md (attached to Research: Protocol evolution) as the rules minutes made with SRS keep. In short: minutes show what happened in a meeting and put no words in anyone's mouth; what was not established is said; context is allowed, is kept in a separate place and is never the meeting's; everything has a source; a meeting is one kind of session; a decision may be before many meetings and is finalised in exactly one session; a minute of decision records agreement in the meeting, not a decision; the process drafts and flags and people decide; how the minutes were made travels with them.",
+    "rationale": "The rules are the owner's, stated on 2026-11-27, and the third is already how the clerk's records are kept (156 decisions, each ratified in one session). Holding rules by structure and checks worked on a real meeting: 14 of 18 minutes carried context and none put it in the meeting's mouth.",
+    "revisit_when": "A group's own practice conflicts with a rule; or the conservatism seen under the rules (no minutes of decision in the test run) proves to be the rules suppressing real agreements.",
+    "next_steps": "The owner ratifies, amends or sets aside in a session. If ratified: the rules go into the clerk handbook, the minutes package takes its session and decision relations from the clerk, and the checks move with the runner.",
+    "owner": "human:the-greenman",
+    "status": "proposed"
+  },
+  "lifecycleState": "proposed",
+  "tags": [
+    "boundary:minutes"
+  ],
+  "createdAt": "2026-11-27T12:31:45.027530630+00:00",
+  "updatedAt": "2026-11-27T12:31:45.182907649+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

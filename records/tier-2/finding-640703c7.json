@@ -1,0 +1,30 @@
+{
+  "instanceId": "640703c7-bb14-4aa7-ba25-72ba2f01a608",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A decision finalised in exactly one session is already how the clerk's records are kept",
+    "summary": "All 156 ratified decisions in srs-programme were ratified in exactly one session and none in more than one; sessions that discuss without finalising use a considers relation; one ratified decision has no ratifying session.",
+    "evidence": [
+      "srs-programme 2026-11-27: programme/ratifies 156, considers 6 (one decision considered in two sessions), sets-aside 1",
+      "1 ratified decision with no ratifies relation"
+    ],
+    "body": "The minutes package should take the session and its relations from the clerk, not model its own: a meeting is a session with a record of what was said, and its decision points consider decisions that live outside it."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T12:31:42.551609958+00:00",
+  "updatedAt": "2026-11-27T12:31:42.551612158+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

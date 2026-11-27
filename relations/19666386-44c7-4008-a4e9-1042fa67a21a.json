@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "19666386-44c7-4008-a4e9-1042fa67a21a",
+  "relationType": "evidences",
+  "sourceInstanceId": "418cb821-c031-4f9b-9a4b-70ef617ee15a",
+  "targetInstanceId": "069253b6-904c-4946-b211-744b5ea2f6f6",
+  "createdAt": "2026-11-27T12:31:43.578340665+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "A reader can go from a minute to the words it rests on, one layer at a time."
+}

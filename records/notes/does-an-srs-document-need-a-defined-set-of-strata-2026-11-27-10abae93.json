@@ -1,0 +1,29 @@
+{
+  "instanceId": "10abae93-a3d2-493e-8309-e3ffa4c4c389",
+  "title": "Does an SRS document need a defined set of strata? (2026-11-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:minutes",
+    "topic:strata",
+    "topic:graph"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "here's a thought.\n\nDoes an srs document need to define a set of layers?\n\nI want a human to be able to view the minutes and then drill down. But the current experiences of drilling down feel difficult. Once we drill we have a graph or a mess.\n\nWhat if we actually created a defined set of strata?"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in a Claude Code session, 2026-11-27, verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

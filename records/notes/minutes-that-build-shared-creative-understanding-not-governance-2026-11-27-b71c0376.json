@@ -1,0 +1,29 @@
+{
+  "instanceId": "b71c0376-93e3-4285-aff5-c5294a79227e",
+  "title": "Minutes that build shared creative understanding, not governance (2026-11-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:minutes",
+    "topic:protocol",
+    "topic:third-party"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "These minutes are not about governance. They are about building shared creative understanding of a project. We want to capture and communicate the big picture, and the activity, and potential tasks and ways to be involved.\n\nThis is about creating the layers of understanding for a community that will allow for different people to take part. I tend to lead all these, and my voice is the strongest, but Sam holds all the technical infrastructure work and bar management, so we have a good team. Michael does the promotion, and our DJ's work well with us.\n\nLets see if we can create a process and a protocol that will create me a version of the minutes from each meeting and then build up the common overview document. We may need a set of different protocols here, and the output might need to actually be it's own website."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in a Claude Code session, 2026-11-27, about The Party Utility, season 5. Verbatim apart from three corrected typing slips. The instructions in the same message (paths, links) are not recorded here."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

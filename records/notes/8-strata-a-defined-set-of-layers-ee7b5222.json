@@ -1,0 +1,50 @@
+{
+  "instanceId": "ee7b5222-96d4-4202-8830-60a625524c43",
+  "title": "8. Strata: a defined set of layers",
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance",
+    "topic:strata",
+    "topic:graph"
+  ],
+  "sections": [
+    {
+      "name": "words",
+      "label": "The question",
+      "content": "The owner, 2026-11-27: \"Does an srs document need to define a set of layers? I want a human to be able to view the minutes and then drill down. But the current experiences of drilling down feel difficult. Once we drill we have a graph or a mess. What if we actually created a defined set of strata?\""
+    },
+    {
+      "name": "answer",
+      "label": "Answer",
+      "content": "Yes. A document type should declare its strata: an ordered list of layers, each naming the record types in it. Drill down then means one stratum down, following only relations that mean rests on, and everything else a record relates to falls into a few named directions. The lab's earlier strata experiment made the same choice for writing (a declared mapping, not an inference) and left a trigger to revisit if a package should declare its own layer."
+    },
+    {
+      "name": "measured",
+      "label": "What was measured",
+      "content": "Five strata declared for minutes: memory, record, working, evidence, source. In a master holding two real meetings, 600 of 850 relations mean rests on and 250 are arrangement. Within a meeting all 483 rests-on relations go down or stay level: 209 one stratum down, 180 skipping one, 110 within a stratum. The only upward ones cross meetings, which is back in time, not up; 89 more go to standing records beside the meeting. On the LiveWyer Insight report, with strata opportunity, problem, finding, talk, event, all 737 rests-on relations go exactly one stratum down."
+    },
+    {
+      "name": "directions",
+      "label": "Four directions, not a graph",
+      "content": "Down: what this rests on, stratum by stratum, to the source. Back and forward: the same matter at other documents of the series. Across: standing records beside the document. Around: its topic and subject. A page built on this shows a meeting's minutes as fixed bands; picking a minute fills each band beneath with only what it rests on at that depth, with the subject and its standing above and standing records and other meetings beside."
+    },
+    {
+      "name": "unifies",
+      "label": "What it unifies",
+      "content": "Drill-down. What merges into a master and what stays in the meeting file (the mark the project definition said needed a ruling is the stratum). The rules for minutes: what the meeting did comes from below, context comes from across or back, and one may not be presented as the other. Search defaults. And a check on the Protocol: a stage writes into one stratum and rests only on strata below."
+    },
+    {
+      "name": "levels",
+      "label": "Where it goes",
+      "content": "Spec: a strata list on the Blueprint and one invariant, no upward provenance inside a document. A relation type's category (evidence, derivation, provenance) already says which relations mean rests on; which end rests on which is only prose today. Engine: a drill query; merge or slice by stratum; the check. Package: the declaration, and its own relations filed under the right category. Processor and editor: the page."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

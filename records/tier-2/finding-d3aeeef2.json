@@ -1,0 +1,30 @@
+{
+  "instanceId": "d3aeeef2-cf5b-407e-a67d-f329c8e6ac58",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Separating what the meeting did from context can be checked, and held on a real meeting",
+    "summary": "With a context field, an informed-by relation and three declared checks, a real meeting re-minuted in a governance master gave 18 minutes, 14 with context and 23 links to the records it came from, and none named an outside record in what the meeting did.",
+    "evidence": [
+      "srs-lab minutes/ package 0.4 and RULES.md; rules run 2026-11-27",
+      "No minute of type decision was written, against three in the earlier run; context came only from standing records, not the earlier meeting"
+    ],
+    "body": "The checks are declared in the profile note and stated in the brief. Whether the conservatism about decisions is the rule working or the model retreating needs a person's reading."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T12:31:41.792144350+00:00",
+  "updatedAt": "2026-11-27T12:31:41.792146096+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

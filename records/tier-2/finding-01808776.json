@@ -1,0 +1,30 @@
+{
+  "instanceId": "01808776-26f9-4d5a-99ab-e003b31ccbdf",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Generated minutes carried no context, and other records blended it into what the meeting said",
+    "summary": "An audit of thirty generated minutes found none attributing a remark to a named person and one naming a rule the meeting never mentioned, but no minute carried context; four of eight subject standings wrote standing rules into the same sentences as the meeting's own words.",
+    "evidence": [
+      "Audit 2026-11-27 of two November runs: 1 of 30 minutes cites a standing record; 4 of 8 standings do, unmarked",
+      "No standing record id is spoken anywhere in the transcript"
+    ],
+    "body": "Guidance kept words out of mouths; it gave context nowhere to go. The rule needs two fields, not better wording."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T12:31:41.023686214+00:00",
+  "updatedAt": "2026-11-27T12:31:41.023688082+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

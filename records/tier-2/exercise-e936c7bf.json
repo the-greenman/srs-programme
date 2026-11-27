@@ -1,0 +1,28 @@
+{
+  "instanceId": "e936c7bf-fcff-4935-ba71-2aa75a3bdbd6",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Should a document type declare its strata, and where?",
+    "thinking_reached": "Raised by the owner's question and the measurements (Research: Protocol evolution, part 8). The evidence favours declaring them. No option chosen on where.",
+    "tensions": "Options, none chosen:\n- A. On the Blueprint: one stack per document type, with lanes beside it.\n- B. On each Type: a stratum key, with the order held by the package.\n- C. Outside the spec: a convention read by tools, as the lab's strata spec file is.",
+    "unresolved_questions": "Whether a stratum needs an order inside it (110 relations stay within one); whether skipping a stratum is allowed (180 do); how strata relate to tiers; whether one type can sit in different strata in different documents.",
+    "next_action": "Declare strata for a second, different document (the Party Utility season) and see whether the same five hold."
+  },
+  "lifecycleState": "open",
+  "tags": [
+    "exercise",
+    "research",
+    "topic:strata"
+  ],
+  "createdAt": "2026-11-27T12:31:44.559588394+00:00",
+  "updatedAt": "2026-11-27T12:31:44.559600123+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
