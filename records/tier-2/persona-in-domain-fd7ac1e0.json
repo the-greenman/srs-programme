@@ -1,0 +1,36 @@
+{
+  "instanceId": "fd7ac1e0-d2b1-4ddb-9902-8ffc118375e7",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Reader in Checkable AI documents",
+    "summary": "A member, trustee, crew member or client who reads a document an AI made from sources they did not see, and must decide whether to rely on it.",
+    "goals": [
+      "understand the gist quickly",
+      "rely on it without redoing the work",
+      "check any point that matters to them",
+      "follow a matter across documents over time"
+    ],
+    "jobs": [
+      "read the summary",
+      "open a point down to the words or records it rests on",
+      "see what came from the source and what was added as context",
+      "follow a subject back through earlier documents"
+    ],
+    "needs": "A plain top layer; a short, fixed path from any statement to its source; context kept visibly apart from what the source said; nothing presented as agreed that was not."
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol",
+    "topic:strata"
+  ],
+  "createdAt": "2026-11-27T16:47:00.724528707+00:00",
+  "updatedAt": "2026-11-27T16:47:00.724530295+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

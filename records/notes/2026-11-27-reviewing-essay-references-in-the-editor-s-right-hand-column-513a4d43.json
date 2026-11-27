@@ -1,0 +1,18 @@
+{
+  "instanceId": "513a4d43-5049-442d-954e-144d5bb547d5",
+  "title": "2026-11-27 · Reviewing essay references in the editor's right-hand column",
+  "tags": [
+    "conversation"
+  ],
+  "sections": [
+    {
+      "name": "purpose",
+      "content": "Conversation container: the owner reviewing how an essay's references are seen and answered in the editor (srs-web#787, PR #839)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,23 @@
+{
+  "instanceId": "efb45aff-0038-46a5-aa33-189008e5ba68",
+  "title": "Conversation 2026-11-27: AI outputs people can open and check — planning the protocol and governance-product holon",
+  "tags": [
+    "conversation",
+    "topic:protocol",
+    "topic:strata",
+    "topic:governance",
+    "topic:third-party"
+  ],
+  "sections": [
+    {
+      "name": "summary",
+      "label": "Summary",
+      "content": "Review of the day's protocol and Blueprint research and its three implementations (LTH Works minutes, the Party Utility backstage, LiveWyer Insight), the off-protocol update passes on the backstage, and the strata design; then a planning brief and a holon for an AI-made document a person can read as a summary and open down to its evidence, kept consistent over time. The first product in it is structured governance (minutes with provenance)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

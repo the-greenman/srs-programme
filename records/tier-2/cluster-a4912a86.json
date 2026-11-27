@@ -1,0 +1,22 @@
+{
+  "instanceId": "a4912a86-cc15-4a99-8992-bf87a0de5d64",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Open it down to the source",
+    "description": "A reader can see the summary but not walk from it to what it rests on, or walks into a graph where depth, time and context are drawn as one. The common thread is a missing, fixed path from a statement down to its evidence."
+  },
+  "tags": [
+    "suggested",
+    "topic:strata"
+  ],
+  "createdAt": "2026-11-27T16:48:13.268542227+00:00",
+  "updatedAt": "2026-11-27T16:48:13.268543857+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

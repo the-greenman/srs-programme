@@ -1,0 +1,28 @@
+{
+  "instanceId": "b3e32158-c567-4c8e-befc-839b89eb2071",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-196",
+    "title": "Too many flags make the check ignorable",
+    "statement": "A cautious process flags freely: about half of its precedent checks come back as in tension with a standing record. Shown all of them, a secretary stops reading them, and the one flag that matters (a job over the spending limit) is lost among the rest.",
+    "kind": "consequence",
+    "source_ref": [
+      "srs-programme source-documents/governance-minutes-2026-11-27/srs-minutes-project.md: 89 checks over two meetings, about half in tension"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T16:47:38.691521977+00:00",
+  "updatedAt": "2026-11-27T16:47:38.691523587+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

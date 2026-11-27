@@ -1,0 +1,37 @@
+{
+  "instanceId": "b3889bd4-0f16-4f3b-bb4c-4f181c24e443",
+  "typeId": "872fbd42-6b0d-4839-8381-485ca165d523",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "persona-in-domain",
+  "fieldValues": {
+    "title": "Maintainer in Checkable AI documents",
+    "summary": "The secretary, organiser or analyst who runs the process over new sources, supplies facts and corrections, accepts or dismisses what the process flags, and publishes.",
+    "goals": [
+      "a trustworthy document with little editing",
+      "keep it current as new sources arrive",
+      "every correction traceable to who made it and why",
+      "change model or tool without losing consistency"
+    ],
+    "jobs": [
+      "run the process over a new transcript or source",
+      "supply facts and correct records",
+      "accept or dismiss flags and proposals",
+      "reshape the document's map when the work changes",
+      "publish a readable version with private material withheld"
+    ],
+    "needs": "Every kind of change available as a repeatable, checked step; history brought to each run without reading it all; few, good flags; the published copy scrubbed by rule."
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol",
+    "topic:strata"
+  ],
+  "createdAt": "2026-11-27T16:47:00.830284258+00:00",
+  "updatedAt": "2026-11-27T16:47:00.830286283+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

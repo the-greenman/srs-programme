@@ -1,0 +1,22 @@
+{
+  "instanceId": "8ccc79d1-a59c-44d2-9cf9-c4cde77fd2c9",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Grow consistently over time",
+    "description": "A document should build on the ones before it and take in new sources and corrections without losing track. The common thread is continuity: what was left open, what changed, and which history a new run must read."
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol"
+  ],
+  "createdAt": "2026-11-27T16:48:13.381170658+00:00",
+  "updatedAt": "2026-11-27T16:48:13.381172274+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,29 @@
+{
+  "instanceId": "c3ba0ac1-204b-4254-aa2b-d216864e8f2a",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-190",
+    "title": "AI summary gives no way to check it",
+    "statement": "When an AI hands me a summary of a meeting, a project or a body of research, I get the conclusion and nothing under it. I cannot open a line to the words or records it came from, so I either take it on trust or redo the work myself.",
+    "kind": "capability",
+    "source_ref": [
+      "srs-programme vignette 0986f08a (owner, 2026-11-27)",
+      "srs-programme source-documents/governance-minutes-2026-11-27/srs-minutes-project.md"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol",
+    "topic:strata"
+  ],
+  "createdAt": "2026-11-27T16:47:38.040937548+00:00",
+  "updatedAt": "2026-11-27T16:47:38.040939348+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
