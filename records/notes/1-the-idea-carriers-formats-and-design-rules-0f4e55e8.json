@@ -1,0 +1,31 @@
+{
+  "instanceId": "0f4e55e8-2e34-4c55-97d7-5c44972ae1e8",
+  "title": "1. The idea: carriers, formats and design rules",
+  "tags": [
+    "research",
+    "topic:carriers"
+  ],
+  "sections": [
+    {
+      "name": "question",
+      "label": "Question",
+      "content": "Which file formats can carry an SRS repository so that a person reads the document as usual and an SRS reader also gets its records and sources?"
+    },
+    {
+      "name": "answer",
+      "label": "What we found",
+      "content": "An SRS archive (.srs) is a deterministic ZIP, and a .srsj is one JSON file, so any format that can hold a file can hold a repository.\n- PDF/A-3: attach the .srs as an associated file (Root /AF, AFRelationship /Source, a media type on the embedded file). This is the pattern of electronic invoices (Factur-X / ZUGFeRD): structured data inside the document people read. Best for formal records.\n- HTML: a .srsj in <script type=\"application/vnd.srs+json\">, inert to the browser; the page can ship its own small reader. Best for the web. Weak in email and after 'Save page as'.\n- DOCX: a binary part or a customXml part in the package. Weakest: Word drops unknown parts on save, and the format invites edits that make page and record disagree.\n- Also: EPUB, .eml attachments, and C2PA Content Credentials on a recording (a checksum of the archive in an assertion).\n- Not ZIP polyglots: fragile, and the next PDF save breaks them."
+    },
+    {
+      "name": "rules",
+      "label": "Design rules proposed",
+      "content": "1. Embed the travelling form unchanged (the .srs bytes), never unpacked into the host's own ZIP, so its checksum survives.\n2. Find the payload by content, not filename: file.srs.pdf is a hint for people; the operating system still opens it as a PDF.\n3. Bind the visible layer to the payload: record which composition and engine produced the page, so a reader can re-render and compare.\n4. Redact by tombstone: a source document whose sidecar is present but content absent is valid, so minutes can ship without the audio and still name exactly which transcript they came from.\nThe media type application/vnd.semanticops.srs+zip and the XMP namespace https://srs.semanticops.com/ns/carrier/1.0/ used in the prototypes are placeholders, not agreed."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

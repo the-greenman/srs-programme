@@ -1,0 +1,29 @@
+{
+  "instanceId": "46d6ca67-0b62-49ca-b197-890c3d2eaa16",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Essay citations had drifted outside the essay's references container",
+    "summary": "Nine records that evidence or counter a paragraph of Rebuilding Small Democracy were not in its references container, and four of them were in no container at all, so a slice of the essay would have cut those citations.",
+    "evidence": [
+      "muSrs main at 77bfd0be: evidences/counters relations into the essay container's paragraphs, sources not in container bc6397bc",
+      "Orphans: 62530d10 (Lutz), ac00e495, 3aeb214b, 9b104ab0 (quotations), f7349d40 (rooms series)"
+    ],
+    "body": "Likely cause: the references container is maintained by the essay editor's snapshot, and citations added by agents or other tools bypass it. Fixed in the branch above. A check that every evidences/counters source of an essay paragraph is in that essay's references container would keep it true."
+  },
+  "tags": [
+    "topic:carriers",
+    "research",
+    "corpus:musrs"
+  ],
+  "createdAt": "2026-11-27T08:44:16.505621037+00:00",
+  "updatedAt": "2026-11-27T08:44:16.505624790+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

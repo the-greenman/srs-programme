@@ -1,0 +1,28 @@
+{
+  "instanceId": "bef9e13e-92bf-467a-a2e2-aed557ef3fd9",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A PDF can carry a whole SRS repository and still read as minutes",
+    "summary": "A PDF/A-3 printed from a meeting repository reads as ordinary minutes, and its embedded .srs gives an SRS reader the transcript, the enrichment data and a topic map that points at transcript cues; a reader reproduced the printed text from the payload.",
+    "evidence": [
+      "Prototype 2026-11-27: weekly-planning.srs.pdf, payload sha256 70ba8752…; verify.py: 7 checks pass, re-render matches",
+      "srs archive pack run twice on the same state: byte-identical"
+    ],
+    "body": "Answers the owner's ask directly: read the minutes, and see the transcript, the enrichment and the in-between topic map. Topics carry sourceRefs to the transcript document with the cue range in the note, which is enough for a reader to jump to the words; a first-class cue anchor would be better (SourceAnchor)."
+  },
+  "tags": [
+    "topic:carriers",
+    "research"
+  ],
+  "createdAt": "2026-11-27T08:44:15.150728212+00:00",
+  "updatedAt": "2026-11-27T08:44:15.150732692+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

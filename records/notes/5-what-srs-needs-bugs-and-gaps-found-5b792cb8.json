@@ -1,0 +1,26 @@
+{
+  "instanceId": "5b792cb8-c47f-4aa7-9e90-0c7bd5944a66",
+  "title": "5. What SRS needs: bugs and gaps found",
+  "tags": [
+    "research",
+    "topic:carriers"
+  ],
+  "sections": [
+    {
+      "name": "list",
+      "label": "The list",
+      "content": "- Bug: a source document's content checksum has nowhere to live; the CLI computes it and drops it (srs#1053).\n- Gap: relation rows are comma-joined by the spec, which is unreadable when titles contain commas.\n- Gap: a slice cannot be byte-reproducible, because it must record exportedAt.\n- Gap: a slice of a clean repository can warn about a lifecycle relation the slice itself cut.\n- Data: muSrs citations had drifted outside the essay's references container.\n- Friction (recorded in srs-context): the export commands take their output three different ways (archive pack --output, archive unpack --target, slice export <OUTPUT>), and slice export lives under srs slice, not srs container."
+    },
+    {
+      "name": "not",
+      "label": "Checked and not a bug",
+      "content": "The I-81 identity-type message and the 'composition names a container not in the slice' message are info severity in a slice, as RFC-026 [R17] requires."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

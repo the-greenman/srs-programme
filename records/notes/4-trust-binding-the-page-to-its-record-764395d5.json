@@ -1,0 +1,31 @@
+{
+  "instanceId": "764395d5-2b00-411a-ae16-5bebd3918eba",
+  "title": "4. Trust: binding the page to its record",
+  "tags": [
+    "research",
+    "topic:carriers"
+  ],
+  "sections": [
+    {
+      "name": "model",
+      "label": "The model",
+      "content": "The PDF's XMP records the payload name, repository id, composition id, the archive's sha256, the sha256 of the rendered text and the engine version. The reader finds the payload through /AF, checks the archive checksum, validates, re-renders the composition and compares."
+    },
+    {
+      "name": "tests",
+      "label": "What was tested",
+      "content": "- Original: all checks pass.\n- Record edited after printing, archive swapped in: fails on the archive checksum and on the re-render.\n- The same, with the archive checksum also rewritten: still fails on the re-render, because the record no longer produces the printed text.\n- qpdf --linearize: survives.\n- Ghostscript re-distill (pdfwrite): the attachment and all XMP are stripped, silently."
+    },
+    {
+      "name": "limits",
+      "label": "Limits",
+      "content": "A forger who edits the record and rewrites both checksums passes. Only a signature over the whole PDF closes that; a PDF signature covers the attachment too. Re-rendering as a check depends on deterministic rendering across engine versions, which is why the engine version is in the binding. PDF/A-3 conformance has not been checked with veraPDF."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

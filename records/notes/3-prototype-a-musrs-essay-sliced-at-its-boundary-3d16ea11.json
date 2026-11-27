@@ -1,0 +1,31 @@
+{
+  "instanceId": "3d16ea11-c4f8-45f2-9295-b9464fa5f46a",
+  "title": "3. Prototype: a muSrs essay, sliced at its boundary",
+  "tags": [
+    "research",
+    "topic:carriers"
+  ],
+  "sections": [
+    {
+      "name": "what",
+      "label": "What was built",
+      "content": "muSrs had the essay Rebuilding Small Democracy as an essay record, an essay container (18 paragraphs) and a separate references container, but nothing tying them together. RFC-034 already lets a container declare childContainerIds, and srs slice export carries a container with its declared children. So a publication container was added: identity the essay record, children the essay and references containers. A composition renders the paragraphs in arranged order, each followed by its incoming evidences ('Sources') and counters ('Countered by'), then References, Quotations and Claims. Three short views print citation and URL, quote and where, statement and checked-to. muDemocracy.org branch claude/essay-publication-boundary (commit 0f92b5f6)."
+    },
+    {
+      "name": "result",
+      "label": "Result",
+      "content": "The slice: 820 KB, 155 records, 152 relations, 3 containers, 7 source documents (the dictated account, two research reports, the Freeman text, the Charity Commission guidance, two data files), 476 cut relations recorded in the manifest. It validates with 0 errors and renders from the slice alone. The PDF is 26 pages; the reader reproduces the printed text from the embedded slice.\n\nThe owner expected the boundary export might not be implemented yet. It is, in the spec and the engine. What was missing was the data: no corpus had a boundary container for a publication, and the references container had drifted."
+    },
+    {
+      "name": "adoption",
+      "label": "Why this matters for adoption",
+      "content": "muSrs is the nearest thing to a third-party corpus: its own packages, its own editor and its own agents. Publishing one of its documents with provenance needed one container, one composition and three views, and no engine change."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

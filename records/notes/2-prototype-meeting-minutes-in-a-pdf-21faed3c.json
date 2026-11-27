@@ -1,0 +1,31 @@
+{
+  "instanceId": "21faed3c-0ed7-4bd1-b7a9-1c4b214be9c4",
+  "title": "2. Prototype: meeting minutes in a PDF",
+  "tags": [
+    "research",
+    "topic:carriers"
+  ],
+  "sections": [
+    {
+      "name": "what",
+      "label": "What was built",
+      "content": "From the example meeting repository (semanticops.com examples/meeting): a fictional 12-cue WebVTT transcript and a fictional calendar export attached as source documents; three topic notes whose sourceRefs point at the transcript with a cue range; relations topic derived-from meeting, topic evidences decision, task derived-from topic. Validated clean, packed (two packs byte-identical), rendered with the existing decision composition, printed with headless Chromium, then the .srs attached as a PDF/A-3 associated file with an srs: binding in XMP."
+    },
+    {
+      "name": "result",
+      "label": "Result",
+      "content": "The page reads as minutes, with a short panel saying what the file carries. The reader recovers the transcript, enrichment, topics with their cue ranges and the ten relations, validates the repository and reproduces the printed text exactly. Tampering is caught (part 4)."
+    },
+    {
+      "name": "where",
+      "label": "Where the prototype is",
+      "content": "build.py (builder) and verify.py (reader, any slice or repository) were written in a Claude Code scratchpad on 2026-11-27 and are not yet in a repository. Moving them into srs-lab is the obvious next step."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,28 @@
+{
+  "instanceId": "f2d73445-753a-436f-9eae-ba20e0e4115d",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "How should a reader trust that a printed page matches its record?",
+    "thinking_reached": "Raised by the 2026-11-27 tamper tests (Research: SRS carriers, part 4). No option chosen.",
+    "tensions": "Options, none chosen:\n- A. Re-render the named composition from the payload and compare checksums; needs rendering that is deterministic across engine versions.\n- B. Sign the carrier (a PDF signature covers page and attachment); proves authorship, not that the page follows from the record.\n- C. Both: re-rendering for drift, signature for authorship.\n- D. Store the rendered text as a record in the payload and compare text, so no engine is needed to check.",
+    "unresolved_questions": "How often rendering changes between engine builds; whether readers will have an SRS engine; what a signature costs a small group to set up.",
+    "next_action": "Re-render the essay slice with two engine builds and compare; try signing the prototype PDF."
+  },
+  "lifecycleState": "open",
+  "tags": [
+    "exercise",
+    "research",
+    "topic:carriers"
+  ],
+  "createdAt": "2026-11-27T08:44:20.928211325+00:00",
+  "updatedAt": "2026-11-27T08:44:20.928215916+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

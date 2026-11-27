@@ -1,0 +1,30 @@
+{
+  "instanceId": "9ce2d832-c353-46ec-936c-4c9f9bef7f0f",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Relation rows are comma-joined, which is unreadable when titles contain commas",
+    "summary": "The spec requires a relation row to list related instances' labels comma-joined, while a multi-entry field value must never be comma-joined; essay source titles contain commas, so a paragraph's 'Sources' line cannot be read reliably.",
+    "evidence": [
+      "srs-spec.md Relation presentation, Rows (~line 3928): comma-joined, normative markdown form",
+      "srs-spec.md Default rendering Step 4 and Multi-entry rows: block list, never comma-joined",
+      "Rendered essay: 'Sources: Budd, Lamare & Timming, … (ILR Review 2018) — …, Hibbing & Theiss-Morse, …'"
+    ],
+    "body": "A spec change, not an engine bug: relation rows with more than one related instance should render as a block list, like multi-entry fields."
+  },
+  "tags": [
+    "topic:carriers",
+    "research",
+    "gap"
+  ],
+  "createdAt": "2026-11-27T08:44:18.545225675+00:00",
+  "updatedAt": "2026-11-27T08:44:18.545227660+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

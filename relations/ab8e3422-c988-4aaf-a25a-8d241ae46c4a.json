@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "ab8e3422-c988-4aaf-a25a-8d241ae46c4a",
+  "relationType": "evidences",
+  "sourceInstanceId": "bef9e13e-92bf-467a-a2e2-aed557ef3fd9",
+  "targetInstanceId": "cbd4225d-95cf-40e1-8045-9fbcc5c83b0a",
+  "createdAt": "2026-11-27T08:44:15.365081102+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "The repository travels inside a format every group can already open."
+}

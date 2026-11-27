@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "be4e2ebd-76ca-4c11-8956-ba88bec398df",
+  "relationType": "evidences",
+  "sourceInstanceId": "357dcc9e-8530-430b-ba3d-721d8c9566c5",
+  "targetInstanceId": "3fc2e422-854f-47ee-a42f-aa4bf0eacb9f",
+  "createdAt": "2026-11-27T08:44:16.038261094+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "Publishing became an export of a boundary plus a composition, from the corpus where the essay is written."
+}

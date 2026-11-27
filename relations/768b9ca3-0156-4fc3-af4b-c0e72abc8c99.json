@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "768b9ca3-0156-4fc3-af4b-c0e72abc8c99",
+  "relationType": "evidences",
+  "sourceInstanceId": "6f1ce1cc-e1f6-4e1e-9ed0-c323574779a0",
+  "targetInstanceId": "069253b6-904c-4946-b211-744b5ea2f6f6",
+  "createdAt": "2026-11-27T08:44:18.075254255+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "A signed carrier lets the minutes and the words they came from be checked together."
+}
