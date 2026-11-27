@@ -18,12 +18,12 @@
     "owner": "human:the-greenman",
     "status": "proposed"
   },
-  "lifecycleState": "proposed",
+  "lifecycleState": "ratified",
   "tags": [
     "boundary:blueprint-cardinality"
   ],
   "createdAt": "2026-11-26T12:14:05.541852059+00:00",
-  "updatedAt": "2026-11-26T12:14:05.541862681+00:00",
+  "updatedAt": "2026-11-27T17:23:15.381938982+00:00",
   "createdBy": {
     "kind": "ai",
     "id": "agent:tpr-steward",

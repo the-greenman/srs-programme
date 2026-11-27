@@ -1,0 +1,140 @@
+{
+  "session": "f28b712a-3a8b-461b-b24c-91e4d931d0d6",
+  "acts": [
+    {
+      "at": "2026-11-27T17:10:45.448Z",
+      "section": "Reports",
+      "position": 1,
+      "of": 11,
+      "seen": [],
+      "kind": "receive",
+      "id": "52c6a8f7-520e-4962-8c85-b98081c72a00",
+      "title": "WG Agent-supported editor report 2026-11-21"
+    },
+    {
+      "at": "2026-11-27T17:10:46.011Z",
+      "section": "Reports",
+      "position": 2,
+      "of": 11,
+      "seen": [],
+      "kind": "receive",
+      "id": "522756d4-9d6a-4b08-b6e4-f9eef47bd786",
+      "title": "WG Agent-supported editor report 2026-11-23"
+    },
+    {
+      "at": "2026-11-27T17:10:47.750Z",
+      "section": "Reports",
+      "position": 3,
+      "of": 11,
+      "seen": [],
+      "kind": "receive",
+      "id": "9b769c15-2dcc-490d-9815-ce8f285f36e7",
+      "title": "WG Agent-supported editor report 2026-11-24"
+    },
+    {
+      "at": "2026-11-27T17:10:48.139Z",
+      "section": "Reports",
+      "position": 4,
+      "of": 11,
+      "seen": [],
+      "kind": "receive",
+      "id": "80476d2e-6cd5-4668-a8ca-46df35494d43",
+      "title": "WG Agent-supported editor report 2026-11-25"
+    },
+    {
+      "at": "2026-11-27T17:10:50.183Z",
+      "section": "Reports",
+      "position": 5,
+      "of": 11,
+      "seen": [],
+      "kind": "receive",
+      "id": "2a5ec3c4-853e-4681-940d-4281b632d309",
+      "title": "WG Agent-supported editor report 2026-11-26"
+    },
+    {
+      "at": "2026-11-27T17:10:51.535Z",
+      "section": "Reports",
+      "position": 6,
+      "of": 11,
+      "seen": [],
+      "kind": "receive",
+      "id": "72b3af24-7b1e-493c-ab9e-59b5c5005b0d",
+      "title": "WG Agent-supported editor report 2026-11-27"
+    },
+    {
+      "at": "2026-11-27T17:10:58.007Z",
+      "section": "Reports",
+      "position": 7,
+      "of": 11,
+      "seen": [],
+      "kind": "receive",
+      "id": "df5e4ee7-6113-4af5-8d75-74b3385393ec",
+      "title": "WG Third-party ready report 2026-11-23"
+    },
+    {
+      "at": "2026-11-27T17:11:07.110Z",
+      "section": "Reports",
+      "position": 8,
+      "of": 11,
+      "seen": [],
+      "kind": "receive",
+      "id": "c0678f20-b26c-41b0-b286-9db59f229c9f",
+      "title": "WG Third-party ready report 2026-11-24"
+    },
+    {
+      "at": "2026-11-27T17:11:07.912Z",
+      "section": "Reports",
+      "position": 9,
+      "of": 11,
+      "seen": [],
+      "kind": "receive",
+      "id": "a1641308-326d-49f1-97c1-1caef9b1a789",
+      "title": "WG Third-party ready report 2026-11-25"
+    },
+    {
+      "at": "2026-11-27T17:11:09.061Z",
+      "section": "Reports",
+      "position": 10,
+      "of": 11,
+      "seen": [],
+      "kind": "receive",
+      "id": "30c1b1e3-b23b-4483-8d4f-6fa6c5da6794",
+      "title": "WG Third-party ready report 2026-11-26"
+    },
+    {
+      "at": "2026-11-27T17:11:10.921Z",
+      "section": "Reports",
+      "position": 11,
+      "of": 11,
+      "seen": [],
+      "kind": "receive",
+      "id": "6aa93a94-205f-42ae-be09-b8ff124779f9",
+      "title": "WG Third-party ready report 2026-11-27"
+    },
+    {
+      "at": "2026-11-27T17:22:13.309Z",
+      "section": "Decisions for this session",
+      "position": 1,
+      "of": 2,
+      "seen": [
+        "full record"
+      ],
+      "updatedAt": "2026-11-26T12:14:05.541862681+00:00",
+      "kind": "accept",
+      "id": "3a43fd0f-ae4b-4db8-8942-beec4023d6b2",
+      "title": "Escalation: does a Blueprint relation's cardinality admit the numeric-range form (\"1..*\", \"0..3\", \"1\") that srs-rust accepts and blueprint.json refuses? (srs-rust#1100)"
+    },
+    {
+      "at": "2026-11-27T17:23:04.450Z",
+      "section": "Decisions for this session",
+      "position": 2,
+      "of": 2,
+      "seen": [],
+      "updatedAt": "2026-11-25T12:14:35.187201928+00:00",
+      "kind": "accept",
+      "id": "f0c64ba4-0c1f-42a9-bb87-1f78a7920bc3",
+      "title": "Escalation: what does an engine report for a corpus with no dataModelRevision, or revision 1: storage-generation-unsupported or container-migration-needed? (srs#965)"
+    }
+  ],
+  "words": []
+}

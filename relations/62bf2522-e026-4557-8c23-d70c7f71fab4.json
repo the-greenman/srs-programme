@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "62bf2522-e026-4557-8c23-d70c7f71fab4",
+  "relationType": "com.semanticops.programme/ratifies",
+  "sourceInstanceId": "f28b712a-3a8b-461b-b24c-91e4d931d0d6",
+  "targetInstanceId": "3a43fd0f-ae4b-4db8-8942-beec4023d6b2",
+  "createdAt": "2026-11-27T17:23:14.938Z",
+  "createdBy": {
+    "kind": "human",
+    "id": "human:the-greenman",
+    "name": "Peter Brownell"
+  }
+}
