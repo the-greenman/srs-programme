@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "e1b307d6-7eab-47d8-8d42-bc489336ffee",
+  "relationType": "evidences",
+  "sourceInstanceId": "f0f25b7c-2b06-43b7-a598-9fae83753df4",
+  "targetInstanceId": "38502279-d1cd-4eed-8cfd-962bef89e43b",
+  "createdAt": "2026-11-27T11:39:11.592016083+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "A matter left open at one meeting came back at the next with nothing tying the two."
+}

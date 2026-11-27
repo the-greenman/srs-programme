@@ -1,0 +1,30 @@
+{
+  "instanceId": "16265a73-20f9-4789-9632-aa197ef82d4c",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Curation has to come before memory",
+    "summary": "A topic filed under the wrong subject leaves the right subject's chain without a predecessor; the process found both misfilings but may not move them, so a person's acceptance sits between minutes and update.",
+    "evidence": [
+      "Fire escape standing as of November superseded nothing until October's topic was moved",
+      "Two proposals at each meeting, both correct, none applied by the process"
+    ],
+    "body": "The order is minutes, the secretary's check, curation, update, merge. Curation is a clerk session act."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:minutes",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T11:39:13.378286895+00:00",
+  "updatedAt": "2026-11-27T11:39:13.378292285+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
