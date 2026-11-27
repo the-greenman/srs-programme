@@ -1,0 +1,31 @@
+{
+  "instanceId": "c9b98066-ef91-4d85-83b5-bfb51dbbc39e",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The engine's Blueprint tools describe a single-type document",
+    "summary": "blueprint brief gives field tables for the root type only, no vocabulary values and ids in place of names; blueprint schema hangs every relation off the root record, so neither can describe a document of several linked types.",
+    "evidence": [
+      "srs-rust#1714",
+      "blueprint brief on the minutes Blueprint: payload.types has 1 of 11 types",
+      "blueprint schema: the about relation becomes one root-level array with maxItems 1"
+    ],
+    "body": "Enough for the decision log, the only earlier Blueprint with a Protocol. The MCP server exposes the same brief as each Blueprint's prompt."
+  },
+  "tags": [
+    "research",
+    "topic:minutes",
+    "topic:blueprint",
+    "bug"
+  ],
+  "createdAt": "2026-11-27T09:47:52.596325842+00:00",
+  "updatedAt": "2026-11-27T09:47:52.596327420+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

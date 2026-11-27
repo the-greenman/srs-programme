@@ -1,0 +1,29 @@
+{
+  "instanceId": "9e885fd3-b300-484f-b09b-4152841a0853",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Typed dates are not validated, and cannot say not stated",
+    "summary": "A date field accepted \"NOT STATED\" and a date-time field accepted \"yesterday afternoon\" on write and at repo validate; and a group whose rule is to write NOT STATED for a missing fact cannot do so in a typed field.",
+    "evidence": [
+      "srs-rust#1713"
+    ],
+    "body": "The package made the date optional and raises an open question when it is missing."
+  },
+  "tags": [
+    "research",
+    "topic:minutes",
+    "topic:blueprint",
+    "bug"
+  ],
+  "createdAt": "2026-11-27T09:47:55.429076608+00:00",
+  "updatedAt": "2026-11-27T09:47:55.429078222+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

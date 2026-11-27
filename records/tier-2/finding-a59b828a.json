@@ -1,0 +1,30 @@
+{
+  "instanceId": "a59b828a-e687-4be9-9854-88032ff3fb2b",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "Compositions cannot number items or choose what a relation row shows",
+    "summary": "Minutes are numbered items, but a composition has no numbering; a relation row lists related records by identity only and cannot filter by the type at the other end, so fragments carry a tool-written citation field as their identity and the PDF numbers minutes with CSS.",
+    "evidence": [
+      "Rendered minutes composition: \"Transcript: lines 84-95 · Keeping a fire escape assessment document\"",
+      "Topic rows listed fragments and decision points together under one label"
+    ],
+    "body": "Workarounds live in the package (the citation field) and the publisher (CSS counters)."
+  },
+  "tags": [
+    "research",
+    "topic:minutes",
+    "topic:blueprint",
+    "gap"
+  ],
+  "createdAt": "2026-11-27T09:47:55.922493920+00:00",
+  "updatedAt": "2026-11-27T09:47:55.922495452+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

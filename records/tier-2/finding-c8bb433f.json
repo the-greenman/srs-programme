@@ -1,0 +1,30 @@
+{
+  "instanceId": "c8bb433f-205c-48ad-97b1-a4bd02a89b37",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A Blueprint and Protocol led two real meetings from transcript to minutes with provenance",
+    "summary": "A minutes package and a generic runner took two real, unlabelled meeting transcripts through ten stages to minutes, a decision log and a task list in which every item points at line ranges of the transcript; all document checks pass.",
+    "evidence": [
+      "Meeting A 2026-11-25: 824 lines, 62 fragments, 17 decision points, 15 minutes, 2 decisions, 11 tasks, 53 evidence excerpts; runner check 17 of 17 pass",
+      "Meeting B 2026-10-27, from the bundle alone: 669 lines, 43 fragments, 17 minutes; 17 of 17 pass",
+      "srs-lab#43 minutes/"
+    ],
+    "body": "The first test of Blueprint and Protocol since they were specified. Against hand-written minutes of meeting A the run covered every item and both decisions and added four matters left out."
+  },
+  "tags": [
+    "research",
+    "topic:minutes",
+    "topic:blueprint"
+  ],
+  "createdAt": "2026-11-27T09:47:50.269223019+00:00",
+  "updatedAt": "2026-11-27T09:47:50.269224750+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

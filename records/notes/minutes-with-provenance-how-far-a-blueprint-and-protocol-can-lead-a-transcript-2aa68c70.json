@@ -1,0 +1,43 @@
+{
+  "instanceId": "2aa68c70-4660-4d37-9afe-f8f69cdf8f3f",
+  "title": "Minutes with provenance: how far a Blueprint and Protocol can lead a transcript",
+  "tags": [
+    "research",
+    "topic:minutes",
+    "topic:blueprint",
+    "topic:third-party"
+  ],
+  "sections": [
+    {
+      "name": "claim",
+      "label": "Claim",
+      "content": "A Blueprint says what a minutes document is and a Protocol leads a transcript to it through recorded stages, so that every minute, decision and task points at the words it came from, and the whole process can be handed to another group as one package. The owner, 2026-11-27: \"The SRS blueprint was designed to lead us through a structured process for creating minutes with provenance.\" It had not been tested since SRS was created."
+    },
+    {
+      "name": "story",
+      "label": "The story so far",
+      "content": "On 2026-11-27 it was tested end to end. A minutes package (11 types, a Blueprint, a ten-stage Protocol) and a generic runner took two real meetings of a working group from unlabelled speech-to-text to minutes, a decision log and a task list, with every item linked to line ranges of the transcript. Every check passed, and the second meeting was run from the package bundle alone.\n\nThe Blueprint and Protocol carried all the knowledge about minutes; the runner has none. But the runner had to supply nine things a Protocol or Blueprint cannot declare: what an anchored fragment is, checkable completion, which end of a relation is required, which stage writes which link, create versus update, a stage's inputs, a place to say \"not established\", a record of the process, and room for tool hints.\n\nThe engine's own Blueprint tools stop at a single-type document: the brief describes only the root type and the schema hangs every relation off the root. A protocol run does not travel in an archive, so the stage history was kept as records in the document instead.\n\nThe result is honest in a useful way. With no attendee list it marked nobody present and asked. It was more cautious than the people in the room about what counted as decided."
+    },
+    {
+      "name": "parts",
+      "label": "The parts",
+      "content": "1. The package: what a minutes document is, and the ten stages.\n2. The runner: what a Protocol can drive, and what it cannot say.\n3. Two real meetings.\n4. The travelling form: a slice, a withheld transcript, a PDF.\n5. What SRS is missing."
+    },
+    {
+      "name": "open",
+      "label": "What is open",
+      "content": "Four exercises: what a Protocol stage should be able to declare; where the record of a run should live; whether every line of a transcript should become part of a record; whether minutes should reuse the governance decision type. Not done: a second model, repeated runs to measure variance, speaker labels, a live meeting, and use by the group itself."
+    },
+    {
+      "name": "find",
+      "label": "Finding the evidence",
+      "content": "Findings: srs find --type com.semanticops.programme/finding --tag topic:minutes. Code and the full list of gaps: srs-lab minutes/ (srs-lab#43). The carrier the minutes travel in: Research, SRS carriers (f086e881)."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

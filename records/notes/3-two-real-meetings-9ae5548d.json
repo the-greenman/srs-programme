@@ -1,0 +1,37 @@
+{
+  "instanceId": "9ae5548d-b69a-46c2-8d98-98b574d3ec39",
+  "title": "3. Two real meetings",
+  "tags": [
+    "research",
+    "topic:minutes",
+    "topic:blueprint"
+  ],
+  "sections": [
+    {
+      "name": "a",
+      "label": "Meeting A, 2026-11-25",
+      "content": "An unlabelled speech-to-text transcript of 824 lines, with house rules from the group's own conventions and eight supplied files. Result: 11 topics, 62 fragments, 5 attendance records, 17 decision points, 15 minutes, 2 decisions, 11 tasks, 10 references, 32 open questions; 53 fragments used as evidence, each carrying words copied by the tool. Every stage reply was accepted at the first attempt and all 17 document checks pass.\n\nAgainst the group's hand-written minutes (11 items, 2 decisions): every item covered, both decisions matched, a third go-ahead flagged for the secretary to rule on (it became a formal decision the next day), and four matters the hand-written minutes left out."
+    },
+    {
+      "name": "b",
+      "label": "Meeting B, 2026-10-27",
+      "content": "669 lines, run from the bundle alone with no attendee list and no files: 43 fragments, 15 decision points, 17 minutes, 1 decision, 8 tasks, 29 open questions; all checks pass. The first stage had two replies refused as malformed JSON before the third was accepted. The hand-written minutes have three decisions; the run recorded one as a decision and left the other two as a record and a discussion."
+    },
+    {
+      "name": "trial",
+      "label": "The first trial, and what it changed",
+      "content": "A first run of meeting A sliced the transcript into 21 fragments of up to 98 lines and marked almost every decision point ambiguous, so it drafted no decisions. Two changes to the package fixed both: a rule that the moment something is agreed is a fragment of its own with a 40-line limit, and a definition of ambiguous that does not count a missing owner or an unknown speaker. With no attendee list that run marked all four members and the contractor as mentioned, none present, and asked who was there."
+    },
+    {
+      "name": "limits",
+      "label": "Limits",
+      "content": "One model (Sonnet, headless), one run per meeting, no measure of variance. The comparison with hand-written minutes is a reading, not a score. Nothing has been used by the group itself. The real runs are kept outside any repository because the transcripts are private."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

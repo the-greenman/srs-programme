@@ -1,0 +1,30 @@
+{
+  "instanceId": "46d194eb-5677-4eb3-8a6a-908634194120",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The engine records little about a protocol run and checks less",
+    "summary": "A protocol run is left out of archives and slices, does not record what a stage produced, and can be advanced to a stage that does not exist or whose dependencies never ran; the spec defines no ProtocolRun and no place for runs in the repository layout.",
+    "evidence": [
+      "srs-rust#1711: runs/runs.json absent from archive pack and slice export; unpacked copy lists no runs",
+      "srs-rust#1712: advance to \"nonsense\" and from stage 1 to stage 10 both succeed"
+    ],
+    "body": "The stage history is the provenance of the process. The prototype keeps it as process-step records in the document, which travel; the runner rebuilds the history from them."
+  },
+  "tags": [
+    "research",
+    "topic:minutes",
+    "topic:blueprint",
+    "bug"
+  ],
+  "createdAt": "2026-11-27T09:47:52.106518496+00:00",
+  "updatedAt": "2026-11-27T09:47:52.106520700+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,29 @@
+{
+  "instanceId": "7868f6e4-f670-481a-bfc7-0c4641020768",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The process says what it could not establish",
+    "summary": "With no attendee list and no speaker labels the run marked nobody present and asked who was there; seven of eleven tasks say owner not named; it raised 32 open questions, including whether the spending fitted the group's per-job limit.",
+    "evidence": [
+      "Meeting A first trial: 7 attendance records, all mentioned; open question \"Who was actually at the meeting?\"",
+      "Meeting A final run: open questions from every stage; task who fields"
+    ],
+    "body": "Guidance in the package (never guess a name, a date, an owner or a decision) and a place to put doubt were enough. The same question is asked by several stages: nothing stops repeats."
+  },
+  "tags": [
+    "research",
+    "topic:minutes",
+    "topic:blueprint"
+  ],
+  "createdAt": "2026-11-27T09:47:53.756264432+00:00",
+  "updatedAt": "2026-11-27T09:47:53.756266206+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,30 @@
+{
+  "instanceId": "c3fb7e6d-7051-48a5-890e-c9652f347b8a",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The run is more cautious than the people in the room about what was decided",
+    "summary": "Meeting B's hand-written minutes record three decisions; the run recorded one as a decision and left two as a record and a discussion. A first trial of meeting A marked almost every decision point ambiguous and drafted no decisions until the guidance was changed.",
+    "evidence": [
+      "Meeting B decision points: 4 settled, 1 of them unambiguous",
+      "Meeting A trial 1: 19 decision points, 0 decisions; final run: 17 and 2"
+    ],
+    "body": "Counter-evidence for unattended use: an unlabelled transcript does not show who agreed, and a person who was there knows more. The decision log lists every decision point with its status so a secretary can promote one."
+  },
+  "tags": [
+    "research",
+    "topic:minutes",
+    "topic:blueprint",
+    "counter-evidence"
+  ],
+  "createdAt": "2026-11-27T09:47:54.432370986+00:00",
+  "updatedAt": "2026-11-27T09:47:54.432372676+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

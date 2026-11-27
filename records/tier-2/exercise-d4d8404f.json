@@ -1,0 +1,28 @@
+{
+  "instanceId": "d4d8404f-2e4f-445d-a9ae-f969d1201962",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Where should the record of a protocol run live?",
+    "thinking_reached": "Raised by srs-rust#1711 (Research: Minutes with provenance, part 4). No option chosen.",
+    "tensions": "Options, none chosen:\n- A. ProtocolRun becomes a spec entity with a place in the repository layout, carried in archives and slices.\n- B. Process-step records in the document, as the prototype does: ordinary records, already portable.\n- C. Both: the run for live state, records for history.",
+    "unresolved_questions": "Whether anyone needs to continue a half-finished run after a hand-over; whether process steps as records clutter the document.",
+    "next_action": "Decide with the fix for srs-rust#1711."
+  },
+  "lifecycleState": "open",
+  "tags": [
+    "exercise",
+    "research",
+    "topic:minutes"
+  ],
+  "createdAt": "2026-11-27T09:47:56.609549612+00:00",
+  "updatedAt": "2026-11-27T09:47:56.609553718+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

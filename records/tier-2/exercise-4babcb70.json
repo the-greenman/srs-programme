@@ -1,0 +1,28 @@
+{
+  "instanceId": "4babcb70-301b-43b9-9753-eac28eb4090c",
+  "typeId": "7f73b83e-4a5b-4c6d-8e9f-1a2b3c4d5e6f",
+  "typeVersion": 1,
+  "typeNamespace": "governance",
+  "typeName": "exercise",
+  "fieldValues": {
+    "title": "Should every line of a transcript become part of a fragment record?",
+    "thinking_reached": "Raised by the tension between the owner's stage list (slice the transcript into fragments) and proposed decision a089adfd (only the fragments that carry meaning become records). No option chosen.",
+    "tensions": "Options, none chosen:\n- A. Full slicing, as the prototype: every line in a fragment, off-the-record ones without words.\n- B. Only fragments used as evidence become records; the slicing is kept as ranges in one index record.\n- C. Full slicing while working; off-the-record fragments dropped at export.",
+    "unresolved_questions": "Whether coverage (nothing unaccounted for) is worth the extra records; 62 fragments for a 43 KB transcript, 9 of them off the record.",
+    "next_action": "Ask the group whether a list of what was left out of the minutes is useful to them."
+  },
+  "lifecycleState": "open",
+  "tags": [
+    "exercise",
+    "research",
+    "topic:minutes"
+  ],
+  "createdAt": "2026-11-27T09:47:56.909555449+00:00",
+  "updatedAt": "2026-11-27T09:47:56.909559176+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

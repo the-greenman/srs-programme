@@ -1,0 +1,14 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "1b9f01f2-41a9-4691-9ae9-4fa35c886024",
+  "relationType": "evidences",
+  "sourceInstanceId": "554c8576-bc36-4d9c-aaa1-9bdaf1f61853",
+  "targetInstanceId": "c8299089-7fc1-424a-b480-62090d6715f7",
+  "createdAt": "2026-11-27T09:47:51.646249557+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "notes": "The Blueprint gives a document a declared shape, but what makes a stage complete is still prose."
+}

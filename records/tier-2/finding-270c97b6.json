@@ -1,0 +1,31 @@
+{
+  "instanceId": "270c97b6-0249-4c77-bf25-31e542b9092f",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A fragment cannot carry its line range as a structured anchor",
+    "summary": "SourceAnchor has a line-range kind, but only inside a source document's sidecar; SourceReference has no anchor, so a fragment's range lives in a string field and in the reference's note.",
+    "evidence": [
+      "srs-spec.md SourceAnchor and SourceDocument.excerpt; SourceReference property table",
+      "problem-index P-EV-04 proposed anchor on SourceReference; not adopted",
+      "Fragments in the prototype: locator \"84-95\" and sourceRefs note \"line-range 84-95\""
+    ],
+    "body": "The runner checks ranges itself. A structured anchor on SourceReference would let any reader resolve a citation."
+  },
+  "tags": [
+    "research",
+    "topic:minutes",
+    "topic:blueprint",
+    "gap"
+  ],
+  "createdAt": "2026-11-27T09:47:53.090762084+00:00",
+  "updatedAt": "2026-11-27T09:47:53.090764418+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

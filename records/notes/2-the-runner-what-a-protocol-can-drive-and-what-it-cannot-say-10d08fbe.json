@@ -1,0 +1,32 @@
+{
+  "instanceId": "10d08fbe-2da0-409b-ae4c-066399a65cc5",
+  "title": "2. The runner: what a Protocol can drive, and what it cannot say",
+  "tags": [
+    "research",
+    "topic:minutes",
+    "topic:blueprint"
+  ],
+  "sections": [
+    {
+      "name": "what",
+      "label": "What the runner does",
+      "content": "For the run's current stage it writes a brief from the Blueprint's guidance, the stage's question, purpose and completion criteria, the output type's fields with vocabulary values, the links the Blueprint allows, the records so far and the numbered source. It checks the reply (fields, closed vocabularies, link targets and cardinality, coverage of the source), refuses with reasons and asks again up to three times, applies it through the srs CLI, records a process step and advances the run. It has no knowledge of minutes."
+    },
+    {
+      "name": "nine",
+      "label": "The nine things it had to supply",
+      "content": "1. An anchored type: nothing declares that a fragment is a line range of a source document; SourceReference has no anchor.\n2. Checkable completion: completionCriteria is prose.\n3. Which end RelationSpec.required binds.\n4. Which stage writes which link.\n5. Create versus update: a stage that fills one field of existing records is recognised only by position.\n6. A stage's inputs: the source, the group's rules and supplied facts are found by tag and attachment.\n7. Somewhere to say \"not established\": open questions are a type known by name, and a typed field cannot hold \"not stated\".\n8. A record of the process: the run does not travel, does not say what a stage produced, and accepts any stage in any order.\n9. Room for tool hints: definition schemas are closed, so none of this can ride on the Protocol."
+    },
+    {
+      "name": "engine",
+      "label": "The engine's own Blueprint tools",
+      "content": "blueprint validate and protocol validate pass, and the engine links the Protocol to the Blueprint by targetType. blueprint brief describes only the root type, omits vocabulary values and prints ids (srs-rust#1714). blueprint schema hangs every relation off the root record, so it cannot describe links between two non-root types."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

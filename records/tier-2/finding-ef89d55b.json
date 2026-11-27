@@ -1,0 +1,30 @@
+{
+  "instanceId": "ef89d55b-dc35-4895-bd25-1c42740a7c6d",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "A minutes process is distributed as one file and repeats elsewhere",
+    "summary": "srs package export gives one deterministic 131 KB file of 82 definitions; installed into an empty repository it ran a second real meeting and a fictional one with no other setup, and a slice of a finished meeting carries the package whole.",
+    "evidence": [
+      "com.semanticops.minutes-0.1.0.srspkg: same sha256 on re-export with a fixed published-at",
+      "package install --bundle: 82 installed, repo validate 0 errors",
+      "slice export of a meeting container: packageCount 2"
+    ],
+    "body": "Evidence that shared definitions can be published and installed today. What does not travel in the package is the runner's nine conventions."
+  },
+  "tags": [
+    "research",
+    "topic:minutes",
+    "topic:blueprint"
+  ],
+  "createdAt": "2026-11-27T09:47:50.940123473+00:00",
+  "updatedAt": "2026-11-27T09:47:50.940127965+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

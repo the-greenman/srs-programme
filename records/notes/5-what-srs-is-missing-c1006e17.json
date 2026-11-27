@@ -1,0 +1,32 @@
+{
+  "instanceId": "c1006e17-0b88-45c6-b19d-437f0815d0b8",
+  "title": "5. What SRS is missing",
+  "tags": [
+    "research",
+    "topic:minutes",
+    "topic:blueprint"
+  ],
+  "sections": [
+    {
+      "name": "bugs",
+      "label": "Bugs filed",
+      "content": "srs-rust#1711: archive pack and slice export drop protocol runs. srs-rust#1712: protocol run advance accepts an unknown stage and ignores dependsOn. srs-rust#1713: date and date-time values are not validated. srs-rust#1714: blueprint brief describes only the root type."
+    },
+    {
+      "name": "gaps",
+      "label": "Gaps",
+      "content": "The nine things in part 2. Also: blueprint schema models a star around the root; the spec defines no ProtocolRun and no place for runs in the repository layout; a composition cannot number its items; a relation row cannot filter by the type at the other end and prints only the related record's identity; list payloads name ids and relation ends differently from get and create; a write accepts a tag that validation then rejects; each stage raises its own open questions with nothing to stop repeats."
+    },
+    {
+      "name": "worked",
+      "label": "What worked with no change",
+      "content": "Package bundles and installation; a slice that carries its package; Protocol to Blueprint linking and validation; closed vocabularies enforced on write; compositions with relation rows; tombstones; createdBy stamping per stage."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

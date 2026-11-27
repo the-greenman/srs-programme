@@ -1,0 +1,37 @@
+{
+  "instanceId": "f4084079-1b3f-4ea8-9808-a5558b35eac6",
+  "title": "1. The package: what a minutes document is, and the ten stages",
+  "tags": [
+    "research",
+    "topic:minutes",
+    "topic:blueprint"
+  ],
+  "sections": [
+    {
+      "name": "shape",
+      "label": "The document",
+      "content": "One container anchored on a meeting record. Types: meeting, topic, fragment (a line range of the transcript with a gist), attendance, decision point, minute (record, discussion or decision), decision, task, reference, open question, process step. The Blueprint has the meeting as root type, four required types and fifteen relation specs: a fragment is about a topic; fragments evidence decision points, minutes, tasks and attendance; minutes derive from topics and decision points; a decision derives from one decision point; minutes, decisions and tasks refer to references."
+    },
+    {
+      "name": "stages",
+      "label": "The stages",
+      "content": "1 topics. 2 fragments, covering every line once. 3 attendees and roles. 4 decision points, with every fragment that bears on each. 5 categorise the fragments (record, discussion, decision-prep, decision, action, off-topic). 6 write the minutes. 7 record unambiguous decisions. 8 tasks. 9 references, with supplied files attached. 10 render the compositions (minutes, decision log, task list, provenance). The owner's list of 2026-11-27 had nine steps; \"write the minutes\" was added because nothing else produced the minute text."
+    },
+    {
+      "name": "rules",
+      "label": "Three rules",
+      "content": "The model points and the tool copies: a stage names line ranges, and the tool copies the words into the fragments used as evidence and checks them again later. Every line is accounted for: social talk gets fragments under an off-the-record topic, with no words copied. A group's own rules are data, not package: a house-rules note and a supplied-facts note in the repository are added to every stage brief."
+    },
+    {
+      "name": "distribution",
+      "label": "Distribution",
+      "content": "srs package export gives one deterministic JSON file of 82 definitions (131 KB); srs package install --bundle into an empty repository gives a working process. A slice of a finished meeting carries the package whole."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

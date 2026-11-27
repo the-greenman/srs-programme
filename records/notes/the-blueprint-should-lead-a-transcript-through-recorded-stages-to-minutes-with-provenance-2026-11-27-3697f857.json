@@ -1,0 +1,29 @@
+{
+  "instanceId": "3697f857-4580-4c43-95d0-3b3e01f6b734",
+  "title": "The blueprint should lead a transcript through recorded stages to minutes with provenance (2026-11-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:carriers",
+    "topic:minutes",
+    "topic:blueprint"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "Then I want you to look at something that has not been tested since we created SRS.\n\nThe SRS blueprint was designed to lead us through a structured process for creating minutes with provenance.\n\nLook through the lth works working group and hexium data for real information.\n\nAn srs based minutes file should follow a blueprint.\n\nWhen we take a transcript, there should be a set of stages that are recorded within a SRS minutes document.\n\nSomething like:\n\nFirst identify topics\nThen slice the transcript into fragments and link them to the topics.\nIdentify attendees if possible, bring in roles if we know them\nIdentify potential decision points, link all relevant snippets.\nCategorise different parts of the discussion... Record, discussion, decision prep\nIdentify unambiguous decisions and create an internal decision record\nIdentify tasks and follow up actions, create a task list\nAdd reports and references as attachments\nGenerate a set of compositions for minutes, decision log, tasks,\n\nYour goal is to use the real data and create a srs minutes example. See how far a blueprint can go. Prototype tooling for the complete process and then work out what SRS is missing.\n\nI should be able to distribute an srs minutes package that allows this process to be repeated"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in a Claude Code session, 2026-11-27, verbatim."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:claude-code",
+    "name": "Claude Code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
