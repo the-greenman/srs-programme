@@ -1,0 +1,29 @@
+{
+  "instanceId": "88b3d48b-f68d-4918-b948-bd693dfa0731",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-193",
+    "title": "Changes outside the process leave no repeatable trail",
+    "statement": "After the staged process has run, most of the real work on a document is done by hand: absorbing an organiser's clarifications, rewriting into the group's voice, tagging, removing remarks about people, reshaping the map. Each is a one-off script. The next run cannot repeat it, another model cannot pick it up, and nothing checks it the way the process's own stages are checked.",
+    "kind": "condition",
+    "source_ref": [
+      "Party Utility backstage WORKFLOW.md and passes/ (Dropbox, season 5), 2026-11-27: 35 hand passes after the session-notes protocol",
+      "srs-programme vignettes 0986f08a and aa294941 (owner, 2026-11-27)"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol",
+    "topic:third-party"
+  ],
+  "createdAt": "2026-11-27T16:47:38.379677577+00:00",
+  "updatedAt": "2026-11-27T16:47:38.379679123+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

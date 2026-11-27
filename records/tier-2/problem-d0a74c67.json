@@ -1,0 +1,29 @@
+{
+  "instanceId": "d0a74c67-87d6-4389-8b58-b89b070f14f2",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-198",
+    "title": "A process cannot declare what it needs",
+    "statement": "A Protocol can say only which type a stage writes or which fields it fills. What a stage reads, which links it must write, whether it updates, computes or waits for a person, and whether it repeats per item all live in the runner's conventions. So the process does not travel whole with its package, and a second tool or model cannot run it the same way.",
+    "kind": "capability",
+    "source_ref": [
+      "srs-programme finding 554c8576 (nine things the minutes process needs)",
+      "protocol-evolution.md, What a stage is and Tier 1"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol",
+    "topic:third-party"
+  ],
+  "createdAt": "2026-11-27T16:47:38.898633352+00:00",
+  "updatedAt": "2026-11-27T16:47:38.898634978+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,29 @@
+{
+  "instanceId": "94ef1a1e-122e-414e-a9d1-f1dfe19a2f30",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Every change is a declared stage of a known kind",
+    "move": "Run every change to a document, including corrections and cleanups, as a Protocol stage that declares its kind (extract, update, supplement from a supplied source, restyle, classify, conform to a rule, propose a reshape, compute, gate), what it reads, the links it writes and its check; a tool computes counts and ranks, and only a person's act passes a gate.",
+    "does_not_fix": "Does not make a model's judgement within a stage reliable; it makes it visible, repeatable and checkable. Does not remove the cost of a person's checks.",
+    "falsifier": "When the Party Utility backstage's 35 hand passes are recast as stages, more than a fifth of them still need a one-off script, or re-running the stages over the same inputs with another model gives a picture the organiser corrects more than the hand-built one.",
+    "source_ref": [
+      "srs-programme source-documents/governance-minutes-2026-11-27/protocol-evolution.md",
+      "Party Utility backstage passes/ (Dropbox, season 5)"
+    ],
+    "return_when": "Stage kinds multiply past what one runner can check, or a group's maintainer stops being able to read the protocol."
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol"
+  ],
+  "createdAt": "2026-11-27T16:48:13.708312959+00:00",
+  "updatedAt": "2026-11-27T16:48:13.708314677+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

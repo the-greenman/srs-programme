@@ -1,0 +1,27 @@
+{
+  "instanceId": "4a76b0b5-6eb9-4fa2-a4ed-4f40d699ff13",
+  "typeId": "6e4d0e77-b30a-47d5-a686-5a595a077d4c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "domain",
+  "fieldValues": {
+    "title": "Checkable AI documents",
+    "purpose": "Let a person read what an AI made from their sources as a plain summary, open any part of it down to the words and records it rests on, and trust that each new document builds on the last, so that AI output is never a black box.",
+    "in_scope": "Documents built from sources by staged AI processes (a Protocol over a Blueprint): a group's minutes, a project's shared picture, a research synthesis. Their layers (strata) and the evidence links between them; the record of how each was made; how later sources, supplied facts and corrections update them; and the checks and acceptances a person makes before anything is published.",
+    "out_of_scope": "Capturing a meeting live, and a group's decision process (Group governance: meetings, minutes and decisions, which is this domain's first market). Argued essays (Evidence-backed writing). The programme's own memory for agents (Deep context, the parent; Agent memory). Who holds and hosts a group's data (Group meaning ownership)."
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol",
+    "topic:strata",
+    "topic:governance",
+    "topic:third-party"
+  ],
+  "createdAt": "2026-11-27T16:46:48.687630782+00:00",
+  "updatedAt": "2026-11-27T16:46:48.687632290+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

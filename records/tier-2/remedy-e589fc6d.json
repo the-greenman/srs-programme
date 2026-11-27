@@ -1,0 +1,29 @@
+{
+  "instanceId": "e589fc6d-5eec-45c4-a833-fafad999bde8",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Flags triaged by a person, kept rate counted",
+    "move": "Show every flag to the maintainer as a triage step (keep, dismiss, escalate) before anything reaches the page, publish only kept flags, and count the kept rate per stage so the guidance is tightened where it is low.",
+    "does_not_fix": "Does not stop the process from flagging too much; it stops over-flagging reaching readers and measures it.",
+    "falsifier": "After three meetings the kept rate stays below a third, or the secretary dismisses flags in bulk without reading them.",
+    "source_ref": [
+      "srs-programme source-documents/governance-minutes-2026-11-27/srs-minutes-project.md, design position 3"
+    ],
+    "return_when": "Two thirds or more of flags shown are kept for three meetings running: triage can then sample instead of reading all."
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T16:48:13.932015358+00:00",
+  "updatedAt": "2026-11-27T16:48:13.932017413+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

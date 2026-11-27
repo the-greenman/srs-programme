@@ -1,0 +1,28 @@
+{
+  "instanceId": "216424db-bf04-457e-b233-f2c1f02ed497",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-195",
+    "title": "Computed values left to a model's judgement",
+    "statement": "Values that should be counted from the evidence (how strong a signal is, how many sources support a claim, a rank) are written by the model, which inflates them. A reader sees a confident rating that no rule produced and no one can reproduce.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme finding f3225366: asked to set LiveWyer's computed signal field, the model marked all eleven opportunities strong",
+      "livewyer-insight tools/counted_confidence.py"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol"
+  ],
+  "createdAt": "2026-11-27T16:47:38.589011368+00:00",
+  "updatedAt": "2026-11-27T16:47:38.589013117+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

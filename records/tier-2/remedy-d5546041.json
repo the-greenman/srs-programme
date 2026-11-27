@@ -1,0 +1,30 @@
+{
+  "instanceId": "d5546041-025d-4be4-b25c-c12cba814981",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Declared strata, drilled one layer at a time",
+    "move": "Each document type declares its strata (an ordered list of layers, each naming its record types), and every reader view opens a record one stratum down along rests-on relations only, showing back (earlier documents), across (standing records) and around (where it is filed) as separate directions.",
+    "does_not_fix": "Does not make the lower layers correct; a wrong fragment is still wrong, only easier to find. Does not decide which strata a new document type needs.",
+    "falsifier": "On a second, different document (the Party Utility season) the declared strata do not hold: many rests-on relations go up a stratum within one document, or readers given the stratum view take as long as with the graph to find what a minute rests on.",
+    "source_ref": [
+      "srs-programme source-documents/governance-minutes-2026-11-27/strata.md",
+      "srs-lab strata DECISIONS.md S2",
+      "srs-programme finding b68c916c"
+    ],
+    "return_when": "Readers ask to see relations the strata hide more often than they use the drill."
+  },
+  "tags": [
+    "suggested",
+    "topic:strata"
+  ],
+  "createdAt": "2026-11-27T16:48:13.599426232+00:00",
+  "updatedAt": "2026-11-27T16:48:13.599428199+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

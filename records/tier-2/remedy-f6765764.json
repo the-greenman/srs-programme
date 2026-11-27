@@ -1,0 +1,30 @@
+{
+  "instanceId": "f6765764-3afe-4a60-a471-b4ae42c779f6",
+  "typeId": "edd84bf8-6c07-4133-87c6-4ab540ac2a14",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "remedy",
+  "fieldValues": {
+    "title": "Each new source starts from what the series left open",
+    "move": "After each new source is processed, an update protocol gives every item earlier documents left open exactly one follow-up, restates each subject's standing (superseding the last), and proposes subject changes for a person to accept; history reaches the stage through subjects and the relation graph, with text search only as the fallback.",
+    "does_not_fix": "Does not curate the subject list; a person still has to, and a misfiled topic still breaks a chain until accepted. Does not solve memory beyond one group's series.",
+    "falsifier": "Over four consecutive meetings, open items still go without a follow-up, or the follow-ups the process writes are mostly wrong (marked not mentioned when the meeting did deal with them).",
+    "source_ref": [
+      "srs-programme source-documents/governance-minutes-2026-11-27/topics-through-time.md",
+      "srs-programme finding 22673626"
+    ],
+    "return_when": "The series is long enough that subjects themselves need summarising."
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol",
+    "topic:minutes"
+  ],
+  "createdAt": "2026-11-27T16:48:13.824432059+00:00",
+  "updatedAt": "2026-11-27T16:48:13.824433582+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

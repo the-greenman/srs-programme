@@ -1,0 +1,29 @@
+{
+  "instanceId": "759b90d2-4058-4340-b9e6-6ae4c5bcc564",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-192",
+    "title": "Each new source processed as the first",
+    "statement": "When a second meeting or a new source arrives, the process treats it as if nothing came before. Nothing records what became of the items earlier documents left open, so business is dropped without anyone noticing and the document does not grow; a reader cannot follow a matter from one document to the next.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme source-documents/governance-minutes-2026-11-27/topics-through-time.md",
+      "srs-programme finding f0f25b7c"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol",
+    "topic:minutes"
+  ],
+  "createdAt": "2026-11-27T16:47:38.266660849+00:00",
+  "updatedAt": "2026-11-27T16:47:38.266662445+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

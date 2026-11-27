@@ -1,0 +1,22 @@
+{
+  "instanceId": "4f8539c7-18bc-4da2-957a-d4a1f075d834",
+  "typeId": "c6a8eab1-25bf-462c-8d48-6ea47c22f724",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "cluster",
+  "fieldValues": {
+    "title": "Trust the process, not the run",
+    "description": "Trust has to come from a declared, repeatable process that separates judgement from computation and puts a person's acceptance where it belongs, not from one good-looking output. The common thread is that the process, not the model, is what a group can inspect."
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol"
+  ],
+  "createdAt": "2026-11-27T16:48:13.486316903+00:00",
+  "updatedAt": "2026-11-27T16:48:13.486318454+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

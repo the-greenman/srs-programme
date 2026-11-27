@@ -1,0 +1,29 @@
+{
+  "instanceId": "9d45763e-7a67-4d6c-b797-99e7e91ce7bc",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-197",
+    "title": "Runs differ and nobody can tell",
+    "statement": "The same process run twice, or by another model, may produce a different document, and nothing measures or shows the difference. Re-running a stage has no defined effect on what the first run made or what later stages built on it, so quality claims rest on one reading of one run.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme source-documents/governance-minutes-2026-11-27/srs-minutes-project.md, Risks: one model, one run, no variance measured",
+      "protocol-evolution.md Tier 3.6",
+      "srs-programme finding 879c47a1 (Codex completed a protocol run)"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol"
+  ],
+  "createdAt": "2026-11-27T16:47:38.794979466+00:00",
+  "updatedAt": "2026-11-27T16:47:38.794981026+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,28 @@
+{
+  "instanceId": "eb76738f-0177-40ac-b486-027ef593ffba",
+  "title": "2026-11-27 — A suggested reference is thumbed up or binned (Greenman)",
+  "tags": [
+    "vignette"
+  ],
+  "sections": [
+    {
+      "name": "greenman-1",
+      "label": "Greenman — 2026-11-27",
+      "content": "What does keep do? Can we just make an x style small icon that removes the suggestion? Or allow a thumbs up or thumbs down? The buttons are big, and take too much space. The link is already there, so keep seems irrelevant"
+    },
+    {
+      "name": "greenman-2",
+      "label": "Greenman — 2026-11-27",
+      "content": "Lets thumb up or bin.   Otherwise there are too many irrelevant ux elements"
+    },
+    {
+      "name": "context",
+      "content": "Said about the References panel's Keep / Deny buttons on an agent's suggested reference (srs-web#787, PR #839). Keep only recorded an `agree` response and Deny a `disagree` one; neither changed a link, so a denied reference stayed linked. Ruling for the editor: one small thumb up to affirm, and a bin that removes the suggestion; no separate deny."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}

@@ -1,0 +1,28 @@
+{
+  "instanceId": "2344febf-ec06-4491-a850-0d2b528070cf",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-194",
+    "title": "History too large to give, too hard to search",
+    "statement": "A new document should be read against the group's earlier decisions and documents, but the history soon outgrows what a model can be given, and text search does not find the records that matter. Without the right history, the process cannot keep a document consistent with what came before.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme source-documents/governance-minutes-2026-11-27/protocol-evolution.md, Tier 3.1: 173 decisions are 414 KB; lexical find puts the known related decision in the top five 52-56% of the time"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol",
+    "topic:governance"
+  ],
+  "createdAt": "2026-11-27T16:47:38.485351038+00:00",
+  "updatedAt": "2026-11-27T16:47:38.485352667+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

@@ -1,0 +1,34 @@
+{
+  "instanceId": "b9c05574-caca-487c-87dc-ba710eecc3b3",
+  "typeId": "159cd6bd-813a-484e-b089-aa727df6772c",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.programme",
+  "typeName": "finding",
+  "fieldValues": {
+    "title": "The backstage was built mostly by hand passes of seven kinds, none a protocol stage",
+    "summary": "After the session-notes protocol ran (Codex-authored replies), the Party Utility backstage took 35 hand passes, each JSON applied by a script, and the picture-update run was left open at its first stage. The passes are seven kinds of act: supplement from a supplied source, import from another system, restyle, classify, conform to a rule, reshape the map, and resolve identity.",
+    "evidence": [
+      "Dropbox The Party Utility/season 5/backstage passes/ (43 files) and repo/runs/runs.json: session-notes completed; picture-update active at developments",
+      "supplement (organiser's words as a note, then records updated and added resting on it): market, stairs-craft, crt-media, lineup-adverts-bar, entrance, music-guide, shared-vision",
+      "import: lineup-note from the Sputnik site's djs.yaml",
+      "restyle (crew 'we' voice, no new meaning): vision-area-summaries, vision-item-text, vision-resource-notes",
+      "classify against a closed vocabulary: work-type-assignments (work-types.json)",
+      "conform to a house rule, retroactively: people-roles (role only, no remarks), scrub-quote-update; scrub-check.py at publish",
+      "reshape the map: elements-projects, max-headroom-project, building-elements, area-merges.json; new area kinds and the belongs-to relation added to the repo's package copy, not to spec.mjs",
+      "resolve identity: crew-clarification (names, spellings, aliases)"
+    ],
+    "body": "Two of the seven map onto stage kinds already proposed (classify is an update; reshape is the area_proposals stage, but the owner's word drove it directly, skipping the proposal). Supplement and import are extract-and-update from a source that is not the meeting, so a stage needs to read supplied notes and rest its changes on them. Restyle and conform are whole-document sweeps against the house rules, with a check that can be run (scrub-check). Resolve identity is an update on people with a source. The package drifted: the repository's copy gained vocabulary and a relation type that the package source and its protocols do not have, so a fresh run would not reproduce the map."
+  },
+  "tags": [
+    "research",
+    "topic:protocol",
+    "topic:third-party"
+  ],
+  "createdAt": "2026-11-27T16:50:19.949201692+00:00",
+  "updatedAt": "2026-11-27T16:50:19.949203284+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

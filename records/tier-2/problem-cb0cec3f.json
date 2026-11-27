@@ -1,0 +1,29 @@
+{
+  "instanceId": "cb0cec3f-b859-4f17-a8f9-0b41a9c0e21a",
+  "typeId": "b7d15218-cee6-4a58-8e2a-a4cb7f6ccf06",
+  "typeVersion": 1,
+  "typeNamespace": "com.semanticops.method",
+  "typeName": "problem",
+  "fieldValues": {
+    "problem_id": "SP-191",
+    "title": "Drilling down gives a graph, not a path",
+    "statement": "Where the evidence is kept, opening a record shows everything it is linked to at once: what it rests on, where it is filed, earlier meetings and standing rules, drawn as one graph. I cannot tell what a point rests on from what it merely sits beside, so the evidence is there and I still cannot follow it.",
+    "kind": "condition",
+    "source_ref": [
+      "srs-programme vignette 10abae93 (owner, 2026-11-27)",
+      "srs-programme source-documents/governance-minutes-2026-11-27/strata.md"
+    ]
+  },
+  "tags": [
+    "suggested",
+    "topic:protocol",
+    "topic:strata"
+  ],
+  "createdAt": "2026-11-27T16:47:38.151451639+00:00",
+  "updatedAt": "2026-11-27T16:47:38.151454118+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}

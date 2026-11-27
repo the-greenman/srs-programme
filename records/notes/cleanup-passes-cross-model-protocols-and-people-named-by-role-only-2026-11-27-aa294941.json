@@ -1,0 +1,27 @@
+{
+  "instanceId": "aa294941-ff60-4ffb-bb05-c743aa50f73b",
+  "title": "Cleanup passes, cross-model protocols, and people named by role only (2026-11-27)",
+  "tags": [
+    "narrative",
+    "vignette",
+    "topic:protocol",
+    "topic:third-party"
+  ],
+  "sections": [
+    {
+      "name": "narrative",
+      "label": "Narrative",
+      "content": "I've set codex to continue this work to test how we can do cross model protocols. We've done a few different passes to clean up the data.\n\nThe next pass is to clean up the people and bios - we should just simply name a role... don't comment on people."
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "content": "The owner, in a Claude Code session, 2026-11-27 (14:40), about The Party Utility season 5 backstage. Verbatim. Backfilled 2026-11-27 by a later session; the rule went into the house rules (People) at the time."
+    }
+  ],
+  "createdBy": {
+    "kind": "ai",
+    "id": "claude-code"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/note.json"
+}
