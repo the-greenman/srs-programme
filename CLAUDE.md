@@ -122,6 +122,15 @@ A bug is filed as a bug (found while, steps, expected, actual, severity) and nee
 
 Before filing, search semanticops.com, srs, srs-rust, srs-web, srs-vscode, srs-context and muDemocracy.org (including `label:parked`) for an issue answering the same problem (`gh search issues --owner the-greenman "<terms>"`); comment on an existing one instead of filing a near-duplicate.
 
+### Which epic an issue goes under
+
+1. **The epic whose problem it answers.** The issue's `Answers: SP-nn` is one the epic answers. If it answers another problem, it belongs under the epic that answers that one, or needs its own. A bug has no problem: it goes under the epic whose scope it falls in.
+2. **Every chain ends at a roadmap epic.** That is an epic record in this repository serving an objective, reached within 5 levels (clerk walks no further). Never move an issue so that its chain stops reaching one.
+3. **Child epics group by where the fix lands.** Each states one scope sentence every child fits. The one exception is a parked bucket, so routines skip parked work in one place; move an item to its themed epic when it is unparked.
+4. **Split before the cap.** GitHub allows 100 sub-issues per parent. Split a parent into themed child epics at about 50 direct children, not at 100, and update its "how to add work" line to name the children.
+5. **An epic that answers a different problem from its parent is a candidate roadmap epic.** Making it one is an owner ruling, not a re-nesting; until then it stays where it is, so its children's chains hold.
+6. **Close an epic on its acceptance**, not only on all children closed.
+
 Problem scouts run the MCP/CLI `similar` check against existing problems before suggesting a new one. Parked muDemocracy.org issues are sources for problems (`source_ref: muDemocracy.org#N`), never bulk-imported; unparking happens when an affirmed problem is answered by an epic, not by period rank.
 
 `source-documents/archaeology-2026-10-08/` is a scout source: the 2026-10-08 audit of work lost before the reboot (unfinished RFCs, unfollowed decisions, abandoned epics, false closes, broken follow-up promises, spec/implementation drift), each thread classed against the new system. Start at `R-reconciled.md`: ORPHANED rows have no problem yet. Cite a row as `source_ref: srs-programme:source-documents/archaeology-2026-10-08/<file>`.
