@@ -1,0 +1,13 @@
+{
+  "$schema": "https://srs.semanticops.com/schema/2.0/relation.json",
+  "relationId": "f8da171c-4e96-45e1-9ab4-78604ec0bfeb",
+  "relationType": "evidences",
+  "sourceInstanceId": "e6eb5e76-a1cc-4f70-8986-097fe7062cff",
+  "targetInstanceId": "d6719fcc-b744-472b-bd13-97e6193c7c73",
+  "createdAt": "2026-11-28T11:39:27.903160022+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  }
+}

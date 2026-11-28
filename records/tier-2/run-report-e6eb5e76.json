@@ -1,0 +1,23 @@
+{
+  "instanceId": "e6eb5e76-a1cc-4f70-8986-097fe7062cff",
+  "typeId": "8d355a63-f6f5-4739-80f5-88376ce1e0bd",
+  "typeVersion": 1,
+  "typeNamespace": "com.mudemocracy.stewardship",
+  "typeName": "run-report",
+  "fieldValues": {
+    "title": "WG Agent-supported editor: cycle close 2026-11-28",
+    "run_date": "2026-11-28",
+    "chose": "WG Agent-supported editor: cycle 2026-11-27 11:30 to 2026-11-28 11:30 UTC\n1. Decisions for you: none new. Still waiting on you, unchanged: srs-web#709 (P1 bug, `needs-input`, no reply since 2026-11-04) and #626 (`needs-input`, since 2026-11-06). Housekeeping: none. The owner answered the #634 escalation on principle (option A, decision c4acef1a); it is listed under 5b.\n2. Decided within mandate: none; no group session held, no decision has a merged PR with reviewer assent.\n3. Done: 0 delegated merges. Three owner-merge items landed: srs-web#840 (References: a suggestion is thumbed up or binned, no Keep or Deny; builder human:the-greenman / reviewer agent:editor-reviewer / mandate owner-ruling-vignette-eb76738f, assent), srs-web#835 (a paragraph looks the same edited visually as at rest; human:the-greenman / agent:editor-reviewer / mandate none, non-normative, assent), srs#1032 (RFC-055: a LINEAGE reference resolves to the highest installed version; owner-merge). No tasks closed.\n4. Stuck or lost: srs-web#787 was auto-reclaimed to Ready after >3h with no activity (#840 refs it but did not close it; check whether it is finished). Needs-input: srs-web#709, #626. Blocked: srs-web#634 (by srs-rust#1721), #771, #824, #825, #826, srs#1031, semanticops.com#14. No red gates, no claims released by this run. Every merged PR has a quorum line.\n5. Budget: 0 of 10 delegated merges this cycle; 0 open; room 10. Pause: ok (the 2026-11-27 report was acknowledged).\n5b. Awaiting ratification: c4acef1a (an essay exported whole: how a child container stays open to agent filing, srs-web#634), proposed 2026-11-04, 24 days old. Decided on principle (option A) and relayed on srs-web#634 on 2026-11-27; it has no merged PR with assent, so I did not ratify it. Session to ratify: `clerk session --as owner --repo <srs-programme> --ratify all` (the-greenman/clerk; the TUI is `clerk --as owner`).\n6. Next: ready and unblocked: srs-web#787 (reclaimed) and #601 (umbrella); #634 is ready but blocked by srs-rust#1721; #626 is ready but needs-input. None in srs-rust, srs, srs-vscode. Top 3 in the Builder's order: #787, #601, then srs-rust#1721 once labelled ready (it is not; srs-rust#1490 and #1413, both P0, are also not labelled ready). Open group PRs: none. Budget left: 10. **Queue running dry: 2 ready, budget 10. Needs feeding.** Sources: label srs-rust#1721, #1490, #1413 ready, or the P2 unready issues (srs-web#786 to #788, #717, #718, #768; srs-rust#1660, #1527). Waits on you: the #709 and #626 answers, ratification of c4acef1a. Local priorities: none. Fed by the analyst: not needed.\n6b. Exercises: none open.\n7. What we learned: the pause lifted when you reacted to the last report, and the group had nothing to build anyway, so the pause cost nothing here; the real constraint is an empty ready queue. An escalation answered on principle (#634) is relayed on the issue but stays `proposed` until a session, which is the gap 5b exists to show. I1: this run started after the 11:30 close, so the measure window (11:30 to now) holds no merges and the result says n/a; the tool wrote it as measurement-result d6719fcc (evidenced by this report). The useful/noisy/misleading line is yours to give in a session. I2 to I4: pending.",
+    "rationale": "No escalations raised: nothing new is outside the mandate; carried items are listed unchanged.",
+    "figures": "merged 0 of 10; open 0 counted; ready 2 unblocked",
+    "landed_as": "pending"
+  },
+  "createdAt": "2026-11-28T11:39:23.070598826+00:00",
+  "updatedAt": "2026-11-28T11:39:23.070605175+00:00",
+  "createdBy": {
+    "kind": "ai",
+    "id": "agent:editor-steward",
+    "name": "Agent-supported editor steward"
+  },
+  "$schema": "https://srs.semanticops.com/schema/2.0/record.json"
+}
